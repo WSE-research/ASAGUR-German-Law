@@ -1,0 +1,192 @@
+@prefix dtd: <urn:DW-SVV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153112"@de ;
+    dtd:has_doknr "BJNR055100003"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.5.2003 +++)"@de ;
+    dtd:has_pre dtd:pre-id46 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 2 Abs. 1 Satz 4 des Deutsche-Welle-Gesetzes vom 16. Dezember 1997 (BGBl. I S. 3094) verordnet die Bundesregierung:"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Als Zeitpunkt für die Verlegung des Sitzes der Rundfunkanstalt des Bundesrechts Deutsche Welle von Köln nach Bonn wird der 1. Mai 2003 bestimmt."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "DW-SVV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2003-04-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id47 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id48 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "DW-SVV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "DW-SVV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "DW-SVV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "DW-SVV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "DW-Sitzverlegungsverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value """Verordnung über den Zeitpunkt der Verlegung des Sitzes der
+Rundfunkanstalt des Bundesrechts Deutsche Welle von Köln nach Bonn"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153112"@de ;
+    dtd:has_doknr "BJNR055100003"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153112"@de ;
+    dtd:has_doknr "BJNR055100003BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153112"@de ;
+    dtd:has_doknr "BJNR055100003BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625153112"@de ;
+    dtd:has_doknr "BJNR055100003BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id47 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id46 a dtd:pre ;
+    dtd:has_BR dtd:BR-id34,
+        dtd:BR-id35 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.5.2003 +++)"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Zeitpunkt der Sitzverlegung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id48 a dtd:zitstelle ;
+    dtd:has_Value "2003, 551"@de .
+

@@ -1,0 +1,487 @@
+@prefix dtd: <urn:BMIErnAnO-2005#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132254"@de ;
+    dtd:has_doknr "BJNR229800005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id82 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97,
+        dtd:LA-id98 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DL-id40 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45,
+        dtd:DD-id46 ;
+    dtd:has_DT dtd:DT-id41,
+        dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id47 a dtd:DL ;
+    dtd:has_DD dtd:DD-id58,
+        dtd:DD-id59,
+        dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67 ;
+    dtd:has_DT dtd:DT-id48,
+        dtd:DT-id49,
+        dtd:DT-id50,
+        dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53,
+        dtd:DT-id54,
+        dtd:DT-id55,
+        dtd:DT-id56,
+        dtd:DT-id57 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id68 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72,
+        dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id69,
+        dtd:DT-id70,
+        dtd:DT-id71 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id75 a dtd:DL ;
+    dtd:has_DD dtd:DD-id79,
+        dtd:DD-id80,
+        dtd:DD-id81 ;
+    dtd:has_DT dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Direktorin oder dem Direktor der Bundespolizeidirektion,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Direktorin oder dem Direktor der Bundespolizeiakademie,"@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_DL dtd:DL-id47 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Besoldungsgruppen A 2 bis A 15-der Präsidentin oder dem Präsidenten des Statistischen Bundesamtes, -der Präsidentin oder dem Präsidenten des Bundesverwaltungsamtes und des Bundesausgleichsamtes, -der Präsidentin und Professorin oder dem Präsidenten und Professor des Bundesamtes für Kartographie und Geodäsie, -der Direktorin oder dem Direktor des Bundesinstituts für Sportwissenschaft, -der Präsidentin oder dem Präsidenten des Bundesamtes für Sicherheit in der Informationstechnik, -der Direktorin oder dem Direktor des Beschaffungsamtes des Bundesministeriums des Innern, -der Präsidentin oder dem Präsidenten des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe, -der Präsidentin oder dem Präsidenten der Bundesanstalt Technisches Hilfswerk, -der Präsidentin oder dem Präsidenten des Bundesamtes für Migration und Flüchtlinge, -der Präsidentin oder dem Präsidenten der Bundeszentrale für politische Bildung, "@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten des Statistischen Bundesamtes,"@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten des Bundesverwaltungsamtes und des Bundesausgleichsamtes,"@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin und Professorin oder dem Präsidenten und Professor des Bundesamtes für Kartographie und Geodäsie,"@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Direktorin oder dem Direktor des Bundesinstituts für Sportwissenschaft,"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten des Bundesamtes für Sicherheit in der Informationstechnik,"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Direktorin oder dem Direktor des Beschaffungsamtes des Bundesministeriums des Innern,"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe,"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten der Bundesanstalt Technisches Hilfswerk,"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten des Bundesamtes für Migration und Flüchtlinge,"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten der Bundeszentrale für politische Bildung,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_DL dtd:DL-id68 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Besoldungsgruppen A 2 bis A 15, C 1 bis C 2 und W 2-der Präsidentin oder dem Präsidenten des Bundeskriminalamtes, -der Präsidentin oder dem Präsidenten des Bundesamtes für Verfassungsschutz, -der Präsidentin oder dem Präsidenten der Fachhochschule des Bundes für öffentliche Verwaltung für die Beamtinnen und Beamten des Zentralbereichs und den Fachbereich Allgemeine innere Verwaltung, "@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten des Bundeskriminalamtes,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten des Bundesamtes für Verfassungsschutz,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsidentin oder dem Präsidenten der Fachhochschule des Bundes für öffentliche Verwaltung für die Beamtinnen und Beamten des Zentralbereichs und den Fachbereich Allgemeine innere Verwaltung,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_DL dtd:DL-id75 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Besoldungsgruppen A 2 bis A 13 (gehobener Dienst)-den Präsidentinnen und Präsidenten der Bundespolizeipräsidien, -der Direktorin oder dem Direktor der Bundespolizeidirektion, -der Direktorin oder dem Direktor der Bundespolizeiakademie, "@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "jeweils für ihren/seinen Geschäftsbereich."@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Präsidentinnen und Präsidenten der Bundespolizeipräsidien,"@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value " (+++ Textnachweis ab: 10. 8.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id114 .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_DL dtd:DL-id40 ;
+    dtd:has_Value "Auf Grund des Artikels 1 der Anordnung des Bundespräsidenten über die Ernennung und Entlassung der Beamtinnen, Beamten, Richterinnen und Richter des Bundes vom 23. Juni 2004 (BGBl. I S. 1286) übertrage ich widerruflich die Ausübung des Rechtes zur Ernennung und Entlassung der Beamtinnen und Beamten des Bundes a)der Besoldungsgruppen A 2 bis A 15-der Präsidentin oder dem Präsidenten des Statistischen Bundesamtes, -der Präsidentin oder dem Präsidenten des Bundesverwaltungsamtes und des Bundesausgleichsamtes, -der Präsidentin und Professorin oder dem Präsidenten und Professor des Bundesamtes für Kartographie und Geodäsie, -der Direktorin oder dem Direktor des Bundesinstituts für Sportwissenschaft, -der Präsidentin oder dem Präsidenten des Bundesamtes für Sicherheit in der Informationstechnik, -der Direktorin oder dem Direktor des Beschaffungsamtes des Bundesministeriums des Innern, -der Präsidentin oder dem Präsidenten des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe, -der Präsidentin oder dem Präsidenten der Bundesanstalt Technisches Hilfswerk, -der Präsidentin oder dem Präsidenten des Bundesamtes für Migration und Flüchtlinge, -der Präsidentin oder dem Präsidenten der Bundeszentrale für politische Bildung,  b)der Besoldungsgruppen A 2 bis A 15, C 1 bis C 2 und W 2-der Präsidentin oder dem Präsidenten des Bundeskriminalamtes, -der Präsidentin oder dem Präsidenten des Bundesamtes für Verfassungsschutz, -der Präsidentin oder dem Präsidenten der Fachhochschule des Bundes für öffentliche Verwaltung für die Beamtinnen und Beamten des Zentralbereichs und den Fachbereich Allgemeine innere Verwaltung,  c)der Besoldungsgruppen A 2 bis A 13 (gehobener Dienst)-den Präsidentinnen und Präsidenten der Bundespolizeipräsidien, -der Direktorin oder dem Direktor der Bundespolizeidirektion, -der Direktorin oder dem Direktor der Bundespolizeiakademie, jeweils für ihren/seinen Geschäftsbereich.  "@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "Für besondere Fälle behalte ich mir die Ernennung und Entlassung der unter Abschnitt I genannten Beamtinnen und Beamten vor."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt mit Bekanntgabe in Kraft."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_SP dtd:SP-id39 ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:SP-id39 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-07-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "III."@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id115 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id116 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id104 .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BMIErnAnO 2005"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "BMIErnAnO 2005"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BMIErnAnO 2005"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "BMIErnAnO 2005"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "BMIErnAnO 2005"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Anordnung über die Ernennung und Entlassung von Beamtinnen und
+Beamten im Geschäftsbereich des Bundesministeriums des Innern"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132254"@de ;
+    dtd:has_doknr "BJNR229800005"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132254"@de ;
+    dtd:has_doknr "BJNR229800005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132254"@de ;
+    dtd:has_doknr "BJNR229800005BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132254"@de ;
+    dtd:has_doknr "BJNR229800005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132254"@de ;
+    dtd:has_doknr "BJNR229800005BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id115 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id114 a dtd:pre ;
+    dtd:has_BR dtd:BR-id37,
+        dtd:BR-id38 ;
+    dtd:has_Value "(+++ Textnachweis ab: 10. 8.2005 +++)"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id116 a dtd:zitstelle ;
+    dtd:has_Value "2005, 2298"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

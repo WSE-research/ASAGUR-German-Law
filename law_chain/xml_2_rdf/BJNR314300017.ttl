@@ -1,0 +1,661 @@
+@prefix dtd: <urn:FStrBAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220713212510"@de ;
+    dtd:has_doknr "BJNR314300017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135,
+        dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138,
+        dtd:P-id139,
+        dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142,
+        dtd:P-id143,
+        dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148,
+        dtd:P-id149,
+        dtd:P-id150,
+        dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153,
+        dtd:P-id154 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id57 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DL-id49 a dtd:DL ;
+    dtd:has_DD dtd:DD-id55,
+        dtd:DD-id56,
+        dtd:DD-id57,
+        dtd:DD-id58,
+        dtd:DD-id59 ;
+    dtd:has_DT dtd:DT-id50,
+        dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53,
+        dtd:DT-id54 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id60 a dtd:DL ;
+    dtd:has_DD dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67,
+        dtd:DD-id68 ;
+    dtd:has_DT dtd:DT-id61,
+        dtd:DT-id62,
+        dtd:DT-id63,
+        dtd:DT-id64 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id69 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72,
+        dtd:DD-id73 ;
+    dtd:has_DT dtd:DT-id70,
+        dtd:DT-id71 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id74 a dtd:DL ;
+    dtd:has_DD dtd:DD-id77,
+        dtd:DD-id78 ;
+    dtd:has_DT dtd:DT-id75,
+        dtd:DT-id76 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id79 a dtd:DL ;
+    dtd:has_DD dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87 ;
+    dtd:has_DT dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id88 a dtd:DL ;
+    dtd:has_DD dtd:DD-id94,
+        dtd:DD-id95,
+        dtd:DD-id96,
+        dtd:DD-id97,
+        dtd:DD-id98 ;
+    dtd:has_DT dtd:DT-id89,
+        dtd:DT-id90,
+        dtd:DT-id91,
+        dtd:DT-id92,
+        dtd:DT-id93 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id99 a dtd:DL ;
+    dtd:has_DD dtd:DD-id104,
+        dtd:DD-id105,
+        dtd:DD-id106,
+        dtd:DD-id107 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id101,
+        dtd:DT-id102,
+        dtd:DT-id103 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "die Widmung, Umstufung und Einziehung nach Maßgabe von § 2 des Bundesfernstraßengesetzes bei Bundesfernstraßen, soweit dem Bund die Verwaltung zusteht,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Value "die Erteilung des Einverständnisses zur Widmungs- und Aufstufungsentscheidung der obersten Landesstraßenbaubehörde zu Bundesautobahnen und Bundesstraßen nach § 2 Absatz 6 Satz 5 des Bundesfernstraßengesetzes,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Value "die Bestimmung der Planung und Linienführung für Bundesfernstraßen nach § 16 des Bundesfernstraßengesetzes,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Value "nach Maßgabe des Absatzes 2 und 3 und des § 3 Absatz 2 und 3 die Planfeststellung und Plangenehmigung für den Bau oder die Änderung von Bundesautobahnen nach § 17 des Bundesfernstraßengesetzes, einschließlich der vorgeschriebenen Anhörungen, und"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Value "die Wahrnehmung der Rechts- und Fachaufsicht über die Gesellschaft privaten Rechts im Sinne des Infrastrukturgesellschaftserrichtungsgesetzes, soweit diese auf Grund des § 6 des Infrastrukturgesellschaftserrichtungsgesetzes mit der Wahrnehmung von hoheitlichen Aufgaben beliehen ist."@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor dem 1. Januar 2021 bereits eingeleitete Planergänzungen und ergänzende Verfahren sowie Planänderungen vor Fertigstellung des Vorhabens nach § 17d Satz 1 des Bundesfernstraßengesetzes,"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor dem 1. Januar 2021 bereits eingeleitete Verfahren zur Umsetzung eines Entscheidungsvorbehalts nach § 17b Absatz 1 des Bundesfernstraßengesetzes in Verbindung mit § 74 Absatz 3 des Verwaltungsverfahrensgesetzes,"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor dem 1. Januar 2021 bereits eingeleitete Verfahren zur Verlängerung eines Planfeststellungsbeschlusses nach § 17c Nummer 1 bis 3 des Bundesfernstraßengesetzes sowie"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor dem 1. Januar 2021 bereits eingeleitete Verfahren wegen nicht voraussehbarer Wirkungen nach § 17c des Bundesfernstraßengesetzes in Verbindung mit § 75 Absatz 2 Satz 2 bis 4 des Verwaltungsverfahrensgesetzes."@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach dem 31. Dezember 2020 eingeleitete Planergänzungen und ergänzende Verfahren nach § 17d Satz 1 des Bundesfernstraßengesetzes, soweit diese ein vor dem 1. Januar 2021 eingeleitetes Planfeststellungs- oder Plangenehmigungsverfahren betreffen, über das noch nicht bestandskräftig entschieden wurde, sowie"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eingeleitete Verfahren nach den §§ 48, 49 des Verwaltungsverfahrensgesetzes oder den entsprechenden landesrechtlichen Regelungen, soweit das jeweilige Verfahren den Zweck hat, einen Planfeststellungsbeschluss oder eine Plangenehmigung außer Vollzug zu setzen, um Verfahren nach § 17d Satz 1 des Bundesfernstraßengesetzes und § 75 Absatz 1a Satz 2 des Verwaltungsverfahrensgesetzes nach Maßgabe der Nummer 1 zu ermöglichen."@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Planfeststellungsverfahren mit der Einreichung des Plans bei der Anhörungsbehörde nach § 17a des Bundesfernstraßengesetzes in Verbindung mit § 73 Absatz 1 des Verwaltungsverfahrensgesetzes und"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Plangenehmigung mit dem Antrag auf Einreichung des Plans bei der Anhörungs- oder Planfeststellungsbehörde nach § 17b Absatz 1 Nummer 2 Satz 2 und § 17a des Bundesfernstraßengesetzes in Verbindung mit § 73 Absatz 1 des Verwaltungsverfahrensgesetzes."@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Zusammenhang mit dem Bau, Betrieb oder der Erhaltung der vorgenannten Straßen stehen,"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_DL dtd:DL-id88 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Maßnahmen über den Straßenverkehr betreffen, die erforderlich sind a)zur Erhaltung der Sicherheit und Ordnung auf den vorgenannten Straßen,b)für Zwecke der Verteidigung,c)zur Verhütung einer über das verkehrsübliche Maß hinausgehenden Abnutzung der vorgenannten Straßen,d)zur Verhütung von Belästigungen odere)zur Erhaltung der öffentlichen Sicherheit,"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zur Erhaltung der Sicherheit und Ordnung auf den vorgenannten Straßen,"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für Zwecke der Verteidigung,"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zur Verhütung einer über das verkehrsübliche Maß hinausgehenden Abnutzung der vorgenannten Straßen,"@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zur Verhütung von Belästigungen oder"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zur Erhaltung der öffentlichen Sicherheit,"@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Maßnahmen über das Verhalten im Straßenverkehr zum Schutz vor den von Fahrzeugen ausgehenden schädlichen Umwelteinwirkungen im Sinne des Bundes-Immissionsschutzgesetzes betreffen oder"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Maßnahmen betreffen zur Beschränkung des Straßenverkehrs zum Zweck der Erforschung des Unfallgeschehens, des Verkehrsverhaltens, der Verkehrsabläufe oder die der Erprobung geplanter verkehrssichernder oder verkehrsregelnder Regelungen dienen."@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Einrichtung gebührenpflichtiger Parkplätze bei Großveranstaltungen im Interesse der Ordnung und Sicherheit des Verkehrs betreffen,"@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Beschränkung des Haltens und Parkens zugunsten der Bewohner städtischer Quartiere mit erheblichem Parkraummangel betreffen,"@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Schaffung von Parkmöglichkeiten für schwerbehinderte Menschen mit außergewöhnlicher Gehbehinderung, mit beidseitiger Amelie oder Phokomelie oder mit vergleichbaren Funktionseinschränkungen sowie für blinde Menschen, insbesondere in unmittelbarer Nähe ihrer Wohnung oder Arbeitsstätte, betreffen oder"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Einrichtung von Sonderfahrspuren für Linienomnibusse und Taxen betreffen."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_BR dtd:BR-id44 ;
+    dtd:has_Value " (+++ Textnachweis ab: 18.8.2017 +++)(+++ Zur Nichtanwendung vgl. § 3 Abs. 2 +++)Das G wurde als Artikel 14 des G v. 14.8.2017 I 3122 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 25 Abs. 1 dieses G am  18.8.2017 in Kraft getreten. Die §§ 2 und 3 Absatz 1 und 2 treten gem. Art. 25 Abs. 4 Nr. 1 dieses G am 1.1.2021 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id155 .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value " Vgl. Organisationserlass zur Errichtung des Fernstraßen-Bundesamtes v. 26.9.2018 BAnz AT 28.09.2018 B4 (FStrBAOrgErl 2018)"@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(1) Zum 1. Januar 2021 wird das Fernstraßen-Bundesamt als Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur seine Tätigkeit aufnehmen."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "(2) Auf Vorschlag des Bundesministeriums für Verkehr und digitale Infrastruktur bestimmt die Bundesregierung den Sitz des Fernstraßen-Bundesamtes."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "(3) Das Fernstraßen-Bundesamt wird von einem Präsidenten oder einer Präsidentin geleitet."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_DL dtd:DL-id49 ;
+    dtd:has_Value "(1) Dem Fernstraßen-Bundesamt obliegen folgende Aufgaben: 1.die Widmung, Umstufung und Einziehung nach Maßgabe von § 2 des Bundesfernstraßengesetzes bei Bundesfernstraßen, soweit dem Bund die Verwaltung zusteht,2.die Erteilung des Einverständnisses zur Widmungs- und Aufstufungsentscheidung der obersten Landesstraßenbaubehörde zu Bundesautobahnen und Bundesstraßen nach § 2 Absatz 6 Satz 5 des Bundesfernstraßengesetzes,3.die Bestimmung der Planung und Linienführung für Bundesfernstraßen nach § 16 des Bundesfernstraßengesetzes,4.nach Maßgabe des Absatzes 2 und 3 und des § 3 Absatz 2 und 3 die Planfeststellung und Plangenehmigung für den Bau oder die Änderung von Bundesautobahnen nach § 17 des Bundesfernstraßengesetzes, einschließlich der vorgeschriebenen Anhörungen, und5.die Wahrnehmung der Rechts- und Fachaufsicht über die Gesellschaft privaten Rechts im Sinne des Infrastrukturgesellschaftserrichtungsgesetzes, soweit diese auf Grund des § 6 des Infrastrukturgesellschaftserrichtungsgesetzes mit der Wahrnehmung von hoheitlichen Aufgaben beliehen ist.Im Übrigen ist das Fernstraßen-Bundesamt zuständig, sofern und soweit ihm durch ein Gesetz oder auf Grund eines Gesetzes Aufgaben zugewiesen werden. Das Fernstraßen-Bundesamt unterstützt das Bundesministerium für Verkehr und digitale Infrastruktur fachlich bei der Wahrnehmung der Bundesaufsicht über die Landesbehörden, soweit dem Bund die Verwaltung der Bundesstraßen nicht zusteht, bei der Erarbeitung von Rechts- und Verwaltungsvorschriften sowie bei der zwischenstaatlichen Zusammenarbeit."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(2) Das Fernstraßen-Bundesamt ist Anhörungs- und Planfeststellungsbehörde in Planfeststellungsverfahren oder Plangenehmigungsbehörde in Plangenehmigungsverfahren, die auf der Grundlage des § 17 des Bundesfernstraßengesetzes für den Bau oder die Änderung von Bundesautobahnen durchgeführt werden. Es trifft in den in Satz 1 genannten Fällen auch die Entscheidung nach § 74 Absatz 7 des Verwaltungsverfahrensgesetzes."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(3) Soweit nach Artikel 90 Absatz 4 oder Artikel 143e Absatz 2 des Grundgesetzes auf Antrag eines Landes Bundesstraßen, soweit sie im Gebiet dieses Landes liegen, vom Bund in Bundesverwaltung übernommen werden, ist das Fernstraßen-Bundesamt Anhörungs- und Planfeststellungsbehörde in Planfeststellungsverfahren oder Plangenehmigungsbehörde in Plangenehmigungsverfahren für den Bau oder die Änderung von Bundesfernstraßen."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(+++ § 2 Abs. 2: Zur Nichtanwendung vgl. § 3 Abs. 2 +++)"@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(1) Das Fernstraßen-Bundesamt tritt im Rahmen seiner Zuständigkeiten nach § 2 in vor dem 1. Januar 2021 eingeleitete Verwaltungsverfahren ein, soweit in den Absätzen 2 und 3 nichts Abweichendes bestimmt ist."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_DL dtd:DL-id60,
+        dtd:DL-id69,
+        dtd:DL-id74 ;
+    dtd:has_Value "(2) § 2 Absatz 2 findet keine Anwendung auf Planfeststellungs- oder Plangenehmigungsverfahren, die vor dem 1. Januar 2021 bereits von den Ländern eingeleitet worden sind. Satz 1 umfasst dabei auch von den Ländern 1.vor dem 1. Januar 2021 bereits eingeleitete Planergänzungen und ergänzende Verfahren sowie Planänderungen vor Fertigstellung des Vorhabens nach § 17d Satz 1 des Bundesfernstraßengesetzes,2.vor dem 1. Januar 2021 bereits eingeleitete Verfahren zur Umsetzung eines Entscheidungsvorbehalts nach § 17b Absatz 1 des Bundesfernstraßengesetzes in Verbindung mit § 74 Absatz 3 des Verwaltungsverfahrensgesetzes,3.vor dem 1. Januar 2021 bereits eingeleitete Verfahren zur Verlängerung eines Planfeststellungsbeschlusses nach § 17c Nummer 1 bis 3 des Bundesfernstraßengesetzes sowie4.vor dem 1. Januar 2021 bereits eingeleitete Verfahren wegen nicht voraussehbarer Wirkungen nach § 17c des Bundesfernstraßengesetzes in Verbindung mit § 75 Absatz 2 Satz 2 bis 4 des Verwaltungsverfahrensgesetzes.§ 2 Absatz 2 findet auch keine Anwendung auf 1.nach dem 31. Dezember 2020 eingeleitete Planergänzungen und ergänzende Verfahren nach § 17d Satz 1 des Bundesfernstraßengesetzes, soweit diese ein vor dem 1. Januar 2021 eingeleitetes Planfeststellungs- oder Plangenehmigungsverfahren betreffen, über das noch nicht bestandskräftig entschieden wurde, sowie2.eingeleitete Verfahren nach den §§ 48, 49 des Verwaltungsverfahrensgesetzes oder den entsprechenden landesrechtlichen Regelungen, soweit das jeweilige Verfahren den Zweck hat, einen Planfeststellungsbeschluss oder eine Plangenehmigung außer Vollzug zu setzen, um Verfahren nach § 17d Satz 1 des Bundesfernstraßengesetzes und § 75 Absatz 1a Satz 2 des Verwaltungsverfahrensgesetzes nach Maßgabe der Nummer 1 zu ermöglichen.Für Verfahren nach den Sätzen 1 bis 3 bleiben die Länder zuständig und führen etwaige Verfahren fort. Eine Klage ist in diesen Verfahren nach § 78 Absatz 1 der Verwaltungsgerichtsordnung gegen das Land, dessen Behörde den angefochtenen Verwaltungsakt erlassen oder den beantragten Verwaltungsakt unterlassen hat, oder, sofern das Landesrecht dies bestimmt, gegen die Behörde selbst, die den angefochtenen Verwaltungsakt erlassen oder den beantragten Verwaltungsakt unterlassen hat, zu richten. Ein Verfahren gilt als eingeleitet 1.bei Planfeststellungsverfahren mit der Einreichung des Plans bei der Anhörungsbehörde nach § 17a des Bundesfernstraßengesetzes in Verbindung mit § 73 Absatz 1 des Verwaltungsverfahrensgesetzes und2.bei der Plangenehmigung mit dem Antrag auf Einreichung des Plans bei der Anhörungs- oder Planfeststellungsbehörde nach § 17b Absatz 1 Nummer 2 Satz 2 und § 17a des Bundesfernstraßengesetzes in Verbindung mit § 73 Absatz 1 des Verwaltungsverfahrensgesetzes.Bei Planergänzungen oder ergänzenden Verfahren kann an die Stelle des Antrags auch eine von Amts wegen getroffene Entscheidung der Planfeststellungsbehörde des Landes treten."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(3) Wenn ein Land dies beim Fernstraßen-Bundesamt beantragt, ist abweichend von § 2 Absatz 2 und 3 eine nach Landesrecht zuständige Behörde die Anhörungs- und Planfeststellungsbehörde in Planfeststellungsverfahren oder die Plangenehmigungsbehörde in Plangenehmigungsverfahren, die auf der Grundlage des § 17 des Bundesfernstraßengesetzes für den Bau oder die Änderung von Bundesautobahnen oder Bundesstraßen in Bundesverwaltung durchgeführt werden, sowie für die Entscheidung nach § 74 Absatz 7 des Verwaltungsverfahrensgesetzes zuständig. Sofern das Fernstraßen-Bundesamt und das Land nicht etwas anderes vereinbaren, wird die beantragte Übernahme wirksam mit Beginn des zweiten auf die Antragstellung folgenden Kalenderjahres; das jeweilige Land trägt ab diesem Zeitpunkt seine Kosten. Die Übernahme ist in einem vom Land zu bestimmenden Amtsblatt zu veröffentlichen. Die Antragstellung eines Landes erfolgt stets für alle Bundesautobahnen, die in dem jeweiligen Land liegen, und zugleich für alle Bundesstraßen in Bundesverwaltung, die in dem jeweiligen Land liegen, und ist nur ein einziges Mal möglich. Erfolgt die Antragstellung mit Wirkung zum 1. Januar 2021, tritt die Zuständigkeit des Fernstraßen-Bundesamtes nach § 2 Absatz 2 nicht ein. Umfasste der Antrag auf Übernahme zum 1. Januar 2021 nur die Bundesautobahnen, die in dem jeweiligen Land liegen, kann das Land den Antrag einmalig auf die Übernahme der Bundesstraßen in Bundesverwaltung, die in dem jeweiligen Land liegen, erweitern. Erfolgt eine Antragstellung mit Wirkung zu einem späteren Zeitpunkt, gilt Absatz 2 entsprechend, so dass die nach dem 1. Januar 2021 bis zum Zeitpunkt der wirksamen Übernahme eingeleiteten Verfahren vom Fernstraßen-Bundesamt fortgeführt werden und das jeweilige Land die Kosten ab dem Zeitpunkt der wirksamen Übernahme erstattet."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(4) Bei Zuständigkeit einer nach Landesrecht zuständigen Behörde ist das Bundesministerium für Verkehr und digitale Infrastruktur berechtigt, die Zuständigkeit für die Befugnisse nach § 2 Absatz 2 und 3 dem Fernstraßen-Bundesamt zu übertragen, sofern es tatsächliche Anhaltspunkte gibt, dass ein Land seiner Aufgabe zur Schaffung von Baurecht nach den §§ 17 bis 17e des Bundesfernstraßengesetzes nicht ordnungsgemäß nachkommt. Die Übertragung der Befugnisse auf das Fernstraßen-Bundesamt wird mit Beginn des zweiten auf die Entscheidung des Bundesministeriums für Verkehr und digitale Infrastruktur folgenden Kalenderjahres wirksam und der Bund trägt ab diesem Zeitpunkt die Kosten. Absatz 2 gilt entsprechend, so dass die bis zum Zeitpunkt der wirksamen Übertragung auf das Fernstraßen-Bundesamt eingeleiteten Verfahren von dem jeweiligen Land fortgeführt werden und das Fernstraßen-Bundesamt dem jeweiligen Land die Kosten ab dem Zeitpunkt der wirksamen Übertragung erstattet. Das Bundesministerium für Verkehr und digitale Infrastruktur wird den Zeitpunkt der wirksamen Übertragung im Bundesanzeiger veröffentlichen."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_DL dtd:DL-id79,
+        dtd:DL-id99 ;
+    dtd:has_Value "(1) Das Bundesministerium für Verkehr und digitale Infrastruktur wird ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates dem Fernstraßen-Bundesamt Aufgaben zur Durchführung des Straßenverkehrsgesetzes und der auf Grund des Straßenverkehrsgesetzes erlassenen Rechtsverordnungen zu übertragen und dabei den Übergang laufender Verfahren auf das Fernstraßen-Bundesamt zu regeln. Übertragbar sind straßenverkehrsrechtliche Aufgaben auf Bundesautobahnen in der Baulast des Bundes und auf Bundesstraßen in Bundesverwaltung, die 1.im Zusammenhang mit dem Bau, Betrieb oder der Erhaltung der vorgenannten Straßen stehen,2.Maßnahmen über den Straßenverkehr betreffen, die erforderlich sind a)zur Erhaltung der Sicherheit und Ordnung auf den vorgenannten Straßen,b)für Zwecke der Verteidigung,c)zur Verhütung einer über das verkehrsübliche Maß hinausgehenden Abnutzung der vorgenannten Straßen,d)zur Verhütung von Belästigungen odere)zur Erhaltung der öffentlichen Sicherheit,3.Maßnahmen über das Verhalten im Straßenverkehr zum Schutz vor den von Fahrzeugen ausgehenden schädlichen Umwelteinwirkungen im Sinne des Bundes-Immissionsschutzgesetzes betreffen oder4.Maßnahmen betreffen zur Beschränkung des Straßenverkehrs zum Zweck der Erforschung des Unfallgeschehens, des Verkehrsverhaltens, der Verkehrsabläufe oder die der Erprobung geplanter verkehrssichernder oder verkehrsregelnder Regelungen dienen.Auf Bundesstraßen in Bundesverwaltung zählen zu den übertragbaren Aufgaben außerdem solche, die 1.die Einrichtung gebührenpflichtiger Parkplätze bei Großveranstaltungen im Interesse der Ordnung und Sicherheit des Verkehrs betreffen,2.die Beschränkung des Haltens und Parkens zugunsten der Bewohner städtischer Quartiere mit erheblichem Parkraummangel betreffen,3.die Schaffung von Parkmöglichkeiten für schwerbehinderte Menschen mit außergewöhnlicher Gehbehinderung, mit beidseitiger Amelie oder Phokomelie oder mit vergleichbaren Funktionseinschränkungen sowie für blinde Menschen, insbesondere in unmittelbarer Nähe ihrer Wohnung oder Arbeitsstätte, betreffen oder4.die Einrichtung von Sonderfahrspuren für Linienomnibusse und Taxen betreffen.Von Satz 2 ausgenommen sind Aufgaben der Polizei."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(2) In der Rechtsverordnung nach Absatz 1 kann vorgesehen werden, dass Aufgaben des Fernstraßen-Bundesamtes der auf Grund des Infrastrukturgesellschaftserrichtungsgesetzes beliehenen Gesellschaft privaten Rechts weiter übertragen werden."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "FStrBAG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-08-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id156 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id157 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id134 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id145 .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "FStrBAG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "FStrBAG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "FStrBAG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "FStrBAG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "FStrBAG"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Fernstraßen-Bundesamt-Errichtungsgesetz"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Errichtung eines Fernstraßen-Bundesamtes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220713212510"@de ;
+    dtd:has_doknr "BJNR314300017"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220713212510"@de ;
+    dtd:has_doknr "BJNR314300017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220713212510"@de ;
+    dtd:has_doknr "BJNR314300017BJNE000201000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220713212510"@de ;
+    dtd:has_doknr "BJNR314300017BJNE000302360"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220713212510"@de ;
+    dtd:has_doknr "BJNR314300017BJNE000401124"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id156 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id155 a dtd:pre ;
+    dtd:has_BR dtd:BR-id45,
+        dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_Value "(+++ Textnachweis ab: 18.8.2017 +++)(+++ Zur Nichtanwendung vgl. § 3 Abs. 2 +++)"@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id159 ;
+    dtd:has_standtyp dtd:standtyp-id158 .
+
+dtd:standkommentar-id159 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 G v. 31.5.2021 I 1221"@de .
+
+dtd:standtyp-id158 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Errichtung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Aufgaben des Fernstraßen-Bundesamtes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung, Antragsrecht der Länder"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Straßenverkehrsrechtliche Aufgaben des Fernstraßen-Bundesamtes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id157 a dtd:zitstelle ;
+    dtd:has_Value "2017, 3122, 3143"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

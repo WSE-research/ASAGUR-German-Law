@@ -1,0 +1,671 @@
+@prefix dtd: <urn:ZustVV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id159 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2004, 620 u. 621)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id160 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2002, 674)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id161 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2002, 675)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id162 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2002, 676)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id84 a dtd:BR .
+
+dtd:BR-id85 a dtd:BR .
+
+dtd:BR-id86 a dtd:BR .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:BR-id89 a dtd:BR .
+
+dtd:BR-id90 a dtd:BR .
+
+dtd:BR-id91 a dtd:BR .
+
+dtd:BR-id92 a dtd:BR .
+
+dtd:BR-id93 a dtd:BR .
+
+dtd:BR-id94 a dtd:BR .
+
+dtd:BR-id95 a dtd:BR .
+
+dtd:BR-id96 a dtd:BR .
+
+dtd:BR-id97 a dtd:BR .
+
+dtd:BR-id98 a dtd:BR .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137,
+        dtd:P-id138,
+        dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141 .
+
+dtd:Content-id142 a dtd:Content ;
+    dtd:has_P dtd:P-id143 .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145 .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_BR dtd:BR-id88,
+        dtd:BR-id89 ;
+    dtd:has_P dtd:P-id147,
+        dtd:P-id148 .
+
+dtd:Content-id149 a dtd:Content ;
+    dtd:has_BR dtd:BR-id91,
+        dtd:BR-id92 ;
+    dtd:has_P dtd:P-id150,
+        dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_BR dtd:BR-id94,
+        dtd:BR-id95 ;
+    dtd:has_P dtd:P-id153,
+        dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_BR dtd:BR-id97,
+        dtd:BR-id98 ;
+    dtd:has_P dtd:P-id156,
+        dtd:P-id157 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DL-id103 a dtd:DL ;
+    dtd:has_DD dtd:DD-id108,
+        dtd:DD-id109,
+        dtd:DD-id110,
+        dtd:DD-id111 ;
+    dtd:has_DT dtd:DT-id104,
+        dtd:DT-id105,
+        dtd:DT-id106,
+        dtd:DT-id107 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id112 a dtd:DL ;
+    dtd:has_DD dtd:DD-id116,
+        dtd:DD-id117,
+        dtd:DD-id118 ;
+    dtd:has_DT dtd:DT-id113,
+        dtd:DT-id114,
+        dtd:DT-id115 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:FILE-id126 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2004_j0619_0010.jpg"@de ;
+    dtd:has_SRC "bgbl1_2004_j0619_0010.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id127 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2002_j0671_0020.jpg"@de ;
+    dtd:has_SRC "bgbl1_2002_j0671_0020.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id128 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2002_j0671_0030.jpg"@de ;
+    dtd:has_SRC "bgbl1_2002_j0671_0030.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id129 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2002_j0671_0040.jpg"@de ;
+    dtd:has_SRC "bgbl1_2002_j0671_0040.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der in Anlage 1 bestimmte Vordruck für die Zustellung von Schriftstücken mit Zustellungsurkunde nach § 182 Abs. 1 und 2 der Zivilprozessordnung (Zustellungsurkunde),"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der in Anlage 2 bestimmte Vordruck für den Briefumschlag nach § 176 Absatz 2 der Zivilprozessordnung (innerer Umschlag),"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der in Anlage 3 bestimmte Vordruck für den Postzustellungsauftrag nach § 168 Abs. 1 der Zivilprozessordnung (äußerer Umschlag/Auftrag),"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der in Anlage 4 bestimmte Vordruck für die schriftliche Mitteilung über die Zustellung durch Niederlegung nach § 181 Abs. 1 Satz 2 der Zivilprozessordnung (Benachrichtigung)."@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Berichtigungen, die auf einer Änderung von Rechtsvorschriften beruhen;"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anpassungen, Änderungen oder Ergänzungen, die es, ohne den Inhalt der Vordrucke zu verändern oder das Verständnis der Vordrucke zu erschweren, den Gerichten ermöglichen, die Verfahren maschinell zu bearbeiten und für die Bearbeitung technische Entwicklungen nutzbar zu machen oder vorhandene technische Einrichtungen weiter zu nutzen;"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anpassungen, Änderungen oder Ergänzungen, die es, ohne den Inhalt der Vordrucke zu verändern oder das Verständnis der Vordrucke zu erschweren, ermöglichen, technische Einrichtungen der üblichen Briefbeförderung für das Zustellungsverfahren zu nutzen."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_BR dtd:BR-id84 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id158 .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 24a des Gesetzes betreffend die Einführung der Zivilprozessordnung, der durch Artikel 5 Abs. 2a Nr. 1 des Gesetzes vom 26. November 2001 (BGBl. I S. 3138) eingefügt worden ist, verordnet das Bundesministerium der Justiz:"@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_DL dtd:DL-id103 ;
+    dtd:has_Value "Für die Zustellung im gerichtlichen Verfahren werden eingeführt: 1.der in Anlage 1 bestimmte Vordruck für die Zustellung von Schriftstücken mit Zustellungsurkunde nach § 182 Abs. 1 und 2 der Zivilprozessordnung (Zustellungsurkunde),2.der in Anlage 2 bestimmte Vordruck für den Briefumschlag nach § 176 Absatz 2 der Zivilprozessordnung (innerer Umschlag),3.der in Anlage 3 bestimmte Vordruck für den Postzustellungsauftrag nach § 168 Abs. 1 der Zivilprozessordnung (äußerer Umschlag/Auftrag),4.der in Anlage 4 bestimmte Vordruck für die schriftliche Mitteilung über die Zustellung durch Niederlegung nach § 181 Abs. 1 Satz 2 der Zivilprozessordnung (Benachrichtigung)."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(1) Für den Vordruck nach § 1 Nr. 1 (Zustellungsurkunde) kann abweichend von dem in Anlage 1 bestimmten Muster einfarbiges gelbes Papier verwendet werden. In diesem Fall sind die im Muster in weißer Farbe hervorgehobenen Ankreuz- und Ausfüllfelder durch Umrandung oder in anderer Weise kenntlich zu machen."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(2) Für die Vordrucke nach § 1 Nr. 2 (innerer Umschlag) und Nr. 3 (äußerer Umschlag/Auftrag) dürfen Umschläge mit Sichtfenster verwendet werden. In diesen Fällen bedarf es der Angabe des Aktenzeichens und der Vorausverfügungen auf dem inneren Umschlag nicht."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_DL dtd:DL-id112 ;
+    dtd:has_Value "(3) Im Übrigen sind folgende Abweichungen von den in den Anlagen 1 bis 4 bestimmten Vordrucken zulässig: 1.Berichtigungen, die auf einer Änderung von Rechtsvorschriften beruhen; 2.Anpassungen, Änderungen oder Ergänzungen, die es, ohne den Inhalt der Vordrucke zu verändern oder das Verständnis der Vordrucke zu erschweren, den Gerichten ermöglichen, die Verfahren maschinell zu bearbeiten und für die Bearbeitung technische Entwicklungen nutzbar zu machen oder vorhandene technische Einrichtungen weiter zu nutzen; 3.Anpassungen, Änderungen oder Ergänzungen, die es, ohne den Inhalt der Vordrucke zu verändern oder das Verständnis der Vordrucke zu erschweren, ermöglichen, technische Einrichtungen der üblichen Briefbeförderung für das Zustellungsverfahren zu nutzen. "@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "Der Vordruck nach Anlage 1 zu § 1 Nr. 1 in der bis zum 30. April 2004 geltenden Fassung kann bis zum 31. Dezember 2004 weiterverwendet werden."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Juli 2002 in Kraft."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2004, 620 u. 621)"@de ;
+    dtd:has_noindex dtd:noindex-id99 .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id126 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2002, 674)"@de ;
+    dtd:has_noindex dtd:noindex-id100 .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id127 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2002, 675)"@de ;
+    dtd:has_noindex dtd:noindex-id101 .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id128 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2002, 676)"@de ;
+    dtd:has_noindex dtd:noindex-id102 .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id129 ;
+    dtd:has_Value ""@de .
+
+dtd:amtabk-id36 a dtd:amtabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id37 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-02-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "Anlage 1"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "Anlage 2"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "Anlage 3"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "Anlage 4"@de .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id163 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id164 .
+
+dtd:fussnoten-id70 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id130 .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:fussnoten-id76 a dtd:fussnoten .
+
+dtd:fussnoten-id80 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "ZustVV"@de .
+
+dtd:kurzue-id39 a dtd:kurzue ;
+    dtd:has_Value "Zustellungsvordruckverordnung"@de .
+
+dtd:langue-id40 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Einführung von Vordrucken für die Zustellung im
+gerichtlichen Verfahren"""@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id36 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id37 ;
+    dtd:has_fundstelle dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_kurzue dtd:kurzue-id39 ;
+    dtd:has_langue dtd:langue-id40 ;
+    dtd:has_standangabe dtd:standangabe-id41 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:noindex-id100 a dtd:noindex .
+
+dtd:noindex-id101 a dtd:noindex .
+
+dtd:noindex-id102 a dtd:noindex .
+
+dtd:noindex-id99 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000101125"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000301301"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231128213533"@de ;
+    dtd:has_doknr "BJNR067100002BJNE000601301"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id163 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id158 a dtd:pre ;
+    dtd:has_BR dtd:BR-id85,
+        dtd:BR-id86 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.2002 +++)"@de .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id166 ;
+    dtd:has_standtyp dtd:standtyp-id165 .
+
+dtd:standkommentar-id166 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 26 G v. 5.10.2021 I 4607"@de .
+
+dtd:standtyp-id165 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id142 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id144 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id146 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id149 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id80 ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Vordrucke"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Zulässige Abweichungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Überleitungsvorschrift"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_BR dtd:BR-id87 ;
+    dtd:has_Value """(zu § 1 Nr. 1)
+
+Zustellungsurkunde"""@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_BR dtd:BR-id90 ;
+    dtd:has_Value """(zu § 1 Nr. 2)
+
+Innerer Umschlag"""@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_BR dtd:BR-id93 ;
+    dtd:has_Value """(zu § 1 Nr. 3)
+
+Äußerer Umschlag/Auftrag"""@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_BR dtd:BR-id96 ;
+    dtd:has_Value """(zu § 1 Nr. 4)
+
+Benachrichtigung"""@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id164 a dtd:zitstelle ;
+    dtd:has_Value "2002, 671 (1019)"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

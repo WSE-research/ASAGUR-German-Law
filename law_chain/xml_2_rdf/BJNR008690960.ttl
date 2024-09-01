@@ -1,0 +1,105 @@
+@prefix dtd: <urn:BPräsKldgKapLwDAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20121214215008"@de ;
+    dtd:has_doknr "BJNR008690960"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:Content-id18 a dtd:Content ;
+    dtd:has_P dtd:P-id19 .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21 .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:P-id19 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_Value "Nach § 76 des Bundesbeamtengesetzes übertrage ich dem Bundesminister für Ernährung, Landwirtschaft und Forsten die Ausübung der Befugnis, Bestimmungen über die Dienstkleidung der beamteten Kapitäne im nautischen Dienst der landwirtschaftlichen Verwaltung des Bundes zu erlassen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1960-11-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id24 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id25 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id20 .
+
+dtd:fussnoten-id17 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BPräsKldgKapLwDAnO"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BPräsKldgKapLwDAnO"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Anordnung des Bundespräsidenten über den Erlaß von Bestimmungen für die
+Dienstkleidung der beamteten Kapitäne im nautischen Dienst der
+landwirtschaftlichen Verwaltung des Bundes"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20121214215008"@de ;
+    dtd:has_doknr "BJNR008690960"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20121214215008"@de ;
+    dtd:has_doknr "BJNR008690960BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id24 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id18 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id22 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id17 ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id25 a dtd:zitstelle ;
+    dtd:has_Value "1960, 869"@de .
+

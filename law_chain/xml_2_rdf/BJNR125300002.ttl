@@ -1,0 +1,159 @@
+@prefix dtd: <urn:Münz10EuroBek-2002-03#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625145958"@de ;
+    dtd:has_doknr "BJNR125300002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:ABWFORMAT-id35 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id37 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31,
+        dtd:P-id32,
+        dtd:P-id33 .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_BR dtd:BR-id18 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11. 4.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id34 .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id35 ;
+    dtd:has_BR dtd:BR-id21,
+        dtd:BR-id22,
+        dtd:BR-id23,
+        dtd:BR-id24,
+        dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_Value "Gemäß den §§ 2, 4 und 5 des Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung beschlossen, zum Thema \"Kunstausstellung documenta Kassel\" eine deutsche Euro-Gedenkmünze im Nennwert von 10 Euro prägen zu lassen. Die Auflage der Münze beträgt 2,3 Millionen Stück, darunter 0,3 Millionen Stück in Spiegelglanzausführung. Die Prägung erfolgt durch die Hamburgische Münze. Die Münze wird ab dem 2. Mai 2002 in den Verkehr gebracht. Sie besteht aus einer Legierung von 925 Tausendteilen Silber und 75 Tausendteilen Kupfer, hat einen Durchmesser von 32,5 Millimetern und eine Masse (Gewicht) von 18 Gramm. Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden, glatten Randstab umgeben. Die Bildseite zeigt das grafische Erscheinungsbild der ersten Kunstausstellung \"documenta\" im Jahre 1955, das von dem ersten künstlerischen Leiter Arnold Bode als Logo ausgewählte kleine \"d\". Die Beschriftung darunter lautet \"DOCUMENTA KASSEL\". Die kreisförmig von zwölf Sternen umrahmte Wertseite trägt einen Adler, den Nennwert \"10 Euro\", die Aufschrift \"BUNDESREPUBLIK DEUTSCHLAND\", die Jahreszahl 2002 und das Münzzeichen \"J\" der Hamburgischen Münze. Der glatte Münzrand enthält in vertiefter Prägung die Inschrift \"KUNST\" in den Sprachen Deutsch, Englisch, Hindi (Indien), Maori (Neuseeland), Jiddisch, Russisch, Arabisch, Igbo (Nigeria) und Chinesisch: \" KUNST - ART - ... nicht darstellbare Zeichen Der Entwurf der Münze stammt von Frantisek Chocola, Hamburg."@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value " Der Bundesminister der Finanzen"@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id37 ;
+    dtd:has_Value " ... (nicht darstellbare Abbildung einer Münze, Fundstelle: BGBl. I 2002, 1253)"@de ;
+    dtd:has_kommentar dtd:kommentar-id36 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-03-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id14 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id38 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id39 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id28 .
+
+dtd:fussnoten-id17 a dtd:fussnoten .
+
+dtd:jurabk-id13 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2002-03"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2002-03"@de .
+
+dtd:kommentar-id36 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value "(nicht darstellbare Abbildung einer Münze, Fundstelle: BGBl. I 2002, 1253)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen im Nennwert von 10 Euro (Gedenkmünze \"Kunstausstellung documenta Kassel\")"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 ;
+    dtd:has_standangabe dtd:standangabe-id12 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id14 ;
+    dtd:has_jurabk dtd:jurabk-id13 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625145958"@de ;
+    dtd:has_doknr "BJNR125300002"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625145958"@de ;
+    dtd:has_doknr "BJNR125300002BJNE000101301"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id38 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id34 a dtd:pre ;
+    dtd:has_BR dtd:BR-id19,
+        dtd:BR-id20 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11. 4.2002 +++)"@de .
+
+dtd:standangabe-id12 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id41 ;
+    dtd:has_standtyp dtd:standtyp-id40 .
+
+dtd:standkommentar-id41 a dtd:standkommentar ;
+    dtd:has_Value "Änderung v. 2.12.2002 I 4527"@de .
+
+dtd:standtyp-id40 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id17 ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id39 a dtd:zitstelle ;
+    dtd:has_Value "2002, 1253"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

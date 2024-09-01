@@ -1,0 +1,172 @@
+@prefix dtd: <urn:BESitzBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132251"@de ;
+    dtd:has_doknr "BJNR228400999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:ABWFORMAT-id31 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:DD-id21 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id22,
+        dtd:LA-id23,
+        dtd:LA-id24,
+        dtd:LA-id25,
+        dtd:LA-id26,
+        dtd:LA-id27,
+        dtd:LA-id28,
+        dtd:LA-id29,
+        dtd:LA-id30 .
+
+dtd:DL-id19 a dtd:DL ;
+    dtd:has_DD dtd:DD-id21 ;
+    dtd:has_DT dtd:DT-id20 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id20 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id22 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bundeseisenbahnvermögen"@de .
+
+dtd:LA-id23 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Hauptverwaltung"@de .
+
+dtd:LA-id24 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kurt-Georg-Kiesinger Allee 2"@de .
+
+dtd:LA-id25 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "53175 Bonn"@de .
+
+dtd:LA-id26 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Postfach 20 02 35"@de .
+
+dtd:LA-id27 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "53132 Bonn"@de .
+
+dtd:LA-id28 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Telefon: 0228/3077-0"@de .
+
+dtd:LA-id29 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Telefax: 0228/3077-160"@de .
+
+dtd:LA-id30 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id31 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "E-Mail: Poststelle.Bonn(at)bev.bund.de"@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.11.1999 +++)"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_DL dtd:DL-id19 ;
+    dtd:has_Value "Das Bundesministerium für Verkehr, Bau- und Wohnungswesen gibt gemäß § 9 Nr. 3 und § 7 Abs. 2 des Berlin/Bonn-Gesetzes vom 26. April 1994 (BGBl. I S. 918), von denen § 9 Nr. 3 durch Artikel 1 der Verordnung vom 21. September 1997 (BGBl. I S. 2390) geändert worden ist, in Verbindung mit der Bekanntmachung des Bundeskanzlers über die Sitzentscheidung der Bundesregierung vom 22. Juli 1999 (BGBl. I S. 1725) bekannt: Die Hauptverwaltung des Bundeseisenbahnvermögens (BEV) wird mit Wirkung vom 6. Dezember 1999 ihren Sitz von Frankfurt am Main nach Bonn verlegen.Nach dem Umzug gelten folgende Haus- und Postanschriften sowie Telefon-, Fax- und E-Mail-Verbindungen: BundeseisenbahnvermögenHauptverwaltungKurt-Georg-Kiesinger Allee 253175 BonnPostfach 20 02 3553132 BonnTelefon: 0228/3077-0Telefax: 0228/3077-160E-Mail: Poststelle.Bonn(at)bev.bund.de"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-11-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id38 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id39 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BESitzBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BESitzBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über den Sitz des Bundeseisenbahnvermögens"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132251"@de ;
+    dtd:has_doknr "BJNR228400999"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132251"@de ;
+    dtd:has_doknr "BJNR228400999BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id38 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id39 a dtd:zitstelle ;
+    dtd:has_Value "1999, 2284"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

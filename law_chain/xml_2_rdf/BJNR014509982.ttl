@@ -1,0 +1,646 @@
+@prefix dtd: <urn:SGB-10/Kap3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:BR-id100 a dtd:BR .
+
+dtd:BR-id99 a dtd:BR .
+
+dtd:DL-id102 a dtd:DL ;
+    dtd:has_DD dtd:DD-id104 ;
+    dtd:has_DT dtd:DT-id103 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id94 a dtd:BR .
+
+dtd:BR-id95 a dtd:BR .
+
+dtd:BR-id96 a dtd:BR .
+
+dtd:BR-id97 a dtd:BR .
+
+dtd:BR-id98 a dtd:BR .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109,
+        dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132,
+        dtd:P-id133,
+        dtd:P-id134,
+        dtd:P-id135 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105,
+        dtd:LA-id106,
+        dtd:LA-id107 .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Sozialgesetzbuch - Verwaltungsverfahren vom 18. August 1980 (BGBl I S. 1469, 2218) und Sozialgesetzbuch - Zusammenarbeit der Leistungsträger und ihre Beziehungen zu Dritten - vom 4. November 1982 (BGBl. I S. 1450), zuletzt geändert gemäß Artikel 85 Abs. 5 des Gesetzes vom 18. Dezember 1989 (BGBl. I S. 2261, 1990 I S. 1337),"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "mit folgender Maßgabe:"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Artikel I und II sind für den Bereich der Kranken-, Renten- und Unfallversicherung ab 1. Januar 1991 anzuwenden."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_BR dtd:BR-id94,
+        dtd:BR-id95 ;
+    dtd:has_Value "Art. I: SGB 10 (860-10-1/2, 860-10-3) (+++ Textnachweis ab: 1.7.1983 +++) (+++ Maßgaben aufgrund EinigVtr vgl. SGB 10/Kap3 Anhang EV +++)"@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_BR dtd:BR-id96 ;
+    dtd:has_Value " Art. I und II, ausgenommen Art. II § 25 Abs. 1 bis 5, aufgeh. durch Art. 67 Nr. 4 G v. 21.12.2000 I 1983 mWv 1.1.2001"@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value " Abschnitt III Bundesrecht tritt in dem in Artikel 3 des Vertrages genannten Gebiet mit folgenden Maßgaben in Kraft: ... 2.Sozialgesetzbuch - Verwaltungsverfahren vom 18. August 1980 (BGBl I S. 1469, 2218) und Sozialgesetzbuch - Zusammenarbeit der Leistungsträger und ihre Beziehungen zu Dritten - vom 4. November 1982 (BGBl. I S. 1450), zuletzt geändert gemäß Artikel 85 Abs. 5 des Gesetzes vom 18. Dezember 1989 (BGBl. I S. 2261, 1990 I S. 1337),mit folgender Maßgabe:Artikel I und II sind für den Bereich der Kranken-, Renten- und Unfallversicherung ab 1. Januar 1991 anzuwenden.   ... "@de ;
+    dtd:has_noindex dtd:noindex-id101 .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt mit Ausnahme der in den Absätzen 2 bis 4 genannten Bestimmungen am 1. Juli 1983 in Kraft."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(2) - (4)"@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(5) Die Vorschriften des Artikels I §§ 88 bis 94 gelten auch für bereits bestehende Auftragsverhältnisse und Arbeitsgemeinschaften zur gemeinsamen Wahrnehmung von Aufgaben zur Eingliederung Behinderter."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(6) (weggefallen)"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id39 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1982-11-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "Anhang EV"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 1 bis 20"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 21 bis 23"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 24"@de .
+
+dtd:enbez-id73 a dtd:enbez ;
+    dtd:has_Value "§ 25"@de .
+
+dtd:fundstelle-id40 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id165 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id166 .
+
+dtd:fussnoten-id75 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id108 .
+
+dtd:fussnoten-id78 a dtd:fussnoten .
+
+dtd:fussnoten-id82 a dtd:fussnoten .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:fussnoten-id86 a dtd:fussnoten .
+
+dtd:fussnoten-id88 a dtd:fussnoten .
+
+dtd:fussnoten-id91 a dtd:fussnoten .
+
+dtd:fussnoten-id93 a dtd:fussnoten .
+
+dtd:gliederungsbez-id137 a dtd:gliederungsbez ;
+    dtd:has_Value "-"@de .
+
+dtd:gliederungsbez-id139 a dtd:gliederungsbez ;
+    dtd:has_Value "Art I"@de .
+
+dtd:gliederungsbez-id142 a dtd:gliederungsbez ;
+    dtd:has_Value "Art II"@de .
+
+dtd:gliederungsbez-id145 a dtd:gliederungsbez ;
+    dtd:has_Value "-"@de .
+
+dtd:gliederungsbez-id148 a dtd:gliederungsbez ;
+    dtd:has_Value "Erster Abschnitt"@de .
+
+dtd:gliederungsbez-id150 a dtd:gliederungsbez ;
+    dtd:has_Value "Art II"@de .
+
+dtd:gliederungsbez-id153 a dtd:gliederungsbez ;
+    dtd:has_Value "Zweiter Abschnitt"@de .
+
+dtd:gliederungsbez-id156 a dtd:gliederungsbez ;
+    dtd:has_Value "Art II"@de .
+
+dtd:gliederungsbez-id159 a dtd:gliederungsbez ;
+    dtd:has_Value "Dritter Abschnitt"@de .
+
+dtd:gliederungsbez-id162 a dtd:gliederungsbez ;
+    dtd:has_Value "Art II"@de .
+
+dtd:gliederungsbez-id164 a dtd:gliederungsbez ;
+    dtd:has_Value "Art II"@de .
+
+dtd:gliederungseinheit-id44 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id137 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id136 .
+
+dtd:gliederungseinheit-id47 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id139 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id138 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id140 .
+
+dtd:gliederungseinheit-id49 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id142 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id141 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id143 .
+
+dtd:gliederungseinheit-id51 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id145 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id144 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id146 .
+
+dtd:gliederungseinheit-id55 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id148 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id147 .
+
+dtd:gliederungseinheit-id57 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id150 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id149 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id151 .
+
+dtd:gliederungseinheit-id61 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id153 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id152 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id154 .
+
+dtd:gliederungseinheit-id63 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id156 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id155 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id157 .
+
+dtd:gliederungseinheit-id67 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id159 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id158 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id160 .
+
+dtd:gliederungseinheit-id69 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id162 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id161 .
+
+dtd:gliederungseinheit-id72 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id164 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id163 .
+
+dtd:gliederungskennzahl-id136 a dtd:gliederungskennzahl ;
+    dtd:has_Value "000"@de .
+
+dtd:gliederungskennzahl-id138 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id141 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id144 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id147 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020010"@de .
+
+dtd:gliederungskennzahl-id149 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020010"@de .
+
+dtd:gliederungskennzahl-id152 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020020"@de .
+
+dtd:gliederungskennzahl-id155 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020020"@de .
+
+dtd:gliederungskennzahl-id158 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020030"@de .
+
+dtd:gliederungskennzahl-id161 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020030"@de .
+
+dtd:gliederungskennzahl-id163 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020030"@de .
+
+dtd:gliederungstitel-id140 a dtd:gliederungstitel ;
+    dtd:has_Value "-"@de .
+
+dtd:gliederungstitel-id143 a dtd:gliederungstitel ;
+    dtd:has_Value """Übergangs- und Schlußvorschriften
+zum Zehnten Buch Sozialgesetzbuch sowie weitere Änderungen von
+Gesetzen"""@de .
+
+dtd:gliederungstitel-id146 a dtd:gliederungstitel ;
+    dtd:has_Value ""@de .
+
+dtd:gliederungstitel-id151 a dtd:gliederungstitel ;
+    dtd:has_Value ""@de .
+
+dtd:gliederungstitel-id154 a dtd:gliederungstitel ;
+    dtd:has_Value "-"@de .
+
+dtd:gliederungstitel-id157 a dtd:gliederungstitel ;
+    dtd:has_Value ""@de .
+
+dtd:gliederungstitel-id160 a dtd:gliederungstitel ;
+    dtd:has_Value "Schlußvorschriften"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "SGB 10/Kap3"@de .
+
+dtd:langue-id41 a dtd:langue ;
+    dtd:has_Value "Sozialgesetzbuch - Zusammenarbeit der Leistungsträger und ihre Beziehungen zu Dritten -"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id39 ;
+    dtd:has_fundstelle dtd:fundstelle-id40 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_langue dtd:langue-id41 ;
+    dtd:has_standangabe dtd:standangabe-id42 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id73 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id74 .
+
+dtd:noindex-id101 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNE000801308"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNG000500317"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNE001101308"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNE001201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNE000600317"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNG000101308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNG000200317"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNE888800301"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNG000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNE000701308"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405125701"@de ;
+    dtd:has_doknr "BJNR014509982BJNG000401308"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id165 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id42 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id168 ;
+    dtd:has_standtyp dtd:standtyp-id167 .
+
+dtd:standkommentar-id168 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 67 Nr. 4 G v. 21.12.2000 I 1983"@de .
+
+dtd:standtyp-id167 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id91 ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id93 ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_BR dtd:BR-id97,
+        dtd:BR-id98 ;
+    dtd:has_Value """Auszug aus EinigVtr Anlage I Kapitel VIII Sachgebiet D Abschnitt III
+
+(BGBl. II 1990, 889, 1032)
+
+- Maßgaben für das beigetretene Gebiet (Art. 3 EinigVtr) -"""@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id74 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id166 a dtd:zitstelle ;
+    dtd:has_Value "1982, 1450"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

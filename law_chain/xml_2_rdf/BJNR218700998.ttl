@@ -1,0 +1,269 @@
+@prefix dtd: <urn:Münz10DMBek-1998-08#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132209"@de ;
+    dtd:has_doknr "BJNR218700998"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:ABWFORMAT-id60 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:DD-id23 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id45 .
+
+dtd:DD-id26 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id35 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DL-id21 a dtd:DL ;
+    dtd:has_DD dtd:DD-id23 ;
+    dtd:has_DT dtd:DT-id22 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id24 a dtd:DL ;
+    dtd:has_DD dtd:DD-id26 ;
+    dtd:has_DT dtd:DT-id25 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id27 a dtd:DL ;
+    dtd:has_DD dtd:DD-id29 ;
+    dtd:has_DT dtd:DT-id28 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id30 a dtd:DL ;
+    dtd:has_DD dtd:DD-id32 ;
+    dtd:has_DT dtd:DT-id31 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id33 a dtd:DL ;
+    dtd:has_DD dtd:DD-id35 ;
+    dtd:has_DT dtd:DT-id34 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id36 a dtd:DL ;
+    dtd:has_DD dtd:DD-id38 ;
+    dtd:has_DT dtd:DT-id37 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id39 a dtd:DL ;
+    dtd:has_DD dtd:DD-id41 ;
+    dtd:has_DT dtd:DT-id40 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id42 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44 ;
+    dtd:has_DT dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id22 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id25 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id31 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id45 a dtd:LA ;
+    dtd:has_DL dtd:DL-id24 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"300 JAHRE FRANCKESCHE STIFTUNGEN\"."@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"300 JAHRE FRANCKESCHE STIFTUNGEN\"."@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_DL dtd:DL-id30 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND10 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_DL dtd:DL-id33 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND10 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "10 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_DL dtd:DL-id39 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"ER VERTRAUTE GOTT\"."@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_DL dtd:DL-id42 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"ER VERTRAUTE GOTT\"."@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"ER VERTRAUTE GOTT\"."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 19. 8.1998 +++)"@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19,
+        dtd:BR-id20 ;
+    dtd:has_DL dtd:DL-id21,
+        dtd:DL-id27,
+        dtd:DL-id36 ;
+    dtd:has_Value "Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung hat die Bundesregierung beschlossen, anläßlich des Jubiläums \"300 Jahre Franckesche Stiftungen\" eine Bundesmünze (Gedenkmünze) im Nennwert von 10 Deutschen Mark prägen zu lassen.Die Auflage der Münze beträgt 4,5 Millionen Stück, darunter 1,0 Millionen Stück in Spiegelglanz. Die Prägung in Normalausführung (Stempelglanz) erfolgt in der Staatlichen Münze Berlin. Die Herstellung in Spiegelglanz wird von allen fünf deutschen Münzämtern zu gleichen Teilen realisiert.Die Münze wird ab 10. September 1998 in den Verkehr gebracht. Sie besteht aus einer Legierung von 925 Tausendteilen Silber und 75 Tausendteilen Kupfer, hat einen Durchmesser von 32,5 Millimetern und eine Masse (Gewicht) von 15,5 Gramm. Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden, glatten Randstab umgeben.Die Bildseite zeigt die historischen Gebäude der Franckeschen Stiftungen zu Halle um den Lindenhof hinter dem Waisenhaus in perspektivischer Form nach einer grafischen Vorlage aus dem 18. Jahrhundert. Über den Bauten erscheint August Hermann Francke. Zwei im Strahlenkranz dargestellte Adler symbolisieren die Kraft des Glaubens. Die in den Abschnitt gestellte Inschrift lautet: \"300 JAHRE FRANCKESCHE STIFTUNGEN\".Die Wertseite trägt einen Adler, die Jahreszahl 1998, das Münzzeichen \"A\" der Staatlichen Münze Berlin und die Inschrift: \"BUNDESREPUBLIK DEUTSCHLAND10 DEUTSCHE MARK\".Bei den Münzen in der Qualität Spiegelglanz erscheinen die Münzzeichen \"A\", \"D\", \"F\", \"G\" und \"J\".Der glatte Münzrand enthält in vertiefter Prägung die Inschrift: \"ER VERTRAUTE GOTT\".Der Entwurf der Münze stammt von Herrn Heinz Hoyer, Berlin."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id60 ;
+    dtd:has_Value "... (nicht darstellbare Abbildung der Münze, BGBl. I 1998, 2187)"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-08-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id61 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id62 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id55 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1998-08"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1998-08"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert
+von 10 Deutschen Mark (Gedenkmünze "300 Jahre Franckesche Stiftungen")"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132209"@de ;
+    dtd:has_doknr "BJNR218700998"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132209"@de ;
+    dtd:has_doknr "BJNR218700998BJNE000100311"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id61 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id62 a dtd:zitstelle ;
+    dtd:has_Value "1998, 2187"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

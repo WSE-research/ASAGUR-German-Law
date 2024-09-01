@@ -1,0 +1,669 @@
+@prefix dtd: <urn:SRV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id96 a dtd:BR .
+
+dtd:BR-id97 a dtd:BR .
+
+dtd:BR-id98 a dtd:BR .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129,
+        dtd:P-id130,
+        dtd:P-id131,
+        dtd:P-id132,
+        dtd:P-id133,
+        dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136,
+        dtd:P-id137,
+        dtd:P-id138,
+        dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141,
+        dtd:P-id142,
+        dtd:P-id143,
+        dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146,
+        dtd:P-id147,
+        dtd:P-id148 .
+
+dtd:Content-id149 a dtd:Content ;
+    dtd:has_P dtd:P-id150,
+        dtd:P-id151,
+        dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160,
+        dtd:P-id161,
+        dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DL-id106 a dtd:DL ;
+    dtd:has_DD dtd:DD-id110,
+        dtd:DD-id111,
+        dtd:DD-id112 ;
+    dtd:has_DT dtd:DT-id107,
+        dtd:DT-id108,
+        dtd:DT-id109 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id99 a dtd:DL ;
+    dtd:has_DD dtd:DD-id103,
+        dtd:DD-id104,
+        dtd:DD-id105 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id101,
+        dtd:DT-id102 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Value "die Bezeichnung der Parteien,"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Value "die bestimmte Angabe des Gegenstands,"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Value "das Datum und die Uhrzeit der Einstellung der Schutzschrift."@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Value "der Postfach- und Versanddienst eines De-Mail-Kontos, wenn der Absender bei Versand der Nachricht sicher im Sinne des § 4 Absatz 1 Satz 2 des De-Mail-Gesetzes angemeldet ist und er sich die sichere Anmeldung gemäß § 5 Absatz 5 des De-Mail-Gesetzes bestätigen lässt,"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Value "der Übermittlungsweg zwischen den besonderen elektronischen Anwaltspostfächern nach den §§ 31a und 31b der Bundesrechtsanwaltsordnung und dem Register,"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Value "der Übermittlungsweg zwischen einem auf gesetzlicher Grundlage errichteten elektronischen Postfach, das dem Anwaltspostfach nach Nummer 2 entspricht, und dem Register."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_BR dtd:BR-id96 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2016 +++)"@de ;
+    dtd:has_pre dtd:pre-id165 .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 945b der Zivilprozessordnung, der durch Artikel 1 Nummer 27 des Gesetzes vom 10. Oktober 2013 (BGBl. I S. 3786) eingefügt worden ist, in Verbindung mit § 62 Absatz 2 Satz 3 und § 85 Absatz 2 Satz 3 des Arbeitsgerichtsgesetzes, die durch Artikel 3 Nummer 6 und 7 des Gesetzes vom 10. Oktober 2013 (BGBl. I S. 3786) eingefügt worden sind, sowie in Verbindung mit § 1 Absatz 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 17. Dezember 2013 (BGBl. I S. 4310) verordnet das Bundesministerium der Justiz und für Verbraucherschutz:"@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(1) Das Register enthält die Schutzschriften, die ihm gemäß § 945a Absatz 1 Satz 1 der Zivilprozessordnung übermittelt worden sind."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_DL dtd:DL-id99 ;
+    dtd:has_Value "(2) Das Register hat über jede eingestellte Schutzschrift folgende Angaben zu enthalten: 1.die Bezeichnung der Parteien,2.die bestimmte Angabe des Gegenstands,3.das Datum und die Uhrzeit der Einstellung der Schutzschrift."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(3) Das Register enthält eine Suchfunktion, die es dem Gericht ermöglicht, nach der Bezeichnung der Parteien zu suchen. Auf Grundlage des nach Satz 1 ermittelten Suchergebnisses kann die Suche durch Angabe des Gegenstands und des Zeitraums der Einreichung eingeschränkt werden."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(4) Die Suchfunktion stellt sicher, dass auch ähnliche Ergebnisse angezeigt und Eingabefehler sowie ungenaue Parteibezeichnungen toleriert werden."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(1) Zur Einreichung einer Schutzschrift bei dem Register ist jeder berechtigt, der eine Schutzschrift gemäß § 945a Absatz 1 Satz 2 der Zivilprozessordnung bei Gericht einreichen kann. Der Schutzschrift ist ein einheitlich strukturierter Datensatz beizufügen, der mindestens die Angaben nach § 1 Absatz 2 Nummer 1 und 2 enthält. Der Schutzschrift können Anlagen beigefügt werden."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(2) Die Schutzschrift, ihre Anlagen und der strukturierte Datensatz sind nach Maßgabe der folgenden Absätze als elektronisches Dokument bei dem Register einzureichen."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(3) Das elektronische Dokument muss für die Bearbeitung durch das Register geeignet sein. Der Betreiber des Registers bestimmt die technischen Rahmenbedingungen der Einreichung. Die Bestimmungen müssen in angemessener Weise den Zugang zum Register sicherstellen und regelmäßig an den jeweiligen Stand der Technik angepasst werden. Sie sind vom Betreiber des Registers auf seiner Internetseite zu veröffentlichen."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(4) Das elektronische Dokument, das die Schutzschrift enthält, muss mit einer qualifizierten elektronischen Signatur der verantwortenden Person versehen sein. Wird das elektronische Dokument auf einem sicheren Übermittlungsweg eingereicht, genügt es, wenn die Schutzschrift durch die verantwortende Person signiert wird."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_DL dtd:DL-id106 ;
+    dtd:has_Value "(5) Sichere Übermittlungswege sind 1.der Postfach- und Versanddienst eines De-Mail-Kontos, wenn der Absender bei Versand der Nachricht sicher im Sinne des § 4 Absatz 1 Satz 2 des De-Mail-Gesetzes angemeldet ist und er sich die sichere Anmeldung gemäß § 5 Absatz 5 des De-Mail-Gesetzes bestätigen lässt,2.der Übermittlungsweg zwischen den besonderen elektronischen Anwaltspostfächern nach den §§ 31a und 31b der Bundesrechtsanwaltsordnung und dem Register,3.der Übermittlungsweg zwischen einem auf gesetzlicher Grundlage errichteten elektronischen Postfach, das dem Anwaltspostfach nach Nummer 2 entspricht, und dem Register."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(6) Ist ein elektronisches Dokument für das Register zur Bearbeitung nicht geeignet, hat der Betreiber des Registers dies dem Absender unter Hinweis auf die Unwirksamkeit des Eingangs und auf die geltenden technischen Rahmenbedingungen unverzüglich mitzuteilen."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(1) Eine dem Register elektronisch übermittelte Schutzschrift ist unverzüglich nach ihrer ordnungsgemäßen Einreichung zum elektronischen Abruf und Ausdruck in das Register einzustellen."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(2) Eine Schutzschrift ist in das Register eingestellt, wenn sie auf der für den Abruf bestimmten Einrichtung des Registers elektronisch gespeichert und für die Gerichte der Länder abrufbar ist."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(3) Einstellungen im Register erfolgen ohne inhaltliche Überprüfung der Angaben. Eine Berichtigung von Schutzschriften findet nicht statt."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "(4) Dem Absender ist eine automatisiert erstellte Bestätigung über den Zeitpunkt der Einstellung zu erteilen."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(1) Abruf ist jede Suchanfrage bei dem Register."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "(2) Der Abruf des Registers ist nur den zuständigen Gerichten der Länder in elektronischer Form zur Nutzung in anhängigen Verfahren gestattet. Die Befugnis nach Satz 1 ist bei jedem Verbindungsaufbau anhand einer Benutzerkennung und eines geheim zu haltenden Passworts oder in einem automatisierten Identifizierungsverfahren elektronisch zu prüfen."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(3) Bei jedem Abruf sind die Bezeichnung der Parteien und das gerichtliche Aktenzeichen, sofern ein solches bereits vergeben wurde, anzugeben."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(4) Der Betreiber des Registers stellt die jederzeitige elektronische Abrufbarkeit des Registers sicher. Störungen werden dem abrufenden Gericht unverzüglich mitgeteilt."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(1) Jeder Abruf ist unter Angabe des Gerichts, des gerichtlichen Aktenzeichens, sofern ein solches bereits vergeben wurde, der Suchbegriffe, des Zeitpunkts des Abrufes, des Ergebnisses der Suchanfrage und der übermittelten Daten elektronisch zu protokollieren. Das Protokoll wird elektronisch an das abrufende Gericht übersandt; eine Einstellung des Protokolls in das Register erfolgt nicht."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(2) Das abrufende Gericht und das gerichtliche Aktenzeichen, sofern ein solches bereits vergeben wurde, werden im Register bei der abgerufenen Schutzschrift gespeichert, wenn der Abruf zum Auffinden einer Schutzschrift führte. Als aufgefunden gilt eine Schutzschrift, wenn sie auf eine Suchanfrage in einer Trefferliste angezeigt wird."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(3) Wird eine aufgefundene Schutzschrift vom abrufenden Gericht als sachlich einschlägig gekennzeichnet, erhält der Absender drei Monate nach dieser Kennzeichnung eine automatisiert erstellte Mitteilung, die das abrufende Gericht und das gerichtliche Aktenzeichen enthält."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(1) Der Betreiber des Registers stellt sicher, dass Schutzschriften sechs Monate nach ihrer Einstellung gelöscht werden. Die gemäß § 2 Absatz 1 Satz 2 und § 5 Absatz 2 zu dieser Schutzschrift gespeicherten Daten sind nach weiteren drei Monaten zu löschen."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(2) Auf Antrag des Absenders hat der Betreiber des Registers die Schutzschrift und die zu ihr gemäß § 2 Absatz 1 Satz 2 und § 5 Absatz 2 gespeicherten Daten unverzüglich zu löschen. Der Antrag ist als elektronisches Dokument nach Maßgabe des § 2 zu stellen. Der Absender erhält eine automatisiert erstellte Bestätigung über die Löschung. Eine Mitteilung nach § 5 Absatz 3 erfolgt nach der Löschung nicht mehr."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(3) Unzulässigerweise in das Register eingestellte Daten sind nach Feststellung der Unzulässigkeit unverzüglich zu löschen."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "Der Betreiber des Registers hat durch organisatorische und technische Vorkehrungen sicherzustellen, dass die eingereichten Daten während ihrer Übermittlung und Abrufbarkeit unversehrt und vollständig bleiben sowie gegen unbefugte Kenntnisnahme Dritter geschützt sind."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "Der Betreiber des Registers hat durch organisatorische und technische Vorkehrungen sicherzustellen, dass er von auftretenden Störungen unverzüglich Kenntnis erlangt. Störungen sind unverzüglich zu beheben."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "Der Betreiber des Registers hat durch organisatorische und technische Vorkehrungen sicherzustellen, dass für blinde und sehbehinderte Personen ein barrierefreier Zugang zum Register gewährleistet ist. Für die Gestaltung des Registers ist die Barrierefreie-Informationstechnik-Verordnung vom 12. September 2011 (BGBl. I S. 1843) in der jeweils geltenden Fassung entsprechend anzuwenden."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(1) § 2 Absatz 4 Satz 2, Absatz 5 Nummer 2 und 3 dieser Verordnung tritt am 1. Januar 2017 in Kraft."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(2) § 2 Absatz 5 Nummer 1 dieser Verordnung tritt am 1. Januar 2018 in Kraft."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(3) Im Übrigen tritt diese Verordnung am 1. Januar 2016 in Kraft."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id42 a dtd:amtabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id43 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-11-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id78 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id81 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id44 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id166 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id167 .
+
+dtd:fussnoten-id82 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id119 .
+
+dtd:fussnoten-id86 a dtd:fussnoten .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:jurabk-id80 a dtd:jurabk ;
+    dtd:has_Value "SRV"@de .
+
+dtd:kurzue-id45 a dtd:kurzue ;
+    dtd:has_Value "Schutzschriftenregisterverordnung"@de .
+
+dtd:langue-id46 a dtd:langue ;
+    dtd:has_Value "Verordnung über das elektronische Schutzschriftenregister"@de .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id42 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id43 ;
+    dtd:has_fundstelle dtd:fundstelle-id44 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_kurzue dtd:kurzue-id45 ;
+    dtd:has_langue dtd:langue-id46 ;
+    dtd:has_standangabe dtd:standangabe-id47 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id35 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:metadaten-id37 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id78 ;
+    dtd:has_jurabk dtd:jurabk-id77 ;
+    dtd:has_titel dtd:titel-id79 .
+
+dtd:metadaten-id39 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id81 ;
+    dtd:has_jurabk dtd:jurabk-id80 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE001000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id35 ;
+    dtd:has_textdaten dtd:textdaten-id36 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id37 ;
+    dtd:has_textdaten dtd:textdaten-id38 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE001200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id39 ;
+    dtd:has_textdaten dtd:textdaten-id40 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000303125"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20220731213146"@de ;
+    dtd:has_doknr "BJNR213500015BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:periodikum-id166 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id165 a dtd:pre ;
+    dtd:has_BR dtd:BR-id97,
+        dtd:BR-id98 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2016 +++)"@de .
+
+dtd:standangabe-id47 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id169 ;
+    dtd:has_standtyp dtd:standtyp-id168 .
+
+dtd:standkommentar-id169 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 14 G v. 7.7.2021 I 2363"@de .
+
+dtd:standtyp-id168 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id149 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id163 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id36 a dtd:textdaten ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id38 a dtd:textdaten ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id40 a dtd:textdaten ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Inhalt und Aufbau des Registers"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Einreichung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Einstellung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Abruf"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Protokollierungs- und Mitteilungspflichten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Löschung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Datensicherheit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Störungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Barrierefreiheit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id79 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id167 a dtd:zitstelle ;
+    dtd:has_Value "2015, 2135"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

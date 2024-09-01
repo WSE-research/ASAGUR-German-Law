@@ -1,0 +1,536 @@
+@prefix dtd: <urn:LFBAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230426213002"@de ;
+    dtd:has_doknr "BJNR003540954"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118,
+        dtd:P-id119,
+        dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122,
+        dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DL-id48 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69,
+        dtd:DD-id70,
+        dtd:DD-id71,
+        dtd:DD-id72,
+        dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id49,
+        dtd:DT-id50,
+        dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53,
+        dtd:DT-id54,
+        dtd:DT-id55,
+        dtd:DT-id56,
+        dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id75 a dtd:DL ;
+    dtd:has_DD dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89 ;
+    dtd:has_DT dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "9."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "10."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "11."@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "12."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "13."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "14."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "15."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "16."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "17."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "18."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "19."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "20."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Vorarbeiten für den Erlaß der Bau-, Prüf- und Betriebsvorschriften für Luftfahrtgerät und der Ausbildungs- und Prüfvorschriften für Luftfahrtpersonal,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Führen der Flugbegleiterdatei und Bekanntgabe der Liste der Organisationen, die Flugbegleiterschulungen durchführen,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Genehmigungsbehörde im Sinne des Anhangs IV der Verordnung (EU) Nr. 1178/2011 der Kommission vom 3. November 2011 zur Festlegung technischer Vorschriften und von Verwaltungsverfahren in Bezug auf das fliegende Personal in der Zivilluftfahrt gemäß der Verordnung (EG) Nr. 216/2008 des Europäischen Parlaments und des Rates (ABl. L 311 vom 25.11.2011, S. 1), die durch die Verordnung (EU) Nr. 290/2012 (ABl. L 100 vom 5.4.2012, S. 1) geändert worden ist, und als zuständige Behörde im Sinne der Anhänge V und VI der Verordnung (EU) Nr. 1178/2011, soweit Flugbegleiterbescheinigungen betroffen sind,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Sammlung von Nachrichten über Luftfahrtpersonal und Luftfahrtgerät sowie die Auskunftserteilung über diese Nachrichten,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Sammlung und die Sichtung von Berichten und sonstigen Unterlagen über die Luftfahrttechnik, den Betrieb von Luftfahrtgerät und das Luftfahrtpersonal, soweit sie für die Aufgaben des Luftfahrt-Bundesamtes notwendig sind,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Prüfung des technischen und betrieblichen Zustandes und der finanziellen Leistungsfähigkeit der Luftfahrtunternehmen und Luftfahrerschulen, für deren Genehmigung das Bundesministerium für Verkehr und digitale Infrastruktur oder das Luftfahrt-Bundesamt zuständig sind,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Antrag die Erstattung von Gutachten über die Prüfung des technischen und betrieblichen Zustandes und der finanziellen Leistungsfähigkeit der Luftfahrtunternehmen und Luftfahrerschulen, für deren Genehmigung die Länder zuständig sind,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die stichprobenweise Kontrolle des technischen und betrieblichen Zustandes von Luftfahrzeugen sowie der Dienstfähigkeit von Luftfahrzeugführern nach Maßgabe von § 4a Absatz 1 des Luftverkehrsgesetzes als Maßnahme der Luftaufsicht nach § 29 des Luftverkehrsgesetzes. Soweit das Luftfahrt-Bundesamt diese Kontrollen im Einzelfall ausführt, tritt die luftaufsichtliche Kontrolle durch die Länder zurück. Das Luftfahrt-Bundesamt kann die vorstehenden Aufgaben durch Verwaltungsakt oder öffentlich-rechtlichen Vertrag (Beleihung) auch auf andere Stellen übertragen oder sich anderer geeigneter Personen als Hilfsorgane bei der Wahrnehmung dieser Aufgaben bedienen. Kontrollen der Dienstfähigkeit von Luftfahrzeugführern dürfen jedoch nur unter ärztlicher Aufsicht durchgeführt werden,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Abwehr von Angriffen auf die Sicherheit des Luftverkehrs nach § 2 Satz 1 des Luftsicherheitsgesetzes, soweit es nach § 16 des Luftsicherheitsgesetzes hierfür zuständig ist,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Notifizierende Behörde im Sinne des Artikels 19 der Delegierten Verordnung (EU) 2019/945 der Kommission vom 12. März 2019 über unbemannte Luftfahrzeugsysteme und Drittlandbetreiber unbemannter Luftfahrzeugsysteme (ABl. L 152 vom 11.6.2019, S. 1), die durch die Delegierte Verordnung (EU) 2020/1058 (ABl. L 232 vom 20.7.2020, S. 1) geändert worden ist."@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Prüfung oder Überwachung der Prüfungen zur Feststellung der Verkehrssicherheit (Lufttüchtigkeit) des Luftfahrtgeräts nach der Prüfordnung für Luftfahrtgerät,"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zulassung der Muster des Luftfahrtgeräts,"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zulassung des Luftfahrtgeräts zum Luftverkehr,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Führung der Luftfahrzeugrolle sowie sonstiger Verzeichnisse für Luftfahrtgerät,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erteilung der Erlaubnis für Berufsflugzeugführer, Linienflugzeugführer, berufsmäßige Führer von Drehflüglern, Flugnavigatoren, Flugingenieure und Führer von Luftschiffen sowie die Erteilung der Berechtigungen nach der Prüfordnung für Luftfahrtpersonal an diese Personen,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Anerkennung von flugmedizinischen Sachverständigen und Zentren sowie die Entgegennahme von Meldungen von Ärzten für Arbeitsmedizin für die Durchführung von flugmedizinischen Beurteilungen von Flugbegleitern,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erteilung der Erlaubnis für die Ausbildung der in Nummer 5 genannten Luftfahrer,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erteilung der Erlaubnis für Prüfer von Luftfahrtgerät und Flugdienstberater,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erteilung von Besatzungsausweisen für Fluglinienpersonal,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Abnahme der Prüfungen zum Erwerb der Instrumentenflugberechtigung von den nicht in Nummer 5 genannten Luftfahrern,"@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_BR dtd:BR-id45 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.10.1980 +++)"@de ;
+    dtd:has_pre dtd:pre-id126 .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(1) Als Bundesoberbehörde für Aufgaben der Zivilluftfahrt wird das Luftfahrt-Bundesamt errichtet, das dem Bundesministerium für Verkehr und digitale Infrastruktur untersteht."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium für Verkehr und digitale Infrastruktur bestimmt den Sitz des Luftfahrt-Bundesamts."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_DL dtd:DL-id48,
+        dtd:DL-id75 ;
+    dtd:has_Value "(1) Das Luftfahrt-Bundesamt hat insbesondere folgende Aufgaben: 1.die Prüfung oder Überwachung der Prüfungen zur Feststellung der Verkehrssicherheit (Lufttüchtigkeit) des Luftfahrtgeräts nach der Prüfordnung für Luftfahrtgerät,2.die Zulassung der Muster des Luftfahrtgeräts,3.die Zulassung des Luftfahrtgeräts zum Luftverkehr,4.die Führung der Luftfahrzeugrolle sowie sonstiger Verzeichnisse für Luftfahrtgerät,5.die Erteilung der Erlaubnis für Berufsflugzeugführer, Linienflugzeugführer, berufsmäßige Führer von Drehflüglern, Flugnavigatoren, Flugingenieure und Führer von Luftschiffen sowie die Erteilung der Berechtigungen nach der Prüfordnung für Luftfahrtpersonal an diese Personen,6.die Anerkennung von flugmedizinischen Sachverständigen und Zentren sowie die Entgegennahme von Meldungen von Ärzten für Arbeitsmedizin für die Durchführung von flugmedizinischen Beurteilungen von Flugbegleitern,7.die Erteilung der Erlaubnis für die Ausbildung der in Nummer 5 genannten Luftfahrer,8.die Erteilung der Erlaubnis für Prüfer von Luftfahrtgerät und Flugdienstberater,9.die Erteilung von Besatzungsausweisen für Fluglinienpersonal,10.die Abnahme der Prüfungen zum Erwerb der Instrumentenflugberechtigung von den nicht in Nummer 5 genannten Luftfahrern,11.die Vorarbeiten für den Erlaß der Bau-, Prüf- und Betriebsvorschriften für Luftfahrtgerät und der Ausbildungs- und Prüfvorschriften für Luftfahrtpersonal,12.das Führen der Flugbegleiterdatei und Bekanntgabe der Liste der Organisationen, die Flugbegleiterschulungen durchführen,13.Genehmigungsbehörde im Sinne des Anhangs IV der Verordnung (EU) Nr. 1178/2011 der Kommission vom 3. November 2011 zur Festlegung technischer Vorschriften und von Verwaltungsverfahren in Bezug auf das fliegende Personal in der Zivilluftfahrt gemäß der Verordnung (EG) Nr. 216/2008 des Europäischen Parlaments und des Rates (ABl. L 311 vom 25.11.2011, S. 1), die durch die Verordnung (EU) Nr. 290/2012 (ABl. L 100 vom 5.4.2012, S. 1) geändert worden ist, und als zuständige Behörde im Sinne der Anhänge V und VI der Verordnung (EU) Nr. 1178/2011, soweit Flugbegleiterbescheinigungen betroffen sind,14.die Sammlung von Nachrichten über Luftfahrtpersonal und Luftfahrtgerät sowie die Auskunftserteilung über diese Nachrichten,15.die Sammlung und die Sichtung von Berichten und sonstigen Unterlagen über die Luftfahrttechnik, den Betrieb von Luftfahrtgerät und das Luftfahrtpersonal, soweit sie für die Aufgaben des Luftfahrt-Bundesamtes notwendig sind,16.die Prüfung des technischen und betrieblichen Zustandes und der finanziellen Leistungsfähigkeit der Luftfahrtunternehmen und Luftfahrerschulen, für deren Genehmigung das Bundesministerium für Verkehr und digitale Infrastruktur oder das Luftfahrt-Bundesamt zuständig sind,17.auf Antrag die Erstattung von Gutachten über die Prüfung des technischen und betrieblichen Zustandes und der finanziellen Leistungsfähigkeit der Luftfahrtunternehmen und Luftfahrerschulen, für deren Genehmigung die Länder zuständig sind,18.die stichprobenweise Kontrolle des technischen und betrieblichen Zustandes von Luftfahrzeugen sowie der Dienstfähigkeit von Luftfahrzeugführern nach Maßgabe von § 4a Absatz 1 des Luftverkehrsgesetzes als Maßnahme der Luftaufsicht nach § 29 des Luftverkehrsgesetzes. Soweit das Luftfahrt-Bundesamt diese Kontrollen im Einzelfall ausführt, tritt die luftaufsichtliche Kontrolle durch die Länder zurück. Das Luftfahrt-Bundesamt kann die vorstehenden Aufgaben durch Verwaltungsakt oder öffentlich-rechtlichen Vertrag (Beleihung) auch auf andere Stellen übertragen oder sich anderer geeigneter Personen als Hilfsorgane bei der Wahrnehmung dieser Aufgaben bedienen. Kontrollen der Dienstfähigkeit von Luftfahrzeugführern dürfen jedoch nur unter ärztlicher Aufsicht durchgeführt werden,19.die Abwehr von Angriffen auf die Sicherheit des Luftverkehrs nach § 2 Satz 1 des Luftsicherheitsgesetzes, soweit es nach § 16 des Luftsicherheitsgesetzes hierfür zuständig ist,20.Notifizierende Behörde im Sinne des Artikels 19 der Delegierten Verordnung (EU) 2019/945 der Kommission vom 12. März 2019 über unbemannte Luftfahrzeugsysteme und Drittlandbetreiber unbemannter Luftfahrzeugsysteme (ABl. L 152 vom 11.6.2019, S. 1), die durch die Delegierte Verordnung (EU) 2020/1058 (ABl. L 232 vom 20.7.2020, S. 1) geändert worden ist."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium für Verkehr und digitale Infrastruktur kann dem Luftfahrt-Bundesamt weitere Aufgaben des Bundes auf dem Gebiet der Luftfahrt zuweisen."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(3) Das Luftfahrt-Bundesamt kann die Aufgabe der Erteilung von Flugbegleiterbescheinigungen nach Absatz 1 Nummer 13 auf gewerbliche Luftverkehrsbetreiber oder auf zugelassene Ausbildungsorganisationen im Sinne der Verordnung (EU) Nr. 1178/2011 übertragen."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesministerium für Verkehr und digitale Infrastruktur erläßt die für das Luftfahrt-Bundesamt zur Durchführung des Gesetzes erforderlichen allgemeinen Verwaltungsvorschriften."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1954-11-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id127 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id128 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id110 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:fussnoten-id42 a dtd:fussnoten .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "LFBAG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "LFBAG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "LFBAG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "LFBAG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "LFBAG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "LFBAG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Gesetz über das Luftfahrt-Bundesamt"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230426213002"@de ;
+    dtd:has_doknr "BJNR003540954"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230426213002"@de ;
+    dtd:has_doknr "BJNR003540954BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230426213002"@de ;
+    dtd:has_doknr "BJNR003540954BJNE000203305"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230426213002"@de ;
+    dtd:has_doknr "BJNR003540954BJNE000310360"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230426213002"@de ;
+    dtd:has_doknr "BJNR003540954BJNE000404305"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230426213002"@de ;
+    dtd:has_doknr "BJNR003540954BJNE000500328"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id127 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id126 a dtd:pre ;
+    dtd:has_BR dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.10.1980 +++)"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id130 ;
+    dtd:has_standtyp dtd:standtyp-id129 .
+
+dtd:standkommentar-id130 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 5 G v. 14.6.2021 I 1766"@de .
+
+dtd:standtyp-id129 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id42 ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:zitstelle-id128 a dtd:zitstelle ;
+    dtd:has_Value "1954, 354"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

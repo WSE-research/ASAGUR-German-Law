@@ -1,0 +1,65 @@
+@prefix dtd: <urn:PfPTrStat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154836"@de ;
+    dtd:has_doknr "BJNR134020998"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:Content-id11 a dtd:Content ;
+    dtd:has_P dtd:P-id12 .
+
+dtd:P-id12 a dtd:P ;
+    dtd:has_Value "G v. 9.7.1998 I 1338 * In Kraft gem. Bek. v. 25.5.1999 II 465 mWv 24.10.1998"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1995-06-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id13 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id14 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id11 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "PfPTrStat"@de .
+
+dtd:langue-id8 a dtd:langue ;
+    dtd:has_Value """Übereinkommen vom 19. Juni 1995 zwischen den Vertragsstaaten des
+Nordatlantikvertrags und den anderen an der Partnerschaft für den
+Frieden teilnehmenden Staaten über die Rechtsstellung ihrer Truppen"""@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id8 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154836"@de ;
+    dtd:has_doknr "BJNR134020998"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id13 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id9 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 ;
+    dtd:has_text dtd:text-id9 .
+
+dtd:zitstelle-id14 a dtd:zitstelle ;
+    dtd:has_Value "1998, 1340"@de .
+

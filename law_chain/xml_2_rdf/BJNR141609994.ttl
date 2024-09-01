@@ -1,0 +1,407 @@
+@prefix dtd: <urn:GNG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81 .
+
+dtd:Content-id82 a dtd:Content ;
+    dtd:has_P dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85 .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_BR dtd:BR-id62,
+        dtd:BR-id63,
+        dtd:BR-id64,
+        dtd:BR-id65,
+        dtd:BR-id66,
+        dtd:BR-id67 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 7.1994 +++)  Art. 1: BGA-NachfG 2120-4-1 Art. 2: Institut für Wasser-, Boden- und Lufthygiene Art. 3 bis 9: Änderungsvorschriften Art. 10: Rückkehr zum einheitlichen Verordnungsrang Art. 11: Inkrafttreten"@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Das Institut für Wasser-, Boden- und Lufthygiene wird in das Umweltbundesamt eingegliedert. Beamte und Arbeitnehmer dieses Institutes sind vom Tage der Eingliederung an Beamte und Arbeitnehmer des Umweltbundesamtes."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "Die auf den Artikeln 1 und 3 bis 8 beruhenden Teile der dort geänderten Rechtsverordnungen können auf Grund der jeweils einschlägigen Ermächtigung durch Rechtsverordnung geändert werden."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-06-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id106 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id107 .
+
+dtd:fussnoten-id50 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id70 .
+
+dtd:fussnoten-id52 a dtd:fussnoten .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id61 a dtd:fussnoten .
+
+dtd:gliederungsbez-id101 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 10"@de .
+
+dtd:gliederungsbez-id104 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 11"@de .
+
+dtd:gliederungsbez-id87 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:gliederungsbez-id90 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:gliederungsbez-id93 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:gliederungsbez-id95 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:gliederungsbez-id98 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 3 bis 9"@de .
+
+dtd:gliederungseinheit-id33 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id87 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id86 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id88 .
+
+dtd:gliederungseinheit-id35 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id90 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id89 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id91 .
+
+dtd:gliederungseinheit-id37 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id93 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id92 .
+
+dtd:gliederungseinheit-id41 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id95 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id94 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id96 .
+
+dtd:gliederungseinheit-id44 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id98 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id97 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id99 .
+
+dtd:gliederungseinheit-id46 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id101 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id100 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id102 .
+
+dtd:gliederungseinheit-id48 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id104 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id103 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id105 .
+
+dtd:gliederungskennzahl-id100 a dtd:gliederungskennzahl ;
+    dtd:has_Value "100"@de .
+
+dtd:gliederungskennzahl-id103 a dtd:gliederungskennzahl ;
+    dtd:has_Value "110"@de .
+
+dtd:gliederungskennzahl-id86 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id89 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id92 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id94 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id97 a dtd:gliederungskennzahl ;
+    dtd:has_Value "030"@de .
+
+dtd:gliederungstitel-id102 a dtd:gliederungstitel ;
+    dtd:has_Value """Rückkehr zum einheitlichen
+Verordnungsrang"""@de .
+
+dtd:gliederungstitel-id105 a dtd:gliederungstitel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de .
+
+dtd:gliederungstitel-id88 a dtd:gliederungstitel ;
+    dtd:has_Value """Gesetz über Nachfolgeeinrichtungen des
+Bundesgesundheitsamtes (BGA-Nachfolgegesetz - BGA-NachfG)"""@de .
+
+dtd:gliederungstitel-id91 a dtd:gliederungstitel ;
+    dtd:has_Value """Institut für Wasser-, Boden- und
+Lufthygiene"""@de .
+
+dtd:gliederungstitel-id96 a dtd:gliederungstitel ;
+    dtd:has_Value ""@de .
+
+dtd:gliederungstitel-id99 a dtd:gliederungstitel ;
+    dtd:has_Value ""@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "GNG"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "Gesundheitseinrichtungen-Neuordnungs-Gesetz"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Neuordnung zentraler Einrichtungen des Gesundheitswesens"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994BJNG000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994BJNG000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994BJNE000600307"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994BJNE000700307"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994BJNG000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994BJNG000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20120625151757"@de ;
+    dtd:has_doknr "BJNR141609994BJNG000500307"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id106 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id82 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Eingliederung, Übernahme der Beamten und Arbeitnehmer"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id107 a dtd:zitstelle ;
+    dtd:has_Value "1994, 1416"@de .
+

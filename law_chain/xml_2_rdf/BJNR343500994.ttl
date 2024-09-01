@@ -1,0 +1,287 @@
+@prefix dtd: <urn:EBArbSchV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093927"@de ;
+    dtd:has_doknr "BJNR343500994"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61,
+        dtd:P-id62,
+        dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53 .
+
+dtd:DL-id38 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45,
+        dtd:DD-id46,
+        dtd:DD-id47,
+        dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id39,
+        dtd:DT-id40,
+        dtd:DT-id41,
+        dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Propanweichenheizungen einschließlich der Versorgungsbehälter,"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gasbeleuchtungseinrichtungen für Signale,"@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Druckluftbehälter in Schaltanlagen des Bahnstromnetzes,"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anlagen zur Abwicklung des Eisenbahnbetriebes wie Gleise, Rangiereinrichtungen, Signalanlagen, Stellwerke, Eisenbahnbrücken, Eisenbahntunnel,"@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anlagen der Bahnstromversorgung (Umspann- und Umformerwerke einschließlich Schaltanlagen), Fernleitungen, Fahrleitungen und Fahrschienen."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1.12.1994 +++)"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 5 Abs. 5 des Allgemeinen Eisenbahngesetzes vom 27. Dezember 1993 (BGBl. I S. 2378, 2396) verordnet das Bundesministerium für Verkehr im Einvernehmen mit dem Bundesministerium für Arbeit und Sozialordnung:"@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(1) Die Überwachung der Einhaltung staatlicher Vorschriften des technischen Arbeitsschutzes obliegt im Bereich der Eisenbahnen des Bundes sowie der Eisenbahnverkehrsunternehmen mit Sitz im Ausland für das Gebiet der Bundesrepublik Deutschland dem Eisenbahn-Bundesamt, soweit diese Vorschriften den Betrieb von Schienenfahrzeugen und Anlagen, die unmittelbar der Sicherstellung des Betriebsablaufs dienen, betreffen. Satz 1 gilt nicht bei Sperrung oder Außerbetriebnahme einer Anlage für die Dauer der Sperrung oder Außerbetriebnahme."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_DL dtd:DL-id38 ;
+    dtd:has_Value "(2) Anlagen im Sinne des Absatzes 1 sind 1.Propanweichenheizungen einschließlich der Versorgungsbehälter, 2.Gasbeleuchtungseinrichtungen für Signale, 3.Druckluftbehälter in Schaltanlagen des Bahnstromnetzes, 4.Anlagen zur Abwicklung des Eisenbahnbetriebes wie Gleise, Rangiereinrichtungen, Signalanlagen, Stellwerke, Eisenbahnbrücken, Eisenbahntunnel, 5.Anlagen der Bahnstromversorgung (Umspann- und Umformerwerke einschließlich Schaltanlagen), Fernleitungen, Fahrleitungen und Fahrschienen.  "@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(3) Die Aufgaben, Zuständigkeiten und Befugnisse der Träger der gesetzlichen Unfallversicherung im Arbeitsschutz bleiben unberührt."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am ersten Tage des auf die Verkündung folgenden Kalendermonats in Kraft."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-11-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id68 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id69 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id56 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "EBArbSchV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "EBArbSchV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "EBArbSchV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "EBArbSchV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "EBArbSchV"@de .
+
+dtd:kurzue-id20 a dtd:kurzue ;
+    dtd:has_Value "Eisenbahn-Arbeitsschutzzuständigkeitsverordnung"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Übertragung von Zuständigkeiten im Bereich des
+technischen Arbeitsschutzes bei Eisenbahnen des Bundes"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id20 ;
+    dtd:has_langue dtd:langue-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093927"@de ;
+    dtd:has_doknr "BJNR343500994"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093927"@de ;
+    dtd:has_doknr "BJNR343500994BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093927"@de ;
+    dtd:has_doknr "BJNR343500994BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093927"@de ;
+    dtd:has_doknr "BJNR343500994BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131008093927"@de ;
+    dtd:has_doknr "BJNR343500994BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id68 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id69 a dtd:zitstelle ;
+    dtd:has_Value "1994, 3435"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

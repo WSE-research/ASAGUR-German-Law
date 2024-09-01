@@ -1,0 +1,526 @@
+@prefix dtd: <urn:WStatG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130502220015"@de ;
+    dtd:has_doknr "BJNR102310999"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:BR-id89 a dtd:BR .
+
+dtd:BR-id90 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107,
+        dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114,
+        dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119,
+        dtd:P-id120,
+        dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id99 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DL-id91 a dtd:DL ;
+    dtd:has_DD dtd:DD-id94,
+        dtd:DD-id95 ;
+    dtd:has_DT dtd:DT-id92,
+        dtd:DT-id93 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Wahlberechtigten, Wahlscheinvermerke und die Beteiligung an der Wahl nach Geschlecht und Geburtsjahresgruppen,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Wähler und ihre Stimmabgabe für die einzelnen Wahlvorschläge nach Geschlecht und Geburtsjahresgruppen sowie die Gründe für die Ungültigkeit von Stimmen"@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "Das Ergebnis der Wahl zum Deutschen Bundestag und der Wahl der Abgeordneten des Europäischen Parlaments aus der Bundesrepublik Deutschland ist unter Wahrung des Wahlgeheimnisses statistisch auszuwerten; die Auswertung ist zu veröffentlichen."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_DL dtd:DL-id91 ;
+    dtd:has_Value "(1) Aus dem Ergebnis der Wahlen gemäß § 1 sind unter Wahrung des Wahlgeheimnisses in ausgewählten Wahlbezirken repräsentative Wahlstatistiken über a)die Wahlberechtigten, Wahlscheinvermerke und die Beteiligung an der Wahl nach Geschlecht und Geburtsjahresgruppen, b)die Wähler und ihre Stimmabgabe für die einzelnen Wahlvorschläge nach Geschlecht und Geburtsjahresgruppen sowie die Gründe für die Ungültigkeit von Stimmen als Bundesstatistik zu erstellen."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(2) In die Statistik nach Absatz 1 Buchstabe b sind ausgewählte Briefwahlbezirke einzubeziehen. Ein Briefwahlbezirk wird bestimmt durch die dem Briefwahlvorstand zugewiesene Zuständigkeit nach Wahlbezirken, die auf der Grundlage von § 2 Abs. 3 des Bundeswahlgesetzes oder von § 3 Abs. 2 des Europawahlgesetzes gebildet worden sind."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "Die Auswahl der Stichprobenwahlbezirke und der Stichprobenbriefwahlbezirke trifft der Bundeswahlleiter im Einvernehmen mit den Landeswahlleitern und den statistischen Ämtern der Länder. Es dürfen nicht mehr als jeweils 5 vom Hundert der Wahlbezirke und der Briefwahlbezirke des Bundesgebietes und nicht mehr als jeweils 10 vom Hundert der Wahlbezirke und der Briefwahlbezirke eines Landes an den Statistiken nach § 2 teilnehmen. Ein für die Statistiken nach § 2 Abs. 1 ausgewählter Wahlbezirk muss mindestens 400 Wahlberechtigte, ein für die Statistik nach § 2 Abs. 1 Buchstabe b ausgewählter Briefwahlbezirk mindestens 400 Wähler umfassen. Für die Auswahl der Stichprobenbriefwahlbezirke ist auf die Zahl der Wähler abzustellen, die bei der vorangegangenen Bundestags- oder Europawahl ihre Stimme durch Briefwahl abgegeben haben. Die Wahlberechtigten sind in geeigneter Weise darauf hinzuweisen, dass der Wahlbezirk oder der Briefwahlbezirk in eine repräsentative Wahlstatistik einbezogen ist."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "Erhebungsmerkmale für die Statistik nach § 2 Abs. 1 Buchstabe a sind Wahlberechtigte, Wahlscheinvermerk, Beteiligung an der Wahl, Geburtsjahresgruppe und Geschlecht. Hierfür dürfen höchstens zehn Geburtsjahresgruppen gebildet werden, in denen jeweils mindestens drei Geburtsjahrgänge zusammengefaßt sind. Erhebungsmerkmale für die Statistik nach § 2 Abs. 1 Buchstabe b sind abgegebene Stimme, ungültige Stimme, Ungültigkeitsgrund, Geburtsjahresgruppe und Geschlecht. Hierfür dürfen höchstens sechs Geburtsjahresgruppen gebildet werden, in denen jeweils mindestens sieben Geburtsjahrgänge zusammengefaßt sind. Hilfsmerkmale für beide Statistiken sind Wahlbezirk oder Briefwahlbezirk und statistische Gemeindekennziffer, bei der Wahl zum Deutschen Bundestag auch Wahlkreis."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(1) Die Statistik nach § 2 Abs. 1 Buchstabe a wird von den Gemeinden, in denen ausgewählte Wahlbezirke liegen, unter Auszählung der Wählverzeichnisse durchgeführt. Die Gemeinden teilen die Ergebnisse getrennt nach Wahlbezirken dem zuständigen statistischen Amt des Landes mit."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(2) Die Statistik nach § 2 Abs. 1 Buchstabe b wird unter Verwendung von amtlichen Stimmzetteln, welche zudem Unterscheidungsmerkmale nach Geschlecht und Geburtsjahresgruppen enthalten, oder unter Verwendung hierfür zugelassener Wahlgeräte durchgeführt. Die Gemeindebehörden und andere Stellen, die Briefwahlvorstände berufen haben, leiten die ihnen von den Wahlvorstehern übergebenen verpackten und versiegelten Stimmzettel ungeöffnet und getrennt nach Wahlbezirken und Briefwahlbezirken zur Auswertung an das zuständige statistische Amt des Landes weiter; die Gemeindebehörden leiten Ergebnisaufzeichnungen von Wahlgeräten der für die Statistik ausgewählten Wahlbezirke entsprechend weiter. Gemeinden mit einer Statistikstelle, welche die Voraussetzungen des § 16 Abs. 5 Satz 2 des Bundesstatistikgesetzes vom 22. Januar 1987 (BGBl. I S. 462, 565), zuletzt geändert durch Artikel 3 Abs. 18 des Gesetzes vom 21. Dezember 2000 (BGBl. I S. 1857), erfüllt, können die Auswertung der Stimmzettel mit Zustimmung des Landeswahlleiters selbst in der Statistikstelle vornehmen; sie teilen die Ergebnisse getrennt nach Wahlbezirken und nach Briefwahlbezirken dem zuständigen statistischen Amt des Landes mit. Wählerverzeichnisse und gekennzeichnete Stimmzettel oder Ergebnisaufzeichnungen von Wahlgeräten dürfen nicht zusammengeführt werden."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "Gemeinden dürfen bei den in § 1 genannten Wahlen mit Zustimmung des Landeswahlleiters außer in den für die Statistiken nach § 2 ausgewählten in weiteren Wahlbezirken und Briefwahlbezirken für eigene statistische Zwecke wahlstatistische Auszählungen unter Verwendung gemäß § 5 Abs. 2 Satz 1 gekennzeichneter Stimmzettel oder hierfür zugelassener Wahlgeräte durchführen. Der Auswahlsatz in einer Gemeinde darf hierfür jeweils insgesamt 15 vom Hundert der in ihr gelegenen Wahlbezirke und Briefwahlbezirke nicht überschreiten. § 3 Satz 3 bis 5 sowie § 4 gelten entsprechend. Die wahlstatistischen Auszählungen dürfen nur in Gemeinden mit einer Statistikstelle, welche die Voraussetzungen des § 16 Abs. 5 Satz 2 des Bundesstatistikgesetzes erfüllt, vorgenommen werden. Wählerverzeichnisse und gekennzeichnete Stimmzettel oder Ergebnisaufzeichnungen von Wahlgeräten dürfen nicht zusammengeführt werden."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(1) Durch die Statistiken nach § 2 und die wahlstatistischen Auszählungen nach § 6 darf die Feststellung von Wahlergebnissen nicht verzögert werden."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(2) Die statistischen Ämter der Länder teilen die Ergebnisse der Statistiken nach § 2 dem Statistischen Bundesamt mit."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(3) Nach Abschluß der Aufbereitung durch die statistischen Ämter der Länder sind die Wahlunterlagen unverzüglich den Gemeindebehörden und andere Stellen, die Briefwahlvorstände berufen haben, zurückzugeben und von diesen entsprechend den wahlrechtlichen Bestimmungen zu behandeln."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "Die Ergebnisse der Statistiken nach § 2 dürfen nur für die Bundes- und Landesebene und die der wahlstatistischen Auszählungen nach § 6 nur für die Ebene der Gemeinde veröffentlicht werden. Ergebnisse für einzelne Wahlbezirke und einzelne Briefwahlbezirke dürfen nicht bekannt gegeben werden. Die Veröffentlichung von Ergebnissen oberhalb der Gemeindeebene ist dem Statistischen Bundesamt und den statistischen Ämtern der Länder vorbehalten."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_BR dtd:BR-id88 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.6.1999 +++)Das G wurde als Artikel 1 des G v. 21.5.1999 I 1023 (WahlStatG) vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 6 dieses G am 1.6.1999 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id124 .
+
+dtd:amtabk-id36 a dtd:amtabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id37 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-05-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id131 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id132 .
+
+dtd:fussnoten-id70 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id98 .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:fussnoten-id79 a dtd:fussnoten .
+
+dtd:fussnoten-id81 a dtd:fussnoten .
+
+dtd:fussnoten-id83 a dtd:fussnoten .
+
+dtd:fussnoten-id85 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:gliederungsbez-id126 a dtd:gliederungsbez ;
+    dtd:has_Value "1. Abschnitt"@de .
+
+dtd:gliederungsbez-id129 a dtd:gliederungsbez ;
+    dtd:has_Value "2. Abschnitt"@de .
+
+dtd:gliederungseinheit-id43 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id126 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id125 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id127 .
+
+dtd:gliederungseinheit-id48 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id129 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id128 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id130 .
+
+dtd:gliederungskennzahl-id125 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id128 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungstitel-id127 a dtd:gliederungstitel ;
+    dtd:has_Value "Allgemeine Wahlstatistik"@de .
+
+dtd:gliederungstitel-id130 a dtd:gliederungstitel ;
+    dtd:has_Value "Repräsentative Wahlstatistik"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "WStatG"@de .
+
+dtd:kurzue-id39 a dtd:kurzue ;
+    dtd:has_Value "Wahlstatistikgesetz"@de .
+
+dtd:langue-id40 a dtd:langue ;
+    dtd:has_Value "Gesetz über die allgemeine und die repräsentative Wahlstatistik bei der Wahl zum Deutschen Bundestag und bei der Wahl der Abgeordneten des Europäischen Parlaments aus der Bundesrepublik Deutschland"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id36 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id37 ;
+    dtd:has_fundstelle dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_kurzue dtd:kurzue-id39 ;
+    dtd:has_langue dtd:langue-id40 ;
+    dtd:has_standangabe dtd:standangabe-id41 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130502220016"@de ;
+    dtd:has_doknr "BJNR102310999BJNE000801377"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130502220016"@de ;
+    dtd:has_doknr "BJNR102310999BJNE000901377"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130502220016"@de ;
+    dtd:has_doknr "BJNR102310999BJNE001001377"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130502220015"@de ;
+    dtd:has_doknr "BJNR102310999"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130502220015"@de ;
+    dtd:has_doknr "BJNR102310999BJNG000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130502220015"@de ;
+    dtd:has_doknr "BJNR102310999BJNE000300310"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130502220015"@de ;
+    dtd:has_doknr "BJNR102310999BJNG000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130502220016"@de ;
+    dtd:has_doknr "BJNR102310999BJNE000401377"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130502220016"@de ;
+    dtd:has_doknr "BJNR102310999BJNE000501377"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130502220016"@de ;
+    dtd:has_doknr "BJNR102310999BJNE000602377"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130502220016"@de ;
+    dtd:has_doknr "BJNR102310999BJNE000701377"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id131 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id124 a dtd:pre ;
+    dtd:has_BR dtd:BR-id89,
+        dtd:BR-id90 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.6.1999 +++)"@de .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id134 ;
+    dtd:has_standtyp dtd:standtyp-id133 .
+
+dtd:standkommentar-id134 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1a G v. 27.4.2013 I 962"@de .
+
+dtd:standtyp-id133 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id79 ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id81 ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id83 ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Durchführung der allgemeinen Wahlstatistik"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Art der Statistik"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Stichprobenauswahl"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Erhebungs- und Hilfsmerkmale sowie Bildung der Geburtsjahresgruppen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Durchführende Stellen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Wahlstatistische Auszählungen der Gemeinden"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Ergebnisfeststellung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Veröffentlichung der Ergebnisse"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id132 a dtd:zitstelle ;
+    dtd:has_Value "1999, 1023"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

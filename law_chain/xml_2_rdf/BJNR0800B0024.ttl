@@ -1,0 +1,601 @@
+@prefix dtd: <urn:LFVV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240426214501"@de ;
+    dtd:has_doknr "BJNR0800B0024"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128,
+        dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133,
+        dtd:P-id134,
+        dtd:P-id135,
+        dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140,
+        dtd:P-id141 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DL-id101 a dtd:DL ;
+    dtd:has_DD dtd:DD-id105,
+        dtd:DD-id106,
+        dtd:DD-id107 ;
+    dtd:has_DT dtd:DT-id102,
+        dtd:DT-id103,
+        dtd:DT-id104 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id68 a dtd:DL ;
+    dtd:has_DD dtd:DD-id71,
+        dtd:DD-id72 ;
+    dtd:has_DT dtd:DT-id69,
+        dtd:DT-id70 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id77,
+        dtd:DD-id78,
+        dtd:DD-id79 ;
+    dtd:has_DT dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id87 a dtd:DL ;
+    dtd:has_DD dtd:DD-id92,
+        dtd:DD-id93,
+        dtd:DD-id94,
+        dtd:DD-id95 ;
+    dtd:has_DT dtd:DT-id88,
+        dtd:DT-id89,
+        dtd:DT-id90,
+        dtd:DT-id91 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id96 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id97,
+        dtd:DT-id98 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:FnR-id57 a dtd:FnR ;
+    dtd:has_ID "F829717_01_BJNR0800B0024"@de .
+
+dtd:FnR-id58 a dtd:FnR ;
+    dtd:has_ID "F829717_02_BJNR0800B0024"@de .
+
+dtd:Footnote-id144 a dtd:Footnote ;
+    dtd:has_FnZ "*, "@de ;
+    dtd:has_Group dtd:column ;
+    dtd:has_ID "F829717_01_BJNR0800B0024"@de ;
+    dtd:has_Pos dtd:normal ;
+    dtd:has_Value "Diese Verordnung dient der Umsetzung der Richtlinie 96/22/EG des Rates vom 29. April 1996 über das Verbot der Verwendung bestimmter Stoffe mit hormonaler bzw. thyreostatischer Wirkung und von ß-Agonisten in der tierischen Erzeugung und zur Aufhebung der Richtlinien 81/602/EWG, 88/146/EWG und 88/299/EWG (ABl. L 125 vom 23.5.1996, S. 3), die zuletzt durch die Richtlinie 2008/97/EG des Europäischen Parlaments und des Rates vom 19. November 2008 (ABl. L 318 vom 28.11.2008, S. 9) geändert worden ist."@de ;
+    dtd:has_noindex dtd:noindex-id66 .
+
+dtd:Footnote-id145 a dtd:Footnote ;
+    dtd:has_FnZ "**"@de ;
+    dtd:has_Group dtd:column ;
+    dtd:has_ID "F829717_02_BJNR0800B0024"@de ;
+    dtd:has_Pos dtd:normal ;
+    dtd:has_Value "Notifiziert gemäß der Richtlinie (EU) 2015/1535 des Europäischen Parlaments und des Rates vom 9. September 2015 über ein Informationsverfahren auf dem Gebiet der technischen Vorschriften und der Vorschriften für die Dienste der Informationsgesellschaft (ABl. L 241 vom 17. September 2015, S. 1)."@de ;
+    dtd:has_noindex dtd:noindex-id67 .
+
+dtd:Footnotes-id143 a dtd:Footnotes ;
+    dtd:has_Footnote dtd:Footnote-id144,
+        dtd:Footnote-id145 .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "die Verbringung von Lebensmitteln, Futtermitteln und, soweit es ausdrücklich bestimmt ist, lebenden Tieren im Sinne des § 4 Absatz 1 Nummer 1 des Lebensmittel- und Futtermittelgesetzbuches in die Europäische Union und"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Value "die Durchführung amtlicher Kontrollen bei der Verbringung von Lebensmitteln, Futtermitteln und, soweit es ausdrücklich bestimmt ist, lebenden Tieren im Sinne des § 4 Absatz 1 Nummer 1 des Lebensmittel- und Futtermittelgesetzbuches in die Europäische Union nach a)Titel II Kapitel V der Verordnung (EU) 2017/625 des Europäischen Parlaments und des Rates vom 15. März 2017 über amtliche Kontrollen und andere amtliche Tätigkeiten zur Gewährleistung der Anwendung des Lebens- und Futtermittelrechts und der Vorschriften über Tiergesundheit und Tierschutz, Pflanzengesundheit und Pflanzenschutzmittel, zur Änderung der Verordnungen (EG) Nr. 999/2001, (EG) Nr. 396/2005, (EG) Nr. 1069/2009, (EG) Nr. 1107/2009, (EU) Nr. 1151/2012, (EU) Nr. 652/2014, (EU) 2016/429 und (EU) 2016/2031 des Europäischen Parlaments und des Rates, der Verordnungen (EG) Nr. 1/2005 und (EG) Nr. 1099/2009 des Rates sowie der Richtlinien 98/58/EG, 1999/74/EG, 2007/43/EG, 2008/119/EG und 2008/120/EG des Rates und zur Aufhebung der Verordnungen (EG) Nr. 854/2004 und (EG) Nr. 882/2004 des Europäischen Parlaments und des Rates, der Richtlinien 89/608/EWG, 89/662/EWG, 90/425/EWG, 91/496/EEG, 96/23/EG, 96/93/EG und 97/78/EG des Rates und des Beschlusses 92/438/EWG des Rates (Verordnung über amtliche Kontrollen) (ABl. L 95 vom 7.4.2017, S. 1; L 137 vom 24.5.2017, S. 40; L 48 vom 21.2.2018, S. 44; L 322 vom 18.12.2018, S. 85), die zuletzt durch die Verordnung (EU) 2021/1756 (ABl. L 357 vom 8.10.2021, S. 27) geändert worden ist,b)delegierten Rechtsakten, die die Kommission gemäß Artikel 19 Absatz 2, Artikel 45 Absatz 4, Artikel 47 Absatz 3, Artikel 48, Artikel 49 Absatz 5, Artikel 50 Absatz 4, Artikel 51 Absatz 1 und 2, Artikel 53 Absatz 1, Artikel 62 Absatz 3, Artikel 64 Absatz 2 und 5, Artikel 71 Absatz 3, Artikel 77 Absatz 1 und 2 und Artikel 126 Absatz 1 der Verordnung (EU) 2017/625 erlassen hat, undc)Durchführungsrechtsakten, die die Kommission gemäß Artikel 19 Absatz 3, Artikel 34 Absatz 6, Artikel 46 Absatz 2, Artikel 47 Absatz 2, Artikel 49 Absatz 4, Artikel 52, Artikel 54 Absatz 3 und 4, Artikel 58, Artikel 60 Absatz 2, Artikel 64 Absatz 4, Artikel 65 Absatz 6, Artikel 66 Absatz 2, Artikel 70, Artikel 73 Absatz 1 und 5, Artikel 74 Absatz 2, Artikel 75 Absatz 2, Artikel 77 Absatz 3, Artikel 90, Artikel 126 Absatz 3, Artikel 127 Absatz 2, Artikel 128 Absatz 1 und 4, Artikel 129 Absatz 1, Artikel 130 Absatz 6, Artikel 134 und Artikel 141 Absatz 1 der Verordnung (EU) 2017/625 erlassen hat."@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_NB dtd:NB-id59,
+        dtd:NB-id60,
+        dtd:NB-id61 ;
+    dtd:has_Value "Titel II Kapitel V der Verordnung (EU) 2017/625 des Europäischen Parlaments und des Rates vom 15. März 2017 über amtliche Kontrollen und andere amtliche Tätigkeiten zur Gewährleistung der Anwendung des Lebens- und Futtermittelrechts und der Vorschriften über Tiergesundheit und Tierschutz, Pflanzengesundheit und Pflanzenschutzmittel, zur Änderung der Verordnungen (EG) Nr. 999/2001, (EG) Nr. 396/2005, (EG) Nr. 1069/2009, (EG) Nr. 1107/2009, (EU) Nr. 1151/2012, (EU) Nr. 652/2014, (EU) 2016/429 und (EU) 2016/2031 des Europäischen Parlaments und des Rates, der Verordnungen (EG) Nr. 1/2005 und (EG) Nr. 1099/2009 des Rates sowie der Richtlinien 98/58/EG, 1999/74/EG, 2007/43/EG, 2008/119/EG und 2008/120/EG des Rates und zur Aufhebung der Verordnungen (EG) Nr. 854/2004 und (EG) Nr. 882/2004 des Europäischen Parlaments und des Rates, der Richtlinien 89/608/EWG, 89/662/EWG, 90/425/EWG, 91/496/EEG, 96/23/EG, 96/93/EG und 97/78/EG des Rates und des Beschlusses 92/438/EWG des Rates (Verordnung über amtliche Kontrollen) (ABl. L 95 vom 7.4.2017, S. 1; L 137 vom 24.5.2017, S. 40; L 48 vom 21.2.2018, S. 44; L 322 vom 18.12.2018, S. 85), die zuletzt durch die Verordnung (EU) 2021/1756 (ABl. L 357 vom 8.10.2021, S. 27) geändert worden ist,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Value "delegierten Rechtsakten, die die Kommission gemäß Artikel 19 Absatz 2, Artikel 45 Absatz 4, Artikel 47 Absatz 3, Artikel 48, Artikel 49 Absatz 5, Artikel 50 Absatz 4, Artikel 51 Absatz 1 und 2, Artikel 53 Absatz 1, Artikel 62 Absatz 3, Artikel 64 Absatz 2 und 5, Artikel 71 Absatz 3, Artikel 77 Absatz 1 und 2 und Artikel 126 Absatz 1 der Verordnung (EU) 2017/625 erlassen hat, und"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Value "Durchführungsrechtsakten, die die Kommission gemäß Artikel 19 Absatz 3, Artikel 34 Absatz 6, Artikel 46 Absatz 2, Artikel 47 Absatz 2, Artikel 49 Absatz 4, Artikel 52, Artikel 54 Absatz 3 und 4, Artikel 58, Artikel 60 Absatz 2, Artikel 64 Absatz 4, Artikel 65 Absatz 6, Artikel 66 Absatz 2, Artikel 70, Artikel 73 Absatz 1 und 5, Artikel 74 Absatz 2, Artikel 75 Absatz 2, Artikel 77 Absatz 3, Artikel 90, Artikel 126 Absatz 3, Artikel 127 Absatz 2, Artikel 128 Absatz 1 und 4, Artikel 129 Absatz 1, Artikel 130 Absatz 6, Artikel 134 und Artikel 141 Absatz 1 der Verordnung (EU) 2017/625 erlassen hat."@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Value "Lebensmitteln oder Futtermitteln gemäß Artikel 47 Absatz 1 Buchstabe b der Verordnung (EU) 2017/625, wenn sie auf Island, in Liechtenstein, in der Schweiz, in Norwegen, auf den Färöer Inseln oder, im Fall von Fischereierzeugnissen oder lebenden Muscheln, Stachelhäutern, Manteltieren oder Meeresschnecken, auf Grönland einer amtlichen Kontrolle entsprechend den jeweiligen nationalen Rechtsvorschriften unterzogen worden sind,"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Value "Fischereierzeugnissen oder lebenden Muscheln, Stachelhäutern, Manteltieren oder Meeresschnecken mit Ursprung auf Grönland und"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Value "Lebensmitteln oder Futtermitteln gemäß Artikel 47 Absatz 1 Buchstabe b der Verordnung (EU) 2017/625 mit Ursprung auf Island, in Liechtenstein, in der Schweiz, in Norwegen, auf den Färöer Inseln oder, im Fall von Fischereierzeugnissen oder lebenden Muscheln, Stachelhäutern, Manteltieren oder Meeresschnecken, auf Grönland, deren Einfuhr in ein Drittland verwehrt wurde und bei denen spezifische amtliche Kontrollen gemäß der Delegierten Verordnung (EU) 2019/2074 der Kommission vom 23. September 2019 zur Ergänzung der Verordnung (EU) 2017/625 des Europäischen Parlaments und des Rates in Bezug auf Vorschriften für spezifische amtliche Kontrollen von Sendungen von Tieren und Waren, die ihren Ursprung in der Union haben und in die Union zurückkehren, nachdem ihnen der Eingang in ein Drittland verwehrt wurde (ABl. L 316 vom 6.12.2019, S. 6), die durch die Delegierte Verordnung (EU) 2021/2089 (ABl. L 427 vom 30.11.2021, S. 149) geändert worden ist, durchgeführt worden sind."@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Value "Rückstände von Stoffen mit pharmakologischer Wirkung, die diesen Tieren nach § 1 oder § 2 Satz 1 der Verordnung über Stoffe mit pharmakologischer Wirkung in der Fassung der Bekanntmachung vom 8. Juli 2009 (BGBl. I S. 1768), die durch Artikel 2 der Verordnung vom 2. Januar 2023 (BGBl. 2023 I Nr. 3) geändert worden ist, nicht zugeführt werden dürfen, oder Umwandlungsprodukte dieser Stoffe vorhanden sind oder"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_NB dtd:NB-id62 ;
+    dtd:has_Value "Rückstände von Stoffen mit pharmakologischer Wirkung, die im Anhang Tabelle 2 der Verordnung (EU) Nr. 37/2010 der Kommission vom 22. Dezember 2009 über pharmakologisch wirksame Stoffe und ihre Einstufung hinsichtlich der Rückstandshöchstmengen in Lebensmitteln tierischen Ursprungs (ABl. L 15 vom 20.1.2010, S. 1; L 293 vom 11.11.2010, S. 72), die zuletzt durch die Durchführungsverordnung (EU) 2023/454 (ABl. L 67 vom 3.3.2023, S. 38) geändert worden ist, als verbotene Stoffe aufgeführt sind, oder Umwandlungsprodukte dieser Stoffe vorhanden sind oder"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_NB dtd:NB-id63 ;
+    dtd:has_Value "Rückstände von nicht zugelassenen Stoffen im Sinne von Artikel 2 Satz 2 Buchstabe b der Delegierten Verordnung (EU) 2019/2090 der Kommission vom 19. Juni 2019 zur Ergänzung der Verordnung (EU) 2017/625 des Europäischen Parlaments und des Rates in Bezug auf mutmaßliche oder festgestellte Verstöße gegen Unionsvorschriften über die Verwendung oder über Rückstände pharmakologisch wirksamer Stoffe, die in Tierarzneimitteln oder als Futtermittelzusatzstoffe zugelassen sind, bzw. gegen Unionsvorschriften über die Verwendung oder über Rückstände verbotener oder nicht zugelassener pharmakologisch wirksamer Stoffe (ABl. L 317 vom 9.12.2019, S. 28), die durch die Delegierte Verordnung (EU) 2022/1667 (ABl. L 251 vom 29.9.2022, S. 4) geändert worden ist, oder Umwandlungsprodukte dieser Stoffe vorhanden sind, sofern ihre Verbringung nicht bereits in Folge eines Rückstands nach Nummer 2 verboten ist, oder"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_NB dtd:NB-id64 ;
+    dtd:has_Value "Rückstände von zugelassenen Stoffen oder Umwandlungsprodukte dieser Stoffe nach einer vorschriftswidrigen Behandlung im Sinne des Artikels 2 Satz 2 Buchstabe c zweiter Anstrich der Delegierten Verordnung (EU) 2019/2090 vorhanden sind."@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_DL dtd:DL-id101 ;
+    dtd:has_Value "die Verbringung in die Europäische Union durch einen nicht unmittelbar geltenden Rechtsakt verboten ist, den die Europäische Gemeinschaft oder die Europäische Union erlassen hat auf Grund a)des Artikels 53 der Verordnung (EG) Nr. 178/2002 des Europäischen Parlaments und des Rates vom 28. Januar 2002 zur Festlegung der allgemeinen Grundsätze und Anforderungen des Lebensmittelrechts, zur Errichtung der Europäischen Behörde für Lebensmittelsicherheit und zur Festlegung von Verfahren zur Lebensmittelsicherheit (ABl. L 31 vom 1.2.2002, S. 1), die zuletzt durch die Verordnung (EU) 2019/1381 (ABl. L 231 vom 6.9.2019, S. 1) geändert worden ist, auch in Verbindung mit Artikel 47 Absatz 1 Buchstabe e der Verordnung (EU) 2017/625,b)des Artikels 128 Absatz 1, auch in Verbindung mit Artikel 47 Absatz 1 Buchstabe f, der Verordnung (EU) 2017/625, oderc)des Artikels 22 Absatz 1 der Richtlinie 97/78/EG des Rates vom 18. Dezember 1997 zur Festlegung von Grundregeln für die Veterinärkontrollen von aus Drittländern in die Gemeinschaft eingeführten Erzeugnissen (ABl. L 24 vom 30.1.1998, S. 9), die durch die Verordnung (EU) 2017/625 aufgehoben worden ist, in der bis zum Ablauf des 13. Dezember 2019 geltenden Fassung und"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Value "des Artikels 53 der Verordnung (EG) Nr. 178/2002 des Europäischen Parlaments und des Rates vom 28. Januar 2002 zur Festlegung der allgemeinen Grundsätze und Anforderungen des Lebensmittelrechts, zur Errichtung der Europäischen Behörde für Lebensmittelsicherheit und zur Festlegung von Verfahren zur Lebensmittelsicherheit (ABl. L 31 vom 1.2.2002, S. 1), die zuletzt durch die Verordnung (EU) 2019/1381 (ABl. L 231 vom 6.9.2019, S. 1) geändert worden ist, auch in Verbindung mit Artikel 47 Absatz 1 Buchstabe e der Verordnung (EU) 2017/625,"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_NB dtd:NB-id65 ;
+    dtd:has_Value "des Artikels 128 Absatz 1, auch in Verbindung mit Artikel 47 Absatz 1 Buchstabe f, der Verordnung (EU) 2017/625, oder"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Value "des Artikels 22 Absatz 1 der Richtlinie 97/78/EG des Rates vom 18. Dezember 1997 zur Festlegung von Grundregeln für die Veterinärkontrollen von aus Drittländern in die Gemeinschaft eingeführten Erzeugnissen (ABl. L 24 vom 30.1.1998, S. 9), die durch die Verordnung (EU) 2017/625 aufgehoben worden ist, in der bis zum Ablauf des 13. Dezember 2019 geltenden Fassung und"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Value "das Bundesministerium für Ernährung und Landwirtschaft (Bundesministerium) den jeweiligen Rechtsakt nach Nummer 1 oder dessen Änderung im Bundesanzeiger bekannt gemacht hat."@de .
+
+dtd:NB-id59 a dtd:NB ;
+    dtd:has_Value "2016/429"@de .
+
+dtd:NB-id60 a dtd:NB ;
+    dtd:has_Value "Nr. 1/2005"@de .
+
+dtd:NB-id61 a dtd:NB ;
+    dtd:has_Value "89/662/EWG,"@de .
+
+dtd:NB-id62 a dtd:NB ;
+    dtd:has_Value "Nr. 37/2010"@de .
+
+dtd:NB-id63 a dtd:NB ;
+    dtd:has_Value "2017/625"@de .
+
+dtd:NB-id64 a dtd:NB ;
+    dtd:has_Value "2019/2090"@de .
+
+dtd:NB-id65 a dtd:NB ;
+    dtd:has_Value "2017/625,"@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_BR dtd:BR-id49 ;
+    dtd:has_Value " (+++ Textnachweis ab: 20.4.2024 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 22/96            (CELEX Nr: 31996L0022)      Notifizierung gem. der       EURL 2015/1535        (CELEX Nr: 32015L1535) +++)Die V wurde als Artikel 1 der V v. 11.4.2024 I Nr. 128 vom Bundesministerium für Ernährung und Landwirtschaft im Einvernehmen mit dem Bundesministerium für Wirtschaft und Klimaschutz und dem Bundesministerium der Finanzen und mit Zustimmung des Bundesrates erlassen. Sie tritt gem. Art. 3 Satz 1 dieser V am 20.4.2024 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id142 .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_DL dtd:DL-id68 ;
+    dtd:has_Value "(1) Diese Verordnung ist anzuwenden auf 1.die Verbringung von Lebensmitteln, Futtermitteln und, soweit es ausdrücklich bestimmt ist, lebenden Tieren im Sinne des § 4 Absatz 1 Nummer 1 des Lebensmittel- und Futtermittelgesetzbuches in die Europäische Union und2.die Durchführung amtlicher Kontrollen bei der Verbringung von Lebensmitteln, Futtermitteln und, soweit es ausdrücklich bestimmt ist, lebenden Tieren im Sinne des § 4 Absatz 1 Nummer 1 des Lebensmittel- und Futtermittelgesetzbuches in die Europäische Union nach a)Titel II Kapitel V der Verordnung (EU) 2017/625 des Europäischen Parlaments und des Rates vom 15. März 2017 über amtliche Kontrollen und andere amtliche Tätigkeiten zur Gewährleistung der Anwendung des Lebens- und Futtermittelrechts und der Vorschriften über Tiergesundheit und Tierschutz, Pflanzengesundheit und Pflanzenschutzmittel, zur Änderung der Verordnungen (EG) Nr. 999/2001, (EG) Nr. 396/2005, (EG) Nr. 1069/2009, (EG) Nr. 1107/2009, (EU) Nr. 1151/2012, (EU) Nr. 652/2014, (EU) 2016/429 und (EU) 2016/2031 des Europäischen Parlaments und des Rates, der Verordnungen (EG) Nr. 1/2005 und (EG) Nr. 1099/2009 des Rates sowie der Richtlinien 98/58/EG, 1999/74/EG, 2007/43/EG, 2008/119/EG und 2008/120/EG des Rates und zur Aufhebung der Verordnungen (EG) Nr. 854/2004 und (EG) Nr. 882/2004 des Europäischen Parlaments und des Rates, der Richtlinien 89/608/EWG, 89/662/EWG, 90/425/EWG, 91/496/EEG, 96/23/EG, 96/93/EG und 97/78/EG des Rates und des Beschlusses 92/438/EWG des Rates (Verordnung über amtliche Kontrollen) (ABl. L 95 vom 7.4.2017, S. 1; L 137 vom 24.5.2017, S. 40; L 48 vom 21.2.2018, S. 44; L 322 vom 18.12.2018, S. 85), die zuletzt durch die Verordnung (EU) 2021/1756 (ABl. L 357 vom 8.10.2021, S. 27) geändert worden ist,b)delegierten Rechtsakten, die die Kommission gemäß Artikel 19 Absatz 2, Artikel 45 Absatz 4, Artikel 47 Absatz 3, Artikel 48, Artikel 49 Absatz 5, Artikel 50 Absatz 4, Artikel 51 Absatz 1 und 2, Artikel 53 Absatz 1, Artikel 62 Absatz 3, Artikel 64 Absatz 2 und 5, Artikel 71 Absatz 3, Artikel 77 Absatz 1 und 2 und Artikel 126 Absatz 1 der Verordnung (EU) 2017/625 erlassen hat, undc)Durchführungsrechtsakten, die die Kommission gemäß Artikel 19 Absatz 3, Artikel 34 Absatz 6, Artikel 46 Absatz 2, Artikel 47 Absatz 2, Artikel 49 Absatz 4, Artikel 52, Artikel 54 Absatz 3 und 4, Artikel 58, Artikel 60 Absatz 2, Artikel 64 Absatz 4, Artikel 65 Absatz 6, Artikel 66 Absatz 2, Artikel 70, Artikel 73 Absatz 1 und 5, Artikel 74 Absatz 2, Artikel 75 Absatz 2, Artikel 77 Absatz 3, Artikel 90, Artikel 126 Absatz 3, Artikel 127 Absatz 2, Artikel 128 Absatz 1 und 4, Artikel 129 Absatz 1, Artikel 130 Absatz 6, Artikel 134 und Artikel 141 Absatz 1 der Verordnung (EU) 2017/625 erlassen hat."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_DL dtd:DL-id80 ;
+    dtd:has_Value "(2) Abweichend von Absatz 1 ist diese Verordnung nicht anzuwenden auf die Verbringung von 1.Lebensmitteln oder Futtermitteln gemäß Artikel 47 Absatz 1 Buchstabe b der Verordnung (EU) 2017/625, wenn sie auf Island, in Liechtenstein, in der Schweiz, in Norwegen, auf den Färöer Inseln oder, im Fall von Fischereierzeugnissen oder lebenden Muscheln, Stachelhäutern, Manteltieren oder Meeresschnecken, auf Grönland einer amtlichen Kontrolle entsprechend den jeweiligen nationalen Rechtsvorschriften unterzogen worden sind,2.Fischereierzeugnissen oder lebenden Muscheln, Stachelhäutern, Manteltieren oder Meeresschnecken mit Ursprung auf Grönland und3.Lebensmitteln oder Futtermitteln gemäß Artikel 47 Absatz 1 Buchstabe b der Verordnung (EU) 2017/625 mit Ursprung auf Island, in Liechtenstein, in der Schweiz, in Norwegen, auf den Färöer Inseln oder, im Fall von Fischereierzeugnissen oder lebenden Muscheln, Stachelhäutern, Manteltieren oder Meeresschnecken, auf Grönland, deren Einfuhr in ein Drittland verwehrt wurde und bei denen spezifische amtliche Kontrollen gemäß der Delegierten Verordnung (EU) 2019/2074 der Kommission vom 23. September 2019 zur Ergänzung der Verordnung (EU) 2017/625 des Europäischen Parlaments und des Rates in Bezug auf Vorschriften für spezifische amtliche Kontrollen von Sendungen von Tieren und Waren, die ihren Ursprung in der Union haben und in die Union zurückkehren, nachdem ihnen der Eingang in ein Drittland verwehrt wurde (ABl. L 316 vom 6.12.2019, S. 6), die durch die Delegierte Verordnung (EU) 2021/2089 (ABl. L 427 vom 30.11.2021, S. 149) geändert worden ist, durchgeführt worden sind."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_DL dtd:DL-id87 ;
+    dtd:has_Value "Es ist verboten, lebende Tiere im Sinne des § 4 Absatz 1 Nummer 1 des Lebensmittel- und Futtermittelgesetzbuches in die Europäische Union zu verbringen, bei denen zum Zeitpunkt der Verbringung 1.Rückstände von Stoffen mit pharmakologischer Wirkung, die diesen Tieren nach § 1 oder § 2 Satz 1 der Verordnung über Stoffe mit pharmakologischer Wirkung in der Fassung der Bekanntmachung vom 8. Juli 2009 (BGBl. I S. 1768), die durch Artikel 2 der Verordnung vom 2. Januar 2023 (BGBl. 2023 I Nr. 3) geändert worden ist, nicht zugeführt werden dürfen, oder Umwandlungsprodukte dieser Stoffe vorhanden sind oder2.Rückstände von Stoffen mit pharmakologischer Wirkung, die im Anhang Tabelle 2 der Verordnung (EU) Nr. 37/2010 der Kommission vom 22. Dezember 2009 über pharmakologisch wirksame Stoffe und ihre Einstufung hinsichtlich der Rückstandshöchstmengen in Lebensmitteln tierischen Ursprungs (ABl. L 15 vom 20.1.2010, S. 1; L 293 vom 11.11.2010, S. 72), die zuletzt durch die Durchführungsverordnung (EU) 2023/454 (ABl. L 67 vom 3.3.2023, S. 38) geändert worden ist, als verbotene Stoffe aufgeführt sind, oder Umwandlungsprodukte dieser Stoffe vorhanden sind oder3.Rückstände von nicht zugelassenen Stoffen im Sinne von Artikel 2 Satz 2 Buchstabe b der Delegierten Verordnung (EU) 2019/2090 der Kommission vom 19. Juni 2019 zur Ergänzung der Verordnung (EU) 2017/625 des Europäischen Parlaments und des Rates in Bezug auf mutmaßliche oder festgestellte Verstöße gegen Unionsvorschriften über die Verwendung oder über Rückstände pharmakologisch wirksamer Stoffe, die in Tierarzneimitteln oder als Futtermittelzusatzstoffe zugelassen sind, bzw. gegen Unionsvorschriften über die Verwendung oder über Rückstände verbotener oder nicht zugelassener pharmakologisch wirksamer Stoffe (ABl. L 317 vom 9.12.2019, S. 28), die durch die Delegierte Verordnung (EU) 2022/1667 (ABl. L 251 vom 29.9.2022, S. 4) geändert worden ist, oder Umwandlungsprodukte dieser Stoffe vorhanden sind, sofern ihre Verbringung nicht bereits in Folge eines Rückstands nach Nummer 2 verboten ist, oder4.Rückstände von zugelassenen Stoffen oder Umwandlungsprodukte dieser Stoffe nach einer vorschriftswidrigen Behandlung im Sinne des Artikels 2 Satz 2 Buchstabe c zweiter Anstrich der Delegierten Verordnung (EU) 2019/2090 vorhanden sind.Satz 1 Nummer 1 gilt entsprechend, wenn das Vorhandensein der Stoffe oder deren Umwandlungsprodukte vor der Verbringung im lebenden Tier festgestellt worden ist."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_DL dtd:DL-id96 ;
+    dtd:has_Value "(1) Lebensmittel oder Futtermittel dürfen nicht in die Europäische Union verbracht werden, soweit 1.die Verbringung in die Europäische Union durch einen nicht unmittelbar geltenden Rechtsakt verboten ist, den die Europäische Gemeinschaft oder die Europäische Union erlassen hat auf Grund a)des Artikels 53 der Verordnung (EG) Nr. 178/2002 des Europäischen Parlaments und des Rates vom 28. Januar 2002 zur Festlegung der allgemeinen Grundsätze und Anforderungen des Lebensmittelrechts, zur Errichtung der Europäischen Behörde für Lebensmittelsicherheit und zur Festlegung von Verfahren zur Lebensmittelsicherheit (ABl. L 31 vom 1.2.2002, S. 1), die zuletzt durch die Verordnung (EU) 2019/1381 (ABl. L 231 vom 6.9.2019, S. 1) geändert worden ist, auch in Verbindung mit Artikel 47 Absatz 1 Buchstabe e der Verordnung (EU) 2017/625,b)des Artikels 128 Absatz 1, auch in Verbindung mit Artikel 47 Absatz 1 Buchstabe f, der Verordnung (EU) 2017/625, oderc)des Artikels 22 Absatz 1 der Richtlinie 97/78/EG des Rates vom 18. Dezember 1997 zur Festlegung von Grundregeln für die Veterinärkontrollen von aus Drittländern in die Gemeinschaft eingeführten Erzeugnissen (ABl. L 24 vom 30.1.1998, S. 9), die durch die Verordnung (EU) 2017/625 aufgehoben worden ist, in der bis zum Ablauf des 13. Dezember 2019 geltenden Fassung und2.das Bundesministerium für Ernährung und Landwirtschaft (Bundesministerium) den jeweiligen Rechtsakt nach Nummer 1 oder dessen Änderung im Bundesanzeiger bekannt gemacht hat.Die Aufhebung eines Rechtsaktes nach Satz 1 Nummer 1 wird vom Bundesministerium ebenfalls im Bundesanzeiger bekannt gemacht."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(2) Die Rechtsakte nach Absatz 1 Satz 1 Nummer 1 gelten mit Beginn des Tages, der auf ihre Bekanntmachung nach Absatz 1 Satz 1 Nummer 2 folgt, als bekannt gemacht. Sofern in der Bekanntmachung ein späterer Zeitpunkt bestimmt ist, gilt dieser als Zeitpunkt der Bekanntmachung."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(3) Lebensmittel und Futtermittel dürfen auch dann nicht in die Europäische Union verbracht werden, wenn in einem Rechtsakt nach Absatz 1 Satz 1 Nummer 1 in Verbindung mit Nummer 2 besondere Voraussetzungen für die Verbringung oder das erstmalige Inverkehrbringen der Lebensmittel oder Futtermittel bestimmt sind und diese Voraussetzungen nicht erfüllt sind."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(4) Das Verbot des Absatzes 1 Satzteil vor Nummer 1 gilt nicht für Lebensmittel oder Futtermittel, die vor der Bekanntmachung des Rechtsakts in die Europäische Union verbracht worden sind."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "Unbeschadet der amtlichen Kontrollen von Lebensmitteln oder Futtermitteln, die die zuständige Behörde auf Grund unmittelbar geltender Rechtsakte der Europäischen Gemeinschaft oder der Europäischen Union durchzuführen hat, hat die zuständige Behörde bei der Verbringung von Lebensmitteln oder Futtermitteln in die Europäische Union amtliche Kontrollen aufgrund eines Rechtsakts nach § 3 Absatz 1 Satz 1 Nummer 1 in Verbindung mit Nummer 2 durchzuführen."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "(1) Nach § 59 Absatz 1 Nummer 21 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches wird bestraft, wer entgegen § 2 Satz 1 Nummer 1, auch in Verbindung mit Satz 2, oder entgegen § 2 Satz 1 Nummer 2, 3 oder Nummer 4 oder § 3 Absatz 1 Satz 1, auch in Verbindung mit Absatz 3, ein lebendes Tier, ein Lebensmittel oder ein Futtermittel verbringt."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(2) Wer eine in Absatz 1 bezeichnete Handlung fahrlässig begeht, handelt nach § 60 Absatz 1 Nummer 2 des Lebensmittel- und Futtermittelgesetzbuches ordnungswidrig."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "LFVV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2024-04-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id146 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id147 .
+
+dtd:fussnoten-id43 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id125 .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "LFVV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "LFVV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "LFVV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "LFVV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "LFVV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "LFVV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Lebensmittel-und-Futtermittel-Verbringungs-Verordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_FnR dtd:FnR-id57,
+        dtd:FnR-id58 ;
+    dtd:has_Value "Verordnung mit Durchführungsvorschriften über die Verbringung von Lebensmitteln und Futtermitteln in die Europäische Union und über die amtlichen Kontrollen der Verbringung "@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:noindex-id66 a dtd:noindex .
+
+dtd:noindex-id67 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240426214501"@de ;
+    dtd:has_doknr "BJNR0800B0024"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240426214501"@de ;
+    dtd:has_doknr "BJNR0800B0024BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240426214501"@de ;
+    dtd:has_doknr "BJNR0800B0024BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240426214501"@de ;
+    dtd:has_doknr "BJNR0800B0024BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240426214501"@de ;
+    dtd:has_doknr "BJNR0800B0024BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240426214501"@de ;
+    dtd:has_doknr "BJNR0800B0024BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id146 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id142 a dtd:pre ;
+    dtd:has_BR dtd:BR-id50,
+        dtd:BR-id51,
+        dtd:BR-id52,
+        dtd:BR-id53,
+        dtd:BR-id54,
+        dtd:BR-id55,
+        dtd:BR-id56 ;
+    dtd:has_Value "(+++ Textnachweis ab: 20.4.2024 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 22/96            (CELEX Nr: 31996L0022)      Notifizierung gem. der       EURL 2015/1535        (CELEX Nr: 32015L1535) +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id149 ;
+    dtd:has_standtyp dtd:standtyp-id148 .
+
+dtd:standkommentar-id149 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 2125-44-7 v. 8.8.2007 I 1816, 1871 (LMEV)"@de .
+
+dtd:standtyp-id148 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Footnotes dtd:Footnotes-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Verbot der Verbringung von mit bestimmten Rückständen belasteten, lebensmittelliefernden Tieren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Verbote der Verbringung auf Grund von Schutzmaßnahmen der Europäischen Gemeinschaft oder der Europäischen Union"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Amtliche Kontrollen auf Grund von Schutzmaßnahmen der Europäischen Gemeinschaft oder der Europäischen Union"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Straftaten und Ordnungswidrigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id147 a dtd:zitstelle ;
+    dtd:has_Value "2024, Nr. 128, 2"@de .
+
+dtd:column rdfs:label "column"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,349 @@
+@prefix dtd: <urn:FamNamÄndGDV-1#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72,
+        dtd:P-id73,
+        dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_BR dtd:BR-id59 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.5.1975 +++)Eingliederung dieser Vorschrift in das Sachgebiet 2 ist vorgesehen"@de ;
+    dtd:has_pre dtd:pre-id80 .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 13 des Gesetzes über die Änderung von Familiennamen und Vornamen vom 5. Januar 1938 (Reichsgesetzbl. I S. 9) wird folgendes verordnet:"@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(1) Die höhere Verwaltungsbehörde kann den Antrag auf Änderung oder Feststellung des Familiennamens unter Bestimmung einer Frist zur Geltendmachung von Einwendungen in einer von ihr zu bestimmenden Tageszeitung auf Kosten des Antragstellers veröffentlichen, soweit es zur Verhütung der Beeinträchtigung von Rechten anderer Personen erforderlich erscheint."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(2) Wird ein Familienname geändert oder festgestellt ..., so kann die höhere Verwaltungsbehörde diese Anordnung durch einmaliges Einrücken in eine von ihr zu bestimmende Tageszeitung auf Kosten des Betroffenen bekanntmachen, wenn es im Einzelfall zweckmäßig erscheint."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(3) Die Landesregierungen werden ermächtigt, durch Rechtsverordnung die zuständige Behörde abweichend von den Absätzen 1 und 2 zu bestimmen. Sie können diese Ermächtigung auf oberste Landesbehörden übertragen."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_SP dtd:SP-id62 ;
+    dtd:has_Value "Der Reichsminister des Innern"@de .
+
+dtd:SP-id62 a dtd:SP ;
+    dtd:has_Value "Der Reichsminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1938-01-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id86 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id87 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id63 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:gliederungsbez-id82 a dtd:gliederungsbez ;
+    dtd:has_Value "Art I"@de .
+
+dtd:gliederungsbez-id84 a dtd:gliederungsbez ;
+    dtd:has_Value "Art II"@de .
+
+dtd:gliederungseinheit-id35 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id82 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id81 .
+
+dtd:gliederungseinheit-id44 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id84 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id83 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id85 .
+
+dtd:gliederungskennzahl-id81 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id83 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungstitel-id85 a dtd:gliederungstitel ;
+    dtd:has_Value ""@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "FamNamÄndGDV 1"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "FamNamÄndGDV 1"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "FamNamÄndGDV 1"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "FamNamÄndGDV 1"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "FamNamÄndGDV 1"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "FamNamÄndGDV 1"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "FamNamÄndGDV 1"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "FamNamÄndGDV 1"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Erste Verordnung zur Durchführung des Gesetzes über die Änderung von Familiennamen und Vornamen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30,
+        dtd:standangabe-id31 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938BJNE000300303"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938BJNG000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938BJNE000400303"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938BJNE000500303"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938BJNE000603123"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938BJNG000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20210930213001"@de ;
+    dtd:has_doknr "BJNR000120938BJNE000700303"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id86 a dtd:periodikum ;
+    dtd:has_Value "RGBl I"@de .
+
+dtd:pre-id80 a dtd:pre ;
+    dtd:has_BR dtd:BR-id60,
+        dtd:BR-id61 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.5.1975 +++)"@de .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id89 ;
+    dtd:has_standtyp dtd:standtyp-id88 .
+
+dtd:standangabe-id31 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id91 ;
+    dtd:has_standtyp dtd:standtyp-id90 .
+
+dtd:standkommentar-id89 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 4 Abs. 47 G v. 18.7.2016 I 1666"@de .
+
+dtd:standkommentar-id91 a dtd:standkommentar ;
+    dtd:has_Value "Mittelbare Änderung durch Art. 2 G v. 18.7.2016 I 1666 ist berücksichtigt"@de .
+
+dtd:standtyp-id88 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id90 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id87 a dtd:zitstelle ;
+    dtd:has_Value "1938, 12"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

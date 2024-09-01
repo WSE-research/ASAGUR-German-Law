@@ -1,0 +1,328 @@
+@prefix dtd: <urn:SanOAAusbGV-2013#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20190923212506"@de ;
+    dtd:has_doknr "BJNR010400013"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71,
+        dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_BR dtd:BR-id61 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29.1.2013 +++)Überschrift: Kurzüberschrift u. Buchstabenabkürzung idF d. Art. 10 Nr. 1 G v. 4.8.2019 I 1147 mWv 9.8.2019"@de ;
+    dtd:has_pre dtd:pre-id79 .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 30 Absatz 2 in Verbindung mit § 93 Absatz 3 des Soldatengesetzes in der Fassung der Bekanntmachung vom 30. Mai 2005 (BGBl. I S. 1482), von denen § 30 Absatz 2 durch Artikel 3 Nummer 6 des Gesetzes vom 31. Juli 2008 (BGBl. I S. 1629) geändert worden ist, verordnet das Bundesministerium der Verteidigung im Einvernehmen mit dem Bundesministerium des Innern und dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "Der Anspruch auf Ausbildungsgeld nach § 30 Absatz 2 Satz 1 des Soldatengesetzes entsteht mit dem ersten und endet mit dem letzten Tag der Beurlaubung."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(1) Der Grundbetrag des Ausbildungsgeldes entspricht dem Grundgehalt und den Amtszulagen, die im Bundesbesoldungsgesetz für den jeweiligen Dienstgrad festgelegt sind."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(2) Werden Abschnitte des Studiums in Teilzeit absolviert, wird das Ausbildungsgeld im gleichen Verhältnis wie die wöchentliche Ausbildungszeit gekürzt."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "Auf das Ausbildungsgeld angerechnet werden Geld- oder Sachleistungen, die eine Sanitätsoffizieranwärterin oder ein Sanitätsoffizieranwärter von anderer Seite für eine in der Approbations- oder Bestallungsordnung vorgeschriebene Tätigkeit erhält."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "§ 3 Absatz 1 Satz 2 und 3, Absatz 3 bis 6, sowie die §§ 3a, 9, 9a, 10, 11, 12, 17a, 17b und 39 bis 41 des Bundesbesoldungsgesetzes gelten entsprechend."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Gleichzeitig tritt die Verordnung über das Ausbildungsgeld für Sanitätsoffizier-Anwärter vom 12. September 2000 (BGBl. I S. 1406), die durch Artikel 15 Absatz 71 des Gesetzes vom 5. Februar 2009 (BGBl. I S. 160) geändert worden ist, außer Kraft."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "SanOAAusbGV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2013-01-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id80 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id81 .
+
+dtd:fussnoten-id53 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id64 .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV 2013"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV 2013"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV 2013"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV 2013"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV 2013"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV 2013"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV 2013"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "SanOAAusbGV"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Sanitätsoffizieranwärter-Ausbildungsgeldverordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Ausbildungsgeld für Sanitätsoffizier-Anwärterinnen und -Anwärter"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id30,
+        dtd:jurabk-id31 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id33,
+        dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id37,
+        dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id41,
+        dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id45,
+        dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id49,
+        dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20190923212506"@de ;
+    dtd:has_doknr "BJNR010400013"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20190923212506"@de ;
+    dtd:has_doknr "BJNR010400013BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20190923212506"@de ;
+    dtd:has_doknr "BJNR010400013BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20190923212506"@de ;
+    dtd:has_doknr "BJNR010400013BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20190923212506"@de ;
+    dtd:has_doknr "BJNR010400013BJNE000401377"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20190923212506"@de ;
+    dtd:has_doknr "BJNR010400013BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20190923212506"@de ;
+    dtd:has_doknr "BJNR010400013BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id80 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id79 a dtd:pre ;
+    dtd:has_BR dtd:BR-id62,
+        dtd:BR-id63 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.1.2013 +++)"@de .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id83 ;
+    dtd:has_standtyp dtd:standtyp-id82 .
+
+dtd:standkommentar-id83 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 10 G v. 4.8.2019 I 1147"@de .
+
+dtd:standtyp-id82 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Anspruch auf Ausbildungsgeld"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Höhe des Ausbildungsgeldes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Anrechnung anderer Einkünfte auf das Ausbildungsgeld"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Entsprechende Geltung von Vorschriften des Bundesbesoldungsgesetzes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id81 a dtd:zitstelle ;
+    dtd:has_Value "2013, 104"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

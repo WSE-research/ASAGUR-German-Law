@@ -1,0 +1,1046 @@
+@prefix dtd: <urn:IFGGebV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20140603221501"@de ;
+    dtd:has_doknr "BJNR000600006"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:ABWFORMAT-id178 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166 .
+
+dtd:Content-id167 a dtd:Content ;
+    dtd:has_P dtd:P-id168,
+        dtd:P-id169 .
+
+dtd:Content-id170 a dtd:Content ;
+    dtd:has_P dtd:P-id171 .
+
+dtd:Content-id172 a dtd:Content ;
+    dtd:has_P dtd:P-id173 .
+
+dtd:Content-id174 a dtd:Content ;
+    dtd:has_P dtd:P-id175 .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_BR dtd:BR-id49 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2006 +++)"@de ;
+    dtd:has_pre dtd:pre-id176 .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 10 Abs. 3 des Informationsfreiheitsgesetzes vom 5. September 2005 (BGBl. I S. 2722) in Verbindung mit dem 2. Abschnitt des Verwaltungskostengesetzes vom 23. Juni 1970 (BGBl. I S. 821) verordnet das Bundesministerium des Innern:"@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "(1) Die Gebühren und Auslagen für individuell zurechenbare öffentliche Leistungen nach dem Informationsfreiheitsgesetz bestimmen sich nach dem anliegenden Gebühren- und Auslagenverzeichnis."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(2) Auslagen werden zusätzlich zu den Gebühren und auch dann erhoben, wenn die individuell zurechenbare öffentliche Leistung gebührenfrei erfolgt. Dies gilt nicht in Fällen eines Tatbestandes nach Teil A Nummer 1.1 des Gebühren- und Auslagenverzeichnisses."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "Aus Gründen der Billigkeit oder des öffentlichen Interesses kann die Gebühr um bis zu 50 Prozent ermäßigt werden. Aus den genannten Gründen kann in besonderen Fällen von der Erhebung der Gebühr abgesehen werden."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Januar 2006 in Kraft."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id178 ;
+    dtd:has_BR dtd:BR-id53 ;
+    dtd:has_Value "Fundstelle des Originaltextes: BGBl. I 2006, 7Teil A GebührenNr.GebührentatbestandGebührenbetrag in Euro1Auskünfte 1.1-mündliche und einfache schriftliche Auskünfte auch bei Herausgabe von wenigen Abschriftengebührenfrei1.2-Erteilung einer schriftlichen Auskunft auch bei Herausgabe von Abschriften30 bis 2501.3-Erteilung einer schriftlichen Auskunft bei Herausgabe von Abschriften, wenn im Einzelfall ein deutlich höherer Verwaltungsaufwand zur Zusammenstellung von Unterlagen entsteht, insbesondere wenn zum Schutz öffentlicher oder privater Belange Daten ausgesondert werden müssen60 bis 5002Herausgabe 2.1-Herausgabe von Abschriften15 bis 1252.2-Herausgabe von Abschriften, wenn im Einzelfall ein deutlich höherer Verwaltungsaufwand zur Zusammenstellung von Unterlagen entsteht, insbesondere wenn zum Schutz öffentlicher oder privater Belange Daten ausgesondert werden müssen30 bis 5003Einsichtnahme bei der Behörde einschließlich der erforderlichen Vorbereitungsmaßnahmen auch bei Herausgabe von wenigen Abschriften15 bis 5004Veröffentlichungen nach § 11 des Informationsfreiheitsgesetzesgebührenfrei5Vollständige oder teilweise Zurückweisung eines Widerspruchsbis zur Höhe der für den angefochtenen Verwaltungsakt festgesetzten Gebühr; jedoch mindestens 30 EuroTeil B AuslagenNr.AuslagentatbestandAuslagenbetrag in Euro1Herstellung von Abschriften und Ausdrucken 1.1-je DIN A4-Kopie0,101.2-je DIN A3-Kopie0,151.3-je DIN A4-Farbkopie5,001.4-je DIN A3-Farbkopie7,502Wiedergabe von verfilmten Akten je Seite0,253Herstellung von Kopien auf sonstigen Datenträgern oder Filmkopienin voller Höhe4Aufwand für besondere Verpackung und besondere Beförderungin voller Höhe"@de ;
+    dtd:has_kommentar dtd:kommentar-id177 ;
+    dtd:has_table dtd:table-id54,
+        dtd:table-id57 .
+
+dtd:Title-id55 a dtd:Title ;
+    dtd:has_Align dtd:auto ;
+    dtd:has_Value "Teil A Gebühren"@de .
+
+dtd:Title-id58 a dtd:Title ;
+    dtd:has_Align dtd:auto ;
+    dtd:has_Value "Teil B Auslagen"@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "IFGGebV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2006-01-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id60 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id61 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id62 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "65*"@de .
+
+dtd:colspec-id63 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:colspec-id66 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id67 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id68 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "70*"@de .
+
+dtd:colspec-id69 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "25*"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "mündliche und einfache schriftliche Auskünfte auch bei Herausgabe von wenigen Abschriften"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "gebührenfrei"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.2"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Erteilung einer schriftlichen Auskunft auch bei Herausgabe von Abschriften"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "30 bis 250"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.3"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Erteilung einer schriftlichen Auskunft bei Herausgabe von Abschriften, wenn im Einzelfall ein deutlich höherer Verwaltungsaufwand zur Zusammenstellung von Unterlagen entsteht, insbesondere wenn zum Schutz öffentlicher oder privater Belange Daten ausgesondert werden müssen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "60 bis 500"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Herausgabe"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2.1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Herausgabe von Abschriften"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "15 bis 125"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2.2"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Herausgabe von Abschriften, wenn im Einzelfall ein deutlich höherer Verwaltungsaufwand zur Zusammenstellung von Unterlagen entsteht, insbesondere wenn zum Schutz öffentlicher oder privater Belange Daten ausgesondert werden müssen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "30 bis 500"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Einsichtnahme bei der Behörde einschließlich der erforderlichen Vorbereitungsmaßnahmen auch bei Herausgabe von wenigen Abschriften"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "15 bis 500"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veröffentlichungen nach § 11 des Informationsfreiheitsgesetzes"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "gebührenfrei"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vollständige oder teilweise Zurückweisung eines Widerspruchs"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "bis zur Höhe der für den angefochtenen Verwaltungsakt festgesetzten Gebühr; jedoch mindestens 30 Euro"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nr."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Auslagentatbestand"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Auslagenbetrag in Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Herstellung von Abschriften und Ausdrucken"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "je DIN A4-Kopie"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,10"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.2"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "je DIN A3-Kopie"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id143 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,15"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id144 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.3"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id145 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id146 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "je DIN A4-Farbkopie"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id147 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5,00"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id148 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.4"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id149 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id150 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "je DIN A3-Farbkopie"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id151 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7,50"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id152 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id153 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wiedergabe von verfilmten Akten je Seite"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id154 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,25"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id155 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id156 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Herstellung von Kopien auf sonstigen Datenträgern oder Filmkopien"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id157 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in voller Höhe"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id158 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id159 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Aufwand für besondere Verpackung und besondere Beförderung"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id160 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in voller Höhe"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nr."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gebührentatbestand"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gebührenbetrag in Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Auskünfte"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "-"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id179 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id180 .
+
+dtd:fussnoten-id42 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id163 .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "IFGGebV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "IFGGebV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "IFGGebV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "IFGGebV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "IFGGebV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "IFGGebV"@de .
+
+dtd:kommentar-id177 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle des Originaltextes: BGBl. I 2006, 7"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Informationsgebührenverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Gebühren und Auslagen nach dem 
+Informationsfreiheitsgesetz"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20140603221501"@de ;
+    dtd:has_doknr "BJNR000600006"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20140603221501"@de ;
+    dtd:has_doknr "BJNR000600006BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20140603221501"@de ;
+    dtd:has_doknr "BJNR000600006BJNE000201311"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20140603221501"@de ;
+    dtd:has_doknr "BJNR000600006BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20140603221502"@de ;
+    dtd:has_doknr "BJNR000600006BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20140603221502"@de ;
+    dtd:has_doknr "BJNR000600006BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id179 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id176 a dtd:pre ;
+    dtd:has_BR dtd:BR-id50,
+        dtd:BR-id51 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2006 +++)"@de .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id92,
+        dtd:entry-id93,
+        dtd:entry-id94 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id130,
+        dtd:entry-id131,
+        dtd:entry-id132 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id95,
+        dtd:entry-id96,
+        dtd:entry-id97 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101,
+        dtd:entry-id98,
+        dtd:entry-id99 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id102,
+        dtd:entry-id103,
+        dtd:entry-id104,
+        dtd:entry-id105 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id106,
+        dtd:entry-id107,
+        dtd:entry-id108,
+        dtd:entry-id109 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id110,
+        dtd:entry-id111,
+        dtd:entry-id112 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id113,
+        dtd:entry-id114,
+        dtd:entry-id115,
+        dtd:entry-id116 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id117,
+        dtd:entry-id118,
+        dtd:entry-id119,
+        dtd:entry-id120 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id121,
+        dtd:entry-id122,
+        dtd:entry-id123 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id124,
+        dtd:entry-id125,
+        dtd:entry-id126 .
+
+dtd:row-id83 a dtd:row ;
+    dtd:has_entry dtd:entry-id127,
+        dtd:entry-id128,
+        dtd:entry-id129 .
+
+dtd:row-id84 a dtd:row ;
+    dtd:has_entry dtd:entry-id133,
+        dtd:entry-id134,
+        dtd:entry-id135 .
+
+dtd:row-id85 a dtd:row ;
+    dtd:has_entry dtd:entry-id136,
+        dtd:entry-id137,
+        dtd:entry-id138,
+        dtd:entry-id139 .
+
+dtd:row-id86 a dtd:row ;
+    dtd:has_entry dtd:entry-id140,
+        dtd:entry-id141,
+        dtd:entry-id142,
+        dtd:entry-id143 .
+
+dtd:row-id87 a dtd:row ;
+    dtd:has_entry dtd:entry-id144,
+        dtd:entry-id145,
+        dtd:entry-id146,
+        dtd:entry-id147 .
+
+dtd:row-id88 a dtd:row ;
+    dtd:has_entry dtd:entry-id148,
+        dtd:entry-id149,
+        dtd:entry-id150,
+        dtd:entry-id151 .
+
+dtd:row-id89 a dtd:row ;
+    dtd:has_entry dtd:entry-id152,
+        dtd:entry-id153,
+        dtd:entry-id154 .
+
+dtd:row-id90 a dtd:row ;
+    dtd:has_entry dtd:entry-id155,
+        dtd:entry-id156,
+        dtd:entry-id157 .
+
+dtd:row-id91 a dtd:row ;
+    dtd:has_entry dtd:entry-id158,
+        dtd:entry-id159,
+        dtd:entry-id160 .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id182 ;
+    dtd:has_standtyp dtd:standtyp-id181 .
+
+dtd:standkommentar-id182 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 Abs. 7 G v. 7.8.2013 I 3154"@de .
+
+dtd:standtyp-id181 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id54 a dtd:table ;
+    dtd:has_Title dtd:Title-id55 ;
+    dtd:has_frame dtd:topbot ;
+    dtd:has_tgroup dtd:tgroup-id56 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id57 a dtd:table ;
+    dtd:has_Title dtd:Title-id58 ;
+    dtd:has_frame dtd:topbot ;
+    dtd:has_tgroup dtd:tgroup-id59 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id65 a dtd:tbody ;
+    dtd:has_row dtd:row-id74,
+        dtd:row-id75,
+        dtd:row-id76,
+        dtd:row-id77,
+        dtd:row-id78,
+        dtd:row-id79,
+        dtd:row-id80,
+        dtd:row-id81,
+        dtd:row-id82,
+        dtd:row-id83 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id71 a dtd:tbody ;
+    dtd:has_row dtd:row-id84,
+        dtd:row-id85,
+        dtd:row-id86,
+        dtd:row-id87,
+        dtd:row-id88,
+        dtd:row-id89,
+        dtd:row-id90,
+        dtd:row-id91 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id167 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id170 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id172 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id174 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id42 ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:tgroup-id56 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colspec dtd:colspec-id60,
+        dtd:colspec-id61,
+        dtd:colspec-id62,
+        dtd:colspec-id63 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id65 ;
+    dtd:has_thead dtd:thead-id64 .
+
+dtd:tgroup-id59 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colspec dtd:colspec-id66,
+        dtd:colspec-id67,
+        dtd:colspec-id68,
+        dtd:colspec-id69 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id71 ;
+    dtd:has_thead dtd:thead-id70 .
+
+dtd:thead-id64 a dtd:thead ;
+    dtd:has_row dtd:row-id72 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:thead-id70 a dtd:thead ;
+    dtd:has_row dtd:row-id73 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Gebühren und Auslagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Befreiung und Ermäßigung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_BR dtd:BR-id52 ;
+    dtd:has_Value "(zu § 1 Abs. 1)Gebühren- und Auslagenverzeichnis"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id180 a dtd:zitstelle ;
+    dtd:has_Value "2006, 6"@de .
+
+dtd:auto rdfs:label "auto"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:topbot rdfs:label "topbot"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:left rdfs:label "left"@de .
+

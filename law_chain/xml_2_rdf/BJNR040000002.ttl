@@ -1,0 +1,121 @@
+@prefix dtd: <urn:BMinJDiszAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152625"@de ;
+    dtd:has_doknr "BJNR040000002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:Content-id21 a dtd:Content ;
+    dtd:has_P dtd:P-id22 .
+
+dtd:Content-id23 a dtd:Content ;
+    dtd:has_P dtd:P-id24 .
+
+dtd:Content-id25 a dtd:Content ;
+    dtd:has_P dtd:P-id26,
+        dtd:P-id27 .
+
+dtd:P-id22 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id24 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11. 1.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id28 .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value "Nach § 33 Abs. 5 und § 34 Abs. 2 Satz 2 des Bundesdisziplinargesetzes vom 9. Juli 2001 (BGBl. I S. 1510) wird die Befugnis zur Festsetzung von Kürzungen der Dienstbezüge bis zum Höchstmaß nach § 33 Abs. 1 in Verbindung mit Abs. 3 Nr. 1 des Bundesdisziplinargesetzes und zur Erhebung der Disziplinarklage nach § 34 Abs. 1 in Verbindung mit Abs. 2 Satz 1 des Bundesdisziplinargesetzes den Dienstvorgesetzten in den Gerichten und Behörden des Geschäftsbereichs des Bundesministeriums der Justiz mit Ausnahme des Bundesdisziplinargerichts hinsichtlich ihrer Beamtinnen und Beamten übertragen, die ein Amt der Bundesbesoldungsordnung A bekleiden."@de .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_SP dtd:SP-id20 ;
+    dtd:has_Value "Die Bundesministerin der Justiz"@de .
+
+dtd:SP-id20 a dtd:SP ;
+    dtd:has_Value "Die Bundesministerin der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-01-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id29 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id30 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id23 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BMinJDiszAnO"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BMinJDiszAnO"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Anordnung zur Übertragung disziplinarrechtlicher Befugnisse auf die Dienstvorgesetzten im Geschäftsbereich des Bundesministeriums der Justiz"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152625"@de ;
+    dtd:has_doknr "BJNR040000002"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625152625"@de ;
+    dtd:has_doknr "BJNR040000002BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id29 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id28 a dtd:pre ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11. 1.2002 +++)"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id21 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id25 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id30 a dtd:zitstelle ;
+    dtd:has_Value "2002, 400"@de .
+

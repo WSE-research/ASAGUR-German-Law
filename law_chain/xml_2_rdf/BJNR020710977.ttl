@@ -1,0 +1,492 @@
+@prefix dtd: <urn:BGSJArbSchV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200709212506"@de ;
+    dtd:has_doknr "BJNR020710977"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102,
+        dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85,
+        dtd:LA-id86 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94,
+        dtd:LA-id95 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DL-id53 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id54,
+        dtd:DT-id55,
+        dtd:DT-id56,
+        dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id75 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79 ;
+    dtd:has_DT dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id83,
+        dtd:DD-id84 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Ausbildung am 24. oder 31. Dezember - jeweils nach 14 Uhr - sowie an gesetzlichen Feiertagen ist im Sicherungswachdienst und Bereitschaftsdienst insgesamt höchstens zweimal im Jahr zulässig, jedoch im ersten Ausbildungsjahr nur für die Ausbildung im Sicherungswachdienst."@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die tägliche Arbeitszeit, die auch Zeiten einschließt, in denen die Jugendlichen nicht zur Arbeitsleistung herangezogen werden, darf bis zu zwölf Stunden betragena)im ersten Ausbildungsjahr höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als sechsunddreißigmal im Jahr, b)im zweiten Ausbildungsjahr höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat. "@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die wöchentliche Arbeitszeit darf im ersten Ausbildungsjahr höchstens 48 Stunden, im zweiten Ausbildungsjahr höchstens 50 Stunden betragen."@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im ersten Ausbildungsjahr höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als sechsunddreißigmal im Jahr,"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im zweiten Ausbildungsjahr höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat."@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Für den Aufenthalt in den Pausen können die Räume in der Unterkunft aufgesucht werden, soweit dies nicht wegen einer Ausbildung im Freien ausgeschlossen ist."@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_DL dtd:DL-id75 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Schichtzeit darf betragena)im ersten Ausbildungsjahr bis zu 14 Stunden höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, b)im zweiten Ausbildungsjahr bis zu 16 Stunden höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat. "@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im ersten Ausbildungsjahr bis zu 14 Stunden höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat,"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im zweiten Ausbildungsjahr bis zu 16 Stunden höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat."@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die tägliche ununterbrochene Freizeit darf im Anschluß an die Ausbildung im Sicherungswachdienst und Bereitschaftsdienst im zweiten Ausbildungsjahr bis zu höchstens sechs Stunden eingeschränkt werden, jedoch nicht öfter als dreimal im Monat."@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_DL dtd:DL-id80 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Eine Beschäftigung in der Nacht ist zulässiga)im ersten Ausbildungsjahr höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als sechsunddreißigmal im Jahr, und für die Kraftfahrausbildung begrenzt auf die Zeit bis 24 Uhr, b)im zweiten Ausbildungsjahr höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als achtundvierzigmal im Jahr. "@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Im Anschluß an eine Ausbildung in der Nacht, ausgenommen eine Ausbildung im Sicherungswachdienst und Bereitschaftsdienst, ist eine ununterbrochene Freizeit von mindestens zwölf Stunden zu gewähren; die Freizeit beträgt mindestens vierundzwanzig Stunden, wenn diese Ausbildung nach 24 Uhr endet."@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im ersten Ausbildungsjahr höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als sechsunddreißigmal im Jahr, und für die Kraftfahrausbildung begrenzt auf die Zeit bis 24 Uhr,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im zweiten Ausbildungsjahr höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als achtundvierzigmal im Jahr."@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Ausbildung an mehr als fünf Tagen in der Woche ist höchstens einmal im Monat zulässig, jedoch im ersten Ausbildungsjahr nur für die Ausbildung im Sicherungswachdienst."@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Ausbildung am Samstag und Sonntag ist jeweils höchstens einmal im Monat zulässig, jedoch im ersten Ausbildungsjahr nur für die Ausbildung im Sicherungswachdienst."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 19.11.1977 +++)"@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_BR dtd:BR-id52 ;
+    dtd:has_Value " Überschrift: IdF d. Art. 59 Nr. 1 G v. 21.6.2005 I 1818 mWv 1.7.2005"@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 80a Abs. 2 des Bundesbeamtengesetzes in der Fassung der Bekanntmachung vom 3. Januar 1977 (BGBl. I S. 1) verordnet die Bundesregierung:"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_DL dtd:DL-id53 ;
+    dtd:has_Value "Für jugendliche Polizeivollzugsbeamte in der Bundespolizei, die Verbänden oder Einheiten angehören, werden folgende Ausnahmen von den Vorschriften des Jugendarbeitsschutzgesetzes vom 12. April 1976 (BGBl. I S. 965) zugelassen, soweit dies erforderlich ist, um die Ausbildung sicherzustellen: 1.Die tägliche Arbeitszeit, die auch Zeiten einschließt, in denen die Jugendlichen nicht zur Arbeitsleistung herangezogen werden, darf bis zu zwölf Stunden betragena)im ersten Ausbildungsjahr höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als sechsunddreißigmal im Jahr, b)im zweiten Ausbildungsjahr höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat. Die wöchentliche Arbeitszeit darf im ersten Ausbildungsjahr höchstens 48 Stunden, im zweiten Ausbildungsjahr höchstens 50 Stunden betragen.  2.Für den Aufenthalt in den Pausen können die Räume in der Unterkunft aufgesucht werden, soweit dies nicht wegen einer Ausbildung im Freien ausgeschlossen ist. 3.Die Schichtzeit darf betragena)im ersten Ausbildungsjahr bis zu 14 Stunden höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, b)im zweiten Ausbildungsjahr bis zu 16 Stunden höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat.  4.Die tägliche ununterbrochene Freizeit darf im Anschluß an die Ausbildung im Sicherungswachdienst und Bereitschaftsdienst im zweiten Ausbildungsjahr bis zu höchstens sechs Stunden eingeschränkt werden, jedoch nicht öfter als dreimal im Monat. 5.Eine Beschäftigung in der Nacht ist zulässiga)im ersten Ausbildungsjahr höchstens viermal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als sechsunddreißigmal im Jahr, und für die Kraftfahrausbildung begrenzt auf die Zeit bis 24 Uhr, b)im zweiten Ausbildungsjahr höchstens sechsmal im Monat, hiervon für die Ausbildung im Sicherungswachdienst höchstens dreimal im Monat, insgesamt jedoch nicht öfter als achtundvierzigmal im Jahr. Im Anschluß an eine Ausbildung in der Nacht, ausgenommen eine Ausbildung im Sicherungswachdienst und Bereitschaftsdienst, ist eine ununterbrochene Freizeit von mindestens zwölf Stunden zu gewähren; die Freizeit beträgt mindestens vierundzwanzig Stunden, wenn diese Ausbildung nach 24 Uhr endet.  6.Die Ausbildung an mehr als fünf Tagen in der Woche ist höchstens einmal im Monat zulässig, jedoch im ersten Ausbildungsjahr nur für die Ausbildung im Sicherungswachdienst. 7.Die Ausbildung am Samstag und Sonntag ist jeweils höchstens einmal im Monat zulässig, jedoch im ersten Ausbildungsjahr nur für die Ausbildung im Sicherungswachdienst. 8.Die Ausbildung am 24. oder 31. Dezember - jeweils nach 14 Uhr - sowie an gesetzlichen Feiertagen ist im Sicherungswachdienst und Bereitschaftsdienst insgesamt höchstens zweimal im Jahr zulässig, jedoch im ersten Ausbildungsjahr nur für die Ausbildung im Sicherungswachdienst. "@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "Müssen aus zwingenden dienstlichen Gründen jugendliche Polizeivollzugsbeamte in der Bundespolizei, die die Grundausbildung beendet haben, zu Dienstleistungen herangezogen werden, weil auf Verbände und Einheiten mit ausschließlich volljährigen Polizeivollzugsbeamten nicht zurückgegriffen werden kann, so sind über den in § 1 genannten Umfang hinaus Ausnahmen von § 8 Abs. 1, § 11 Abs. 1 bis 4, §§ 12, 13 und 14 Abs. 1, §§ 15 bis 18 sowie 22 Abs. 1 Nr. 3 bis 5 des Jugendarbeitsschutzgesetzes zulässig, soweit dies erforderlich ist, um Aufgaben der Bundespolizei nach dem Ersten Abschnitt des Bundespolizeigesetzes zu erfüllen. Auf die Leistungsfähigkeit und den Ausbildungsstand der Jugendlichen ist besonders Rücksicht zu nehmen; die Heranziehung jugendlicher Polizeivollzugsbeamter zu solchen Dienstleistungen, die voraussichtlich mit besonderen Gefährdungen sowie mit außergewöhnlichen physischen oder psychischen Belastungen verbunden sind, ist nicht zulässig."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "Ausnahmen von den Vorschriften des Jugendarbeitsschutzgesetzes in dem in § 2 Satz 1 genannten Umfang sind auch für jugendliche Polizeivollzugsbeamte in der Bundespolizei während der Grundausbildung zulässig, wenn der Bundesminister des Innern, für Bau und Heimat unter den in § 2 Satz 1 genannten Voraussetzungen Dienstleistungen dieser Beamten bei Naturkatastrophen, besonders schweren Unglücksfällen oder in Fällen anderer Art, die die Kräfte der Polizei in außergewöhnlichem Maße in Anspruch nehmen, angeordnet hat. Auf die Leistungsfähigkeit und den Ausbildungsstand der Jugendlichen ist besonders Rücksicht zu nehmen; die Heranziehung jugendlicher Polizeivollzugsbeamter zu solchen Dienstleistungen, die voraussichtlich mit besonderen Gefährdungen sowie mit außergewöhnlichen physischen oder psychischen Belastungen verbunden sind, ist nicht zulässig."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "Mehrarbeit, die jugendliche Polizeivollzugsbeamte in der Bundespolizei in den Fällen der §§ 1 bis 3 über die Arbeitszeit nach § 8 Abs. 1 des Jugendarbeitsschutzgesetzes hinaus leisten, ist innerhalb von vier Wochen durch Dienstbefreiung auszugleichen."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "BGS-JArbSchV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1977-11-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id116 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id117 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id101 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:fussnoten-id46 a dtd:fussnoten .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BGSJArbSchV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "BGSJArbSchV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BGSJArbSchV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BGSJArbSchV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BGSJArbSchV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BGSJArbSchV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BGSJArbSchV"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_Value """Verordnung über Ausnahmen von Vorschriften des
+Jugendarbeitsschutzgesetzes für jugendliche Polizeivollzugsbeamte in der
+Bundespolizei"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id27 ;
+    dtd:has_standangabe dtd:standangabe-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200709212506"@de ;
+    dtd:has_doknr "BJNR020710977"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200709212506"@de ;
+    dtd:has_doknr "BJNR020710977BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200709212506"@de ;
+    dtd:has_doknr "BJNR020710977BJNE000201310"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200709212506"@de ;
+    dtd:has_doknr "BJNR020710977BJNE000301310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200709212506"@de ;
+    dtd:has_doknr "BJNR020710977BJNE000402311"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200709212506"@de ;
+    dtd:has_doknr "BJNR020710977BJNE000501310"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200709212506"@de ;
+    dtd:has_doknr "BJNR020710977BJNE000600303"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id116 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id28 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id119 ;
+    dtd:has_standtyp dtd:standtyp-id118 .
+
+dtd:standkommentar-id119 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 53 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id118 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:zitstelle-id117 a dtd:zitstelle ;
+    dtd:has_Value "1977, 2071"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

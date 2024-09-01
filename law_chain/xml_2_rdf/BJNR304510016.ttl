@@ -1,0 +1,278 @@
+@prefix dtd: <urn:MilchSonMaßG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170102221219"@de ;
+    dtd:has_doknr "BJNR304510016"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59,
+        dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62,
+        dtd:P-id63,
+        dtd:P-id64,
+        dtd:P-id65 .
+
+dtd:DD-id33 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id34 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id35 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id54 .
+
+dtd:DD-id42 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53 .
+
+dtd:DL-id29 a dtd:DL ;
+    dtd:has_DD dtd:DD-id33,
+        dtd:DD-id34,
+        dtd:DD-id35 ;
+    dtd:has_DT dtd:DT-id30,
+        dtd:DT-id31,
+        dtd:DT-id32 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id36 a dtd:DL ;
+    dtd:has_DD dtd:DD-id40,
+        dtd:DD-id41,
+        dtd:DD-id42 ;
+    dtd:has_DT dtd:DT-id37,
+        dtd:DT-id38,
+        dtd:DT-id39 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id46,
+        dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id44,
+        dtd:DT-id45 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id30 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id31 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id32 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Value "eine Sondermaßnahme im Sinne des § 1 Absatz 1 eine Vergünstigung vorsieht,"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Value "das Unionsrecht den Mitgliedstaaten die Festlegung der Voraussetzungen oder der Höhe der Vergünstigung ganz oder teilweise überlässt und"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Value "eine Festlegung nicht durch eine Rechtsverordnung auf der Grundlage des Marktorganisationsgesetzes erfolgen kann,"@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Value "die wirtschaftlichen Auswirkungen der Marktstörung auf die Marktteilnehmer, insbesondere a)in Form der Dauer und der Höhe des Preisrückgangs undb)der Erlössituationbezüglich der jeweils betroffenen Erzeugnisse,"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Value "in Form der Dauer und der Höhe des Preisrückgangs und"@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Value "der Erlössituation"@de .
+
+dtd:LA-id54 a dtd:LA ;
+    dtd:has_Value "die Auswirkungen der Sondermaßnahme auf den Markt der jeweils betroffenen Erzeugnisse und"@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_Value "die Auswirkungen anderweitig auf Grund der Marktstörung vorgesehener Vergünstigungen"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_BR dtd:BR-id26 ;
+    dtd:has_Value " (+++ Textnachweis ab: 24.12.2016 +++)Das G wurde als Artikel 1 des G v. 20.12.2016 I 3045 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 5 Abs. 1 dieses G am 24.12.2016 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id66 .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz dient in Ergänzung des Marktorganisationsgesetzes der Durchführung von Sondermaßnahmen der Europäischen Union im Milchmarktbereich, soweit es sich um eine außergewöhnliche Maßnahme im Sinne des § 9b Absatz 1 des Marktorganisationsgesetzes handelt."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "(2) Dieses Gesetz ist ein Gesetz im Sinne des § 1 Absatz 2 Nummer 4 des Marktorganisationsgesetzes."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_DL dtd:DL-id29 ;
+    dtd:has_Value "(1) Soweit 1.eine Sondermaßnahme im Sinne des § 1 Absatz 1 eine Vergünstigung vorsieht,2.das Unionsrecht den Mitgliedstaaten die Festlegung der Voraussetzungen oder der Höhe der Vergünstigung ganz oder teilweise überlässt und3.eine Festlegung nicht durch eine Rechtsverordnung auf der Grundlage des Marktorganisationsgesetzes erfolgen kann,wird das Bundesministerium für Ernährung und Landwirtschaft ermächtigt, im Einvernehmen mit dem Bundesministerium der Finanzen und dem Bundesministerium für Wirtschaft und Energie durch Rechtsverordnung, die nicht der Zustimmung des Bundesrates bedarf, die Voraussetzungen oder die Höhe der Vergünstigung nach Maßgabe der Absätze 2 bis 4 festzulegen."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_DL dtd:DL-id36 ;
+    dtd:has_Value "(2) Bei der Festlegung sind, auch im Hinblick auf die Auswahl zu begünstigender Erzeugergruppen, 1.die wirtschaftlichen Auswirkungen der Marktstörung auf die Marktteilnehmer, insbesondere a)in Form der Dauer und der Höhe des Preisrückgangs undb)der Erlössituationbezüglich der jeweils betroffenen Erzeugnisse,2.die Auswirkungen der Sondermaßnahme auf den Markt der jeweils betroffenen Erzeugnisse und3.die Auswirkungen anderweitig auf Grund der Marktstörung vorgesehener Vergünstigungenzu berücksichtigen."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(3) Als Bemessungsgrundlage für die Vergünstigung können im Rahmen des Absatzes 2 insbesondere eine vermarktete oder nicht vermarktete Menge, eine Zahl gehaltener Tiere oder die Anzahl der Erzeuger, jeweils bezogen auf einen bestimmten Zeitraum oder einen bestimmten Zeitpunkt, herangezogen werden."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(4) Zur Vermeidung eines unverhältnismäßigen Verwaltungsaufwandes oder der Verzögerung einer erforderlichen schnellen Gewährung der Vergünstigung können Mindestvermarktungsmengen festgelegt werden, deren Vorliegen zur Teilnahme an der Sondermaßnahme erforderlich ist. Um die Wirksamkeit der Sondermaßnahme zu erreichen, kann eine Mindesthöhe der Vergünstigung vorgesehen werden."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "MilchSonMaßG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2016-12-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id67 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id68 .
+
+dtd:fussnoten-id23 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id56 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "MilchSonMaßG"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "MilchSonMaßG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "MilchSonMaßG"@de .
+
+dtd:kurzue-id15 a dtd:kurzue ;
+    dtd:has_Value "Milchmarktsondermaßnahmengesetz"@de .
+
+dtd:langue-id16 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Durchführung von Sondermaßnahmen der Europäischen Union im Milchmarktbereich"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id15 ;
+    dtd:has_langue dtd:langue-id16 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170102221219"@de ;
+    dtd:has_doknr "BJNR304510016"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170102221219"@de ;
+    dtd:has_doknr "BJNR304510016BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170102221219"@de ;
+    dtd:has_doknr "BJNR304510016BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id67 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id66 a dtd:pre ;
+    dtd:has_BR dtd:BR-id27,
+        dtd:BR-id28 ;
+    dtd:has_Value "(+++ Textnachweis ab: 24.12.2016 +++)"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id23 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Zweck"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value "Voraussetzungen und Höhe einer Vergünstigung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id68 a dtd:zitstelle ;
+    dtd:has_Value "2016, 3045"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

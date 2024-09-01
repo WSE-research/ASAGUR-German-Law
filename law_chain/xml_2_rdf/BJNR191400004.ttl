@@ -1,0 +1,226 @@
+@prefix dtd: <urn:Münz10EuroBek-2004-07-06#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131202132719"@de ;
+    dtd:has_doknr "BJNR191400004"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id56 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2004, 1914)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:IMG-id44 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_2004_j1914_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value " (+++ Textnachweis ab: 28. 7.2004 +++)"@de ;
+    dtd:has_pre dtd:pre-id55 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33,
+        dtd:BR-id34,
+        dtd:BR-id35,
+        dtd:BR-id36,
+        dtd:BR-id37 ;
+    dtd:has_Value "Gemäß den §§ 2, 4 und 5 des Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung beschlossen, anlässlich des 200. Geburtstages des Dichters Eduard Mörike eine deutsche Euro-Gedenkmünze im Nennwert von 10 Euro prägen zu lassen.Die Auflage der Münze beträgt 2 100 000 Stück, darunter 300 000 Stück in Spiegelglanzausführung. Die Prägung erfolgt durch die Staatliche Münze Baden-Württemberg, Prägestätte Stuttgart. Die Münze wird ab dem 9. September 2004 in den Verkehr gebracht. Sie besteht aus einer Legierung von 925 Tausendteilen Silber und 75 Tausendteilen Kupfer, hat einen Durchmesser von 32,5 Millimetern und eine Masse von 18 Gramm. Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden, glatten Rand umgeben.Die Bildseite zeigt ein Dreiviertelporträt Mörikes aus seiner späteren Lebenszeit. Es ist der Gewohnheit seiner Zeit entsprechend in einen ovalen Rahmen gesetzt.Die Wertseite trägt einen Adler, zwölf Sterne, den Nennwert \"10 EURO\", die Umschrift \"BUNDESREPUBLIK DEUTSCHLAND\", die Jahreszahl 2004 und das Münzzeichen \"F\" der Prägestätte Stuttgart.Der glatte Münzrand enthält in vertiefter Prägung die Inschrift: \"OHNE DAS SCHÖNE * WAS SOLL DER GEWINN\"Der Entwurf der Münze stammt von Herrn Erich Ott, München."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40,
+        dtd:BR-id41,
+        dtd:BR-id42 ;
+    dtd:has_IMG dtd:IMG-id44 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2004, 1914)"@de ;
+    dtd:has_noindex dtd:noindex-id43 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-07-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id57 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id58 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2004-07-06"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2004-07-06"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2004-07-06"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2004-07-06"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen im
+Nennwert von 10 Euro (Gedenkmünze "200. Geburtstag des Dichters
+Eduard Mörike")"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id43 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131202132720"@de ;
+    dtd:has_doknr "BJNR191400004"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131202132720"@de ;
+    dtd:has_doknr "BJNR191400004BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131202132720"@de ;
+    dtd:has_doknr "BJNR191400004BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131202132720"@de ;
+    dtd:has_doknr "BJNR191400004BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id57 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id55 a dtd:pre ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "(+++ Textnachweis ab: 28. 7.2004 +++)"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id58 a dtd:zitstelle ;
+    dtd:has_Value "2004, 1914"@de .
+

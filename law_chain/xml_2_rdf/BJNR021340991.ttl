@@ -1,0 +1,361 @@
+@prefix dtd: <urn:Münz10DMBek-1991-11#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131202132529"@de ;
+    dtd:has_doknr "BJNR021340991"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id83 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1991, 2134)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:ABWFORMAT-id82 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69,
+        dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73,
+        dtd:P-id74,
+        dtd:P-id75,
+        dtd:P-id76,
+        dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55 .
+
+dtd:DD-id42 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id56,
+        dtd:LA-id57 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59,
+        dtd:LA-id60 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DL-id37 a dtd:DL ;
+    dtd:has_DD dtd:DD-id39 ;
+    dtd:has_DT dtd:DT-id38 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id40 a dtd:DL ;
+    dtd:has_DD dtd:DD-id42 ;
+    dtd:has_DT dtd:DT-id41 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id47 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id49 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51 ;
+    dtd:has_DT dtd:DT-id50 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id52 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id53 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:IMG-id63 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1991_j2134_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_DL dtd:DL-id40 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\". DAS BRANDENBURGER TOR .SYMBOL DER DEUTSCHEN EINHEIT\"."@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\". DAS BRANDENBURGER TOR ."@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "SYMBOL DER DEUTSCHEN EINHEIT\"."@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\". BUNDESREPUBLIK DEUTSCHLAND .DEUTSCHE MARK\"."@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\". BUNDESREPUBLIK DEUTSCHLAND ."@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "DEUTSCHE MARK\"."@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_DL dtd:DL-id52 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"DEUTSCHLAND EINIG VATERLAND\"."@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"DEUTSCHLAND EINIG VATERLAND\"."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.11.1991 +++)"@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung hat die Bundesregierung beschlossen, zum 200jährigen Bestehen des Brandenburger Tores eine Bundesmünze (Gedenkmünze) im Nennwert von 10 Deutschen Mark prägen zu lassen. Die Auflage der Münze beträgt 8,85 Millionen Stück. Die Prägung erfolgt in der Münze Berlin."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(2) Die Münze wird ab 18. Dezember 1991 in den Verkehr gebracht."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(3) Die Münze besteht aus einer Legierung von 625 Tausendteilen Silber und 375 Tausendteilen Kupfer. Sie hat einen Durchmesser von 32,5 Millimetern und ein Gewicht von 15,5 Gramm."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(4) Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden glatten Randstab umgeben."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id82 ;
+    dtd:has_DL dtd:DL-id37 ;
+    dtd:has_Value "(5) Die Bildseite zeigt eine Darstellung des Brandenburger Tores und darunter die Jahreszahlen 1791/1991. Die Umschrift lautet: \". DAS BRANDENBURGER TOR .SYMBOL DER DEUTSCHEN EINHEIT\"."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Value "(6) Die Wertseite trägt einen Adler, die Wertzahl \"10\", die Jahreszahl \"1991\", das Münzzeichen \"A\" der Münze Berlin und die Umschrift: \". BUNDESREPUBLIK DEUTSCHLAND .DEUTSCHE MARK\".Die Jahreszahl 1991 ist Teil der Umschrift."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_DL dtd:DL-id49 ;
+    dtd:has_Value "(7) Der glatte Münzrand enthält in vertiefter Prägung die Inschrift: \"DEUTSCHLAND EINIG VATERLAND\"."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(8) Zwischen Ende und Anfang der Randschrift befinden sich drei fünfzackige Sterne."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(9) Der Entwurf der Münze stammt von Erich Ott, München."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_SP dtd:SP-id35 ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_BR dtd:BR-id31,
+        dtd:BR-id32,
+        dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_IMG dtd:IMG-id63 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1991, 2134)"@de ;
+    dtd:has_noindex dtd:noindex-id36 .
+
+dtd:SP-id35 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-11-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id84 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id85 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id66 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1991-11"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1991-11"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1991-11"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1991-11"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 10
+Deutschen Mark (Gedenkmünze 200 Jahre Brandenburger Tor)"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id36 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131202132529"@de ;
+    dtd:has_doknr "BJNR021340991"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131202132529"@de ;
+    dtd:has_doknr "BJNR021340991BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131202132529"@de ;
+    dtd:has_doknr "BJNR021340991BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131202132529"@de ;
+    dtd:has_doknr "BJNR021340991BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id84 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münze"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id85 a dtd:zitstelle ;
+    dtd:has_Value "1991, 2134"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

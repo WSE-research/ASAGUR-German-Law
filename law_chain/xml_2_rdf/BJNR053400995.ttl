@@ -1,0 +1,113 @@
+@prefix dtd: <urn:PatG§41Abs2Bek-95-04#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153930"@de ;
+    dtd:has_doknr "BJNR053400995"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21 .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25,
+        dtd:P-id26 .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.4.1995 +++)"@de .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_Value "Auf Grund des § 41 Abs. 2 des Patentgesetzes in der Fassung der Bekanntmachung vom 16. Dezember 1980 (BGBl. 1981 I S. 1) und des § 7b Abs. 2 des Geschmacksmustergesetzes in der im Bundesgesetzblatt Teil III, Gliederungsnummer 442-1, veröffentlichten bereinigten Fassung, die durch Artikel 13 Abs. 1 und 2 des Markenrechtsreformgesetzes vom 25. Oktober 1994 (BGBl. I S. 3082, 1995 I S. 156) eingefügt worden sind, und des § 6 Abs. 2 des Gebrauchsmustergesetzes in der Fassung der Bekanntmachung vom 28. August 1986 (BGBl. I S. 1455) in Verbindung mit § 41 Abs. 2 des Patentgesetzes wird bekanntgemacht: Deutsche genießen auf Grund einer ersten Anmeldung einer Erfindung zum Patent beim Deutschen Patentamt für eine Patentanmeldung in Ecuador ein Prioritätsrecht, das nach Voraussetzungen und Inhalt mit dem Prioritätsrecht nach der Pariser Verbandsübereinkunft vergleichbar ist.Gleiches gilt für eine Gebrauchsmusteranmeldung in Ecuador auf Grund einer Gebrauchsmusteranmeldung beim Deutschen Patentamt und für eine Geschmacksmusteranmeldung in Ecuador auf Grund einer Geschmacksmusteranmeldung beim Deutschen Patentamt.Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 1. Januar 1995 (BGBl. I S. 25)."@de .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value "Die Bundesministerin der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1995-04-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id27 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id28 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id22 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "PatG§41Abs2Bek 95-04"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "PatG§41Abs2Bek 95-04"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 41 Abs. 2 des Patentgesetzes"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153930"@de ;
+    dtd:has_doknr "BJNR053400995"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153930"@de ;
+    dtd:has_doknr "BJNR053400995BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id27 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id20 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id28 a dtd:zitstelle ;
+    dtd:has_Value "1995, 534"@de .
+

@@ -1,0 +1,249 @@
+@prefix dtd: <urn:TelekomJubV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20151215215043"@de ;
+    dtd:has_doknr "BJNR179100005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_BR dtd:BR-id43 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29. 6.2005 +++) Kurzüberschrift: IdF d. Art. 2 Nr. 1 V v. 12.10.2015 I 1685 mWv 21.10.2015"@de ;
+    dtd:has_pre dtd:pre-id59 .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 5 des Postpersonalrechtsgesetzes vom 14. September 1994 (BGBl. I S. 2325, 2353), der durch Artikel 1 Nr. 3 des Gesetzes vom 9. November 2004 (BGBl. I S. 2774) eingefügt worden ist, verordnet das Bundesministerium der Finanzen auf Vorschlag des Vorstands der Deutschen Telekom AG:"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Ergänzend zu den Vorschriften der Dienstjubiläumsverordnung vom 18. Dezember 2014 (BGBl. I S. 2267) gelten für die Beamtinnen und Beamten, die bei der Deutschen Telekom AG beschäftigt sind, die Vorschriften des § 2. Gleiches gilt auch für die Beamtinnen und Beamten bei der Deutschen Telekom AG, denen nach § 4 Abs. 4 des Postpersonalrechtsgesetzes Tätigkeiten bei Unternehmen zugewiesen sind."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(1) Anstelle der Jubiläumszuwendung nach § 2 Absatz 2 der Dienstjubiläumsverordnung können die Beamtinnen und Beamten nach § 1 aus einem wertmäßig dieser Jubiläumszuwendung entsprechenden Angebot von Sachbezügen oder von anderen Vergünstigungen wählen, die die Deutsche Telekom AG auch für ihre Arbeitnehmerinnen und Arbeitnehmer auf Grund von Betriebsvereinbarungen mit dem Gesamtbetriebsrat oder dem Konzernbetriebsrat oder von Tarifverträgen aus gleichem Anlass bereitstellt. Die Beamtinnen und Beamten sind spätestens zwei Monate vor dem Tag des Dienstjubiläums über das Angebot zu informieren."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2) Üben die Beamtinnen und Beamten ihr Wahlrecht bis vier Wochen vor dem Jubiläumstag nicht aus oder verzichten sie bis dahin ausdrücklich auf ihr Wahlrecht, gilt § 2 Absatz 2 der Dienstjubiläumsverordnung."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "TelekomJubV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-06-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id48 .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "TelekomJubV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "TelekomJubV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "TelekomJubV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "TelekomJubV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "TelekomJubV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Telekom-Jubiläumsverordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Gewährung von Jubiläumszuwendungen an Beamtinnen und
+Beamte bei der Deutschen Telekom AG"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20151215215043"@de ;
+    dtd:has_doknr "BJNR179100005"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20151215215043"@de ;
+    dtd:has_doknr "BJNR179100005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20151215215043"@de ;
+    dtd:has_doknr "BJNR179100005BJNE000201305"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20151215215043"@de ;
+    dtd:has_doknr "BJNR179100005BJNE000301305"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20151215215043"@de ;
+    dtd:has_doknr "BJNR179100005BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id59 a dtd:pre ;
+    dtd:has_BR dtd:BR-id44,
+        dtd:BR-id45 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29. 6.2005 +++) Kurzüberschrift: IdF d. Art. 2 Nr. 1 V v. 12.10.2015 I 1685 mWv 21.10.2015"@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id63 ;
+    dtd:has_standtyp dtd:standtyp-id62 .
+
+dtd:standkommentar-id63 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 V v. 12.10.2015 I 1685"@de .
+
+dtd:standtyp-id62 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Geltungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Jubiläumszuwendung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "2005, 1791"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

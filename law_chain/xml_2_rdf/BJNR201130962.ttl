@@ -1,0 +1,262 @@
+@prefix dtd: <urn:NATOVorRV-1962#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153031"@de ;
+    dtd:has_doknr "BJNR201130962"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59,
+        dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62,
+        dtd:P-id63,
+        dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_Value " Die Verordnung ist in Berlin nicht veröffentlicht worden"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 3 des Gesetzes vom 22. Juni 1954 über den Beitritt der Bundesrepublik Deutschland zum Abkommen über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen vom 21. November 1947 und über die Gewährung von Vorrechten und Befreiungen an andere zwischenstaatliche Organisationen (Bundesgesetzbl. II S. 639) in der Fassung des Gesetzes vom 3. Juni 1957 (Bundesgesetzbl. II S. 469) wird in Ergänzung der Verordnung vom 30. Mai 1958 über die Gewährung von Vorrechten und Befreiungen an die Nordatlantikvertrags-Organisation, die nationalen Vertreter, das internationale Personal und die für die Organisation tätigen Sachverständigen (Bundesgesetzbl. II S. 117) mit Zustimmung des Bundesrates verordnet:"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(1) Für die Gewährung von Vorrechten und Befreiungen an Bedienstete der Nordatlantikvertrags-Organisation ist die auf Grund des Artikels 17 des Übereinkommens vom 20. September 1951 über den Status der Nordatlantikvertrags-Organisation, der nationalen Vertreter und des internationalen Personals am 30. November 1961 zwischen der Bundesregierung und der Nordatlantikvertrags-Organisation abgeschlossene Vereinbarung maßgebend. Die in Artikel 18c, e und f sowie Artikel 19 des Übereinkommens vom 20. September 1951 in Verbindung mit Artikel 1 und 3 der Vereinbarung vom 30. November 1961 vorgesehenen Vorrechte und Befreiungen werden bereits mit Wirkung vom 1. Januar 1962 gewährt."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt an dem Tage in Kraft, an dem die Vereinbarung vom 30. November 1961 in Kraft tritt."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(2) Diese Verordnung tritt an dem Tage außer Kraft, an dem die Vereinbarung vom 30. November 1961 außer Kraft tritt."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(3) Der Tag des ... Außerkrafttretens ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39,
+        dtd:BR-id40,
+        dtd:BR-id41,
+        dtd:BR-id42,
+        dtd:BR-id43 ;
+    dtd:has_SP dtd:SP-id44,
+        dtd:SP-id45,
+        dtd:SP-id46,
+        dtd:SP-id47,
+        dtd:SP-id48,
+        dtd:SP-id49,
+        dtd:SP-id50 ;
+    dtd:has_Value "Der Stellvertreter des Bundeskanzlers Der Bundesminister der Verteidigung Der Bundesminister des Auswärtigen Der Bundesminister des Innern Der Bundesminister der Justiz Der Bundesminister der Finanzen Der Bundesminister für Wirtschaft"@de .
+
+dtd:SP-id44 a dtd:SP ;
+    dtd:has_Value "Der Stellvertreter des Bundeskanzlers"@de .
+
+dtd:SP-id45 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Verteidigung"@de .
+
+dtd:SP-id46 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Auswärtigen"@de .
+
+dtd:SP-id47 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:SP-id48 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:SP-id49 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:SP-id50 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1962-03-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id67 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id68 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id53 .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "NATOVorRV 1962"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "NATOVorRV 1962"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "NATOVorRV 1962"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "NATOVorRV 1962"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "NATOVorRV 1962"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Gewährung von Vorrechten und Befreiungen an
+internationale Bedienstete der Nordatlantikvertrags-Organisation"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153031"@de ;
+    dtd:has_doknr "BJNR201130962"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153031"@de ;
+    dtd:has_doknr "BJNR201130962BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153031"@de ;
+    dtd:has_doknr "BJNR201130962BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625153031"@de ;
+    dtd:has_doknr "BJNR201130962BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625153031"@de ;
+    dtd:has_doknr "BJNR201130962BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id67 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id68 a dtd:zitstelle ;
+    dtd:has_Value "1962, 113"@de .
+

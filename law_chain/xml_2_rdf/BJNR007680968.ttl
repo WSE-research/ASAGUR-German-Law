@@ -1,0 +1,152 @@
+@prefix dtd: <urn:BVerkEhrZÄndErl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125204"@de ;
+    dtd:has_doknr "BJNR007680968"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:Content-id27 a dtd:Content ;
+    dtd:has_P dtd:P-id28 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:DD-id25 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id26 .
+
+dtd:DL-id23 a dtd:DL ;
+    dtd:has_DD dtd:DD-id25 ;
+    dtd:has_DT dtd:DT-id24 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id24 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id26 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"Das Präsidium beschließt, daß gemäß § 1 der neuen Satzung in der Stiftungsurkunde des Ehrenzeichens der Bundesverkehrswacht vom 7. November 1957 der Name \"Bundesverkehrswacht\" in allen Artikeln in den Namen \"Deutsche Verkehrswacht\" geändert wird. Auf der Rückseite der Medaille wird das Wort \"Bundesverkehrswacht\" in \"Deutsche Verkehrswacht\" geändert.\""@de .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 10. 7.1968 +++)"@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id19,
+        dtd:BR-id20 ;
+    dtd:has_DL dtd:DL-id23 ;
+    dtd:has_SP dtd:SP-id21,
+        dtd:SP-id22 ;
+    dtd:has_Value "Das Präsidium der Deutschen Verkehrswacht e.V. (früher Bundesverkehrswacht) hat folgenden Beschluß gefaßt: \"Das Präsidium beschließt, daß gemäß § 1 der neuen Satzung in der Stiftungsurkunde des Ehrenzeichens der Bundesverkehrswacht vom 7. November 1957 der Name \"Bundesverkehrswacht\" in allen Artikeln in den Namen \"Deutsche Verkehrswacht\" geändert wird. Auf der Rückseite der Medaille wird das Wort \"Bundesverkehrswacht\" in \"Deutsche Verkehrswacht\" geändert.\"Nach Artikel 6 Abs. 1 des Erlasses über die Genehmigung der Stiftung und Verleihung von Orden und Ehrenzeichen und über die Anerkennung als Ehrenzeichen vom 4. Juli 1958 (Bundesgesetzbl. I S. 422) genehmige ich die vom Präsidium der Deutschen Verkehrswacht e.V. beschlossene Änderung der Benennung und der Form des Ehrenzeichens.Der BundespräsidentDer Bundesminister des Innern"@de .
+
+dtd:SP-id21 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id22 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1968-07-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id14 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id33 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id34 .
+
+dtd:fundstelle-id11 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id35 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id36 .
+
+dtd:fussnoten-id16 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id29 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id13 a dtd:jurabk ;
+    dtd:has_Value "BVerkEhrZÄndErl"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BVerkEhrZÄndErl"@de .
+
+dtd:langue-id12 a dtd:langue ;
+    dtd:has_Value """Erlaß über die Genehmigung einer Änderung der Benennung und der Form des
+"Ehrenzeichens der Bundesverkehrswacht\""""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10,
+        dtd:fundstelle-id11 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id12 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id14 ;
+    dtd:has_jurabk dtd:jurabk-id13 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125204"@de ;
+    dtd:has_doknr "BJNR007680968"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125204"@de ;
+    dtd:has_doknr "BJNR007680968BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id33 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:periodikum-id35 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id15 a dtd:text ;
+    dtd:has_Content dtd:Content-id27 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id17 a dtd:text ;
+    dtd:has_Content dtd:Content-id31 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id16 ;
+    dtd:has_text dtd:text-id15 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id17 .
+
+dtd:zitstelle-id34 a dtd:zitstelle ;
+    dtd:has_Value "1968, 768"@de .
+
+dtd:zitstelle-id36 a dtd:zitstelle ;
+    dtd:has_Value "1969, 11"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

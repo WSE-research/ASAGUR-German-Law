@@ -1,0 +1,118 @@
+@prefix dtd: <urn:TrVerjG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150455"@de ;
+    dtd:has_doknr "BJNR098600993"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21 .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25,
+        dtd:P-id26 .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.6.1993 +++)Das G wurde als Artikel 38 G 105-16 v. 23.6.1993 I 944 (FKPG) vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 43 Abs. 1 dieses G am 27.6.1993 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id27 .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value "(1) Ansprüche wegen unberechtigter oder rechtswidriger Erlangung von DM-Gegenwerten aus der Verrechnung von Transferrubeln bzw. bilateralen Clearingrubeln verjähren unabhängig von ihrem Rechtsgrund in zehn Jahren von dem Zeitpunkt an, in dem die für die Geltendmachung der DM-Forderungen zuständige Stelle von den den Anspruch begründenden Tatsachen und der Person des Verpflichteten Kenntnis erlangt, ohne Rücksicht auf diese Kenntnis mit Ablauf des 31. Dezember 2020."@de .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value "(2) Für die Verjährung von Ansprüchen auf die Zahlung von DM-Gegenwerten aus Importgeschäften auf Transferrubel- beziehungsweise Clearingrubelbasis ist Absatz 1 entsprechend anzuwenden."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1993-06-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id28 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id29 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id22 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "TrVerjG"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "TrVerjG"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Regelung der Verjährung von Ansprüchen wegen unberechtigter
+oder rechtswidriger Erlangung von Gegenwerten aus Transferrubelgeschäften"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150455"@de ;
+    dtd:has_doknr "BJNR098600993"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150455"@de ;
+    dtd:has_doknr "BJNR098600993BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id28 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id27 a dtd:pre ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.6.1993 +++)"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id20 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id29 a dtd:zitstelle ;
+    dtd:has_Value "1993, 944, 986"@de .
+

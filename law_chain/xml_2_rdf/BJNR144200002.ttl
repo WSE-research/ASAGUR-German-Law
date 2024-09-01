@@ -1,0 +1,265 @@
+@prefix dtd: <urn:ForstWiAusbStV-2002#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171231215255"@de ;
+    dtd:has_doknr "BJNR144200002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51,
+        dtd:P-id52,
+        dtd:P-id53,
+        dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56,
+        dtd:P-id57,
+        dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30.4.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id63 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 82 Abs. 2 des Berufsbildungsgesetzes vom 14. August 1969 (BGBl. I S. 1112), der zuletzt durch Artikel 212 Nr. 6 der Verordnung vom 29. Oktober 2001 (BGBl. I S. 2785) geändert worden ist, verordnet das Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft im Einvernehmen mit dem Bundesministerium für Bildung und Forschung nach Anhörung des Ständigen Ausschusses des Bundesinstituts für Berufsbildung:"@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(1) Die Ausbildungsstätte muss unter Berücksichtigung der in § 22 Abs. 1 des Berufsbildungsgesetzes genannten Anforderungen ein Betrieb sein, der nach Art und Umfang der Produktion oder der Dienstleistungen sowie nach seinem Bewirtschaftungszustand die Voraussetzungen dafür bietet, dass dem Auszubildenden die in der Verordnung über die Berufsausbildung zum Forstwirt/zur Forstwirtin vom 23. Januar 1998 (BGBl. I S. 206) geforderten Fertigkeiten, Kenntnisse und Fähigkeiten vermittelt werden können. Eine kontinuierliche Anleitung muss gewährleistet sein."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(2) Die Ausbildungsstätte muss als Haupterwerbsbetrieb, als selbstständige forstliche Betriebseinheit, als forstwirtschaftliches Dienstleistungsunternehmen, als Einrichtung der öffentlichen Hand oder als Zusammenschluss nach § 16 oder § 21 des Bundeswaldgesetzes bewirtschaftet und nach betriebswirtschaftlichen Grundsätzen geführt werden. Die Wirtschaftsergebnisse müssen buchführungsgemäß erfasst sein."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(3) Die Gebäude, baulichen Anlagen und technischen Ausstattungen der Ausbildungsstätte müssen den im Hinblick auf die Ausbildungsziele zu stellenden Anforderungen entsprechen und in ordnungsgemäßem Zustand sein."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(4) Ausbildungsstätten, die über keine für die Durchführung der Ausbildung notwendige Flächenausstattung oder Bestandszusammensetzung verfügen, dürfen nur ausbilden, wenn sie nachweisen, dass die forstbetrieblichen Arbeiten in dem für die Ausbildung notwendigen Umfang und der notwendigen Vielfalt durchgeführt werden können."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(5) In der Ausbildungsstätte muss gewährleistet sein, dass die erforderlichen Betriebsmittel, insbesondere die Geräte, Maschinen und technischen Einrichtungen, für die Ausbildung zur Verfügung stehen und in ordnungsgemäßem Zustand sind. Die notwendigen Einrichtungen zu deren Pflege sowie für Wartungs- und Instandsetzungsarbeiten müssen vorhanden sein. Für die Ausbildung müssen überdachte Ausbildungsplätze zur Verfügung stehen."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(6) Ein Abdruck der Verordnung über die Berufsausbildung zum Forstwirt/zur Forstwirtin und der Prüfungsordnung sowie der Ausbildungsplan müssen in der Ausbildungsstätte an geeigneter Stelle zur Einsicht ausgelegt oder dem Auszubildenden ausgehändigt werden. Dem Auszubildenden soll für die betriebliche Ausbildung förderliche Fachliteratur zur Verfügung stehen. Soweit tarifvertragliche Regelungen für den Ausbildungsbetrieb gelten, sind diese in der Ausbildungsstätte zur Einsicht auszulegen."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(7) Die Ausbildungsstätte muss die Gewähr dafür bieten, dass die Vorschriften des Jugendarbeitsschutzgesetzes, des Mutterschutzgesetzes, die Unfallverhütungsvorschriften, der Arbeitsstättenverordnung und sonstige Vorschriften zum Schutze des Auszubildenden eingehalten werden können. Sie muss über geeignete Sozialräume und Sanitärräume verfügen. Bei der Antragstellung gemäß § 82 Abs. 1 des Berufsbildungsgesetzes muss eine Unbedenklichkeitsbescheinigung der zuständigen Berufsgenossenschaft über die Einhaltung der Unfallverhütungsvorschriften vorliegen, die nicht älter als ein Jahr ist."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(8) Ein Betrieb ist als Ausbildungsstätte ungeeignet, wenn über das Vermögen des Inhabers ein Insolvenz- oder Vergleichsverfahren eröffnet worden ist."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Eine Ausbildungsstätte, die den Anforderungen dieser Verordnung nicht in vollem Umfang entspricht, kann für die Ausbildung anerkannt werden, wenn sichergestellt ist, dass die durch sie nicht vermittelbaren erforderlichen Fertigkeiten und Kenntnisse durch Ausbildungsmaßnahmen außerhalb der Ausbildungsstätte in einer anderen anerkannten Ausbildungsstätte oder in Form überbetrieblicher Ausbildung vermittelt werden können."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-04-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id64 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id65 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id46 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "ForstWiAusbStV 2002"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "ForstWiAusbStV 2002"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "ForstWiAusbStV 2002"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "ForstWiAusbStV 2002"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "ForstWiAusbStV 2002"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Eignung der Ausbildungsstätte für die
+Berufsausbildung zum Forstwirt/zur Forstwirtin"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171231215255"@de ;
+    dtd:has_doknr "BJNR144200002"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171231215255"@de ;
+    dtd:has_doknr "BJNR144200002BJNE000000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171231215255"@de ;
+    dtd:has_doknr "BJNR144200002BJNE000101360"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20171231215255"@de ;
+    dtd:has_doknr "BJNR144200002BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20171231215255"@de ;
+    dtd:has_doknr "BJNR144200002BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id64 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id63 a dtd:pre ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.4.2002 +++)"@de .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id67 ;
+    dtd:has_standtyp dtd:standtyp-id66 .
+
+dtd:standkommentar-id67 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 6 Abs. 18 G v. 23.5.2017 I 1228"@de .
+
+dtd:standtyp-id66 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Mindestanforderungen an die Einrichtung und den wirtschaftlichen Zustand"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Ausnahmeregelungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id65 a dtd:zitstelle ;
+    dtd:has_Value "2002, 1442"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

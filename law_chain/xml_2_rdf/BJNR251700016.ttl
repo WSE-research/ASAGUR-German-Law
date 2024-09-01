@@ -1,0 +1,218 @@
+@prefix dtd: <urn:WahlkostenV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20161121222539"@de ;
+    dtd:has_doknr "BJNR251700016"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_Value " (+++ Textnachweis ab: 17.11.2016 +++)"@de ;
+    dtd:has_pre dtd:pre-id51 .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 50 Absatz 3 Satz 3 des Bundeswahlgesetzes, der durch Artikel 1 Nummer 13 des Gesetzes vom 27. April 2001 (BGBl. I S. 698) neu gefasst worden ist, verordnet das Bundesministerium des Innern:"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Der feste Betrag nach § 50 Absatz 3 Satz 2 des Bundeswahlgesetzes wird für Gemeinden bis zu 100 000 Wahlberechtigten auf 0,51 Euro und für Gemeinden mit mehr als 100 000 Wahlberechtigten auf 0,79 Euro festgesetzt."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Gleichzeitig tritt die Verordnung zur Anpassung des festen Betrages an die Preisentwicklung für die Erstattung der Wahlkosten durch den Bund vom 29. September 2009 (BGBl. I S. 3220) außer Kraft."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "WahlkostenV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2016-11-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id52 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id53 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id41 .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "WahlkostenV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "WahlkostenV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "WahlkostenV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "WahlkostenV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "WahlkostenV"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Anpassung der festen Beträge im Rahmen der Wahlkostenerstattung durch den Bund"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20161121222539"@de ;
+    dtd:has_doknr "BJNR251700016"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20161121222539"@de ;
+    dtd:has_doknr "BJNR251700016BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20161121222539"@de ;
+    dtd:has_doknr "BJNR251700016BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20161121222539"@de ;
+    dtd:has_doknr "BJNR251700016BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20161121222539"@de ;
+    dtd:has_doknr "BJNR251700016BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id52 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id51 a dtd:pre ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40 ;
+    dtd:has_Value "(+++ Textnachweis ab: 17.11.2016 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id55 ;
+    dtd:has_standtyp dtd:standtyp-id54 .
+
+dtd:standkommentar-id55 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 111-1-7 v. 29.9.2009 I 3220 (WahlKErstV)"@de .
+
+dtd:standtyp-id54 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Feste Beträge der Wahlkostenerstattung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id53 a dtd:zitstelle ;
+    dtd:has_Value "2016, 2517"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

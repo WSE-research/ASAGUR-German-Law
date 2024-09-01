@@ -1,0 +1,570 @@
+@prefix dtd: <urn:GnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125749"@de ;
+    dtd:has_doknr "BJNR015730965"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123,
+        dtd:P-id124,
+        dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102,
+        dtd:LA-id103 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104,
+        dtd:LA-id105 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106,
+        dtd:LA-id107 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108,
+        dtd:LA-id109 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DL-id55 a dtd:DL ;
+    dtd:has_DD dtd:DD-id61,
+        dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65 ;
+    dtd:has_DT dtd:DT-id56,
+        dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id66 a dtd:DL ;
+    dtd:has_DD dtd:DD-id69,
+        dtd:DD-id70 ;
+    dtd:has_DT dtd:DT-id67,
+        dtd:DT-id68 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id71 a dtd:DL ;
+    dtd:has_DD dtd:DD-id75,
+        dtd:DD-id76,
+        dtd:DD-id77 ;
+    dtd:has_DT dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id81,
+        dtd:DD-id82 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id83 a dtd:DL ;
+    dtd:has_DD dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89 ;
+    dtd:has_DT dtd:DT-id84,
+        dtd:DT-id85,
+        dtd:DT-id86 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id90 a dtd:DL ;
+    dtd:has_DD dtd:DD-id93,
+        dtd:DD-id94 ;
+    dtd:has_DT dtd:DT-id91,
+        dtd:DT-id92 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:I-id54 a dtd:I ;
+    dtd:has_Value "straf"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Gewährung eines Unterhaltsbeitrags;"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Aufhebung der gegen einen Rechtsanwalt beim Bundesgerichtshof erkannten Ausschließung aus der Rechtsanwaltschaft."@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Präsidenten des Deutschen Bundestages, des Bundesrates, des Bundesverfassungsgerichts, des Bundesrechnungshofes und der Deutschen Bundesbank"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Disziplinarsachen der Beamten und Ruhestandsbeamten ihres Geschäftsbereichs;"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Bundesministern"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Disziplinarsachen und in Ehrengerichtssachen ihres Geschäftsbereichs;"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Bundesminister des Innern oder dem Bundesminister, dem die Befugnisse als Einleitungsbehörde übertragen worden sind,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Disziplinarsachen der Angehörigen des öffentlichen Dienstes oder Versorgungsberechtigten im Sinne des Gesetzes zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen."@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Bundesminister der Justiz"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_DL dtd:DL-id83 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in rechtskräftig abgeschlossenen Strafsachen, in denen erkannt hat:a)der Bundesgerichtshof oder in Ausübung von Gerichtsbarkeit des Bundes ein Oberlandesgericht im ersten Rechtszug oder ein anderes Gericht des Bundes, soweit ich mir die Entschließung nicht vorbehalten habe, b)das Reichsgericht im ersten Rechtszug, der ehemalige Volksgerichtshof, ein früheres Wehrmachtgericht oder ein Gericht eines früheren wehrmachtähnlichen Verbandes, c)ein Gericht, an dessen Sitz deutsche Gerichtsbarkeit nicht mehr ausgeübt wird; "@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Bundesgerichtshof oder in Ausübung von Gerichtsbarkeit des Bundes ein Oberlandesgericht im ersten Rechtszug oder ein anderes Gericht des Bundes, soweit ich mir die Entschließung nicht vorbehalten habe,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Reichsgericht im ersten Rechtszug, der ehemalige Volksgerichtshof, ein früheres Wehrmachtgericht oder ein Gericht eines früheren wehrmachtähnlichen Verbandes,"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Gericht, an dessen Sitz deutsche Gerichtsbarkeit nicht mehr ausgeübt wird;"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_DL dtd:DL-id90 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den zuständigen Bundesministerna)in Bußgeldsachen, die durch rechtskräftigen Bußgeldbescheid einer Verwaltungsbehörde des Bundes abgeschlossen worden sind, sowie in rechtskräftig abgeschlossenen Verwaltungsstrafsachen nach früherem Recht, b)in rechtskräftig abgeschlossenen Ordnungsstrafsachen ihres Geschäftsbereichs.  "@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Bußgeldsachen, die durch rechtskräftigen Bußgeldbescheid einer Verwaltungsbehörde des Bundes abgeschlossen worden sind, sowie in rechtskräftig abgeschlossenen Verwaltungsstrafsachen nach früherem Recht,"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_I dtd:I-id54 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in rechtskräftig abgeschlossenen Ordnungsstrafsachen ihres Geschäftsbereichs."@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Erlaß oder die Milderung einer Strafe, wenn der Bundesgerichtshof oder in Ausübung von Gerichtsbarkeit des Bundes ein Oberlandesgericht im ersten Rechtszug oder wenn ein anderes Gericht des Bundes erkannt hat, mit Ausnahme der Gewährung von Strafausstand;"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Beseitigung der dienst- oder versorgungsrechtlichen Folgen einer strafgerichtlichen Verurteilung;"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_DL dtd:DL-id66 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Aufhebung der nachstehend bezeichneten Disziplinarmaßnahmen:a)Entfernung aus dem Dienst oder dem Dienstverhältnis, b)Aberkennung des Ruhegehalts oder Aberkennung der Rechte aus dem Gesetz zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen; "@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Entfernung aus dem Dienst oder dem Dienstverhältnis,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Aberkennung des Ruhegehalts oder Aberkennung der Rechte aus dem Gesetz zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen;"@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 11.11.1970 +++)"@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 60 Abs. 2 und 3 des Grundgesetzes ordne ich an:"@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_DL dtd:DL-id55 ;
+    dtd:has_Value "Ich behalte mir vor, in rechtskräftig abgeschlossenen Strafsachen, Disziplinarsachen oder Ehrengerichtssachen, in denen das Begnadigungsrecht dem Bund zusteht, folgende Gnadenerweise selbst zu erteilen: 1.den Erlaß oder die Milderung einer Strafe, wenn der Bundesgerichtshof oder in Ausübung von Gerichtsbarkeit des Bundes ein Oberlandesgericht im ersten Rechtszug oder wenn ein anderes Gericht des Bundes erkannt hat, mit Ausnahme der Gewährung von Strafausstand; 2.die Beseitigung der dienst- oder versorgungsrechtlichen Folgen einer strafgerichtlichen Verurteilung; 3.die Aufhebung der nachstehend bezeichneten Disziplinarmaßnahmen:a)Entfernung aus dem Dienst oder dem Dienstverhältnis, b)Aberkennung des Ruhegehalts oder Aberkennung der Rechte aus dem Gesetz zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen;  4.die Gewährung eines Unterhaltsbeitrags; 5.die Aufhebung der gegen einen Rechtsanwalt beim Bundesgerichtshof erkannten Ausschließung aus der Rechtsanwaltschaft. "@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_DL dtd:DL-id71 ;
+    dtd:has_Value "(1) Soweit ich mir die Ausübung des Begnadigungsrechts des Bundes nicht vorbehalten habe, übertrage ich sie 1.den Präsidenten des Deutschen Bundestages, des Bundesrates, des Bundesverfassungsgerichts, des Bundesrechnungshofes und der Deutschen Bundesbankin Disziplinarsachen der Beamten und Ruhestandsbeamten ihres Geschäftsbereichs;  2.den Bundesministernin Disziplinarsachen und in Ehrengerichtssachen ihres Geschäftsbereichs;  3.dem Bundesminister des Innern oder dem Bundesminister, dem die Befugnisse als Einleitungsbehörde übertragen worden sind,in Disziplinarsachen der Angehörigen des öffentlichen Dienstes oder Versorgungsberechtigten im Sinne des Gesetzes zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen.   "@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(2) Die Ausübung des Begnadigungsrechts des Bundes übertrage ich ferner 1.dem Bundesminister der Justizin rechtskräftig abgeschlossenen Strafsachen, in denen erkannt hat:a)der Bundesgerichtshof oder in Ausübung von Gerichtsbarkeit des Bundes ein Oberlandesgericht im ersten Rechtszug oder ein anderes Gericht des Bundes, soweit ich mir die Entschließung nicht vorbehalten habe, b)das Reichsgericht im ersten Rechtszug, der ehemalige Volksgerichtshof, ein früheres Wehrmachtgericht oder ein Gericht eines früheren wehrmachtähnlichen Verbandes, c)ein Gericht, an dessen Sitz deutsche Gerichtsbarkeit nicht mehr ausgeübt wird;   2.den zuständigen Bundesministerna)in Bußgeldsachen, die durch rechtskräftigen Bußgeldbescheid einer Verwaltungsbehörde des Bundes abgeschlossen worden sind, sowie in rechtskräftig abgeschlossenen Verwaltungsstrafsachen nach früherem Recht, b)in rechtskräftig abgeschlossenen Ordnungsstrafsachen ihres Geschäftsbereichs.   "@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(3) Die Ermächtigungen gelten nicht für Fälle von außerordentlicher Bedeutung; in diesen behalte ich mir vor, selbst zu entscheiden."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "Ich ermächtige die Bundesminister, denen ich die Ausübung des Begnadigungsrechts des Bundes übertragen habe, ihre Befugnisse allgemein oder im Einzelfall auf nachgeordnete Stellen zu übertragen."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "Die Bundesminister und die in Artikel 2 Abs. 1 Nr. 1 bezeichneten obersten Dienstbehörden bereiten die mir vorbehaltenen Entscheidungen in den Gnadensachen ihres Geschäftsbereichs vor. Ist eine zuständige Stelle nicht vorhanden oder erachtet sich keine Stelle für zuständig, so obliegt die Vorbereitung dem Bundesminister des Innern."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt am Tage ihrer Verkündung in Kraft. Gleichzeitig wird die Anordnung über die Ausübung des Begnadigungsrechts des Bundes vom 10. Dezember 1952 (Bundesgesetzbl. I S. 790) aufgehoben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1965-10-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id132 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id133 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id116 .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "GnO"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "GnO"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "GnO"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "GnO"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "GnO"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "GnO"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "GnO"@de .
+
+dtd:langue-id26 a dtd:langue ;
+    dtd:has_Value """Anordnung des Bundespräsidenten über die Ausübung des Begnadigungsrechts
+des Bundes"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id26 ;
+    dtd:has_standangabe dtd:standangabe-id27 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125749"@de ;
+    dtd:has_doknr "BJNR015730965"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125749"@de ;
+    dtd:has_doknr "BJNR015730965BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125749"@de ;
+    dtd:has_doknr "BJNR015730965BJNE000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125749"@de ;
+    dtd:has_doknr "BJNR015730965BJNE000300303"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125749"@de ;
+    dtd:has_doknr "BJNR015730965BJNE000400303"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125749"@de ;
+    dtd:has_doknr "BJNR015730965BJNE000500303"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125749"@de ;
+    dtd:has_doknr "BJNR015730965BJNE000600303"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id132 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id27 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id135 ;
+    dtd:has_standtyp dtd:standtyp-id134 .
+
+dtd:standkommentar-id135 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch AnO v. 3.11.1970 I 1513"@de .
+
+dtd:standtyp-id134 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Vorbehaltene Gnadenentschließungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Übertragung von Gnadenbefugnissen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Weiterübertragung von Gnadenbefugnissen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Verfahren in Gnadensachen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Schlußvorschrift"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id133 a dtd:zitstelle ;
+    dtd:has_Value "1965, 1573"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

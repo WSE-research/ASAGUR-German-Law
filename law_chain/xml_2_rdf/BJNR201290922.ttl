@@ -1,0 +1,167 @@
+@prefix dtd: <urn:UrhUSAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20151026215207"@de ;
+    dtd:has_doknr "BJNR201290922"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "Die Angehörigen der Vereinigten Staaten von Amerika genießen für ihre Urheberrechte an Werken der Literatur, der Kunst und der Photographie, im Hinblick auf die in den Vereinigten Staaten von Amerika den Angehörigen der Bundesrepublik Deutschland zugesicherte gleiche Stellung, in der Bundesrepublik Deutschland den gesetzlichen Schutz in dem in dem Übereinkommen vom 15. Januar 1892 (Reichsgesetzbl. S. 473) bezeichneten Umfang. Dies gilt insbesondere auch für die in der Zeit zwischen dem 1. August 1914 und dem 2. Juli 1921 entstandenen Werke; doch bleiben die Rechte unberührt, die ein anderer durch die Vervielfältigung oder Verbreitung eines solchen Werkes vor dem 18. Dezember 1919 erworben haben sollte."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Inwieweit im Falle einer Änderung des Schutzes der deutschen Urheberrechte in den Vereinigten Staaten von Amerika eine Änderung des in § 1 vorgesehenen Schutzes für die Angehörigen der Vereinigten Staaten in der Bundesrepublik Deutschland eintritt, bestimmt das Bundesministerium der Justiz und für Verbraucherschutz durch Bekanntmachung im Bundesgesetzblatt."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt mit dem Tage der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1922-05-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id31 .
+
+dtd:fussnoten-id27 a dtd:fussnoten .
+
+dtd:fussnoten-id29 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "UrhUSAG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "UrhUSAG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "UrhUSAG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "UrhUSAG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz über den Schutz der Urheberrechte der Angehörigen der Vereinigten Staaten von Amerika"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20151026215207"@de ;
+    dtd:has_doknr "BJNR201290922"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20151026215207"@de ;
+    dtd:has_doknr "BJNR201290922BJNE000101377"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20151026215207"@de ;
+    dtd:has_doknr "BJNR201290922BJNE000202301"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20151026215207"@de ;
+    dtd:has_doknr "BJNR201290922BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "RGBl II"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id42 ;
+    dtd:has_standtyp dtd:standtyp-id41 .
+
+dtd:standkommentar-id42 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 217 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id41 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "1922, 129"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

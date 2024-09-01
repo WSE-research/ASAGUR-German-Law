@@ -1,0 +1,557 @@
+@prefix dtd: <urn:LuftGerPV1998DV-2-2018#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220815214026"@de ;
+    dtd:has_doknr "BJNR631900018"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121,
+        dtd:P-id122,
+        dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DL-id44 a dtd:DL ;
+    dtd:has_DD dtd:DD-id47,
+        dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id45,
+        dtd:DT-id46 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id49 a dtd:DL ;
+    dtd:has_DD dtd:DD-id53,
+        dtd:DD-id54,
+        dtd:DD-id55 ;
+    dtd:has_DT dtd:DT-id50,
+        dtd:DT-id51,
+        dtd:DT-id52 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72,
+        dtd:DD-id73,
+        dtd:DD-id74,
+        dtd:DD-id75,
+        dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78,
+        dtd:DD-id79 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66,
+        dtd:DT-id67,
+        dtd:DT-id68,
+        dtd:DT-id69,
+        dtd:DT-id70,
+        dtd:DT-id71 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id83,
+        dtd:DD-id84 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id85 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93 ;
+    dtd:has_DT dtd:DT-id86,
+        dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die „Lufttüchtigkeitsforderungen für Schleppkupplungen“ vom 4. August 1976 (BAnz. Nr. 148 vom 11. August 1976),"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die in NfL II-39/01, II-60/01, II-73/01, II-77/01, II-87/01, II-25/02, II-78/02, II-101/02, II-19/03 und II-29/03 bekannt gemachten Nationalen Technischen Standards,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "motorgetriebene, aerodynamisch gesteuerte Ultraleichtflugzeuge die „Lufttüchtigkeitsforderungen für motorgetriebene, aerodynamisch gesteuerte Ultraleichtflugzeuge\" vom 19. Mai 2020 (NfL 2-547-20),"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_DL dtd:DL-id80 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "schwerkraftgesteuerte Ultraleicht-Flugzeuge a)die „Lufttüchtigkeitsforderungen für schwerkraftgesteuerte Ultraleicht-Flugzeuge Bauart: Trike und Fußstart-UL“ vom 1. Dezember 2021 (NfL 2021-2-651)b)die „Lufttüchtigkeitsforderungen für schwerkraftgesteuerte Ultraleicht-Flugzeuge Bauart: Motorschirm und Motorschirmtrike“ vom 3. Februar 2005 (NfL II-23/05),"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die „Lufttüchtigkeitsforderungen für schwerkraftgesteuerte Ultraleicht-Flugzeuge Bauart: Trike und Fußstart-UL“ vom 1. Dezember 2021 (NfL 2021-2-651)"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die „Lufttüchtigkeitsforderungen für schwerkraftgesteuerte Ultraleicht-Flugzeuge Bauart: Motorschirm und Motorschirmtrike“ vom 3. Februar 2005 (NfL II-23/05),"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Hängegleiter und Gleitsegel die „Lufttüchtigkeitsforderungen für Hängegleiter und Gleitsegel“ vom 1. September 2020 (NfL 2-565-20),"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Sprungfallschirme die „European Technical Standard Order – Personnel Parachute Assemblies“ (ETSO-C23f) in der Fassung vom 21. Februar 2018, die auf den Internetseiten der European Union Aviation Safety Agency (EASA) unter https://www.easa.europa.eu/download/etso/ETSO-C23f_CS-ETSO_13.pdf veröffentlicht ist,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rettungsgerät für Luftsportgerät die „Lufttüchtigkeitsforderungen für Rettungsgeräte für Ultraleicht-Flugzeuge“ vom 7. September 2017 (NfL 2-366-17),"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ultraleichtflugzeuge in der Bauart Drehflügelflugzeuge (Tragschrauber) die „Bauvorschriften für Ultraleichte Tragschrauber (einmotorig)“ vom 15. Januar 2019 (NfL 2-445-19),"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "aerodynamisch gesteuerte Luftsportgeräte mit einer höchstzulässigen Leermasse bis 120 kg die „Bekanntmachung von Lufttüchtigkeitsanforderungen für aerodynamisch gesteuerte Luftsportgeräte bis 120 kg Leermasse (nicht motorisiert oder motorisiert)\" vom 22. März 2012 (NfL II-23/12),"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ultraleichthubschrauber die „Lufttüchtigkeitsforderungen für Ultraleichthubschrauber“ vom 28. Februar 2019 (NfL 2-460-19)"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ferngesteuerte Flächenflugmodelle die „Lufttüchtigkeitsforderungen für ferngesteuerte Flächenflugmodelle mit einer höchstzulässigen Startmasse von mehr als 25 kg und bis zu 150 kg“ vom 2. März 2011 (NfL II-21/11),"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ferngesteuerte, unbemannte Modell-Heißluft-Ballone die „Lufttüchtigkeitsforderungen für ferngesteuerte, unbemannte Modell-Heißluft-Ballone mit einer höchstzulässigen Startmasse vom mehr als 25 kg und bis zu 150 kg“ vom 2. März 2011 (NfL II-22/11),"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ferngesteuerte Modell-Hubschrauber die „Lufttüchtigkeitsforderungen für ferngesteuerte Modell-Hubschrauber mit einer höchstzulässigen Startmasse von mehr als 25 kg und bis zu 150 kg“ vom 2. März 2011 (NfL II-23/11),"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ferngesteuerte Modell-Luftschiffe die „Lufttüchtigkeitsforderungen für ferngesteuerte Modell-Luftschiffe mit einer höchstzulässigen Startmasse von mehr als 25 kg und bis zu 150 kg“ vom 2. März 2011 (NfL II-24/11)"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_DL dtd:DL-id49 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für Luftschiffe der Kategorie a)Normal-, Nutz- und Zubringerluftschiffe die „Lufttüchtigkeitsforderungen für Luftschiffe der Kategorie Normal und Zubringer (LFLS)“ vom 3. August 1999 (NfL II-103/99, NfL II-25/01),b)Heißluft-Luftschiffe die „Lufttüchtigkeitsforderungen für Heißluft-Luftschiffe (LFHLLS)“ vom 30. Oktober 1997 (BAnz. S. 13 594),c)Verkehr die „Transport Airship Requirements (TAR)“ vom März 2000 (NfL II-22/01),"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Normal-, Nutz- und Zubringerluftschiffe die „Lufttüchtigkeitsforderungen für Luftschiffe der Kategorie Normal und Zubringer (LFLS)“ vom 3. August 1999 (NfL II-103/99, NfL II-25/01),"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Heißluft-Luftschiffe die „Lufttüchtigkeitsforderungen für Heißluft-Luftschiffe (LFHLLS)“ vom 30. Oktober 1997 (BAnz. S. 13 594),"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verkehr die „Transport Airship Requirements (TAR)“ vom März 2000 (NfL II-22/01),"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für sonstiges Luftfahrtgerät a)die in § 1 Absatz 1 Nummer 11 der Luftverkehrs-Zulassungs-Ordnung genannten Vorschriften,b)die „Lufttüchtigkeitsforderungen für Schleppkupplungen“ vom 4. August 1976 (BAnz. Nr. 148 vom 11. August 1976),c)die in NfL II-39/01, II-60/01, II-73/01, II-77/01, II-87/01, II-25/02, II-78/02, II-101/02, II-19/03 und II-29/03 bekannt gemachten Nationalen Technischen Standards,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die in § 1 Absatz 1 Nummer 11 der Luftverkehrs-Zulassungs-Ordnung genannten Vorschriften,"@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value " (+++ Textnachweis ab: 16.11.2018 +++)"@de ;
+    dtd:has_pre dtd:pre-id128 .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 32 Absatz 3 Satz 3 und Absatz 4 Nummer 1 des Luftverkehrsgesetzes, von denen Absatz 3 Satz 3 und Absatz 4 Satzteil vor Nummer 1 zuletzt durch Artikel 567 Nummer 2 Buchstabe b der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden sind, in Verbindung mit § 15 der Verordnung zur Prüfung von Luftfahrtgerät, die zuletzt durch Artikel 4 der Verordnung vom 12. Dezember 2016 (BGBl. I S. 2864) geändert worden ist, verordnet das Luftfahrt-Bundesamt:"@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_DL dtd:DL-id44 ;
+    dtd:has_Value "(1) Zur Prüfung der Lufttüchtigkeit nach § 9 Absatz 1 der Verordnung zur Prüfung von Luftfahrtgerät sind 1.für Luftschiffe der Kategorie a)Normal-, Nutz- und Zubringerluftschiffe die „Lufttüchtigkeitsforderungen für Luftschiffe der Kategorie Normal und Zubringer (LFLS)“ vom 3. August 1999 (NfL II-103/99, NfL II-25/01),b)Heißluft-Luftschiffe die „Lufttüchtigkeitsforderungen für Heißluft-Luftschiffe (LFHLLS)“ vom 30. Oktober 1997 (BAnz. S. 13 594),c)Verkehr die „Transport Airship Requirements (TAR)“ vom März 2000 (NfL II-22/01),2.für sonstiges Luftfahrtgerät a)die in § 1 Absatz 1 Nummer 11 der Luftverkehrs-Zulassungs-Ordnung genannten Vorschriften,b)die „Lufttüchtigkeitsforderungen für Schleppkupplungen“ vom 4. August 1976 (BAnz. Nr. 148 vom 11. August 1976),c)die in NfL II-39/01, II-60/01, II-73/01, II-77/01, II-87/01, II-25/02, II-78/02, II-101/02, II-19/03 und II-29/03 bekannt gemachten Nationalen Technischen Standards,als Lufttüchtigkeitsforderungen anzuwenden. Die Festlegung einzelfallabhängiger Zusatzforderungen nach der Verordnung (EU) Nr. 748/2012 der Kommission vom 3. August 2012 zur Festlegung der Durchführungsbestimmungen für die Erteilung von Lufttüchtigkeits- und Umweltzeugnissen für Luftfahrzeuge und zugehörige Produkte, Bau- und Ausrüstungsteile sowie für die Zulassung von Entwicklungs- und Herstellungsbetrieben (ABl. L 224 vom 21.8.2012, S. 1) bleibt hiervon unberührt."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Value "(2) Zur Prüfung der Lufttüchtigkeit nach § 9 Absatz 2 der Verordnung zur Prüfung von Luftfahrtgerät sind für Luftsportgeräte der Kategorie 1.motorgetriebene, aerodynamisch gesteuerte Ultraleichtflugzeuge die „Lufttüchtigkeitsforderungen für motorgetriebene, aerodynamisch gesteuerte Ultraleichtflugzeuge\" vom 19. Mai 2020 (NfL 2-547-20),2.schwerkraftgesteuerte Ultraleicht-Flugzeuge a)die „Lufttüchtigkeitsforderungen für schwerkraftgesteuerte Ultraleicht-Flugzeuge Bauart: Trike und Fußstart-UL“ vom 1. Dezember 2021 (NfL 2021-2-651)b)die „Lufttüchtigkeitsforderungen für schwerkraftgesteuerte Ultraleicht-Flugzeuge Bauart: Motorschirm und Motorschirmtrike“ vom 3. Februar 2005 (NfL II-23/05),3.Hängegleiter und Gleitsegel die „Lufttüchtigkeitsforderungen für Hängegleiter und Gleitsegel“ vom 1. September 2020 (NfL 2-565-20),4.Sprungfallschirme die „European Technical Standard Order – Personnel Parachute Assemblies“ (ETSO-C23f) in der Fassung vom 21. Februar 2018, die auf den Internetseiten der European Union Aviation Safety Agency (EASA) unter https://www.easa.europa.eu/download/etso/ETSO-C23f_CS-ETSO_13.pdf veröffentlicht ist,5.Rettungsgerät für Luftsportgerät die „Lufttüchtigkeitsforderungen für Rettungsgeräte für Ultraleicht-Flugzeuge“ vom 7. September 2017 (NfL 2-366-17),6.Ultraleichtflugzeuge in der Bauart Drehflügelflugzeuge (Tragschrauber) die „Bauvorschriften für Ultraleichte Tragschrauber (einmotorig)“ vom 15. Januar 2019 (NfL 2-445-19),7.aerodynamisch gesteuerte Luftsportgeräte mit einer höchstzulässigen Leermasse bis 120 kg die „Bekanntmachung von Lufttüchtigkeitsanforderungen für aerodynamisch gesteuerte Luftsportgeräte bis 120 kg Leermasse (nicht motorisiert oder motorisiert)\" vom 22. März 2012 (NfL II-23/12),8.Ultraleichthubschrauber die „Lufttüchtigkeitsforderungen für Ultraleichthubschrauber“ vom 28. Februar 2019 (NfL 2-460-19)anzuwenden."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_DL dtd:DL-id85 ;
+    dtd:has_Value "(3) Zur Prüfung der Lufttüchtigkeit nach § 9 Absatz 3 der Verordnung zur Prüfung von Luftfahrtgerät sind für Flugmodelle der Kategorie 1.ferngesteuerte Flächenflugmodelle die „Lufttüchtigkeitsforderungen für ferngesteuerte Flächenflugmodelle mit einer höchstzulässigen Startmasse von mehr als 25 kg und bis zu 150 kg“ vom 2. März 2011 (NfL II-21/11),2.ferngesteuerte, unbemannte Modell-Heißluft-Ballone die „Lufttüchtigkeitsforderungen für ferngesteuerte, unbemannte Modell-Heißluft-Ballone mit einer höchstzulässigen Startmasse vom mehr als 25 kg und bis zu 150 kg“ vom 2. März 2011 (NfL II-22/11),3.ferngesteuerte Modell-Hubschrauber die „Lufttüchtigkeitsforderungen für ferngesteuerte Modell-Hubschrauber mit einer höchstzulässigen Startmasse von mehr als 25 kg und bis zu 150 kg“ vom 2. März 2011 (NfL II-23/11),4.ferngesteuerte Modell-Luftschiffe die „Lufttüchtigkeitsforderungen für ferngesteuerte Modell-Luftschiffe mit einer höchstzulässigen Startmasse von mehr als 25 kg und bis zu 150 kg“ vom 2. März 2011 (NfL II-24/11)anzuwenden."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "§ 1 Absatz 2 Nummer 3 und 4 in der bis zum 24. November 2020 geltenden Fassung ist bis zum 1. März 2021 weiter anzuwenden."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung im Bundesanzeiger in Kraft. Gleichzeitig tritt die Zweite Durchführungsverordnung zur Verordnung zur Prüfung von Luftfahrtgerät vom 3. Februar 2000 (BAnz. S. 4897), die zuletzt durch Verordnung vom 27. April 2017 (BAnz AT 03.05.2017 V2) geändert worden ist, außer Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "2. DV LuftGerPV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2018-11-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1a"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id129 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id130 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id116 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "LuftGerPV1998DV 2 2018"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "LuftGerPV1998DV 2 2018"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "LuftGerPV1998DV 2 2018"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "LuftGerPV1998DV 2 2018"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "LuftGerPV1998DV 2 2018"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Zweite Durchführungsverordnung zur Verordnung zur Prüfung von Luftfahrtgerät (Lufttüchtigkeitsforderungen für Luftfahrtgerät)"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220815214026"@de ;
+    dtd:has_doknr "BJNR631900018"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220815214026"@de ;
+    dtd:has_doknr "BJNR631900018BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220815214026"@de ;
+    dtd:has_doknr "BJNR631900018BJNE000203360"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220815214026"@de ;
+    dtd:has_doknr "BJNR631900018BJNE000400360"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220815214026"@de ;
+    dtd:has_doknr "BJNR631900018BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id129 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id128 a dtd:pre ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43 ;
+    dtd:has_Value "(+++ Textnachweis ab: 16.11.2018 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id132 ;
+    dtd:has_standtyp dtd:standtyp-id131 .
+
+dtd:standkommentar-id132 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 13.7.2022 BAnz AT 12.08.2022 V1"@de .
+
+dtd:standtyp-id131 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Lufttüchtigkeitsforderungen (Bauvorschriften)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id130 a dtd:zitstelle ;
+    dtd:has_Value "AT 15.11.2018 V1"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

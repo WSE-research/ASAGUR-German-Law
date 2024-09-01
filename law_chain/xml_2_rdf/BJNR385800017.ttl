@@ -1,0 +1,299 @@
+@prefix dtd: <urn:LuftVStAbsenkV-2018#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180116214020"@de ;
+    dtd:has_doknr "BJNR385800017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:NB-id36 a dtd:NB ;
+    dtd:has_Value "7,46 Euro,"@de .
+
+dtd:NB-id37 a dtd:NB ;
+    dtd:has_Value "23,31 Euro,"@de .
+
+dtd:NB-id38 a dtd:NB ;
+    dtd:has_Value "41,97 Euro."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2018 +++)"@de ;
+    dtd:has_pre dtd:pre-id65 .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 11 Absatz 2 des Luftverkehrsteuergesetzes, der zuletzt durch Artikel 237 Nummer 1 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist, verordnet das Bundesministerium der Finanzen im Einvernehmen mit dem Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit, dem Bundesministerium für Verkehr und digitale Infrastruktur und dem Bundesministerium für Wirtschaft und Energie:"@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_BR dtd:BR-id35 ;
+    dtd:has_Value "Unter Einbeziehung des Luftverkehrs in den Handel mit Treibhausgasemissionszertifikaten werden die Steuersätze des § 11 Absatz 1 Nummer 1 bis 3 des Gesetzes für das Jahr 2018 abgesenkt. Die Steuer beträgt je Fluggast für Flüge mit einem Zielort 1.in einem Land der Anlage 1 zu dem Gesetz:7,46 Euro,2.in einem Land der Anlage 2 zu dem Gesetz:23,31 Euro,3.in anderen Ländern:41,97 Euro."@de ;
+    dtd:has_table dtd:table-id39 .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 2018 in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "LuftVStAbsenkV 2018"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-12-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id41 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "4*"@de .
+
+dtd:colspec-id42 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "90*"@de .
+
+dtd:colspec-id43 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colwidth "18*"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:entry-id48 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1."@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id49 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in einem Land der Anlage 1 zu dem Gesetz:"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id50 a dtd:entry ;
+    dtd:has_NB dtd:NB-id36 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7,46 Euro,"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id51 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2."@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id52 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in einem Land der Anlage 2 zu dem Gesetz:"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id53 a dtd:entry ;
+    dtd:has_NB dtd:NB-id37 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "23,31 Euro,"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id54 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3."@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id55 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in anderen Ländern:"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id56 a dtd:entry ;
+    dtd:has_NB dtd:NB-id38 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "41,97 Euro."@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id57 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2018"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2018"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2018"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2018"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Luftverkehrsteuer-Absenkungsverordnung 2018"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Absenkung der Steuersätze im Jahr 2018 nach § 11 Absatz 2 des Luftverkehrsteuergesetzes"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180116214020"@de ;
+    dtd:has_doknr "BJNR385800017"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180116214020"@de ;
+    dtd:has_doknr "BJNR385800017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20180116214020"@de ;
+    dtd:has_doknr "BJNR385800017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20180116214020"@de ;
+    dtd:has_doknr "BJNR385800017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id65 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2018 +++)"@de .
+
+dtd:row-id45 a dtd:row ;
+    dtd:has_entry dtd:entry-id48,
+        dtd:entry-id49,
+        dtd:entry-id50 .
+
+dtd:row-id46 a dtd:row ;
+    dtd:has_entry dtd:entry-id51,
+        dtd:entry-id52,
+        dtd:entry-id53 .
+
+dtd:row-id47 a dtd:row ;
+    dtd:has_entry dtd:entry-id54,
+        dtd:entry-id55,
+        dtd:entry-id56 .
+
+dtd:table-id39 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id40 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id44 a dtd:tbody ;
+    dtd:has_row dtd:row-id45,
+        dtd:row-id46,
+        dtd:row-id47 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:tgroup-id40 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id41,
+        dtd:colspec-id42,
+        dtd:colspec-id43 ;
+    dtd:has_tbody dtd:tbody-id44 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Steuersätze 2018"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "2017, 3858"@de .
+

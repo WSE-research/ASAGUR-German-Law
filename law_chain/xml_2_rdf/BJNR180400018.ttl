@@ -1,0 +1,668 @@
+@prefix dtd: <urn:MFKRegV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id100 a dtd:BR .
+
+dtd:BR-id101 a dtd:BR .
+
+dtd:BR-id102 a dtd:BR .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135,
+        dtd:P-id136,
+        dtd:P-id137 .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139,
+        dtd:P-id140,
+        dtd:P-id141 .
+
+dtd:Content-id142 a dtd:Content ;
+    dtd:has_P dtd:P-id143,
+        dtd:P-id144,
+        dtd:P-id145,
+        dtd:P-id146,
+        dtd:P-id147,
+        dtd:P-id148 .
+
+dtd:Content-id149 a dtd:Content ;
+    dtd:has_P dtd:P-id150,
+        dtd:P-id151,
+        dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154,
+        dtd:P-id155,
+        dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160,
+        dtd:P-id161 .
+
+dtd:Content-id162 a dtd:Content ;
+    dtd:has_P dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DL-id103 a dtd:DL ;
+    dtd:has_DD dtd:DD-id107,
+        dtd:DD-id108,
+        dtd:DD-id109 ;
+    dtd:has_DT dtd:DT-id104,
+        dtd:DT-id105,
+        dtd:DT-id106 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id110 a dtd:DL ;
+    dtd:has_DD dtd:DD-id114,
+        dtd:DD-id115,
+        dtd:DD-id116 ;
+    dtd:has_DT dtd:DT-id111,
+        dtd:DT-id112,
+        dtd:DT-id113 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id117 a dtd:DL ;
+    dtd:has_DD dtd:DD-id120,
+        dtd:DD-id121 ;
+    dtd:has_DT dtd:DT-id118,
+        dtd:DT-id119 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Value "Verbandsklagen nach § 1 Absatz 1 des Verbraucherrechtedurchsetzungsgesetzes,"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Value "einstweilige Verfügungen in Bezug auf Ansprüche nach den §§ 1 bis 2a des Unterlassungsklagengesetzes oder § 8 Absatz 1 des Gesetzes gegen den unlauteren Wettbewerb von qualifizierten Verbraucherverbänden und qualifizierten Einrichtungen anderer Mitgliedstaaten der Europäischen Union, die in dem Verzeichnis der Europäischen Kommission nach Artikel 5 Absatz 1 Satz 4 der Richtlinie (EU) 2020/1828 des Europäischen Parlaments und des Rates vom 25. November 2020 über Verbandsklagen zum Schutz der Kollektivinteressen der Verbraucher und zur Aufhebung der Richtlinie 2009/22/EG (ABl. L 409 vom 4.12.2020, S. 1) eingetragen sind, und"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Value "Unterlassungsklagen zur Durchsetzung von Ansprüchen nach Nummer 2 durch die dort genannten Verbraucherverbände und Einrichtungen."@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Value "zu Verbandsklagen nach dem Verbraucherrechtedurchsetzungsgesetz die Angaben nach § 44 des Verbraucherrechtedurchsetzungsgesetzes,"@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Value "zu einstweiligen Verfügungen die Angaben nach § 6a Absatz 1 und 3 des Unterlassungsklagengesetzes und"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Value "zu Unterlassungsklagen die Angaben nach § 6a Absatz 2 und 3 des Unterlassungsklagengesetzes."@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Value "innerhalb der Frist des § 46 Absatz 1 des Verbraucherrechtedurchsetzungsgesetzes eingegangen ist und"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Value "alle Angaben nach § 46 Absatz 2 Satz 1 des Verbraucherrechtedurchsetzungsgesetzes enthält."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_BR dtd:BR-id100 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.11.2018 +++)Überschrift: IdF d. Art. 2 Nr. 1 G v. 8.10.2023 I Nr. 272 mWv 13.10.2023"@de ;
+    dtd:has_pre dtd:pre-id166 .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 609 Absatz 7 der Zivilprozessordnung, der durch Artikel 2 Nummer 5 des Gesetzes vom 12. Juli 2018 (BGBl. I S. 1151) neu gefasst worden ist, verordnet das Bundesministerium der Justiz und für Verbraucherschutz:"@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_DL dtd:DL-id103 ;
+    dtd:has_Value "(1) Das Bundesamt für Justiz führt ein Verbandsklageregister, in dem es nach Maßgabe der folgenden Vorschriften Folgendes öffentlich bekannt macht: 1.Verbandsklagen nach § 1 Absatz 1 des Verbraucherrechtedurchsetzungsgesetzes,2.einstweilige Verfügungen in Bezug auf Ansprüche nach den §§ 1 bis 2a des Unterlassungsklagengesetzes oder § 8 Absatz 1 des Gesetzes gegen den unlauteren Wettbewerb von qualifizierten Verbraucherverbänden und qualifizierten Einrichtungen anderer Mitgliedstaaten der Europäischen Union, die in dem Verzeichnis der Europäischen Kommission nach Artikel 5 Absatz 1 Satz 4 der Richtlinie (EU) 2020/1828 des Europäischen Parlaments und des Rates vom 25. November 2020 über Verbandsklagen zum Schutz der Kollektivinteressen der Verbraucher und zur Aufhebung der Richtlinie 2009/22/EG (ABl. L 409 vom 4.12.2020, S. 1) eingetragen sind, und3.Unterlassungsklagen zur Durchsetzung von Ansprüchen nach Nummer 2 durch die dort genannten Verbraucherverbände und Einrichtungen."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesamt für Justiz erfasst im Verbandsklageregister ferner Anmeldungen zur Eintragung von Ansprüchen oder Rechtsverhältnissen von Verbrauchern und kleinen Unternehmen zu den nach Absatz 1 Nummer 1 öffentlich bekanntgemachten Verbandsklagen."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(3) Die öffentlichen Bekanntmachungen erfolgen durch Veröffentlichung auf einer Internetseite, die der inhaltlichen Verantwortung des Bundesamtes für Justiz unterliegt und von jedermann unentgeltlich eingesehen werden kann. Auf der Internetseite sind auch die vom Bundesamt für Justiz elektronisch zur Verfügung zu stellenden Formulare abrufbar. Die öffentlichen Bekanntmachungen nach Absatz 1 sind jeweils in einer eigenen Rubrik vorzunehmen."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_DL dtd:DL-id110 ;
+    dtd:has_Value "(1) Öffentlich bekannt zu machen sind 1.zu Verbandsklagen nach dem Verbraucherrechtedurchsetzungsgesetz die Angaben nach § 44 des Verbraucherrechtedurchsetzungsgesetzes,2.zu einstweiligen Verfügungen die Angaben nach § 6a Absatz 1 und 3 des Unterlassungsklagengesetzes und3.zu Unterlassungsklagen die Angaben nach § 6a Absatz 2 und 3 des Unterlassungsklagengesetzes.Das Datum der öffentlichen Bekanntmachung ist jeweils anzugeben."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "(2) Das Gericht übermittelt die bekannt zu machenden Angaben als strukturierten maschinenlesbaren Datensatz im Dateiformat XML in der jeweils gültigen XJustiz-Version oder im Dateiformat PDF auf einem sicheren Übermittlungsweg (§ 130a Absatz 4 der Zivilprozessordnung) an das Bundesamt für Justiz."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(3) Der Antrag auf Bekanntmachung des Zustellungsdatums einer einstweiligen Verfügung nach § 6a Absatz 1 Satz 4 des Unterlassungsklagengesetzes ist schriftlich zu stellen."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(1) Für die Anmeldung zur Eintragung von Ansprüchen oder Rechtsverhältnissen in das Verbandsklageregister nach § 43 Absatz 1 Satz 1 des Verbraucherrechtedurchsetzungsgesetzes stellt das Bundesamt für Justiz Verbrauchern unentgeltlich ein Formular gemeinsam mit einer Ausfüllanleitung zur Verfügung. Das Formular und die Ausfüllanleitung werden jeweils elektronisch und in Papierform zur Verfügung gestellt."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(2) Die nach § 46 Absatz 2 Satz 1 des Verbraucherrechtedurchsetzungsgesetzes erforderlichen Angaben sind im Formular als verpflichtend zu kennzeichnen. Beim Formularfeld zu Gegenstand und Grund des Anspruchs oder des Rechtsverhältnisses ist darauf hinzuweisen, dass die Angabe hierzu höchstens 2 500 Zeichen betragen soll."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_DL dtd:DL-id117 ;
+    dtd:has_Value "(3) Die Eintragung in das Verbandsklageregister wird vom Bundesamt für Justiz nur vorgenommen, wenn die Anmeldung 1.innerhalb der Frist des § 46 Absatz 1 des Verbraucherrechtedurchsetzungsgesetzes eingegangen ist und2.alle Angaben nach § 46 Absatz 2 Satz 1 des Verbraucherrechtedurchsetzungsgesetzes enthält.Andernfalls lehnt es die Eintragung ab. Mit der Eintragung vergibt das Bundesamt für Justiz ein Geschäftszeichen und erfasst darunter auch das Datum des Eingangs der Anmeldung. Es bestätigt dem Verbraucher alsbald die Eintragung in das Verbandsklageregister und teilt ihm dabei das Geschäftszeichen mit. Dieses Geschäftszeichen ist in der weiteren Kommunikation mit dem Bundesamt für Justiz stets anzugeben."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(4) Teilt der angemeldete Verbraucher Namens- oder Anschriftenänderungen mit, so sind auch sie im Verbandsklageregister zu erfassen. Für die Mitteilung stellt das Bundesamt für Justiz unentgeltlich ein Formular zur Verfügung. Das Formular wird sowohl elektronisch als auch in Papierform zur Verfügung gestellt. Der Verbraucher ist in der Eingangsbestätigung darauf hinzuweisen, dass er für die Mitteilung einer Namens- oder Anschriftenänderung das Formular nutzen kann."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(5) Teilt im Falle des Todes des angemeldeten Verbrauchers der Erbe den Erbfall mit, so ist der Erbfall in das Verbandsklageregister einzutragen und der Name sowie die Anschrift des Erben zu erfassen. Für solche Mitteilungen stellt das Bundesamt für Justiz unentgeltlich ein Formular zur Verfügung. Das Formular wird sowohl elektronisch als auch in Papierform zur Verfügung gestellt."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(6) Für Auskunftsersuchen der angemeldeten Verbraucher nach § 48 Absatz 3 des Verbraucherrechtedurchsetzungsgesetzes stellt das Bundesamt für Justiz unentgeltlich ein Formular zur Verfügung. Das Formular wird sowohl elektronisch als auch in Papierform zur Verfügung gestellt. Die Auskunft wird nur erteilt, wenn die in dem Formular als verpflichtend gekennzeichneten Felder ausgefüllt sind."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(1) Für die Rücknahme der Anmeldung von Ansprüchen oder Rechtsverhältnissen in das Verbandsklageregister stellt das Bundesamt für Justiz Verbrauchern unentgeltlich ein Formular zur Verfügung. Das Formular wird elektronisch und in Papierform zur Verfügung gestellt."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(2) Die Rücknahme der Anmeldung und das Datum des Eingangs der Rücknahme sind im Verbandsklageregister einzutragen. Die Eintragung wird nur vorgenommen, wenn die Rücknahme innerhalb der Frist des § 46 Absatz 4 des Verbraucherrechtedurchsetzungsgesetzes eingegangen ist. Andernfalls lehnt das Bundesamt für Justiz die Eintragung ab."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesamt für Justiz erteilt dem Verbraucher alsbald eine Bestätigung über die Eintragung der Rücknahme im Verbandsklageregister."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(1) Für den Austritt aus einem gerichtlichen Vergleich stellt das Bundesamt für Justiz Verbrauchern unentgeltlich ein Formular zur Verfügung. Das Formular wird elektronisch und in Papierform zur Verfügung gestellt."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "(2) Der Austritt und das Datum des Austritts sind im Verbandsklageregister einzutragen. Die Eintragung wird nur vorgenommen, wenn der Austritt innerhalb der Frist des § 10 Absatz 1 des Verbraucherrechtedurchsetzungsgesetzes eingegangen ist. Andernfalls lehnt das Bundesamt für Justiz die Eintragung ab."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesamt für Justiz erteilt dem Verbraucher alsbald eine Bestätigung über die Eintragung des Austritts im Verbandsklageregister."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "Lehnt das Bundesamt für Justiz eine Eintragung mit einem vollständig maschinell erstellten Bescheid ab, so können die Unterschrift und die Namenswiedergabe fehlen. In diesem Fall kann das Dokument den Hinweis enthalten, dass Unterschrift und Namenswiedergabe fehlen können und es maschinell erstellt worden ist."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für Justiz übermittelt dem Gericht der Verbandsklage auf Anforderung einen elektronischen Auszug aus dem Verbandsklageregister auf einem sicheren Übermittlungsweg (§ 130a Absatz 4 der Zivilprozessordnung) als strukturierten maschinenlesbaren Datensatz im Dateiformat XML in der jeweils gültigen XJustiz-Version. Dem Sachwalter kann das Bundesamt für Justiz auf Anforderung ebenfalls auf diese Weise einen Auszug übermitteln."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(2) Fordert eine Partei einen Auszug nach § 48 Absatz 4 des Verbraucherrechtedurchsetzungsgesetzes an, verwendet sie hierfür das vom Bundesamt für Justiz vorgegebene Formular. Das Bundesamt für Justiz kann den Auszug als elektronisches Dokument auf einem sicheren Übermittlungsweg entsprechend § 130a Absatz 4 der Zivilprozessordnung an deren Prozessbevollmächtigten übermitteln."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "Macht der Verbraucher glaubhaft, dass seine Anmeldung oder seine Rücknahme der Anmeldung aufgrund einer vorübergehenden technischen Störung des Verbandsklageregisters nicht eingegangen ist, und holt er die Anmeldung oder die Rücknahme unverzüglich nach, so ist sie als zum Zeitpunkt der glaubhaft gemachten vorherigen Anmeldung oder Rücknahme eingegangen anzusehen. Das Bundesamt für Justiz dokumentiert den Zeitpunkt des Beginns und des Endes von technischen Störungen des Verbandsklageregisters."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. November 2018 in Kraft."@de .
+
+dtd:amtabk-id36 a dtd:amtabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id37 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2018-10-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 4a"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id74 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id78 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id167 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id168 .
+
+dtd:fussnoten-id80 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id130 .
+
+dtd:fussnoten-id83 a dtd:fussnoten .
+
+dtd:fussnoten-id85 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:fussnoten-id89 a dtd:fussnoten .
+
+dtd:fussnoten-id91 a dtd:fussnoten .
+
+dtd:fussnoten-id93 a dtd:fussnoten .
+
+dtd:fussnoten-id95 a dtd:fussnoten .
+
+dtd:fussnoten-id97 a dtd:fussnoten .
+
+dtd:fussnoten-id99 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:jurabk-id72 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id73 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:jurabk-id76 a dtd:jurabk ;
+    dtd:has_Value "MFKRegV"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "VKRegV"@de .
+
+dtd:kurzue-id39 a dtd:kurzue ;
+    dtd:has_Value "Verbandsklageregisterverordnung"@de .
+
+dtd:langue-id40 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Register für Verbandsklagen"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id36 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id37 ;
+    dtd:has_fundstelle dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_kurzue dtd:kurzue-id39 ;
+    dtd:has_langue dtd:langue-id40 ;
+    dtd:has_standangabe dtd:standangabe-id41 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id42,
+        dtd:jurabk-id43 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id45,
+        dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id49,
+        dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id53,
+        dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id57,
+        dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id61,
+        dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_jurabk dtd:jurabk-id68,
+        dtd:jurabk-id69 ;
+    dtd:has_titel dtd:titel-id71 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id74 ;
+    dtd:has_jurabk dtd:jurabk-id72,
+        dtd:jurabk-id73 ;
+    dtd:has_titel dtd:titel-id75 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id78 ;
+    dtd:has_jurabk dtd:jurabk-id76,
+        dtd:jurabk-id77 ;
+    dtd:has_titel dtd:titel-id79 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000603360"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000702360"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000801125"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000201360"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000302360"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000402360"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000502360"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE001000360"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231128213547"@de ;
+    dtd:has_doknr "BJNR180400018BJNE000900125"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id167 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id166 a dtd:pre ;
+    dtd:has_BR dtd:BR-id101,
+        dtd:BR-id102 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.11.2018 +++)"@de .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id170 ;
+    dtd:has_standtyp dtd:standtyp-id169 .
+
+dtd:standkommentar-id170 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 2 G v. 8.10.2023 I Nr. 272"@de .
+
+dtd:standtyp-id169 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id138 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id142 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id149 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id162 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id80 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id83 ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id89 ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id91 ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id93 ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id95 ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id97 ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id99 ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Register für Verbandsklagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Öffentliche Bekanntmachungen und Mitteilungen des Gerichts"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Anmeldung und Eintragung von Ansprüchen oder Rechtsverhältnissen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Rücknahme der Anmeldung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Austritt aus einem gerichtlichen Vergleich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Maschinell erstellter Ablehnungsbescheid"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id71 a dtd:titel ;
+    dtd:has_Value "Auszug aus dem Verbandsklageregister"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id75 a dtd:titel ;
+    dtd:has_Value "Technische Störungen des Klageregisters"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id79 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id168 a dtd:zitstelle ;
+    dtd:has_Value "2018, 1804 (1845)"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,250 @@
+@prefix dtd: <urn:Münz100/200EuroBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625155224"@de ;
+    dtd:has_doknr "BJNR133900002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:ABWFORMAT-id51 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47,
+        dtd:P-id48 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_Value " (+++ Textnachweis ab: 25. 4.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id49 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_BR dtd:BR-id20,
+        dtd:BR-id21,
+        dtd:BR-id22,
+        dtd:BR-id23,
+        dtd:BR-id24,
+        dtd:BR-id25,
+        dtd:BR-id26,
+        dtd:BR-id27,
+        dtd:BR-id28,
+        dtd:BR-id29 ;
+    dtd:has_Value """Gemäß den §§ 2, 4 und 5 des Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung beschlossen, anlässlich der Einführung des Euro-Bargeldes eine Gedenkmünze zu 100 und 200 Euro aus Gold prägen zu lassen. Die Auflage der Münze beträgt 
+		
+			
+			
+			
+				
+					- bei der 100-Euro-Goldmünze
+					500.000 Stück,
+				
+				
+					- bei der 200-Euro-Goldmünze
+					100.000 Stück.
+				
+			
+		
+	  Die Münze wird zu gleichen Teilen in den Münzstätten in Berlin (Münzzeichen "A"), München (Münzzeichen "D"), Stuttgart (Münzzeichen "F"), Karlsruhe (Münzzeichen "G") und Hamburg (Münzzeichen "J") in Stempelglanzausführung geprägt. Die Münze wird ab dem 9. Mai 2002 in den Verkehr gebracht. Sie besteht aus Gold mit einem Feingehalt von 999,9 Tausendteilen (Feingold). Die 100-Euro-Goldmünze hat einen Durchmesser von 28 Millimetern und eine Masse (Gewicht) von 15,55 Gramm (1/2 Unze). Die 200-Euro-Goldmünze hat einen Durchmesser von 32,5 Millimetern und eine Masse (Gewicht) von 31,1 Gramm (1 Unze). Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden Randstab umgeben. Die Bildseite der Münze zeigt im Zentrum das Euro-Symbol, das von Sternen umgeben und in einen Kreis gestellt ist. Der Kreis wird von Motiven der Euro-Banknoten in Form von Brücken und weiteren Architekturelementen umrahmt. Dieses bildliche Zitat ergibt ein bewegtes Spiel von Formen und Strukturen und macht sich die Symbolik der Banknoten zu Eigen, auf denen Fenster und Brücken für Offenheit und Verbindung in Europa stehen. Die Bildseite trägt die Umschrift "ÜBERGANG ZUR WÄHRUNGSUNION - EINFÜHRUNG DES EURO". Die Wertseite der Münze trägt einen Adler, der von zwölf Sternen umrahmt ist, die Jahreszahl 2002, das jeweilige Münzzeichen ("A", "D", "F", "G" oder "J"), die Umschrift "BUNDESREPUBLIK DEUTSCHLAND" und - je nach Nennwert - die Wertangabe "100 EURO" oder "200 EURO". Der Münzrand der 100-Euro-Goldmünze ist geriffelt. Der Münzrand der 200-Euro-Goldmünze ist glatt und enthält in vertiefter Prägung die Inschrift: "IM..ZEICHEN..DER..EINIGUNG..EUROPAS....". Der Entwurf der Münze stammt von Anton Zvone Jezovsek, Neuberg."""@de ;
+    dtd:has_table dtd:table-id31 .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id51 ;
+    dtd:has_Value " ... (nicht darstellbare Abbildung der Münzen, Fundstelle: BGBl. I 2002, 1339)"@de ;
+    dtd:has_kommentar dtd:kommentar-id50 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-04-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id33 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:colspec-id34 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id38 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "- bei der 100-Euro-Goldmünze"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id39 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "500.000 Stück,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id40 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "- bei der 200-Euro-Goldmünze"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id41 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100.000 Stück."@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id52 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id53 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "Münz100/200EuroBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "Münz100/200EuroBek"@de .
+
+dtd:kommentar-id50 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value "(nicht darstellbare Abbildung der Münzen, Fundstelle: BGBl. I 2002, 1339)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen im
+Nennwert von 100 und 200 Euro (Goldmünze "Übergang zur Währungsunion
+- Einführung des Euro")"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625155224"@de ;
+    dtd:has_doknr "BJNR133900002"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625155224"@de ;
+    dtd:has_doknr "BJNR133900002BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id52 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id49 a dtd:pre ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_Value "(+++ Textnachweis ab: 25. 4.2002 +++)"@de .
+
+dtd:row-id36 a dtd:row ;
+    dtd:has_entry dtd:entry-id38,
+        dtd:entry-id39 .
+
+dtd:row-id37 a dtd:row ;
+    dtd:has_entry dtd:entry-id40,
+        dtd:entry-id41 .
+
+dtd:table-id31 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id32 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id35 a dtd:tbody ;
+    dtd:has_row dtd:row-id36,
+        dtd:row-id37 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:tgroup-id32 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id33,
+        dtd:colspec-id34 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id35 .
+
+dtd:zitstelle-id53 a dtd:zitstelle ;
+    dtd:has_Value "2002, 1339"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

@@ -1,0 +1,242 @@
+@prefix dtd: <urn:BesatzRBerG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR261410007"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50,
+        dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id45 .
+
+dtd:DD-id42 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DL-id34 a dtd:DL ;
+    dtd:has_DD dtd:DD-id39,
+        dtd:DD-id40,
+        dtd:DD-id41,
+        dtd:DD-id42 ;
+    dtd:has_DT dtd:DT-id35,
+        dtd:DT-id36,
+        dtd:DT-id37,
+        dtd:DT-id38 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Erste Gesetz zur Aufhebung des Besatzungsrechts vom 30. Mai 1956 (BGBl. I S. 437; BGBl. III 104–1),"@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Zweite Gesetz zur Aufhebung des Besatzungsrechts vom 30. Mai 1956 (BGBl. I S. 446; BGBl. III 104–2),"@de .
+
+dtd:LA-id45 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Dritte Gesetz zur Aufhebung des Besatzungsrechts vom 23. Juli 1958 (BGBl. I S. 540; BGBl. III 104–3) und"@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Vierte Gesetz zur Aufhebung des Besatzungsrechts vom 19. Dezember 1960 (BGBl. I S. 1015; BGBl. III 104–4)."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30.11.2007 +++)Das G wurde als Artikel 4 des G v. 23.11.2007 I 2614 vom Bundestag erlassen. Es ist gem. Art. 80 Abs. 1 dieses G am 30.11.2007 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id56 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(1) Die von Besatzungsbehörden erlassenen Rechtsvorschriften (Besatzungsrecht), insbesondere solche nach Artikel 1 Abs. 3 des Ersten Teils des Vertrags zur Regelung aus Krieg und Besatzung entstandener Fragen in der Fassung der Bekanntmachung vom 30. März 1955 (BGBl. 1955 II S. 301, 405) (Überleitungsvertrag), werden aufgehoben, soweit sie nicht in Bundes- oder Landesrecht überführt worden sind und zum Zeitpunkt ihres Inkrafttretens Regelungsgebiete betrafen, die den Artikeln 73, 74 und 75 des Grundgesetzes zuzuordnen waren."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(2) Von der Aufhebung ausgenommen ist das Kontrollratsgesetz Nr. 35 über Ausgleichs- und Schiedsverfahren in Arbeitsstreitigkeiten vom 20. August 1946 (Amtsblatt des Kontrollrats S. 174), zuletzt geändert durch das Gesetz vom 9. Februar 1950 (Amtsblatt der Alliierten Hohen Kommission für Deutschland S. 103)."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_DL dtd:DL-id34 ;
+    dtd:has_Value "Es werden aufgehoben:1.das Erste Gesetz zur Aufhebung des Besatzungsrechts vom 30. Mai 1956 (BGBl. I S. 437; BGBl. III 104–1),2.das Zweite Gesetz zur Aufhebung des Besatzungsrechts vom 30. Mai 1956 (BGBl. I S. 446; BGBl. III 104–2),3.das Dritte Gesetz zur Aufhebung des Besatzungsrechts vom 23. Juli 1958 (BGBl. I S. 540; BGBl. III 104–3) und4.das Vierte Gesetz zur Aufhebung des Besatzungsrechts vom 19. Dezember 1960 (BGBl. I S. 1015; BGBl. III 104–4)."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Rechte und Pflichten, die durch gesetzgeberische, gerichtliche oder Verwaltungsmaßnahmen der Besatzungsbehörden oder auf Grund solcher Maßnahmen begründet oder festgestellt worden sind, bleiben von der Aufhebung unberührt und bestehen nach Artikel 2 Abs. 1 Satz 1 des Ersten Teils des Überleitungsvertrages fort. Durch die Aufhebung werden weder frühere Rechtszustände wiederhergestellt noch Wiederaufnahme-, Rücknahme- oder Widerrufstatbestände begründet. Tatbestandliche Voraussetzungen von Besatzungsrecht, die bis zum Inkrafttreten dieses Gesetzes nicht erfüllt worden sind, können nicht mehr erfüllt werden. Aufgehobene Rechtsvorschriften bleiben auch für die Zukunft auf Tatbestände und Rechtsverhältnisse anwendbar, die während der Geltung der Rechtsvorschriften erfüllt waren oder entstanden sind. Die Aufhebung von Besatzungsrecht lässt Verweisungen hierauf unberührt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2007-11-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id57 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id58 .
+
+dtd:fussnoten-id27 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BesatzRBerG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "BesatzRBerG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "BesatzRBerG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "BesatzRBerG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Bereinigung des Besatzungsrechts"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR261410007"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR261410007BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR261410007BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR261410007BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id57 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id56 a dtd:pre ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.11.2007 +++)"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Aufhebung von Besatzungsrecht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Aufhebung bundesrechtlicher Vorschriften über die Bereinigung von Besatzungsrecht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Folgen der Aufhebung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id58 a dtd:zitstelle ;
+    dtd:has_Value "2007, 2614"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

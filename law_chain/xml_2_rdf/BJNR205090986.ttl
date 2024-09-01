@@ -1,0 +1,234 @@
+@prefix dtd: <urn:EmsDolKoopVtrNLDG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093835"@de ;
+    dtd:has_doknr "BJNR205090986"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49,
+        dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56,
+        dtd:P-id57 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 23. 3.1986 +++)"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(1) Dem in Emden am 10. September 1984 unterzeichneten Vertrag zwischen der Bundesrepublik Deutschland und dem Königreich der Niederlande über die Zusammenarbeit im Bereich von Ems und Dollart sowie in den angrenzenden Gebieten (Kooperationsvertrag Ems-Dollart) wird zugestimmt."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(2) Der Vertrag wird nachstehend veröffentlicht. Die in den Artikeln 2 und 11 des Vertrages genannte Karte B und die in Artikel 23 genannte Karte A liegen beim Auswärtigen Amt (politisches Archiv), beim Niedersächsischen Minister des Innern in Hannover, bei der Bezirksregierung Weser-Ems in Oldenburg sowie beim zuständigen Katasteramt zur Einsicht bereit."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "In den Gebietsteilen, die nach Artikel 11 des Vertrages Hoheitsgebiet der Bundesrepublik Deutschland sind, gelten mit dem Zeitpunkt des Inkrafttretens dieser Bestimmungen gemäß Artikel 12 Abs. 1 des Vertrages die im Land Niedersachsen geltenden Vorschriften des Bundesrechts, soweit sie in diesem Gebiet nicht bereits zuvor in Kraft waren."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem der Vertrag nach seinem Artikel 52 Abs. 2 in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1986-03-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id58 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id59 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "EmsDolKoopVtrNLDG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "EmsDolKoopVtrNLDG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "EmsDolKoopVtrNLDG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "EmsDolKoopVtrNLDG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "EmsDolKoopVtrNLDG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "EmsDolKoopVtrNLDG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Vertrag vom 10. September 1984 zwischen der Bundesrepublik
+Deutschland und dem Königreich der Niederlande über die Zusammenarbeit im
+Bereich von Ems und Dollart sowie in den angrenzenden Gebieten
+(Kooperationsvertrag Ems-Dollart)"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093835"@de ;
+    dtd:has_doknr "BJNR205090986"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093835"@de ;
+    dtd:has_doknr "BJNR205090986BJNE000100327"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093835"@de ;
+    dtd:has_doknr "BJNR205090986BJNE000200327"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093835"@de ;
+    dtd:has_doknr "BJNR205090986BJNE000300327"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131008093835"@de ;
+    dtd:has_doknr "BJNR205090986BJNE000400327"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131008093835"@de ;
+    dtd:has_doknr "BJNR205090986BJNE000500327"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id58 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id59 a dtd:zitstelle ;
+    dtd:has_Value "1986, 509"@de .
+

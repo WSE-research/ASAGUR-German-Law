@@ -1,0 +1,144 @@
+@prefix dtd: <urn:FZulGAnwBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200721213010"@de ;
+    dtd:has_doknr "BJNR159600020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29,
+        dtd:P-id30,
+        dtd:P-id31 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_BR dtd:BR-id22 ;
+    dtd:has_Value " (+++ Textnachweis ab: 8.7.2020 +++)"@de ;
+    dtd:has_pre dtd:pre-id34 .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_Value "Nach § 16 Absatz 3 des Forschungszulagengesetzes vom 14. Dezember 2019 (BGBl. I S. 2763), das durch Artikel 8 des Gesetzes vom 29. Juni 2020 (BGBl. I S. 1512) geändert worden ist, wird hiermit folgender Beschluss der Europäischen Kommission vom 26. Juni 2020 bekannt gegeben:"@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value "Die Freistellung der nationalen Beihilferegelung (Forschungszulagengesetz), für die die Bundesregierung einen Evaluierungsplan vorgelegt hat, besteht über den anfänglichen sechsmonatigen Zeitraum hinaus fort bis sechs Monate nach Ablauf der in Artikel 59 der Allgemeinen Gruppenfreistellungsverordnung (AGVO) (Verordnung (EU) Nr. 651/2014 der Kommission vom 17. Juni 2014 zur Feststellung der Vereinbarkeit bestimmter Gruppen von Beihilfen mit dem Binnenmarkt in Anwendung der Artikel 107 und 108 des Vertrags über die Arbeitsweise der Europäischen Union; ABl. L 187 vom 26.6.2014, S. 1) festgelegten Geltungsdauer der AGVO in der geänderten Fassung."@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "Die weitere Anwendbarkeit der AGVO auf dieses Gesetz oder der Tag des Wegfalls der Freistellungsvoraussetzungen werden im Bundesgesetzblatt bekannt gemacht."@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_SP dtd:SP-id25 ;
+    dtd:has_Value "Bundesministerium der Finanzen"@de .
+
+dtd:SP-id25 a dtd:SP ;
+    dtd:has_Value "Bundesministerium der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-07-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id35 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id36 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id26 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "FZulGAnwBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "FZulGAnwBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "FZulGAnwBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Anwendbarkeit des Forschungszulagengesetzes"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200721213010"@de ;
+    dtd:has_doknr "BJNR159600020"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200721213010"@de ;
+    dtd:has_doknr "BJNR159600020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200721213010"@de ;
+    dtd:has_doknr "BJNR159600020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id35 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id34 a dtd:pre ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 8.7.2020 +++)"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id28 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:zitstelle-id36 a dtd:zitstelle ;
+    dtd:has_Value "2020, 1596"@de .
+

@@ -1,0 +1,205 @@
+@prefix dtd: <urn:BBiG§84AnO-8#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125112"@de ;
+    dtd:has_doknr "BJNR006610978"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id36 .
+
+dtd:DD-id35 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id37 .
+
+dtd:DL-id30 a dtd:DL ;
+    dtd:has_DD dtd:DD-id32 ;
+    dtd:has_DT dtd:DT-id31 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id33 a dtd:DL ;
+    dtd:has_DD dtd:DD-id35 ;
+    dtd:has_DT dtd:DT-id34 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id31 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id36 a dtd:LA ;
+    dtd:has_DL dtd:DL-id33 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Bundesverwaltungsamt "@de .
+
+dtd:LA-id37 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Bundesverwaltungsamt"@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  4. 6.1978 +++)"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_DL dtd:DL-id30 ;
+    dtd:has_Value "Auf Grund des § 84 Abs. 1 des Berufsbildungsgesetzes vom 14. August 1969 (BGBl. I S. 1112), geändert durch Gesetz vom 12. März 1971 (BGBl. I S. 185), sowie des § 1 Abs. 3 des Gesetzes über die Errichtung des Bundesverwaltungsamtes in der im Bundesgesetzblatt Teil III, Gliederungsnummer 200-2, veröffentlichten bereinigten Fassung bestimme ich im Einvernehmen mit dem Bundesminister des Innern das Bundesverwaltungsamt zur zuständigen Stelle im Sinne des § 84 des Berufsbildungsgesetzes für meinen Geschäftsbereich."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt am Tag nach der Bekanntmachung in Kraft."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_SP dtd:SP-id29 ;
+    dtd:has_Value "Der Bundesminister für Jugend, Familie und Gesundheit"@de .
+
+dtd:SP-id29 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Jugend, Familie und Gesundheit"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1978-05-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id48 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id49 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id40 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BBiG§84AnO 8"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "BBiG§84AnO 8"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BBiG§84AnO 8"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BBiG§84AnO 8"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Anordnung über die Bestimmung der zuständigen Stelle nach § 84 des
+Berufsbildungsgesetzes"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125112"@de ;
+    dtd:has_doknr "BJNR006610978"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125112"@de ;
+    dtd:has_doknr "BJNR006610978BJNE000100327"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125112"@de ;
+    dtd:has_doknr "BJNR006610978BJNE000200327"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125112"@de ;
+    dtd:has_doknr "BJNR006610978BJNE000300327"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id48 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id49 a dtd:zitstelle ;
+    dtd:has_Value "1978, 661"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

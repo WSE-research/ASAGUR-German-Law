@@ -1,0 +1,580 @@
+@prefix dtd: <urn:GASV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20140408222003"@de ;
+    dtd:has_doknr "BJNR039800002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:kommentar-id124 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2014, 313)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id125 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2006, 1435)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:ABWFORMAT-id123 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_BR dtd:BR-id54 ;
+    dtd:has_Value " (+++ Textnachweis ab: 12.1.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id122 .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 3 und des § 4 Abs. 2 des Gesetzes über Funkanlagen und Telekommunikationsendeinrichtungen vom 31. Januar 2001 (BGBl. I S. 170) verordnet das Bundesministerium für Wirtschaft und Technologie:"@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "Als weitere grundlegende Anforderungen werden die von der Europäischen Kommission festgestellten und in Anlage 1 aufgeführten Anforderungen bestimmt."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Die von der Europäischen Kommission festgestellten Äquivalenzen nationaler Schnittstellen sowie die von ihr vergebenen Geräteklassenkennungen werden nach Anlage 2 bestimmt."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_BR dtd:BR-id57 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2014, 313)Lfd. Nr.Entscheidung der KommissionFundstelle1Entscheidung der Kommission vom 22. September 2000 über die Anwendung von Artikel 3 Absatz 3 Buchstabe e) der Richtlinie 1999/5/EG auf Funkanlagen, die der Regionalen Vereinbarung über den Binnenschifffahrtsfunk unterliegen (2000/637/EG)ABl. L 269 vom 21.10.2000, S. 502Entscheidung der Kommission vom 21. Februar 2001 über die Anwendung von Artikel 3 Absatz 3 Buchstabe e) der Richtlinie 1999/5/EG auf Lawinenverschüttetensuchgeräte (2001/148/EG)ABl. L 55 vom 24.2.2001, S. 653Entscheidung der Kommission vom 25. Januar 2005 über die Anwendung von Artikel 3 Absatz 3 Buch-stabe e) der Richtlinie 1999/5/EG des Europäischen Parlaments und des Rates auf Funkanlagen des automatischen Schiffsidentifizierungssystems (AIS) (2005/53/EG)ABl. L 22 vom 26.1.2005, S. 144Entscheidung der Kommission vom 29. August 2005 über grundlegende Anforderungen in Sinne der Richtlinie 1999/5/EG des Europäischen Parlaments und des Rates zur Sicherstellung des Zugangs von Cospas-Sarsat-Ortungsbaken zu Notfalldiensten (2005/631/EG)ABl. L 225 vom 31.8.2005, S. 285Beschluss der Kommission vom 12. August 2013 über grundlegende Anforderungen an Seefunkanlagen, die auf nicht dem SOLAS-Übereinkommen unterliegenden Schiffen eingesetzt werden und am weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) teilnehmen sollen (2013/638/EU)ABl. L 296 vom 7.11.2013, S. 22"@de ;
+    dtd:has_noindex dtd:noindex-id61 ;
+    dtd:has_table dtd:table-id63 .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id123 ;
+    dtd:has_BR dtd:BR-id59 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2006, 1435)Lfd.Nr.Entscheidung der KommissionFundstelle1Entscheidung der Kommission vom 6. April 2000 über die Festlegung einer vorläufigen Einstufung von Funkanlagen und Telekommunikationsendeinrichtungen sowie der entsprechenden Kennungen (2000/299/EG)Amtsblatt der Europäischen Gemeinschaften vom 19. April 2000, Nr. L 97 S. 13"@de ;
+    dtd:has_noindex dtd:noindex-id62 ;
+    dtd:has_table dtd:table-id65 .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "GASV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-01-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id67 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id68 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "35*"@de .
+
+dtd:colspec-id69 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "13*"@de .
+
+dtd:colspec-id72 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "50"@de .
+
+dtd:colspec-id73 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "300"@de .
+
+dtd:colspec-id74 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "250"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "Anlage 1"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "Anlage 2"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Beschluss der Kommission vom 12. August 2013 über grundlegende Anforderungen an Seefunkanlagen, die auf nicht dem SOLAS-Übereinkommen unterliegenden Schiffen eingesetzt werden und am weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) teilnehmen sollen (2013/638/EU)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ABl. L 296 vom 7.11.2013, S. 22"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_BR dtd:BR-id60 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lfd.Nr."@de ;
+    dtd:has_align dtd:left .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Entscheidung der Kommission"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fundstelle"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Entscheidung der Kommission vom 6. April 2000 über die Festlegung einer vorläufigen Einstufung von Funkanlagen und Telekommunikationsendeinrichtungen sowie der entsprechenden Kennungen (2000/299/EG)"@de .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Amtsblatt der Europäischen Gemeinschaften vom 19. April 2000, Nr. L 97 S. 13"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_BR dtd:BR-id58 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lfd. Nr."@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Entscheidung der Kommission"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fundstelle"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Entscheidung der Kommission vom 22. September 2000 über die Anwendung von Artikel 3 Absatz 3 Buchstabe e) der Richtlinie 1999/5/EG auf Funkanlagen, die der Regionalen Vereinbarung über den Binnenschifffahrtsfunk unterliegen (2000/637/EG)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ABl. L 269 vom 21.10.2000, S. 50"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Entscheidung der Kommission vom 21. Februar 2001 über die Anwendung von Artikel 3 Absatz 3 Buchstabe e) der Richtlinie 1999/5/EG auf Lawinenverschüttetensuchgeräte (2001/148/EG)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ABl. L 55 vom 24.2.2001, S. 65"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Entscheidung der Kommission vom 25. Januar 2005 über die Anwendung von Artikel 3 Absatz 3 Buch-stabe e) der Richtlinie 1999/5/EG des Europäischen Parlaments und des Rates auf Funkanlagen des automatischen Schiffsidentifizierungssystems (AIS) (2005/53/EG)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ABl. L 22 vom 26.1.2005, S. 14"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Entscheidung der Kommission vom 29. August 2005 über grundlegende Anforderungen in Sinne der Richtlinie 1999/5/EG des Europäischen Parlaments und des Rates zur Sicherstellung des Zugangs von Cospas-Sarsat-Ortungsbaken zu Notfalldiensten (2005/631/EG)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ABl. L 225 vom 31.8.2005, S. 28"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id126 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id127 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id108 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "GASV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "GASV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "GASV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "GASV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "GASV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "GASV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "GASV"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Grundlegende Anforderungen- und Schnittstellen-Verordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Bestimmung von weiteren grundlegenden Anforderungen
+an Geräte sowie zur Bestimmung von Äquivalenzen nationaler Schnittstellen
+und Geräteklassenkennungen auf dem Gebiet der Funkanlagen und
+Telekommunikationsendeinrichtungen"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29 .
+
+dtd:noindex-id61 a dtd:noindex .
+
+dtd:noindex-id62 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20140408222003"@de ;
+    dtd:has_doknr "BJNR039800002"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20140408222003"@de ;
+    dtd:has_doknr "BJNR039800002BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20140408222003"@de ;
+    dtd:has_doknr "BJNR039800002BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20140408222003"@de ;
+    dtd:has_doknr "BJNR039800002BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20140408222003"@de ;
+    dtd:has_doknr "BJNR039800002BJNE000400305"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20140408222003"@de ;
+    dtd:has_doknr "BJNR039800002BJNE000503311"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20140408222003"@de ;
+    dtd:has_doknr "BJNR039800002BJNE000602301"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id126 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id122 a dtd:pre ;
+    dtd:has_BR dtd:BR-id55,
+        dtd:BR-id56 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.1.2002 +++)"@de .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id84,
+        dtd:entry-id85,
+        dtd:entry-id86 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88,
+        dtd:entry-id89 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id90,
+        dtd:entry-id91,
+        dtd:entry-id92 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id93,
+        dtd:entry-id94,
+        dtd:entry-id95 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id96,
+        dtd:entry-id97,
+        dtd:entry-id98 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101,
+        dtd:entry-id99 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id102,
+        dtd:entry-id103,
+        dtd:entry-id104 .
+
+dtd:row-id83 a dtd:row ;
+    dtd:has_entry dtd:entry-id105,
+        dtd:entry-id106,
+        dtd:entry-id107 .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id129 ;
+    dtd:has_standtyp dtd:standtyp-id128 .
+
+dtd:standkommentar-id129 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 31.3.2014 I 313"@de .
+
+dtd:standtyp-id128 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id63 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id64 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id65 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_tgroup dtd:tgroup-id66 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id71 a dtd:tbody ;
+    dtd:has_row dtd:row-id77,
+        dtd:row-id78,
+        dtd:row-id79,
+        dtd:row-id80,
+        dtd:row-id81 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id75 a dtd:tbody ;
+    dtd:has_row dtd:row-id82,
+        dtd:row-id83 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:tgroup-id64 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id67,
+        dtd:colspec-id68,
+        dtd:colspec-id69 ;
+    dtd:has_tbody dtd:tbody-id71 ;
+    dtd:has_thead dtd:thead-id70 .
+
+dtd:tgroup-id66 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id72,
+        dtd:colspec-id73,
+        dtd:colspec-id74 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id75 .
+
+dtd:thead-id70 a dtd:thead ;
+    dtd:has_row dtd:row-id76 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Weitere grundlegende Anforderungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value """Äquivalenzen von Schnittstellen und
+Geräteklassenkennungen"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id127 a dtd:zitstelle ;
+    dtd:has_Value "2002, 398"@de .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:left rdfs:label "left"@de .
+

@@ -1,0 +1,70 @@
+@prefix dtd: <urn:SperrWarngebV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160713215533"@de ;
+    dtd:has_doknr "BJNR616300012"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:Content-id13 a dtd:Content ;
+    dtd:has_P dtd:P-id14 .
+
+dtd:P-id14 a dtd:P ;
+    dtd:has_BR dtd:BR-id12 ;
+    dtd:has_Value "V nur mit Überschrift aufgenommen Zuletzt geändert durch Art. 74 § 3 V v. 2.6.2016 I 1257"@de .
+
+dtd:amtabk-id6 a dtd:amtabk ;
+    dtd:has_Value "SperrWarngebV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id7 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-06-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id8 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id15 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id16 .
+
+dtd:fussnoten-id11 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id13 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "SperrWarngebV"@de .
+
+dtd:kurzue-id9 a dtd:kurzue ;
+    dtd:has_Value "Sperr- und Warngebietverordnung"@de .
+
+dtd:langue-id10 a dtd:langue ;
+    dtd:has_Value "Verordnung über Sicherungsmaßnahmen für militärische Sperr- und Warngebiete an der schleswig-holsteinischen Ost- und Westküste und im Nord-Ostsee-Kanal"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id6 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id7 ;
+    dtd:has_fundstelle dtd:fundstelle-id8 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_kurzue dtd:kurzue-id9 ;
+    dtd:has_langue dtd:langue-id10 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160713215533"@de ;
+    dtd:has_doknr "BJNR616300012"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id15 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id11 .
+
+dtd:zitstelle-id16 a dtd:zitstelle ;
+    dtd:has_Value "AT 11.06.2012 V1"@de .
+

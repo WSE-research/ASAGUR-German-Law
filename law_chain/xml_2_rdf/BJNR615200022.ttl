@@ -1,0 +1,262 @@
+@prefix dtd: <urn:GasSpBefüllV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220602213006"@de ;
+    dtd:has_doknr "BJNR615200022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_BR dtd:BR-id47 ;
+    dtd:has_Value " (+++ Textnachweis ab: 2.6.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id62 .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 35b Absatz 3 und 7 des Energiewirtschaftsgesetzes, der durch Artikel 1 Nummer 3 des Gesetzes vom 26. April 2022 (BGBl. I S. 674) eingefügt worden ist, verordnet das Bundesministerium für Wirtschaft und Klimaschutz:"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Diese Verordnung regelt die Zurverfügungstellung vom Nutzer einer Gasspeicheranlage ungenutzter Speicherkapazitäten in Gasspeicheranlagen nach § 35a Absatz 2 des Energiewirtschaftsgesetzes als unterbrechbare Kapazitäten zur Nutzung für Maßnahmen zur Gewährleistung der Versorgungssicherheit nach § 35c des Energiewirtschaftsgesetzes, wenn die Gefahr des Verfehlens der Füllstandsvorgaben nach § 35b Absatz 1 Satz 2 des Energiewirtschaftsgesetzes besteht, und erweitert dadurch die nach § 35b Absatz 5 und 6 des Energiewirtschaftsgesetzes vorgesehenen Verfahren durch ein für die in § 2 Satz 1 und 2 genannten Referenzzeitpunkte vorrangiges Verfahren."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Die Gefahr des Verfehlens der Füllstandsvorgaben im Sinne von § 1 besteht, wenn eine Gasspeicheranlage zum 1. Mai eines Kalenderjahres einen Füllstand von unterhalb 5 Prozent oder zum 1. Juni eines Kalenderjahres von unterhalb 10 Prozent der Gesamtkapazität der Gasspeicheranlage aufweist. Abweichend hiervon besteht für das Jahr 2022 die Gefahr des Verfehlens der Füllstandsvorgaben nach § 35b Absatz 1 Satz 2 des Energiewirtschaftsgesetzes, wenn eine Gasspeicheranlage am 2. Juni 2022 einen Füllstand von unterhalb 10 Prozent der Gesamtkapazität der Gasspeicheranlage aufweist. § 35b Absatz 2 des Energiewirtschaftsgesetzes bleibt unberührt."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Liegen die Voraussetzungen nach § 2 Satz 1 oder 2 vor, so hat der Betreiber einer Gasspeicheranlage unverzüglich nach Ablauf des dort jeweils genannten Zeitpunktes dem Marktgebietsverantwortlichen die ungenutzten Speicherkapazitäten der Nutzer einer Gasspeicheranlage als unterbrechbare Kapazitäten zur Verfügung zu stellen, dabei ist hiervon auch die Einspeicherleistung in der maximal verfügbaren Höhe umfasst. Die Zurverfügungstellung hat zu angemessenen wirtschaftlichen Bedingungen zu erfolgen."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft und mit Ablauf des 31. März 2025 außer Kraft."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "GasSpBefüllV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-06-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id63 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id64 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "GasSpBefüllV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "GasSpBefüllV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "GasSpBefüllV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "GasSpBefüllV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "GasSpBefüllV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "GasSpBefüllV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Gasspeicherbefüllungsverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Zurverfügungstellung unterbrechbarer Speicherkapazitäten zur Gewährleistung der Versorgungssicherheit"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220602213006"@de ;
+    dtd:has_doknr "BJNR615200022"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220602213006"@de ;
+    dtd:has_doknr "BJNR615200022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220602213006"@de ;
+    dtd:has_doknr "BJNR615200022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220602213006"@de ;
+    dtd:has_doknr "BJNR615200022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220602213006"@de ;
+    dtd:has_doknr "BJNR615200022BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220602213006"@de ;
+    dtd:has_doknr "BJNR615200022BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id63 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id62 a dtd:pre ;
+    dtd:has_BR dtd:BR-id48,
+        dtd:BR-id49 ;
+    dtd:has_Value "(+++ Textnachweis ab: 2.6.2022 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id66 ;
+    dtd:has_standtyp dtd:standtyp-id65 .
+
+dtd:standkommentar-id66 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 4 mit Ablauf des 31.3.2025 außer Kraft"@de .
+
+dtd:standtyp-id65 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Referenzzeitpunkte für die Gefahr des Verfehlens der Füllstandsvorgaben"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Zurverfügungstellung von Speicherkapazitäten als unterbrechbare Kapazität"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id64 a dtd:zitstelle ;
+    dtd:has_Value "AT 01.06.2022 V1"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,220 @@
+@prefix dtd: <urn:AltFRG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150019"@de ;
+    dtd:has_doknr "BJNR158910005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45,
+        dtd:P-id46,
+        dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51,
+        dtd:P-id52 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_Value " (+++ Textnachweis ab: 17. 6.2005 +++)Das G wurde als Artikel 1 des G v. 10.6.2005 I 1589 vom Bundestag beschlossen. Es ist gem. Art. 3 dieses G am 17.6.2005 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id53 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(1) Eine vor dem 8. Mai 1945 zu Gunsten von in dem in Artikel 3 des Einigungsvertrages genannten Gebiet durch besatzungsrechtliche oder besatzungshoheitliche Maßnahmen enteigneten Kreditinstitut, Bausparkasse oder Versicherungsunternehmen (Kreditinstitut) begründete Darlehensforderung steht dem Bund (Entschädigungsfonds) zu, soweit diese Forderung mangels Belegenheit in dem in Artikel 3 des Einigungsvertrages genannten Gebiet nicht wirksam enteignet werden konnte und dieses Kreditinstitut Ausgleichsforderungen nach dem Umstellungsgesetz in der im Bundesgesetzblatt Teil III, Gliederungsnummer 7601-0, veröffentlichten bereinigten Fassung, dem Umstellungsergänzungsgesetz in der im Bundesgesetzblatt Teil III, Gliederungsnummer 7601-1, veröffentlichten bereinigten Fassung oder den dazu erlassenen Durchführungsverordnungen erhalten hat. Die Gewährung der Ausgleichsforderungen wird für die Schuldner der Altforderungen unwiderleglich vermutet. Die Verpflichtung des Bundes, das nach Absatz 1 Satz 1 Erlangte an ein Kreditinstitut herauszugeben, das den Nachweis erbringt, eine Ausgleichsforderung nicht erhalten zu haben, bleibt unberührt. Ein darüber hinausgehender Ausgleichsanspruch besteht nicht."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(2) Forderungen der wegen ihres ausschließlichen Sitzes in dem in Artikel 3 des Einigungsvertrages genannten Gebiet infolge besatzungsrechtlicher oder besatzungshoheitlicher Enteignungen untergegangenen Kreditinstitute stehen dem Finanzvermögen gemäß Artikel 22 Abs. 1 des Einigungsvertrages zu."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(3) Soweit vor Inkrafttreten dieses Gesetzes die Kreditanstalt für Wiederaufbau Darlehensforderungen im Sinne von Absatz 1 bereits für das vom Bund treuhänderisch verwaltete Finanzvermögen nach Artikel 22 Abs. 1 des Einigungsvertrages eingezogen hat, verbleibt es abweichend von Absatz 1 Satz 1 dabei."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Das Vermögensgesetz bleibt unberührt."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(1) Renten-, Reichs- oder Goldmark oder vergleichbare Währungsbezeichnungen sind im Verhältnis 2 zu 1 auf Deutsche Mark, umgestellt auf Euro, umzurechnen."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(2) Bereits erbrachte Tilgungsleistungen sind anzurechnen."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "AFRG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-06-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id42 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "AltFRG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "AltFRG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "AFRG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "AltFRG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "AFRG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "AltFRG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "AFRG"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Altforderungsregelungsgesetz"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Regelung bestimmter Altforderungen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id24,
+        dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id28,
+        dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20,
+        dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150019"@de ;
+    dtd:has_doknr "BJNR158910005"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150019"@de ;
+    dtd:has_doknr "BJNR158910005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150019"@de ;
+    dtd:has_doknr "BJNR158910005BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150019"@de ;
+    dtd:has_doknr "BJNR158910005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id53 a dtd:pre ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_Value "(+++ Textnachweis ab: 17. 6.2005 +++)"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Forderungsberechtigung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Verhältnis zu anderen Vorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Umrechnung, Tilgungsleistungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "2005, 1589"@de .
+

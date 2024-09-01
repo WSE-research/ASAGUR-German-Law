@@ -1,0 +1,621 @@
+@prefix dtd: <urn:WoVermRG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118,
+        dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121,
+        dtd:P-id122,
+        dtd:P-id123,
+        dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130,
+        dtd:P-id131,
+        dtd:P-id132,
+        dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137,
+        dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140,
+        dtd:P-id141 .
+
+dtd:Content-id142 a dtd:Content ;
+    dtd:has_P dtd:P-id143,
+        dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148,
+        dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151,
+        dtd:P-id152,
+        dtd:P-id153 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DL-id81 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87 ;
+    dtd:has_DT dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id88 a dtd:DL ;
+    dtd:has_DD dtd:DD-id91,
+        dtd:DD-id92 ;
+    dtd:has_DT dtd:DT-id89,
+        dtd:DT-id90 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96,
+        dtd:DT-id97,
+        dtd:DT-id98 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "1a."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch den Mietvertrag ein Mietverhältnis über dieselben Wohnräume fortgesetzt, verlängert oder erneuert wird,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Mietvertrag über Wohnräume abgeschlossen wird, deren Eigentümer, Verwalter, Mieter oder Vermieter der Wohnungsvermittler ist, oder"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Mietvertrag über Wohnräume abgeschlossen wird, deren Eigentümer, Verwalter oder Vermieter eine juristische Person ist, an der der Wohnungsvermittler rechtlich oder wirtschaftlich beteiligt ist. Das gleiche gilt, wenn eine natürliche oder juristische Person Eigentümer, Verwalter oder Vermieter von Wohnräumen ist und ihrerseits an einer juristischen Person, die sich als Wohnungsvermittler betätigt, rechtlich oder wirtschaftlich beteiligt ist."@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Value "sie von den Absätzen 1 bis 4 abweicht oder"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "durch sie der Wohnungssuchende verpflichtet wird, ein vom Vermieter oder einem Dritten geschuldetes Vermittlungsentgelt zu zahlen."@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Value "entgegen § 2 Absatz 1a vom Wohnungssuchenden ein Entgelt fordert, sich versprechen lässt oder annimmt,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 3 Abs. 1 das Entgelt nicht in einem Bruchteil oder Vielfachen der Monatsmiete angibt,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 3 Abs. 2 ein Entgelt fordert, sich versprechen läßt oder annimmt, das den dort genannten Betrag übersteigt,"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 6 Abs. 1 ohne Auftrag Wohnräume anbietet oder"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 6 Abs. 2 seinen Namen, die Bezeichnung als Wohnungsvermittler oder den Mietpreis nicht angibt oder auf Nebenkosten nicht hinweist."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_BR dtd:BR-id78 ;
+    dtd:has_Value " (+++ Textnachweis ab: 10.11.1971 +++)Das G wurde als Artikel 9 G v. 4.11.1971 I 1745 (MietRVerbG) vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 11 § 2 Abs. 1 dieses G am 10.11.1971 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id154 .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(1) Wohnungsvermittler im Sinne dieses Gesetzes ist, wer den Abschluß von Mietverträgen über Wohnräume vermittelt oder die Gelegenheit zum Abschluß von Mietverträgen über Wohnräume nachweist."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Zu den Wohnräumen im Sinne dieses Gesetzes gehören auch solche Geschäftsräume, die wegen ihres räumlichen oder wirtschaftlichen Zusammenhangs mit Wohnräumen mit diesen zusammen vermietet werden."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(3) Die Vorschriften dieses Gesetzes gelten nicht für die Vermittlung oder den Nachweis der Gelegenheit zum Abschluß von Mietverträgen über Wohnräume im Fremdenverkehr."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(1) Ein Anspruch auf Entgelt für die Vermittlung oder den Nachweis der Gelegenheit zum Abschluß von Mietverträgen über Wohnräume steht dem Wohnungsvermittler nur zu, wenn infolge seiner Vermittlung oder infolge seines Nachweises ein Mietvertrag zustande kommt. Der Vermittlungsvertrag bedarf der Textform."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(1a) Der Wohnungsvermittler darf vom Wohnungssuchenden für die Vermittlung oder den Nachweis der Gelegenheit zum Abschluss von Mietverträgen über Wohnräume kein Entgelt fordern, sich versprechen lassen oder annehmen, es sei denn, der Wohnungsvermittler holt ausschließlich wegen des Vermittlungsvertrags mit dem Wohnungssuchenden vom Vermieter oder von einem anderen Berechtigten den Auftrag ein, die Wohnung anzubieten (§ 6 Absatz 1)."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_DL dtd:DL-id81 ;
+    dtd:has_Value "(2) Ein Anspruch nach Absatz 1 Satz 1 steht dem Wohnungsvermittler nicht zu, wenn 1.durch den Mietvertrag ein Mietverhältnis über dieselben Wohnräume fortgesetzt, verlängert oder erneuert wird,2.der Mietvertrag über Wohnräume abgeschlossen wird, deren Eigentümer, Verwalter, Mieter oder Vermieter der Wohnungsvermittler ist, oder3.der Mietvertrag über Wohnräume abgeschlossen wird, deren Eigentümer, Verwalter oder Vermieter eine juristische Person ist, an der der Wohnungsvermittler rechtlich oder wirtschaftlich beteiligt ist. Das gleiche gilt, wenn eine natürliche oder juristische Person Eigentümer, Verwalter oder Vermieter von Wohnräumen ist und ihrerseits an einer juristischen Person, die sich als Wohnungsvermittler betätigt, rechtlich oder wirtschaftlich beteiligt ist."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(3) Ein Anspruch nach Absatz 1 Satz 1 steht dem Wohnungsvermittler gegenüber dem Wohnungssuchenden nicht zu, wenn der Mietvertrag über öffentlich geförderte Wohnungen oder über sonstige preisgebundene Wohnungen abgeschlossen wird, die nach dem 20. Juni 1948 bezugsfertig geworden sind oder bezugsfertig werden. Satz 1 gilt auch für die Wohnungen, die nach den §§ 88d und 88e des Zweiten Wohnungsbaugesetzes, nach dem Wohnraumförderungsgesetz oder nach entsprechenden landesrechtlichen Vorschriften gefördert werden, solange das Belegungsrecht besteht. Das gleiche gilt für die Vermittlung einzelner Wohnräume der in den Sätzen 1 und 2 genannten Wohnungen."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(4) Vorschüsse dürfen nicht gefordert, vereinbart oder angenommen werden."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_DL dtd:DL-id88 ;
+    dtd:has_Value "(5) Eine Vereinbarung ist unwirksam, wenn 1.sie von den Absätzen 1 bis 4 abweicht oder2.durch sie der Wohnungssuchende verpflichtet wird, ein vom Vermieter oder einem Dritten geschuldetes Vermittlungsentgelt zu zahlen."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "§ 2: Gilt in Berlin und im Saarland in der Fassung des § 9 Abs. 3"@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(1) Das Entgelt nach § 2 Abs. 1 Satz 1 ist in einem Bruchteil oder Vielfachen der Monatsmiete anzugeben."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(2) Der Wohnungsvermittler darf vom Wohnungssuchenden für die Vermittlung oder den Nachweis der Gelegenheit zum Abschluß von Mietverträgen über Wohnräume kein Entgelt fordern, sich versprechen lassen oder annehmen, das zwei Monatsmieten zuzüglich der gesetzlichen Umsatzsteuer übersteigt. Nebenkosten, über die gesondert abzurechnen ist, bleiben bei der Berechnung der Monatsmiete unberücksichtigt."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(3) Außer dem Entgelt nach § 2 Abs. 1 Satz 1 dürfen für Tätigkeiten, die mit der Vermittlung oder dem Nachweis der Gelegenheit zum Abschluß von Mietverträgen über Wohnräume zusammenhängen, sowie für etwaige Nebenleistungen keine Vergütungen irgendwelcher Art, insbesondere keine Einschreibgebühren, Schreibgebühren oder Auslagenerstattungen, vereinbart oder angenommen werden. Dies gilt nicht, soweit die nachgewiesenen Auslagen eine Monatsmiete übersteigen. Es kann jedoch vereinbart werden, daß bei Nichtzustandekommen eines Mietvertrages die in Erfüllung des Auftrages nachweisbar entstandenen Auslagen zu erstatten sind."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(4) Eine Vereinbarung, durch die der Auftraggeber sich im Zusammenhang mit dem Auftrag verpflichtet, Waren zu beziehen oder Dienst- oder Werkleistungen in Anspruch zu nehmen, ist unwirksam. Die Wirksamkeit des Vermittlungsvertrags bleibt unberührt. Satz 1 gilt nicht, wenn die Verpflichtung die Übernahme von Einrichtungs- oder Ausstattungsgegenständen des bisherigen Inhabers der Wohnräume zum Gegenstand hat."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "Der Wohnungsvermittler und der Auftraggeber können vereinbaren, daß bei Nichterfüllung von vertraglichen Verpflichtungen eine Vertragsstrafe zu zahlen ist. Die Vertragsstrafe darf 10 Prozent des gemäß § 2 Abs. 1 Satz 1 vereinbarten Entgelts, höchstens jedoch 25 Euro nicht übersteigen."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(1) Eine Vereinbarung, die den Wohnungssuchenden oder für ihn einen Dritten verpflichtet, ein Entgelt dafür zu leisten, daß der bisherige Mieter die gemieteten Wohnräume räumt, ist unwirksam. Die Erstattung von Kosten, die dem bisherigen Mieter nachweislich für den Umzug entstehen, ist davon ausgenommen."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(2) Ein Vertrag, durch den der Wohnungssuchende sich im Zusammenhang mit dem Abschluß eines Mietvertrages über Wohnräume verpflichtet, von dem Vermieter oder dem bisherigen Mieter eine Einrichtung oder ein Inventarstück zu erwerben, ist im Zweifel unter der aufschiebenden Bedingung geschlossen, daß der Mietvertrag zustande kommt. Die Vereinbarung über das Entgelt ist unwirksam, soweit dieses in einem auffälligen Mißverhältnis zum Wert der Einrichtung oder des Inventarstücks steht."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "(1) Soweit an den Wohnungsvermittler ein ihm nach diesem Gesetz nicht zustehendes Entgelt, eine Vergütung anderer Art, eine Auslagenerstattung, ein Vorschuß oder eine Vertragsstrafe, die den in § 4 genannten Satz übersteigt, geleistet worden ist, kann die Leistung nach den allgemeinen Vorschriften des bürgerlichen Rechts zurückgefordert werden; die Vorschrift des § 817 Satz 2 des Bürgerlichen Gesetzbuchs ist nicht anzuwenden."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(2) Soweit Leistungen auf Grund von Vereinbarungen erbracht worden sind, die nach § 2 Absatz 5 Nummer 2 oder § 4a unwirksam oder nicht wirksam geworden sind, ist Absatz 1 entsprechend anzuwenden."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(1) Der Wohnungsvermittler darf Wohnräume nur anbieten, wenn er dazu einen Auftrag von dem Vermieter oder einem anderen Berechtigten hat."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(2) Der Wohnungsvermittler darf öffentlich, insbesondere in Zeitungsanzeigen, auf Aushängetafeln und dergleichen, nur unter Angabe seines Namens und der Bezeichnung als Wohnungsvermittler Wohnräume anbieten oder suchen; bietet er Wohnräume an, so hat er auch den Mietpreis der Wohnräume anzugeben und darauf hinzuweisen, ob Nebenleistungen besonders zu vergüten sind."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "Die Vorschriften des § 3 Abs. 1 und des § 6 gelten nur, soweit der Wohnungsvermittler die in § 1 Abs. 1 bezeichnete Tätigkeit gewerbsmäßig ausübt."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer als Wohnungsvermittler vorsätzlich oder fahrlässig 1.entgegen § 2 Absatz 1a vom Wohnungssuchenden ein Entgelt fordert, sich versprechen lässt oder annimmt,1a.entgegen § 3 Abs. 1 das Entgelt nicht in einem Bruchteil oder Vielfachen der Monatsmiete angibt,2.entgegen § 3 Abs. 2 ein Entgelt fordert, sich versprechen läßt oder annimmt, das den dort genannten Betrag übersteigt,3.entgegen § 6 Abs. 1 ohne Auftrag Wohnräume anbietet oder4.entgegen § 6 Abs. 2 seinen Namen, die Bezeichnung als Wohnungsvermittler oder den Mietpreis nicht angibt oder auf Nebenkosten nicht hinweist."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(2) Die Ordnungswidrigkeit nach Absatz 1 Nummer 1 und 2 kann mit einer Geldbuße bis zu 25 000 Euro, die Ordnungswidrigkeit nach Absatz 1 Nummer 1a, 3 und 4 mit einer Geldbuße bis zu 2 500 Euro geahndet werden."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(1)"@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(3) § 2 gilt für das Land Berlin und für das Saarland mit der Maßgabe, daß das Datum \"20. Juni 1948\" für das Land Berlin durch das Datum \"24. Juni 1948\", für das Saarland durch das Datum \"1. April 1948\" zu ersetzen ist."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id36 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1971-11-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 4a"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:fundstelle-id37 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id155 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id156 .
+
+dtd:fussnoten-id60 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id114 .
+
+dtd:fussnoten-id63 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id127 .
+
+dtd:fussnoten-id65 a dtd:fussnoten .
+
+dtd:fussnoten-id67 a dtd:fussnoten .
+
+dtd:fussnoten-id69 a dtd:fussnoten .
+
+dtd:fussnoten-id71 a dtd:fussnoten .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "WoVermRG"@de .
+
+dtd:langue-id38 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Regelung der Wohnungsvermittlung"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id36 ;
+    dtd:has_fundstelle dtd:fundstelle-id37 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_langue dtd:langue-id38 ;
+    dtd:has_standangabe dtd:standangabe-id39 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000700301"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000803360"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000901307"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000100301"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000205360"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000302360"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000402360"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE001000307"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000504360"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20150623215033"@de ;
+    dtd:has_doknr "BJNR017470971BJNE000600301"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id155 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id154 a dtd:pre ;
+    dtd:has_BR dtd:BR-id79,
+        dtd:BR-id80 ;
+    dtd:has_Value "(+++ Textnachweis ab: 10.11.1971 +++)"@de .
+
+dtd:standangabe-id39 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id158 ;
+    dtd:has_standtyp dtd:standtyp-id157 .
+
+dtd:standkommentar-id158 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 G v. 21.4.2015 I 610"@de .
+
+dtd:standtyp-id157 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id142 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id69 ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:zitstelle-id156 a dtd:zitstelle ;
+    dtd:has_Value "1971, 1745, 1747"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

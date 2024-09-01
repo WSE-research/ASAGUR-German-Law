@@ -1,0 +1,230 @@
+@prefix dtd: <urn:UNSOrgVorRV-3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625145848"@de ;
+    dtd:has_doknr "BJNR209790988"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 3 des Gesetzes vom 22. Juni 1954 über den Beitritt der Bundesrepublik Deutschland zum Abkommen vom 21. November 1947 über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen und über die Gewährung von Vorrechten und Befreiungen an andere zwischenstaatliche Organisationen (BGBl. 1954 II S. 639), der durch das Gesetz vom 16. August 1980 (BGBl. II S. 941) neu gefaßt wurde, verordnet die Bundesregierung:"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Für die Gewährung von Vorrechten und Befreiungen an die Sonderorganisation der Vereinten Nationen für industrielle Entwicklung (UNIDO) gilt das Abkommen über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen vom 21. November 1947 mit seiner Anlage XVII. Die Anlage XVII wird nachstehend mit einer amtlichen deutschen Übersetzung veröffentlicht."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes in Verbindung mit Artikel 4 des in der Eingangsformel genannten Gesetzes vom 22. Juni 1954, der durch das Gesetz vom 28. Februar 1964 (BGBl. II S. 187) neu gefaßt wurde, auch im Land Berlin."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt an dem Tage in Kraft, an dem die betreffende Anlage gemäß den §§ 43, 44 des Abkommens vom 21. November 1947 für die Bundesrepublik Deutschland in Kraft tritt."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(2) Diese Verordnung tritt an dem Tage außer Kraft, an dem die in § 1 genannten völkerrechtlichen Vereinbarungen außer Kraft treten."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(3) Der Tag des Inkrafttretens und der Tag des Außerkrafttretens sind im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1988-10-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id55 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id56 .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRV 3"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRV 3"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRV 3"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRV 3"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRV 3"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRV 3"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Dritte Verordnung über die Gewährung von Vorrechten und Befreiungen an die Sonderorganisationen der Vereinten Nationen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625145848"@de ;
+    dtd:has_doknr "BJNR209790988"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625145848"@de ;
+    dtd:has_doknr "BJNR209790988BJNE000100326"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625145848"@de ;
+    dtd:has_doknr "BJNR209790988BJNE000200326"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625145848"@de ;
+    dtd:has_doknr "BJNR209790988BJNE000300326"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625145848"@de ;
+    dtd:has_doknr "BJNR209790988BJNE000400326"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625145848"@de ;
+    dtd:has_doknr "BJNR209790988BJNE000500326"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id55 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id58 ;
+    dtd:has_standtyp dtd:standtyp-id57 .
+
+dtd:standkommentar-id58 a dtd:standkommentar ;
+    dtd:has_Value "V in Kraft gem. Bek. v. 21.6.1989 II 559 mWv 3.3.1989"@de .
+
+dtd:standtyp-id57 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:zitstelle-id56 a dtd:zitstelle ;
+    dtd:has_Value "1988, 979"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

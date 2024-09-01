@@ -1,0 +1,75 @@
+@prefix dtd: <urn:SozSichAbkDVbgZVbg-AUT#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152438"@de ;
+    dtd:has_doknr "BJNR212690969"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id11 a dtd:BR .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:Content-id13 a dtd:Content ;
+    dtd:has_P dtd:P-id14,
+        dtd:P-id15 .
+
+dtd:P-id14 a dtd:P ;
+    dtd:has_BR dtd:BR-id11 ;
+    dtd:has_Value "G v. 3.7.1969 II 1260 Inkraft gem. Bek. v. 10.10.1969 II 2056 mWv 1.11.1969"@de .
+
+dtd:P-id15 a dtd:P ;
+    dtd:has_BR dtd:BR-id12 ;
+    dtd:has_Value " Zusatzvereinbarung aufgeh. durch Art. 14 Abs. 3 d. Abk. v. 4.10.1995, 1998 II 313 (SozSichAbk AUT 1995) gem. Art. 13 Abs. 2 mWv ersten Tage des dritten Monats nach Ablauf des Monats, in dem die Ratifikationsurkunden ausgetauscht werden."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-04-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id16 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id17 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id13 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "SozSichAbkDVbgZVbg AUT"@de .
+
+dtd:langue-id8 a dtd:langue ;
+    dtd:has_Value """Zusatzvereinbarung vom 10. April 1969 zu der Vereinbarung vom 22.
+Dezember 1966 zur Durchführung des Abkommens zwischen der Bundesrepublik
+Deutschland und der Republik Österreich über Soziale Sicherheit"""@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id8 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152438"@de ;
+    dtd:has_doknr "BJNR212690969"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id16 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id9 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 ;
+    dtd:has_text dtd:text-id9 .
+
+dtd:zitstelle-id17 a dtd:zitstelle ;
+    dtd:has_Value "1969, 1269"@de .
+

@@ -1,0 +1,298 @@
+@prefix dtd: <urn:StaatsbegrAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  8. 6.1966 +++)"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Auf Vorschlag der Bundesregierung bestimme ich:"@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Persönlichkeiten des öffentlichen Lebens, die sich um das deutsche Volk hervorragend verdient gemacht haben, kann von der Bundesrepublik Deutschland ein Staatsbegräbnis gewährt werden."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Neben oder an Stelle eines Staatsbegräbnisses kann zur Ehrung eines Verstorbenen ein Staatsakt angeordnet werden."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "Anordnungen nach I und II trifft der Bundespräsident."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "Die Durchführung von Staatsbegräbnissen und Staatsakten obliegt dem Bundesminister des Innern; für Mitglieder des Bundestages, des Bundesrates und des Bundesverfassungsgerichts kann der Bundespräsident den Präsidenten dieser Verfassungsorgane die Durchführung übertragen."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "Staatsbegräbnisse und Staatsakte auf Grund landesrechtlicher Anordnung bleiben unberührt."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_BR dtd:BR-id53,
+        dtd:BR-id54 ;
+    dtd:has_SP dtd:SP-id55,
+        dtd:SP-id56,
+        dtd:SP-id57 ;
+    dtd:has_Value "Der Bundespräsident Der Bundeskanzler Der Bundesminister des Innern"@de .
+
+dtd:SP-id55 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id56 a dtd:SP ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:SP-id57 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1966-06-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "III."@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "IV."@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "V."@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id76 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id77 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id60 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "StaatsbegrAnO"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "StaatsbegrAnO"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "StaatsbegrAnO"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "StaatsbegrAnO"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "StaatsbegrAnO"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "StaatsbegrAnO"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "StaatsbegrAnO"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "StaatsbegrAnO"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Anordnung über Staatsbegräbnisse und Staatsakte"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966BJNE000100315"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966BJNE000200315"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966BJNE000300315"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966BJNE000400315"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966BJNE000500315"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966BJNE000600315"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20120625152249"@de ;
+    dtd:has_doknr "BJNR003370966BJNE000700315"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id76 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:zitstelle-id77 a dtd:zitstelle ;
+    dtd:has_Value "1966, 337"@de .
+

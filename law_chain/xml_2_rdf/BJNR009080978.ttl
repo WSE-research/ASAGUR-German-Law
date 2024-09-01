@@ -1,0 +1,565 @@
+@prefix dtd: <urn:MMilchPulvV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121,
+        dtd:P-id122,
+        dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id85 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93 ;
+    dtd:has_DT dtd:DT-id86,
+        dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id94 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id95,
+        dtd:DT-id96,
+        dtd:DT-id97 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Orts- und Lageplan der Betriebsräume, in denen das Magermilchpulver hergestellt und gelagert werden soll,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beschreibung der vorhandenen technischen Einrichtungen,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beschreibung der vorgesehenen Herstellungsvorgänge und der dabei zu verwendenden Magermilchmengen sowie Art und Menge der Herstellung anderer Erzeugnisse, insbesondere Buttermilchpulver und Molkenpulver, mit Angabe der voraussichtlichen Ausbeute."@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ordnungsgemäß kaufmännische Bücher zu führen und regelmäßige Abschlüsse zu machen,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_DL dtd:DL-id94 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gesonderte Aufzeichnungen zu machen übera)den Zugang und Abgang oder den sonstigen Verbleib sowie den Bestand an Magermilch, Buttermilch und Molke, b)die hergestellten Mengen an Magermilchpulver, Buttermilchpulver, Molkenpulver, Kaseine und Kaseinate, c)die Art der Verpackung, die Kennzeichnung, den Verbleib sowie den Auslieferungstag jeder Partie Magermilchpulver, Buttermilchpulver und Molkenpulver, "@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Zugang und Abgang oder den sonstigen Verbleib sowie den Bestand an Magermilch, Buttermilch und Molke,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die hergestellten Mengen an Magermilchpulver, Buttermilchpulver, Molkenpulver, Kaseine und Kaseinate,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Art der Verpackung, die Kennzeichnung, den Verbleib sowie den Auslieferungstag jeder Partie Magermilchpulver, Buttermilchpulver und Molkenpulver,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Verlangen weitere Aufzeichnungen über die einzelnen Verarbeitungsvorgänge sowie die dabei verwendeten Erzeugnismengen und -zutaten zu führen,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "jede Veränderung hinsichtlich der nach § 3 Abs. 2 gemachten Angaben der Bundesanstalt unverzüglich mitzuteilen."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.1978 +++)"@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 7 Abs. 3, der §§ 9 und 11 Abs. 2 des Gesetzes zur Durchführung der gemeinsamen Marktorganisationen vom 31. August 1972 (BGBl. I S. 1617), die durch Artikel 38 Nr. 1 des Gesetzes vom 18. März 1975 (BGBl. I S. 705) geändert worden sind sowie auf Grund des § 10 Abs. 1 und des § 12 des Gesetzes zur Durchführung der gemeinsamen Marktorganisationen wird im Einvernehmen mit den Bundesministern der Finanzen und für Wirtschaft verordnet:"@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "Die Vorschriften dieser Verordnung gelten für die Durchführung der Rechtsakte der Europäischen Gemeinschaften oder der Europäischen Union hinsichtlich der öffentlichen Lagerhaltung von Magermilchpulver."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Zuständig für die Durchführung dieser Verordnung und der in § 1 bezeichneten Rechtsakte ist die Bundesanstalt für Landwirtschaft und Ernährung (Bundesanstalt)."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(1) Anträge auf Anerkennung sind auf vorgeschriebenem Formblatt zu stellen, das bei der Bundesanstalt angefordert werden kann."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(2) Die Anerkennung setzt voraus, daß der Antragsteller (Beteiligter) auf Verlangen in zwei Stücken vorlegt: 1.Orts- und Lageplan der Betriebsräume, in denen das Magermilchpulver hergestellt und gelagert werden soll, 2.Beschreibung der vorhandenen technischen Einrichtungen, 3.Beschreibung der vorgesehenen Herstellungsvorgänge und der dabei zu verwendenden Magermilchmengen sowie Art und Menge der Herstellung anderer Erzeugnisse, insbesondere Buttermilchpulver und Molkenpulver, mit Angabe der voraussichtlichen Ausbeute.  "@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(3) Die Anerkennung wird dem Beteiligten durch einen Erlaubnisschein erteilt."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(4) Wird vorsätzlich oder grob fahrlässig gegen die Bestimmungen des Artikels 1 Abs. 1 und Artikel 3 Abs. 1 der Verordnung (EWG) Nr. 625/78 vom 30. März 1978 (ABl. EG Nr. L 84, S. 19) verstoßen, so kann die Anerkennung befristet entzogen oder widerrufen werden. Im Falle des Widerrufs kann die Anerkennung nicht vor Ablauf von mindestens drei Monaten neu erteilt werden."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_DL dtd:DL-id85 ;
+    dtd:has_Value "(1) Der Beteiligte ist verpflichtet, 1.ordnungsgemäß kaufmännische Bücher zu führen und regelmäßige Abschlüsse zu machen, 2.gesonderte Aufzeichnungen zu machen übera)den Zugang und Abgang oder den sonstigen Verbleib sowie den Bestand an Magermilch, Buttermilch und Molke, b)die hergestellten Mengen an Magermilchpulver, Buttermilchpulver, Molkenpulver, Kaseine und Kaseinate, c)die Art der Verpackung, die Kennzeichnung, den Verbleib sowie den Auslieferungstag jeder Partie Magermilchpulver, Buttermilchpulver und Molkenpulver,  3.auf Verlangen weitere Aufzeichnungen über die einzelnen Verarbeitungsvorgänge sowie die dabei verwendeten Erzeugnismengen und -zutaten zu führen, 4.jede Veränderung hinsichtlich der nach § 3 Abs. 2 gemachten Angaben der Bundesanstalt unverzüglich mitzuteilen.  "@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(2) Erstreckt sich eine Inventur des Beteiligten auf Waren, die sich unter amtlicher Überwachung befinden, so hat der Beteiligte der Bundesanstalt den Zeitpunkt der Inventur so rechtzeitig anzuzeigen, daß eine amtliche Bestandsaufnahme durch die Bundesanstalt mit der Inventur verbunden werden kann."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(3) Der Beteiligte ist verpflichtet, die in Absatz 1 Nr. 1 bis 3 genannten Unterlagen und die sich darauf beziehenden geschäftlichen Belege sieben Jahre lang aufzubewahren, soweit nicht längere Aufbewahrungsfristen nach anderen Vorschriften bestehen."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "Zum Zwecke der Überwachung hat der Beteiligte den Beauftragten der Bundesanstalt das Betreten der Geschäftsräume und Betriebsstätten, die Aufnahme der Bestände an Magermilchpulver, Buttermilchpulver, Molkenpulver und anderen Erzeugnissen sowie die Entnahme von Proben aus den für die öffentliche Lagerhaltung vorgesehenen Magermilchpulvermengen während der Geschäfts- und Betriebszeit zu gestatten, auf Verlangen die in Betracht kommenden kaufmännischen Bücher, besonderen Aufzeichnungen, Belege und sonstigen Schriftstücke zur Einsicht vorzulegen, Auskunft zu erteilen und die erforderliche Unterstützung zu gewähren. Der Beteiligte hat im Falle automatischer Buchführung auf seine Kosten auf Verlangen Listen mit den erforderlichen Angaben auszudrucken."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Juli 1978 in Kraft."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_SP dtd:SP-id77 ;
+    dtd:has_Value "Der Bundesminister für Ernährung, Landwirtschaft und Forsten"@de .
+
+dtd:SP-id77 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Ernährung, Landwirtschaft und Forsten"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id33 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1978-06-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id34 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id136 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id137 .
+
+dtd:fussnoten-id63 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id111 .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "MMilchPulvV"@de .
+
+dtd:kurzue-id35 a dtd:kurzue ;
+    dtd:has_Value "Magermilchpulver-Verordnung - öffentliche Lagerhaltung"@de .
+
+dtd:langue-id36 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung der öffentlichen Lagerhaltung von Magermilchpulver"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id33 ;
+    dtd:has_fundstelle dtd:fundstelle-id34 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id35 ;
+    dtd:has_langue dtd:langue-id36 ;
+    dtd:has_standangabe dtd:standangabe-id37 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE001001308"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE001100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE000202377"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE000400328"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE000500328"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE000600328"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405125322"@de ;
+    dtd:has_doknr "BJNR009080978BJNE000701377"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id136 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id37 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id139 ;
+    dtd:has_standtyp dtd:standtyp-id138 .
+
+dtd:standkommentar-id139 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 27 V v. 13.12.2011 I 2720"@de .
+
+dtd:standtyp-id138 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Zuständigkeit"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Anerkennung der Betriebsstätten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Aufzeichnungs- und Aufbewahrungspflichten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Duldungs- und Mitwirkungspflichten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id137 a dtd:zitstelle ;
+    dtd:has_Value "1978, 908"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,800 @@
+@prefix dtd: <urn:KlagRegV-2012#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id86 a dtd:BR .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160,
+        dtd:P-id161,
+        dtd:P-id162,
+        dtd:P-id163,
+        dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166,
+        dtd:P-id167,
+        dtd:P-id168,
+        dtd:P-id169 .
+
+dtd:Content-id170 a dtd:Content ;
+    dtd:has_P dtd:P-id171,
+        dtd:P-id172,
+        dtd:P-id173 .
+
+dtd:Content-id174 a dtd:Content ;
+    dtd:has_P dtd:P-id175,
+        dtd:P-id176,
+        dtd:P-id177,
+        dtd:P-id178 .
+
+dtd:Content-id179 a dtd:Content ;
+    dtd:has_P dtd:P-id180,
+        dtd:P-id181,
+        dtd:P-id182 .
+
+dtd:Content-id183 a dtd:Content ;
+    dtd:has_P dtd:P-id184,
+        dtd:P-id185 .
+
+dtd:Content-id186 a dtd:Content ;
+    dtd:has_P dtd:P-id187,
+        dtd:P-id188 .
+
+dtd:Content-id189 a dtd:Content ;
+    dtd:has_P dtd:P-id190 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id131 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id153 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id154 .
+
+dtd:DL-id110 a dtd:DL ;
+    dtd:has_DD dtd:DD-id118,
+        dtd:DD-id119,
+        dtd:DD-id120,
+        dtd:DD-id121,
+        dtd:DD-id122,
+        dtd:DD-id123,
+        dtd:DD-id124 ;
+    dtd:has_DT dtd:DT-id111,
+        dtd:DT-id112,
+        dtd:DT-id113,
+        dtd:DT-id114,
+        dtd:DT-id115,
+        dtd:DT-id116,
+        dtd:DT-id117 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id125 a dtd:DL ;
+    dtd:has_DD dtd:DD-id130,
+        dtd:DD-id131,
+        dtd:DD-id132,
+        dtd:DD-id133 ;
+    dtd:has_DT dtd:DT-id126,
+        dtd:DT-id127,
+        dtd:DT-id128,
+        dtd:DT-id129 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id89 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103,
+        dtd:DD-id104,
+        dtd:DD-id105,
+        dtd:DD-id106,
+        dtd:DD-id107,
+        dtd:DD-id108,
+        dtd:DD-id109 ;
+    dtd:has_DT dtd:DT-id90,
+        dtd:DT-id91,
+        dtd:DT-id92,
+        dtd:DT-id93,
+        dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96,
+        dtd:DT-id97,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id127 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id128 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "9."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "10."@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Musterverfahrensanträge nach § 3 Absatz 2 und § 4 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Vorlagebeschlüsse nach § 6 Absatz 4 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Musterverfahren nach § 10 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Terminsladungen und Zwischenentscheidungen nach § 11 Absatz 2 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beschlüsse über die einvernehmliche Beendigung des Musterverfahrens nach § 13 Absatz 5 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beschlüsse über die Erweiterung des Musterverfahrens nach § 15 Absatz 2 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Musterentscheide nach § 16 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Mitteilungen über den Eingang einer Rechtsbeschwerde nach § 20 Absatz 2 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Entscheidungen über die Rechtsbeschwerde nach § 20 Absatz 5 des Kapitalanleger-Musterverfahrensgesetzes und"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beschlüsse über die Wirksamkeit eines Vergleichs nach § 23 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes."@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Angaben in Prospekten nach der Verordnung (EU) 2017/1129 des Europäischen Parlaments und des Rates vom 14. Juni 2017 über den Prospekt, der beim öffentlichen Angebot von Wertpapieren oder bei deren Zulassung zum Handel an einem geregelten Markt zu veröffentlichen ist und zur Aufhebung der Richtlinie 2003/71/EG (ABl. L 168 vom 30.6.2017, S. 12), Wertpapier-Informationsblättern nach dem Wertpapierprospektgesetz und Informationsblättern nach dem Wertpapierhandelsgesetz,"@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Angaben in Verkaufsprospekten, Vermögensanlagen-Informationsblättern und wesentlichen Anlegerinformationen nach dem Verkaufsprospektgesetz, dem Vermögensanlagengesetz sowie dem Investmentgesetz in der bis zum 21. Juli 2013 geltenden Fassung oder dem Kapitalanlagegesetzbuch,"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Angaben in Mitteilungen über Insiderinformationen im Sinne des Artikels 17 der Verordnung (EU) Nr. 596/2014 des Europäischen Parlaments und des Rates vom 16. April 2014 über Marktmissbrauch (Marktmissbrauchsverordnung) und zur Aufhebung der Richtlinie 2003/6/EG des Europäischen Parlaments und des Rates und der Richtlinien 2003/124/EG, 2003/125/EG und 2004/72/EG der Kommission (ABl. L 173 vom 12.6.2014, S. 1) in der jeweils geltenden Fassung und des § 26 des Wertpapierhandelsgesetzes,"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Angaben in Darstellungen, Übersichten, Vorträgen und Auskünften in der Hauptversammlung einer Aktiengesellschaft über die Verhältnisse der Gesellschaft einschließlich ihrer Beziehungen zu verbundenen Unternehmen im Sinne des § 400 Absatz 1 Nummer 1 des Aktiengesetzes,"@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Angaben in Jahresabschlüssen, Lageberichten, Konzernabschlüssen, Konzernlageberichten sowie Halbjahresfinanzberichten,"@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Angaben in Angebotsunterlagen nach dem Wertpapiererwerbs- und Übernahmegesetz,"@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sonstige Kapitalmarktinformationen."@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bezeichnung des von dem Musterverfahrensantrag betroffenen Emittenten von Wertpapieren oder Anbieters von sonstigen Vermögensanlagen nach § 3 Absatz 2 Nummer 2 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vollständige Bezeichnung der beklagten Partei und ihrer gesetzlichen Vertreter nach § 3 Absatz 2 Nummer 1 des Kapitalanleger-Musterverfahrensgesetzes,"@de .
+
+dtd:LA-id153 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bezeichnung des Prozessgerichts nach § 3 Absatz 2 Nummer 3 des Kapitalanleger-Musterverfahrensgesetzes und"@de .
+
+dtd:LA-id154 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Aktenzeichen des Prozessgerichts nach § 3 Absatz 2 Nummer 4 des Kapitalanleger-Musterverfahrensgesetzes."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_BR dtd:BR-id86 ;
+    dtd:has_Value " (+++ Textnachweis ab: 22.12.2012 +++)"@de ;
+    dtd:has_pre dtd:pre-id191 .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 4 Absatz 5 des Kapitalanleger-Musterverfahrensgesetzes vom 19. Oktober 2012 (BGBl. I S. 2182) verordnet das Bundesministerium der Justiz:"@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_DL dtd:DL-id89 ;
+    dtd:has_Value "(1) Bekanntmachungen nach dem Kapitalanleger-Musterverfahrensgesetz sind in den folgenden Rubriken vorzunehmen: 1.Musterverfahrensanträge nach § 3 Absatz 2 und § 4 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes,2.Vorlagebeschlüsse nach § 6 Absatz 4 des Kapitalanleger-Musterverfahrensgesetzes,3.Musterverfahren nach § 10 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes,4.Terminsladungen und Zwischenentscheidungen nach § 11 Absatz 2 des Kapitalanleger-Musterverfahrensgesetzes,5.Beschlüsse über die einvernehmliche Beendigung des Musterverfahrens nach § 13 Absatz 5 des Kapitalanleger-Musterverfahrensgesetzes,6.Beschlüsse über die Erweiterung des Musterverfahrens nach § 15 Absatz 2 des Kapitalanleger-Musterverfahrensgesetzes,7.Musterentscheide nach § 16 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes,8.Mitteilungen über den Eingang einer Rechtsbeschwerde nach § 20 Absatz 2 des Kapitalanleger-Musterverfahrensgesetzes,9.Entscheidungen über die Rechtsbeschwerde nach § 20 Absatz 5 des Kapitalanleger-Musterverfahrensgesetzes und10.Beschlüsse über die Wirksamkeit eines Vergleichs nach § 23 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes.Jede Bekanntmachung muss das Datum ihrer Eintragung in das Klageregister enthalten."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(2) Zur vollständigen Bezeichnung der beklagten Partei und ihrer gesetzlichen Vertreter nach § 3 Absatz 2 Satz 2 Nummer 1 des Kapitalanleger-Musterverfahrensgesetzes hat das Klageregister Angaben zu Name oder Firma und Anschrift sowie zum Namen der gesetzlichen Vertreter und zum Vertretungsverhältnis zu enthalten. Der von dem Musterverfahrensantrag betroffene Emittent von Wertpapieren oder Anbieter von sonstigen Vermögensanlagen nach § 3 Absatz 2 Satz 2 Nummer 2 des Kapitalanleger-Musterverfahrensgesetzes ist im Klageregister mit Namen oder Firma anzugeben."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_DL dtd:DL-id110 ;
+    dtd:has_Value "(3) Die Feststellungsziele eines Musterverfahrensantrags nach § 3 Absatz 2 Satz 2 Nummer 5 des Kapitalanleger-Musterverfahrensgesetzes sind bei seiner Eintragung mindestens einer der folgenden Kategorien von Kapitalmarktinformationen zuzuordnen: 1.Angaben in Prospekten nach der Verordnung (EU) 2017/1129 des Europäischen Parlaments und des Rates vom 14. Juni 2017 über den Prospekt, der beim öffentlichen Angebot von Wertpapieren oder bei deren Zulassung zum Handel an einem geregelten Markt zu veröffentlichen ist und zur Aufhebung der Richtlinie 2003/71/EG (ABl. L 168 vom 30.6.2017, S. 12), Wertpapier-Informationsblättern nach dem Wertpapierprospektgesetz und Informationsblättern nach dem Wertpapierhandelsgesetz,2.Angaben in Verkaufsprospekten, Vermögensanlagen-Informationsblättern und wesentlichen Anlegerinformationen nach dem Verkaufsprospektgesetz, dem Vermögensanlagengesetz sowie dem Investmentgesetz in der bis zum 21. Juli 2013 geltenden Fassung oder dem Kapitalanlagegesetzbuch,3.Angaben in Mitteilungen über Insiderinformationen im Sinne des Artikels 17 der Verordnung (EU) Nr. 596/2014 des Europäischen Parlaments und des Rates vom 16. April 2014 über Marktmissbrauch (Marktmissbrauchsverordnung) und zur Aufhebung der Richtlinie 2003/6/EG des Europäischen Parlaments und des Rates und der Richtlinien 2003/124/EG, 2003/125/EG und 2004/72/EG der Kommission (ABl. L 173 vom 12.6.2014, S. 1) in der jeweils geltenden Fassung und des § 26 des Wertpapierhandelsgesetzes,4.Angaben in Darstellungen, Übersichten, Vorträgen und Auskünften in der Hauptversammlung einer Aktiengesellschaft über die Verhältnisse der Gesellschaft einschließlich ihrer Beziehungen zu verbundenen Unternehmen im Sinne des § 400 Absatz 1 Nummer 1 des Aktiengesetzes,5.Angaben in Jahresabschlüssen, Lageberichten, Konzernabschlüssen, Konzernlageberichten sowie Halbjahresfinanzberichten,6.Angaben in Angebotsunterlagen nach dem Wertpapiererwerbs- und Übernahmegesetz,7.sonstige Kapitalmarktinformationen."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(4) Das Klageregister enthält eine Suchfunktion, die es den Gerichten ermöglicht, vor der Eintragung eines Musterverfahrensantrags nach § 3 Absatz 2 Satz 1 des Kapitalanleger-Musterverfahrensgesetzes nach bereits eingetragenen, gleichgerichteten Musterverfahrensanträgen (§ 4 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes) zu suchen. Das Gericht kann den von ihm einzutragenden Musterverfahrensantrag entweder einer Liste gleichgerichteter Musterverfahrensanträge hinzufügen oder als neuen Musterverfahrensantrag eintragen."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_DL dtd:DL-id125 ;
+    dtd:has_Value "(5) Das Klageregister enthält eine Suchfunktion, die die Suche nach den folgenden Angaben ermöglicht: 1.Bezeichnung des von dem Musterverfahrensantrag betroffenen Emittenten von Wertpapieren oder Anbieters von sonstigen Vermögensanlagen nach § 3 Absatz 2 Nummer 2 des Kapitalanleger-Musterverfahrensgesetzes,2.vollständige Bezeichnung der beklagten Partei und ihrer gesetzlichen Vertreter nach § 3 Absatz 2 Nummer 1 des Kapitalanleger-Musterverfahrensgesetzes,3.Bezeichnung des Prozessgerichts nach § 3 Absatz 2 Nummer 3 des Kapitalanleger-Musterverfahrensgesetzes und4.Aktenzeichen des Prozessgerichts nach § 3 Absatz 2 Nummer 4 des Kapitalanleger-Musterverfahrensgesetzes."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(1) Eintragungen in das Klageregister dürfen nur durch die Gerichte und nur in elektronischer Form veranlasst werden. Die Gerichte können mit Ausnahme von Bekanntmachungen nach § 10 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes die Eintragungen durch die Übermittlung einer Datei an den Betreiber des Klageregisters vornehmen. Welche Dateiformate zur Übermittlung zugelassen sind, richtet sich nach den Allgemeinen Geschäftsbedingungen des Betreibers des Klageregisters. Musterverfahrensanträge können auch direkt durch das Gericht mittels eines Formulars eingetragen werden; Bekanntmachungen nach § 10 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes müssen mittels Formular vorgenommen werden. Die Bekanntmachung eines Musterverfahrensantrags soll ohne Berücksichtigung von Leerzeichen insgesamt höchstens 25 000 Zeichen umfassen."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(2) Der Vorsitzende oder ein von ihm bestimmtes Mitglied des Gerichts dürfen Eintragungen vornehmen oder veranlassen. Die Befugnis nach Satz 1 ist bei jedem Verbindungsaufbau anhand einer Benutzerkennung und eines geheim zu haltenden Passworts automatisiert zu prüfen."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "(3) Bei jeder Eintragung muss nachvollziehbar bleiben, von welcher Person sie vorgenommen wurde."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(4) Die Eintragung ist kostenpflichtig. Die Höhe des Entgelts richtet sich nach den Allgemeinen Geschäftsbedingungen des Betreibers des Klageregisters."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(1) Die Gerichte müssen jederzeit die nach dem Kapitalanleger-Musterverfahrensgesetz erforderlichen öffentlichen Bekanntmachungen in das Klageregister eintragen können."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "(2) Die Bekanntmachungen müssen unverzüglich im Klageregister erscheinen."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(3) Die Bekanntmachung eines Musterverfahrensantrags muss das Datum seines Eingangs bei Gericht enthalten."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(1) Der Betreiber des Klageregisters hat durch organisatorische und technische Vorkehrungen sicherzustellen, dass im Klageregister gespeicherte Daten nur durch das Gericht berichtigt oder gelöscht werden können, das die Eintragung vorgenommen hat. Soweit Daten berichtigt wurden, muss erkennbar sein, dass ein Fall der Berichtigung vorliegt. Die Berichtigung von Daten führt nicht zu einer Veränderung der Eintragungsreihenfolge nach § 4 Absatz 1 des Kapitalanleger-Musterverfahrensgesetzes."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "(2) Die im Klageregister veröffentlichten Daten sind unverzüglich nach dem rechtskräftigen Abschluss des Musterverfahrens durch das Gericht zu löschen, das die Daten eingetragen hat. Nach Zurückweisung des Musterfeststellungsantrags wegen Zeitablaufs nach § 6 Absatz 5 des Kapitalanleger-Musterverfahrensgesetzes sind die im Klageregister gespeicherten Daten unverzüglich von dem die Eintragung vornehmenden Gericht als zu löschende Daten zu kennzeichnen. Durch technische Vorkehrungen ist sicherzustellen, dass diese Daten auf Anforderung bis zu ihrer Löschung erkennbar bleiben. Sie sind spätestens sechs Monate nach dem ablehnenden Beschluss zu löschen."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(3) Unzulässigerweise veröffentlichte Daten sind nach Feststellung der Unzulässigkeit unverzüglich zu löschen."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(4) Das Gericht, das die Eintragung vorgenommen hat, prüft spätestens nach jeweils drei Monaten, ob die von ihm vorgenommenen Eintragungen noch aktuell sind. Es nimmt die erforderlichen Berichtigungen und Löschungen unter Beachtung der Löschungsfristen nach Absatz 2 unverzüglich vor."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "(1) Die Einsichtnahme in das Klageregister erfolgt ausschließlich auf elektronischem Weg; sie ist kostenfrei."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "(2) Jedermann hat das Recht, jederzeit Einsicht in das Klageregister zu nehmen."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(3) Für die Gestaltung des Registers ist die Barrierefreie-Informationstechnik-Verordnung vom 12. September 2011 (BGBl. I S. 1843) in der jeweils geltenden Fassung entsprechend anzuwenden."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "(1) Der Betreiber des Klageregisters hat durch organisatorische und technische Vorkehrungen sicherzustellen, dass die von den Gerichten übermittelten Daten während ihrer Bekanntmachung im Klageregister unversehrt und vollständig bleiben."@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_Value "(2) Der Betreiber des Klageregisters hat durch organisatorische und technische Vorkehrungen sicherzustellen, dass er von auftretenden Fehlfunktionen unverzüglich Kenntnis erlangt, und hat diese unverzüglich zu beheben."@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_Value "(1) Vor dem Inkrafttreten dieser Verordnung vorgenommene Eintragungen im Klageregister bleiben bestehen. Das Gericht, das eine Eintragung vorgenommen hatte, prüft, ob die Eintragung zu berichtigen ist, weil eine Vorschrift des Kapitalanleger-Musterverfahrensgesetzes oder dieser Verordnung eine andere Eintragung verlangt. Bereits vorgenommene Eintragungen sind nicht allein deshalb zu berichtigen, weil das Kapitalanleger-Musterverfahrensgesetz und diese Verordnung die bisherigen Vorschriften ersetzt haben."@de .
+
+dtd:P-id188 a dtd:P ;
+    dtd:has_Value "(2) § 1 Absatz 3 Nummer 1 in der bis zum 20. Juli 2019 geltenden Fassung findet weiterhin Anwendung für einen Prospekt, der nach dem Wertpapierprospektgesetz in der bis zum 20. Juli 2019 geltenden Fassung gebilligt wurde, solange dieser Prospekt Gültigkeit hat."@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Gleichzeitig tritt die Klageregisterverordnung vom 26. Oktober 2005 (BGBl. I S. 3092), die zuletzt durch Artikel 18 des Gesetzes vom 6. Dezember 2011 (BGBl. I S. 2481) geändert worden ist, außer Kraft."@de .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-12-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id192 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id193 .
+
+dtd:fussnoten-id74 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id155 .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV 2012"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "KlagRegV"@de .
+
+dtd:kurzue-id36 a dtd:kurzue ;
+    dtd:has_Value "Klageregisterverordnung"@de .
+
+dtd:langue-id37 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Klageregister nach dem Kapitalanleger-Musterverfahrensgesetz"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id36 ;
+    dtd:has_langue dtd:langue-id37 ;
+    dtd:has_standangabe dtd:standangabe-id38 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id39,
+        dtd:jurabk-id40 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id42,
+        dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id46,
+        dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id50,
+        dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id54,
+        dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id58,
+        dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id62,
+        dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id66,
+        dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id70,
+        dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000801125"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000204125"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20190721212522"@de ;
+    dtd:has_doknr "BJNR269400012BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id192 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id191 a dtd:pre ;
+    dtd:has_BR dtd:BR-id87,
+        dtd:BR-id88 ;
+    dtd:has_Value "(+++ Textnachweis ab: 22.12.2012 +++)"@de .
+
+dtd:standangabe-id38 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id195 ;
+    dtd:has_standtyp dtd:standtyp-id194 .
+
+dtd:standkommentar-id195 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 8 Abs. 3 G v. 8.7.2019 I 1002"@de .
+
+dtd:standtyp-id194 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id170 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id174 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id179 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id183 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id186 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id189 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Inhalt und Aufbau des Klageregisters"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Eintragungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Bekanntmachungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Berichtigung, Löschung, Kennzeichnung und Überprüfung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Einsichtnahme"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Datensicherheit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Übergangsvorschrift"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id193 a dtd:zitstelle ;
+    dtd:has_Value "2012, 2694"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,71 @@
+@prefix dtd: <urn:LuftVODV-242-2020#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200617212505"@de ;
+    dtd:has_doknr "BJNR602330019"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:Content-id11 a dtd:Content ;
+    dtd:has_P dtd:P-id12 .
+
+dtd:P-id12 a dtd:P ;
+    dtd:has_Value "V nur mit der Überschrift aufgenommen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2019-08-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id13 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id14 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id11 .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "LuftVODV 242 2020"@de .
+
+dtd:langue-id8 a dtd:langue ;
+    dtd:has_Value "Zweihundertzweiundvierzigste Durchführungsverordnung des Bundesaufsichtsamtes für Flugsicherung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Verkehrsflughafen Hamburg)"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id8 ;
+    dtd:has_standangabe dtd:standangabe-id9 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200617212505"@de ;
+    dtd:has_doknr "BJNR602330019"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id13 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:standangabe-id9 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id16 ;
+    dtd:has_standtyp dtd:standtyp-id15 .
+
+dtd:standkommentar-id16 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 96-1-2-242 v. 3.3.2009 BAnz 2009, Nr 057, 1363 (LuftVODV 242)"@de .
+
+dtd:standtyp-id15 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 .
+
+dtd:zitstelle-id14 a dtd:zitstelle ;
+    dtd:has_Value "AT 21.08.2019 V1"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

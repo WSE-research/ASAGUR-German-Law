@@ -1,0 +1,625 @@
+@prefix dtd: <urn:BKOrgErl-2002#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122,
+        dtd:LA-id123 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110,
+        dtd:LA-id111 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117,
+        dtd:LA-id118 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DL-id104 a dtd:DL ;
+    dtd:has_DD dtd:DD-id107,
+        dtd:DD-id108 ;
+    dtd:has_DT dtd:DT-id105,
+        dtd:DT-id106 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id77,
+        dtd:DD-id78,
+        dtd:DD-id79 ;
+    dtd:has_DT dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id87 a dtd:DL ;
+    dtd:has_DD dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93 ;
+    dtd:has_DT dtd:DT-id88,
+        dtd:DT-id89,
+        dtd:DT-id90 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id94 a dtd:DL ;
+    dtd:has_DD dtd:DD-id97,
+        dtd:DD-id98 ;
+    dtd:has_DT dtd:DT-id95,
+        dtd:DT-id96 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id99 a dtd:DL ;
+    dtd:has_DD dtd:DD-id102,
+        dtd:DD-id103 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id101 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_DL dtd:DL-id80 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Dazu werden ihm aus dem Geschäftsbereich des Bundesministeriums der Finanzen unter teilweiser Aufhebung des Organisationserlasses des Bundeskanzlers vom 27. Oktober 1998 (BGBl. I S. 3288), Ziffer V, übertragen die Zuständigkeiten für:a)den Jahreswirtschaftsbericht, den Konjunkturrat für die öffentliche Hand, die wirtschaftswissenschaftlichen Forschungsinstitute und den Sachverständigenrat für die Beurteilung der gesamtwirtschaftlichen Entwicklung;b)gesamtwirtschaftliche Analysen und Projektionen, Wirtschaftsstatistik;c)institutionelle Fragen der OECD aus dem Bereich Außenwirtschaftspolitik (ohne Haushalt der OECD)."@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Dabei bleiben die Zuständigkeiten des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung unberührt."@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Jahreswirtschaftsbericht, den Konjunkturrat für die öffentliche Hand, die wirtschaftswissenschaftlichen Forschungsinstitute und den Sachverständigenrat für die Beurteilung der gesamtwirtschaftlichen Entwicklung;"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gesamtwirtschaftliche Analysen und Projektionen, Wirtschaftsstatistik;"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "institutionelle Fragen der OECD aus dem Bereich Außenwirtschaftspolitik (ohne Haushalt der OECD)."@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Mit der Übertragung von Zuständigkeiten aus dem bisherigen Bundesministerium für Arbeit und Sozialordnung wird das bisherige Bundesministerium für Gesundheit zu einem Bundesministerium für Gesundheit und Soziale Sicherung umgebildet."@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_DL dtd:DL-id94 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Dazu werden ihm aus dem Geschäftsbereich des bisherigen Bundesministeriums für Arbeit und Sozialordnung folgende Zuständigkeiten übertragen:a)Sozialversicherung, Sozialgesetzbuch, Kriegsopferversorgung und sonstiges soziales Entschädigungsrecht, Versorgungsmedizin; in Fragen der Sozialversicherung besonderer Personengruppen, insbesondere geringfügig Beschäftigter und Scheinselbständiger, ist Einvernehmen mit dem Bundesministerium für Wirtschaft und Arbeit herzustellen; b)Prävention, Rehabilitation, Behindertenpolitik; Sozialhilfe (soweit nicht in Ziffer I Nr. 3 anders geregelt). "@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Zuständigkeitsübertragung schließt deren europäische und internationale Bezüge sowie deren Grundsatz- und Planungsangelegenheiten ein."@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Sozialversicherung, Sozialgesetzbuch, Kriegsopferversorgung und sonstiges soziales Entschädigungsrecht, Versorgungsmedizin; in Fragen der Sozialversicherung besonderer Personengruppen, insbesondere geringfügig Beschäftigter und Scheinselbständiger, ist Einvernehmen mit dem Bundesministerium für Wirtschaft und Arbeit herzustellen;"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Prävention, Rehabilitation, Behindertenpolitik; Sozialhilfe (soweit nicht in Ziffer I Nr. 3 anders geregelt)."@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Beauftragte der Bundesregierung für die Belange der Behinderten und der Bundesbeauftragte für die Sozialversicherungswahlen werden dem Bundesministerium für Gesundheit und Soziale Sicherung zugeordnet."@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_DL dtd:DL-id104 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "aus dem Geschäftsbereich des Bundesministeriums für Wirtschaft und Arbeita)die Zuständigkeiten für die Markteinführung der erneuerbaren Energieträger und für die Energieforschung im Bereich der erneuerbaren Energieträger; b)die Federführung für das Erneuerbare Energien-Gesetz (EEG) und dessen Fortentwicklung unter entsprechender Anwendung der bisherigen Beteiligungsregelungen. "@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Zuständigkeit für außenwirtschaftliche Fragen bei erneuerbaren Energien (insbesondere Exportförderung) liegt weiterhin beim Bundesministerium für Wirtschaft und Arbeit."@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zuständigkeiten für die Markteinführung der erneuerbaren Energieträger und für die Energieforschung im Bereich der erneuerbaren Energieträger;"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Federführung für das Erneuerbare Energien-Gesetz (EEG) und dessen Fortentwicklung unter entsprechender Anwendung der bisherigen Beteiligungsregelungen."@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "aus dem Geschäftsbereich des Bundesministeriums der Finanzen die Zuständigkeit für die \"Deutsche Bundesstiftung Umwelt."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_BR dtd:BR-id72 ;
+    dtd:has_Value " (+++ Textnachweis ab: 22.10.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id149 .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "Gemäß § 9 der Geschäftsordnung der Bundesregierung ordne ich mit sofortiger Wirkung an:"@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Value "1.(weggefallen)2.Dazu werden ihm aus dem Geschäftsbereich des Bundesministeriums der Finanzen unter teilweiser Aufhebung des Organisationserlasses des Bundeskanzlers vom 27. Oktober 1998 (BGBl. I S. 3288), Ziffer V, übertragen die Zuständigkeiten für:a)den Jahreswirtschaftsbericht, den Konjunkturrat für die öffentliche Hand, die wirtschaftswissenschaftlichen Forschungsinstitute und den Sachverständigenrat für die Beurteilung der gesamtwirtschaftlichen Entwicklung;b)gesamtwirtschaftliche Analysen und Projektionen, Wirtschaftsstatistik;c)institutionelle Fragen der OECD aus dem Bereich Außenwirtschaftspolitik (ohne Haushalt der OECD).Dabei bleiben die Zuständigkeiten des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung unberührt.3.(weggefallen)"@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_DL dtd:DL-id87 ;
+    dtd:has_Value "1.Mit der Übertragung von Zuständigkeiten aus dem bisherigen Bundesministerium für Arbeit und Sozialordnung wird das bisherige Bundesministerium für Gesundheit zu einem Bundesministerium für Gesundheit und Soziale Sicherung umgebildet. 2.Dazu werden ihm aus dem Geschäftsbereich des bisherigen Bundesministeriums für Arbeit und Sozialordnung folgende Zuständigkeiten übertragen:a)Sozialversicherung, Sozialgesetzbuch, Kriegsopferversorgung und sonstiges soziales Entschädigungsrecht, Versorgungsmedizin; in Fragen der Sozialversicherung besonderer Personengruppen, insbesondere geringfügig Beschäftigter und Scheinselbständiger, ist Einvernehmen mit dem Bundesministerium für Wirtschaft und Arbeit herzustellen; b)Prävention, Rehabilitation, Behindertenpolitik; Sozialhilfe (soweit nicht in Ziffer I Nr. 3 anders geregelt). Die Zuständigkeitsübertragung schließt deren europäische und internationale Bezüge sowie deren Grundsatz- und Planungsangelegenheiten ein.  3.Der Beauftragte der Bundesregierung für die Belange der Behinderten und der Bundesbeauftragte für die Sozialversicherungswahlen werden dem Bundesministerium für Gesundheit und Soziale Sicherung zugeordnet. "@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "Die federführende Zuständigkeit für den Aufgabenbereich Gentechnik wird vom Bundesministerium für Gesundheit und Soziale Sicherung auf das Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft übertragen, damit auch die federführende Zuständigkeit für das Gentechnikgesetz. Davon unberührt bleibt die Zuständigkeit für medizinische Fragen, insbesondere das Arzneimittelwesen."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "Dem Bundesministerium für Familie, Senioren, Frauen und Jugend wird die Beauftragte der Bundesregierung für Ausländerfragen (künftig: Beauftragte der Bundesregierung für Migration, Flüchtlinge und Integration) zugeordnet."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "Dem Bundesministerium für Verkehr, Bau- und Wohnungswesen wird aus dem Geschäftsbereich des Bundeskanzlers die Zuständigkeit des Beauftragten der Bundesregierung für die neuen Bundesländer übertragen."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_DL dtd:DL-id99 ;
+    dtd:has_Value "Dem Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit werden übertragen: 1.aus dem Geschäftsbereich des Bundesministeriums für Wirtschaft und Arbeita)die Zuständigkeiten für die Markteinführung der erneuerbaren Energieträger und für die Energieforschung im Bereich der erneuerbaren Energieträger; b)die Federführung für das Erneuerbare Energien-Gesetz (EEG) und dessen Fortentwicklung unter entsprechender Anwendung der bisherigen Beteiligungsregelungen. Die Zuständigkeit für außenwirtschaftliche Fragen bei erneuerbaren Energien (insbesondere Exportförderung) liegt weiterhin beim Bundesministerium für Wirtschaft und Arbeit.  2.aus dem Geschäftsbereich des Bundesministeriums der Finanzen die Zuständigkeit für die \"Deutsche Bundesstiftung Umwelt. "@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "Dem Auswärtigen Amt wird aus dem Geschäftsbereich des Presse- und Informationsamtes der Bundesregierung die Zuständigkeit für die politische Öffentlichkeitsarbeit Ausland übertragen."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "Die Einzelheiten des Übergangs werden zwischen den beteiligten Mitgliedern der Bundesregierung in Abstimmung mit dem Chef des Bundeskanzleramtes geregelt."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id36 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-10-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "III."@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "IV."@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "V."@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "VI."@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "VII."@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "VIII."@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id37 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id150 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id151 .
+
+dtd:fussnoten-id60 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id127 .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2002"@de .
+
+dtd:langue-id38 a dtd:langue ;
+    dtd:has_Value "Organisationserlass des Bundeskanzlers"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id36 ;
+    dtd:has_fundstelle dtd:fundstelle-id37 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_langue dtd:langue-id38 ;
+    dtd:has_standangabe dtd:standangabe-id39 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE001000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000201377"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405133031"@de ;
+    dtd:has_doknr "BJNR420600002BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id150 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id149 a dtd:pre ;
+    dtd:has_Value "(+++ Textnachweis ab: 22.10.2002 +++)"@de .
+
+dtd:standangabe-id39 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id153 ;
+    dtd:has_standtyp dtd:standtyp-id152 .
+
+dtd:standkommentar-id153 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Ziff. III Nr. 1 d. Organisationserlasses v. 22.11.2005 I 3797"@de .
+
+dtd:standtyp-id152 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id133 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:zitstelle-id151 a dtd:zitstelle ;
+    dtd:has_Value "2002, 4206"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

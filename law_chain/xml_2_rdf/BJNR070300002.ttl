@@ -1,0 +1,922 @@
+@prefix dtd: <urn:VbrInsVV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id201 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id74 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2014, 826 - 870; bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:BR-id73 a dtd:BR .
+
+dtd:BR-id74 a dtd:BR .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148 .
+
+dtd:Content-id149 a dtd:Content ;
+    dtd:has_P dtd:P-id150 .
+
+dtd:Content-id151 a dtd:Content ;
+    dtd:has_P dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154,
+        dtd:P-id155 .
+
+dtd:Content-id156 a dtd:Content ;
+    dtd:has_P dtd:P-id157 .
+
+dtd:Content-id158 a dtd:Content ;
+    dtd:has_P dtd:P-id159 .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161 .
+
+dtd:Content-id162 a dtd:Content ;
+    dtd:has_P dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_BR dtd:BR-id75,
+        dtd:BR-id76 ;
+    dtd:has_P dtd:P-id165,
+        dtd:P-id166,
+        dtd:P-id167,
+        dtd:P-id168,
+        dtd:P-id169,
+        dtd:P-id170,
+        dtd:P-id171,
+        dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175,
+        dtd:P-id176,
+        dtd:P-id177,
+        dtd:P-id178,
+        dtd:P-id179,
+        dtd:P-id180,
+        dtd:P-id181,
+        dtd:P-id182,
+        dtd:P-id183,
+        dtd:P-id184,
+        dtd:P-id185,
+        dtd:P-id186,
+        dtd:P-id187,
+        dtd:P-id188,
+        dtd:P-id189,
+        dtd:P-id190,
+        dtd:P-id191,
+        dtd:P-id192,
+        dtd:P-id193,
+        dtd:P-id194,
+        dtd:P-id195,
+        dtd:P-id196,
+        dtd:P-id197,
+        dtd:P-id198,
+        dtd:P-id199 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id81,
+        dtd:DD-id82 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id83 a dtd:DL ;
+    dtd:has_DD dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93,
+        dtd:DD-id94,
+        dtd:DD-id95,
+        dtd:DD-id96,
+        dtd:DD-id97 ;
+    dtd:has_DT dtd:DT-id84,
+        dtd:DT-id85,
+        dtd:DT-id86,
+        dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89,
+        dtd:DT-id90 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id98 a dtd:DL ;
+    dtd:has_DD dtd:DD-id101,
+        dtd:DD-id102 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "f)"@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "g)"@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:FILE-id114 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_1-j0825-1_0010_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_1-j0825-1_0010.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id115 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_2-j0828_0010_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_2-j0828_0010.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id116 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_3-j0829_0010_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_3-j0829_0010.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id117 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_4-j0825-1_0040_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_4-j0825-1_0040.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id118 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_5-j0825-1_0050_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_5-j0825-1_0050.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id119 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_6-j0832_0010_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_6-j0832_0010.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id120 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_7-j0825-1_0070_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_7-j0825-1_0070.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id121 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_8-j0825-1_0080_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_8-j0825-1_0080.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id122 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_9-j0825-1_0090_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_9-j0825-1_0090.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id123 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_10-j0825-1_0100_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_10-j0825-1_0100.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id124 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_11-j0825-1_0110_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_11-j0825-1_0110.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id125 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_12-j0825-1_0120_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_12-j0825-1_0120.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id126 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_13-j0825-1_0130_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_13-j0825-1_0130.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id127 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_14-j0825-1_0140_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_14-j0825-1_0140.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id128 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_15-j0825-1_0150_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_15-j0825-1_0150.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id129 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_16-j0825-1_0160_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_16-j0825-1_0160.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id130 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_17-j0825-1_0170_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_17-j0825-1_0170.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id131 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_18-j0825-1_0180_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_18-j0825-1_0180.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id132 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_19-j0825-1_0190_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_19-j0825-1_0190.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id133 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_20-j0825-1_0200_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_20-j0825-1_0200.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id134 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_21-j0825-1_0210_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_21-j0825-1_0210.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id135 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_22-j0825-1_0220_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_22-j0825-1_0220.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id136 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_23-j0825-1_0230_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_23-j0825-1_0230.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id137 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_24-j0825-1_0240_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_24-j0825-1_0240.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id138 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_25-j0825-1_0250_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_25-j0825-1_0250.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id139 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_26-j0825-1_0260_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_26-j0825-1_0260.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id140 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_27-j0825-1_0270_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_27-j0825-1_0270.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id141 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_28-j0825-1_0280_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_28-j0825-1_0280.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id142 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_29-j0825-1_0290_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_29-j0825-1_0290.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id143 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_30-j0825-1_0300_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_30-j0825-1_0300.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id144 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_31-j0825-1_0310_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_31-j0825-1_0310.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id145 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_32-j0825-1_0320_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_32-j0825-1_0320.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:FILE-id146 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2022_33-j0859_0010_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2022_33-j0859_0010.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Antrag auf Eröffnung des Insolvenzverfahrens nach § 305 der Insolvenzordnung mit Antrag auf Erteilung der Restschuldbefreiung nach § 287 Abs. 1 der Insolvenzordnung,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_DL dtd:DL-id83 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anlagen zum Antrag auf Eröffnung des Insolvenzverfahrens:a)Personalbogen mit Angaben zur Person des Schuldners,b)Bescheinigung über das Scheitern des außergerichtlichen Einigungsversuchs nach § 305 Abs. 1 Nr. 1 der Insolvenzordnung,c)Abtretungserklärung nach § 287 Abs. 2 der Insolvenzordnung,d)Zusammenfassung des wesentlichen Inhalts des Vermögensverzeichnisses nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung (Vermögensübersicht),e)Verzeichnis des vorhandenen Vermögens und des Einkommens nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung mit Ergänzungsblättern (Vermögensverzeichnis),f)Verzeichnis der Gläubiger und Verzeichnis der gegen den Schuldner gerichteten Forderungen nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung (Gläubiger- und Forderungsverzeichnis),g)Schuldenbereinigungsplan nach § 305 Abs. 1 Nr. 4 der Insolvenzordnung."@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Personalbogen mit Angaben zur Person des Schuldners,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bescheinigung über das Scheitern des außergerichtlichen Einigungsversuchs nach § 305 Abs. 1 Nr. 1 der Insolvenzordnung,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abtretungserklärung nach § 287 Abs. 2 der Insolvenzordnung,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zusammenfassung des wesentlichen Inhalts des Vermögensverzeichnisses nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung (Vermögensübersicht),"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verzeichnis des vorhandenen Vermögens und des Einkommens nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung mit Ergänzungsblättern (Vermögensverzeichnis),"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verzeichnis der Gläubiger und Verzeichnis der gegen den Schuldner gerichteten Forderungen nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung (Gläubiger- und Forderungsverzeichnis),"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Schuldenbereinigungsplan nach § 305 Abs. 1 Nr. 4 der Insolvenzordnung."@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Berichtigungen, die auf einer Änderung von Rechtsvorschriften beruhen;"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ergänzungen oder Anpassungen des Hinweisblattes zu den Formularen, soweit solche mit Rücksicht auf die Erfahrungen mit den Formularen geboten sind."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_BR dtd:BR-id71 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 3.2002 +++)Überschrift: IdF d. Art. 1 Nr. 1 V v. 23.06.2014 I 825 mWv 30.6.2014"@de ;
+    dtd:has_pre dtd:pre-id200 .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 305 Abs. 5 Satz 1 der Insolvenzordnung vom 5. Oktober 1994 (BGBl. I S. 2866), der durch Artikel 2 Nr. 16 des Gesetzes vom 19. Dezember 1998 (BGBl. I S. 3836) eingefügt worden ist, verordnet das Bundesministerium der Justiz:"@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(1) Für die im Verbraucherinsolvenzverfahren nach § 305 Abs. 1 der Insolvenzordnung zu stellenden Anträge und für die von den Beteiligten vorzulegenden Bescheinigungen, Verzeichnisse und Pläne werden die folgenden, in der Anlage bestimmten Formulare eingeführt: 1.Antrag auf Eröffnung des Insolvenzverfahrens nach § 305 der Insolvenzordnung mit Antrag auf Erteilung der Restschuldbefreiung nach § 287 Abs. 1 der Insolvenzordnung,2.Anlagen zum Antrag auf Eröffnung des Insolvenzverfahrens:a)Personalbogen mit Angaben zur Person des Schuldners,b)Bescheinigung über das Scheitern des außergerichtlichen Einigungsversuchs nach § 305 Abs. 1 Nr. 1 der Insolvenzordnung,c)Abtretungserklärung nach § 287 Abs. 2 der Insolvenzordnung,d)Zusammenfassung des wesentlichen Inhalts des Vermögensverzeichnisses nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung (Vermögensübersicht),e)Verzeichnis des vorhandenen Vermögens und des Einkommens nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung mit Ergänzungsblättern (Vermögensverzeichnis),f)Verzeichnis der Gläubiger und Verzeichnis der gegen den Schuldner gerichteten Forderungen nach § 305 Abs. 1 Nr. 3 der Insolvenzordnung (Gläubiger- und Forderungsverzeichnis),g)Schuldenbereinigungsplan nach § 305 Abs. 1 Nr. 4 der Insolvenzordnung."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "(2) Den Formularen ist ein Hinweisblatt beizufügen, das deren wesentlichen Inhalt kurz erläutert."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_DL dtd:DL-id98 ;
+    dtd:has_Value "Folgende Abweichungen von den in der Anlage bestimmten Formularen und dem Hinweisblatt sind zulässig: 1.Berichtigungen, die auf einer Änderung von Rechtsvorschriften beruhen;2.Ergänzungen oder Anpassungen des Hinweisblattes zu den Formularen, soweit solche mit Rücksicht auf die Erfahrungen mit den Formularen geboten sind."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "Wird ein Antrag auf Eröffnung eines Verbraucherinsolvenzverfahrens zwischen dem 1. Oktober 2020 und dem 31. März 2021 gestellt, können die in der Anlage zur Verbraucherinsolvenzformularverordnung in der Fassung der Verordnung zur Änderung der Verbraucherinsolvenzvordruckverordnung vom 23. Juni 2014 (BGBl. I S. 825) vorgesehenen Formulare weiterhin verwendet werden. Wird von der in Satz 1 genannten Möglichkeit Gebrauch gemacht, ist eine in der Abtretungserklärung erklärte, von § 287 Absatz 2 der Insolvenzordnung in der Fassung des Gesetzes zur weiteren Verkürzung des Restschuldbefreiungsverfahrens und zur Anpassung pandemiebedingter Vorschriften im Gesellschafts-, Genossenschafts-, Vereins- und Stiftungsrecht sowie im Miet- und Pachtrecht vom 22. Dezember 2020 (BGBl. I S. 3328) abweichende anderslautende Abtretungsfrist nach Maßgabe von § 2 Nummer 1 zu berichtigen."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. März 2002 in Kraft."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2014, 826 - 870; bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_noindex dtd:noindex-id77 .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "Formulare"@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id114 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id115 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id116 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id117 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id118 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id119 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id120 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id121 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id122 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id123 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id124 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id125 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id126 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id127 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id128 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id129 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id130 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id131 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id132 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id186 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id133 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id134 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id188 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id135 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id189 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id136 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id137 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id191 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id138 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id192 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id139 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id193 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id140 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id194 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id141 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id195 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id142 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id196 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id143 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id197 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id144 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id198 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id145 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id199 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id146 ;
+    dtd:has_Value ""@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "VbrInsFV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-02-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 2a"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id202 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id203 .
+
+dtd:fussnoten-id59 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id149 .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "VbrInsVV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "VbrInsVV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "VbrInsFV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "VbrInsVV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "VbrInsFV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "VbrInsVV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "VbrInsFV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "VbrInsVV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "VbrInsFV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "VbrInsVV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "VbrInsFV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "VbrInsVV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "VbrInsFV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "VbrInsVV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "VbrInsFV"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "Verbraucherinsolvenzformularverordnung"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Einführung von Formularen für das Verbraucherinsolvenzverfahren und das Restschuldbefreiungsverfahren"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 ;
+    dtd:has_standangabe dtd:standangabe-id32 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id33,
+        dtd:jurabk-id34 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id36,
+        dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id40,
+        dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id44,
+        dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id48,
+        dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id52,
+        dtd:jurabk-id53 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id55,
+        dtd:jurabk-id56 .
+
+dtd:noindex-id77 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002BJNE000101311"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002BJNE000201311"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002BJNE000800125"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20230102213513"@de ;
+    dtd:has_doknr "BJNR070300002BJNE000503125"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id202 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id200 a dtd:pre ;
+    dtd:has_BR dtd:BR-id72,
+        dtd:BR-id73 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 3.2002 +++)"@de .
+
+dtd:standangabe-id32 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id205 ;
+    dtd:has_standtyp dtd:standtyp-id204 .
+
+dtd:standkommentar-id205 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 V v. 16.12.2022 I 2368"@de .
+
+dtd:standtyp-id204 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id151 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id156 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id158 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id162 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Formulare"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Zulässige Abweichungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id203 a dtd:zitstelle ;
+    dtd:has_Value "2002, 703"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

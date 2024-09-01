@@ -1,0 +1,306 @@
+@prefix dtd: <urn:BVertrBMBAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405133058"@de ;
+    dtd:has_doknr "BJNR507600970"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id30 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55,
+        dtd:LA-id56 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57,
+        dtd:LA-id58 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59,
+        dtd:LA-id60 .
+
+dtd:DD-id33 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61,
+        dtd:LA-id62 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id54 .
+
+dtd:DL-id23 a dtd:DL ;
+    dtd:has_DD dtd:DD-id29,
+        dtd:DD-id30,
+        dtd:DD-id31,
+        dtd:DD-id32,
+        dtd:DD-id33 ;
+    dtd:has_DT dtd:DT-id24,
+        dtd:DT-id25,
+        dtd:DT-id26,
+        dtd:DT-id27,
+        dtd:DT-id28 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id34 a dtd:DL ;
+    dtd:has_DD dtd:DD-id38,
+        dtd:DD-id39,
+        dtd:DD-id40 ;
+    dtd:has_DT dtd:DT-id35,
+        dtd:DT-id36,
+        dtd:DT-id37 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id41 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45,
+        dtd:DD-id46,
+        dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id42,
+        dtd:DT-id43,
+        dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id24 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id25 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id26 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id27 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "aa)"@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "bb)"@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "cc)"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_DL dtd:DL-id34 ;
+    dtd:has_SP dtd:SP-id18 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Vertretung in gerichtlichen und schiedsrichterlichen Verfahrena)In Verfahren, die das Bundesministerium für innerdeutsche Beziehungen betreffen, ist der Bundesminister für innerdeutsche Beziehungen zur Vertretung berufen.b)In Verfahren, die das Gesamtdeutsche Institut - Bundesanstalt für gesamtdeutsche Aufgaben - betreffen, ist der Präsident der Bundesanstalt für gesamtdeutsche Aufgaben zur Vertretung berufen.c)Die Vertretung bleibt dem Bundesminister für innerdeutsche Beziehungen vorbehalten, wennaa)der Bundesminister für innerdeutsche Beziehungen den zugrunde liegenden Vertrag selbst geschlossen hat,bb)eine Entscheidung des Bundesministers für innerdeutsche Beziehungen den Gegenstand des Rechtsstreits bildet,cc)der Präsident oder der Vizepräsident der Bundesanstalt für gesamtdeutsche Aufgaben persönlich beteiligt ist."@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "In Verfahren, die das Bundesministerium für innerdeutsche Beziehungen betreffen, ist der Bundesminister für innerdeutsche Beziehungen zur Vertretung berufen."@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "In Verfahren, die das Gesamtdeutsche Institut - Bundesanstalt für gesamtdeutsche Aufgaben - betreffen, ist der Präsident der Bundesanstalt für gesamtdeutsche Aufgaben zur Vertretung berufen."@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_DL dtd:DL-id41 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Vertretung bleibt dem Bundesminister für innerdeutsche Beziehungen vorbehalten, wennaa)der Bundesminister für innerdeutsche Beziehungen den zugrunde liegenden Vertrag selbst geschlossen hat,bb)eine Entscheidung des Bundesministers für innerdeutsche Beziehungen den Gegenstand des Rechtsstreits bildet,cc)der Präsident oder der Vizepräsident der Bundesanstalt für gesamtdeutsche Aufgaben persönlich beteiligt ist."@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Bundesminister für innerdeutsche Beziehungen den zugrunde liegenden Vertrag selbst geschlossen hat,"@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Entscheidung des Bundesministers für innerdeutsche Beziehungen den Gegenstand des Rechtsstreits bildet,"@de .
+
+dtd:LA-id54 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsident oder der Vizepräsident der Bundesanstalt für gesamtdeutsche Aufgaben persönlich beteiligt ist."@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_SP dtd:SP-id19 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Vertretung in Verwaltungsverfahren"@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Für die Vertretung des Bundes in Verwaltungsverfahren gilt Nr. 1 entsprechend. § 174 des Bundesbeamtengesetzes und § 126 Abs. 3 des Beamtenrechtsrahmengesetzes bleiben jedoch unberührt."@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_SP dtd:SP-id20 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rechtsgeschäftliche Vertretung"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bei Rechtsgeschäften wird der Bund - unbeschadet besonders angeordneter Beschränkungen - durch den Präsidenten der Bundesanstalt für gesamtdeutsche Aufgaben insoweit vertreten, als der Bundesanstalt nach § 27 Abs. 1 der Wirtschaftsbestimmungen für die Reichsbehörden die Befugnis zur Erteilung von Annahme- und Auszahlungsanordnungen übertragen ist. Im übrigen vertritt der Bundesminister für innerdeutsche Beziehungen den Bund. Dies gilt auch für Rechtsgeschäfte, die den Erwerb oder die Veräußerung eines Grundstückes zum Gegenstand haben."@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_SP dtd:SP-id21 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abweichende Regelungen"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Bundesminister für innerdeutsche Beziehungen kann im Einzelfall die Vertretung abweichend von dieser Anordnung regeln oder sie selbst übernehmen."@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_SP dtd:SP-id22 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Inkrafttreten"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Diese Anordnung tritt am Tage nach ihrer Veröffentlichung im Bundesanzeiger in Kraft."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 24. 4.1970 +++)"@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_DL dtd:DL-id23 ;
+    dtd:has_Value "Soweit durch Rechtsvorschriften des Bundes nichts anderes bestimmt ist, wird der Bund im Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen wie folgt vertreten: 1.Vertretung in gerichtlichen und schiedsrichterlichen Verfahrena)In Verfahren, die das Bundesministerium für innerdeutsche Beziehungen betreffen, ist der Bundesminister für innerdeutsche Beziehungen zur Vertretung berufen.b)In Verfahren, die das Gesamtdeutsche Institut - Bundesanstalt für gesamtdeutsche Aufgaben - betreffen, ist der Präsident der Bundesanstalt für gesamtdeutsche Aufgaben zur Vertretung berufen.c)Die Vertretung bleibt dem Bundesminister für innerdeutsche Beziehungen vorbehalten, wennaa)der Bundesminister für innerdeutsche Beziehungen den zugrunde liegenden Vertrag selbst geschlossen hat,bb)eine Entscheidung des Bundesministers für innerdeutsche Beziehungen den Gegenstand des Rechtsstreits bildet,cc)der Präsident oder der Vizepräsident der Bundesanstalt für gesamtdeutsche Aufgaben persönlich beteiligt ist.2.Vertretung in VerwaltungsverfahrenFür die Vertretung des Bundes in Verwaltungsverfahren gilt Nr. 1 entsprechend. § 174 des Bundesbeamtengesetzes und § 126 Abs. 3 des Beamtenrechtsrahmengesetzes bleiben jedoch unberührt.3.Rechtsgeschäftliche VertretungBei Rechtsgeschäften wird der Bund - unbeschadet besonders angeordneter Beschränkungen - durch den Präsidenten der Bundesanstalt für gesamtdeutsche Aufgaben insoweit vertreten, als der Bundesanstalt nach § 27 Abs. 1 der Wirtschaftsbestimmungen für die Reichsbehörden die Befugnis zur Erteilung von Annahme- und Auszahlungsanordnungen übertragen ist. Im übrigen vertritt der Bundesminister für innerdeutsche Beziehungen den Bund. Dies gilt auch für Rechtsgeschäfte, die den Erwerb oder die Veräußerung eines Grundstückes zum Gegenstand haben.4.Abweichende RegelungenDer Bundesminister für innerdeutsche Beziehungen kann im Einzelfall die Vertretung abweichend von dieser Anordnung regeln oder sie selbst übernehmen.5.InkrafttretenDiese Anordnung tritt am Tage nach ihrer Veröffentlichung im Bundesanzeiger in Kraft.Der Bundesminister für innerdeutsche Beziehungen"@de .
+
+dtd:SP-id18 a dtd:SP ;
+    dtd:has_Value "Vertretung in gerichtlichen und schiedsrichterlichen Verfahren"@de .
+
+dtd:SP-id19 a dtd:SP ;
+    dtd:has_Value "Vertretung in Verwaltungsverfahren"@de .
+
+dtd:SP-id20 a dtd:SP ;
+    dtd:has_Value "Rechtsgeschäftliche Vertretung"@de .
+
+dtd:SP-id21 a dtd:SP ;
+    dtd:has_Value "Abweichende Regelungen"@de .
+
+dtd:SP-id22 a dtd:SP ;
+    dtd:has_Value "Inkrafttreten"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1970-04-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id69 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id70 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id65 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BVertrBMBAnO"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BVertrBMBAnO"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Anordnung über die Vertretung des Bundes im Geschäftsbereich des
+Bundesministers für innerdeutsche Beziehungen"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405133058"@de ;
+    dtd:has_doknr "BJNR507600970"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405133058"@de ;
+    dtd:has_doknr "BJNR507600970BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id69 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id70 a dtd:zitstelle ;
+    dtd:has_Value "1970, Nr 76"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

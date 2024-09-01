@@ -1,0 +1,968 @@
+@prefix dtd: <urn:AMRadV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id195 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id196 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:Content-id197 a dtd:Content ;
+    dtd:has_P dtd:P-id198 .
+
+dtd:Content-id199 a dtd:Content ;
+    dtd:has_P dtd:P-id200,
+        dtd:P-id201,
+        dtd:P-id202 .
+
+dtd:Content-id203 a dtd:Content ;
+    dtd:has_P dtd:P-id204,
+        dtd:P-id205 .
+
+dtd:Content-id206 a dtd:Content ;
+    dtd:has_P dtd:P-id207,
+        dtd:P-id208 .
+
+dtd:Content-id209 a dtd:Content ;
+    dtd:has_P dtd:P-id210 .
+
+dtd:Content-id211 a dtd:Content ;
+    dtd:has_P dtd:P-id212 .
+
+dtd:Content-id213 a dtd:Content ;
+    dtd:has_P dtd:P-id214 .
+
+dtd:Content-id215 a dtd:Content ;
+    dtd:has_P dtd:P-id216 .
+
+dtd:Content-id217 a dtd:Content ;
+    dtd:has_P dtd:P-id218,
+        dtd:P-id219 .
+
+dtd:Content-id220 a dtd:Content ;
+    dtd:has_P dtd:P-id221 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id166 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id167 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id169 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id170 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id174 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id177 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id171 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id172 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id173 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id175 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id176 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id178 .
+
+dtd:DD-id128 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id179 .
+
+dtd:DD-id129 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id180 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id181 .
+
+dtd:DD-id134 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id182 .
+
+dtd:DD-id139 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id183 .
+
+dtd:DD-id140 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id184 .
+
+dtd:DD-id141 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id185 .
+
+dtd:DD-id145 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id186 .
+
+dtd:DD-id146 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id187 .
+
+dtd:DD-id151 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id188 .
+
+dtd:DD-id152 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id189 .
+
+dtd:DD-id153 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id190 .
+
+dtd:DD-id159 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id191 .
+
+dtd:DD-id160 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id192 .
+
+dtd:DD-id161 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id193 .
+
+dtd:DD-id162 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id194 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id163 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id164 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id168 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id165 .
+
+dtd:DL-id102 a dtd:DL ;
+    dtd:has_DD dtd:DD-id107,
+        dtd:DD-id108,
+        dtd:DD-id109,
+        dtd:DD-id110 ;
+    dtd:has_DT dtd:DT-id103,
+        dtd:DT-id104,
+        dtd:DT-id105,
+        dtd:DT-id106 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id111 a dtd:DL ;
+    dtd:has_DD dtd:DD-id115,
+        dtd:DD-id116,
+        dtd:DD-id117 ;
+    dtd:has_DT dtd:DT-id112,
+        dtd:DT-id113,
+        dtd:DT-id114 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id118 a dtd:DL ;
+    dtd:has_DD dtd:DD-id121,
+        dtd:DD-id122 ;
+    dtd:has_DT dtd:DT-id119,
+        dtd:DT-id120 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id123 a dtd:DL ;
+    dtd:has_DD dtd:DD-id127,
+        dtd:DD-id128,
+        dtd:DD-id129 ;
+    dtd:has_DT dtd:DT-id124,
+        dtd:DT-id125,
+        dtd:DT-id126 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id130 a dtd:DL ;
+    dtd:has_DD dtd:DD-id133,
+        dtd:DD-id134 ;
+    dtd:has_DT dtd:DT-id131,
+        dtd:DT-id132 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id135 a dtd:DL ;
+    dtd:has_DD dtd:DD-id139,
+        dtd:DD-id140,
+        dtd:DD-id141 ;
+    dtd:has_DT dtd:DT-id136,
+        dtd:DT-id137,
+        dtd:DT-id138 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id142 a dtd:DL ;
+    dtd:has_DD dtd:DD-id145,
+        dtd:DD-id146 ;
+    dtd:has_DT dtd:DT-id143,
+        dtd:DT-id144 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id147 a dtd:DL ;
+    dtd:has_DD dtd:DD-id151,
+        dtd:DD-id152,
+        dtd:DD-id153 ;
+    dtd:has_DT dtd:DT-id148,
+        dtd:DT-id149,
+        dtd:DT-id150 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id154 a dtd:DL ;
+    dtd:has_DD dtd:DD-id159,
+        dtd:DD-id160,
+        dtd:DD-id161,
+        dtd:DD-id162 ;
+    dtd:has_DT dtd:DT-id155,
+        dtd:DT-id156,
+        dtd:DT-id157,
+        dtd:DT-id158 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id88 a dtd:DL ;
+    dtd:has_DD dtd:DD-id92,
+        dtd:DD-id93,
+        dtd:DD-id94 ;
+    dtd:has_DT dtd:DT-id89,
+        dtd:DT-id90,
+        dtd:DT-id91 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id95 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id96,
+        dtd:DT-id97,
+        dtd:DT-id98 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id120 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id124 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id125 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id131 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id132 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id136 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id137 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id138 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id143 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id144 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id148 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id149 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id150 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id155 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id156 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id157 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id158 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id163 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "offene radioaktive Stoffe nicht verwendet worden und umschlossene radioaktive Stoffe mit den Arzneimitteln nicht in Berührung gekommen sind,"@de .
+
+dtd:LA-id164 a dtd:LA ;
+    dtd:has_DL dtd:DL-id95 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "a)die maximale Energie der Elektronen nicht mehr als 10 Megaelektronvolt betragen hat,b)die Gammastrahlen aus den Radionuklidquellen Cobalt 60 oder Caesium 137 stammen,c)die maximale Energie der Röntgenstrahlen nicht mehr als 10 Megaelektronvolt betragen hat, es sei denn, dass in wissenschaftlich begründeten Fällen andere Energiewerte zulässig sind und sichergestellt ist, dass keine schädlichen Kernreaktionen auftreten,"@de .
+
+dtd:LA-id165 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die maximale Energie der Elektronen nicht mehr als 10 Megaelektronvolt betragen hat,"@de .
+
+dtd:LA-id166 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Gammastrahlen aus den Radionuklidquellen Cobalt 60 oder Caesium 137 stammen,"@de .
+
+dtd:LA-id167 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die maximale Energie der Röntgenstrahlen nicht mehr als 10 Megaelektronvolt betragen hat, es sei denn, dass in wissenschaftlich begründeten Fällen andere Energiewerte zulässig sind und sichergestellt ist, dass keine schädlichen Kernreaktionen auftreten,"@de .
+
+dtd:LA-id168 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Energiedosis im Arzneimittel nicht mehr als 0,1 Gray betragen hat."@de .
+
+dtd:LA-id169 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "offene radioaktive Stoffe nicht verwendet worden und umschlossene radioaktive Stoffe mit den Arzneimitteln nicht in Berührung gekommen sind,"@de .
+
+dtd:LA-id170 a dtd:LA ;
+    dtd:has_DL dtd:DL-id111 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "a)die maximale Energie der Elektronen nicht mehr als 10 Megaelektronvolt betragen hat, oder, wenn dieser Wert überschritten wurde, nachgewiesen ist, dass keine Radionuklide in diesem Produkt entstehen,b)die Gammastrahlen aus den Radionuklidquellen Cobalt 60 oder Caesium 137 stammen,c)die maximale Energie der Röntgenstrahlen nicht mehr als 6 Megaelektronvolt betragen hat, es sei denn, dass in begründeten Fällen andere Energiewerte zulässig sind und sichergestellt ist, dass keine schädlichen Kernreaktionen auftreten,"@de .
+
+dtd:LA-id171 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die maximale Energie der Elektronen nicht mehr als 10 Megaelektronvolt betragen hat, oder, wenn dieser Wert überschritten wurde, nachgewiesen ist, dass keine Radionuklide in diesem Produkt entstehen,"@de .
+
+dtd:LA-id172 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Gammastrahlen aus den Radionuklidquellen Cobalt 60 oder Caesium 137 stammen,"@de .
+
+dtd:LA-id173 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die maximale Energie der Röntgenstrahlen nicht mehr als 6 Megaelektronvolt betragen hat, es sei denn, dass in begründeten Fällen andere Energiewerte zulässig sind und sichergestellt ist, dass keine schädlichen Kernreaktionen auftreten,"@de .
+
+dtd:LA-id174 a dtd:LA ;
+    dtd:has_DL dtd:DL-id118 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Energiedosis bei Arzneimitteln nacha)§ 2 Abs. 1 oder Abs. 2 Nr. 1 des Arzneimittelgesetzes nur in begründeten Fällen mehr als 3,2 x 10(hoch)4 Gray betragen hat und sichergestellt ist, dass dabei die Qualität des Bestrahlungsgutes nicht beeinträchtigt wurde,b)§ 2 Abs. 2 Nr. 1a bis 4 des Arzneimittelgesetzes nicht mehr als 5 x 10(hoch)4 Gray betragen hat und"@de .
+
+dtd:LA-id175 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id195 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§ 2 Abs. 1 oder Abs. 2 Nr. 1 des Arzneimittelgesetzes nur in begründeten Fällen mehr als 3,2 x 10(hoch)4 Gray betragen hat und sichergestellt ist, dass dabei die Qualität des Bestrahlungsgutes nicht beeinträchtigt wurde,"@de .
+
+dtd:LA-id176 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id196 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§ 2 Abs. 2 Nr. 1a bis 4 des Arzneimittelgesetzes nicht mehr als 5 x 10(hoch)4 Gray betragen hat und"@de .
+
+dtd:LA-id177 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Arzneimittel durch die zuständige Bundesoberbehörde im Hinblick auf die Behandlung mit ionisierenden Strahlen zur Verminderung der Keimzahl oder zur Inaktivierung von Blutbestandteilen oder Tumormaterial oder zur Modifizierung von Bestandteilen nach § 25 Abs. 1 des Arzneimittelgesetzes zugelassen oder nach § 4b Absatz 3 des Arzneimittelgesetzes oder § 21a Absatz 1 des Arzneimittelgesetzes genehmigt worden sind oder nach § 21 Abs. 2 Nr. 1a, 1b, 1c, 2, 5 oder 6 des Arzneimittelgesetzes ohne Zulassung in den Verkehr gebracht werden dürfen."@de .
+
+dtd:LA-id178 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arzneimittel im Sinne des § 2 Abs. 2 Nr. 1a, 3 oder 4 des Arzneimittelgesetzes,"@de .
+
+dtd:LA-id179 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arzneimittel im Sinne des § 2 Abs. 2 Nr. 2 des Arzneimittelgesetzes, soweit sie ausschließlich aus metallischen, keramischen oder diesen beiden Werkstoffen bestehen, und"@de .
+
+dtd:LA-id180 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Collagenmembranen, Wundblutzubereitungen, Tumormaterial und Erzeugnisse aus Fibrinschaum, die keine Fertigarzneimittel sind."@de .
+
+dtd:LA-id181 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§ 2 Abs. 1 und Abs. 2 Nr. 1 des Arzneimittelgesetzes, die keine Fertigarzneimittel und zur Anwendung bei Menschen bestimmt sind, sofern sie nicht Collagenmembranen, Wundblutzubereitungen, Tumormaterial oder Erzeugnisse aus Fibrinschaum sind, und"@de .
+
+dtd:LA-id182 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§ 2 Abs. 2 Nr. 2 des Arzneimittelgesetzes, soweit sie nicht ausschließlich aus metallischen, keramischen oder diesen beiden Werkstoffen bestehen,"@de .
+
+dtd:LA-id183 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch die zuständige Bundesoberbehörde nach § 25 Abs. 1 des Arzneimittelgesetzes zugelassen worden sind oder nach § 21 Abs. 2 Nr. 1a, 1b, 1c, 2, 5 oder 6 des Arzneimittelgesetzes ohne Zulassung in den Verkehr gebracht werden dürfen,"@de .
+
+dtd:LA-id184 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach § 2 Abs. 2 Nr. 1 des Arzneimittelgesetzes als Arzneimittel gelten und keine Fertigarzneimittel sind oder"@de .
+
+dtd:LA-id185 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach § 2 Abs. 2 Nr. 4 des Arzneimittelgesetzes als Arzneimittel gelten."@de .
+
+dtd:LA-id186 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei deren Herstellung Bestandteile verwendet worden sind, die von Natur aus radioaktive Stoffe enthalten, soweit die Konzentration radioaktiver Stoffe in diesen Bestandteilen nicht erhöht worden ist und diese Bestandteile von Natur aus nicht mehr als 500 Mikrobecquerel je Gramm an radioaktiven Stoffen der Uran-, Thorium- oder Actiniumreihe enthalten oder"@de .
+
+dtd:LA-id187 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Heilwässer aus natürlichen Quellen sind, deren Konzentration an radioaktiven Stoffen natürlichen Ursprungs aus der Uran-, Thorium- oder Actiniumreihe nicht erhöht worden ist."@de .
+
+dtd:LA-id188 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zur Erkennung der Beschaffenheit, von Zuständen oder Funktionen des Körpers vorgesehen sind,"@de .
+
+dtd:LA-id189 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in einer klinischen Einrichtung auf der Grundlage einer Herstellungserlaubnis nach § 13 des Arzneimittelgesetzes hergestellt und"@de .
+
+dtd:LA-id190 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dort für nicht mehr als 20 Behandlungsfälle in der Woche nach dem anerkannten Stand der wissenschaftlichen Erkenntnisse auf Grund einer patientenbezogenen ärztlichen Verschreibung angewendet werden,"@de .
+
+dtd:LA-id191 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Behältnisse und äußeren Umhüllungen gemäß den §§ 91 und 92 der Strahlenschutzverordnung gekennzeichnet sind; auf den Behältnissen sind Name und Anschrift des Herstellers anzugeben; Anforderungen an radioaktive Arzneimittel und ihre Verpackungen, deren Kennzeichnung und Beförderung mit Straßen-, Schienen-, Magnetbahn-, See- und Luftfahrzeugen nach den internationalen, europäischen und nationalen verkehrsrechtlichen Vorschriften für die Beförderung gefährlicher Güter bleiben unberührt,"@de .
+
+dtd:LA-id192 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf den Behältnissen und äußeren Umhüllungen die Gesamtaktivität pro Behältnis benannt und ein definierter Kalibrierzeitpunkt, auf den sich die angegebenen Aktivitäten beziehen, und überdies der Verfallszeitpunkt mit Datum und Uhrzeit angegeben wurde; die Kennzeichnung der Behältnisse hat auch einen Hinweis auf in die Packungsbeilage aufgenommene Angaben zum Umgang mit radioaktiven Arzneimitteln, deren Entsorgung und, falls notwendig, spezielle Warnhinweise zu umfassen,"@de .
+
+dtd:LA-id193 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die §§ 10, 11 und 11a des Arzneimittelgesetzes auf radioaktive Arzneimittel, die Arzneimittel im Sinne von § 2 Absatz 1 oder Absatz 2 Nummer 1 des Arzneimittelgesetzes sind, entsprechend angewendet wurden; in Packungsbeilagen und Fachinformationen ist den jeweiligen Texten das Strahlenwarnzeichen mit dem Hinweis „Radioaktives Arzneimittel“ voranzustellen und"@de .
+
+dtd:LA-id194 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Fall von für klinische Prüfungen vorgesehenen Arzneimitteln, die nicht in den Anwendungsbereich der Verordnung (EU) Nr. 536/2014 des Europäischen Parlaments und des Rates vom 16. April 2014 über klinische Prüfungen mit Humanarzneimitteln und zur Aufhebung der Richtlinie 2001/20/EG (ABl. L 158 vom 27.5.2014, S. 1) fallen, § 5 Absatz 1, 2 Satz 1 und 2, Absatz 3 Satz 1, Absatz 4 Satz 1, Absatz 5 Satz 1, Absatz 6 Satz 1 und Absatz 7 und § 6 der GCP-Verordnung vom 9. August 2004 (BGBl. I S. 2081), die durch Artikel 13 Absatz 4 des Vierten Gesetzes zur Änderung arzneimittelrechtlicher und anderer Vorschriften vom 20. Dezember 2016 (BGBl. I S. 3048) aufgehoben worden ist, in der am Tag vor ihrem Außerkrafttreten geltenden Fassung angewandt werden."@de .
+
+dtd:P-id198 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.2.1987 +++)"@de .
+
+dtd:P-id200 a dtd:P ;
+    dtd:has_DL dtd:DL-id88 ;
+    dtd:has_Value "(1) Das Verkehrsverbot des § 7 Abs. 1 des Arzneimittelgesetzes gilt nicht für Arzneimittel, bei deren Herstellung Elektronen-, Gamma- oder Röntgenstrahlen für messtechnische Zwecke verwendet worden sind, wenn 1.offene radioaktive Stoffe nicht verwendet worden und umschlossene radioaktive Stoffe mit den Arzneimitteln nicht in Berührung gekommen sind,2.a)die maximale Energie der Elektronen nicht mehr als 10 Megaelektronvolt betragen hat,b)die Gammastrahlen aus den Radionuklidquellen Cobalt 60 oder Caesium 137 stammen,c)die maximale Energie der Röntgenstrahlen nicht mehr als 10 Megaelektronvolt betragen hat, es sei denn, dass in wissenschaftlich begründeten Fällen andere Energiewerte zulässig sind und sichergestellt ist, dass keine schädlichen Kernreaktionen auftreten,3.die Energiedosis im Arzneimittel nicht mehr als 0,1 Gray betragen hat."@de .
+
+dtd:P-id201 a dtd:P ;
+    dtd:has_DL dtd:DL-id102,
+        dtd:DL-id123 ;
+    dtd:has_Value "(2) Das Verkehrsverbot des § 7 Abs. 1 des Arzneimittelgesetzes gilt nicht für Arzneimittel im Sinne des § 2 Abs. 1 oder Abs. 2 Nr. 1 bis 4 des Arzneimittelgesetzes, bei deren Herstellung Elektronen-, Gamma- oder Röntgenstrahlen zur Verminderung der Keimzahl oder zur Inaktivierung von Blutbestandteilen oder Tumormaterial oder zur Modifizierung von Bestandteilen verwendet worden sind, wenn 1.offene radioaktive Stoffe nicht verwendet worden und umschlossene radioaktive Stoffe mit den Arzneimitteln nicht in Berührung gekommen sind,2.a)die maximale Energie der Elektronen nicht mehr als 10 Megaelektronvolt betragen hat, oder, wenn dieser Wert überschritten wurde, nachgewiesen ist, dass keine Radionuklide in diesem Produkt entstehen,b)die Gammastrahlen aus den Radionuklidquellen Cobalt 60 oder Caesium 137 stammen,c)die maximale Energie der Röntgenstrahlen nicht mehr als 6 Megaelektronvolt betragen hat, es sei denn, dass in begründeten Fällen andere Energiewerte zulässig sind und sichergestellt ist, dass keine schädlichen Kernreaktionen auftreten,3.die Energiedosis bei Arzneimitteln nacha)§ 2 Abs. 1 oder Abs. 2 Nr. 1 des Arzneimittelgesetzes nur in begründeten Fällen mehr als 3,2 x 10(hoch)4 Gray betragen hat und sichergestellt ist, dass dabei die Qualität des Bestrahlungsgutes nicht beeinträchtigt wurde,b)§ 2 Abs. 2 Nr. 1a bis 4 des Arzneimittelgesetzes nicht mehr als 5 x 10(hoch)4 Gray betragen hat und4.die Arzneimittel durch die zuständige Bundesoberbehörde im Hinblick auf die Behandlung mit ionisierenden Strahlen zur Verminderung der Keimzahl oder zur Inaktivierung von Blutbestandteilen oder Tumormaterial oder zur Modifizierung von Bestandteilen nach § 25 Abs. 1 des Arzneimittelgesetzes zugelassen oder nach § 4b Absatz 3 des Arzneimittelgesetzes oder § 21a Absatz 1 des Arzneimittelgesetzes genehmigt worden sind oder nach § 21 Abs. 2 Nr. 1a, 1b, 1c, 2, 5 oder 6 des Arzneimittelgesetzes ohne Zulassung in den Verkehr gebracht werden dürfen.Einer Zulassung nach Satz 1 Nr. 4 bedarf es nicht für 1.Arzneimittel im Sinne des § 2 Abs. 2 Nr. 1a, 3 oder 4 des Arzneimittelgesetzes,2.Arzneimittel im Sinne des § 2 Abs. 2 Nr. 2 des Arzneimittelgesetzes, soweit sie ausschließlich aus metallischen, keramischen oder diesen beiden Werkstoffen bestehen, und3.Collagenmembranen, Wundblutzubereitungen, Tumormaterial und Erzeugnisse aus Fibrinschaum, die keine Fertigarzneimittel sind."@de .
+
+dtd:P-id202 a dtd:P ;
+    dtd:has_DL dtd:DL-id130 ;
+    dtd:has_Value "(3) Die Vorschriften des Vierten Abschnittes des Arzneimittelgesetzes über die Zulassung finden entsprechende Anwendung auf Arzneimittel im Sinne des 1.§ 2 Abs. 1 und Abs. 2 Nr. 1 des Arzneimittelgesetzes, die keine Fertigarzneimittel und zur Anwendung bei Menschen bestimmt sind, sofern sie nicht Collagenmembranen, Wundblutzubereitungen, Tumormaterial oder Erzeugnisse aus Fibrinschaum sind, und2.§ 2 Abs. 2 Nr. 2 des Arzneimittelgesetzes, soweit sie nicht ausschließlich aus metallischen, keramischen oder diesen beiden Werkstoffen bestehen,sofern bei ihrer Herstellung Elektronen-, Gamma- oder Röntgenstrahlen zur Verminderung der Keimzahl oder zur Inaktivierung von Blutbestandteilen oder zur Modifizierung von Bestandteilen verwendet worden sind."@de .
+
+dtd:P-id204 a dtd:P ;
+    dtd:has_DL dtd:DL-id135,
+        dtd:DL-id142,
+        dtd:DL-id147 ;
+    dtd:has_Value "(1) Das Verkehrsverbot des § 7 Abs. 1 des Arzneimittelgesetzes gilt nicht für radioaktive Arzneimittel, die 1.durch die zuständige Bundesoberbehörde nach § 25 Abs. 1 des Arzneimittelgesetzes zugelassen worden sind oder nach § 21 Abs. 2 Nr. 1a, 1b, 1c, 2, 5 oder 6 des Arzneimittelgesetzes ohne Zulassung in den Verkehr gebracht werden dürfen, 2.nach § 2 Abs. 2 Nr. 1 des Arzneimittelgesetzes als Arzneimittel gelten und keine Fertigarzneimittel sind oder 3.nach § 2 Abs. 2 Nr. 4 des Arzneimittelgesetzes als Arzneimittel gelten. Es gilt ferner nicht für radioaktive Arzneimittel, die keine Fertigarzneimittel sind und 1.bei deren Herstellung Bestandteile verwendet worden sind, die von Natur aus radioaktive Stoffe enthalten, soweit die Konzentration radioaktiver Stoffe in diesen Bestandteilen nicht erhöht worden ist und diese Bestandteile von Natur aus nicht mehr als 500 Mikrobecquerel je Gramm an radioaktiven Stoffen der Uran-, Thorium- oder Actiniumreihe enthalten oder 2.die Heilwässer aus natürlichen Quellen sind, deren Konzentration an radioaktiven Stoffen natürlichen Ursprungs aus der Uran-, Thorium- oder Actiniumreihe nicht erhöht worden ist. Es gilt weiterhin nicht für radioaktive Arzneimittel, die 1.zur Erkennung der Beschaffenheit, von Zuständen oder Funktionen des Körpers vorgesehen sind, 2.in einer klinischen Einrichtung auf der Grundlage einer Herstellungserlaubnis nach § 13 des Arzneimittelgesetzes hergestellt und 3.dort für nicht mehr als 20 Behandlungsfälle in der Woche nach dem anerkannten Stand der wissenschaftlichen Erkenntnisse auf Grund einer patientenbezogenen ärztlichen Verschreibung angewendet werden, sowie für radioaktive Arzneimittel, die in einer Krankenhausapotheke oder krankenhausversorgenden Apotheke ausschließlich auf der Grundlage zugelassener Radionuklidgeneratoren, Radionuklidkits oder Radionuklidvorstufen nach den Anweisungen des jeweiligen pharmazeutischen Unternehmers zubereitet werden."@de .
+
+dtd:P-id205 a dtd:P ;
+    dtd:has_Value "(2) Die Vorschriften des Vierten Abschnittes des Arzneimittelgesetzes über die Zulassung finden entsprechende Anwendung auf radioaktive Arzneimittel, die Arzneimittel im Sinne des § 2 Abs. 1 des Arzneimittelgesetzes, keine Fertigarzneimittel und zur Anwendung bei Menschen bestimmt sind. Die Ausnahmevorschriften des § 21 Abs. 2 Nr. 1, 3 und 4 des Arzneimittelgesetzes finden keine Anwendung. Satz 1 findet keine Anwendung auf Arzneimittel nach Absatz 1 Satz 2 und 3."@de .
+
+dtd:P-id207 a dtd:P ;
+    dtd:has_DL dtd:DL-id154 ;
+    dtd:has_Value "(1) Radioaktive Arzneimittel im Sinne des § 4 Absatz 8 des Arzneimittelgesetzes dürfen im Geltungsbereich dieser Verordnung nur in den Verkehr gebracht werden, wenn 1.die Behältnisse und äußeren Umhüllungen gemäß den §§ 91 und 92 der Strahlenschutzverordnung gekennzeichnet sind; auf den Behältnissen sind Name und Anschrift des Herstellers anzugeben; Anforderungen an radioaktive Arzneimittel und ihre Verpackungen, deren Kennzeichnung und Beförderung mit Straßen-, Schienen-, Magnetbahn-, See- und Luftfahrzeugen nach den internationalen, europäischen und nationalen verkehrsrechtlichen Vorschriften für die Beförderung gefährlicher Güter bleiben unberührt,2.auf den Behältnissen und äußeren Umhüllungen die Gesamtaktivität pro Behältnis benannt und ein definierter Kalibrierzeitpunkt, auf den sich die angegebenen Aktivitäten beziehen, und überdies der Verfallszeitpunkt mit Datum und Uhrzeit angegeben wurde; die Kennzeichnung der Behältnisse hat auch einen Hinweis auf in die Packungsbeilage aufgenommene Angaben zum Umgang mit radioaktiven Arzneimitteln, deren Entsorgung und, falls notwendig, spezielle Warnhinweise zu umfassen,3.die §§ 10, 11 und 11a des Arzneimittelgesetzes auf radioaktive Arzneimittel, die Arzneimittel im Sinne von § 2 Absatz 1 oder Absatz 2 Nummer 1 des Arzneimittelgesetzes sind, entsprechend angewendet wurden; in Packungsbeilagen und Fachinformationen ist den jeweiligen Texten das Strahlenwarnzeichen mit dem Hinweis „Radioaktives Arzneimittel“ voranzustellen und4.im Fall von für klinische Prüfungen vorgesehenen Arzneimitteln, die nicht in den Anwendungsbereich der Verordnung (EU) Nr. 536/2014 des Europäischen Parlaments und des Rates vom 16. April 2014 über klinische Prüfungen mit Humanarzneimitteln und zur Aufhebung der Richtlinie 2001/20/EG (ABl. L 158 vom 27.5.2014, S. 1) fallen, § 5 Absatz 1, 2 Satz 1 und 2, Absatz 3 Satz 1, Absatz 4 Satz 1, Absatz 5 Satz 1, Absatz 6 Satz 1 und Absatz 7 und § 6 der GCP-Verordnung vom 9. August 2004 (BGBl. I S. 2081), die durch Artikel 13 Absatz 4 des Vierten Gesetzes zur Änderung arzneimittelrechtlicher und anderer Vorschriften vom 20. Dezember 2016 (BGBl. I S. 3048) aufgehoben worden ist, in der am Tag vor ihrem Außerkrafttreten geltenden Fassung angewandt werden."@de .
+
+dtd:P-id208 a dtd:P ;
+    dtd:has_Value "(2) Für klinische Prüfungen bei Menschen vorgesehene radioaktive Arzneimittel im Sinne des § 4 Absatz 8 des Arzneimittelgesetzes, die in den Anwendungsbereich der Verordnung (EU) Nr. 536/2014 fallen, dürfen im Geltungsbereich dieser Verordnung nur in den Verkehr gebracht werden, wenn die Vorgaben der Artikel 66 bis 68 in Verbindung mit Anhang VI der Verordnung (EU) Nr. 536/2014 in der jeweils geltenden Fassung beachtet werden."@de .
+
+dtd:P-id210 a dtd:P ;
+    dtd:has_Value "Die Vorschriften des Strahlenschutzgesetzes und der darauf gestützten Rechtsverordnungen bleiben unberührt."@de .
+
+dtd:P-id212 a dtd:P ;
+    dtd:has_Value "Ordnungswidrig im Sinne des § 97 Abs. 2 Nr. 31 des Arzneimittelgesetzes handelt, wer vorsätzlich oder fahrlässig entgegen § 3 Absatz 1 Nummer 1, 2 oder Nummer 4 ein radioaktives Arzneimittel in den Verkehr bringt."@de .
+
+dtd:P-id214 a dtd:P ;
+    dtd:has_Value "Arzneimittel, die sich am 30. Dezember 2006 im Verkehr befinden und den Vorschriften des § 3 unterliegen, müssen zwei Jahre nach der ersten auf den 31. Dezember 2006 folgenden Verlängerung der Zulassung oder, soweit sie keiner Verlängerung bedürfen, am 1. Januar 2009 vom pharmazeutischen Unternehmer entsprechend den Vorschriften des § 3 in den Verkehr gebracht werden. Bis zu den jeweiligen Zeitpunkten nach Satz 1 dürfen Arzneimittel vom pharmazeutischen Unternehmer, nach diesen Zeitpunkten weiter von Groß- und  Einzelhändlern mit einer Kennzeichnung, Packungsbeilage und Fachinformation in den Verkehr gebracht werden, die den bis zum 30. Dezember 2006 geltenden Vorschriften entspricht."@de .
+
+dtd:P-id216 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id218 a dtd:P ;
+    dtd:has_Value "(1) Für klinische Prüfungen bei Menschen mit Arzneimitteln, die dem Anwendungsbereich der Verordnung (EU) Nr. 536/2014 unterliegen, ist diese Verordnung in der bis zum Tag vor dem Inkrafttreten dieser Vorschrift nach Artikel 13 Absatz 2 und 3 des Vierten Gesetzes zur Änderung arzneimittelrechtlicher und anderer Vorschriften vom 20. Dezember 2016 (BGBl. I S. 3048) geltenden Fassung für drei Jahre weiter anzuwenden, wenn der Antrag auf Genehmigung vor dem Tag des Inkrafttretens dieser Vorschrift nach Artikel 13 Absatz 2 und 3 des Vierten Gesetzes zur Änderung arzneimittelrechtlicher und anderer Vorschriften vom 20. Dezember 2016 (BGBl. I S. 3048) gemäß dem Sechsten Abschnitt des Arzneimittelgesetzes eingereicht wurde."@de .
+
+dtd:P-id219 a dtd:P ;
+    dtd:has_Value "(2) Eine klinische Prüfung bei Menschen mit Arzneimitteln, die dem Anwendungsbereich der Verordnung (EU) Nr. 536/2014 unterliegen, darf nach dieser Verordnung in der bis zum Tag vor dem Inkrafttreten dieser Vorschrift nach Artikel 13 Absatz 2 und 3 des Vierten Gesetzes zur Änderung arzneimittelrechtlicher und anderer Vorschriften vom 20. Dezember 2016 (BGBl. I S. 3048) geltenden Fassung begonnen werden, wenn der Antrag auf Genehmigung innerhalb von zwölf Monaten nach dem Tag des Inkrafttretens dieser Vorschrift nach Artikel 13 Absatz 2 und 3 des Vierten Gesetzes zur Änderung arzneimittelrechtlicher und anderer Vorschriften vom 20. Dezember 2016 (BGBl. I S. 3048) eingereicht wurde. Für die betreffende klinische Prüfung ist diese Verordnung in der bis zu dem Tag vor dem Inkrafttreten dieser Vorschrift nach Artikel 13 Absatz 2 und 3 des Vierten Gesetzes zur Änderung arzneimittelrechtlicher und anderer Vorschriften vom 20. Dezember 2016 (BGBl. I S. 3048) geltenden Fassung für drei Jahre weiter anzuwenden."@de .
+
+dtd:P-id221 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1987-01-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 6a"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id67 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id222 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id223 .
+
+dtd:fussnoten-id69 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id197 .
+
+dtd:fussnoten-id71 a dtd:fussnoten .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:fussnoten-id79 a dtd:fussnoten .
+
+dtd:fussnoten-id81 a dtd:fussnoten .
+
+dtd:fussnoten-id83 a dtd:fussnoten .
+
+dtd:fussnoten-id85 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "AMRadV"@de .
+
+dtd:langue-id36 a dtd:langue ;
+    dtd:has_Value "Verordnung über radioaktive oder mit ionisierenden Strahlen behandelte Arzneimittel"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_langue dtd:langue-id36 ;
+    dtd:has_standangabe dtd:standangabe-id37,
+        dtd:standangabe-id38,
+        dtd:standangabe-id39,
+        dtd:standangabe-id40,
+        dtd:standangabe-id41 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 ;
+    dtd:has_titel dtd:titel-id68 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE000804116"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE000901310"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE000205116"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE000302310"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE000407116"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE000502116"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE000604116"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE000702310"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20220126213001"@de ;
+    dtd:has_doknr "BJNR005020987BJNE001102310"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id222 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id37 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id225 ;
+    dtd:has_standtyp dtd:standtyp-id224 .
+
+dtd:standangabe-id38 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id227 ;
+    dtd:has_standtyp dtd:standtyp-id226 .
+
+dtd:standangabe-id39 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id229 ;
+    dtd:has_standtyp dtd:standtyp-id228 .
+
+dtd:standangabe-id40 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id231 ;
+    dtd:has_standtyp dtd:standtyp-id230 .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id233 ;
+    dtd:has_standtyp dtd:standtyp-id232 .
+
+dtd:standkommentar-id225 a dtd:standkommentar ;
+    dtd:has_Value "Neugefasst durch Bek. v. 19.1.2007 I 48;"@de .
+
+dtd:standkommentar-id227 a dtd:standkommentar ;
+    dtd:has_Value "zuletzt geändert durch Art. 5 V v. 29.11.2018 I 2034; 2021 I 5261"@de .
+
+dtd:standkommentar-id229 a dtd:standkommentar ;
+    dtd:has_Value "Mittelbare Änderung durch Art. 3 Nr. 1a G v. 9.8.2019 I 1202 ist berücksichtigt"@de .
+
+dtd:standkommentar-id231 a dtd:standkommentar ;
+    dtd:has_Value "Mittelbare Änderung durch Art. 4 Nr. 3 G v. 27.9.2021 I 4530 (Nr. 70) textlich nachgewiesen, dokumentarisch noch nicht abschließend bearbeitet"@de .
+
+dtd:standkommentar-id233 a dtd:standkommentar ;
+    dtd:has_Value "Berichtigung vom 21.12.2021 I 5261 (Nr. 86) ist berücksichtigt"@de .
+
+dtd:standtyp-id224 a dtd:standtyp ;
+    dtd:has_Value "Neuf"@de .
+
+dtd:standtyp-id226 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id228 a dtd:standtyp ;
+    dtd:has_Value "Hinweis"@de .
+
+dtd:standtyp-id230 a dtd:standtyp ;
+    dtd:has_Value "Hinweis"@de .
+
+dtd:standtyp-id232 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id199 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id203 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id206 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id209 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id211 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id213 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id215 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id217 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id220 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id69 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id79 ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id81 ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id83 ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Verkehrsfähigkeit von Arzneimitteln, die mit ionisierenden Strahlen behandelt worden sind"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Verkehrsfähigkeit radioaktiver Arzneimittel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Kennzeichnung, Packungsbeilage, Fachinformation"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Verhältnis zum Strahlenschutzgesetz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Ordnungswidrigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung aus Anlass des Vierten Gesetzes zur Änderung arzneimittelrechtlicher und anderer Vorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id68 a dtd:titel ;
+    dtd:has_Value "(Inkrafttreten)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id223 a dtd:zitstelle ;
+    dtd:has_Value "1987, 502"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

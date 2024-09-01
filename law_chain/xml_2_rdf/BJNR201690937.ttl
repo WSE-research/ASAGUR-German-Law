@@ -1,0 +1,129 @@
+@prefix dtd: <urn:WZGBek-1937-06-03#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200103213425"@de ;
+    dtd:has_doknr "BJNR201690937"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:kommentar-id30 a dtd:kommentar ;
+    dtd:has_Value "(Inhalt: nicht darstellbarer Abnahmestempel,"@de ;
+    dtd:has_typ dtd:Hinweis .
+
+dtd:kommentar-id31 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: RGBl. II 1937, 169)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29 .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id20,
+        dtd:BR-id21 ;
+    dtd:has_SP dtd:SP-id22 ;
+    dtd:has_Value "Auf Grund des § 4 Abs. 2 Nr. 3 des Warenzeichengesetzes vom 5. Mai 1936 (Reichsgesetzbl. II S. 134) wird nachstehend der Abnahmestempel der Technischen Beratungsstelle beim Landesgewerbeamt Stuttgart für Azetylenentwickler nebst Zubehör und Behälter für verdichtete oder unter Druck gelöste Gase bekanntgemacht: (Inhalt: nicht darstellbarer Abnahmestempel,Fundstelle: RGBl. II 1937, 169)Der Reichsminister der Justiz"@de ;
+    dtd:has_noindex dtd:noindex-id23 .
+
+dtd:SP-id22 a dtd:SP ;
+    dtd:has_Value "Der Reichsminister der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1937-06-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id32 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id33 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id26 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "WZGBek 1937-06-03"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "WZGBek 1937-06-03"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zum Warenzeichengesetz über ein amtliches Prüfzeichen"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:noindex-id23 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200103213425"@de ;
+    dtd:has_doknr "BJNR201690937"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200103213425"@de ;
+    dtd:has_doknr "BJNR201690937BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id32 a dtd:periodikum ;
+    dtd:has_Value "RGBl II"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id28 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id33 a dtd:zitstelle ;
+    dtd:has_Value "1937, 169"@de .
+

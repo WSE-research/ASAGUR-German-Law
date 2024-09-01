@@ -1,0 +1,496 @@
+@prefix dtd: <urn:KohleUGrV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101,
+        dtd:P-id102 .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104 .
+
+dtd:Content-id105 a dtd:Content ;
+    dtd:has_P dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110,
+        dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id97 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id99 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DL-id77 a dtd:DL ;
+    dtd:has_DD dtd:DD-id80,
+        dtd:DD-id81 ;
+    dtd:has_DT dtd:DT-id78,
+        dtd:DT-id79 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id82 a dtd:DL ;
+    dtd:has_DD dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88 ;
+    dtd:has_DT dtd:DT-id83,
+        dtd:DT-id84,
+        dtd:DT-id85 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:I-id74 a dtd:I ;
+    dtd:has_Value "§ 18 Abs. 1 des Gesetzes"@de .
+
+dtd:I-id75 a dtd:I ;
+    dtd:has_Value "§ 1 des Gesetzes"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Lagerstätte nach den vorgegebenen natürlichen Verhältnissen innerhalb eines Steinkohlenbergbaugebietes und nach bergwirtschaftlichen und bergtechnischen Erfordernissen abbauen kann, um insbesondere einen geeigneten Zuschnitt der Baufelder für die einzelnen Steinkohlenbergwerke sicherzustellen;"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "alle Möglichkeiten der inner- und überbetrieblichen Rationalisierung der Betriebe in einem Steinkohlenbergbaugebiet, insbesondere für regional zusammenhängende Gruppen von Steinkohlenbergwerken nutzen kann."@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "notwendige Verlegungen von Arbeitnehmern mit der geringstmöglichen Belastung für die Betroffenen vorgenommen,"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Entlassungen möglichst vermieden und"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "unvermeidbare Entlassungen nur im Rahmen einer innerhalb des Steinkohlenbergbaugebietes ausgleichenden Belegschaftsplanung durchgeführt"@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_I dtd:I-id74 ;
+    dtd:has_Value "(1) Für die Ermittlung der nach dem 1. Januar 1969 maßgebenden optimalen Unternehmensgröße im Sinne des § 18 Abs. 1 des Gesetzes gelten die in den §§ 2 bis 5 festgesetzten Maßstäbe für den Steinkohlenbergbaubereich eines Unternehmens."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(2) Zum Steinkohlenbergbaubereich eines Unternehmens gehören die dem Gewinnungsrecht des Unternehmens unterliegenden abbauwürdigen Lagerstätten und alle von dem Unternehmen in eigener Verantwortung geführten, dem Steinkohlenbergbau dienenden Betriebe, insbesondere die Steinkohle fördernden Bergwerke (Grubenbetriebe unter- und übertage), die in einem unmittelbaren wirtschaftlichen und betrieblichen Zusammenhang stehenden Kokereien, Kohlenwertstoffbetriebe, Brikettfabriken und Energiebetriebe einschließlich der hierfür erforderlichen technischen und kaufmännischen Verwaltung."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "§ 1 Abs. 1 Kursivdruck: G v. 15.5.1968 I 365 gem. dessen § 44 am 31.12.1977 außer Kraft getreten"@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_DL dtd:DL-id77 ;
+    dtd:has_Value "Das Unternehmen muß gewährleisten, daß es 1.die Lagerstätte nach den vorgegebenen natürlichen Verhältnissen innerhalb eines Steinkohlenbergbaugebietes und nach bergwirtschaftlichen und bergtechnischen Erfordernissen abbauen kann, um insbesondere einen geeigneten Zuschnitt der Baufelder für die einzelnen Steinkohlenbergwerke sicherzustellen; 2.alle Möglichkeiten der inner- und überbetrieblichen Rationalisierung der Betriebe in einem Steinkohlenbergbaugebiet, insbesondere für regional zusammenhängende Gruppen von Steinkohlenbergwerken nutzen kann. "@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "Für Investitionen, die nach ihrer Art und ihrem Umfang für die Wirtschaftlichkeit des Steinkohlenbergbaus in einem Steinkohlenbergbaugebiet von Bedeutung sind, muß das Unternehmen gewährleisten, daß es diese für das Steinkohlenbergbaugebiet einheitlich zu planenden Investitionen in seinem Steinkohlenbergbaubereich in dem vorgesehenen Umfang vornehmen kann."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_I dtd:I-id75 ;
+    dtd:has_Value "(1) Das Unternehmen muß gewährleisten, daß die Konzentrations- und Anpassungsmaßnahmen, die zur Erreichung der in § 1 des Gesetzes genannten Ziele erforderlich sind, nicht allein nach den Verhältnissen des Unternehmens, sondern ebensosehr nach der Leistungsfähigkeit der Anlagen im Rahmen des gesamten Steinkohlenbergbaus in diesem Steinkohlenbergbaugebiet unter besonderer Berücksichtigung der sozialen und regionalwirtschaftlichen Belange vorgenommen werden; insbesondere muß sichergestellt sein, daß Produktion und Absatz für ein Steinkohlenbergbaugebiet im Rahmen einer einheitlichen Unternehmensplanung auf die jeweiligen Marktverhältnisse abgestimmt und die Produktionskapazitäten der Betriebe mit der nachhaltig stärksten Ertragskraft bestmöglich ausgenutzt werden."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(2) Die aus der Konzentration und Anpassung entstehenden Folgekosten für die weiterbetriebenen Steinkohlenbergwerke eines Steinkohlenbergbaugebietes müssen auf ein möglichst geringes Ausmaß beschränkt bleiben."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "§ 4 Abs. 1 Kursivdruck: G v. 15.5.1968 I 365 gem. dessen § 44 am 31.12.1977 außer Kraft getreten"@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_DL dtd:DL-id82 ;
+    dtd:has_Value "Das Unternehmen muß die Durchführung einer einheitlichen Planung des Belegschaftswesens für die im Steinkohlenbergbau eines Steinkohlenbergbaugebietes Beschäftigten gewährleisten, insbesondere sicherstellen, daß bei Konzentrations- und Anpassungsmaßnahmen 1.notwendige Verlegungen von Arbeitnehmern mit der geringstmöglichen Belastung für die Betroffenen vorgenommen, 2.Entlassungen möglichst vermieden und 3.unvermeidbare Entlassungen nur im Rahmen einer innerhalb des Steinkohlenbergbaugebietes ausgleichenden Belegschaftsplanung durchgeführt werden."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzblatt I S. 1) in Verbindung mit § 43 Satz 2 des Gesetzes auch im Land Berlin."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach ihrer Verkündung in Kraft."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_SP dtd:SP-id76 ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 12. 1.1969 +++)"@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 20 des Gesetzes zur Anpassung und Gesundung des deutschen Steinkohlenbergbaus und der deutschen Steinkohlenbergbaugebiete vom 15. Mai 1968 (Bundesgesetzbl. I S. 365) wird verordnet:"@de .
+
+dtd:SP-id76 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id33 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-01-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id34 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id122 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id123 .
+
+dtd:fussnoten-id62 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id96 .
+
+dtd:fussnoten-id65 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id103 .
+
+dtd:fussnoten-id69 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id112 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "KohleUGrV"@de .
+
+dtd:langue-id35 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Maßstäbe für die Ermittlung der optimalen
+Unternehmensgrößen im Steinkohlenbergbau"""@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id33 ;
+    dtd:has_fundstelle dtd:fundstelle-id34 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_langue dtd:langue-id35 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000800328"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000900328"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000400328"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000500328"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000600328"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405124343"@de ;
+    dtd:has_doknr "BJNR000160969BJNE000700328"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id122 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id98 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id105 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id69 ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value """Optimale Unternehmensgröße,
+Steinkohlenbergbaubereich"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Abbauplanung, Rationalisierung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Investitionsplanung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Konzentration und Anpassung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Belegschaftswesen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Anwendung im Land Berlin"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id123 a dtd:zitstelle ;
+    dtd:has_Value "1969, 16"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

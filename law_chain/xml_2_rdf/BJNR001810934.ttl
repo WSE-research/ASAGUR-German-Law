@@ -1,0 +1,155 @@
+@prefix dtd: <urn:MietPfG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153946"@de ;
+    dtd:has_doknr "BJNR001810934"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:Content-id27 a dtd:Content ;
+    dtd:has_P dtd:P-id28 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32,
+        dtd:P-id33,
+        dtd:P-id34 .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de ;
+    dtd:has_pre dtd:pre-id35 .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value "Die Reichsregierung hat das folgende Gesetz beschlossen, das hiermit verkündet wird:"@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(1) Die öffentlichen Lasten eines Grundstücks, die in wiederkehrenden Leistungen bestehen, erstrecken sich nach Maßgabe der folgenden Bestimmungen auf die Miet- und Pachtforderungen."@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value "(2) Werden Miet- oder Pachtforderungen wegen des zuletzt fällig gewordenen Teilbetrages der öffentlichen Last gepfändet, so wird die Pfändung durch eine später von einem Hypotheken- oder Grundschuldgläubiger bewirkte Pfändung nicht berührt. Werden die wiederkehrenden Leistungen in monatlichen Beträgen fällig, so gilt dieses Vorrecht auch für den vorletzten Teilbetrag."@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "(3) Ist vor der Pfändung die Miete oder Pacht eingezogen oder in anderer Weise über sie verfügt, so bleibt die Verfügung gegenüber dem aus der öffentlichen Last Berechtigten, soweit seine Pfändung das Vorrecht des Absatzes 2 genießt, nur für den zur Zeit der Pfändung laufenden Kalendermonat und, wenn die Pfändung nach dem fünfzehnten Tag des Monats bewirkt ist, auch für den folgenden Kalendermonat wirksam."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1934-03-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id17 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id36 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id37 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id27 .
+
+dtd:fussnoten-id23 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "MietPfG"@de .
+
+dtd:jurabk-id16 a dtd:jurabk ;
+    dtd:has_Value "MietPfG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "MietPfG"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Pfändung von Miet- und Pachtzinsforderungen wegen Ansprüche aus öffentlichen Grundstückslasten"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 ;
+    dtd:has_standangabe dtd:standangabe-id15 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id17 ;
+    dtd:has_jurabk dtd:jurabk-id16 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153946"@de ;
+    dtd:has_doknr "BJNR001810934"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153946"@de ;
+    dtd:has_doknr "BJNR001810934BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153946"@de ;
+    dtd:has_doknr "BJNR001810934BJNE000201301"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id36 a dtd:periodikum ;
+    dtd:has_Value "RGBl I"@de .
+
+dtd:pre-id35 a dtd:pre ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:standangabe-id15 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id39 ;
+    dtd:has_standtyp dtd:standtyp-id38 .
+
+dtd:standkommentar-id39 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 7 Abs. 19 G v. 19.6.2001 I 1149"@de .
+
+dtd:standtyp-id38 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id31 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id23 ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id37 a dtd:zitstelle ;
+    dtd:has_Value "1934, 181"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

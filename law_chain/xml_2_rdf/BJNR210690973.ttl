@@ -1,0 +1,336 @@
+@prefix dtd: <urn:PVÜG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690973"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80,
+        dtd:P-id81 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DD-id57 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id63 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id64 .
+
+dtd:DL-id48 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51,
+        dtd:DD-id52 ;
+    dtd:has_DT dtd:DT-id49,
+        dtd:DT-id50 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id53 a dtd:DL ;
+    dtd:has_DD dtd:DD-id57,
+        dtd:DD-id58,
+        dtd:DD-id59 ;
+    dtd:has_DT dtd:DT-id54,
+        dtd:DT-id55,
+        dtd:DT-id56 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Pariser Fassung der Berner Übereinkunft vom 9. September 1886 zum Schutz von Werken der Literatur und Kunst (bisherige Fassung: Artikel 1 bis 20 Bundesgesetzbl. 1965 II S. 1213; Artikel 22 bis 38 Bundesgesetzbl. 1970 II S. 293, 348);"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem revidierten Welturheberrechtsabkommen vom 6. September 1952 (bisherige Fassung: Bundesgesetzbl. 1955 II S. 101) sowie seinen Zusatzprotokollen 1 und 2."@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Pariser Fassung der Berner Übereinkunft zum Schutz von Werken der Literatur und Kunst nach ihrem Artikel 28 für die Bundesrepublik Deutschland in Kraft tritt,"@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das revidierte Welturheberrechtsabkommen nach seinem Artikel IX und die Zusatzprotokolle 1 und 2 zu diesem Abkommen jeweils nach ihrer Ziffer 2 Buchstabe b für die Bundesrepublik Deutschland in Kraft treten,"@de .
+
+dtd:LA-id64 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die in Artikel VI Abs. 1 Ziffer ii des Anhangs zur Pariser Fassung der Berner Übereinkunft zum Schutz von Werken der Literatur und Kunst vorgesehene Erklärung nach Artikel VI Abs. 2 dieses Anhangs für die Bundesrepublik Deutschland wirksam wird,"@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 25. 8.1973 +++)"@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_DL dtd:DL-id48 ;
+    dtd:has_Value "Den folgenden von der Bundesrepublik Deutschland am 21. Juli 1971 in Paris unterzeichneten Übereinkünften wird zugestimmt: 1.der Pariser Fassung der Berner Übereinkunft vom 9. September 1886 zum Schutz von Werken der Literatur und Kunst (bisherige Fassung: Artikel 1 bis 20 Bundesgesetzbl. 1965 II S. 1213; Artikel 22 bis 38 Bundesgesetzbl. 1970 II S. 293, 348); 2.dem revidierten Welturheberrechtsabkommen vom 6. September 1952 (bisherige Fassung: Bundesgesetzbl. 1955 II S. 101) sowie seinen Zusatzprotokollen 1 und 2. Die Übereinkünfte werden nachstehend veröffentlicht."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "Die Bundesregierung wird ermächtigt, die in Artikel VI Abs. 1 Ziffer ii des Anhangs zur Pariser Fassung der Berner Übereinkunft zum Schutz von Werken der Literatur und Kunst vorgesehene Erklärung abzugeben."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "Für die Berechnung der Dauer des Schutzes, den ausländische Staatsangehörige für ihre Werke nach dem revidierten Welturheberrechtsabkommen im Geltungsbereich dieses Gesetzes genießen, sind die Bestimmungen in Artikel IV Abs. 4 bis 6 des revidierten Welturheberrechtsabkommens anzuwenden."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_DL dtd:DL-id53 ;
+    dtd:has_Value "(2) Der Tag, an dem 1.die Pariser Fassung der Berner Übereinkunft zum Schutz von Werken der Literatur und Kunst nach ihrem Artikel 28 für die Bundesrepublik Deutschland in Kraft tritt, 2.das revidierte Welturheberrechtsabkommen nach seinem Artikel IX und die Zusatzprotokolle 1 und 2 zu diesem Abkommen jeweils nach ihrer Ziffer 2 Buchstabe b für die Bundesrepublik Deutschland in Kraft treten, 3.die in Artikel VI Abs. 1 Ziffer ii des Anhangs zur Pariser Fassung der Berner Übereinkunft zum Schutz von Werken der Literatur und Kunst vorgesehene Erklärung nach Artikel VI Abs. 2 dieses Anhangs für die Bundesrepublik Deutschland wirksam wird, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1973-08-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id82 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id83 .
+
+dtd:fussnoten-id40 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id67 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "PVÜG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "PVÜG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "PVÜG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "PVÜG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "PVÜG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "PVÜG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "PVÜG"@de .
+
+dtd:langue-id26 a dtd:langue ;
+    dtd:has_Value "Gesetz zu den am 24. Juli 1971 in Paris unterzeichneten Übereinkünften auf dem Gebiet des Urheberrechts"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690973"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690973BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690973BJNE000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690973BJNE000300303"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690973BJNE000400303"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690973BJNE000500303"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690973BJNE000600303"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id82 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:zitstelle-id83 a dtd:zitstelle ;
+    dtd:has_Value "1973, 1069"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

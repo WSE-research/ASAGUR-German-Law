@@ -1,0 +1,198 @@
+@prefix dtd: <urn:PostSZV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230724213513"@de ;
+    dtd:has_doknr "BJNR212000007"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id35 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id46 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 10 Abs. 2 des Postpersonalrechtsgesetzes vom 14. September 1994 (BGBl. I S. 2325, 2353), der zuletzt durch Artikel 2 Nr. 4 des Gesetzes vom 14. September 2005 (BGBl. I S. 2746) geändert worden ist, verordnet das Bundesministerium der Finanzen nach Anhörung des Vorstands der Deutschen Post AG im Einvernehmen mit dem Bundesministerium des Innern:"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Die bei der Deutschen Post AG beschäftigten Beamtinnen und Beamten mit Dienstbezügen erhalten bis einschließlich Dezember 2024 eine monatliche Sonderzahlung in Höhe von 4 Prozent der Dienstbezüge nach § 78 Absatz 1 des Bundesbesoldungsgesetzes. Beamtinnen und Beamte der Besoldungsgruppe A 2 bis A 8 erhalten zusätzlich eine monatliche Sonderzahlung in Höhe von 10,42 Euro. § 6 Absatz 1 und § 72a Absatz 1 des Bundesbesoldungsgesetzes gelten entsprechend."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "PostSZV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2007-08-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id47 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id48 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "PostSZV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "PostSZV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "PostSZV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "PostSZV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Postsonderzahlungsverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Gewährung einer monatlichen Sonderzahlung an die bei der Deutschen Post AG beschäftigten Beamtinnen und Beamten"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 ;
+    dtd:has_standangabe dtd:standangabe-id20 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230724213513"@de ;
+    dtd:has_doknr "BJNR212000007"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230724213513"@de ;
+    dtd:has_doknr "BJNR212000007BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230724213513"@de ;
+    dtd:has_doknr "BJNR212000007BJNE000305119"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230724213513"@de ;
+    dtd:has_doknr "BJNR212000007BJNE000403124"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id47 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id46 a dtd:pre ;
+    dtd:has_BR dtd:BR-id36,
+        dtd:BR-id37 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2005 +++)"@de .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id50 ;
+    dtd:has_standtyp dtd:standtyp-id49 .
+
+dtd:standkommentar-id50 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 17.7.2023 I Nr. 195"@de .
+
+dtd:standtyp-id49 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Monatliche Sonderzahlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id48 a dtd:zitstelle ;
+    dtd:has_Value "2007, 2120"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

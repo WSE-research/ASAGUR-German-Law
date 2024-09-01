@@ -1,0 +1,381 @@
+@prefix dtd: <urn:RAG-1982#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74,
+        dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86,
+        dtd:P-id87,
+        dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id68 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id69 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DL-id61 a dtd:DL ;
+    dtd:has_DD dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67 ;
+    dtd:has_DT dtd:DT-id62,
+        dtd:DT-id63,
+        dtd:DT-id64 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach den §§ 1253ff. der Reichsversicherungsordnung,"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach den §§ 30ff. des Angestelltenversicherungsgesetzes oder"@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach den §§ 53ff. des Reichsknappschaftsgesetzes"@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_BR dtd:BR-id59 ;
+    dtd:has_Value "Das Gesetz ist gem. Art. 20 Abs. 1 G v. 1.12.1981 I 1205 am 5.12.1981 in Kraft getreten Die Vorschrift gilt nicht in dem in Art. 3 des Einigungsvertrages genannten Gebiet gem. Anl. I Kap. VIII Sachg. H Abschn. I Nr. 16 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1057"@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_BR dtd:BR-id60 ;
+    dtd:has_Value " (+++ Textnachweis ab:  5.12.1981 +++)"@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Aus Anlaß des Anstiegs der allgemeinen Bemessungsgrundlage vom Jahr 1981 auf das Jahr 1982 werden die Renten der gesetzlichen Rentenversicherung einschließlich Knappschaftsausgleichsleistungen sowie die Altersgelder der Altershilfe für Landwirte zum 1. Januar 1982 nach den §§ 2 bis 5 dieses Gesetzes angepaßt."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_DL dtd:DL-id61 ;
+    dtd:has_Value "(1) Renten, die 1.nach den §§ 1253ff. der Reichsversicherungsordnung, 2.nach den §§ 30ff. des Angestelltenversicherungsgesetzes oder 3.nach den §§ 53ff. des Reichsknappschaftsgesetzes berechnet sind, werden dadurch angepaßt, daß die Höhe der Rente mit der allgemeinen Bemessungsgrundlage des Anpassungsjahrs ermittelt wird."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(2) Eine Rente, deren Höhe sich nicht nur nach den allgemeinen in Absatz 1 genannten Vorschriften ergibt, sondern auf einer voraufgegangenen Rente beruht oder infolge eines Versorgungsausgleichs oder auf Grund über- und zwischenstaatlichen Rechts geändert ist, wird nach § 3 angepaßt. Eine Rente, die nach Artikel 2 § 24 Abs. 5 des Knappschaftsrentenversicherungs-Neuregelungsgesetzes gezahlt wird, wird nach Absatz 1 angepaßt."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Renten, die nicht nach § 2 Abs. 1 anzupassen sind, und die Altersgelder werden dadurch angepaßt, daß der sich für den Monat Januar des Anpassungsjahrs ergebende anpassungsfähige Rentenbetrag um den auf zwei Dezimalstellen gerundeten Vomhundertsatz erhöht wird, um den die allgemeine Bemessungsgrundlage für das Anpassungsjahr die allgemeine Bemessungsgrundlage des Vorjahrs in vom Hundert übersteigt. Dabei ist für Renten, die auf einem in der Zeit vom 1. Januar bis 30. Juni 1978 eingetretenen Versicherungsfall beruhen, als allgemeine Bemessungsgrundlage des Vorjahrs in der Rentenversicherung der Arbeiter und der Angestellten ein Betrag in Höhe von 23.146 Deutsche Mark und in der knappschaftlichen Rentenversicherung in Höhe von 23.393 Deutsche Mark zugrunde zu legen."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "(1) Auf die angepaßten Renten sind die allgemeinen Vorschriften über das Zusammentreffen und Ruhen von Renten anzuwenden. Dabei sind für die in § 2 Abs. 2 genannten Renten die Grenzbeträge zugrunde zu legen, die auch für die nach § 2 Abs. 1 anzupassenden Renten maßgebend sind."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "(2) Ergibt allein die Anpassung der Rente nicht einen höheren als den bisherigen Betrag, ist dieser weiterzuleisten."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "(3) Bei Anwendung der Vorschriften dieses Gesetzes sind Abrundungen zulässig."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "Ergibt eine spätere Überprüfung, daß die Anpassung fehlerhaft ist, ist sie zu berichtigen. Die Berichtigung ist nur bis zur nächsten Anpassung zulässig. Die Leistung ist in ihrer bisherigen Höhe bis zum Ablauf des Monats zu erbringen, in dem die Berichtigung erfolgt. Eine Rückforderung überzahlter Beträge findet nicht statt."@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes auch im Land Berlin."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1981-12-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id93 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id94 .
+
+dtd:fussnoten-id51 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id73 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "RAG 1982"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "RAG 1982"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "RAG 1982"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "RAG 1982"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "RAG 1982"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "RAG 1982"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "RAG 1982"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "RAG 1982"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value """Rentenanpassungsgesetz 1982 (Artikel 1 des Gesetzes über die
+Anpassung der Renten der gesetzlichen Rentenversicherung im Jahr 1982)"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981BJNE000100311"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981BJNE000200311"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981BJNE000300311"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981BJNE000400311"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981BJNE000500311"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981BJNE000600311"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405131112"@de ;
+    dtd:has_doknr "BJNR112050981BJNE000700311"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id93 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Grundsatz"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Formelrenten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Sonstige Renten und Altersgelder"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Allgemeines"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Berichtigung fehlerhafter Anpassungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id94 a dtd:zitstelle ;
+    dtd:has_Value "1981, 1205"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

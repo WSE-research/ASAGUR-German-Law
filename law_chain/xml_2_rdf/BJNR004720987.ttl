@@ -1,0 +1,138 @@
+@prefix dtd: <urn:OrdenSeenotÄndErl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180406214524"@de ;
+    dtd:has_doknr "BJNR004720987"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id27 a dtd:Content ;
+    dtd:has_P dtd:P-id28 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_BR dtd:BR-id18 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29. 1.1987 +++)Vgl. Bek. v. 4.2.1987 BAnz S. 1521"@de ;
+    dtd:has_pre dtd:pre-id33 .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_BR dtd:BR-id21,
+        dtd:BR-id22,
+        dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_SP dtd:SP-id25,
+        dtd:SP-id26 ;
+    dtd:has_Value "Der Vorstand der Deutschen Gesellschaft zur Rettung Schiffbrüchiger hat am 5. Januar 1987 eine Änderung seines Beschlusses über die Stiftung der Medaille für Rettung aus Seenot am Bande der Deutschen Gesellschaft zur Rettung Schiffbrüchiger beschlossen; hierdurch werden die Verleihungsbedingungen für die Medaille geändert.Nach Artikel 6 Abs. 1 des Erlasses über die Genehmigung der Stiftung und Verleihung von Orden und Ehrenzeichen und über die Anerkennung als Ehrenzeichen vom 4. Juli 1958 (BGBl. I S. 422) genehmige ich die beschlossene Änderung; der Bundesminister des Innern veröffentlicht die Neufassung der Verleihungsbedingungen im Bundesanzeiger.Der BundespräsidentDer Bundesminister des Innern"@de .
+
+dtd:SP-id25 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id26 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1987-01-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id34 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id35 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id29 .
+
+dtd:fussnoten-id17 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "OrdenSeenotÄndErl"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "OrdenSeenotÄndErl"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Erlaß über die Genehmigung einer Änderung der Verleihungsbedingungen der
+Medaille für Rettung aus Seenot am Bande der Deutschen Gesellschaft zur Rettung
+Schiffbrüchiger"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180406214524"@de ;
+    dtd:has_doknr "BJNR004720987"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180406214524"@de ;
+    dtd:has_doknr "BJNR004720987BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id34 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id33 a dtd:pre ;
+    dtd:has_BR dtd:BR-id19,
+        dtd:BR-id20 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29. 1.1987 +++)"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id27 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id31 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id17 ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id35 a dtd:zitstelle ;
+    dtd:has_Value "1987, 472"@de .
+

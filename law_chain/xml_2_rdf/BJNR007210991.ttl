@@ -1,0 +1,110 @@
+@prefix dtd: <urn:BTGO1980Anl6Bek-1991#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154756"@de ;
+    dtd:has_doknr "BJNR007210991"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21 .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 26.3.1991 +++)"@de .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_SP dtd:SP-id19 ;
+    dtd:has_Value "Der Ausschuß für Wahlprüfung, Immunität und Geschäftsordnung des Deutschen Bundestages hat in seiner Sitzung in Immunitätsangelegenheiten am 21. Februar 1991 gemäß § 107 Abs. 2 der Geschäftsordnung des Deutschen Bundestages in der Fassung der Bekanntmachung vom 2. Juli 1980 (BGBl. I S. 1237), die zuletzt laut Bekanntmachung vom 12. November 1990 (BGBl. I S. 2555) geändert worden ist, die Übernahme der Grundsätze in Immunitätsangelegenheiten und in Fällen der Genehmigung gemäß § 50 Abs. 3 StPO und § 382 Abs. 3 ZPO sowie bei Ermächtigungen gemäß § 90b Abs. 2, § 194 Abs. 4 StGB (Anlage 6 der Geschäftsordnung des Deutschen Bundestages) für die 12. Wahlperiode beschlossen. Der Direktor beim Deutschen Bundestag"@de .
+
+dtd:SP-id19 a dtd:SP ;
+    dtd:has_Value "Der Direktor beim Deutschen Bundestag"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-03-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id26 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id27 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id22 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BTGO1980Anl6Bek 1991"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BTGO1980Anl6Bek 1991"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Übernahme der Grundsätze in Immunitätsangelegenheiten von Mitgliedern des Deutschen Bundestages"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154756"@de ;
+    dtd:has_doknr "BJNR007210991"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154756"@de ;
+    dtd:has_doknr "BJNR007210991BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id26 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id20 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id27 a dtd:zitstelle ;
+    dtd:has_Value "1991, 721"@de .
+

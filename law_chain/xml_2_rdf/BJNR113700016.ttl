@@ -1,0 +1,170 @@
+@prefix dtd: <urn:PatInfoZBek-2016#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170213214503"@de ;
+    dtd:has_doknr "BJNR113700016"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36,
+        dtd:P-id37,
+        dtd:P-id38,
+        dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:NB-id32 a dtd:NB ;
+    dtd:has_Value "Patent-,"@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_BR dtd:BR-id22 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.5.2016 +++)"@de ;
+    dtd:has_pre dtd:pre-id42 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 34 Absatz 2 Satz 1 und § 35 Absatz 1 Nummer 2 des Patentgesetzes, die durch Artikel 204 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden sind, auf Grund des § 4 Absatz 2 Satz 1 und § 4a Absatz 1 Nummer 2 des Gebrauchsmustergesetzes, die durch Artikel 205 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden sind, auf Grund des § 32 Absatz 1 Satz 2 und § 33 Absatz 1 Nummer 2 des Markengesetzes, die zuletzt durch Artikel 206 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden sind und auf Grund des § 11 Absatz 1 Satz 2 und § 13 Absatz 1 Nummer 2 des Designgesetzes in der Fassung der Bekanntmachung vom 24. Februar 2014 (BGBl. I S. 122), wird bekannt gemacht:"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26,
+        dtd:BR-id27,
+        dtd:BR-id28,
+        dtd:BR-id29,
+        dtd:BR-id30 ;
+    dtd:has_Value "DasPatentinformationszentrum Halle MIPO Mitteldeutsche Informations-, Patent-, Online-Service GmbH Julius-Ebeling-Straße 6 06112 Halle (Saale)ist ab dem 1. Juni 2016 nicht mehr als Patentinformationszentrum im Sinne von § 34 Absatz 2 Satz 1 und § 35 Absatz 1 Nummer 2 des Patentgesetzes, § 4 Absatz 2 Satz 1 und § 4a Absatz 1 Nummer 2 des Gebrauchsmustergesetzes, § 32 Absatz 1 Satz 2 und § 33 Absatz 1 Nummer 2 des Markengesetzes, § 11 Absatz 1 Satz 2 und § 13 Absatz 1 Nummer 2 des Designgesetzes, Artikel II § 4 Absatz 1 Satz 1 des Gesetzes über internationale Patentübereinkommen vom 21. Juni 1976 (BGBl. 1976 II S. 649), der zuletzt durch Artikel 6 Nummer 1 Buchstabe b des Gesetzes vom 16. Juli 1998 (BGBl. I S. 1827) geändert worden ist und Artikel III § 1 Absatz 2 Satz 1 des Gesetzes über internationale Patentübereinkommen vom 21. Juni 1976 (BGBl. 1976 II S. 649), der zuletzt durch Artikel 2 Absatz 2 des Gesetzes vom 12. März 2004 (BGBl. I S. 390) geändert worden ist, zur Entgegennahme von Patent-, Gebrauchsmuster-, Marken- und Designanmeldungen bestimmt."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_NB dtd:NB-id32 ;
+    dtd:has_Value "Ab dem 1. Juni 2016 können bei der MIPO Mitteldeutsche Informations-,Patent-, Online-Service GmbH keine Schutzrechtsanmeldungen mehr eingereicht werden."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "Die Bekanntmachung vom 5. Oktober 2004 (BGBl. I S. 2599) wird insoweit aufgehoben."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_SP dtd:SP-id31 ;
+    dtd:has_Value "Bundesministerium der Justiz und für Verbraucherschutz"@de .
+
+dtd:SP-id31 a dtd:SP ;
+    dtd:has_Value "Bundesministerium der Justiz und für Verbraucherschutz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2016-05-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id33 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "PatInfoZBek 2016"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "PatInfoZBek 2016"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "PatInfoZBek 2016"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung der Änderung der zur Entgegennahme von Patent-, Gebrauchsmuster-, Marken- und Designanmeldungen befugten Patentinformationszentren"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170213214503"@de ;
+    dtd:has_doknr "BJNR113700016"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170213214503"@de ;
+    dtd:has_doknr "BJNR113700016BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170213214503"@de ;
+    dtd:has_doknr "BJNR113700016BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id42 a dtd:pre ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.5.2016 +++)"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "2016, 1137"@de .
+

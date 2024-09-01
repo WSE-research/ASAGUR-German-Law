@@ -1,0 +1,172 @@
+@prefix dtd: <urn:BNDDisRZustAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240416214515"@de ;
+    dtd:has_doknr "BJNR056000002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36,
+        dtd:P-id37 .
+
+dtd:DD-id25 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id29 .
+
+dtd:DD-id26 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id30 .
+
+dtd:DD-id27 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id31 .
+
+dtd:DD-id28 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id32 .
+
+dtd:DL-id20 a dtd:DL ;
+    dtd:has_DD dtd:DD-id25,
+        dtd:DD-id26,
+        dtd:DD-id27,
+        dtd:DD-id28 ;
+    dtd:has_DT dtd:DT-id21,
+        dtd:DT-id22,
+        dtd:DT-id23,
+        dtd:DT-id24 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id21 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id22 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id23 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id24 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id29 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zuständigkeit, nach § 42 Abs. 1 des Bundesdisziplinargesetzes den Widerspruchsbescheid zu erlassen, soweit sie oder er zum Erlass der angefochtenen Entscheidung zuständig war,"@de .
+
+dtd:LA-id30 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Befugnis, nach § 33 Abs. 1 in Verbindung mit Abs. 3 Nr. 1 des Bundesdisziplinargesetzes die Kürzung der Dienstbezüge bis zum Höchstmaß festzusetzen,"@de .
+
+dtd:LA-id31 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Befugnis, nach § 34 Abs. 1 in Verbindung mit Abs. 2 Satz 1 des Bundesdisziplinargesetzes Disziplinarklage zu erheben und"@de .
+
+dtd:LA-id32 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Befugnis, nach § 84 Satz 1 des Bundesdisziplinargesetzes gegenüber Ruhestandsbeamtinnen und Ruhestandsbeamten die Disziplinarbefugnisse auszuüben,"@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_BR dtd:BR-id16 ;
+    dtd:has_Value " (+++ Textnachweis ab: 4.2.2002 +++) (+++ AnO nur noch anzuwenden auf vor dem 1. April 2024 eingeleitete Disziplinarverfahren des Geschäftsbereichs des Bundesnachrichtendienstes gem. § 6 Satz 2 AnO 2030-11-48-21 v. 9.4.2024 I Nr. 117 +++)"@de ;
+    dtd:has_pre dtd:pre-id38 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_DL dtd:DL-id20 ;
+    dtd:has_Value "Nach § 33 Abs. 5, § 34 Abs. 2 Satz 2, § 42 Abs. 1 Satz 2 und § 84 Satz 2 des Bundesdisziplinargesetzes vom 9. Juli 2001 (BGBl. I S. 1510) wird der Präsidentin oder dem Präsidenten des Bundesnachrichtendienstes 1.die Zuständigkeit, nach § 42 Abs. 1 des Bundesdisziplinargesetzes den Widerspruchsbescheid zu erlassen, soweit sie oder er zum Erlass der angefochtenen Entscheidung zuständig war,2.die Befugnis, nach § 33 Abs. 1 in Verbindung mit Abs. 3 Nr. 1 des Bundesdisziplinargesetzes die Kürzung der Dienstbezüge bis zum Höchstmaß festzusetzen,3.die Befugnis, nach § 34 Abs. 1 in Verbindung mit Abs. 2 Satz 1 des Bundesdisziplinargesetzes Disziplinarklage zu erheben und4.die Befugnis, nach § 84 Satz 1 des Bundesdisziplinargesetzes gegenüber Ruhestandsbeamtinnen und Ruhestandsbeamten die Disziplinarbefugnisse auszuüben,übertragen."@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_SP dtd:SP-id19 ;
+    dtd:has_Value "Der Chef des Bundeskanzleramtes"@de .
+
+dtd:SP-id19 a dtd:SP ;
+    dtd:has_Value "Der Chef des Bundeskanzleramtes"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-01-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id14 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id33 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BNDDisRZustAnO"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BNDDisRZustAnO"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Anordnung zur Übertragung disziplinarrechtlicher Zuständigkeiten
+und Befugnisse im Bereich des Bundesnachrichtendienstes"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240416214515"@de ;
+    dtd:has_doknr "BJNR056000002"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240416214515"@de ;
+    dtd:has_doknr "BJNR056000002BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id38 a dtd:pre ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_Value "(+++ Textnachweis ab: 4.2.2002 +++) (+++ AnO nur noch anzuwenden auf vor dem 1. April 2024 eingeleitete Disziplinarverfahren des Geschäftsbereichs des Bundesnachrichtendienstes gem. § 6 Satz 2 AnO 2030-11-48-21 v. 9.4.2024 I Nr. 117 +++)"@de .
+
+dtd:text-id15 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id15 .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "2002, 560"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

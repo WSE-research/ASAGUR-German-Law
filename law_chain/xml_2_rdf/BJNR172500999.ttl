@@ -1,0 +1,174 @@
+@prefix dtd: <urn:BRegSitzBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131732"@de ;
+    dtd:has_doknr "BJNR172500999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37,
+        dtd:P-id38 .
+
+dtd:DD-id23 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id27,
+        dtd:LA-id28 .
+
+dtd:DD-id24 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id29 .
+
+dtd:DD-id25 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id30 .
+
+dtd:DD-id26 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id31 .
+
+dtd:DL-id18 a dtd:DL ;
+    dtd:has_DD dtd:DD-id23,
+        dtd:DD-id24,
+        dtd:DD-id25,
+        dtd:DD-id26 ;
+    dtd:has_DT dtd:DT-id19,
+        dtd:DT-id20,
+        dtd:DT-id21,
+        dtd:DT-id22 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id19 a dtd:DT ;
+    dtd:has_Value "\"1."@de .
+
+dtd:DT-id20 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id21 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id22 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id27 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gemäß § 3 Abs. 2 des Berlin/Bonn-Gesetzes hat die Bundesregierung den Vollzug ihrer Sitzentscheidung für Berlin in zeitlicher Abstimmung mit dem Vollzug der Sitzentscheidung des Deutschen Bundestages vorzunehmen."@de .
+
+dtd:LA-id28 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Deutsche Bundestag hat in seiner Plenarsitzung am 1. Juli 1999 gemäß § 2 Abs. 2 Berlin/Bonn-Gesetz festgestellt, daß die erforderlichen Voraussetzungen für die Arbeitsfähigkeit des Deutschen Bundestages in Berlin mit Wirkung vom 1. September 1999 hergestellt sind."@de .
+
+dtd:LA-id29 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Sitzentscheidung des Verfassungsorgans Bundesregierung für die Bundeshauptstadt Berlin wird mit Wirkung vom 1. September 1999 vollzogen."@de .
+
+dtd:LA-id30 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Bundesregierung hat am 11. Dezember 1991 und am 3. Juni 1992 die Aufteilung der Bundesministerien auf Berlin und Bonn festgelegt (Bundestags-Drucksache 12/1832 vom 12. Dezember 1991, Seite 33f., und Bundestags-Drucksache 12/2850 vom 17. Juni 1992, Seite 35 sowie 38f.). Diese Sitzfestlegungen sind bestimmend, soweit Rechts- und Verwaltungsvorschriften an den Sitz einer Behörde anknüpfen."@de .
+
+dtd:LA-id31 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Zuständigkeit für die Bekanntmachung nach § 9 Nr. 3 Berlin/Bonn-Gesetz wird auf das für die jeweilige Einrichtung zuständige Bundesministerium übertragen; beim Vollzug der Sitzfestlegungen ist der Beauftragte der Bundesregierung für den Berlin-Umzug und den Bonn-Ausgleich zu beteiligen.\""@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 30. 7.1999 +++)"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_DL dtd:DL-id18 ;
+    dtd:has_Value "Nachstehend mache ich gemäß § 9 Nr. 2 des Berlin/Bonn-Gesetzes die Sitzentscheidung der Bundesregierung vom 21. Juli 1999 bekannt: \"1.Gemäß § 3 Abs. 2 des Berlin/Bonn-Gesetzes hat die Bundesregierung den Vollzug ihrer Sitzentscheidung für Berlin in zeitlicher Abstimmung mit dem Vollzug der Sitzentscheidung des Deutschen Bundestages vorzunehmen.Der Deutsche Bundestag hat in seiner Plenarsitzung am 1. Juli 1999 gemäß § 2 Abs. 2 Berlin/Bonn-Gesetz festgestellt, daß die erforderlichen Voraussetzungen für die Arbeitsfähigkeit des Deutschen Bundestages in Berlin mit Wirkung vom 1. September 1999 hergestellt sind.2.Die Sitzentscheidung des Verfassungsorgans Bundesregierung für die Bundeshauptstadt Berlin wird mit Wirkung vom 1. September 1999 vollzogen.3.Die Bundesregierung hat am 11. Dezember 1991 und am 3. Juni 1992 die Aufteilung der Bundesministerien auf Berlin und Bonn festgelegt (Bundestags-Drucksache 12/1832 vom 12. Dezember 1991, Seite 33f., und Bundestags-Drucksache 12/2850 vom 17. Juni 1992, Seite 35 sowie 38f.). Diese Sitzfestlegungen sind bestimmend, soweit Rechts- und Verwaltungsvorschriften an den Sitz einer Behörde anknüpfen.4.Die Zuständigkeit für die Bekanntmachung nach § 9 Nr. 3 Berlin/Bonn-Gesetz wird auf das für die jeweilige Einrichtung zuständige Bundesministerium übertragen; beim Vollzug der Sitzfestlegungen ist der Beauftragte der Bundesregierung für den Berlin-Umzug und den Bonn-Ausgleich zu beteiligen.\""@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_SP dtd:SP-id17 ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:SP-id17 a dtd:SP ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-07-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BRegSitzBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BRegSitzBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Sitzentscheidung der Bundesregierung"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131732"@de ;
+    dtd:has_doknr "BJNR172500999"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131732"@de ;
+    dtd:has_doknr "BJNR172500999BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "1999, 1725"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

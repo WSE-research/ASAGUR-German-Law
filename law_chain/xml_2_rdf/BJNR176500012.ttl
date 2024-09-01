@@ -1,0 +1,663 @@
+@prefix dtd: <urn:NWRG-DV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id109 a dtd:BR .
+
+dtd:BR-id110 a dtd:BR .
+
+dtd:BR-id111 a dtd:BR .
+
+dtd:BR-id112 a dtd:BR .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125,
+        dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128,
+        dtd:P-id129,
+        dtd:P-id130,
+        dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135,
+        dtd:P-id136,
+        dtd:P-id137,
+        dtd:P-id138,
+        dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141,
+        dtd:P-id142,
+        dtd:P-id143 .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145,
+        dtd:P-id146,
+        dtd:P-id147,
+        dtd:P-id148,
+        dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155,
+        dtd:P-id156,
+        dtd:P-id157,
+        dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DL-id113 a dtd:DL ;
+    dtd:has_DD dtd:DD-id116,
+        dtd:DD-id117 ;
+    dtd:has_DT dtd:DT-id114,
+        dtd:DT-id115 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Meldeportal (Web-Portal) und"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine automatisierte Schnittstelle (Web-Service)."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_BR dtd:BR-id109,
+        dtd:BR-id112 ;
+    dtd:has_Value " (+++ Textnachweis ab: 24.8.2012 +++) Überschrift: IdF d. Art. 3 Nr. 1 V v. 1.9.2020 I 1977 mWv 19.9.2020"@de ;
+    dtd:has_pre dtd:pre-id163 .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 20 Absatz 1 und 2 sowie des § 22 Absatz 2 Satz 2 des Nationalen-Waffenregister-Gesetzes vom 25. Juni 2012 (BGBl. I S. 1366) verordnet das Bundesministerium des Innern:"@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(1) Die Speicherung der Daten im Nationalen Waffenregister erfolgt nach Maßgabe des Datensatzes für das Waffenwesen (DSWaffe) vom 6. Juli 2012 (BAnz AT 22.08.2012 B2) in der jeweils aktuellen Fassung. Änderungen des DSWaffe werden vom Bundesministerium des Innern, für Bau und Heimat im Bundesanzeiger bekannt gemacht; anzugeben ist das Herausgabedatum und ab wann der geänderte DSWaffe anzuwenden ist."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(2) Der jeweils aktuelle Stand des DSWaffe ist beim Bundesverwaltungsamt, Barbarastraße 1, 50735 Köln, zu beziehen. Die Bekanntmachungen sind beim Bundesarchiv, Potsdamer Straße 1, 56075 Koblenz, jedermann zugänglich und archivmäßig gesichert niedergelegt."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(1) Die Datenübermittlung der Waffenbehörden erfolgt über die informationstechnischen Netze von Bund, Ländern und Kommunen. Die Datenübermittlung zwischen dem Bund und den Ländern erfolgt gemäß § 3 des Gesetzes zur Ausführung von Artikel 91c Absatz 4 des Grundgesetzes vom 10. August 2009 (BGBl. I S. 2702, 2706) in der jeweils geltenden Fassung über das Verbindungsnetz."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(2) Die Datenübermittlung durch die Waffenbehörden an die Registerbehörde erfolgt elektronisch unter Nutzung des Datenaustauschstandards XWaffe vom 6. Juli 2012 (BAnz AT 22.08.2012 B3) in der jeweils aktuellen Fassung. Änderungen des Datenaustauschstandards XWaffe werden vom Bundesministerium des Innern, für Bau und Heimat im Bundesanzeiger bekannt gemacht; anzugeben ist das Herausgabedatum und ab wann der geänderte Datenaustauschstandard XWaffe anzuwenden ist."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(3) Der Datenübertragung werden allgemein anerkannte Standards zugrunde gelegt. Die Verschlüsselung erfolgt nach dem jeweiligen Stand der Technik. Die von der Registerbehörde im Bundesanzeiger bekannt gemachten technischen Ausführungsregeln vom 29. Juni 2012 (BAnz AT 22.08.2012 B7) sind in der jeweils aktuellen Fassung anzuwenden. Änderungen werden von der Registerbehörde im Bundesanzeiger bekannt gemacht; anzugeben ist, ab wann die geänderten Ausführungsregeln anzuwenden sind."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(4) Der jeweils aktuelle Stand des Datenaustauschstandards XWaffe und der technischen Ausführungsregeln sind beim Bundesverwaltungsamt, Barbarastraße 1, 50735 Köln, zu beziehen. Die Bekanntmachungen sind beim Bundesarchiv, Potsdamer Straße 1, 56075 Koblenz, jedermann zugänglich und archivmäßig gesichert niedergelegt."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(+++ § 2 Abs. 2 u. Abs. 3 Satz 1 u. 2: zur Geltung vgl. § 2a Abs. 4 +++)"@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(1) Das automatisierte Fachverfahren wird von einer zu diesem Zweck beauftragten Stelle betrieben. Die Beauftragung erfolgt durch die Länder."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_DL dtd:DL-id113 ;
+    dtd:has_Value "(2) Das automatisierte Fachverfahren ermöglicht die Datenübermittlung über 1.ein Meldeportal (Web-Portal) und2.eine automatisierte Schnittstelle (Web-Service)."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(3) Der Inhaber einer Erlaubnis nach § 21 Absatz 1 Satz 1 des Waffengesetzes hat bei der Waffenbehörde schriftlich oder elektronisch die Zugangsdaten zu beantragen und seine Identität sowie die Identität derjenigen, die in seinem Namen elektronische Anzeigen abgeben sollen, nachzuweisen. Die Zugangsdaten haben dem aktuellen Stand der Vorgaben der IT-Sicherheit zu entsprechen. Die Bereitstellung der Zugangsdaten erfolgt über die PKI-Leistungen des Verbindungsnetzes."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(4) § 2 Absatz 2 und 3 Satz 1 und 2 gilt entsprechend."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "(5) Das Bundesministerium des Innern, für Bau und Heimat macht die Schnittstellenspezifikation zur Nutzung des automatisierten Fachverfahrens nach Absatz 2 Nummer 2 im Bundesanzeiger bekannt; anzugeben ist, ab wann die Schnittstellenspezifikation zu nutzen ist und wo die Schnittstellenspezifikation zu beziehen ist. Satz 1 gilt entsprechend für Änderungen der Schnittstellenspezifikation. Die Schnittstellenspezifikation ist in der jeweils aktuell geltenden Fassung anzuwenden. Die Bekanntmachungen sind beim Bundesarchiv, Potsdamer Straße 1, 56075 Koblenz, jedermann zugänglich und archivmäßig gesichert niedergelegt."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(1) Liegt zu einer Person noch kein Datensatz im Nationalen Waffenregister vor, wird ein neuer Datensatz angelegt und an die Registerbehörde übermittelt. Die Registerbehörde vergibt für die Person die Personen-Ordnungsnummer und teilt diese der Waffenbehörde mit. Die Waffenbehörde übermittelt unter Bezugnahme auf die Personen-Ordnungsnummer die Daten, die nach den Speicheranlässen des § 5 Nummer 1, Nummer 2, Nummer 3 Buchstabe a, Nummer 4, Nummer 8 oder Nummer 9 des Waffenregistergesetzes zu übermitteln sind. Die Registerbehörde vergibt zu diesen Daten die waffenrechtliche Entscheidungs-Ordnungsnummer und teilt diese der Waffenbehörde mit. Die Waffenbehörde übermittelt unter Bezugnahme auf die waffenrechtliche Entscheidungs-Ordnungsnummer die Grunddaten der Waffe oder des wesentlichen Teils. Die Registerbehörde vergibt für die Grunddaten der Waffe oder des wesentlichen Teils die Waffen- oder Waffenteil-Ordnungsnummer."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "(2) Besteht im Register zu einer Person oder einer Waffe bereits ein Datensatz, werden diesem die übermittelten Daten durch Angabe der Ordnungsnummer nach § 7 Absatz 1 des Waffenregistergesetzes zugeordnet."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(3) Stimmen Angaben nach § 6 Absatz 1 Nummer 2 oder Nummer 3 des Waffenregistergesetzes zu einer Person mit den gespeicherten Angaben zu einer anderen Person überein oder weichen nur geringfügig von dieser ab, übermittelt die Waffenbehörde an die Registerbehörde einen Hinweis, dass es sich um verschiedene Personen handelt."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "(1) Die Zulassung zum Datenabruf im automatisierten Verfahren ist schriftlich bei der Registerbehörde zu beantragen. Im Antrag ist darzulegen, ob die Voraussetzungen des § 20 Absatz 1 Nummer 3 des Waffenregistergesetzes vorliegen. Zugleich ist anzugeben, in welchem Umfang und an welchen Standorten Einrichtungen zum Datenabruf geschaffen werden sollen. Die Registerbehörde ist berechtigt, entsprechende Nachweise zu verlangen."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(2) Die Registerbehörde teilt dem Antragsteller die beabsichtigte Entscheidung mit und fordert ihn zugleich auf, die zur Datensicherung erforderlichen technischen und organisatorischen Maßnahmen zu treffen. Die Entscheidung ergeht, sobald der Antragsteller der Registerbehörde mitgeteilt hat, dass er diese Maßnahmen getroffen hat. Die Registerbehörde ist nicht verpflichtet zu überprüfen, ob die Maßnahmen tatsächlich getroffen worden sind."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(3) Die Zulassung zum Datenabruf im automatisierten Verfahren kann auf bestimmte Standorte, inhaltlich beschränkt und mit einer Auflage versehen werden, um zu verhindern, dass ein automatisierter Datenabruf erfolgt, wenn die gesetzlichen Voraussetzungen hierfür nicht vorliegen."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(4) Die Registerbehörde führt ein Verzeichnis der zum Abruf im automatisierten Verfahren zugelassenen öffentlichen Stellen und der getroffenen Maßnahmen. Die Registerbehörde hat die Zulassungsunterlagen aufzubewahren und gegen Zugriff durch Unbefugte zu sichern."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(5) Die Registerbehörde gewährleistet im automatisierten Abrufverfahren nach den §§ 20 und 21 des Waffenregistergesetzes durch programmtechnische Vorkehrungen, dass keine Daten übermittelt werden, wenn die Identität der abfragenden Stelle nicht zweifelsfrei feststeht. Sie dokumentiert für sechs Monate Anfragen ohne Kennung und Anfragen mit einer fehlerhaften Kennung."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "Die Datenübermittlung durch Abruf im automatisierten Verfahren erfolgt unter Nutzung des Datenaustauschstandards XWaffe oder über die von der Registerbehörde bereitgestellte Portalanwendung. § 2 Absatz 1 und 3 gilt entsprechend."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "Ähnliche Personen, ähnliche Kaufleute, ähnliche juristische Personen, ähnliche Personenvereinigungen und ähnliche Waffen im Sinne des § 16 Absatz 3 des Waffenregistergesetzes sind solche, deren Daten nach § 6 Absatz 1 des Waffenregistergesetzes oder abweichende Namensschreibweisen mit den im Übermittlungsersuchen angegebenen Daten nach § 6 Absatz 1 des Waffenregistergesetzes übereinstimmen oder nur geringfügig davon abweichen."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "(1) Die Registerbehörde trifft die technischen und organisatorischen Maßnahmen, die erforderlich sind, um die Verfügbarkeit, Integrität, Authentizität und Vertraulichkeit der verarbeiteten Daten entsprechend dem jeweiligen Stand der Technik sicherzustellen. Dabei ist die besondere Schutzbedürftigkeit der im Register gespeicherten Daten zu berücksichtigen."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(2) Die Waffenbehörden und die zum Ersuchen berechtigten Stellen treffen die technischen und organisatorischen Maßnahmen, die erforderlich sind, um die Verfügbarkeit, Integrität, Authentizität und Vertraulichkeit der in ihren Systemen verarbeiteten Daten für das Nationale Waffenregister entsprechend dem jeweiligen Stand der Technik sicherzustellen. Dabei ist die besondere Schutzbedürftigkeit der verarbeiteten Daten zu berücksichtigen."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(3) Die in den Absätzen 1 und 2 bezeichneten Stellen erstellen zur Erfüllung ihrer dort genannten Pflichten ein IT-Sicherheitskonzept, das den jeweils aktuellen Standards des Bundesamtes für die Sicherheit in der Informationstechnik (BSI) oder vergleichbaren Standards entspricht. Das Sicherheitskonzept legt fest, mit welchen technischen und organisatorischen Maßnahmen die Vorgaben des für die jeweilige Behörde anzuwendenden Datenschutzgesetzes und dieser Verordnung gewährleistet werden."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(4) Die Organisation der in den Absätzen 1 und 2 genannten Stellen ist so zu gestalten, dass sie den Grundsätzen der Aufgabentrennung und der Erforderlichkeit entsprechen; insbesondere ist der Zugang zu personenbezogenen Daten nur so weit gestattet, wie es der Aufgabenerfüllung dient."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id39 a dtd:amtabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id40 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-07-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 2a"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id67 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id71 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id79 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id83 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id87 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id41 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id164 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id165 .
+
+dtd:fussnoten-id102 a dtd:fussnoten .
+
+dtd:fussnoten-id104 a dtd:fussnoten .
+
+dtd:fussnoten-id106 a dtd:fussnoten .
+
+dtd:fussnoten-id108 a dtd:fussnoten .
+
+dtd:fussnoten-id88 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id120 .
+
+dtd:fussnoten-id91 a dtd:fussnoten .
+
+dtd:fussnoten-id93 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id132 .
+
+dtd:fussnoten-id95 a dtd:fussnoten .
+
+dtd:fussnoten-id97 a dtd:fussnoten .
+
+dtd:fussnoten-id99 a dtd:fussnoten .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id73 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id78 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id81 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id82 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:jurabk-id85 a dtd:jurabk ;
+    dtd:has_Value "NWRG-DV"@de .
+
+dtd:jurabk-id86 a dtd:jurabk ;
+    dtd:has_Value "WaffRGDV"@de .
+
+dtd:kurzue-id42 a dtd:kurzue ;
+    dtd:has_Value "Waffenregistergesetz-Durchführungsverordnung"@de .
+
+dtd:langue-id43 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung des Waffenregistergesetzes"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id39 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id40 ;
+    dtd:has_fundstelle dtd:fundstelle-id41 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_kurzue dtd:kurzue-id42 ;
+    dtd:has_langue dtd:langue-id43 ;
+    dtd:has_standangabe dtd:standangabe-id44,
+        dtd:standangabe-id45 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id46,
+        dtd:jurabk-id47 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id49,
+        dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id53,
+        dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id57,
+        dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id61,
+        dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id67 ;
+    dtd:has_jurabk dtd:jurabk-id65,
+        dtd:jurabk-id66 ;
+    dtd:has_titel dtd:titel-id68 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id71 ;
+    dtd:has_jurabk dtd:jurabk-id69,
+        dtd:jurabk-id70 ;
+    dtd:has_titel dtd:titel-id72 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id73,
+        dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id79 ;
+    dtd:has_jurabk dtd:jurabk-id77,
+        dtd:jurabk-id78 ;
+    dtd:has_titel dtd:titel-id80 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id83 ;
+    dtd:has_jurabk dtd:jurabk-id81,
+        dtd:jurabk-id82 ;
+    dtd:has_titel dtd:titel-id84 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id87 ;
+    dtd:has_jurabk dtd:jurabk-id85,
+        dtd:jurabk-id86 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000701128"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000801128"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000901128"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE001101128"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000201128"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000302128"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE001200128"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000401128"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000501128"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20200925212507"@de ;
+    dtd:has_doknr "BJNR176500012BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id164 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id163 a dtd:pre ;
+    dtd:has_BR dtd:BR-id110,
+        dtd:BR-id111 ;
+    dtd:has_Value "(+++ Textnachweis ab: 24.8.2012 +++)"@de .
+
+dtd:standangabe-id44 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id167 ;
+    dtd:has_standtyp dtd:standtyp-id166 .
+
+dtd:standangabe-id45 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id169 ;
+    dtd:has_standtyp dtd:standtyp-id168 .
+
+dtd:standkommentar-id167 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 V v. 1.9.2020 I 1977"@de .
+
+dtd:standkommentar-id169 a dtd:standkommentar ;
+    dtd:has_Value "Änderung der Inhaltsübersicht durch Art. 3 Nr. 2 V v. 1.9.2020 I 1977 ist nicht ausführbar, da diese V keine amtliche Inhaltsübersicht hat"@de .
+
+dtd:standtyp-id166 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id168 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id100 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id101 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id103 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id105 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id107 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id144 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id91 ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id93 ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id95 ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id97 ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id99 ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id100 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id102 ;
+    dtd:has_text dtd:text-id101 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id104 ;
+    dtd:has_text dtd:text-id103 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id106 ;
+    dtd:has_text dtd:text-id105 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id108 ;
+    dtd:has_text dtd:text-id107 .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Inhalt der Datensätze"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Datenübermittlung an die Registerbehörde"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Datenübermittlung an die Waffenbehörden"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Verfahren zur Datenübermittlung an die Registerbehörde"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id68 a dtd:titel ;
+    dtd:has_Value "Zulassung zum automatisierten Abrufverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id72 a dtd:titel ;
+    dtd:has_Value "Datenabruf im automatisierten Verfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Identitätsfeststellung durch die zum Ersuchen berechtigten Stellen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id80 a dtd:titel ;
+    dtd:has_Value "Datenschutz und Datensicherheit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id84 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id165 a dtd:zitstelle ;
+    dtd:has_Value "2012, 1765"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

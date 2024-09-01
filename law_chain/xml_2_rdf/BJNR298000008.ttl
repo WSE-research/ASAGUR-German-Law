@@ -1,0 +1,569 @@
+@prefix dtd: <urn:FlugLSV-1#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118,
+        dtd:P-id119,
+        dtd:P-id120,
+        dtd:P-id121,
+        dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128,
+        dtd:P-id129,
+        dtd:P-id130,
+        dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133,
+        dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id96,
+        dtd:DD-id97 ;
+    dtd:has_DT dtd:DT-id94,
+        dtd:DT-id95 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id98 a dtd:DL ;
+    dtd:has_DD dtd:DD-id102,
+        dtd:DD-id103,
+        dtd:DD-id104 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id101,
+        dtd:DT-id99 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Value "dem Halter des Flugplatzes insbesondere zu den Flugbewegungszahlen und"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Value "den mit der Flugsicherung Beauftragten insbesondere zu den Flugverfahren und Flugstrecken."@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_SUB dtd:SUB-id82 ;
+    dtd:has_Value "der äquivalente Dauerschallpegel LAeq Tag als Außenpegel für die Tag-Schutzzonen 1 und 2,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_SUB dtd:SUB-id83 ;
+    dtd:has_Value "der äquivalente Dauerschallpegel LAeq Nacht als Außenpegel für die Nacht-Schutzzone und"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_SUB dtd:SUB-id84 ;
+    dtd:has_Value "der Maximalpegel LAmax als Pegel im Rauminnern für die Nacht-Schutzzone"@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_BR dtd:BR-id76 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30.12.2008 +++)"@de ;
+    dtd:has_pre dtd:pre-id139 .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 2 des Gesetzes zum Schutz gegen Fluglärm in der Fassung der Bekanntmachung vom 31. Oktober 2007 (BGBl. I S. 2550) verordnet die Bundesregierung nach Anhörung der beteiligten Kreise:"@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt für die Festsetzung von Lärmschutzbereichen nach dem Gesetz zum Schutz gegen Fluglärm. Sie regelt Anforderungen an die zur Ermittlung der Lärmbelastung erforderliche Datenerfassung über den voraussehbaren Flugbetrieb sowie an das Berechnungsverfahren für die Ermittlung der Lärmbelastung."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(1) Der Halter eines Flugplatzes und die mit der Flugsicherung Beauftragten erteilen der zuständigen Behörde auf Anforderung die für die Ermittlung der Lärmbelastung nach § 3 des Gesetzes zum Schutz gegen Fluglärm erforderlichen Auskünfte über den voraussehbaren Flugbetrieb und legen entsprechende Daten, Unterlagen und Pläne vor. Die Daten über den Flugbetrieb erfassen die Flugbewegungen, die vom Flugplatz ausgehen (Starts und Abflüge) und die zum Flugplatz führen (Anflüge und Landungen) innerhalb des Erfassungsbereichs nach Nummer 2.1.1.1 der Anleitung zur Datenerfassung über den Flugbetrieb (AzD) vom 19. November 2008 (BAnz. Nr. 195a vom 23. Dezember 2008), die Platzrundenflüge am Flugplatz, die Überflüge über eine Start- und Landebahn in niedriger Höhe ohne Bodenkontakt, die Rollbewegungen der Luftfahrzeuge vor dem Start und nach der Landung sowie den Betrieb von Hilfsgasturbinen der Flugzeuge."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Die Daten über den Flugbetrieb beschreiben die Flugbewegungen in einem Prognosejahr, das in der Regel zehn Jahre nach der in Absatz 1 genannten Anforderung liegt. Das Prognosejahr wird von der zuständigen Behörde bestimmt. Die Prognose bezieht sich auf die sechs verkehrsreichsten Monate (180 Tage) des Prognosejahres. Die Monate müssen keinen zusammenhängenden Zeitraum des Prognosejahres bilden. Im Hinblick auf die Beurteilungszeiten Tag und Nacht ist bei Abflügen der Zeitpunkt des Starts und bei Anflügen der Zeitpunkt der Landung maßgeblich. Platzrundenflüge werden der Nachtzeit zugerechnet, sofern Start oder Landung in dieser Beurteilungszeit stattfinden."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(3) Die Daten über den Flugbetrieb eines bestehenden Flugplatzes erfassen die Streuung der Nutzungsanteile der einzelnen Betriebsrichtungen, indem für jede Start- und Landebahn die Nutzungsanteile in den zurückliegenden zehn Kalenderjahren getrennt für die Zeiträume Tag und Nacht sowie getrennt für Start und Landung angegeben werden. Sofern Daten zu den Nutzungsanteilen nur für kürzere Zeiträume vorliegen oder sofern die Nutzungsanteile Besonderheiten aufweisen, kann die zuständige Behörde einen kürzeren oder einen anderen Erfassungszeitraum vorgeben. Ein solcher Erfassungszeitraum soll nicht vorgegeben werden, wenn ein erneutes Vorkommen der in diesen Jahren aufgetretenen Besonderheiten über den ganzen Prognosezeitraum nicht ausgeschlossen werden kann. Sofern für einen Flugplatz keine ausreichenden statistischen Daten zu den Nutzungsanteilen vorliegen, sollen die Nutzungsanteile aufgrund von Daten über die örtliche Windrichtungsverteilung oder aufgrund der Nutzungsanteile vergleichbarer Flugplätze abgeschätzt werden. Satz 4 gilt entsprechend für die Anlegung eines Flugplatzes oder den Bau einer neuen Start- und Landebahn."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(4) Die Vorlage der Daten über den Flugbetrieb erfolgt mit einem Datenerfassungssystem nach der Anleitung zur Datenerfassung über den Flugbetrieb (AzD) in der in Absatz 1 Satz 2 genannten Fassung. Ferner sind Unterlagen vorzulegen, in denen die wesentlichen fachlichen Annahmen beschrieben werden, die der Prognose über Art und Umfang des voraussehbaren Flugbetriebs zugrunde liegen. Zukünftige, in der Prognose berücksichtigte Änderungen in der Anlage oder im Betrieb des Flugplatzes sowie in den Flugverfahren sind zu erläutern. Die Unterlagen enthalten auch Angaben über den Flugplatz insbesondere mit Flugplatzdaten und Plänen."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Value "(5) Die Daten über Art und Umfang des voraussehbaren Flugbetriebs werden zur Verfügung gestellt von 1.dem Halter des Flugplatzes insbesondere zu den Flugbewegungszahlen und2.den mit der Flugsicherung Beauftragten insbesondere zu den Flugverfahren und Flugstrecken.Der Halter des Flugplatzes und die mit der Flugsicherung Beauftragten gleichen ihre Daten ab und teilen Unstimmigkeiten der zuständigen Behörde mit."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(6) Die Angaben nach den Absätzen 1 bis 5 werden der zuständigen Behörde unentgeltlich zur Verfügung gestellt."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(1) Die zuständige Behörde kann anordnen, dass die Erfassung und die Übermittlung der Daten über den Flugbetrieb elektronisch erfolgt. Für die elektronische Erfassung und die Übermittlung der Daten sind Datenformate zu verwenden, die die vollständige Erfassung der Daten gewährleisten und den allgemein anerkannten Regeln der Technik entsprechen."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit kann Datenformate nach Absatz 1 Satz 2 feststellen und im Bundesanzeiger bekannt machen. Die Feststellung von Datenformaten, die für zivile Flugplätze verwendet werden sollen, erfolgt im Einvernehmen mit dem Bundesministerium für Verkehr und digitale Infrastruktur, die Feststellung von Datenformaten, die für militärische Flugplätze verwendet werden sollen, im Einvernehmen mit dem Bundesministerium der Verteidigung."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(3) Die zuständige Behörde kann festlegen, dass Dokumente, die elektronisch übermittelt werden, mit einer qualifizierten elektronischen Signatur zu versehen sind."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_DL dtd:DL-id98 ;
+    dtd:has_SUB dtd:SUB-id79,
+        dtd:SUB-id80,
+        dtd:SUB-id81,
+        dtd:SUB-id85 ;
+    dtd:has_Value "(1) Die für die Festsetzung eines Lärmschutzbereichs nach § 4 Abs. 3 und 4 des Gesetzes zum Schutz gegen Fluglärm erforderliche Ermittlung der Lärmbelastung erfolgt auf der Grundlage der in der Anlage zu § 3 des Gesetzes zum Schutz gegen Fluglärm definierten Lärmindizes LAeq Tag, LAeq Nacht und LAmax. Zur Abgrenzung der verschiedenen Schutzzonen des Lärmschutzbereichs werden 1.der äquivalente Dauerschallpegel LAeq Tag als Außenpegel für die Tag-Schutzzonen 1 und 2,2.der äquivalente Dauerschallpegel LAeq Nacht als Außenpegel für die Nacht-Schutzzone und3.der Maximalpegel LAmax als Pegel im Rauminnern für die Nacht-Schutzzonejeweils einschließlich des Zuschlags zur Berücksichtigung der zeitlich variierenden Nutzung der einzelnen Betriebsrichtungen (3-Sigma) gemäß der Anlage zu § 3 des Gesetzes zum Schutz gegen Fluglärm berechnet. Für die Berechnung des Maximalpegels LAmax wird gemäß der Anlage zu § 3 des Gesetzes zum Schutz gegen Fluglärm ein Pegelunterschied zwischen außen und innen von 15 Dezibel (A) berücksichtigt."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(2) Die Berechnung der Lärmindizes erfolgt entsprechend der Anleitung zur Berechnung von Lärmschutzbereichen (AzB) vom 19. November 2008 (BAnz. Nr. 195a vom 23. Dezember 2008). Dabei müssen die Flugbahnen in einzelne Abschnitte unterteilt und die Beiträge der Flugbahnabschnitte zur Fluglärmbelastung an den Immissionsorten bestimmt werden (Segmentierungsverfahren)."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_SUB dtd:SUB-id86,
+        dtd:SUB-id87,
+        dtd:SUB-id88 ;
+    dtd:has_Value "(3) Die Berechnungspunkte zur Ermittlung der äquivalenten Dauerschallpegel und des Maximalpegels liegen in einer Höhe von vier Metern über dem Boden. Für die Berechnung ist in der Regel ein rechtwinkliges Raster von 50 Meter mal 50 Meter zugrunde zu legen. Die Bestimmung der Kurvenpunkte mit konstanten Werten der äquivalenten Dauerschallpegel LAeq Tag und LAeq Nacht sowie der Kurvenpunkte mit konstanter Häufigkeit der Überschreitung des Maximalpegels LAmax erfolgt durch Interpolation zwischen benachbarten Punkten des Rasters nach Satz 2."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(4) Die Ergebnisse der Berechnung sind in Form von Listen der Kurvenpunkte und von Karten darzustellen. Die Karten müssen georeferenziert sein."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_SUB dtd:SUB-id89,
+        dtd:SUB-id90,
+        dtd:SUB-id91,
+        dtd:SUB-id92 ;
+    dtd:has_Value "(1) Die für die Neufestsetzung eines Lärmschutzbereichs nach § 4 Abs. 5 Satz 1 des Gesetzes zum Schutz gegen Fluglärm bedeutsame Änderung der Höhe des äquivalenten Dauerschallpegels um mindestens 2 Dezibel (A) wird ermittelt, indem die Differenz zwischen dem äquivalenten Dauerschallpegel LAeq Tag an der Grenze der Tag-Schutzzone 1 des bestehenden Lärmschutzbereichs und dem für dieselben Immissionsorte neu berechneten äquivalenten Dauerschallpegel LAeq Tag aufgrund des voraussehbaren Flugbetriebs gebildet wird, der sich infolge einer Änderung in der Anlage oder im Betrieb eines Flugplatzes ergibt. Entsprechend wird die Differenz zwischen dem äquivalenten Dauerschallpegel LAeq Nacht an der Grenze der Nacht-Schutzzone des bestehenden Lärmschutzbereichs und dem für dieselben Immissionsorte neu berechneten äquivalenten Dauerschallpegel LAeq Nacht gebildet."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(2) Die für die Neufestsetzung eines Lärmschutzbereichs nach § 4 Abs. 3 Satz 2 des Gesetzes zum Schutz gegen Fluglärm vorausgesetzte Änderung der Höhe des äquivalenten Dauerschallpegels um mindestens 2 Dezibel (A) wird entsprechend Absatz 1 mit der Maßgabe ermittelt, dass es auf den voraussehbaren Flugbetrieb ankommt, der sich allein infolge einer sonstigen wesentlichen baulichen Erweiterung eines Flugplatzes ergibt."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 30. Dezember 2008 in Kraft."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:SUB-id79 a dtd:SUB ;
+    dtd:has_Value "Aeq Tag"@de .
+
+dtd:SUB-id80 a dtd:SUB ;
+    dtd:has_Value "Aeq Nacht"@de .
+
+dtd:SUB-id81 a dtd:SUB ;
+    dtd:has_Value "Amax"@de .
+
+dtd:SUB-id82 a dtd:SUB ;
+    dtd:has_Value "Aeq Tag"@de .
+
+dtd:SUB-id83 a dtd:SUB ;
+    dtd:has_Value "Aeq Nacht"@de .
+
+dtd:SUB-id84 a dtd:SUB ;
+    dtd:has_Value "Amax"@de .
+
+dtd:SUB-id85 a dtd:SUB ;
+    dtd:has_Value "Amax"@de .
+
+dtd:SUB-id86 a dtd:SUB ;
+    dtd:has_Value "Aeq Tag"@de .
+
+dtd:SUB-id87 a dtd:SUB ;
+    dtd:has_Value "Aeq Nacht"@de .
+
+dtd:SUB-id88 a dtd:SUB ;
+    dtd:has_Value "Amax"@de .
+
+dtd:SUB-id89 a dtd:SUB ;
+    dtd:has_Value "Aeq Tag"@de .
+
+dtd:SUB-id90 a dtd:SUB ;
+    dtd:has_Value "Aeq Tag"@de .
+
+dtd:SUB-id91 a dtd:SUB ;
+    dtd:has_Value "Aeq Nacht"@de .
+
+dtd:SUB-id92 a dtd:SUB ;
+    dtd:has_Value "Aeq Nacht"@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2008-12-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id140 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id141 .
+
+dtd:fussnoten-id66 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id110 .
+
+dtd:fussnoten-id71 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 1"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "1. FlugLSV"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "Verordnung über die Datenerfassung und das Berechnungsverfahren für die Festsetzung von Lärmschutzbereichen"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_Value "Erste Verordnung zur Durchführung des Gesetzes zum Schutz gegen Fluglärm"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 ;
+    dtd:has_standangabe dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id36,
+        dtd:jurabk-id37 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id39,
+        dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id43,
+        dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id47,
+        dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id51,
+        dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id55,
+        dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id59,
+        dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id63,
+        dtd:jurabk-id64 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008BJNE000403116"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20200924212522"@de ;
+    dtd:has_doknr "BJNR298000008BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id140 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id139 a dtd:pre ;
+    dtd:has_BR dtd:BR-id77,
+        dtd:BR-id78 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.12.2008 +++)"@de .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id143 ;
+    dtd:has_standtyp dtd:standtyp-id142 .
+
+dtd:standkommentar-id143 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 101 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id142 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Datenerfassung über den Flugbetrieb"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Elektronische Datenerfassung und Datenübermittlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Berechnungsverfahren für die Festsetzung von Lärmschutzbereichen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Berechnungsverfahren für die Überprüfung von Lärmschutzbereichen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id141 a dtd:zitstelle ;
+    dtd:has_Value "2008, 2980"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

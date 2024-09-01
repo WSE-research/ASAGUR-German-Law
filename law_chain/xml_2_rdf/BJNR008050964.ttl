@@ -1,0 +1,340 @@
+@prefix dtd: <urn:ZGÄndG-4-1964#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id77 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1964, 806)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75,
+        dtd:P-id76 .
+
+dtd:IMG-id57 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1964_j0806_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 20. 9.1964 +++)"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Der in der Anlage rot schraffierte Gebietsteil des Freihafens Hamburg - Freihafenteil Waltershof - wird in das Zollgebiet einbezogen."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Finanzen wird ermächtigt, durch Rechtsverordnung das in der Anlage grün schraffierte Gebiet aus dem Zollgebiet auszuschließen und in den Freihafen Hamburg - Freihafenteil Waltershof - einzubeziehen, soweit es die wirtschaftliche Entwicklung erfordert."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach § 12 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "Artikel 2 dieses Gesetzes tritt am 1. Juni 1965 in Kraft. Im übrigen tritt dieses Gesetz am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1964, 806)"@de ;
+    dtd:has_noindex dtd:noindex-id56 .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id57 ;
+    dtd:has_Value ""@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1964-09-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id86 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id87 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id60 .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:gliederungsbez-id79 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:gliederungsbez-id81 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:gliederungsbez-id83 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:gliederungsbez-id85 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:gliederungseinheit-id31 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id79 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id78 .
+
+dtd:gliederungseinheit-id33 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id81 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id80 .
+
+dtd:gliederungseinheit-id39 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id83 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id82 .
+
+dtd:gliederungseinheit-id41 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id85 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id84 .
+
+dtd:gliederungskennzahl-id78 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id80 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id82 a dtd:gliederungskennzahl ;
+    dtd:has_Value "030"@de .
+
+dtd:gliederungskennzahl-id84 a dtd:gliederungskennzahl ;
+    dtd:has_Value "040"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "ZGÄndG 4 1964"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "ZGÄndG 4 1964"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ZGÄndG 4 1964"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "ZGÄndG 4 1964"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "ZGÄndG 4 1964"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "ZGÄndG 4 1964"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "ZGÄndG 4 1964"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "ZGÄndG 4 1964"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Viertes Gesetz zur Änderung des Zollgesetzes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:noindex-id56 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964BJNG000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964BJNG000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964BJNE000500314"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964BJNE000600314"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964BJNG000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964BJNG000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20131202132503"@de ;
+    dtd:has_doknr "BJNR008050964BJNE000700314"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id86 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "zum Vierten Gesetz zur Änderung des Zollgesetzes vom 9. September 1964"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id87 a dtd:zitstelle ;
+    dtd:has_Value "1964, 805"@de .
+

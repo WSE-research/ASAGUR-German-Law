@@ -1,0 +1,474 @@
+@prefix dtd: <urn:PostBATZV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20201215212519"@de ;
+    dtd:has_doknr "BJNR220410015"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102,
+        dtd:P-id103,
+        dtd:P-id104,
+        dtd:P-id105,
+        dtd:P-id106 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id100,
+        dtd:P-id97,
+        dtd:P-id98,
+        dtd:P-id99 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id75 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id78 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id80 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id77 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id81 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id82 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DL-id33 a dtd:DL ;
+    dtd:has_DD dtd:DD-id38,
+        dtd:DD-id39,
+        dtd:DD-id40,
+        dtd:DD-id41 ;
+    dtd:has_DT dtd:DT-id34,
+        dtd:DT-id35,
+        dtd:DT-id36,
+        dtd:DT-id37 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id42 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45,
+        dtd:DD-id46 ;
+    dtd:has_DT dtd:DT-id43,
+        dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id47 a dtd:DL ;
+    dtd:has_DD dtd:DD-id50,
+        dtd:DD-id51 ;
+    dtd:has_DT dtd:DT-id48,
+        dtd:DT-id49 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id52 a dtd:DL ;
+    dtd:has_DD dtd:DD-id55,
+        dtd:DD-id56 ;
+    dtd:has_DT dtd:DT-id53,
+        dtd:DT-id54 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id57 a dtd:DL ;
+    dtd:has_DD dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61,
+        dtd:DT-id62,
+        dtd:DT-id63 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:FILE-id93 a dtd:FILE ;
+    dtd:has_PREVIEW "bgbl1_2015_j2204-1_0010_thumb.gif"@de ;
+    dtd:has_SRC "bgbl1_2015_j2204-1_0010.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_DL dtd:DL-id42 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sie bei Beginn der Altersteilzeit a)das 59. Lebensjahr vollendet haben oderb)das 57. Lebensjahr vollendet haben und zum Zeitpunkt der Antragstellung schwerbehindert im Sinne des § 2 Absatz 2 des Neunten Buches Sozialgesetzbuch sind,"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das 59. Lebensjahr vollendet haben oder"@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das 57. Lebensjahr vollendet haben und zum Zeitpunkt der Antragstellung schwerbehindert im Sinne des § 2 Absatz 2 des Neunten Buches Sozialgesetzbuch sind,"@de .
+
+dtd:LA-id78 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Altersteilzeit bis zum 31. Dezember 2025 beantragt wird und vor dem 1. Januar 2036 beginnt,"@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sie das Zeitguthaben nach Absatz 2 angespart haben und"@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "betriebliche oder betriebswirtschaftliche Belange nicht entgegenstehen."@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Beginn der Altersteilzeit mindestens 1 000 Stunden betragen und"@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei einem Beginn der Altersteilzeit ab dem 1. Januar 2026 am 31. Dezember 2025 mindestens 250 Stunden betragen haben."@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor dem Jahr 1961 geboren sind oder"@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor dem Jahr 1963 geboren sind und zum Zeitpunkt der Antragstellung schwerbehindert im Sinne des § 2 Absatz 2 des Neunten Buches Sozialgesetzbuch sind."@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Grundgehalt,"@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Familienzuschlag,"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Amtszulagen,"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Stellenzulagen,"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Überleitungszulagen und"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ausgleichszulagen, die wegen des Wegfalls oder der Verminderung der Bezüge nach den Nummern 1 bis 5 zustehen."@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei einem Statusgrundgehalt, das nicht höher ist als das Endgrundgehalt der Besoldungsgruppe A 4: 81 Prozent;"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei einem Statusgrundgehalt, das mindestens dem Endgrundgehalt der Besoldungsgruppe A 14 entspricht: 73 Prozent."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "(4) Nach Absatz 1 gewährte Altersteilzeit wird auf die Quote nach § 93 Absatz 4 Satz 1 des Bundesbeamtengesetzes angerechnet. Die Ausschlusskriterien nach § 93 Absatz 4 Satz 2 des Bundesbeamtengesetzes sind auf die Bewilligung von Altersteilzeit nach Absatz 1 nicht anzuwenden."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(1) Beamtinnen und Beamten, denen Altersteilzeit nach § 1 bewilligt worden ist, erhalten einen nicht ruhegehaltfähigen Zuschlag zur Besoldung (Post-Altersteilzeitzuschlag)."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(2) Der Post-Altersteilzeitzuschlag wird gewährt in Höhe des Unterschiedsbetrages zwischen der Nettobesoldung, die sich aus dem Umfang der Teilzeitbeschäftigung ergibt, und dem in Absatz 4 festgelegten Prozentsatz der Nettobesoldung, die nach der bisherigen Arbeitszeit, die für die Bemessung der ermäßigten Arbeitszeit während der Altersteilzeit zugrunde gelegt worden ist, den Beamtinnen und Beamten mit begrenzter Dienstfähigkeit (§ 45 des Bundesbeamtengesetzes) unter Berücksichtigung der Besoldung nach § 72a des Bundesbesoldungsgesetzes, zustehen würde. Zur Ermittlung dieser letztgenannten Nettobesoldung ist die Bruttobesoldung um die Lohnsteuer entsprechend der individuellen Steuerklasse (§§ 38a, 38b des Einkommensteuergesetzes), den Solidaritätszuschlag (§ 4 Satz 1 des Solidaritätszuschlaggesetzes 1995) und um einen Abzug in Höhe von 8 Prozent der Lohnsteuer zu vermindern; Freibeträge (§ 39a des Einkommensteuergesetzes) oder sonstige individuelle Merkmale werden nicht berücksichtigt."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_DL dtd:DL-id57 ;
+    dtd:has_Value "(3) Brutto- und Nettobesoldung im Sinne des Absatzes 2 sind 1.das Grundgehalt,2.der Familienzuschlag,3.Amtszulagen,4.Stellenzulagen,5.Überleitungszulagen und6.Ausgleichszulagen, die wegen des Wegfalls oder der Verminderung der Bezüge nach den Nummern 1 bis 5 zustehen.§ 78 Absatz 1 des Bundesbesoldungsgesetzes ist anzuwenden."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_FILE dtd:FILE-id93 ;
+    dtd:has_Value "(4) Der Prozentsatz der Nettobesoldung nach Absatz 2 Satz 1 beträgt 1.bei einem Statusgrundgehalt, das nicht höher ist als das Endgrundgehalt der Besoldungsgruppe A 4: 81 Prozent;2.bei einem Statusgrundgehalt, das mindestens dem Endgrundgehalt der Besoldungsgruppe A 14 entspricht: 73 Prozent.In den übrigen Fällen ergibt sich der Prozentsatz aus der folgenden Formel: "@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(5) Maßgeblich sind jeweils die am Tag vor dem Beginn der Altersteilzeit geltenden persönlichen und rechtlichen Bedingungen. Das Statusgrundgehalt ist das der Beamtin oder dem Beamten im Fall einer Vollzeitbeschäftigung zustehende Grundgehalt. Der Prozentsatz wird auf eine Stelle nach dem Komma kaufmännisch gerundet."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2016 +++)(+++ Zur Anwendung vgl. § 78 Abs. 1 BBesG +++)Die V wurde als Artikel 1 der V v. 7.12.2015 I 2204 vom Bundesministerium der Finanzen nach Anhörung des Vorstands der Deutschen Post AG im Einvernehmen mit dem Bundesministerium des Innern verordnet. Die V ist gem. Art. 4 dieser V am 1.1.2016 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id107 .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_DL dtd:DL-id33 ;
+    dtd:has_Value "(1) Den bei der Deutschen Post AG beschäftigten Beamtinnen und Beamten, die Anspruch auf Besoldung haben, kann auf Antrag Teilzeitbeschäftigung als Altersteilzeit mit der Hälfte der bisherigen Arbeitszeit außer in den Fällen des § 93 Absatz 1 bis 3 des Bundesbeamtengesetzes bewilligt werden, wenn 1.sie bei Beginn der Altersteilzeit a)das 59. Lebensjahr vollendet haben oderb)das 57. Lebensjahr vollendet haben und zum Zeitpunkt der Antragstellung schwerbehindert im Sinne des § 2 Absatz 2 des Neunten Buches Sozialgesetzbuch sind,2.die Altersteilzeit bis zum 31. Dezember 2025 beantragt wird und vor dem 1. Januar 2036 beginnt,3.sie das Zeitguthaben nach Absatz 2 angespart haben und4.betriebliche oder betriebswirtschaftliche Belange nicht entgegenstehen."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_DL dtd:DL-id47,
+        dtd:DL-id52 ;
+    dtd:has_Value "(2) Das Zeitguthaben der Beamtin oder des Beamten auf dem Lebensarbeitszeitkonto (§ 9 der Post-Arbeitszeitverordnung) muss 1.bei Beginn der Altersteilzeit mindestens 1 000 Stunden betragen und2.bei einem Beginn der Altersteilzeit ab dem 1. Januar 2026 am 31. Dezember 2025 mindestens 250 Stunden betragen haben.Bei einer Teilzeitbeschäftigung werden diese Stundenzahlen im gleichen Verhältnis wie die Arbeitszeit gekürzt. Das zum Beginn der Altersteilzeit erforderliche Zeitguthaben verringert sich für jedes vor dem 1. Januar 2026 liegende Kalenderjahr um 200 Stunden für Beamtinnen und Beamte, die 1.vor dem Jahr 1961 geboren sind oder2.vor dem Jahr 1963 geboren sind und zum Zeitpunkt der Antragstellung schwerbehindert im Sinne des § 2 Absatz 2 des Neunten Buches Sozialgesetzbuch sind.Beamtinnen und Beamte, die unter Anerkennung des dienstlichen Interesses beurlaubt sind, müssen kein Zeitguthaben ansparen, wenn ihre Beurlaubung längstens einen Monat vor dem Beginn der Altersteilzeit endet."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(3) Altersteilzeit nach Absatz 1 ist spätestens sechs Monate vor ihrem Beginn zu beantragen, wobei die Antragsausschlussfrist nach Absatz 1 Nummer 2 gewahrt bleiben muss. Die Altersteilzeit umfasst einen Zeitraum von mindestens zwei und höchstens sechs Jahren. Der Antrag muss sich auf die gesamte Zeit bis zum Beginn des Ruhestands erstrecken."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "PostBATZV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-12-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id108 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id109 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id94 .
+
+dtd:fussnoten-id26 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "PostBATZV"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "PostBATZV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "PostBATZV"@de .
+
+dtd:kurzue-id15 a dtd:kurzue ;
+    dtd:has_Value "Postbeamtenaltersteilzeitverordnung"@de .
+
+dtd:langue-id16 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Bewilligung von Altersteilzeit und die Gewährung eines Altersteilzeitzuschlags für die Beamtinnen und Beamten bei der Deutschen Post AG"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id15 ;
+    dtd:has_langue dtd:langue-id16 ;
+    dtd:has_standangabe dtd:standangabe-id17 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20201215212519"@de ;
+    dtd:has_doknr "BJNR220410015"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20201215212519"@de ;
+    dtd:has_doknr "BJNR220410015BJNE000101119"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20201215212519"@de ;
+    dtd:has_doknr "BJNR220410015BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id108 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id107 a dtd:pre ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2016 +++)(+++ Zur Anwendung vgl. § 78 Abs. 1 BBesG +++)"@de .
+
+dtd:standangabe-id17 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id111 ;
+    dtd:has_standtyp dtd:standtyp-id110 .
+
+dtd:standkommentar-id111 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 3 V v. 3.12.2020 I 2877"@de .
+
+dtd:standtyp-id110 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id96 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Bewilligung von Altersteilzeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Post-Altersteilzeitzuschlag"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id109 a dtd:zitstelle ;
+    dtd:has_Value "2015, 2204"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

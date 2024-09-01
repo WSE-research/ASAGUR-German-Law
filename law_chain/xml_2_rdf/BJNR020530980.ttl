@@ -1,0 +1,265 @@
+@prefix dtd: <urn:OrdenErl-6#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125959"@de ;
+    dtd:has_doknr "BJNR020530980"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:DD-id49 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DL-id47 a dtd:DL ;
+    dtd:has_DD dtd:DD-id49 ;
+    dtd:has_DT dtd:DT-id48 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_SP dtd:SP-id43 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ehrenzeichens der Bundeswehr"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  5.11.1980 +++)"@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_DL dtd:DL-id47 ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 1 des Gesetzes über Titel, Orden und Ehrenzeichen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 1132-1, veröffentlichten bereinigten Fassung, zuletzt geändert durch Artikel 33 des Gesetzes vom 2. März 1974 (BGBl. I S. 469), genehmige ich die Stiftung und Verleihung des Ehrenzeichens der Bundeswehr in vier Stufen durch den Bundesminister der Verteidigung."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Ich genehmige die Stiftungsbestimmungen und die Verleihungsbedingungen des im Artikel 1 genannten Ehrenzeichens."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Die Stiftungsbestimmungen und die Verleihungsbedingungen sowie die Abbildungen des nach Artikel 1 genehmigten Ehrenzeichens werden vom Bundesminister des Innern im Bundesanzeiger veröffentlicht."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "Jede Änderung der Stiftungsbestimmungen und der Verleihungsbedingungen des nach Artikel 1 genehmigten Ehrenzeichens und jede Änderung seiner Form und seiner Benennung bedürfen meiner Genehmigung."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_BR dtd:BR-id41,
+        dtd:BR-id42 ;
+    dtd:has_SP dtd:SP-id44,
+        dtd:SP-id45,
+        dtd:SP-id46 ;
+    dtd:has_Value "Der Bundespräsident Der Bundesminister der Verteidigung Der Bundesminister des Innern"@de .
+
+dtd:SP-id43 a dtd:SP ;
+    dtd:has_Value "Ehrenzeichens der Bundeswehr"@de .
+
+dtd:SP-id44 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id45 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Verteidigung"@de .
+
+dtd:SP-id46 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1980-10-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id65 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id66 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id53 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 6"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 6"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 6"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 6"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 6"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 6"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Sechster Erlaß über die Genehmigung der Stiftung und Verleihung von Orden
+und Ehrenzeichen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125959"@de ;
+    dtd:has_doknr "BJNR020530980"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125959"@de ;
+    dtd:has_doknr "BJNR020530980BJNE000100315"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125959"@de ;
+    dtd:has_doknr "BJNR020530980BJNE000200315"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125959"@de ;
+    dtd:has_doknr "BJNR020530980BJNE000300315"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125959"@de ;
+    dtd:has_doknr "BJNR020530980BJNE000400315"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125959"@de ;
+    dtd:has_doknr "BJNR020530980BJNE000500315"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id65 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id66 a dtd:zitstelle ;
+    dtd:has_Value "1980, 2053"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

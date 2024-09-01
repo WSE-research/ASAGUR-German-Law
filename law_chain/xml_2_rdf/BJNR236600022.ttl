@@ -1,0 +1,381 @@
+@prefix dtd: <urn:GAPAusnV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240304215041"@de ;
+    dtd:has_doknr "BJNR236600022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84,
+        dtd:P-id85 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87 .
+
+dtd:Content-id88 a dtd:Content ;
+    dtd:has_P dtd:P-id89 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id73 .
+
+dtd:DL-id60 a dtd:DL ;
+    dtd:has_DD dtd:DD-id63,
+        dtd:DD-id64 ;
+    dtd:has_DT dtd:DT-id61,
+        dtd:DT-id62 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id65 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id66,
+        dtd:DT-id67 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zahlungen für die Öko-Regelung nach § 20 Absatz 1 Nummer 1 Buchstaben a oder b des GAP-Direktzahlungen-Gesetzes vom 16. Juli 2021 (BGBl. I S. 3003) in der jeweils geltenden Fassung oder"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_NB dtd:NB-id58,
+        dtd:NB-id59 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zahlungen für solche Umwelt-, Klima- und andere Bewirtschaftungsverpflichtungen nach Artikel 70 der Verordnung (EU) 2021/2115 des Europäischen Parlaments und des Rates vom 2. Dezember 2021 mit Vorschriften für die Unterstützung der von den Mitgliedstaaten im Rahmen der Gemeinsamen Agrarpolitik zu erstellenden und durch den Europäischen Garantiefonds für die Landwirtschaft (EGFL) und den Europäischen Landwirtschaftsfonds für die Entwicklung des ländlichen Raums (ELER) zu finanzierenden Strategiepläne (GAP-Strategiepläne) und zur Aufhebung der Verordnung (EU) Nr. 1305/2013 sowie der Verordnung (EU) Nr. 1307/2013 (ABl. L 435 vom 6.12.2021, S. 1), die die 4 Prozent-Verpflichtung aus dem GLÖZ-Standard „Mindestanteil der landwirtschaftlichen Fläche für nichtproduktive Flächen oder Landschaftselemente“ als Fördervoraussetzung umfassen."@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach § 10 Absatz 2 Nummer 6 der InVeKoS-Verordnung in der zum Zeitpunkt des Stellens des jeweiligen Antrages maßgeblichen Fassung als nicht für die Erzeugung genutzte Flächen oder"@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach § 11 Absatz 1 Satz 2 der InVeKoS-Verordnung in der zum Zeitpunkt des Stellens des jeweiligen Antrages maßgeblichen Fassung in Bezug auf die Flächennutzung im Umweltinteresse als brachliegende Fläche"@de .
+
+dtd:NB-id57 a dtd:NB ;
+    dtd:has_Value "S. 2244)"@de .
+
+dtd:NB-id58 a dtd:NB ;
+    dtd:has_Value "Nr. 1305/2013"@de .
+
+dtd:NB-id59 a dtd:NB ;
+    dtd:has_Value "Nr. 1307/2013"@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_BR dtd:BR-id54 ;
+    dtd:has_Value " (+++ Textnachweis ab: 22.12.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id90 .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 9a Satz 1 in Verbindung mit § 9b Absatz 2 Satz 1 des Marktorganisationsgesetzes in der Fassung der Bekanntmachung vom 28. November 2017 (BGBl. I S. 3824) in Verbindung mit § 2 des GAP-Konditionalitäten-Gesetzes vom 16. Juli 2021 (BGBl. I S. 2996) sowie in Verbindung mit § 1 Absatz 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 8. Dezember 2021 (BGBl. I S. 5176), von denen § 9a Satz 1 des Marktorganisationsgesetzes durch Artikel 281 der Verordnung vom 19. Juni 2020 (BGBl. I S. 1328) geändert worden ist, verordnet das Bundesministerium für Ernährung und Landwirtschaft im Einvernehmen mit dem Bundesministerium der Finanzen, dem Bundesministerium für Wirtschaft und Klimaschutz und dem Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz:"@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Diese Verordnung dient der Durchführung der Durchführungsverordnung (EU) 2022/1317 der Kommission vom 27. Juli 2022 zur Ermöglichung von Ausnahmeregelungen von der Verordnung (EU) 2021/2115 des Europäischen Parlaments und des Rates hinsichtlich der Anwendung der Standards für den guten landwirtschaftlichen und ökologischen Zustand (GLÖZ-Standards) 7 und 8 für das Antragsjahr 2023 (ABl. L 199 vom 28.7.2022 S. 1) in der jeweils geltenden Fassung."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_NB dtd:NB-id57 ;
+    dtd:has_Value "(1) Abweichend von § 18 der GAP-Konditionalitäten-Verordnung vom 7. Dezember 2022 (BGBl. I S. 2244) in der jeweils geltenden Fassung muss der Begünstigte für das Antragsjahr 2023 nicht die Pflicht zum jährlichen Wechsel der Hauptkultur einhalten."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(2) Soweit nach § 18 der GAP-Konditionalitäten-Verordnung vorgesehen ist, dass auf einem Teil der Ackerflächen eines Betriebes ein Wechsel der Hauptkultur spätestens im dritten Jahr erfolgt, bleibt diese Pflicht von Absatz 1 unberührt."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_DL dtd:DL-id60 ;
+    dtd:has_Value "(1) Zusätzlich zu den Anrechnungsmöglichkeiten nach § 20 Absatz 1 der GAP-Konditionalitäten-Verordnung kann für das Antragsjahr 2023 auch eine Fläche angerechnet werden, die für die Erzeugung von Getreide, Sonnenblumen oder Leguminosen genutzt wird. Satz 1 ist nicht anzuwenden, soweit der Begünstigte beantragt: 1.Zahlungen für die Öko-Regelung nach § 20 Absatz 1 Nummer 1 Buchstaben a oder b des GAP-Direktzahlungen-Gesetzes vom 16. Juli 2021 (BGBl. I S. 3003) in der jeweils geltenden Fassung oder2.Zahlungen für solche Umwelt-, Klima- und andere Bewirtschaftungsverpflichtungen nach Artikel 70 der Verordnung (EU) 2021/2115 des Europäischen Parlaments und des Rates vom 2. Dezember 2021 mit Vorschriften für die Unterstützung der von den Mitgliedstaaten im Rahmen der Gemeinsamen Agrarpolitik zu erstellenden und durch den Europäischen Garantiefonds für die Landwirtschaft (EGFL) und den Europäischen Landwirtschaftsfonds für die Entwicklung des ländlichen Raums (ELER) zu finanzierenden Strategiepläne (GAP-Strategiepläne) und zur Aufhebung der Verordnung (EU) Nr. 1305/2013 sowie der Verordnung (EU) Nr. 1307/2013 (ABl. L 435 vom 6.12.2021, S. 1), die die 4 Prozent-Verpflichtung aus dem GLÖZ-Standard „Mindestanteil der landwirtschaftlichen Fläche für nichtproduktive Flächen oder Landschaftselemente“ als Fördervoraussetzung umfassen.Die Anrechnung nach Satz 1 gilt nicht für Flächen, auf denen Mais, Sojabohnen oder Niederwald mit Kurzumtrieb angebaut wird."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_DL dtd:DL-id65 ;
+    dtd:has_Value "(2) Verfügt der Begünstigte über Ackerflächen, die sowohl in einem Sammelantrag für das Antragsjahr 2021 als auch in einem Sammelantrag für das Antragsjahr 2022 1.nach § 10 Absatz 2 Nummer 6 der InVeKoS-Verordnung in der zum Zeitpunkt des Stellens des jeweiligen Antrages maßgeblichen Fassung als nicht für die Erzeugung genutzte Flächen oder2.nach § 11 Absatz 1 Satz 2 der InVeKoS-Verordnung in der zum Zeitpunkt des Stellens des jeweiligen Antrages maßgeblichen Fassung in Bezug auf die Flächennutzung im Umweltinteresse als brachliegende Flächeangegeben wurden, ist eine Anrechnung nach Absatz 1 nur zulässig, wenn der Begünstigte diese Flächen im Sammelantrag für das Antragsjahr 2023 als Ackerflächen angibt, die nicht nach § 3 Absatz 1 Nummer 1 oder 2 der GAP-Direktzahlungen-Verordnung vom 24. Januar 2022 (BGBl. I S. 139) in der jeweils geltenden Fassung oder nur nach § 21 der GAP-Konditionalitäten-Verordnung in der jeweils geltenden Fassung genutzt werden. Besteht eine nach Satz 1 maßgebliche Fläche aus Teilflächen, die die Anforderungen des Satzes 1 hinsichtlich der Nutzung nicht erfüllen, ist die anderweitige Nutzung auf solchen Teilflächen unbeachtlich, sofern diese Teilflächen die Summe von eintausend Quadratmetern nicht überschreiten. Satz 1 gilt nicht für Flächen, für die bis einschließlich des Antragsjahres 2022 Zahlungen für Agrarumwelt- und Klimamaßnahmen nach Artikel 28 der Verordnung (EU) Nr. 1305/2013 geleistet wurden."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "GAPAusnV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-12-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id91 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id92 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id74 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "GAPAusnV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "GAPAusnV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "GAPAusnV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "GAPAusnV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "GAPAusnV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "GAPAusnV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "GAPAusnV"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "GAP-Ausnahmen-Verordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung der im Rahmen der Gemeinsamen Agrarpolitik geltenden Ausnahmeregelungen hinsichtlich der Anwendung der Standards für den guten landwirtschaftlichen und ökologischen Zustand (GLÖZ-Standards) 7 und 8 für das Antragsjahr 2023"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240304215041"@de ;
+    dtd:has_doknr "BJNR236600022"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240304215041"@de ;
+    dtd:has_doknr "BJNR236600022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240304215041"@de ;
+    dtd:has_doknr "BJNR236600022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240304215041"@de ;
+    dtd:has_doknr "BJNR236600022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240304215041"@de ;
+    dtd:has_doknr "BJNR236600022BJNE000401119"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240304215041"@de ;
+    dtd:has_doknr "BJNR236600022BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20240304215041"@de ;
+    dtd:has_doknr "BJNR236600022BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id91 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id90 a dtd:pre ;
+    dtd:has_BR dtd:BR-id55,
+        dtd:BR-id56 ;
+    dtd:has_Value "(+++ Textnachweis ab: 22.12.2022 +++)"@de .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id94 ;
+    dtd:has_standtyp dtd:standtyp-id93 .
+
+dtd:standkommentar-id94 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 23.2.2024 I Nr. 67"@de .
+
+dtd:standtyp-id93 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id86 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id88 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Aussetzung der Verpflichtung zum Fruchtwechsel auf Ackerland"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Zusätzliche Anrechnungsmöglichkeit von produktiven Flächen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id92 a dtd:zitstelle ;
+    dtd:has_Value "2022, 2366"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

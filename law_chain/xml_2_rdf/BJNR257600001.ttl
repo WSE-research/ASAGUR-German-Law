@@ -1,0 +1,332 @@
+@prefix dtd: <urn:IntKonnBek-2001#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132504"@de ;
+    dtd:has_doknr "BJNR257600001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63,
+        dtd:P-id64 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DL-id54 a dtd:DL ;
+    dtd:has_DD dtd:DD-id56 ;
+    dtd:has_DT dtd:DT-id55 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "China (nur für die Sonderverwaltungsregion Hongkong)."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29. 9.2001 +++)"@de ;
+    dtd:has_pre dtd:pre-id65 .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_BR dtd:BR-id20,
+        dtd:BR-id21,
+        dtd:BR-id22,
+        dtd:BR-id23,
+        dtd:BR-id24,
+        dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_DL dtd:DL-id54 ;
+    dtd:has_Value "Nach Artikel 6 Abs. 3 des Einführungsgesetzes zum Handelsgesetzbuche, der durch Artikel 5 Nr. 1 des Gesetzes vom 25. Juli 1986 (BGBl. I S. 1120) eingefügt worden ist, wird bekannt gegeben, dass das Protokoll vom 23. Februar 1968 zur Änderung des Internationalen Abkommens vom 25. August 1924 zur Vereinheitlichung von Regeln über Konnossemente nach seinem Artikel 13 Abs. 2 für Kroatienam 28. Januar 1999,nach Artikel VI Abs. 2 in Verbindung mit Artikel VIII Abs. 2 des Protokolls vom 21. Dezember 1979 zur Änderung des Internationalen Abkommens vom 25. August 1924 zur Vereinheitlichung von Regeln über Konnossemente in der Fassung des Protokolls vom 23. Februar 1968 für Japanam 1. Juni 1993und nach Artikel VII Abs. 2 in Verbindung mit Artikel VIII Abs. 2 des Protokolls vom 21. Dezember 1979 zur Änderung des Internationalen Abkommens vom 25. August 1924 zur Vereinheitlichung von Regeln über Konnossemente in der Fassung des Protokolls vom 23. Februar 1968 für Griechenlandam 23. Juni 1993Neuseelandam 20. März 1995in Kraft getreten ist.In Bezug auf Hongkong, auf das das Vereinigte Königreich den Geltungsbereich des Protokolls vom 23. Februar 1968 zur Änderung des Internationalen Abkommens vom 25. August 1924 zur Vereinheitlichung von Regeln über Konnossemente erstreckt hat (vgl. die Bekanntmachung vom 25. Juli 1986, BGBl. I S. 1162), haben das Vereinigte Königreich und China dem Verwahrer notifiziert, dass die Regierung des Vereinigten Königreichs am 1. Juli 1997 Hongkong an die Regierung der Volksrepublik China zurückgeben und von diesem Tage an nicht mehr die internationale Verantwortung für Hongkong übernehmen wird, und dass die Volksrepublik China von diesem Tage an die Souveränität über Hongkong ausüben wird. In die Liste der Vertragsstaaten des Protokolls vom 23. Februar 1968 zur Änderung des Internationalen Abkommens vom 25. August 1924 zur Vereinheitlichung von Regeln über Konnossemente ist mithin mit Wirkung vom 1. Juli 1997 aufzunehmen: China (nur für die Sonderverwaltungsregion Hongkong).Diese Bekanntmachung ergeht im Anschluss an die Bekanntmachung vom 30. November 1999 (BGBl. I S. 2395)."@de ;
+    dtd:has_table dtd:table-id27,
+        dtd:table-id29,
+        dtd:table-id31 .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Bundesministerium der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-09-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id33 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "55*"@de .
+
+dtd:colspec-id34 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "25*"@de .
+
+dtd:colspec-id36 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "55*"@de .
+
+dtd:colspec-id37 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "25*"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "55*"@de .
+
+dtd:colspec-id40 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "25*"@de .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kroatien"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id47 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "am 28. Januar 1999,"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id48 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Japan"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id49 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "am 1. Juni 1993"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id50 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Griechenland"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id51 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "am 23. Juni 1993"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id52 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neuseeland"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id53 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "am 20. März 1995"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id60 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "IntKonnBek 2001"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "IntKonnBek 2001"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung nach Artikel 6 Abs. 3 des Einführungsgesetzes zum Handelsgesetzbuche"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132504"@de ;
+    dtd:has_doknr "BJNR257600001"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132504"@de ;
+    dtd:has_doknr "BJNR257600001BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id65 a dtd:pre ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29. 9.2001 +++)"@de .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id46,
+        dtd:entry-id47 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id48,
+        dtd:entry-id49 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id50,
+        dtd:entry-id51 .
+
+dtd:row-id45 a dtd:row ;
+    dtd:has_entry dtd:entry-id52,
+        dtd:entry-id53 .
+
+dtd:table-id27 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id28 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id29 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id30 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id31 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id32 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id35 a dtd:tbody ;
+    dtd:has_row dtd:row-id42 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id38 a dtd:tbody ;
+    dtd:has_row dtd:row-id43 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id41 a dtd:tbody ;
+    dtd:has_row dtd:row-id44,
+        dtd:row-id45 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:tgroup-id28 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id33,
+        dtd:colspec-id34 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id35 .
+
+dtd:tgroup-id30 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id36,
+        dtd:colspec-id37 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id38 .
+
+dtd:tgroup-id32 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id39,
+        dtd:colspec-id40 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id41 .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "2001, 2576 (2002 I 559)"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

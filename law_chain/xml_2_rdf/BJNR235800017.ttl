@@ -1,0 +1,289 @@
+@prefix dtd: <urn:HofV-2017#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171129221510"@de ;
+    dtd:has_doknr "BJNR235800017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59,
+        dtd:P-id60,
+        dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63,
+        dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_BR dtd:BR-id51 ;
+    dtd:has_Value " (+++ Textnachweis ab: 20.7.2017 +++)"@de ;
+    dtd:has_pre dtd:pre-id69 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 23 des Bodensonderungsgesetzes, der durch Artikel 186 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist, verordnet das Bundesministerium der Justiz und für Verbraucherschutz:"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(1) Bis zur Aufnahme des Grundstücks in das amtliche Verzeichnis gilt vorbehaltlich anderer bundesgesetzlicher Bestimmungen bei Grundstücken, die im Grundbuch als Anteile an einem ungetrennten Hofraum eingetragen sind, das Gebäudesteuerbuch als amtliches Verzeichnis im Sinne des § 2 Absatz 2 der Grundbuchordnung. Ist das Gebäudesteuerbuch nicht oder nicht mehr vorhanden, gilt der zuletzt erlassene Bescheid über den steuerlichen Einheitswert des Grundstücks als amtliches Verzeichnis."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "(2) Ist ein Bescheid über den steuerlichen Einheitswert nicht oder noch nicht ergangen, dient in dieser Reihenfolge der jeweils zuletzt für das Grundstück ergangene Bescheid über die Erhebung der Grundsteuer, der Grunderwerbsteuer, ein Bescheid über die Erhebung von Abwassergebühren für das Grundstück nach dem Kommunalabgabengesetz des Landes als amtliches Verzeichnis des Grundstücks im Sinne des § 2 Absatz 2 der Grundbuchordnung."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(3) Entspricht die Bezeichnung des Grundstücks in dem Bescheid nicht der Anschrift, die aus dem Grundbuch ersichtlich ist, genügt zum Nachweis, dass das in dem Bescheid bezeichnete Grundstück mit dem im Grundbuch bezeichneten übereinstimmt, eine mit Siegel und Unterschrift versehene Bescheinigung der Behörde, deren Bescheid als amtliches Verzeichnis dient."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(1) Im Grundbuch ist das Grundstück, das dort als Anteil an einem ungetrennten Hofraum bezeichnet ist, mit der Nummer des Gebäudesteuerbuchs oder im Falle ihres Fehlens mit der Bezeichnung und dem Aktenzeichen des Bescheids unter Angabe der Behörde, die ihn erlassen hat, zu bezeichnen."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(2) Bei Grundstücken nach § 1 Absatz 1, die nicht gemäß Absatz 1 bezeichnet sind, kann diese Bezeichnung von Amts wegen nachgeholt werden. Sie ist von Amts wegen nachzuholen, wenn in dem jeweiligen Grundbuch eine sonstige Eintragung vorgenommen werden soll."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Sie tritt mit Ablauf des 31. Dezember 2025 außer Kraft."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "HofV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-07-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id70 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id71 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id54 .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "HofV 2017"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "HofV 2017"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "HofV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "HofV 2017"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "HofV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "HofV 2017"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "HofV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "HofV 2017"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "HofV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "HofV 2017"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "HofV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Hofraumverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung über die grundbuchmäßige Behandlung von Anteilen an ungetrennten Hofräumen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id27,
+        dtd:jurabk-id28 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id30,
+        dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id34,
+        dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id38,
+        dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id42,
+        dtd:jurabk-id43 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171129221510"@de ;
+    dtd:has_doknr "BJNR235800017"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171129221510"@de ;
+    dtd:has_doknr "BJNR235800017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171129221510"@de ;
+    dtd:has_doknr "BJNR235800017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20171129221510"@de ;
+    dtd:has_doknr "BJNR235800017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20171129221510"@de ;
+    dtd:has_doknr "BJNR235800017BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20171129221510"@de ;
+    dtd:has_doknr "BJNR235800017BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id70 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id69 a dtd:pre ;
+    dtd:has_BR dtd:BR-id52,
+        dtd:BR-id53 ;
+    dtd:has_Value "(+++ Textnachweis ab: 20.7.2017 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id73 ;
+    dtd:has_standtyp dtd:standtyp-id72 .
+
+dtd:standkommentar-id73 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 3 Satz 2 dieser V am 1.1.2026 außer Kraft"@de .
+
+dtd:standtyp-id72 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Amtliches Verzeichnis bei ungetrennten Hofräumen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Bezeichnung des Grundstücks"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id71 a dtd:zitstelle ;
+    dtd:has_Value "2017, 2358"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,667 @@
+@prefix dtd: <urn:PartGG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id101 a dtd:BR .
+
+dtd:BR-id102 a dtd:BR .
+
+dtd:BR-id103 a dtd:BR .
+
+dtd:BR-id104 a dtd:BR .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129,
+        dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133,
+        dtd:P-id134,
+        dtd:P-id135,
+        dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138,
+        dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141,
+        dtd:P-id142,
+        dtd:P-id143 .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145,
+        dtd:P-id146,
+        dtd:P-id147 .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149,
+        dtd:P-id150,
+        dtd:P-id151,
+        dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154,
+        dtd:P-id155,
+        dtd:P-id156,
+        dtd:P-id157 .
+
+dtd:Content-id158 a dtd:Content ;
+    dtd:has_P dtd:P-id159,
+        dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162,
+        dtd:P-id163,
+        dtd:P-id164 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id111,
+        dtd:DD-id112,
+        dtd:DD-id113,
+        dtd:DD-id114,
+        dtd:DD-id115 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107,
+        dtd:DT-id108,
+        dtd:DT-id109,
+        dtd:DT-id110 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Namen und den Sitz der Partnerschaft;"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Namen, den Vornamen, das Geburtsdatum und den Wohnort jedes Partners;"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den in der Partnerschaft ausgeübten Beruf jedes Partners;"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Gegenstand der Partnerschaft;"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Angabe der Vertretungsbefugnis der Partner."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_BR dtd:BR-id101,
+        dtd:BR-id104 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.1995 +++)Das G wurde als Artikel 1 G v. 25.7.1994 I 1744 (PartGSchG) vom Bundestag beschlossen. Es tritt gem. Art. 9 Satz 1 dieses G am 1.7.1995 in Kraft. § 5 Abs. 2 tritt, soweit Vorschriften enthalten sind, die zum Erlass von Rechtsverordnungen ermächtigen, gem. Art. 9 Satz 2 G v. 25.7.1994 I 1744 idF d. Art. 5 Abs. 3 Nr. 2 G v. 6.6.1995 I 778 mWv 1.5.1995 in Kraft"@de ;
+    dtd:has_pre dtd:pre-id165 .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(1) Die Partnerschaft ist eine Gesellschaft, in der sich Angehörige Freier Berufe zur Ausübung ihrer Berufe zusammenschließen. Sie übt kein Handelsgewerbe aus. Angehörige einer Partnerschaft können nur natürliche Personen sein."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(2) Die Freien Berufe haben im allgemeinen auf der Grundlage besonderer beruflicher Qualifikation oder schöpferischer Begabung die persönliche, eigenverantwortliche und fachlich unabhängige Erbringung von Dienstleistungen höherer Art im Interesse der Auftraggeber und der Allgemeinheit zum Inhalt. Ausübung eines Freien Berufs im Sinne dieses Gesetzes ist die selbständige Berufstätigkeit der Ärzte, Zahnärzte, Tierärzte, Heilpraktiker, Krankengymnasten, Hebammen, Heilmasseure, Diplom-Psychologen, Rechtsanwälte, Patentanwälte, Wirtschaftsprüfer, Steuerberater, beratenden Volks- und Betriebswirte, vereidigten Buchprüfer (vereidigte Buchrevisoren), Steuerbevollmächtigten, Ingenieure, Architekten, Handelschemiker, Lotsen, hauptberuflichen Sachverständigen, Journalisten, Bildberichterstatter, Dolmetscher, Übersetzer und ähnlicher Berufe sowie der Wissenschaftler, Künstler, Schriftsteller, Lehrer und Erzieher."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(3) Die Berufsausübung in der Partnerschaft kann in Vorschriften über einzelne Berufe ausgeschlossen oder von weiteren Voraussetzungen abhängig gemacht werden."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(4) Auf die Partnerschaft finden, soweit in diesem Gesetz nichts anderes bestimmt ist, die Vorschriften des Bürgerlichen Gesetzbuchs über die Gesellschaft entsprechende Anwendung."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(1) Der Name der Partnerschaft muss den Zusatz „und Partner“ oder „Partnerschaft“ enthalten."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(2) Die §§ 18, 21, 22 Abs. 1, §§ 23, 24, 30, 31 Abs. 2, §§ 32 und 37 des Handelsgesetzbuchs sind entsprechend anzuwenden; § 24 Abs. 2 des Handelsgesetzbuchs gilt auch bei Umwandlung einer Gesellschaft bürgerlichen Rechts in eine Partnerschaft."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(1) Auf die Anmeldung der Partnerschaft in das Partnerschaftsregister sind § 106 Absatz 1 und 7 Satz 1 und 2 des Handelsgesetzbuchs entsprechend anzuwenden. Die Anmeldung hat die Angaben gemäß § 5 Absatz 1 zu enthalten. Änderungen dieser Angaben sind gleichfalls zur Eintragung in das Partnerschaftsregister anzumelden."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(2) In der Anmeldung ist die Zugehörigkeit jedes Partners zu dem Freien Beruf, den er in der Partnerschaft ausübt, anzugeben. Das Registergericht legt bei der Eintragung die Angaben der Partner zugrunde, es sei denn, ihm ist deren Unrichtigkeit bekannt."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(3) Der Anmeldung einer Partnerschaft mit beschränkter Berufshaftung nach § 8 Absatz 4 muss eine Versicherungsbescheinigung gemäß § 113 Absatz 2 des Gesetzes über den Versicherungsvertrag beigefügt sein."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(4) Auf den Statuswechsel unter Beteiligung einer Partnerschaft ist § 107 Absatz 3 des Handelsgesetzbuchs entsprechend anzuwenden."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "(1) Die Eintragung hat zu enthalten: 1.den Namen und den Sitz der Partnerschaft;2.den Namen, den Vornamen, das Geburtsdatum und den Wohnort jedes Partners;3.den in der Partnerschaft ausgeübten Beruf jedes Partners;4.den Gegenstand der Partnerschaft;5.die Angabe der Vertretungsbefugnis der Partner."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "(2) Auf das Partnerschaftsregister und die registerrechtliche Behandlung von Zweigniederlassungen sind die §§ 8, 8a, 9, 10 bis 12, 13, 13d, 13h und 14 bis 16 des Handelsgesetzbuchs über das Handelsregister entsprechend anzuwenden; eine Pflicht zur Anmeldung einer Anschrift in einem Mitgliedstaat der Europäischen Union besteht nicht."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(1) Die Partner erbringen ihre beruflichen Leistungen unter Beachtung des für sie geltenden Berufsrechts."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "(2) Einzelne Partner können im Partnerschaftsvertrag nur von der Führung der sonstigen Geschäfte ausgeschlossen werden."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(3) Im übrigen richtet sich das Rechtsverhältnis der Partner untereinander nach dem Partnerschaftsvertrag. Soweit der Partnerschaftsvertrag keine Bestimmungen enthält, sind § 116 Absatz 1, 2 Satz 1 und Absatz 3 bis 6 sowie die §§ 117, 118 und 119 des Handelsgesetzbuchs entsprechend anzuwenden."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "(1) Die Partnerschaft wird im Verhältnis zu Dritten mit ihrer Eintragung in das Partnerschaftsregister wirksam."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(2) Auf die Vertretung der Partnerschaft sind die Vorschriften des § 124 Absatz 1 und 2 sowie § 124 Absatz 4, 5 und 6 des Handelsgesetzbuchs entsprechend anzuwenden."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(3) Für die Angabe auf Geschäftsbriefen der Partnerschaft ist § 125 Absatz 1 Satz 1 und Absatz 2 des Handelsgesetzbuchs mit der Maßgabe entsprechend anzuwenden, dass bei einer Partnerschaft mit beschränkter Berufshaftung auch der von dieser gewählte Namenszusatz im Sinne des § 8 Absatz 4 Satz 3 anzugeben ist."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(1) Für Verbindlichkeiten der Partnerschaft haften den Gläubigern neben dem Vermögen der Partnerschaft die Partner als Gesamtschuldner. Die §§ 721a und 721b des Bürgerlichen Gesetzbuchs sind entsprechend anzuwenden."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(2) Waren nur einzelne Partner mit der Bearbeitung eines Auftrags befaßt, so haften nur sie gemäß Absatz 1 für berufliche Fehler neben der Partnerschaft; ausgenommen sind Bearbeitungsbeiträge von untergeordneter Bedeutung."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(3) Durch Gesetz kann für einzelne Berufe eine Beschränkung der Haftung für Ansprüche aus Schäden wegen fehlerhafter Berufsausübung auf einen bestimmten Höchstbetrag zugelassen werden, wenn zugleich eine Pflicht zum Abschluß einer Berufshaftpflichtversicherung der Partner oder der Partnerschaft begründet wird."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(4) Für Verbindlichkeiten der Partnerschaft aus Schäden wegen fehlerhafter Berufsausübung haftet den Gläubigern nur die Gesellschaft, wenn die Partnerschaft eine zu diesem Zweck durch Gesetz vorgegebene Berufshaftpflichtversicherung unterhält. Für die Berufshaftpflichtversicherung gelten § 113 Absatz 3 und die §§ 114 bis 124 des Versicherungsvertragsgesetzes entsprechend. Der Name der Partnerschaft muss den Zusatz „mit beschränkter Berufshaftung“ oder die Abkürzung „mbB“ oder eine andere allgemein verständliche Abkürzung dieser Bezeichnung enthalten; anstelle der Namenszusätze nach § 2 Absatz 1 kann der Name der Partnerschaft mit beschränkter Berufshaftung den Zusatz „Part“ oder „PartG“ enthalten."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(1) Auf das Ausscheiden eines Partners und die Auflösung der Partnerschaft sind, soweit im folgenden nichts anderes bestimmt ist, die §§ 130 bis 142 des Handelsgesetzbuchs entsprechend anzuwenden."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "(2) (weggefallen)"@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(3) Verliert ein Partner eine erforderliche Zulassung zu dem Freien Beruf, den er in der Partnerschaft ausübt, so scheidet er mit deren Verlust aus der Partnerschaft aus."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(4) Die Beteiligung an einer Partnerschaft ist nicht vererblich. Der Partnerschaftsvertrag kann jedoch bestimmen, daß sie an Dritte vererblich ist, die Partner im Sinne des § 1 Abs. 1 und 2 sein können. § 131 des Handelsgesetzbuchs ist nur insoweit anzuwenden, als der Erbe der Beteiligung befugt ist, seinen Austritt aus der Partnerschaft zu erklären."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(1) Für die Liquidation der Partnerschaft sind die Vorschriften über die Liquidation der offenen Handelsgesellschaft entsprechend anwendbar."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(2) Nach der Auflösung der Partnerschaft oder nach dem Ausscheiden des Partners bestimmt sich die Haftung der Partner aus Verbindlichkeiten der Partnerschaft nach den §§ 137 und 151 des Handelsgesetzbuchs."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(1) Den Zusatz \"Partnerschaft\" oder \"und Partner\" dürfen nur Partnerschaften nach diesem Gesetz führen. Gesellschaften, die eine solche Bezeichnung bei Inkrafttreten dieses Gesetzes in ihrem Namen führen, ohne Partnerschaft im Sinne dieses Gesetzes zu sein, dürfen diese Bezeichnung noch bis zum Ablauf von zwei Jahren nach Inkrafttreten dieses Gesetzes weiterverwenden. Nach Ablauf dieser Frist dürfen sie eine solche Bezeichnung nur noch weiterführen, wenn sie in ihrem Namen der Bezeichnung \"Partnerschaft\" oder \"und Partner\" einen Hinweis auf die andere Rechtsform hinzufügen."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(2) Die Anmeldung und Eintragung einer dem gesetzlichen Regelfall entsprechenden Vertretungsmacht der Partner und der Abwickler muss erst erfolgen, wenn eine vom gesetzlichen Regelfall abweichende Bestimmung des Partnerschaftsvertrages über die Vertretungsmacht angemeldet und eingetragen wird oder wenn erstmals die Abwickler zur Eintragung angemeldet und eingetragen werden. Das Registergericht kann die Eintragung einer dem gesetzlichen Regelfall entsprechenden Vertretungsmacht auch von Amts wegen vornehmen. Die Anmeldung und Eintragung des Geburtsdatums bereits eingetragener Partner muss erst bei einer Anmeldung und Eintragung bezüglich eines der Partner erfolgen."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "(3) (weggefallen)"@de .
+
+dtd:amtabk-id39 a dtd:amtabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id40 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-07-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id67 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id73 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id76 a dtd:enbez ;
+    dtd:has_Value "§ 11"@de .
+
+dtd:fundstelle-id41 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id166 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id167 .
+
+dtd:fussnoten-id100 a dtd:fussnoten .
+
+dtd:fussnoten-id78 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id121 .
+
+dtd:fussnoten-id80 a dtd:fussnoten .
+
+dtd:fussnoten-id82 a dtd:fussnoten .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:fussnoten-id86 a dtd:fussnoten .
+
+dtd:fussnoten-id88 a dtd:fussnoten .
+
+dtd:fussnoten-id90 a dtd:fussnoten .
+
+dtd:fussnoten-id92 a dtd:fussnoten .
+
+dtd:fussnoten-id94 a dtd:fussnoten .
+
+dtd:fussnoten-id96 a dtd:fussnoten .
+
+dtd:fussnoten-id98 a dtd:fussnoten .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id72 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:jurabk-id75 a dtd:jurabk ;
+    dtd:has_Value "PartGG"@de .
+
+dtd:kurzue-id42 a dtd:kurzue ;
+    dtd:has_Value "Partnerschaftsgesellschaftsgesetz"@de .
+
+dtd:langue-id43 a dtd:langue ;
+    dtd:has_Value "Gesetz über Partnerschaftsgesellschaften Angehöriger Freier Berufe"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id39 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id40 ;
+    dtd:has_fundstelle dtd:fundstelle-id41 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_kurzue dtd:kurzue-id42 ;
+    dtd:has_langue dtd:langue-id43 ;
+    dtd:has_standangabe dtd:standangabe-id44 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 ;
+    dtd:has_titel dtd:titel-id68 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_jurabk dtd:jurabk-id69 ;
+    dtd:has_titel dtd:titel-id71 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id73 ;
+    dtd:has_jurabk dtd:jurabk-id72 ;
+    dtd:has_titel dtd:titel-id74 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id76 ;
+    dtd:has_jurabk dtd:jurabk-id75 ;
+    dtd:has_titel dtd:titel-id77 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000803360"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000902360"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE001001360"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE001103360"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000103360"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000202360"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000301360"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000404360"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000504360"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000601360"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231231214312"@de ;
+    dtd:has_doknr "BJNR174410994BJNE000706360"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id166 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id165 a dtd:pre ;
+    dtd:has_BR dtd:BR-id102,
+        dtd:BR-id103 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.1995 +++)"@de .
+
+dtd:standangabe-id44 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id169 ;
+    dtd:has_standtyp dtd:standtyp-id168 .
+
+dtd:standkommentar-id169 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 68 G v. 10.8.2021 I 3436"@de .
+
+dtd:standtyp-id168 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id144 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id148 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id97 a dtd:text ;
+    dtd:has_Content dtd:Content-id158 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id99 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id80 ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id90 ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id92 ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id94 ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id96 ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id98 ;
+    dtd:has_text dtd:text-id97 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id100 ;
+    dtd:has_text dtd:text-id99 .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Voraussetzungen der Partnerschaft; Anwendbarkeit der Vorschriften über die Gesellschaft bürgerlichen Rechts"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Name der Partnerschaft"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Anmeldung der Partnerschaft; Statuswechsel"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Inhalt der Eintragung; anzuwendende Vorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Rechtsverhältnis der Partner untereinander"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Wirksamkeit im Verhältnis zu Dritten, rechtliche Selbständigkeit, Vertretung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id68 a dtd:titel ;
+    dtd:has_Value "Haftung für Verbindlichkeiten der Partnerschaft"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id71 a dtd:titel ;
+    dtd:has_Value "Ausscheiden eines Partners, Auflösung der Partnerschaft"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id74 a dtd:titel ;
+    dtd:has_Value "Liquidation der Partnerschaft, Nachhaftung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id77 a dtd:titel ;
+    dtd:has_Value "Übergangsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id167 a dtd:zitstelle ;
+    dtd:has_Value "1994, 1744"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

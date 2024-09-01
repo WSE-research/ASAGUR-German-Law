@@ -1,0 +1,564 @@
+@prefix dtd: <urn:KWMV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112,
+        dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123,
+        dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id81,
+        dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87 ;
+    dtd:has_DT dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id88 a dtd:DL ;
+    dtd:has_DD dtd:DD-id94,
+        dtd:DD-id95,
+        dtd:DD-id96,
+        dtd:DD-id97,
+        dtd:DD-id98 ;
+    dtd:has_DT dtd:DT-id89,
+        dtd:DT-id90,
+        dtd:DT-id91,
+        dtd:DT-id92,
+        dtd:DT-id93 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gepanzerte Kampffahrzeuge der Nummer 25 der Kriegswaffenliste, die entweder für den Transport einer Infanteriegruppe von mindestens 4 Soldaten oder mit einer Rohrwaffe von mindestens 12,5 mm Kaliber oder mit einer Abfeuereinrichtung für Flugkörper ausgerüstet sind,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kanonen, Haubitzen, Mörser der Nummer 31 der Kriegswaffenliste sowie Mehrfachraketenwerfer der Nummern 10 und 11 der Kriegswaffenliste mit einem Kaliber von jeweils mindestens 100 mm,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kampfflugzeuge der Nummer 13 der Kriegswaffenliste,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kampfhubschrauber der Nummer 14 der Kriegswaffenliste,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kriegsschiffe der Nummern 17 bis 22 der Kriegswaffenliste mit einer typenmäßigen Wasserverdrängung von mindestens 750 metrische t oder Ausrüstung mit Flugkörpern oder Torpedos von mindestens 25 km Reichweite,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Flugkörper der Nummern 7 bis 9 der Kriegswaffenliste mit einer Reichweite von mindestens 25 km, ausgenommen Boden-Luft-Flugkörper; Abfeuereinrichtungen der Nummern 10 und 11 der Kriegswaffenliste für solche Flugkörper."@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Gesamtzahl aller gelagerten Antipersonenminen, aufgeschlüsselt nach Art und Menge und wenn möglich unter Angabe der Losnummern jeder Art von gelagerten Antipersonenminen,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Art, Menge und nach Möglichkeit über die Losnummern aller für die Entwicklung von Verfahren zur Minensuche, Minenräumung und Minenvernichtung und die Ausbildung in diesen Verfahren zurückbehaltenen oder weitergegebenen oder zum Zweck der Vernichtung weitergegebenen Antipersonenminen,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Stand der Programme zur Vernichtung von Antipersonenminen, einschließlich ausführlicher Methoden, die bei der Vernichtung nach Artikel 4 des Übereinkommens über das Verbot des Einsatzes, der Lagerung, der Herstellung und der Weitergabe von Antipersonenminen und über deren Vernichtung vom 3. Dezember 1997 angewandt werden, die Lage aller Vernichtungsstätten und die zu beachtenden einschlägigen Sicherheits- und Umweltschutznormen,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Art und Menge aller Antipersonenminen, die seit dem 1. März 1999 nach Artikel 4 des Übereinkommens über das Verbot des Einsatzes, der Lagerung, der Herstellung und der Weitergabe von Antipersonenminen und über deren Vernichtung vom 3. Dezember 1997 vernichtet worden sind, aufgeschlüsselt nach der Menge der einzelnen Arten und nach Möglichkeit unter Angabe der Losnummern der einzelnen Arten von Antipersonenminen,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die technischen Merkmale jeder hergestellten Art von Antipersonenminen, soweit sie bekannt sind, und die Weitergabe von Informationen, die geeignet sind, die Identifizierung und Räumung von Antipersonenminen zu erleichtern; dazu gehören zumindest die Abmessungen, die Zündvorrichtung, der Sprengstoff- und der Metallanteil, Farbfotos und sonstige Informationen, welche die Minenräumung erleichtern können."@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kampfpanzer der Nummer 24 der Kriegswaffenliste mit einem Leergewicht von mindestens 16,5 metrische t und einer Panzerkanone mit einem Kaliber von mindestens 75 mm,"@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 28.1.1995 +++)"@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_BR dtd:BR-id72 ;
+    dtd:has_Value " Überschrift: IdF d. Art. 1 Nr. 1 V v. 9.6.1999 I 1266 mWv 12.6.1999"@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 12a Abs. 1 Satz 1 des Gesetzes über die Kontrolle von Kriegswaffen in der Fassung der Bekanntmachung vom 22. November 1990 (BGBl. I S. 2506), der durch Artikel 2 des Gesetzes vom 9. August 1994 (BGBl. I S. 2068) eingefügt worden ist, verordnet die Bundesregierung, und auf Grund des § 36 Abs. 3 des Gesetzes über Ordnungswidrigkeiten in der Fassung der Bekanntmachung vom 19. Februar 1987 (BGBl. I S. 602) verordnet das Bundesministerium für Wirtschaft:"@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(1) Unternehmen, die nach § 2 dieser Rechtsverordnung meldepflichtige Kriegswaffen gemäß § 3 Abs. 3 in Verbindung mit Abs. 1 oder 2 des Gesetzes über die Kontrolle von Kriegswaffen in das Bundesgebiet einführen oder aus dem Bundesgebiet ausführen, haben dem Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) schriftlich Anzahl, Kriegswaffennummer, Typenbezeichnung, Datum der Ein- oder Ausfuhr sowie bei der Einfuhr den Verwendungszweck und bei der Ausfuhr den Verwendungszweck und das Bestimmungsland zu melden."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Die Meldungen sind spätestens bis zum Ablauf der sechsten Woche eines Kalenderjahres für das vorangegangene Kalenderjahr, erstmals für das Jahr 1994, zu erstatten."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Value "(1) Kriegswaffen der folgenden Kategorien unterliegen der Meldepflicht: 1.Kampfpanzer der Nummer 24 der Kriegswaffenliste mit einem Leergewicht von mindestens 16,5 metrische t und einer Panzerkanone mit einem Kaliber von mindestens 75 mm, 2.gepanzerte Kampffahrzeuge der Nummer 25 der Kriegswaffenliste, die entweder für den Transport einer Infanteriegruppe von mindestens 4 Soldaten oder mit einer Rohrwaffe von mindestens 12,5 mm Kaliber oder mit einer Abfeuereinrichtung für Flugkörper ausgerüstet sind, 3.Kanonen, Haubitzen, Mörser der Nummer 31 der Kriegswaffenliste sowie Mehrfachraketenwerfer der Nummern 10 und 11 der Kriegswaffenliste mit einem Kaliber von jeweils mindestens 100 mm, 4.Kampfflugzeuge der Nummer 13 der Kriegswaffenliste, 5.Kampfhubschrauber der Nummer 14 der Kriegswaffenliste, 6.Kriegsschiffe der Nummern 17 bis 22 der Kriegswaffenliste mit einer typenmäßigen Wasserverdrängung von mindestens 750 metrische t oder Ausrüstung mit Flugkörpern oder Torpedos von mindestens 25 km Reichweite, 7.Flugkörper der Nummern 7 bis 9 der Kriegswaffenliste mit einer Reichweite von mindestens 25 km, ausgenommen Boden-Luft-Flugkörper; Abfeuereinrichtungen der Nummern 10 und 11 der Kriegswaffenliste für solche Flugkörper.  "@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(2) Der Meldepflicht unterliegen auch nicht zusammengebaute oder zerlegte Kriegswaffen nach Absatz 1. Werden Kriegswaffenteile nach und nach ein- oder ausgeführt, unterliegt die Gesamtwaffe der Meldepflicht, wenn das letzte Teil ein- oder ausgeführt wird."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_DL dtd:DL-id88 ;
+    dtd:has_Value "(1) Unternehmen oder Privatpersonen, die Antipersonenminen im Sinne von Absatz 2 in ihrem Eigentum oder Besitz haben oder in sonstiger Weise die tatsächliche Gewalt über sie ausüben, haben dem Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) Meldungen abzugeben über 1.die Gesamtzahl aller gelagerten Antipersonenminen, aufgeschlüsselt nach Art und Menge und wenn möglich unter Angabe der Losnummern jeder Art von gelagerten Antipersonenminen, 2.die Art, Menge und nach Möglichkeit über die Losnummern aller für die Entwicklung von Verfahren zur Minensuche, Minenräumung und Minenvernichtung und die Ausbildung in diesen Verfahren zurückbehaltenen oder weitergegebenen oder zum Zweck der Vernichtung weitergegebenen Antipersonenminen, 3.den Stand der Programme zur Vernichtung von Antipersonenminen, einschließlich ausführlicher Methoden, die bei der Vernichtung nach Artikel 4 des Übereinkommens über das Verbot des Einsatzes, der Lagerung, der Herstellung und der Weitergabe von Antipersonenminen und über deren Vernichtung vom 3. Dezember 1997 angewandt werden, die Lage aller Vernichtungsstätten und die zu beachtenden einschlägigen Sicherheits- und Umweltschutznormen, 4.die Art und Menge aller Antipersonenminen, die seit dem 1. März 1999 nach Artikel 4 des Übereinkommens über das Verbot des Einsatzes, der Lagerung, der Herstellung und der Weitergabe von Antipersonenminen und über deren Vernichtung vom 3. Dezember 1997 vernichtet worden sind, aufgeschlüsselt nach der Menge der einzelnen Arten und nach Möglichkeit unter Angabe der Losnummern der einzelnen Arten von Antipersonenminen, 5.die technischen Merkmale jeder hergestellten Art von Antipersonenminen, soweit sie bekannt sind, und die Weitergabe von Informationen, die geeignet sind, die Identifizierung und Räumung von Antipersonenminen zu erleichtern; dazu gehören zumindest die Abmessungen, die Zündvorrichtung, der Sprengstoff- und der Metallanteil, Farbfotos und sonstige Informationen, welche die Minenräumung erleichtern können.  "@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(2) Für Antipersonenminen gilt die Begriffsbestimmung des Artikels 2 des Übereinkommens über das Verbot des Einsatzes, der Lagerung, der Herstellung und der Weitergabe von Antipersonenminen und über deren Vernichtung vom 3. Dezember 1997."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(3) Die Meldungen sind spätestens binnen 2 Wochen nach dem 31. März eines jeden Kalenderjahres für das vorangegangene Kalenderjahr, erstmals am 28. Juni 1999 abzugeben."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(4) § 2 Abs. 2 Satz 1 dieser Verordnung gilt entsprechend."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "Ordnungswidrig im Sinne des § 22b Abs. 1 Nr. 3a des Gesetzes über die Kontrolle von Kriegswaffen handelt, wer vorsätzlich oder fahrlässig entgegen § 1 eine Meldung nicht, nicht richtig, nicht vollständig oder nicht rechtzeitig erstattet."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "Die Zuständigkeit für die Verfolgung und Ahndung von Ordnungswidrigkeiten nach § 4 wird auf das Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) übertragen."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1995-01-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id135 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id136 .
+
+dtd:fussnoten-id58 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id111 .
+
+dtd:fussnoten-id61 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:fussnoten-id71 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "KWMV"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "Kriegswaffenmeldeverordnung"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_Value "Verordnung über Meldepflichten für bestimmte Kriegswaffen"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 ;
+    dtd:has_standangabe dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995BJNE000601311"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995BJNE000202311"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995BJNE000801311"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995BJNE000401311"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995BJNE000502311"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405125327"@de ;
+    dtd:has_doknr "BJNR009200995BJNE000700307"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id135 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id138 ;
+    dtd:has_standtyp dtd:standtyp-id137 .
+
+dtd:standkommentar-id138 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 33 G v. 21.12.2000 I 1956"@de .
+
+dtd:standtyp-id137 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id133 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Allgemeine Meldepflichten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Meldepflichtige Kriegswaffen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value """Meldepflichten nach § 7 des Ausführungsgesetzes zum Übereinkommen
+über das Verbot des Einsatzes, der Lagerung, der Herstellung und der
+Weitergabe von Antipersonenminen und über deren Vernichtung
+vom 3. Dezember 1997"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Ordnungswidrigkeiten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Zuständigkeit des Bundesamtes für Wirtschaft und Ausfuhrkontrolle (BAFA)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id136 a dtd:zitstelle ;
+    dtd:has_Value "1995, 92"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

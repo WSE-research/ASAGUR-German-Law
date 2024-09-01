@@ -1,0 +1,320 @@
+@prefix dtd: <urn:EgVG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170823221058"@de ;
+    dtd:has_doknr "BJNR208000017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65,
+        dtd:P-id66,
+        dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69,
+        dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id56 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id50,
+        dtd:DD-id51,
+        dtd:DD-id52,
+        dtd:DD-id53,
+        dtd:DD-id54,
+        dtd:DD-id55 ;
+    dtd:has_DT dtd:DT-id44,
+        dtd:DT-id45,
+        dtd:DT-id46,
+        dtd:DT-id47,
+        dtd:DT-id48,
+        dtd:DT-id49 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Value "eine Einrichtung als unabhängige Einrichtung im Sinne des Satzes 2, die über die für die Überprüfung der Vorausschätzungen erforderlichen Sachkenntnisse, Erfahrungen und Mittel verfügt, und, falls diese Einrichtung aus mehreren Institutionen oder Personen besteht, ihre Zusammensetzung,"@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Value "den Zugang der unabhängigen Einrichtung zu den für die Überprüfung der gesamtwirtschaftlichen Vorausschätzungen erforderlichen Informationen,"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Value "das Verfahren der Überprüfung und Befürwortung der gesamtwirtschaftlichen Vorausschätzungen durch die unabhängige Einrichtung,"@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Value "die Befugnis der unabhängigen Einrichtung, im Rahmen des Befürwortungsverfahrens öffentliche Stellungnahmen abzugeben,"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Value "die Mittelausstattung der unabhängigen Einrichtung sowie"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Value "die Befugnis der unabhängigen Einrichtung, sich eine Geschäftsordnung zu geben."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_Value " (+++ Textnachweis ab: 5.7.2017 +++)"@de ;
+    dtd:has_pre dtd:pre-id77 .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesministerium für Wirtschaft und Energie erstellt die gesamtwirtschaftlichen Vorausschätzungen der Bundesregierung."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(2) Die Erstellung der gesamtwirtschaftlichen Vorausschätzungen erfolgt im Einvernehmen mit dem Bundeskanzleramt, dem Bundesministerium der Finanzen, dem Bundesministerium für Arbeit und Soziales und dem Bundesministerium für Gesundheit."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(3) Die Eckwerte der gesamtwirtschaftlichen Vorausschätzungen werden für die Jahresprojektion gemäß § 2 Absatz 1 Satz 2 Nummer 2 des Gesetzes zur Förderung der Stabilität und des Wachstums der Wirtschaft als Teil des Jahreswirtschaftsberichts der Bundesregierung, im Übrigen durch das Bundesministerium für Wirtschaft und Energie veröffentlicht."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesregierung erstellt jährlich in der Regel drei gesamtwirtschaftliche Vorausschätzungen, die der Haushalts- und Finanzplanung der Bundesregierung zugrunde liegen. Diese sind die Jahresprojektion gemäß § 2 Absatz 1 Satz 2 Nummer 2 des Gesetzes zur Förderung der Stabilität und des Wachstums der Wirtschaft, die Frühjahrsprojektion und die Herbstprojektion."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(2) Die gesamtwirtschaftlichen Vorausschätzungen umfassen einen Projektionszeitraum von insgesamt mindestens fünf Kalenderjahren."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(3) Die gesamtwirtschaftlichen Vorausschätzungen sollen die jeweils wahrscheinlichste Entwicklung der deutschen Volkswirtschaft darstellen. Im Zweifel soll dem Vorsichtsprinzip Vorrang eingeräumt werden."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(4) Die gesamtwirtschaftlichen Vorausschätzungen bedienen sich der Mittel und der Form der Volkswirtschaftlichen Gesamtrechnungen, gegebenenfalls mit Alternativrechnungen. Alle Ressorts unterstützen das Bundesministerium für Wirtschaft und Energie durch Bereitstellung der erforderlichen Informationen aus ihrem Zuständigkeitsbereich."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Value "Die gesamtwirtschaftlichen Vorausschätzungen, die den Haushalts- und Finanzplanungen der Bundesregierung zugrunde liegen, sind von einer unabhängigen Einrichtung mit dem Ziel der Befürwortung zu überprüfen. Die unabhängige Einrichtung ist dabei von Weisungen der Bundesregierung und anderer öffentlicher oder privater Einrichtungen frei. Das Bundesministerium für Wirtschaft und Energie wird ermächtigt, im Einvernehmen mit dem Bundesministerium der Finanzen durch Rechtsverordnung zu bestimmen 1.eine Einrichtung als unabhängige Einrichtung im Sinne des Satzes 2, die über die für die Überprüfung der Vorausschätzungen erforderlichen Sachkenntnisse, Erfahrungen und Mittel verfügt, und, falls diese Einrichtung aus mehreren Institutionen oder Personen besteht, ihre Zusammensetzung,2.den Zugang der unabhängigen Einrichtung zu den für die Überprüfung der gesamtwirtschaftlichen Vorausschätzungen erforderlichen Informationen,3.das Verfahren der Überprüfung und Befürwortung der gesamtwirtschaftlichen Vorausschätzungen durch die unabhängige Einrichtung,4.die Befugnis der unabhängigen Einrichtung, im Rahmen des Befürwortungsverfahrens öffentliche Stellungnahmen abzugeben,5.die Mittelausstattung der unabhängigen Einrichtung sowie6.die Befugnis der unabhängigen Einrichtung, sich eine Geschäftsordnung zu geben."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "EgVG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-06-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id78 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id79 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id62 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "EgVG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "EgVG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "EgVG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "EgVG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "EgVG"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Vorausschätzungsgesetz"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Erstellung gesamtwirtschaftlicher Vorausschätzungen der Bundesregierung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170823221058"@de ;
+    dtd:has_doknr "BJNR208000017"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170823221058"@de ;
+    dtd:has_doknr "BJNR208000017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170823221058"@de ;
+    dtd:has_doknr "BJNR208000017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20170823221058"@de ;
+    dtd:has_doknr "BJNR208000017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20170823221058"@de ;
+    dtd:has_doknr "BJNR208000017BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id78 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id77 a dtd:pre ;
+    dtd:has_BR dtd:BR-id41,
+        dtd:BR-id42 ;
+    dtd:has_Value "(+++ Textnachweis ab: 5.7.2017 +++)"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Zuständigkeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Erstellung, Inhalt, Mittel und Form"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Verordnungsermächtigung zur Überprüfung der gesamtwirtschaftlichen Vorausschätzungen durch eine unabhängige Einrichtung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id79 a dtd:zitstelle ;
+    dtd:has_Value "2017, 2080"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

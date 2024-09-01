@@ -1,0 +1,522 @@
+@prefix dtd: <urn:WissZeitVG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105,
+        dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108,
+        dtd:P-id109,
+        dtd:P-id110,
+        dtd:P-id111,
+        dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122,
+        dtd:P-id123,
+        dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DL-id81 a dtd:DL ;
+    dtd:has_DD dtd:DD-id88,
+        dtd:DD-id89,
+        dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93 ;
+    dtd:has_DT dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84,
+        dtd:DT-id85,
+        dtd:DT-id86,
+        dtd:DT-id87 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zeiten einer Beurlaubung oder einer Ermäßigung der Arbeitszeit um mindestens ein Fünftel der regelmäßigen Arbeitszeit, die für die Betreuung oder Pflege eines oder mehrerer Kinder unter 18 Jahren, auch wenn hinsichtlich des Kindes die Voraussetzungen des § 15 Absatz 1 Satz 1 des Bundeselterngeld- und Elternzeitgesetzes vorliegen, oder pflegebedürftiger sonstiger Angehöriger gewährt worden sind,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zeiten einer Beurlaubung für eine wissenschaftliche oder künstlerische Tätigkeit oder eine außerhalb des Hochschulbereichs oder im Ausland durchgeführte wissenschaftliche, künstlerische oder berufliche Aus-, Fort- oder Weiterbildung,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zeiten einer Inanspruchnahme von Elternzeit nach dem Bundeselterngeld- und Elternzeitgesetz und Zeiten eines Beschäftigungsverbots nach den §§ 3 bis 6, 10 Absatz 3, § 13 Absatz 1 Nummer 3 und § 16 des Mutterschutzgesetzes in dem Umfang, in dem eine Erwerbstätigkeit nicht erfolgt ist,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zeiten des Grundwehr- und Zivildienstes,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zeiten einer Freistellung im Umfang von mindestens einem Fünftel der regelmäßigen Arbeitszeit zur Wahrnehmung von Aufgaben in einer Personal- oder Schwerbehindertenvertretung, von Aufgaben eines oder einer Frauen- oder Gleichstellungsbeauftragten oder zur Ausübung eines mit dem Arbeitsverhältnis zu vereinbarenden Mandats und"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zeiten einer krankheitsbedingten Arbeitsunfähigkeit, in denen ein gesetzlicher oder tarifvertraglicher Anspruch auf Entgeltfortzahlung nicht besteht."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_BR dtd:BR-id78 ;
+    dtd:has_Value " (+++ Textnachweis ab: 18.4.2007 +++)Das G wurde als Artikel 1 des G v. 12.4.2007 I 506 vom Bundestag beschlossen. Es ist gem. Art. 5 dieses G am 18.4.2007 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id127 .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(1) Für den Abschluss von Arbeitsverträgen für eine bestimmte Zeit (befristete Arbeitsverträge) mit wissenschaftlichem und künstlerischem Personal mit Ausnahme der Hochschullehrerinnen und Hochschullehrer an Einrichtungen des Bildungswesens, die nach Landesrecht staatliche Hochschulen sind, gelten die §§ 2, 3 und 6. Von diesen Vorschriften kann durch Vereinbarung nicht abgewichen werden. Durch Tarifvertrag kann für bestimmte Fachrichtungen und Forschungsbereiche von den in § 2 Abs. 1 vorgesehenen Fristen abgewichen und die Anzahl der zulässigen Verlängerungen befristeter Arbeitsverträge festgelegt werden. Im Geltungsbereich eines solchen Tarifvertrages können nicht tarifgebundene Vertragsparteien die Anwendung der tariflichen Regelungen vereinbaren. Die arbeitsrechtlichen Vorschriften und Grundsätze über befristete Arbeitsverträge und deren Kündigung sind anzuwenden, soweit sie den Vorschriften der §§ 2 bis 6 nicht widersprechen."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(2) Unberührt bleibt das Recht der Hochschulen, das in Absatz 1 Satz 1 bezeichnete Personal auch in unbefristeten oder nach Maßgabe des Teilzeit- und Befristungsgesetzes befristeten Arbeitsverhältnissen zu beschäftigen."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(1) Die Befristung von Arbeitsverträgen des in § 1 Absatz 1 Satz 1 genannten Personals, das nicht promoviert ist, ist bis zu einer Dauer von sechs Jahren zulässig, wenn die befristete Beschäftigung zur Förderung der eigenen wissenschaftlichen oder künstlerischen Qualifizierung erfolgt. Nach abgeschlossener Promotion ist eine Befristung bis zu einer Dauer von sechs Jahren, im Bereich der Medizin bis zu einer Dauer von neun Jahren, zulässig, wenn die befristete Beschäftigung zur Förderung der eigenen wissenschaftlichen oder künstlerischen Qualifizierung erfolgt; die zulässige Befristungsdauer verlängert sich in dem Umfang, in dem Zeiten einer befristeten Beschäftigung nach Satz 1 und Promotionszeiten ohne Beschäftigung nach Satz 1 zusammen weniger als sechs Jahre betragen haben. Die vereinbarte Befristungsdauer ist jeweils so zu bemessen, dass sie der angestrebten Qualifizierung angemessen ist. Die nach den Sätzen 1 und 2 insgesamt zulässige Befristungsdauer verlängert sich bei Betreuung eines oder mehrerer Kinder unter 18 Jahren um zwei Jahre je Kind. Satz 4 gilt auch, wenn hinsichtlich des Kindes die Voraussetzungen des § 15 Absatz 1 Satz 1 des Bundeselterngeld- und Elternzeitgesetzes vorliegen. Die nach den Sätzen 1 und 2 insgesamt zulässige Befristungsdauer verlängert sich bei Vorliegen einer Behinderung nach § 2 Absatz 1 des Neunten Buches Sozialgesetzbuch oder einer schwerwiegenden chronischen Erkrankung um zwei Jahre. Innerhalb der jeweils zulässigen Befristungsdauer sind auch Verlängerungen eines befristeten Arbeitsvertrages möglich."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(2) Die Befristung von Arbeitsverträgen des in § 1 Abs. 1 Satz 1 genannten Personals ist auch zulässig, wenn die Beschäftigung überwiegend aus Mitteln Dritter finanziert wird, die Finanzierung für eine bestimmte Aufgabe und Zeitdauer bewilligt ist und die Mitarbeiterin oder der Mitarbeiter überwiegend der Zweckbestimmung dieser Mittel entsprechend beschäftigt wird; die vereinbarte Befristungsdauer soll dem bewilligten Projektzeitraum entsprechen."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(3) Auf die in Absatz 1 geregelte zulässige Befristungsdauer sind alle befristeten Arbeitsverhältnisse mit mehr als einem Viertel der regelmäßigen Arbeitszeit, die mit einer deutschen Hochschule oder einer Forschungseinrichtung im Sinne des § 5 abgeschlossen wurden, sowie entsprechende Beamtenverhältnisse auf Zeit und Privatdienstverträge nach § 3 anzurechnen. Angerechnet werden auch befristete Arbeitsverhältnisse, die nach anderen Rechtsvorschriften abgeschlossen wurden. Die Sätze 1 und 2 gelten nicht für Arbeitsverhältnisse nach § 6 sowie vergleichbare studienbegleitende Beschäftigungen, die auf anderen Rechtsvorschriften beruhen."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(4) Im Arbeitsvertrag ist anzugeben, ob die Befristung auf den Vorschriften dieses Gesetzes beruht. Fehlt diese Angabe, kann die Befristung nicht auf Vorschriften dieses Gesetzes gestützt werden. Die Dauer der Befristung muss bei Arbeitsverträgen nach Absatz 1 kalendermäßig bestimmt oder bestimmbar sein."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_DL dtd:DL-id81 ;
+    dtd:has_Value "(5) Die jeweilige Dauer eines befristeten Arbeitsvertrages nach Absatz 1 verlängert sich im Einverständnis mit der Mitarbeiterin oder dem Mitarbeiter um 1.Zeiten einer Beurlaubung oder einer Ermäßigung der Arbeitszeit um mindestens ein Fünftel der regelmäßigen Arbeitszeit, die für die Betreuung oder Pflege eines oder mehrerer Kinder unter 18 Jahren, auch wenn hinsichtlich des Kindes die Voraussetzungen des § 15 Absatz 1 Satz 1 des Bundeselterngeld- und Elternzeitgesetzes vorliegen, oder pflegebedürftiger sonstiger Angehöriger gewährt worden sind,2.Zeiten einer Beurlaubung für eine wissenschaftliche oder künstlerische Tätigkeit oder eine außerhalb des Hochschulbereichs oder im Ausland durchgeführte wissenschaftliche, künstlerische oder berufliche Aus-, Fort- oder Weiterbildung,3.Zeiten einer Inanspruchnahme von Elternzeit nach dem Bundeselterngeld- und Elternzeitgesetz und Zeiten eines Beschäftigungsverbots nach den §§ 3 bis 6, 10 Absatz 3, § 13 Absatz 1 Nummer 3 und § 16 des Mutterschutzgesetzes in dem Umfang, in dem eine Erwerbstätigkeit nicht erfolgt ist,4.Zeiten des Grundwehr- und Zivildienstes,5.Zeiten einer Freistellung im Umfang von mindestens einem Fünftel der regelmäßigen Arbeitszeit zur Wahrnehmung von Aufgaben in einer Personal- oder Schwerbehindertenvertretung, von Aufgaben eines oder einer Frauen- oder Gleichstellungsbeauftragten oder zur Ausübung eines mit dem Arbeitsverhältnis zu vereinbarenden Mandats und6.Zeiten einer krankheitsbedingten Arbeitsunfähigkeit, in denen ein gesetzlicher oder tarifvertraglicher Anspruch auf Entgeltfortzahlung nicht besteht.In den Fällen des Satzes 1 Nummer 1, 2 und 5 soll die Verlängerung die Dauer von jeweils zwei Jahren nicht überschreiten. Zeiten nach Satz 1 Nummer 1 bis 6 werden in dem Umfang, in dem sie zu einer Verlängerung eines befristeten Arbeitsvertrages führen können, nicht auf die nach Absatz 1 zulässige Befristungsdauer angerechnet."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "Für einen befristeten Arbeitsvertrag, den ein Mitglied einer Hochschule, das Aufgaben seiner Hochschule selbständig wahrnimmt, zur Unterstützung bei der Erfüllung dieser Aufgaben mit überwiegend aus Mitteln Dritter vergütetem Personal im Sinne von § 1 Abs. 1 Satz 1 abschließt, gelten die Vorschriften der §§ 1, 2 und 6 entsprechend."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "Für den Abschluss befristeter Arbeitsverträge mit wissenschaftlichem und künstlerischem Personal an nach Landesrecht staatlich anerkannten Hochschulen gelten die Vorschriften der §§ 1 bis 3 und 6 entsprechend."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Für den Abschluss befristeter Arbeitsverträge mit wissenschaftlichem Personal an staatlichen Forschungseinrichtungen sowie an überwiegend staatlich, an institutionell überwiegend staatlich oder auf der Grundlage von Artikel 91b des Grundgesetzes finanzierten Forschungseinrichtungen gelten die Vorschriften der §§ 1 bis 3 und 6 entsprechend."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Befristete Arbeitsverträge zur Erbringung wissenschaftlicher oder künstlerischer Hilfstätigkeiten mit Studierenden, die an einer deutschen Hochschule für ein Studium, das zu einem ersten oder einem weiteren berufsqualifizierenden Abschluss führt, eingeschrieben sind, sind bis zur Dauer von insgesamt sechs Jahren zulässig. Innerhalb der zulässigen Befristungsdauer sind auch Verlängerungen eines befristeten Arbeitsvertrages möglich."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(1) Für die seit dem 23. Februar 2002 bis zum 17. April 2007 an staatlichen und staatlich anerkannten Hochschulen sowie an Forschungseinrichtungen im Sinne des § 5 abgeschlossenen Arbeitsverträge gelten die §§ 57a bis 57f des Hochschulrahmengesetzes in der ab 31. Dezember 2004 geltenden Fassung fort. Für vor dem 23. Februar 2002 an staatlichen und staatlich anerkannten Hochschulen sowie an Forschungseinrichtungen im Sinne des § 5 abgeschlossene Arbeitsverträge gelten die §§ 57a bis 57e des Hochschulrahmengesetzes in der vor dem 23. Februar 2002 geltenden Fassung fort. Satz 2 gilt entsprechend für Arbeitsverträge, die zwischen dem 27. Juli 2004 und dem 31. Dezember 2004 abgeschlossen wurden."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(2) Der Abschluss befristeter Arbeitsverträge nach § 2 Abs. 1 Satz 1 und 2 mit Personen, die bereits vor dem 23. Februar 2002 in einem befristeten Arbeitsverhältnis zu einer Hochschule, einem Hochschulmitglied im Sinne von § 3 oder einer Forschungseinrichtung im Sinne von § 5 standen, ist auch nach Ablauf der in § 2 Abs. 1 Satz 1 und 2 geregelten jeweils zulässigen Befristungsdauer mit einer Laufzeit bis zum 29. Februar 2008 zulässig. Satz 1 gilt entsprechend für Personen, die vor dem 23. Februar 2002 in einem Dienstverhältnis als wissenschaftlicher oder künstlerischer Assistent standen. § 2 Abs. 5 gilt entsprechend."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(3) Die nach § 2 Absatz 1 Satz 1 und 2 insgesamt zulässige Befristungsdauer verlängert sich um sechs Monate, wenn ein Arbeitsverhältnis nach § 2 Absatz 1 zwischen dem 1. März 2020 und dem 30. September 2020 besteht. Das Bundesministerium für Bildung und Forschung wird ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates die zulässige Befristungsdauer höchstens um weitere sechs Monate zu verlängern, soweit dies aufgrund fortbestehender Auswirkungen der COVID-19-Pandemie in der Bundesrepublik Deutschland geboten erscheint; die Verlängerung ist auch auf ­Arbeitsverhältnisse zu erstrecken, die nach dem 30. September 2020 und vor Ablauf des in der Rechtsverordnung genannten Verlängerungszeitraums begründet werden."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "Die Auswirkungen dieses Gesetzes werden im Jahr 2020 evaluiert."@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2007-04-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id128 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id129 .
+
+dtd:fussnoten-id61 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id102 .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:fussnoten-id65 a dtd:fussnoten .
+
+dtd:fussnoten-id67 a dtd:fussnoten .
+
+dtd:fussnoten-id69 a dtd:fussnoten .
+
+dtd:fussnoten-id71 a dtd:fussnoten .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "WissZeitVG"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "Wissenschaftszeitvertragsgesetz"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_Value "Gesetz über befristete Arbeitsverträge in der Wissenschaft"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 ;
+    dtd:has_standangabe dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007BJNE000800119"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007BJNE000101119"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007BJNE000202360"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007BJNE000301119"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007BJNE000401119"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007BJNE000501119"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007BJNE000700119"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20200529212506"@de ;
+    dtd:has_doknr "BJNR050610007BJNE000602119"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id128 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id127 a dtd:pre ;
+    dtd:has_BR dtd:BR-id79,
+        dtd:BR-id80 ;
+    dtd:has_Value "(+++ Textnachweis ab: 18.4.2007 +++)"@de .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id131 ;
+    dtd:has_standtyp dtd:standtyp-id130 .
+
+dtd:standkommentar-id131 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert Art. 1 G v. 25.5.2020 I 1073"@de .
+
+dtd:standtyp-id130 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id69 ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Befristung von Arbeitsverträgen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Befristungsdauer; Befristung wegen Drittmittelfinanzierung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Privatdienstvertrag"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Wissenschaftliches Personal an staatlich anerkannten Hochschulen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Wissenschaftliches Personal an Forschungseinrichtungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Wissenschaftliche und künstlerische Hilfstätigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Rechtsgrundlage für bereits abgeschlossene Verträge; Übergangsregelung; Verordnungsermächtigung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Evaluation"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id129 a dtd:zitstelle ;
+    dtd:has_Value "2007, 506"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

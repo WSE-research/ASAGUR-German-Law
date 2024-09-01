@@ -1,0 +1,351 @@
+@prefix dtd: <urn:ApoAnwRstG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70,
+        dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73,
+        dtd:P-id74,
+        dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77,
+        dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id63 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id64 .
+
+dtd:DL-id58 a dtd:DL ;
+    dtd:has_DD dtd:DD-id61,
+        dtd:DD-id62 ;
+    dtd:has_DT dtd:DT-id59,
+        dtd:DT-id60 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sich eines Verhaltens schuldig gemacht hat, aus dem sich die Unzuverlässigkeit zur Ausübung des Berufs ergibt, oder"@de .
+
+dtd:LA-id64 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in gesundheitlicher Hinsicht zur Ausübung des Berufs ungeeignet ist."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_BR dtd:BR-id55 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.12.1973 +++)"@de ;
+    dtd:has_pre dtd:pre-id85 .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(1) Personen, die die pharmazeutische Vorprüfung nach der Prüfungsordnung für Apotheker vom 18. Mai 1904 (Zentralblatt für das Deutsche Reich S. 150) oder nach der Prüfungsordnung für Apotheker vom 8. Dezember 1934 (Reichsministerialblatt S. 769) bestanden haben (vorgeprüfte Apothekeranwärter), dürfen eine Tätigkeit unter der Berufsbezeichnung \"Apothekerassistent\" oder \"Apothekerassistentin\" ausüben."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(2) Der Apothekerassistent ist befugt, pharmazeutische Tätigkeiten nach Maßgabe der Apothekenbetriebsordnung in der Apotheke unter der Verantwortung eines Apothekers auszuüben."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_DL dtd:DL-id58 ;
+    dtd:has_Value "(1) Die Befugnis zur Führung der in § 1 Abs. 1 genannten Berufsbezeichnung und zur Ausübung pharmazeutischer Tätigkeiten in der Apotheke ist zu untersagen, wenn der Apothekerassistent 1.sich eines Verhaltens schuldig gemacht hat, aus dem sich die Unzuverlässigkeit zur Ausübung des Berufs ergibt, oder 2.in gesundheitlicher Hinsicht zur Ausübung des Berufs ungeeignet ist.  "@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(2) Im Falle der Untersagung ist der Betroffene vorher zu hören."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(3) Die Untersagung ist auf Antrag aufzuheben, wenn ihre Voraussetzungen nicht mehr vorliegen."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer ohne Befugnis (§ 1 Abs. 1) oder nach vollziehbarer Untersagung (§ 2) die Berufsbezeichnung \"Apothekerassistent\" oder \"Apothekerassistentin\" führt."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "(2) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu fünftausend Deutsche Mark geahndet werden."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "Erlaubnisse zur Beschäftigung in der Apotheke, die vorgeprüften Apothekeranwärtern vor Inkrafttreten dieses Gesetzes erteilt worden sind, erlöschen mit dem Inkrafttreten dieses Gesetzes."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tag nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1973-12-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id86 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id87 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id65 .
+
+dtd:fussnoten-id49 a dtd:fussnoten .
+
+dtd:fussnoten-id54 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "ApoAnwRstG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "ApoAnwRstG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "ApoAnwRstG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "ApoAnwRstG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "ApoAnwRstG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "ApoAnwRstG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "ApoAnwRstG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "ApoAnwRstG"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Rechtsstellung vorgeprüfter Apothekeranwärter"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973BJNE000100312"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973BJNE000200312"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973BJNE000301320"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973BJNE000400312"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973BJNE000500312"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973BJNE000600312"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405125910"@de ;
+    dtd:has_doknr "BJNR018130973BJNE000700312"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id86 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id85 a dtd:pre ;
+    dtd:has_BR dtd:BR-id56,
+        dtd:BR-id57 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.12.1973 +++)"@de .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id89 ;
+    dtd:has_standtyp dtd:standtyp-id88 .
+
+dtd:standkommentar-id89 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 16 G v. 27.4.2002 I 1467"@de .
+
+dtd:standtyp-id88 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:zitstelle-id87 a dtd:zitstelle ;
+    dtd:has_Value "1973, 1813"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

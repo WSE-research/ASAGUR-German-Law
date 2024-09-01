@@ -1,0 +1,317 @@
+@prefix dtd: <urn:AuslPflKrGewQSG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210719213031"@de ;
+    dtd:has_doknr "BJNR280100021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69,
+        dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74,
+        dtd:P-id75 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id56 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id63 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DL-id34 a dtd:DL ;
+    dtd:has_DD dtd:DD-id37,
+        dtd:DD-id38 ;
+    dtd:has_DT dtd:DT-id35,
+        dtd:DT-id36 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id39 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45,
+        dtd:DD-id46,
+        dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id40,
+        dtd:DT-id41,
+        dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id48 a dtd:DL ;
+    dtd:has_DD dtd:DD-id52,
+        dtd:DD-id53,
+        dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id49,
+        dtd:DT-id50,
+        dtd:DT-id51 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_Value "Vereinbarungen, die zum Zweck der Anwerbung von Pflegekräften aus Drittstaaten zwischen dem anwerbenden Leistungserbringer oder, sofern von ihm beauftragt, dem Unternehmen der privaten Personalvermittlung und Pflegekräften geschlossen werden sowie"@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Value "Verfahrensweisen zur Gewinnung und Integration von Pflegekräften aus Drittstaaten mit im Ausland erworbenen Berufsqualifikationen."@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Value "die Festlegung der Einzelheiten zu den Anforderungen nach § 1 Satz 2,"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_DL dtd:DL-id48 ;
+    dtd:has_Value "Vorgaben für die Erteilungsstelle nach § 3 a)für die zur Nutzung des Gütesiegels zu schließenden Nutzungsvereinbarungen,b)zu der erstmaligen Kontrolle und den nachfolgenden periodischen Kontrollen der Einhaltung der Anforderungen nach § 1 Satz 2 und der nach Nummer 1 festgelegten Einzelheiten sowiec)zur Höhe der Kosten für die Prüfung des Erfüllens der Anforderungen nach § 1 Satz 2 und für die Nutzung des Gütesiegels,"@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Value "für die zur Nutzung des Gütesiegels zu schließenden Nutzungsvereinbarungen,"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Value "zu der erstmaligen Kontrolle und den nachfolgenden periodischen Kontrollen der Einhaltung der Anforderungen nach § 1 Satz 2 und der nach Nummer 1 festgelegten Einzelheiten sowie"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Value "zur Höhe der Kosten für die Prüfung des Erfüllens der Anforderungen nach § 1 Satz 2 und für die Nutzung des Gütesiegels,"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Value "Vorgaben für die Erteilungsstelle nach § 3 für die technisch-operative Umsetzung der in den Nummern 1 und 2 genannten Festlegungen und Vorgaben und"@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Value "die Weiterentwicklung der in den Nummern 1 bis 3 genannten Festlegungen und Vorgaben."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value " (+++ Textnachweis ab: 20.7.2021 +++)Das G wurde als Artikel 15b des G v. 11.7.2021 I 2754 vom Bundestag berschlossen. Es tritt gem. Art. 16 Abs. 1 dieses G am 20.7.2021 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id76 .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_DL dtd:DL-id34 ;
+    dtd:has_Value "Die hohen ethischen Standards gerecht werdende Anwerbung von Pflegekräften aus Staaten, die nicht Mitgliedstaaten der Europäischen Union oder Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum (Drittstaaten) sind, kann von den anwerbenden Leistungserbringern und Unternehmen der privaten Personalvermittlung freiwillig durch ein Gütesiegel des Bundesministeriums für Gesundheit kenntlich gemacht werden. Das Gütesiegel bezieht sich insbesondere auf die Einhaltung von Anforderungen an 1.Vereinbarungen, die zum Zweck der Anwerbung von Pflegekräften aus Drittstaaten zwischen dem anwerbenden Leistungserbringer oder, sofern von ihm beauftragt, dem Unternehmen der privaten Personalvermittlung und Pflegekräften geschlossen werden sowie2.Verfahrensweisen zur Gewinnung und Integration von Pflegekräften aus Drittstaaten mit im Ausland erworbenen Berufsqualifikationen."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_DL dtd:DL-id39 ;
+    dtd:has_Value "(1) Im Auftrag des Bundesministeriums für Gesundheit gibt das Kuratorium Deutsche Altershilfe Wilhelmine-Lübke-Stiftung e. V., Vereinsregister Amtsgericht Charlottenburg, VR 34346 B, (Herausgeber) das Gütesiegel nach § 1 heraus. Die Herausgabe nach Satz 1 umfasst insbesondere 1.die Festlegung der Einzelheiten zu den Anforderungen nach § 1 Satz 2,2.Vorgaben für die Erteilungsstelle nach § 3 a)für die zur Nutzung des Gütesiegels zu schließenden Nutzungsvereinbarungen,b)zu der erstmaligen Kontrolle und den nachfolgenden periodischen Kontrollen der Einhaltung der Anforderungen nach § 1 Satz 2 und der nach Nummer 1 festgelegten Einzelheiten sowiec)zur Höhe der Kosten für die Prüfung des Erfüllens der Anforderungen nach § 1 Satz 2 und für die Nutzung des Gütesiegels,3.Vorgaben für die Erteilungsstelle nach § 3 für die technisch-operative Umsetzung der in den Nummern 1 und 2 genannten Festlegungen und Vorgaben und4.die Weiterentwicklung der in den Nummern 1 bis 3 genannten Festlegungen und Vorgaben.Für die Festlegung der Einzelheiten zu den Anforderungen nach Satz 2 Nummer 1 sind insbesondere die Maßnahmen zur betrieblichen und sozialen Integration, zur Sprachförderung und zur Begleitung bei der Einarbeitung maßgeblich."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(2) Der Herausgeber hat dem Spitzenverband Bund der Krankenkassen, der Deutschen Krankenhausgesellschaft, den Vereinigungen der Träger der Pflegeeinrichtungen auf Bundesebene, dem Verband der privaten Krankenversicherung e. V., den Verbänden der Pflegeberufe auf Bundesebene, der Bundesvereinigung der Deutschen Arbeitgeberverbände sowie dem Deutschen Gewerkschaftsbund vor der Einholung der Zustimmung nach Absatz 3 Gelegenheit zur Stellungnahme zu geben."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(3) Die in Absatz 1 Satz 2 Nummer 1 bis 3 genannten Festlegungen und Vorgaben sowie die Weiterentwicklung nach Absatz 1 Satz 2 Nummer 4 bedürfen der Zustimmung des Bundesministeriums für Gesundheit. Die Zustimmung wird im Einvernehmen mit dem Bundesministerium für Arbeit und Soziales und im Benehmen mit dem Bundesministerium für Bildung und Forschung, dem Bundesministerium für Familie, Senioren, Frauen und Jugend und dem Bundesministerium der Justiz und für Verbraucherschutz erteilt."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(4) Die für eine Nutzung des Gütesiegels von den Leistungserbringern und den Unternehmen der privaten Personalvermittlung zu erfüllenden Anforderungen, die Festlegungen und Vorgaben nach Absatz 1 Satz 2 Nummer 1 bis 3 sowie die Ergebnisse der Weiterentwicklung nach Absatz 1 Satz 2 Nummer 4 werden auf der Internetseite des Kuratoriums Deutsche Altershilfe Wilhelmine-Lübke-Stiftung e. V. veröffentlicht."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(1) Der Herausgeber kann mit Zustimmung des Bundesministeriums für Gesundheit eine oder mehrere sachkundige, unabhängige und zuverlässige Personen des Privatrechts als Erteilungsstelle bestimmen."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(2) Die Erteilungsstelle erlaubt die Nutzung des Gütesiegels für die Anwerbung von Pflegekräften aus Drittstaaten nach § 1 anwerbenden Leistungserbringern nach dem Vierten Kapitel des Fünften Buches Sozialgesetzbuch und nach dem Siebten Kapitel des Elften Buches Sozialgesetzbuch sowie Unternehmen der privaten Personalvermittlung, wenn sie nachweislich die Anforderungen nach § 1 Satz 2 und die nach § 2 Absatz 1 Satz 2 Nummer 1 festgelegten Einzelheiten erfüllen und eine Nutzungsvereinbarung mit der Erteilungsstelle geschlossen wurde."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-07-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id77 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id78 .
+
+dtd:fussnoten-id27 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id64 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "AuslPflKrGewQSG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "AuslPflKrGewQSG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "AuslPflKrGewQSG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "AuslPflKrGewQSG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Sicherung der Qualität der Gewinnung von Pflegekräften aus dem Ausland"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210719213031"@de ;
+    dtd:has_doknr "BJNR280100021"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210719213031"@de ;
+    dtd:has_doknr "BJNR280100021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210719213031"@de ;
+    dtd:has_doknr "BJNR280100021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210719213031"@de ;
+    dtd:has_doknr "BJNR280100021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id77 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id76 a dtd:pre ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33 ;
+    dtd:has_Value "(+++ Textnachweis ab: 20.7.2021 +++)"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Sicherung der Qualität der Gewinnung von Pflegekräften aus dem Ausland"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Herausgabe"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Erteilung von Nutzungsberechtigungen für das Gütesiegel"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id78 a dtd:zitstelle ;
+    dtd:has_Value "2021, 2754, 2801"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

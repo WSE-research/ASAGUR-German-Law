@@ -1,0 +1,223 @@
+@prefix dtd: <urn:OrdenG§5Bek-2009#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093710"@de ;
+    dtd:has_doknr "BJNR104500009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id45 .
+
+dtd:DD-id33 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DL-id27 a dtd:DL ;
+    dtd:has_DD dtd:DD-id31,
+        dtd:DD-id32,
+        dtd:DD-id33 ;
+    dtd:has_DT dtd:DT-id28,
+        dtd:DT-id29,
+        dtd:DT-id30 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id34 a dtd:DL ;
+    dtd:has_DD dtd:DD-id38,
+        dtd:DD-id39,
+        dtd:DD-id40 ;
+    dtd:has_DT dtd:DT-id35,
+        dtd:DT-id36,
+        dtd:DT-id37 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id29 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id30 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_DL dtd:DL-id34 ;
+    dtd:has_Value "Die nach § 5 des Gesetzes über Titel, Orden und Ehrenzeichen erforderliche Genehmigung zur Annahme von Orden und Ehrenzeichen wird in folgenden Fällen mit dem Zeitpunkt der Aushändigung der Auszeichnung erteilt: a)für Orden und Ehrenzeichen, die von den Vereinten Nationen, der Nordatlantikvertrags-Organisation, der Westeuropäischen Union oder einem Mitgliedstaat der Europäischen Union, des Europarates oder des Nordatlantikvertrages oder mit deren Genehmigung verliehen werden;b)für Orden und Ehrenzeichen, die im Rahmen eines Ordensaustausches anlässlich von Staatsbesuchen verliehen werden;c)für Orden und Ehrenzeichen, die an abberufene Diplomaten im Rahmen der Gegenseitigkeit verliehen werden."@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Value "für Orden und Ehrenzeichen, die von den Vereinten Nationen, der Nordatlantikvertrags-Organisation, der Westeuropäischen Union oder einem Mitgliedstaat der Europäischen Union, des Europarates oder des Nordatlantikvertrages oder mit deren Genehmigung verliehen werden;"@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Value "für Orden und Ehrenzeichen, die im Rahmen eines Ordensaustausches anlässlich von Staatsbesuchen verliehen werden;"@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Value "für Orden und Ehrenzeichen, die an abberufene Diplomaten im Rahmen der Gegenseitigkeit verliehen werden."@de .
+
+dtd:LA-id45 a dtd:LA ;
+    dtd:has_Value "Die Genehmigung, Orden und Ehrenzeichen nach Nummer 1 Buchstabe a bis c, die vor dem Inkrafttreten dieser Bekanntmachung ausgehändigt worden sind, zu tragen, wird hiermit nach § 5 des Gesetzes über Titel, Orden und Ehrenzeichen erteilt."@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_Value "Diese Bekanntmachung tritt am 7. Mai 2009 in Kraft."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_Value " (+++ Textnachweis ab: 7.5.2009 +++)"@de ;
+    dtd:has_pre dtd:pre-id53 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_DL dtd:DL-id27 ;
+    dtd:has_Value "1.Die nach § 5 des Gesetzes über Titel, Orden und Ehrenzeichen erforderliche Genehmigung zur Annahme von Orden und Ehrenzeichen wird in folgenden Fällen mit dem Zeitpunkt der Aushändigung der Auszeichnung erteilt: a)für Orden und Ehrenzeichen, die von den Vereinten Nationen, der Nordatlantikvertrags-Organisation, der Westeuropäischen Union oder einem Mitgliedstaat der Europäischen Union, des Europarates oder des Nordatlantikvertrages oder mit deren Genehmigung verliehen werden;b)für Orden und Ehrenzeichen, die im Rahmen eines Ordensaustausches anlässlich von Staatsbesuchen verliehen werden;c)für Orden und Ehrenzeichen, die an abberufene Diplomaten im Rahmen der Gegenseitigkeit verliehen werden.2.Die Genehmigung, Orden und Ehrenzeichen nach Nummer 1 Buchstabe a bis c, die vor dem Inkrafttreten dieser Bekanntmachung ausgehändigt worden sind, zu tragen, wird hiermit nach § 5 des Gesetzes über Titel, Orden und Ehrenzeichen erteilt.3.Diese Bekanntmachung tritt am 7. Mai 2009 in Kraft."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_SP dtd:SP-id26 ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id26 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-05-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:fussnoten-id21 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "OrdenG§5Bek 2009"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "OrdenG§5Bek 2009"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "OrdenG§5Bek 2009"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung des Bundespräsidenten über die Erteilung von Annahme- und Tragegenehmigungen für bestimmte Orden und Ehrenzeichen"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093710"@de ;
+    dtd:has_doknr "BJNR104500009"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093710"@de ;
+    dtd:has_doknr "BJNR104500009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093710"@de ;
+    dtd:has_doknr "BJNR104500009BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id53 a dtd:pre ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.5.2009 +++)"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "2009, 1045"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

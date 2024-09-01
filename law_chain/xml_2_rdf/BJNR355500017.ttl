@@ -1,0 +1,749 @@
+@prefix dtd: <urn:ERechV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id100 a dtd:BR .
+
+dtd:BR-id98 a dtd:BR .
+
+dtd:BR-id99 a dtd:BR .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146,
+        dtd:P-id147,
+        dtd:P-id148,
+        dtd:P-id149,
+        dtd:P-id150,
+        dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153,
+        dtd:P-id154,
+        dtd:P-id155 .
+
+dtd:Content-id156 a dtd:Content ;
+    dtd:has_P dtd:P-id157,
+        dtd:P-id158,
+        dtd:P-id159,
+        dtd:P-id160,
+        dtd:P-id161 .
+
+dtd:Content-id162 a dtd:Content ;
+    dtd:has_P dtd:P-id163,
+        dtd:P-id164,
+        dtd:P-id165 .
+
+dtd:Content-id166 a dtd:Content ;
+    dtd:has_P dtd:P-id167,
+        dtd:P-id168,
+        dtd:P-id169 .
+
+dtd:Content-id170 a dtd:Content ;
+    dtd:has_P dtd:P-id171,
+        dtd:P-id172 .
+
+dtd:Content-id173 a dtd:Content ;
+    dtd:has_P dtd:P-id174,
+        dtd:P-id175 .
+
+dtd:Content-id176 a dtd:Content ;
+    dtd:has_P dtd:P-id177,
+        dtd:P-id178 .
+
+dtd:Content-id179 a dtd:Content ;
+    dtd:has_P dtd:P-id180 .
+
+dtd:Content-id181 a dtd:Content ;
+    dtd:has_P dtd:P-id182,
+        dtd:P-id183,
+        dtd:P-id184 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DL-id102 a dtd:DL ;
+    dtd:has_DD dtd:DD-id105,
+        dtd:DD-id106 ;
+    dtd:has_DT dtd:DT-id103,
+        dtd:DT-id104 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id107 a dtd:DL ;
+    dtd:has_DD dtd:DD-id111,
+        dtd:DD-id112,
+        dtd:DD-id113 ;
+    dtd:has_DT dtd:DT-id108,
+        dtd:DT-id109,
+        dtd:DT-id110 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id114 a dtd:DL ;
+    dtd:has_DD dtd:DD-id119,
+        dtd:DD-id120,
+        dtd:DD-id121,
+        dtd:DD-id122 ;
+    dtd:has_DT dtd:DT-id115,
+        dtd:DT-id116,
+        dtd:DT-id117,
+        dtd:DT-id118 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id123 a dtd:DL ;
+    dtd:has_DD dtd:DD-id126,
+        dtd:DD-id127 ;
+    dtd:has_DT dtd:DT-id124,
+        dtd:DT-id125 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id124 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id125 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Value "es in einem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird und"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Value "das Format die automatische und elektronische Verarbeitung des Dokuments ermöglicht."@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Value "die nach Erfüllung eines Direktauftrags bis zu einem Betrag von 1 000 Euro gestellt werden,"@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Value "die den Ausnahmeregelungen nach § 8 oder § 9 unterfallen oder"@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Value "die in Verfahren der Organleihe nach § 159 Absatz 1 Nummer 5 des Gesetzes gegen Wettbewerbsbeschränkungen auszustellen sind."@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Value "eine Leitweg-Identifikationsnummer,"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Value "die Bankverbindungsdaten,"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Value "die Zahlungsbedingungen und"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Value "die De-Mail-Adresse oder eine E-Mail-Adresse des Rechnungsstellers."@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Value "die Lieferantennummer,"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Value "eine Bestellnummer."@de .
+
+dtd:NB-id101 a dtd:NB ;
+    dtd:has_Value "Gesetzes, der"@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_BR dtd:BR-id98 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.11.2018 +++)Die V tritt gem. § 11 Abs. 2 für subzentrale öffentliche Auftraggeber sowie für  Sektorenauftraggeber und für Konzessionsgeber am 27.11.2019 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id185 .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_NB dtd:NB-id101 ;
+    dtd:has_Value "Auf Grund des § 4a Absatz 3 des E-Government-Gesetzes, der durch Artikel 1 Nummer 2 des Gesetzes vom 4. April 2017 (BGBl. I S. 770) eingefügt worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt grundsätzlich für alle Rechnungen, mit denen eine Lieferung oder eine sonstige Leistung abgerechnet wird und die nach Erfüllung von öffentlichen Aufträgen und Aufträgen sowie zu Konzessionen ausgestellt wurden, soweit diese Verordnung keine abweichenden Bestimmungen für geheimhaltungsbedürftige Rechnungsdaten sowie für Angelegenheiten des Auswärtigen Dienstes und der sonstigen Beschaffungen im Ausland enthält."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(1) Eine Rechnung ist jedes Dokument, mit dem eine Lieferung oder eine sonstige Leistung abgerechnet wird, gleichgültig, wie dieses Dokument im Geschäftsverkehr bezeichnet wird."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_DL dtd:DL-id102 ;
+    dtd:has_Value "(2) Eine elektronische Rechnung ist jedes Dokument im Sinne von Absatz 1, wenn 1.es in einem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird und2.das Format die automatische und elektronische Verarbeitung des Dokuments ermöglicht."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(3) Rechnungssteller sind alle Unternehmer im Sinne von § 14 Absatz 1 des Bürgerlichen Gesetzbuches, die eine Rechnung an Rechnungsempfänger im Sinne von Absatz 4 ausstellen und übermitteln."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(4) Rechnungsempfänger sind alle Stellen im Sinne von § 159 Absatz 1 Nummer 1 bis 5 des Gesetzes gegen Wettbewerbsbeschränkungen, soweit diese Rechtsverordnung keine abweichenden Bestimmungen enthält."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(5) Rechnungssender sind alle Unternehmer im Sinne von § 14 Absatz 1 des Bürgerlichen Gesetzbuches, die eine elektronische Rechnung im Auftrag des Rechnungsstellers ausstellen und übermitteln."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(6) Subzentrale öffentliche Auftraggeber sind alle öffentlichen Auftraggeber, die keine obersten Bundesbehörden oder Verfassungsorgane des Bundes sind."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(1) Rechnungssteller müssen Rechnungen gegenüber Rechnungsempfängern in elektronischer Form ausstellen und übermitteln. Sie können sich hierbei der Dienstleistung von Rechnungssendern bedienen."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(2) Rechnungsempfänger müssen die nach Absatz 1 ausgestellten und übermittelten Rechnungen unter Nutzung eines Verwaltungsportals nach § 4 Absatz 3 elektronisch empfangen."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_DL dtd:DL-id107 ;
+    dtd:has_Value "(3) Die Pflicht zur elektronischen Rechnungsstellung nach Absatz 1 gilt nicht für Rechnungen, 1.die nach Erfüllung eines Direktauftrags bis zu einem Betrag von 1 000 Euro gestellt werden,2.die den Ausnahmeregelungen nach § 8 oder § 9 unterfallen oder3.die in Verfahren der Organleihe nach § 159 Absatz 1 Nummer 5 des Gesetzes gegen Wettbewerbsbeschränkungen auszustellen sind."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(1) Für die Ausstellung von elektronischen Rechnungen haben Rechnungssteller und Rechnungssender grundsätzlich den Datenaustauschstandard XRechnung vom 29. September 2017 (BAnz AT 10.10.2017 B1) in der jeweils aktuellen Fassung zu verwenden. Es kann auch ein anderer Datenaustauschstandard verwendet werden, wenn er den Anforderungen der europäischen Norm für die elektronische Rechnungsstellung entspricht."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(2) Änderungen des Datenaustauschstandards XRechnung werden vom Bundesministerium des Innern, für Bau und Heimat im Bundesanzeiger bekannt gemacht. Bei jeder Änderung/Bekanntmachung ist das Herausgabedatum der Änderung/Bekanntmachung anzugeben und das Datum, ab dem der geänderte Datenaustauschstandard XRechnung anzuwenden ist."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(3) Für die Übermittlung von elektronischen Rechnungen haben Rechnungssteller und Rechnungssender ein Verwaltungsportal des Bundes im Sinne von § 2 Absatz 2 des Onlinezugangsgesetzes zu nutzen. Voraussetzung für die Übermittlung einer elektronischen Rechnung ist, dass der Rechnungssteller oder Rechnungssender sich zuvor mit einem Nutzerkonto im Sinne von § 2 Absatz 5 des Onlinezugangsgesetzes registriert. Elektronische Rechnungen, die über das Verwaltungsportal übermittelt werden, sind automationsunterstützt auf ihre formale Fehlerlosigkeit zu prüfen. Sobald die ordnungsgemäße Übermittlung einer elektronischen Rechnung festgestellt ist, ist der Rechnungssteller oder der Rechnungssender automationsunterstützt davon zu benachrichtigen. Eine formal fehlerhafte elektronische Rechnung ist automationsunterstützt abzulehnen. In diesem Fall ist der Rechnungssteller oder der Rechnungssender über die Ablehnung zu informieren."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(4) Erhält ein Rechnungsempfänger eine elektronische Rechnung, die keinem Nutzerkonto zugeordnet werden kann, so hat der Rechnungsempfänger die elektronische Rechnung abzulehnen. In diesem Fall erhalten die Rechnungssteller oder die Rechnungssender keine Information über die Ablehnung."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(5) Die Verpflichtungen nach den Absätzen 1 bis 4 gelten nicht für die Übermittlung von elektronischen Rechnungen, die in Verfahren der Organleihe nach § 159 Absatz 1 Nummer 5 des Gesetzes gegen Wettbewerbsbeschränkungen auszustellen sind."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_DL dtd:DL-id114 ;
+    dtd:has_Value "(1) Die elektronische Rechnung hat neben den umsatzsteuerrechtlichen Rechnungsbestandteilen mindestens folgende Angaben zu enthalten: 1.eine Leitweg-Identifikationsnummer,2.die Bankverbindungsdaten,3.die Zahlungsbedingungen und4.die De-Mail-Adresse oder eine E-Mail-Adresse des Rechnungsstellers."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_DL dtd:DL-id123 ;
+    dtd:has_Value "(2) Die elektronische Rechnung hat zusätzlich zu den Angaben nach Absatz 1 folgende Angaben zu enthalten, wenn diese dem Rechnungssteller bereits bei Beauftragung übermittelt wurden: 1.die Lieferantennummer,2.eine Bestellnummer."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(3) Die Vorgaben nach den Absätzen 1 und 2 gelten nicht für Rechnungen, die in Verfahren der Organleihe nach § 159 Absatz 1 Nummer 5 des Gesetzes gegen Wettbewerbsbeschränkungen auszustellen sind."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(1) Rechnungsempfänger, die an das Verfahren für das Haushalts-, Kassen- und Rechnungswesen des Bundes angeschlossen sind, haben die gemäß § 4 Absatz 3 übermittelten elektronischen Rechnungen medienbruchfrei mindestens über ein Webbrowser-gestütztes Dialogverfahren einzusehen und zu verarbeiten."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "(2) Rechnungsempfänger, die nicht an das HKR-Verfahren des Bundes angeschlossen sind, haben die gemäß § 4 Absatz 3 übermittelten elektronischen Rechnungen nach pflichtgemäßem Ermessen zu verarbeiten."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(3) Die Absätze 1 und 2 gelten nicht für Rechnungen, die in Verfahren der Organleihe nach § 159 Absatz 1 Nummer 5 des Gesetzes gegen Wettbewerbsbeschränkungen auszustellen sind."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(1) Personenbezogene Daten, die durch die elektronische Rechnungsstellung übermittelt und empfangen wurden, dürfen vom Rechnungsempfänger nur zur Erfüllung der Aufgaben nach dieser Rechtsverordnung und zur Erfüllung der haushaltsrechtlichen Vorgaben verarbeitet werden."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "(2) Die Rechnungsempfänger treffen die erforderlichen technischen und organisatorischen Maßnahmen, um die Verfügbarkeit, die Integrität, die Authentizität und die Vertraulichkeit der in ihren Systemen gespeicherten oder abgerufenen Rechnungsdaten entsprechend dem jeweiligen Stand der Technik sicherzustellen. Dabei ist die besondere Schutzbedürftigkeit der in den elektronischen Rechnungen enthaltenen personenbezogenen Daten zu berücksichtigen."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(1) Rechnungsdaten, die gemäß § 4 Absatz 2 Nummer 1 bis 3 des Sicherheitsüberprüfungsgesetzes geheimhaltungsbedürftig sind, sind vom Geltungsbereich dieser Verordnung ausgenommen. Unberührt dessen können Vertragsparteien im Einzelfall eine elektronische Rechnungsstellung vereinbaren."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(2) Rechnungsdaten, die nach § 4 Absatz 2 Nummer 4 des Sicherheitsüberprüfungsgesetzes geheimhaltungsbedürftig sind, dürfen nicht per E-Mail übertragen werden."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(1) Auslandsvertretungen im Sinne von § 3 Absatz 1 des Gesetzes über den Auswärtigen Dienst sind lediglich dann zum Empfang elektronischer Rechnungen verpflichtet, wenn der Wert des vergebenen öffentlichen Auftrags oder des vergebenen Auftrags oder der Vertragswert der vergebenen Konzession den gemäß § 106 Absatz 2 des Gesetzes gegen Wettbewerbsbeschränkungen jeweils maßgeblichen Schwellenwert erreicht oder überschreitet."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(2) Wenn bei sonstigen Beschaffungen im Ausland der Rechnungssteller nicht über die erforderlichen technischen Möglichkeiten zur Ausstellung und zur Übermittlung elektronischer Rechnungen verfügt, so ist das Verfahren vom Geltungsbereich dieser Verordnung ausgenommen."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium des Innern, für Bau und Heimat prüft die Anwendung dieser Rechtsverordnung und deren Auswirkung auf die elektronische Rechnungsstellung im Rahmen des Geltungsbereichs spätestens bis zum 31. Dezember 2022. Die Prüfung nach Satz 1 soll die Weiterentwicklung der technischen Möglichkeiten angemessen berücksichtigen. Über das Ergebnis der Prüfung ist der Bundesregierung Bericht zu erstatten."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt vorbehaltlich der Absätze 2 und 3 am 27. November 2018 in Kraft."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_Value "(2) Für subzentrale öffentliche Auftraggeber sowie für Sektorenauftraggeber und für Konzessionsgeber tritt diese Verordnung am 27. November 2019 in Kraft."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "(3) § 3 Absatz 1 tritt am 27. November 2020 in Kraft."@de .
+
+dtd:amtabk-id42 a dtd:amtabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id43 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-10-13"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id78 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id81 a dtd:enbez ;
+    dtd:has_Value "§ 11"@de .
+
+dtd:fundstelle-id44 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id186 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id187 .
+
+dtd:fussnoten-id83 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id139 .
+
+dtd:fussnoten-id89 a dtd:fussnoten .
+
+dtd:fussnoten-id96 a dtd:fussnoten .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:jurabk-id80 a dtd:jurabk ;
+    dtd:has_Value "ERechV"@de .
+
+dtd:kurzue-id45 a dtd:kurzue ;
+    dtd:has_Value "E-Rechnungsverordnung"@de .
+
+dtd:langue-id46 a dtd:langue ;
+    dtd:has_Value "Verordnung über die elektronische Rechnungsstellung im öffentlichen Auftragswesen des Bundes"@de .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id42 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id43 ;
+    dtd:has_fundstelle dtd:fundstelle-id44 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_kurzue dtd:kurzue-id45 ;
+    dtd:has_langue dtd:langue-id46 ;
+    dtd:has_standangabe dtd:standangabe-id47 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id35 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:metadaten-id37 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id78 ;
+    dtd:has_jurabk dtd:jurabk-id77 ;
+    dtd:has_titel dtd:titel-id79 .
+
+dtd:metadaten-id39 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id81 ;
+    dtd:has_jurabk dtd:jurabk-id80 ;
+    dtd:has_titel dtd:titel-id82 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE001000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id35 ;
+    dtd:has_textdaten dtd:textdaten-id36 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE001101116"@de ;
+    dtd:has_metadaten dtd:metadaten-id37 ;
+    dtd:has_textdaten dtd:textdaten-id38 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE001200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id39 ;
+    dtd:has_textdaten dtd:textdaten-id40 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000401000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000501116"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20201126213533"@de ;
+    dtd:has_doknr "BJNR355500017BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:periodikum-id186 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id185 a dtd:pre ;
+    dtd:has_BR dtd:BR-id100,
+        dtd:BR-id99 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.11.2018 +++)"@de .
+
+dtd:standangabe-id47 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id189 ;
+    dtd:has_standtyp dtd:standtyp-id188 .
+
+dtd:standkommentar-id189 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 76 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id188 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id156 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id162 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id166 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id170 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id173 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id176 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id179 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id97 a dtd:text ;
+    dtd:has_Content dtd:Content-id181 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id83 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id89 ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id36 a dtd:textdaten ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id38 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id96 ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:textdaten-id40 a dtd:textdaten ;
+    dtd:has_text dtd:text-id97 .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Geltungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Verbindlichkeit der elektronischen Form"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Anforderungen an das Rechnungsdatenmodell und an die Übermittlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Inhalt der elektronischen Rechnung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Verarbeitung von elektronischen Rechnungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Schutz personenbezogener Daten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Ausnahmen für geheimhaltungsbedürftige Rechnungsdaten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Ausnahmen für Angelegenheiten des Auswärtigen Dienstes und der sonstigen Beschaffungen im Ausland"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id79 a dtd:titel ;
+    dtd:has_Value "Prüfung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id82 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id187 a dtd:zitstelle ;
+    dtd:has_Value "2017, 3555"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

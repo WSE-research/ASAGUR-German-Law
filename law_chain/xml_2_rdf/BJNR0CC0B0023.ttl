@@ -1,0 +1,560 @@
+@prefix dtd: <urn:GAPFinISchG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230802213553"@de ;
+    dtd:has_doknr "BJNR0CC0B0023"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129,
+        dtd:P-id130,
+        dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133,
+        dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69,
+        dtd:DD-id70,
+        dtd:DD-id71,
+        dtd:DD-id72,
+        dtd:DD-id73,
+        dtd:DD-id74,
+        dtd:DD-id75 ;
+    dtd:has_DT dtd:DT-id44,
+        dtd:DT-id45,
+        dtd:DT-id46,
+        dtd:DT-id47,
+        dtd:DT-id48,
+        dtd:DT-id49,
+        dtd:DT-id50,
+        dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53,
+        dtd:DT-id54,
+        dtd:DT-id55,
+        dtd:DT-id56,
+        dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id76 a dtd:DL ;
+    dtd:has_DD dtd:DD-id81,
+        dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84 ;
+    dtd:has_DT dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id85 a dtd:DL ;
+    dtd:has_DD dtd:DD-id88,
+        dtd:DD-id89 ;
+    dtd:has_DT dtd:DT-id86,
+        dtd:DT-id87 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id90 a dtd:DL ;
+    dtd:has_DD dtd:DD-id94,
+        dtd:DD-id95,
+        dtd:DD-id96 ;
+    dtd:has_DT dtd:DT-id91,
+        dtd:DT-id92,
+        dtd:DT-id93 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "9."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "10."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "11."@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "12."@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "13."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "14."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "15."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "16."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Value "die Verordnung (EU) 2021/2116,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Value "die jeweils im Rahmen und zur Durchführung der in den Nummern 1 bis 4 genannten Verordnungen erlassenen Rechtsakte der Europäischen Union in den jeweils geltenden Fassungen,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Value "das GAP-Direktzahlungen-Gesetz,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Value "das GAP-Integriertes Verwaltungs- und Kontrollsystem-Gesetz,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Value "das GAP-Konditionalitäten-Gesetz,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Value "das Marktorganisationsgesetz,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Value "das Weingesetz,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Value "das Hopfengesetz,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "das Landwirtschaftserzeugnisse-Schulprogrammgesetz,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Value "das Agrarabsatzförderungsdurchführungsgesetz,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Value "die jeweils auf Grund der in den Nummern 6 bis 13 genannten Gesetze erlassenen Rechtsverordnungen des Bundes und der Länder in den jeweils geltenden Fassungen,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Value "die jeweils zur Durchführung der in den Nummern 1 bis 5 genannten Rechtsakte erlassenen Gesetze und Rechtsverordnungen der Länder in den jeweils geltenden Fassungen und"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Value "die jeweils im Rahmen und zur Durchführung der in den Nummern 1 bis 15 genannten Rechtsvorschriften erlassenen Förderrichtlinien des Bundes und der Länder in den jeweils geltenden Fassungen."@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Value "Name und Vorname, die Firma oder die Bezeichnung, unter der er im Rechtsverkehr auftritt,"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Value "sofern es sich um eine juristische Person oder Personenvereinigung handelt, seine Wirtschafts-Identifikationsnummer im Sinne des § 139c der Abgabenordnung,"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_DL dtd:DL-id85 ;
+    dtd:has_Value "sofern es sich um eine natürliche Person handelt, a)seine Wirtschafts-Identifikationsnummer im Sinne des § 139c der Abgabenordnung, wenn er den Antrag als wirtschaftlich Tätiger im Sinne des § 139a Absatz 3 der Abgabenordnung stellt,b)im Übrigen seine Identifikationsnummer im Sinne des § 139b der Abgabenordnung,"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Value "seine Wirtschafts-Identifikationsnummer im Sinne des § 139c der Abgabenordnung, wenn er den Antrag als wirtschaftlich Tätiger im Sinne des § 139a Absatz 3 der Abgabenordnung stellt,"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Value "im Übrigen seine Identifikationsnummer im Sinne des § 139b der Abgabenordnung,"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_DL dtd:DL-id90 ;
+    dtd:has_Value "sofern er einer Gruppe nach Artikel 2 Nummer 11 der Richtlinie 2013/34/EU des Europäischen Parlaments und des Rates vom 26. Juni 2013 über den Jahresabschluss, den konsolidierten Abschluss und damit verbundene Berichte von Unternehmen bestimmter Rechtsformen und zur Änderung der Richtlinie 2006/43/EG des Europäischen Parlaments und des Rates und zur Aufhebung der Richtlinien 78/660/EWG und 83/349/EWG des Rates (ABl. L 182 vom 29.6.2013, S. 19) angehört, soweit zutreffend, a)den Namen seines Mutterunternehmens und dessen Nummer im Sinne der Nummer 2 oder 3,b)den Namen seines obersten Mutterunternehmens und dessen Nummer im Sinne der Nummer 2 oder 3,c)die Namen seiner Tochterunternehmen und deren Nummern im Sinne der Nummer 2 oder 3."@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Value "den Namen seines Mutterunternehmens und dessen Nummer im Sinne der Nummer 2 oder 3,"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Value "den Namen seines obersten Mutterunternehmens und dessen Nummer im Sinne der Nummer 2 oder 3,"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Value "die Namen seiner Tochterunternehmen und deren Nummern im Sinne der Nummer 2 oder 3."@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Value "die Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 922/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 des Rates (ABl. L 347 vom 20.12.2013, S. 671; L 189 vom 27.6.2014, S. 261; L 130 vom 19.5.2016, S. 18; L 34 vom 9.2.2017, S. 41; L 106 vom 6.4.2020, S. 12) in der jeweils geltenden Fassung,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Value "die Verordnung (EU) Nr. 1144/2014 des Europäischen Parlaments und des Rates vom 22. Oktober 2014 über Informations- und Absatzförderungsmaßnahmen für Agrarerzeugnisse im Binnenmarkt und in Drittländern und zur Aufhebung der Verordnung (EG) Nr. 3/2008 des Rates (ABl. L 317 vom 4.11.2014, S. 56) in der jeweils geltenden Fassung,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Value "die Verordnung (EU) 2021/2115 des Europäischen Parlaments und des Rates vom 2. Dezember 2021 mit Vorschriften für die Unterstützung der von den Mitgliedstaaten im Rahmen der Gemeinsamen Agrarpolitik zu erstellenden und durch den Europäischen Garantiefonds für die Landwirtschaft (EGFL) und den Europäischen Landwirtschaftsfonds für die Entwicklung des ländlichen Raums (ELER) zu finanzierenden Strategiepläne (GAP-Strategiepläne) und zur Aufhebung der Verordnung (EU) Nr. 1305/2013 sowie der Verordnung (EU) Nr. 1307/2013 (ABl. L 435 vom 6.12.2021, S. 1; L 181 vom 7.7.2022, S. 35; L 227 vom 1.9.2022, S. 137) in der jeweils geltenden Fassung,"@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_Value " (+++ Textnachweis ab: 3.8.2023 +++)Das G wurde als Artikel 1 des G v. 26.7.2023 I Nr. 204 vom Bundestag beschlossen. Es tritt gem. Art. 5 Abs. 1 dieses G am 3.8.2023 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id137 .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz dient der Durchführung des Titels IV Kapitel I der Verordnung (EU) 2021/2116 des Europäischen Parlaments und des Rates vom 2. Dezember 2021 über die Finanzierung, Verwaltung und Überwachung der Gemeinsamen Agrarpolitik und zur Aufhebung der Verordnung (EU) Nr. 1306/2013 (ABl. L 435 vom 6.12.2021, S. 187; L 29 vom 10.2.2022, S. 45) in der jeweils geltenden Fassung sowie der im Rahmen des Titels IV Kapitel I der Verordnung (EU) 2021/2116 und der zu seiner Durchführung erlassenen weiteren Rechtsakten der Europäischen Union, soweit Absatz 2 nichts anderes bestimmt."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(2) Für Interventionen oder Maßnahmen, die aus dem Europäischen Landwirtschaftsfonds für die Entwicklung des ländlichen Raumes finanziert werden, gilt dieses Gesetz nur, soweit das Landesrecht dies bestimmt."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(3) Dieses Gesetz gilt unbeschadet der Regelungen des § 264 des Strafgesetzbuches, des Subventionsgesetzes und anderer nationaler Rechtsvorschriften, die Bestimmungen zum Schutz der finanziellen Interessen der Union enthalten."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(1) Wird zum Erlangen eines Vorteiles eine Vorschrift des EU-Rechts oder eine zu ihrer Durchführung erlassene nationale Vorschrift umgangen, insbesondere dadurch, dass Voraussetzungen für den Erhalt des Vorteiles künstlich, den Zielen der betroffenen Vorschrift zuwiderlaufend geschaffen werden, darf der Vorteil nicht gewährt werden."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Value "(2) Vorschriften im Sinne des Absatzes 1 sind Vorschriften, die einen Anspruch auf Gewährung eines Vorteiles begründen oder Voraussetzungen, Bedingungen oder sonstige Anforderungen an die Gewährung eines Vorteiles bestimmen, insbesondere 1.die Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 922/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 des Rates (ABl. L 347 vom 20.12.2013, S. 671; L 189 vom 27.6.2014, S. 261; L 130 vom 19.5.2016, S. 18; L 34 vom 9.2.2017, S. 41; L 106 vom 6.4.2020, S. 12) in der jeweils geltenden Fassung,2.die Verordnung (EU) Nr. 1144/2014 des Europäischen Parlaments und des Rates vom 22. Oktober 2014 über Informations- und Absatzförderungsmaßnahmen für Agrarerzeugnisse im Binnenmarkt und in Drittländern und zur Aufhebung der Verordnung (EG) Nr. 3/2008 des Rates (ABl. L 317 vom 4.11.2014, S. 56) in der jeweils geltenden Fassung,3.die Verordnung (EU) 2021/2115 des Europäischen Parlaments und des Rates vom 2. Dezember 2021 mit Vorschriften für die Unterstützung der von den Mitgliedstaaten im Rahmen der Gemeinsamen Agrarpolitik zu erstellenden und durch den Europäischen Garantiefonds für die Landwirtschaft (EGFL) und den Europäischen Landwirtschaftsfonds für die Entwicklung des ländlichen Raums (ELER) zu finanzierenden Strategiepläne (GAP-Strategiepläne) und zur Aufhebung der Verordnung (EU) Nr. 1305/2013 sowie der Verordnung (EU) Nr. 1307/2013 (ABl. L 435 vom 6.12.2021, S. 1; L 181 vom 7.7.2022, S. 35; L 227 vom 1.9.2022, S. 137) in der jeweils geltenden Fassung,4.die Verordnung (EU) 2021/2116,5.die jeweils im Rahmen und zur Durchführung der in den Nummern 1 bis 4 genannten Verordnungen erlassenen Rechtsakte der Europäischen Union in den jeweils geltenden Fassungen,6.das GAP-Direktzahlungen-Gesetz,7.das GAP-Integriertes Verwaltungs- und Kontrollsystem-Gesetz,8.das GAP-Konditionalitäten-Gesetz,9.das Marktorganisationsgesetz,10.das Weingesetz,11.das Hopfengesetz,12.das Landwirtschaftserzeugnisse-Schulprogrammgesetz,13.das Agrarabsatzförderungsdurchführungsgesetz,14.die jeweils auf Grund der in den Nummern 6 bis 13 genannten Gesetze erlassenen Rechtsverordnungen des Bundes und der Länder in den jeweils geltenden Fassungen,15.die jeweils zur Durchführung der in den Nummern 1 bis 5 genannten Rechtsakte erlassenen Gesetze und Rechtsverordnungen der Länder in den jeweils geltenden Fassungen und16.die jeweils im Rahmen und zur Durchführung der in den Nummern 1 bis 15 genannten Rechtsvorschriften erlassenen Förderrichtlinien des Bundes und der Länder in den jeweils geltenden Fassungen."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(3) Auf einen Verwaltungsakt, der einen Vorteil entgegen Absatz 1 gewährt, sind § 10 Absatz 1 und § 14 Absatz 1 des Marktorganisationsgesetzes anzuwenden."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_DL dtd:DL-id76 ;
+    dtd:has_Value "(1) Wer einen Antrag auf Gewährung eines Vorteiles stellt, hat zum Zweck der Identifizierung in jedem Antrag folgende zum Antragszeitpunkt geltende Informationen anzugeben: 1.Name und Vorname, die Firma oder die Bezeichnung, unter der er im Rechtsverkehr auftritt,2.sofern es sich um eine juristische Person oder Personenvereinigung handelt, seine Wirtschafts-Identifikationsnummer im Sinne des § 139c der Abgabenordnung,3.sofern es sich um eine natürliche Person handelt, a)seine Wirtschafts-Identifikationsnummer im Sinne des § 139c der Abgabenordnung, wenn er den Antrag als wirtschaftlich Tätiger im Sinne des § 139a Absatz 3 der Abgabenordnung stellt,b)im Übrigen seine Identifikationsnummer im Sinne des § 139b der Abgabenordnung,4.sofern er einer Gruppe nach Artikel 2 Nummer 11 der Richtlinie 2013/34/EU des Europäischen Parlaments und des Rates vom 26. Juni 2013 über den Jahresabschluss, den konsolidierten Abschluss und damit verbundene Berichte von Unternehmen bestimmter Rechtsformen und zur Änderung der Richtlinie 2006/43/EG des Europäischen Parlaments und des Rates und zur Aufhebung der Richtlinien 78/660/EWG und 83/349/EWG des Rates (ABl. L 182 vom 29.6.2013, S. 19) angehört, soweit zutreffend, a)den Namen seines Mutterunternehmens und dessen Nummer im Sinne der Nummer 2 oder 3,b)den Namen seines obersten Mutterunternehmens und dessen Nummer im Sinne der Nummer 2 oder 3,c)die Namen seiner Tochterunternehmen und deren Nummern im Sinne der Nummer 2 oder 3.Ist die Angabe der Wirtschafts-Identifikationsnummer im Sinne des § 139c der Abgabenordnung erforderlich, ist sie einschließlich des Unterscheidungsmerkmals im Sinne des § 139c Absatz 5a der Abgabenordnung anzugeben. Sofern eine Wirtschafts-Identifikationsnummer im Sinne des § 139c der Abgabenordnung nicht vergeben ist, ist die gültige Umsatzsteuer-Identifikationsnummer im Sinne des § 27a des Umsatzsteuergesetzes anzugeben. Ist auch diese nicht vergeben, ist die Steuernummer anzugeben. Die Sätze 2 bis 4 gelten nicht, wenn der Antrag mit einer nicht wirtschaftlichen Tätigkeit im Zusammenhang steht."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(2) Erhält die zuständige Behörde Kenntnis von der Tatsache, dass eine nach Absatz 1 erforderliche Angabe nicht, nicht richtig oder nicht vollständig gemacht wurde, hat sie den Antragsteller unter Setzen einer angemessenen Frist aufzufordern, die Angabe ordnungsgemäß zu machen. Die Gewährung des Vorteils kann ganz oder teilweise abgelehnt oder zurückgenommen werden, wenn der Antragsteller der Anordnung nach Satz 1 nicht ordnungsgemäß oder nicht fristgerecht nachkommt. In der Anordnung nach Satz 1 ist der Antragsteller über die Rechtsfolgen nach Satz 2 zu belehren."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "Die zuständige Behörde ist befugt, in ihrem jeweiligen Zuständigkeitsbereich die Daten im Sinne des § 3 zum Zwecke der Durchführung des Artikels 59 Absatz 4 der Verordnung (EU) 2021/2116 und des Artikels 44 Absatz 1 Unterabsatz 1 der Durchführungsverordnung (EU) 2022/128 der Kommission vom 21. Dezember 2021 mit Durchführungsbestimmungen zur Verordnung (EU) 2021/2116 des Europäischen Parlaments und des Rates hinsichtlich der Zahlstellen und anderen Einrichtungen, der Finanzverwaltung, des Rechnungsabschlusses, der Kontrollen, der Sicherheiten und der Transparenz (ABl. L 20 vom 31.1.2022, S. 131) in der jeweils geltenden Fassung zu erheben, zu speichern und zu verwenden. Abschnitt 6 des Marktorganisationsgesetzes gilt entsprechend."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "GAPFinISchG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2023-07-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id138 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id139 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id122 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "GAPFinISchG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "GAPFinISchG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "GAPFinISchG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "GAPFinISchG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "GAPFinISchG"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "GAP-Finanzinteressen-Schutz-Gesetz"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Regelung einzelner dem Schutz der finanziellen Interessen der Union dienender Bestimmungen im Rahmen der Gemeinsamen Agrarpolitik"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230802213553"@de ;
+    dtd:has_doknr "BJNR0CC0B0023"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230802213553"@de ;
+    dtd:has_doknr "BJNR0CC0B0023BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230802213553"@de ;
+    dtd:has_doknr "BJNR0CC0B0023BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230802213553"@de ;
+    dtd:has_doknr "BJNR0CC0B0023BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230802213553"@de ;
+    dtd:has_doknr "BJNR0CC0B0023BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id138 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id137 a dtd:pre ;
+    dtd:has_BR dtd:BR-id41,
+        dtd:BR-id42 ;
+    dtd:has_Value "(+++ Textnachweis ab: 3.8.2023 +++)"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Verbot der Umgehung rechtlicher Vorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Angaben zur Identifizierung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Erhebung, Speicherung und Verwendung personenbezogener Daten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id139 a dtd:zitstelle ;
+    dtd:has_Value "2023, Nr. 204"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

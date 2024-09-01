@@ -1,0 +1,129 @@
+@prefix dtd: <urn:VollstrZustÜbk2007Prot2ÜG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150908215923"@de ;
+    dtd:has_doknr "BJNR239910008"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_BR dtd:BR-id19 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2010 +++)Das G wurde als Artikel 1 des G v. 10.12.2008 I 2399 vom Bundestag beschlossen."@de ;
+    dtd:has_pre dtd:pre-id26 .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value "Die Aufgaben der zuständigen nationalen Behörde nach Artikel 3 Abs. 1 Satz 4 des Protokolls 2 zu dem Übereinkommen vom 30. Oktober 2007 über die gerichtliche Zuständigkeit und die Anerkennung und Vollstreckung von Entscheidungen in Zivil- und Handelssachen über die einheitliche Auslegung des Übereinkommens und den Ständigen Ausschuss (ABl. EU Nr. L 339 S. 3) nimmt das Bundesministerium der Justiz und für Verbraucherschutz wahr."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2008-12-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id15 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id27 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id28 .
+
+dtd:fussnoten-id16 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id22 .
+
+dtd:fussnoten-id18 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "VollstrZustÜbk2007Prot2ÜG"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "VollstrZustÜbk2007Prot2ÜG"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Übermittlung gerichtlicher Entscheidungen nach dem Protokoll 2 zum Übereinkommen vom 30. Oktober 2007 über die gerichtliche Zuständigkeit und die Anerkennung und Vollstreckung von Entscheidungen in Zivil- und Handelssachen"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 ;
+    dtd:has_standangabe dtd:standangabe-id12,
+        dtd:standangabe-id13 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id15 ;
+    dtd:has_jurabk dtd:jurabk-id14 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150908215923"@de ;
+    dtd:has_doknr "BJNR239910008"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150908215923"@de ;
+    dtd:has_doknr "BJNR239910008BJNE000101311"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id27 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id26 a dtd:pre ;
+    dtd:has_BR dtd:BR-id20,
+        dtd:BR-id21 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2010 +++)"@de .
+
+dtd:standangabe-id12 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id30 ;
+    dtd:has_standtyp dtd:standtyp-id29 .
+
+dtd:standangabe-id13 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id32 ;
+    dtd:has_standtyp dtd:standtyp-id31 .
+
+dtd:standkommentar-id30 a dtd:standkommentar ;
+    dtd:has_Value "Das G tritt gem. Bek. v. 14.8.2009 I 2862 am 1.1.2010 in Kraft"@de .
+
+dtd:standkommentar-id32 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 168 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id29 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:standtyp-id31 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id17 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id16 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id18 ;
+    dtd:has_text dtd:text-id17 .
+
+dtd:zitstelle-id28 a dtd:zitstelle ;
+    dtd:has_Value "2008, 2399; 2009, 2862"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

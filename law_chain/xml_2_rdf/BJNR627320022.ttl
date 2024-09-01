@@ -1,0 +1,203 @@
+@prefix dtd: <urn:VersResAbV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231010213502"@de ;
+    dtd:has_doknr "BJNR627320022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42,
+        dtd:P-id43,
+        dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_BR dtd:BR-id34 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.10.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id47 .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 50d Absatz 2 Satz 2 in Verbindung mit Absatz 2 Satz 3 und 4 sowie Absatz 9 des Energiewirtschaftsgesetzes vom 7. Juli 2005 (BGBl. I S. 1970, 3621), der durch Artikel 1 Nummer 5 des Gesetzes vom 8. Juli 2022 (BGBl. I S. 1054) eingefügt worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "(1) Die Betreiber von Reserveanlagen nach § 50d Absatz 1 Satz 1 des Energiewirtschaftsgesetzes dürfen diese Reserveanlagen ab dem 11. Oktober 2023 am Strommarkt einsetzen."@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 ist vorbehaltlich des Absatzes 3 nur anzuwenden während der Alarmstufe oder der Notfallstufe nach Artikel 8 Absatz 2 Buchstabe b und Artikel 11 Absatz 1 der Verordnung (EU) 2017/1938 des Europäischen Parlaments und des Rates vom 25. Oktober 2017 über Maßnahmen zur Gewährleistung der sicheren Gasversorgung und zur Aufhebung der Verordnung (EU) Nr. 994/2010 (ABl. L 280 vom 28.10.2017, S. 1), die zuletzt durch die Verordnung (EU) 2022/1032 (ABl. L 173 vom 30.6.2022, S. 17) geändert worden ist, in Verbindung mit dem Notfallplan Gas des Bundesministeriums für Wirtschaft und Energie vom September 2019, der auf der Internetseite des Bundesministeriums für Wirtschaft und Klimaschutz veröffentlicht ist."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(3) Der nach Absatz 1 zulässige Einsatz der Reserveanlagen am Strommarkt ist bis zum Ablauf des 31. März 2024 zulässig. Wird die Alarmstufe oder die Notfallstufe im Sinne des Absatzes 2 vor dem 31. März 2024 durch das Bundesministerium für Wirtschaft und Klimaschutz aufgehoben, ist der befristete Einsatz am Strommarkt bis zum Ablauf des letzten Tages des auf den Tag der Aufhebung folgenden Quartals zulässig, jedoch nicht länger als bis zum Ablauf des 31. März 2024."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "VersResAbV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-09-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id48 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id49 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id37 .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "VersResAbV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "VersResAbV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "VersResAbV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "VersResAbV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Versorgungsreserveabrufverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung zur befristeten Ausweitung des Stromerzeugungsangebots durch Anlagen aus der Versorgungsreserve"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 ;
+    dtd:has_standangabe dtd:standangabe-id20 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231010213502"@de ;
+    dtd:has_doknr "BJNR627320022"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231010213502"@de ;
+    dtd:has_doknr "BJNR627320022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231010213502"@de ;
+    dtd:has_doknr "BJNR627320022BJNE000201377"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231010213502"@de ;
+    dtd:has_doknr "BJNR627320022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id48 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id47 a dtd:pre ;
+    dtd:has_BR dtd:BR-id35,
+        dtd:BR-id36 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.10.2022 +++)"@de .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id51 ;
+    dtd:has_standtyp dtd:standtyp-id50 .
+
+dtd:standkommentar-id51 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 4.10.2023 I Nr. 268"@de .
+
+dtd:standtyp-id50 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Erlaubnis für den befristeten Einsatz von Reserveanlagen am Strommarkt"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id49 a dtd:zitstelle ;
+    dtd:has_Value "AT 30.09.2022 V3"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

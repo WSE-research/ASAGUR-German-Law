@@ -1,0 +1,272 @@
+@prefix dtd: <urn:RehaErstV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150105"@de ;
+    dtd:has_doknr "BJNR019970992"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53,
+        dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58,
+        dtd:P-id59,
+        dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.1992 +++)"@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 226 Abs. 2 des Sechsten Buches Sozialgesetzbuch, der durch Artikel 1 Nr. 43 des Gesetzes vom 25. Juli 1991 (BGBl. I S. 1606) neu gefaßt worden ist, verordnet der Bundesminister für Arbeit und Sozialordnung im Einvernehmen mit dem Bundesminister der Finanzen:"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(1) Soweit für Leistungen zur Teilhabe die Deutsche Rentenversicherung Knappschaft-Bahn-See als Träger der knappschaftlichen Rentenversicherung zuständig ist, erstatten ihr die Träger der allgemeinen Rentenversicherung den von ihnen nach § 223 Abs. 1 Satz 2 des Sechsten Buches Sozialgesetzbuch zu tragenden Anteil an den Ausgaben."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(2) Soweit für Leistungen zur Teilhabe die Träger der allgemeinen Rentenversicherung zuständig sind, erstattet die Deutsche Rentenversicherung Knappschaft-Bahn-See als Träger der knappschaftlichen Rentenversicherung ihnen den von ihr nach § 223 Abs. 2 Satz 2 des Sechsten Buches Sozialgesetzbuch zu tragenden Anteil an den Ausgaben."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(3) Die Erstattung erfolgt in einem pauschalen Verfahren. Die Deutsche Rentenversicherung Bund führt die Schlussabrechnung durch. Die Erstattungsbeträge der Träger der allgemeinen Rentenversicherung werden buchhalterisch auf diese entsprechend ihrem Anteil an den Beitragseinnahmen verteilt."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(4) Der Zahlungsausgleich zwischen der Deutschen Rentenversicherung Knappschaft-Bahn-See als Träger der knappschaftlichen Rentenversicherung und der allgemeinen Rentenversicherung wird von der Deutschen Rentenversicherung Bund durchgeführt."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(1) Die auf die knappschaftliche Rentenversicherung und die allgemeine Rentenversicherung entfallenden Ausgaben für Leistungen zur Teilhabe werden nach den Anteilen an den Rentenanwartschaften der Versicherten aufgeteilt, die auf die knappschaftliche Rentenversicherung und die allgemeine Rentenversicherung entfallen."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(2) Für die Ermittlung der Anteile wird die letzte Versichertenkonten-Stichprobe zugrunde gelegt."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "(3) Auf den Jahresbetrag der Erstattungen sind monatliche Vorschüsse zu leisten. Die Aufteilung des Jahresbetrages und der Vorschüsse für die Träger der allgemeinen Rentenversicherung erfolgt in dem Verhältnis, in dem deren Ausgaben für Leistungen zur Teilhabe zu den Ausgaben dieser Träger der Rentenversicherung für Leistungen zur Teilhabe zusammen stehen."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Januar 1992 in Kraft."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "RehaErstV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1992-12-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id65 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id66 .
+
+dtd:fussnoten-id40 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id48 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "RehaErstV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "RehaErstV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "RehaErstV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "RehaErstV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "RehaErstV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "RehaErstV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Reha-Pauschalerstattungsverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value """Verordnung über die pauschale Erstattung von Ausgaben der Träger der
+Rentenversicherung für Leistungen zur Rehabilitation"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150105"@de ;
+    dtd:has_doknr "BJNR019970992"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150105"@de ;
+    dtd:has_doknr "BJNR019970992BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150105"@de ;
+    dtd:has_doknr "BJNR019970992BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150105"@de ;
+    dtd:has_doknr "BJNR019970992BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625150105"@de ;
+    dtd:has_doknr "BJNR019970992BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625150105"@de ;
+    dtd:has_doknr "BJNR019970992BJNE000500307"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id65 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id68 ;
+    dtd:has_standtyp dtd:standtyp-id67 .
+
+dtd:standkommentar-id68 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 73 G v. 9.12.2004 I 3242"@de .
+
+dtd:standtyp-id67 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Grundsatz"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value """Aufteilung der Ausgaben für Leistungen zur
+Teilhabe"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id66 a dtd:zitstelle ;
+    dtd:has_Value "1992, 1997"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

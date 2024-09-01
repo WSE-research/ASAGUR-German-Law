@@ -1,0 +1,754 @@
+@prefix dtd: <urn:BSG-2000#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132458"@de ;
+    dtd:has_doknr "BJNR254410999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109,
+        dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116,
+        dtd:P-id117 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DL-id101 a dtd:DL ;
+    dtd:has_DD dtd:DD-id103 ;
+    dtd:has_DT dtd:DT-id102 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id98 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100 ;
+    dtd:has_DT dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in der Rentenversicherung der Arbeiter und der Angestellten für die Umrechnung"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in der knappschaftlichen Rentenversicherung für die Umrechnung"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.2000 +++)"@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value " Das G wurde als Artikel 26 G v. 22.12.1999 I 2534 vom Bundestag beschlossen. Es ist gem. Art. 27 Abs. 1 dieses G mWv 1.1.2000 in Kraft getreten."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "Der Beitragssatz für das Jahr 2000 beträgt in der Rentenversicherung der Arbeiter und der Angestellten 19,3 vom Hundert und in der knappschaftlichen Rentenversicherung 25,6 vom Hundert."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_BR dtd:BR-id28,
+        dtd:BR-id29 ;
+    dtd:has_DL dtd:DL-id101,
+        dtd:DL-id98 ;
+    dtd:has_Value """(1) Die auf Grund des vorläufigen Durchschnittsentgelts und des Beitragssatzes für das Jahr 2000 berechneten Faktoren betragen im Jahre 2000 1.in der Rentenversicherung der Arbeiter und der Angestellten für die Umrechnung  
+		
+			
+			
+			
+			
+				
+					a)
+					von Entgeltpunkten in Beiträge
+					 
+				
+				
+					 
+					 
+					10.521,0090,
+				
+				
+					von Entgeltpunkten (Ost) in Beiträge
+					 
+				
+				
+					 
+					8.652,1456,
+				
+				
+					b)
+					von Beiträgen, Barwerten, Deckungskapitalien und vergleichbaren Deckungsrücklagen in Entgeltpunkte
+					 
+				
+				
+					 
+					 
+					0,0000950479,
+				
+				
+					von Beiträgen in Entgeltpunkte (Ost)
+					 
+				
+				
+					 
+					0,0001155783,
+				
+			
+		
+	 2.in der knappschaftlichen Rentenversicherung für die Umrechnung  
+		
+			
+			
+			
+			
+				
+					a)
+					von Entgeltpunkten in Beiträge
+					 
+				
+				
+					 
+					 
+					13.955,3280,
+				
+				
+					von Entgeltpunkten (Ost) in Beiträge
+					 
+				
+				
+					 
+					11.476,4211,
+				
+				
+					b)
+					von Beiträgen in Entgeltpunkte
+					 
+				
+				
+					 
+					 
+					0,0000716572,
+				
+				
+					von Beiträgen in Entgeltpunkte (Ost)
+					 
+				
+				
+					 
+					0,0000871352.
+				
+			
+		
+	 """@de ;
+    dtd:has_table dtd:table-id30,
+        dtd:table-id32 .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(2) Entgeltpunkte werden in Beiträge umgerechnet, indem sie mit dem im Zeitpunkt der Beitragsentrichtung maßgebenden Umrechnungsfaktor vervielfältigt werden."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(3) Beiträge werden in Entgeltpunkte umgerechnet, indem sie mit dem im Zeitpunkt der Beitragsentrichtung maßgebenden Umrechnungsfaktor vervielfältigt werden. Die Umrechnung kann auch durch eine Division der Beiträge durch den Wert des Faktors erfolgen, der für die Umrechnung von Entgeltpunkten in Beiträge maßgebend wäre."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(4) Barwerte, Deckungskapitalien und vergleichbare Deckungsrücklagen werden in Entgeltpunkte umgerechnet, indem sie mit dem Umrechnungsfaktor vervielfältigt werden, der für den Zeitpunkt maßgebend ist, in dem der Versicherungsfall als eingetreten gilt. Die Umrechnung kann auch durch eine Division der Barwerte, Deckungskapitalien und vergleichbaren Deckungsrücklagen durch den Wert des Faktors erfolgen, der für die Umrechnung von Entgeltpunkten in Beiträge maßgebend wäre."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "BSG 2000"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-12-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id34 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id35 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "65*"@de .
+
+dtd:colspec-id36 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id38 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "65*"@de .
+
+dtd:colspec-id40 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "a)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von Entgeltpunkten in Beiträge"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10.521,0090,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von Entgeltpunkten (Ost) in Beiträge"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8.652,1456,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "b)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von Beiträgen, Barwerten, Deckungskapitalien und vergleichbaren Deckungsrücklagen in Entgeltpunkte"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,0000950479,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von Beiträgen in Entgeltpunkte (Ost)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,0001155783,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "a)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von Entgeltpunkten in Beiträge"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "13.955,3280,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von Entgeltpunkten (Ost) in Beiträge"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11.476,4211,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "b)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von Beiträgen in Entgeltpunkte"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,0000716572,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von Beiträgen in Entgeltpunkte (Ost)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,0000871352."@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id118 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id119 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id108 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BSG 2000"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BSG 2000"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BSG 2000"@de .
+
+dtd:kurzue-id15 a dtd:kurzue ;
+    dtd:has_Value "Beitragssatzgesetz 2000"@de .
+
+dtd:langue-id16 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Bestimmung der Beitragssätze und zur Bestimmung der
+Umrechnungsfaktoren für den Versorgungsausgleich in der
+gesetzlichen Rentenversicherung für 2000"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id15 ;
+    dtd:has_langue dtd:langue-id16 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132458"@de ;
+    dtd:has_doknr "BJNR254410999"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132458"@de ;
+    dtd:has_doknr "BJNR254410999BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132458"@de ;
+    dtd:has_doknr "BJNR254410999BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id118 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id58,
+        dtd:entry-id59,
+        dtd:entry-id60 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id61,
+        dtd:entry-id62,
+        dtd:entry-id63 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id64,
+        dtd:entry-id65 .
+
+dtd:row-id45 a dtd:row ;
+    dtd:has_entry dtd:entry-id66,
+        dtd:entry-id67 .
+
+dtd:row-id46 a dtd:row ;
+    dtd:has_entry dtd:entry-id68,
+        dtd:entry-id69,
+        dtd:entry-id70 .
+
+dtd:row-id47 a dtd:row ;
+    dtd:has_entry dtd:entry-id71,
+        dtd:entry-id72,
+        dtd:entry-id73 .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id74,
+        dtd:entry-id75 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id76,
+        dtd:entry-id77 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id78,
+        dtd:entry-id79,
+        dtd:entry-id80 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id81,
+        dtd:entry-id82,
+        dtd:entry-id83 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id84,
+        dtd:entry-id85 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id86,
+        dtd:entry-id87 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id88,
+        dtd:entry-id89,
+        dtd:entry-id90 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id91,
+        dtd:entry-id92,
+        dtd:entry-id93 .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id94,
+        dtd:entry-id95 .
+
+dtd:row-id57 a dtd:row ;
+    dtd:has_entry dtd:entry-id96,
+        dtd:entry-id97 .
+
+dtd:table-id30 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id31 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id32 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id33 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id37 a dtd:tbody ;
+    dtd:has_row dtd:row-id42,
+        dtd:row-id43,
+        dtd:row-id44,
+        dtd:row-id45,
+        dtd:row-id46,
+        dtd:row-id47,
+        dtd:row-id48,
+        dtd:row-id49 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id41 a dtd:tbody ;
+    dtd:has_row dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54,
+        dtd:row-id55,
+        dtd:row-id56,
+        dtd:row-id57 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:tgroup-id31 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id34,
+        dtd:colspec-id35,
+        dtd:colspec-id36 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id37 .
+
+dtd:tgroup-id33 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id38,
+        dtd:colspec-id39,
+        dtd:colspec-id40 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id41 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Beitragssätze in der Rentenversicherung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value """Umrechnungsfaktoren für den Versorgungsausgleich in der
+Rentenversicherung"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id119 a dtd:zitstelle ;
+    dtd:has_Value "1999, 2534, 2544"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

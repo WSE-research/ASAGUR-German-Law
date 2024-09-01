@@ -1,0 +1,561 @@
+@prefix dtd: <urn:VersorgAusglUmrFaktorBek-2019#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20181218212011"@de ;
+    dtd:has_doknr "BJNR203000018"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119,
+        dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DL-id100 a dtd:DL ;
+    dtd:has_DD dtd:DD-id103,
+        dtd:DD-id104 ;
+    dtd:has_DT dtd:DT-id101,
+        dtd:DT-id102 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id108,
+        dtd:DD-id109 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id95 a dtd:DL ;
+    dtd:has_DD dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id96,
+        dtd:DT-id97 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_DL dtd:DL-id100 ;
+    dtd:has_Value "in der allgemeinen Rentenversicherung für die Umrechnung a)von Entgeltpunkten in Beiträge7235,5860,von Entgeltpunkten (Ost) in Beiträge6674,8948,b)von Beiträgen, Barwerten, Deckungskapitalien und vergleichbaren Deckungsrücklagen in Entgeltpunkte0,0001382058,von Beiträgen in Entgeltpunkte (Ost)0,0001498151,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Value "von Entgeltpunkten in Beiträge7235,5860,von Entgeltpunkten (Ost) in Beiträge6674,8948,"@de ;
+    dtd:has_table dtd:table-id31,
+        dtd:table-id33 .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Value "von Beiträgen, Barwerten, Deckungskapitalien und vergleichbaren Deckungsrücklagen in Entgeltpunkte0,0001382058,von Beiträgen in Entgeltpunkte (Ost)0,0001498151,"@de ;
+    dtd:has_table dtd:table-id35,
+        dtd:table-id37 .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "in der knappschaftlichen Rentenversicherung für die Umrechnung a)von Entgeltpunkten in Beiträge9608,5470,von Entgeltpunkten (Ost) in Beiträge8863,9732,b)von Beiträgen in Entgeltpunkte0,0001040740,von Beiträgen in Entgeltpunkte (Ost)0,0001128162."@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Value "von Entgeltpunkten in Beiträge9608,5470,von Entgeltpunkten (Ost) in Beiträge8863,9732,"@de ;
+    dtd:has_table dtd:table-id39,
+        dtd:table-id41 .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Value "von Beiträgen in Entgeltpunkte0,0001040740,von Beiträgen in Entgeltpunkte (Ost)0,0001128162."@de ;
+    dtd:has_table dtd:table-id43,
+        dtd:table-id45 .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_BR dtd:BR-id22 ;
+    dtd:has_Value " (+++ Textnachweis ab: 4.12.2018 +++)"@de ;
+    dtd:has_pre dtd:pre-id123 .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 187 Absatz 3 Satz 2 und des § 281a Absatz 3 Satz 3 des Sechsten Buches Sozialgesetzbuch – Gesetzliche Rentenversicherung –, die zuletzt durch Artikel 259 Nummer 1 der Verordnung vom 31. Oktober 2006 (BGBl. I S. 2407) geändert worden sind, wird bekannt gemacht:"@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_DL dtd:DL-id95 ;
+    dtd:has_Value "Die auf Grund des vorläufigen Durchschnittsentgelts und des Beitragssatzes für das Jahr 2019 berechneten Faktoren betragen im Jahr 2019 1.in der allgemeinen Rentenversicherung für die Umrechnung a)von Entgeltpunkten in Beiträge7235,5860,von Entgeltpunkten (Ost) in Beiträge6674,8948,b)von Beiträgen, Barwerten, Deckungskapitalien und vergleichbaren Deckungsrücklagen in Entgeltpunkte0,0001382058,von Beiträgen in Entgeltpunkte (Ost)0,0001498151,2.in der knappschaftlichen Rentenversicherung für die Umrechnung a)von Entgeltpunkten in Beiträge9608,5470,von Entgeltpunkten (Ost) in Beiträge8863,9732,b)von Beiträgen in Entgeltpunkte0,0001040740,von Beiträgen in Entgeltpunkte (Ost)0,0001128162."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_SP dtd:SP-id30 ;
+    dtd:has_Value "Bundesministerium für Arbeit und Soziales"@de .
+
+dtd:SP-id30 a dtd:SP ;
+    dtd:has_Value "Bundesministerium für Arbeit und Soziales"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2018-11-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id47 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id48 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id50 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id51 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id53 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id54 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id56 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id57 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id59 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id60 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id62 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id63 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id65 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id66 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id68 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id69 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_Value "von Entgeltpunkten in Beiträge"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_BR dtd:BR-id25 ;
+    dtd:has_Value "7235,5860,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_Value "von Entgeltpunkten (Ost) in Beiträge"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_Value "6674,8948,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_BR dtd:BR-id26 ;
+    dtd:has_Value "von Beiträgen, Barwerten, Deckungskapitalien und vergleichbaren Deckungsrücklagen in Entgeltpunkte"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value "0,0001382058,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_Value "von Beiträgen in Entgeltpunkte (Ost)"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_Value "0,0001498151,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_Value "von Entgeltpunkten in Beiträge"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value "9608,5470,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_Value "von Entgeltpunkten (Ost) in Beiträge"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_Value "8863,9732,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_Value "von Beiträgen in Entgeltpunkte"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value "0,0001040740,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_Value "von Beiträgen in Entgeltpunkte (Ost)"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_Value "0,0001128162."@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id124 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id125 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id116 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "VersorgAusglUmrFaktorBek 2019"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "VersorgAusglUmrFaktorBek 2019"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "VersorgAusglUmrFaktorBek 2019"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung der Umrechnungsfaktoren für den Versorgungsausgleich in der Rentenversicherung"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20181218212011"@de ;
+    dtd:has_doknr "BJNR203000018"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20181218212011"@de ;
+    dtd:has_doknr "BJNR203000018BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20181218212011"@de ;
+    dtd:has_doknr "BJNR203000018BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id124 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id123 a dtd:pre ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 4.12.2018 +++)"@de .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id79,
+        dtd:entry-id80 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id81,
+        dtd:entry-id82 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id85,
+        dtd:entry-id86 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id89,
+        dtd:entry-id90 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id91,
+        dtd:entry-id92 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id93,
+        dtd:entry-id94 .
+
+dtd:table-id31 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id32 .
+
+dtd:table-id33 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id34 .
+
+dtd:table-id35 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id36 .
+
+dtd:table-id37 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id38 .
+
+dtd:table-id39 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id40 .
+
+dtd:table-id41 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id42 .
+
+dtd:table-id43 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id44 .
+
+dtd:table-id45 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id46 .
+
+dtd:tbody-id49 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id71 .
+
+dtd:tbody-id52 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id72 .
+
+dtd:tbody-id55 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id73 .
+
+dtd:tbody-id58 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id74 .
+
+dtd:tbody-id61 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id75 .
+
+dtd:tbody-id64 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id76 .
+
+dtd:tbody-id67 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id77 .
+
+dtd:tbody-id70 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id78 .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:tgroup-id32 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id47,
+        dtd:colspec-id48 ;
+    dtd:has_tbody dtd:tbody-id49 .
+
+dtd:tgroup-id34 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id50,
+        dtd:colspec-id51 ;
+    dtd:has_tbody dtd:tbody-id52 .
+
+dtd:tgroup-id36 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id53,
+        dtd:colspec-id54 ;
+    dtd:has_tbody dtd:tbody-id55 .
+
+dtd:tgroup-id38 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id56,
+        dtd:colspec-id57 ;
+    dtd:has_tbody dtd:tbody-id58 .
+
+dtd:tgroup-id40 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id59,
+        dtd:colspec-id60 ;
+    dtd:has_tbody dtd:tbody-id61 .
+
+dtd:tgroup-id42 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id62,
+        dtd:colspec-id63 ;
+    dtd:has_tbody dtd:tbody-id64 .
+
+dtd:tgroup-id44 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id65,
+        dtd:colspec-id66 ;
+    dtd:has_tbody dtd:tbody-id67 .
+
+dtd:tgroup-id46 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id68,
+        dtd:colspec-id69 ;
+    dtd:has_tbody dtd:tbody-id70 .
+
+dtd:zitstelle-id125 a dtd:zitstelle ;
+    dtd:has_Value "2018, 2030"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:none rdfs:label "none"@de .
+

@@ -1,0 +1,190 @@
+@prefix dtd: <urn:WZG§4CommwBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093503"@de ;
+    dtd:has_doknr "BJNR007470975"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id43 a dtd:kommentar ;
+    dtd:has_Value "(Inhalt: Nicht darstellbare Kennzeichen,"@de ;
+    dtd:has_typ dtd:Hinweis .
+
+dtd:kommentar-id44 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl. I 1975, 747)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37,
+        dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 28.11.1975 +++)"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 4 Abs. 2 Nr. 3a des Warenzeichengesetzes in der Fassung der Bekanntmachung vom 2. Januar 1968 (Bundesgesetzbl. I S. 1, 29), zuletzt geändert durch das Gesetz zur Änderung des Sortenschutzgesetzes vom 9. Dezember 1974 (Bundesgesetzbl. I S. 3416), wird bekanntgemacht, daß das Kennzeichen des Sekretariats des Commonwealth (Anlage) von der Eintragung als Warenzeichen ausgeschlossen ist."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(2) Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 4. Februar 1975 (Bundesgesetzbl. I S. 474)."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value "(Inhalt: Nicht darstellbare Kennzeichen,Fundstelle: BGBl. I 1975, 747)"@de ;
+    dtd:has_noindex dtd:noindex-id32,
+        dtd:noindex-id33 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1975-03-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id45 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id46 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:fussnoten-id30 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "WZG§4CommwBek"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "WZG§4CommwBek"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "WZG§4CommwBek"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "WZG§4CommwBek"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 4 des Warenzeichengesetzes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:noindex-id32 a dtd:noindex .
+
+dtd:noindex-id33 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093503"@de ;
+    dtd:has_doknr "BJNR007470975"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093503"@de ;
+    dtd:has_doknr "BJNR007470975BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093503"@de ;
+    dtd:has_doknr "BJNR007470975BJNE000900303"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093503"@de ;
+    dtd:has_doknr "BJNR007470975BJNE000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id45 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id48 ;
+    dtd:has_standtyp dtd:standtyp-id47 .
+
+dtd:standkommentar-id48 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Bek. v. 21.11.1975 I 2911"@de .
+
+dtd:standtyp-id47 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Kennzeichen des Sekretariats des Commonwealth"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id46 a dtd:zitstelle ;
+    dtd:has_Value "1975, 747"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

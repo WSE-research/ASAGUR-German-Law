@@ -1,0 +1,136 @@
+@prefix dtd: <urn:BSG-2013#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130226215514"@de ;
+    dtd:has_doknr "BJNR244600012"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2013 +++)"@de ;
+    dtd:has_pre dtd:pre-id32 .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_Value "Der Beitragssatz beträgt für das Jahr 2013 in der allgemeinen Rentenversicherung 18,9 Prozent und in der knappschaftlichen Rentenversicherung 25,1 Prozent."@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am 1. Januar 2013 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-12-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id17 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id33 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id34 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id26 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BSG 2013"@de .
+
+dtd:jurabk-id16 a dtd:jurabk ;
+    dtd:has_Value "BSG 2013"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "BSG 2013"@de .
+
+dtd:kurzue-id14 a dtd:kurzue ;
+    dtd:has_Value "Beitragssatzgesetz 2013"@de .
+
+dtd:langue-id15 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Festsetzung der Beitragssätze in der gesetzlichen Rentenversicherung für das Jahr 2013"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id14 ;
+    dtd:has_langue dtd:langue-id15 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id17 ;
+    dtd:has_jurabk dtd:jurabk-id16 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130226215514"@de ;
+    dtd:has_doknr "BJNR244600012"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130226215514"@de ;
+    dtd:has_doknr "BJNR244600012BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130226215514"@de ;
+    dtd:has_doknr "BJNR244600012BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id33 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id32 a dtd:pre ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2013 +++)"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id28 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id34 a dtd:zitstelle ;
+    dtd:has_Value "2012, 2446"@de .
+

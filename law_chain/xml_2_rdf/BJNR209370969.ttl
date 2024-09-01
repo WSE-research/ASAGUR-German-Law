@@ -1,0 +1,254 @@
+@prefix dtd: <urn:GrAbfertDNKVtrG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625155237"@de ;
+    dtd:has_doknr "BJNR209370969"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62,
+        dtd:P-id63 .
+
+dtd:I-id44 a dtd:I ;
+    dtd:has_Value "§§ 446, 447 und 449 der Reichsabgabenordnung"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  8. 5.1969 +++)"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Dem in Kopenhagen am 30. März 1967 unterzeichneten Vertrag zwischen der Bundesrepublik Deutschland und dem Königreich Dänemark über Zollerleichterungen im kleinen Grenzverkehr nebst Protokoll vom gleichen Tage und Zusatzprotokoll vom 9. August 1968 wird zugestimmt. Der Vertrag, das Protokoll und das Zusatzprotokoll werden nachstehend veröffentlicht."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Finanzen wird ermächtigt, Änderungen der Anlage des Vertrages auf Grund seines Artikels 2 Satz 2 durch Rechtsverordnung ohne Zustimmung des Bundesrates in Kraft zu setzen."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer vorsätzlich oder fahrlässig einer der in Artikel 6 Abs. 1 des Vertrages bezeichneten Beschränkungen zuwiderhandelt."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu zehntausend Deutsche Mark geahndet werden."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_I dtd:I-id44 ;
+    dtd:has_Value "(3) Für das Bußgeldverfahren gelten die §§ 446, 447 und 449 der Reichsabgabenordnung entsprechend."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Art. 3 Abs. 3 Kursivdruck: Vgl. jetzt §§ 409, 410 u. 412 AO 1977 610-1-3"@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1)."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem der Vertrag nach seinem Artikel 24 Abs. 2 sowie das Protokoll und das Zusatzprotokoll in Kraft treten, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-04-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id64 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id65 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id57 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertDNKVtrG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertDNKVtrG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertDNKVtrG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertDNKVtrG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertDNKVtrG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertDNKVtrG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Vertrag vom 30. März 1967 zwischen der Bundesrepublik
+Deutschland und dem Königreich Dänemark über Zollerleichterungen im kleinen
+Grenzverkehr"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625155237"@de ;
+    dtd:has_doknr "BJNR209370969"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625155237"@de ;
+    dtd:has_doknr "BJNR209370969BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625155237"@de ;
+    dtd:has_doknr "BJNR209370969BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625155237"@de ;
+    dtd:has_doknr "BJNR209370969BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625155237"@de ;
+    dtd:has_doknr "BJNR209370969BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625155237"@de ;
+    dtd:has_doknr "BJNR209370969BJNE000500314"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id64 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id65 a dtd:zitstelle ;
+    dtd:has_Value "1969, 937"@de .
+

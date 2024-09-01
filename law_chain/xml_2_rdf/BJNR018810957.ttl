@@ -1,0 +1,338 @@
+@prefix dtd: <urn:SonntVerkV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125927"@de ;
+    dtd:has_doknr "BJNR018810957"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64,
+        dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69,
+        dtd:P-id70,
+        dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55,
+        dtd:LA-id56 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57,
+        dtd:LA-id58 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59,
+        dtd:LA-id60 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61,
+        dtd:LA-id62 .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51,
+        dtd:DD-id52,
+        dtd:DD-id53,
+        dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id47,
+        dtd:DT-id48,
+        dtd:DT-id49,
+        dtd:DT-id50 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:I-id44 a dtd:I ;
+    dtd:has_Value "13"@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von frischer Milch:"@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verkaufsstellen, für die Dauer von zwei Stunden,"@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Bäcker- oder Konditorwaren:"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verkaufsstellen von Betrieben, die Bäcker- oder Konditorwaren herstellen, für die Dauer von drei Stunden,"@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Blumen:"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verkaufsstellen, in denen in erheblichem Umfang Blumen feilgehalten werden, für die Dauer von zwei Stunden, jedoch am 1. November (Allerheiligen), am Volkstrauertag, am Buß- und Bettag, am Totensonntag und am 1. Adventssonntag für die Dauer von sechs Stunden,"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Zeitungen:"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verkaufsstellen für Zeitungen für die Dauer von fünf Stunden."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Überschrift: Im Saarland eingeführt durch § 1 Abs. 1 Nr. 2 V v. 21.11.1963 8050-20-4"@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_BR dtd:BR-id43 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 12 Abs. 1 des Gesetzes über den Ladenschluß vom 28. November 1956 (Bundesgesetzbl. I S. 875) in der Fassung des Gesetzes vom 17. Juli 1957 (Bundesgesetzbl. I S. 722) wird im Einvernehmen mit den Bundesministern für Wirtschaft und für Ernährung, Landwirtschaft und Forsten mit Zustimmung des Bundesrates verordnet:"@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Value "(1) Abweichend von der Vorschrift des § 3 Abs. 1 Nr. 1 des Gesetzes über den Ladenschluß dürfen an Sonn- und Feiertagen geöffnet sein für die Abgabe 1.von frischer Milch:Verkaufsstellen, für die Dauer von zwei Stunden,  2.von Bäcker- oder Konditorwaren:Verkaufsstellen von Betrieben, die Bäcker- oder Konditorwaren herstellen, für die Dauer von drei Stunden,  3.von Blumen:Verkaufsstellen, in denen in erheblichem Umfang Blumen feilgehalten werden, für die Dauer von zwei Stunden, jedoch am 1. November (Allerheiligen), am Volkstrauertag, am Buß- und Bettag, am Totensonntag und am 1. Adventssonntag für die Dauer von sechs Stunden,  4.von Zeitungen:Verkaufsstellen für Zeitungen für die Dauer von fünf Stunden.   "@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 Nr. 1 bis 3 gilt nicht für die Abgabe am 2. Weihnachts-, Oster- und Pfingstfeiertag."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_I dtd:I-id44 ;
+    dtd:has_Value "(3) Die Vorschriften der §§ 5, 10, 11, 13 bis 15 des Gesetzes über den Ladenschluß bleiben unberührt."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "§ 1 Abs. 3 Kursivdruck: § 13 aufgeh. durch Art. 1 Nr. 5 G v. 14.11.1960 I 845"@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 1958 in Kraft."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_SP dtd:SP-id45 ;
+    dtd:has_Value "Der Bundesminister für Arbeit und Sozialordnung"@de .
+
+dtd:SP-id45 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Arbeit und Sozialordnung"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1957-12-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id80 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id81 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id63 .
+
+dtd:fussnoten-id38 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id72 .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SonntVerkV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "SonntVerkV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "SonntVerkV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "SonntVerkV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "SonntVerkV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "SonntVerkV"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Verordnung über den Verkauf bestimmter Waren an Sonn- und Feiertagen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125927"@de ;
+    dtd:has_doknr "BJNR018810957"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125927"@de ;
+    dtd:has_doknr "BJNR018810957BJNE000100317"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125927"@de ;
+    dtd:has_doknr "BJNR018810957BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125927"@de ;
+    dtd:has_doknr "BJNR018810957BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125927"@de ;
+    dtd:has_doknr "BJNR018810957BJNE000400317"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125927"@de ;
+    dtd:has_doknr "BJNR018810957BJNE000500317"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id80 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id83 ;
+    dtd:has_standtyp dtd:standtyp-id82 .
+
+dtd:standkommentar-id83 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 3 G v. 30.7.1996 I 1186"@de .
+
+dtd:standtyp-id82 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:zitstelle-id81 a dtd:zitstelle ;
+    dtd:has_Value "1957, 1881"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

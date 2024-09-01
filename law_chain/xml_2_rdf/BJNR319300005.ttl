@@ -1,0 +1,784 @@
+@prefix dtd: <urn:AktFoV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id93 a dtd:BR .
+
+dtd:BR-id94 a dtd:BR .
+
+dtd:BR-id95 a dtd:BR .
+
+dtd:BR-id96 a dtd:BR .
+
+dtd:BR-id97 a dtd:BR .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145 .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_P dtd:P-id147 .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151,
+        dtd:P-id152,
+        dtd:P-id153 ;
+    dtd:has_table dtd:table-id98 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155,
+        dtd:P-id156,
+        dtd:P-id157,
+        dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160,
+        dtd:P-id161,
+        dtd:P-id162,
+        dtd:P-id163,
+        dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166,
+        dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169,
+        dtd:P-id170 .
+
+dtd:Content-id171 a dtd:Content ;
+    dtd:has_P dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175 .
+
+dtd:Content-id176 a dtd:Content ;
+    dtd:has_P dtd:P-id177,
+        dtd:P-id178 .
+
+dtd:Content-id179 a dtd:Content ;
+    dtd:has_P dtd:P-id180,
+        dtd:P-id181,
+        dtd:P-id182 .
+
+dtd:Content-id183 a dtd:Content ;
+    dtd:has_P dtd:P-id184,
+        dtd:P-id185 .
+
+dtd:Content-id186 a dtd:Content ;
+    dtd:has_P dtd:P-id187 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id128 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id129 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id131 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id109,
+        dtd:DD-id110,
+        dtd:DD-id111 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107,
+        dtd:DT-id108 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id112 a dtd:DL ;
+    dtd:has_DD dtd:DD-id118,
+        dtd:DD-id119,
+        dtd:DD-id120,
+        dtd:DD-id121,
+        dtd:DD-id122 ;
+    dtd:has_DT dtd:DT-id113,
+        dtd:DT-id114,
+        dtd:DT-id115,
+        dtd:DT-id116,
+        dtd:DT-id117 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id123 a dtd:DL ;
+    dtd:has_DD dtd:DD-id128,
+        dtd:DD-id129,
+        dtd:DD-id130,
+        dtd:DD-id131 ;
+    dtd:has_DT dtd:DT-id124,
+        dtd:DT-id125,
+        dtd:DT-id126,
+        dtd:DT-id127 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id124 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id125 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id127 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Firma und Firmenteile,"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Wertpapierkennnummer (WKN), International Securities Identification Number (ISIN) oder"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Handelsregisternummer."@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sich zuvor einmalig unter Angabe von Name oder Firma, der Anschrift des Wohnsitzes oder des Sitzes und einer elektronischen Postadresse bei dem Betreiber registriert hat,"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Nutzung einen Benutzernamen und ein Kennwort mittels elektronischer Post erhalten und dieses bestätigt hat oder, falls der Betreiber ausschließlich oder zusätzlich ein nach dem Stand der Technik vergleichbares anderes Identifizierungs- und Authentifizierungsverfahren gewählt hat (zum Beispiel elektronische Signatur), dessen Voraussetzungen erfüllt hat,"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Eintragung der Aufforderung den Benutzernamen und das Kennwort eingegeben oder vergleichbare Anforderungen erfüllt hat,"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei dieser Gelegenheit die Richtigkeit seiner Angaben aus der Registrierung nochmals bestätigt hat und"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einen Zahlungsweg angegeben hat, dessen Schlüssigkeit überprüft wurde, oder das Entgelt nach § 9 Abs. 1 entrichtet hat."@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Angaben oder Meinungsäußerungen enthält, die über den gesetzlich vorgesehenen Inhalt hinausgehen,"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nicht von einem Aktionär oder einer Aktionärsvereinigung stammt,"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "irreführende oder strafbare Angaben, falsche Angaben zur Person des Auffordernden oder"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Werbung für Produkte und nicht mit der Durchführung der Aufforderung verbundene Dienstleistungen enthält."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_BR dtd:BR-id96,
+        dtd:BR-id97 ;
+    dtd:has_Value "www.bundesanzeiger.de,www.unternehmensregister.de undwww.aktionaersforum.de"@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_BR dtd:BR-id93 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.12.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id188 .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 127a Abs. 5 des Aktiengesetzes, der durch Artikel 1 Nr. 7 des Gesetzes vom 22. September 2005 (BGBl. I S. 2802) eingefügt worden ist, verordnet das Bundesministerium der Justiz:"@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(1) Das Aktionärsforum ist Teil des Bundesanzeigers und ist jedenfalls über die Internetseiten"@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "erreichbar."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(2) Das Aktionärsforum ist so zu gestalten, dass Aktionäre, Aktionärsvereinigungen und Gesellschaften (Eintragende) die Aufforderungen und Hinweise auf Stellungnahmen nach § 127a des Aktiengesetzes (Eintragungen) nur über eine im Aktionärsforum zur Verfügung gestellte Formularmaske elektronisch eintragen können. Eintragungen sind in Deutsch oder Englisch abzufassen."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "(1) Die Eintragungen sollen nach Gesellschaften in alphabetischer Reihenfolge geordnet sein und innerhalb der Gesellschaften in zeitlicher Abfolge dargestellt werden."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "(2) Innerhalb des Aktionärsforums kann im Volltext der Eintragungen oder unter Verwendung zumindest folgender Suchmerkmale gesucht werden: 1.Firma und Firmenteile, 2.Wertpapierkennnummer (WKN), International Securities Identification Number (ISIN) oder 3.Handelsregisternummer.  "@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(3) Die Benutzeroberfläche ist in deutscher Sprache gefasst. Eine Fassung in englischer Sprache soll vorhanden sein."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(4) Der Betreiber kann im Aktionärsforum einen Hinweis auf seine Allgemeinen Geschäftsbedingungen anbringen. Er kann zudem im Aktionärsforum eine zusätzliche Dienstleistung anbieten, mit der über veröffentlichte Eintragungen automatisiert unterrichtet wird."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_DL dtd:DL-id112 ;
+    dtd:has_Value "(1) Die Veröffentlichung einer Aufforderung kann zur Sicherung gegen Missbrauch nur vorgenommen werden, wenn der Aktionär oder die Aktionärsvereinigung (der Auffordernde) 1.sich zuvor einmalig unter Angabe von Name oder Firma, der Anschrift des Wohnsitzes oder des Sitzes und einer elektronischen Postadresse bei dem Betreiber registriert hat,2.für die Nutzung einen Benutzernamen und ein Kennwort mittels elektronischer Post erhalten und dieses bestätigt hat oder, falls der Betreiber ausschließlich oder zusätzlich ein nach dem Stand der Technik vergleichbares anderes Identifizierungs- und Authentifizierungsverfahren gewählt hat (zum Beispiel elektronische Signatur), dessen Voraussetzungen erfüllt hat,3.bei Eintragung der Aufforderung den Benutzernamen und das Kennwort eingegeben oder vergleichbare Anforderungen erfüllt hat,4.bei dieser Gelegenheit die Richtigkeit seiner Angaben aus der Registrierung nochmals bestätigt hat und5.einen Zahlungsweg angegeben hat, dessen Schlüssigkeit überprüft wurde, oder das Entgelt nach § 9 Abs. 1 entrichtet hat."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(2) Der Auffordernde hat im Rahmen der Eintragung einer Aufforderung zu versichern, dass er Aktionär der betreffenden Gesellschaft oder eine Aktionärsvereinigung im Sinn des § 135 Absatz 8 Satz 1 des Aktiengesetzes ist. Liegen, etwa aufgrund eines Hinweises der betroffenen Gesellschaft, konkrete Anhaltspunkte vor, die an der Aktionärs- oder Aktionärsvereinigungseigenschaft Zweifel begründen, kann der Betreiber die Vorlage von Nachweisen in Schrift- oder Textform verlangen. Werden die geforderten Nachweise nicht in der vom Betreiber gesetzten Frist beigebracht, hat der Betreiber die Aufforderung unverzüglich zu löschen."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(3) Die Angabe des Namens oder der Firma, der Anschrift des Wohnsitzes oder des Sitzes des Auffordernden, der Hinweis darauf, ob er als Aktionär oder als Aktionärsvereinigung handelt, sowie die Angabe einer elektronischen Postadresse sind Bestandteil der Aufforderung. Bezieht sich die Aufforderung auf eine bestimmte Hauptversammlung, ist ferner deren Datum anzugeben (§ 127a Abs. 2 Nr. 4 des Aktiengesetzes). Soweit die Angaben nicht von der Formularmaske vorgegeben sind, ist die Aufforderung im Freitext einzugeben und darf höchstens 500 Zeichen enthalten."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(4) Der Betreiber sendet dem Auffordernden eine Bestätigung über die Eintragung und ihre anschließende Veröffentlichung mittels elektronischer Post zu. Die Bestätigung soll den Hinweis enthalten, dass der Auffordernde die Löschung der Aufforderung zu bewirken hat, sobald er nicht mehr Aktionär der betreffenden Gesellschaft ist. Kommt die Bestätigung als unzustellbar zurück, so hat der Betreiber die Aufforderung unverzüglich zu löschen."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_DL dtd:DL-id123 ;
+    dtd:has_Value "(5) Eine Aufforderung ist missbräuchlich, wenn sie offensichtlich nicht den Voraussetzungen von § 127a des Aktiengesetzes oder dieser Verordnung entspricht, insbesondere wenn sie 1.Angaben oder Meinungsäußerungen enthält, die über den gesetzlich vorgesehenen Inhalt hinausgehen,2.nicht von einem Aktionär oder einer Aktionärsvereinigung stammt,3.irreführende oder strafbare Angaben, falsche Angaben zur Person des Auffordernden oder4.Werbung für Produkte und nicht mit der Durchführung der Aufforderung verbundene Dienstleistungen enthält.Missbräuchliche Aufforderungen werden durch den Betreiber unverzüglich gelöscht. In Zweifelsfällen hat der Betreiber den Auffordernden vorher zu befragen."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(1) Gibt eine Gesellschaft zu einer sie betreffenden Aufforderung auf ihrer Internetseite eine Stellungnahme nach § 127a Abs. 4 des Aktiengesetzes ab, so kann die Gesellschaft auf diese Stellungnahme im Aktionärsforum hinweisen. Der Hinweis auf die Stellungnahme wird im Aktionärsforum im räumlichen Zusammenhang mit der Aufforderung veröffentlicht, auf die sich die Stellungnahme bezieht."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(2) Im Übrigen gilt für die Gesellschaften § 3 Abs. 1, 4 und 5 entsprechend."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(1) Verweist eine Eintragung auf eine andere Internetseite, hat diese Internetseite innerhalb des Internetauftritts unmittelbar die Begründung der Aufforderung oder die Stellungnahme zu enthalten. Verstöße gegen Satz 1 oder missbräuchliche Inhalte dieser Internetseite berechtigen den Betreiber, die Eintragung zu verweigern oder Eintragungen ohne Kostenerstattung zu löschen. Der Betreiber überprüft die Einhaltung dieser Vorschrift durch Stichproben und auf konkreten Hinweis."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(2) Der Verweis auf eine andere Internetseite soll so gestaltet werden, dass sich diese unmittelbar durch Anklicken öffnet. Der Verweis auf eine elektronische Postadresse kann so beschaffen sein, dass sich das Programm für elektronische Post des Nutzers unmittelbar öffnet."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "(1) Berichtigungen von Eintragungen im Aktionärsforum müssen vom Eintragenden vorgenommen werden."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(2) Löschungen von Eintragungen können jederzeit vom Eintragenden vorgenommen werden."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(3) Die Eintragungen im Aktionärsforum sind nach ihrer Veröffentlichung für die Dauer von drei Jahren zur Einsichtnahme vorzuhalten und anschließend vom Betreiber zu löschen. Der Betreiber ist verpflichtet, bis zum Ende der Vorhaltedauer auf Verlangen gegen angemessenes Entgelt eine Bestätigung über einen bestimmten Eintragungsvorgang zu erteilen."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(4) Eintragungen, für die das Entgelt nicht entrichtet wird, werden durch den Betreiber unverzüglich gelöscht."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(1) Jedermann kann das Aktionärsforum jederzeit und ohne vorherige Registrierung kostenfrei einsehen. Die Einsichtnahme erfolgt ausschließlich über das Internet."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(2) Die Vorschriften der Barrierefreie Informationstechnik-Verordnung vom 17. Juli 2002 (BGBl. I S. 2654) über die Gestaltung der Einsichtnahme sind in der jeweils geltenden Fassung vom Betreiber sinngemäß anzuwenden."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "(1) Der Betreiber hat durch organisatorische und dem jeweiligen Stand der Technik entsprechende technische Maßnahmen sicherzustellen, dass die Eintragungen während ihrer Veröffentlichung im Aktionärsforum unversehrt und vollständig bleiben sowie jederzeit ihrem Ursprung nach zugeordnet werden können."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "(2) Der Betreiber hat durch technische Vorkehrungen sicherzustellen, dass er von auftretenden Fehlfunktionen unverzüglich Kenntnis erlangt, und hat diese unverzüglich zu beheben."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(3) Der Betreiber erstellt im Einvernehmen mit dem Bundesamt für Sicherheit in der Informationstechnik ein Sicherheitskonzept für das Aktionärsforum. Insbesondere die nach § 9 des Bundesdatenschutzgesetzes erforderlichen technischen und organisatorischen Maßnahmen sind zu treffen. Die Wirksamkeit der Maßnahmen ist in regelmäßigen Abständen unter Berücksichtigung der aktuellen technischen Entwicklungen zu überprüfen."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "(1) Der Betreiber kann mit dem Eintragenden vertraglich ein angemessenes Entgelt für die Eintragung vereinbaren. Das gilt auch für vom Eintragenden vorgenommene Änderungen oder Löschungen. Die Entrichtung des Entgeltes ist so zu gestalten, dass Eintragende mit Wohnsitz oder Sitz im Ausland nicht benachteiligt werden. Es ist die Möglichkeit der Bezahlung mittels elektronischen Lastschriftverfahrens, Kreditkarte oder vergleichbarer Zahlungsmittel vorzusehen. Sie ist so zu gestalten, dass nichtelektronischer Schriftverkehr in der Regel ausgeschlossen ist. Der Betreiber soll die Mitteilung des Zahlungswegs innerhalb einer gesicherten Internet-Verbindung anbieten."@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_Value "(2) Die Eintragung ist spätestens bis zum Ende des auf den erfolgreichen Abschluss des Bezahlvorgangs folgenden Veröffentlichungstages des Bundesanzeigers zu veröffentlichen. Lehnt der Betreiber eine Eintragung ab oder löscht er eine Eintragung, ist dies dem Eintragenden unverzüglich unter der von ihm angegebenen elektronischen Postadresse mitzuteilen."@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Dezember 2005 in Kraft."@de .
+
+dtd:amtabk-id39 a dtd:amtabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id40 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-11-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:colspec-id100 a dtd:colspec ;
+    dtd:has_colname "col1"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_P dtd:P-id104 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "www.bundesanzeiger.de,www.unternehmensregister.de undwww.aktionaersforum.de"@de .
+
+dtd:fundstelle-id41 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id189 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id190 .
+
+dtd:fussnoten-id78 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id146 .
+
+dtd:fussnoten-id81 a dtd:fussnoten .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:fussnoten-id91 a dtd:fussnoten .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "AktFoV"@de .
+
+dtd:kurzue-id42 a dtd:kurzue ;
+    dtd:has_Value "Aktionärsforumsverordnung"@de .
+
+dtd:langue-id43 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Aktionärsforum nach § 127a des Aktiengesetzes"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id39 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id40 ;
+    dtd:has_fundstelle dtd:fundstelle-id41 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_kurzue dtd:kurzue-id42 ;
+    dtd:has_langue dtd:langue-id43 ;
+    dtd:has_standangabe dtd:standangabe-id44 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE001001360"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000201360"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000402360"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20200409212526"@de ;
+    dtd:has_doknr "BJNR319300005BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id189 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id188 a dtd:pre ;
+    dtd:has_BR dtd:BR-id94,
+        dtd:BR-id95 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.12.2005 +++)"@de .
+
+dtd:row-id102 a dtd:row ;
+    dtd:has_entry dtd:entry-id103 .
+
+dtd:standangabe-id44 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id192 ;
+    dtd:has_standtyp dtd:standtyp-id191 .
+
+dtd:standkommentar-id192 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 8 G v. 12.12.2019 I 2637"@de .
+
+dtd:standtyp-id191 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id98 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id99 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id101 a dtd:tbody ;
+    dtd:has_row dtd:row-id102 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id144 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id148 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id171 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id176 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id179 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id183 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id186 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id81 ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id91 ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:tgroup-id99 a dtd:tgroup ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colspec dtd:colspec-id100 ;
+    dtd:has_tbody dtd:tbody-id101 .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Einrichtung des Aktionärsforums"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Inhalt und Aufbau des Aktionärsforums"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Registrierung, Aufforderungen des Aktionärs oder der Aktionärsvereinigung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Hinweise auf Stellungnahmen der Gesellschaft"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Verweis auf eine andere Internetseite"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Berichtigung, Löschung, Löschungsfrist"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Einsichtnahme"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Datensicherheit"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Entgelte, Veröffentlichung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id190 a dtd:zitstelle ;
+    dtd:has_Value "2005, 3193"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

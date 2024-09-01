@@ -1,0 +1,998 @@
+@prefix dtd: <urn:BGL-2003#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154408"@de ;
+    dtd:has_doknr "BJNR464110002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141,
+        dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144,
+        dtd:P-id145 .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_P dtd:P-id147,
+        dtd:P-id148 .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2003 +++)"@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value " Das G wurde als Art. 9 d. G 860-5/10 v. 23.12.2002 I 4637 vom Bundestag beschlossen. Es ist gem. Art. 13 Abs. 3 dieses G mWv 1.1.2003 in Kraft getreten."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(1) Der Beitrag in der Alterssicherung der Landwirte beträgt für das Kalenderjahr 2003 monatlich 198 Euro."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "(2) Der Beitrag in der Alterssicherung der Landwirte beträgt für das Beitrittsgebiet für das Kalenderjahr 2003 monatlich 166 Euro."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value """(1) In Anlage 1 des Gesetzes über die Alterssicherung der Landwirte wird der monatliche Zuschussbetrag für das Kalenderjahr 2003 wie folgt festgesetzt: 
+	
+		
+		
+		
+			
+				Einkommensklasse
+				monatlicher Zuschussbetrag
+			
+		
+		
+			
+				Bis 8.220 Euro
+				119 Euro
+			
+			
+				8.221 - 8.740 Euro
+				111 Euro
+			
+			
+				8.741 - 9.260 Euro
+				103 Euro
+			
+			
+				9.261 - 9.780 Euro
+				95 Euro
+			
+			
+				9.781 - 10.300 Euro
+				87 Euro
+			
+			
+				10.301 - 10.820 Euro
+				79 Euro
+			
+			
+				10.821 - 11.340 Euro
+				71 Euro
+			
+			
+				11.341 - 11.860 Euro
+				63 Euro
+			
+			
+				11.861 - 12.380 Euro
+				55 Euro
+			
+			
+				12.381 - 12.900 Euro
+				48 Euro
+			
+			
+				12.901 - 13.420 Euro
+				40 Euro
+			
+			
+				13.421 - 13.940 Euro
+				32 Euro
+			
+			
+				13.941 - 14.460 Euro
+				24 Euro
+			
+			
+				14.461 - 14.980 Euro
+				16 Euro
+			
+			
+				14.981 - 15.500 Euro
+				8 Euro.
+			
+		
+	
+ """@de ;
+    dtd:has_table dtd:table-id30 .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value """(2) In Anlage 1 des Gesetzes über die Alterssicherung der Landwirte wird der monatliche Zuschussbetrag für das Beitrittsgebiet für das Kalenderjahr 2003 wie folgt festgesetzt: 
+	
+		
+		
+		
+			
+				Einkommensklasse
+				monatlicher Zuschussbetrag (Ost)
+			
+		
+		
+			
+				Bis 8.220 Euro
+				100 Euro
+			
+			
+				8.221 - 8.740 Euro
+				93 Euro
+			
+			
+				8.741 - 9.260 Euro
+				86 Euro
+			
+			
+				9.261 - 9.780 Euro
+				80 Euro
+			
+			
+				9.781 - 10.300 Euro
+				73 Euro
+			
+			
+				10.301 - 10.820 Euro
+				66 Euro
+			
+			
+				10.821 - 11.340 Euro
+				60 Euro
+			
+			
+				11.341 - 11.860 Euro
+				53 Euro
+			
+			
+				11.861 - 12.380 Euro
+				46 Euro
+			
+			
+				12.381 - 12.900 Euro
+				40 Euro
+			
+			
+				12.901 - 13.420 Euro
+				33 Euro
+			
+			
+				13.421 - 13.940 Euro
+				27 Euro
+			
+			
+				13.941 - 14.460 Euro
+				20 Euro
+			
+			
+				14.461 - 14.980 Euro
+				13 Euro
+			
+			
+				14.981 - 15.500 Euro
+				7 Euro.
+			
+		
+	
+ """@de ;
+    dtd:has_table dtd:table-id32 .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "BGL 2003"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-12-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id34 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "55*"@de .
+
+dtd:colspec-id35 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:colspec-id38 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "13.941 - 14.460 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "24 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "14.461 - 14.980 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "16 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "14.981 - 15.500 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8 Euro."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Einkommensklasse"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "monatlicher Zuschussbetrag (Ost)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bis 8.220 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8.221 - 8.740 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "93 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8.741 - 9.260 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "86 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "9.261 - 9.780 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "80 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "9.781 - 10.300 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "73 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10.301 - 10.820 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "66 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10.821 - 11.340 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "60 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11.341 - 11.860 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "53 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11.861 - 12.380 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "46 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "12.381 - 12.900 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "40 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "12.901 - 13.420 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "33 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "13.421 - 13.940 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "27 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "13.941 - 14.460 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "20 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "14.461 - 14.980 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "13 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "14.981 - 15.500 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7 Euro."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Einkommensklasse"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "monatlicher Zuschussbetrag"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bis 8.220 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "119 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8.221 - 8.740 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "111 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8.741 - 9.260 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "103 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "9.261 - 9.780 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "95 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "9.781 - 10.300 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "87 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10.301 - 10.820 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "79 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10.821 - 11.340 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "71 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11.341 - 11.860 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "63 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11.861 - 12.380 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "55 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "12.381 - 12.900 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "48 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "12.901 - 13.420 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "40 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "13.421 - 13.940 Euro"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "32 Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id149 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id150 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id140 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BGL 2003"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BGL 2003"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BGL 2003"@de .
+
+dtd:kurzue-id15 a dtd:kurzue ;
+    dtd:has_Value "Beitragsgesetz-Landwirtschaft 2003"@de .
+
+dtd:langue-id16 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Bestimmung der Beiträge und Beitragszuschüsse
+in der Alterssicherung der Landwirte für 2003"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id15 ;
+    dtd:has_langue dtd:langue-id16 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154408"@de ;
+    dtd:has_doknr "BJNR464110002"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154408"@de ;
+    dtd:has_doknr "BJNR464110002BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154408"@de ;
+    dtd:has_doknr "BJNR464110002BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id149 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id74,
+        dtd:entry-id75 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id106,
+        dtd:entry-id107 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id76,
+        dtd:entry-id77 .
+
+dtd:row-id45 a dtd:row ;
+    dtd:has_entry dtd:entry-id78,
+        dtd:entry-id79 .
+
+dtd:row-id46 a dtd:row ;
+    dtd:has_entry dtd:entry-id80,
+        dtd:entry-id81 .
+
+dtd:row-id47 a dtd:row ;
+    dtd:has_entry dtd:entry-id82,
+        dtd:entry-id83 .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id84,
+        dtd:entry-id85 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id86,
+        dtd:entry-id87 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id88,
+        dtd:entry-id89 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id90,
+        dtd:entry-id91 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id92,
+        dtd:entry-id93 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id94,
+        dtd:entry-id95 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id96,
+        dtd:entry-id97 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id98,
+        dtd:entry-id99 .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101 .
+
+dtd:row-id57 a dtd:row ;
+    dtd:has_entry dtd:entry-id102,
+        dtd:entry-id103 .
+
+dtd:row-id58 a dtd:row ;
+    dtd:has_entry dtd:entry-id104,
+        dtd:entry-id105 .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id108,
+        dtd:entry-id109 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id110,
+        dtd:entry-id111 .
+
+dtd:row-id61 a dtd:row ;
+    dtd:has_entry dtd:entry-id112,
+        dtd:entry-id113 .
+
+dtd:row-id62 a dtd:row ;
+    dtd:has_entry dtd:entry-id114,
+        dtd:entry-id115 .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id116,
+        dtd:entry-id117 .
+
+dtd:row-id64 a dtd:row ;
+    dtd:has_entry dtd:entry-id118,
+        dtd:entry-id119 .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id120,
+        dtd:entry-id121 .
+
+dtd:row-id66 a dtd:row ;
+    dtd:has_entry dtd:entry-id122,
+        dtd:entry-id123 .
+
+dtd:row-id67 a dtd:row ;
+    dtd:has_entry dtd:entry-id124,
+        dtd:entry-id125 .
+
+dtd:row-id68 a dtd:row ;
+    dtd:has_entry dtd:entry-id126,
+        dtd:entry-id127 .
+
+dtd:row-id69 a dtd:row ;
+    dtd:has_entry dtd:entry-id128,
+        dtd:entry-id129 .
+
+dtd:row-id70 a dtd:row ;
+    dtd:has_entry dtd:entry-id130,
+        dtd:entry-id131 .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id132,
+        dtd:entry-id133 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id134,
+        dtd:entry-id135 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id136,
+        dtd:entry-id137 .
+
+dtd:table-id30 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id31 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id32 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id33 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id37 a dtd:tbody ;
+    dtd:has_row dtd:row-id44,
+        dtd:row-id45,
+        dtd:row-id46,
+        dtd:row-id47,
+        dtd:row-id48,
+        dtd:row-id49,
+        dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54,
+        dtd:row-id55,
+        dtd:row-id56,
+        dtd:row-id57,
+        dtd:row-id58 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id41 a dtd:tbody ;
+    dtd:has_row dtd:row-id59,
+        dtd:row-id60,
+        dtd:row-id61,
+        dtd:row-id62,
+        dtd:row-id63,
+        dtd:row-id64,
+        dtd:row-id65,
+        dtd:row-id66,
+        dtd:row-id67,
+        dtd:row-id68,
+        dtd:row-id69,
+        dtd:row-id70,
+        dtd:row-id71,
+        dtd:row-id72,
+        dtd:row-id73 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id138 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id146 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:tgroup-id31 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id34,
+        dtd:colspec-id35 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id37 ;
+    dtd:has_thead dtd:thead-id36 .
+
+dtd:tgroup-id33 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id38,
+        dtd:colspec-id39 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id41 ;
+    dtd:has_thead dtd:thead-id40 .
+
+dtd:thead-id36 a dtd:thead ;
+    dtd:has_row dtd:row-id42 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:thead-id40 a dtd:thead ;
+    dtd:has_row dtd:row-id43 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Beitrag in der Alterssicherung der Landwirte"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value "Beitragszuschuss in der Alterssicherung der Landwirte"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id150 a dtd:zitstelle ;
+    dtd:has_Value "2002, 4637, 4641"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:left rdfs:label "left"@de .
+

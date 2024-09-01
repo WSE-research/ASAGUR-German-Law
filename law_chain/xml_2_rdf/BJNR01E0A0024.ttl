@@ -1,0 +1,270 @@
+@prefix dtd: <urn:RentÜAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240205215504"@de ;
+    dtd:has_doknr "BJNR01E0A0024"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56,
+        dtd:P-id57,
+        dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61,
+        dtd:P-id62,
+        dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_Value " (+++ Textnachweis ab: 6.2.2024 +++)"@de ;
+    dtd:has_pre dtd:pre-id66 .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 13 Absatz 2 Nummer 1 und Absatz 3 des Rentenübersichtsgesetzes vom 11. Februar 2021 (BGBl. I S. 154) verordnet die Bundesregierung:"@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Die Verordnung gilt für solche Vorsorgeeinrichtungen, die nach § 7 Absatz 1 Satz 3 des Rentenübersichtsgesetzes verpflichtet sind, sich an die Zentrale Stelle für die Digitale Rentenübersicht anzubinden und gegen die mehr als 1 000 Altersvorsorgeansprüche bestehen, die sich noch nicht in der Auszahlungsphase befinden."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(1) Die Vorsorgeeinrichtungen melden sich bis zum 31. März 2024 unter Angabe der Zahl der Altersvorsorgeansprüche aus Altersvorsorgeprodukten bei der Zentralen Stelle für die Digitale Rentenübersicht an."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(2) Bis zum 30. September 2024 schaffen die Vorsorgeeinrichtungen eine zum Austausch von Daten bereite Schnittstelle (produktive Schnittstelle) zur Zentralen Stelle für die Digitale Rentenübersicht. Die Vorsorgeeinrichtungen sollen der Zentralen Stelle für die Digitale Rentenübersicht anzeigen, wenn ihre Schnittstelle bereits vor dem 30. September 2024 produktiv ist."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(3) Die produktiven Schnittstellen werden zwischen der Zentralen Stelle für die Digitale Rentenübersicht und den Vorsorgeeinrichtungen getestet. Die Zentrale Stelle für die Digitale Rentenübersicht vergibt Termine für die Schnittstellentests mit den Vorsorgeeinrichtungen. Die Terminvergabe soll sich nach der Zahl der Altersvorsorgeansprüche aus Altersvorsorgeprodukten nach § 2 Nummer 1 des Rentenübersichtsgesetzes in absteigender Reihenfolge richten. Die Tests der produktiven Schnittstellen sollen bis zum 31. Dezember 2024 abgeschlossen sein."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(4) Sofern Vorsorgeeinrichtungen nach dem 31. März 2024 die Schwelle von 1 000 Altersvorsorgeansprüchen aus Altersvorsorgeprodukten nach § 1 überschreiten, melden sie sich unverzüglich bei der Zentralen Stelle für die Digitale Rentenübersicht an. Diese Vorsorgeeinrichtungen richten innerhalb von sechs Monaten ab dem Zeitpunkt der Anmeldung eine produktive Schnittstelle ein. Absatz 3 Sätze 1 und 2 gelten entsprechend."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(1) Der Stichtag für die verpflichtende Anbindung der Vorsorgeeinrichtungen an die Zentrale Stelle für die Digitale Rentenübersicht ist der 31. Dezember 2024."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(2) Ab dem Stichtag müssen die Vorsorgeeinrichtungen in der Lage sein, auf Anfrage der Zentralen Stelle für die Digitale Rentenübersicht nach § 4 Absatz 2 Satz 1 des Rentenübersichtsgesetzes Informationen nach § 5 Absatz 1 und 2 des Rentenübersichtsgesetzes an die Zentrale Stelle für die Digitale Rentenübersicht zu übermitteln."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(3) Vorsorgeeinrichtungen, die sich nach § 2 Absatz 4 später anmelden, müssen innerhalb von neun Monaten ab dem Zeitpunkt der Anmeldung zur Übermittlung nach Absatz 2 in der Lage sein."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "RentÜAV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2024-01-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id67 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id68 .
+
+dtd:fussnoten-id40 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id49 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "RentÜAV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "RentÜAV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "RentÜAV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "RentÜAV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "RentÜAV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "RentÜAV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Rentenübersichtsanbindungsverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Regelung des Stichtags zur verpflichtenden Anbindung der Vorsorgeeinrichtungen und des Anbindungsverfahrens an die Zentrale Stelle für die Digitale Rentenübersicht"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240205215504"@de ;
+    dtd:has_doknr "BJNR01E0A0024"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240205215504"@de ;
+    dtd:has_doknr "BJNR01E0A0024BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240205215504"@de ;
+    dtd:has_doknr "BJNR01E0A0024BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240205215504"@de ;
+    dtd:has_doknr "BJNR01E0A0024BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240205215504"@de ;
+    dtd:has_doknr "BJNR01E0A0024BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240205215504"@de ;
+    dtd:has_doknr "BJNR01E0A0024BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id67 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id66 a dtd:pre ;
+    dtd:has_BR dtd:BR-id47,
+        dtd:BR-id48 ;
+    dtd:has_Value "(+++ Textnachweis ab: 6.2.2024 +++)"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Geltungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Anbindungsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Stichtag für die verpflichtende Anbindung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id68 a dtd:zitstelle ;
+    dtd:has_Value "2024, Nr. 30"@de .
+

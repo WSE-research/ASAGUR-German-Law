@@ -1,0 +1,622 @@
+@prefix dtd: <urn:FischVermNV-1993#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180920214505"@de ;
+    dtd:has_doknr "BJNR150710993"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137,
+        dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117,
+        dtd:LA-id118 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DL-id51 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54,
+        dtd:DD-id55 ;
+    dtd:has_DT dtd:DT-id52,
+        dtd:DT-id53 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id61,
+        dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id65 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id66,
+        dtd:DT-id67 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id75 a dtd:DL ;
+    dtd:has_DD dtd:DD-id81,
+        dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85 ;
+    dtd:has_DT dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id86 a dtd:DL ;
+    dtd:has_DD dtd:DD-id89,
+        dtd:DD-id90 ;
+    dtd:has_DT dtd:DT-id87,
+        dtd:DT-id88 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id91 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id92,
+        dtd:DT-id93,
+        dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96,
+        dtd:DT-id97 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "aa)"@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "bb)"@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "aa)"@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "bb)"@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "f)"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Verordnung (EG) Nr. 2406/96 in der jeweils geltenden Fassung,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dieser Verordnung"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_DL dtd:DL-id65 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gegen die Verordnung (EG) Nr. 2406/96 des Rates vom 26. November 1996 über gemeinsame Vermarktungsnormen für bestimmte Fischereierzeugnisse (ABl. EG Nr. L 334 S. 1), geändert durch die Verordnung (EG) Nr. 323/97 der Kommission vom 21. Februar 1997 (ABl. EG Nr. L 52 S. 8), verstößt, indem era)entgegen Artikel 2 Abs. 1, auch in Verbindung mit Artikel 11 Abs. 2, Erzeugnisse vermarktet,aa)deren Los entgegen Artikel 5 Abs. 1 Satz 1 oder Artikel 8 Abs. 2 Satz 1 nicht einheitlich ist oder bb)auf deren Los entgegen Artikel 5 Abs. 2 die Frischeklasse oder entgegen Artikel 8 Abs. 3 die Größenklasse oder die Art der Aufmachung nicht, nicht richtig oder nicht in der vorgeschriebenen Weise angebracht ist,  b)entgegen Artikel 11 Abs. 1, auch in Verbindung mit Artikel 11 Abs. 2, Erzeugnisse vermarktet, die nicht in Verpackungen mit den vorgeschriebenen Angaben angeboten werden, "@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen Artikel 2 Abs. 1, auch in Verbindung mit Artikel 11 Abs. 2, Erzeugnisse vermarktet,aa)deren Los entgegen Artikel 5 Abs. 1 Satz 1 oder Artikel 8 Abs. 2 Satz 1 nicht einheitlich ist oder bb)auf deren Los entgegen Artikel 5 Abs. 2 die Frischeklasse oder entgegen Artikel 8 Abs. 3 die Größenklasse oder die Art der Aufmachung nicht, nicht richtig oder nicht in der vorgeschriebenen Weise angebracht ist, "@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "deren Los entgegen Artikel 5 Abs. 1 Satz 1 oder Artikel 8 Abs. 2 Satz 1 nicht einheitlich ist oder"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf deren Los entgegen Artikel 5 Abs. 2 die Frischeklasse oder entgegen Artikel 8 Abs. 3 die Größenklasse oder die Art der Aufmachung nicht, nicht richtig oder nicht in der vorgeschriebenen Weise angebracht ist,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen Artikel 11 Abs. 1, auch in Verbindung mit Artikel 11 Abs. 2, Erzeugnisse vermarktet, die nicht in Verpackungen mit den vorgeschriebenen Angaben angeboten werden,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_DL dtd:DL-id75 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gegen die Verordnung (EWG) Nr. 2136/89 des Rates über gemeinsame Vermarktungsnormen für Sardinenkonserven vom 21. Juni 1989 (ABl. EG Nr. L 212 S. 79) verstößt, indem er Erzeugnisse als Sardinenkonserven vermarktet,a)die eine Anforderung des Artikels 2 über die verwendete Fischart oder das Behältnis oder seine Behandlung nicht erfüllen, b)bei denen entgegen Artikel 3 die dort genannten Teile von Fischen nicht ordnungsgemäß entfernt sind, c)deren Aufguß entgegen Artikel 5 Satz 2 zweiter Halbsatz aus einer Mischung von Olivenöl und einem anderen Öl besteht, d)die entgegen Artikel 6 Abs. 1 Buchstabe d einen Fremdkörper enthalten oder e)deren Verkehrsbezeichnung nicht den Anforderungen des Artikels 7 Buchstabe aaa)Satz 1 über das Verhältnis zwischen dem Sardinengewicht und dem Nettogewicht oder bb)Satz 2 über die Aufmachungsform entspricht, oder  "@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die eine Anforderung des Artikels 2 über die verwendete Fischart oder das Behältnis oder seine Behandlung nicht erfüllen,"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei denen entgegen Artikel 3 die dort genannten Teile von Fischen nicht ordnungsgemäß entfernt sind,"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "deren Aufguß entgegen Artikel 5 Satz 2 zweiter Halbsatz aus einer Mischung von Olivenöl und einem anderen Öl besteht,"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die entgegen Artikel 6 Abs. 1 Buchstabe d einen Fremdkörper enthalten oder"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_DL dtd:DL-id86 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "deren Verkehrsbezeichnung nicht den Anforderungen des Artikels 7 Buchstabe aaa)Satz 1 über das Verhältnis zwischen dem Sardinengewicht und dem Nettogewicht oder bb)Satz 2 über die Aufmachungsform "@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entspricht, oder"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Satz 1 über das Verhältnis zwischen dem Sardinengewicht und dem Nettogewicht oder"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Satz 2 über die Aufmachungsform"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_DL dtd:DL-id91 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gegen die Verordnung (EWG) Nr. 1536/92 über gemeinsame Vermarktungsnormen für Thunfisch- und Bonitokonserven vom 9. Juni 1992 (ABl. EG Nr. L 163 S. 1) verstößt, indem er Erzeugnisse als Thunfisch- oder Bonitokonserven vermarktet,a)die eine Anforderung des Artikels 2 Abs. 1 über die verwendete Fischart nicht erfüllen, b)die entgegen Artikel 2 Abs. 2 Satz 1 eine Mischung verschiedener Fischarten enthalten, c)deren Verkehrsbezeichnung entgegen Artikel 5 Abs. 1 nicht die erforderlichen Angaben enthält, d)in deren Verkehrsbezeichnung entgegen Artikel 5 Abs. 2 die Worte \"Thunfisch\" und \"Bonito\" zusammen erscheinen, e)die entgegen Artikel 5 Abs. 4 die Bezeichnung \"im eigenen Saft\" tragen oder f)bei denen das Verhältnis zwischen dem Fischgewicht und dem Nettogewicht nicht Artikel 6 entspricht.  "@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die eine Anforderung des Artikels 2 Abs. 1 über die verwendete Fischart nicht erfüllen,"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die entgegen Artikel 2 Abs. 2 Satz 1 eine Mischung verschiedener Fischarten enthalten,"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "deren Verkehrsbezeichnung entgegen Artikel 5 Abs. 1 nicht die erforderlichen Angaben enthält,"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in deren Verkehrsbezeichnung entgegen Artikel 5 Abs. 2 die Worte \"Thunfisch\" und \"Bonito\" zusammen erscheinen,"@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die entgegen Artikel 5 Abs. 4 die Bezeichnung \"im eigenen Saft\" tragen oder"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei denen das Verhältnis zwischen dem Fischgewicht und dem Nettogewicht nicht Artikel 6 entspricht."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.8.1993 +++)Die V wurde vom Bundesministerium für Ernährung, Landwirtschaft und Forsten mit Zustimmung des Bundesrates sowie im Einvernehmen mit den Bundesministerien für Gesundheit und Wirtschaft erlassen. Sie tritt gem. Art. 3 Satz 1 V v. 17.8.1993 I 1507 (FVNVWVÄndV) am 27.8.1993 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id141 .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "Die Vorschriften dieser Verordnung gelten für die Durchführung der Verordnungen des Rates und der Kommission der Europäischen Gemeinschaften über Vermarktungsnormen, die im Rahmen der Gemeinsamen Marktorganisation für Fischereierzeugnisse und Erzeugnisse der Aquakultur erlassen worden sind."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "Börsen, Verwaltungen, öffentliche Märkte und sonstige Stellen, die über das erste Anbieten und den ersten Verkauf von Fischereierzeugnissen nach dem Eintreffen in der Europäischen Gemeinschaft amtliche oder für gesetzliche Zwecke bestimmte Preisnotierungen oder Preisfeststellungen vornehmen, haben ihren Notierungen oder Feststellungen die Frische- und Größenklassen zugrunde zu legen, die in der Verordnung (EG) Nr. 2406/96 des Rates vom 26. November 1996 über gemeinsame Vermarktungsnormen für bestimmte Fischereierzeugnisse (ABl. EG Nr. L 334 S. 1) in der jeweils geltenden Fassung festgelegt sind."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_DL dtd:DL-id51 ;
+    dtd:has_Value "Die Bundesanstalt für Landwirtschaft und Ernährung ist außerhalb der verbindlichen Anlandeorte nach Anlage 3 der Seefischereiverordnung zuständig für die Überwachung der Einhaltung der Vorschriften 1.der Verordnung (EG) Nr. 2406/96 in der jeweils geltenden Fassung, 2.dieser Verordnung bei der Einfuhr von Fischereierzeugnissen aus dritten Ländern in das Inland, solange die Fischereierzeugnisse Nichtgemeinschaftswaren sind."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer 1.gegen die Verordnung (EG) Nr. 2406/96 des Rates vom 26. November 1996 über gemeinsame Vermarktungsnormen für bestimmte Fischereierzeugnisse (ABl. EG Nr. L 334 S. 1), geändert durch die Verordnung (EG) Nr. 323/97 der Kommission vom 21. Februar 1997 (ABl. EG Nr. L 52 S. 8), verstößt, indem era)entgegen Artikel 2 Abs. 1, auch in Verbindung mit Artikel 11 Abs. 2, Erzeugnisse vermarktet,aa)deren Los entgegen Artikel 5 Abs. 1 Satz 1 oder Artikel 8 Abs. 2 Satz 1 nicht einheitlich ist oder bb)auf deren Los entgegen Artikel 5 Abs. 2 die Frischeklasse oder entgegen Artikel 8 Abs. 3 die Größenklasse oder die Art der Aufmachung nicht, nicht richtig oder nicht in der vorgeschriebenen Weise angebracht ist,  b)entgegen Artikel 11 Abs. 1, auch in Verbindung mit Artikel 11 Abs. 2, Erzeugnisse vermarktet, die nicht in Verpackungen mit den vorgeschriebenen Angaben angeboten werden,  2.(weggefallen) 3.gegen die Verordnung (EWG) Nr. 2136/89 des Rates über gemeinsame Vermarktungsnormen für Sardinenkonserven vom 21. Juni 1989 (ABl. EG Nr. L 212 S. 79) verstößt, indem er Erzeugnisse als Sardinenkonserven vermarktet,a)die eine Anforderung des Artikels 2 über die verwendete Fischart oder das Behältnis oder seine Behandlung nicht erfüllen, b)bei denen entgegen Artikel 3 die dort genannten Teile von Fischen nicht ordnungsgemäß entfernt sind, c)deren Aufguß entgegen Artikel 5 Satz 2 zweiter Halbsatz aus einer Mischung von Olivenöl und einem anderen Öl besteht, d)die entgegen Artikel 6 Abs. 1 Buchstabe d einen Fremdkörper enthalten oder e)deren Verkehrsbezeichnung nicht den Anforderungen des Artikels 7 Buchstabe aaa)Satz 1 über das Verhältnis zwischen dem Sardinengewicht und dem Nettogewicht oder bb)Satz 2 über die Aufmachungsform entspricht, oder   4.gegen die Verordnung (EWG) Nr. 1536/92 über gemeinsame Vermarktungsnormen für Thunfisch- und Bonitokonserven vom 9. Juni 1992 (ABl. EG Nr. L 163 S. 1) verstößt, indem er Erzeugnisse als Thunfisch- oder Bonitokonserven vermarktet,a)die eine Anforderung des Artikels 2 Abs. 1 über die verwendete Fischart nicht erfüllen, b)die entgegen Artikel 2 Abs. 2 Satz 1 eine Mischung verschiedener Fischarten enthalten, c)deren Verkehrsbezeichnung entgegen Artikel 5 Abs. 1 nicht die erforderlichen Angaben enthält, d)in deren Verkehrsbezeichnung entgegen Artikel 5 Abs. 2 die Worte \"Thunfisch\" und \"Bonito\" zusammen erscheinen, e)die entgegen Artikel 5 Abs. 4 die Bezeichnung \"im eigenen Saft\" tragen oder f)bei denen das Verhältnis zwischen dem Fischgewicht und dem Nettogewicht nicht Artikel 6 entspricht.   "@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(2) Die Ordnungswidrigkeit kann nach § 1 Abs. 3 Satz 1 Nr. 2 des Handelsklassengesetzes mit einer Geldbuße bis zu zehntausend Euro geahndet werden."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "Die Zuständigkeit für die Verfolgung und Ahndung von Ordnungswidrigkeiten nach § 7 Abs. 1 Nr. 3 des Handelsklassengesetzes und nach § 4 Abs. 1 Nr. 1 dieser Verordnung wird auf die Bundesanstalt für Landwirtschaft und Ernährung übertragen, soweit sie nach § 3 für die Überwachung zuständig ist."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1993-08-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id142 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id143 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id128 .
+
+dtd:fussnoten-id46 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "FischVermNV 1993"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "FischVermNV 1993"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "FischVermNV 1993"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "FischVermNV 1993"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "FischVermNV 1993"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "FischVermNV 1993"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Verordnung über Vermarktungsnormen für Fischereierzeugnisse"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24,
+        dtd:standangabe-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180920214505"@de ;
+    dtd:has_doknr "BJNR150710993"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180920214505"@de ;
+    dtd:has_doknr "BJNR150710993BJNE000101308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20180920214505"@de ;
+    dtd:has_doknr "BJNR150710993BJNE000202308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20180920214505"@de ;
+    dtd:has_doknr "BJNR150710993BJNE000303308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20180920214505"@de ;
+    dtd:has_doknr "BJNR150710993BJNE000403377"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20180920214505"@de ;
+    dtd:has_doknr "BJNR150710993BJNE000502308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id142 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id141 a dtd:pre ;
+    dtd:has_BR dtd:BR-id49,
+        dtd:BR-id50 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.8.1993 +++)"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id145 ;
+    dtd:has_standtyp dtd:standtyp-id144 .
+
+dtd:standangabe-id25 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id147 ;
+    dtd:has_standtyp dtd:standtyp-id146 .
+
+dtd:standkommentar-id145 a dtd:standkommentar ;
+    dtd:has_Value "Neugefasst durch Bek. v. 22.12.1997 I 3368;"@de .
+
+dtd:standkommentar-id147 a dtd:standkommentar ;
+    dtd:has_Value "zuletzt geändert durch Art. 35 G v. 25.6.2001 I 1215"@de .
+
+dtd:standtyp-id144 a dtd:standtyp ;
+    dtd:has_Value "Neuf"@de .
+
+dtd:standtyp-id146 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Marktnotierungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Überwachung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Ordnungswidrigkeiten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value """Verwaltungsbehörde im Sinne des § 36 des Gesetzes über
+Ordnungswidrigkeiten"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id143 a dtd:zitstelle ;
+    dtd:has_Value "1993, 1507"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

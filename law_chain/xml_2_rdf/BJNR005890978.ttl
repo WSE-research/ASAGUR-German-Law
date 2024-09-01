@@ -1,0 +1,371 @@
+@prefix dtd: <urn:SiMedErl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160617215503"@de ;
+    dtd:has_doknr "BJNR005890978"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id91 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1978, 589)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:B-id61 a dtd:B ;
+    dtd:has_Value "Silbermedaille für den Behindertensport."@de .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id69 .
+
+dtd:DL-id66 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68 ;
+    dtd:has_DT dtd:DT-id67 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:IMG-id70 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1978_j0589_0010.jpg"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_B dtd:B-id61 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Silbermedaille für den Behindertensport."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 29. 4.1979 +++)"@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_DL dtd:DL-id66 ;
+    dtd:has_Value "In dem Wunsche, den Behindertensport als ein wichtiges Mittel zur Rehabilitation behinderter Menschen hervorzuheben, stifte ich auf Grund des § 3 Abs. 1 des Gesetzes über Titel, Orden und Ehrenzeichen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 1132-1, veröffentlichten bereinigten Fassung, zuletzt geändert durch Artikel 33 des Gesetzes vom 2. März 1974 (BGBl. I S. 469), die Silbermedaille für den Behindertensport. "@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "Die Silbermedaille für den Behindertensport ist ein Ehrenzeichen. Sie wird an Behinderte verliehen, die durch besondere sportliche Leistungen in hervorragender Weise die Fähigkeit bewiesen haben, ihre Behinderung zu meistern und dadurch anderen ein Beispiel zu geben."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "Das Ehrenzeichen ist eine Medaille aus Silber, die auf der Vorderseite den Bundesadler und auf der Rückseite die Aufschrift \"Der Bundespräsident\" sowie das Verleihungsdatum trägt. Die Medaille ist von einem silbernen Lorbeerkranz umgeben. Das Ehrenzeichen wird an einem Band mit den olympischen Farben getragen. Eine Abbildung des im Bundesministerium des Innern verwahrten amtlichen Musters wird als Anlage veröffentlicht."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Der Ausgezeichnete erhält eine Verleihungsurkunde. Das Ehrenzeichen geht in das Eigentum des Ausgezeichneten über."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Vorschläge zur Verleihung des Ehrenzeichens können die Sportverbände dem Chef des Bundespräsidialamtes oder dem Bundesminister des Innern unterbreiten."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "Die Ausführungsbestimmungen erläßt der Bundesminister des Innern."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_BR dtd:BR-id59,
+        dtd:BR-id60 ;
+    dtd:has_SP dtd:SP-id62,
+        dtd:SP-id63,
+        dtd:SP-id64 ;
+    dtd:has_Value "Der Bundespräsident Der Bundeskanzler Der Bundesminister des Innern"@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id70 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1978, 589)"@de ;
+    dtd:has_noindex dtd:noindex-id65 .
+
+dtd:SP-id62 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id63 a dtd:SP ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:SP-id64 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1978-04-13"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Art I"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Art II"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Art III"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "Art IV"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "Art V"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id92 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id93 .
+
+dtd:fussnoten-id50 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id73 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "SiMedErl"@de .
+
+dtd:langue-id32 a dtd:langue ;
+    dtd:has_Value "Erlaß über die Stiftung der Silbermedaille für den Behindertensport"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_langue dtd:langue-id32 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:noindex-id65 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20160617215504"@de ;
+    dtd:has_doknr "BJNR005890978BJNE000800315"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160617215503"@de ;
+    dtd:has_doknr "BJNR005890978"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160617215503"@de ;
+    dtd:has_doknr "BJNR005890978BJNE000100315"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160617215503"@de ;
+    dtd:has_doknr "BJNR005890978BJNE000200315"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160617215504"@de ;
+    dtd:has_doknr "BJNR005890978BJNE000300315"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20160617215504"@de ;
+    dtd:has_doknr "BJNR005890978BJNE000400315"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20160617215504"@de ;
+    dtd:has_doknr "BJNR005890978BJNE000500315"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20160617215504"@de ;
+    dtd:has_doknr "BJNR005890978BJNE000600315"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20160617215504"@de ;
+    dtd:has_doknr "BJNR005890978BJNE000700315"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id92 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:zitstelle-id93 a dtd:zitstelle ;
+    dtd:has_Value "1978, 589"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

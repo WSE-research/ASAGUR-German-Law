@@ -1,0 +1,190 @@
+@prefix dtd: <urn:Münz10EuroBek-2002#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:ABWFORMAT-id45 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405133035"@de ;
+    dtd:has_doknr "BJNR427000001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:kommentar-id44 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id25 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung der Münze; Fundstelle: BGBl. I 2001, 4270)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:ABWFORMAT-id35 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41,
+        dtd:P-id42 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id33 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id34 .
+
+dtd:DL-id27 a dtd:DL ;
+    dtd:has_DD dtd:DD-id29 ;
+    dtd:has_DT dtd:DT-id28 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id30 a dtd:DL ;
+    dtd:has_DD dtd:DD-id32 ;
+    dtd:has_DT dtd:DT-id31 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id31 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id33 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND\"."@de .
+
+dtd:LA-id34 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id35 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"HISTORISCH UND ZUKUNFTSWEISEND***********\""@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_Value " (+++ Textnachweis ab: 31.12.2001 +++)"@de ;
+    dtd:has_pre dtd:pre-id43 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id20,
+        dtd:BR-id21,
+        dtd:BR-id22,
+        dtd:BR-id23 ;
+    dtd:has_DL dtd:DL-id27,
+        dtd:DL-id30 ;
+    dtd:has_Value "Gemäß den §§ 2, 4 und 5 des am 1. Januar 2002 in Kraft tretenden Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung beschlossen, zum Thema \"100 Jahre U-Bahn in Deutschland\" eine deutsche Euro-Gedenkmünze im Nennwert von 10 Euro prägen zu lassen.Die Auflage der Münze beträgt 2,4 Millionen Stück, darunter 0,4 Millionen Stück in Spiegelglanzausführung. Die Prägung erfolgt durch das Bayerische Hauptmünzamt in München.Die Münze wird ab dem 14. Februar 2002 in den Verkehr gebracht. Sie besteht aus einer Legierung von 925 Tausendteilen Silber und 75 Tausendteilen Kupfer, hat einen Durchmesser von 32,5 Millimetern und eine Masse (Gewicht) von 18 Gramm. Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden, glatten Randstab umgeben.Die Bildseite zeigt an exponierter Stelle das U-Bahn-Signal; erkennbar ist die Oberbaumbrücke in Berlin; Hochbahnelemente teilen die Komposition horizontal und diagonal. Der untere Teil zeigt die historische Darstellung eines U-Bahn-Waggons und einen modernen Treibzug, abgerundet durch ein Dekorationselement einer U-Bahn-Station.Die Wertseite trägt einen Adler, der im unteren Halbkreis von zwölf Sternen umrahmt ist, den Nennwert \"10 EURO\", die Jahreszahl 2002, das Münzzeichen \"D\" des Bayerischen Hauptmünzamtes und die Umschrift:\"BUNDESREPUBLIK DEUTSCHLAND\".Der glatte Münzrand enthält in vertiefter Prägung die Inschrift:\"HISTORISCH UND ZUKUNFTSWEISEND***********\""@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value "Der Entwurf der Münze stammt von Bodo Broschat, Berlin.(Inhalt: nicht darstellbare Abbildung der Münze; Fundstelle: BGBl. I 2001, 4270)"@de ;
+    dtd:has_noindex dtd:noindex-id26 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-12-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id46 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id47 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2002"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2002"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen
+im Nennwert von 10 Euro (Gedenkmünze "100 Jahre U-Bahn in Deutschland")"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:noindex-id26 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405133035"@de ;
+    dtd:has_doknr "BJNR427000001"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405133035"@de ;
+    dtd:has_doknr "BJNR427000001BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id46 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id43 a dtd:pre ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_Value "(+++ Textnachweis ab: 31.12.2001 +++)"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id47 a dtd:zitstelle ;
+    dtd:has_Value "2001, 4270"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

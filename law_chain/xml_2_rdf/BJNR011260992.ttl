@@ -1,0 +1,354 @@
+@prefix dtd: <urn:AsylVfGNG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82,
+        dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id67,
+        dtd:LA-id68 .
+
+dtd:DL-id64 a dtd:DL ;
+    dtd:has_DD dtd:DD-id66 ;
+    dtd:has_DT dtd:DT-id65 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "B."@de .
+
+dtd:LA-id67 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Übergangsvorschrift zu A.:"@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bei Ausländern, die in der Zeit vom 1. Juli 1992 bis zum 31. März 1993 einen Asylantrag gestellt haben, richtet sich die Verteilung auf die Länder nach A. Nummer 14."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_BR dtd:BR-id63 ;
+    dtd:has_Value "Art. 1: AsylVfG 1992 26-7 (+++ Textnachweis ab:  1. 7.1992 +++)"@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit der Mehrheit seiner Mitglieder und mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "Soweit in Gesetzen und Verordnungen auf Vorschriften verwiesen wird, die durch dieses Gesetz außer Kraft treten oder aufgehoben werden, treten an ihre Stelle die entsprechenden Vorschriften dieses Gesetzes."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "A."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_DL dtd:DL-id64 ;
+    dtd:has_Value "B.Übergangsvorschrift zu A.:Bei Ausländern, die in der Zeit vom 1. Juli 1992 bis zum 31. März 1993 einen Asylantrag gestellt haben, richtet sich die Verteilung auf die Länder nach A. Nummer 14. "@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am 1. Juli 1992 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1992-06-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 2 und Art 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "Art 7"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id88 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id89 .
+
+dtd:fussnoten-id50 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id71 .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "AsylVfGNG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "AsylVfGNG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "AsylVfGNG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "AsylVfGNG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "AsylVfGNG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "AsylVfGNG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "AsylVfGNG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "AsylVfGNG"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Neuregelung des Asylverfahrens"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992BJNE000300333"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992BJNE000400333"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992BJNE000500333"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992BJNE000100333"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992BJNE000200333"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992BJNE000600333"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405125459"@de ;
+    dtd:has_doknr "BJNR011260992BJNE000700333"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id88 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id86 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Asylverfahrensgesetz (AsylVfG)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Verweisung auf aufgehobene Vorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Übergangsregelungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id89 a dtd:zitstelle ;
+    dtd:has_Value "1992, 1126"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

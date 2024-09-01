@@ -1,0 +1,714 @@
+@prefix dtd: <urn:ChemikAusbErprobV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131825"@de ;
+    dtd:has_doknr "BJNR183400002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146,
+        dtd:P-id147,
+        dtd:P-id148,
+        dtd:P-id149,
+        dtd:P-id150,
+        dtd:P-id151,
+        dtd:P-id152,
+        dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139,
+        dtd:LA-id140 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DL-id100 a dtd:DL ;
+    dtd:has_DD dtd:DD-id105,
+        dtd:DD-id106,
+        dtd:DD-id107,
+        dtd:DD-id108 ;
+    dtd:has_DT dtd:DT-id101,
+        dtd:DT-id102,
+        dtd:DT-id103,
+        dtd:DT-id104 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id109 a dtd:DL ;
+    dtd:has_DD dtd:DD-id113,
+        dtd:DD-id114,
+        dtd:DD-id115 ;
+    dtd:has_DT dtd:DT-id110,
+        dtd:DT-id111,
+        dtd:DT-id112 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id116 a dtd:DL ;
+    dtd:has_DD dtd:DD-id119,
+        dtd:DD-id120 ;
+    dtd:has_DT dtd:DT-id117,
+        dtd:DT-id118 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id121 a dtd:DL ;
+    dtd:has_DD dtd:DD-id124,
+        dtd:DD-id125 ;
+    dtd:has_DT dtd:DT-id122,
+        dtd:DT-id123 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id97,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id122 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id123 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Produktionstechnik mit mindestens zwei verfahrenstechnischen Grundoperationen,"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Prozessleittechnik mit mindestens einer Mess- sowie einer Regelungs- oder Steuerungsaufgabe und"@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Anlagentechnik mit mindestens einer Montageaufgabe sowie einer Inspektions- oder Wartungsarbeit."@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_DL dtd:DL-id109 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Prüfungsbereich Verfahrens- und Produktionstechnik: a)thermische und mechanische Verfahrenstechnik,b)Produktionsverfahren,c)Optimieren von Produktionsabläufen;"@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "thermische und mechanische Verfahrenstechnik,"@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Produktionsverfahren,"@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Optimieren von Produktionsabläufen;"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_DL dtd:DL-id116 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Prüfungsbereich Prozessleittechnik: a)installationstechnische Arbeiten,b)Steuern, Regeln;"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "installationstechnische Arbeiten,"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Steuern, Regeln;"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_DL dtd:DL-id121 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Prüfungsbereich Anlagentechnik: a)installationstechnische Arbeiten,b)Instandhaltung von Produktionseinrichtungen;"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "installationstechnische Arbeiten,"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Instandhaltung von Produktionseinrichtungen;"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Prüfungsbereich Wirtschafts- und Sozialkunde:"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "allgemeine wirtschaftliche und gesellschaftliche Zusammenhänge der Arbeits- und Berufswelt."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_BR dtd:BR-id34 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.8.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id156 .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 28 Abs. 3 des Berufsbildungsgesetzes vom 14. August 1969 (BGBl. I S. 1112), der zuletzt durch Artikel 212 Nr. 2 der Verordnung vom 29. Oktober 2001 (BGBl. I S. 2785) geändert worden ist, verordnet das Bundesministerium für Wirtschaft und Technologie im Einvernehmen mit dem Bundesministerium für Bildung und Forschung:"@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(1) Teil 2 der Abschlussprüfung erstreckt sich auf die in der Anlage zur Verordnung über die Berufsausbildung zum Chemikanten/zur Chemikantin vom 27. Februar 2001 (BGBl. I S. 350) aufgeführten Fertigkeiten und Kenntnisse sowie auf den im Berufsschulunterricht vermittelten Lehrstoff, soweit er für die Berufsausbildung wesentlich ist. Fertigkeiten und Kenntnisse, die bereits Gegenstand von Teil 1 der Abschlussprüfung gewesen sind, sollen nur einbezogen werden, soweit es für die gemäß § 38 des Berufsbildungsgesetzes zu treffende Feststellung der Berufsbefähigung erforderlich ist."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(2) Der Prüfling soll im praktischen Teil von Teil 2 der Abschlussprüfung in höchstens zehn Stunden eine praktische Aufgabe durchführen. Hierfür kommt insbesondere in Betracht:"@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Value "Durchführen eines Produktions- oder Verarbeitungsprozesses unter Berücksichtigung 1.der Produktionstechnik mit mindestens zwei verfahrenstechnischen Grundoperationen,2.der Prozessleittechnik mit mindestens einer Mess- sowie einer Regelungs- oder Steuerungsaufgabe und3.der Anlagentechnik mit mindestens einer Montageaufgabe sowie einer Inspektions- oder Wartungsarbeit.Bei der praktischen Aufgabe sind gemäß § 3 Abs. 1 Nr. 2 der Verordnung über die Berufsausbildung zum Chemikanten/zur Chemikantin vom 27. Februar 2001 (BGBl. I S. 350) gewählte Wahlqualifikationseinheiten zu berücksichtigen. Der Prüfling soll bei der praktischen Aufgabe zeigen, dass er die Arbeitsabläufe selbständig und wirtschaftlich planen, Arbeitszusammenhänge erkennen, Arbeitsergebnisse kontrollieren und dokumentieren, Maßnahmen zur Sicherheit und zum Gesundheitsschutz bei der Arbeit, zum Umweltschutz und qualitätssichernde Maßnahmen ergreifen sowie die relevanten fachlichen Hintergründe seiner Arbeit aufzeigen und seine Vorgehensweise begründen kann. Bei der Bewertung der praktischen Aufgabe sind die Produktionstechnik mit 60 Prozent, die Prozessleittechnik und die Anlagentechnik mit jeweils 20 Prozent zu gewichten."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_DL dtd:DL-id100 ;
+    dtd:has_Value "(3) Der Prüfling soll im schriftlichen Teil von Teil 2 der Abschlussprüfung in den Prüfungsbereichen Verfahrens- und Produktionstechnik, Prozessleittechnik, Anlagentechnik sowie Wirtschafts- und Sozialkunde geprüft werden. In den Prüfungsbereichen Verfahrens- und Produktionstechnik, Prozessleittechnik sowie Anlagentechnik soll der Prüfling zeigen, dass er insbesondere durch Verknüpfung von arbeitsorganisatorischen, technologischen und mathematischen Sachverhalten sowie damit zusammenhängenden informationstechnischen Fragestellungen praxisbezogene Fälle lösen kann. Dabei sollen Maßnahmen zur Sicherheit und zum Gesundheitsschutz bei der Arbeit, zum Umweltschutz sowie qualitätssichernde Maßnahmen einbezogen werden. Es kommen Aufgaben insbesondere aus folgenden Gebieten in Betracht: 1.im Prüfungsbereich Verfahrens- und Produktionstechnik: a)thermische und mechanische Verfahrenstechnik,b)Produktionsverfahren,c)Optimieren von Produktionsabläufen;2.im Prüfungsbereich Prozessleittechnik: a)installationstechnische Arbeiten,b)Steuern, Regeln;3.im Prüfungsbereich Anlagentechnik: a)installationstechnische Arbeiten,b)Instandhaltung von Produktionseinrichtungen;4.im Prüfungsbereich Wirtschafts- und Sozialkunde:allgemeine wirtschaftliche und gesellschaftliche Zusammenhänge der Arbeits- und Berufswelt."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_BR dtd:BR-id37,
+        dtd:BR-id38 ;
+    dtd:has_Value "(4) Der schriftliche Teil von Teil 2 der Abschlussprüfung dauert höchstens: 1.im PrüfungsbereichVerfahrens- und Produktionstechnik120 Minuten,2.im PrüfungsbereichProzessleittechnik60 Minuten,3.im PrüfungsbereichAnlagentechnik60 Minuten,4.im PrüfungsbereichWirtschafts- und Sozialkunde30 Minuten."@de ;
+    dtd:has_table dtd:table-id49 .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(5) Der schriftliche Teil von Teil 2 der Abschlussprüfung ist auf Antrag des Prüflings oder nach Ermessen des Prüfungsausschusses in einzelnen Bereichen durch eine mündliche Prüfung zu ergänzen, wenn diese für das Bestehen der Abschlussprüfung insgesamt den Ausschlag geben kann. Bei der Ermittlung des Ergebnisses für die mündlich geprüften Prüfungsbereiche sind das bisherige Ergebnis und das Ergebnis der mündlichen Ergänzungsprüfung im Verhältnis 2:1 zu gewichten."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_BR dtd:BR-id43,
+        dtd:BR-id44 ;
+    dtd:has_Value "(6) Innerhalb des schriftlichen Teils von Teil 2 der Abschlussprüfung sind die Prüfungsbereiche wie folgt zu gewichten: 1.PrüfungsbereichVerfahrens- und Produktionstechnik40 Prozent,2.PrüfungsbereichProzessleittechnik20 Prozent,3.PrüfungsbereichAnlagentechnik20 Prozent,4.PrüfungsbereichWirtschafts- und Sozialkunde20 Prozent."@de ;
+    dtd:has_table dtd:table-id51 .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(7) Der praktische und der schriftliche Teil von Teil 2 der Abschlussprüfung haben dasselbe Gewicht."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "Auf Berufsausbildungsverhältnisse, die bis zum 31. Juli 2009 begonnen werden, sind die Vorschriften dieser Verordnung weiter anzuwenden."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-06-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id53 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20"@de .
+
+dtd:colspec-id54 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "300"@de .
+
+dtd:colspec-id55 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "100"@de .
+
+dtd:colspec-id57 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20"@de .
+
+dtd:colspec-id58 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "300"@de .
+
+dtd:colspec-id59 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "100"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1."@de .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "im PrüfungsbereichVerfahrens- und Produktionstechnik"@de .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "120 Minuten,"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2."@de .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "im PrüfungsbereichProzessleittechnik"@de .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "60 Minuten,"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3."@de .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "im PrüfungsbereichAnlagentechnik"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "60 Minuten,"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4."@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_BR dtd:BR-id42 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "im PrüfungsbereichWirtschafts- und Sozialkunde"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "30 Minuten."@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1."@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_BR dtd:BR-id45 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "PrüfungsbereichVerfahrens- und Produktionstechnik"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "40 Prozent,"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2."@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "PrüfungsbereichProzessleittechnik"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "20 Prozent,"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3."@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_BR dtd:BR-id47 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "PrüfungsbereichAnlagentechnik"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "20 Prozent,"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4."@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "PrüfungsbereichWirtschafts- und Sozialkunde"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "20 Prozent."@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id157 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id158 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id141 .
+
+dtd:fussnoten-id31 a dtd:fussnoten .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "ChemikAusbErprobV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "ChemikAusbErprobV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "ChemikAusbErprobV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "ChemikAusbErprobV"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Erprobung einer neuen Ausbildungsform für die Berufsausbildung zum Chemikanten/zur Chemikantin"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18,
+        dtd:standangabe-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131825"@de ;
+    dtd:has_doknr "BJNR183400002"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131825"@de ;
+    dtd:has_doknr "BJNR183400002BJNE000000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405131825"@de ;
+    dtd:has_doknr "BJNR183400002BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405131825"@de ;
+    dtd:has_doknr "BJNR183400002BJNE000502308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id157 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id156 a dtd:pre ;
+    dtd:has_BR dtd:BR-id35,
+        dtd:BR-id36 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.8.2002 +++)"@de .
+
+dtd:row-id61 a dtd:row ;
+    dtd:has_entry dtd:entry-id69,
+        dtd:entry-id70,
+        dtd:entry-id71 .
+
+dtd:row-id62 a dtd:row ;
+    dtd:has_entry dtd:entry-id72,
+        dtd:entry-id73,
+        dtd:entry-id74 .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id75,
+        dtd:entry-id76,
+        dtd:entry-id77 .
+
+dtd:row-id64 a dtd:row ;
+    dtd:has_entry dtd:entry-id78,
+        dtd:entry-id79,
+        dtd:entry-id80 .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id81,
+        dtd:entry-id82,
+        dtd:entry-id83 .
+
+dtd:row-id66 a dtd:row ;
+    dtd:has_entry dtd:entry-id84,
+        dtd:entry-id85,
+        dtd:entry-id86 .
+
+dtd:row-id67 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88,
+        dtd:entry-id89 .
+
+dtd:row-id68 a dtd:row ;
+    dtd:has_entry dtd:entry-id90,
+        dtd:entry-id91,
+        dtd:entry-id92 .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id160 ;
+    dtd:has_standtyp dtd:standtyp-id159 .
+
+dtd:standangabe-id19 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id162 ;
+    dtd:has_standtyp dtd:standtyp-id161 .
+
+dtd:standkommentar-id160 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 7 V v. 17.7.2007 I 1402"@de .
+
+dtd:standkommentar-id162 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 6 idF d. Art. 7 Nr. 4 V v. 17.7.2007 I 1402 mit Ausnahme des § 5 am 31.7.2009 außer Kraft."@de .
+
+dtd:standtyp-id159 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id161 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:table-id49 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id50 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id51 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id52 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id56 a dtd:tbody ;
+    dtd:has_row dtd:row-id61,
+        dtd:row-id62,
+        dtd:row-id63,
+        dtd:row-id64 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id60 a dtd:tbody ;
+    dtd:has_row dtd:row-id65,
+        dtd:row-id66,
+        dtd:row-id67,
+        dtd:row-id68 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:tgroup-id50 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id53,
+        dtd:colspec-id54,
+        dtd:colspec-id55 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id56 .
+
+dtd:tgroup-id52 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id57,
+        dtd:colspec-id58,
+        dtd:colspec-id59 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id60 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Teil 2 der Abschlussprüfung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id158 a dtd:zitstelle ;
+    dtd:has_Value "2002, 1834"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

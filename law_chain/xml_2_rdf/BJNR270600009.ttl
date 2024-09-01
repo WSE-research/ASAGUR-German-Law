@@ -1,0 +1,533 @@
+@prefix dtd: <urn:IT-NetzG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:BR-id73 a dtd:BR .
+
+dtd:BR-id74 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102 .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104,
+        dtd:P-id105,
+        dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108,
+        dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123,
+        dtd:P-id124,
+        dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DL-id75 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79 ;
+    dtd:has_DT dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89,
+        dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84,
+        dtd:DT-id85,
+        dtd:DT-id86 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Value "das Verfahren bei Eilentscheidungen."@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Value "die oder der Beauftragte der Bundesregierung für Informationstechnik als Vertreter des Bundes,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Value "die zuständigen Vertreterinnen oder Vertreter der Länder."@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Value "die vom Verbindungsnetz zu erfüllenden Anforderungen,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Value "die anzubietenden Anschlussklassen,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Value "das Minimum anzubietender Dienste,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Value "die Anschlussbedingungen,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Value "die Höhe der Anschlusskosten sowie das Verfahren zu ihrer Ermittlung,"@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_BR dtd:BR-id70 ;
+    dtd:has_Value " (+++ Textnachweis ab: 18.8.2009 +++) Das G wurde als Art. 4 des G v. 10.8.2009 I 2702 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 13 Abs. 1 dieses G mWv 18.8.2009 in Kraft getreten. § 3 tritt gem. Art. 13 Abs. 3 am 1.1.2015 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id128 .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "(1) Der Bund errichtet zur Verbindung der informationstechnischen Netze des Bundes und der Länder ein Verbindungsnetz. Bund und Länder wirken hierfür nach Maßgabe dieses Gesetzes zusammen; insbesondere treffen sie die notwendigen gemeinsamen Festlegungen für das Verbindungsnetz."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_DL dtd:DL-id75 ;
+    dtd:has_Value "(2) Die Zusammenarbeit erfolgt im Koordinierungsgremium für das Verbindungsnetz (Koordinierungsgremium). Dem Koordinierungsgremium gehören als stimmberechtigte Mitglieder an: 1.die oder der Beauftragte der Bundesregierung für Informationstechnik als Vertreter des Bundes,2.die zuständigen Vertreterinnen oder Vertreter der Länder."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(3) Besteht aufgrund einer für den Bund und alle Länder wirksamen Vereinbarung nach Artikel 91c Absatz 2 des Grundgesetzes über die Zusammenarbeit ein Gremium, das entsprechend den Vorgaben des Absatzes 2 Satz 2 besetzt ist (IT-Planungsrat), übernimmt dieses Gremium auch die Aufgaben des Koordinierungsgremiums nach Maßgabe dieses Gesetzes. Die in der Vereinbarung getroffenen Regelungen finden in diesem Fall ergänzend Anwendung, soweit sie diesem Gesetz nicht widersprechen."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(1) Informationstechnische Netze im Sinne dieses Gesetzes sind die Gesamtheit von Übertragungssystemen und gegebenenfalls Vermittlungs- und Leitwegeinrichtungen sowie anderweitigen Ressourcen, die die Übertragung von Signalen ermöglichen. Ausgenommen sind digitale Dienste nach § 1 Absatz 4 Nummer 1 des Digitale-Dienste-Gesetzes, Rundfunk sowie Sprechfunk- und Telefonnetze."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(2) Verbindungsnetz im Sinne dieses Gesetzes ist das informationstechnische Netz, welches die informationstechnischen Netze des Bundes und der Länder verbindet. Die Übergabepunkte zu den jeweils verbundenen Netzen werden gemeinsam vereinbart."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "Der Datenaustausch zwischen dem Bund und den Ländern erfolgt über das Verbindungsnetz."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_DL dtd:DL-id80 ;
+    dtd:has_Value "(1) Der Bund und die Länder beschließen gemeinsam im Koordinierungsgremium für das Verbindungsnetz die folgenden Festlegungen: 1.die vom Verbindungsnetz zu erfüllenden Anforderungen,2.die anzubietenden Anschlussklassen,3.das Minimum anzubietender Dienste,4.die Anschlussbedingungen,5.die Höhe der Anschlusskosten sowie das Verfahren zu ihrer Ermittlung,6.das Verfahren bei Eilentscheidungen."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(2) Über Beschlüsse nach Absatz 1 entscheidet das Koordinierungsgremium auf Antrag des Bundes oder eines Viertels seiner Mitglieder."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(3) Beschlüsse nach Absatz 1 kommen mit Zustimmung des Bundes und einer Mehrheit von elf Ländern zustande, welche mindestens zwei Drittel ihrer Finanzierungsanteile nach dem Königsteiner Schlüssel abbildet."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(1) Hinsichtlich des Verbindungsnetzes ist gemeinsame Vergabestelle des Bundes und der Länder einschließlich der mittelbaren Bundes- und Landesverwaltung eine vom Bundesministerium des Innern, für Bau und Heimat zu bestimmende Bundesbehörde. Der Bund kann Unternehmen mit dem Aufbau und dem Betrieb des Verbindungsnetzes beauftragen."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Der Bund stellt die Vergabeunterlagen im Benehmen mit einem vom Koordinierungsgremium eingesetzten Arbeitsgremium aus drei Ländervertretern fertig. Den Ländern wird zu ihrer Beteiligung rechtzeitig vor der Veröffentlichung der Vergabeunterlagen Einsicht in die Entwürfe der Vergabeunterlagen gewährt; dabei ist der Schutz vertraulicher Dokumente durch geeignete Maßnahmen sicherzustellen."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(1) Der Bund betreibt das Verbindungsnetz. Er setzt dabei die gemeinsamen Festlegungen nach § 4 Absatz 1 um."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(2) Das Koordinierungsgremium überwacht die Umsetzung der gemeinsamen Festlegungen und beauftragt hierzu ein von ihm eingesetztes Arbeitsgremium aus drei Ländervertretern, bei der Steuerung des Betriebs des Verbindungsnetzes die Interessen der Länder einzubringen."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(1) Der Bund trägt die Kosten der Errichtung und des Betriebs des Verbindungsnetzes."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(2) Der Bund und die Länder sowie gegebenenfalls angeschlossene weitere öffentliche Stellen tragen jeweils die Kosten für den jeweiligen Anschluss ihres Netzes an das Verbindungsnetz."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(3) Entstehen durch Anforderungen des Bundes, die über die gemeinsamen Festlegungen hinausgehen, zusätzliche Anschlusskosten, sind diese vom Bund zu tragen."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "Den Übergang der gegenwärtig vom Deutschland Online Infrastruktur e. V. (DOI-Netz e. V.) wahrgenommenen Aufgaben auf den Bund nach diesem Gesetz einschließlich des Zeitpunkts des Übergangs legen Bund und Länder im DOI-Netz e. V. gemeinsam fest."@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-08-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id129 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id130 .
+
+dtd:fussnoten-id60 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id101 .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "IT-NetzG"@de .
+
+dtd:langue-id33 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Verbindung der informationstechnischen Netze des Bundes und der Länder – Gesetz zur Ausführung von Artikel 91c Absatz 4 des Grundgesetzes –"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_langue dtd:langue-id33 ;
+    dtd:has_standangabe dtd:standangabe-id34,
+        dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009BJNE000201130"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009BJNE000501116"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20240514215020"@de ;
+    dtd:has_doknr "BJNR270600009BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id129 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id128 a dtd:pre ;
+    dtd:has_BR dtd:BR-id71,
+        dtd:BR-id72,
+        dtd:BR-id73,
+        dtd:BR-id74 ;
+    dtd:has_Value "(+++ Textnachweis ab: 18.8.2009 +++) Das G wurde als Art. 4 des G v. 10.8.2009 I 2702 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 13 Abs. 1 dieses G mWv 18.8.2009 in Kraft getreten. § 3 tritt gem. Art. 13 Abs. 3 am 1.1.2015 in Kraft."@de .
+
+dtd:standangabe-id34 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id132 ;
+    dtd:has_standtyp dtd:standtyp-id131 .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id134 ;
+    dtd:has_standtyp dtd:standtyp-id133 .
+
+dtd:standkommentar-id132 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 72 V v. 19.6.2020 I 1328"@de .
+
+dtd:standkommentar-id134 a dtd:standkommentar ;
+    dtd:has_Value "Änderung durch Art. 9 G v. 6.5.2024 I Nr. 149 textlich nachgewiesen, dokumentarisch noch nicht abschließend bearbeitet"@de .
+
+dtd:standtyp-id131 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id133 a dtd:standtyp ;
+    dtd:has_Value "Hinweis"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id103 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Gegenstand der Zusammenarbeit; Koordinierungsgremium"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Datenaustausch über das Verbindungsnetz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Beschlüsse über das Verbindungsnetz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Vergabe"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Betrieb"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Kosten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id130 a dtd:zitstelle ;
+    dtd:has_Value "2009, 2702, 2706"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

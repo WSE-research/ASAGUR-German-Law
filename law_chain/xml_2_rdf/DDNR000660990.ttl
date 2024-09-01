@@ -1,0 +1,333 @@
+@prefix dtd: <urn:PartG-DDR#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200722212535"@de ;
+    dtd:has_doknr "DDNR000660990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:B-id54 a dtd:B ;
+    dtd:has_Value "Der amtierende Vorsitzende des Staatsrates der Deutschen Demokratischen Republik"@de .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67,
+        dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DL-id55 a dtd:DL ;
+    dtd:has_DD dtd:DD-id58,
+        dtd:DD-id59 ;
+    dtd:has_DT dtd:DT-id56,
+        dtd:DT-id57 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "welche Vermögenswerte seit dem 8. Mai 1945 in ihr Vermögen oder das einer Vorgänger- oder Nachfolgeorganisation durch Erwerb, Enteignung oder auf sonstige Weise gelangt sind oder veräußert, verschenkt oder auf sonstige Weise abgegeben wurde;"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "insbesondere ist eine Vermögensübersicht nach dem Stand vom 7. Oktober 1989 sowie über die seitdem erfolgten Veränderungen zu erstellen."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_BR dtd:BR-id49 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 3.10.1990 +++)(+++ Maßgaben aufgrund EinigVtr vgl. PartG DDR Anhang EV;     nicht mehr anzuwenden +++)Im beigetretenen Gebiet in Teilen fortgeltende Rechtsvorschrift der ehem. Deutschen Demokratischen Republik gem. Anlage II Kap. II Sachg. A Abschn. III nach Maßgabe d. Art. 9 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1150 mWv 3.10.1990."@de ;
+    dtd:has_pre dtd:pre-id78 .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_DL dtd:DL-id55 ;
+    dtd:has_Value "(1) Die Parteien und die ihnen verbundenen Organisationen, juristischen Personen und Massenorganisationen haben vollständig Rechenschaft zu legen, a)welche Vermögenswerte seit dem 8. Mai 1945 in ihr Vermögen oder das einer Vorgänger- oder Nachfolgeorganisation durch Erwerb, Enteignung oder auf sonstige Weise gelangt sind oder veräußert, verschenkt oder auf sonstige Weise abgegeben wurde; b)insbesondere ist eine Vermögensübersicht nach dem Stand vom 7. Oktober 1989 sowie über die seitdem erfolgten Veränderungen zu erstellen.  "@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(2) Die Rechenschaftspflicht erstreckt sich auf sämtliche Vorgänge und Unterlagen, die für die Beurteilung der Vermögenssituation von Bedeutung sein können, insbesondere auch auf rechtliche, wirtschaftliche oder sonstige Beteiligungen an Unternehmen und geschäftliche Verbindungen, auch wenn sie über andere natürliche oder juristische Personen abgewickelt wurden, wobei eine wirtschaftliche Betrachtungsweise zugrunde zu legen ist."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(1) Mit Inkrafttreten dieses Gesetzes können die Parteien und die ihnen verbundenen Organisationen, juristischen Personen und Massenorganisationen Vermögensveränderungen wirksam nur mit Zustimmung der Bundesanstalt für vereinigungsbedingte Sonderaufgaben oder deren Rechtsnachfolger vornehmen."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(2) Zur Sicherung von Vermögenswerten von Parteien oder ihnen verbundenen Organisationen, juristischen Personen und Massenorganisationen wird das Vermögen der Parteien und der ihnen verbundenen Organisationen, juristischen Personen und Massenorganisationen, das am 7. Oktober 1989 bestanden oder seither an die Stelle dieses Vermögens getreten ist, unter treuhänderische Verwaltung gestellt."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(3) Die treuhänderische Verwaltung wird von der Bundesanstalt für vereinigungsbedingte Sonderaufgaben oder deren Rechtsnachfolger wahrgenommen. Diese führt das Vermögen an die früher Berechtigten oder deren Rechtsnachfolger zurück. Soweit dies nicht möglich ist, ist das Vermögen zugunsten gemeinnütziger Zwecke, insbesondere der wirtschaftlichen Umstrukturierung, in dem in Artikel 3 des Einigungsvertrages genannten Gebiet zu verwenden. Nur soweit Vermögen nachweislich nach materiell-rechtsstaatlichen Grundsätzen im Sinne des Grundgesetzes erworben worden ist, wird es den Parteien und den in § 20a Abs. 1 genannten Institutionen wieder zur Verfügung gestellt."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(4) Im Einvernehmen mit dem Bundesministerium des Innern, für Bau und Heimat kann das Bundesministerium der Finanzen durch Rechtsverordnung mit Zustimmung des Bundesrates die treuhänderische Verwaltung nach den Absätzen 2 und 3 auf eine Stelle des Bundes oder eine juristische Person des Privatrechts übertragen. Die Rechts- und Fachaufsicht obliegt dem Bundesministerium der Finanzen, das die Fachaufsicht im Einvernehmen mit dem Bundesministerium für Wirtschaft und Energie und dem jeweils zuständigen Bundesministerium wahrnimmt."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_B dtd:B-id54 ;
+    dtd:has_Value "Der amtierende Vorsitzende des Staatsrates der Deutschen Demokratischen Republik"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-02-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 1 bis 20"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 20a"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 20b"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 21 bis 24"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id79 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id80 .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id81 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id82 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id62 .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:fussnoten-id47 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "PartG DDR"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "PartG DDR"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "PartG DDR"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "PartG DDR"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "PartG DDR"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "PartG DDR"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Parteiengesetz"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Gesetz über Parteien und andere politische Vereinigungen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22,
+        dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200722212535"@de ;
+    dtd:has_doknr "DDNR000660990"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200722212535"@de ;
+    dtd:has_doknr "DDNR000660990BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200722212535"@de ;
+    dtd:has_doknr "DDNR000660990BJNE000201310"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200722212535"@de ;
+    dtd:has_doknr "DDNR000660990BJNE000306311"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200722212535"@de ;
+    dtd:has_doknr "DDNR000660990BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200722212535"@de ;
+    dtd:has_doknr "DDNR000660990BJNE000500307"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id79 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:periodikum-id81 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:pre-id78 a dtd:pre ;
+    dtd:has_BR dtd:BR-id50,
+        dtd:BR-id51,
+        dtd:BR-id52,
+        dtd:BR-id53 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 3.10.1990 +++)(+++ Maßgaben aufgrund EinigVtr vgl. PartG DDR Anhang EV;     nicht mehr anzuwenden +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id84 ;
+    dtd:has_standtyp dtd:standtyp-id83 .
+
+dtd:standkommentar-id84 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 342 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id83 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id80 a dtd:zitstelle ;
+    dtd:has_Value "1990, 66"@de .
+
+dtd:zitstelle-id82 a dtd:zitstelle ;
+    dtd:has_Value "1990, Nr 9, 66"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

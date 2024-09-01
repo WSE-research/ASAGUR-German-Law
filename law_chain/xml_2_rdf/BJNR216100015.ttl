@@ -1,0 +1,211 @@
+@prefix dtd: <urn:TerrBekGeBefrVerlG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210716212518"@de ;
+    dtd:has_doknr "BJNR216100015"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_Value " (+++ Textnachweis ab: 10.12.2015 +++)"@de ;
+    dtd:has_pre dtd:pre-id51 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Die Anwendung der durch das Terrorismusbekämpfungsgesetz vom 9. Januar 2002 (BGBl. I S. 361, 3142), das Terrorismusbekämpfungsergänzungsgesetz vom 5. Januar 2007 (BGBl. I S. 2), das Gesetz zur Änderung des Bundesverfassungsschutzgesetzes vom 7. Dezember 2011 (BGBl. I S. 2576) und dieses Gesetz geschaffenen und geänderten Vorschriften des Bundesverfassungsschutzgesetzes, des MAD-Gesetzes, des BND-Gesetzes und des Sicherheitsüberprüfungsgesetzes ist von der Bundesregierung vor dem 10. Januar 2021 unter Einbeziehung eines wissenschaftlichen Sachverständigen oder mehrerer wissenschaftlicher Sachverständiger zu evaluieren. Bei der Untersuchung sind auch die Häufigkeit und die Auswirkungen der mit den Eingriffsbefugnissen verbundenen Grundrechtseingriffe einzubeziehen und in Beziehung zu setzen zu der anhand von Tatsachen darzustellenden Wirksamkeit zum Zweck der Terrorismusbekämpfung. Die Sachverständigenauswahl muss dem Maßstab der Evaluierung gemäß Satz 2 Rechnung tragen. Die Bestellung des oder der wissenschaftlichen Sachverständigen hat im Einvernehmen mit dem Deutschen Bundestag zu erfolgen."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Das Grundrecht des Fernmeldegeheimnisses (Artikel 10 des Grundgesetzes) wird nach Maßgabe des Artikels 1 eingeschränkt."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt vorbehaltlich des Satzes 2 am Tag nach der Verkündung in Kraft. Die Artikel 3 und 4 treten am 1. März 2016 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-12-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 1 bis 4"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 7"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id52 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id53 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id42 .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "TerrBekGeBefrVerlG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "TerrBekGeBefrVerlG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "TerrBekGeBefrVerlG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "TerrBekGeBefrVerlG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "TerrBekGeBefrVerlG"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Verlängerung der Befristung von Vorschriften nach den Terrorismusbekämpfungsgesetzen"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210716212518"@de ;
+    dtd:has_doknr "BJNR216100015"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210716212518"@de ;
+    dtd:has_doknr "BJNR216100015BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210716212518"@de ;
+    dtd:has_doknr "BJNR216100015BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210716212518"@de ;
+    dtd:has_doknr "BJNR216100015BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210716212518"@de ;
+    dtd:has_doknr "BJNR216100015BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id52 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id51 a dtd:pre ;
+    dtd:has_BR dtd:BR-id40,
+        dtd:BR-id41 ;
+    dtd:has_Value "(+++ Textnachweis ab: 10.12.2015 +++)"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Änderungsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Evaluierung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Einschränkung eines Grundrechts"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id53 a dtd:zitstelle ;
+    dtd:has_Value "2015, 2161"@de .
+

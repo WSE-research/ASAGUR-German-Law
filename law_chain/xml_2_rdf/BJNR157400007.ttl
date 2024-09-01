@@ -1,0 +1,223 @@
+@prefix dtd: <urn:GewebeG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20190903212006"@de ;
+    dtd:has_doknr "BJNR157400007"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz dient der Umsetzung der Richtlinie 2004/23/EG desEuropäischen Parlaments und des Rates vom 31. März 2004 zur Festlegung von Qualitäts- und Sicherheitsstandards für die Spende, Beschaffung, Testung, Verarbeitung, Konservierung, Lagerung und Verteilung von menschlichen Geweben und Zellen (ABl. EU Nr. L 102 S. 48). Die Verpflichtungen aus der Richtlinie 98/34/EG des Europäischen Parlaments und des Rates vom 22. Juni 1998 über ein Informationsverfahren auf dem Gebiet der Normen und technischen Vorschriftenund der Vorschriften für die Dienste der Informationsgesellschaft (ABl. EG Nr. L 204 S. 37), geändert durch die Richtlinie 98/48/EG des Europäischen Parlaments und des Rates vom 20. Juli 1998 (ABl. EG Nr. L 217 S. 18), sind beachtet worden."@de ;
+    dtd:has_noindex dtd:noindex-id43 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_BR dtd:BR-id35 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.8.2007 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 23/2004            (CELEX Nr: 304L0023)     Beachtung der        EGRL 34/98              (CELEX Nr: 398L0034) +++)"@de ;
+    dtd:has_pre dtd:pre-id54 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Gesundheit kann den Wortlaut des Transplantationsgesetzes und des Transfusionsgesetzes in der vom 1. August 2007 an geltenden Fassung im Bundesgesetzblatt bekannt machen."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am ersten Tag des auf die Verkündung folgenden Monats in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2007-07-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 1 bis Art 6"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Art 7"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art 8"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id55 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id56 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id46 .
+
+dtd:fussnoten-id31 a dtd:fussnoten .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "GewebeG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "GewebeG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "GewebeG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "GewebeG"@de .
+
+dtd:kurzue-id17 a dtd:kurzue ;
+    dtd:has_Value "Gewebegesetz"@de .
+
+dtd:langue-id18 a dtd:langue ;
+    dtd:has_Value "Gesetz über Qualität und Sicherheit von menschlichen Geweben und Zellen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id17 ;
+    dtd:has_langue dtd:langue-id18 ;
+    dtd:has_standangabe dtd:standangabe-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:noindex-id43 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20190903212006"@de ;
+    dtd:has_doknr "BJNR157400007"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20190903212006"@de ;
+    dtd:has_doknr "BJNR157400007BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20190903212006"@de ;
+    dtd:has_doknr "BJNR157400007BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20190903212006"@de ;
+    dtd:has_doknr "BJNR157400007BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id55 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id54 a dtd:pre ;
+    dtd:has_BR dtd:BR-id36,
+        dtd:BR-id37,
+        dtd:BR-id38,
+        dtd:BR-id39,
+        dtd:BR-id40,
+        dtd:BR-id41,
+        dtd:BR-id42 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.8.2007 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 23/2004            (CELEX Nr: 304L0023)     Beachtung der        EGRL 34/98              (CELEX Nr: 398L0034) +++)"@de .
+
+dtd:standangabe-id19 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id58 ;
+    dtd:has_standtyp dtd:standtyp-id57 .
+
+dtd:standkommentar-id58 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 17 G v. 9.8.2019 I 1202"@de .
+
+dtd:standtyp-id57 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Bekanntmachungserlaubnis"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id56 a dtd:zitstelle ;
+    dtd:has_Value "2007, 1574"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

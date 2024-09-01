@@ -1,0 +1,168 @@
+@prefix dtd: <urn:BLESV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093914"@de ;
+    dtd:has_doknr "BJNR278000994"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31,
+        dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.1995 +++)"@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value " (+++ Text der Satzung siehe: BLES +++)"@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 8 Abs. 1 Satz 1 und 2 Nr. 1 bis 4 des Gesetzes über die Errichtung einer Bundesanstalt für Landwirtschaft und Ernährung vom 2. August 1994 (BGBl. I S. 2018, 2019) verordnet das Bundesministerium für Ernährung, Landwirtschaft und Forsten und auf Grund des § 8 Abs. 1 Satz 1 und 2 Nr. 5 und 6 des Gesetzes über die Errichtung einer Bundesanstalt für Landwirtschaft und Ernährung verordnet das Bundesministerium für Ernährung, Landwirtschaft und Forsten im Einvernehmen mit dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Die Bundesanstalt für Landwirtschaft und Ernährung erhält die anliegende Satzung."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 1995 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-09-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id30 .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BLESV"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "BLESV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "BLESV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BLESV"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Satzung der Bundesanstalt für Landwirtschaft und Ernährung"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093914"@de ;
+    dtd:has_doknr "BJNR278000994"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093914"@de ;
+    dtd:has_doknr "BJNR278000994BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093914"@de ;
+    dtd:has_doknr "BJNR278000994BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093914"@de ;
+    dtd:has_doknr "BJNR278000994BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id42 ;
+    dtd:has_standtyp dtd:standtyp-id41 .
+
+dtd:standkommentar-id42 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 23.7.1997 I 1918"@de .
+
+dtd:standtyp-id41 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "1994, 2780"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

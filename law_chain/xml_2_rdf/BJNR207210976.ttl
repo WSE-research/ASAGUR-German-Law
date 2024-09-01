@@ -1,0 +1,69 @@
+@prefix dtd: <urn:PCTAO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20190405212005"@de ;
+    dtd:has_doknr "BJNR207210976"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id11 a dtd:BR .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:Content-id13 a dtd:Content ;
+    dtd:has_P dtd:P-id14 .
+
+dtd:P-id14 a dtd:P ;
+    dtd:has_BR dtd:BR-id11,
+        dtd:BR-id12 ;
+    dtd:has_Value "G v. 21.6.1976 II 649 Anwendbar gem. Bek. v. 16.3.1978 II 485 mWv 29.3.1978 Geändert durch Beschluß v. 29.9.1992, BGBl. II 1993, 203 mWv 1.10.1992 bzw. 1.1.1993, durch Beschluß v. 29.9.1993, BGBl. II 1994, 433 mWv 1.1.1994, durch Beschluß v. 1.10.1997, BGBl. II 1999, 244 mWv 1.7.1998, durch Beschluß v. 12.11.2007, BGBl. II 2009, 444 mWv 1.1.2009, durch Beschluß v. 29.9.2008, BGBl. II 2009, 1167 mWv 1.1.2009 bzw. 1.7.2009, durch Beschluß v. 1.10.2009, BGBl. II 2011, 235 mWv 1.7.2010, durch Beschluß v. 29.9.2010, BGBl. II 2011, 1023 mWv 1.7.2011, durch Beschluß v. 5.10.2011, BGBl. II 2012, 971 mWv 1.7.2012, durch Beschluß v. 9.10.2012, BGBl. II 2013, 1035 mWv 1.1.2013, durch Beschluß v. 2.10.2013, BGBl. II 2014, 301 mWv 1.7.2014, durch Beschluß v. 30.9.2014, BGBl. II 2015, 909 mWv 1.7.2015, durch Beschluß v. 14.10.2015, BGBl. II 2016, 1160 mWv 1.7.2016, durch Beschluß v. 14.10.2015, BGBl. II 2016, 1257 mWv 1.7.2017, durch Beschluß v. 11.10.2016, BGBl. II 2017, 1345 mWv 1.7.2017 und durch Beschluß v. 11.10.2017, BGBl. II 2019, 274 mWv 1.7.2018"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1970-06-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id15 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id16 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id13 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "PCTAO"@de .
+
+dtd:langue-id8 a dtd:langue ;
+    dtd:has_Value "Ausführungsordnung zum Vertrag über die internationale Zusammenarbeit auf dem Gebiet des Patentwesens"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id8 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20190405212005"@de ;
+    dtd:has_doknr "BJNR207210976"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id15 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id9 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 ;
+    dtd:has_text dtd:text-id9 .
+
+dtd:zitstelle-id16 a dtd:zitstelle ;
+    dtd:has_Value "1976, 721"@de .
+

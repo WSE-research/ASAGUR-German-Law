@@ -1,0 +1,464 @@
+@prefix dtd: <urn:BeamtVÜV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200831213015"@de ;
+    dtd:has_doknr "BJNR006300991"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_BR dtd:BR-id65,
+        dtd:BR-id66 ;
+    dtd:has_P dtd:P-id105,
+        dtd:P-id106,
+        dtd:P-id107,
+        dtd:P-id108 ;
+    dtd:has_kommentar dtd:kommentar-id109 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84,
+        dtd:P-id85,
+        dtd:P-id86,
+        dtd:P-id87,
+        dtd:P-id88,
+        dtd:P-id89,
+        dtd:P-id90,
+        dtd:P-id91,
+        dtd:P-id92,
+        dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95,
+        dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id100,
+        dtd:P-id101,
+        dtd:P-id98,
+        dtd:P-id99 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id75 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id77 .
+
+dtd:DL-id67 a dtd:DL ;
+    dtd:has_DD dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id68 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Heilverfahrensverordnung in der jeweils geltenden Fassung"@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verordnung über die einmalige Unfallentschädigung nach § 43 Absatz 3 des Beamtenversorgungsgesetzes in der jeweils geltenden Fassung"@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "(3) Die Regelungen der Absätze 1 und 2 gelten nicht für Beschäftigungsverhältnisse, die nach dem 31. Dezember 1999 begründet werden."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "(4) Erwirbt ein Beamter oder Richter im Ruhestand infolge einer Verwendung im Beitrittsgebiet neben seinem früheren Versorgungsbezug einen neuen Versorgungsbezug, kann er unwiderruflich auf den neuen Versorgungsbezug verzichten."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_DL dtd:DL-id67 ;
+    dtd:has_Value "A. Gesetze (weggefallen)"@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Value "B. Rechtsverordnungen 1.Heilverfahrensverordnung in der jeweils geltenden Fassung2.Verordnung über die einmalige Unfallentschädigung nach § 43 Absatz 3 des Beamtenversorgungsgesetzes in der jeweils geltenden Fassung"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "C. Verwaltungsvorschriften"@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "Allgemeine Verwaltungsvorschrift zum Beamtenversorgungsgesetz in der jeweils aktuellen Fassung"@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_BR dtd:BR-id60 ;
+    dtd:has_Value " (+++ Textnachweis ab: 15.6.1991 +++)"@de ;
+    dtd:has_pre dtd:pre-id110 .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung regelt die Versorgung im Sinne des Beamtenversorgungsgesetzes und der hierzu erlassenen Rechts- und Verwaltungsvorschriften, die in der Anlage zu dieser Verordnung aufgeführt sind. Sie gilt für Beamte und Richter, die nach Inkrafttreten des Einigungsvertrages von ihrer ersten Ernennung oder Wiederernennung an in dem in Artikel 3 des Einigungsvertrages genannten Gebiet (Beitrittsgebiet) verwendet oder in das Beitrittsgebiet versetzt wurden. Sie gilt nach Maßgabe der §§ 3 und 4 auch für Beamte und Richter aus dem früheren Bundesgebiet sowie für Beamte und Richter im Ruhestand, die im Beitrittsgebiet tätig werden."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(2) Die in Anlage I Kapitel XIX Sachgebiet A Abschnitt III Nr. 9 des Einigungsvertrages vom 31. August 1990 (BGBl. 1990 II S. 885, 1142) sowie die in § 2 Absatz 2 bis 6 genannten Maßgaben gelten nicht für Beamte und Richter, deren Versetzung oder Neuernennung in unmittelbarem zeitlichen Anschluß (§ 85 Abs. 9 des Beamtenversorgungsgesetzes in der ab 1. Januar 1992 geltenden Fassung) an ein öffentlich-rechtliches Dienstverhältnis im früheren Bundesgebiet erfolgt."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "(1) Das Beamtenversorgungsgesetz gilt unbeschadet der Regelungen in Anlage I Kapitel XIX Sachgebiet A Abschnitt III Nummer 9 des Einigungsvertrags vom 31. August 1990 (BGBl. 1990 II S. 885, 1142) mit den in den folgenden Absätzen bestimmten weiteren Maßgaben."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "(2) Wehrdienstzeiten nach den §§ 8 und 9 des Beamtenversorgungsgesetzes, die ein Beamter nach Vollendung des 17. Lebensjahres vor der Berufung in das Beamtenverhältnis im Dienst der Nationalen Volksarmee zurückgelegt hat, gelten als ruhegehaltfähige Dienstzeit höchstens bis zu fünf Jahren, soweit nicht Absatz 5 oder 6 Anwendung findet. Satz 1 gilt entsprechend für vergleichbare Zeiten nach den §§ 8 und 9 des Beamtenversorgungsgesetzes, die ein Beamter bis zum 2. Oktober 1990 im Beitrittsgebiet zurückgelegt hat."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "(3) Zeiten, die der Beamte bis zum 2. Oktober 1990 im Beitrittsgebiet hauptberuflich im öffentlichen Dienst zurückgelegt hat, können gemäß § 10 des Beamtenversorgungsgesetzes höchstens bis zu fünf Jahren als ruhegehaltfähig berücksichtigt werden, sofern der Beamte ohne eine von ihm zu vertretende Unterbrechung tätig war und die Tätigkeit zu seiner Ernennung geführt hat. Dies gilt nicht, soweit Absatz 5 oder 6 Anwendung findet. Näheres kann das Bundesministerium des Innern, für Bau und Heimat durch Verwaltungsvorschriften regeln."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "(4) Sonstige Zeiten und Ausbildungszeiten nach den §§ 11 und 12 des Beamtenversorgungsgesetzes, die der Beamte bis zum 2. Oktober 1990 im Beitrittsgebiet zurückgelegt hat, können höchstens bis zu fünf Jahren als ruhegehaltfähige Dienstzeit anerkannt werden, soweit nicht Absatz 5 oder 6 Anwendung findet."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "(5) Wehrdienstzeiten und vergleichbare Zeiten (§§ 8, 9 des Beamtenversorgungsgesetzes), Beschäftigungszeiten (§ 10 des Beamtenversorgungsgesetzes) und sonstige Zeiten (§§ 11, 67 Absatz 2 des Beamtenversorgungsgesetzes), die der Beamte bis zum 2. Oktober 1990 im Beitrittsgebiet zurückgelegt hat, werden nicht als ruhegehaltfähige Dienstzeit berücksichtigt, soweit die allgemeine Wartezeit für die gesetzliche Rentenversicherung erfüllt ist und diese Zeiten als rentenrechtliche Zeiten bei der Berechnung der Rente aus der gesetzlichen Rentenversicherung zugrunde gelegt werden; Ausbildungszeiten (§ 12 des Beamtenversorgungsgesetzes) sind nicht ruhegehaltfähig, soweit die allgemeine Wartezeit für die gesetzliche Rentenversicherung erfüllt ist. Rentenrechtliche Zeiten sind auch solche im Sinne des Artikels 2 des Renten-Überleitungsgesetzes."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "(6) Zeiten nach § 30 des Bundesbesoldungsgesetzes sind nicht ruhegehaltfähig."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "(7) Das Zusammentreffen von Versorgungsbezügen mit Renten, auch aus übergeleiteten Anwartschaften, richtet sich nach § 55 des Beamtenversorgungsgesetzes. Die ruhegehaltfähige Dienstzeit im Sinne des § 55 Absatz 2 Nummer 1 Buchstabe b des Beamtenversorgungsgesetzes ist um Zeiten zu vermindern, die nach Absatz 6 nicht ruhegehaltfähig sind."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_Value "(8) Übersteigt beim Zusammentreffen von Mindestversorgung (§ 14 Absatz 4 des Beamtenversorgungsgesetzes) mit einer Rente aus der gesetzlichen Rentenversicherung nach Anwendung des § 55 des Beamtenversorgungsgesetzes die Versorgung das erdiente Ruhegehalt, so ruht die Versorgung bis zur Höhe des Unterschieds zwischen dem erdienten Ruhegehalt und der Mindestversorgung. Der Erhöhungsbetrag nach § 14 Absatz 4 Satz 3 des Beamtenversorgungsgesetzes sowie der Unterschiedsbetrag nach § 50 Absatz 1 des Beamtenversorgungsgesetzes bleiben bei der Berechnung außer Betracht. Die Summe aus Versorgung und Rente darf nicht hinter dem Betrag der Mindestversorgung zuzüglich des Unterschiedsbetrages nach § 50 Absatz 1 des Beamtenversorgungsgesetzes zurückbleiben. Zahlbar bleibt mindestens das erdiente Ruhegehalt zuzüglich des Unterschiedsbetrages nach § 50 Absatz 1 des Beamtenversorgungsgesetzes. Die Sätze 1 bis 4 gelten entsprechend für Witwen und Waisen."@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "(9) Als Amtszeit im Beamtenverhältnis auf Zeit im Sinne des § 66 Absatz 2 des Beamtenversorgungsgesetzes gilt auch die Zeit, in der ein Wahlamt seit dem 3. Oktober 1990 nicht im Beamtenverhältnis auf Zeit wahrgenommen wurde, soweit dies zum Erreichen einer Amtszeit von acht Jahren erforderlich ist. Der Ruhegehaltssatz vermindert sich beim Zusammentreffen der Versorgungsbezüge mit einer Rente im Sinne des § 55 des Beamtenversorgungsgesetzes um den in § 14 Absatz 1 Satz 1 erster Halbsatz des Beamtenversorgungsgesetzes in der bis zum 31. Dezember 2002 geltenden Fassung bezeichneten Prozentsatz der ruhegehaltfähigen Dienstbezüge, vervielfältigt mit dem jeweiligen in § 69e Absatz 3 und 4 des Beamtenversorgungsgesetzes genannten Faktor, für jedes nach Satz 1 berücksichtigte Jahr. Die Hinterbliebenenversorgung (§§ 17 bis 28 des Beamtenversorgungsgesetzes) bemisst sich aus dem sich nach Satz 2 ergebenden Ruhegehalt."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "(10) Die Maßgaben der Absätze 2 bis 9 gelten auch für den Fall, dass ein Beamter zu einem Dienstherrn mit Sitz im bisherigen Geltungsbereich des Bundesrechts übertritt."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "(1) Die Zeit der Verwendung eines Beamten oder eines Richters aus dem früheren Bundesgebiet zum Zwecke der Aufbauhilfe im Beitrittsgebiet wird doppelt als ruhegehaltfähige Dienstzeit berücksichtigt, wenn sie ununterbrochen mindestens ein Jahr gedauert hat."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(2) Die Regelung des Absatzes 1 ist bis zum 31. Dezember 1995 befristet. Sie gilt nicht für eine Verwendung, die nach dem 31. Dezember 1994 beginnt."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(1) Für Beamte und Richter im Ruhestand, die wegen ihrer besonderen Fachkenntnisse zum Zwecke der Aufbauhilfe im Beitrittsgebiet verwendet werden, findet § 53 des Beamtenversorgungsgesetzes ab dem 3. Oktober 1990 keine Anwendung. Ab dem 1. August 1991 findet § 53 des Beamtenversorgungsgesetzes auf diese Beschäftigungsverhältnisse insoweit Anwendung, als die Summe von Versorgungsbezügen und Verwendungseinkommen eine Höchstgrenze von 130 v. H. der ruhegehaltfähigen Dienstbezüge überschreitet, nach denen sich das Ruhegehalt bemißt. Die erhöhte Höchstgrenze wird ab 1. August 1991 auf die Mindestkürzungsgrenze des § 53 Abs. 2 Nr. 1 des Beamtenversorgungsgesetzes angewandt."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(2) Die ruhegehaltfähige Dienstzeit erhöht sich um die Zeit, die ein Beamter oder Richter im Ruhestand in einer seine Arbeitskraft voll beanspruchenden, entgeltlichen Beschäftigung als Arbeitnehmer im öffentlichen Dienst im Beitrittsgebiet zurückgelegt hat, bis zum Höchstsatz von 75 v. H. der ruhegehaltfähigen Dienstbezüge. § 69e Abs. 3 und 4 des Beamtenversorgungsgesetzes gilt mit der Maßgabe, dass der in Satz 1 genannte Vomhundertsatz mit dem jeweiligen Anpassungsfaktor zu vervielfältigen ist."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "BeamtVÜV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-03-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id111 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id112 .
+
+dtd:fussnoten-id49 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id78 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id59 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BeamtVÜV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BeamtVÜV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "BeamtVÜV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BeamtVÜV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "BeamtVÜV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "BeamtVÜV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "BeamtVÜV"@de .
+
+dtd:kommentar-id109 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id64 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1993, 372;bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Beamtenversorgungs-Übergangsverordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Verordnung über beamtenversorgungsrechtliche Übergangsregelungen nach Herstellung der Einheit Deutschlands"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29,
+        dtd:standangabe-id30 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200831213015"@de ;
+    dtd:has_doknr "BJNR006300991"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200831213015"@de ;
+    dtd:has_doknr "BJNR006300991BJNE000203377"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200831213015"@de ;
+    dtd:has_doknr "BJNR006300991BJNE000314377"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200831213015"@de ;
+    dtd:has_doknr "BJNR006300991BJNE000802314"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200831213015"@de ;
+    dtd:has_doknr "BJNR006300991BJNE000407320"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200831213015"@de ;
+    dtd:has_doknr "BJNR006300991BJNE000502314"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200831213015"@de ;
+    dtd:has_doknr "BJNR006300991BJNE000704377"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id111 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id110 a dtd:pre ;
+    dtd:has_BR dtd:BR-id61,
+        dtd:BR-id62 ;
+    dtd:has_Value "(+++ Textnachweis ab: 15.6.1991 +++)"@de .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id114 ;
+    dtd:has_standtyp dtd:standtyp-id113 .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id116 ;
+    dtd:has_standtyp dtd:standtyp-id115 .
+
+dtd:standkommentar-id114 a dtd:standkommentar ;
+    dtd:has_Value "Neugefasst durch Bek. v. 19.3.1993 I 369;"@de .
+
+dtd:standkommentar-id116 a dtd:standkommentar ;
+    dtd:has_Value "zuletzt geändert durch Art. 3 V v. 8.1.2020 I 27"@de .
+
+dtd:standtyp-id113 a dtd:standtyp ;
+    dtd:has_Value "Neuf"@de .
+
+dtd:standtyp-id115 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Geltungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Maßgaben"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Verwendung von Beamten und Richtern"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Verwendung von Beamten und Richtern im Ruhestand"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "(Inkrafttreten)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_BR dtd:BR-id63 ;
+    dtd:has_Value "(zu § 1 Abs. 1)Verzeichnis der zum Beamtenversorgungsgesetz erlassenen Rechts- und Verwaltungsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id112 a dtd:zitstelle ;
+    dtd:has_Value "1991, 630"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,593 @@
+@prefix dtd: <urn:WasKwV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id100 a dtd:BR .
+
+dtd:BR-id101 a dtd:BR .
+
+dtd:BR-id102 a dtd:BR .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122,
+        dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127,
+        dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132,
+        dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135,
+        dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142,
+        dtd:P-id143,
+        dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id109,
+        dtd:DD-id110,
+        dtd:DD-id111 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107,
+        dtd:DT-id108 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:I-id103 a dtd:I ;
+    dtd:has_Value "und die Aufbringungsumlage,"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Veranlagung zur Einkommensteuer und zur Körperschaftsteuer für das Kalenderjahr 1943;"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Veranlagung zur Vermögensteuer und zur Aufbringungsumlage für das Rechnungsjahr 1943;"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Festsetzung der einheitlichen Gewerbesteuermeßbeträge für das Kalenderjahr 1943."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_BR dtd:BR-id100 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 21.8.1977 +++)"@de ;
+    dtd:has_pre dtd:pre-id147 .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 12 der Reichsabgabenordnung wird im Einvernehmen mit dem Reichsminister des Innern und dem Generalinspektor für Wasser und Energie verordnet:"@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Unternehmen, die elektrische Arbeit durch Wasserkräfte erzeugen, werden nach Maßgabe dieser Verordnung steuerlich begünstigt."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(1) Die steuerliche Begünstigung erstreckt sich nur auf die Anlagen zur Erzeugung elektrischer Arbeit durch Wasserkräfte (Wasserkraftwerke). Zu den Wasserkraftwerken gehören auch die Anlagen zur Fortleitung der erzeugten elektrischen Arbeit bis zu den Abspannketten der Fernleitungen."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(2) Die steuerliche Begünstigung kann auf Antrag auch für die Anlagen zur Fortleitung des Stroms aus steuerbegünstigten Wasserkraftwerken gewährt werden."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "Die steuerliche Begünstigung tritt nur ein, wenn der Baubeginn der Anlagen in die Zeit vom 1. Januar 1938 bis zum 31. Dezember 1990 fällt."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(1) Die Einkommensteuer oder die Körperschaftsteuer, die auf den Gewinn aus den steuerbegünstigten Anlagen entfällt, ermäßigt sich ab dem Betriebsbeginn für die Dauer von zwanzig Jahren auf die Hälfte der gesetzlichen Beträge."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(2) Die Bundesregierung wird ermächtigt, mit Zustimmung des Bundesrates durch Rechtsverordnung Vorschriften über die Ermittlung des steuerbegünstigten Gewinns für den Fall zu erlassen, daß ein Unternehmen steuerbegünstigte und nicht steuerbegünstigte Anlagen unterhält."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_I dtd:I-id103 ;
+    dtd:has_Value "Die Vermögensteuer und die Aufbringungsumlage, die auf die steuerbegünstigten Anlagen entfallen, sind während der Bauzeit nicht zu entrichten. Sie ermäßigen sich ab dem Betriebsbeginn für die Dauer von zwanzig Jahren auf die Hälfte der gesetzlichen Beträge."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(1) Die einheitlichen Gewerbesteuermeßbeträge, die auf die steuerbegünstigten Anlagen entfallen, ermäßigen sich ab dem Betriebsbeginn für die Dauer von zwanzig Jahren auf die Hälfte der gesetzlichen Beträge."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(2) (weggefallen)"@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(1) Die Summe der Absetzungen für Abnutzung auf die Wirtschaftsgüter, die zu den steuerbegünstigten Anlagen gehören, muß für die gesamte Dauer der Steuerbegünstigung bei den Wasserkraftwerken mindestens 25 vom Hundert, bei den Fortleitungsanlagen (§ 2 Abs. 2) mindestens 40 vom Hundert der Anschaffungs- oder Herstellungskosten betragen."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(2) Die Bundesregierung wird ermächtigt, mit Zustimmung des Bundesrates durch Rechtsverordnung zu bestimmen, wie der Gesamtbetrag der Absetzung für Abnutzung auf die einzelnen Jahre zu verteilen ist. Bleibt die Summe der Absetzungen für Abnutzung eines Jahres hinter dem danach maßgebenden Betrag zurück, so tritt die steuerliche Begünstigung für dieses Jahr nicht ein."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "(1) Die Bestimmungen dieser Verordnung sind erstmalig anzuwenden: a)bei der Veranlagung zur Einkommensteuer und zur Körperschaftsteuer für das Kalenderjahr 1943; b)bei der Veranlagung zur Vermögensteuer und zur Aufbringungsumlage für das Rechnungsjahr 1943; c)bei der Festsetzung der einheitlichen Gewerbesteuermeßbeträge für das Kalenderjahr 1943.  "@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(2) ..."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(3) § 8 in der im Bundesgesetzblatt Teil III, Gliederungsnummer 610-6-2, veröffentlichten bereinigten Fassung ist letztmals für Wirtschaftsjahre anzuwenden, die vor dem 1. Januar 1984 enden."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_SP dtd:SP-id104 ;
+    dtd:has_Value "Der Reichsminister der Finanzen"@de .
+
+dtd:SP-id104 a dtd:SP ;
+    dtd:has_Value "Der Reichsminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id42 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1944-10-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id67 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id78 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id43 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id148 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id149 .
+
+dtd:fussnoten-id79 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id115 .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:fussnoten-id86 a dtd:fussnoten .
+
+dtd:fussnoten-id88 a dtd:fussnoten .
+
+dtd:fussnoten-id90 a dtd:fussnoten .
+
+dtd:fussnoten-id92 a dtd:fussnoten .
+
+dtd:fussnoten-id94 a dtd:fussnoten .
+
+dtd:fussnoten-id96 a dtd:fussnoten .
+
+dtd:fussnoten-id98 a dtd:fussnoten .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "WasKwV"@de .
+
+dtd:langue-id44 a dtd:langue ;
+    dtd:has_Value "Verordnung über die steuerliche Begünstigung von Wasserkraftwerken"@de .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id42 ;
+    dtd:has_fundstelle dtd:fundstelle-id43 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_langue dtd:langue-id44 ;
+    dtd:has_standangabe dtd:standangabe-id45 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 ;
+    dtd:has_titel dtd:titel-id68 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_jurabk dtd:jurabk-id69 .
+
+dtd:metadaten-id35 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id37 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:metadaten-id39 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id78 ;
+    dtd:has_jurabk dtd:jurabk-id77 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000800303"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000901309"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE001000303"@de ;
+    dtd:has_metadaten dtd:metadaten-id35 ;
+    dtd:has_textdaten dtd:textdaten-id36 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE001101309"@de ;
+    dtd:has_metadaten dtd:metadaten-id37 ;
+    dtd:has_textdaten dtd:textdaten-id38 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE001200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id39 ;
+    dtd:has_textdaten dtd:textdaten-id40 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000300303"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000401309"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000500303"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000600303"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20131008093436"@de ;
+    dtd:has_doknr "BJNR002780944BJNE000701140"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:periodikum-id148 a dtd:periodikum ;
+    dtd:has_Value "RGBl I"@de .
+
+dtd:pre-id147 a dtd:pre ;
+    dtd:has_BR dtd:BR-id101,
+        dtd:BR-id102 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 21.8.1977 +++)"@de .
+
+dtd:standangabe-id45 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id151 ;
+    dtd:has_standtyp dtd:standtyp-id150 .
+
+dtd:standkommentar-id151 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 61 G v. 8.12.2010 I 1864"@de .
+
+dtd:standtyp-id150 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id97 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id99 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id79 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id90 ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id92 ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id94 ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id36 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id96 ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:textdaten-id38 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id98 ;
+    dtd:has_text dtd:text-id97 .
+
+dtd:textdaten-id40 a dtd:textdaten ;
+    dtd:has_text dtd:text-id99 .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Steuerbegünstigte Unternehmen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Steuerbegünstigte Anlagen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Voraussetzungen der steuerlichen Begünstigung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Einkommensteuer und Körperschaftsteuer"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Vermögensteuer und Aufbringungsumlage"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Gewerbesteuer"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id68 a dtd:titel ;
+    dtd:has_Value "Absetzung für Abnutzung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Weitergewährung bisheriger steuerlicher Begünstigungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Anwendungsvorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id149 a dtd:zitstelle ;
+    dtd:has_Value "1944, 278"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,404 @@
+@prefix dtd: <urn:VAErstV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR262800001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79,
+        dtd:P-id80,
+        dtd:P-id81,
+        dtd:P-id82,
+        dtd:P-id83,
+        dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86,
+        dtd:P-id87,
+        dtd:P-id88,
+        dtd:P-id89 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id68 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id69 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DL-id59 a dtd:DL ;
+    dtd:has_DD dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67 ;
+    dtd:has_DT dtd:DT-id60,
+        dtd:DT-id61,
+        dtd:DT-id62,
+        dtd:DT-id63 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Leistungen entstehen, die auch ohne Durchführung des Versorgungsausgleichs zu erbringen gewesen wären und deren Höhe durch den Versorgungsausgleich nicht berührt wird,"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Leistungen oder Leistungsbestandteilen beruhen, die sich durch die begründeten Rentenanwartschaften nicht erhöht haben,"@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Dritten zu erstatten sind und"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Rentenleistungen entfallen, denen persönliche Entgeltpunkte in der knappschaftlichen Rentenversicherung zu Grunde liegen,"@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_BR dtd:BR-id56 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 1.2002 +++)"@de ;
+    dtd:has_pre dtd:pre-id96 .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 226 Abs. 1 des Sechsten Buches Sozialgesetzbuch - Gesetzliche Rentenversicherung - (Artikel 1 des Gesetzes vom 18. Dezember 1989, BGBl. I S. 2261, 1990 I S. 1337), der zuletzt durch Artikel 1 Nr. 43 des Gesetzes vom 25. Juli 1991 (BGBl. I S. 1606) neu gefasst worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "(1) Die Aufwendungen des Trägers der Rentenversicherung auf Grund von Rentenanwartschaften, die durch Entscheidung des Familiengerichts im Rahmen des Versorgungsausgleichs begründet worden und nach § 225 Abs. 1 Satz 1 oder § 290 Satz 1 des Sechsten Buches Sozialgesetzbuch von dem zuständigen Träger der Versorgungslast zu erstatten sind, werden nach Maßgabe der folgenden Absätze berechnet."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_DL dtd:DL-id59 ;
+    dtd:has_Value "(2) Erstattungsfähig sind vorbehaltlich von Satz 2 alle Aufwendungen, die dem Träger der Rentenversicherung aus Leistungen aus der Versicherung des Ausgleichsberechtigten erwachsen sind (erstattungsfähige Aufwendungen). Aufwendungen, die 1.durch Leistungen entstehen, die auch ohne Durchführung des Versorgungsausgleichs zu erbringen gewesen wären und deren Höhe durch den Versorgungsausgleich nicht berührt wird, 2.auf Leistungen oder Leistungsbestandteilen beruhen, die sich durch die begründeten Rentenanwartschaften nicht erhöht haben, 3.von Dritten zu erstatten sind und 4.auf Rentenleistungen entfallen, denen persönliche Entgeltpunkte in der knappschaftlichen Rentenversicherung zu Grunde liegen, gehören nicht zu den erstattungsfähigen Aufwendungen."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(3) Von dem zuständigen Träger der Versorgungslast zu erstatten ist der Teil der erstattungsfähigen Aufwendungen, der dem Verhältnis der durch den Versorgungsausgleich begründeten persönlichen Entgeltpunkte der Rentenanwartschaft zu den gesamten persönlichen Entgeltpunkten der erstattungsfähigen Rentenanwartschaft im Zeitpunkt des Beginns der jeweiligen Leistung entspricht. Soweit Aufwendungen durch Leistungen entstehen, die nur durch die auf Grund des Versorgungsausgleichs begründeten Rentenanwartschaften zu erbringen waren und deren Höhe durch den Versorgungsausgleich nicht berührt wird, sind sie vom Träger der Versorgungslast in voller Höhe zu erstatten (zu erstattende Aufwendungen). Ändern sich nach dem Beginn einer Rente die durch den Versorgungsausgleich begründeten persönlichen Entgeltpunkte der Rentenanwartschaft oder die gesamten persönlichen Entgeltpunkte der Rentenanwartschaft, so sind die zu erstattenden Aufwendungen aus den vom Zeitpunkt der Änderung an erbrachten Leistungen nach dem neuen Verhältnis der persönlichen Entgeltpunkte zu berechnen."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(4) Die Aufwendungen des Rentenversicherungsträgers bei Leistungen nach § 210 des Sechsten Buches Sozialgesetzbuch sind in Höhe des sich aus der Anwendung des § 210 Abs. 4 des Sechsten Buches Sozialgesetzbuch ergebenden Erhöhungsbetrages zu erstatten."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "(5) Liegen der Versicherung des Ausgleichsberechtigten sowohl Entgeltpunkte als auch Entgeltpunkte (Ost) zu Grunde, ist bei Ermittlung der erstattungsfähigen Rentenleistungen Absatz 3 mit der Maßgabe anzuwenden, dass die Berechnung jeweils getrennt nach Entgeltpunkten und Entgeltpunkten (Ost) erfolgt; bei erstattungsfähigen sonstigen Leistungen stehen Entgeltpunkte (Ost) Entgeltpunkten gleich."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "(6) Die §§ 121 und 123 Abs. 1 und 3 des Sechsten Buches Sozialgesetzbuch finden Anwendung."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "(1) Der Träger der Rentenversicherung soll die zu erstattenden Aufwendungen innerhalb von vier Kalendermonaten nach Ablauf des Kalenderjahres, in dem die Aufwendungen entstanden sind, feststellen und von dem zuständigen Träger der Versorgungslast anfordern (Erstattungsanforderung)."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "(2) Die Erstattungsanforderung ist mit den erforderlichen Angaben über den Verpflichtungsgrund und die Berechnung der zu erstattenden Aufwendungen zu versehen."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "(3) Der Erstattungsanspruch wird sechs Monate nach Eingang der Erstattungsanforderung beim zuständigen Träger der Versorgungslast fällig."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "(4) Der Erstattungsanspruch des Trägers der Rentenversicherung verjährt in vier Jahren nach Ablauf des Kalenderjahres, in dem die Aufwendungen angefordert werden sollen. Für die Hemmung, die Unterbrechung und die Wirkung der Verjährung gelten die Vorschriften des Bürgerlichen Gesetzbuches sinngemäß."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_Value "Diese Verordnung findet erstmals auf die Erstattung der im Jahre 2001 entstehenden Aufwendungen der Träger der Rentenversicherung Anwendung."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 2002 in Kraft."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "VAErstV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-10-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id97 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id98 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id74 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id54 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "VAErstV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "VAErstV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "VAErstV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "VAErstV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "VAErstV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "VAErstV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "VAErstV"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Versorgungsausgleichs-Erstattungsverordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Erstattung von Aufwendungen der Träger
+der Rentenversicherung im Rahmen des Versorgungsausgleichs"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR262800001"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR262800001BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR262800001BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR262800001BJNE000301124"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR262800001BJNE000400310"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR262800001BJNE000500310"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR262800001BJNE000600310"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id97 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id96 a dtd:pre ;
+    dtd:has_BR dtd:BR-id57,
+        dtd:BR-id58 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.2002 +++)"@de .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id100 ;
+    dtd:has_standtyp dtd:standtyp-id99 .
+
+dtd:standkommentar-id100 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 21 G v. 12.6.2020 I 1248"@de .
+
+dtd:standtyp-id99 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id90 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value """Berechnung der zu erstattenden Aufwendungen im Rahmen des
+Versorgungsausgleichs"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Durchführung der Erstattung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Zeitlicher Anwendungsbereich"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id98 a dtd:zitstelle ;
+    dtd:has_Value "2001, 2628"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

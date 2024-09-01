@@ -1,0 +1,822 @@
+@prefix dtd: <urn:KryptoWTransferV-2023#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id84 a dtd:BR .
+
+dtd:BR-id85 a dtd:BR .
+
+dtd:BR-id86 a dtd:BR .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166 .
+
+dtd:Content-id167 a dtd:Content ;
+    dtd:has_TOC dtd:TOC-id162 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169 .
+
+dtd:Content-id170 a dtd:Content ;
+    dtd:has_P dtd:P-id171 .
+
+dtd:Content-id172 a dtd:Content ;
+    dtd:has_P dtd:P-id173,
+        dtd:P-id174 .
+
+dtd:Content-id175 a dtd:Content ;
+    dtd:has_P dtd:P-id176,
+        dtd:P-id177,
+        dtd:P-id178,
+        dtd:P-id179 .
+
+dtd:Content-id180 a dtd:Content ;
+    dtd:has_P dtd:P-id181,
+        dtd:P-id182,
+        dtd:P-id183,
+        dtd:P-id184,
+        dtd:P-id185 .
+
+dtd:Content-id186 a dtd:Content ;
+    dtd:has_P dtd:P-id187 .
+
+dtd:Content-id188 a dtd:Content ;
+    dtd:has_P dtd:P-id189,
+        dtd:P-id190 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DD-id128 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id153 .
+
+dtd:DD-id129 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id154 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id155 .
+
+dtd:DD-id134 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id158 .
+
+dtd:DD-id138 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id156 .
+
+dtd:DD-id139 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id157 .
+
+dtd:DD-id144 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id159 .
+
+dtd:DD-id145 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id160 .
+
+dtd:DD-id146 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id161 .
+
+dtd:DL-id113 a dtd:DL ;
+    dtd:has_DD dtd:DD-id122,
+        dtd:DD-id123,
+        dtd:DD-id124,
+        dtd:DD-id125,
+        dtd:DD-id126,
+        dtd:DD-id127,
+        dtd:DD-id128,
+        dtd:DD-id129 ;
+    dtd:has_DT dtd:DT-id114,
+        dtd:DT-id115,
+        dtd:DT-id116,
+        dtd:DT-id117,
+        dtd:DT-id118,
+        dtd:DT-id119,
+        dtd:DT-id120,
+        dtd:DT-id121 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id130 a dtd:DL ;
+    dtd:has_DD dtd:DD-id133,
+        dtd:DD-id134 ;
+    dtd:has_DT dtd:DT-id131,
+        dtd:DT-id132 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id135 a dtd:DL ;
+    dtd:has_DD dtd:DD-id138,
+        dtd:DD-id139 ;
+    dtd:has_DT dtd:DT-id136,
+        dtd:DT-id137 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id140 a dtd:DL ;
+    dtd:has_DD dtd:DD-id144,
+        dtd:DD-id145,
+        dtd:DD-id146 ;
+    dtd:has_DT dtd:DT-id141,
+        dtd:DT-id142,
+        dtd:DT-id143 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id120 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id121 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id131 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id132 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id136 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id137 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id141 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id142 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id143 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Value "Verpflichteter: ein Verpflichteter nach § 2 Absatz 1 Nummer 1 und 2 des Geldwäschegesetzes;"@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Value "Kryptowert: ein Kryptowert nach § 1 Absatz 29 des Geldwäschegesetzes;"@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Value "Privater kryptografischer Schlüssel: ein elektronischer Schlüssel, der dazu dient, Kryptowerte zu halten, zu speichern oder zu übertragen;"@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_Value "Transfer: ein Transfer von Kryptowerten oder von privaten kryptografischen Schlüsseln im Rahmen des Betreibens von Bankgeschäften im Sinne des § 1 Absatz 1 Satz 2 des Kreditwesengesetzes, der Erbringung von Finanzdienstleistungen im Sinne des § 1 Absatz 1a Satz 2 des Kreditwesengesetzes oder von Wertpapierdienstleistungen im Sinne des § 2 Absatz 2 bis 4 des Wertpapierinstitutsgesetzes, der im Namen eines Auftraggebers mit dem Ziel veranlasst wird, einem Begünstigten Kryptowerte zur Verfügung zu stellen, unabhängig davon, ob Auftraggeber und Begünstigter identisch sind und ob der Kryptowertedienstleister des Auftraggebers und des Begünstigten identisch ist;"@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Value "Kryptowertedienstleister: ein Unternehmen mit Sitz im In- oder Ausland, das in Bezug auf Kryptowerte im In- oder Ausland Bankgeschäfte im Sinne des § 1 Absatz 1 Satz 2 des Kreditwesengesetzes betreibt, Finanzdienstleistungen im Sinne des § 1 Absatz 1a Satz 2 des Kreditwesengesetzes oder Wertpapierdienstleistungen im Sinne des § 2 Absatz 2 bis 4 des Wertpapierinstitutsgesetzes erbringt;"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Value "Auftraggeber: die Person, die den Auftrag zu einem Transfer von Kryptowerten erteilt;"@de .
+
+dtd:LA-id153 a dtd:LA ;
+    dtd:has_Value "Begünstigter: die Person, die Kryptowerte durch den von einem Auftraggeber veranlassten Transfer als Empfänger zur Verfügung gestellt bekommen soll, wobei nicht als Begünstigter gilt, wer ausschließlich an dem Transfer beteiligt ist, weil er Kryptowerte als Gegenleistung für die Validierung des Transfers erhält;"@de .
+
+dtd:LA-id154 a dtd:LA ;
+    dtd:has_Value "Wirtschaftlich Berechtigter: ein wirtschaftlich Berechtigter nach § 3 des Geldwäschegesetzes."@de .
+
+dtd:LA-id155 a dtd:LA ;
+    dtd:has_DL dtd:DL-id135 ;
+    dtd:has_Value "wenn der Verpflichtete, bevor der zuvor angezeigte Zeitraum abgelaufen ist, der zuständigen Aufsichtsbehörde nach § 50 Nummer 1 des Geldwäschegesetzes a)die Verlängerung anzeigt undb)die Verlängerung begründet und"@de .
+
+dtd:LA-id156 a dtd:LA ;
+    dtd:has_Value "die Verlängerung anzeigt und"@de .
+
+dtd:LA-id157 a dtd:LA ;
+    dtd:has_Value "die Verlängerung begründet und"@de .
+
+dtd:LA-id158 a dtd:LA ;
+    dtd:has_Value "wenn der Grund, aus dem der Verpflichtete nicht in der Lage ist, die verstärkten Sorgfaltspflichten nach den §§ 3 und 4 zu erfüllen, weiterhin vorliegt."@de .
+
+dtd:LA-id159 a dtd:LA ;
+    dtd:has_Value "warum der Grund, aus dem der Verpflichtete nicht in der Lage ist, die verstärkten Sorgfaltspflichten nach den §§ 3 und 4 zu erfüllen, weiterhin besteht,"@de .
+
+dtd:LA-id160 a dtd:LA ;
+    dtd:has_Value "warum die Maßnahmen, die der Verpflichtete bisher getroffen hat, um diesen Grund zu beseitigen, diesen Grund doch noch nicht beseitigt haben und"@de .
+
+dtd:LA-id161 a dtd:LA ;
+    dtd:has_Value "mit welchen anderen risikoangemessenen Maßnahmen das mit dem Transfer verbundene Risiko bis zum Außerkrafttreten dieser Verordnung minimiert werden soll."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_BR dtd:BR-id84 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.5.2023 +++)"@de ;
+    dtd:has_pre dtd:pre-id191 .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 15 Absatz 10 Satz 1 Nummer 1 des Geldwäschegesetzes vom 23. Juni 2017 (BGBl. I S. 1822), der durch Artikel 1 Nummer 14 Buchstabe h des Gesetzes vom 12. Dezember 2019 (BGBl. I S. 2602) neu gefasst worden ist, verordnet das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "Diese Verordnung regelt verstärkte Sorgfaltspflichten für Verpflichtete nach § 2 Absatz 1 Nummer 1 und 2 des Geldwäschegesetzes, die Transfers von Kryptowerten im Sinne von § 1 Absatz 29 des Geldwäschegesetzes durchführen."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_DL dtd:DL-id113 ;
+    dtd:has_Value "Im Sinne dieser Rechtsverordnung ist 1.Verpflichteter: ein Verpflichteter nach § 2 Absatz 1 Nummer 1 und 2 des Geldwäschegesetzes;2.Kryptowert: ein Kryptowert nach § 1 Absatz 29 des Geldwäschegesetzes;3.Privater kryptografischer Schlüssel: ein elektronischer Schlüssel, der dazu dient, Kryptowerte zu halten, zu speichern oder zu übertragen;4.Transfer: ein Transfer von Kryptowerten oder von privaten kryptografischen Schlüsseln im Rahmen des Betreibens von Bankgeschäften im Sinne des § 1 Absatz 1 Satz 2 des Kreditwesengesetzes, der Erbringung von Finanzdienstleistungen im Sinne des § 1 Absatz 1a Satz 2 des Kreditwesengesetzes oder von Wertpapierdienstleistungen im Sinne des § 2 Absatz 2 bis 4 des Wertpapierinstitutsgesetzes, der im Namen eines Auftraggebers mit dem Ziel veranlasst wird, einem Begünstigten Kryptowerte zur Verfügung zu stellen, unabhängig davon, ob Auftraggeber und Begünstigter identisch sind und ob der Kryptowertedienstleister des Auftraggebers und des Begünstigten identisch ist;5.Kryptowertedienstleister: ein Unternehmen mit Sitz im In- oder Ausland, das in Bezug auf Kryptowerte im In- oder Ausland Bankgeschäfte im Sinne des § 1 Absatz 1 Satz 2 des Kreditwesengesetzes betreibt, Finanzdienstleistungen im Sinne des § 1 Absatz 1a Satz 2 des Kreditwesengesetzes oder Wertpapierdienstleistungen im Sinne des § 2 Absatz 2 bis 4 des Wertpapierinstitutsgesetzes erbringt;6.Auftraggeber: die Person, die den Auftrag zu einem Transfer von Kryptowerten erteilt;7.Begünstigter: die Person, die Kryptowerte durch den von einem Auftraggeber veranlassten Transfer als Empfänger zur Verfügung gestellt bekommen soll, wobei nicht als Begünstigter gilt, wer ausschließlich an dem Transfer beteiligt ist, weil er Kryptowerte als Gegenleistung für die Validierung des Transfers erhält;8.Wirtschaftlich Berechtigter: ein wirtschaftlich Berechtigter nach § 3 des Geldwäschegesetzes."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(1) Für Verpflichtete, die einen Transfer für den Auftraggeber vornehmen, finden die Vorschriften für Pflichten des Zahlungsdienstleisters des Auftraggebers nach den Artikeln 4 und 6 der Verordnung (EU) 2015/847 des Europäischen Parlaments und des Rates vom 20. Mai 2015 über die Übermittlung von Angaben bei Geldtransfers und zur Aufhebung der Verordnung (EU) Nr. 1781/2006 (ABl. L 141 vom 5.6.2015, S. 1), die durch die Verordnung (EU) 2019/2175 (ABl. L 334 vom 27.12.2019, S. 1) geändert worden ist, entsprechend Anwendung, wenn an dem Transfer für den Auftraggeber und den Begünstigten ausschließlich Kryptowertedienstleister beteiligt sind."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(2) Für Verpflichtete, die einen Transfer für den Begünstigten entgegennehmen, finden die Vorschriften für Pflichten des Zahlungsdienstleisters des Begünstigten nach den Artikeln 7, 8 und 9 der Verordnung (EU) 2015/847 entsprechend Anwendung, wenn an dem Transfer für den Auftraggeber und den Begünstigten ausschließlich Kryptowertedienstleister beteiligt sind."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "(1) Verpflichtete, die für den Auftraggeber einen Transfer vornehmen, ohne dass für den Begünstigten dieses Transfers ein Kryptowertedienstleister handelt, haben das mit dem Transfer verbundene Risiko des Missbrauchs zum Zwecke der Geldwäsche und Terrorismusfinanzierung zu ermitteln und zu bewerten sowie risikoangemessene Maßnahmen zu treffen, um die Risiken von Geldwäsche und Terrorismusfinanzierung zu steuern und zu mindern."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(2) Verpflichtete, die für den Begünstigten einen Transfer entgegennehmen, ohne dass für den Auftraggeber dieses Transfers ein Kryptowertedienstleister handelt, haben das mit dem Transfer verbundene Risiko des Missbrauchs zum Zwecke der Geldwäsche und Terrorismusfinanzierung zu ermitteln und zu bewerten sowie risikoangemessene Maßnahmen zu treffen, um die Risiken von Geldwäsche und Terrorismusfinanzierung zu steuern und zu mindern."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(3) Risikoangemessene Maßnahmen im Sinne der Absätze 1 und 2 sind Maßnahmen, die dem ermittelten Risiko des Transfers in Bezug auf Geldwäsche und Terrorismusfinanzierung entsprechen und die die Nachvollziehbarkeit des Transfers gewährleisten. Risikoangemessen ist insbesondere die Maßnahme der Erhebung, Speicherung und Überprüfung von Name und Anschrift des Begünstigten oder des Auftraggebers, für den kein Kryptowertedienstleister bei dem Transfer handelt und der nicht Vertragspartner des Verpflichteten ist."@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "(4) Die Absätze 1 bis 3 gelten entsprechend hinsichtlich des wirtschaftlich Berechtigten, sofern dieser nicht mit dem Auftraggeber oder Begünstigten identisch ist."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "(1) Verpflichtete, die am 27. Mai 2023 in Bezug auf Kryptowerte Bankgeschäfte im Sinne des § 1 Absatz 1 Satz 2 des Kreditwesengesetzes betreiben, Finanzdienstleistungen im Sinne des § 1 Absatz 1a Satz 2 des Kreditwesengesetzes oder Wertpapierdienstleistungen im Sinne des § 2 Absatz 2 bis 4 des Wertpapierinstitutsgesetzes erbringen, und welche die Pflichten nach den §§ 3 und 4 aus Gründen, die sie nicht zu vertreten haben, nicht oder nicht vollständig erfüllen können, haben dies der zuständigen Aufsichtsbehörde nach § 50 Nummer 1 des Geldwäschegesetzes bis zum 30. Juni 2023 anzuzeigen und bis zum 31. Juli 2023 zu begründen. Die Pflicht zur Anzeige und Begründung entfällt jedoch, soweit der Verpflichtete bereits eine Anzeige nach § 5 Absatz 1 oder 2 der Kryptowertetransferverordnung in der am 26. Mai 2023 geltenden Fassung gemacht hat."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(2) Nehmen Verpflichtete derartige Bankgeschäfte, Finanzdienstleistungen oder Wertpapierdienstleistungen erstmals nach dem 27. Mai 2023 auf, gilt Absatz 1 Satz 1 mit der Maßgabe, dass die Anzeige einschließlich Begründung bei Aufnahme zu erfolgen hat."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_DL dtd:DL-id130,
+        dtd:DL-id140 ;
+    dtd:has_Value "(3) In die Begründung sind Angaben zum Hinderungsgrund und zu den Maßnahmen aufzunehmen, die getroffen werden, um den Hinderungsgrund zu beseitigen. Zudem ist der Zeitraum anzugeben, in dem die Beseitigung des Hinderungsgrundes voraussichtlich erfolgen wird, und es ist zu bezeichnen, welche anderen risikoangemessenen Maßnahmen währenddessen bei der Durchführung von Transfers ergriffen werden. Der angegebene Zeitraum nach Satz 2 darf höchstens zwölf Monate betragen. Eine Verlängerung um bis zu weitere zwölf Monate ist jedoch zulässig, 1.wenn der Verpflichtete, bevor der zuvor angezeigte Zeitraum abgelaufen ist, der zuständigen Aufsichtsbehörde nach § 50 Nummer 1 des Geldwäschegesetzes a)die Verlängerung anzeigt undb)die Verlängerung begründet und2.wenn der Grund, aus dem der Verpflichtete nicht in der Lage ist, die verstärkten Sorgfaltspflichten nach den §§ 3 und 4 zu erfüllen, weiterhin vorliegt.In der Begründung der Verlängerung muss zusätzlich angegeben werden, 1.warum der Grund, aus dem der Verpflichtete nicht in der Lage ist, die verstärkten Sorgfaltspflichten nach den §§ 3 und 4 zu erfüllen, weiterhin besteht,2.warum die Maßnahmen, die der Verpflichtete bisher getroffen hat, um diesen Grund zu beseitigen, diesen Grund doch noch nicht beseitigt haben und3.mit welchen anderen risikoangemessenen Maßnahmen das mit dem Transfer verbundene Risiko bis zum Außerkrafttreten dieser Verordnung minimiert werden soll."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "(4) Die zuständige Aufsichtsbehörde nach § 50 Nummer 1 des Geldwäschegesetzes bestätigt den Eingang einer erstmaligen Anzeige nach Absatz 1 oder Absatz 2 und einer Verlängerungsanzeige nach Absatz 3 Satz 4 und prüft, ob die formalen Voraussetzungen nach den Absätzen 1, 2 und 3 erfüllt und die vorgetragenen Hinderungsgründe hinreichend plausibel sind. Ist dies nicht der Fall, so teilt sie dies dem Verpflichteten innerhalb von zwei Monaten nach Eingang der Begründung oder der Verlängerungsanzeige mit."@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_Value "(5) Die Anzeige nach Absatz 1 oder Absatz 2 und die Verlängerungsanzeige nach Absatz 3 Satz 4 führen zur Aussetzung der Pflichten nach den §§ 3 und 4 für den in der Anzeige angegebenen und nach Absatz 3 zulässigen Zeitraum, sofern und solange die zuständige Aufsichtsbehörde nach § 50 Nummer 1 des Geldwäschegesetzes keine Mitteilung nach Absatz 4 Satz 2 abgegeben hat. Ausgenommen von der Aussetzung der verstärkten Sorgfaltspflichten nach den §§ 3 und 4 sind jedoch die Transfers, bei denen der Kryptowertedienstleister des Auftraggebers und des Begünstigten identisch ist."@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_Value "Diese Verordnung wird bis zum 30. Juni 2024 durch das Bundesministerium der Finanzen auf der Grundlage eines Berichts der zuständigen Aufsichtsbehörde nach § 50 Nummer 1 des Geldwäschegesetzes evaluiert, sofern nicht bis zu diesem Zeitpunkt die Neufassung der Verordnung (EU) 2015/847 in Kraft getreten ist."@de .
+
+dtd:P-id189 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt am 27. Mai 2023 in Kraft. Gleichzeitig tritt die Kryptowertetransferverordnung vom 24. September 2021 (BGBl. I S. 4465) außer Kraft."@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_Value "(2) Diese Verordnung tritt an dem Tag außer Kraft, ab dem die Neufassung der Verordnung (EU) 2015/847 gilt. Der Tag des Außerkrafttretens wird vom Bundesministerium der Finanzen im Bundesgesetzblatt bekanntgegeben."@de .
+
+dtd:TOC-id162 a dtd:TOC ;
+    dtd:has_table dtd:table-id87 .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2023-05-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id89 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "8*"@de .
+
+dtd:colspec-id90 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "157*"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Inhaltsübersicht"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Regelungsbereich"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 2"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 3"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Pflicht zur Erhebung, Speicherung und Übermittlung von Daten bei Transfers zwischen Kryptowertedienstleistern"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 4"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Pflicht zur Erhebung und Speicherung von Daten bei Transfers, an denen nicht ausschließlich Kryptowertedienstleister beteiligt sind"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 5"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Übergangsbestimmungen"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 6"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Evaluierung"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 7"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Inkrafttreten; Außerkrafttreten"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 1"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id192 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id193 .
+
+dtd:fussnoten-id74 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id163 .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV 2023"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "KryptoWTransferV"@de .
+
+dtd:kurzue-id36 a dtd:kurzue ;
+    dtd:has_Value "Kryptowertetransferverordnung"@de .
+
+dtd:langue-id37 a dtd:langue ;
+    dtd:has_Value "Verordnung über verstärkte Sorgfaltspflichten bei dem Transfer von Kryptowerten"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id36 ;
+    dtd:has_langue dtd:langue-id37 ;
+    dtd:has_standangabe dtd:standangabe-id38,
+        dtd:standangabe-id39 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id40,
+        dtd:jurabk-id41 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id43,
+        dtd:jurabk-id44 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id46,
+        dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id50,
+        dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id54,
+        dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id58,
+        dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id62,
+        dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id66,
+        dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id70,
+        dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20230526214012"@de ;
+    dtd:has_doknr "BJNR0870A0023BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id192 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id191 a dtd:pre ;
+    dtd:has_BR dtd:BR-id85,
+        dtd:BR-id86 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.5.2023 +++)"@de .
+
+dtd:row-id92 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id99 .
+
+dtd:row-id93 a dtd:row ;
+    dtd:has_entry dtd:entry-id101,
+        dtd:entry-id102 .
+
+dtd:row-id94 a dtd:row ;
+    dtd:has_entry dtd:entry-id103,
+        dtd:entry-id104 .
+
+dtd:row-id95 a dtd:row ;
+    dtd:has_entry dtd:entry-id105,
+        dtd:entry-id106 .
+
+dtd:row-id96 a dtd:row ;
+    dtd:has_entry dtd:entry-id107,
+        dtd:entry-id108 .
+
+dtd:row-id97 a dtd:row ;
+    dtd:has_entry dtd:entry-id109,
+        dtd:entry-id110 .
+
+dtd:row-id98 a dtd:row ;
+    dtd:has_entry dtd:entry-id111,
+        dtd:entry-id112 .
+
+dtd:standangabe-id38 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id195 ;
+    dtd:has_standtyp dtd:standtyp-id194 .
+
+dtd:standangabe-id39 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id197 ;
+    dtd:has_standtyp dtd:standtyp-id196 .
+
+dtd:standkommentar-id195 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 7 Abs. 2 Satz 1 dieser V an dem Tag außer Kraft, ab dem die Neufassung der Verordnung (EU) 2015/847 gilt"@de .
+
+dtd:standkommentar-id197 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 7613-3-8 v. 24.9.2021 I 4465 (KryptoWTransferV)"@de .
+
+dtd:standtyp-id194 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:standtyp-id196 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:table-id87 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id88 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id91 a dtd:tbody ;
+    dtd:has_row dtd:row-id92,
+        dtd:row-id93,
+        dtd:row-id94,
+        dtd:row-id95,
+        dtd:row-id96,
+        dtd:row-id97,
+        dtd:row-id98 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id167 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id170 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id172 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id175 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id180 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id186 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id188 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:tgroup-id88 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id89,
+        dtd:colspec-id90 ;
+    dtd:has_tbody dtd:tbody-id91 .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Regelungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Pflicht zur Erhebung, Speicherung und Übermittlung von Daten bei Transfers zwischen Kryptowertedienstleistern"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Pflicht zur Erhebung und Speicherung von Daten bei Transfers, an denen nicht ausschließlich Kryptowertedienstleister beteiligt sind"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Übergangsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Evaluierung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten; Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id193 a dtd:zitstelle ;
+    dtd:has_Value "2023, Nr. 135"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

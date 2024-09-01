@@ -1,0 +1,472 @@
+@prefix dtd: <urn:PrümVtrAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:BR-id81 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102,
+        dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111,
+        dtd:P-id112,
+        dtd:P-id113 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92 .
+
+dtd:Content-id93 a dtd:Content ;
+    dtd:has_P dtd:P-id94 .
+
+dtd:Content-id95 a dtd:Content ;
+    dtd:has_P dtd:P-id96,
+        dtd:P-id97,
+        dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DL-id82 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86 ;
+    dtd:has_DT dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für jeden zugriffsberechtigten Bearbeiter eine Kennung zu vergeben ist, die ihn eindeutig identifiziert, und"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der zugriffsberechtigte Bearbeiter diese Kennung bei jedem Abruf und jeder Übermittlung nutzen muss."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "DNA-Identifizierungsmuster dürfen über die Vorschriften des Bundeskriminalamtgesetzes hinaus auch für einen automatisierten Abruf oder Abgleich nach den Artikeln 3 und 4 des Prümer Vertrags oder nach den Artikeln 3 und 4 des Ratsbeschlusses Prüm verwendet werden."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(1) Soweit der Prümer Vertrag oder der Ratsbeschluss Prüm eine zweckändernde Verwendung der unter den dortigen Voraussetzungen übermittelten personenbezogenen Daten zulassen, entscheidet das Bundeskriminalamt über die Erteilung der Zustimmung nach Artikel 35 Abs. 1 Satz 1 und Artikel 36 Satz 2 des Prümer Vertrags oder Artikel 26 Abs. 1 Satz 2 und Artikel 27 Satz 2 des Ratsbeschlusses Prüm. Dies gilt nicht für Daten, die nach Artikel 7 des Prümer Vertrags oder Artikel 7 des Ratsbeschlusses Prüm übermittelt worden sind."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(2) Das Bundeskriminalamt kann die Zustimmung zur Verwendung dieser Daten in entsprechender Anwendung des § 27 Abs. 1 des Bundeskriminalamtgesetzes erteilen. Handelt es sich um Daten, die dem Bundeskriminalamt von einer anderen innerstaatlichen Stelle übermittelt worden sind, entscheidet das Bundeskriminalamt im Einvernehmen mit dieser Stelle."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "Bestreitet der Betroffene nach Artikel 37 Abs. 2 des Prümer Vertrags oder Artikel 28 Abs. 2 des Ratsbeschlusses Prüm die Richtigkeit von in Datenbanken gespeicherten Daten und lässt sich weder die Richtigkeit noch die Unrichtigkeit feststellen, sind die Daten entsprechend zu kennzeichnen."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_DL dtd:DL-id82 ;
+    dtd:has_Value "In dem Verzeichnis nach § 78 des Bundeskriminalamtgesetzes wird für die DNA-Analyse-Datei nach Artikel 2 des Prümer Vertrags oder Artikel 2 des Ratsbeschlusses Prüm und für das daktyloskopische Identifizierungssystem nach Artikel 8 des Prümer Vertrags oder Artikel 8 des Ratsbeschlusses Prüm ergänzend festgelegt, dass 1.für jeden zugriffsberechtigten Bearbeiter eine Kennung zu vergeben ist, die ihn eindeutig identifiziert, und2.der zugriffsberechtigte Bearbeiter diese Kennung bei jedem Abruf und jeder Übermittlung nutzen muss.Die Einzelheiten sind in dem Verzeichnis nach § 78 des Bundeskriminalamtgesetzes zu regeln."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit nimmt die Aufgaben der für die Datenschutzkontrolle zuständigen unabhängigen Stelle nach Artikel 39 Abs. 5 des Prümer Vertrags oder Artikel 30 Abs. 5 des Ratsbeschlusses Prüm wahr. Die Zuständigkeiten für die Datenschutzkontrolle in den Ländern bleiben unberührt."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesrepublik Deutschland haftet für Schäden, die durch die Verletzung von Datenschutzrechten im Sinne des Artikels 40 Abs. 1 Satz 3 des Prümer Vertrags oder des Artikels 31 Abs. 1 Satz 3 des Ratsbeschlusses Prüm entstanden sind, vorbehaltlich des Artikels 40 Abs. 2 Satz 1 des Prümer Vertrags oder des Artikels 31 Abs. 2 Satz 1 des Ratsbeschlusses Prüm nach Maßgabe ihres nationalen Rechts."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(2) Bei Ansprüchen infolge von Maßnahmen nach den Artikeln 3, 4, 5, 8, 9, 10, 14 und 16 sowie nach Artikel 12 des Prümer Vertrags oder nach den Artikeln 3, 4, 5, 8, 9, 10, 14 und 16 sowie nach Artikel 12 des Ratsbeschlusses Prüm, soweit es sich um Ersuchen an andere Vertragsstaaten des Prümer Vertrags oder andere Mitgliedstaaten der Europäischen Union handelt, wird die Bundesrepublik Deutschland durch das Bundeskriminalamt vertreten. Bei Ansprüchen infolge von Ersuchen der anderen Vertragsstaaten des Prümer Vertrags nach Artikel 12 des Prümer Vertrags oder der anderen Mitgliedstaaten der Europäischen Union nach Artikel 12 des Ratsbeschlusses Prüm wird die Bundesrepublik Deutschland durch das Kraftfahrt-Bundesamt vertreten."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(3) Ist die Bundesrepublik Deutschland zum Ersatz des Schadens verpflichtet oder erstattet die Bundesrepublik Deutschland Schadenersatzleistungen anderer Vertragsstaaten des Prümer Vertrags nach Artikel 40 Abs. 2 Satz 2 des Prümer Vertrags oder anderer Mitgliedstaaten der Europäischen Union nach Artikel 31 Abs. 2 Satz 2 des Ratsbeschlusses Prüm und ist der Schaden der datenschutzrechtlichen Verantwortlichkeit eines Landes zuzurechnen, ist dieses der Bundesrepublik Deutschland zum Ausgleich verpflichtet."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_BR dtd:BR-id77,
+        dtd:BR-id80,
+        dtd:BR-id81 ;
+    dtd:has_Value " (+++ Textnachweis ab: 23.11.2006 +++)Das G wurde als Artikel 1 des G v. 10.7.2006 I 1458 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es tritt gem. Art. 3 Abs. 2 dieses Gesetzes an dem Tag in Kraft, an dem der Vertrag vom 27. Mai 2005 zwischen dem Königreich Belgien, der Bundesrepublik Deutschland, dem Königreich Spanien, der Französischen Republik, dem Großherzogtum Luxemburg, dem Königreich der Niederlande und der Republik Österreich über die Vertiefung der grenzüberschreitenden Zusammenarbeit, insbesondere zur Bekämpfung des Terrorismus, der grenzüberschreitenden Kriminalität und der illegalen Migration (BGBl. 2006 II S. 626) (Prümer Vertrag) nach seinem Artikel 50 Abs. 1 für die Bundesrepulbik Deutschland in Kraft tritt.  Überschrift: Bezeichnung idF d. Art. 1 Nr. 1 G v. 31.7.2009 I 2507 mWv 5.8.2009"@de ;
+    dtd:has_pre dtd:pre-id114 .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_Value "Die Bestimmungen des Beschlusses des Rates 2008/615/JI vom 23. Juni 2008 zur Vertiefung der grenzüberschreitenden Zusammenarbeit, insbesondere zur Bekämpfung des Terrorismus und der grenzüberschreitenden Kriminalität (Ratsbeschluss Prüm, ABl. L 210 vom 6.8.2008, S. 1) sind bei der polizeilichen und justiziellen Zusammenarbeit in Strafsachen mit den Mitgliedstaaten der Europäischen Union anwendbar."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(1) Zuständige nationale Kontaktstelle nach Artikel 6 Abs. 1, Artikel 11 Abs. 1 sowie den Artikeln 15 und 16 Abs. 3 des Vertrags vom 27. Mai 2005 zwischen dem Königreich Belgien, der Bundesrepublik Deutschland, dem Königreich Spanien, der Französischen Republik, dem Großherzogtum Luxemburg, dem Königreich der Niederlande und der Republik Österreich über die Vertiefung der grenzüberschreitenden Zusammenarbeit, insbesondere zur Bekämpfung des Terrorismus, der grenzüberschreitenden Kriminalität und der illegalen Migration (BGBl. 2006 II S. 626) (Prümer Vertrag) ist das Bundeskriminalamt. Zuständige nationale Kontaktstelle nach Artikel 6 Abs. 1, Artikel 11 Abs. 1 sowie den Artikeln 15 und 16 Abs. 3 des Ratsbeschlusses Prüm ist das Bundeskriminalamt."@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "(2) Zuständige nationale Kontaktstelle für Abrufe der anderen Vertragsstaaten des Prümer Vertrags und der anderen Mitgliedstaaten der Europäischen Union aus dem Zentralen Fahrzeugregister des Kraftfahrt-Bundesamtes (§ 31 Abs. 2 des Straßenverkehrsgesetzes) nach Artikel 12 Abs. 1 des Prümer Vertrags oder Artikel 12 Abs. 1 des Ratsbeschlusses Prüm ist das Kraftfahrt-Bundesamt. Für Abrufe aus den Fahrzeugregistern der anderen Vertragsstaaten des Prümer Vertrags und der anderen Mitgliedstaaten der Europäischen Union nach Artikel 12 Abs. 1 des Prümer Vertrags oder Artikel 12 Abs. 1 des Ratsbeschlusses Prüm ist das Bundeskriminalamt zuständige nationale Kontaktstelle."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(3) Die datenschutzrechtliche Verantwortung für die Zulässigkeit eines vom Bundeskriminalamt als nationaler Kontaktstelle durchgeführten Abrufs oder Abgleichs trägt innerstaatlich die Stelle, die das Bundeskriminalamt um die Durchführung des Abrufs oder Abgleichs ersucht hat."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2006-07-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id115 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id116 .
+
+dtd:fussnoten-id60 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id91 .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:fussnoten-id72 a dtd:fussnoten .
+
+dtd:fussnoten-id74 a dtd:fussnoten .
+
+dtd:fussnoten-id76 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "PrümVtrAG"@de .
+
+dtd:langue-id32 a dtd:langue ;
+    dtd:has_Value "Ausführungsgesetz zum Prümer Vertrag und zum Ratsbeschluss Prüm"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_langue dtd:langue-id32 ;
+    dtd:has_standangabe dtd:standangabe-id33,
+        dtd:standangabe-id34 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006BJNE000701160"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006BJNE000800112"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006BJNE000101160"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006BJNE000201160"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006BJNE000302311"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006BJNE000401160"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006BJNE000502311"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20180524213036"@de ;
+    dtd:has_doknr "BJNR145810006BJNE000601160"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id115 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id114 a dtd:pre ;
+    dtd:has_BR dtd:BR-id78,
+        dtd:BR-id79 ;
+    dtd:has_Value "(+++ Textnachweis ab: 23.11.2006 +++)"@de .
+
+dtd:standangabe-id33 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id118 ;
+    dtd:has_standtyp dtd:standtyp-id117 .
+
+dtd:standangabe-id34 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id120 ;
+    dtd:has_standtyp dtd:standtyp-id119 .
+
+dtd:standkommentar-id118 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 6 G v. 1.6.2017 I 1354"@de .
+
+dtd:standkommentar-id120 a dtd:standkommentar ;
+    dtd:has_Value "G in Kraft gem. Bek. v. 21.6.2007 II 857 mWv 23.11.2006"@de .
+
+dtd:standtyp-id117 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id119 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id93 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id95 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Unmittelbare Anwendbarkeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Nationale Kontaktstelle und Verantwortung für die Zulässigkeit des Abrufs oder Abgleichs"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Automatisierter Abruf oder Abgleich von DNA-Identifizierungsmustern"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Zustimmung zur Zweckänderung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Kennzeichnung von personenbezogenen Daten in Datenbanken"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Kennung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Bundesbeauftragter für den Datenschutz und die Informationsfreiheit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Schadenersatz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id116 a dtd:zitstelle ;
+    dtd:has_Value "2006, 1458; 2007 II 857"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

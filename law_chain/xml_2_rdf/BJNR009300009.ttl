@@ -1,0 +1,207 @@
+@prefix dtd: <urn:AusbBerAufhV-3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150224"@de ;
+    dtd:has_doknr "BJNR009300009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_Value " (+++ Textnachweis ab: 31.1.2009 +++)"@de ;
+    dtd:has_pre dtd:pre-id50 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 4 Absatz 1 in Verbindung mit § 104 des Berufsbildungsgesetzes vom 23. März 2005 (BGBl. I S. 931), von denen § 4 Absatz 1 durch Artikel 232 Nummer 1 der Verordnung vom 31. Oktober 2006 (BGBl. I S. 2407) geändert worden ist, verordnet das Bundesministerium für Wirtschaft und Technologie im Einvernehmen mit dem Bundesministerium für Bildung und Forschung:"@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Die Anerkennung des Ausbildungsberufes Schiffszimmerer/Schiffszimmerin wird aufgehoben."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Personen, die vor Inkrafttreten dieser Verordnung in dem in § 1 genannten Ausbildungsberuf ausgebildet worden sind oder im Zeitpunkt des Inkrafttretens dieser Verordnung darin ausgebildet werden und diese Berufsausbildung nach § 4 Absatz 4 des Berufsbildungsgesetzes fortsetzen, bleiben in ihrem Ausbildungsstatus unberührt."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-01-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id51 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id52 .
+
+dtd:fussnoten-id32 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id40 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "AusbBerAufhV 3"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "AusbBerAufhV 3"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "AusbBerAufhV 3"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "AusbBerAufhV 3"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "AusbBerAufhV 3"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Dritte Verordnung über die Aufhebung der Anerkennung von Ausbildungsberufen"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150224"@de ;
+    dtd:has_doknr "BJNR009300009"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150224"@de ;
+    dtd:has_doknr "BJNR009300009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150224"@de ;
+    dtd:has_doknr "BJNR009300009BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150224"@de ;
+    dtd:has_doknr "BJNR009300009BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625150224"@de ;
+    dtd:has_doknr "BJNR009300009BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id51 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id50 a dtd:pre ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_Value "(+++ Textnachweis ab: 31.1.2009 +++)"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Aufhebung der Anerkennung des Ausbildungsberufes Schiffszimmerer/Schiffszimmerin"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Besitzstandswahrung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id52 a dtd:zitstelle ;
+    dtd:has_Value "2009, 93"@de .
+

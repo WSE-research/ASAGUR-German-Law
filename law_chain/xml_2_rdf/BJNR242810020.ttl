@@ -1,0 +1,690 @@
+@prefix dtd: <urn:UVPPortV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20211031213013"@de ;
+    dtd:has_doknr "BJNR242810020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153,
+        dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156,
+        dtd:P-id157 .
+
+dtd:Content-id158 a dtd:Content ;
+    dtd:has_P dtd:P-id159,
+        dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162,
+        dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165,
+        dtd:P-id166,
+        dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id108,
+        dtd:DD-id109 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id110 a dtd:DL ;
+    dtd:has_DD dtd:DD-id114,
+        dtd:DD-id115,
+        dtd:DD-id116 ;
+    dtd:has_DT dtd:DT-id111,
+        dtd:DT-id112,
+        dtd:DT-id113 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id117 a dtd:DL ;
+    dtd:has_DD dtd:DD-id120,
+        dtd:DD-id121 ;
+    dtd:has_DT dtd:DT-id118,
+        dtd:DT-id119 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id57 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61 ;
+    dtd:has_DT dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id62 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68,
+        dtd:DD-id69,
+        dtd:DD-id70,
+        dtd:DD-id71,
+        dtd:DD-id72 ;
+    dtd:has_DT dtd:DT-id63,
+        dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66,
+        dtd:DT-id67 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80,
+        dtd:DD-id81 ;
+    dtd:has_DT dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id82 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86 ;
+    dtd:has_DT dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id87 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91 ;
+    dtd:has_DT dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id92 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103,
+        dtd:DD-id104,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id93,
+        dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96,
+        dtd:DT-id97,
+        dtd:DT-id98 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Value "für das zentrale Internetportal des Bundes, das nach § 20 Absatz 1 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung einzurichten ist, und"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Value "für die zentralen Internetportale der Länder, die nach § 20 Absatz 1 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung einzurichten sind."@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Value "der Inhalt der Bekanntmachung a)zu Beginn des Beteiligungsverfahrens nach § 19 Absatz 1 des Gesetzes über die Umweltverträglichkeitsprüfung,b)der Entscheidung zur Zulassung oder Ablehnung des Vorhabens nach § 27 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung,c)bei ausländischen Vorhaben nach § 59 Absatz 1 und 2 in Verbindung mit Absatz 4 des Gesetzes über die Umweltverträglichkeitsprüfung undd)der Entscheidung der ausländischen Behörde nach § 59 Absatz 5 in Verbindung mit § 27 des Gesetzes über die Umweltverträglichkeitsprüfung, soweit Rechtsvorschriften des Bundes oder der Länder für die Form der Bekanntmachung nicht etwas Abweichendes regeln,"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Value "zu Beginn des Beteiligungsverfahrens nach § 19 Absatz 1 des Gesetzes über die Umweltverträglichkeitsprüfung,"@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Value "der Entscheidung zur Zulassung oder Ablehnung des Vorhabens nach § 27 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung,"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Value "bei ausländischen Vorhaben nach § 59 Absatz 1 und 2 in Verbindung mit Absatz 4 des Gesetzes über die Umweltverträglichkeitsprüfung und"@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Value "der Entscheidung der ausländischen Behörde nach § 59 Absatz 5 in Verbindung mit § 27 des Gesetzes über die Umweltverträglichkeitsprüfung, soweit Rechtsvorschriften des Bundes oder der Länder für die Form der Bekanntmachung nicht etwas Abweichendes regeln,"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Value "der UVP-Bericht nach § 16 des Gesetzes über die Umweltverträglichkeitsprüfung,"@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Value "die das Vorhaben betreffenden entscheidungserheblichen Berichte und Empfehlungen nach § 19 Absatz 2 Satz 1 Nummer 2 des Gesetzes über die Umweltverträglichkeitsprüfung,"@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Value "die übermittelten Unterlagen nach § 59 Absatz 3 in Verbindung mit Absatz 1 und 4 des Gesetzes über die Umweltverträglichkeitsprüfung sowie"@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_DL dtd:DL-id82 ;
+    dtd:has_Value "der Bescheid a)zur Zulassung oder Ablehnung des Vorhabens nach § 27 des Gesetzes über die Umweltverträglichkeitsprüfung undb)der ausländischen Behörde, der nach § 59 Absatz 5 in Verbindung mit § 27 des Gesetzes über die Umweltverträglichkeitsprüfung auszulegen ist, soweit Rechtsvorschriften des Bundes oder der Länder für die Form der Zugänglichmachung des Bescheids nicht etwas Abweichendes regeln."@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Value "zur Zulassung oder Ablehnung des Vorhabens nach § 27 des Gesetzes über die Umweltverträglichkeitsprüfung und"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Value "der ausländischen Behörde, der nach § 59 Absatz 5 in Verbindung mit § 27 des Gesetzes über die Umweltverträglichkeitsprüfung auszulegen ist, soweit Rechtsvorschriften des Bundes oder der Länder für die Form der Zugänglichmachung des Bescheids nicht etwas Abweichendes regeln."@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Value "für den Bund nach § 20 Absatz 1 Satz 3 des Gesetzes über die Umweltverträglichkeitsprüfung das Umweltbundesamt und"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Value "für die Länder die Behörde, die dafür zuständig ist, das zentrale Internetportal des Landes aufzubauen und zu betreiben."@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Value "einen kosten- und anmeldefreien Zugang,"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Value "eine interaktive Kartenansicht, auf der die Vorhaben markiert sind,"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "eine Listenansicht aller Vorhaben, in der zu jedem Vorhaben angezeigt werden a)die jeweilige Bezeichnung des Vorhabens undb)die allgemein verständliche Bezeichnung der Kategorie des Vorhabens,"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Value "die jeweilige Bezeichnung des Vorhabens und"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Value "die allgemein verständliche Bezeichnung der Kategorie des Vorhabens,"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_DL dtd:DL-id110 ;
+    dtd:has_Value "eine Vorhaben-Detailseite, auf der gesammelt zu einem Vorhaben angezeigt werden a)die in Nummer 3 genannten Bezeichnungen,b)eine kurze Beschreibung des Vorhabens undc)die im Sinne des § 20 Absatz 2 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung zuständige Behörde sowie ihre Kontaktdaten,"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Value "die in Nummer 3 genannten Bezeichnungen,"@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Value "eine kurze Beschreibung des Vorhabens und"@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Value "die im Sinne des § 20 Absatz 2 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung zuständige Behörde sowie ihre Kontaktdaten,"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Value "eine Suchfunktion in der Listenansicht aller Vorhaben, mit der Vorhaben nach der Vorhabenbezeichnung gesucht werden können, und"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Value "eine Filterfunktion in der Listenansicht aller Vorhaben, mit der Vorhaben nach der Vorhabenkategorie gefiltert werden können."@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Value "wie sie für die Öffentlichkeit über das zentrale Internetportal zugänglich sind und"@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Value "wie es zum Zweck der Berichterstattung an die Europäische Kommission nach § 73 des Gesetzes über die Umweltverträglichkeitsprüfung erforderlich ist; sie darf die Daten jedoch längstens speichern jeweils bis zum Ablauf von zwei Jahren nach dem Zeitpunkt, zu dem die Angaben im Sinne des § 73 des Gesetzes über die Umweltverträglichkeitsprüfung dem für Umweltschutz zuständigen Bundesministerium mitgeteilt worden sind."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_BR dtd:BR-id54 ;
+    dtd:has_Value " (+++ Textnachweis ab: 24.11.2020 +++)Die V wurde als Artikel 1 der V v. 11.11.2020 I 2428 von der Bundesregierung und dem Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit mit Zustimmung des Bundesrates beschlossen. Sie ist gem. Art. 4 Abs. 1 dieser V am  24.11.2020 in Kraft getreten. § 3 tritt gem. Art. 4 Abs. 2 dieser V am 1.11.2021 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id170 .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_DL dtd:DL-id57 ;
+    dtd:has_Value "(1) Diese Verordnung gilt 1.für das zentrale Internetportal des Bundes, das nach § 20 Absatz 1 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung einzurichten ist, und2.für die zentralen Internetportale der Länder, die nach § 20 Absatz 1 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung einzurichten sind."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(2) Verpflichtungen nach den Bestimmungen des Bundes und der Länder über den Zugang zu Umweltinformationen bleiben unberührt."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_DL dtd:DL-id62 ;
+    dtd:has_Value "(1) Daten im Sinne dieser Verordnung sind 1.der Inhalt der Bekanntmachung a)zu Beginn des Beteiligungsverfahrens nach § 19 Absatz 1 des Gesetzes über die Umweltverträglichkeitsprüfung,b)der Entscheidung zur Zulassung oder Ablehnung des Vorhabens nach § 27 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung,c)bei ausländischen Vorhaben nach § 59 Absatz 1 und 2 in Verbindung mit Absatz 4 des Gesetzes über die Umweltverträglichkeitsprüfung undd)der Entscheidung der ausländischen Behörde nach § 59 Absatz 5 in Verbindung mit § 27 des Gesetzes über die Umweltverträglichkeitsprüfung, soweit Rechtsvorschriften des Bundes oder der Länder für die Form der Bekanntmachung nicht etwas Abweichendes regeln,2.der UVP-Bericht nach § 16 des Gesetzes über die Umweltverträglichkeitsprüfung,3.die das Vorhaben betreffenden entscheidungserheblichen Berichte und Empfehlungen nach § 19 Absatz 2 Satz 1 Nummer 2 des Gesetzes über die Umweltverträglichkeitsprüfung,4.die übermittelten Unterlagen nach § 59 Absatz 3 in Verbindung mit Absatz 1 und 4 des Gesetzes über die Umweltverträglichkeitsprüfung sowie5.der Bescheid a)zur Zulassung oder Ablehnung des Vorhabens nach § 27 des Gesetzes über die Umweltverträglichkeitsprüfung undb)der ausländischen Behörde, der nach § 59 Absatz 5 in Verbindung mit § 27 des Gesetzes über die Umweltverträglichkeitsprüfung auszulegen ist, soweit Rechtsvorschriften des Bundes oder der Länder für die Form der Zugänglichmachung des Bescheids nicht etwas Abweichendes regeln."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_DL dtd:DL-id87 ;
+    dtd:has_Value "(2) Portalbetreibende Behörde im Sinne dieser Verordnung ist 1.für den Bund nach § 20 Absatz 1 Satz 3 des Gesetzes über die Umweltverträglichkeitsprüfung das Umweltbundesamt und2.für die Länder die Behörde, die dafür zuständig ist, das zentrale Internetportal des Landes aufzubauen und zu betreiben."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_DL dtd:DL-id92 ;
+    dtd:has_Value "(1) Zur Ermöglichung eines einfachen Zugangs zu den Daten werden die zentralen Internetportale von der portalbetreibenden Behörde so aufgebaut und betrieben, dass sie die folgenden Funktionen umfassen: 1.einen kosten- und anmeldefreien Zugang,2.eine interaktive Kartenansicht, auf der die Vorhaben markiert sind,3.eine Listenansicht aller Vorhaben, in der zu jedem Vorhaben angezeigt werden a)die jeweilige Bezeichnung des Vorhabens undb)die allgemein verständliche Bezeichnung der Kategorie des Vorhabens,4.eine Vorhaben-Detailseite, auf der gesammelt zu einem Vorhaben angezeigt werden a)die in Nummer 3 genannten Bezeichnungen,b)eine kurze Beschreibung des Vorhabens undc)die im Sinne des § 20 Absatz 2 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung zuständige Behörde sowie ihre Kontaktdaten,5.eine Suchfunktion in der Listenansicht aller Vorhaben, mit der Vorhaben nach der Vorhabenbezeichnung gesucht werden können, und6.eine Filterfunktion in der Listenansicht aller Vorhaben, mit der Vorhaben nach der Vorhabenkategorie gefiltert werden können."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(2) Die portalbetreibende Behörde kann weitere Funktionen im zentralen Internetportal zur Verfügung stellen, insbesondere um dem technischen Fortschritt Rechnung zu tragen und den Zugang zu den Daten weiter zu erleichtern."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(1) Die im Sinne des § 20 Absatz 2 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung zuständige Behörde stellt sicher, dass die Daten über das zentrale Internetportal in einer solchen Art und Weise zugänglich gemacht werden und zugänglich bleiben, dass sie von den Nutzern des zentralen Internetportals gespeichert und ausgedruckt werden können. § 23 des Gesetzes über die Umweltverträglichkeitsprüfung bleibt unberührt."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(2) Die portalbetreibende Behörde stellt durch einen entsprechenden Aufbau und Betrieb des zentralen Internetportals nach Maßgabe des § 3 Absatz 1 sicher, dass die im Sinne des § 20 Absatz 2 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung zuständige Behörde ihre Verpflichtung nach Absatz 1 erfüllen kann."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(1) Die Daten gemäß § 2 Absatz 1 Nummer 1 Buchstabe a und c sowie Nummer 2 bis 4 sind von der im Sinne des § 20 Absatz 2 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung zuständigen Behörde bis zum Ablauf der Auslegungsfrist gemäß § 18 Absatz 1 Satz 4 des Gesetzes über die Umweltverträglichkeitsprüfung in Verbindung mit § 73 Absatz 3 Satz 1 des Verwaltungsverfahrensgesetzes auf dem zentralen Internetportal zugänglich zu halten."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(2) Die Daten gemäß § 2 Absatz 1 Nummer 1 Buchstabe b und d sowie Nummer 5 sind von der im Sinne des § 20 Absatz 2 Satz 1 des Gesetzes über die Umweltverträglichkeitsprüfung zuständigen Behörde bis zum Ablauf der jeweiligen Rechtsbehelfsfrist gemäß § 70 oder § 74 Absatz 1 Satz 2 und Absatz 2 der Verwaltungsgerichtsordnung auf dem zentralen Internetportal zugänglich zu halten."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(3) Wird der Antrag auf Zulassungsentscheidung vor Ablauf der in Absatz 1 genannten Frist vom Vorhabenträger zurückgenommen oder erledigt er sich auf andere Weise, so sind die Unterlagen nur bis zum Ablauf des Tages der Rücknahme des Antrags oder der anderweitigen Erledigung zugänglich zu halten."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_DL dtd:DL-id117 ;
+    dtd:has_Value "Die portalbetreibende Behörde kann die Daten so lange speichern, 1.wie sie für die Öffentlichkeit über das zentrale Internetportal zugänglich sind und2.wie es zum Zweck der Berichterstattung an die Europäische Kommission nach § 73 des Gesetzes über die Umweltverträglichkeitsprüfung erforderlich ist; sie darf die Daten jedoch längstens speichern jeweils bis zum Ablauf von zwei Jahren nach dem Zeitpunkt, zu dem die Angaben im Sinne des § 73 des Gesetzes über die Umweltverträglichkeitsprüfung dem für Umweltschutz zuständigen Bundesministerium mitgeteilt worden sind."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "UVPPortV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-11-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id171 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id172 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id150 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "UVPPortV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "UVPPortV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "UVPPortV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "UVPPortV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "UVPPortV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "UVPPortV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "UVPPortV"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "UVP-Portale-Verordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Verordnung über zentrale Internetportale des Bundes und der Länder im Rahmen der Umweltverträglichkeitsprüfung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20211031213013"@de ;
+    dtd:has_doknr "BJNR242810020"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20211031213013"@de ;
+    dtd:has_doknr "BJNR242810020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20211031213013"@de ;
+    dtd:has_doknr "BJNR242810020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20211031213013"@de ;
+    dtd:has_doknr "BJNR242810020BJNE000301000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20211031213013"@de ;
+    dtd:has_doknr "BJNR242810020BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20211031213013"@de ;
+    dtd:has_doknr "BJNR242810020BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20211031213013"@de ;
+    dtd:has_doknr "BJNR242810020BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id171 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id170 a dtd:pre ;
+    dtd:has_BR dtd:BR-id55,
+        dtd:BR-id56 ;
+    dtd:has_Value "(+++ Textnachweis ab: 24.11.2020 +++)"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id158 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Funktionen der zentralen Internetportale"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Art und Weise der Zugänglichmachung der Daten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Dauer der Zugänglichkeit der Daten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Speicherung der Daten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id172 a dtd:zitstelle ;
+    dtd:has_Value "2020, 2428"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

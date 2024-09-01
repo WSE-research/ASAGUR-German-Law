@@ -1,0 +1,201 @@
+@prefix dtd: <urn:PreisAngG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150929215537"@de ;
+    dtd:has_doknr "BJNR114290984"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39,
+        dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46,
+        dtd:P-id47 .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id36 ;
+    dtd:has_Value " (+++ Textnachweis ab: 7.12.1984 +++)Überschrift: Bezeichnung idF d. Art. 11 Nr. 1 G v. 7.9.2007 I 2246 mWv 14.9.2007; Kurzbezeichnung eingef. durch Art. 11 Nr. 1 G v. 7.9.2007 I 2246 mWv 14.9.2007"@de ;
+    dtd:has_pre dtd:pre-id48 .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_Value " Dieses Gesetz ist gem. Art. 4 des Gesetzes zur Regelung der Preisangaben v. 3.12.1984 I 1429 am 7.12.1984 in Kraft getreten."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Zum Zwecke der Unterrichtung und des Schutzes der Verbraucher und zur Förderung des Wettbewerbs sowie zur Durchführung von diesen Zwecken dienenden Rechtsakten der Organe der Europäischen Gemeinschaften wird das Bundesministerium für Wirtschaft und Energie ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates zu bestimmen, daß und auf welche Art und Weise beim Anbieten von Waren oder Leistungen gegenüber Letztverbrauchern oder bei der Werbung für Waren oder Leistungen gegenüber Letztverbrauchern Preise und die Verkaufs- oder Leistungseinheiten sowie Gütebezeichnungen, auf die sich die Preise beziehen, anzugeben sind. Bei Leistungen der elektronischen Informations- und Kommunikationsdienste können auch Bestimmungen über die Angabe des Preisstandes fortlaufender Leistungen getroffen werden."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(1) Soweit es erforderlich ist, um die Einhaltung einer auf Grund dieses Gesetzes erlassenen Rechtsverordnung zu überwachen, können die hierfür zuständigen Behörden von dem zur Preisangabe Verpflichteten Auskünfte verlangen. Sie können zu diesem Zweck auch seine Grundstücke, Geschäftsräume und Betriebsanlagen während der Geschäfts- und Betriebszeiten betreten und dort Besichtigungen und Prüfungen vornehmen sowie Einblick in geschäftliche Unterlagen verlangen."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(2) Der Auskunftspflichtige kann die Auskunft auf solche Fragen verweigern, deren Beantwortung ihn selbst oder einen der in § 383 Abs. 1 bis 3 der Zivilprozeßordnung bezeichneten Angehörigen der Gefahr strafgerichtlicher Verfolgung oder eines Verfahrens nach dem Gesetz über Ordnungswidrigkeiten aussetzen würde."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1984-12-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:fussnoten-id30 a dtd:fussnoten .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "PreisAngG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "PreisAngG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "PreisAngG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "PreisAngG"@de .
+
+dtd:kurzue-id17 a dtd:kurzue ;
+    dtd:has_Value "Preisangabengesetz"@de .
+
+dtd:langue-id18 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Preisangaben"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id17 ;
+    dtd:has_langue dtd:langue-id18 ;
+    dtd:has_standangabe dtd:standangabe-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150929215537"@de ;
+    dtd:has_doknr "BJNR114290984"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150929215537"@de ;
+    dtd:has_doknr "BJNR114290984BJNE000105118"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150929215537"@de ;
+    dtd:has_doknr "BJNR114290984BJNE000404377"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150929215537"@de ;
+    dtd:has_doknr "BJNR114290984BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id48 a dtd:pre ;
+    dtd:has_BR dtd:BR-id34,
+        dtd:BR-id35 ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.12.1984 +++)"@de .
+
+dtd:standangabe-id19 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id52 ;
+    dtd:has_standtyp dtd:standtyp-id51 .
+
+dtd:standkommentar-id52 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 296 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id51 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "1984, 1429"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

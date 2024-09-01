@@ -1,0 +1,131 @@
+@prefix dtd: <urn:BesatzReglVtrArt1Bek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154107"@de ;
+    dtd:has_doknr "BJNR206280955"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19,
+        dtd:BR-id20,
+        dtd:BR-id21,
+        dtd:BR-id22 ;
+    dtd:has_SP dtd:SP-id23,
+        dtd:SP-id24,
+        dtd:SP-id25 ;
+    dtd:has_Value "Gemäß § 1 des Anhangs zum Zehnten Teil des Vertrags zur Regelung aus Krieg und Besatzung entstandener Fragen (in der gemäß Liste IV zu dem am 23. Oktober 1954 in Paris unterzeichneten Protokoll über die Beendigung des Besatzungsregimes in der Bundesrepublik Deutschland geänderten Fassung - Bundesgesetzbl. 1955 II S. 405 -) in Verbindung mit Absatz 2 des Artikels 1 des Zehnten Teils dieses Vertrags ist als Bundesoberbehörde für die Entgegennahme, Bearbeitung und Bescheidung von Anträgen auf Rückgabe und Wiederherstellung nach Absatz 2 des Artikels 1 des Zehnten Teils des genannten Vertrags das Bundesamt für die Prüfung ausländischer Rückgabe- und Wiederherstellungsansprüche errichtet worden.Das Bundesamt gehört zum Geschäftsbereich des Bundesministers der Justiz. Es hat seinen Sitz in Bonn.Für das Verfahren für die Anmeldung und Bearbeitung von Ansprüchen auf Grund des Artikels 1 des Zehnten Teils des genannten Vertrags und für die Befriedigung von auf solchen Ansprüchen beruhenden Entscheidungen gelten die Bestimmungen des Anhangs zum Zehnten Teil dieses Vertrags.Der Bundeskanzlerund Bundesminister des AuswärtigenDer Bundesminister der Justiz"@de .
+
+dtd:SP-id23 a dtd:SP ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:SP-id24 a dtd:SP ;
+    dtd:has_Value "und Bundesminister des Auswärtigen"@de .
+
+dtd:SP-id25 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1955-05-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id32 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id33 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id28 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BesatzReglVtrArt1Bek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BesatzReglVtrArt1Bek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung zu Artikel 1 Abs. 2 des Zehnten Teils des Vertrags zur
+Regelung aus Krieg und Besatzung entstandener Fragen"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154107"@de ;
+    dtd:has_doknr "BJNR206280955"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154107"@de ;
+    dtd:has_doknr "BJNR206280955BJNE000100319"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id32 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id26 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id33 a dtd:zitstelle ;
+    dtd:has_Value "1955, 628"@de .
+

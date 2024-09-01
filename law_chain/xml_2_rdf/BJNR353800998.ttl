@@ -1,0 +1,247 @@
+@prefix dtd: <urn:MarkenG§8Bek-98-11#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171215221029"@de ;
+    dtd:has_doknr "BJNR353800998"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:kommentar-id52 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl. I 1998, 3539)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47,
+        dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50,
+        dtd:P-id51 ;
+    dtd:has_table dtd:table-id27 .
+
+dtd:IMG-id41 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1998_j3539_0010.jpg"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 10.12.1998 +++)"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value "Auf Grund des § 8 Abs. 2 Nr. 8 des Markengesetzes vom 25. Oktober 1994 (BGBl. I S. 3082, 1995 I S. 156), zuletzt geändert durch Artikel 5 des Gesetzes vom 16. Juli 1998 (BGBl. I S. 1827), wird bekanntgemacht, daß die in der Bekanntmachung vom 7. September 1981 (BGBl. I S. 940) angegebene Bezeichnung sowie die Abkürzung und das Kennzeichen der Internationalen Seefunksatelliten-Organisation durch den in der Anlage wiedergegebenen Namen, die Abkürzung und das Kennzeichen der Internationalen Mobilfunksatelliten-Organisation ersetzt worden sind. Sie sind damit von der Eintragung als Marke ausgeschlossen.Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 23. September 1998 (BGBl. I S. 3156)."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_SP dtd:SP-id25 ;
+    dtd:has_Value "Bundesministerium der Justiz"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Fundstelle: BGBl. I 1998, 3539)"@de ;
+    dtd:has_noindex dtd:noindex-id26 .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id41 ;
+    dtd:has_Value ""@de .
+
+dtd:SP-id25 a dtd:SP ;
+    dtd:has_Value "Bundesministerium der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-11-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:colspec-id29 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "0.22*"@de .
+
+dtd:colspec-id30 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "1.78*"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id35 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Name:"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id36 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "International Mobile Satellite Organization"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id37 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Abkürzung:"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id38 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Inmarsat"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id39 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Emblem:"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id40 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id53 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id54 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 98-11"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 98-11"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 98-11"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 8 des Markengesetzes"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:noindex-id26 a dtd:noindex .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171215221029"@de ;
+    dtd:has_doknr "BJNR353800998"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171215221029"@de ;
+    dtd:has_doknr "BJNR353800998BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171215221029"@de ;
+    dtd:has_doknr "BJNR353800998BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id53 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id32 a dtd:row ;
+    dtd:has_entry dtd:entry-id35,
+        dtd:entry-id36 .
+
+dtd:row-id33 a dtd:row ;
+    dtd:has_entry dtd:entry-id37,
+        dtd:entry-id38 .
+
+dtd:row-id34 a dtd:row ;
+    dtd:has_entry dtd:entry-id39,
+        dtd:entry-id40 .
+
+dtd:table-id27 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id28 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id31 a dtd:tbody ;
+    dtd:has_row dtd:row-id32,
+        dtd:row-id33,
+        dtd:row-id34 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:tgroup-id28 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id29,
+        dtd:colspec-id30 ;
+    dtd:has_tbody dtd:tbody-id31 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value """Name, Abkürzung und Emblem der Internationalen
+Mobilfunksatelliten-Organisation"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id54 a dtd:zitstelle ;
+    dtd:has_Value "1998, 3538"@de .
+

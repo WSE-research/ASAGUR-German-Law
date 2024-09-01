@@ -1,0 +1,530 @@
+@prefix dtd: <urn:BMVgBeamtVZustAnO-2021#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20211231214800"@de ;
+    dtd:has_doknr "BJNR462610021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113,
+        dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116,
+        dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DL-id42 a dtd:DL ;
+    dtd:has_DD dtd:DD-id46,
+        dtd:DD-id47,
+        dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id43,
+        dtd:DT-id44,
+        dtd:DT-id45 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id49 a dtd:DL ;
+    dtd:has_DD dtd:DD-id52,
+        dtd:DD-id53 ;
+    dtd:has_DT dtd:DT-id50,
+        dtd:DT-id51 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id54 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67,
+        dtd:DD-id68 ;
+    dtd:has_DT dtd:DT-id55,
+        dtd:DT-id56,
+        dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id69 a dtd:DL ;
+    dtd:has_DD dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80,
+        dtd:DD-id81 ;
+    dtd:has_DT dtd:DT-id70,
+        dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74,
+        dtd:DT-id75 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id82 a dtd:DL ;
+    dtd:has_DD dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88 ;
+    dtd:has_DT dtd:DT-id83,
+        dtd:DT-id84,
+        dtd:DT-id85 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "f)"@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "g)"@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Entscheidung über die Entziehung oder Wiederzuerkennung der Versorgung nach § 62 Absatz 3 des Beamtenversorgungsgesetzes."@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bundesamt für das Personalmanagement der Bundeswehr,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bundessprachenamt,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Universitäten der Bundeswehr,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Evangelisches Kirchenamt für die Bundeswehr,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Katholisches Militärbischofsamt,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Militärrabbinat."@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Value "die nach § 1 übertragenen Aufgaben und Befugnisse selbst auszuüben,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "die Ausübung der nach § 1 übertragenen Aufgaben und Befugnisse unter Zustimmungsvorbehalt zu stellen,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Value "Entscheidungen von grundsätzlicher Bedeutung selbst zu treffen."@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_DL dtd:DL-id49 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Feststellung, welche Dienstzeiten nach den §§ 6, 6a, 8, 9, 12a, 12b und 13 Absatz 2 des Beamtenversorgungsgesetzes sowie nach § 3 der Beamtenversorgungs-Übergangsverordnung als ruhegehaltfähig berücksichtigt werden, wenn a)sich die nach § 5 des Beamtenversorgungsgesetzes der Berechnung der Versorgung zugrunde zu legenden ruhegehaltfähigen Dienstbezüge mindestens nach der Besoldungsgruppe B 6 bestimmen oderb)es sich bei den Anspruchsberechtigten um Angehörige, ehemalige Angehörige oder Hinterbliebene von Angehörigen oder ehemaligen Angehörigen des Amtes für Militärkunde oder des Bundesamtes für den Militärischen Abschirmdienst handelt,"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sich die nach § 5 des Beamtenversorgungsgesetzes der Berechnung der Versorgung zugrunde zu legenden ruhegehaltfähigen Dienstbezüge mindestens nach der Besoldungsgruppe B 6 bestimmen oder"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "es sich bei den Anspruchsberechtigten um Angehörige, ehemalige Angehörige oder Hinterbliebene von Angehörigen oder ehemaligen Angehörigen des Amtes für Militärkunde oder des Bundesamtes für den Militärischen Abschirmdienst handelt,"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_DL dtd:DL-id54 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die folgenden Entscheidungen in Angelegenheiten der Unfallfürsorge nach Abschnitt 5 des Beamtenversorgungsgesetzes vorbehaltlich der in § 2 aufgeführten Entscheidungen: a)die Entscheidung nach § 45 Absatz 3 Satz 2 des Beamtenversorgungsgesetzes, ob ein Unfall als Dienstunfall nach § 31 des Beamtenversorgungsgesetzes oder als Einsatzunfall nach § 31a des Beamtenversorgungsgesetzes anerkannt wird,b)die Entscheidung über die Bewilligung von Unfallfürsorgeleistungen nach den §§ 32 bis 35 des Beamtenversorgungsgesetzes,c)die Entscheidung, ob die Voraussetzungen für die Gewährung von Unfallfürsorgeleistungen nach den §§ 36 bis 39 und 41 des Beamtenversorgungsgesetzes vorliegen,d)die Anordnung einer ärztlichen Untersuchung nach § 35 Absatz 3 Satz 2 des Beamtenversorgungsgesetzes zur Neufeststellung des Unfallausgleichs,e)die Anordnung einer ärztlichen Untersuchung nach § 38 Absatz 6 Satz 2 des Beamtenversorgungsgesetzes zur Nachprüfung des Grades der Minderung der Erwerbsfähigkeit,f)die Entscheidung, dass die Unfallfürsorge nach § 44 Absatz 2 Satz 1 des Beamtenversorgungsgesetzes versagt wird,g)die Entscheidung über den Schadensausgleich in besonderen Fällen nach § 43a des Beamtenversorgungsgesetzes nebst seiner Durchführung,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Entscheidung nach § 45 Absatz 3 Satz 2 des Beamtenversorgungsgesetzes, ob ein Unfall als Dienstunfall nach § 31 des Beamtenversorgungsgesetzes oder als Einsatzunfall nach § 31a des Beamtenversorgungsgesetzes anerkannt wird,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Entscheidung über die Bewilligung von Unfallfürsorgeleistungen nach den §§ 32 bis 35 des Beamtenversorgungsgesetzes,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Entscheidung, ob die Voraussetzungen für die Gewährung von Unfallfürsorgeleistungen nach den §§ 36 bis 39 und 41 des Beamtenversorgungsgesetzes vorliegen,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Anordnung einer ärztlichen Untersuchung nach § 35 Absatz 3 Satz 2 des Beamtenversorgungsgesetzes zur Neufeststellung des Unfallausgleichs,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Anordnung einer ärztlichen Untersuchung nach § 38 Absatz 6 Satz 2 des Beamtenversorgungsgesetzes zur Nachprüfung des Grades der Minderung der Erwerbsfähigkeit,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Entscheidung, dass die Unfallfürsorge nach § 44 Absatz 2 Satz 1 des Beamtenversorgungsgesetzes versagt wird,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Entscheidung über den Schadensausgleich in besonderen Fällen nach § 43a des Beamtenversorgungsgesetzes nebst seiner Durchführung,"@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.10.2021 +++)Die Anordnung wurde als Artikel 1 der Anordnung v. 4.10.2021 I 4626 vom Bundesministerium der Verteidigung im Einvernehmen mit dem Bundesministerium des Innern, für Bau und Heimat beschlossen. Sie ist gem. Art. 3 Abs. 1 Satz 1 dieser Anordnung am 1.10.2021 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id120 .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_DL dtd:DL-id42 ;
+    dtd:has_Value "(1) Dem Bundesamt für das Personalmanagement der Bundeswehr werden übertragen: 1.die Feststellung, welche Dienstzeiten nach den §§ 6, 6a, 8, 9, 12a, 12b und 13 Absatz 2 des Beamtenversorgungsgesetzes sowie nach § 3 der Beamtenversorgungs-Übergangsverordnung als ruhegehaltfähig berücksichtigt werden, wenn a)sich die nach § 5 des Beamtenversorgungsgesetzes der Berechnung der Versorgung zugrunde zu legenden ruhegehaltfähigen Dienstbezüge mindestens nach der Besoldungsgruppe B 6 bestimmen oderb)es sich bei den Anspruchsberechtigten um Angehörige, ehemalige Angehörige oder Hinterbliebene von Angehörigen oder ehemaligen Angehörigen des Amtes für Militärkunde oder des Bundesamtes für den Militärischen Abschirmdienst handelt,2.die folgenden Entscheidungen in Angelegenheiten der Unfallfürsorge nach Abschnitt 5 des Beamtenversorgungsgesetzes vorbehaltlich der in § 2 aufgeführten Entscheidungen: a)die Entscheidung nach § 45 Absatz 3 Satz 2 des Beamtenversorgungsgesetzes, ob ein Unfall als Dienstunfall nach § 31 des Beamtenversorgungsgesetzes oder als Einsatzunfall nach § 31a des Beamtenversorgungsgesetzes anerkannt wird,b)die Entscheidung über die Bewilligung von Unfallfürsorgeleistungen nach den §§ 32 bis 35 des Beamtenversorgungsgesetzes,c)die Entscheidung, ob die Voraussetzungen für die Gewährung von Unfallfürsorgeleistungen nach den §§ 36 bis 39 und 41 des Beamtenversorgungsgesetzes vorliegen,d)die Anordnung einer ärztlichen Untersuchung nach § 35 Absatz 3 Satz 2 des Beamtenversorgungsgesetzes zur Neufeststellung des Unfallausgleichs,e)die Anordnung einer ärztlichen Untersuchung nach § 38 Absatz 6 Satz 2 des Beamtenversorgungsgesetzes zur Nachprüfung des Grades der Minderung der Erwerbsfähigkeit,f)die Entscheidung, dass die Unfallfürsorge nach § 44 Absatz 2 Satz 1 des Beamtenversorgungsgesetzes versagt wird,g)die Entscheidung über den Schadensausgleich in besonderen Fällen nach § 43a des Beamtenversorgungsgesetzes nebst seiner Durchführung,3.die Entscheidung über die Entziehung oder Wiederzuerkennung der Versorgung nach § 62 Absatz 3 des Beamtenversorgungsgesetzes."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_DL dtd:DL-id69 ;
+    dtd:has_Value "(2) Soweit die folgenden Behörden für die Personalbearbeitung von Beamtinnen und Beamten oder von Richterinnen und Richtern zuständig sind oder bei Beendigung des jeweiligen Beamten- oder Richterverhältnisses zuständig waren, wird ihnen die Zuständigkeit für die Entscheidung nach § 49 Absatz 2 Satz 2 des Beamtenversorgungsgesetzes übertragen, ob Zeiten nach den §§ 10 bis 12 und 67 des Beamtenversorgungsgesetzes als ruhegehaltfähige Dienstzeit berücksichtigt werden: 1.Bundesamt für das Personalmanagement der Bundeswehr,2.Bundessprachenamt,3.Universitäten der Bundeswehr,4.Evangelisches Kirchenamt für die Bundeswehr,5.Katholisches Militärbischofsamt,6.Militärrabbinat."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(1) Die Entscheidung nach § 31 Absatz 5 und § 31a Absatz 3 des Beamtenversorgungsgesetzes und die Entscheidung über die Gewährung von Entschädigungsleistungen nach § 43 des Beamtenversorgungsgesetzes trifft das Bundesministerium der Verteidigung."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_DL dtd:DL-id82 ;
+    dtd:has_Value "(2) Darüber hinaus behält sich das Bundesministerium der Verteidigung vor, in Einzelfällen 1.die nach § 1 übertragenen Aufgaben und Befugnisse selbst auszuüben,2.die Ausübung der nach § 1 übertragenen Aufgaben und Befugnisse unter Zustimmungsvorbehalt zu stellen,3.Entscheidungen von grundsätzlicher Bedeutung selbst zu treffen."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "Die Übertragung der in dieser Anordnung nicht genannten Zuständigkeiten auf dem Gebiet der Beamtenversorgung einschließlich der Zahlung der Versorgungsbezüge richtet sich nach der Beamtenversorgungs-Zuständigkeitsanordnung in der jeweils geltenden Fassung."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "BMVgBeamtVZustAnO"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-10-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id121 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id122 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id110 .
+
+dtd:fussnoten-id36 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BMVgBeamtVZustAnO 2021"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BMVgBeamtVZustAnO 2021"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BMVgBeamtVZustAnO"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "BMVgBeamtVZustAnO 2021"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "BMVgBeamtVZustAnO"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "BMVgBeamtVZustAnO 2021"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BMVgBeamtVZustAnO"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "BMVg-Beamtenversorgungs-Zuständigkeitsanordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Anordnung zur Übertragung von Zuständigkeiten auf dem Gebiet der Beamtenversorgung im Geschäftsbereich des Bundesministeriums der Verteidigung"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26,
+        dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id30,
+        dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 ;
+    dtd:has_standangabe dtd:standangabe-id20,
+        dtd:standangabe-id21 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id22,
+        dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20211231214800"@de ;
+    dtd:has_doknr "BJNR462610021"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20211231214800"@de ;
+    dtd:has_doknr "BJNR462610021BJNE000101311"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20211231214800"@de ;
+    dtd:has_doknr "BJNR462610021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20211231214800"@de ;
+    dtd:has_doknr "BJNR462610021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id121 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id120 a dtd:pre ;
+    dtd:has_BR dtd:BR-id40,
+        dtd:BR-id41 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.10.2021 +++)"@de .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id124 ;
+    dtd:has_standtyp dtd:standtyp-id123 .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id126 ;
+    dtd:has_standtyp dtd:standtyp-id125 .
+
+dtd:standkommentar-id124 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 AnO v. 4.10.2021 I 4626"@de .
+
+dtd:standkommentar-id126 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt AnO 2030-14-193 v. 30.9.2013 I 3739 (BMVgBeamtVZustAnO)"@de .
+
+dtd:standtyp-id123 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id125 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Übertragung von Aufgaben und Befugnissen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Entscheidung durch das Bundesministerium der Verteidigung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Weitere Zuständigkeiten auf dem Gebiet der Beamtenversorgung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id122 a dtd:zitstelle ;
+    dtd:has_Value "2021, 4626"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

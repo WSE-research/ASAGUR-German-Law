@@ -1,0 +1,771 @@
+@prefix dtd: <urn:KDV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id94 a dtd:BR .
+
+dtd:BR-id95 a dtd:BR .
+
+dtd:BR-id96 a dtd:BR .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153,
+        dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156,
+        dtd:P-id157,
+        dtd:P-id158,
+        dtd:P-id159 .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161,
+        dtd:P-id162,
+        dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165,
+        dtd:P-id166,
+        dtd:P-id167,
+        dtd:P-id168,
+        dtd:P-id169,
+        dtd:P-id170 .
+
+dtd:Content-id171 a dtd:Content ;
+    dtd:has_P dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175,
+        dtd:P-id176 .
+
+dtd:Content-id177 a dtd:Content ;
+    dtd:has_P dtd:P-id178 .
+
+dtd:Content-id179 a dtd:Content ;
+    dtd:has_P dtd:P-id180 .
+
+dtd:Content-id181 a dtd:Content ;
+    dtd:has_P dtd:P-id182,
+        dtd:P-id183,
+        dtd:P-id184 .
+
+dtd:Content-id185 a dtd:Content ;
+    dtd:has_P dtd:P-id186,
+        dtd:P-id187 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id129 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id131 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DL-id102 a dtd:DL ;
+    dtd:has_DD dtd:DD-id105,
+        dtd:DD-id106 ;
+    dtd:has_DT dtd:DT-id103,
+        dtd:DT-id104 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id107 a dtd:DL ;
+    dtd:has_DD dtd:DD-id110,
+        dtd:DD-id111 ;
+    dtd:has_DT dtd:DT-id108,
+        dtd:DT-id109 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id112 a dtd:DL ;
+    dtd:has_DD dtd:DD-id115,
+        dtd:DD-id116 ;
+    dtd:has_DT dtd:DT-id113,
+        dtd:DT-id114 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id117 a dtd:DL ;
+    dtd:has_DD dtd:DD-id121,
+        dtd:DD-id122,
+        dtd:DD-id123 ;
+    dtd:has_DT dtd:DT-id118,
+        dtd:DT-id119,
+        dtd:DT-id120 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id124 a dtd:DL ;
+    dtd:has_DD dtd:DD-id129,
+        dtd:DD-id130,
+        dtd:DD-id131,
+        dtd:DD-id132 ;
+    dtd:has_DT dtd:DT-id125,
+        dtd:DT-id126,
+        dtd:DT-id127,
+        dtd:DT-id128 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id97 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101 ;
+    dtd:has_DT dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Type dtd:Dash .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id120 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id125 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id127 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id128 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:Dash rdfs:label "Dash"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Value "des § 52b Absatz 3 in Verbindung mit § 52b Absatz 4 Satz 1 Nummer 2 und Satz 2 des Weingesetzes in der Fassung der Bekanntmachung vom 18. Januar 2011 (BGBl. I S. 66), der durch Artikel 3 Nummer 4 des Gesetzes vom 16. Januar 2016 (BGBl. I S. 52) eingefügt worden ist, sowie"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Value "des § 8 Absatz 1 Satz 1 und 2 Nummer 1 und 2 in Verbindung mit § 6 Absatz 4 Satz 2 und mit § 31 Absatz 2 Satz 1 Nummer 1 sowie des § 15 in Verbindung mit § 6 Absatz 4 und mit § 16 des Marktorganisationsgesetzes in der Fassung der Bekanntmachung vom 7. November 2017 (BGBl. I S. 3746), jeweils in Verbindung mit § 52b Absatz 5 des Weingesetzes in der Fassung der Bekanntmachung vom 18. Januar 2011 (BGBl. I S. 66), von denen § 31 Absatz 2 Satz 1 Nummer 1 des Marktorganisationsgesetzes durch Artikel 11a Nummer 1 des Gesetzes vom 20. Juli 2022 (BGBl. I S. 1174) und § 52b Absatz 5 des Weingesetzes Artikel 3 Nummer 4 des Gesetzes vom 16. Januar 2016 (BGBl. I S. 52) eingefügt worden ist, im Einvernehmen mit dem Bundesministerium der Finanzen und dem Bundesministerium für Wirtschaft und Klimaschutz:"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Value "von Unternehmen im Weinsektor nach Artikel 2 Absatz 3 der Delegierten Verordnung (EU) 2023/1225, Weinerzeugerorganisationen, Vereinigungen von zwei oder mehr Erzeugern und Branchenverbänden und"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Value "für zu destillierenden Wein mit einer Mindestmenge von 300 Litern je Antragstellendem."@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Value "auskömmlich ist oder"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Value "nicht ausreicht und daher die Menge des bewilligungsfähigen zu destillierenden Weines, die unterstützt werden kann, nach Absatz 5 zu vermindern ist."@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Value "im Fall des Absatzes 4 Satz 2 Nummer 1 im vollen Umfang,"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Value "im Fall des Absatzes 4 Satz 2 Nummer 2 unter Anwendung des Faktors nach Absatz 5"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Value "einen Nachweis über die erfolgte Destillation (Destillationsbescheinigung) der für die Unterstützung bewilligten Menge des destillierten Weines,"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Value "das Weinbegleitpapier nach Artikel 147 Absatz 1 der Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 922/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 des Rates (ABl. L 347 vom 20.12.2013, S. 671; L 189 vom 27.6.2014, S. 261; L 130 vom 19.5.2016, S. 18; L 34 vom 9.2.2017, S. 41; L 106 vom 6.4.2020, S. 12), die zuletzt durch die Verordnung (EU) 2021/2117 (ABl. L 435 vom 6.12.2021, S. 262) geändert worden ist, und"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Value "den Antrag mit Bescheid über die bestandene Qualitätsweinprüfung nach § 19 des Weingesetzes der zur Destillation transportierten Weine."@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Value "das Betreten der Geschäfts-, Betriebs- und Lagerräume sowie der Betriebsflächen während der üblichen Geschäfts- und Betriebszeiten zu gestatten,"@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Value "auf Verlangen die in Betracht kommenden Bücher, Aufzeichnungen, Belege, Schriftstücke, Datenträger und sonstige Unterlagen zur Einsicht zur Verfügung zu stellen,"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Value "Auskunft zu erteilen,"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Value "die Entnahme von Mustern und Proben ohne Entschädigung zu dulden und die erforderliche Unterstützung zu gewähren."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_BR dtd:BR-id94 ;
+    dtd:has_Value " (+++ Textnachweis ab: 7.10.2023 +++)"@de ;
+    dtd:has_pre dtd:pre-id188 .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_DL dtd:DL-id97 ;
+    dtd:has_Value "Das Bundesministerium für Ernährung und Landwirtschaft verordnet, in Verbindung mit § 1 Absatz 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 8. Dezember 2021 (BGBl. I S. 5176), auf Grund –des § 52b Absatz 3 in Verbindung mit § 52b Absatz 4 Satz 1 Nummer 2 und Satz 2 des Weingesetzes in der Fassung der Bekanntmachung vom 18. Januar 2011 (BGBl. I S. 66), der durch Artikel 3 Nummer 4 des Gesetzes vom 16. Januar 2016 (BGBl. I S. 52) eingefügt worden ist, sowie–des § 8 Absatz 1 Satz 1 und 2 Nummer 1 und 2 in Verbindung mit § 6 Absatz 4 Satz 2 und mit § 31 Absatz 2 Satz 1 Nummer 1 sowie des § 15 in Verbindung mit § 6 Absatz 4 und mit § 16 des Marktorganisationsgesetzes in der Fassung der Bekanntmachung vom 7. November 2017 (BGBl. I S. 3746), jeweils in Verbindung mit § 52b Absatz 5 des Weingesetzes in der Fassung der Bekanntmachung vom 18. Januar 2011 (BGBl. I S. 66), von denen § 31 Absatz 2 Satz 1 Nummer 1 des Marktorganisationsgesetzes durch Artikel 11a Nummer 1 des Gesetzes vom 20. Juli 2022 (BGBl. I S. 1174) und § 52b Absatz 5 des Weingesetzes Artikel 3 Nummer 4 des Gesetzes vom 16. Januar 2016 (BGBl. I S. 52) eingefügt worden ist, im Einvernehmen mit dem Bundesministerium der Finanzen und dem Bundesministerium für Wirtschaft und Klimaschutz:"@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(1) Die Vorschriften dieser Verordnung gelten für die Durchführung von Maßnahmen nach Artikel 2 der Delegierten Verordnung (EU) 2023/1225 der Kommission vom 22. Juni 2023 über befristete außergewöhnliche Maßnahmen zur Abweichung von bestimmten Vorschriften der Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates zur Behebung der Marktstörungen im Weinsektor einiger Mitgliedstaaten und zur Abweichung von der Delegierten Verordnung (EU) 2016/1149 der Kommission (ABl. L 160 vom 26.6.2023, S. 12)."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(2) Zuständig für die Durchführung des Unionsrechts und dieser Verordnung sind die nach Landesrecht zuständigen Stellen, soweit in dieser Verordnung nichts anderes bestimmt ist."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(1) Aus den nach Artikel 3 Absatz 1 Buchstabe d der Durchführungsverordnung (EU) 2023/1465 der Kommission vom 14. Juli 2023 über eine finanzielle Soforthilfe für die Sektoren in der Landwirtschaft, die von spezifischen Problemen betroffen sind, die sich auf die wirtschaftliche Tragfähigkeit landwirtschaftlicher Betriebe auswirken (ABl. L 180 vom 17.7.2023, S. 21) Deutschland zur Verfügung stehenden Finanzmitteln werden 6,5 Millionen Euro für die Krisendestillation nach Artikel 2 Absatz 1 der Delegierten Verordnung (EU) 2023/1225 aufgewendet."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(2) Die Unterstützung wird ausschließlich für die Destillation von Rotweinen mit geschützter Ursprungsbezeichnung gewährt, der nicht nach § 11 des Weingesetzes zu destillieren ist."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(3) Die Höhe der Unterstützung nach Artikel 2 Absatz 7 der Delegierten Verordnung (EU) 2023/1225 wird auf höchstens 0,65 Euro je Liter angelieferten und destilliertem Wein und im Verfahren nach § 4 festgesetzt."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(4) Vorschüsse dürfen nicht gewährt werden."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_DL dtd:DL-id102 ;
+    dtd:has_Value "(1) Die Unterstützung für die Destillation von Wein kann ausschließlich beantragt werden 1.von Unternehmen im Weinsektor nach Artikel 2 Absatz 3 der Delegierten Verordnung (EU) 2023/1225, Weinerzeugerorganisationen, Vereinigungen von zwei oder mehr Erzeugern und Branchenverbänden und2.für zu destillierenden Wein mit einer Mindestmenge von 300 Litern je Antragstellendem."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(2) Ein Antrag auf Unterstützung für die Destillation von Wein ist schriftlich oder elektronisch bei der zuständigen Landesstelle bis zum 22. Oktober 2023 zu stellen."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(3) Der Antrag hat insbesondere Angaben zu Menge und Region des zu destillierenden Weines zu enthalten."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(1) Die Unterstützung wird durch Bescheid festgesetzt."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(2) Vor der Entscheidung über eine Unterstützung hat die zuständige Landesstelle den Antrag auf Vollständigkeit der Angaben und der beigefügten Nachweise zu prüfen. Die zuständige Landesstelle hat insbesondere zu prüfen, ob der Betrieb des Antragstellers in einem Gebiet gelegen ist, für welches eine oder mehrere der Voraussetzungen nach Artikel 2 Absatz 1 Unterabsatz 2 Buchstabe a bis c der Delegierten Verordnung (EU) 2023/1225 gegeben ist oder sind."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(3) Die zuständigen Landesstellen haben der Bundesanstalt für Ernährung und Landwirtschaft (Bundesanstalt) bis zum 30. Oktober 2023 die Menge der bei ihnen insgesamt bewilligungsfähigen Weinmenge, welche der Destillation zugeführt werden sollen, in Litern mitzuteilen."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_DL dtd:DL-id107 ;
+    dtd:has_Value "(4) Die Bundesanstalt hat zu errechnen, ob das in § 2 Absatz 1 genannte Finanzvolumen unter Berücksichtigung des in § 2 Absatz 3 genannten Betrages und der insgesamt zur Destillation angemeldeten Menge ausreicht. Die Bundesanstalt hat die zuständigen Landesstellen spätestens eine Woche nach Ablauf der in Absatz 3 genannten Frist darüber zu informieren, ob das nach § 2 Absatz 1 zur Verfügung gestellte Finanzvolumen für eine Unterstützung der Gesamtmenge des zur Destillation angemeldeten Weines unter Anwendung des Betrages nach § 2 Absatz 3 1.auskömmlich ist oder2.nicht ausreicht und daher die Menge des bewilligungsfähigen zu destillierenden Weines, die unterstützt werden kann, nach Absatz 5 zu vermindern ist."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(5) In dem Fall des Absatzes 4 Satz 2 Nummer 2 hat die Bundesanstalt den Faktor zu errechnen, mit der die Menge des bewilligungsfähigen zu destillierenden Weines zu multiplizieren ist, um allen Antragstellern in gleichem Maße den Anteil der Unterstützung für den bewilligungsfähigen zu destillierenden Wein zu gewähren."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_DL dtd:DL-id112 ;
+    dtd:has_Value "(6) Die zuständige Landesstelle hat den bewilligungsfähigen Antrag 1.im Fall des Absatzes 4 Satz 2 Nummer 1 im vollen Umfang,2.im Fall des Absatzes 4 Satz 2 Nummer 2 unter Anwendung des Faktors nach Absatz 5zu bewilligen. Die errechnete bewilligungsfähige Weinmenge ist auf volle Liter abzurunden. Die Unterstützung ist mit der Bedingung zu versehen, dass die Auszahlung der Unterstützung nach der Vorlage eines Nachweises der erfolgten Destillation erfolgt."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_DL dtd:DL-id117 ;
+    dtd:has_Value "(1) Nach Abschluss der Destillation hat der Begünstigte der zuständigen Landesstelle bis zum 8. Januar 2024 vorzulegen: 1.einen Nachweis über die erfolgte Destillation (Destillationsbescheinigung) der für die Unterstützung bewilligten Menge des destillierten Weines,2.das Weinbegleitpapier nach Artikel 147 Absatz 1 der Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 922/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 des Rates (ABl. L 347 vom 20.12.2013, S. 671; L 189 vom 27.6.2014, S. 261; L 130 vom 19.5.2016, S. 18; L 34 vom 9.2.2017, S. 41; L 106 vom 6.4.2020, S. 12), die zuletzt durch die Verordnung (EU) 2021/2117 (ABl. L 435 vom 6.12.2021, S. 262) geändert worden ist, und3.den Antrag mit Bescheid über die bestandene Qualitätsweinprüfung nach § 19 des Weingesetzes der zur Destillation transportierten Weine."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(2) Die Landesstelle hat zu prüfen, ob die tatsächlich destillierte Menge Wein der zu unterstützenden Menge Wein entspricht."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(3) Sofern die tatsächlich destillierte Menge Wein eines Begünstigten der bewilligten zu destillierenden Menge Wein entspricht oder diese übersteigt, hat die zuständige Landesstelle die mit dem Bescheid nach § 4 Absatz 6 gewährte Unterstützung auf der Basis der bewilligten Menge bis spätestens zum 31. Januar 2024 auszuzahlen."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(4) Sofern die tatsächlich destillierte Menge Wein eines Begünstigten die bewilligte zu destillierende Menge Wein um nicht mehr als 25 Prozent unterschreitet, hat die zuständige Landesstelle die gewährte Unterstützung abzuändern auf die Höhe der tatsächlich destillierten Menge Wein und die so ermittelte Unterstützung bis spätestens zum 31. Januar 2024 auszuzahlen."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "(5) Sofern die tatsächlich destillierte Menge Wein eines Begünstigten weniger als 75 Prozent der bewilligten zu destillierenden Menge Wein beträgt, ist die zu gewährende Unterstützung zu berechnen und festzusetzen durch die Multiplikation der tatsächlich destillierten Menge Wein mit 0,325 Euro je Liter destilliertem Wein. Die nach Satz 1 berechnete und festgesetzte Unterstützung ist bis spätestens zum 31. Januar 2024 auszuzahlen."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "Die zuständigen Landesstellen haben im Rahmen der Durchführung der Gewährung der Unterstützung Kontrollen bei den Antragstellern und Begünstigten durchzuführen."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "Zum Zwecke der Bewilligung eines Antrags auf Krisendestillation sowie zur Durchführung von Kontrollen dürfen die zuständigen Landesstellen die erforderlichen personen- und betriebsbezogenen Daten nach der Anlage des Marktorganisationsgesetzes verarbeiten und übermitteln."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_DL dtd:DL-id124 ;
+    dtd:has_Value "(1) Zum Zwecke der Überwachung hat der Begünstigte den Bediensteten der zuständigen Landesstelle, auch in Begleitung von Prüfungsorganen der Europäischen Union, des Bundes oder der Länder 1.das Betreten der Geschäfts-, Betriebs- und Lagerräume sowie der Betriebsflächen während der üblichen Geschäfts- und Betriebszeiten zu gestatten,2.auf Verlangen die in Betracht kommenden Bücher, Aufzeichnungen, Belege, Schriftstücke, Datenträger und sonstige Unterlagen zur Einsicht zur Verfügung zu stellen,3.Auskunft zu erteilen,4.die Entnahme von Mustern und Proben ohne Entschädigung zu dulden und die erforderliche Unterstützung zu gewähren.Bei automatisiert geführten Aufzeichnungen sind die in Satz 1 genannten Auskunftspflichtigen verpflichtet, auf ihre Kosten die erforderlichen Ausdrucke zu erstellen, soweit die zuständigen Landesstellen oder die Prüfungsorgane der Europäischen Union, des Bundes oder der Länder dies verlangen."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_Value "(2) Soweit nach anderen Rechtsvorschriften keine längeren Aufbewahrungsfristen bestehen, hat der Begünstigte die für die Gewährung der Unterstützung erforderlichen Unterlagen für die Dauer von sechs Jahren nach Gewährung der Unterstützung aufzubewahren."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "(3) Wird ein Betrieb ganz oder teilweise während eines Wirtschaftsjahres an einen anderen übertragen, so gelten die Vorschriften der Absätze 1 und 2 auch für den Rechtsnachfolger."@de .
+
+dtd:P-id186 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt am Tag nach ihrer Verkündung in Kraft."@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_Value "(2) Sie tritt mit Ablauf des 31. Dezember 2025 außer Kraft. Sie ist auf Sachverhalte, die vor diesem Tag eingetreten sind, weiter anzuwenden."@de .
+
+dtd:amtabk-id36 a dtd:amtabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id37 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2023-09-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id71 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id189 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id190 .
+
+dtd:fussnoten-id73 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id148 .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:fussnoten-id79 a dtd:fussnoten .
+
+dtd:fussnoten-id81 a dtd:fussnoten .
+
+dtd:fussnoten-id83 a dtd:fussnoten .
+
+dtd:fussnoten-id85 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:fussnoten-id89 a dtd:fussnoten .
+
+dtd:fussnoten-id91 a dtd:fussnoten .
+
+dtd:fussnoten-id93 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "KDV"@de .
+
+dtd:kurzue-id39 a dtd:kurzue ;
+    dtd:has_Value "Krisendestillationsverordnung"@de .
+
+dtd:langue-id40 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Krisendestillation von Wein"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id36 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id37 ;
+    dtd:has_fundstelle dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_kurzue dtd:kurzue-id39 ;
+    dtd:has_langue dtd:langue-id40 ;
+    dtd:has_standangabe dtd:standangabe-id41,
+        dtd:standangabe-id42,
+        dtd:standangabe-id43 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id71 ;
+    dtd:has_jurabk dtd:jurabk-id70 ;
+    dtd:has_titel dtd:titel-id72 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000801130"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000901130"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE001001130"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000101130"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000201130"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000301130"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000401130"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000501130"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000601130"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20240406214501"@de ;
+    dtd:has_doknr "BJNR10B0A0023BJNE000701130"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id189 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id188 a dtd:pre ;
+    dtd:has_BR dtd:BR-id95,
+        dtd:BR-id96 ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.10.2023 +++)"@de .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id192 ;
+    dtd:has_standtyp dtd:standtyp-id191 .
+
+dtd:standangabe-id42 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id194 ;
+    dtd:has_standtyp dtd:standtyp-id193 .
+
+dtd:standangabe-id43 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id196 ;
+    dtd:has_standtyp dtd:standtyp-id195 .
+
+dtd:standkommentar-id192 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 9 Abs. 2 idF d. Art. 2 V v. 23.2.2024 I Nr. 67 mit Ablauf des 31.12.2025 außer Kraft"@de .
+
+dtd:standkommentar-id194 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 2 V v. 23.2.2024 I Nr. 67"@de .
+
+dtd:standkommentar-id196 a dtd:standkommentar ;
+    dtd:has_Value "Die Geltung dieser V ist durch § 9 Abs. 2 idF d. Art. 2 V v. 23.2.2024 I Nr. 67 über den 6.4.2024 hinaus bis zum 31.12.2025 verlängert worden"@de .
+
+dtd:standtyp-id191 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:standtyp-id193 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id195 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id171 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id177 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id179 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id181 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id185 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id79 ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id81 ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id83 ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id89 ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id91 ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id93 ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich und Zuständigkeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Krisendestillation nach Artikel 2 der Delegierten Verordnung (EU) 2023/1225"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Antragsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Bewilligungsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Nachweis der Destillation und Auszahlung der Unterstützung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Überwachungsbestimmung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Datenschutz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Duldungs-, Mitwirkungs- und Aufbewahrungspflichten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id72 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id190 a dtd:zitstelle ;
+    dtd:has_Value "2023, Nr. 267"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

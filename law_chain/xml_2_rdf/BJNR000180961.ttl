@@ -1,0 +1,523 @@
+@prefix dtd: <urn:PrHaushStatG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111,
+        dtd:P-id112,
+        dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104,
+        dtd:LA-id105 .
+
+dtd:DL-id61 a dtd:DL ;
+    dtd:has_DD dtd:DD-id64,
+        dtd:DD-id65 ;
+    dtd:has_DT dtd:DT-id62,
+        dtd:DT-id63 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id66 a dtd:DL ;
+    dtd:has_DD dtd:DD-id69,
+        dtd:DD-id70 ;
+    dtd:has_DT dtd:DT-id67,
+        dtd:DT-id68 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id71 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80,
+        dtd:DD-id81,
+        dtd:DD-id82,
+        dtd:DD-id83 ;
+    dtd:has_DT dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id84 a dtd:DL ;
+    dtd:has_DD dtd:DD-id87,
+        dtd:DD-id88 ;
+    dtd:has_DT dtd:DT-id85,
+        dtd:DT-id86 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id89 a dtd:DL ;
+    dtd:has_DD dtd:DD-id91 ;
+    dtd:has_DT dtd:DT-id90 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "f)"@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "*)"@de ;
+    dtd:has_small dtd:small-id58 .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Vermögensbildung,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sonstige Zwecke."@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Name und Kontaktdaten der Auskunftgebenden,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Vornamen der Haushaltsmitglieder."@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gemäß Art. 2 der Statistikanpassungsverordnung vom 26. März 1991 (BGBl. I S. 846) gilt abweichend von § 3 Abs. 1:"@de ;
+    dtd:has_small dtd:small-id59 .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"(1) Die Erhebungen nach § 1 Nr. 1 erstrecken sich auf höchstens 6 000 Haushalte, ab 1. Januar 1993 auf 2 000 Haushalte in jedem Monat.\""@de ;
+    dtd:has_small dtd:small-id60 .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "monatliche Erhebungen bei Haushalten von Arbeitnehmern, Pensions-, Fürsorge- und Rentenempfängern;"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Erhebungen, die sich jeweils auf ein Jahr beziehen, bei Haushalten aller Bevölkerungskreise. Diese Erhebungen sind, beginnend im Jahre 1983, in fünfjährigem Abstand zu wiederholen; die Bundesregierung wird ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates den fünfjährigen Abstand um ein Jahr zu verkürzen oder zu verlängern, falls dies zur Verbesserung des Erkenntniswerts der Statistik oder zur rationellen Gestaltung des Arbeitsablaufs erforderlich ist."@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Einnahmen der Haushalte nach Quellen;"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_DL dtd:DL-id71 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Verwendung der Einnahmen füra)den privaten Verbrauch (nach Art, Menge und Betrag),b)Steuern und Abgaben,c)Beiträge zur Sozialversicherung und zu privaten Versicherungen, soweit sie nicht unter Buchstabe e fallen,d)Rückzahlung von Schulden,e)Vermögensbildung,f)sonstige Zwecke."@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den privaten Verbrauch (nach Art, Menge und Betrag),"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Steuern und Abgaben,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beiträge zur Sozialversicherung und zu privaten Versicherungen, soweit sie nicht unter Buchstabe e fallen,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rückzahlung von Schulden,"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 21.3.1980 +++)"@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_DL dtd:DL-id61 ;
+    dtd:has_Value "Im Geltungsbereich dieses Gesetzes werden bei privaten Haushalten folgende repräsentative Erhebungen über Wirtschaftsrechnungen als Bundesstatistik durchgeführt: 1.monatliche Erhebungen bei Haushalten von Arbeitnehmern, Pensions-, Fürsorge- und Rentenempfängern; 2.Erhebungen, die sich jeweils auf ein Jahr beziehen, bei Haushalten aller Bevölkerungskreise. Diese Erhebungen sind, beginnend im Jahre 1983, in fünfjährigem Abstand zu wiederholen; die Bundesregierung wird ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates den fünfjährigen Abstand um ein Jahr zu verkürzen oder zu verlängern, falls dies zur Verbesserung des Erkenntniswerts der Statistik oder zur rationellen Gestaltung des Arbeitsablaufs erforderlich ist."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_DL dtd:DL-id66 ;
+    dtd:has_Value "(1) Die Erhebungen nach § 1 erfassen folgende Tatbestände: 1.die Einnahmen der Haushalte nach Quellen;2.die Verwendung der Einnahmen füra)den privaten Verbrauch (nach Art, Menge und Betrag),b)Steuern und Abgaben,c)Beiträge zur Sozialversicherung und zu privaten Versicherungen, soweit sie nicht unter Buchstabe e fallen,d)Rückzahlung von Schulden,e)Vermögensbildung,f)sonstige Zwecke."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(2) Außer den in Absatz 1 bezeichneten Tatbeständen erfassen die Erhebungen Angaben über die Zusammensetzung der Haushalte und ihre wirtschaftlichen und sozialen Verhältnisse sowie über die Ausrüstung der Haushalte mit technischen Gebrauchsgütern, soweit diese Angaben für die statistische Zuordnung der Haushalte und für die Darstellung der Ergebnisse erforderlich sind."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_DL dtd:DL-id84 ;
+    dtd:has_Value "(3) Hilfsmerkmale der Erhebung sind: 1.Name und Kontaktdaten der Auskunftgebenden,2.Vornamen der Haushaltsmitglieder."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(1) Die Erhebungen nach § 1 Nr. 1 erstrecken sich auf höchstens 2 000*) Haushalte in jedem Monat."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_BR dtd:BR-id57 ;
+    dtd:has_DL dtd:DL-id89 ;
+    dtd:has_Value "(2) Die Erhebungen nach § 1 Nr. 2 erstrecken sich auf höchstens 0,3 vom Hundert aller Haushalte.----- *)Gemäß Art. 2 der Statistikanpassungsverordnung vom 26. März 1991 (BGBl. I S. 846) gilt abweichend von § 3 Abs. 1:\"(1) Die Erhebungen nach § 1 Nr. 1 erstrecken sich auf höchstens 6 000 Haushalte, ab 1. Januar 1993 auf 2 000 Haushalte in jedem Monat.\""@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Die Erteilung der Auskunft durch die Haushalte zu den Erhebungen nach § 1 ist freiwillig."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Die Aufbereitung der Erhebungen nach § 1 Nr. 2 obliegt dem Statistischen Bundesamt."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1961-01-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id125 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id126 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id106 .
+
+dtd:fussnoten-id47 a dtd:fussnoten .
+
+dtd:fussnoten-id49 a dtd:fussnoten .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "PrHaushStatG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "PrHaushStatG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "PrHaushStatG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "PrHaushStatG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "PrHaushStatG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "PrHaushStatG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "PrHaushStatG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "PrHaushStatG"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Statistik der Wirtschaftsrechnungen privater Haushalte"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961BJNE000100312"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961BJNE000201123"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961BJNE000301118"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961BJNE000400312"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961BJNE000500312"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961BJNE000600312"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20161114222001"@de ;
+    dtd:has_doknr "BJNR000180961BJNE000700312"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id125 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:small-id58 a dtd:small ;
+    dtd:has_Value "*)"@de .
+
+dtd:small-id59 a dtd:small ;
+    dtd:has_Value "Gemäß Art. 2 der Statistikanpassungsverordnung vom 26. März 1991 (BGBl. I S. 846) gilt abweichend von § 3 Abs. 1:"@de .
+
+dtd:small-id60 a dtd:small ;
+    dtd:has_Value "\"(1) Die Erhebungen nach § 1 Nr. 1 erstrecken sich auf höchstens 6 000 Haushalte, ab 1. Januar 1993 auf 2 000 Haushalte in jedem Monat.\""@de .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id128 ;
+    dtd:has_standtyp dtd:standtyp-id127 .
+
+dtd:standkommentar-id128 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 5 G v. 21.7.2016 I 1768"@de .
+
+dtd:standtyp-id127 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:zitstelle-id126 a dtd:zitstelle ;
+    dtd:has_Value "1961, 18"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

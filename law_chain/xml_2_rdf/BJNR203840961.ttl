@@ -1,0 +1,299 @@
+@prefix dtd: <urn:RüstKontrG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20161012221014"@de ;
+    dtd:has_doknr "BJNR203840961"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57,
+        dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_BR dtd:BR-id54,
+        dtd:BR-id55 ;
+    dtd:has_Value " "@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(1) Der Artikel 1 dieses Gesetzes tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(2) (weggefallen)"@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(3) Der Tag, an dem das Übereinkommen vom 14. Dezember 1957 nach seinem Artikel 23 Abs. 2 für die Bundesrepublik Deutschland in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1961-04-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id73 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id74 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id56 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:fussnoten-id47 a dtd:fussnoten .
+
+dtd:fussnoten-id49 a dtd:fussnoten .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "RüstKontrG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "RüstKontrG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "RüstKontrG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "RüstKontrG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "RüstKontrG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "RüstKontrG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "RüstKontrG"@de .
+
+dtd:langue-id26 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Übereinkommen vom 14. Dezember 1957 über Rüstungskontrollmaßnahmen der Westeuropäischen Union"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id26 ;
+    dtd:has_standangabe dtd:standangabe-id27,
+        dtd:standangabe-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20161012221014"@de ;
+    dtd:has_doknr "BJNR203840961"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20161012221014"@de ;
+    dtd:has_doknr "BJNR203840961BJNE000100317"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20161012221014"@de ;
+    dtd:has_doknr "BJNR203840961BJNE000204118"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20161012221014"@de ;
+    dtd:has_doknr "BJNR203840961BJNE000301118"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20161012221014"@de ;
+    dtd:has_doknr "BJNR203840961BJNE000401118"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20161012221014"@de ;
+    dtd:has_doknr "BJNR203840961BJNE000504118"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20161012221014"@de ;
+    dtd:has_doknr "BJNR203840961BJNE000601118"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id73 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:standangabe-id27 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id76 ;
+    dtd:has_standtyp dtd:standtyp-id75 .
+
+dtd:standangabe-id28 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id78 ;
+    dtd:has_standtyp dtd:standtyp-id77 .
+
+dtd:standkommentar-id76 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 62 G v. 8.7.2016 I 1594"@de .
+
+dtd:standkommentar-id78 a dtd:standkommentar ;
+    dtd:has_Value "Art. 2, 3, 4 u. 5 treten gem. Art. 6 Abs. 2 dieses G zu dem Zeitpunkt in Kraft, den der Rat der Westeuropäischen Union nach Artikel 2 Abs. 1 des Übereinkommens vom 14. Dezember 1957 festsetzt. Der Tag des Inkrafttretens dieser Artikel ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:standtyp-id75 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id77 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:zitstelle-id74 a dtd:zitstelle ;
+    dtd:has_Value "1961, 384"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

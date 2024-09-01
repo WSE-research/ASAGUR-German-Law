@@ -1,0 +1,282 @@
+@prefix dtd: <urn:UrkBefrV-1997-Haag#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221231214400"@de ;
+    dtd:has_doknr "BJNR287200997"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id49 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id54 .
+
+dtd:DL-id41 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id49,
+        dtd:DD-id50 ;
+    dtd:has_DT dtd:DT-id47,
+        dtd:DT-id48 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Bundesamt für Auswärtige Angelegenheiten für alle von einem Gericht oder einer Behörde des Bundes ausgestellten öffentlichen Urkunden, soweit nicht der Präsident des Deutschen Patent- und Markenamts zuständig ist,"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Präsident des Deutschen Patent- und Markenamts für die vom Bundespatentgericht oder vom Deutschen Patent- und Markenamt ausgestellten öffentlichen Urkunden."@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "beim Bundesamt für Auswärtige Angelegenheiten das Bundesgebührengesetz, der 5. Abschnitt des Konsulargesetzes und die Besondere Gebührenverordnung des Auswärtigen Amts nach § 22 Absatz 4 des Bundesgebührengesetzes,"@de .
+
+dtd:LA-id54 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "beim Deutschen Patent- und Markenamt die DPMA-Verwaltungskostenverordnung vom 14. Juli 2006 (BGBl. I S. 1586), die zuletzt durch Artikel 4 der Verordnung vom 7. Februar 2022 (BGBl. I S. 171) geändert worden ist,"@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_Value " (+++ Textnachweis ab: 17.12.1997 +++)"@de ;
+    dtd:has_pre dtd:pre-id65 .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 2 des Gesetzes vom 21. Juni 1965 zu dem Haager Übereinkommen vom 5. Oktober 1961 zur Befreiung ausländischer öffentlicher Urkunden von der Legalisation (BGBl. 1965 II S. 875), der durch Artikel 7 des Gesetzes vom 23. Juni 1970 (BGBl. I S. 805) geändert worden ist, in Verbindung mit dem 2. Abschnitt des Verwaltungskostengesetzes vom 23. Juni 1970 (BGBl. I S. 821) verordnet die Bundesregierung:"@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_DL dtd:DL-id41 ;
+    dtd:has_Value "Die Apostille nach Artikel 3 Abs. 1 des Haager Übereinkommens vom 5. Oktober 1961 zur Befreiung ausländischer öffentlicher Urkunden von der Legalisation stellen aus 1.das Bundesamt für Auswärtige Angelegenheiten für alle von einem Gericht oder einer Behörde des Bundes ausgestellten öffentlichen Urkunden, soweit nicht der Präsident des Deutschen Patent- und Markenamts zuständig ist,2.der Präsident des Deutschen Patent- und Markenamts für die vom Bundespatentgericht oder vom Deutschen Patent- und Markenamt ausgestellten öffentlichen Urkunden."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Value "Die Gebühr für die Ausstellung der Apostille und für die Prüfung gemäß Artikel 7 Absatz 2 des Übereinkommens beträgt je 25 Euro. Im Übrigen gilt für die Erhebung von Gebühren und Auslagen 1.beim Bundesamt für Auswärtige Angelegenheiten das Bundesgebührengesetz, der 5. Abschnitt des Konsulargesetzes und die Besondere Gebührenverordnung des Auswärtigen Amts nach § 22 Absatz 4 des Bundesgebührengesetzes,2.beim Deutschen Patent- und Markenamt die DPMA-Verwaltungskostenverordnung vom 14. Juli 2006 (BGBl. I S. 1586), die zuletzt durch Artikel 4 der Verordnung vom 7. Februar 2022 (BGBl. I S. 171) geändert worden ist,in der jeweils geltenden Fassung."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1997-12-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id55 .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrV 1997 Haag"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrV 1997 Haag"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrV 1997 Haag"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrV 1997 Haag"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrV 1997 Haag"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Ausstellung der Apostille
+nach Artikel 3 des Haager Übereinkommens vom 5. Oktober 1961
+zur Befreiung ausländischer öffentlicher Urkunden
+von der Legalisation"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221231214400"@de ;
+    dtd:has_doknr "BJNR287200997"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221231214400"@de ;
+    dtd:has_doknr "BJNR287200997BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221231214400"@de ;
+    dtd:has_doknr "BJNR287200997BJNE000201125"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221231214400"@de ;
+    dtd:has_doknr "BJNR287200997BJNE000307125"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20221231214400"@de ;
+    dtd:has_doknr "BJNR287200997BJNE000400310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id65 a dtd:pre ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40 ;
+    dtd:has_Value "(+++ Textnachweis ab: 17.12.1997 +++)"@de .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id69 ;
+    dtd:has_standtyp dtd:standtyp-id68 .
+
+dtd:standkommentar-id69 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 1.12.2022 I 2131"@de .
+
+dtd:standtyp-id68 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "1997, 2872"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

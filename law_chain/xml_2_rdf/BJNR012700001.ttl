@@ -1,0 +1,233 @@
+@prefix dtd: <urn:BKOrgErl-2001#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125559"@de ;
+    dtd:has_doknr "BJNR012700001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48,
+        dtd:P-id49 .
+
+dtd:DD-id22 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id36 .
+
+dtd:DD-id23 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id37 .
+
+dtd:DD-id24 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id25 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id38,
+        dtd:LA-id39 .
+
+dtd:DD-id30 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id34 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id40 .
+
+dtd:DD-id35 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DL-id17 a dtd:DL ;
+    dtd:has_DD dtd:DD-id22,
+        dtd:DD-id23,
+        dtd:DD-id24,
+        dtd:DD-id25 ;
+    dtd:has_DT dtd:DT-id18,
+        dtd:DT-id19,
+        dtd:DT-id20,
+        dtd:DT-id21 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id26 a dtd:DL ;
+    dtd:has_DD dtd:DD-id29,
+        dtd:DD-id30 ;
+    dtd:has_DT dtd:DT-id27,
+        dtd:DT-id28 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id31 a dtd:DL ;
+    dtd:has_DD dtd:DD-id34,
+        dtd:DD-id35 ;
+    dtd:has_DT dtd:DT-id32,
+        dtd:DT-id33 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id18 a dtd:DT ;
+    dtd:has_Value "I."@de .
+
+dtd:DT-id19 a dtd:DT ;
+    dtd:has_Value "II."@de .
+
+dtd:DT-id20 a dtd:DT ;
+    dtd:has_Value "III."@de .
+
+dtd:DT-id21 a dtd:DT ;
+    dtd:has_Value "IV."@de .
+
+dtd:DT-id27 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id32 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id36 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Das Bundesministerium für Ernährung, Landwirtschaft und Forsten wird zu einem Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft umgebildet."@de .
+
+dtd:LA-id37 a dtd:LA ;
+    dtd:has_DL dtd:DL-id26 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Dazu werden ihm übertragen-aus dem Geschäftsbereich des Bundesministeriums für Gesundheit die Zuständigkeiten für Verbraucherschutz (Abteilung 4) mit der Unterabteilung 41 (Lebensmittel und Bedarfsgegenstände) und der Unterabteilung 42 (Veterinärmedizin);ausgenommen sind die Zuständigkeiten-für Chemikaliensicherheit (Referat 417),-für die Zulassung von Tierarzneimitteln und das Berufsrecht der Veterinäre und sonstigen veterinärmedizinischen Berufe (Referat 425);-aus dem Geschäftsbereich des Bundesministeriums für Wirtschaft und Technologie die Zuständigkeit für Verbraucherpolitik einschließlich Stiftung Warentest (Referat I B 4)."@de .
+
+dtd:LA-id38 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "aus dem Geschäftsbereich des Bundesministeriums für Gesundheit die Zuständigkeiten für Verbraucherschutz (Abteilung 4) mit der Unterabteilung 41 (Lebensmittel und Bedarfsgegenstände) und der Unterabteilung 42 (Veterinärmedizin);"@de .
+
+dtd:LA-id39 a dtd:LA ;
+    dtd:has_DL dtd:DL-id31 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ausgenommen sind die Zuständigkeiten-für Chemikaliensicherheit (Referat 417),-für die Zulassung von Tierarzneimitteln und das Berufsrecht der Veterinäre und sonstigen veterinärmedizinischen Berufe (Referat 425);"@de .
+
+dtd:LA-id40 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für Chemikaliensicherheit (Referat 417),"@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Zulassung von Tierarzneimitteln und das Berufsrecht der Veterinäre und sonstigen veterinärmedizinischen Berufe (Referat 425);"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "aus dem Geschäftsbereich des Bundesministeriums für Wirtschaft und Technologie die Zuständigkeit für Verbraucherpolitik einschließlich Stiftung Warentest (Referat I B 4)."@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Das Bundesinstitut für gesundheitlichen Verbraucherschutz und Veterinärmedizin (BgVV) wird in den Geschäftsbereich des Bundesministeriums für Verbraucherschutz, Ernährung und Landwirtschaft verlagert."@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die weiteren Einzelheiten des Übergangs werden zwischen den beteiligten Bundesministerien in Abstimmung mit dem Chef des Bundeskanzleramtes geregelt."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 24.1.2001 +++)"@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_DL dtd:DL-id17 ;
+    dtd:has_Value "Gemäß § 9 der Geschäftsordnung der Bundesregierung ordne ich mit sofortiger Wirkung an: I.Das Bundesministerium für Ernährung, Landwirtschaft und Forsten wird zu einem Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft umgebildet.II.Dazu werden ihm übertragen-aus dem Geschäftsbereich des Bundesministeriums für Gesundheit die Zuständigkeiten für Verbraucherschutz (Abteilung 4) mit der Unterabteilung 41 (Lebensmittel und Bedarfsgegenstände) und der Unterabteilung 42 (Veterinärmedizin);ausgenommen sind die Zuständigkeiten-für Chemikaliensicherheit (Referat 417),-für die Zulassung von Tierarzneimitteln und das Berufsrecht der Veterinäre und sonstigen veterinärmedizinischen Berufe (Referat 425);-aus dem Geschäftsbereich des Bundesministeriums für Wirtschaft und Technologie die Zuständigkeit für Verbraucherpolitik einschließlich Stiftung Warentest (Referat I B 4).III.Das Bundesinstitut für gesundheitlichen Verbraucherschutz und Veterinärmedizin (BgVV) wird in den Geschäftsbereich des Bundesministeriums für Verbraucherschutz, Ernährung und Landwirtschaft verlagert.IV.Die weiteren Einzelheiten des Übergangs werden zwischen den beteiligten Bundesministerien in Abstimmung mit dem Chef des Bundeskanzleramtes geregelt."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-01-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id14 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id50 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id51 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id45 .
+
+dtd:jurabk-id13 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2001"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2001"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Organisationserlass des Bundeskanzlers"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 ;
+    dtd:has_standangabe dtd:standangabe-id12 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id14 ;
+    dtd:has_jurabk dtd:jurabk-id13 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125559"@de ;
+    dtd:has_doknr "BJNR012700001"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125559"@de ;
+    dtd:has_doknr "BJNR012700001BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id50 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id12 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id53 ;
+    dtd:has_standtyp dtd:standtyp-id52 .
+
+dtd:standkommentar-id53 a dtd:standkommentar ;
+    dtd:has_Value "Organisationserlass teilweise aufgeh. durch Organisationserlass vom 19.9.2007 I 2315"@de .
+
+dtd:standtyp-id52 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id51 a dtd:zitstelle ;
+    dtd:has_Value "2001, 127"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,338 @@
+@prefix dtd: <urn:WZG§4Bek-1977-07-20#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160623215504"@de ;
+    dtd:has_doknr "BJNR013450977"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:kommentar-id78 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl. I 1977, 1346)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id64 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id63 .
+
+dtd:DL-id48 a dtd:DL ;
+    dtd:has_DD dtd:DD-id52,
+        dtd:DD-id53,
+        dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id49,
+        dtd:DT-id50,
+        dtd:DT-id51 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id55 a dtd:DL ;
+    dtd:has_DD dtd:DD-id58,
+        dtd:DD-id59 ;
+    dtd:has_DT dtd:DT-id56,
+        dtd:DT-id57 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:I-id46 a dtd:I ;
+    dtd:has_Value "Auf Grund des § 4 Abs. 2 Nr. 3 des Warenzeichengesetzes in der Fassung der Bekanntmachung vom 2. Januar 1968 (BGBl. I S. 1, 29)"@de .
+
+dtd:IMG-id65 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1977_j1346_0010.jpg"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_I dtd:I-id46 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Auf Grund des § 4 Abs. 2 Nr. 3 des Warenzeichengesetzes in der Fassung der Bekanntmachung vom 2. Januar 1968 (BGBl. I S. 1, 29) ..."@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_DL dtd:DL-id55 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ferner wird auf Grund des § 4 Abs. 2 Nr. 3a desselben Gesetzes bekanntgemacht:a)Die Bezeichnungen und Kennzeichen der Europäischen Weltraumbehörde (Anlage 2) sind von der Eintragung als Warenzeichen ausgeschlossen.b)- d)"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Bezeichnungen und Kennzeichen der Europäischen Weltraumbehörde (Anlage 2) sind von der Eintragung als Warenzeichen ausgeschlossen."@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "- d)"@de .
+
+dtd:LA-id64 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 21. November 1975 (BGBl. I S. 2911)."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 26.7.1977 +++)"@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_DL dtd:DL-id48 ;
+    dtd:has_Value "1.Auf Grund des § 4 Abs. 2 Nr. 3 des Warenzeichengesetzes in der Fassung der Bekanntmachung vom 2. Januar 1968 (BGBl. I S. 1, 29) ...2.Ferner wird auf Grund des § 4 Abs. 2 Nr. 3a desselben Gesetzes bekanntgemacht:a)Die Bezeichnungen und Kennzeichen der Europäischen Weltraumbehörde (Anlage 2) sind von der Eintragung als Warenzeichen ausgeschlossen.b)- d)3.Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 21. November 1975 (BGBl. I S. 2911)."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_BR dtd:BR-id45 ;
+    dtd:has_IMG dtd:IMG-id65 ;
+    dtd:has_Value "Fundstelle: BGBl. I 1977, 1346)"@de ;
+    dtd:has_noindex dtd:noindex-id47 .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1977-07-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Anlage 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Anlage 2"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "Anlage 3"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id79 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id80 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id66 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "WZG§4Bek 1977-07-20"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "WZG§4Bek 1977-07-20"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "WZG§4Bek 1977-07-20"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "WZG§4Bek 1977-07-20"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "WZG§4Bek 1977-07-20"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "WZG§4Bek 1977-07-20"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 4 des Warenzeichengesetzes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:noindex-id47 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160623215504"@de ;
+    dtd:has_doknr "BJNR013450977"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160623215504"@de ;
+    dtd:has_doknr "BJNR013450977BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160623215504"@de ;
+    dtd:has_doknr "BJNR013450977BJNE000900303"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160623215504"@de ;
+    dtd:has_doknr "BJNR013450977BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20160623215504"@de ;
+    dtd:has_doknr "BJNR013450977BJNE000300303"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20160623215504"@de ;
+    dtd:has_doknr "BJNR013450977BJNE000400303"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id79 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id82 ;
+    dtd:has_standtyp dtd:standtyp-id81 .
+
+dtd:standkommentar-id82 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Bek. v. 23.5.1991 I 1230"@de .
+
+dtd:standtyp-id81 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Bezeichnungen und Kennzeichen der Europäischen Weltraumbehörde"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id80 a dtd:zitstelle ;
+    dtd:has_Value "1977, 1345"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,278 @@
+@prefix dtd: <urn:BRPHV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20211125213514"@de ;
+    dtd:has_doknr "BJNR371200021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DL-id41 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45,
+        dtd:DD-id46,
+        dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id42,
+        dtd:DT-id43,
+        dtd:DT-id44 ;
+    dtd:has_Type dtd:Dash .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:Dash rdfs:label "Dash"@de .
+
+dtd:FnR-id37 a dtd:FnR ;
+    dtd:has_ID "F817842_01_BJNR371200021BJNE000200000"@de .
+
+dtd:FnR-id38 a dtd:FnR ;
+    dtd:has_ID "F817842_02_BJNR371200021BJNE000200000"@de .
+
+dtd:FnR-id39 a dtd:FnR ;
+    dtd:has_ID "F817842_03_BJNR371200021BJNE000200000"@de .
+
+dtd:Footnote-id61 a dtd:Footnote ;
+    dtd:has_FnZ "1"@de ;
+    dtd:has_Group dtd:page ;
+    dtd:has_ID "F817842_01_BJNR371200021BJNE000200000"@de ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "Die Anlage „Länderübergreifender Raumordnungsplan für den Hochwasserschutz“ und die zusammenfassende Erklärung nach § 10 Absatz 3 des Raumordnungsgesetzes (ROG) werden als Anlageband zu dieser Ausgabe des Bundesgesetzblatts ausgegeben. Innerhalb des Abonnements werden Anlagebände auf Anforderung gemäß den Bezugsbedingungen des Verlags übersandt. Außerhalb des Abonnements erfolgt die Lieferung gegen Kostenerstattung."@de .
+
+dtd:Footnote-id62 a dtd:Footnote ;
+    dtd:has_BR dtd:BR-id34 ;
+    dtd:has_FnZ "2"@de ;
+    dtd:has_Group dtd:page ;
+    dtd:has_ID "F817842_02_BJNR371200021BJNE000200000"@de ;
+    dtd:has_NB dtd:NB-id40 ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "Der „Länderübergreifende Raumordnungsplan für den Hochwasserschutz“ und die zusammenfassende Erklärung nach § 10 Absatz 3 des Raumordnungsgesetzes (ROG) werden ab dem Zeitpunkt der Bekanntmachung dieser Verordnung in den Diensträumen des Bundesamts für Bauwesen und Raumordnung, Deichmanns Aue 31 – 37, 53179 Bonn, zu jedermanns Einsicht bereitgehalten. Aufgrund der aktuellen pandemischen Lage kann derzeit eine Einsichtnahme nur unter Einhaltung der jeweils geltenden Hygiene- und Abstandsmaßnahmen erfolgen. Sollte eine Einsichtnahme gewünscht sein, wird unter der oben genannten Adresse, unter der Telefonnummer 02 28/9 94 01 21 34 oder per E-Mail an beteiligung-brph@bbr.bund.de um Vereinbarung eines Termins zur Einsichtnahme gebeten. Ergänzend werden der „Länderübergreifende Raumordnungsplan für den Hochwasserschutz“ und die zusammenfassende Erklärung nach § 10 Absatz 3 ROG ab dem Zeitpunkt der Bekanntmachung dieser Verordnung in das Internet eingestellt. Die Dokumente sind auf der Internetseite des Bundesministeriums des Innern, für Bau und Heimat (www.bmi.bund.de) und auf der Internetseite des Bundesamtes für Bauwesen und Raumordnung (www.bbr.bund.de) abrufbar."@de .
+
+dtd:Footnote-id63 a dtd:Footnote ;
+    dtd:has_DL dtd:DL-id41 ;
+    dtd:has_FnZ "3"@de ;
+    dtd:has_Group dtd:page ;
+    dtd:has_ID "F817842_03_BJNR371200021BJNE000200000"@de ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "Es wird darauf hingewiesen, dass –gemäß § 11 Absatz 5 des Raumordnungsgesetzes (ROG) die Verletzung von Verfahrens- und Formvorschriften, Mängel des Abwägungsvorgangs sowie die Verletzung von Vorschriften über die Umweltprüfung bei der Erarbeitung und Aufstellung des „Länderübergreifenden Raumordnungsplans für den Hochwasserschutz“ unbeachtlich werden, wenn sie nicht innerhalb eines Jahres seit Bekanntmachung dieser Verordnung gegenüber dem Bundesministerium des Innern, für Bau und Heimat unter Darlegung des die Verletzung begründenden Sachverhalts geltend gemacht worden sind,–die Festlegungen dieses Raumordnungsplans im Rahmen einer etwaigen Klage gegen eine Zulassungsentscheidung, bei der die Festlegungen des Raumordnungsplans zu beachten oder zu berücksichtigen sind, inzident auf ihre Wirksamkeit überprüft werden können,–Vereinigungen nach § 3 Absatz 1 und § 2 Absatz 2 des Umwelt-Rechtsbehelfsgesetzes (UmwRG) gemäß § 7 UmwRG einen Antrag entsprechend § 47 der Verwaltungsgerichtsordnung (VwGO) vor dem Oberverwaltungsgericht Berlin-Brandenburg stellen können. Der Antrag ist innerhalb eines Jahres nach Bekanntmachung dieser Verordnung zu stellen."@de .
+
+dtd:Footnotes-id60 a dtd:Footnotes ;
+    dtd:has_Footnote dtd:Footnote-id61,
+        dtd:Footnote-id62,
+        dtd:Footnote-id63 .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Value "gemäß § 11 Absatz 5 des Raumordnungsgesetzes (ROG) die Verletzung von Verfahrens- und Formvorschriften, Mängel des Abwägungsvorgangs sowie die Verletzung von Vorschriften über die Umweltprüfung bei der Erarbeitung und Aufstellung des „Länderübergreifenden Raumordnungsplans für den Hochwasserschutz“ unbeachtlich werden, wenn sie nicht innerhalb eines Jahres seit Bekanntmachung dieser Verordnung gegenüber dem Bundesministerium des Innern, für Bau und Heimat unter Darlegung des die Verletzung begründenden Sachverhalts geltend gemacht worden sind,"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Value "die Festlegungen dieses Raumordnungsplans im Rahmen einer etwaigen Klage gegen eine Zulassungsentscheidung, bei der die Festlegungen des Raumordnungsplans zu beachten oder zu berücksichtigen sind, inzident auf ihre Wirksamkeit überprüft werden können,"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Value "Vereinigungen nach § 3 Absatz 1 und § 2 Absatz 2 des Umwelt-Rechtsbehelfsgesetzes (UmwRG) gemäß § 7 UmwRG einen Antrag entsprechend § 47 der Verwaltungsgerichtsordnung (VwGO) vor dem Oberverwaltungsgericht Berlin-Brandenburg stellen können. Der Antrag ist innerhalb eines Jahres nach Bekanntmachung dieser Verordnung zu stellen."@de .
+
+dtd:NB-id40 a dtd:NB ;
+    dtd:has_Value "02 28/9 94 01 21 34"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.9.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id59 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 17 Absatz 2 Satz 1 des Raumordnungsgesetzes vom 22. Dezember 2008 (BGBl. I S. 2986), der zuletzt durch Artikel 159 der Verordnung vom 19. Juni 2020 (BGBl. I S. 1328) geändert worden ist, verordnet das Bundesministerium des Innern, für Bau und Heimat im Einvernehmen mit dem Bundesministerium der Finanzen, dem Bundesministerium für Ernährung und Landwirtschaft, dem Bundesministerium der Justiz und für Verbraucherschutz, dem Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit, dem Bundesministerium für Wirtschaft und Energie, dem Bundesministerium für Verkehr und digitale Infrastruktur und dem Bundesministerium der Verteidigung:"@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_FnR dtd:FnR-id37,
+        dtd:FnR-id38,
+        dtd:FnR-id39 ;
+    dtd:has_SUP dtd:SUP-id35,
+        dtd:SUP-id36 ;
+    dtd:has_Value "Für den länderübergreifenden Hochwasserschutz im Bundesgebiet werden die Ziele und Grundsätze der Raumordnung gemäß der Anlage zu dieser Verordnung als Raumordnungsplan festgelegt.,,"@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. September 2021 in Kraft."@de .
+
+dtd:SUP-id35 a dtd:SUP ;
+    dtd:has_Value ","@de .
+
+dtd:SUP-id36 a dtd:SUP ;
+    dtd:has_Value ","@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "BRPHV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-08-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id64 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id65 .
+
+dtd:fussnoten-id27 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id51 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BRPHV"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "BRPHV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "BRPHV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "BRPHV"@de .
+
+dtd:langue-id18 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Raumordnung im Bund für einen länderübergreifenden Hochwasserschutz"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20211125213514"@de ;
+    dtd:has_doknr "BJNR371200021"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20211125213514"@de ;
+    dtd:has_doknr "BJNR371200021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20211125213514"@de ;
+    dtd:has_doknr "BJNR371200021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20211125213514"@de ;
+    dtd:has_doknr "BJNR371200021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id64 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id59 a dtd:pre ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.9.2021 +++)"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_Footnotes dtd:Footnotes-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Raumordnungsplanung im Bund für einen länderübergreifenden Hochwasserschutz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id65 a dtd:zitstelle ;
+    dtd:has_Value "2021, 3712"@de .
+
+dtd:exp rdfs:label "exp"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:page rdfs:label "page"@de .
+

@@ -1,0 +1,739 @@
+@prefix dtd: <urn:AmtsschErl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:EPS rdfs:label "EPS"@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id172 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BAnz AT 17.06.2021 B2)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:B-id78 a dtd:B ;
+    dtd:has_I dtd:I-id79 ;
+    dtd:has_Value "Allgemeines Amtsschild"@de .
+
+dtd:B-id80 a dtd:B ;
+    dtd:has_Value "Gemeinsames Amtsschild mehrerer Dienststellen mit Anhängeschildern"@de .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:BR-id73 a dtd:BR .
+
+dtd:BR-id74 a dtd:BR .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141 .
+
+dtd:Content-id142 a dtd:Content ;
+    dtd:has_P dtd:P-id143 .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145,
+        dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148,
+        dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151,
+        dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156,
+        dtd:P-id157,
+        dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_BR dtd:BR-id73,
+        dtd:BR-id74,
+        dtd:BR-id75,
+        dtd:BR-id76 ;
+    dtd:has_P dtd:P-id164,
+        dtd:P-id165,
+        dtd:P-id166,
+        dtd:P-id167,
+        dtd:P-id168 .
+
+dtd:Content-id169 a dtd:Content ;
+    dtd:has_P dtd:P-id170 .
+
+dtd:I-id79 a dtd:I ;
+    dtd:has_Value "Amtsschild"@de .
+
+dtd:IMG-id136 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "377"@de ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "banzat_2021_20210608b2-01.jpg"@de ;
+    dtd:has_Type "EPS"@de ;
+    dtd:has_Units "72"@de ;
+    dtd:has_Width "269"@de ;
+    dtd:has_alt ""@de .
+
+dtd:IMG-id137 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "516"@de ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "banzat_2021_20210608b2-02.jpg"@de ;
+    dtd:has_Type "EPS"@de ;
+    dtd:has_Units "72"@de ;
+    dtd:has_Width "269"@de ;
+    dtd:has_alt ""@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_BR dtd:BR-id69 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de ;
+    dtd:has_pre dtd:pre-id171 .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "Auf Beschluß der Bundesregierung gebe ich folgendes bekannt:"@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "(1) Das Amtsschild der Bundesbehörden ist ein rotgerändertes, goldfarbenes Rechteck, in dem sich der schwarze Bundesadler befindet, den Kopf nach rechts gewendet, die Flügel offen, aber mit geschlossenem Gefieder, Schnabel, Zunge und Fänge von roter Farbe."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(2) Unter dem Bundesadler ist (in der Regel ohne Angabe des Ortes) die Dienststellenbezeichnung mit schwarzer Schrift angebracht. In der Beschriftung ist der Artikel wegzulassen."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(1) Befinden sich in einem Gebäude mehrere zur Führung des Amtsschildes der Bundesbehörden berechtigte Dienststellen, so können sie ein gemeinsames Schild mit dem Bundesadler verwenden."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(2) Die Dienststellenbezeichnungen werden in diesem Fall auf besonderen, untereinander aufgehängten Anhängeschildern angeführt."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_BR dtd:BR-id72 ;
+    dtd:has_Value "(1) Es sind drei Größen für Amtsschilder zugelassen. Die Abmessungen betragen in Zentimetern: GrößeIIIIIIa) Breite4229,721b) Höhe    1. des allgemeinen Amtsschildes (Ziffer 1)59,44229,7 2. des gemeinsamen Amtsschildes mehrerer Dienststellen (Ziffer 2)42,43021,2 3. der Anhängeschilder zu Ziffer 2    bei einzeiliger Beschriftung17128,5 bei zweizeiliger Beschriftung241712"@de ;
+    dtd:has_table dtd:table-id83 .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(2) Welche der zugelassenen Größen des Amtsschildes gewählt wird, bestimmt sich nach der Größe und Gestaltung des Gebäudes und der Fläche, auf der das Amtsschild befestigt werden soll."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "Für die Gestaltung der Amtsschilder und ihre Beschriftung ist das beigefügte Muster maßgebend."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(1) Zur Führung des Amtsschildes nach Ziffer 1 sind alle Bundesbehörden sowie die Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung berechtigt."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(2) Die übrigen rechtsfähigen bundesunmittelbaren Körperschaften, Anstalten und Stiftungen des öffentlichen Rechts gehören nicht zu den Bundesbehörden im Sinne des Absatzes 1."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(3) Über die Berechtigung zur Führung des Amtsschildes entscheidet in Zweifelsfällen der Bundesminister des Innern im Benehmen mit den zuständigen Fachministern."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "Die Bestimmungen über die Amtsschilder der deutschen Vertretungen im Ausland erläßt das Auswärtige Amt."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_SP dtd:SP-id81 ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BAnz AT 17.06.2021 B2)"@de ;
+    dtd:has_noindex dtd:noindex-id82 .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_B dtd:B-id78 ;
+    dtd:has_Value "Allgemeines Amtsschild"@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id136 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_B dtd:B-id80 ;
+    dtd:has_Value "Gemeinsames Amtsschild mehrerer Dienststellen mit Anhängeschildern"@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id137 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_BR dtd:BR-id77 ;
+    dtd:has_Value "(+++ Die Vorlage ist über das Bundesministerium des Innern, für Bau und Heimat zu beziehen +++) Muster Kursivdruck: Fehlschreibung des Wortes \"Amtschild\" in \"Amtsschild\" korrigiert"@de .
+
+dtd:SP-id81 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id33 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1951-09-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id85 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20.000000pt"@de .
+
+dtd:colspec-id86 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "376.000000pt"@de .
+
+dtd:colspec-id87 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "49.000000pt"@de .
+
+dtd:colspec-id88 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "63.000000pt"@de .
+
+dtd:colspec-id89 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "23.000000pt"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "1."@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "2."@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "3."@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "4."@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "5."@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "6."@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "Muster"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_Value "I"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_Value "II"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_Value "III"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_Value "a) Breite"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_Value "42"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_Value "29,7"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_Value "21"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_Value "b) Höhe"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_Value "1. des allgemeinen Amtsschildes (Ziffer 1)"@de .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_Value "59,4"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_Value "42"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_Value "29,7"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_Value "2. des gemeinsamen Amtsschildes mehrerer Dienststellen (Ziffer 2)"@de .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_Value "42,4"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_Value "30"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_Value "21,2"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_Value "3. der Anhängeschilder zu Ziffer 2"@de .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_Value "bei einzeiliger Beschriftung"@de .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_Value "17"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_Value "12"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_Value "8,5"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_Value "bei zweizeiliger Beschriftung"@de .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_Value "24"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_Value "17"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_Value "12"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_Value "Größe"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:fundstelle-id34 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id173 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id174 .
+
+dtd:fussnoten-id56 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id140 .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id169 .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "AmtsschErl"@de .
+
+dtd:langue-id35 a dtd:langue ;
+    dtd:has_Value "Erlaß über die Amtsschilder der Bundesbehörden"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id33 ;
+    dtd:has_fundstelle dtd:fundstelle-id34 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_langue dtd:langue-id35 ;
+    dtd:has_standangabe dtd:standangabe-id36 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 .
+
+dtd:noindex-id82 a dtd:noindex .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000800311"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000901377"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000100311"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000200311"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000300311"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000400311"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000500311"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000600311"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20210626213001"@de ;
+    dtd:has_doknr "BJNR009270951BJNE000700311"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id173 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id171 a dtd:pre ;
+    dtd:has_BR dtd:BR-id70,
+        dtd:BR-id71 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:row-id91 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101,
+        dtd:entry-id102,
+        dtd:entry-id99 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id92 a dtd:row ;
+    dtd:has_entry dtd:entry-id103,
+        dtd:entry-id104,
+        dtd:entry-id105,
+        dtd:entry-id106 .
+
+dtd:row-id93 a dtd:row ;
+    dtd:has_entry dtd:entry-id107,
+        dtd:entry-id108,
+        dtd:entry-id109,
+        dtd:entry-id110 .
+
+dtd:row-id94 a dtd:row ;
+    dtd:has_entry dtd:entry-id111,
+        dtd:entry-id112,
+        dtd:entry-id113,
+        dtd:entry-id114,
+        dtd:entry-id115 .
+
+dtd:row-id95 a dtd:row ;
+    dtd:has_entry dtd:entry-id116,
+        dtd:entry-id117,
+        dtd:entry-id118,
+        dtd:entry-id119,
+        dtd:entry-id120 .
+
+dtd:row-id96 a dtd:row ;
+    dtd:has_entry dtd:entry-id121,
+        dtd:entry-id122,
+        dtd:entry-id123,
+        dtd:entry-id124,
+        dtd:entry-id125 .
+
+dtd:row-id97 a dtd:row ;
+    dtd:has_entry dtd:entry-id126,
+        dtd:entry-id127,
+        dtd:entry-id128,
+        dtd:entry-id129,
+        dtd:entry-id130 .
+
+dtd:row-id98 a dtd:row ;
+    dtd:has_entry dtd:entry-id131,
+        dtd:entry-id132,
+        dtd:entry-id133,
+        dtd:entry-id134,
+        dtd:entry-id135 .
+
+dtd:standangabe-id36 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id176 ;
+    dtd:has_standtyp dtd:standtyp-id175 .
+
+dtd:standkommentar-id176 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Erlass v. 8.6.2021 BAnz AT 17.06.2021 B2"@de .
+
+dtd:standtyp-id175 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id83 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id84 .
+
+dtd:tbody-id90 a dtd:tbody ;
+    dtd:has_row dtd:row-id91,
+        dtd:row-id92,
+        dtd:row-id93,
+        dtd:row-id94,
+        dtd:row-id95,
+        dtd:row-id96,
+        dtd:row-id97,
+        dtd:row-id98 .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id138 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id142 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id144 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id163 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:tgroup-id84 a dtd:tgroup ;
+    dtd:has_cols "5"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id85,
+        dtd:colspec-id86,
+        dtd:colspec-id87,
+        dtd:colspec-id88,
+        dtd:colspec-id89 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id90 .
+
+dtd:zitstelle-id174 a dtd:zitstelle ;
+    dtd:has_Value "1951, 927"@de .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:center rdfs:label "center"@de .
+

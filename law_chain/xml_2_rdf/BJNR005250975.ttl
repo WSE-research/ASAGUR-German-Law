@@ -1,0 +1,248 @@
+@prefix dtd: <urn:StÄndG-1975#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150824"@de ;
+    dtd:has_doknr "BJNR005250975"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 26. 2.1975 +++) *P (+++ Stand: Geändert durch Art. 11 V v. 26.11.1986 I 2089 +++) *PE"@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Die zuständigen obersten Landesbehörden unterrichten den Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit jeweils bis zum 31. März eines jeden Jahres über die im vorangegangenen Kalenderjahr von den zuständigen Stellen gemäß § 7d Abs. 2 Ziff. 2 des Einkommensteuergesetzes insgesamt erteilten Bescheinigungen, aufgegliedert nach Industriezweigen sowie nach Art und Höhe der begünstigten Investitionen."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 12 Abs. 1 und des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1975-02-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id37 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id48 .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "StÄndG 1975"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "StÄndG 1975"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "StÄndG 1975"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "StÄndG 1975"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "StÄndG 1975"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "StÄndG 1975"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Änderung des Einkommensteuergesetzes und des
+Investitionszulagengesetzes"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22,
+        dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150824"@de ;
+    dtd:has_doknr "BJNR005250975"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150824"@de ;
+    dtd:has_doknr "BJNR005250975BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150824"@de ;
+    dtd:has_doknr "BJNR005250975BJNE000201309"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150824"@de ;
+    dtd:has_doknr "BJNR005250975BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625150824"@de ;
+    dtd:has_doknr "BJNR005250975BJNE000400304"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625150824"@de ;
+    dtd:has_doknr "BJNR005250975BJNE000500304"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BStBl I"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value """Unterrichtung des Bundesministers für Umwelt, Naturschutz und
+Reaktorsicherheit"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "1975, 525"@de .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "1975, 202"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+

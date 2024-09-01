@@ -1,0 +1,257 @@
+@prefix dtd: <urn:InsoKostV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154504"@de ;
+    dtd:has_doknr "BJNR086700999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.1999 +++)"@de ;
+    dtd:has_pre dtd:pre-id61 .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 362 des Dritten Buches Sozialgesetzbuch - Arbeitsförderung - vom 24. März 1997 (BGBl. I S. 594) verordnet das Bundesministerium für Arbeit und Sozialordnung nach Anhörung der Bundesanstalt für Arbeit und der Verbände der Unfallversicherungsträger:"@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Die sonstigen Kosten, die mit der Erbringung des Insolvenzgeldes zusammenhängen, werden pauschaliert."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "Als Pauschale sind die Beträge, die die Bundesagentur für Arbeit für Insolvenzgeld und für die Beiträge nach § 175 des Dritten Buches Sozialgesetzbuch aufwendet, im jeweiligen Kalendermonat mit dem von der Deutschen Bundesbank für diesen Monat bekanntgegebenen durchschnittlichen Zinssatz für Einlagen privater Haushalte mit vereinbarter Laufzeit bis zu einem Jahr im Neugeschäft der deutschen Banken zu verzinsen; als Zinssatz für die Monate Januar bis Juni des Jahres, in dem die Umlage durchgeführt wird, gilt der für den Monat Januar dieses Jahres vorläufige Zinssatz. Zinsen sind von der Mitte des Monats der kassenmäßigen Buchung an bis zur Erstattung durch den Unfallversicherungsträger zu zahlen. Erfolgt die Erstattung nicht auf telegrafischem Wege oder durch Blitzgiro, gilt als letzter Zinstag der dritte Tag nach dem Tag der Hingabe des Überweisungsträgers an das Geldinstitut. Zahlungen der Unfallversicherungsträger sind zunächst auf die zu verzinsenden Beträge und dann auf die Verwaltungskosten und sonstigen Kosten anzurechnen."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Januar 1999 in Kraft."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-05-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id49 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "InsoKostV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "InsoKostV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "InsoKostV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "InsoKostV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "InsoKostV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "InsoKostV"@de .
+
+dtd:kurzue-id23 a dtd:kurzue ;
+    dtd:has_Value "Insolvenzgeld-Kosten-Verordnung"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Pauschalierung der sonstigen Kosten für die
+Erbringung von Insolvenzgeld"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id23 ;
+    dtd:has_langue dtd:langue-id24 ;
+    dtd:has_standangabe dtd:standangabe-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154504"@de ;
+    dtd:has_doknr "BJNR086700999"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154504"@de ;
+    dtd:has_doknr "BJNR086700999BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154504"@de ;
+    dtd:has_doknr "BJNR086700999BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154504"@de ;
+    dtd:has_doknr "BJNR086700999BJNE000305140"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625154504"@de ;
+    dtd:has_doknr "BJNR086700999BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625154504"@de ;
+    dtd:has_doknr "BJNR086700999BJNE000500307"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id61 a dtd:pre ;
+    dtd:has_BR dtd:BR-id47,
+        dtd:BR-id48 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.1999 +++)"@de .
+
+dtd:standangabe-id25 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id65 ;
+    dtd:has_standtyp dtd:standtyp-id64 .
+
+dtd:standkommentar-id65 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 43 G v. 20.12.2011 I 2854"@de .
+
+dtd:standtyp-id64 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Pauschalierung sonstiger Kosten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Bemessung der Pauschale"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "1999, 867"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,285 @@
+@prefix dtd: <urn:Münz10EuroBek-2004-12-16#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131202132502"@de ;
+    dtd:has_doknr "BJNR007500005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id68 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2005, 75)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:ABWFORMAT-id67 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id54 .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id47 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id49 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51 ;
+    dtd:has_DT dtd:DT-id50 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:IMG-id55 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_2005_j0075_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"DIE WELT ZU GAST BEI FREUNDEN\" "@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_DL dtd:DL-id49 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"DIE WELT ZU GAST BEI FREUNDEN\" "@de .
+
+dtd:LA-id54 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"DIE WELT ZU GAST BEI FREUNDEN\""@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value " (+++ Textnachweis ab: 13. 1.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id66 .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id67 ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33,
+        dtd:BR-id34,
+        dtd:BR-id35,
+        dtd:BR-id36 ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Value "Gemäß den §§ 2, 4 und 5 des Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung beschlossen, zum Thema \"FIFA Fußball-Weltmeisterschaft Deutschland 2006\" eine Serie von vier deutschen Euro-Gedenkmünzen im Nennwert von 10 Euro prägen zu lassen und in den Jahren 2003 bis 2006 jährlich eine Münze auszugeben. Die Auflage der Münze des Jahres 2005 (3. Ausgabe 2005) beträgt 4.400.000 Stück, darunter 400.000 Stück in Spiegelglanzausführung. Die Prägung erfolgt durch die fünf staatlichen deutschen Münzstätten in Berlin, München, Stuttgart, Karlsruhe und Hamburg. Die Münze wird ab dem 10. Februar 2005 in den Verkehr gebracht. Sie besteht aus einer Legierung von 925 Tausendteilen Silber und 75 Tausendteilen Kupfer, hat einen Durchmesser von 32,5 Millimetern und eine Masse von 18 Gramm. Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden, glatten Randstab umgeben. Die Bildseite zeigt eine dynamische Darstellung des Fußballspiels aus einer interessanten Perspektive: der Ball ist im Netz, das zugleich als Gradnetz der Erde verstanden werden kann. Das Motiv wird durch die Umschrift \"FIFA FUSSBALL-WELTMEISTERSCHAFT DEUTSCHLAND 2006\" umrahmt. Die Wertseite trägt einen Adler, zwölf Sterne, den Nennwert \"10 EURO\", die Umschrift \"BUNDESREPUBLIK DEUTSCHLAND\" und die Jahreszahl 2005. Der glatte Münzrand enthält in vertiefter Prägung die Inschrift: \"DIE WELT ZU GAST BEI FREUNDEN\" und die Münzzeichen \"A . D . F . G . J\" der fünf deutschen Prägestätten. Der Entwurf der Münze stammt von Lucia Maria Hardegen, Bonn (Bildseite) und Erich Ott, München (Wertseite)."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39,
+        dtd:BR-id40,
+        dtd:BR-id41 ;
+    dtd:has_IMG dtd:IMG-id55 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2005, 75)"@de ;
+    dtd:has_noindex dtd:noindex-id42 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-12-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id69 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id70 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id58 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2004-12-16"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2004-12-16"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2004-12-16"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2004-12-16"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen im
+Nennwert von 10 Euro (Gedenkmünze "FIFA Fußball-Weltmeisterschaft Deutschland
+2006" - 3. Ausgabe 2005 -)"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id42 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131202132502"@de ;
+    dtd:has_doknr "BJNR007500005"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131202132502"@de ;
+    dtd:has_doknr "BJNR007500005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131202132502"@de ;
+    dtd:has_doknr "BJNR007500005BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131202132502"@de ;
+    dtd:has_doknr "BJNR007500005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id69 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id66 a dtd:pre ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "(+++ Textnachweis ab: 13. 1.2005 +++)"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id70 a dtd:zitstelle ;
+    dtd:has_Value "2005, 75"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

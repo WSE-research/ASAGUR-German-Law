@@ -1,0 +1,262 @@
+@prefix dtd: <urn:PBNUBestV-2020#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200605212508"@de ;
+    dtd:has_doknr "BJNR052300020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_BR dtd:BR-id45 ;
+    dtd:has_Value " (+++ Textnachweis ab: 15.5.2020 +++)Die Verordnung tritt gem. § 3 Abs. 1 Satz 1 V v. 17.3.2020 I 523 an dem Tag in Kraft, an dem die Verschmelzung der DB Privat- und Firmenkundenbank AG auf die Deutsche Bank AG in das Handelsregister des Sitzes der Deutschen Bank AG eingetragen wird (zum Inkrafttreten vgl. Standangabe)"@de ;
+    dtd:has_pre dtd:pre-id60 .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 38 Absatz 2 des Postpersonalrechtsgesetzes, der durch Artikel 1 Nummer 21 des Gesetzes vom 28. Mai 2015 (BGBl. I S. 813) eingefügt worden ist, verordnet die Bundesregierung nach Anhörung der vertretungsberechtigten Organe der DB Privat- und Firmenkundenbank AG und der Deutschen Bank AG:"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Die Deutsche Bank AG wird als Postnachfolgeunternehmen bestimmt."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(1) Die Beamtinnen und Beamten, die am Tag vor der Eintragung der Verschmelzung der DB Privat- und Firmenkundenbank AG auf die Deutsche Bank AG in das Handelsregister des Sitzes der Deutschen Bank AG bei der DB Privat- und Firmenkundenbank AG beschäftigt waren, werden bei der Deutschen Bank AG beschäftigt. Dies gilt nicht für Beamtinnen und Beamte, die mit Wirkung vom Tag der Eintragung versetzt worden sind oder deren Beamtenverhältnis mit Ablauf des Vortages geendet hat."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2) Im Sinne des Absatzes 1 Satz 1 bei der DB Privat- und Firmenkundenbank AG beschäftigt waren auch solche Beamtinnen und Beamte, die durch die frühere Deutsche Postbank AG oder die DB Privat- und Firmenkundenbank AG beurlaubt oder abgeordnet worden sind oder denen eine Tätigkeit bei einem privaten Unternehmen oder einer Einrichtung ohne Dienstherrenfähigkeit zugewiesen worden ist. Die genannten Maßnahmen bleiben im Übrigen unberührt."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt an dem Tag in Kraft, an dem die Verschmelzung der DB Privat- und Firmenkundenbank AG auf die Deutsche Bank AG in das Handelsregister des Sitzes der Deutschen Bank AG eingetragen wird. Gleichzeitig tritt die Verordnung zur Bestimmung der Deutschen Bank Privat- und Geschäftskunden AG als Postnachfolgeunternehmen vom 18. Mai 2018 (BGBl. I S. 618; 2020 I S. 135) außer Kraft."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium der Finanzen gibt den Tag des Inkrafttretens dieser Verordnung im Bundesgesetzblatt bekannt."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "PBNUBestV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-03-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id61 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id62 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id48 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV 2020"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV 2020"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV 2020"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV 2020"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV 2020"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "PBNUBestV"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Bestimmung der Deutschen Bank AG als Postnachfolgeunternehmen"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id27,
+        dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id31,
+        dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id35,
+        dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22,
+        dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id24,
+        dtd:jurabk-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200605212508"@de ;
+    dtd:has_doknr "BJNR052300020"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200605212508"@de ;
+    dtd:has_doknr "BJNR052300020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200605212508"@de ;
+    dtd:has_doknr "BJNR052300020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200605212508"@de ;
+    dtd:has_doknr "BJNR052300020BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200605212508"@de ;
+    dtd:has_doknr "BJNR052300020BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id61 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id60 a dtd:pre ;
+    dtd:has_BR dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_Value "(+++ Textnachweis ab: 15.5.2020 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id64 ;
+    dtd:has_standtyp dtd:standtyp-id63 .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id66 ;
+    dtd:has_standtyp dtd:standtyp-id65 .
+
+dtd:standkommentar-id64 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 900-10-4-55 v. 18.5.2018 I 618, 2020 I 135 (PBNUBestV)"@de .
+
+dtd:standkommentar-id66 a dtd:standkommentar ;
+    dtd:has_Value "Die V ist gem. Bek. v. 27.5.2020 I 1208 am 15.5.2020 in Kraft getreten"@de .
+
+dtd:standtyp-id63 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:standtyp-id65 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Postnachfolgeunternehmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Beamtinnen und Beamte"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id62 a dtd:zitstelle ;
+    dtd:has_Value "2020, 523; 2020, 1208"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,189 @@
+@prefix dtd: <urn:IntKonnBek-1992#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125149"@de ;
+    dtd:has_doknr "BJNR007440992"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:DD-id23 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id33 .
+
+dtd:DD-id26 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id34 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id35 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id36 .
+
+dtd:DL-id21 a dtd:DL ;
+    dtd:has_DD dtd:DD-id23 ;
+    dtd:has_DT dtd:DT-id22 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id24 a dtd:DL ;
+    dtd:has_DD dtd:DD-id26 ;
+    dtd:has_DT dtd:DT-id25 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id27 a dtd:DL ;
+    dtd:has_DD dtd:DD-id29 ;
+    dtd:has_DT dtd:DT-id28 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id30 a dtd:DL ;
+    dtd:has_DD dtd:DD-id32 ;
+    dtd:has_DT dtd:DT-id31 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id22 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id25 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id31 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id33 a dtd:LA ;
+    dtd:has_DL dtd:DL-id24 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Großherzogtum Luxemburg"@de .
+
+dtd:LA-id34 a dtd:LA ;
+    dtd:has_DL dtd:DL-id27 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Großherzogtum Luxemburg"@de .
+
+dtd:LA-id35 a dtd:LA ;
+    dtd:has_DL dtd:DL-id30 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Großherzogtum Luxemburg"@de .
+
+dtd:LA-id36 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Großherzogtum Luxemburg"@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.4.1992 +++)"@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_DL dtd:DL-id21 ;
+    dtd:has_SP dtd:SP-id20 ;
+    dtd:has_Value "Nach Artikel 6 Abs. 3 des Einführungsgesetzes zum Handelsgesetzbuch in der im Bundesgesetzblatt Teil III, Gliederungsnummer 4101-1, veröffentlichten bereinigten Fassung, Artikel 6 jedoch eingefügt durch Artikel 5 Nr. 1 des Gesetzes vom 25. Juli 1986 (BGBl. I S. 1120), wird bekanntgegeben, daß das Protokoll vom 23. Februar 1968 zur Änderung des Internationalen Abkommens vom 25. August 1924 zur Vereinheitlichung von Regeln über Konnossemente nach seinem Artikel 13 Abs. 2 für das Großherzogtum Luxemburgam 18. Mai 1991 in Kraft getreten ist. Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 6. März 1990 (BGBl. I S. 439). Der Bundesminister der Justiz"@de .
+
+dtd:SP-id20 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1992-03-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id39 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "IntKonnBek 1992"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "IntKonnBek 1992"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung nach Artikel 6 Abs. 3 des Einführungsgesetzes zum Handelsgesetzbuch"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125149"@de ;
+    dtd:has_doknr "BJNR007440992"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125149"@de ;
+    dtd:has_doknr "BJNR007440992BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "1992, 744"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

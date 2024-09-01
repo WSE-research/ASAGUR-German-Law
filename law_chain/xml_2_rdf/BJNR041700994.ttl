@@ -1,0 +1,632 @@
+@prefix dtd: <urn:HwStatG-1994#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132,
+        dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137,
+        dtd:P-id138,
+        dtd:P-id139,
+        dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148 .
+
+dtd:Content-id149 a dtd:Content ;
+    dtd:has_P dtd:P-id150 .
+
+dtd:Content-id151 a dtd:Content ;
+    dtd:has_P dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DL-id102 a dtd:DL ;
+    dtd:has_DD dtd:DD-id105,
+        dtd:DD-id106 ;
+    dtd:has_DT dtd:DT-id103,
+        dtd:DT-id104 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id107 a dtd:DL ;
+    dtd:has_DD dtd:DD-id110,
+        dtd:DD-id111 ;
+    dtd:has_DT dtd:DT-id108,
+        dtd:DT-id109 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id112 a dtd:DL ;
+    dtd:has_DD dtd:DD-id117,
+        dtd:DD-id118,
+        dtd:DD-id119,
+        dtd:DD-id120 ;
+    dtd:has_DT dtd:DT-id113,
+        dtd:DT-id114,
+        dtd:DT-id115,
+        dtd:DT-id116 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vierteljährliche Erhebungen,"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zählungen."@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Value "des zulassungspflichtigen Handwerks nach Anlage A und"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Value "des zulassungsfreien Handwerks nach Anlage B Abschnitt 1"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Umsatz im abgelaufenen Kalendervierteljahr,"@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zahl der tätigen Personen zum Ende des abgelaufenen Kalendervierteljahres,"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "hauptsächlich ausgeübtes Gewerbe nach der Anlage A oder der Anlage B Abschnitt 1 der Handwerksordnung,"@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ausgeübte wirtschaftliche Tätigkeiten und deren Schwerpunkt."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 13.3.1994 +++)"@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(1) Zur Darstellung des Verlaufs und der Struktur der wirtschaftlichen Tätigkeit im Handwerk werden statistische Erhebungen als Bundesstatistik durchgeführt."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_DL dtd:DL-id102 ;
+    dtd:has_Value "(2) Die Statistik umfaßt 1.vierteljährliche Erhebungen,2.Zählungen.(3) (weggefallen)"@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_DL dtd:DL-id107 ;
+    dtd:has_Value "Erhebungseinheiten sind selbständige Betriebe und Unternehmen 1.des zulassungspflichtigen Handwerks nach Anlage A und2.des zulassungsfreien Handwerks nach Anlage B Abschnitt 1der Handwerksordnung."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(1) Für die Erhebung nach § 1 Abs. 2 Nr. 1 werden, beginnend mit dem ersten Kalendervierteljahr 2008, Verwaltungsdaten ausgewertet, die den Statistikbehörden des Bundes und der Länder nach den §§ 2 und 3 des Verwaltungsdatenverwendungsgesetzes übermittelt werden."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_DL dtd:DL-id112 ;
+    dtd:has_Value "(2) Erhebungsmerkmale der Statistik sind: 1.Umsatz im abgelaufenen Kalendervierteljahr,2.Zahl der tätigen Personen zum Ende des abgelaufenen Kalendervierteljahres,3.hauptsächlich ausgeübtes Gewerbe nach der Anlage A oder der Anlage B Abschnitt 1 der Handwerksordnung,4.ausgeübte wirtschaftliche Tätigkeiten und deren Schwerpunkt."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "(3) Die Erhebungsmerkmale nach Absatz 2 Nr. 1 und 2 werden vierteljährlich erfaßt, die Erhebungsmerkmale nach den Nummern 3 und 4 zum Ende jedes dritten Kalendervierteljahres."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "(4) (weggefallen)"@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "Für die Zählungen nach § 1 Abs. 2 Nr. 2 werden jährlich, beginnend 2009, für die Erhebungseinheiten nach § 2 Angaben aus dem Statistikregister und Angaben, die nach § 3 Nr. 4 des Verwaltungsdatenverwendungsgesetzes übermittelt werden, ausgewertet."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "An die für Wirtschaft und Landesplanung zuständigen obersten Landesbehörden dürfen für die Verwendung gegenüber den gesetzgebenden Körperschaften und für Zwecke der Planung, jedoch nicht für die Regelung von Einzelfällen, vom Statistischen Bundesamt und den statistischen Ämtern der Länder Tabellen mit statistischen Ergebnissen übermittelt werden, auch soweit Tabellenfelder nur einen einzigen Fall aufweisen."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id36 a dtd:amtabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id37 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-03-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id76 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id80 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id155 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id156 .
+
+dtd:fussnoten-id101 a dtd:fussnoten .
+
+dtd:fussnoten-id82 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id129 .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:fussnoten-id86 a dtd:fussnoten .
+
+dtd:fussnoten-id88 a dtd:fussnoten .
+
+dtd:fussnoten-id90 a dtd:fussnoten .
+
+dtd:fussnoten-id92 a dtd:fussnoten .
+
+dtd:fussnoten-id94 a dtd:fussnoten .
+
+dtd:fussnoten-id97 a dtd:fussnoten .
+
+dtd:fussnoten-id99 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id75 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:jurabk-id78 a dtd:jurabk ;
+    dtd:has_Value "HwStatG 1994"@de .
+
+dtd:jurabk-id79 a dtd:jurabk ;
+    dtd:has_Value "HwStatG"@de .
+
+dtd:kurzue-id39 a dtd:kurzue ;
+    dtd:has_Value "Handwerkstatistikgesetz"@de .
+
+dtd:langue-id40 a dtd:langue ;
+    dtd:has_Value "Gesetz über Statistiken im Handwerk"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id36 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id37 ;
+    dtd:has_fundstelle dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_kurzue dtd:kurzue-id39 ;
+    dtd:has_langue dtd:langue-id40 ;
+    dtd:has_standangabe dtd:standangabe-id41 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id42,
+        dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id46,
+        dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id50,
+        dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id54,
+        dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id58,
+        dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id62,
+        dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id66,
+        dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id70,
+        dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id76 ;
+    dtd:has_jurabk dtd:jurabk-id74,
+        dtd:jurabk-id75 ;
+    dtd:has_titel dtd:titel-id77 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id80 ;
+    dtd:has_jurabk dtd:jurabk-id78,
+        dtd:jurabk-id79 ;
+    dtd:has_titel dtd:titel-id81 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000801308"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000904308"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE001000307"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000102377"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000202377"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000303308"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000404377"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000503308"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000602308"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405130432"@de ;
+    dtd:has_doknr "BJNR041700994BJNE000700307"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id155 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id158 ;
+    dtd:has_standtyp dtd:standtyp-id157 .
+
+dtd:standkommentar-id158 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 2 G v. 4.11.2010 I 1480"@de .
+
+dtd:standtyp-id157 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id100 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id149 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id151 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id90 ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id92 ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id94 ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id97 ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id99 ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id101 ;
+    dtd:has_text dtd:text-id100 .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Zweck, Umfang"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Erhebungseinheiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Vierteljährliche Erhebung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Zählungen im Handwerk"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Übermittlungsregelungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id77 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id81 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id156 a dtd:zitstelle ;
+    dtd:has_Value "1994, 417"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

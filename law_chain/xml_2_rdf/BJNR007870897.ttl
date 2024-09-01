@@ -1,0 +1,256 @@
+@prefix dtd: <urn:ÜbkBernAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180314214003"@de ;
+    dtd:has_doknr "BJNR007870897"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DL-id41 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45,
+        dtd:DD-id46,
+        dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id42,
+        dtd:DT-id43,
+        dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Druck der Exemplare, deren Herstellung zur Zeit der Aufhebung des Abkommens erlaubterweise im Gange war, darf vollendet werden; diese Exemplare sowie diejenigen, welche zu dem gedachten Zeitpunkt erlaubterweise hergestellt waren, dürfen verbreitet und verkauft werden. Ebenso dürfen die zu dem gedachten Zeitpunkte vorhandenen Vorrichtungen (Formen, Platten, Steine, Stereotypen usw.) noch vier Jahre lang benutzt werden; diese Frist beginnt mit dem Schlusse des Jahres, in welchem das Abkommen aufgehoben worden ist."@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Werke, welche vor der Aufhebung des Abkommens in einem der übrigen Verbandsländer veröffentlicht sind, genießen den in Artikel 5 der Übereinkunft vorgesehenen Schutz des ausschließlichen Übersetzungsrechts nicht gegenüber solchen Übersetzungen, welche zu dem gedachten Zeitpunkt in Deutschland erlaubterweise bereits ganz oder teilweise veröffentlicht waren."@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Dramatische oder dramatisch-musikalische Werke, welche in einem der übrigen Verbandsländer veröffentlicht oder aufgeführt und vor der Aufhebung des Abkommens im Original oder in Übersetzung in Deutschland erlaubterweise öffentlich aufgeführt sind, genießen den Schutz gegen unerlaubte Aufführung im Original oder in einer Übersetzung nicht."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_Value "Überschrift: BÜ nebst Zusatzartikel, Schlußprotokoll u. Vollziehungsprotokoll, alle v. 9.9.1886, 1887 S. 493, 506, 508 u. 514, Pariser Zusatzakte nebst Deklaration, beide v. 4.5.1896, 1897 S. 759 u. 769; vgl. jetzt auch RBÜ Berliner Fassung v. 13.11.1908, 1910 S. 965, Berner Zusatzprotokoll v. 20.3.1914, 1920 S. 137, RBÜ Rom-Fassung  (+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_Value "Wir Wilhelm, ... Deutscher Kaiser, König von Preußen usw. verordnen im Namen des Reichs, auf Grund des Gesetzes vom 4. April 1888 betreffend die Ausführung der am 9. September 1886 zu Bern abgeschlossenen Übereinkunft wegen Bildung eines internationalen Verbandes zum Schutze von Werken der Literatur und Kunst (Reichsgesetzbl. S. 139), nach erfolgter Zustimmung des Bundesrats, was folgt:*"@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_DL dtd:DL-id41 ;
+    dtd:has_Value "Werden besondere Abkommen, die mit anderen Verbandsländern über den Schutz von Werken der Literatur und Kunst abgeschlossen sind, außer Kraft gesetzt, so unterliegt die Anwendung der Übereinkunft auf Werke, welche bis dahin nach Maßgabe dieser Abkommen zu behandeln und in ihrem Ursprungslande beim Inkrafttreten der Übereinkunft noch nicht Gemeingut geworden waren (Artikel 14 der Übereinkunft), den nachstehenden Einschränkungen: 1.Der Druck der Exemplare, deren Herstellung zur Zeit der Aufhebung des Abkommens erlaubterweise im Gange war, darf vollendet werden; diese Exemplare sowie diejenigen, welche zu dem gedachten Zeitpunkt erlaubterweise hergestellt waren, dürfen verbreitet und verkauft werden. Ebenso dürfen die zu dem gedachten Zeitpunkte vorhandenen Vorrichtungen (Formen, Platten, Steine, Stereotypen usw.) noch vier Jahre lang benutzt werden; diese Frist beginnt mit dem Schlusse des Jahres, in welchem das Abkommen aufgehoben worden ist. 2.Werke, welche vor der Aufhebung des Abkommens in einem der übrigen Verbandsländer veröffentlicht sind, genießen den in Artikel 5 der Übereinkunft vorgesehenen Schutz des ausschließlichen Übersetzungsrechts nicht gegenüber solchen Übersetzungen, welche zu dem gedachten Zeitpunkt in Deutschland erlaubterweise bereits ganz oder teilweise veröffentlicht waren. 3.Dramatische oder dramatisch-musikalische Werke, welche in einem der übrigen Verbandsländer veröffentlicht oder aufgeführt und vor der Aufhebung des Abkommens im Original oder in Übersetzung in Deutschland erlaubterweise öffentlich aufgeführt sind, genießen den Schutz gegen unerlaubte Aufführung im Original oder in einer Übersetzung nicht. "@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Die in § 1 Nr. 1 gewährte Befugnis zur Verbreitung und zum Verkaufe von Exemplaren sowie zur Benutzung von Vorrichtungen unterliegt der Bedingung, daß die Exemplare und Vorrichtungen mit einem besonderen Stempel versehen sind. Die Abstempelung ist nur bis zum Ablaufe dreier Monate zulässig; diese Frist beginnt mit dem Schlusse des Monats, in welchem das Abkommen aufgehoben worden ist. ..."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit dem Tage ihrer Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1897-11-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id63 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id64 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id53 .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:fussnoten-id36 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "ÜbkBernAV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "ÜbkBernAV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "ÜbkBernAV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "ÜbkBernAV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "ÜbkBernAV"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Verordnung betreffend die Ausführung der am 9. September 1886 zu Bern abgeschlossenen Übereinkunft wegen Bildung eines internationalen Verbandes zum Schutze von Werken der Literatur und Kunst"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180314214003"@de ;
+    dtd:has_doknr "BJNR007870897"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180314214003"@de ;
+    dtd:has_doknr "BJNR007870897BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20180314214003"@de ;
+    dtd:has_doknr "BJNR007870897BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20180314214003"@de ;
+    dtd:has_doknr "BJNR007870897BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20180314214003"@de ;
+    dtd:has_doknr "BJNR007870897BJNE000400304"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id63 a dtd:periodikum ;
+    dtd:has_Value "RGBl"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id64 a dtd:zitstelle ;
+    dtd:has_Value "1897, 787"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

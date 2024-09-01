@@ -1,0 +1,268 @@
+@prefix dtd: <urn:ElbVwHHmbV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151556"@de ;
+    dtd:has_doknr "BJNR000030939"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59,
+        dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64,
+        dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:I-id46 a dtd:I ;
+    dtd:has_Value "Reichsstatthalter in Hamburg"@de .
+
+dtd:I-id47 a dtd:I ;
+    dtd:has_Value "preußische Landesgebiet"@de .
+
+dtd:I-id48 a dtd:I ;
+    dtd:has_Value "Reich (Reichswasserstraßenverwaltung)"@de .
+
+dtd:I-id49 a dtd:I ;
+    dtd:has_Value "Reichsverkehrsminister"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 5 des Gesetzes über den Neuaufbau des Reichs vom 30. Januar 1934 (Reichsgesetzbl. I S. 75), des § 14 des Gesetzes über Groß-Hamburg und andere Gebietsbereinigungen vom 26. Januar 1937 (Reichsgesetzbl. I S. 91) und des § 14 des Gesetzes über die Verfassung und Verwaltung der Hansestadt Hamburg vom 9. Dezember 1937 (Reichsgesetzbl. I S. 1327) wird in Ergänzung der Verordnung über die Verwaltung der Elbe im Gebiet Groß-Hamburg vom 30. Juni 1937 (Reichsgesetzblatt I S. 727) verordnet:"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(1) Die nach dem Zusatzvertrag mit Preußen (Zweiter Nachtrag vom 22. Dezember 1928, Reichsgesetzbl. 1929 II S. 1), zu §§ 11 und 12 dem Land Preußen übertragene Verwaltung und Unterhaltung des Elbelaufs von Ortkathen (bei km 607,5) bis Fünfhausen (bei km 611) wird, soweit sie nicht schon nach den Reichsgesetzen vom 26. Januar 1937 (Reichsgesetzbl. I S. 91) und 9. Dezember 1937 (Reichsgesetzbl. I S. 1327) auf die Hansestadt Hamburg übergegangen ist, auf die Hansestadt Hamburg übertragen."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_I dtd:I-id46,
+        dtd:I-id47 ;
+    dtd:has_Value "(2) Auf den Stromstrecken, deren Verwaltung und Unterhaltung der Hansestadt Hamburg übertragen ist, wird die Ausübung der Strom- und Schiffahrtpolizei dem Reichsstatthalter in Hamburg übertragen, auch soweit das preußische Landesgebiet berührt wird."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_I dtd:I-id48 ;
+    dtd:has_Value "Die nach dem Reichsgesetz vom 29. Juli 1921 (Reichsgesetzbl. S 961) vom Reich (Reichswasserstraßenverwaltung) übernommenen Wasserstraßen Köhlfleth einschließlich Kleine Elbe (mit Bullerinne) und Finkenwärder Aue gehen mit allen Rechten und Pflichten in das Eigentum und in die Verwaltung der Hansestadt Hamburg über."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt mit Wirkung vom 1. Januar 1939 in Kraft."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_I dtd:I-id49 ;
+    dtd:has_Value "(2) Der Reichsverkehrsminister erläßt die zur Durchführung ... dieser Verordnung erforderlichen Rechts- und Verwaltungsvorschriften."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_BR dtd:BR-id45 ;
+    dtd:has_SP dtd:SP-id50,
+        dtd:SP-id51 ;
+    dtd:has_Value "Der Reichsminister des Innern Der Reichsverkehrsminister"@de .
+
+dtd:SP-id50 a dtd:SP ;
+    dtd:has_Value "Der Reichsminister des Innern"@de .
+
+dtd:SP-id51 a dtd:SP ;
+    dtd:has_Value "Der Reichsverkehrsminister"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1938-12-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id68 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id69 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id54 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "ElbVwHHmbV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "ElbVwHHmbV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "ElbVwHHmbV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "ElbVwHHmbV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "ElbVwHHmbV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ElbVwHHmbV"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Verwaltung der Elbe und anderer Reichswasserstraßen
+durch die Hansestadt Hamburg"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151556"@de ;
+    dtd:has_doknr "BJNR000030939"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151556"@de ;
+    dtd:has_doknr "BJNR000030939BJNE000100326"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151556"@de ;
+    dtd:has_doknr "BJNR000030939BJNE000200326"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151556"@de ;
+    dtd:has_doknr "BJNR000030939BJNE000300326"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625151556"@de ;
+    dtd:has_doknr "BJNR000030939BJNE000400326"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625151556"@de ;
+    dtd:has_doknr "BJNR000030939BJNE000500326"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id68 a dtd:periodikum ;
+    dtd:has_Value "RGBl I"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id69 a dtd:zitstelle ;
+    dtd:has_Value "1939, 3"@de .
+

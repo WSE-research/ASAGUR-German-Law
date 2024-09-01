@@ -1,0 +1,776 @@
+@prefix dtd: <urn:PlanSiG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id81 a dtd:BR .
+
+dtd:BR-id82 a dtd:BR .
+
+dtd:BR-id83 a dtd:BR .
+
+dtd:BR-id84 a dtd:BR .
+
+dtd:BR-id85 a dtd:BR .
+
+dtd:BR-id86 a dtd:BR .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:BR-id89 a dtd:BR .
+
+dtd:BR-id90 a dtd:BR .
+
+dtd:BR-id91 a dtd:BR .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_P dtd:P-id147 .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153,
+        dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156,
+        dtd:P-id157,
+        dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162,
+        dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165,
+        dtd:P-id166,
+        dtd:P-id167,
+        dtd:P-id168,
+        dtd:P-id169,
+        dtd:P-id170,
+        dtd:P-id171 .
+
+dtd:Content-id172 a dtd:Content ;
+    dtd:has_P dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175 .
+
+dtd:Content-id176 a dtd:Content ;
+    dtd:has_P dtd:P-id177,
+        dtd:P-id178 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id128 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DL-id94 a dtd:DL ;
+    dtd:has_DD dtd:DD-id112,
+        dtd:DD-id113,
+        dtd:DD-id114,
+        dtd:DD-id115,
+        dtd:DD-id116,
+        dtd:DD-id117,
+        dtd:DD-id118,
+        dtd:DD-id119,
+        dtd:DD-id120,
+        dtd:DD-id121,
+        dtd:DD-id122,
+        dtd:DD-id123,
+        dtd:DD-id124,
+        dtd:DD-id125,
+        dtd:DD-id126,
+        dtd:DD-id127,
+        dtd:DD-id128 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id101,
+        dtd:DT-id102,
+        dtd:DT-id103,
+        dtd:DT-id104,
+        dtd:DT-id105,
+        dtd:DT-id106,
+        dtd:DT-id107,
+        dtd:DT-id108,
+        dtd:DT-id109,
+        dtd:DT-id110,
+        dtd:DT-id111,
+        dtd:DT-id95,
+        dtd:DT-id96,
+        dtd:DT-id97,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "9."@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "10."@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "11."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "12."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "13."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "14."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "15."@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "16."@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "17."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:FnR-id92 a dtd:FnR ;
+    dtd:has_ID "F811863_01_BJNR104100020"@de .
+
+dtd:Footnote-id181 a dtd:Footnote ;
+    dtd:has_FnZ "*"@de ;
+    dtd:has_Group dtd:column ;
+    dtd:has_ID "F811863_01_BJNR104100020"@de ;
+    dtd:has_Pos dtd:normal ;
+    dtd:has_Value "Dieses Gesetz dient der Umsetzung der Richtlinie 2011/92/EU des Europäischen Parlaments und des Rates vom 13. Dezember 2011 über die Umweltverträglichkeitsprüfung bei bestimmten öffentlichen und privaten Projekten (ABl. L 26 vom 28.1.2012, S. 1), die durch die Richtlinie 2014/52/EU (ABl. L 124 vom 25.4.2014, S. 1) geändert worden ist, Richtlinie 2010/75/EU des Europäischen Parlaments und des Rates vom 24. November 2010 über Industrieemissionen (integrierte Vermeidung und Verminderung der Umweltverschmutzung), (ABl. L 334 vom 17.12.2010, S. 17), Richtlinie 2001/42/EG des Europäischen Parlaments und des Rates vom 27. Juni 2001 über die Prüfung der Umweltauswirkungen bestimmter Pläne und Programme (ABl. L 197 vom 21.7.2001, S. 30), Richtlinie 2012/18/EU des Europäischen Parlaments und des Rates vom 4. Juli 2012 zur Beherrschung der Gefahren schwerer Unfälle mit gefährlichen Stoffen, zur Änderung und anschließenden Aufhebung der Richtlinie 96/82/EG des Rates (ABl. L 197 vom 24.7. 2012, S. 1)."@de ;
+    dtd:has_noindex dtd:noindex-id93 .
+
+dtd:Footnotes-id180 a dtd:Footnotes ;
+    dtd:has_Footnote dtd:Footnote-id181 .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Gesetz über die Umweltverträglichkeitsprüfung;"@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Bundes-Immissionsschutzgesetz in der Fassung der Bekanntmachung vom 17. Mai 2013 (BGBl. I S. 1274; 2021 I S. 123), das zuletzt durch Artikel 11 Absatz 3 des Gesetzes vom 26. Juli 2023 (BGBl. 2023 I Nr. 202) geändert worden ist;"@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Kreislaufwirtschaftsgesetz;"@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Bundesberggesetz;"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Atomgesetz;"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Strahlenschutzgesetz;"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Energiewirtschaftsgesetz;"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Wasserhaushaltsgesetz;"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Windenergie-auf-See-Gesetz;"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Flurbereinigungsgesetz;"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Bundesnaturschutzgesetz;"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Bundesfernstraßengesetz;"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Personenbeförderungsgesetz;"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Allgemeinen Eisenbahngesetz;"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Bundeswasserstraßengesetz;"@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Luftverkehrsgesetz und"@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Gentechnikgesetz."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_BR dtd:BR-id81 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29.5.2020 +++)(+++ Zur Geltung vgl. § 5 Abs. 4 Satz 5 u. § 5 Abs. 7 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EURL 92/2011            (CELEX Nr: 32011L0092)            EURL 75/2010            (CELEX Nr: 32010L0075)            EGRL 42/2001            (CELEX Nr: 32001L0042)            EURL 18/2012            (CELEX Nr: 32012L0018) +++)"@de ;
+    dtd:has_pre dtd:pre-id179 .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_DL dtd:DL-id94 ;
+    dtd:has_Value "Dieses Gesetz gilt für die öffentlich-rechtliche Verwaltungstätigkeit der Behörden, die landesrechtlich durch ein Verwaltungsverfahrensgesetz geregelt ist, das nicht auf das Verwaltungsverfahrensgesetz verweist, in Verfahren nach 1.dem Gesetz über die Umweltverträglichkeitsprüfung;2.dem Bundes-Immissionsschutzgesetz in der Fassung der Bekanntmachung vom 17. Mai 2013 (BGBl. I S. 1274; 2021 I S. 123), das zuletzt durch Artikel 11 Absatz 3 des Gesetzes vom 26. Juli 2023 (BGBl. 2023 I Nr. 202) geändert worden ist;3.dem Kreislaufwirtschaftsgesetz;4.dem Bundesberggesetz;5.dem Atomgesetz;6.dem Strahlenschutzgesetz;7.dem Energiewirtschaftsgesetz;8.dem Wasserhaushaltsgesetz;9.dem Windenergie-auf-See-Gesetz;10.dem Flurbereinigungsgesetz;11.dem Bundesnaturschutzgesetz;12.dem Bundesfernstraßengesetz;13.dem Personenbeförderungsgesetz;14.dem Allgemeinen Eisenbahngesetz;15.dem Bundeswasserstraßengesetz;16.dem Luftverkehrsgesetz und17.dem Gentechnikgesetz.Dieses Gesetz gilt auch für das Netzausbaubeschleunigungsgesetz Übertragungsnetz. Wird in den in Satz 1 genannten Gesetzen oder in diesem Gesetz auf das Verwaltungsverfahrensgesetz verwiesen, so ist die bis einschließlich 31. Dezember 2023 geltende Fassung anzuwenden."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(1) Ist in Verfahren nach den in § 1 genannten Gesetzen eine ortsübliche oder öffentliche Bekanntmachung angeordnet und ist nach den dafür geltenden Vorschriften der Anschlag an einer Amtstafel oder die Auslegung zur Einsichtnahme vorgesehen, so können der Anschlag oder die Auslegung durch eine Veröffentlichung des Inhalts der Bekanntmachung im Internet ersetzt werden, wenn die jeweilige Bekanntmachungsfrist spätestens mit Ablauf des 31. Dezember 2024 endet. Zusätzlich hat zumindest eine Bekanntmachung in einem amtlichen Veröffentlichungsblatt oder einer örtlichen Tageszeitung zu erfolgen."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(2) Für die Veröffentlichung im Internet gilt § 27a Absatz 1 Satz 2 und Absatz 2 des Verwaltungsverfahrensgesetzes entsprechend."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(1) Ist in Verfahren nach den in § 1 genannten Gesetzen eine Auslegung von Unterlagen oder Entscheidungen angeordnet, auf die nach den für die Auslegung geltenden Vorschriften nicht verzichtet werden kann, so kann die Auslegung durch eine Veröffentlichung im Internet ersetzt werden, wenn die jeweilige Auslegungsfrist spätestens mit Ablauf des 31. Dezember 2024 endet. Für die Veröffentlichung im Internet gilt § 27a Absatz 1 Satz 2 des Verwaltungsverfahrensgesetzes entsprechend. In der Bekanntmachung der Auslegung ist darauf hinzuweisen, dass und wo die Veröffentlichung im Internet erfolgt. Soweit Regelungen in den in § 1 genannten Gesetzen den Zugang über ein zentrales Internetportal vorsehen, bleiben diese unberührt. Der Vorhabenträger hat Anspruch darauf, dass seine Betriebs- und Geschäftsgeheimnisse von der Behörde nicht unbefugt offenbart werden. Er kann der Veröffentlichung im Internet widersprechen, wenn er die Gefährdung von Betriebs- oder Geschäftsgeheimnissen oder wichtiger Sicherheitsbelange befürchtet. Widerspricht der Vorhabenträger der Veröffentlichung im Internet, hat die Behörde das Verfahren bis zu einer Auslegung auszusetzen."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(2) Die angeordnete Auslegung soll daneben als zusätzliches Informationsangebot erfolgen, soweit dies nach Feststellung der zuständigen Behörde den Umständen nach möglich ist. Unterbleibt eine Auslegung, hat die zuständige Behörde zusätzlich zur Veröffentlichung nach Absatz 1 Satz 1 andere leicht zu erreichende Zugangsmöglichkeiten, etwa durch öffentlich zugängliche Lesegeräte oder in begründeten Fällen durch Versendung zur Verfügung zu stellen. Auf diese Zugangsmöglichkeiten ist in der Bekanntmachung nach § 2 Absatz 1 hinzuweisen."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(3) Die Behörde kann von einem Vorhabenträger verlangen, dass er die Unterlagen, die er bei der Behörde zum Zwecke der Bekanntmachung durch die Behörde einzureichen hat, in einem verkehrsüblichen elektronischen Format einreicht."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_BR dtd:BR-id91 ;
+    dtd:has_Value "(+++ § 3 Abs. 1 Satz 5 bis 7: Zur Geltung vgl. § 5 Abs. 4 Satz 5 +++) (+++ § 3 Abs. 3: Zur Geltung vgl. § 5 Abs. 7 +++)"@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(1) In Verfahren nach den in § 1 genannten Gesetzen kann die Abgabe von Erklärungen zur Niederschrift bei der Behörde ausgeschlossen werden, wenn die jeweilige Erklärungsfrist spätestens mit Ablauf des 31. Dezember 2024 endet und die zuständige Behörde festgestellt hat, dass innerhalb der Erklärungsfrist eine Entgegennahme zur Niederschrift nicht oder nur mit unverhältnismäßigem Aufwand möglich sein würde."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(2) In Fällen des Absatzes 1 hat die zuständige Behörde einen Zugang für die Abgabe von elektronischen Erklärungen bereitzuhalten. In den Bekanntmachungen, in denen sonst auf die Möglichkeit der Abgabe von Erklärungen zur Niederschrift hingewiesen wird, ist auf die Möglichkeit der Abgabe elektronischer Erklärungen und den Ausschluss der Abgabe von Erklärungen zur Niederschrift hinzuweisen."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(1) Ist in Verfahren nach den in § 1 genannten Gesetzen die Durchführung eines Erörterungstermins oder einer mündlichen Verhandlung in das Ermessen der Behörde gestellt, können bei der Ermessensentscheidung auch geltende Beschränkungen aufgrund der COVID-19-Pandemie und das Risiko der weiteren Ausbreitung des Virus berücksichtigt werden."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(2) Ist in Verfahren nach den in § 1 genannten Gesetzen die Durchführung eines Erörterungstermins oder einer mündlichen Verhandlung angeordnet, auf die nach den dafür geltenden Vorschriften nicht verzichtet werden kann, genügt eine Online-Konsultation nach Absatz 4."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(3) Die zur Teilnahme an einem Erörterungstermin oder einer mündlichen Verhandlung Berechtigten sind von der Durchführung der ersatzweisen Online-Konsultation zu benachrichtigen. § 73 Absatz 6 Satz 2 bis 4 des Verwaltungsverfahrensgesetzes gilt entsprechend."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "(4) Für die Online-Konsultation werden den zur Teilnahme Berechtigten die sonst im Erörterungstermin oder der mündlichen Verhandlung zu behandelnden Informationen zugänglich gemacht. Ihnen ist innerhalb einer vorher bekannt zu machenden angemessenen Frist Gelegenheit zu geben, sich schriftlich oder elektronisch dazu zu äußern. Die zuständige Behörde hat geeignete Vorkehrungen dafür zu treffen, dass nur die nach den Sätzen 1 und 2 Berechtigten Zugang zu der Online-Konsultation haben. Die Regelungen über die Online-Konsultation lassen den bereits eingetretenen Ausschluss von Einwendungen unberührt. § 3 Absatz 1 Sätze 5 bis 7 gelten entsprechend."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(5) Die Online-Konsultation nach Absatz 4 kann mit Einverständnis der zur Teilnahme Berechtigten durch eine Telefon- oder Videokonferenz ersetzt werden. Absatz 4 gilt mit Ausnahme von Satz 2 in diesem Fall entsprechend. Über die Telefon- oder Videokonferenz ist ein Protokoll zu führen."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(6) In Verfahren nach den in § 1 genannten Gesetzen kann die zuständige Behörde anstelle der Durchführung einer Antragskonferenz Gelegenheit zur schriftlichen oder elektronischen Stellungnahme geben."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(7) § 3 Absatz 3 gilt entsprechend."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(1) Die Regelungen dieses Gesetzes sind auch auf bereits vor Inkrafttreten dieses Gesetzes begonnene, aber noch nicht abgeschlossene Verfahren anwendbar. Ein Verfahrensschritt, der bereits begonnen wurde, ist jedoch zu wiederholen, wenn er nach diesem Gesetz durchgeführt werden soll. Abweichend von Satz 2 ist ein Verfahrensschritt, der bereits vor dem 16. März 2020 begonnen wurde, nicht zu wiederholen, wenn der Beteiligungsschritt in diesem Verfahrensschritt, der teilweise oder ganz entfallen oder erschwert worden ist, nach diesem Gesetz hätte entfallen können und lediglich der Hinweis auf das Unterbleiben einer einzelnen Beteiligungsmöglichkeit vorab nicht erteilt werden konnte."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(2) Für Verfahrensschritte, bei denen von einer Regelung nach den §§ 2 bis 5 Gebrauch gemacht worden ist und die mit Ablauf des 31. Dezember 2024 noch nicht abgeschlossen sind, gelten die Bestimmungen dieses Gesetzes bis zum Abschluss des jeweiligen Verfahrensschrittes weiter."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(3) Die für die in § 1 genannten Verfahren geltenden Fehlerfolgenregelungen sind entsprechend anzuwenden und bleiben im Übrigen unberührt. Fehler bei Bekanntmachungen haben keine Auswirkung auf die Rechtmäßigkeit der Verfahren, wenn der Hinweiszweck der Bekanntmachung erfüllt ist."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(2) Die §§ 1 bis 5 des Planungssicherstellungsgesetzes treten mit Ablauf des 31. Dezember 2024 außer Kraft. Im Übrigen tritt das Gesetz mit Ablauf des 30. September 2029 außer Kraft."@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-05-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:column rdfs:label "column"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id182 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id183 .
+
+dtd:fussnoten-id64 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id146 .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:fussnoten-id72 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id159 .
+
+dtd:fussnoten-id74 a dtd:fussnoten .
+
+dtd:fussnoten-id76 a dtd:fussnoten .
+
+dtd:fussnoten-id78 a dtd:fussnoten .
+
+dtd:fussnoten-id80 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "PlanSiG"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "Planungssicherstellungsgesetz"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_FnR dtd:FnR-id92 ;
+    dtd:has_Value "Gesetz zur Sicherstellung ordnungsgemäßer Planungs- und Genehmigungsverfahren während der COVID-19-Pandemie"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 ;
+    dtd:has_standangabe dtd:standangabe-id35,
+        dtd:standangabe-id36,
+        dtd:standangabe-id37,
+        dtd:standangabe-id38,
+        dtd:standangabe-id39 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:noindex-id93 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020BJNE000804360"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020BJNE000101116"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020BJNE000208360"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020BJNE000303360"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020BJNE000403360"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020BJNE000503360"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020BJNE000603360"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231231214235"@de ;
+    dtd:has_doknr "BJNR104100020BJNE000703360"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id182 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id179 a dtd:pre ;
+    dtd:has_BR dtd:BR-id82,
+        dtd:BR-id83,
+        dtd:BR-id84,
+        dtd:BR-id85,
+        dtd:BR-id86,
+        dtd:BR-id87,
+        dtd:BR-id88,
+        dtd:BR-id89,
+        dtd:BR-id90 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.5.2020 +++)(+++ Zur Geltung vgl. § 5 Abs. 4 Satz 5 u. § 5 Abs. 7 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EURL 92/2011            (CELEX Nr: 32011L0092)            EURL 75/2010            (CELEX Nr: 32010L0075)            EGRL 42/2001            (CELEX Nr: 32001L0042)            EURL 18/2012            (CELEX Nr: 32012L0018) +++)"@de .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id185 ;
+    dtd:has_standtyp dtd:standtyp-id184 .
+
+dtd:standangabe-id36 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id187 ;
+    dtd:has_standtyp dtd:standtyp-id186 .
+
+dtd:standangabe-id37 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id189 ;
+    dtd:has_standtyp dtd:standtyp-id188 .
+
+dtd:standangabe-id38 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id191 ;
+    dtd:has_standtyp dtd:standtyp-id190 .
+
+dtd:standangabe-id39 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id193 ;
+    dtd:has_standtyp dtd:standtyp-id192 .
+
+dtd:standkommentar-id185 a dtd:standkommentar ;
+    dtd:has_Value "Die §§ 1 bis 5 treten gem. § 7 Abs. 2 Satz 1 idF d. Art. 3 Nr. 3 Buchst. a G v. 4.12.2023 I Nr. 344 mit Ablauf des 31.12.2024 außer Kraft. Im Übrigen tritt das G gem. § 7 Abs. 2 Satz 2 idF d. Art. 3 Nr. 3 Buchst. b G v. 4.12.2023 I Nr. 344 mit Ablauf des 30.9.2029 außer Kraft."@de .
+
+dtd:standkommentar-id187 a dtd:standkommentar ;
+    dtd:has_Value "Die Geltung der §§ 1 bis 5 ist durch § 7 Abs. 2 Satz 1 idF d. Art. 1 Nr. 2 G v. 18.3.2021 I 353 über den 31.3.2021 hinaus bis zum 31.12.2022 verlängert worden. Im Übrigen ist die Geltung dieses G durch § 7 Abs. 2 Satz 2 idF d. Art. 1 Nr. 3 G v. 18.3.2021 I 353 über den 31.12.2025 hinaus bis zum 30.9.2027 verlängert worden."@de .
+
+dtd:standkommentar-id189 a dtd:standkommentar ;
+    dtd:has_Value "Die Geltung der §§ 1 bis 5 ist durch § 7 Abs. 2 Satz 1 idF d. Art. 1 Nr. 2 Buchst. a G v. 8.12.2022 I 2234 über den 31.12.2022 hinaus bis zum 31.12.2023 verlängert worden. Im Übrigen ist die Geltung dieses G durch § 7 Abs. 2 Satz 2 idF d. Art. 1 Nr. 2 Buchst. b G v. 8.12.2022 I 2234 über den 30.9.2027 hinaus bis zum 30.9.2028 verlängert worden."@de .
+
+dtd:standkommentar-id191 a dtd:standkommentar ;
+    dtd:has_Value "Die Geltung der §§ 1 bis 5 ist durch § 7 Abs. 2 Satz 1 idF d. Art. 3 Nr. 3 Buchst. a G v. 4.12.2023 I Nr. 344 über den 31.12.2023 hinaus bis zum 31.12.2024 verlängert worden. Im Übrigen ist die Geltung dieses G durch § 7 Abs. 2 Satz 2 idF d. Art. 3 Nr. 3 Buchst. b G v. 4.12.2023 I Nr. 344 über den 30.9.2028 hinaus bis zum 30.9.2029 verlängert worden."@de .
+
+dtd:standkommentar-id193 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 G v. 4.12.2023 I Nr. 344"@de .
+
+dtd:standtyp-id184 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:standtyp-id186 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:standtyp-id188 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:standtyp-id190 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:standtyp-id192 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Footnotes dtd:Footnotes-id180 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id148 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id172 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id176 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id80 ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Ortsübliche und öffentliche Bekanntmachungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Auslegung von Unterlagen oder Entscheidungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Erklärungen zur Niederschrift"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Erörterungstermine, mündliche Verhandlungen und Antragskonferenzen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id183 a dtd:zitstelle ;
+    dtd:has_Value "2020, 1041"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

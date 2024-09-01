@@ -1,0 +1,1184 @@
+@prefix dtd: <urn:LwHwPrüfAnerkV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id225 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id227 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:BR-id68 a dtd:BR .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:Content-id201 a dtd:Content ;
+    dtd:has_P dtd:P-id202 .
+
+dtd:Content-id203 a dtd:Content ;
+    dtd:has_P dtd:P-id204 .
+
+dtd:Content-id205 a dtd:Content ;
+    dtd:has_P dtd:P-id206 .
+
+dtd:Content-id207 a dtd:Content ;
+    dtd:has_P dtd:P-id208 .
+
+dtd:Content-id209 a dtd:Content ;
+    dtd:has_P dtd:P-id210,
+        dtd:P-id211 .
+
+dtd:Content-id212 a dtd:Content ;
+    dtd:has_P dtd:P-id213,
+        dtd:P-id214,
+        dtd:P-id215,
+        dtd:P-id216 .
+
+dtd:Content-id217 a dtd:Content ;
+    dtd:has_P dtd:P-id218 .
+
+dtd:Content-id219 a dtd:Content ;
+    dtd:has_P dtd:P-id220 .
+
+dtd:Content-id221 a dtd:Content ;
+    dtd:has_P dtd:P-id222 .
+
+dtd:DD-id186 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id196 .
+
+dtd:DD-id187 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id197 .
+
+dtd:DD-id191 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id198 .
+
+dtd:DD-id192 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id199 .
+
+dtd:DD-id195 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id200 .
+
+dtd:DL-id183 a dtd:DL ;
+    dtd:has_DD dtd:DD-id186,
+        dtd:DD-id187 ;
+    dtd:has_DT dtd:DT-id184,
+        dtd:DT-id185 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id188 a dtd:DL ;
+    dtd:has_DD dtd:DD-id191,
+        dtd:DD-id192 ;
+    dtd:has_DT dtd:DT-id189,
+        dtd:DT-id190 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id193 a dtd:DL ;
+    dtd:has_DD dtd:DD-id195 ;
+    dtd:has_DT dtd:DT-id194 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id184 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id185 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id189 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id190 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id194 a dtd:DT ;
+    dtd:has_Value "*)"@de .
+
+dtd:LA-id196 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine gemäß § 2 anerkannte Prüfung an einer Ausbildungsstätte oder vor einer Prüfungsbehörde oder eine Abschlussprüfung an einer staatlichen oder staatlich anerkannten Schule in einer dem Ausbildungsberuf entsprechenden Fachrichtung bestanden haben, oder"@de .
+
+dtd:LA-id197 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Abschlussprüfung an einer deutschen Hochschule in einer dem Ausbildungsberuf entsprechenden Fachrichtung bestanden haben"@de .
+
+dtd:LA-id198 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Meisterprüfungen gemäß der Anlage 1,"@de .
+
+dtd:LA-id199 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abschlussprüfungen an deutschen Fachschulen gemäß der Anlage 2, wenn diese Einrichtungen und Bildungsgänge zum Zeitpunkt der Prüfung die Anforderungen des § 3 erfüllen."@de .
+
+dtd:LA-id200 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Einschließlich der Abschlüsse Meister/Meisterin der städtischen Hauswirtschaft und Meister/Meisterin der ländlichen Hauswirtschaft."@de .
+
+dtd:P-id202 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id204 a dtd:P ;
+    dtd:has_BR dtd:BR-id63 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11.8.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id223 .
+
+dtd:P-id206 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 30 Abs. 3 und 4 Nr. 1 des Berufsbildungsgesetzes vom 23. März 2005 (BGBl. I S. 931) verordnen das Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft und das Bundesministerium für Wirtschaft und Arbeit im Einvernehmen mit dem Bundesministerium für Bildung und Forschung nach Anhörung des Hauptausschusses des Bundesinstituts für Berufsbildung:"@de .
+
+dtd:P-id208 a dtd:P ;
+    dtd:has_DL dtd:DL-id183 ;
+    dtd:has_Value "Ausbilder und Ausbilderinnen in den Berufen der Landwirtschaft und der Hauswirtschaft besitzen abweichend von § 30 Abs. 2 des Berufsbildungsgesetzes die für die fachliche Eignung erforderlichen beruflichen Fertigkeiten, Kenntnisse und Fähigkeiten nur, wenn sie 1.eine gemäß § 2 anerkannte Prüfung an einer Ausbildungsstätte oder vor einer Prüfungsbehörde oder eine Abschlussprüfung an einer staatlichen oder staatlich anerkannten Schule in einer dem Ausbildungsberuf entsprechenden Fachrichtung bestanden haben, oder 2.eine Abschlussprüfung an einer deutschen Hochschule in einer dem Ausbildungsberuf entsprechenden Fachrichtung bestanden haben und eine angemessene Zeit in ihrem Beruf praktisch tätig gewesen sind."@de .
+
+dtd:P-id210 a dtd:P ;
+    dtd:has_DL dtd:DL-id188 ;
+    dtd:has_Value "(1) Als Prüfung gemäß § 1 Nr. 1 werden anerkannt: 1.Meisterprüfungen gemäß der Anlage 1, 2.Abschlussprüfungen an deutschen Fachschulen gemäß der Anlage 2, wenn diese Einrichtungen und Bildungsgänge zum Zeitpunkt der Prüfung die Anforderungen des § 3 erfüllen.  "@de .
+
+dtd:P-id211 a dtd:P ;
+    dtd:has_Value "(2) Sonstige Prüfungen vor einer Prüfungsbehörde werden gemäß § 1 Nr. 1 anerkannt, wenn die jeweils zuständige Stelle nach Anhörung des Berufsbildungsausschusses die Gleichwertigkeit mit den Prüfungen gemäß Absatz 1 Nr. 1 oder 2 bescheinigt. § 30 Abs. 6 des Berufsbildungsgesetzes bleibt unberührt."@de .
+
+dtd:P-id213 a dtd:P ;
+    dtd:has_Value "(1) Errichtung, Betrieb und Einrichtung der Schulen müssen den für sie geltenden Vorschriften des Landesrechts entsprechen. Sie müssen der staatlichen Schulaufsicht unterliegen."@de .
+
+dtd:P-id214 a dtd:P ;
+    dtd:has_Value "(2) Aufnahmevoraussetzung muss eine abgeschlossene Berufsausbildung in der jeweiligen Fachrichtung sein. Die Dauer der fachschulischen Ausbildung muss insgesamt mindestens 2.400 Unterrichtsstunden betragen."@de .
+
+dtd:P-id215 a dtd:P ;
+    dtd:has_Value "(3) Mindestens 1.800 Unterrichtsstunden des Gesamtunterrichts müssen auf den fachrichtungsbezogenen Lernbereich (Fachunterricht) entfallen."@de .
+
+dtd:P-id216 a dtd:P ;
+    dtd:has_Value "(4) Die Dauer der fachschulischen Ausbildung in gestuften Bildungsgängen an Fachschulen im Fachbereich Agrarwirtschaft muss insgesamt mindestens 2.400 Unterrichtsstunden umfassen. Absatz 3 gilt entsprechend."@de .
+
+dtd:P-id218 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id220 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id225 ;
+    dtd:has_BR dtd:BR-id68,
+        dtd:BR-id69 ;
+    dtd:has_DL dtd:DL-id193 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2005, 2285;bzgl. der einzelnen Änderungen vgl. Fußnote)AbschlussAnerkannt für den AusbildungsberufAgrarservicemeister/AgrarservicemeisterinFachkraft AgrarserviceFischwirtschaftsmeister/FischwirtschaftsmeisterinFischwirt/FischwirtinForstwirtschaftsmeister/ForstwirtschaftsmeisterinForstwirt/ForstwirtinGärtnermeister/GärtnermeisterinGärtner/GärtnerinMeister der Hauswirtschaft/Meisterin der Hauswirtschaft *)Hauswirtschafter/HauswirtschafterinLandwirtschaftsmeister/LandwirtschaftsmeisterinLandwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft AgrarserviceMolkereimeister/MolkereimeisterinMolkereifachmann/Molkereifachfrau Milchtechnologe/MilchtechnologinMilchwirtschaftlicher Labormeister/Milchwirtschaftliche LabormeisterinMilchwirtschaftlicher Laborant/Milchwirtschaftliche LaborantinPferdewirtschaftsmeister/PferdewirtschaftsmeisterinPferdewirt/PferdewirtinTierwirtschaftsmeister/TierwirtschaftsmeisterinTierwirt/TierwirtinRevierjagdmeister/RevierjagdmeisterinRevierjäger/RevierjägerinWinzermeister/WinzermeisterinWinzer/Winzerin----- *)Einschließlich der Abschlüsse Meister/Meisterin der städtischen Hauswirtschaft und Meister/Meisterin der ländlichen Hauswirtschaft."@de ;
+    dtd:has_kommentar dtd:kommentar-id224 ;
+    dtd:has_table dtd:table-id73 .
+
+dtd:P-id222 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id227 ;
+    dtd:has_BR dtd:BR-id72 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2005, 2286;bzgl. der einzelnen Änderungen vgl. Fußnote)FachbereichFachrichtungAnerkannt für den AusbildungsberufAgrarwirtschaftForstwirtschaftForstwirt/ForstwirtinGartenbauGärtner/GärtnerinHauswirtschaft Ländliche HauswirtschaftHauswirtschafter/HauswirtschafterinLandbauLandwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft AgrarserviceLandwirtschaftLandwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft AgrarserviceMilch- und MolkereiwirtschaftMolkereifachmann/Molkereifachfrau Milchtechnologe/Milchtechnologin Milchwirtschaftlicher Laborant/Milchwirtschaftliche LaborantinWeinbau und ÖnologieWinzer/WinzerinTechnikAgrartechnikLandwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft AgrarserviceGartenbau Gartenbau - Produktion und Vermarktung Garten- und LandschaftsbauGärtner/GärtnerinHauswirtschaft und ErnährungHauswirtschafter/ HauswirtschafterinLandbauLandwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft AgrarserviceLandwirtschaftLandwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft AgrarserviceMilch- und MolkereitechnikMolkereifachmann/Molkereifachfrau Milchtechnologe/Milchtechnologin Milchwirtschaftlicher Laborant/ Milchwirtschaftliche LaborantinWaldwirtschaftForstwirt/ForstwirtinWeinbau und KellerwirtschaftWinzer/WinzerinWirtschaftAgrarwirtschaftLandwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft AgrarserviceHauswirtschaft Hauswirtschaft/Ländliche HauswirtschaftHauswirtschafter/Hauswirtschafterin"@de ;
+    dtd:has_kommentar dtd:kommentar-id226 ;
+    dtd:has_table dtd:table-id75 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-08-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id77 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:colspec-id78 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:colspec-id81 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:colspec-id82 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:colspec-id83 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Anlage 1"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "Anlage 2"@de .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Abschluss"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anerkannt für den Ausbildungsberuf"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Agrarservicemeister/Agrarservicemeisterin"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fachkraft Agrarservice"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fischwirtschaftsmeister/Fischwirtschaftsmeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fischwirt/Fischwirtin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Forstwirtschaftsmeister/Forstwirtschaftsmeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Forstwirt/Forstwirtin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gärtnermeister/Gärtnermeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gärtner/Gärtnerin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Meister der Hauswirtschaft/Meisterin der Hauswirtschaft *)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauswirtschafter/Hauswirtschafterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirtschaftsmeister/Landwirtschaftsmeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft Agrarservice"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Molkereimeister/Molkereimeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Molkereifachmann/Molkereifachfrau Milchtechnologe/Milchtechnologin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Milchwirtschaftlicher Labormeister/Milchwirtschaftliche Labormeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Milchwirtschaftlicher Laborant/Milchwirtschaftliche Laborantin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Pferdewirtschaftsmeister/Pferdewirtschaftsmeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Pferdewirt/Pferdewirtin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Tierwirtschaftsmeister/Tierwirtschaftsmeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Tierwirt/Tierwirtin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Revierjagdmeister/Revierjagdmeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Revierjäger/Revierjägerin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Winzermeister/Winzermeisterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Winzer/Winzerin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id143 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fachbereich"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id144 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fachrichtung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id145 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anerkannt für den Ausbildungsberuf"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id146 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Agrarwirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "6"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id147 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Forstwirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id148 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Forstwirt/Forstwirtin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id149 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gartenbau"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id150 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gärtner/Gärtnerin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id151 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauswirtschaft Ländliche Hauswirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id152 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauswirtschafter/Hauswirtschafterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id153 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landbau"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id154 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft Agrarservice"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id155 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id156 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft Agrarservice"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id157 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Milch- und Molkereiwirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id158 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Molkereifachmann/Molkereifachfrau Milchtechnologe/Milchtechnologin Milchwirtschaftlicher Laborant/Milchwirtschaftliche Laborantin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id159 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Weinbau und Önologie"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id160 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Winzer/Winzerin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id161 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Technik"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "7"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id162 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Agrartechnik"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id163 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft Agrarservice"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id164 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gartenbau Gartenbau - Produktion und Vermarktung Garten- und Landschaftsbau"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id165 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gärtner/Gärtnerin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id166 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauswirtschaft und Ernährung"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id167 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauswirtschafter/ Hauswirtschafterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id168 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landbau"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id169 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft Agrarservice"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id170 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id171 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft Agrarservice"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id172 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Milch- und Molkereitechnik"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id173 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Molkereifachmann/Molkereifachfrau Milchtechnologe/Milchtechnologin Milchwirtschaftlicher Laborant/ Milchwirtschaftliche Laborantin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id174 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Waldwirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id175 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Forstwirt/Forstwirtin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id176 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Weinbau und Kellerwirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id177 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Winzer/Winzerin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id178 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id179 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Agrarwirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id180 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Landwirt/Landwirtin Tierwirt/Tierwirtin Fachkraft Agrarservice"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id181 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauswirtschaft Hauswirtschaft/Ländliche Hauswirtschaft"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id182 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauswirtschafter/Hauswirtschafterin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id228 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id229 .
+
+dtd:fussnoten-id52 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id203 .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "LwHwPrüfAnerkV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "LwHwPrüfAnerkV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "LwHwPrüfAnerkV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "LwHwPrüfAnerkV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "LwHwPrüfAnerkV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "LwHwPrüfAnerkV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "LwHwPrüfAnerkV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "LwHwPrüfAnerkV"@de .
+
+dtd:kommentar-id224 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id67 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2005, 2285;bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id226 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id71 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2005, 2286;bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Anforderung an die fachliche Eignung und die Anerkennung von Prüfungen zum Nachweis der fachlichen Eignung für die Berufsausbildung in den Berufen der Landwirtschaft und der Hauswirtschaft"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005BJNE000601308"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20221020213549"@de ;
+    dtd:has_doknr "BJNR228400005BJNE000701308"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id228 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id223 a dtd:pre ;
+    dtd:has_BR dtd:BR-id64,
+        dtd:BR-id65 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11.8.2005 +++)"@de .
+
+dtd:row-id100 a dtd:row ;
+    dtd:has_entry dtd:entry-id146,
+        dtd:entry-id147,
+        dtd:entry-id148 .
+
+dtd:row-id101 a dtd:row ;
+    dtd:has_entry dtd:entry-id149,
+        dtd:entry-id150 .
+
+dtd:row-id102 a dtd:row ;
+    dtd:has_entry dtd:entry-id151,
+        dtd:entry-id152 .
+
+dtd:row-id103 a dtd:row ;
+    dtd:has_entry dtd:entry-id153,
+        dtd:entry-id154 .
+
+dtd:row-id104 a dtd:row ;
+    dtd:has_entry dtd:entry-id155,
+        dtd:entry-id156 .
+
+dtd:row-id105 a dtd:row ;
+    dtd:has_entry dtd:entry-id157,
+        dtd:entry-id158 .
+
+dtd:row-id106 a dtd:row ;
+    dtd:has_entry dtd:entry-id159,
+        dtd:entry-id160 .
+
+dtd:row-id107 a dtd:row ;
+    dtd:has_entry dtd:entry-id161,
+        dtd:entry-id162,
+        dtd:entry-id163 .
+
+dtd:row-id108 a dtd:row ;
+    dtd:has_entry dtd:entry-id164,
+        dtd:entry-id165 .
+
+dtd:row-id109 a dtd:row ;
+    dtd:has_entry dtd:entry-id166,
+        dtd:entry-id167 .
+
+dtd:row-id110 a dtd:row ;
+    dtd:has_entry dtd:entry-id168,
+        dtd:entry-id169 .
+
+dtd:row-id111 a dtd:row ;
+    dtd:has_entry dtd:entry-id170,
+        dtd:entry-id171 .
+
+dtd:row-id112 a dtd:row ;
+    dtd:has_entry dtd:entry-id172,
+        dtd:entry-id173 .
+
+dtd:row-id113 a dtd:row ;
+    dtd:has_entry dtd:entry-id174,
+        dtd:entry-id175 .
+
+dtd:row-id114 a dtd:row ;
+    dtd:has_entry dtd:entry-id176,
+        dtd:entry-id177 .
+
+dtd:row-id115 a dtd:row ;
+    dtd:has_entry dtd:entry-id178,
+        dtd:entry-id179,
+        dtd:entry-id180 .
+
+dtd:row-id116 a dtd:row ;
+    dtd:has_entry dtd:entry-id181,
+        dtd:entry-id182 .
+
+dtd:row-id86 a dtd:row ;
+    dtd:has_entry dtd:entry-id117,
+        dtd:entry-id118 .
+
+dtd:row-id87 a dtd:row ;
+    dtd:has_entry dtd:entry-id143,
+        dtd:entry-id144,
+        dtd:entry-id145 .
+
+dtd:row-id88 a dtd:row ;
+    dtd:has_entry dtd:entry-id119,
+        dtd:entry-id120 .
+
+dtd:row-id89 a dtd:row ;
+    dtd:has_entry dtd:entry-id121,
+        dtd:entry-id122 .
+
+dtd:row-id90 a dtd:row ;
+    dtd:has_entry dtd:entry-id123,
+        dtd:entry-id124 .
+
+dtd:row-id91 a dtd:row ;
+    dtd:has_entry dtd:entry-id125,
+        dtd:entry-id126 .
+
+dtd:row-id92 a dtd:row ;
+    dtd:has_entry dtd:entry-id127,
+        dtd:entry-id128 .
+
+dtd:row-id93 a dtd:row ;
+    dtd:has_entry dtd:entry-id129,
+        dtd:entry-id130 .
+
+dtd:row-id94 a dtd:row ;
+    dtd:has_entry dtd:entry-id131,
+        dtd:entry-id132 .
+
+dtd:row-id95 a dtd:row ;
+    dtd:has_entry dtd:entry-id133,
+        dtd:entry-id134 .
+
+dtd:row-id96 a dtd:row ;
+    dtd:has_entry dtd:entry-id135,
+        dtd:entry-id136 .
+
+dtd:row-id97 a dtd:row ;
+    dtd:has_entry dtd:entry-id137,
+        dtd:entry-id138 .
+
+dtd:row-id98 a dtd:row ;
+    dtd:has_entry dtd:entry-id139,
+        dtd:entry-id140 .
+
+dtd:row-id99 a dtd:row ;
+    dtd:has_entry dtd:entry-id141,
+        dtd:entry-id142 .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id231 ;
+    dtd:has_standtyp dtd:standtyp-id230 .
+
+dtd:standkommentar-id231 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 V v. 11.8.2011 I 1723"@de .
+
+dtd:standtyp-id230 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id73 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_tgroup dtd:tgroup-id74 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id75 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_tgroup dtd:tgroup-id76 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id80 a dtd:tbody ;
+    dtd:has_row dtd:row-id88,
+        dtd:row-id89,
+        dtd:row-id90,
+        dtd:row-id91,
+        dtd:row-id92,
+        dtd:row-id93,
+        dtd:row-id94,
+        dtd:row-id95,
+        dtd:row-id96,
+        dtd:row-id97,
+        dtd:row-id98,
+        dtd:row-id99 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id85 a dtd:tbody ;
+    dtd:has_row dtd:row-id100,
+        dtd:row-id101,
+        dtd:row-id102,
+        dtd:row-id103,
+        dtd:row-id104,
+        dtd:row-id105,
+        dtd:row-id106,
+        dtd:row-id107,
+        dtd:row-id108,
+        dtd:row-id109,
+        dtd:row-id110,
+        dtd:row-id111,
+        dtd:row-id112,
+        dtd:row-id113,
+        dtd:row-id114,
+        dtd:row-id115,
+        dtd:row-id116 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id201 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id205 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id207 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id209 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id212 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id217 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id219 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id221 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:tgroup-id74 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id77,
+        dtd:colspec-id78 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id80 ;
+    dtd:has_thead dtd:thead-id79 .
+
+dtd:tgroup-id76 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id81,
+        dtd:colspec-id82,
+        dtd:colspec-id83 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id85 ;
+    dtd:has_thead dtd:thead-id84 .
+
+dtd:thead-id79 a dtd:thead ;
+    dtd:has_row dtd:row-id86 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:thead-id84 a dtd:thead ;
+    dtd:has_row dtd:row-id87 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value """Anforderungen an die fachliche Eignung für die Berufsausbildung in den
+Berufen der Landwirtschaft und der Hauswirtschaft"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Anerkennungen von Prüfungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Anforderungen an die Fachschulen und Bildungsgänge"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_BR dtd:BR-id66 ;
+    dtd:has_Value "(zu § 2 Abs. 1 Nr. 1)Für die Berufsausbildung in den Berufen der Landwirtschaft und der Hauswirtschaft anerkannte Meisterprüfungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_BR dtd:BR-id70 ;
+    dtd:has_Value "(zu § 2 Abs. 1 Nr. 2)Für die Berufsausbildung in den Berufen der Landwirtschaft und der Hauswirtschaft anerkannte fachschulische Bildungsgänge"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id229 a dtd:zitstelle ;
+    dtd:has_Value "2005, 2284 (2007 I 1899)"@de .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:left rdfs:label "left"@de .
+

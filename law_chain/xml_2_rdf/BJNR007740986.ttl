@@ -1,0 +1,235 @@
+@prefix dtd: <urn:Münz5DMBek-1986#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125211"@de ;
+    dtd:has_doknr "BJNR007740986"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:ABWFORMAT-id54 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43,
+        dtd:P-id44,
+        dtd:P-id45,
+        dtd:P-id46,
+        dtd:P-id47,
+        dtd:P-id48,
+        dtd:P-id49,
+        dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id35,
+        dtd:LA-id36 .
+
+dtd:DD-id34 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id37 .
+
+dtd:DL-id29 a dtd:DL ;
+    dtd:has_DD dtd:DD-id31 ;
+    dtd:has_DT dtd:DT-id30 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id32 a dtd:DL ;
+    dtd:has_DD dtd:DD-id34 ;
+    dtd:has_DT dtd:DT-id33 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id30 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id35 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND"@de .
+
+dtd:LA-id36 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "5 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id37 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"AUS TRADITION IN DIE ZUKUNFT\"."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.1986 +++)"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung hat die Bundesregierung beschlossen, aus Anlaß des 600jährigen Bestehens der Ruprecht-Karls-Universität Heidelberg im Jahre 1986 eine Bundesmünze (Gedenkmünze) im Nennwert von 5 Deutschen Mark prägen zu lassen. Die Auflage der Münze beträgt 8,35 Millionen Stück. Die Prägung erfolgt im Bayerischen Hauptmünzamt München."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value "(2) Die Münze wird ab 24. Juni 1986 in den Verkehr gebracht.Die Münze besteht überwiegend aus einer Kupfer-Nickel-Legierung (75 Prozent Kupfer und 25 Prozent Nickel). Sie enthält einen Reinnickelkern. Der Durchmesser beträgt 29 Millimeter, das Gewicht 10 Gramm."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(3) Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden glatten Randstab umgeben."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(4) Die Bildseite zeigt das Hoheitssymbol der alten Kurpfalz, auf deren Territorium die Universität Heidelberg im Jahre 1386 gegründet wurde, einen aufrecht stehenden bekrönten Löwen. Die Umschrift enthält die Worte \"600 JAHRE UNIVERSITÄT HEIDELBERG 1386 - 1986\", den lateinischen Namen der Universität, RUPERTO CAROLA, sowie die Inschrift des alten Rektoratssiegels SEMPER APERTUS, die sich bis heute als Sinnspruch der Universität erhalten hat."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_DL dtd:DL-id29 ;
+    dtd:has_Value "(5) Die Wertseite trägt einen Adler, die Jahreszahl 1986, das Münzzeichen \"D\" des Bayerischen Hauptmünzamtes München und die Umschrift \"BUNDESREPUBLIK DEUTSCHLAND5 DEUTSCHE MARK\"."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_DL dtd:DL-id32 ;
+    dtd:has_Value "(6) Die Jahreszahl ist - unterteilt in \"19\" und \"86\" - beiderseits der Wertziffer 5 angebracht. Das Münzzeichen \"D\" befindet sich im Bogen der Wertziffer 5. Der glatte Münzrand enthält die vertiefte Inschrift \"AUS TRADITION IN DIE ZUKUNFT\"."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(7) Zwischen Ende und Anfang der Randschrift ist eine liegende Raute eingeprägt."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_SP dtd:SP-id28 ;
+    dtd:has_Value "(8) Der Entwurf der Münze stammt von Heinrich Körner, Esslingen.Der Bundesminister der Finanzen"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id54 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung, Fundstelle: BGBl I 1986, 774)"@de ;
+    dtd:has_kommentar dtd:kommentar-id53 .
+
+dtd:SP-id28 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1986-05-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id55 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id56 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id40 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1986"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1986"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1986"@de .
+
+dtd:kommentar-id53 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung, Fundstelle: BGBl I 1986, 774)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 5
+Deutschen Mark (Gedenkmünze 600jähriges Bestehen
+der Ruprecht-Karls-Universität Heidelberg)"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125211"@de ;
+    dtd:has_doknr "BJNR007740986"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125211"@de ;
+    dtd:has_doknr "BJNR007740986BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125211"@de ;
+    dtd:has_doknr "BJNR007740986BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id55 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münze"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id56 a dtd:zitstelle ;
+    dtd:has_Value "1986, 774"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

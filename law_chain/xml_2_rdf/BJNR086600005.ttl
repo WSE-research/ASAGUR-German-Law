@@ -1,0 +1,232 @@
+@prefix dtd: <urn:StVOAusnV-12#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625145920"@de ;
+    dtd:has_doknr "BJNR086600005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30. 3.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id54 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 6 Abs. 1 Nr. 3 in Verbindung mit Abs. 3 des Straßenverkehrsgesetzes in der Fassung der Bekanntmachung vom 5. März 2003 (BGBl. I S. 310, 919) verordnet das Bundesministerium für Verkehr, Bau- und Wohnungswesen nach Anhörung der zuständigen obersten Landesbehörden:"@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Abweichend von § 18 Abs. 5 Satz 2 Nr. 1 der Straßenverkehrs-Ordnung beträgt die zulässige Höchstgeschwindigkeit für Kraftfahrzeuge mit einem zulässigen Gesamtgewicht von über 3,5 t bis 7,5 t, die im Fahrzeugschein als Wohnmobil bezeichnet sind, auf Autobahnen (Zeichen 330.1) und Kraftfahrstraßen (Zeichen 331.1) 100 km/h."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Aus den Fahrzeugpapieren von im Ausland zugelassenen Wohnmobilen im Sinne des § 1 muss eindeutig zu ersehen sein, dass diese das zulässige Gesamtgewicht von 7,5 Tonnen nicht überschreiten."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-03-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id55 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id56 .
+
+dtd:fussnoten-id32 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:fussnoten-id36 a dtd:fussnoten .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 12"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 12"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 12"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 12"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 12"@de .
+
+dtd:kurzue-id20 a dtd:kurzue ;
+    dtd:has_Value "12. Ausnahmeverordnung zur StVO"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Zwölfte Verordnung über Ausnahmen von den Vorschriften der Straßenverkehrs-Ordnung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id20 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22,
+        dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625145920"@de ;
+    dtd:has_doknr "BJNR086600005"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625145920"@de ;
+    dtd:has_doknr "BJNR086600005BJNE000101308"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625145920"@de ;
+    dtd:has_doknr "BJNR086600005BJNE000202308"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625145920"@de ;
+    dtd:has_doknr "BJNR086600005BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625145920"@de ;
+    dtd:has_doknr "BJNR086600005BJNE000401308"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id55 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id54 a dtd:pre ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30. 3.2005 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id58 ;
+    dtd:has_standtyp dtd:standtyp-id57 .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id60 ;
+    dtd:has_standtyp dtd:standtyp-id59 .
+
+dtd:standkommentar-id58 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 26.10.2009 I 3678"@de .
+
+dtd:standkommentar-id60 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 3 Satz 2 mit Ablauf des 31. Dezember 2009 außer Kraft. § 3 Satz 2 aufgeh. durch Art. 1 V v. 26.10.2009 I 3678 mWv 5.11.2009; dadurch wurde die Geltung der V über den 31.12.2009 hinaus verlängert"@de .
+
+dtd:standtyp-id57 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id59 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 .
+
+dtd:zitstelle-id56 a dtd:zitstelle ;
+    dtd:has_Value "2005, 866"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

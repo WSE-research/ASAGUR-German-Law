@@ -1,0 +1,387 @@
+@prefix dtd: <urn:BVersTG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200103213257"@de ;
+    dtd:has_doknr "BJNR071600009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75,
+        dtd:P-id76,
+        dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79,
+        dtd:P-id80,
+        dtd:P-id81,
+        dtd:P-id82,
+        dtd:P-id83,
+        dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86,
+        dtd:P-id87,
+        dtd:P-id88,
+        dtd:P-id89 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id68 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id69 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DL-id59 a dtd:DL ;
+    dtd:has_DD dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67 ;
+    dtd:has_DT dtd:DT-id60,
+        dtd:DT-id61,
+        dtd:DT-id62,
+        dtd:DT-id63 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Value "Beamtin oder Beamter des Bundes oder einer sonstigen bundesunmittelbaren Körperschaft, Anstalt oder Stiftung des öffentlichen Rechts ist,"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Value "Richterin oder Richter des Bundes ist,"@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Value "Versorgungsempfängerin oder Versorgungsempfänger aus einem der in Nummer 1 oder Nummer 2 genannten Dienstverhältnisse ist oder"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Value "Anspruch auf Leistungen nach dem Altersgeldgesetz vom 28. August 2013 (BGBl. I S. 3386) hat."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_BR dtd:BR-id52 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.9.2009 +++) Das G wurde als Artikel 5 des G v. 3.4.2009 I 700 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es tritt gem. Art. 23 Satz 1 dieses G am 1.9.2009 in Kraft"@de ;
+    dtd:has_pre dtd:pre-id94 .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz regelt die Ansprüche von ausgleichsberechtigten Personen und deren Hinterbliebenen gegenüber den Versorgungsträgern der ausgleichspflichtigen Personen, wenn nach § 10 Abs. 1 des Versorgungsausgleichsgesetzes Anrechte übertragen wurden."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_DL dtd:DL-id59 ;
+    dtd:has_Value "(2) Es ist nur anzuwenden, wenn die ausgleichspflichtige Person 1.Beamtin oder Beamter des Bundes oder einer sonstigen bundesunmittelbaren Körperschaft, Anstalt oder Stiftung des öffentlichen Rechts ist,2.Richterin oder Richter des Bundes ist,3.Versorgungsempfängerin oder Versorgungsempfänger aus einem der in Nummer 1 oder Nummer 2 genannten Dienstverhältnisse ist oder4.Anspruch auf Leistungen nach dem Altersgeldgesetz vom 28. August 2013 (BGBl. I S. 3386) hat."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(3) Dieses Gesetz gilt entsprechend, wenn die ausgleichspflichtige Person in einem öffentlich-rechtlichen Amtsverhältnis des Bundes steht oder stand."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "(1) Anspruchsberechtigt ist die Person, zu deren Gunsten ein Anrecht nach § 10 Abs. 1 des Versorgungsausgleichsgesetzes übertragen worden ist."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "(2) Mit dem Tod der ausgleichsberechtigten Person geht der Anspruch auf die Hinterbliebenen über. Als Hinterbliebene nach diesem Gesetz gelten die nach den §§ 46 und 48 Abs. 1 bis 3 des Sechsten Buches Sozialgesetzbuch Leistungsberechtigten unter den dort für den Leistungsanspruch im Einzelnen bestimmten Voraussetzungen; die Erfüllung der allgemeinen Wartezeit ist unbeachtlich. Nicht leistungsberechtigt sind Waisen, wenn das Kindschaftsverhältnis durch Annahme als Kind begründet wurde und die ausgleichsberechtigte Person zu diesem Zeitpunkt bereits das 65. Lebensjahr vollendet hatte."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(3) Zahlungen aus dem übertragenen Anrecht werden von Beginn des Kalendermonats an geleistet, in dem die ausgleichsberechtigte Person Anspruch auf Leistungen wegen Alters oder wegen Dienst- oder Erwerbsunfähigkeit aus einem gesetzlichen Alterssicherungssystem hat oder, wenn sie einem solchen System nicht angehört, in der gesetzlichen Rentenversicherung gehabt hätte. Zahlungen an Hinterbliebene beginnen mit dem Ablauf des Sterbemonats der ausgleichsberechtigten Person."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(4) Entsteht der Zahlungsanspruch erstmals nach dem 31. Dezember 2019, aber bevor die ausgleichsberechtigte Person die für sie geltende Altersgrenze erreicht hat, so vermindert sich der Anspruch entsprechend den Regelungen, die für das nach Absatz 3 Satz 1 maßgebliche gesetzliche Alterssicherungssystem gelten."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "(5) Der Anspruch ist schriftlich oder elektronisch geltend zu machen. § 49 Abs. 4 bis 8, 10 und § 62 Abs. 2 Satz 2 des Beamtenversorgungsgesetzes gelten entsprechend."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "(6) Der Anspruch der ausgleichsberechtigten Person endet spätestens mit Ablauf des Monats, in dem sie verstirbt. Für Hinterbliebene gilt § 61 Abs. 1 Satz 1 Nr. 1 bis 3, Abs. 2 und 3 des Beamtenversorgungsgesetzes entsprechend."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "(1) Der durch Entscheidung des Familiengerichts zugunsten der ausgleichsberechtigten Person festgesetzte oder sich in den Fällen des § 10 Absatz 2 des Versorgungsausgleichsgesetzes nach Verrechnung zugunsten der ausgleichsberechtigten Person ergebende monatliche Betrag erhöht oder vermindert sich um die Prozentsätze der nach dem Ende der Ehezeit bis zum Zeitpunkt des Eintritts der ausgleichspflichtigen Person in den Ruhestand eingetretenen Erhöhungen oder Verminderungen der Versorgungsbezüge nach dem Beamtenversorgungsgesetz, die in festen Beträgen festgesetzt sind."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "(2) Vom Zeitpunkt des Eintritts der ausgleichspflichtigen Person in den Ruhestand an oder, sofern sich die ausgleichspflichtige Person zum Zeitpunkt der Entscheidung des Familiengerichts bereits im Ruhestand befindet, vom ersten Tag des auf das Ende der Ehezeit folgenden Monats an erhöht oder vermindert sich der Betrag in dem Verhältnis, in dem sich das Ruhegehalt der ausgleichspflichtigen Person vor Anwendung von Ruhens-, Kürzungs- und Anrechnungsvorschriften durch Anpassung der Versorgungsbezüge erhöht oder vermindert. Gleiches gilt für die Zeit ab dem ersten Tag des auf den Tod der ausgleichspflichtigen Person folgenden Monats."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "(3) Handelt es sich um ein Anrecht nach dem Altersgeldgesetz, erhöht oder vermindert sich der Betrag nach den Absätzen 1 und 2 um die Prozentsätze, um die sich die altersgeldfähigen Dienstbezüge nach § 7 Absatz 4 des Altersgeldgesetzes erhöhen oder vermindern."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "(4) Hinterbliebene nach § 2 Absatz 2 erhalten den Betrag nach den Absätzen 1 bis 3 in entsprechender Anwendung der §§ 20, 24 und 25 Absatz 1 und 2 des Beamtenversorgungsgesetzes."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_Value "Für die Rückforderung zu viel gezahlter Leistungen gilt § 52 Abs. 2 bis 4 des Beamtenversorgungsgesetzes entsprechend."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "BVersTG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-04-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id95 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id96 .
+
+dtd:fussnoten-id42 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id72 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:fussnoten-id46 a dtd:fussnoten .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BVersTG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "BVersTG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "BVersTG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BVersTG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "BVersTG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BVersTG"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Bundesversorgungsteilungsgesetz"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Gesetz über die interne Teilung beamtenversorgungsrechtlicher Ansprüche von Bundesbeamtinnen und Bundesbeamten im Versorgungsausgleich"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200103213257"@de ;
+    dtd:has_doknr "BJNR071600009"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200103213257"@de ;
+    dtd:has_doknr "BJNR071600009BJNE000101311"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200103213257"@de ;
+    dtd:has_doknr "BJNR071600009BJNE000202311"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200103213257"@de ;
+    dtd:has_doknr "BJNR071600009BJNE000302311"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200103213257"@de ;
+    dtd:has_doknr "BJNR071600009BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200103213257"@de ;
+    dtd:has_doknr "BJNR071600009BJNE000501311"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id95 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id94 a dtd:pre ;
+    dtd:has_BR dtd:BR-id53,
+        dtd:BR-id54,
+        dtd:BR-id55,
+        dtd:BR-id56,
+        dtd:BR-id57,
+        dtd:BR-id58 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.9.2009 +++) Das G wurde als Artikel 5 des G v. 3.4.2009 I 700 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es tritt gem. Art. 23 Satz 1 dieses G am 1.9.2009 in Kraft"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id98 ;
+    dtd:has_standtyp dtd:standtyp-id97 .
+
+dtd:standkommentar-id98 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 10 G v. 9.12.2019 I 2053"@de .
+
+dtd:standtyp-id97 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id90 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id42 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Zweckbestimmung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Anspruch"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Anpassung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Rückforderung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id96 a dtd:zitstelle ;
+    dtd:has_Value "2009, 700, 716"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

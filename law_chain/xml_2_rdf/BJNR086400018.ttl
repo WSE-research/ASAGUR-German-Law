@@ -1,0 +1,447 @@
+@prefix dtd: <urn:AnalgetikaWarnHV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221031213007"@de ;
+    dtd:has_doknr "BJNR086400018"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90,
+        dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93,
+        dtd:P-id94,
+        dtd:P-id95,
+        dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id98,
+        dtd:P-id99 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id80 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id81 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id82 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DL-id65 a dtd:DL ;
+    dtd:has_DD dtd:DD-id70,
+        dtd:DD-id71,
+        dtd:DD-id72,
+        dtd:DD-id73 ;
+    dtd:has_DT dtd:DT-id66,
+        dtd:DT-id67,
+        dtd:DT-id68,
+        dtd:DT-id69 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id74 a dtd:DL ;
+    dtd:has_DD dtd:DD-id77,
+        dtd:DD-id78 ;
+    dtd:has_DT dtd:DT-id75,
+        dtd:DT-id76 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:FnR-id63 a dtd:FnR ;
+    dtd:has_ID "F803162_01_BJNR086400018"@de .
+
+dtd:Footnote-id106 a dtd:Footnote ;
+    dtd:has_FnZ "1"@de ;
+    dtd:has_Group dtd:page ;
+    dtd:has_ID "F803162_01_BJNR086400018"@de ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "Notifiziert gemäß der Richtlinie (EU) 2015/1535 des Europäischen Parlaments und des Rates vom 9. September 2015 über ein Informationsverfahren auf dem Gebiet der technischen Vorschriften und der Vorschriften für die Dienste der Informationsgesellschaft (ABl. L 241 vom 17.9.2015, S. 1)."@de ;
+    dtd:has_noindex dtd:noindex-id64 .
+
+dtd:Footnotes-id105 a dtd:Footnotes ;
+    dtd:has_Footnote dtd:Footnote-id106 .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arzneimittel, die gemäß § 21 des Arzneimittelgesetzes zugelassen sind,"@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arzneimittel, die durch Rechtsverordnung nach § 36 des Arzneimittelgesetzes von der Pflicht zur Zulassung freigestellt sind,"@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rezepturarzneimittel im Sinne von § 1a Absatz 8 der Apothekenbetriebsordnung und"@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Defekturarzneimittel im Sinne von § 1a Absatz 9 der Apothekenbetriebsordnung."@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ausschließlich zur Thrombozytenaggregationshemmung vorgesehen sind oder"@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Prüfpräparate im Sinne des Artikels 2 Absatz 2 Nummer 5 der Verordnung (EU) Nr. 536/2014 des Europäischen Parlaments und des Rates vom 16. April 2014 über klinische Prüfungen mit Humanarzneimitteln und zur Aufhebung der Richtlinie 2001/20/EG (ABl. L 158 vom 27.5.2014, S. 1; L 311 vom 17.11.2016, S. 25), die zuletzt durch die Verordnung (EU) 2022/641 (ABl. L 118 vom 20.4.2022, S. 1) geändert worden ist, sind."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am ersten Tag des auf die Verkündung folgenden Monats in Kraft."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_BR dtd:BR-id57 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.2018 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Notifizierung gem. der       EURL 2015/1535            (CELEX Nr: 32015L1535) +++)"@de ;
+    dtd:has_pre dtd:pre-id104 .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 12 Absatz 1 Nummer 3 Buchstabe a des Arzneimittelgesetzes, der durch Artikel 52 Nummer 3 Buchstabe a der Verordnung vom 31. August 2015 (BGBl. l S. 1474) geändert worden ist, verordnet das Bundesministerium für Gesundheit im Einvernehmen mit dem Bundesministerium für Wirtschaft und Energie:"@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_DL dtd:DL-id65 ;
+    dtd:has_Value "(1) Diese Verordnung ist anzuwenden auf zur Anwendung bei Menschen bestimmte, oral oder rektal anzuwendende, nicht der Verschreibungspflicht nach § 48 des Arzneimittelgesetzes unterliegende und die Wirkstoffe Acetylsalicylsäure, Dexibuprofen, Diclofenac, Ibuprofen, Naproxen, Paracetamol, Phenazon oder Propyphenazon enthaltende 1.Arzneimittel, die gemäß § 21 des Arzneimittelgesetzes zugelassen sind,2.Arzneimittel, die durch Rechtsverordnung nach § 36 des Arzneimittelgesetzes von der Pflicht zur Zulassung freigestellt sind,3.Rezepturarzneimittel im Sinne von § 1a Absatz 8 der Apothekenbetriebsordnung und4.Defekturarzneimittel im Sinne von § 1a Absatz 9 der Apothekenbetriebsordnung."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_DL dtd:DL-id74 ;
+    dtd:has_Value "(2) Diese Verordnung gilt nicht für Arzneimittel, die 1.ausschließlich zur Thrombozytenaggregationshemmung vorgesehen sind oder2.Prüfpräparate im Sinne des Artikels 2 Absatz 2 Nummer 5 der Verordnung (EU) Nr. 536/2014 des Europäischen Parlaments und des Rates vom 16. April 2014 über klinische Prüfungen mit Humanarzneimitteln und zur Aufhebung der Richtlinie 2001/20/EG (ABl. L 158 vom 27.5.2014, S. 1; L 311 vom 17.11.2016, S. 25), die zuletzt durch die Verordnung (EU) 2022/641 (ABl. L 118 vom 20.4.2022, S. 1) geändert worden ist, sind."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "(1) Arzneimittel nach § 1 Absatz 1 Nummer 1 und 2, die ausschließlich zur Behandlung von leichten bis mäßig starken Schmerzen oder Fieber vorgesehen sind, dürfen nur in den Verkehr gebracht werden, wenn der folgende Warnhinweis angebracht ist:  „Bei Schmerzen oder Fieber ohne ärztlichen Rat nicht länger anwenden als in der Packungsbeilage vorgegeben!“ ."@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_Value "(2) Arzneimittel nach § 1 Absatz 1 Nummer 1 und 2, die ausschließlich oder auch zu anderen Zwecken als zur Behandlung von leichten bis mäßig starken Schmerzen oder Fieber vorgesehen sind, dürfen nur in den Verkehr gebracht werden, wenn der folgende Warnhinweis angebracht ist:  „Ohne ärztlichen Rat nicht länger anwenden als in der Packungsbeilage vorgegeben!“ ."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "(3) Arzneimittel nach § 1 Absatz 1 Nummer 3 und 4 dürfen nur in den Verkehr gebracht werden, wenn der folgende Warnhinweis angebracht ist:  „Ohne ärztlichen Rat nicht länger anwenden als von der Apothekerin oder vom Apotheker empfohlen!“ ."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(4) Die Warnhinweise nach den Absätzen 1 bis 3 sind in gut lesbarer Schrift dauerhaft auf der Vorderseite der äußeren Umhüllung oder, sofern nur ein Behältnis vorhanden ist, auf dem Behältnis anzubringen."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(1) Arzneimittel nach § 1 Absatz 1 Nummer 1 und 2, auf die diese Verordnung in ihrer bis zum 31. Oktober 2022 geltenden Fassung noch keine Anwendung fand, dürfen ohne Warnhinweis nach § 2 Absatz 1 oder Absatz 2 vom pharmazeutischen Unternehmer noch bis zum 31. Oktober 2024 im Sinne des § 4 Absatz 17 des Arzneimittelgesetzes in den Verkehr gebracht werden. Großhändler und Apotheken dürfen Arzneimittel nach Satz 1 auch nach diesem Zeitpunkt im Sinne des § 4 Absatz 17 des Arzneimittelgesetzes in den Verkehr bringen."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(2) Arzneimittel nach § 1 Absatz 1 Nummer 4, auf die diese Verordnung in ihrer bis zum 31. Oktober 2022 geltenden Fassung keine Anwendung fand, dürfen ohne Warnhinweis nach § 2 Absatz 3 noch bis zum 31. Oktober 2023 im Sinne des § 4 Absatz 17 des Arzneimittelgesetzes in den Verkehr gebracht werden."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "AnalgetikaWarnHV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2018-06-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:exp rdfs:label "exp"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id107 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id108 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id85 .
+
+dtd:fussnoten-id49 a dtd:fussnoten .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "AnalgetikaWarnHV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "AnalgetikaWarnHV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "AnalgetikaWarnHV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "AnalgetikaWarnHV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "AnalgetikaWarnHV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "AnalgetikaWarnHV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "AnalgetikaWarnHV"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_BR dtd:BR-id56 ;
+    dtd:has_FnR dtd:FnR-id63 ;
+    dtd:has_Value "Analgetika-Warnhinweis-Verordnung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id27 ;
+    dtd:has_standangabe dtd:standangabe-id28 .
+
+dtd:noindex-id64 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221031213007"@de ;
+    dtd:has_doknr "BJNR086400018"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221031213007"@de ;
+    dtd:has_doknr "BJNR086400018BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221031213007"@de ;
+    dtd:has_doknr "BJNR086400018BJNE000201125"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221031213007"@de ;
+    dtd:has_doknr "BJNR086400018BJNE000301125"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20221031213007"@de ;
+    dtd:has_doknr "BJNR086400018BJNE000401125"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20221031213007"@de ;
+    dtd:has_doknr "BJNR086400018BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20221031213007"@de ;
+    dtd:has_doknr "BJNR086400018BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:page rdfs:label "page"@de .
+
+dtd:periodikum-id107 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id104 a dtd:pre ;
+    dtd:has_BR dtd:BR-id58,
+        dtd:BR-id59,
+        dtd:BR-id60,
+        dtd:BR-id61,
+        dtd:BR-id62 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.2018 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Notifizierung gem. der       EURL 2015/1535            (CELEX Nr: 32015L1535) +++)"@de .
+
+dtd:standangabe-id28 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id110 ;
+    dtd:has_standtyp dtd:standtyp-id109 .
+
+dtd:standkommentar-id110 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 19.10.2022 I 1810"@de .
+
+dtd:standtyp-id109 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Footnotes dtd:Footnotes-id105 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Warnhinweis auf äußeren Umhüllungen und Behältnissen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Übergangsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id108 a dtd:zitstelle ;
+    dtd:has_Value "2018, 864"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

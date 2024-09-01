@@ -1,0 +1,238 @@
+@prefix dtd: <urn:WoBauG1/2ÄndG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152017"@de ;
+    dtd:has_doknr "BJNR013930957"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_BR dtd:BR-id44,
+        dtd:BR-id45 ;
+    dtd:has_Value "Überschrift: Dieses G gilt nicht im Saarland gem. § 2 III Nr. 29 G v. 30.6.1959 101-3  (+++ Textnachweis Geltung ab:  1. 1. 1964 +++)"@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Entscheidungen zuständiger Behörden, die vor dem Inkrafttreten dieses Gesetzes nach §§ 38 bis 40 des Ersten Wohnungsbaugesetzes oder nach §§ 25 und 76 bis 81 des Zweiten Wohnungsbaugesetzes in den bisherigen Fassungen zugunsten von Bauherren oder Wohnungsuchenden getroffen worden sind, sowie nach diesen Vorschriften erworbene Rechtsansprüche bleiben unberührt und sind zugunsten dieser Personen auch weiteren Entscheidungen, die nach dem Inkrafttreten dieses Gesetzes hinsichtlich derselben Wohnungen zu treffen sind, zugrunde zu legen."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nicht im Saarland."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1957-09-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 1 und Art 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id48 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "WoBauG1/2ÄndG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "WoBauG1/2ÄndG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "WoBauG1/2ÄndG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "WoBauG1/2ÄndG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "WoBauG1/2ÄndG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "WoBauG1/2ÄndG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Änderung des Ersten Wohnungsbaugesetzes und des Zweiten
+Wohnungsbaugesetzes"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152017"@de ;
+    dtd:has_doknr "BJNR013930957"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625152017"@de ;
+    dtd:has_doknr "BJNR013930957BJNE000100309"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625152017"@de ;
+    dtd:has_doknr "BJNR013930957BJNE000200309"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625152017"@de ;
+    dtd:has_doknr "BJNR013930957BJNE000300309"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625152017"@de ;
+    dtd:has_doknr "BJNR013930957BJNE000400309"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625152017"@de ;
+    dtd:has_doknr "BJNR013930957BJNE000500309"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "1957, 1393"@de .
+

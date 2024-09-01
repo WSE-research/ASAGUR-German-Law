@@ -1,0 +1,222 @@
+@prefix dtd: <urn:SchlMonAufhG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132219"@de ;
+    dtd:has_doknr "BJNR220980967"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51,
+        dtd:P-id52 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id39 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id40 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DL-id32 a dtd:DL ;
+    dtd:has_DD dtd:DD-id36,
+        dtd:DD-id37,
+        dtd:DD-id38 ;
+    dtd:has_DT dtd:DT-id33,
+        dtd:DT-id34,
+        dtd:DT-id35 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id39 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§ 18 des Preußischen Gesetzes vom 1. April 1905, betreffend die Herstellung und den Ausbau von Wasserstraßen (Preußische Gesetzsammlung S. 179),"@de .
+
+dtd:LA-id40 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Preußische Gesetz vom 30. April 1913, betreffend das Schleppmonopol auf dem Rhein-Weser-Kanal und auf dem Lippe-Kanal (Preußische Gesetzsammlung S. 217),"@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§ 12 des Preußischen Gesetzes vom 4. Dezember 1920, betreffend die Vollendung des Mittellandkanals und die durch sie bedingten Ergänzungsbauten an vorhandenen Wasserstraßen (Preußische Gesetzsammlung 1921 S. 67),"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.1968 +++)"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Das staatliche Schleppmonopol auf dem Rhein-Herne-Kanal mit den Verbindungen zur Ruhrwasserstraße und zum Rhein, dem Wesel-Datteln-Kanal, dem Datteln-Hamm-Kanal, dem Mittellandkanal mit seinen Zweigkanälen und den Abstiegen zur Weser und zur Leine, auf dem Dortmund-Ems-Kanal und der kanalisierten Ems wird aufgehoben."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am 1. Januar 1968 in Kraft."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_DL dtd:DL-id32 ;
+    dtd:has_Value "(2) Am gleichen Tage treten außer Kraft: 1.§ 18 des Preußischen Gesetzes vom 1. April 1905, betreffend die Herstellung und den Ausbau von Wasserstraßen (Preußische Gesetzsammlung S. 179), 2.das Preußische Gesetz vom 30. April 1913, betreffend das Schleppmonopol auf dem Rhein-Weser-Kanal und auf dem Lippe-Kanal (Preußische Gesetzsammlung S. 217), 3.§ 12 des Preußischen Gesetzes vom 4. Dezember 1920, betreffend die Vollendung des Mittellandkanals und die durch sie bedingten Ergänzungsbauten an vorhandenen Wasserstraßen (Preußische Gesetzsammlung 1921 S. 67), 4. 5. 6."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1967-08-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id53 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id54 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:fussnoten-id29 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "SchlMonAufhG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "SchlMonAufhG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SchlMonAufhG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "SchlMonAufhG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Gesetz über die Aufhebung des staatlichen Schleppmonopols auf den
+westdeutschen Kanälen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132219"@de ;
+    dtd:has_doknr "BJNR220980967"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132219"@de ;
+    dtd:has_doknr "BJNR220980967BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132219"@de ;
+    dtd:has_doknr "BJNR220980967BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132219"@de ;
+    dtd:has_doknr "BJNR220980967BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id53 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id54 a dtd:zitstelle ;
+    dtd:has_Value "1967, 2098"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,71 @@
+@prefix dtd: <urn:LuftVODV-231-2021#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20211103213515"@de ;
+    dtd:has_doknr "BJNR620400021"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:Content-id11 a dtd:Content ;
+    dtd:has_P dtd:P-id12 .
+
+dtd:P-id12 a dtd:P ;
+    dtd:has_Value "V nur mit Überschrift aufgenommen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-07-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id13 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id14 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id11 .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "LuftVODV 231 2021"@de .
+
+dtd:langue-id8 a dtd:langue ;
+    dtd:has_Value "Zweihunderteinunddreißigste Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flughafen Memmingen)"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id8 ;
+    dtd:has_standangabe dtd:standangabe-id9 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20211103213515"@de ;
+    dtd:has_doknr "BJNR620400021"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id13 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:standangabe-id9 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id16 ;
+    dtd:has_standtyp dtd:standtyp-id15 .
+
+dtd:standkommentar-id16 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 96-1-2-231 v. 1.3.2007 BAnz Nr 65, 3541 (LuftVODV 231)"@de .
+
+dtd:standtyp-id15 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 .
+
+dtd:zitstelle-id14 a dtd:zitstelle ;
+    dtd:has_Value "AT 23.07.2021 V1"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

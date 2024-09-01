@@ -1,0 +1,376 @@
+@prefix dtd: <urn:AgrStatV-2015#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20211229214033"@de ;
+    dtd:has_doknr "BJNR197900015"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79,
+        dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id73 .
+
+dtd:DL-id67 a dtd:DL ;
+    dtd:has_DD dtd:DD-id70,
+        dtd:DD-id71 ;
+    dtd:has_DT dtd:DT-id68,
+        dtd:DT-id69 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_Value "Betriebe mit Teichen ohne nennenswerten kontinuierlichen Durchfluss: Erhebungseinheiten sind solche Betriebe, bei denen die Gesamtgewässerfläche der Teiche mindestens 0,3 Hektar beträgt, und"@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Value "Betriebe mit Anlagen ohne Kreislaufführung, die von Wasser kontinuierlich durchflossen werden, sowie mit Anlagen mit einer täglichen Frischwasserzufuhr von mindestens 20 Prozent des Anlagenvolumens: Erhebungseinheiten sind solche Betriebe, bei denen das Gesamtvolumen der genannten Anlagen, soweit es für die Aquakultur verwendbar ist, mindestens 200 Kubikmeter beträgt."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_BR dtd:BR-id64 ;
+    dtd:has_Value " (+++ Textnachweis ab: 21.11.2015 +++)"@de ;
+    dtd:has_pre dtd:pre-id89 .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 94a Nummer 1 Buchstabe a und b des Agrarstatistikgesetzes, der durch Artikel 1 Nummer 14 des Gesetzes vom 5. Dezember 2014 (BGBl. I S. 1975) geändert worden ist, verordnet das Bundesministerium für Ernährung und Landwirtschaft:"@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "(1) Im Rahmen der Baumschulerhebung wird die Erhebung der Bestände an Forstpflanzen nach Zahl und Art (§ 14 Absatz 1 des Agrarstatistikgesetzes) ausgesetzt."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "(2) Unbeschadet des Absatzes 1 umfassen die Erhebungsmerkmale der Baumschulerhebung nach § 14 Absatz 1 des Agrarstatistikgesetzes jeweils zusätzlich die Unterscheidung nach Kulturformen."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Zusätzlich zu den in § 17 Absatz 1 Nummer 2 des Agrarstatistikgesetzes aufgeführten Erhebungsmerkmalen werden bei Äpfeln und Birnen, die als Verwertungsobst verwendet werden, die Pflanzzeitpunkte und die Zahl der Bäume jeweils nach der Fläche erhoben."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_DL dtd:DL-id67 ;
+    dtd:has_Value "Der Kreis der in der Aquakulturstatistik nach § 68a des Agrarstatistikgesetzes zu Befragenden wird wie folgt eingeschränkt: 1.Betriebe mit Teichen ohne nennenswerten kontinuierlichen Durchfluss: Erhebungseinheiten sind solche Betriebe, bei denen die Gesamtgewässerfläche der Teiche mindestens 0,3 Hektar beträgt, und2.Betriebe mit Anlagen ohne Kreislaufführung, die von Wasser kontinuierlich durchflossen werden, sowie mit Anlagen mit einer täglichen Frischwasserzufuhr von mindestens 20 Prozent des Anlagenvolumens: Erhebungseinheiten sind solche Betriebe, bei denen das Gesamtvolumen der genannten Anlagen, soweit es für die Aquakultur verwendbar ist, mindestens 200 Kubikmeter beträgt.Im Übrigen bleibt § 68a des Agrarstatistikgesetzes unberührt."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Gleichzeitig tritt die Erste Agrarstatistikverordnung vom 20. November 2002 (BGBl. I S. 4415), die zuletzt durch Artikel 4 des Gesetzes vom 6. März 2009 (BGBl. I S. 438) geändert worden ist, außer Kraft."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "AgrStatV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-11-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id90 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id91 .
+
+dtd:fussnoten-id53 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id74 .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:fussnoten-id59 a dtd:fussnoten .
+
+dtd:fussnoten-id61 a dtd:fussnoten .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV 2015"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV 2015"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV 2015"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV 2015"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV 2015"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV 2015"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV 2015"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "AgrStatV"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Agrarstatistikverordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Aussetzung und Ergänzung von Merkmalen sowie zur Einschränkung des Kreises der zu Befragenden nach dem Agrarstatistikgesetz"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id31,
+        dtd:jurabk-id32 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id34,
+        dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id38,
+        dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id42,
+        dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id46,
+        dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id50,
+        dtd:jurabk-id51 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29,
+        dtd:standangabe-id30 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20211229214033"@de ;
+    dtd:has_doknr "BJNR197900015"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20211229214033"@de ;
+    dtd:has_doknr "BJNR197900015BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20211229214033"@de ;
+    dtd:has_doknr "BJNR197900015BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20211229214033"@de ;
+    dtd:has_doknr "BJNR197900015BJNE000600119"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20211229214033"@de ;
+    dtd:has_doknr "BJNR197900015BJNE000301119"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20211229214033"@de ;
+    dtd:has_doknr "BJNR197900015BJNE000401119"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20211229214033"@de ;
+    dtd:has_doknr "BJNR197900015BJNE000501119"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id90 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id89 a dtd:pre ;
+    dtd:has_BR dtd:BR-id65,
+        dtd:BR-id66 ;
+    dtd:has_Value "(+++ Textnachweis ab: 21.11.2015 +++)"@de .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id93 ;
+    dtd:has_standtyp dtd:standtyp-id92 .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id95 ;
+    dtd:has_standtyp dtd:standtyp-id94 .
+
+dtd:standkommentar-id93 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 22.12.2021 I 5259 mWv 30.12.2021"@de .
+
+dtd:standkommentar-id95 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 7860-9-1 v. 20.11.2002 I 4415 (AgrStatV 1)"@de .
+
+dtd:standtyp-id92 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id94 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Baumschulerhebung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Baumobstanbauerhebung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Aquakulturstatistik"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id91 a dtd:zitstelle ;
+    dtd:has_Value "2015, 1979"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

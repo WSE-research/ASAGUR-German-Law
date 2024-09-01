@@ -1,0 +1,256 @@
+@prefix dtd: <urn:LeistBeschV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125138"@de ;
+    dtd:has_doknr "BJNR007250962"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DL-id41 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Leistungsfähigkeit des Unternehmens überfordert oder die Erfüllung der in Krisenzeiten oder im Verteidigungsfall notwendigen Leistungen wesentlich beeinträchtigt wird;"@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Versorgung der Bevölkerung oder der Streitkräfte mit Gütern und Leistungen oder die notwendige Lagerhaltung und Bevorratung gefährdet werden."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 3 Satz 3 des Bundesleistungsgesetzes in der Fassung vom 27. September 1961 (Bundesgesetzbl. I S. 1769) verordnet die Bundesregierung mit Zustimmung des Bundesrates:"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Sachverständige Stellen der gewerblichen Wirtschaft im Sinne des § 3 Abs. 3 Satz 3 des Bundesleistungsgesetzes sind die Industrie- und Handelskammern und die Handwerkskammern."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_DL dtd:DL-id41 ;
+    dtd:has_Value "Die Industrie- und Handelskammern und die Handwerkskammern beraten die Anforderungsbehörden bei der Vorbereitung und Durchführung von Anforderungen nach dem Bundesleistungsgesetz. Sie können sich hierbei vor allem über die Leistungsfähigkeit eines Unternehmens oder einzelner Gewerbezweige gutachtlich äußern und Vorschläge unterbreiten. Sie können ferner von den Anforderungsbehörden um gutachtliche Äußerung darüber ersucht werden, ob im Einzelfall durch eine Anforderung a)die Leistungsfähigkeit des Unternehmens überfordert oder die Erfüllung der in Krisenzeiten oder im Verteidigungsfall notwendigen Leistungen wesentlich beeinträchtigt wird; b)die Versorgung der Bevölkerung oder der Streitkräfte mit Gütern und Leistungen oder die notwendige Lagerhaltung und Bevorratung gefährdet werden. "@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Für die Durchführung der in § 2 bezeichneten Aufgaben ist diejenige Industrie- und Handelskammer oder Handwerkskammer zuständig, in deren Bezirk das Unternehmen, das zu einer Leistung herangezogen wurde oder werden soll, seinen Sitz oder eine gewerbliche Niederlassung, Betriebstätte oder Verkaufsstelle hat."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit ihrer Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1962-12-13"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "LeistBeschV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "LeistBeschV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "LeistBeschV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "LeistBeschV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "LeistBeschV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "LeistBeschV"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Rechtsverordnung über die Beteiligung sachverständiger Stellen der
+gewerblichen Wirtschaft an dem Verfahren der Erteilung von Leistungsbescheiden"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125138"@de ;
+    dtd:has_doknr "BJNR007250962"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125138"@de ;
+    dtd:has_doknr "BJNR007250962BJNE000100315"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125138"@de ;
+    dtd:has_doknr "BJNR007250962BJNE000200315"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125138"@de ;
+    dtd:has_doknr "BJNR007250962BJNE000300315"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125138"@de ;
+    dtd:has_doknr "BJNR007250962BJNE000400315"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125138"@de ;
+    dtd:has_doknr "BJNR007250962BJNE000500315"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "1962, 725"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

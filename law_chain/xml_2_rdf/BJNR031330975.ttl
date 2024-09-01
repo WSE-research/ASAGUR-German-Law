@@ -1,0 +1,581 @@
+@prefix dtd: <urn:BImSchV-7#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id142 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id143 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id90 a dtd:BR .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121,
+        dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DL-id92 a dtd:DL ;
+    dtd:has_DD dtd:DD-id95,
+        dtd:DD-id96 ;
+    dtd:has_DT dtd:DT-id93,
+        dtd:DT-id94 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id97 a dtd:DL ;
+    dtd:has_DD dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:I-id91 a dtd:I ;
+    dtd:has_Value "oder § 8"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einen Wert von 50 Milligramm je Kubikmeter Abluft nicht überschreitet, wenn in der Abluft Schleifstaub oder ein Gemisch mit Schleifstaub enthalten ist oder"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einen aus dem folgenden Diagramm sich ergebenden Wert nicht überschreitet, wenn in der Abluft kein Schleifstaub, sondern anderer Staub oder Späne enthalten sind."@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 2 eine Anlage nicht mit einer Abluftreinigungsanlage ausrüstet,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 3 Holzstaub und Späne nicht in Bunkern, Silos oder sonstigen geschlossenen Räumen lagert, keine regelmäßigen Füllstandskontrollen durchführt, Bunker, Silos oder sonstige geschlossene Räume sowie Filteranlagen nicht so entleert, daß Emissionen so weit wie möglich vermieden werden oder"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_I dtd:I-id91 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 4 oder § 8 eine Anlage so betreibt, daß die zulässige Massenkonzentration an Staub in der Abluft überschritten wird."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 3.1976 +++)"@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 23 Abs. 1 des Bundes-Immissionsschutzgesetzes vom 15. März 1974 (Bundesgesetzbl. I S. 721, 1193), geändert durch § 1 Nr. 14 des Gesetzes zur Änderung des Einführungsgesetzes zum Strafgesetzbuch vom 15. August 1974 (Bundesgesetzbl. I S. 1942), wird von der Bundesregierung nach Anhörung der beteiligten Kreise mit Zustimmung des Bundesrates verordnet:"@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt für die Errichtung, die Beschaffenheit und den Betrieb staub- oder späneemittierender Anlagen im Sinne des § 3 Abs. 5 Nr. 1 des Bundes-Immissionsschutzgesetzes zur Bearbeitung oder Verarbeitung von Holz oder Holzwerkstoffen einschließlich der zugehörigen Förder- und Lagereinrichtungen für Späne und Stäube. Sie gilt nicht für Anlagen, die einer Genehmigung nach § 4 des Bundes-Immissionsschutzgesetzes bedürfen."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Anlagen im Sinne des § 1 sind bei ihrer Errichtung mit Abluftreinigungsanlagen auszurüsten, die ein Überschreiten des Emissionswertes nach § 4 ausschließen. Satz 1 gilt nicht, wenn ein Überschreiten des Emissionswertes nach § 4 durch andere Maßnahmen oder Betriebsweisen, insbesondere durch Verarbeitung von waldfrischem Holz, durch Naßschleifen oder durch Einsatz mechanischer Fördereinrichtungen bei jedem Betriebszustand ausgeschlossen wird."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(1) Holzstaub und Späne sind in Bunkern, Silos oder sonstigen geschlossenen Räumen zu lagern."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(2) An Bunkern und Silos sind regelmäßig Füllstandskontrollen, gegebenenfalls mit Füllstandsmeßgeräten und Überfüllsicherungen, durchzuführen."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(3) Lagereinrichtungen im Sinne des Absatzes 1 und Filteranlagen sind so zu entleeren, daß Emissionen an Holzstaub oder Spänen soweit wie möglich vermieden werden, z.B. durch Abfüllen in geschlossene Behälter oder durch Befeuchten an der Austragsstelle."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id142,
+        dtd:ABWFORMAT-id143 ;
+    dtd:has_DL dtd:DL-id92 ;
+    dtd:has_Value "(1) Anlagen im Sinne des § 1 sind so zu betreiben, daß die Massenkonzentration an Staub und Spänen in der Abluft, bezogen auf den Normzustand (0 Grad C; 1013 Millibar), 1.einen Wert von 50 Milligramm je Kubikmeter Abluft nicht überschreitet, wenn in der Abluft Schleifstaub oder ein Gemisch mit Schleifstaub enthalten ist oder 2.einen aus dem folgenden Diagramm sich ergebenden Wert nicht überschreitet, wenn in der Abluft kein Schleifstaub, sondern anderer Staub oder Späne enthalten sind. (Inhalt: nicht darstellbare Abbildung, Fundstelle: BGBl. I 1975, 3133)"@de ;
+    dtd:has_kommentar dtd:kommentar-id141 .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(2) Anlagen nach Absatz 1 Nr. 1, die nach dem 1. Januar 1977 errichtet werden, sind abweichend von Absatz 1 so zu betreiben, daß die Massenkonzentration an Staub und Spänen in der Abluft, bezogen auf den Normzustand, einen Wert von 20 Milligramm je Kubikmeter Abluft nicht überschreitet."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(3) Werden mehrere Anlagen in einem räumlichen und betrieblichen Zusammenhang betrieben, ist bei der Festlegung der zulässigen Massenkonzentration dieser Anlagen die Summe aller Volumenströme zugrunde zu legen."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "Die Befugnis der zuständigen Behörden, auf Grund des Bundes-Immissionsschutzgesetzes andere oder weitergehende Anordnungen zu treffen, bleibt unberührt."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "Die zuständige Behörde kann auf Antrag Ausnahmen von den Vorschriften der Verordnung zulassen, soweit unter Berücksichtigung der besonderen Umstände des Einzelfalles schädliche Umwelteinwirkungen nicht zu befürchten sind oder Gründe des Arbeitsschutzes dies erfordern."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_DL dtd:DL-id97 ;
+    dtd:has_Value "Ordnungswidrig im Sinne des § 62 Abs. 1 Nr. 7 des Bundes-Immissionsschutzgesetzes handelt, wer vorsätzlich oder fahrlässig 1.entgegen § 2 eine Anlage nicht mit einer Abluftreinigungsanlage ausrüstet, 2.entgegen § 3 Holzstaub und Späne nicht in Bunkern, Silos oder sonstigen geschlossenen Räumen lagert, keine regelmäßigen Füllstandskontrollen durchführt, Bunker, Silos oder sonstige geschlossene Räume sowie Filteranlagen nicht so entleert, daß Emissionen so weit wie möglich vermieden werden oder 3.entgegen § 4 oder § 8 eine Anlage so betreibt, daß die zulässige Massenkonzentration an Staub in der Abluft überschritten wird. "@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "§ 7 Nr. 3 Kursivdruck: Gegenstandslos"@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) in Verbindung mit § 73 Satz 2 des Bundes-Immissionsschutzgesetzes auch im Land Berlin."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am ersten Tag des auf die Verkündung folgenden dritten Kalendermonats in Kraft."@de .
+
+dtd:amtabk-id39 a dtd:amtabk ;
+    dtd:has_Value "7. BImSchV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id40 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1975-12-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id73 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:fundstelle-id41 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id144 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id145 .
+
+dtd:fussnoten-id76 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id111 .
+
+dtd:fussnoten-id85 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id133 .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:jurabk-id72 a dtd:jurabk ;
+    dtd:has_Value "BImSchV 7"@de .
+
+dtd:kommentar-id141 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id90 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung, Fundstelle: BGBl. I 1975, 3133)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id42 a dtd:kurzue ;
+    dtd:has_Value "Verordnung zur Auswurfbegrenzung von Holzstaub"@de .
+
+dtd:langue-id43 a dtd:langue ;
+    dtd:has_Value "Siebente Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id39 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id40 ;
+    dtd:has_fundstelle dtd:fundstelle-id41 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_kurzue dtd:kurzue-id42 ;
+    dtd:has_langue dtd:langue-id43 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_jurabk dtd:jurabk-id69 ;
+    dtd:has_titel dtd:titel-id71 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id73 ;
+    dtd:has_jurabk dtd:jurabk-id72 ;
+    dtd:has_titel dtd:titel-id74 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000800319"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000900319"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE001000319"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE001100319"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000100319"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000200319"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000300319"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000400319"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000500319"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000600319"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405130338"@de ;
+    dtd:has_doknr "BJNR031330975BJNE000700319"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id144 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Ausrüstung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Lagerung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Emissionswert"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Weitergehende Anforderungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Zulassung von Ausnahmen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Ordnungswidrigkeiten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id71 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id74 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id145 a dtd:zitstelle ;
+    dtd:has_Value "1975, 3133"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

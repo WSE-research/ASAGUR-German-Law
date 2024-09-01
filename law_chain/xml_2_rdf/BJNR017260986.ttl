@@ -1,0 +1,244 @@
+@prefix dtd: <urn:BergWoZSenkV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151953"@de ;
+    dtd:has_doknr "BJNR017260986"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52,
+        dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.10.1986 +++)"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Auf Grund der §§ 18e Satz 3 und 18a des Wohnungsbindungsgesetzes in der Fassung der Bekanntmachung vom 22. Juli 1982 (BGBl. I S. 972) verordnet der Bundesminister für Raumordnung, Bauwesen und Städtebau mit Zustimmung des Bundesrates:"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(1) Ist der Zinssatz für Darlehen aus dem Treuhandvermögen des Bundes nach § 2 Abs. 1 der Verordnung über die Erhebung der Zinsen für Darlehen des Bundes zum Bergarbeiterwohnungsbau vom 11. Oktober 1982 (BGBl. I S. 1400) auf über 7 vom Hundert erhöht worden, wird er vom 1. Oktober 1986 an auf 7 vom Hundert herabgesetzt."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(2) § 18b Abs. 2 und 3 des Wohnungsbindungsgesetzes ist sinngemäß anzuwenden."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes in Verbindung mit § 33a des Wohnungsbindungsgesetzes auch im Land Berlin."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nicht im Saarland."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Oktober 1986 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1986-10-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BergWoZSenkV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "BergWoZSenkV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "BergWoZSenkV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "BergWoZSenkV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "BergWoZSenkV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BergWoZSenkV"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Bergarbeiterwohnungsbau-Zinssenkungsverordnung"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151953"@de ;
+    dtd:has_doknr "BJNR017260986"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151953"@de ;
+    dtd:has_doknr "BJNR017260986BJNE000100325"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151953"@de ;
+    dtd:has_doknr "BJNR017260986BJNE000200325"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151953"@de ;
+    dtd:has_doknr "BJNR017260986BJNE000300325"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625151953"@de ;
+    dtd:has_doknr "BJNR017260986BJNE000400325"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625151953"@de ;
+    dtd:has_doknr "BJNR017260986BJNE000500325"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Senkung des Zinssatzes"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Geltung im Saarland"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "1986, 1726"@de .
+

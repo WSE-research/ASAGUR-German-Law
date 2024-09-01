@@ -1,0 +1,158 @@
+@prefix dtd: <urn:GrÄndStVtrSL/RPBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154657"@de ;
+    dtd:has_doknr "BJNR025800004"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_Value " (+++ Textnachweis ab: 25. 2.2004 +++)"@de ;
+    dtd:has_pre dtd:pre-id38 .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_BR dtd:BR-id26,
+        dtd:BR-id27,
+        dtd:BR-id28 ;
+    dtd:has_Value "Zwischen dem Saarland und dem Land Rheinland-Pfalz wurde am 27. Mai 2003 der Staatsvertrag über eine Änderung der gemeinsamen Landesgrenze abgeschlossen. Diesem Vertrag haben der Landtag des Saarlandes mit Gesetz vom 10. September 2003 (Amtsblatt des Saarlandes S. 2646) und der Landtag des Landes Rheinland-Pfalz mit Gesetz vom 16. Oktober 2003 (Gesetz- und Verordnungsblatt für das Land Rheinland-Pfalz S. 294) zugestimmt.Der Staatsvertrag ist nach seinem Artikel 6 Abs. 2 am 1. Januar 2004 in Kraft getreten (Bekanntmachung der Saarländischen Staatskanzlei vom 11. Dezember 2003 - Amtsblatt des Saarlandes S. 3044/Bekanntmachung des Ministeriums des Innern und für Sport des Landes Rheinland-Pfalz vom 28. November 2003 - Gesetz- und Verordnungsblatt für das Land Rheinland-Pfalz S. 397).Die in Artikel 1 des Staatsvertrages genannten Anlagen wurden in den in Absatz 1 genannten Verkündungsblättern des Saarlandes und des Landes Rheinland-Pfalz veröffentlicht.Gemäß § 2 Abs. 3 des Gesetzes über das Verfahren bei sonstigen Änderungen des Gebietsbestandes der Länder nach Artikel 29 Abs. 7 des Grundgesetzes vom 30. Juli 1979 (BGBl. I S. 1325) wird der Staatsvertrag nachstehend bekannt gemacht."@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_SP dtd:SP-id29 ;
+    dtd:has_Value "Bundesministerium des Innern"@de .
+
+dtd:SP-id29 a dtd:SP ;
+    dtd:has_Value "Bundesministerium des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-02-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id32 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtrSL/RPBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtrSL/RPBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtrSL/RPBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über den Abschluss und das Inkrafttreten des
+Staatsvertrages zwischen dem Saarland und dem Land Rheinland-Pfalz über eine
+Änderung der gemeinsamen Landesgrenze"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154657"@de ;
+    dtd:has_doknr "BJNR025800004"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154657"@de ;
+    dtd:has_doknr "BJNR025800004BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154657"@de ;
+    dtd:has_doknr "BJNR025800004BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id38 a dtd:pre ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "(+++ Textnachweis ab: 25. 2.2004 +++)"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "2004, 258"@de .
+

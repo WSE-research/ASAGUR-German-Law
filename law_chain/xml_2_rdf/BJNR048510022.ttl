@@ -1,0 +1,369 @@
+@prefix dtd: <urn:EU-FahrgRBusBGebV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220328213019"@de ;
+    dtd:has_doknr "BJNR048510022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id79 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2022, 485)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72,
+        dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 ;
+    dtd:has_table dtd:table-id42 .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value " (+++ Textnachweis ab: 26.3.2022 +++)Die V wurde als Artikel 1 der V v. 15.3.2022 I 485 vom Bundesministerium für Digitales und Verkehr beschlossen. Sie ist gem. Art. 4 dieser V am 26.3.2022 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id78 .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(1) Für individuell zurechenbare öffentliche Leistungen des Eisenbahn-Bundesamtes nach dem EU-Fahrgastrechte-Kraftomnibus-Gesetz werden die im Gebührenverzeichnis bestimmten Gebühren erhoben."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(2) Die im Gebührenverzeichnis aufgeführten Gebühren umfassen jeweils auch die Kosten für die Festsetzung der Gebühren."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "Auslagen werden nach Maßgabe des § 12 Absatz 1 des Bundesgebührengesetzes gesondert erhoben."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2022, 485)"@de ;
+    dtd:has_noindex dtd:noindex-id41 .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "EU-FahrgRBusBGebV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-03-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id44 a dtd:colspec ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "124*"@de .
+
+dtd:colspec-id45 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "28*"@de .
+
+dtd:colspec-id46 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "18*"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id54 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gegenstand (individuell zurechenbare öffentliche Leistung)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id55 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rechtsgrundlage"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id56 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gebühr"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1. Feststellung eines Verstoßes gegen die Verordnung (EU) Nr. 181/2011 auf Grund einer Beschwerde gemäß § 3 Absatz 2 Satz 2 EU-FahrgRBusG"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 4 Absatz 1 EU-FahrgRBusG"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "270 Euro"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2. Maßnahmen zur Beseitigung eines Verstoßes oder zur Verhütung von künftigen Verstößen gegen die Verordnung (EU) Nr. 181/2011, wenn ein Verstoß auf Grund einer Beschwerde gemäß § 3 Absatz 2 Satz 2 EU-FahrgRBusG festgestellt wurde"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 4 Absatz 1 EU-FahrgRBusG"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "380 Euro"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3. Feststellung eines Verstoßes gegen die Verordnung (EU) Nr. 181/2011, soweit nicht von Nummer 1 umfasst"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 4 Absatz 1 EU-FahrgRBusG"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "260 Euro"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4. Maßnahmen zur Beseitigung eines Verstoßes oder Verhütung von künftigen Verstößen gegen die Verordnung (EU) Nr. 181/2011, wenn ein Verstoß festgestellt wurde und nicht von Nummer 2 umfasst ist"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "§ 4 Absatz 1 EU-FahrgRBusG"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "385 Euro"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id80 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id81 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id69 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRBusBGebV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRBusBGebV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRBusBGebV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRBusBGebV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "EU-Fahrgastrechte-Kraftomnibus-Gebührenverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Besondere Gebührenverordnung des Bundesministeriums für Digitales und Verkehr für individuell zurechenbare öffentliche Leistungen zur Durchsetzung der EU-Fahrgastrechte im Kraftomnibusverkehr"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:noindex-id41 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220328213019"@de ;
+    dtd:has_doknr "BJNR048510022"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220328213019"@de ;
+    dtd:has_doknr "BJNR048510022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220328213019"@de ;
+    dtd:has_doknr "BJNR048510022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220328213019"@de ;
+    dtd:has_doknr "BJNR048510022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id80 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id78 a dtd:pre ;
+    dtd:has_BR dtd:BR-id34,
+        dtd:BR-id35 ;
+    dtd:has_Value "(+++ Textnachweis ab: 26.3.2022 +++)"@de .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id54,
+        dtd:entry-id55,
+        dtd:entry-id56 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id57,
+        dtd:entry-id58,
+        dtd:entry-id59 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id60,
+        dtd:entry-id61,
+        dtd:entry-id62 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id63,
+        dtd:entry-id64,
+        dtd:entry-id65 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id66,
+        dtd:entry-id67,
+        dtd:entry-id68 .
+
+dtd:table-id42 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id43 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id48 a dtd:tbody ;
+    dtd:has_row dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:tgroup-id43 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id44,
+        dtd:colspec-id45,
+        dtd:colspec-id46 ;
+    dtd:has_tbody dtd:tbody-id48 ;
+    dtd:has_thead dtd:thead-id47 .
+
+dtd:thead-id47 a dtd:thead ;
+    dtd:has_row dtd:row-id49 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value "Gebührenerhebung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Auslagenerhebung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value "(zu § 1 Absatz 1)Gebührenverzeichnis"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id81 a dtd:zitstelle ;
+    dtd:has_Value "2022, 485"@de .
+

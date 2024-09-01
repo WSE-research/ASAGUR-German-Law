@@ -1,0 +1,160 @@
+@prefix dtd: <urn:BeitrEntlKrG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150342"@de ;
+    dtd:has_doknr "BJNR163110996"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29,
+        dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32,
+        dtd:P-id33,
+        dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36,
+        dtd:P-id37 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.1997 +++)"@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_BR dtd:BR-id25 ;
+    dtd:has_Value " Das G wurde als Artikel 1 G v. 1.11.1996 I 1631 (BeitrEntlG 860-5-15/1) vom Bundestag beschlossen und ist gem. Art. 5 dieses G mWv 1.1.1997 in Kraft getreten. § 1 ist mWv 10.5.1996 in Kraft getreten."@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(1) Bis zum 31. Dezember 1996 sind Beitragssatzanhebungen der Krankenkassen (§ 4 des Fünften Buches Sozialgesetzbuch) nur zulässig, wenn die dafür erforderlichen Satzungsänderungen vor dem 10. Mai 1996 genehmigt worden sind. Eine hiervon abweichende Satzungsänderung ist unwirksam. § 220 Abs. 2 sowie die §§ 221, 222 des Fünften Buches Sozialgesetzbuch sind in dem in Satz 1 genannten Zeitraum nicht anzuwenden."@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt für Beiträge, die in Beitragsklassen festgesetzt werden, entsprechend."@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "(3) Die Absätze 1 und 2 gelten nicht, soweit allein durch Veränderungen der Verpflichtungen oder Ansprüche im Risikostrukturausgleich Beitragssatzanhebungen zwingend erforderlich sind."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(1) Die Beitragssätze nach den §§ 241 bis 243 des Fünften Buches Sozialgesetzbuch vermindern sich zum 1. Januar 1997 um 0,4 Beitragssatzpunkte."@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt für Beiträge, die in Beitragsklassen festgesetzt werden, entsprechend."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-11-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id38 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id39 .
+
+dtd:fussnoten-id22 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id28 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlKrG"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlKrG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlKrG"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Beitragsentlastung der
+gesetzlichen Krankenversicherung"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 ;
+    dtd:has_titel dtd:titel-id17 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150342"@de ;
+    dtd:has_doknr "BJNR163110996"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150342"@de ;
+    dtd:has_doknr "BJNR163110996BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150342"@de ;
+    dtd:has_doknr "BJNR163110996BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id38 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id26 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id31 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id22 ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:titel-id17 a dtd:titel ;
+    dtd:has_Value "Beitragsfestschreibung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Beitragsverminderung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id39 a dtd:zitstelle ;
+    dtd:has_Value "1996, 1631"@de .
+

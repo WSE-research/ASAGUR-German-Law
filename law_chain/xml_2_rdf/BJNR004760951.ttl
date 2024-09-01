@@ -1,0 +1,144 @@
+@prefix dtd: <urn:DüngMSaatGVerlG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150913"@de ;
+    dtd:has_doknr "BJNR004760951"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1964 +++)Erstreckt auf das Saarland durch § 1 Nr. 8 V v. 28.11.1958 I 891, auf das Land Berlin durch V v. 18.10.1956 I 829; in Berlin gem. Art. III G v. 15.12.1956 GVBl. S. 1207 am 29.12.1956 in Kraft getreten"@de ;
+    dtd:has_pre dtd:pre-id34 .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "Die Geltungsdauer des Gesetzes zur Sicherung der Düngemittel- und Saatgutversorgung vom 19. Januar 1949 (WiGBl. S. 8) - erstreckt durch Verordnung vom 21. Februar 1950 (Bundesgesetzbl. S. 37) auf die Länder Baden, Rheinland-Pfalz, Württemberg-Hohenzollern und den bayerischen Kreis Lindau - wird über den 1. August 1951 hinaus verlängert."@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am 1. August 1951 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1951-07-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id35 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id36 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id28 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "DüngMSaatGVerlG"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "DüngMSaatGVerlG"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "DüngMSaatGVerlG"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Verlängerung des Gesetzes zur Sicherung der Düngemittel- und
+Saatgutversorgung"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150913"@de ;
+    dtd:has_doknr "BJNR004760951"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150913"@de ;
+    dtd:has_doknr "BJNR004760951BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150913"@de ;
+    dtd:has_doknr "BJNR004760951BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id35 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id34 a dtd:pre ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id26 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id36 a dtd:zitstelle ;
+    dtd:has_Value "1951, 476"@de .
+

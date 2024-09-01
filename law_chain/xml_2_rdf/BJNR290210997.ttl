@@ -1,0 +1,300 @@
+@prefix dtd: <urn:BABauRaumOG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240319214503"@de ;
+    dtd:has_doknr "BJNR290210997"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57,
+        dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60,
+        dtd:P-id61,
+        dtd:P-id62,
+        dtd:P-id63,
+        dtd:P-id64,
+        dtd:P-id65,
+        dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53 .
+
+dtd:DL-id38 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45,
+        dtd:DD-id46,
+        dtd:DD-id47,
+        dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id39,
+        dtd:DT-id40,
+        dtd:DT-id41,
+        dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Verfassungsorgane des Bundes,"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der obersten Bundesbehörden,"@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Bundesrepublik Deutschland im Ausland mit Ausnahme einfacher Baumaßnahmen sowie der Bauten im Geschäftsbereich des Bundesministeriums der Verteidigung,"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des Bundes in Berlin und"@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Geschäftsbereich eines Bundesministeriums bei überwiegendem Interesse des Bundes, soweit in diesem Fall das Bundesministerium im Einvernehmen mit dem Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen dem Bundesamt die Aufgabe übertragen hat."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_BR dtd:BR-id35 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.1998 +++)Das G wurde als Art. 1 des G v. 15.12.1997 I 2902 vom Bundestag beschlossen und  ist gem. Art. 5 Abs. 1 dieses G am 1.1.1998 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id69 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(1) Im Geschäftsbereich des Bundesministeriums für Wohnen, Stadtentwicklung und Bauwesen ist ein Bundesamt für Bauwesen und Raumordnung als Bundesoberbehörde errichtet."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesamt für Bauwesen und Raumordnung hat seinen Sitz in Bonn."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für Bauwesen und Raumordnung erledigt Verwaltungsaufgaben auf den Gebieten des Bauwesens, der Raumordnung, des Städtebaus und des Wohnungswesens, die ihm durch dieses Gesetz, auf Grund dieses Gesetzes oder durch andere Bundesgesetze zugewiesen werden."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_DL dtd:DL-id38 ;
+    dtd:has_Value "(2) Das Bundesamt für Bauwesen und Raumordnung ist zuständig für die Durchführung der Bauangelegenheiten 1.der Verfassungsorgane des Bundes,2.der obersten Bundesbehörden,3.der Bundesrepublik Deutschland im Ausland mit Ausnahme einfacher Baumaßnahmen sowie der Bauten im Geschäftsbereich des Bundesministeriums der Verteidigung,4.des Bundes in Berlin und5.im Geschäftsbereich eines Bundesministeriums bei überwiegendem Interesse des Bundes, soweit in diesem Fall das Bundesministerium im Einvernehmen mit dem Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen dem Bundesamt die Aufgabe übertragen hat."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesamt für Bauwesen und Raumordnung unterstützt das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen fachlich bei der Wahrnehmung seiner Aufgaben auf den in den Absätzen 1 und 2 genannten Gebieten einschließlich der internationalen Zusammenarbeit und stellt zentrale Dienste und Hilfen für Bundesbehörden bereit."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(3a) Das Bundesamt für Bauwesen und Raumordnung unterstützt das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen bei der Festlegung von übergeordneten baupolitischen und baukulturellen Vorgaben und Standardsetzungen für den zivilen Bundesbau."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(4) Das Bundesamt für Bauwesen und Raumordnung betreibt zur Erledigung seiner Aufgaben wissenschaftliche Forschung auf den Gebieten der Raumordnung, des Städtebaus, des Bau- und Wohnungswesens. Das Statistische Bundesamt und die statistischen Ämter der Länder dürfen dem Bundesamt in entsprechender Anwendung von § 16 Abs. 6 des Bundesstatistikgesetzes Einzelangaben übermitteln, soweit dies zur Erfüllung der in Satz 1 genannten Forschungsaufgaben erforderlich ist. Die Daten dürfen nur für diesen Zweck und in von den anderen Aufgabenbereichen des Bundesamtes räumlich, organisatorisch und personell getrennten Organisationseinheiten gespeichert und genutzt werden."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(5) Das Bundesamt für Bauwesen und Raumordnung erledigt, soweit nicht die Zuständigkeit einer anderen Behörde gesetzlich festgelegt ist, weitere, mit den in Absatz 1 genannten Gebieten in Zusammenhang stehende Aufgaben des Bundes, mit deren Durchführung es vom Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen oder von der sachlich zuständigen Bundesbehörde im Einvernehmen mit dem Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen beauftragt wird."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(6) Die Verfassungsorgane des Bundes können ihre Bauangelegenheiten im Einzelfall auch jeweils in eigener Zuständigkeit regeln."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "Die Aufsicht über das Bundesamt für Bauwesen und Raumordnung wird durch das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen ausgeübt. Die Zuständigkeit des Bundesministeriums der Verteidigung für seine Bauangelegenheiten bleibt insoweit unberührt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1997-12-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id70 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id71 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id54 .
+
+dtd:fussnoten-id30 a dtd:fussnoten .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BABauRaumOG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "BABauRaumOG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BABauRaumOG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "BABauRaumOG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Errichtung eines Bundesamtes für Bauwesen und Raumordnung"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 ;
+    dtd:has_titel dtd:titel-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240319214503"@de ;
+    dtd:has_doknr "BJNR290210997"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240319214503"@de ;
+    dtd:has_doknr "BJNR290210997BJNE000105116"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240319214503"@de ;
+    dtd:has_doknr "BJNR290210997BJNE000206116"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240319214503"@de ;
+    dtd:has_doknr "BJNR290210997BJNE000306116"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id70 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id69 a dtd:pre ;
+    dtd:has_BR dtd:BR-id36,
+        dtd:BR-id37 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.1998 +++)"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id73 ;
+    dtd:has_standtyp dtd:standtyp-id72 .
+
+dtd:standkommentar-id73 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 2 G v. 19.12.2022 I 2507"@de .
+
+dtd:standtyp-id72 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:titel-id21 a dtd:titel ;
+    dtd:has_Value "Errichtung und Sitz des Bundesamtes für Bauwesen und Raumordnung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Aufgaben"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Aufsicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id71 a dtd:zitstelle ;
+    dtd:has_Value "1997, 2902"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

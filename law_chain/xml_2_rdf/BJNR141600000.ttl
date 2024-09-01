@@ -1,0 +1,173 @@
+@prefix dtd: <urn:PatInfoZBek-2000-09#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131422"@de ;
+    dtd:has_doknr "BJNR141600000"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:DD-id26 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id30 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id31 .
+
+dtd:DL-id24 a dtd:DL ;
+    dtd:has_DD dtd:DD-id26 ;
+    dtd:has_DT dtd:DT-id25 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id27 a dtd:DL ;
+    dtd:has_DD dtd:DD-id29 ;
+    dtd:has_DT dtd:DT-id28 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id25 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id30 a dtd:LA ;
+    dtd:has_DL dtd:DL-id27 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Landesgewerbeamt Baden-Württemberg-Informationszentrum Patente -, Stuttgart,"@de .
+
+dtd:LA-id31 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Informationszentrum Patente -, Stuttgart,"@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.9.2000 +++)"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_DL dtd:DL-id24 ;
+    dtd:has_Value "Nach § 34 Abs. 2 und § 35 Abs. 2 Nr. 2 des Patentgesetzes, die durch Artikel 2 des Gesetzes vom 16. Juli 1998 (BGBl. I S. 1827) neu gefasst worden sind, sowie nach § 4 Abs. 2 und § 4a Abs. 2 Nr. 2 des Gebrauchsmustergesetzes, die durch Artikel 3 des Gesetzes vom 16. Juli 1998 (BGBl. I S. 1827) eingefügt worden sind, wird bekannt gemacht, dass das Landesgewerbeamt Baden-Württemberg-Informationszentrum Patente -, Stuttgart,ab 9. Oktober 2000 Zum Patentinformationszentrum im Sinne von § 34 Abs. 2 und § 35 Abs. 2 Nr. 2 des Patentgesetzes, § 4 Abs. 2 und § 4a Abs. 2 Nr. 2 des Gebrauchsmustergesetzes sowie Artikel II § 4 des Gesetzes über internationale Patentübereinkommen vom 21. Juni 1976 (BGBl. 1976 II S. 649), zuletzt geändert durch Artikel 6 des Gesetzes vom 16. Juli 1998 (BGBl. I S. 1827), bestimmt ist.Der Präsident des Deutschen Patent- und Markenamts veröffentlicht im Blatt für Patent-, Muster- und Zeichenwesen weitere Einzelheiten zur Entgegennahme der Anmeldungen."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "Bundesministerium der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2000-09-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id40 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id41 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "PatInfoZBek 2000-09"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "PatInfoZBek 2000-09"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "PatInfoZBek 2000-09"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung der zur Entgegennahme von Patent- und Gebrauchsmusteranmeldungen befugten Patentinformationszentren"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131422"@de ;
+    dtd:has_doknr "BJNR141600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131422"@de ;
+    dtd:has_doknr "BJNR141600000BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405131422"@de ;
+    dtd:has_doknr "BJNR141600000BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id40 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id41 a dtd:zitstelle ;
+    dtd:has_Value "2000, 1416"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

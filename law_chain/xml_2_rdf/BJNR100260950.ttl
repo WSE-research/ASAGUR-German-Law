@@ -1,0 +1,329 @@
+@prefix dtd: <urn:DSiegelErl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70,
+        dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73,
+        dtd:P-id74,
+        dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77,
+        dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_BR dtd:BR-id56,
+        dtd:BR-id57 ;
+    dtd:has_Value "Überschrift: Erlaß im Saarland in Kraft gesetzt mWv 1.1.1957 durch Nr. 3 Anordnung v. 23.1.1957 I 1  (+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "Auf Vorschlag der Bundesregierung bestimme ich folgendes:"@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(1) Das Bundessiegel wird in Form und Größe der vorgelegten Bildtafel festgesetzt."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(2) Das große Bundessiegel zeigt den Bundesadler ohne Umschrift, von einem Kranz umgeben; das kleine Bundessiegel den Bundesadler mit einer die siegelführende Behörde bezeichnenden Umschrift."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(1) Das große Bundessiegel wird von dem Bundespräsidenten, dem Bundeskanzler, den Bundesministern und dem Rechnungshof der Bundesrepublik Deutschland sowie von dem Präsidenten, dem Zentralbankrat und dem Direktorium der Deutschen Bundesbank geführt; es wird bei feierlichen Beurkundungen, besonders bei Ausfertigung von Gesetzen und Verordnungen, sowie bei Bestallungen angewendet."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(2) Des großen Bundessiegels können sich auch der Präsident des Bundestages und der Präsident des Bundesrates bedienen."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesverfassungsgericht, das Oberste Bundesgericht sowie die oberen Bundesgerichte verwenden das große Bundessiegel zur Ausfertigung von Urteilen und Beschlüssen."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(1) Im übrigen führen alle Bundesbehörden das kleine Bundessiegel; das gleiche gilt für die Deutsche Bundesbank und ihre Urkundsbeamten."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "(2) Der Bundesminister des Innern kann Körperschaften des öffentlichen Rechts, die der Aufsicht von Bundesbehörden unterstehen, die Anwendung des Bundesadlers in ihren Dienstsiegeln gestatten, wenn ein besonderer Anlaß vorliegt."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "Die Bundesbehörden dürfen Dienstsiegel von abweichender Größe oder Form nur zu besonderen Zwecken und nur mit Genehmigung des vorgesetzten Bundesministers gebrauchen."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Der Bundesminister des Innern wird allgemeinverbindliche Richtlinien zur Ausführung des Erlasses aufstellen."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_BR dtd:BR-id58,
+        dtd:BR-id59 ;
+    dtd:has_SP dtd:SP-id60,
+        dtd:SP-id61,
+        dtd:SP-id62 ;
+    dtd:has_Value "Der Bundespräsident Der Bundeskanzler Der Bundesminister des Innern"@de .
+
+dtd:SP-id60 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id61 a dtd:SP ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:SP-id62 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1950-01-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id85 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id86 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id65 .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:fussnoten-id52 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "DSiegelErl"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "DSiegelErl"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "DSiegelErl"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "DSiegelErl"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "DSiegelErl"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "DSiegelErl"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "DSiegelErl"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "DSiegelErl"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Erlaß über die Dienstsiegel"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950BJNE000100311"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950BJNE000200311"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950BJNE000300311"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950BJNE000400311"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950BJNE000500311"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950BJNE000600311"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20120625151633"@de ;
+    dtd:has_doknr "BJNR100260950BJNE000700311"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id85 a dtd:periodikum ;
+    dtd:has_Value "BGBl"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:zitstelle-id86 a dtd:zitstelle ;
+    dtd:has_Value "1950, 26"@de .
+

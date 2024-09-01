@@ -1,0 +1,248 @@
+@prefix dtd: <urn:SoldSÜV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08D0A0024"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DD-id42 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id43 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DL-id35 a dtd:DL ;
+    dtd:has_DD dtd:DD-id41,
+        dtd:DD-id42,
+        dtd:DD-id43,
+        dtd:DD-id44,
+        dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id36,
+        dtd:DT-id37,
+        dtd:DT-id38,
+        dtd:DT-id39,
+        dtd:DT-id40 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_Value "als Kommandosoldatin, Kommandosoldat, Kampfschwimmerin oder Kampfschwimmer für Einsatzaufgaben der Spezialkräfte der Bundeswehr verwendet oder dazu ausgebildet werden,"@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Value "nach abgeschlossener Ausbildung für eine Verwendung im Sinne der Nummer 1 nicht entsprechend dieser Ausbildung verwendet werden, jedoch zum Erhalt der erworbenen Fähigkeiten, Fertigkeiten und Kenntnisse verpflichtet sind,"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Value "für Computernetzwerkoperationen im Rahmen der Cyberverteidigung verwendet oder dazu ausgebildet werden,"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Value "für die Entwicklung und Bereitstellung informationstechnischer Systeme und Verfahren für die Aufgaben nach Nummer 3 verwendet oder dazu ausgebildet werden oder"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Value "für die Aus- und Fortbildung für Computernetzwerkoperationen im Rahmen der Cyberverteidigung verwendet oder dazu ausgebildet werden."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab: 3.5.2024 +++)"@de ;
+    dtd:has_pre dtd:pre-id59 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Auf Grund § 93 Absatz 4 des Soldatengesetzes, der durch Artikel 1 Nummer 3 Buchstabe b des Gesetzes vom 20. August 2021 (BGBl. I S. 3930) eingefügt worden ist, in Verbindung mit § 1 Absatz 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 8. Dezember 2021 (BGBl. I S. 5176) verordnet das Bundesministerium der Verteidigung im Einvernehmen mit dem Bundesministerium des Innern und für Heimat:"@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_DL dtd:DL-id35 ;
+    dtd:has_Value "Der intensivierten erweiterten Sicherheitsüberprüfung mit Sicherheitsermittlungen für Verwendungen mit besonders hohen Sicherheitsanforderungen nach § 3a des Soldatengesetzes haben sich Soldatinnen und Soldaten zu unterziehen, die 1.als Kommandosoldatin, Kommandosoldat, Kampfschwimmerin oder Kampfschwimmer für Einsatzaufgaben der Spezialkräfte der Bundeswehr verwendet oder dazu ausgebildet werden,2.nach abgeschlossener Ausbildung für eine Verwendung im Sinne der Nummer 1 nicht entsprechend dieser Ausbildung verwendet werden, jedoch zum Erhalt der erworbenen Fähigkeiten, Fertigkeiten und Kenntnisse verpflichtet sind,3.für Computernetzwerkoperationen im Rahmen der Cyberverteidigung verwendet oder dazu ausgebildet werden,4.für die Entwicklung und Bereitstellung informationstechnischer Systeme und Verfahren für die Aufgaben nach Nummer 3 verwendet oder dazu ausgebildet werden oder5.für die Aus- und Fortbildung für Computernetzwerkoperationen im Rahmen der Cyberverteidigung verwendet oder dazu ausgebildet werden."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "SoldSÜV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2024-04-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id51 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "SoldSÜV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SoldSÜV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "SoldSÜV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "SoldSÜV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Soldatensicherheitsüberprüfungsverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung zur intensivierten erweiterten Sicherheitsüberprüfung mit Sicherheitsermittlungen für Soldatinnen und Soldaten"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08D0A0024"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08D0A0024BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08D0A0024BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08D0A0024BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl. I"@de .
+
+dtd:pre-id59 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "(+++ Textnachweis ab: 3.5.2024 +++)"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Verwendungen mit besonders hohen Sicherheitsanforderungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "2024, Nr. 141"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

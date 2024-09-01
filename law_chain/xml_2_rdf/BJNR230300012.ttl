@@ -1,0 +1,272 @@
+@prefix dtd: <urn:PEPPV-2013#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131231220827"@de ;
+    dtd:has_doknr "BJNR230300012"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61,
+        dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_BR dtd:BR-id49 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.11.2012 +++)"@de ;
+    dtd:has_pre dtd:pre-id65 .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 17d Absatz 6 Satz 1 Nummer 1 des Krankenhausfinanzierungsgesetzes vom 10. April 1991 (BGBl. I S. 886), der durch Artikel 1 Nummer 5 des Gesetzes vom 17. März 2009 (BGBl. I S. 534) eingefügt worden ist, verordnet das Bundesministerium für Gesundheit:"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Für die Entwicklung des Entgeltkatalogs 2014 hat das Institut für das Entgeltsystem im Krankenhaus in Abstimmung mit dem Bundesministerium für Gesundheit bis zum 30. November 2012 ein Vorschlagsverfahren zu eröffnen. Mit dem Vorschlagsverfahren sollen Änderungsvorschläge zu dem Entgeltkatalog 2013 strukturiert zur Weiterentwicklung des Entgeltsystems berücksichtigt werden. Das Vorschlagsverfahren steht allen Beteiligten offen."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt vorbehaltlich des Absatzes 2 am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(2) Die §§ 1 bis 9 einschließlich der Anlagen zu dieser Verordnung treten am 1. Januar 2013 in Kraft und treten mit Ablauf des 31. Dezember 2013 außer Kraft. Kann der Entgeltkatalog 2014 erst nach dem 1. Januar 2014 angewendet werden, sind die §§ 1 bis 9 einschließlich der Anlagen zu dieser Verordnung bis zum Inkrafttreten einer Vereinbarung nach § 17d Absatz 3 des Krankenhausfinanzierungsgesetzes entsprechend weiter anzuwenden."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "PEPPV 2013"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-11-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 1 bis 9"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 11"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Anlagen 1a bis 4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id52 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "PEPPV 2013"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "PEPPV 2013"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "PEPPV 2013"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "PEPPV 2013"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "PEPPV 2013"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "PEPPV 2013"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Verordnung pauschalierende Entgelte Psychiatrie und Psychosomatik 2013"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung zum pauschalierenden Entgeltsystem für psychiatrische und psychosomatische Einrichtungen für das Jahr 2013"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131231220827"@de ;
+    dtd:has_doknr "BJNR230300012"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131231220827"@de ;
+    dtd:has_doknr "BJNR230300012BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131231220827"@de ;
+    dtd:has_doknr "BJNR230300012BJNE002001311"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131231220827"@de ;
+    dtd:has_doknr "BJNR230300012BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131231220827"@de ;
+    dtd:has_doknr "BJNR230300012BJNE001200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131231220827"@de ;
+    dtd:has_doknr "BJNR230300012BJNE002101311"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id65 a dtd:pre ;
+    dtd:has_BR dtd:BR-id50,
+        dtd:BR-id51 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.11.2012 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id69 ;
+    dtd:has_standtyp dtd:standtyp-id68 .
+
+dtd:standkommentar-id69 a dtd:standkommentar ;
+    dtd:has_Value "Die §§ 1 bis 9 einschließlich der Anlagen zu dieser Verordnung treten am 1. Januar 2013 in Kraft und treten mit Ablauf des 31. Dezember 2013 außer Kraft. Kann der Entgeltkatalog 2014 erst nach dem 1. Januar 2014 angewendet werden, sind die §§ 1 bis 9 einschließlich der Anlagen zu dieser Verordnung bis zum Inkrafttreten einer Vereinbarung nach § 17d Absatz 3 des Krankenhausfinanzierungsgesetzes entsprechend weiter anzuwenden."@de .
+
+dtd:standtyp-id68 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Vorschlagsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten, Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "2012, 2303"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

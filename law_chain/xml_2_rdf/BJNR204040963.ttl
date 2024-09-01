@@ -1,0 +1,285 @@
+@prefix dtd: <urn:SozSichAbkBELG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093832"@de ;
+    dtd:has_doknr "BJNR204040963"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65,
+        dtd:P-id66 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53 .
+
+dtd:DL-id47 a dtd:DL ;
+    dtd:has_DD dtd:DD-id50,
+        dtd:DD-id51 ;
+    dtd:has_DT dtd:DT-id48,
+        dtd:DT-id49 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Träger der Sozialversicherung oder Verbände solcher Träger als Verbindungsstellen bestimmen, ihre Aufgaben abgrenzen und die Aufsicht regeln,"@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Personen, auf die das Abkommen und die Zusatzvereinbarungen anzuwenden sind, die Vorlage von Formblättern, ärztlichen Bescheinigungen und anderen Schriftstücken sowie die Einhaltung von Fristen und die Beachtung von Meldevorschriften auferlegen."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_BR dtd:BR-id44 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de ;
+    dtd:has_pre dtd:pre-id67 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_DL dtd:DL-id47 ;
+    dtd:has_Value "Der Bundesminister für Arbeit und Sozialordnung kann durch Rechtsverordnung mit Zustimmung des Bundesrates zur Durchführung des Abkommens, des Schlußprotokolls zu dem Abkommen und der Zusatzvereinbarungen a)Träger der Sozialversicherung oder Verbände solcher Träger als Verbindungsstellen bestimmen, ihre Aufgaben abgrenzen und die Aufsicht regeln, b)den Personen, auf die das Abkommen und die Zusatzvereinbarungen anzuwenden sind, die Vorlage von Formblättern, ärztlichen Bescheinigungen und anderen Schriftstücken sowie die Einhaltung von Fristen und die Beachtung von Meldevorschriften auferlegen. "@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1)."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt mit Wirkung vom 1. Januar 1959 in Kraft."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1963-05-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id68 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id69 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id54 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SozSichAbkBELG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "SozSichAbkBELG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "SozSichAbkBELG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "SozSichAbkBELG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "SozSichAbkBELG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "SozSichAbkBELG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Allgemeinen Abkommen vom 7. Dezember 1957 zwischen der
+Bundesrepublik Deutschland und dem Königreich Belgien über Soziale Sicherheit
+nebst Schlußprotokoll, der Ersten, Zweiten und Dritten Zusatzvereinbarung und
+dem Zusatzprotokoll zu dem Abkommen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093832"@de ;
+    dtd:has_doknr "BJNR204040963"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093832"@de ;
+    dtd:has_doknr "BJNR204040963BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093832"@de ;
+    dtd:has_doknr "BJNR204040963BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093832"@de ;
+    dtd:has_doknr "BJNR204040963BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131008093832"@de ;
+    dtd:has_doknr "BJNR204040963BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131008093832"@de ;
+    dtd:has_doknr "BJNR204040963BJNE000500314"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id68 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id67 a dtd:pre ;
+    dtd:has_BR dtd:BR-id45,
+        dtd:BR-id46 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id71 ;
+    dtd:has_standtyp dtd:standtyp-id70 .
+
+dtd:standkommentar-id71 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 Nr. 1 G v. 27.4.2002 I 1464"@de .
+
+dtd:standtyp-id70 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:zitstelle-id69 a dtd:zitstelle ;
+    dtd:has_Value "1963, 404"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

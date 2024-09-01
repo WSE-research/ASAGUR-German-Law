@@ -1,0 +1,172 @@
+@prefix dtd: <urn:SGB7§178Abs1V-2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20201231213839"@de ;
+    dtd:has_doknr "BJNR293200020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id41 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 181 Absatz 3 Satz 2 des Siebten Buches Sozialgesetzbuch – Gesetzliche Unfallversicherung – (Artikel 1 des Gesetzes vom 7. August 1996, BGBl. I S. 1254), der durch Artikel 1 Nummer 25 des Gesetzes vom 30. Oktober 2008 (BGBl. I S. 2130) neu gefasst worden ist, verordnet das Bundesministerium für Arbeit und Soziales:"@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "Die Faktoren zur Berechnung der Rentenlasten, die nach § 178 Absatz 1 des Siebten Buches Sozialgesetzbuch von jeder Berufsgenossenschaft jährlich zu tragen sind, betragen das 5,8fache ihrer Neurenten für Arbeitsunfälle und das 3,4fache ihrer mit dem Latenzfaktor gewichteten Neurenten für Berufskrankheiten."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 2021 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-12-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id42 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id43 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id33 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "SGB7§178Abs1V 2"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "SGB7§178Abs1V 2"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SGB7§178Abs1V 2"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "SGB7§178Abs1V 2"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Zweite Verordnung zur Neufestsetzung der Neurenten-Faktoren nach § 178 Absatz 1 des Siebten Buches Sozialgesetzbuch"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20201231213839"@de ;
+    dtd:has_doknr "BJNR293200020"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20201231213839"@de ;
+    dtd:has_doknr "BJNR293200020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20201231213839"@de ;
+    dtd:has_doknr "BJNR293200020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20201231213839"@de ;
+    dtd:has_doknr "BJNR293200020BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id42 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id41 a dtd:pre ;
+    dtd:has_BR dtd:BR-id31,
+        dtd:BR-id32 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2021 +++)"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value "Neufestsetzung der Neurenten-Faktoren nach § 178 Absatz 1 des Siebten Buches Sozialgesetzbuch"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id43 a dtd:zitstelle ;
+    dtd:has_Value "2020, 2932"@de .
+

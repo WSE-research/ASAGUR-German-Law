@@ -1,0 +1,88 @@
+@prefix dtd: <urn:UNSekrSitzAbk#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625155041"@de ;
+    dtd:has_doknr "BJNR278220996"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:BR-id13 a dtd:BR .
+
+dtd:BR-id14 a dtd:BR .
+
+dtd:Content-id15 a dtd:Content ;
+    dtd:has_P dtd:P-id16,
+        dtd:P-id17 .
+
+dtd:P-id16 a dtd:P ;
+    dtd:has_BR dtd:BR-id12,
+        dtd:BR-id13 ;
+    dtd:has_Value "V v. 19.12.1996 II 2781 G v. 27.5.1997 II 1054 In Kraft gem. Bek. v. 11.2.1998 II 301 mWv 23.8.1997"@de .
+
+dtd:P-id17 a dtd:P ;
+    dtd:has_BR dtd:BR-id14 ;
+    dtd:has_Value " Die Verordnung zu dem Abkommen (UNSekrSitzAbkV 188-74-1) tritt an dem Tage außer Kraft, an dem das Abkommen vom 20. Juni 1996 über den Sitz des Sekretariats des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen in Kraft tritt."@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-06-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id18 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id19 .
+
+dtd:fundstelle-id8 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id20 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id21 .
+
+dtd:fussnoten-id11 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id15 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "UNSekrSitzAbk"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value "Abkommen zwischen der Regierung der Bundesrepublik Deutschland den Vereinten Nationen und dem Sekretariat des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen über den Sitz des Sekretariats des Übereinkommens"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7,
+        dtd:fundstelle-id8 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id9 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625155041"@de ;
+    dtd:has_doknr "BJNR278220996"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id18 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:periodikum-id20 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id10 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id11 ;
+    dtd:has_text dtd:text-id10 .
+
+dtd:zitstelle-id19 a dtd:zitstelle ;
+    dtd:has_Value "1996, 2782"@de .
+
+dtd:zitstelle-id21 a dtd:zitstelle ;
+    dtd:has_Value "1997, 1055"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+

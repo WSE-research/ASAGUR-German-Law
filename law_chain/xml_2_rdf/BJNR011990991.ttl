@@ -1,0 +1,219 @@
+@prefix dtd: <urn:TELEKOMBeihAZAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150509"@de ;
+    dtd:has_doknr "BJNR011990991"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  6. 6.1991 +++)"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 172 des Bundesbeamtengesetzes in der Fassung der Bekanntmachung vom 27. Februar 1985 (BGBl. I S. 479) in Verbindung mit § 126 Abs. 3 Nr. 2 Satz 2 des Beamtenrechtsrahmengesetzes in der Fassung der Bekanntmachung vom 27. Februar 1985 (BGBl. I S. 462) übertragen wir die Befugnis, in Angelegenheiten der Allgemeinen Verwaltungsvorschrift über die Gewährung von Beihilfen in Krankheits-, Geburts- und Todesfällen (Beihilfevorschriften) Widerspruchsbescheide zu erlassen, auf das Unternehmen Deutsche Bundespost POSTDIENST."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 174 Abs. 3 des Bundesbeamtengesetzes übertragen wir die Vertretung des Dienstherrn bei Klagen aus dem Beamtenverhältnis in den in Abschnitt I genannten Angelegenheiten auf das Unternehmen Deutsche Bundespost POSTDIENST. Für besondere Fälle behalten wir uns die Vertretung des Dienstherrn vor."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt am Tage nach der Veröffentlichung in Kraft."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_SP dtd:SP-id40,
+        dtd:SP-id41 ;
+    dtd:has_Value "Deutsche Bundespost TELEKOM Generaldirektion Der Vorstand"@de .
+
+dtd:SP-id40 a dtd:SP ;
+    dtd:has_Value "Deutsche Bundespost TELEKOM"@de .
+
+dtd:SP-id41 a dtd:SP ;
+    dtd:has_Value "Generaldirektion"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-05-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "III."@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "TELEKOMBeihAZAnO"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "TELEKOMBeihAZAnO"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "TELEKOMBeihAZAnO"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "TELEKOMBeihAZAnO"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "TELEKOMBeihAZAnO"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Anordnung zur Übertragung von Zuständigkeiten für den Erlass von Widerspruchsbescheiden und die Vertretung des Dienstherrn bei Klagen aus dem Beamtenverhältnis in Beihilfeangelegenheiten"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150509"@de ;
+    dtd:has_doknr "BJNR011990991"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150509"@de ;
+    dtd:has_doknr "BJNR011990991BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150509"@de ;
+    dtd:has_doknr "BJNR011990991BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150509"@de ;
+    dtd:has_doknr "BJNR011990991BJNE000300308"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625150509"@de ;
+    dtd:has_doknr "BJNR011990991BJNE000400308"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Erlaß von Widerspruchsbescheiden"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Vertretung bei Klagen aus dem Beamtenverhältnis"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Schlußvorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "1991, 1199"@de .
+

@@ -1,0 +1,288 @@
+@prefix dtd: <urn:BrexitÜG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200309212524"@de ;
+    dtd:has_doknr "BJNR040200019"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62,
+        dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65,
+        dtd:P-id66 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_BR dtd:BR-id50 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.2.2020 +++)"@de ;
+    dtd:has_pre dtd:pre-id67 .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Während des Übergangszeitraums gemäß dem Vierten Teil des Abkommens über den Austritt des Vereinigten Königreichs Großbritannien und Nordirland aus der Europäischen Union und der Europäischen Atomgemeinschaft (ABl. C 384 I vom 12.11.2019, S. 1) gilt im Bundesrecht vorbehaltlich der in § 2 genannten Ausnahmen das Vereinigte Königreich Großbritannien und Nordirland als Mitgliedstaat der Europäischen Union und der Europäischen Atomgemeinschaft."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "§ 1 ist nicht anzuwenden auf Bestimmungen des Bundesrechts, welche die Ausnahmen umsetzen oder durchführen, die in Artikel 127 Absatz 1, 4, 5 und 7 des Abkommens über den Austritt des Vereinigten Königreichs Großbritannien und Nordirland aus der Europäischen Union und der Europäischen Atomgemeinschaft genannt werden."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(1) Bei britischen Staatsangehörigen, die vor Ablauf des Übergangszeitraums einen Antrag auf Einbürgerung in Deutschland gestellt haben, wird von einem sonst nach dem Staatsangehörigkeitsgesetz erforderlichen Ausscheiden aus der britischen Staatsangehörigkeit abgesehen, sofern alle weiteren Einbürgerungsvoraussetzungen vor Ablauf des Übergangszeitraums erfüllt waren und bei Einbürgerung weiterhin erfüllt sind."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(2) Deutsche, die vor Ablauf des Übergangszeitraums einen Antrag auf Einbürgerung im Vereinigten Königreich Großbritannien und Nordirland gestellt haben, verlieren ihre deutsche Staatsangehörigkeit nicht nach § 25 Absatz 1 Satz 1 des Staatsangehörigkeitsgesetzes, auch wenn der Erwerb der britischen Staatsangehörigkeit erst nach Ablauf des Übergangszeitraums erfolgt."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt an dem Tag in Kraft, an dem das Abkommen über den Austritt des Vereinigten Königreichs Großbritannien und Nordirland aus der Europäischen Union und der Europäischen Atomgemeinschaft in Kraft tritt."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(2) Das Auswärtige Amt gibt den Tag des Inkrafttretens im Bundesgesetzblatt bekannt."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "BrexitÜG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2019-03-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id68 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id69 .
+
+dtd:fussnoten-id42 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id53 .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:fussnoten-id49 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BrexitÜG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "BrexitÜG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "BrexitÜG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BrexitÜG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "BrexitÜG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BrexitÜG"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Brexit-Übergangsgesetz"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Gesetz für den Übergangszeitraum nach dem Austritt des Vereinigten Königreichs Großbritannien und Nordirland aus der Europäischen Union"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26,
+        dtd:standangabe-id27 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200309212524"@de ;
+    dtd:has_doknr "BJNR040200019"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200309212524"@de ;
+    dtd:has_doknr "BJNR040200019BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200309212524"@de ;
+    dtd:has_doknr "BJNR040200019BJNE000201377"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200309212524"@de ;
+    dtd:has_doknr "BJNR040200019BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200309212524"@de ;
+    dtd:has_doknr "BJNR040200019BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200309212524"@de ;
+    dtd:has_doknr "BJNR040200019BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id68 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id67 a dtd:pre ;
+    dtd:has_BR dtd:BR-id51,
+        dtd:BR-id52 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.2.2020 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id71 ;
+    dtd:has_standtyp dtd:standtyp-id70 .
+
+dtd:standangabe-id27 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id73 ;
+    dtd:has_standtyp dtd:standtyp-id72 .
+
+dtd:standkommentar-id71 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 9 G v. 21.12.2019 I 2875"@de .
+
+dtd:standkommentar-id73 a dtd:standkommentar ;
+    dtd:has_Value "G in Kraft gem. Art. 4 Abs. 1 iVm Bek. v. 25.2.2020 I 316 mWv 1.2.2020"@de .
+
+dtd:standtyp-id70 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id72 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id42 .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Ausnahmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Einbürgerung britischer und deutscher Staatsangehöriger"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id69 a dtd:zitstelle ;
+    dtd:has_Value "2019, 402"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,97 @@
+@prefix dtd: <urn:SportbootVermV-Bin2000AbwV-2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230926213007"@de ;
+    dtd:has_doknr "BJNR705870021"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:BR-id13 a dtd:BR .
+
+dtd:BR-id14 a dtd:BR .
+
+dtd:BR-id15 a dtd:BR .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:Content-id18 a dtd:Content ;
+    dtd:has_P dtd:P-id19 .
+
+dtd:P-id19 a dtd:P ;
+    dtd:has_BR dtd:BR-id12 ;
+    dtd:has_Value "  V nur mit Überschrift aufgenommen V geändert durch Art. 1 V v. 13.9.2023 I Nr. 249"@de ;
+    dtd:has_pre dtd:pre-id20 .
+
+dtd:amtabk-id6 a dtd:amtabk ;
+    dtd:has_Value "2. BinSch-SportbootVermVAbweichV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id7 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-03-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id8 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id21 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id22 .
+
+dtd:fussnoten-id11 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id18 .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "SportbootVermV-Bin2000AbwV 2"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value "Zweite Verordnung zur vorübergehenden Abweichung von der Binnenschifffahrt-Sportbootvermietungsverordnung"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id6 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id7 ;
+    dtd:has_fundstelle dtd:fundstelle-id8 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id9 ;
+    dtd:has_standangabe dtd:standangabe-id10 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230926213007"@de ;
+    dtd:has_doknr "BJNR705870021"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id21 a dtd:periodikum ;
+    dtd:has_Value "VkBl"@de .
+
+dtd:pre-id20 a dtd:pre ;
+    dtd:has_BR dtd:BR-id13,
+        dtd:BR-id14,
+        dtd:BR-id15,
+        dtd:BR-id16,
+        dtd:BR-id17 ;
+    dtd:has_Value " V nur mit Überschrift aufgenommen V geändert durch Art. 1 V v. 13.9.2023 I Nr. 249"@de .
+
+dtd:standangabe-id10 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id24 ;
+    dtd:has_standtyp dtd:standtyp-id23 .
+
+dtd:standkommentar-id24 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 4 Abs. 3 dieser V idF d. Art. 1 V v. 13.9.2023 I Nr. 249 mit Ablauf des 30.12.2026 außer Kraft"@de .
+
+dtd:standtyp-id23 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id11 .
+
+dtd:zitstelle-id22 a dtd:zitstelle ;
+    dtd:has_Value "2021, 587"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

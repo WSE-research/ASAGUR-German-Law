@@ -1,0 +1,165 @@
+@prefix dtd: <urn:BWappenBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150035"@de ;
+    dtd:has_doknr "BJNR000260950"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36,
+        dtd:P-id37,
+        dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "Überschrift: Bek. im Saarland in Kraft gesetzt mWv 1.1.1957 durch Nr. 1 Anordnung v. 23.1.1957 I 1  (+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund eines Beschlusses der Bundesregierung gebe ich hiermit bekannt, daß das Bundeswappen auf goldgelbem Grund den einköpfigen schwarzen Adler zeigt, den Kopf nach rechts gewendet, die Flügel offen, aber mit geschlossenem Gefieder, Schnabel, Zunge und Fänge von roter Farbe."@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(2) Wird der Bundesadler ohne Umrahmung dargestellt, so sind das gleiche Bild und die gleichen Farben wie beim Adler im Bundeswappen zu verwenden, doch sind die Spitzen des Gefieders nach außen gerichtet."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(3) Die im Bundesministerium des Innern verwahrten Muster sind für die heraldische Gestaltung des Bundeswappens maßgebend. Die künstlerische Ausgestaltung bleibt für jeden besonderen Zweck vorbehalten."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_BR dtd:BR-id26,
+        dtd:BR-id27 ;
+    dtd:has_SP dtd:SP-id28,
+        dtd:SP-id29,
+        dtd:SP-id30 ;
+    dtd:has_Value "Der Bundespräsident Der Bundeskanzler Der Bundesminister des Innern"@de .
+
+dtd:SP-id28 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id29 a dtd:SP ;
+    dtd:has_Value "Der Bundeskanzler"@de .
+
+dtd:SP-id30 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1950-01-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id41 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id42 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id33 .
+
+dtd:fussnoten-id22 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BWappenBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "BWappenBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BWappenBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung betreffend das Bundeswappen und den Bundesadler"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150035"@de ;
+    dtd:has_doknr "BJNR000260950"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150035"@de ;
+    dtd:has_doknr "BJNR000260950BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150035"@de ;
+    dtd:has_doknr "BJNR000260950BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id41 a dtd:periodikum ;
+    dtd:has_Value "BGBl"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id31 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id22 ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id42 a dtd:zitstelle ;
+    dtd:has_Value "1950, 26"@de .
+

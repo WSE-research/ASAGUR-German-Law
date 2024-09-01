@@ -1,0 +1,169 @@
+@prefix dtd: <urn:BodSchVereinhG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154829"@de ;
+    dtd:has_doknr "BJNR060200996"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36,
+        dtd:P-id37,
+        dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 23. 4.1996 +++)"@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "Die in Anlage I Kapitel V Sachgebiet D Abschnitt III Nr. 1 Buchstabe a des Einigungsvertrages vom 31. August 1990 (BGBl. 1990 II S. 885, 1004) aufgeführten Maßgaben sind nicht mehr anzuwenden."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(1) Die bei Inkrafttreten dieses Gesetzes in dem in Artikel 3 des Einigungsvertrages genannten Gebiet bestehenden Bergbauberechtigungen (Erlaubnis, Bewilligung und Bergwerkseigentum) auf Bodenschätze, die nicht in § 3 Abs. 3 des Bundesberggesetzes aufgeführt sind, bleiben unberührt. Entsprechendes gilt für fristgemäß nach Anlage I Kapitel V Sachgebiet D Abschnitt III Nr. 1 Buchstabe d und f des Einigungsvertrages zur Bestätigung angemeldete Gewinnungs- und Speicherrechte, über deren Bestätigung noch nicht unanfechtbar entschieden worden ist."@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(2) Die Bodenschätze, auf die sich eine Bergbauberechtigung oder ein Gewinnungs- oder Speicherrecht im Sinne des Absatzes 1 bezieht, bleiben bis zum Erlöschen oder bis zur Aufhebung der Bergbauberechtigung oder des Gewinnungs- oder Speicherrechts bergfreie Bodenschätze. Das gleiche gilt für Bodenschätze, auf die sich eine Bewilligung, die nach § 12 Abs. 2 des Bundesberggesetzes dem Inhaber einer Erlaubnis erteilt wird, bezieht."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(3) Für Bergbauberechtigungen im Sinne des Absatzes 1 gilt § 18 Abs. 2 und 3 des Bundesberggesetzes mit der Maßgabe, daß die Frist für die Aufnahme der Aufsuchung durch Einreichung eines Betriebsplanes sechs Monate und die Frist für die Aufnahme der Gewinnung durch Einreichung eines Betriebsplanes 18 Monate nach Inkrafttreten dieses Gesetzes beträgt, sofern die Frist nicht bereits vorher abläuft."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-04-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id41 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id42 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id31 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BodSchVereinhG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "BodSchVereinhG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BodSchVereinhG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BodSchVereinhG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Vereinheitlichung der Rechtsverhältnisse
+bei Bodenschätzen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154829"@de ;
+    dtd:has_doknr "BJNR060200996"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154829"@de ;
+    dtd:has_doknr "BJNR060200996BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154829"@de ;
+    dtd:has_doknr "BJNR060200996BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154829"@de ;
+    dtd:has_doknr "BJNR060200996BJNE000300310"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id41 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id42 a dtd:zitstelle ;
+    dtd:has_Value "1996, 602"@de .
+

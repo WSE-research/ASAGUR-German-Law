@@ -1,0 +1,295 @@
+@prefix dtd: <urn:RohTabBeih2006V#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151943"@de ;
+    dtd:has_doknr "BJNR048000007"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67,
+        dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70 .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value " (+++ Textnachweis ab: 31.3.2007 +++)"@de ;
+    dtd:has_pre dtd:pre-id71 .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 6 Abs. 1 Nr. 1 Buchstabe g und § 6 Abs. 1 Nr. 2 des Gesetzes zur Durchführung der Gemeinsamen Marktorganisationen und der Direktzahlungen in der Fassung der Bekanntmachung vom 24. Juni 2005 (BGBl. I S. 1847) in Verbindung mit § 1 Abs. 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 22. November 2005 (BGBl. I S. 3197) verordnet das Bundesministerium für Ernährung, Landwirtschaft und Verbraucherschutz im Einvernehmen mit den Bundesministerien der Finanzen und für Wirtschaft und Technologie:"@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33 ;
+    dtd:has_Value "(1) Der Beihilfebetrag nach Artikel 171ci der Verordnung (EG) Nr. 1973/2004 der Kommission vom 29. Oktober 2004 mit Durchführungsvorschriften zu der Verordnung (EG) Nr. 1782/2003 des Rates hinsichtlich der Stützungsregelungen nach Titel IV und IVa der Verordnung und der Verwendung von Stilllegungsflächen für die Erzeugung von Rohstoffen (ABl. EU Nr. L 345 S. 1), die zuletzt durch die Verordnung EU Nr. 1679/2006 der Kommission vom 15. November 2006 (ABl. EU Nr. L 314 S. 7) geändert worden ist, wird für das Erntejahr 2006 wie folgt festgesetzt: 1.für die Sortengruppe I (Flue-cured):2,62904 Euro/kg,   2.für die Sortengruppe II (Light Air-cured):2,46449 Euro/kg,   3.für die Sortengruppe III (Dark Air-cured):2,21453 Euro/kg."@de ;
+    dtd:has_table dtd:table-id34 .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(2) Der in Absatz 1 festgesetzte Beihilfebetrag bezieht sich auf das nach Artikel 171cj Abs. 2 der Verordnung (EG) Nr. 1973/2004 feuchtigkeitskorrigierte Gewicht."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2007-03-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id36 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20"@de .
+
+dtd:colspec-id37 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "300"@de .
+
+dtd:colspec-id38 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "150"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:entry-id45 a dtd:entry ;
+    dtd:has_Value "1."@de .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_Value "für die Sortengruppe I (Flue-cured):"@de .
+
+dtd:entry-id47 a dtd:entry ;
+    dtd:has_Value "2,62904 Euro/kg,"@de .
+
+dtd:entry-id48 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id49 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id50 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id51 a dtd:entry ;
+    dtd:has_Value "2."@de .
+
+dtd:entry-id52 a dtd:entry ;
+    dtd:has_Value "für die Sortengruppe II (Light Air-cured):"@de .
+
+dtd:entry-id53 a dtd:entry ;
+    dtd:has_Value "2,46449 Euro/kg,"@de .
+
+dtd:entry-id54 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id55 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id56 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_Value "3."@de .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_Value "für die Sortengruppe III (Dark Air-cured):"@de .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_Value "2,21453 Euro/kg."@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id72 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id73 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id62 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "RohTabBeih2006V"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "RohTabBeih2006V"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "RohTabBeih2006V"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "RohTabBeih2006V"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Festsetzung des endgültigen Beihilfebetrags für Rohtabak 
+für das Erntejahr 2006"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151943"@de ;
+    dtd:has_doknr "BJNR048000007"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151943"@de ;
+    dtd:has_doknr "BJNR048000007BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151943"@de ;
+    dtd:has_doknr "BJNR048000007BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151943"@de ;
+    dtd:has_doknr "BJNR048000007BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id72 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id71 a dtd:pre ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "(+++ Textnachweis ab: 31.3.2007 +++)"@de .
+
+dtd:right rdfs:label "right"@de .
+
+dtd:row-id40 a dtd:row ;
+    dtd:has_entry dtd:entry-id45,
+        dtd:entry-id46,
+        dtd:entry-id47 .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id48,
+        dtd:entry-id49,
+        dtd:entry-id50 .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id51,
+        dtd:entry-id52,
+        dtd:entry-id53 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id54,
+        dtd:entry-id55,
+        dtd:entry-id56 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id57,
+        dtd:entry-id58,
+        dtd:entry-id59 .
+
+dtd:table-id34 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id35 .
+
+dtd:tbody-id39 a dtd:tbody ;
+    dtd:has_row dtd:row-id40,
+        dtd:row-id41,
+        dtd:row-id42,
+        dtd:row-id43,
+        dtd:row-id44 .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:tgroup-id35 a dtd:tgroup ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id36,
+        dtd:colspec-id37,
+        dtd:colspec-id38 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id39 .
+
+dtd:zitstelle-id73 a dtd:zitstelle ;
+    dtd:has_Value "2007, 480"@de .
+

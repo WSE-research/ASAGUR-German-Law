@@ -1,0 +1,236 @@
+@prefix dtd: <urn:RVStreitkrAbkUSAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150309"@de ;
+    dtd:has_doknr "BJNR200970972"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 10.3.1972 +++)"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Die mit der Durchführung des Abkommens vom 11. September 1970 befaßten deutschen Stellen können zur Vorbereitung ihrer im Einzelfall zu treffenden Entscheidung die Stellungnahme des Bundesministeriums für Arbeit und Soziales einholen, wenn Zweifel über die Auslegung und Anwendung des Abkommens bestehen."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tag nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1972-03-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id57 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id58 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "RVStreitkrAbkUSAG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "RVStreitkrAbkUSAG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "RVStreitkrAbkUSAG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "RVStreitkrAbkUSAG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "RVStreitkrAbkUSAG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "RVStreitkrAbkUSAG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Abkommen vom 11. September 1970 zwischen der Bundesrepublik
+Deutschland und den Vereinigten Staaten von Amerika über die Rentenversicherung
+gewisser Arbeitnehmer der Landstreitkräfte der Vereinigten Staaten von Amerika"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150309"@de ;
+    dtd:has_doknr "BJNR200970972"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150309"@de ;
+    dtd:has_doknr "BJNR200970972BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150309"@de ;
+    dtd:has_doknr "BJNR200970972BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150309"@de ;
+    dtd:has_doknr "BJNR200970972BJNE000302308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625150309"@de ;
+    dtd:has_doknr "BJNR200970972BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625150309"@de ;
+    dtd:has_doknr "BJNR200970972BJNE000500314"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id57 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id60 ;
+    dtd:has_standtyp dtd:standtyp-id59 .
+
+dtd:standkommentar-id60 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 242 V v. 31.10.2006 I 2407"@de .
+
+dtd:standtyp-id59 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:zitstelle-id58 a dtd:zitstelle ;
+    dtd:has_Value "1972, 97"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

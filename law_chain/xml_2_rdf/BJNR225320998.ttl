@@ -1,0 +1,175 @@
+@prefix dtd: <urn:EUAuslÜbkG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210415213005"@de ;
+    dtd:has_doknr "BJNR225320998"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35,
+        dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38,
+        dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41,
+        dtd:P-id42 .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12. 9.1998 +++) Übereinkommen in Kraft gem. Bek. v. 29.3.2021 II 316 mWv 5.11.2019"@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(1) Dem in Dublin am 27. September 1996 von der Bundesrepublik Deutschland unterzeichneten Übereinkommen aufgrund von Artikel K.3 des Vertrags über die Europäische Union über die Auslieferung zwischen den Mitgliedstaaten der Europäischen Union einschließlich seines Anhangs wird zugestimmt. Das Übereinkommen wird nachstehend veröffentlicht."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(2) Die Zustimmung erfolgt mit der Maßgabe, daß die Auslieferung Deutscher gemäß Artikel 7 Abs. 2 und 3 des Übereinkommens ausgeschlossen wird. Die Bundesregierung kann bei der Hinterlegung der Ratifikationsurkunde eine Erklärung nach Artikel 18 Abs. 4 des Übereinkommens abgeben."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(1) Die Erklärung der ausgelieferten Person über den Verzicht auf die Einhaltung des Grundsatzes der Spezialität (Artikel 10 Abs. 1 Buchstabe d des Übereinkommens) wird zu richterlichem Protokoll abgegeben. Zuständig ist der Richter bei dem Amtsgericht, in dessen Bezirk sich die ausgelieferte Person befindet. Zuständig nach Erhebung der öffentlichen Klage ist das mit der Sache befaßte Gericht."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(2) Die Erklärung kann nicht widerrufen werden. Die ausgelieferte Person ist vor der Abgabe der Erklärung über deren Rechtsfolgen zu belehren."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Übereinkommen nach seinem Artikel 18 Abs. 3 für die Bundesrepublik Deutschland in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben. Das gleiche gilt für den Tag, von dem an das Übereinkommen nach seinem Artikel 18 Abs. 4 vorzeitige Anwendung findet."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-09-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id32 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "EUAuslÜbkG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "EUAuslÜbkG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "EUAuslÜbkG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "EUAuslÜbkG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Übereinkommen vom 27. September 1996 über die Auslieferung zwischen den Mitgliedstaaten der Europäischen Union"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210415213005"@de ;
+    dtd:has_doknr "BJNR225320998"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210415213005"@de ;
+    dtd:has_doknr "BJNR225320998BJNE000100311"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210415213005"@de ;
+    dtd:has_doknr "BJNR225320998BJNE000200311"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210415213005"@de ;
+    dtd:has_doknr "BJNR225320998BJNE000300311"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "1998, 2253"@de .
+

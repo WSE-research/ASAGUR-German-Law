@@ -1,0 +1,183 @@
+@prefix dtd: <urn:GHfBetrG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154630"@de ;
+    dtd:has_doknr "BJNR003520950"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35,
+        dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38,
+        dtd:P-id39,
+        dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "Überschrift: Gilt im Saarland gem. § 1 Nr. 3 V v. 28.11.1958 I 891 mWv 1.12.1958; gilt in Berlin gem. § 1 V v. 5.9.1967 I 969 u. d. Art. I G v. 12.2.1968 GVBl. S. 299 mWv 21.2.1968  (+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(1) Durch schriftliche Vereinbarung von zuständigen Arbeitgeberverbänden und Gewerkschaften oder von einzelnen Arbeitgebern und Gewerkschaften kann von den Betrieben eines Hafens, in denen Hafenarbeit geleistet wird, zur Schaffung stetiger Arbeitsverhältnisse für Hafenarbeiter ein besonderer Arbeitgeber (Gesamthafenbetrieb) gebildet werden. Eine erwerbswirtschaftliche Tätigkeit des Gesamthafenbetriebs ist ausgeschlossen."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(2) Der Gesamthafenbetrieb umfaßt auch Betriebe, deren Unternehmer weder Mitglied des Arbeitgeberverbands sind noch selbst die Vereinbarung nach Absatz 1 abgeschlossen haben, sofern die Betriebe, die dem die Vereinbarung abschließenden Arbeitgeberverband angehören oder die selbst die Vereinbarung abgeschlossen haben, nach Feststellung der obersten Arbeitsbehörde des Landes oder der von ihr bestimmten Stelle im Durchschnitt des dem Abschluß der Vereinbarung vorangegangenen Kalendervierteljahrs insgesamt nicht weniger als 50 vom Hundert der Hafenarbeiter beschäftigt haben."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(1) Der Gesamthafenbetrieb bestimmt nach Maßgabe der geltenden Gesetze seine Rechtsform, seine Aufgaben, seine Organe und seine Geschäftsführung, insbesondere auch die Grundsätze für die Erhebung, Verwaltung und Verwendung von Beiträgen und Umlagen; er hat dabei den Begriff der Hafenarbeit im Sinne des § 1 Abs. 1 bindend festzusetzen."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(2) Die Regelungen nach Absatz 1 bedürfen der Genehmigung durch die oberste Arbeitsbehörde des Landes; die Genehmigung ist widerruflich."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(3) Soweit der Gesamthafenbetrieb gemäß § 2 Abs. 1 eine nichtgewerbsmäßige Arbeitsvermittlung durchzuführen hat, ist er der Aufsicht der Bundesagentur für Arbeit unterstellt und an deren Weisungen gebunden."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Werden Beiträge und Umlagen beschlossen, so hat der Gesamthafenbetrieb einen Rechtsanspruch auf die festgesetzten Leistungen gegen die Unternehmer der zugehörigen Betriebe. Diese haben einen Rechtsanspruch auf die festgesetzten Leistungen gegen den Gesamthafenbetrieb. Aufrechnung ist statthaft, der ordentliche Rechtsweg ist zulässig."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1950-08-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id32 .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "GHfBetrG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "GHfBetrG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "GHfBetrG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "GHfBetrG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Gesetz über die Schaffung eines besonderen Arbeitgebers für Hafenarbeiter
+(Gesamthafenbetrieb)"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154630"@de ;
+    dtd:has_doknr "BJNR003520950"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154630"@de ;
+    dtd:has_doknr "BJNR003520950BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154630"@de ;
+    dtd:has_doknr "BJNR003520950BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154630"@de ;
+    dtd:has_doknr "BJNR003520950BJNE000300303"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id46 ;
+    dtd:has_standtyp dtd:standtyp-id45 .
+
+dtd:standkommentar-id46 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 75 G v. 23.12.2003 I 2848"@de .
+
+dtd:standtyp-id45 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "1950, 352"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

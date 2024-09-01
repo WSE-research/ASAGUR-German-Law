@@ -1,0 +1,85 @@
+@prefix dtd: <urn:NOKanaluaLotsV-2003#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240516220031"@de ;
+    dtd:has_doknr "BJNR508410003"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id13 a dtd:BR .
+
+dtd:BR-id14 a dtd:BR .
+
+dtd:Content-id15 a dtd:Content ;
+    dtd:has_P dtd:P-id16 .
+
+dtd:P-id16 a dtd:P ;
+    dtd:has_BR dtd:BR-id13,
+        dtd:BR-id14 ;
+    dtd:has_Value "Die Vorschriften der Wasser- und Schifffahrtsdirektion wurden nicht in die Sammlung des Bundesrechts BGBl. Teil III aufgenommen (vgl. § 1 Abs. 3 Nr. 5 G 114-2 v. 10.7.1958 I 437). Aus diesem Grunde erfolgt kein Textnachweis.  Zuletzt geändert durch Art. 1 V v. 7.5.2024 I Nr. 155"@de .
+
+dtd:amtabk-id6 a dtd:amtabk ;
+    dtd:has_Value "NOK-LV"@de .
+
+dtd:ausfertigung-datum-id7 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2003-04-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id8 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id17 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id18 .
+
+dtd:fundstelle-id9 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id19 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id20 .
+
+dtd:fussnoten-id12 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id15 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "NOKanaluaLotsV 2003"@de .
+
+dtd:kurzue-id10 a dtd:kurzue ;
+    dtd:has_Value "NOK-Lotsverordnung"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Verwaltung und Ordnung der Seelotsreviere Nord-Ostsee-Kanal I und Nord-Ostsee-Kanal II/Kieler Förde/Trave/Flensburger Förde"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id6 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id7 ;
+    dtd:has_fundstelle dtd:fundstelle-id8,
+        dtd:fundstelle-id9 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_kurzue dtd:kurzue-id10 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240516220031"@de ;
+    dtd:has_doknr "BJNR508410003"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id17 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:periodikum-id19 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id12 .
+
+dtd:zitstelle-id18 a dtd:zitstelle ;
+    dtd:has_Value "2003, Nr 84, 9991"@de .
+
+dtd:zitstelle-id20 a dtd:zitstelle ;
+    dtd:has_Value "2003, 9991"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+

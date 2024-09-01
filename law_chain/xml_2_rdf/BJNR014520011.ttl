@@ -1,0 +1,264 @@
+@prefix dtd: <urn:KyotoProtAnpfondsG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125702"@de ;
+    dtd:has_doknr "BJNR014520011"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DL-id41 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45,
+        dtd:DD-id46,
+        dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id42,
+        dtd:DT-id43,
+        dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verträge zu schließen,"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bewegliches und unbewegliches Vermögen zu erwerben und zu veräußern,"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor Gericht zu stehen."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.2.2011 +++)"@de ;
+    dtd:has_pre dtd:pre-id62 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_DL dtd:DL-id41 ;
+    dtd:has_Value "(1) Der Rat des Anpassungsfonds, das durch die Vertragsstaatenkonferenz des Protokolls von Kyoto vom 11. Dezember 1997 zum Rahmenübereinkommen der Vereinten Nationen über Klimaänderungen (BGBl. 2002 II S. 966, 967) eingerichtete Steuerungsorgan des Anpassungsfonds, besitzt in der Bundesrepublik Deutschland die Rechtsfähigkeit, a)Verträge zu schließen,b)bewegliches und unbewegliches Vermögen zu erwerben und zu veräußern,c)vor Gericht zu stehen."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Für die Zwecke dieses Artikels wird der Rat des Anpassungsfonds durch seinen Vorsitzenden und dessen Stellvertreter vertreten."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Artikel 9 des Abkommens vom 10. November 1995 zwischen der Bundesrepublik Deutschland und den Vereinten Nationen über den Sitz des Freiwilligenprogramms der Vereinten Nationen (UNV-Sitzabkommen – BGBl. 1996 II S. 903, 905) wird auf den Rat des Anpassungsfonds entsprechend angewandt mit der Maßgabe, dass der Verzicht nach Artikel 9 Absatz 1 Satz 1 zweiter Halbsatz des UNV-Sitzabkommens vom Exekutivsekretär im Sinne des Artikels 1 Buchstabe f des Abkommens vom 20. Juni 1996 zwischen der Regierung der Bundesrepublik Deutschland, den Vereinten Nationen und dem Sekretariat des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen über den Sitz des Sekretariats des Übereinkommens (UNFCCC/KP-Sitzabkommen – BGBl. 1997 II S. 1054, 1055) in der Fassung des Protokolls vom 7. Dezember 2005 zur Änderung des Abkommens zwischen der Regierung der Bundesrepublik Deutschland, den Vereinten Nationen und dem Sekretariat des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen über den Sitz des Sekretariats des Übereinkommens (BGBl. 2009 II S. 294, 295) ausgesprochen wird."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Artikel 5 des UNFCCC/KP-Sitzabkommens wird auf die Mitglieder des Rates des Anpassungsfonds und ihre Vertreter entsprechend angewandt. Für die Aufhebung der Immunität eines Mitglieds oder Vertreters im Einzelfall ist der durch die betreffende Person vertretene Staat verantwortlich."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2011-02-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id63 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id64 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id51 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "KyotoProtAnpfondsG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "KyotoProtAnpfondsG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "KyotoProtAnpfondsG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "KyotoProtAnpfondsG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "KyotoProtAnpfondsG"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Verleihung der Rechtsfähigkeit an den Rat des Anpassungsfonds"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125702"@de ;
+    dtd:has_doknr "BJNR014520011"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125702"@de ;
+    dtd:has_doknr "BJNR014520011BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125702"@de ;
+    dtd:has_doknr "BJNR014520011BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125702"@de ;
+    dtd:has_doknr "BJNR014520011BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125702"@de ;
+    dtd:has_doknr "BJNR014520011BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id63 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id62 a dtd:pre ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.2.2011 +++)"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Rechtsfähigkeit des Rates des Anpassungsfonds"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Gelder, Guthaben und sonstige Vermögenswerte des Rates des Anpassungsfonds"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Immunität der Mitglieder des Rates des Anpassungsfonds"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id64 a dtd:zitstelle ;
+    dtd:has_Value "2011, 145"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,534 @@
+@prefix dtd: <urn:VersorgAusglAnglFaktorBek-2009#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213532"@de ;
+    dtd:has_doknr "BJNR134100009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104 .
+
+dtd:Content-id105 a dtd:Content ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_P dtd:P-id106,
+        dtd:P-id107 ;
+    dtd:has_table dtd:table-id28 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_BR dtd:BR-id22 ;
+    dtd:has_Value " (+++ Textnachweis ab: 22.6.2009 +++)"@de ;
+    dtd:has_pre dtd:pre-id110 .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Absatz 2 Nummer 1 Buchstabe a Satz 4 des Versorgungsausgleichs-Überleitungsgesetzes vom 25. Juli 1991 (BGBl. I S. 1606, 1702), der zuletzt durch Artikel 246 der Verordnung vom 31. Oktober 2006 (BGBl. I S. 2407) geändert worden ist, wird bekannt gemacht:"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "Die Angleichungsfaktoren zur Ermittlung des Wertes von angleichungsdynamischen Anrechten nach § 3 Absatz 2 Nummer 1 Buchstabe a des Versorgungsausgleichs-Überleitungsgesetzes sind bei Entscheidungen über den Versorgungsausgleich, die nach dem 30. Juni 2009 ergehen, der nachstehenden Tabelle zu entnehmen:"@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_SP dtd:SP-id27 ;
+    dtd:has_Value "Bundesministerium für Arbeit und Soziales"@de .
+
+dtd:SP-id27 a dtd:SP ;
+    dtd:has_Value "Bundesministerium für Arbeit und Soziales"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-06-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id30 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "3*"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:colspec-id31 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "4*"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 2007 bis 30. Juni 2008"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0095216"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 2008 bis 30. Juni 2009"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Der Angleichungsfaktor beträgt"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "bei einem Ehezeitende in der Zeit"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2,2014231"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1990 bis 31. Dezember 1990"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,9134986"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Januar 1991 bis 30. Juni 1991"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,7414858"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1991 bis 31. Dezember 1991"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,5597270"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Januar 1992 bis 30. Juni 1992"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,4233516"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1992 bis 31. Dezember 1992"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,3415556"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Januar 1993 bis 30. Juni 1993"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,2268734"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1993 bis 31. Dezember 1993"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,1838188"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Januar 1994 bis 30. Juni 1994"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,1831861"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1994 bis 31. Dezember 1994"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,1511449"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Januar 1995 bis 30. Juni 1995"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,1288778"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1995 bis 31. Dezember 1995"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0815435"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Januar 1996 bis 30. Juni 1996"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0787511"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1996 bis 30. Juni 1997"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0388931"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1997 bis 30. Juni 1998"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0343004"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1998 bis 30. Juni 1999"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0197482"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 1999 bis 30. Juni 2000"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0198034"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 2000 bis 30. Juni 2001"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0178893"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 2001 bis 30. Juni 2002"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0106274"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 2002 bis 30. Juni 2003"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0091758"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "vom 1. Juli 2003 bis 30. Juni 2007"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0093100"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id111 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id112 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id103 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "VersorgAusglAnglFaktorBek 2009"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "VersorgAusglAnglFaktorBek 2009"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "VersorgAusglAnglFaktorBek 2009"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung der Angleichungsfaktoren für den Versorgungsausgleich in der Rentenversicherung"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213532"@de ;
+    dtd:has_doknr "BJNR134100009"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213532"@de ;
+    dtd:has_doknr "BJNR134100009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213532"@de ;
+    dtd:has_doknr "BJNR134100009BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id111 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id110 a dtd:pre ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 22.6.2009 +++)"@de .
+
+dtd:row-id34 a dtd:row ;
+    dtd:has_entry dtd:entry-id57,
+        dtd:entry-id58 .
+
+dtd:row-id35 a dtd:row ;
+    dtd:has_entry dtd:entry-id59,
+        dtd:entry-id60 .
+
+dtd:row-id36 a dtd:row ;
+    dtd:has_entry dtd:entry-id61,
+        dtd:entry-id62 .
+
+dtd:row-id37 a dtd:row ;
+    dtd:has_entry dtd:entry-id63,
+        dtd:entry-id64 .
+
+dtd:row-id38 a dtd:row ;
+    dtd:has_entry dtd:entry-id65,
+        dtd:entry-id66 .
+
+dtd:row-id39 a dtd:row ;
+    dtd:has_entry dtd:entry-id67,
+        dtd:entry-id68 .
+
+dtd:row-id40 a dtd:row ;
+    dtd:has_entry dtd:entry-id69,
+        dtd:entry-id70 .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id71,
+        dtd:entry-id72 .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id73,
+        dtd:entry-id74 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id75,
+        dtd:entry-id76 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id77,
+        dtd:entry-id78 .
+
+dtd:row-id45 a dtd:row ;
+    dtd:has_entry dtd:entry-id79,
+        dtd:entry-id80 .
+
+dtd:row-id46 a dtd:row ;
+    dtd:has_entry dtd:entry-id81,
+        dtd:entry-id82 .
+
+dtd:row-id47 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84 .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id85,
+        dtd:entry-id86 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id89,
+        dtd:entry-id90 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id91,
+        dtd:entry-id92 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id93,
+        dtd:entry-id94 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id95,
+        dtd:entry-id96 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id97,
+        dtd:entry-id98 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id99 .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id101,
+        dtd:entry-id102 .
+
+dtd:table-id28 a dtd:table ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tabstyle "Tabelle1"@de ;
+    dtd:has_tgroup dtd:tgroup-id29 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id33 a dtd:tbody ;
+    dtd:has_row dtd:row-id35,
+        dtd:row-id36,
+        dtd:row-id37,
+        dtd:row-id38,
+        dtd:row-id39,
+        dtd:row-id40,
+        dtd:row-id41,
+        dtd:row-id42,
+        dtd:row-id43,
+        dtd:row-id44,
+        dtd:row-id45,
+        dtd:row-id46,
+        dtd:row-id47,
+        dtd:row-id48,
+        dtd:row-id49,
+        dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54,
+        dtd:row-id55,
+        dtd:row-id56 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id105 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:tgroup-id29 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id30,
+        dtd:colspec-id31 ;
+    dtd:has_tbody dtd:tbody-id33 ;
+    dtd:has_thead dtd:thead-id32 .
+
+dtd:thead-id32 a dtd:thead ;
+    dtd:has_row dtd:row-id34 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:zitstelle-id112 a dtd:zitstelle ;
+    dtd:has_Value "2009, 1341"@de .
+
+dtd:left rdfs:label "left"@de .
+

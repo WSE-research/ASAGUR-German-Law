@@ -1,0 +1,777 @@
+@prefix dtd: <urn:IntVG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id15,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id106 a dtd:BR .
+
+dtd:BR-id107 a dtd:BR .
+
+dtd:BR-id108 a dtd:BR .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146,
+        dtd:P-id147 .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151,
+        dtd:P-id152,
+        dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155,
+        dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158,
+        dtd:P-id159 .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161,
+        dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164,
+        dtd:P-id165 .
+
+dtd:Content-id166 a dtd:Content ;
+    dtd:has_P dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169,
+        dtd:P-id170 .
+
+dtd:Content-id171 a dtd:Content ;
+    dtd:has_P dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174 .
+
+dtd:Content-id175 a dtd:Content ;
+    dtd:has_P dtd:P-id176,
+        dtd:P-id177 .
+
+dtd:Content-id178 a dtd:Content ;
+    dtd:has_P dtd:P-id179,
+        dtd:P-id180,
+        dtd:P-id181,
+        dtd:P-id182,
+        dtd:P-id183 .
+
+dtd:Content-id184 a dtd:Content ;
+    dtd:has_P dtd:P-id185,
+        dtd:P-id186,
+        dtd:P-id187,
+        dtd:P-id188,
+        dtd:P-id189,
+        dtd:P-id190,
+        dtd:P-id191 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id131 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DL-id109 a dtd:DL ;
+    dtd:has_DD dtd:DD-id114,
+        dtd:DD-id115,
+        dtd:DD-id116,
+        dtd:DD-id117 ;
+    dtd:has_DT dtd:DT-id110,
+        dtd:DT-id111,
+        dtd:DT-id112,
+        dtd:DT-id113 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id118 a dtd:DL ;
+    dtd:has_DD dtd:DD-id121,
+        dtd:DD-id122 ;
+    dtd:has_DT dtd:DT-id119,
+        dtd:DT-id120 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id123 a dtd:DL ;
+    dtd:has_DD dtd:DD-id126,
+        dtd:DD-id127 ;
+    dtd:has_DT dtd:DT-id124,
+        dtd:DT-id125 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id128 a dtd:DL ;
+    dtd:has_DD dtd:DD-id131,
+        dtd:DD-id132 ;
+    dtd:has_DT dtd:DT-id129,
+        dtd:DT-id130 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id120 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id124 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id125 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id130 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Value "für welche eine Gesetzgebungszuständigkeit des Bundes nicht besteht,"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Value "für welche die Länder gemäß Artikel 72 Absatz 2 des Grundgesetzes das Recht zur Gesetzgebung haben,"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Value "für welche die Länder gemäß Artikel 72 Absatz 3 oder Artikel 84 Absatz 1 des Grundgesetzes abweichende Regelungen treffen können oder"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Value "deren Regelung durch ein Bundesgesetz der Zustimmung des Bundesrates bedarf."@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Value "Wenn bei einer Initiative im Schwerpunkt ausschließliche Gesetzgebungszuständigkeiten des Bundes betroffen sind, kann der Bundestag die Ablehnung der Initiative beschließen."@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Value "In allen anderen Fällen kann der Bundestag oder der Bundesrat die Ablehnung der Initiative beschließen."@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Value "ob es zur Mitwirkung des Bundestages und des Bundesrates eines Gesetzes gemäß Artikel 23 Absatz 1 Satz 2 oder 3 des Grundgesetzes bedarf;"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_DL dtd:DL-id128 ;
+    dtd:has_Value "wenn das Verfahren nach § 9 in Betracht kommt, ob Entwürfe zu Gesetzgebungsakten gemäß a)Artikel 48 Absatz 1 des Vertrags über die Arbeitsweise der Europäischen Union wichtige Aspekte des deutschen Systems der sozialen Sicherheit, insbesondere dessen Geltungsbereich, Kosten oder Finanzstruktur, verletzen oder dessen finanzielles Gleichgewicht beeinträchtigen würden,b)Artikel 82 Absatz 2 oder Artikel 83 Absatz 1 oder 2 des Vertrags über die Arbeitsweise der Europäischen Union grundlegende Aspekte der deutschen Strafrechtsordnung berühren würden."@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Value "Artikel 48 Absatz 1 des Vertrags über die Arbeitsweise der Europäischen Union wichtige Aspekte des deutschen Systems der sozialen Sicherheit, insbesondere dessen Geltungsbereich, Kosten oder Finanzstruktur, verletzen oder dessen finanzielles Gleichgewicht beeinträchtigen würden,"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Value "Artikel 82 Absatz 2 oder Artikel 83 Absatz 1 oder 2 des Vertrags über die Arbeitsweise der Europäischen Union grundlegende Aspekte der deutschen Strafrechtsordnung berühren würden."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_BR dtd:BR-id106 ;
+    dtd:has_Value " (+++ Textnachweis ab: 25.9.2009 +++)Das G wurde als Artikel 1 des G v. 22.9.2009 I 3022 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 4 dieses G am 25.9.2009 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id192 .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(1) Der Bundestag und der Bundesrat nehmen in Angelegenheiten der Europäischen Union ihre Integrationsverantwortung insbesondere nach Maßgabe der folgenden Bestimmungen wahr."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(2) Der Bundestag und der Bundesrat sollen über Vorlagen nach diesem Gesetz in angemessener Frist beraten und Beschluss fassen und dabei die für die Beschlussfassung auf der Ebene der Europäischen Union maßgeblichen Fristvorgaben berücksichtigen."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "Eine Zustimmung der Bundesrepublik Deutschland zu einem Beschluss des Europäischen Rates gemäß Artikel 48 Absatz 6 Unterabsatz 2 und 3 des Vertrags über die Europäische Union erfolgt durch ein Gesetz gemäß Artikel 23 Absatz 1 des Grundgesetzes."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(1) Eine Zustimmung der Bundesrepublik Deutschland zu einem Beschluss des Rates gemäß Artikel 218 Absatz 8 Unterabsatz 2 Satz 2 oder gemäß Artikel 311 Absatz 3 des Vertrags über die Arbeitsweise der Europäischen Union erfolgt durch ein Gesetz gemäß Artikel 23 Absatz 1 des Grundgesetzes."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt auch für Bestimmungen, die der Rat gemäß Artikel 25 Absatz 2, Artikel 223 Absatz 1 Unterabsatz 2 oder Artikel 262 des Vertrags über die Arbeitsweise der Europäischen Union erlässt."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(3) Der deutsche Vertreter im Europäischen Rat darf einem Beschlussvorschlag gemäß Artikel 42 Absatz 2 Unterabsatz 1 Satz 2 des Vertrags über die Europäische Union nur zustimmen oder sich bei einer Beschlussfassung enthalten, nachdem der Bundestag hierzu einen Beschluss gefasst hat. Einen entsprechenden Antrag im Bundestag kann auch die Bundesregierung stellen. Ohne einen solchen Beschluss des Bundestages muss der deutsche Vertreter im Europäischen Rat den Beschlussvorschlag ablehnen. Nachdem ein Beschluss des Europäischen Rates gemäß Artikel 42 Absatz 2 Unterabsatz 1 Satz 2 des Vertrags über die Europäische Union gefasst worden ist, erfolgt eine Zustimmung der Bundesrepublik Deutschland durch ein Gesetz gemäß Artikel 23 Absatz 1 des Grundgesetzes."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "(1) Der deutsche Vertreter im Europäischen Rat darf einem Beschlussvorschlag gemäß Artikel 48 Absatz 7 Unterabsatz 1 Satz 1 oder Unterabsatz 2 des Vertrags über die Europäische Union nur zustimmen oder sich bei einer Beschlussfassung enthalten, nachdem hierzu ein Gesetz gemäß Artikel 23 Absatz 1 des Grundgesetzes in Kraft getreten ist. Ohne ein solches Gesetz muss der deutsche Vertreter im Europäischen Rat den Beschlussvorschlag ablehnen."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(2) Der deutsche Vertreter im Rat darf einem Beschlussvorschlag gemäß Artikel 81 Absatz 3 Unterabsatz 2 des Vertrags über die Arbeitsweise der Europäischen Union nur zustimmen oder sich bei einer Beschlussfassung enthalten, nachdem hierzu ein Gesetz gemäß Artikel 23 Absatz 1 des Grundgesetzes in Kraft getreten ist. Ohne ein solches Gesetz muss der deutsche Vertreter im Rat den Beschlussvorschlag ablehnen."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(1) Der deutsche Vertreter im Europäischen Rat darf einem Beschlussvorschlag gemäß Artikel 31 Absatz 3 des Vertrags über die Europäische Union oder gemäß Artikel 312 Absatz 2 Unterabsatz 2 des Vertrags über die Arbeitsweise der Europäischen Union nur zustimmen oder sich bei einer Beschlussfassung enthalten, nachdem der Bundestag hierzu einen Beschluss gefasst hat. Einen entsprechenden Antrag im Bundestag kann auch die Bundesregierung stellen. Ohne einen solchen Beschluss des Bundestages muss der deutsche Vertreter im Europäischen Rat den Beschlussvorschlag ablehnen."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_DL dtd:DL-id109 ;
+    dtd:has_Value "(2) Zusätzlich zu dem Beschluss des Bundestages muss der Bundesrat einen entsprechenden Beschluss gefasst haben, wenn Gebiete betroffen sind, 1.für welche eine Gesetzgebungszuständigkeit des Bundes nicht besteht,2.für welche die Länder gemäß Artikel 72 Absatz 2 des Grundgesetzes das Recht zur Gesetzgebung haben,3.für welche die Länder gemäß Artikel 72 Absatz 3 oder Artikel 84 Absatz 1 des Grundgesetzes abweichende Regelungen treffen können oder4.deren Regelung durch ein Bundesgesetz der Zustimmung des Bundesrates bedarf."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(1) Der deutsche Vertreter im Rat darf einem Beschlussvorschlag gemäß Artikel 153 Absatz 2 Unterabsatz 4, Artikel 192 Absatz 2 Unterabsatz 2 oder Artikel 333 Absatz 1 oder Absatz 2 des Vertrags über die Arbeitsweise der Europäischen Union nur zustimmen oder sich bei einer Beschlussfassung enthalten, nachdem der Bundestag hierzu einen Beschluss gefasst hat. § 5 Absatz 1 Satz 2 und 3 gilt entsprechend."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(2) § 5 Absatz 2 gilt entsprechend."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "(1) Der deutsche Vertreter im Rat darf einem Beschlussvorschlag gemäß Artikel 83 Absatz 1 Unterabsatz 3 oder Artikel 86 Absatz 4 des Vertrags über die Arbeitsweise der Europäischen Union nur zustimmen oder sich bei einer Beschlussfassung enthalten, nachdem hierzu ein Gesetz gemäß Artikel 23 Absatz 1 des Grundgesetzes in Kraft getreten ist. Ohne ein solches Gesetz muss der deutsche Vertreter im Rat den Beschlussvorschlag ablehnen."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt entsprechend für Satzungsänderungen gemäß Artikel 308 Absatz 3 des Vertrags über die Arbeitsweise der Europäischen Union."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "Der deutsche Vertreter im Rat darf einem Vorschlag zum Erlass von Vorschriften gemäß Artikel 352 des Vertrags über die Arbeitsweise der Europäischen Union nur zustimmen oder sich bei einer Beschlussfassung enthalten, nachdem hierzu ein Gesetz gemäß Artikel 23 Absatz 1 des Grundgesetzes in Kraft getreten ist. Ohne ein solches Gesetz muss der deutsche Vertreter im Rat den Vorschlag zum Erlass von Vorschriften ablehnen."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(1) Der deutsche Vertreter im Rat muss in den Fällen des Artikels 48 Absatz 2 Satz 1, des Artikels 82 Absatz 3 Unterabsatz 1 Satz 1 und des Artikels 83 Absatz 3 Unterabsatz 1 Satz 1 des Vertrags über die Arbeitsweise der Europäischen Union beantragen, den Europäischen Rat zu befassen, wenn der Bundestag ihn hierzu durch einen Beschluss angewiesen hat."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(2) Wenn im Schwerpunkt Gebiete im Sinne des § 5 Absatz 2 betroffen sind, muss der deutsche Vertreter im Rat einen Antrag nach Absatz 1 auch dann stellen, wenn ein entsprechender Beschluss des Bundesrates vorliegt."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_DL dtd:DL-id118 ;
+    dtd:has_Value "(1) Für die Ablehnung einer Initiative des Europäischen Rates gemäß Artikel 48 Absatz 7 Unterabsatz 3 des Vertrags über die Europäische Union gilt: 1.Wenn bei einer Initiative im Schwerpunkt ausschließliche Gesetzgebungszuständigkeiten des Bundes betroffen sind, kann der Bundestag die Ablehnung der Initiative beschließen.2.In allen anderen Fällen kann der Bundestag oder der Bundesrat die Ablehnung der Initiative beschließen."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(2) Der Präsident des Bundestages oder der Präsident des Bundesrates unterrichtet die Präsidenten der zuständigen Organe der Europäischen Union über die Ablehnung der Initiative und setzt die Bundesregierung darüber in Kenntnis."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(3) Die Absätze 1 und 2 gelten entsprechend für einen Vorschlag der Europäischen Kommission für einen Beschluss des Rates gemäß Artikel 81 Absatz 3 Unterabsatz 3 des Vertrags über die Arbeitsweise der Europäischen Union."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "(1) Der Bundestag und der Bundesrat können in ihren Geschäftsordnungen regeln, wie eine Entscheidung über die Abgabe einer begründeten Stellungnahme gemäß Artikel 6 des Protokolls über die Anwendung der Grundsätze der Subsidiarität und der Verhältnismäßigkeit herbeizuführen ist."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(2) Der Präsident des Bundestages oder der Präsident des Bundesrates übermittelt die begründete Stellungnahme an die Präsidenten der zuständigen Organe der Europäischen Union und setzt die Bundesregierung darüber in Kenntnis."@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "(1) Auf Antrag eines Viertels seiner Mitglieder ist der Bundestag verpflichtet, eine Klage gemäß Artikel 8 des Protokolls über die Anwendung der Grundsätze der Subsidiarität und der Verhältnismäßigkeit zu erheben. Auf Antrag eines Viertels seiner Mitglieder, die die Erhebung der Klage nicht stützen, ist deren Auffassung in der Klageschrift deutlich zu machen."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "(2) Der Bundesrat kann in seiner Geschäftsordnung regeln, wie ein Beschluss über die Erhebung einer Klage gemäß Absatz 1 herbeizuführen ist."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "(3) Die Bundesregierung übermittelt die Klage im Namen des Organs, das über ihre Erhebung gemäß Absatz 1 oder gemäß Absatz 2 beschlossen hat, unverzüglich an den Gerichtshof der Europäischen Union."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(4) Das Organ, das die Erhebung der Klage gemäß Absatz 1 oder gemäß Absatz 2 beschlossen hat, übernimmt die Prozessführung vor dem Gerichtshof der Europäischen Union."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_Value "(5) Wird im Bundestag oder im Bundesrat ein Antrag zur Erhebung einer Klage gemäß Absatz 1 oder gemäß Absatz 2 gestellt, so kann das andere Organ eine Stellungnahme abgeben."@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesregierung hat den Bundestag und den Bundesrat in Angelegenheiten dieses Gesetzes umfassend, zum frühestmöglichen Zeitpunkt, fortlaufend und in der Regel schriftlich zu unterrichten. Einzelheiten der Unterrichtungspflichten aufgrund des Gesetzes über die Zusammenarbeit von Bundesregierung und Deutschem Bundestag in Angelegenheiten der Europäischen Union vom 12. März 1993 (BGBl. I S. 311), das durch Artikel 2 Absatz 1 des Gesetzes vom 17. November 2005 (BGBl. I S. 3178) geändert worden ist, des Gesetzes über die Zusammenarbeit von Bund und Ländern in Angelegenheiten der Europäischen Union vom 12. März 1993 (BGBl. I S. 313, 1780), das zuletzt durch Artikel 2 des Gesetzes vom 5. September 2006 (BGBl. I S. 2098) geändert worden ist, und anderer Regelungen bleiben unberührt."@de .
+
+dtd:P-id186 a dtd:P ;
+    dtd:has_Value "(2) Die Bundesregierung unterrichtet den Bundestag und den Bundesrat, wenn der Rat in Vorbereitung einer Initiative des Europäischen Rates nach Artikel 48 Absatz 7 des Vertrags über die Europäische Union befasst wird. Das Gleiche gilt, wenn der Europäische Rat eine derartige Initiative ergriffen hat. Die Bundesregierung unterrichtet den Bundestag und den Bundesrat über einen Vorschlag der Europäischen Kommission nach Artikel 81 Absatz 3 Unterabsatz 2 des Vertrags über die Arbeitsweise der Europäischen Union."@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_DL dtd:DL-id123 ;
+    dtd:has_Value "(3) Die Bundesregierung übermittelt dem Bundestag und dem Bundesrat binnen zwei Wochen nach Zuleitung von Initiativen, Vorschlägen oder Beschlüssen, auf die sich die vorstehenden Bestimmungen beziehen, eine ausführliche Erläuterung der Folgen für die vertraglichen Grundlagen der Europäischen Union sowie eine Bewertung der integrationspolitischen Notwendigkeit und Auswirkungen. Ferner erläutert die Bundesregierung, 1.ob es zur Mitwirkung des Bundestages und des Bundesrates eines Gesetzes gemäß Artikel 23 Absatz 1 Satz 2 oder 3 des Grundgesetzes bedarf;2.wenn das Verfahren nach § 9 in Betracht kommt, ob Entwürfe zu Gesetzgebungsakten gemäß a)Artikel 48 Absatz 1 des Vertrags über die Arbeitsweise der Europäischen Union wichtige Aspekte des deutschen Systems der sozialen Sicherheit, insbesondere dessen Geltungsbereich, Kosten oder Finanzstruktur, verletzen oder dessen finanzielles Gleichgewicht beeinträchtigen würden,b)Artikel 82 Absatz 2 oder Artikel 83 Absatz 1 oder 2 des Vertrags über die Arbeitsweise der Europäischen Union grundlegende Aspekte der deutschen Strafrechtsordnung berühren würden."@de .
+
+dtd:P-id188 a dtd:P ;
+    dtd:has_Value "(4) Bei eilbedürftigen Vorlagen verkürzt sich die Frist des Absatzes 3 so, dass eine der Integrationsverantwortung angemessene Behandlung in Bundestag und Bundesrat gewährleistet ist. Ist eine besonders umfangreiche Bewertung erforderlich, kann die Frist verlängert werden."@de .
+
+dtd:P-id189 a dtd:P ;
+    dtd:has_Value "(5) Über einen Antrag eines anderen Mitgliedstaates im Rat gemäß Artikel 48 Absatz 2 Satz 1, Artikel 82 Absatz 3 Unterabsatz 1 Satz 1 oder Artikel 83 Absatz 3 Unterabsatz 1 Satz 1 des Vertrags über die Arbeitsweise der Europäischen Union unterrichtet die Bundesregierung den Bundestag und den Bundesrat unverzüglich schriftlich. Diese Unterrichtung umfasst die Gründe des Antragstellers."@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_Value "(6) Zu Vorschlägen für Gesetzgebungsakte der Europäischen Union übermittelt die Bundesregierung binnen zwei Wochen nach Überweisung an die Ausschüsse des Bundestages, spätestens jedoch zu Beginn der Beratungen in den Ratsgremien, eine umfassende Bewertung. Sie enthält Angaben zur Zuständigkeit der Europäischen Union zum Erlass des vorgeschlagenen Gesetzgebungsaktes und zu dessen Vereinbarkeit mit den Grundsätzen der Subsidiarität und Verhältnismäßigkeit."@de .
+
+dtd:P-id191 a dtd:P ;
+    dtd:has_Value "(7) Die Bundesregierung unterrichtet Bundestag und Bundesrat zum frühestmöglichen Zeitpunkt über den Abschluss eines Gesetzgebungsverfahrens der Europäischen Union. Diese Unterrichtung enthält auch eine Bewertung, ob die Bundesregierung den Gesetzgebungsakt mit den Grundsätzen der Subsidiarität und der Verhältnismäßigkeit für vereinbar hält."@de .
+
+dtd:amtabk-id45 a dtd:amtabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id46 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-09-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id67 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id73 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id76 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id79 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id82 a dtd:enbez ;
+    dtd:has_Value "§ 11"@de .
+
+dtd:enbez-id85 a dtd:enbez ;
+    dtd:has_Value "§ 12"@de .
+
+dtd:enbez-id88 a dtd:enbez ;
+    dtd:has_Value "§ 13"@de .
+
+dtd:fundstelle-id47 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id193 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id194 .
+
+dtd:fussnoten-id103 a dtd:fussnoten .
+
+dtd:fussnoten-id105 a dtd:fussnoten .
+
+dtd:fussnoten-id90 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id143 .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id72 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id75 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id78 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id81 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id84 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:jurabk-id87 a dtd:jurabk ;
+    dtd:has_Value "IntVG"@de .
+
+dtd:kurzue-id48 a dtd:kurzue ;
+    dtd:has_Value "Integrationsverantwortungsgesetz"@de .
+
+dtd:langue-id49 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Wahrnehmung der Integrationsverantwortung des Bundestages und des Bundesrates in Angelegenheiten der Europäischen Union"@de .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id45 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id46 ;
+    dtd:has_fundstelle dtd:fundstelle-id47 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_kurzue dtd:kurzue-id48 ;
+    dtd:has_langue dtd:langue-id49 ;
+    dtd:has_standangabe dtd:standangabe-id50 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 ;
+    dtd:has_titel dtd:titel-id68 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_jurabk dtd:jurabk-id69 ;
+    dtd:has_titel dtd:titel-id71 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id73 ;
+    dtd:has_jurabk dtd:jurabk-id72 ;
+    dtd:has_titel dtd:titel-id74 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id76 ;
+    dtd:has_jurabk dtd:jurabk-id75 ;
+    dtd:has_titel dtd:titel-id77 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id79 ;
+    dtd:has_jurabk dtd:jurabk-id78 ;
+    dtd:has_titel dtd:titel-id80 .
+
+dtd:metadaten-id38 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id82 ;
+    dtd:has_jurabk dtd:jurabk-id81 ;
+    dtd:has_titel dtd:titel-id83 .
+
+dtd:metadaten-id40 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id85 ;
+    dtd:has_jurabk dtd:jurabk-id84 ;
+    dtd:has_titel dtd:titel-id86 .
+
+dtd:metadaten-id42 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id88 ;
+    dtd:has_jurabk dtd:jurabk-id87 ;
+    dtd:has_titel dtd:titel-id89 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE001000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id38 ;
+    dtd:has_textdaten dtd:textdaten-id39 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE001300160"@de ;
+    dtd:has_metadaten dtd:metadaten-id40 ;
+    dtd:has_textdaten dtd:textdaten-id41 .
+
+dtd:norm-id15 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE001201160"@de ;
+    dtd:has_metadaten dtd:metadaten-id42 ;
+    dtd:has_textdaten dtd:textdaten-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405132738"@de ;
+    dtd:has_doknr "BJNR302210009BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:periodikum-id193 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id192 a dtd:pre ;
+    dtd:has_BR dtd:BR-id107,
+        dtd:BR-id108 ;
+    dtd:has_Value "(+++ Textnachweis ab: 25.9.2009 +++)"@de .
+
+dtd:standangabe-id50 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id196 ;
+    dtd:has_standtyp dtd:standtyp-id195 .
+
+dtd:standkommentar-id196 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 G v. 1.12.2009 I 3822"@de .
+
+dtd:standtyp-id195 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id100 a dtd:text ;
+    dtd:has_Content dtd:Content-id171 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id101 a dtd:text ;
+    dtd:has_Content dtd:Content-id175 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id102 a dtd:text ;
+    dtd:has_Content dtd:Content-id178 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id104 a dtd:text ;
+    dtd:has_Content dtd:Content-id184 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id148 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id97 a dtd:text ;
+    dtd:has_Content dtd:Content-id163 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id166 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id99 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id90 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id97 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_text dtd:text-id99 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_text dtd:text-id100 .
+
+dtd:textdaten-id39 a dtd:textdaten ;
+    dtd:has_text dtd:text-id101 .
+
+dtd:textdaten-id41 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id103 ;
+    dtd:has_text dtd:text-id102 .
+
+dtd:textdaten-id43 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id105 ;
+    dtd:has_text dtd:text-id104 .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Integrationsverantwortung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Vereinfachtes Vertragsänderungsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Besondere Vertragsänderungsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Brückenklauseln"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Zustimmung im Europäischen Rat bei besonderen Brückenklauseln"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id68 a dtd:titel ;
+    dtd:has_Value "Zustimmung im Rat bei besonderen Brückenklauseln"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id71 a dtd:titel ;
+    dtd:has_Value "Kompetenzerweiterungsklauseln"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id74 a dtd:titel ;
+    dtd:has_Value "Flexibilitätsklausel"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id77 a dtd:titel ;
+    dtd:has_Value "Notbremsemechanismus"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id80 a dtd:titel ;
+    dtd:has_Value "Ablehnungsrecht bei Brückenklauseln"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id83 a dtd:titel ;
+    dtd:has_Value "Subsidiaritätsrüge"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id86 a dtd:titel ;
+    dtd:has_Value "Subsidiaritätsklage"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id89 a dtd:titel ;
+    dtd:has_Value "Unterrichtung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id194 a dtd:zitstelle ;
+    dtd:has_Value "2009, 3022"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

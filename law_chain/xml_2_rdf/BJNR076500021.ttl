@@ -1,0 +1,364 @@
+@prefix dtd: <urn:IHRAVorRV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78,
+        dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id68 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id69 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DL-id61 a dtd:DL ;
+    dtd:has_DD dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67 ;
+    dtd:has_DT dtd:DT-id62,
+        dtd:DT-id63,
+        dtd:DT-id64 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Value "Verträge schließen,"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Value "über bewegliches und unbewegliches Vermögen verfügen und"@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Value "vor Gericht klagen und vorbehaltlich der Bestimmung des § 5 verklagt werden."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_BR dtd:BR-id58 ;
+    dtd:has_Value " (+++ Textnachweis ab: 16.4.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id91 .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 27 Absatz 2 des Gaststaatgesetzes vom 30. November 2019 (BGBl. I S. 1929) verordnet die Bundesregierung:"@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "Der Ansiedlung der Internationalen Allianz zum Holocaust-Gedenken (International Holocaust Remembrance Alliance – IHRA) in der Bundesrepublik Deutschland in der Rechtsform einer internationalen Institution gemäß Teil 3 Kapitel 1 des Gaststaatgesetzes wird gemäß § 27 Absatz 2 Satz 1 des Gaststaatgesetzes zugestimmt."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_DL dtd:DL-id61 ;
+    dtd:has_Value "(1) Die IHRA besitzt in Deutschland Rechtspersönlichkeit und kann 1.Verträge schließen,2.über bewegliches und unbewegliches Vermögen verfügen und3.vor Gericht klagen und vorbehaltlich der Bestimmung des § 5 verklagt werden."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "(2) Die rechtswirksame Vertretung der IHRA richtet sich nach ihrer Geschäftsordnung."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(1) Die IHRA genießt die in den §§ 6 bis 9 und 15 des Gaststaatgesetzes vorgesehenen Vorrechte, Immunitäten, Befreiungen und Erleichterungen, sofern die in diesen Vorschriften genannten Voraussetzungen erfüllt sind."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(2) Die IHRA genießt die in § 11 des Gaststaatgesetzes vorgesehenen steuerlichen Vergünstigungen, sofern die in dieser Vorschrift genannten Voraussetzungen erfüllt sind und solange sich die IHRA überwiegend aus Haushaltsbeiträgen der Mitgliedstaaten finanziert."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Die Bediensteten der IHRA genießen die in den §§ 16 bis 18, 20 bis 21 sowie §§ 23 und 24 des Gaststaatgesetzes vorgesehenen Vorrechte, Immunitäten, Befreiungen und Erleichterungen. Dies gilt für die steuerliche Vergünstigung nach § 23 Absatz 1 Satz 2 Nummer 2 nur, sofern die in dieser Vorschrift genannten Voraussetzungen erfüllt sind und solange sich die IHRA überwiegend aus Haushaltsbeiträgen der Mitgliedstaaten finanziert."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "Die IHRA genießt die in § 10 des Gaststaatgesetzes vorgesehenen Vorrechte, Immunitäten, Befreiungen und Erleichterungen, sobald die Bundesregierung festgestellt hat, dass die IHRA über ein adäquates Rechtsschutzsystem verfügt und in einem bindenden rechtlichen Instrument die Errichtung und die Modalitäten eines verbindlichen Streitbeilegungsmechanismus zwischen der Bundesrepublik Deutschland und der IHRA geregelt worden sind."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-04-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id92 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id93 .
+
+dtd:fussnoten-id49 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id71 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "IHRAVorRV"@de .
+
+dtd:langue-id32 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Gewährung von Vorrechten und Befreiungen an die Internationale Allianz zum Holocaust-Gedenken"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_langue dtd:langue-id32 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20210416213006"@de ;
+    dtd:has_doknr "BJNR076500021BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id92 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id91 a dtd:pre ;
+    dtd:has_BR dtd:BR-id59,
+        dtd:BR-id60 ;
+    dtd:has_Value "(+++ Textnachweis ab: 16.4.2021 +++)"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:zitstelle-id93 a dtd:zitstelle ;
+    dtd:has_Value "2021, 765"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

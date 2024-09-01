@@ -1,0 +1,120 @@
+@prefix dtd: <urn:Art17Abs1Nr2BIZIHECAbkErklBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230222213514"@de ;
+    dtd:has_doknr "BJNR604710023"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21 .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23,
+        dtd:P-id24,
+        dtd:P-id25 .
+
+dtd:NB-id19 a dtd:NB ;
+    dtd:has_Value "Regierung"@de .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_BR dtd:BR-id16 ;
+    dtd:has_Value " (+++ Textnachweis ab: 17.2.2023 +++)vgl. dazu auch V v. 13.2.2023 II Nr. 49 (BIZIHECAbkV)"@de ;
+    dtd:has_pre dtd:pre-id26 .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Arbeit und Soziales hat am 10. Februar 2023 gegenüber der Bank für Internationalen Zahlungsausgleich die nachstehende Erklärung abgegeben:"@de .
+
+dtd:P-id24 a dtd:P ;
+    dtd:has_NB dtd:NB-id19 ;
+    dtd:has_QuoteL dtd:QuoteL-id27 ;
+    dtd:has_Value "Auf Grund des Artikel 17 Absatz 1 Nummer 2 des Abkommens zwischen der Regierung der Bundesrepublik Deutschland und der Bank für Internationalen Zahlungsausgleich über das BIZ Innovation Hub Eurosystem Centre in Frankfurt am Main vom 9. Dezember 2022 (BGBl. 2023 II Nr. 49) erkläre ich, dass die sozialen Leistungen der Bank für Internationalen Zahlungsausgleich insgesamt ausreichend sind und die Befreiung der Bank für Internationalen Zahlungsausgleich und seiner in Deutschland beschäftigten Bediensteten von den deutschen Rechtsvorschriften über die Versicherungspflicht in der gesetzlichen und privaten Krankenversicherung, der gesetzlichen Unfall- und Rentenversicherung, der sozialen und privaten Pflegeversicherung sowie der Versicherungs- und Umlagepflicht nach dem Recht der Arbeitsförderung nach der Bestimmung des Artikel 17 Absatz 1 Nummer 2 des Abkommens gerechtfertigt ist. Dies gilt auch für ihre unmittelbaren Angehörigen und die Kinder von Kindern dieser Bediensteten für die deutschen Rechtsvorschriften über die Versicherungspflicht in der gesetzlichen und privaten Krankenversicherung sowie sozialen und privaten Pflegeversicherung nach der Bestimmung des Artikel 17 Absatz 2 des Abkommens."@de .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_QuoteR dtd:QuoteR-id28 ;
+    dtd:has_Value "Die Befreiung erfolgt, soweit die Bediensteten und die Angehörigen dem System der sozialen Sicherheit der bei der Bank für Internationalen Zahlungsausgleich beschäftigten Bediensteten angehören oder berücksichtigungsfähig sind. Sie tritt am 17. Februar 2023 in Kraft."@de .
+
+dtd:QuoteL-id27 a dtd:QuoteL .
+
+dtd:QuoteR-id28 a dtd:QuoteR .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2023-02-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id29 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id30 .
+
+dtd:fussnoten-id14 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id20 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "Art17Abs1Nr2BIZIHECAbkErklBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "Art17Abs1Nr2BIZIHECAbkErklBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung einer Erklärung gegenüber der Bank für Internationalen Zahlungsausgleich nach Artikel 17 Absatz 1 Nummer 2 des Abkommens zwischen der Regierung der Bundesrepublik Deutschland und der Bank für Internationalen Zahlungsausgleich über das BIZ Innovation Hub Eurosystem Centre in Frankfurt am Main vom 9. Dezember 2022"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230222213514"@de ;
+    dtd:has_doknr "BJNR604710023"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230222213514"@de ;
+    dtd:has_doknr "BJNR604710023BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id29 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id26 a dtd:pre ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_Value "(+++ Textnachweis ab: 17.2.2023 +++)"@de .
+
+dtd:text-id15 a dtd:text ;
+    dtd:has_Content dtd:Content-id22 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id15 .
+
+dtd:zitstelle-id30 a dtd:zitstelle ;
+    dtd:has_Value "AT 16.02.2023 B2"@de .
+

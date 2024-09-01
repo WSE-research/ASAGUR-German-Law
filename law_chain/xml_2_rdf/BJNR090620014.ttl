@@ -1,0 +1,196 @@
+@prefix dtd: <urn:DBAÄndProtG-NOR#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20141204221017"@de ;
+    dtd:has_doknr "BJNR090620014"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46,
+        dtd:P-id47 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_BR dtd:BR-id34 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.11.2014 +++)"@de ;
+    dtd:has_pre dtd:pre-id48 .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Dem in Berlin am 24. Juni 2013 unterzeichneten Protokoll zur Änderung des Abkommens vom 4. Oktober 1991 zwischen der Bundesrepublik Deutschland und dem Königreich Norwegen zur Vermeidung der Doppelbesteuerung und über gegenseitige Amtshilfe auf dem Gebiet der Steuern vom Einkommen und vom Vermögen sowie des dazugehörigen Protokolls (BGBl. 1993 II S. 970, 972) wird zugestimmt. Das Änderungsprotokoll wird nachstehend veröffentlicht."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "Soweit das Änderungsprotokoll auf Grund seines Artikels XVII Absatz 2 Satz 2 für die Zeit vor seinem Inkrafttreten anzuwenden ist und sich bis zum Zeitpunkt des Inkrafttretens des Änderungsprotokolls unter Berücksichtigung der jeweiligen Besteuerung in der Bundesrepublik Deutschland und in dem Königreich Norwegen insgesamt eine höhere Belastung ergibt, als sie nach den Rechtsvorschriften vor dem Inkrafttreten des Änderungsprotokolls bestanden hätte, wird der Steuermehrbetrag nicht festgesetzt."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Änderungsprotokoll nach seinem Artikel XVII Absatz 2 Satz 1 in Kraft tritt, ist im Bundesgesetzblatt bekannt zu geben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2014-11-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id37 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "DBAÄndProtG NOR"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "DBAÄndProtG NOR"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "DBAÄndProtG NOR"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "DBAÄndProtG NOR"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "DBAÄndProtG NOR"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Protokoll vom 24. Juni 2013 zur Änderung des Abkommens vom 4. Oktober 1991 zwischen der Bundesrepublik Deutschland und dem Königreich Norwegen zur Vermeidung der Doppelbesteuerung und über gegenseitige Amtshilfe auf dem Gebiet der Steuern vom Einkommen und vom Vermögen sowie des dazugehörigen Protokolls"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20141204221017"@de ;
+    dtd:has_doknr "BJNR090620014"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20141204221017"@de ;
+    dtd:has_doknr "BJNR090620014BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20141204221017"@de ;
+    dtd:has_doknr "BJNR090620014BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20141204221017"@de ;
+    dtd:has_doknr "BJNR090620014BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20141204221017"@de ;
+    dtd:has_doknr "BJNR090620014BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id48 a dtd:pre ;
+    dtd:has_BR dtd:BR-id35,
+        dtd:BR-id36 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.11.2014 +++)"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "2014, 906"@de .
+

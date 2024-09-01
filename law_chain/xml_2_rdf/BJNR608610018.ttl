@@ -1,0 +1,291 @@
+@prefix dtd: <urn:EEMD-ZV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240222214007"@de ;
+    dtd:has_doknr "BJNR608610018"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:kommentar-id71 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id53 ;
+    dtd:has_Value "(Fundstelle: BAnz AT 27.03.2018 V2,  bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_BR dtd:BR-id50 ;
+    dtd:has_Value " (+++ Textnachweis ab: 28.3.2018 +++)"@de ;
+    dtd:has_pre dtd:pre-id70 .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 4h Satz 1 und 2 in Verbindung mit § 4d Absatz 2 und § 4f Absatz 2 des Bundesfernstraßenmautgesetzes vom 12. Juli 2011 (BGBl. I S. 1378), die durch Artikel 2 Nummer 3 des Gesetzes vom 5. Dezember 2014 (BGBl. I S. 1980) eingefügt worden sind, in Verbindung mit § 1 Nummer 1 der BAG-Übertragungsverordnung vom 14. Januar 2016 (BAnz AT vom 26.01.2016 V1), verordnet das Bundesamt für Güterverkehr:"@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(+++ Änderung durch Art. 3 Nr. 1 V v. 27.11.2023 I Nr. 329 nicht ausführbar, da Eingangsformeln von Verordnungen nachträglich nicht geändert werden können +++)"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Die Prüfvereinbarung im Sinne des § 4d Absatz 2 des Bundesfernstraßenmautgesetzes ergibt sich aus der Anlage I zu dieser Verordnung. Der Zulassungsvertrag im Sinne des § 4f Absatz 2 des Bundesfernstraßenmautgesetzes ergibt sich aus der Anlage II zu dieser Verordnung."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_BR dtd:BR-id54 ;
+    dtd:has_Value "(Fundstelle: BAnz AT 27.03.2018 V2,  bzgl. der einzelnen Änderungen vgl. Fußnote)(Text siehe: EEMD-ZVAnl I)"@de ;
+    dtd:has_noindex dtd:noindex-id55 .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "(Text siehe: EEMD-ZVAnl II)"@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "EEMD-ZV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2018-03-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Anlage I"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Anlage II"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id72 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id73 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id56 .
+
+dtd:fussnoten-id43 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id60 .
+
+dtd:fussnoten-id47 a dtd:fussnoten .
+
+dtd:fussnoten-id49 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "EEMD-ZV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "EEMD-ZV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "EEMD-ZV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "EEMD-ZV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "EEMD-ZV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "EEMD-ZV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "EEMD-Zulassungsverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Zulassung von Anbietern mautdienstbezogener Leistungen für das EETS-Gebiet Bundesfernstraßenmautgesetz"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:noindex-id55 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240222214007"@de ;
+    dtd:has_doknr "BJNR608610018"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240222214007"@de ;
+    dtd:has_doknr "BJNR608610018BJNE000101123"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240222214007"@de ;
+    dtd:has_doknr "BJNR608610018BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240222214007"@de ;
+    dtd:has_doknr "BJNR608610018BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240222214007"@de ;
+    dtd:has_doknr "BJNR608610018BJNE000402123"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240222214007"@de ;
+    dtd:has_doknr "BJNR608610018BJNE000502123"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id72 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id70 a dtd:pre ;
+    dtd:has_BR dtd:BR-id51,
+        dtd:BR-id52 ;
+    dtd:has_Value "(+++ Textnachweis ab: 28.3.2018 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id75 ;
+    dtd:has_standtyp dtd:standtyp-id74 .
+
+dtd:standkommentar-id75 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 V v. 27.11.2023 I Nr. 329"@de .
+
+dtd:standtyp-id74 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Prüfvereinbarung und Zulassungsvertrag"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Vereinbarung über die Durchführung des Prüfverfahrens zur Erbringung mautdienstbezogener Leistungen (Prüfvereinbarung)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Vertrag über die Durchführung des europäischen elektronischen Mautdienstes auf Bundesstraßen im Geltungsbereich des Bundesfernstraßenmautgesetzes (EETS-Zulassungsvertrag)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id73 a dtd:zitstelle ;
+    dtd:has_Value "AT 27.03.2018 V2"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

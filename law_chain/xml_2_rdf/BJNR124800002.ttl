@@ -1,0 +1,511 @@
+@prefix dtd: <urn:HundVerbrEinfVO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107,
+        dtd:P-id108,
+        dtd:P-id109,
+        dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112,
+        dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id99 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88,
+        dtd:LA-id89 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90,
+        dtd:LA-id91 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DL-id69 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72,
+        dtd:DD-id73 ;
+    dtd:has_DT dtd:DT-id70,
+        dtd:DT-id71 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id74 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80 ;
+    dtd:has_DT dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id81 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87 ;
+    dtd:has_DT dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Begleitperson:"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Person, die einen gefährlichen Hund in das Inland verbringt oder einführt;"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Nämlichkeit:"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Übereinstimmung des in das Inland verbrachten oder eingeführten gefährlichen Hundes mit dem in Dokumenten oder Bescheinigungen und durch Kennzeichnung nach den jeweiligen landesrechtlichen Vorschriften ausgewiesenen Tier."@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Falle des § 2 Abs. 1 amtliche Bescheinigungen, welche die Zweckbestimmung des Hundes bestätigen,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Falle des § 2 Abs. 2 und 4 amtliche Bescheinigungen, welche das berechtigte Halten des Hundes an dem Aufenthaltsort des Hundes bestätigen,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Falle des § 2 Abs. 3 amtliche Bescheinigungen, welche bestätigen, dass der Hund bislang nicht als gefährlich aufgefallen ist,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "anordnen, dass der Hund untergebracht und versorgt wird, bis die Anforderungen des Gesetzes und dieser Verordnung für das Verbringen in das Inland oder die Einfuhr erfüllt sind,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Hund beschlagnahmen und unterbringen oder"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das unverzügliche Zurückbringen an den Ort der Herkunft des Hundes anordnen."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_BR dtd:BR-id62 ;
+    dtd:has_Value " (+++ Textnachweis ab: 12.4.2002 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Beachtung der       EGRL 34/98 (CELEX Nr: 31998L0034) +++)"@de ;
+    dtd:has_pre dtd:pre-id122 .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 2 Abs. 2 Nr. 2 und 3 des Hundeverbringungs- und -einfuhrbeschränkungsgesetzes vom 12. April 2001 (BGBl. I S. 530) verordnet die Bundesregierung:"@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_DL dtd:DL-id69 ;
+    dtd:has_Value "Im Sinne dieser Verordnung sind: 1.Begleitperson:eine Person, die einen gefährlichen Hund in das Inland verbringt oder einführt;  2.Nämlichkeit:Übereinstimmung des in das Inland verbrachten oder eingeführten gefährlichen Hundes mit dem in Dokumenten oder Bescheinigungen und durch Kennzeichnung nach den jeweiligen landesrechtlichen Vorschriften ausgewiesenen Tier.  "@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(1) Gefährliche Hunde, die als Diensthunde des Bundes, insbesondere der Bundeswehr, der Bundespolizei oder der Zollverwaltung, als Diensthunde der Länder, insbesondere der Polizei, als Diensthunde der Städte und Gemeinden, als Diensthunde fremder Streitkräfte gehalten werden sollen, sowie Blindenhunde, Behindertenbegleithunde und Hunde des Katastrophen- und Rettungsschutzes dürfen in das Inland verbracht oder eingeführt werden."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(2) Gefährliche Hunde dürfen in das Inland verbracht oder eingeführt werden, wenn die Hunde nach vorübergehendem Verbringen in das Ausland oder vorübergehender Ausfuhr an einen Aufenthaltsort im Inland zurückkehren, an dem sie berechtigt gehalten werden dürfen."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(3) Gefährliche Hunde im Sinne des § 2 Abs. 1 des Gesetzes dürfen vorübergehend in das Inland verbracht oder eingeführt werden, sofern sie sich zusammen mit einer Begleitperson, die ihren Wohnsitz nicht im Inland hat, nicht länger als vier Wochen im Inland aufhalten werden. Eine Verlängerung des vorübergehenden Aufenthalts kann zur Vermeidung unbilliger Härten durch die nach Landesrecht zuständige Behörde auf Antrag genehmigt werden."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(4) Gefährliche Hunde im Sinne des § 2 Abs. 1 Satz 2 des Gesetzes dürfen zum Zweck des ständigen Haltens in das Inland verbracht oder eingeführt werden, wenn die Begleitperson nachweist, dass die Hunde berechtigt in einem Land gehalten werden dürfen."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(1) Die Begleitperson eines gefährlichen Hundes muss über die zur Feststellung der Nämlichkeit des Hundes erforderlichen geeigneten Dokumente und Bescheinigungen verfügen und diese auf Verlangen der zuständigen Behörde vorlegen. Die Richtigkeit der Angaben muss in den Dokumenten und Bescheinigungen, in denen Angaben über Geburtsdatum, Geschlecht, Rasse und Fellfarbe des Hundes enthalten sind, vom Ursprungsland amtlich bestätigt sein. Ist der Hund dauerhaft gekennzeichnet, sind amtliche Bestätigungen über Tätowier- oder Chip-Nummer ausreichend. In den Fällen des Satzes 3 hat die Begleitperson das Ablesen der Tätowier- oder Chip-Nummer zu dulden und die mit der Überwachung beauftragten Personen nach Maßgabe des § 3 des Gesetzes zu unterstützen."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_DL dtd:DL-id74 ;
+    dtd:has_Value "(2) Die Begleitperson hat neben den für eine Nämlichkeitskontrolle erforderlichen Dokumenten oder Bescheinigungen nach Absatz 1 1.im Falle des § 2 Abs. 1 amtliche Bescheinigungen, welche die Zweckbestimmung des Hundes bestätigen, 2.im Falle des § 2 Abs. 2 und 4 amtliche Bescheinigungen, welche das berechtigte Halten des Hundes an dem Aufenthaltsort des Hundes bestätigen, 3.im Falle des § 2 Abs. 3 amtliche Bescheinigungen, welche bestätigen, dass der Hund bislang nicht als gefährlich aufgefallen ist, mitzuführen und auf Verlangen der zuständigen Behörde vorzulegen."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(3) Im Falle des § 2 Abs. 3 hat die Begleitperson glaubhaft zu machen, dass der Aufenthalt vorübergehend ist. Bei der Einfuhr ist eine Bescheinigung der Zollbehörden mit dem Einfuhrdatum erforderlich. Die Bescheinigung ist bei der Ausreise wieder vorzulegen."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(4) Dokumente und Bescheinigungen sind auf Verlangen der zuständigen Behörde im Original vorzulegen. Bescheinigungen und Dokumente in einer fremden Sprache müssen mit einer amtlich beglaubigten deutschen Übersetzung versehen sein."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_DL dtd:DL-id81 ;
+    dtd:has_Value "Stellt die zuständige Behörde einen Verstoß gegen die Bestimmungen des Gesetzes oder dieser Verordnung über das Verbringen in das Inland oder die Einfuhr fest, so kann sie insbesondere 1.anordnen, dass der Hund untergebracht und versorgt wird, bis die Anforderungen des Gesetzes und dieser Verordnung für das Verbringen in das Inland oder die Einfuhr erfüllt sind, 2.den Hund beschlagnahmen und unterbringen oder 3.das unverzügliche Zurückbringen an den Ort der Herkunft des Hundes anordnen. Die Befugnisse der zuständigen Behörde aufgrund anderer Rechtsvorschriften bleiben unberührt."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "Die Verpflichtungen aus der Richtlinie 98/34/EG des Europäischen Parlaments und des Rates vom 22. Juni 1998 über ein Informationsverfahren auf dem Gebiet der Normen und technischen Vorschriften (ABl. EG Nr. L 204 S. 37), zuletzt geändert durch die Richtlinie 98/48/EG des Europäischen Parlaments und des Rates vom 20. Juli 1998 (ABl. EG Nr. L 217 S. 18), sind beachtet worden."@de ;
+    dtd:has_noindex dtd:noindex-id68 .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-04-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id123 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id124 .
+
+dtd:fussnoten-id53 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id100 .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "HundVerbrEinfVO"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "Hundeverbringungs- und -einfuhrverordnung"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value """Verordnung über Ausnahmen zum Verbringungs- und
+Einfuhrverbot von gefährlichen Hunden in das Inland"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 ;
+    dtd:has_standangabe dtd:standangabe-id32 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 .
+
+dtd:noindex-id68 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002BJNE000000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002BJNE000201377"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405131241"@de ;
+    dtd:has_doknr "BJNR124800002BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id123 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id122 a dtd:pre ;
+    dtd:has_BR dtd:BR-id63,
+        dtd:BR-id64,
+        dtd:BR-id65,
+        dtd:BR-id66,
+        dtd:BR-id67 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.4.2002 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Beachtung der       EGRL 34/98 (CELEX Nr: 31998L0034) +++)"@de .
+
+dtd:standangabe-id32 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id126 ;
+    dtd:has_standtyp dtd:standtyp-id125 .
+
+dtd:standkommentar-id126 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 86 G v. 21. 6.2005 I 1818"@de .
+
+dtd:standtyp-id125 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id98 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Ausnahmen vom Verbringungs- und Einfuhrverbot"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Pflichten der Begleitperson"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Befugnisse der zuständigen Behörde"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id124 a dtd:zitstelle ;
+    dtd:has_Value "2002, 1248"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

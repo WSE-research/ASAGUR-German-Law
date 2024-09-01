@@ -1,0 +1,457 @@
+@prefix dtd: <urn:FrHfDEG/DUG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id106 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1543)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id107 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1544)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id108 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1545)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id109 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1546)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:ABWFORMAT-id104 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id105 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id68 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102,
+        dtd:P-id103 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79,
+        dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82,
+        dtd:P-id83,
+        dtd:P-id84,
+        dtd:P-id85 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87 .
+
+dtd:Content-id88 a dtd:Content ;
+    dtd:has_P dtd:P-id89 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93,
+        dtd:P-id94 .
+
+dtd:Content-id95 a dtd:Content ;
+    dtd:has_P dtd:P-id96,
+        dtd:P-id97 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id100,
+        dtd:P-id99 .
+
+dtd:IMG-id74 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1989_j1543_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:IMG-id75 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1989_j1544_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:IMG-id76 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1989_j1545_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:IMG-id77 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1989_j1546_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id76 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1546)"@de ;
+    dtd:has_noindex dtd:noindex-id73 .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id77 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.8.1989 +++)"@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_BR dtd:BR-id68 ;
+    dtd:has_Value " (+++ Zur Neubestimmung des Grenzverlaufs vgl. Art. 1 V v. 14.1.1993 I 86 (FrHfGrDEGV) +++)"@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(1) In Deggendorf und in Duisburg wird jeweils ein Teil des Hafengebiets als Freihafen eingerichtet."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id104 ;
+    dtd:has_Value "(2) In Deggendorf beginnt die Zollgrenze um den Freihafen auf dem linken Donauufer an der Autobahnbrücke bei Donau-km 2282,4, verläuft dann etwa 155 m entlang der Autobahn nach Südosten, biegt in einem etwa 50 m langen Viertelkreis mit dem Böschungsfuß der Autobahn nach Nordosten, verläuft von dort etwa 110 m parallel zur Autobahn, biegt dann in einem etwa 130 Grad großen Winkel nach Osten und wendet sich nach etwa 50 m in einem Winkel von etwa 95 Grad nach Norden, verläuft von dort in einer leicht geschwungenen Linie etwa 315 m parallel zum Donauufer, biegt dann in einem Winkel von etwa 96 Grad nach Westen bis zu einem Punkt, der heute etwa 8 m in der Donau liegt und geht von dort aus in gerader Linie wieder zum Ausgangspunkt zurück. Die umschlossene Freihafenfläche beträgt etwa 90.000 qm. Sie ist in der Anlage 1 durch eine rote Linie eingegrenzt."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id105 ;
+    dtd:has_Value "(3) In Duisburg beginnt die Zollgrenze um den Freihafen in der nördlichen Ecke des Nordhafens und verläuft in südwestlicher Richtung 380,8 m auf der senkrechten Ufereinfassung, biegt dann 11 m nach Nordwesten, anschließend nach Südwesten auf 96,35 m entlang der Oberkante des teilgeböschten Ufers, darauf rechtwinklig nach Nordwesten ab und trifft nach 75,6 m auf die Straße \"Am Nordhafen\". Hier wendet sie sich rechtwinklig nach Nordosten und verläuft 746 m entlang dieser Landstraße, davon ist sie vor dem Zollgebäude auf einer Länge von 12,5 m um 2,5 m nach Südwesten versetzt, biegt dann nach Südosten auf 17,5 m entlang einer Mauer und Spundwand ab und folgt auf 310 m der Böschungsoberkante des dort verlaufenden Gleiskörpers in östlicher Richtung bis zum rechtwinklig dazu stehenden Gleistor. Die Grenze folgt dem Gleistor auf 25 m, um dann geschwungen in südwestlicher Richtung 235,5 m annähernd parallel zum dortigen Eisenbahngleis bis zum rechtwinklig dazu stehenden Gleistor zu verlaufen. Die Grenze folgt dem Gleistor auf 5 m nach Südosten und biegt dann wieder rechtwinklig ab, um auf der anderen Seite des Gleises auf 63,5 m südwestlich zwischen zwei Gleisen bis zu einer Gebäudewand zu verlaufen, der sie 60,69 m folgt. Danach verläuft sie weitere 60,55 m nach Südwesten, bis sie auf die östliche Ecke des Nordhafens trifft. Von dort verläuft sie auf der Oberkante des Ufers in nordwestlicher Richtung, bis sie auf den Ausgangspunkt stößt. Die umschlossene Freihafenfläche beträgt etwa 100.000 qm. Sie ist in der Anlage 3 durch eine rote Linie eingegrenzt."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "(4) Der Bundesminister der Finanzen kann durch Rechtsverordnung bis zum 31. Dezember 1997 die in den Anlagen 1 bis 4 schraffierten Gebiete oder Teile davon in die Freihäfen einbeziehen."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 12 Abs. 1 des Dritten Überleitungsgesetzes auch im Land Berlin. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am ersten Tage des seiner Verkündung folgenden Kalendermonats in Kraft."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1543)"@de ;
+    dtd:has_noindex dtd:noindex-id70 .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id74 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1544)"@de ;
+    dtd:has_noindex dtd:noindex-id71 .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_IMG dtd:IMG-id75 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1545)"@de ;
+    dtd:has_noindex dtd:noindex-id72 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1989-07-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Anlage 1"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "Anlage 2"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "Anlage 3"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "Anlage 4"@de .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id110 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id111 .
+
+dtd:fussnoten-id57 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id78 .
+
+dtd:fussnoten-id59 a dtd:fussnoten .
+
+dtd:fussnoten-id61 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "FrHfDEG/DUG"@de .
+
+dtd:langue-id32 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Errichtung neuer Freihäfen und zur Änderung des Zollgesetzes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_langue dtd:langue-id32 ;
+    dtd:has_standangabe dtd:standangabe-id33 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:noindex-id70 a dtd:noindex .
+
+dtd:noindex-id71 a dtd:noindex .
+
+dtd:noindex-id72 a dtd:noindex .
+
+dtd:noindex-id73 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989BJNE000800328"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989BJNE000102307"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989BJNE000400328"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989BJNE000500328"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989BJNE000600328"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20131202132515"@de ;
+    dtd:has_doknr "BJNR015410989BJNE000700328"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id110 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id33 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id113 ;
+    dtd:has_standtyp dtd:standtyp-id112 .
+
+dtd:standkommentar-id113 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 10.4.1995 I 518"@de .
+
+dtd:standtyp-id112 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id86 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id88 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id90 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id95 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id98 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Neue Freihäfen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "(zu § 1 Abs. 2 und 4 des Gesetzes)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "(zu § 1 Abs. 4 des Gesetzes)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "(zu § 1 Abs. 3 und 4 des Gesetzes)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "(zu § 1 Abs. 4 des Gesetzes)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id111 a dtd:zitstelle ;
+    dtd:has_Value "1989, 1541"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+

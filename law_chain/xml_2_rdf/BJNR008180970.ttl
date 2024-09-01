@@ -1,0 +1,212 @@
+@prefix dtd: <urn:OPrAGebG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200916213502"@de ;
+    dtd:has_doknr "BJNR008180970"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id38 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id39 .
+
+dtd:DL-id33 a dtd:DL ;
+    dtd:has_DD dtd:DD-id36,
+        dtd:DD-id37 ;
+    dtd:has_DT dtd:DT-id34,
+        dtd:DT-id35 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id38 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Gesetz über die Befähigung zum höheren bautechnischen Verwaltungsdienst vom 16. Juli 1936 (Reichsgesetzbl. I S. 563),"@de .
+
+dtd:LA-id39 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Ausführungsbestimmung zum Gesetz über die Befähigung zum höheren bautechnischen Verwaltungsdienst vom 16. Juli 1936 (Reichsgesetzblatt I S. 565)."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value " (+++ Textnachweis ab: 26.6.1970 +++)Gem. Art. 33 d. G v. 23.6.1970 - 202-3-1 - gilt dieses Gesetz nach Maßgabe des § 12 Abs. 1 und des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4.1.1952 (BGBl. I S. 1) auch im Land Berlin; das Gesetz ist als Artikel 29 G 202-3-1 v. 23.6.1970 I 805 (KostErmÄndG) vom Bundestag mit Zustimmung des Bundesrates beschlossen worden. Es ist gem. Art. 34 dieses G am 26.6.1970 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id48 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Für die Abnahme der Großen Staatsprüfung für den höheren technischen Verwaltungsdienst des Bundes durch das Oberprüfungsamt für die höheren technischen Verwaltungsbeamten in Frankfurt a.M. können Prüfungsgebühren erhoben werden. Die Gebühr für die einzelne Prüfung darf 200 Deutsche Mark nicht übersteigen."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Verkehr und digitale Infrastruktur wird ermächtigt, im Einvernehmen mit dem Bundesministerium des Innern, für Bau und Heimat, die Höhe der Gebühren im Benehmen mit dem Kuratorium des Oberprüfungsamtes durch Rechtsverordnung zu bestimmen. In der Rechtsverordnung können die Stundung, der Erlaß und die Erstattung der Gebühren abweichend von den Vorschriften des Verwaltungskostengesetzes vom 23. Juni 1970 (Bundesgesetzbl. I S. 821) geregelt werden."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_DL dtd:DL-id33 ;
+    dtd:has_Value "Es werden aufgehoben, soweit sie Bundesrecht geworden sind: 1.das Gesetz über die Befähigung zum höheren bautechnischen Verwaltungsdienst vom 16. Juli 1936 (Reichsgesetzbl. I S. 563), 2.die Ausführungsbestimmung zum Gesetz über die Befähigung zum höheren bautechnischen Verwaltungsdienst vom 16. Juli 1936 (Reichsgesetzblatt I S. 565)."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1970-06-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id40 .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "OPrAGebG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "OPrAGebG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "OPrAGebG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "OPrAGebG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Gebühren des Oberprüfungsamtes für die höheren technischen Verwaltungsbeamten"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200916213502"@de ;
+    dtd:has_doknr "BJNR008180970"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200916213502"@de ;
+    dtd:has_doknr "BJNR008180970BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200916213502"@de ;
+    dtd:has_doknr "BJNR008180970BJNE000204116"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200916213502"@de ;
+    dtd:has_doknr "BJNR008180970BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id48 a dtd:pre ;
+    dtd:has_BR dtd:BR-id31,
+        dtd:BR-id32 ;
+    dtd:has_Value "(+++ Textnachweis ab: 26.6.1970 +++)"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id52 ;
+    dtd:has_standtyp dtd:standtyp-id51 .
+
+dtd:standkommentar-id52 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert Art. 45 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id51 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "1970, 805, 818"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

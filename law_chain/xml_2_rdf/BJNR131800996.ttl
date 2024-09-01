@@ -1,0 +1,267 @@
+@prefix dtd: <urn:AusbAnerkAufhV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131336"@de ;
+    dtd:has_doknr "BJNR131800996"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:DD-id43 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DL-id38 a dtd:DL ;
+    dtd:has_DD dtd:DD-id43,
+        dtd:DD-id44,
+        dtd:DD-id45,
+        dtd:DD-id46 ;
+    dtd:has_DT dtd:DT-id39,
+        dtd:DT-id40,
+        dtd:DT-id41,
+        dtd:DT-id42 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Pflanzenschutzlaborant/Pflanzenschutzlaborantin entsprechend der Richtlinie des Landes Schleswig-Holstein vom 22. Oktober 1962 (ABl. S. 522), zuletzt geändert am 11. November 1966 (ABl. S. 597);"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Veterinärmedizinischer Laborant/Veterinärmedizinische Laborantin entsprechend der Ausbildungsordnung der Landwirtschaftskammer Schleswig-Holstein vom 1. August 1968;"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zeichner/Zeichnerin in der Wasserwirtschaftsverwaltung entsprechend der Bekanntmachung des Ministers für Ernährung, Landwirtschaft und Forsten des Landes Schleswig-Holstein vom 6. Juli 1959 (ABl. S. 366), zuletzt geändert am 11. November 1966 (ABl. S. 597);"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zeichner/Zeichnerin in der Wasserwirtschaftsverwaltung entsprechend dem Runderlaß des Ministers für Landwirtschaft, Weinbau und Forsten des Landes Rheinland-Pfalz vom 28. März 1963, geändert durch Erlaß vom 12. März 1973 (StAnz. Nr. 13 vom 2. April 1973),"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 21.8.1996 +++)"@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 25 des Berufsbildungsgesetzes vom 14. August 1969 (BGBl. I S. 1112), der zuletzt durch § 24 Nr. 1 des Gesetzes vom 24. August 1976 (BGBl. I S. 2525) geändert worden ist, in Verbindung mit Artikel 56 des Zuständigkeitsanpassungs-Gesetzes vom 18. März 1975 (BGBl. I S. 705) und dem Organisationserlaß vom 17. November 1994 (BGBl. I S. 3667) verordnet das Bundesministerium für Ernährung, Landwirtschaft und Forsten im Einvernehmen mit dem Bundesministerium für Bildung, Wissenschaft, Forschung und Technologie:"@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_DL dtd:DL-id38 ;
+    dtd:has_Value "Die staatliche Anerkennung der Ausbildungsberufe a)Pflanzenschutzlaborant/Pflanzenschutzlaborantin entsprechend der Richtlinie des Landes Schleswig-Holstein vom 22. Oktober 1962 (ABl. S. 522), zuletzt geändert am 11. November 1966 (ABl. S. 597); b)Veterinärmedizinischer Laborant/Veterinärmedizinische Laborantin entsprechend der Ausbildungsordnung der Landwirtschaftskammer Schleswig-Holstein vom 1. August 1968; c)Zeichner/Zeichnerin in der Wasserwirtschaftsverwaltung entsprechend der Bekanntmachung des Ministers für Ernährung, Landwirtschaft und Forsten des Landes Schleswig-Holstein vom 6. Juli 1959 (ABl. S. 366), zuletzt geändert am 11. November 1966 (ABl. S. 597); d)Zeichner/Zeichnerin in der Wasserwirtschaftsverwaltung entsprechend dem Runderlaß des Ministers für Landwirtschaft, Weinbau und Forsten des Landes Rheinland-Pfalz vom 28. März 1963, geändert durch Erlaß vom 12. März 1973 (StAnz. Nr. 13 vom 2. April 1973), wird aufgehoben."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Auf Berufsausbildungsverhältnisse, die bei Inkrafttreten dieser Verordnung bestehen, sind die bisherigen Vorschriften weiter anzuwenden."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-08-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id63 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id64 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id53 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "AusbAnerkAufhV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "AusbAnerkAufhV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "AusbAnerkAufhV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "AusbAnerkAufhV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "AusbAnerkAufhV"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Aufhebung der
+staatlichen Anerkennung von Ausbildungsberufen"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131336"@de ;
+    dtd:has_doknr "BJNR131800996"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131336"@de ;
+    dtd:has_doknr "BJNR131800996BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405131336"@de ;
+    dtd:has_doknr "BJNR131800996BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405131336"@de ;
+    dtd:has_doknr "BJNR131800996BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405131336"@de ;
+    dtd:has_doknr "BJNR131800996BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id63 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Aufhebung der staatlichen Anerkennung von Ausbildungsberufen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id64 a dtd:zitstelle ;
+    dtd:has_Value "1996, 1318"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

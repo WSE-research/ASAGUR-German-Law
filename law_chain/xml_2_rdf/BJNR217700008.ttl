@@ -1,0 +1,358 @@
+@prefix dtd: <urn:TAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72,
+        dtd:P-id73,
+        dtd:P-id74,
+        dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_BR dtd:BR-id62 ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82,
+        dtd:P-id83,
+        dtd:P-id84,
+        dtd:P-id85,
+        dtd:P-id86,
+        dtd:P-id87 ;
+    dtd:has_kommentar dtd:kommentar-id88 .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_BR dtd:BR-id58 ;
+    dtd:has_Value " (+++ Textnachweis ab: 14.11.2008 +++)"@de ;
+    dtd:has_pre dtd:pre-id89 .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 35 Abs. 1 Nr. 2 und Abs. 2 sowie des § 80 Satz 1 Nr. 1 und 2 des Arzneimittelgesetzes in der Fassung der Bekanntmachung des Gesetzes vom 12. Dezember 2005 (BGBl. I S. 3394) verordnet das Bundesministerium für Gesundheit im Einvernehmen mit dem Bundesministerium für Wirtschaft und Technologie:"@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "Die Vorschriften des Arzneimittelgesetzes über die Zulassung der Arzneimittel werden auf Therapieallergene ausgedehnt, die für einzelne Personen auf Grund einer Rezeptur aus vorgefertigten Gebinden hergestellt werden und eines oder mehrere der im Anhang aufgeführten Allergene enthalten."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "§ 32 des Arzneimittelgesetzes wird auf Therapieallergene nach § 1 mit der Maßgabe angewandt, dass Gegenstand der staatlichen Chargenprüfung und Freigabe die Charge des vorgefertigten Gebindes ist, unmittelbar bevor daraus die Therapieallergene abgefüllt oder gemischt werden."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(1) Therapieallergene nach § 1, die bei Inkrafttreten dieser Verordnung hergestellt werden, dürfen bis zur Entscheidung über die Zulassung weiterhin ohne Zulassung in den Verkehr gebracht werden, sofern innerhalb von sechs Monaten nach Inkrafttreten dieser Verordnung bei der zuständigen Bundesoberbehörde das Therapieallergen unter Mitteilung der Bezeichnung sowie der Zusammenfassung der Produktmerkmale, insbesondere der Bestandteile nach Art und Menge und der Anwendungsgebiete, angezeigt und bis zum 1. Dezember 2010 ein Antrag auf Zulassung gestellt wird. Mit der Anzeige nach Satz 1 sind eine schematische Darstellung des Herstellungsverfahrens mit Angabe der Herstellungsstufen, an denen Prüfungen vorgenommen werden, die Spezifikationen des Produkts sowie die Anweisungen und Verfahrensbeschreibungen im Sinne von § 16 Abs. 1 der Arzneimittel- und Wirkstoffherstellungsverordnung, insbesondere die Prüfmethoden zur Feststellung der Übereinstimmung des Produkts mit den festgelegten Spezifikationen, vorzulegen."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(2) Therapieallergene nach § 1, die bei Inkrafttreten dieser Verordnung hergestellt werden und für die keine Zulassung beantragt wird, dürfen noch drei Jahre nach Inkrafttreten dieser Verordnung weiter in den Verkehr gebracht werden, sofern innerhalb von sechs Monaten nach Inkrafttreten dieser Verordnung bei der zuständigen Bundesoberbehörde angezeigt worden ist, dass ein Antrag auf Zulassung nicht gestellt wird. Absatz 1 Satz 2 gilt entsprechend."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(3) Therapieallergene nach § 1, die bei Inkrafttreten dieser Verordnung hergestellt werden, unterliegen ab dem ersten Tag des fünften auf die Anzeige nach Absatz 1 oder Absatz 2 folgenden Monats der staatlichen Chargenprüfung."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(4) Abweichend von § 25 Abs. 4 Satz 2 des Arzneimittelgesetzes ist dem Antragsteller Gelegenheit zu geben, Mängeln der vorgelegten Zulassungsunterlagen innerhalb eines Jahres abzuhelfen. Die Frist kann von der zuständigen Bundesoberbehörde um bis zu sieben Jahre verlängert werden, wenn dies zur Abhilfe mangelhafter klinischer Daten wegen der Eigenart der Therapieallergene erforderlich ist. Wird den Mängeln nicht innerhalb der in den Sätzen 1 und 2 genannten Fristen abgeholfen, ist die Zulassung zu versagen."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "Spezies aus der Familie Poaceae außer Poa mays (Süßgräser außer Mais)"@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Betula sp. (Arten der Gattung Birke)"@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "Alnus sp. (Arten der Gattung Erle)"@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Corylus sp. (Arten der Gattung Hasel)"@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "Dermatophagoides sp. (Arten der Gattung Hausstaubmilbe)"@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "Bienengift"@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "Wespengift"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2008-11-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "Anhang"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id90 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id91 .
+
+dtd:fussnoten-id50 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id63 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "TAV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "TAV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "TAV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "TAV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "TAV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "TAV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "TAV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "TAV"@de .
+
+dtd:kommentar-id88 a dtd:kommentar ;
+    dtd:has_Value "( Fundstelle: BGBl. I 2008, 2178)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id29 a dtd:kurzue ;
+    dtd:has_Value "Therapieallergene-Verordnung"@de .
+
+dtd:langue-id30 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Ausdehnung der Vorschriften über die Zulassung der Arzneimittel auf Therapieallergene, die für einzelne Personen auf Grund einer Rezeptur hergestellt werden, sowie über Verfahrensregelungen der staatlichen Chargenprüfung"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id29 ;
+    dtd:has_langue dtd:langue-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20120625151613"@de ;
+    dtd:has_doknr "BJNR217700008BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id90 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id89 a dtd:pre ;
+    dtd:has_BR dtd:BR-id59,
+        dtd:BR-id60 ;
+    dtd:has_Value "(+++ Textnachweis ab: 14.11.2008 +++)"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Zulassungspflicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Staatliche Chargenprüfung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Übergangsvorschrift"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_BR dtd:BR-id61 ;
+    dtd:has_Value "Liste der Therapieallergene (Erläuterungen in Klammern)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id91 a dtd:zitstelle ;
+    dtd:has_Value "2008, 2177"@de .
+

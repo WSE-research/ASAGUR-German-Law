@@ -1,0 +1,172 @@
+@prefix dtd: <urn:BGSAAusglV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151241"@de ;
+    dtd:has_doknr "BJNR168300000"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32,
+        dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 15.12.2000 +++)"@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value " Überschrift: Langüberschrift idF d. Art. 56 Nr. 1 G v. 21.6.2005 I 1818 mWv 1.7.2005"@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 2 Satz 2 des Bundesgrenzschutzgesetzes vom 19. Oktober 1994 (BGBl. I S. 2978, 2979), der durch Artikel 1 des Gesetzes vom 22. Dezember 1999 (BGBl. I S. 2534) eingefügt worden ist, verordnet das Bundesministerium des Innern im Einvernehmen mit dem Bundesministerium für Verkehr, Bau- und Wohnungswesen:"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "Das durch die Erfüllung bahnpolizeilicher Aufgaben der Bundespolizei begünstigte Verkehrsunternehmen Deutsche Bahn AG ist verpflichtet, für die hierdurch erlangten Vorteile ab dem 1. Januar 2000 jährlich 20,83 Prozent des aufgebrachten Gesamtaufwandes als Ausgleich zu leisten."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2000-12-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id40 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id41 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id31 .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BGSAAusglV"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "BGSAAusglV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "BGSAAusglV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BGSAAusglV"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Festsetzung des Ausgleichs für die
+Erfüllung bahnpolizeilicher Aufgaben der Bundespolizei"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151241"@de ;
+    dtd:has_doknr "BJNR168300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151241"@de ;
+    dtd:has_doknr "BJNR168300000BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151241"@de ;
+    dtd:has_doknr "BJNR168300000BJNE000201377"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151241"@de ;
+    dtd:has_doknr "BJNR168300000BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id40 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id43 ;
+    dtd:has_standtyp dtd:standtyp-id42 .
+
+dtd:standkommentar-id43 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 56 G v. 21.6.2005 I 1818"@de .
+
+dtd:standtyp-id42 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id41 a dtd:zitstelle ;
+    dtd:has_Value "2000, 1683"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,256 @@
+@prefix dtd: <urn:BAFG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160114215034"@de ;
+    dtd:has_doknr "BJNR242410009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48,
+        dtd:P-id49,
+        dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56,
+        dtd:P-id57 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DL-id32 a dtd:DL ;
+    dtd:has_DD dtd:DD-id37,
+        dtd:DD-id38,
+        dtd:DD-id39,
+        dtd:DD-id40 ;
+    dtd:has_DT dtd:DT-id33,
+        dtd:DT-id34,
+        dtd:DT-id35,
+        dtd:DT-id36 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verordnung (EG) Nr. 549/2004 des Europäischen Parlaments und des Rates vom 10. März 2004 zur Festlegung des Rahmens für die Schaffung eines einheitlichen europäischen Luftraums („Rahmenverordnung“) (ABl. EU Nr. L 96 S. 1),"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verordnung (EG) Nr. 550/2004 des Europäischen Parlaments und des Rates vom 10. März 2004 über die Erbringung von Flugsicherungsdiensten im einheitlichen europäischen Luftraum („Flugsicherungsdienste-Verordnung“) (ABl. EU Nr. L 96 S. 10),"@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verordnung (EG) Nr. 552/2004 des Europäischen Parlaments und des Rates vom 10. März 2004 über die Interoperabilität des europäischen Flugverkehrsmanagementnetzes („Interoperabilitäts-Verordnung“) (ABl. EU Nr. L 96 S. 26) und"@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verordnung (EG) Nr. 1315/2007 der Kommission vom 8. November 2007 über die Sicherheitsaufsicht im Bereich des Flugverkehrsmanagements und zur Änderung der Verordnung (EG) Nr. 2096/2005 der Kommission (ABl. EU Nr. L 291 S. 16)."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value " (+++ Textnachweis ab: 4.8.2009 +++) Das G wurde als Art. 1 des G v. 29.7.2009 I 2424 vom Bundestag beschlossen. Es ist gem. Art. 17 dieses G am 4.8.2009 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id58 .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(1) Es wird ein Bundesaufsichtsamt für Flugsicherung als nationale Aufsichtsbehörde für den Bereich der Flugsicherung errichtet. § 30 Abs. 2 des Luftverkehrsgesetzes bleibt unberührt."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesaufsichtsamt für Flugsicherung wird als Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur errichtet. Das Bundesaufsichtsamt für Flugsicherung untersteht der Rechts- und Fachaufsicht des Bundesministeriums für Verkehr und digitale Infrastruktur. Sitz des Bundesaufsichtsamtes für Flugsicherung ist die Stadt Langen in Hessen. Das Bundesministerium für Verkehr und digitale Infrastruktur kann jedoch im Bedarfsfall einen anderen Sitz bestimmen; die Entscheidung ist im Bundesanzeiger bekannt zu machen. Das Bundesaufsichtsamt für Flugsicherung wird von einem Direktor oder einer Direktorin geleitet."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_DL dtd:DL-id32 ;
+    dtd:has_Value "(3) Das Bundesaufsichtsamt für Flugsicherung nimmt neben den ihm im Luftverkehrsgesetz zugewiesenen Aufgaben weitere dem Bund obliegende Flugsicherungsaufgaben, insbesondere nach folgenden Rechtsvorschriften, wahr: 1.Verordnung (EG) Nr. 549/2004 des Europäischen Parlaments und des Rates vom 10. März 2004 zur Festlegung des Rahmens für die Schaffung eines einheitlichen europäischen Luftraums („Rahmenverordnung“) (ABl. EU Nr. L 96 S. 1),2.Verordnung (EG) Nr. 550/2004 des Europäischen Parlaments und des Rates vom 10. März 2004 über die Erbringung von Flugsicherungsdiensten im einheitlichen europäischen Luftraum („Flugsicherungsdienste-Verordnung“) (ABl. EU Nr. L 96 S. 10),3.Verordnung (EG) Nr. 552/2004 des Europäischen Parlaments und des Rates vom 10. März 2004 über die Interoperabilität des europäischen Flugverkehrsmanagementnetzes („Interoperabilitäts-Verordnung“) (ABl. EU Nr. L 96 S. 26) und4.Verordnung (EG) Nr. 1315/2007 der Kommission vom 8. November 2007 über die Sicherheitsaufsicht im Bereich des Flugverkehrsmanagements und zur Änderung der Verordnung (EG) Nr. 2096/2005 der Kommission (ABl. EU Nr. L 291 S. 16).Gleiches gilt für die Aufgaben, die dem Bund nach den auf der Grundlage dieser Verordnungen erlassenen Durchführungsverordnungen und weiteren Regelungen zur Schaffung eines einheitlichen europäischen Luftraums entstehen."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(4) Das Bundesministerium für Verkehr und digitale Infrastruktur kann dem Bundesaufsichtsamt für Flugsicherung weitere Aufgaben des Bundes auf dem Gebiet der Flugsicherung übertragen."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(5) In den Bereichen, in denen die Flugsicherungsorganisation als Beliehene tätig ist, kann das Bundesaufsichtsamt für Flugsicherung im Rahmen seiner Aufgabenerfüllung von der Flugsicherungsorganisation Berichte und die Vorlage von Aufzeichnungen aller Art zu jeder Zeit verlangen. Darüber hinaus ist den Bediensteten des Bundesaufsichtsamtes für Flugsicherung und den von ihnen beauftragten Personen, soweit dies zur Wahrnehmung ihrer Aufgaben erforderlich ist, das Betreten der Grundstücke und Geschäftsräume durch die Flugsicherungsorganisation zu gestatten. In den Bereichen einer privatrechtlichen Betätigung der Flugsicherungsorganisation gilt darüber hinaus, dass das Betreten außerhalb der Geschäftszeiten oder wenn die Geschäftsräume sich in einer Wohnung befinden, ohne Einverständnis nur zulässig und insoweit zu dulden ist, wie dies zur Verhütung von dringenden Gefahren für die öffentliche Sicherheit und Ordnung erforderlich ist und bei der Flugsicherungsorganisation in diesen Bereichen Anhaltspunkte für einen Verstoß gegen ein gesetzliches Verbot oder Gebot im Zusammenhang mit der privatrechtlichen Betätigung vorliegen. Das Grundrecht der Unverletzlichkeit der Wohnung wird insoweit eingeschränkt."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(1) Spätestens sechs Monate nach Errichtung des Bundesaufsichtsamtes für Flugsicherung finden Wahlen zur Personalvertretung statt. Bis zur Konstituierung des Personalrates werden die Aufgaben der Personalvertretung bei dem Bundesaufsichtsamt für Flugsicherung vom Hauptpersonalrat beim Bundesministerium für Verkehr und digitale Infrastruktur als Übergangspersonalrat des Bundesaufsichtsamtes für Flugsicherung wahrgenommen. Der Übergangspersonalrat bestellt unverzüglich den Wahlvorstand für die Durchführung der Personalratswahlen im Bundesaufsichtsamt für Flugsicherung."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 Satz 1 und 3 gilt entsprechend für die Jugend- und Auszubildendenvertretung sowie die Schwerbehindertenvertretung beim Bundesaufsichtsamt für Flugsicherung. Bis zur Neuwahl werden die Aufgaben von der Hauptschwerbehindertenvertretung sowie der Hauptjugend- und Auszubildendenvertretung des Bundesministeriums für Verkehr und digitale Infrastruktur wahrgenommen."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(3) Spätestens sechs Monate nach Errichtung des Bundesaufsichtsamtes für Flugsicherung findet die Wahl der Gleichstellungsbeauftragten und ihrer Stellvertreterin statt. Bis zur Bestellung der Gleichstellungsbeauftragten und ihrer Stellvertreterin beim Bundesaufsichtsamt für Flugsicherung werden ihre Aufgaben von der Gleichstellungsbeauftragten und ihrer Stellvertreterin beim Bundesministerium für Verkehr und digitale Infrastruktur wahrgenommen. Absatz 1 Satz 3 gilt entsprechend."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(4) Die Dienstvereinbarungen der Dienststelle Flugsicherung beim Luftfahrt-Bundesamt gelten bis zum Abschluss neuer Dienstvereinbarungen für alle Beamtinnen und Beamten sowie Arbeitnehmerinnen und Arbeitnehmer des Bundesaufsichtsamtes für Flugsicherung."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "BAFG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-07-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id59 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id60 .
+
+dtd:fussnoten-id23 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id45 .
+
+dtd:fussnoten-id25 a dtd:fussnoten .
+
+dtd:fussnoten-id27 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BAFG"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BAFG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BAFG"@de .
+
+dtd:langue-id15 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Errichtung des Bundesaufsichtsamtes für Flugsicherung"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id15 ;
+    dtd:has_standangabe dtd:standangabe-id16 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160114215034"@de ;
+    dtd:has_doknr "BJNR242410009"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160114215034"@de ;
+    dtd:has_doknr "BJNR242410009BJNE000101305"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160114215034"@de ;
+    dtd:has_doknr "BJNR242410009BJNE000201305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id59 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id58 a dtd:pre ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "(+++ Textnachweis ab: 4.8.2009 +++) Das G wurde als Art. 1 des G v. 29.7.2009 I 2424 vom Bundestag beschlossen. Es ist gem. Art. 17 dieses G am 4.8.2009 in Kraft getreten."@de .
+
+dtd:standangabe-id16 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id62 ;
+    dtd:has_standtyp dtd:standtyp-id61 .
+
+dtd:standkommentar-id62 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 584 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id61 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id23 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Bundesaufsichtsamt für Flugsicherung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value "Übergangsregelungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id60 a dtd:zitstelle ;
+    dtd:has_Value "2009, 2424"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

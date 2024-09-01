@@ -1,0 +1,911 @@
+@prefix dtd: <urn:SeemannsÄKostV-2001#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR425500001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:ABWFORMAT-id206 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:Content-id190 a dtd:Content ;
+    dtd:has_P dtd:P-id191 .
+
+dtd:Content-id192 a dtd:Content ;
+    dtd:has_P dtd:P-id193 .
+
+dtd:Content-id194 a dtd:Content ;
+    dtd:has_P dtd:P-id195 .
+
+dtd:Content-id196 a dtd:Content ;
+    dtd:has_P dtd:P-id197 .
+
+dtd:Content-id198 a dtd:Content ;
+    dtd:has_P dtd:P-id199 .
+
+dtd:Content-id200 a dtd:Content ;
+    dtd:has_P dtd:P-id201 .
+
+dtd:Content-id202 a dtd:Content ;
+    dtd:has_P dtd:P-id203 .
+
+dtd:P-id191 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id193 a dtd:P ;
+    dtd:has_BR dtd:BR-id44 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 1.2002 +++)Diese V ersetzt die V 9513-35 v. 14.7.1999 I 1624 (SeemannsÄKostV 1999)."@de ;
+    dtd:has_pre dtd:pre-id204 .
+
+dtd:P-id195 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 143a Abs. 2 des Seemannsgesetzes in der im Bundesgesetzblatt Teil III, Gliederungsnummer 9513-1, veröffentlichten bereinigten Fassung, der durch Artikel 26 des Gesetzes vom 23. Juni 1970 (BGBl. I S. 805) eingefügt und zuletzt durch Artikel 279 der Verordnung vom 29. Oktober 2001 (BGBl. I S. 2785) geändert worden ist, in Verbindung mit dem 2. Abschnitt des Verwaltungskostengesetzes vom 23. Juni 1970 (BGBl. I S. 821), verordnen das Bundesministerium für Verkehr, Bau- und Wohnungswesen und das Bundesministerium für Arbeit und Sozialordnung im Einvernehmen mit dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id197 a dtd:P ;
+    dtd:has_Value "Die Seemannsämter erheben für Amtshandlungen auf dem Gebiet des Seemannsrechts Gebühren nach der Anlage zu dieser Verordnung. Neben den Gebühren werden Auslagen erhoben."@de .
+
+dtd:P-id199 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 2002 in Kraft."@de .
+
+dtd:P-id201 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id203 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id206 ;
+    dtd:has_BR dtd:BR-id47 ;
+    dtd:has_Value "Fundstelle des Originaltextes: BGBl. I 2001, 4256 - 4257Lfd. Nr.GegenstandRechtsgrundlageGebühr Euro1Ausstellung eines Seefahrtbuches§ 11 Abs. 2 Seemannsgesetz212Verlängerung der Gültigkeitsdauer eines Seefahrtbuches§ 5 Abs. 2 Seemannsamts-Verordnung103Ersatz eines Seefahrtsbuches§ 11 Abs. 3 Seemannsgesetz264Ausfertigung einer Musterrolle bei Erstausfertigung oder Generalmusterung§ 13 Abs. 2, § 20 Seemannsgesetz315Änderung der Musterrolle (außer im Falle der An-, Um- oder Abmusterung)§ 14 Nr. 1 bis 3 Seemannsgesetz116Ausfertigung einer Beilage zur Musterrolle§ 11 Abs. 3 Seemannsamts-Verordnung137An-, Um- oder Abmusterung sowie Generalmusterung von Besatzungsmitgliedern oder sonstiger im Rahmen des Schiffsbetriebs an Bord tätiger Personen§§ 15, 19 Seemannsgesetz § 13 Seemannsamts-Verordnung87.1Befreiung vom Musterungserfordernis je Schiff§ 141a Seemannsgesetz528Die Gebühr zu Nummer 7 erhöht sich für Amtshandlungen  8.1innerhalb der Dienstzeit und außerhalb der Diensträume je Einzelmusterung um 50 vom Hundertje Musterungsverhandlung mindestens 218.2außerhalb der Dienstzeit und innerhalb der Diensträume je Einzelmusterung um 75 vom Hundertje Musterungsverhandlung mindestens 318.3außerhalb der Dienstzeit und außerhalb der Diensträume je Einzelmusterung um 100 vom Hundertje Musterungsverhandlung mindestens 418.4Außerhalb des Geltungsbereiches des Grundgesetzes 150 vom Hundertje Einzelmusterung bis zu je Musterungsverhandlung mindestens 509Die Gebühren zu den Nummern 1 bis 3 und 5 erhöhen sich, wenn diese Amtshandlungen nicht im Zusammenhang mit einer Musterung nach Nummer 7 durchgeführt werden:  9.1innerhalb der Dienstzeit und außerhalb der Diensträume um 75 vom Hundert9.2außerhalb der Dienstzeit und innerhalb der Diensträume um 100 vom Hundert9.3außerhalb der Dienstzeit und außerhalb der Diensträume um 150 vom Hundert9.4außerhalb des Geltungsbereiches des Grundgesetzes um 100 bis 150 vom Hundert des Gebührensatzes nach Nr. 710Widerruf oder Rücknahme einer Amtshandlung, soweit der Betroffene dazu Anlass gegeben hat bis zu 75 vom Hundert der Amtshandlungsgebühr11Antragsablehnungen aus anderen Gründen als wegen Unzuständigkeit oder Rücknahme eines Antrages auf Vornahme einer Amtshandlung nach Beginn der sachlichen Bearbeitung, jedoch vor deren Beendigung bis zu 75 vom Hundert der Amtshandlungsgebühr12Teilweise oder vollständige Zurückweisung des Widerspruchs, soweit sich der Widerspruch nicht ausschließlich gegen eine Kostenentscheidung richtet 11 bis zu dem Betrag, der für die Vornahme der angefochtenen Amtshandlung vorgesehen istDies gilt nicht, wenn der Widerspruch nur deshalb keinen Erfolg hat, weil die Verletzung einer Verfahrens- oder Formvorschrift nach § 45 des Verwaltungsverfahrensgesetzes unbeachtlich ist.  13Rücknahme des Widerspruchs nach Beginn der sachlichen Bearbeitung, jedoch vor deren Beendigung bis zu 75 vom Hundert der Gebühr nach Nr. 12"@de ;
+    dtd:has_kommentar dtd:kommentar-id205 ;
+    dtd:has_table dtd:table-id48 .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "SeemannsÄKostV 2001"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-12-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id50 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "38.000000pt"@de .
+
+dtd:colspec-id51 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "506.000000pt"@de .
+
+dtd:colspec-id52 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "173.000000pt"@de .
+
+dtd:colspec-id53 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "210.000000pt"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_Value "Ausfertigung einer Musterrolle bei Erstausfertigung oder Generalmusterung"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_Value "§ 13 Abs. 2, § 20 Seemannsgesetz"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_Value "31"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_Value "5"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_Value "Änderung der Musterrolle (außer im Falle der An-, Um- oder Abmusterung)"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_Value "§ 14 Nr. 1 bis 3 Seemannsgesetz"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_Value "11"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_Value "6"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_Value "Ausfertigung einer Beilage zur Musterrolle"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_Value "§ 11 Abs. 3 Seemannsamts-Verordnung"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_Value "13"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_Value "7"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_Value "An-, Um- oder Abmusterung sowie Generalmusterung von Besatzungsmitgliedern oder sonstiger im Rahmen des Schiffsbetriebs an Bord tätiger Personen"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_Value "§§ 15, 19 Seemannsgesetz § 13 Seemannsamts-Verordnung"@de .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_Value "8"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_Value "7.1"@de .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_Value "Befreiung vom Musterungserfordernis je Schiff"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_Value "§ 141a Seemannsgesetz"@de .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_Value "52"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_Value "8"@de .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_Value "Die Gebühr zu Nummer 7 erhöht sich für Amtshandlungen"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_Value "8.1"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_Value "innerhalb der Dienstzeit und außerhalb der Diensträume je Einzelmusterung um"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_Value "50 vom Hundert"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_Value "je Musterungsverhandlung mindestens"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_Value "21"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_Value "8.2"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_Value "außerhalb der Dienstzeit und innerhalb der Diensträume je Einzelmusterung um"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_Value "75 vom Hundert"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_Value "je Musterungsverhandlung mindestens"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_Value "31"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_Value "8.3"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_Value "außerhalb der Dienstzeit und außerhalb der Diensträume je Einzelmusterung um"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_Value "100 vom Hundert"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_Value "je Musterungsverhandlung mindestens"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id143 a dtd:entry ;
+    dtd:has_Value "41"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id144 a dtd:entry ;
+    dtd:has_Value "8.4"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id145 a dtd:entry ;
+    dtd:has_Value "Außerhalb des Geltungsbereiches des Grundgesetzes"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id146 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id147 a dtd:entry ;
+    dtd:has_Value "150 vom Hundert"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id148 a dtd:entry ;
+    dtd:has_Value "je Einzelmusterung bis zu je Musterungsverhandlung mindestens"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id149 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id150 a dtd:entry ;
+    dtd:has_Value "50"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id151 a dtd:entry ;
+    dtd:has_Value "9"@de .
+
+dtd:entry-id152 a dtd:entry ;
+    dtd:has_Value "Die Gebühren zu den Nummern 1 bis 3 und 5 erhöhen sich, wenn diese Amtshandlungen nicht im Zusammenhang mit einer Musterung nach Nummer 7 durchgeführt werden:"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id153 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id154 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id155 a dtd:entry ;
+    dtd:has_Value "9.1"@de .
+
+dtd:entry-id156 a dtd:entry ;
+    dtd:has_Value "innerhalb der Dienstzeit und außerhalb der Diensträume um"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id157 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id158 a dtd:entry ;
+    dtd:has_Value "75 vom Hundert"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id159 a dtd:entry ;
+    dtd:has_Value "9.2"@de .
+
+dtd:entry-id160 a dtd:entry ;
+    dtd:has_Value "außerhalb der Dienstzeit und innerhalb der Diensträume um"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id161 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id162 a dtd:entry ;
+    dtd:has_Value "100 vom Hundert"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id163 a dtd:entry ;
+    dtd:has_Value "9.3"@de .
+
+dtd:entry-id164 a dtd:entry ;
+    dtd:has_Value "außerhalb der Dienstzeit und außerhalb der Diensträume um"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id165 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id166 a dtd:entry ;
+    dtd:has_Value "150 vom Hundert"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id167 a dtd:entry ;
+    dtd:has_Value "9.4"@de .
+
+dtd:entry-id168 a dtd:entry ;
+    dtd:has_Value "außerhalb des Geltungsbereiches des Grundgesetzes um"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id169 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id170 a dtd:entry ;
+    dtd:has_Value "100 bis 150 vom Hundert des Gebührensatzes nach Nr. 7"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id171 a dtd:entry ;
+    dtd:has_Value "10"@de .
+
+dtd:entry-id172 a dtd:entry ;
+    dtd:has_Value "Widerruf oder Rücknahme einer Amtshandlung, soweit der Betroffene dazu Anlass gegeben hat"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id173 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id174 a dtd:entry ;
+    dtd:has_Value "bis zu 75 vom Hundert der Amtshandlungsgebühr"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id175 a dtd:entry ;
+    dtd:has_Value "11"@de .
+
+dtd:entry-id176 a dtd:entry ;
+    dtd:has_Value "Antragsablehnungen aus anderen Gründen als wegen Unzuständigkeit oder Rücknahme eines Antrages auf Vornahme einer Amtshandlung nach Beginn der sachlichen Bearbeitung, jedoch vor deren Beendigung"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id177 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id178 a dtd:entry ;
+    dtd:has_Value "bis zu 75 vom Hundert der Amtshandlungsgebühr"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id179 a dtd:entry ;
+    dtd:has_Value "12"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id180 a dtd:entry ;
+    dtd:has_Value "Teilweise oder vollständige Zurückweisung des Widerspruchs, soweit sich der Widerspruch nicht ausschließlich gegen eine Kostenentscheidung richtet"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id181 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id182 a dtd:entry ;
+    dtd:has_Value "11 bis zu dem Betrag, der für die Vornahme der angefochtenen Amtshandlung vorgesehen ist"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id183 a dtd:entry ;
+    dtd:has_Value "Dies gilt nicht, wenn der Widerspruch nur deshalb keinen Erfolg hat, weil die Verletzung einer Verfahrens- oder Formvorschrift nach § 45 des Verwaltungsverfahrensgesetzes unbeachtlich ist."@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id184 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id185 a dtd:entry ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id186 a dtd:entry ;
+    dtd:has_Value "13"@de .
+
+dtd:entry-id187 a dtd:entry ;
+    dtd:has_Value "Rücknahme des Widerspruchs nach Beginn der sachlichen Bearbeitung, jedoch vor deren Beendigung"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id188 a dtd:entry ;
+    dtd:has_Value " "@de .
+
+dtd:entry-id189 a dtd:entry ;
+    dtd:has_Value "bis zu 75 vom Hundert der Gebühr nach Nr. 12"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_Value "Lfd. Nr."@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_Value "Gegenstand"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_Value "Rechtsgrundlage"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_Value "Gebühr Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_Value "1"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_Value "Ausstellung eines Seefahrtbuches"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_Value "§ 11 Abs. 2 Seemannsgesetz"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_Value "21"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_Value "2"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_Value "Verlängerung der Gültigkeitsdauer eines Seefahrtbuches"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_Value "§ 5 Abs. 2 Seemannsamts-Verordnung"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_Value "10"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_Value "3"@de .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_Value "Ersatz eines Seefahrtsbuches"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_Value "§ 11 Abs. 3 Seemannsgesetz"@de .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_Value "26"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_Value "4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id207 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id208 .
+
+dtd:fussnoten-id37 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id192 .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SeemannsÄKostV 2001"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "SeemannsÄKostV 2001"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "SeemannsÄKostV 2001"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "SeemannsÄKostV 2001"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "SeemannsÄKostV 2001"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "SeemannsÄKostV 2001"@de .
+
+dtd:kommentar-id205 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle des Originaltextes: BGBl. I 2001, 4256 - 4257"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value "Kostenverordnung für Amtshandlungen der Seemannsämter"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id24 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR425500001"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR425500001BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR425500001BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR425500001BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR425500001BJNE000400305"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR425500001BJNE000500305"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id207 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id204 a dtd:pre ;
+    dtd:has_BR dtd:BR-id45,
+        dtd:BR-id46 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.2002 +++)"@de .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84,
+        dtd:entry-id85,
+        dtd:entry-id86 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88,
+        dtd:entry-id89,
+        dtd:entry-id90 .
+
+dtd:row-id57 a dtd:row ;
+    dtd:has_entry dtd:entry-id91,
+        dtd:entry-id92,
+        dtd:entry-id93,
+        dtd:entry-id94 .
+
+dtd:row-id58 a dtd:row ;
+    dtd:has_entry dtd:entry-id95,
+        dtd:entry-id96,
+        dtd:entry-id97,
+        dtd:entry-id98 .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101,
+        dtd:entry-id102,
+        dtd:entry-id99 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id103,
+        dtd:entry-id104,
+        dtd:entry-id105,
+        dtd:entry-id106 .
+
+dtd:row-id61 a dtd:row ;
+    dtd:has_entry dtd:entry-id107,
+        dtd:entry-id108,
+        dtd:entry-id109,
+        dtd:entry-id110 .
+
+dtd:row-id62 a dtd:row ;
+    dtd:has_entry dtd:entry-id111,
+        dtd:entry-id112,
+        dtd:entry-id113,
+        dtd:entry-id114 .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id115,
+        dtd:entry-id116,
+        dtd:entry-id117,
+        dtd:entry-id118 .
+
+dtd:row-id64 a dtd:row ;
+    dtd:has_entry dtd:entry-id119,
+        dtd:entry-id120,
+        dtd:entry-id121,
+        dtd:entry-id122 .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id123,
+        dtd:entry-id124,
+        dtd:entry-id125,
+        dtd:entry-id126 .
+
+dtd:row-id66 a dtd:row ;
+    dtd:has_entry dtd:entry-id127,
+        dtd:entry-id128,
+        dtd:entry-id129 .
+
+dtd:row-id67 a dtd:row ;
+    dtd:has_entry dtd:entry-id130,
+        dtd:entry-id131,
+        dtd:entry-id132,
+        dtd:entry-id133 .
+
+dtd:row-id68 a dtd:row ;
+    dtd:has_entry dtd:entry-id134,
+        dtd:entry-id135,
+        dtd:entry-id136 .
+
+dtd:row-id69 a dtd:row ;
+    dtd:has_entry dtd:entry-id137,
+        dtd:entry-id138,
+        dtd:entry-id139,
+        dtd:entry-id140 .
+
+dtd:row-id70 a dtd:row ;
+    dtd:has_entry dtd:entry-id141,
+        dtd:entry-id142,
+        dtd:entry-id143 .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id144,
+        dtd:entry-id145,
+        dtd:entry-id146,
+        dtd:entry-id147 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id148,
+        dtd:entry-id149,
+        dtd:entry-id150 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id151,
+        dtd:entry-id152,
+        dtd:entry-id153,
+        dtd:entry-id154 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id155,
+        dtd:entry-id156,
+        dtd:entry-id157,
+        dtd:entry-id158 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id159,
+        dtd:entry-id160,
+        dtd:entry-id161,
+        dtd:entry-id162 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id163,
+        dtd:entry-id164,
+        dtd:entry-id165,
+        dtd:entry-id166 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id167,
+        dtd:entry-id168,
+        dtd:entry-id169,
+        dtd:entry-id170 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id171,
+        dtd:entry-id172,
+        dtd:entry-id173,
+        dtd:entry-id174 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id175,
+        dtd:entry-id176,
+        dtd:entry-id177,
+        dtd:entry-id178 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id179,
+        dtd:entry-id180,
+        dtd:entry-id181,
+        dtd:entry-id182 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id183,
+        dtd:entry-id184,
+        dtd:entry-id185 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id186,
+        dtd:entry-id187,
+        dtd:entry-id188,
+        dtd:entry-id189 .
+
+dtd:table-id48 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id49 .
+
+dtd:tbody-id54 a dtd:tbody ;
+    dtd:has_row dtd:row-id55,
+        dtd:row-id56,
+        dtd:row-id57,
+        dtd:row-id58,
+        dtd:row-id59,
+        dtd:row-id60,
+        dtd:row-id61,
+        dtd:row-id62,
+        dtd:row-id63,
+        dtd:row-id64,
+        dtd:row-id65,
+        dtd:row-id66,
+        dtd:row-id67,
+        dtd:row-id68,
+        dtd:row-id69,
+        dtd:row-id70,
+        dtd:row-id71,
+        dtd:row-id72,
+        dtd:row-id73,
+        dtd:row-id74,
+        dtd:row-id75,
+        dtd:row-id76,
+        dtd:row-id77,
+        dtd:row-id78,
+        dtd:row-id79,
+        dtd:row-id80,
+        dtd:row-id81,
+        dtd:row-id82 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id190 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id194 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id196 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id198 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id200 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id202 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:tgroup-id49 a dtd:tgroup ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id50,
+        dtd:colspec-id51,
+        dtd:colspec-id52,
+        dtd:colspec-id53 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id54 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "(zu § 1)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id208 a dtd:zitstelle ;
+    dtd:has_Value "2001, 4255"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:top rdfs:label "top"@de .
+

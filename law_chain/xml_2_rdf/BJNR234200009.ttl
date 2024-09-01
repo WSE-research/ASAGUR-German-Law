@@ -1,0 +1,247 @@
+@prefix dtd: <urn:ESGV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151545"@de ;
+    dtd:has_doknr "BJNR234200009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48,
+        dtd:P-id49,
+        dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_BR dtd:BR-id42 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.8.2009 +++)"@de ;
+    dtd:has_pre dtd:pre-id58 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 16b Absatz 3 des Zweiten Buches Sozialgesetzbuch – Grundsicherung für Arbeitsuchende – (Artikel 1 des Gesetzes vom 24. Dezember 2003, BGBl. I S. 2954, 2955), der durch Artikel 2 Nummer 6 des Gesetzes vom 21. Dezember 2008 (BGBl. I S. 2917) eingefügt worden ist, verordnet das Bundesministerium für Arbeit und Soziales im Einvernehmen mit dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(1) Bei der einzelfallbezogenen Bemessung des Einstiegsgeldes ist ein monatlicher Grundbetrag zu bestimmen, dem Ergänzungsbeträge hinzugefügt werden sollen. Der monatliche Grundbetrag berücksichtigt den für erwerbsfähige Leistungsberechtigte jeweils maßgebenden Regelbedarf. Die Ergänzungsbeträge berücksichtigen die vorherige Dauer der Arbeitslosigkeit und die Größe der Bedarfsgemeinschaft, in der die oder der erwerbsfähige Leistungsberechtigte lebt."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(2) Der Grundbetrag des Einstiegsgeldes darf höchstens 50 vom Hundert des für erwerbsfähige Leistungsberechtigte maßgebenden Regelbedarfs nach § 20 des Zweiten Buches Sozialgesetzbuch betragen. Bei der Bemessung kann festgelegt werden, dass sich die Höhe des Grundbetrages innerhalb des Förderzeitraums in Abhängigkeit von der Förderdauer verändert."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(3) Bei erwerbsfähigen Leistungsberechtigten, die vor Aufnahme der mit Einstiegsgeld geförderten sozialversicherungspflichtigen oder selbständigen Erwerbstätigkeit bereits zwei Jahre oder länger arbeitslos waren, soll ein Ergänzungsbetrag gezahlt werden. Der Ergänzungsbetrag entspricht 20 vom Hundert des Regelbedarfs zur Sicherung des Lebensunterhalts nach § 20 Absatz 2 Satz 1 des Zweiten Buches Sozialgesetzbuch. Bei Personen, deren Eingliederung in Arbeit wegen in ihrer Person liegender Umstände erschwert ist, soll der Ergänzungsbetrag nach Satz 2 bereits nach einer vorherigen Dauer der Arbeitslosigkeit von mindestens sechs Monaten gezahlt werden. § 18 Absatz 2 des Dritten Buches Sozialgesetzbuch gilt für Satz 1 und Satz 3 entsprechend."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(4) Bei erwerbsfähigen Leistungsberechtigten, die mit weiteren Personen in einer Bedarfsgemeinschaft leben, soll je weiterer leistungsberechtigter Person ein Ergänzungsbetrag gezahlt werden. Der Ergänzungsbetrag entspricht 10 vom Hundert des Regelbedarfs zur Sicherung des Lebensunterhalts nach § 20 Absatz 2 Satz 1 des Zweiten Buches Sozialgesetzbuch."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(5) Das Einstiegsgeld für erwerbsfähige Leistungsberechtigte darf bei der einzelfallbezogenen Bemessung monatlich einen Gesamtbetrag nicht überschreiten, der dem Regelbedarf zur Sicherung des Lebensunterhalts nach § 20 Absatz 2 Satz 1 des Zweiten Buches Sozialgesetzbuch entspricht."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(1) Das Einstiegsgeld kann abweichend von § 1 pauschal bemessen werden, wenn dies zur Eingliederung von besonders zu fördernden Personengruppen in den allgemeinen Arbeitsmarkt erforderlich ist. Bei der Bemessung kann festgelegt werden, dass sich die Höhe des Einstiegsgeldes innerhalb des Förderzeitraums in Abhängigkeit von der Förderdauer verändert."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Das Einstiegsgeld für erwerbsfähige Leistungsberechtigte darf in den Fällen des Absatzes 1 monatlich einen Betrag nicht überschreiten, der 75 vom Hundert des Regelbedarfs zur Sicherung des Lebensunterhalts nach § 20 Absatz 2 Satz 1 des Zweiten Buches Sozialgesetzbuch entspricht."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am ersten Tag des auf die Verkündung folgenden Kalendermonats in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "ESGV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-07-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id59 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id60 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id43 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "ESGV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "ESGV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "ESGV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "ESGV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ESGV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Einstiegsgeld-Verordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Bemessung von Einstiegsgeld"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151545"@de ;
+    dtd:has_doknr "BJNR234200009"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151545"@de ;
+    dtd:has_doknr "BJNR234200009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151545"@de ;
+    dtd:has_doknr "BJNR234200009BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151545"@de ;
+    dtd:has_doknr "BJNR234200009BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625151545"@de ;
+    dtd:has_doknr "BJNR234200009BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id59 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id58 a dtd:pre ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.8.2009 +++)"@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id62 ;
+    dtd:has_standtyp dtd:standtyp-id61 .
+
+dtd:standkommentar-id62 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 8 G v. 24.3.2011 I 453"@de .
+
+dtd:standtyp-id61 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Einzelfallbezogene Bemessung des Einstiegsgeldes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Pauschale Bemessung des Einstiegsgeldes bei besonders zu fördernden Personengruppen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id60 a dtd:zitstelle ;
+    dtd:has_Value "2009, 2342"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

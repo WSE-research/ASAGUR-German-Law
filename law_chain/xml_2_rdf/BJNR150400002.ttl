@@ -1,0 +1,555 @@
+@prefix dtd: <urn:FinDAGKostV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id93 a dtd:BR .
+
+dtd:BR-id94 a dtd:BR .
+
+dtd:BR-id95 a dtd:BR .
+
+dtd:BR-id96 a dtd:BR .
+
+dtd:BR-id97 a dtd:BR .
+
+dtd:Content-id105 a dtd:Content ;
+    dtd:has_P dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DL-id98 a dtd:DL ;
+    dtd:has_DD dtd:DD-id101,
+        dtd:DD-id102 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des § 14 Abs. 2 Satz 1 und 3 und Abs. 3 des Finanzdienstleistungsaufsichtsgesetzes vom 22. April 2002 (BGBl. I S. 1310) in Verbindung mit dem 2. Abschnitt des Verwaltungskostengesetzes vom 23. Juni 1970 (BGBl. I S. 821) und"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des § 16 Satz 2 und 3 des Finanzdienstleistungsaufsichtsgesetzes"@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_BR dtd:BR-id93 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.5.2002 +++)(+++ Zur Anwendung vgl. § 13 Abs. 4 u. § 13 Abs. 7 iVm Abs. 8 bis 10 F. bis 2011-12-22 +++)Überschrift: IdF d. Art. 4 Abs. 77 Nr. 1 G v. 18.7.2016 I 1666 mWv 1.10.2021"@de ;
+    dtd:has_pre dtd:pre-id130 .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_DL dtd:DL-id98 ;
+    dtd:has_Value "Auf Grund -des § 14 Abs. 2 Satz 1 und 3 und Abs. 3 des Finanzdienstleistungsaufsichtsgesetzes vom 22. April 2002 (BGBl. I S. 1310) in Verbindung mit dem 2. Abschnitt des Verwaltungskostengesetzes vom 23. Juni 1970 (BGBl. I S. 821) und-des § 16 Satz 2 und 3 des Finanzdienstleistungsaufsichtsgesetzesverordnet das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(1) In den Fällen, in denen aufgrund der Übergangsvorschriften der §§ 345 bis 350, 355 des Kapitalanlagegesetzbuches weiterhin Amtshandlungen auf Grundlage des Investmentgesetzes erforderlich sind, sind die Gebührennummern 4. bis 4.1.3.7 der Anlage (zu § 2 Absatz 1) Gebührenverzeichnis in der bis zum 21. Juli 2013 geltenden Fassung weiterhin anzuwenden."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(2) Die Gebührennummern 4.3 bis 4.4.3 der Anlage (Gebührenverzeichnis) finden auch auf die am 4. September 2013 anhängigen Verwaltungsverfahren Anwendung."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "Die Umlage-Verordnung Kredit- und Finanzdienstleistungswesen vom 8. März 1999 (BGBl. I S. 314), zuletzt geändert durch die Verordnung vom 20. Dezember 2001 (BGBl. I S. 3911), und die Umlage-Verordnung-Wertpapierhandel vom 22. Februar 1999 (BGBl. I S. 179), zuletzt geändert durch die Verordnung vom 18. April 2001 (BGBl. I S. 611), werden aufgehoben. Sie sind in der bis zum Tag vor dem Inkrafttreten dieser Verordnung geltenden Fassung auf die Umlegung der Kosten der Bundesaufsichtsämter für das Kreditwesen und den Wertpapierhandel für die Umlagejahre 1998, 1999, 2000, 2001 und des bis zum Inkrafttreten dieser Verordnung verbleibenden Abrechnungszeitraums des Jahres 2002 weiter anzuwenden."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Mai 2002 in Kraft."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:amtabk-id39 a dtd:amtabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id40 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-04-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 1 bis 4"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 5 bis 12b"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 13"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 13a"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 14"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 15"@de .
+
+dtd:enbez-id71 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id41 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id140 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id141 .
+
+dtd:fussnoten-id73 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id105 .
+
+dtd:fussnoten-id76 a dtd:fussnoten .
+
+dtd:fussnoten-id78 a dtd:fussnoten .
+
+dtd:fussnoten-id81 a dtd:fussnoten .
+
+dtd:fussnoten-id83 a dtd:fussnoten .
+
+dtd:fussnoten-id85 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:fussnoten-id89 a dtd:fussnoten .
+
+dtd:fussnoten-id92 a dtd:fussnoten .
+
+dtd:gliederungsbez-id132 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 1"@de .
+
+dtd:gliederungsbez-id135 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 2"@de .
+
+dtd:gliederungsbez-id138 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 3"@de .
+
+dtd:gliederungseinheit-id47 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id132 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id131 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id133 .
+
+dtd:gliederungseinheit-id52 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id135 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id134 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id136 .
+
+dtd:gliederungseinheit-id57 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id138 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id137 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id139 .
+
+dtd:gliederungskennzahl-id131 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id134 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id137 a dtd:gliederungskennzahl ;
+    dtd:has_Value "030"@de .
+
+dtd:gliederungstitel-id133 a dtd:gliederungstitel ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:gliederungstitel-id136 a dtd:gliederungstitel ;
+    dtd:has_Value "Umlage"@de .
+
+dtd:gliederungstitel-id139 a dtd:gliederungstitel ;
+    dtd:has_Value "Übergangs- und Schlussbestimmungen"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "FinDAGKostV"@de .
+
+dtd:langue-id42 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Umlegung von Kosten nach dem Finanzdienstleistungsaufsichtsgesetz"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id39 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id40 ;
+    dtd:has_fundstelle dtd:fundstelle-id41 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_langue dtd:langue-id42 ;
+    dtd:has_standangabe dtd:standangabe-id43 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id71 ;
+    dtd:has_jurabk dtd:jurabk-id70 ;
+    dtd:has_titel dtd:titel-id72 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNE002101308"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNE001401377"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNE001500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNE001734301"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNE000000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNG000102301"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNE000106301"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNG000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNE000506360"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNG000401112"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231128213545"@de ;
+    dtd:has_doknr "BJNR150400002BJNE001314360"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id140 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id130 a dtd:pre ;
+    dtd:has_BR dtd:BR-id94,
+        dtd:BR-id95,
+        dtd:BR-id96,
+        dtd:BR-id97 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.5.2002 +++)(+++ Zur Anwendung vgl. § 13 Abs. 4 u. § 13 Abs. 7 iVm Abs. 8 bis 10 F. bis 2011-12-22 +++)"@de .
+
+dtd:standangabe-id43 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id143 ;
+    dtd:has_standtyp dtd:standtyp-id142 .
+
+dtd:standkommentar-id143 a dtd:standkommentar ;
+    dtd:has_Value "zuletzt geändert durch Art. 27 G v. 3.6.2021 I 1568"@de .
+
+dtd:standtyp-id142 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id81 ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id83 ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id89 ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id92 ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Übergangsregelungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Aufhebung von Rechtsvorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id72 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id141 a dtd:zitstelle ;
+    dtd:has_Value "2002, 1504 (1847)"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

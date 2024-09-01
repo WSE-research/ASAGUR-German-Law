@@ -1,0 +1,71 @@
+@prefix dtd: <urn:LuftVODV-226#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240424214509"@de ;
+    dtd:has_doknr "BJNR500610006"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:Content-id11 a dtd:Content ;
+    dtd:has_P dtd:P-id12 .
+
+dtd:P-id12 a dtd:P ;
+    dtd:has_Value "Wegen nicht darstellbarer Zeichen nur mit der Überschrift aufgenommen"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-12-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id13 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id14 .
+
+dtd:fundstelle-id8 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id15 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id16 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id11 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "LuftVODV 226"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value "Zweihundertsechsundzwanzigste Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Verkehrslandeplatz Allendorf/Eder)"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7,
+        dtd:fundstelle-id8 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id9 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240424214509"@de ;
+    dtd:has_doknr "BJNR500610006"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id13 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:periodikum-id15 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 .
+
+dtd:zitstelle-id14 a dtd:zitstelle ;
+    dtd:has_Value "2006, Nr 6, 79"@de .
+
+dtd:zitstelle-id16 a dtd:zitstelle ;
+    dtd:has_Value "2006, 79"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+

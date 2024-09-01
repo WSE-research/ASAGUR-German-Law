@@ -1,0 +1,112 @@
+@prefix dtd: <urn:RheinMainDonSchStrGBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093501"@de ;
+    dtd:has_doknr "BJNR007090972"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21 .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 28. 4.1972 +++)"@de .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_SP dtd:SP-id19 ;
+    dtd:has_Value "Gemäß § 1 Abs. 3 des Gesetzes über den rechtlichen Status der Rhein-Main-Donau-Großschiffahrtsstraße zwischen dem Main und Nürnberg und über die damit zusammenhängenden Eigentumsverhältnisse vom 29. November 1967 (Bundesgesetzbl. II S. 2521) wird bekanntgegeben, daß die Teilstrecke des Main-Donau-Kanals vom Unterwasser der Schleuse Kriegenbrunn (Kanalkilometer 48,00) bis einschließlich der Lände Fürth (Kanalkilometer 55,50) vom 1. Juni 1972 an dem allgemeinen Verkehr dient.Der Bundesminister für Verkehr"@de .
+
+dtd:SP-id19 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Verkehr"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1972-04-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id26 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id27 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id22 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "RheinMainDonSchStrGBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "RheinMainDonSchStrGBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung zu dem Gesetz über den rechtlichen Status der
+Rhein-Main-Donau-Großschiffahrtsstraße zwischen dem Main und Nürnberg und über
+die damit zusammenhängenden Eigentumsverhältnisse"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093501"@de ;
+    dtd:has_doknr "BJNR007090972"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093501"@de ;
+    dtd:has_doknr "BJNR007090972BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id26 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id20 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id27 a dtd:zitstelle ;
+    dtd:has_Value "1972, 709"@de .
+

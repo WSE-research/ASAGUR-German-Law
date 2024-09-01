@@ -1,0 +1,240 @@
+@prefix dtd: <urn:BlindKennzV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154221"@de ;
+    dtd:has_doknr "BJNR169600006"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.9.2006 +++)"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 12 Abs. 1 Satz 1 Nr. 2 des Arzneimittelgesetzes in der Fassung der Bekanntmachung vom 12. Dezember 2005 (BGBl. I S. 3394) verordnet das Bundesministerium für Gesundheit im Einvernehmen mit dem Bundesministerium für Wirtschaft und Technologie:"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt für zur Anwendung bei Menschen bestimmte Fertigarzneimittel, die den arzneimittelrechtlichen Vorschriften über die Kennzeichnung in Blindenschrift unterliegen und von einem pharmazeutischen Unternehmer in Kleinstmengen bis zu 7.000 Packungen in einem Jahr in den Verkehr gebracht werden."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Für die in § 1 genannten Arzneimittel müssen die nach § 10 Abs. 1b des Arzneimittelgesetzes vorgeschriebenen Angaben nicht angebracht werden, sofern bei einer Abgabe der Arzneimittel durch die Apotheke an blinde oder sehbehinderte Personen diese Angaben in Blindenschrift und normaler Schrift auf einem Klebeetikett auf der Packung angebracht werden oder, falls dies wegen des Umfangs der Bezeichnung nicht möglich ist, separat auf einem Informationsblatt übermittelt werden; es können geeignete Abkürzungen verwendet werden. Die Information in Blindenschrift nach Satz 1 ist vom pharmazeutischen Unternehmer bereitzustellen."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "Die Verordnung tritt am 1. September 2006 in Kraft."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2006-07-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id59 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id60 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BlindKennzV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "BlindKennzV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "BlindKennzV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "BlindKennzV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BlindKennzV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "BlindKennzV"@de .
+
+dtd:kurzue-id23 a dtd:kurzue ;
+    dtd:has_Value "Blindenschrift-Kennzeichnungs-Verordnung"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Kennzeichnung von Arzneimitteln in Blindenschrift 
+bei Kleinstmengen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id23 ;
+    dtd:has_langue dtd:langue-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154221"@de ;
+    dtd:has_doknr "BJNR169600006"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154221"@de ;
+    dtd:has_doknr "BJNR169600006BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154221"@de ;
+    dtd:has_doknr "BJNR169600006BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154221"@de ;
+    dtd:has_doknr "BJNR169600006BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625154221"@de ;
+    dtd:has_doknr "BJNR169600006BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625154221"@de ;
+    dtd:has_doknr "BJNR169600006BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id59 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Kennzeichnung von Kleinstmengen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id60 a dtd:zitstelle ;
+    dtd:has_Value "2006, 1696"@de .
+

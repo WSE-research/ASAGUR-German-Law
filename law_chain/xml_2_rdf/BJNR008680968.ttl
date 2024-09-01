@@ -1,0 +1,136 @@
+@prefix dtd: <urn:BPräsAmtsbezAnO-1968#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125304"@de ;
+    dtd:has_doknr "BJNR008680968"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29 .
+
+dtd:DD-id20 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id22 .
+
+dtd:DD-id21 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id23 .
+
+dtd:DL-id17 a dtd:DL ;
+    dtd:has_DD dtd:DD-id20,
+        dtd:DD-id21 ;
+    dtd:has_DT dtd:DT-id18,
+        dtd:DT-id19 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id18 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id19 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id22 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Präsident des Deutschen Institutes für medizinische Dokumentation und Information"@de .
+
+dtd:LA-id23 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Direktor beim Bundesbeauftragten für den Steinkohlenbergbau und die Steinkohlenbergbaugebiete."@de .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  3. 7.1968 +++)"@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_DL dtd:DL-id17 ;
+    dtd:has_Value "Gemäß § 81 Abs. 1 des Bundesbeamtengesetzes setze ich folgende Amtsbezeichnungen fest: 1.Präsident des Deutschen Institutes für medizinische Dokumentation und Information2.Direktor beim Bundesbeauftragten für den Steinkohlenbergbau und die Steinkohlenbergbaugebiete."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1968-07-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id30 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id31 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id26 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BPräsAmtsbezAnO 1968"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BPräsAmtsbezAnO 1968"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Anordnung des Bundespräsidenten über die Festsetzung von
+Amtsbezeichnungen"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125304"@de ;
+    dtd:has_doknr "BJNR008680968"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125304"@de ;
+    dtd:has_doknr "BJNR008680968BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id30 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id28 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id31 a dtd:zitstelle ;
+    dtd:has_Value "1968, 868"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

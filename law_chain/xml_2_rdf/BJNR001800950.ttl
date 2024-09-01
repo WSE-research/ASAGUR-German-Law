@@ -1,0 +1,257 @@
+@prefix dtd: <urn:WPapBerErstrV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405124529"@de ;
+    dtd:has_doknr "BJNR001800950"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:DD-id43 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DL-id39 a dtd:DL ;
+    dtd:has_DD dtd:DD-id43,
+        dtd:DD-id44,
+        dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id40,
+        dtd:DT-id41,
+        dtd:DT-id42 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Landesverordnung des Landes Baden über die Lieferbarkeit von Wertpapieren vom 17. Dezember 1949 (Badisches Gesetz- und Verordnungsblatt, Regierungsblatt der Landesregierung Baden, S. 513),"@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Landesverordnung des Landes Rheinland-Pfalz über die Lieferbarkeit von Wertpapieren vom 2. September 1949 (Gesetz- und Verordnungsblatt der Landesregierung Rheinland-Pfalz, Teil I, S. 418) oder"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Verordnung des Finanzministeriums des Landes Württemberg-Hohenzollern über die Lieferbarkeit von Wertpapieren vom 1. Juni 1949 (Regierungsblatt für das Land Württemberg-Hohenzollern, Teil B, S. 341, 342)"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1964 +++)Gilt nicht im Saarland, vgl. § 2 Abschn. VII Nr. 2 G v. 30.6.1959 I 313"@de ;
+    dtd:has_pre dtd:pre-id61 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 127 des Grundgesetzes für die Bundesrepublik Deutschland verordnet die Bundesregierung mit Zustimmung der Regierungen der Länder Baden, Rheinland-Pfalz, Württemberg-Hohenzollern und des Kreispräsidenten von Lindau:"@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_DL dtd:DL-id39 ;
+    dtd:has_Value "Das Gesetz der Verwaltung des Vereinigten Wirtschaftsgebiets zur Bereinigung des Wertpapierwesens (Wertpapierbereinigungsgesetz) vom 19. August 1949 (WiGBl. S. 295) wird in den Ländern Baden, Rheinland-Pfalz und Württemberg-Hohenzollern sowie im bayerischen Kreis Lindau mit der Maßgabe in Kraft gesetzt, daß auch Wertpapiere in Kraft bleiben, für die eine Lieferbarkeitsbescheinigung nach a)der Landesverordnung des Landes Baden über die Lieferbarkeit von Wertpapieren vom 17. Dezember 1949 (Badisches Gesetz- und Verordnungsblatt, Regierungsblatt der Landesregierung Baden, S. 513), b)der Landesverordnung des Landes Rheinland-Pfalz über die Lieferbarkeit von Wertpapieren vom 2. September 1949 (Gesetz- und Verordnungsblatt der Landesregierung Rheinland-Pfalz, Teil I, S. 418) oder c)der Verordnung des Finanzministeriums des Landes Württemberg-Hohenzollern über die Lieferbarkeit von Wertpapieren vom 1. Juni 1949 (Regierungsblatt für das Land Württemberg-Hohenzollern, Teil B, S. 341, 342) bis zum 1. Oktober 1949 ausgestellt worden ist oder auf Grund eines bis zum 31. Januar 1950 gestellten Antrags bis zum 30. September 1950 ausgestellt wird."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach ihrer Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1950-05-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id51 .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "WPapBerErstrV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "WPapBerErstrV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "WPapBerErstrV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "WPapBerErstrV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "WPapBerErstrV"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Erstreckung von Recht der Verwaltung des Vereinigten
+Wirtschaftsgebiets auf dem Gebiet der Wertpapierbereinigung und des
+Kapitalverkehrs auf die Länder Baden, Rheinland-Pfalz, Württemberg-Hohenzollern
+und den bayerischen Kreis Lindau"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405124529"@de ;
+    dtd:has_doknr "BJNR001800950"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405124529"@de ;
+    dtd:has_doknr "BJNR001800950BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405124529"@de ;
+    dtd:has_doknr "BJNR001800950BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405124529"@de ;
+    dtd:has_doknr "BJNR001800950BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405124529"@de ;
+    dtd:has_doknr "BJNR001800950BJNE000400304"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl"@de .
+
+dtd:pre-id61 a dtd:pre ;
+    dtd:has_BR dtd:BR-id37,
+        dtd:BR-id38 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "1950, 180"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

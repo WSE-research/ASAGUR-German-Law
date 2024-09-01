@@ -1,0 +1,120 @@
+@prefix dtd: <urn:KBNAnrG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210317212523"@de ;
+    dtd:has_doknr "BJNR041700009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id21 ;
+    dtd:has_Value " (+++ Textnachweis ab: 6.3.2009 +++)Das G wurde als Artikel 5 G v. 2.3.2009 I 416 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es tritt gem. Art. 19 Abs. 1 dieses G am 6.3.2009 in Kraft. Amtliche Überschrift: IdF d. Art. 11 Nr. 1 G v. 29.6.2020 I 1512 mWv 1.7.2020"@de ;
+    dtd:has_pre dtd:pre-id26 .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value "Der nach § 66 Absatz 1 Satz 2 und 3 des Einkommensteuergesetzes und § 6 Absatz 3 des Bundeskindergeldgesetzes zu zahlende Einmalbetrag ist bei Sozialleistungen, deren Zahlung von anderen Einkommen abhängig ist, nicht als Einkommen zu berücksichtigen. Der Einmalbetrag mindert die Unterhaltsleistung nach dem Unterhaltsvorschussgesetz nicht. Der Einmalbetrag wird weder im Rahmen der Anrechnung nach § 39 Absatz 6 des Achten Buches Sozialgesetzbuch noch im Rahmen der Einkommensberechnung nach den §§ 90 und 93 Absatz 1 Satz 1 oder bei der Bestimmung des Kostenbeitrags bei vollstationären Leistungen nach § 94 Absatz 3 des Achten Buches Sozialgesetzbuch berücksichtigt und stellt keine Geldleistung im Sinne des § 93 Absatz 1 Satz 3 des Achten Buches Sozialgesetzbuch dar."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-03-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id14 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id27 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id28 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id22 .
+
+dtd:fussnoten-id17 a dtd:fussnoten .
+
+dtd:jurabk-id13 a dtd:jurabk ;
+    dtd:has_Value "KBNAnrG"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "KBNAnrG"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Nichtanrechnung und Nichtberücksichtigung des Kinderbonus"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 ;
+    dtd:has_standangabe dtd:standangabe-id12 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id14 ;
+    dtd:has_jurabk dtd:jurabk-id13 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210317212523"@de ;
+    dtd:has_doknr "BJNR041700009"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210317212523"@de ;
+    dtd:has_doknr "BJNR041700009BJNE000102126"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id27 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id26 a dtd:pre ;
+    dtd:has_BR dtd:BR-id19,
+        dtd:BR-id20 ;
+    dtd:has_Value "(+++ Textnachweis ab: 6.3.2009 +++)"@de .
+
+dtd:standangabe-id12 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id30 ;
+    dtd:has_standtyp dtd:standtyp-id29 .
+
+dtd:standkommentar-id30 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 5 G v. 10.3.2021 I 330"@de .
+
+dtd:standtyp-id29 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id17 ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id28 a dtd:zitstelle ;
+    dtd:has_Value "2009, 416, 417"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

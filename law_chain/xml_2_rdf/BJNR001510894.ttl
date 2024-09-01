@@ -1,0 +1,263 @@
+@prefix dtd: <urn:NordSBrWeinG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150209222001"@de ;
+    dtd:has_doknr "BJNR001510894"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id45 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id43 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DL-id31 a dtd:DL ;
+    dtd:has_DD dtd:DD-id36,
+        dtd:DD-id37,
+        dtd:DD-id38,
+        dtd:DD-id39 ;
+    dtd:has_DT dtd:DT-id32,
+        dtd:DT-id33,
+        dtd:DT-id34,
+        dtd:DT-id35 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id40 a dtd:DL ;
+    dtd:has_DD dtd:DD-id43,
+        dtd:DD-id44 ;
+    dtd:has_DT dtd:DT-id41,
+        dtd:DT-id42 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id32 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id45 a dtd:LA ;
+    dtd:has_DL dtd:DL-id40 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "alkoholische Getränkea)einer Person, die sich an Bord eines Fischereifahrzeugs befindet oder zu einem solchen Fahrzeug gehört, verkauft oder mit einer solchen Person gegen andere Gegenstände tauscht oder b)als solche Person kauft oder gegen andere Gegenstände tauscht, "@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einer Person, die sich an Bord eines Fischereifahrzeugs befindet oder zu einem solchen Fahrzeug gehört, verkauft oder mit einer solchen Person gegen andere Gegenstände tauscht oder"@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "als solche Person kauft oder gegen andere Gegenstände tauscht,"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ohne Erlaubnis gewerbsmäßig an Fischer Mundvorrat oder andere zu ihrem Gebrauch dienende Gegenstände verkauft,"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "als Inhaber einer Erlaubnis für den Verkauf von Mundvorrat und Gebrauchsgegenständen eine größere Menge alkoholischer Getränke mit sich führt, als es der Bedarf der Besatzung erfordert, oder gewerbsmäßig mit Fischern Mundvorrat oder andere Gebrauchsgegenstände gegen Erträgnisse des Fischfangs, Schiffsausrüstungsgegenstände oder Fischereigeräte tauscht oder"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "als Inhaber der in Nummer 3 bezeichneten Erlaubnis das Schiff ohne das vorgeschriebene Abzeichen führt oder führen läßt."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1975 +++)"@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_DL dtd:DL-id31 ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer entgegen Artikel 2 oder 3 des internationalen Vertrages vom 16. November 1887/14. Februar 1893 zur Unterdrückung des Branntweinhandels unter den Nordseefischern auf hoher See (Reichsgesetzbl. 1894 S. 427, 435) im Geltungsbereich dieses Vertrages 1.alkoholische Getränkea)einer Person, die sich an Bord eines Fischereifahrzeugs befindet oder zu einem solchen Fahrzeug gehört, verkauft oder mit einer solchen Person gegen andere Gegenstände tauscht oder b)als solche Person kauft oder gegen andere Gegenstände tauscht,  2.ohne Erlaubnis gewerbsmäßig an Fischer Mundvorrat oder andere zu ihrem Gebrauch dienende Gegenstände verkauft, 3.als Inhaber einer Erlaubnis für den Verkauf von Mundvorrat und Gebrauchsgegenständen eine größere Menge alkoholischer Getränke mit sich führt, als es der Bedarf der Besatzung erfordert, oder gewerbsmäßig mit Fischern Mundvorrat oder andere Gebrauchsgegenstände gegen Erträgnisse des Fischfangs, Schiffsausrüstungsgegenstände oder Fischereigeräte tauscht oder 4.als Inhaber der in Nummer 3 bezeichneten Erlaubnis das Schiff ohne das vorgeschriebene Abzeichen führt oder führen läßt. Alkoholische Getränke im Sinne dieses Gesetzes sind alle durch Destillation erzeugten und mehr als fünf Liter Alkohol auf das Hektoliter enthaltenden trinkbaren Flüssigkeiten."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu zehntausend Deutsche Mark geahndet werden."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Die Bestimmungen der Artikel 2 und 3 des internationalen Vertrages vom 16. November 1887/14. Februar 1893 und des § 1 dieses Gesetzes finden, ohne Rücksicht auf die Nationalität des Schiffes oder Fahrzeugs, auch innerhalb der zur Nordsee gehörigen deutschen Küstengewässer Anwendung."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt gleichzeitig mit dem internationalen Vertrag vom 16. November 1887/14. Februar 1893 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1894-03-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id51 .
+
+dtd:fussnoten-id27 a dtd:fussnoten .
+
+dtd:fussnoten-id30 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "NordSBrWeinG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "NordSBrWeinG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "NordSBrWeinG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "NordSBrWeinG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz betreffend die Ausführung des internationalen Vertrages vom 16. November 1887/14. Februar 1893 zur Unterdrückung des Branntweinhandels unter den Nordseefischern auf hoher See"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150209222001"@de ;
+    dtd:has_doknr "BJNR001510894"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150209222001"@de ;
+    dtd:has_doknr "BJNR001510894BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150209222001"@de ;
+    dtd:has_doknr "BJNR001510894BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150209222001"@de ;
+    dtd:has_doknr "BJNR001510894BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "RGBl"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id63 ;
+    dtd:has_standtyp dtd:standtyp-id62 .
+
+dtd:standkommentar-id63 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 233 G v. 2.3.1974 I 469"@de .
+
+dtd:standtyp-id62 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "1894, 151"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

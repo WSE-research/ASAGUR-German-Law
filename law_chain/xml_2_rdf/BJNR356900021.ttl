@@ -1,0 +1,102 @@
+@prefix dtd: <urn:LuftVGFSOrgEÜV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210823213023"@de ;
+    dtd:has_doknr "BJNR356900021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id19 a dtd:Content ;
+    dtd:has_P dtd:P-id20 .
+
+dtd:Content-id21 a dtd:Content ;
+    dtd:has_P dtd:P-id22 .
+
+dtd:P-id20 a dtd:P ;
+    dtd:has_BR dtd:BR-id16 ;
+    dtd:has_Value " (+++ Textnachweis ab: 20.8.2021 +++)Die V wurde als Artikel 2 der V v. 9.8.2021 I 3568 vom Bundesministerium für Verkehr und digitale Infrastruktur erlassen. Sie ist gem. Art. 3 Abs. 1 dieser V am 20.8.2021 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id23 .
+
+dtd:P-id22 a dtd:P ;
+    dtd:has_Value "Das Bundesaufsichtsamt für Flugsicherung wird ermächtigt, Rechtsverordnungen nach § 31f Absatz 3a Satz 1 des Luftverkehrsgesetzes zu erlassen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-08-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id24 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id25 .
+
+dtd:fussnoten-id14 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id19 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "LuftVGFSOrgEÜV"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "LuftVGFSOrgEÜV"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Übertragung der Ermächtigung zum Erlass von Rechtsverordnungen nach dem Luftverkehrsgesetz zur Beauftragung einer Flugsicherungsorganisation"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210823213023"@de ;
+    dtd:has_doknr "BJNR356900021"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210823213023"@de ;
+    dtd:has_doknr "BJNR356900021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id24 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id23 a dtd:pre ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_Value "(+++ Textnachweis ab: 20.8.2021 +++)"@de .
+
+dtd:text-id15 a dtd:text ;
+    dtd:has_Content dtd:Content-id21 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id15 .
+
+dtd:zitstelle-id25 a dtd:zitstelle ;
+    dtd:has_Value "2021, 3568, 3569"@de .
+

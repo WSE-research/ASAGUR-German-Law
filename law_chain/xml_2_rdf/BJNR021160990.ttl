@@ -1,0 +1,345 @@
+@prefix dtd: <urn:Münz2DMBek-1990#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131202132528"@de ;
+    dtd:has_doknr "BJNR021160990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:kommentar-id78 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id26 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1990, 2116)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69,
+        dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73,
+        dtd:P-id74,
+        dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DD-id57 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id47 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id49 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51 ;
+    dtd:has_DT dtd:DT-id50 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id52 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id53 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id55 a dtd:DL ;
+    dtd:has_DD dtd:DD-id57 ;
+    dtd:has_DT dtd:DT-id56 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:IMG-id63 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1990_j2116_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND2 DEUTSCHE MARK\""@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_DL dtd:DL-id49 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND2 DEUTSCHE MARK\""@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "2 DEUTSCHE MARK\""@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_DL dtd:DL-id55 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"EINIGKEIT UND RECHT UND FREIHEIT\""@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"EINIGKEIT UND RECHT UND FREIHEIT\""@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 29. 9.1990 +++)"@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung hat die Bundesregierung beschlossen, zum 40jährigen Bestehen der Bundesrepublik Deutschland ab 1990 eine 2 DM-Umlaufmünze mit dem Bildnis des verstorbenen Bayerischen Ministerpräsidenten Dr. h.c. Franz Josef Strauß prägen zu lassen. Die Höhe der Auflage richtet sich nach den Bedürfnissen des Zahlungsverkehrs. Mit der Ausgabe wird ab 9. Oktober 1990 begonnen."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_Value "(2) Die Bildseite der Münze zeigt das Porträt des Bayerischen Ministerpräsidenten Dr. h.c. Franz Josef Strauß und die Umschrift: \"BUNDESREPUBLIK DEUTSCHLAND19491989\"."@de ;
+    dtd:has_table dtd:table-id33 .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Value "(3) Die Wertseite der Münze zeigt in der Mitte den Bundesadler. Das Adlerbild ist von der Umschrift: \"BUNDESREPUBLIK DEUTSCHLAND2 DEUTSCHE MARK\"umschlossen. Dabei steht die Wertziffer 2 in der Mitte unter dem Adler. Oberhalb des Adlerkopfes ist das Jahr der Prägung, beginnend mit dem Jahr 1990, angebracht, unterhalb des rechten Adlerfanges eines der Münzzeichen der Münzstätten der Bundesrepublik Deutschland (D, F, G, J) oder das Münzzeichen der Münze Berlin (A), die in die Prägung aller Stückelungen der Umlaufmünzen eingeschaltet wird."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(4) Die Prägung auf beiden Seiten der Münze ist erhaben und wird von einem schützenden glatten Randstab umgeben."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_DL dtd:DL-id52 ;
+    dtd:has_Value "(5) Der glatte Münzrand ist mit der vertieften Inschrift: \"EINIGKEIT UND RECHT UND FREIHEIT\"versehen. Zwischen jedem der Worte ist ein Ornament, am Schluß der Inschrift sind zwei Ornamente angebracht."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(6) Die Münze hat ein Gewicht von 7 Gramm und einen Durchmesser von 26,75 Millimetern. Sie besteht überwiegend aus einer Kupfer-Nickel-Legierung (75 Prozent Kupfer und 25 Prozent Nickel) und hat einen Reinnickelkern."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_SP dtd:SP-id31 ;
+    dtd:has_Value "(7) Der Entwurf der Bildseite stammt von Erich Ott, München.Der Bundesminister der Finanzen"@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_BR dtd:BR-id27,
+        dtd:BR-id28,
+        dtd:BR-id29,
+        dtd:BR-id30 ;
+    dtd:has_IMG dtd:IMG-id63 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1990, 2116)"@de ;
+    dtd:has_noindex dtd:noindex-id32 .
+
+dtd:SP-id31 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-09-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:colspec-id35 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:colspec-id36 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id40 a dtd:entry ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id41 a dtd:entry ;
+    dtd:has_Value "1949"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id42 a dtd:entry ;
+    dtd:has_Value "1989\"."@de ;
+    dtd:has_align dtd:center .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id79 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id80 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id66 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "Münz2DMBek 1990"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "Münz2DMBek 1990"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "Münz2DMBek 1990"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 2
+Deutschen Mark"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:noindex-id32 a dtd:noindex .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131202132528"@de ;
+    dtd:has_doknr "BJNR021160990"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131202132528"@de ;
+    dtd:has_doknr "BJNR021160990BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131202132528"@de ;
+    dtd:has_doknr "BJNR021160990BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id79 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id38 a dtd:row ;
+    dtd:has_entry dtd:entry-id40 .
+
+dtd:row-id39 a dtd:row ;
+    dtd:has_entry dtd:entry-id41,
+        dtd:entry-id42 .
+
+dtd:table-id33 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id34 .
+
+dtd:tbody-id37 a dtd:tbody ;
+    dtd:has_row dtd:row-id38,
+        dtd:row-id39 .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:tgroup-id34 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id35,
+        dtd:colspec-id36 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id37 .
+
+dtd:zitstelle-id80 a dtd:zitstelle ;
+    dtd:has_Value "1990, 2116"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

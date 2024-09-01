@@ -1,0 +1,219 @@
+@prefix dtd: <urn:BVASitzBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154507"@de ;
+    dtd:has_doknr "BJNR148800000"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  7.11.2000 +++)"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_Value "Das Bundesministerium für Arbeit und Sozialordnung gibt gemäß § 9 Nr. 3 des Berlin/Bonn-Gesetzes vom 26. April 1994 (BGBl. I S. 918), der durch Artikel 1 der Verordnung vom 21. September 1997 (BGBl. I S. 2390) geändert worden ist, in Verbindung mit der Bekanntmachung des Bundeskanzlers über die Sitzentscheidung der Bundesregierung vom 22. Juli 1999 (BGBl. I S. 1725) bekannt: Das Bundesversicherungsamt hat mit Wirkung vom 1. Oktober 1999 seinen Sitz von Berlin nach Bonn verlegt. Es gelten folgende Postanschrift, Telefon- und Faxnummern: BundesversicherungsamtVillemombler Straße 7653123 BonnTelefon:(0228) 6 19-0Fax:(0228) 6 19-18 70."@de ;
+    dtd:has_table dtd:table-id19 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2000-10-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id21 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id22 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id29 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bundesversicherungsamt"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id30 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Villemombler Straße 76"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id31 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "53123 Bonn"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id32 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Telefon:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id33 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "(0228) 6 19-0"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id34 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fax:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id35 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "(0228) 6 19-18 70."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id42 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id43 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BVASitzBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BVASitzBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über den Dienstsitz des Bundesversicherungsamtes"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154507"@de ;
+    dtd:has_doknr "BJNR148800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154507"@de ;
+    dtd:has_doknr "BJNR148800000BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id42 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id24 a dtd:row ;
+    dtd:has_entry dtd:entry-id29 .
+
+dtd:row-id25 a dtd:row ;
+    dtd:has_entry dtd:entry-id30 .
+
+dtd:row-id26 a dtd:row ;
+    dtd:has_entry dtd:entry-id31 .
+
+dtd:row-id27 a dtd:row ;
+    dtd:has_entry dtd:entry-id32,
+        dtd:entry-id33 .
+
+dtd:row-id28 a dtd:row ;
+    dtd:has_entry dtd:entry-id34,
+        dtd:entry-id35 .
+
+dtd:table-id19 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id20 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id23 a dtd:tbody ;
+    dtd:has_row dtd:row-id24,
+        dtd:row-id25,
+        dtd:row-id26,
+        dtd:row-id27,
+        dtd:row-id28 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:tgroup-id20 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id21,
+        dtd:colspec-id22 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id23 .
+
+dtd:zitstelle-id43 a dtd:zitstelle ;
+    dtd:has_Value "2000, 1488"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

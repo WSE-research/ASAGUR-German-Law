@@ -1,0 +1,535 @@
+@prefix dtd: <urn:GräbPauschV-2019/2020#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20190403212003"@de ;
+    dtd:has_doknr "BJNR012100019"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id97 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id99 .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_BR dtd:BR-id41,
+        dtd:BR-id42 ;
+    dtd:has_Value "Die Pauschalen zur Erstattung der Aufwendungen an die Länder nach § 10 Absatz 4 Satz 1 des Gräbergesetzes betragen für die Haushaltsjahre 2019 und 2020 jeweils:Baden-Württemberg1 666 927 EuroBayern1 961 196 EuroBerlin2 866 078 EuroBrandenburg2 361 781 EuroHansestadt Bremen95 750 EuroHansestadt Hamburg593 401 EuroHessen1 556 554 EuroMecklenburg-Vorpommern869 814 EuroNiedersachsen2 340 927 EuroNordrhein-Westfalen5 404 945 EuroRheinland-Pfalz1 446 525 EuroSaarland426 721 EuroSachsen1 383 618 EuroSachsen-Anhalt1 001 671 EuroSchleswig-Holstein703 416 EuroThüringen672 912 Euro."@de ;
+    dtd:has_table dtd:table-id43 .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Januar 2019 in Kraft. Gleichzeitig tritt die Gräberpauschalenverordnung 2017/2018 vom 7. Dezember 2016 (BGBl. I S. 2854) außer Kraft."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2019 +++)"@de ;
+    dtd:has_pre dtd:pre-id106 .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 10 Absatz 4 Satz 2 des Gräbergesetzes in der Fassung der Bekanntmachung vom 16. Januar 2012 (BGBl. I S. 98) verordnet das Bundesministerium für Familie, Senioren, Frauen und Jugend im Einvernehmen mit dem Bundesministerium der Finanzen:"@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "GräbPauschV 2019/2020"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2019-02-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id45 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "64.64*"@de .
+
+dtd:colspec-id46 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "55.35*"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Baden-Württemberg"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 666 927 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bayern"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 961 196 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2 866 078 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Brandenburg"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2 361 781 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hansestadt Bremen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "95 750 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hansestadt Hamburg"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "593 401 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hessen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 556 554 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mecklenburg-Vorpommern"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "869 814 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niedersachsen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2 340 927 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nordrhein-Westfalen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5 404 945 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rheinland-Pfalz"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 446 525 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Saarland"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "426 721 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sachsen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 383 618 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sachsen-Anhalt"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 001 671 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Schleswig-Holstein"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "703 416 Euro"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Thüringen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "672 912 Euro."@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id107 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id108 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id96 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "GräbPauschV 2019/2020"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "GräbPauschV 2019/2020"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "GräbPauschV 2019/2020"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "GräbPauschV 2019/2020"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "GräbPauschV 2019/2020"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Gräberpauschalenverordnung 2019/2020"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Pauschalen für Anlegung, Instandsetzung und Pflege der Gräber, Verlegung und Identifizierung im Sinne des Gräbergesetzes für die Haushaltsjahre 2019 und 2020"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20190403212003"@de ;
+    dtd:has_doknr "BJNR012100019"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20190403212003"@de ;
+    dtd:has_doknr "BJNR012100019BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20190403212003"@de ;
+    dtd:has_doknr "BJNR012100019BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20190403212003"@de ;
+    dtd:has_doknr "BJNR012100019BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20190403212003"@de ;
+    dtd:has_doknr "BJNR012100019BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id107 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id106 a dtd:pre ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2019 +++)"@de .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id64,
+        dtd:entry-id65 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id66,
+        dtd:entry-id67 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id68,
+        dtd:entry-id69 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id70,
+        dtd:entry-id71 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id72,
+        dtd:entry-id73 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id74,
+        dtd:entry-id75 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id76,
+        dtd:entry-id77 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id78,
+        dtd:entry-id79 .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id80,
+        dtd:entry-id81 .
+
+dtd:row-id57 a dtd:row ;
+    dtd:has_entry dtd:entry-id82,
+        dtd:entry-id83 .
+
+dtd:row-id58 a dtd:row ;
+    dtd:has_entry dtd:entry-id84,
+        dtd:entry-id85 .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id86,
+        dtd:entry-id87 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id88,
+        dtd:entry-id89 .
+
+dtd:row-id61 a dtd:row ;
+    dtd:has_entry dtd:entry-id90,
+        dtd:entry-id91 .
+
+dtd:row-id62 a dtd:row ;
+    dtd:has_entry dtd:entry-id92,
+        dtd:entry-id93 .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id94,
+        dtd:entry-id95 .
+
+dtd:table-id43 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id44 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id47 a dtd:tbody ;
+    dtd:has_row dtd:row-id48,
+        dtd:row-id49,
+        dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54,
+        dtd:row-id55,
+        dtd:row-id56,
+        dtd:row-id57,
+        dtd:row-id58,
+        dtd:row-id59,
+        dtd:row-id60,
+        dtd:row-id61,
+        dtd:row-id62,
+        dtd:row-id63 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id98 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 .
+
+dtd:tgroup-id44 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id45,
+        dtd:colspec-id46 ;
+    dtd:has_tbody dtd:tbody-id47 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Pauschalen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id108 a dtd:zitstelle ;
+    dtd:has_Value "2019, 121"@de .
+

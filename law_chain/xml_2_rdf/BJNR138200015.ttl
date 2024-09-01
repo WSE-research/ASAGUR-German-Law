@@ -1,0 +1,538 @@
+@prefix dtd: <urn:THAMNV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170706215541"@de ;
+    dtd:has_doknr "BJNR138200015"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112,
+        dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123,
+        dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DL-id57 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65 ;
+    dtd:has_DT dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id66 a dtd:DL ;
+    dtd:has_DD dtd:DD-id69,
+        dtd:DD-id70 ;
+    dtd:has_DT dtd:DT-id67,
+        dtd:DT-id68 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id71 a dtd:DL ;
+    dtd:has_DD dtd:DD-id79,
+        dtd:DD-id80,
+        dtd:DD-id81,
+        dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85 ;
+    dtd:has_DT dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id86 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92 ;
+    dtd:has_DT dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Value "Bezeichnung des angewendeten Arzneimittels,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Value "außer in den Fällen des § 13 Absatz 1 Satz 7 der Verordnung über tierärztliche Hausapotheken oder des § 58 Absatz 1 Satz 2 des Arzneimittelgesetzes die Belegnummer nach § 13 Absatz 1 Satz 2 Nummer 2 der Verordnung über tierärztliche Hausapotheken,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Value "verabreichte Menge des Arzneimittels,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Value "Datum der Anwendung,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Value "Wartezeit in Tagen,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Value "Name der Person, die das Arzneimittel angewendet hat."@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Value "entgegen § 1 Absatz 1 Satz 1 oder Absatz 4 Satz 1 oder § 3 Absatz 1 Satz 1 einen Nachweis nicht, nicht richtig oder nicht vollständig führt oder"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Value "entgegen § 1 Absatz 1 Satz 2 auch in Verbindung mit Absatz 4 Satz 2 einen Nachweis nicht, nicht in der vorgeschriebenen Weise oder nicht mindestens fünf Jahre aufbewahrt oder nicht oder nicht rechtzeitig vorlegt oder"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "entgegen § 3 Absatz 1 Satz 4 einen Nachweis nicht oder nicht mindestens fünf Jahre aufbewahrt oder nicht oder nicht rechtzeitig vorlegt."@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Value "Fütterungsarzneimitteln die vom Hersteller mit dem Fütterungsarzneimittel übersandte erste Durchschrift der Verschreibung,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Value "Arzneimitteln, die von einer Tierärztin oder einem Tierarzt abgegeben wurden, der Nachweis nach § 13 Absatz 1 Satz 2 und 3 der Verordnung über tierärztliche Hausapotheken,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Value "Arzneimitteln, die aus Apotheken bezogen wurden und verschreibungspflichtig sind, das Original der Verschreibung,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Value "sonstigen Arzneimitteln, besondere Aufzeichnungen oder Belege wie tierärztliche Verschreibungen, Rechnungen, Lieferscheine oder Warenbegleitscheine, aus denen sich Lieferant, Art und Menge der erworbenen Arzneimittel ergeben."@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Value "in einem Tierheim oder einer ähnlichen Einrichtung hält, oder"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Value "gewerbsmäßig Wirbeltiere, ausgenommen Tiere, die der Gewinnung von Lebensmitteln dienen, züchtet oder hält oder vorübergehend für andere Betriebe oder Personen betreut,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Value "Anzahl, Art und Identität der behandelten Tiere und, sofern zur Identifizierung der Tiere erforderlich, deren Standort,"@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_BR dtd:BR-id54 ;
+    dtd:has_Value " (+++ Textnachweis ab: 25.7.2015 +++)Die V wurde als Artikel 2 der V v. 17.7.2015 I 2380 vom Bundesministerium für Ernährung und Landwirtschaft im Einvernehmen mit dem Bundesministerium für Gesundheit, dem Bundesministerium des Innern und dem Bundesministerium für Wirtschaft und Energie mit Zustimmung des Bundesrates erlassen. Sie ist gem. Art. 4 Abs. 1 dieser V am 25.7.2015 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id130 .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(1) Jeder, der Tiere hält, die der Gewinnung von Lebensmitteln dienen, hat über Erwerb und Anwendung der von ihm bezogenen, zur Anwendung bei diesen Tieren bestimmten und nicht für den Verkehr außerhalb der Apotheken freigegebenen Arzneimittel Nachweise nach Maßgabe des Absatzes 2 oder des Absatzes 3 zu führen. Die Nachweise sind in übersichtlicher und allgemein verständlicher Form zu führen, mindestens fünf Jahre vom Zeitpunkt ihrer Erstellung in dem Tierhaltungsbetrieb aufzubewahren, in dem die Tiere zum Zeitpunkt der Verabreichung des in Satz 1 genannten Tierarzneimittels jeweils gehalten worden sind, und der zuständigen Behörde auf Verlangen vorzulegen. Sie können auch als elektronisches Dokument geführt und aufbewahrt werden, sofern sichergestellt ist, dass die Daten während der Dauer der Aufbewahrung an dem in Satz 2 bezeichneten Ort verfügbar sind, jederzeit lesbar gemacht werden können und unveränderlich sind."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_DL dtd:DL-id57 ;
+    dtd:has_Value "(2) Nachweise im Sinne des Absatzes 1 über den Erwerb sind im Falle von 1.Fütterungsarzneimitteln die vom Hersteller mit dem Fütterungsarzneimittel übersandte erste Durchschrift der Verschreibung,2.Arzneimitteln, die von einer Tierärztin oder einem Tierarzt abgegeben wurden, der Nachweis nach § 13 Absatz 1 Satz 2 und 3 der Verordnung über tierärztliche Hausapotheken,3.Arzneimitteln, die aus Apotheken bezogen wurden und verschreibungspflichtig sind, das Original der Verschreibung,4.sonstigen Arzneimitteln, besondere Aufzeichnungen oder Belege wie tierärztliche Verschreibungen, Rechnungen, Lieferscheine oder Warenbegleitscheine, aus denen sich Lieferant, Art und Menge der erworbenen Arzneimittel ergeben."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(3) Nachweis im Sinne des Absatzes 1 über die Anwendung ist die Dokumentation nach § 2."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_DL dtd:DL-id66 ;
+    dtd:has_Value "(4) Jeder, der Tiere 1.in einem Tierheim oder einer ähnlichen Einrichtung hält, oder2.gewerbsmäßig Wirbeltiere, ausgenommen Tiere, die der Gewinnung von Lebensmitteln dienen, züchtet oder hält oder vorübergehend für andere Betriebe oder Personen betreut,hat über den Erwerb verschreibungspflichtiger Arzneimittel, die für die Behandlung der in den Nummern 1 und 2 bezeichneten Tiere erworben worden sind, Nachweise über den Erwerb nach Maßgabe des Absatzes 5 zu führen. Absatz 1 Satz 2 und 3 gilt entsprechend."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(5) Nachweise im Sinne des Absatzes 4 sind das Original der Verschreibung oder die tierärztliche Rechnung."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_DL dtd:DL-id71 ;
+    dtd:has_Value "Jeder, der Tiere hält, die der Gewinnung von Lebensmitteln dienen, hat jede durchgeführte Anwendung von Arzneimitteln, die nicht für den Verkehr außerhalb der Apotheken freigegeben sind, unverzüglich nach Maßgabe des Satzes 2 zu dokumentieren oder dokumentieren zu lassen. Die Dokumentation ist für jeden Bestand des Betriebes zu führen und hat folgende Angaben in übersichtlicher und allgemein verständlicher Form zu enthalten: 1.Anzahl, Art und Identität der behandelten Tiere und, sofern zur Identifizierung der Tiere erforderlich, deren Standort,2.Bezeichnung des angewendeten Arzneimittels,3.außer in den Fällen des § 13 Absatz 1 Satz 7 der Verordnung über tierärztliche Hausapotheken oder des § 58 Absatz 1 Satz 2 des Arzneimittelgesetzes die Belegnummer nach § 13 Absatz 1 Satz 2 Nummer 2 der Verordnung über tierärztliche Hausapotheken,4.verabreichte Menge des Arzneimittels,5.Datum der Anwendung,6.Wartezeit in Tagen,7.Name der Person, die das Arzneimittel angewendet hat."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(1) Personen, die Arzneimittel berufs- oder gewerbsmäßig bei Tieren anwenden, ohne eine Zulassung zum tierärztlichen Beruf zu besitzen, haben über Erwerb und Verbleib der von ihnen bezogenen, zur Anwendung bei Tieren bestimmten Arzneimittel, die nicht für den Verkehr außerhalb der Apotheken freigegeben sind, Nachweise nach Maßgabe des Satzes 2 oder 3 zu führen. Nachweise im Sinne des Satzes 1 über den Erwerb sind die von einer Apotheke ausgestellten Rechnungen oder Lieferscheine, aus denen sich Art und Menge und Erwerbsdatum der Arzneimittel ergeben müssen. Nachweise nach Satz 1 über den Verbleib sind Aufzeichnungen über Art und Menge der angewendeten Arzneimittel sowie Name und Anschrift der tierhaltenden Person, bei deren Tieren sie die Arzneimittel angewendet haben. Die Nachweise sind in den Fällen des Satzes 2 vom Zeitpunkt ihres Erhalts, in den Fällen des Satzes 3 vom Zeitpunkt ihrer Erstellung an mindestens fünf Jahre, aufzubewahren und der zuständigen Behörde auf Verlangen vorzulegen."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt nicht für Personen, die Arzneimittel lediglich zur Anwendung bei den von ihnen gehaltenen Tieren erwerben und der Nachweispflicht nach § 1 Absatz 4 unterliegen."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(1) Tierhalter dürfen Fertigarzneimittel, die antimikrobielle Stoffe enthalten und die zur oralen Anwendung über das Futter oder das Wasser bei Tieren, die der Gewinnung von Lebensmitteln dienen, bestimmt sind, nur anwenden, wenn die Einrichtungen zur Dosierung und Anwendungen dieser Arzneimittel dem jeweiligen Stand der Technik entsprechen."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(2) Dosiergeräte für die in Absatz 1 genannten Arzneimittel müssen so nah wie möglich vor der zu behandelnden Tiergruppe installiert sein."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(1) Tierhalter haben durch geeignete Maßnahmen sicherzustellen, dass die in § 4 Absatz 1 genannten Arzneimittel nur bei den zu behandelnden Tieren angewendet werden."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(2) Nach Beendigung der Anwendung der in § 4 Absatz 1 genannten Arzneimittel muss eine Reinigung der verwendeten Anlagen nach § 4 Absatz 1 und 2 erfolgen."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_DL dtd:DL-id86 ;
+    dtd:has_Value "Ordnungswidrig im Sinne des § 97 Absatz 2 Nummer 31 des Arzneimittelgesetzes handelt, wer vorsätzlich oder fahrlässig 1.entgegen § 1 Absatz 1 Satz 1 oder Absatz 4 Satz 1 oder § 3 Absatz 1 Satz 1 einen Nachweis nicht, nicht richtig oder nicht vollständig führt oder2.entgegen § 1 Absatz 1 Satz 2 auch in Verbindung mit Absatz 4 Satz 2 einen Nachweis nicht, nicht in der vorgeschriebenen Weise oder nicht mindestens fünf Jahre aufbewahrt oder nicht oder nicht rechtzeitig vorlegt oder3.entgegen § 3 Absatz 1 Satz 4 einen Nachweis nicht oder nicht mindestens fünf Jahre aufbewahrt oder nicht oder nicht rechtzeitig vorlegt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-07-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id131 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id132 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id109 .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "THAMNV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "THAMNV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "THAMNV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "THAMNV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "THAMNV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "THAMNV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "THAMNV"@de .
+
+dtd:kurzue-id26 a dtd:kurzue ;
+    dtd:has_Value "Tierhalter-Arzneimittelanwendungs- und Nachweisverordnung"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_Value "Verordnung über Nachweispflichten der Tierhalter für Arzneimittel, die zur Anwendung bei Tieren bestimmt sind"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id26 ;
+    dtd:has_langue dtd:langue-id27 ;
+    dtd:has_standangabe dtd:standangabe-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170706215541"@de ;
+    dtd:has_doknr "BJNR138200015"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170706215541"@de ;
+    dtd:has_doknr "BJNR138200015BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170706215541"@de ;
+    dtd:has_doknr "BJNR138200015BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20170706215541"@de ;
+    dtd:has_doknr "BJNR138200015BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20170706215541"@de ;
+    dtd:has_doknr "BJNR138200015BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20170706215541"@de ;
+    dtd:has_doknr "BJNR138200015BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20170706215541"@de ;
+    dtd:has_doknr "BJNR138200015BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id131 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id130 a dtd:pre ;
+    dtd:has_BR dtd:BR-id55,
+        dtd:BR-id56 ;
+    dtd:has_Value "(+++ Textnachweis ab: 25.7.2015 +++)"@de .
+
+dtd:standangabe-id28 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id134 ;
+    dtd:has_standtyp dtd:standtyp-id133 .
+
+dtd:standkommentar-id134 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 2121-51-47 v. 20.12.2006 I 3450, 3453 (ANTHV)"@de .
+
+dtd:standtyp-id133 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Nachweise über Erwerb und Anwendung durch den Tierhalter"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Führung von Nachweisen über die Anwendung durch den Tierhalter"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Führen von Nachweisen bei sonstigen Personen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Anlagen für die orale Anwendung von bestimmten Arzneimitteln bei Tieren, die der Gewinnung von Lebensmitteln dienen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Anwendung von bestimmten Arzneimitteln zur oralen Anwendung bei Tieren, die der Gewinnung von Lebensmitteln dienen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Ordnungswidrigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id132 a dtd:zitstelle ;
+    dtd:has_Value "2015, 1380, 1382"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

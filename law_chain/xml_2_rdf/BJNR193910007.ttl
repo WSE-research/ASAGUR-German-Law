@@ -1,0 +1,266 @@
+@prefix dtd: <urn:RZV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230427213006"@de ;
+    dtd:has_doknr "BJNR193910007"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57,
+        dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DL-id40 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45,
+        dtd:DD-id46 ;
+    dtd:has_DT dtd:DT-id41,
+        dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Bereiche gemäß Anhang VII Teil I Nummer 2, 3, 5 bis 8, Nummer 9 nur in Bezug auf Trichinen, Nummer 10, 11, 14, 16, 19, 21 und 22 der Verordnung (EG) Nr. 882/2004 des Europäischen Parlaments und des Rates vom 29. April 2004 über amtliche Kontrollen zur Überprüfung der Einhaltung des Lebensmittel- und Futtermittelrechts sowie der Bestimmungen über Tiergesundheit und Tierschutz (ABl. L 165 vom 30.4.2004, S. 1), die durch die Verordnung (EU) 2017/625 aufgehoben worden ist, in Verbindung mit Artikel 147 der Verordnung (EU) 2017/625,"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Bereich gemäß Artikel 2 Absatz 1 der Verordnung (EG) Nr. 1333/2008 des Europäischen Parlaments und des Rates vom 16. Dezember 2008 über Lebensmittelzusatzstoffe (ABl. L 354 vom 31.12.2008, S. 16; L 105 vom 27.4.2010, S. 114; L 322 vom 21.11.2012, S. 8; L 123 vom 19.5.2015, S. 122), die zuletzt durch die Verordnung (EU) 2020/1819 (ABl. L 406 vom 3.12.2020, S. 26) geändert worden ist, in der jeweils geltenden Fassung und"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Bereich gemäß Artikel 2 Absatz 1 der Verordnung (EG) Nr. 1334/2008 des Europäischen Parlaments und des Rates vom 16. Dezember 2008 über Aromen und bestimmte Lebensmittelzutaten mit Aromaeigenschaften zur Verwendung in und auf Lebensmitteln sowie zur Änderung der Verordnung (EWG) Nr. 1601/91 des Rates, der Verordnungen (EG) Nr. 2232/96 und (EG) Nr. 110/2008 und der Richtlinie 2000/13/EG (ABl. L 354 vom 31.12.2008, S. 34; L 105 vom 27.4.2010, S. 115; L 406 vom 3.12.2020, S. 67), die zuletzt durch die Verordnung (EU) 2020/1681 (ABl. L 379 vom 13.11.2020, S. 27) geändert worden ist, in der jeweils geltenden Fassung."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_Value " (+++ Textnachweis ab: 18.8.2007 +++) Die V wurde als Artikel 1 der V v. 7.8.2007 I 1939 vom Bundesministerium für Ernährung, Landwirtschaft und Verbraucherschutz nach Anhörung der Tierschutzkommission erlassen. Sie ist gem. Art. 3 dieser V am 18.8.2007 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id61 .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_DL dtd:DL-id40 ;
+    dtd:has_Value "Das Bundesinstitut für Risikobewertung übernimmt die Funktion eines nationalen Referenzlaboratoriums mit den Aufgaben nach Artikel 101 Absatz 1 der Verordnung (EU) 2017/625 des Europäischen Parlaments und des Rates vom 15. März 2017 über amtliche Kontrollen und andere amtliche Tätigkeiten zur Gewährleistung der Anwendung des Lebens- und Futtermittelrechts und der Vorschriften über Tiergesundheit und Tierschutz, Pflanzengesundheit und Pflanzenschutzmittel, zur Änderung der Verordnungen (EG) Nr. 999/2001, (EG) Nr. 396/2005, (EG) Nr. 1069/2009, (EG) Nr. 1107/2009, (EU) Nr. 1151/2012, (EU) Nr. 652/2014, (EU) 2016/429 und (EU) 2016/2031 des Europäischen Parlaments und des Rates, der Verordnungen (EG) Nr. 1/2005 und (EG) Nr. 1099/2009 des Rates sowie der Richtlinien 98/58/EG, 1999/74/EG, 2007/43/EG, 2008/119/EG und 2008/120/EG des Rates und zur Aufhebung der Verordnungen (EG) Nr. 854/2004 und (EG) Nr. 882/2004 des Europäischen Parlaments und des Rates, der Richtlinien 89/608/EWG, 89/662/EWG, 90/425/EWG, 91/496/EEG, 96/23/EG, 96/93/EG und 97/78/EG des Rates und des Beschlusses 92/438/EWG des Rates (Verordnung über amtliche Kontrollen) (ABl. L 95 vom 7.4.2017, S. 1; L 137 vom 24.5.2017, S. 40; L 48 vom 21.2.2018, S. 44; L 322 vom 18.12.2018, S. 85), die zuletzt durch die Delegierte Verordnung (EU) 2019/2127 (ABl. L 321 vom 12.12.2019, S. 111) geändert worden ist, in der jeweils geltenden Fassung. Die Funktion des Referenzlaboratoriums erstreckt sich auf 1.die Bereiche gemäß Anhang VII Teil I Nummer 2, 3, 5 bis 8, Nummer 9 nur in Bezug auf Trichinen, Nummer 10, 11, 14, 16, 19, 21 und 22 der Verordnung (EG) Nr. 882/2004 des Europäischen Parlaments und des Rates vom 29. April 2004 über amtliche Kontrollen zur Überprüfung der Einhaltung des Lebensmittel- und Futtermittelrechts sowie der Bestimmungen über Tiergesundheit und Tierschutz (ABl. L 165 vom 30.4.2004, S. 1), die durch die Verordnung (EU) 2017/625 aufgehoben worden ist, in Verbindung mit Artikel 147 der Verordnung (EU) 2017/625,2.den Bereich gemäß Artikel 2 Absatz 1 der Verordnung (EG) Nr. 1333/2008 des Europäischen Parlaments und des Rates vom 16. Dezember 2008 über Lebensmittelzusatzstoffe (ABl. L 354 vom 31.12.2008, S. 16; L 105 vom 27.4.2010, S. 114; L 322 vom 21.11.2012, S. 8; L 123 vom 19.5.2015, S. 122), die zuletzt durch die Verordnung (EU) 2020/1819 (ABl. L 406 vom 3.12.2020, S. 26) geändert worden ist, in der jeweils geltenden Fassung und3.den Bereich gemäß Artikel 2 Absatz 1 der Verordnung (EG) Nr. 1334/2008 des Europäischen Parlaments und des Rates vom 16. Dezember 2008 über Aromen und bestimmte Lebensmittelzutaten mit Aromaeigenschaften zur Verwendung in und auf Lebensmitteln sowie zur Änderung der Verordnung (EWG) Nr. 1601/91 des Rates, der Verordnungen (EG) Nr. 2232/96 und (EG) Nr. 110/2008 und der Richtlinie 2000/13/EG (ABl. L 354 vom 31.12.2008, S. 34; L 105 vom 27.4.2010, S. 115; L 406 vom 3.12.2020, S. 67), die zuletzt durch die Verordnung (EU) 2020/1681 (ABl. L 379 vom 13.11.2020, S. 27) geändert worden ist, in der jeweils geltenden Fassung."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für Verbraucherschutz und Lebensmittelsicherheit übernimmt die Funktion eines nationalen Referenzlaboratoriums mit den Aufgaben nach Artikel 101 Absatz 1 der Verordnung (EU) 2017/625 in der jeweils geltenden Fassung für die in Anhang VII Teil I Nummer 12, 15, 17, 18 und 20 der Verordnung (EG) Nr. 882/2004 in Verbindung mit Artikel 147 der Verordnung (EU) 2017/625 genannten Bereiche."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesamt für Verbraucherschutz und Lebensmittelsicherheit nimmt ferner die Funktion eines nationalen Referenzlaboratoriums mit den in Artikel 14 Abs. 1 und Artikel 15 Abs. 2, jeweils in Verbindung mit Anhang I Gruppe A Nr. 6 und Gruppe B Nr. 2 Buchstabe c und f und Nr. 3 Buchstabe a, b und f der Richtlinie 96/23/EG des Rates vom 29. April 1996 über Kontrollmaßnahmen hinsichtlich bestimmter Stoffe und ihrer Rückstände in lebenden Tieren und tierischen Erzeugnissen und zur Aufhebung der Richtlinien 85/358/EWG und 86/468/EWG und der Entscheidungen 89/187/EWG und 91/664/EWG (ABl. EG Nr. L 125 S. 10) beschriebenen Aufgaben wahr."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Das Max Rubner-Institut übernimmt die Funktion eines nationalen Referenzlaboratoriums mit den Aufgaben nach Artikel 101 Absatz 1 der Verordnung (EU) 2017/625 in der jeweils geltenden Fassung. Die Funktion des Referenzlaboratoriums beschränkt sich auf die Untersuchung auf Anisakis nach Anhang VII Teil I Nummer 9 der Verordnung (EG) Nr. 882/2004 in Verbindung mit Artikel 147 der Verordnung (EU) 2017/625."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "RZV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2007-08-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id31 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id52 .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "RZV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "RZV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "RZV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "RZV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Referenzlaboratoriumzuweisungsverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Zuweisung der Funktion eines nationalen Referenzlaboratoriums"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 ;
+    dtd:has_standangabe dtd:standangabe-id20 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230427213006"@de ;
+    dtd:has_doknr "BJNR193910007"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230427213006"@de ;
+    dtd:has_doknr "BJNR193910007BJNE000102116"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230427213006"@de ;
+    dtd:has_doknr "BJNR193910007BJNE000201116"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230427213006"@de ;
+    dtd:has_doknr "BJNR193910007BJNE000401116"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id61 a dtd:pre ;
+    dtd:has_Value "(+++ Textnachweis ab: 18.8.2007 +++)"@de .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id65 ;
+    dtd:has_standtyp dtd:standtyp-id64 .
+
+dtd:standkommentar-id65 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 29.7.2021 I 3294"@de .
+
+dtd:standtyp-id64 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Bundesinstitut für Risikobewertung als nationales Referenzlaboratorium"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Bundesamt für Verbraucherschutz und Lebensmittelsicherheit als nationales Referenzlaboratorium"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Max Rubner-Institut als nationales Referenzlaboratorium"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "2007, 1939"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

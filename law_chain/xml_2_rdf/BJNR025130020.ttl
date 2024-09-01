@@ -1,0 +1,161 @@
+@prefix dtd: <urn:EStrCHEVRegAusfG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200408212509"@de ;
+    dtd:has_doknr "BJNR025130020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29,
+        dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32,
+        dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35,
+        dtd:P-id36,
+        dtd:P-id37 .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value " (+++ Textnachweis ab: 8.4.2020 +++)Das G wurde als Artikel 2 G v. 31.3.2020 II 251 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 3 Abs. 1 dieses G am 8.4.2020 in  Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id38 .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value " Zur Zustimmung der Gesetzgebungsorgane zur Vereinbarung vom 25.8.1953 vgl. Art.  1 G v. 31.3.2020 II 251 (EStrCHEVbgG). Die Vereinbarung ist gem. Art. 3 Abs. 2 dieses G am 1.9.1953 in Kraft getreten."@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(1) Ist das Bundeseisenbahnvermögen nach Artikel 9 der Vereinbarung zwischen dem Bundesminister für Verkehr der Bundesrepublik Deutschland und dem Vorsteher des Eidgenössischen Post- und Eisenbahndepartements der Schweizerischen Eidgenossenschaft über die deutschen Eisenbahnstrecken auf Schweizer Gebiet vom 25. August 1953 (Vertragsgesetz vom 31. März 2020 (BGBl. 2020 II S. 251, 253)) verpflichtet, die Versorgungsbezüge der Beamtinnen und Beamten, die vor dem Eintritt in den Ruhestand aufgrund der Verpflichtung aus Artikel 6 Absatz 1 der Vereinbarung über die deutschen Eisenbahnstrecken auf Schweizer Gebiet vom 25. August 1953 dauerhaft in der Schweiz eingesetzt waren und nach Eintritt in den Ruhestand ihren Wohnsitz in der Schweiz oder der deutschen Gemeinde Büsingen am Hochrhein behalten, sowie die von deren Hinterbliebenen an die Lebenshaltungskosten der Schweiz anzupassen, so weicht das Bundeseisenbahnvermögen insoweit nach Maßgabe von Absatz 2 und der Rechtsverordnung nach § 2 vom Beamtenversorgungsgesetz ab."@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value "(2) Die Anpassung der Versorgungsbezüge nach Absatz 1 wird dadurch vorgenommen, dass die Versorgungsempfängerin oder der Versorgungsempfänger die Versorgungsbezüge in der Höhe erhält, auf die nach Schweizer Recht vor Abzug von Steuern ein Anspruch bestünde. Dies gilt nicht, wenn die zu dem jeweils gültigen, von der Europäischen Zentralbank veröffentlichten Referenzkurs in Schweizer Franken umgerechneten Bezüge nach dem Beamtenversorgungsgesetz in der jeweils geltenden Fassung höher sind. Die nach Satz 1 und 2 angepassten Bezüge werden in Schweizer Franken zu dem am Zahltermin gültigen, von der Europäischen Zentralbank veröffentlichten Referenzkurs ausgezahlt."@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Verkehr und digitale Infrastruktur wird ermächtigt, durch eine Rechtsverordnung, die nicht der Zustimmung des Bundesrates bedarf,"@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "1. das in § 1 Absatz 2 Satz 1 anzuwendende Verfahren zur Ermittlung der Ruhestandsbezüge nach Schweizer Recht zu bestimmen;"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "2. die Zuständigkeit nach Nummer 1 auf das Bundeseisenbahnvermögen zu übertragen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-03-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id28 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "EStrCHEVRegAusfG"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "EStrCHEVRegAusfG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "EStrCHEVRegAusfG"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Ausführung der versorgungsrechtlichen Regelungen der am 25. August 1953 unterzeichneten Vereinbarung zwischen dem Bundesminister für Verkehr der Bundesrepublik Deutschland und dem Vorsteher des Eidgenössischen Post- und Eisenbahndepartements der Schweizerischen Eidgenossenschaft über die deutschen Eisenbahnstrecken auf Schweizer Gebiet"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 ;
+    dtd:has_titel dtd:titel-id17 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200408212509"@de ;
+    dtd:has_doknr "BJNR025130020"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200408212509"@de ;
+    dtd:has_doknr "BJNR025130020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200408212509"@de ;
+    dtd:has_doknr "BJNR025130020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id38 a dtd:pre ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_Value "(+++ Textnachweis ab: 8.4.2020 +++)"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id31 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:titel-id17 a dtd:titel ;
+    dtd:has_Value "Versorgungsrechtliche Regelungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Verordnungsermächtigungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "2020, 251"@de .
+

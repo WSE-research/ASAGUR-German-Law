@@ -1,0 +1,660 @@
+@prefix dtd: <urn:ZKDSG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:BR-id89 a dtd:BR .
+
+dtd:BR-id90 a dtd:BR .
+
+dtd:BR-id91 a dtd:BR .
+
+dtd:BR-id92 a dtd:BR .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137 .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141,
+        dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114,
+        dtd:LA-id115 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DL-id102 a dtd:DL ;
+    dtd:has_DD dtd:DD-id105,
+        dtd:DD-id106 ;
+    dtd:has_DT dtd:DT-id103,
+        dtd:DT-id104 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id107 a dtd:DL ;
+    dtd:has_DD dtd:DD-id111,
+        dtd:DD-id112,
+        dtd:DD-id113 ;
+    dtd:has_DT dtd:DT-id108,
+        dtd:DT-id109,
+        dtd:DT-id110 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96,
+        dtd:DT-id97 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_DL dtd:DL-id102 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"zugangskontrollierte Dienste\"a)Rundfunk im Sinne von § 2 Absatz 1 Satz 1 des Medienstaatsvertrages,b)digitale Dienste im Sinne von § 1 Absatz 4 Nummer 1 des Digitale-Dienste-Gesetzes,"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die unter der Voraussetzung eines Entgelts erbracht werden und nur unter Verwendung eines Zugangskontrolldienstes genutzt werden können,"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rundfunk im Sinne von § 2 Absatz 1 Satz 1 des Medienstaatsvertrages,"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "digitale Dienste im Sinne von § 1 Absatz 4 Nummer 1 des Digitale-Dienste-Gesetzes,"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"Zugangskontrolldienste\" technische Verfahren oder Vorrichtungen, die die erlaubte Nutzung eines zugangskontrollierten Dienstes ermöglichen,"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"Umgehungsvorrichtungen\" technische Verfahren oder Vorrichtungen, die dazu bestimmt oder entsprechend angepasst sind, die unerlaubte Nutzung eines zugangskontrollierten Dienstes zu ermöglichen,"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"Absatzförderung\" jede Form der unmittelbaren oder mittelbaren Förderung des Absatzes von Waren, Dienstleistungen oder des Erscheinungsbilds eines Unternehmens, einer sonstigen Organisation oder einer natürlichen Person, die eine Tätigkeit im Handel, Gewerbe oder Handwerk oder einen freien Beruf ausübt."@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Herstellung, die Einfuhr und die Verbreitung von Umgehungsvorrichtungen zu gewerbsmäßigen Zwecken,"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Besitz, die technische Einrichtung, die Wartung und der Austausch von Umgehungsvorrichtungen zu gewerbsmäßigen Zwecken,"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Absatzförderung von Umgehungsvorrichtungen."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_BR dtd:BR-id87 ;
+    dtd:has_Value " (+++ Textnachweis ab: 23.3.2002 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 84/98 (CELEX-Nr: 398L0084) +++)Das Gesetz dient der Umsetzung der Richtlinie 1998/84/EG des Europäischen Parlaments und des Rates über den rechtlichen Schutz von zugangskontrollierten Diensten und von Zugangskontrolldiensten vom 20. November 1998 (ABl. EG Nr. L 320 S. 54)."@de ;
+    dtd:has_pre dtd:pre-id149 .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "Zweck des Gesetzes ist es, Zugangskontrolldienste gegen unerlaubte Eingriffe zu schützen."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Value "Im Sinne dieses Gesetzes bezeichnet der Ausdruck 1.\"zugangskontrollierte Dienste\"a)Rundfunk im Sinne von § 2 Absatz 1 Satz 1 des Medienstaatsvertrages,b)digitale Dienste im Sinne von § 1 Absatz 4 Nummer 1 des Digitale-Dienste-Gesetzes,die unter der Voraussetzung eines Entgelts erbracht werden und nur unter Verwendung eines Zugangskontrolldienstes genutzt werden können,2.\"Zugangskontrolldienste\" technische Verfahren oder Vorrichtungen, die die erlaubte Nutzung eines zugangskontrollierten Dienstes ermöglichen,3.\"Umgehungsvorrichtungen\" technische Verfahren oder Vorrichtungen, die dazu bestimmt oder entsprechend angepasst sind, die unerlaubte Nutzung eines zugangskontrollierten Dienstes zu ermöglichen,4.\"Absatzförderung\" jede Form der unmittelbaren oder mittelbaren Förderung des Absatzes von Waren, Dienstleistungen oder des Erscheinungsbilds eines Unternehmens, einer sonstigen Organisation oder einer natürlichen Person, die eine Tätigkeit im Handel, Gewerbe oder Handwerk oder einen freien Beruf ausübt."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_DL dtd:DL-id107 ;
+    dtd:has_Value "Verboten sind 1.die Herstellung, die Einfuhr und die Verbreitung von Umgehungsvorrichtungen zu gewerbsmäßigen Zwecken, 2.der Besitz, die technische Einrichtung, die Wartung und der Austausch von Umgehungsvorrichtungen zu gewerbsmäßigen Zwecken, 3.die Absatzförderung von Umgehungsvorrichtungen. "@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "Mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe wird bestraft, wer entgegen § 3 Nr. 1 eine Umgehungsvorrichtung herstellt, einführt oder verbreitet."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer entgegen § 3 Nr. 2 eine Umgehungsvorrichtung besitzt, technisch einrichtet, wartet oder austauscht."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "(2) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu fünfzigtausend Euro geahndet werden."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "Gegenstände, auf die sich eine Straftat nach § 4 bezieht, können eingezogen werden."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id39 a dtd:amtabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id40 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-03-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id67 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id41 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id162 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id163 .
+
+dtd:fussnoten-id74 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id124 .
+
+dtd:fussnoten-id78 a dtd:fussnoten .
+
+dtd:gliederungsbez-id151 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 1"@de .
+
+dtd:gliederungsbez-id154 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 2"@de .
+
+dtd:gliederungsbez-id157 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 3"@de .
+
+dtd:gliederungsbez-id160 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 4"@de .
+
+dtd:gliederungseinheit-id46 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id151 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id150 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id152 .
+
+dtd:gliederungseinheit-id54 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id154 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id153 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id155 .
+
+dtd:gliederungseinheit-id59 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id157 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id156 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id158 .
+
+dtd:gliederungseinheit-id70 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id160 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id159 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id161 .
+
+dtd:gliederungskennzahl-id150 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id153 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id156 a dtd:gliederungskennzahl ;
+    dtd:has_Value "030"@de .
+
+dtd:gliederungskennzahl-id159 a dtd:gliederungskennzahl ;
+    dtd:has_Value "040"@de .
+
+dtd:gliederungstitel-id152 a dtd:gliederungstitel ;
+    dtd:has_Value "Allgemeine Vorschriften"@de .
+
+dtd:gliederungstitel-id155 a dtd:gliederungstitel ;
+    dtd:has_Value "Schutz der Zugangskontrolldienste"@de .
+
+dtd:gliederungstitel-id158 a dtd:gliederungstitel ;
+    dtd:has_Value "Straf- und Bußgeldvorschriften"@de .
+
+dtd:gliederungstitel-id161 a dtd:gliederungstitel ;
+    dtd:has_Value "Schlussvorschrift"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "ZKDSG"@de .
+
+dtd:kurzue-id42 a dtd:kurzue ;
+    dtd:has_Value "Zugangskontrolldiensteschutz-Gesetz"@de .
+
+dtd:langue-id43 a dtd:langue ;
+    dtd:has_Value """Gesetz über den Schutz von zugangskontrollierten
+Diensten und von Zugangskontrolldiensten"""@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id39 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id40 ;
+    dtd:has_fundstelle dtd:fundstelle-id41 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_kurzue dtd:kurzue-id42 ;
+    dtd:has_langue dtd:langue-id43 ;
+    dtd:has_standangabe dtd:standangabe-id44 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 ;
+    dtd:has_titel dtd:titel-id68 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id70 ;
+    dtd:has_jurabk dtd:jurabk-id69 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNG000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNG000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNE000202360"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNG000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNG000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20240517214521"@de ;
+    dtd:has_doknr "BJNR109000002BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id162 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id149 a dtd:pre ;
+    dtd:has_BR dtd:BR-id88,
+        dtd:BR-id89,
+        dtd:BR-id90,
+        dtd:BR-id91,
+        dtd:BR-id92 ;
+    dtd:has_Value "(+++ Textnachweis ab: 23.3.2002 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 84/98 (CELEX-Nr: 398L0084) +++)"@de .
+
+dtd:standangabe-id44 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id165 ;
+    dtd:has_standtyp dtd:standtyp-id164 .
+
+dtd:standkommentar-id165 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 23 G v. 6.5.2024 I Nr. 149"@de .
+
+dtd:standtyp-id164 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id138 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Zweck des Gesetzes"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value """Verbot von gewerbsmäßigen Eingriffen zur Umgehung von
+Zugangskontrolldiensten"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Strafvorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Bußgeldvorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id68 a dtd:titel ;
+    dtd:has_Value "Einziehung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id163 a dtd:zitstelle ;
+    dtd:has_Value "2002, 1090"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

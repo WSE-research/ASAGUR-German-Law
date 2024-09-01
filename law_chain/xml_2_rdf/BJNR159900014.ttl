@@ -1,0 +1,102 @@
+@prefix dtd: <urn:FVOGedenkBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20141027221016"@de ;
+    dtd:has_doknr "BJNR159900014"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id19 a dtd:Content ;
+    dtd:has_P dtd:P-id20 .
+
+dtd:Content-id21 a dtd:Content ;
+    dtd:has_P dtd:P-id22 .
+
+dtd:P-id20 a dtd:P ;
+    dtd:has_BR dtd:BR-id16 ;
+    dtd:has_Value " (+++ Textnachweis ab: 14.10.2014 +++)"@de ;
+    dtd:has_pre dtd:pre-id23 .
+
+dtd:P-id22 a dtd:P ;
+    dtd:has_Value "Die Bundesregierung hat in ihrer Sitzung am 27. August 2014 beschlossen, ab dem Jahre 2015 jährlich am 20. Juni den „Gedenktag für die Opfer von Flucht und Vertreibung“ zu begehen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2014-10-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id24 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id25 .
+
+dtd:fussnoten-id14 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id19 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "FVOGedenkBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "FVOGedenkBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über den Beschluss der Bundesregierung zur Einführung eines jährlichen Gedenktages für die Opfer von Flucht und Vertreibung"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20141027221016"@de ;
+    dtd:has_doknr "BJNR159900014"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20141027221016"@de ;
+    dtd:has_doknr "BJNR159900014BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id24 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id23 a dtd:pre ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_Value "(+++ Textnachweis ab: 14.10.2014 +++)"@de .
+
+dtd:text-id15 a dtd:text ;
+    dtd:has_Content dtd:Content-id21 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id15 .
+
+dtd:zitstelle-id25 a dtd:zitstelle ;
+    dtd:has_Value "2014, 1599"@de .
+

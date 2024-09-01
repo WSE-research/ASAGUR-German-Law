@@ -1,0 +1,113 @@
+@prefix dtd: <urn:ZRÜV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150257"@de ;
+    dtd:has_doknr "BJNR030800998"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id19 a dtd:Content ;
+    dtd:has_P dtd:P-id20,
+        dtd:P-id21 .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:P-id20 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 6.2.1998 +++)"@de .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_BR dtd:BR-id18 ;
+    dtd:has_Value " Die V wurde vom Bundesministerium für Gesundheit im Einvernehmen mit den Bundesministerien für Ernährung, Landwirtschaft und Forsten, für Wirtschaft, für Umwelt, Naturschutz und Reaktorsicherheit und dem Bundesministerium der Finanzen sowie vom Bundesministerium für Ernährung, Landwirtschaft und Forsten im Einvernehmen mit den Bundesministerien für Gesundheit, der Justiz, für Wirtschaft und Gesundheit erlassen. Der Bundesrat hat zugestimmt. Die V ist gem. Art. 27 Abs. 1 V 2125-40-71/1 v. 29.1.1998 I 230 (LMRZNOV) am 6.2.1998 in Kraft getreten."@de .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_Value "Bis zum 28. Oktober 1998 dürfen Lebensmittel sowie Erzeugnisse, die dem Weingesetz vom 8. Juli 1994 (BGBl. I S. 1467) unterliegen, die den durch die Verordnung zur Neuordnung lebensmittelrechtlicher Vorschriften über Zusatzstoffe neu erlassenen oder geänderten Vorschriften nicht entsprechen, nach den bis zum 6. Februar 1998 geltenden Vorschriften hergestellt, behandelt oder gekennzeichnet und bis zum Abbau der Vorräte in den Verkehr gebracht werden. Satz 1 gilt für die Zusatzstoff-Verkehrsverordnung vom 10. Juli 1984 (BGBl. I S. 897), zuletzt geändert durch Artikel 2 der Verordnung vom 22. Dezember 1993 (BGBl. I S. 2092) nur insoweit, als in der Zusatzstoff-Verkehrsverordnung vom 29. Januar 1998 (BGBl. I S. 230, 269) keine Reinheitsanforderungen für die Zusatzstoffe geregelt sind. Bis zum Erlaß anderweitiger bundesrechtlicher Vorschriften dürfen abweichend von Satz 1 Lebensmittel mit Zusatzstoffen, die zu anderen als technologischen Zwecken bestimmt sind, nach den Vorschriften hergestellt, behandelt, gekennzeichnet und in den Verkehr gebracht werden, die am 5. Februar 1998 gegolten haben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-01-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id14 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id24 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id25 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id19 .
+
+dtd:fussnoten-id17 a dtd:fussnoten .
+
+dtd:jurabk-id13 a dtd:jurabk ;
+    dtd:has_Value "ZRÜV"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "ZRÜV"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Verordnung über den Übergang auf das neue Zusatzstoffrecht
+(Artikel 25 der Verordnung zur Neuordnung lebensmittelrechtlicher
+Vorschriften über Zusatzstoffe)"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 ;
+    dtd:has_standangabe dtd:standangabe-id12 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id14 ;
+    dtd:has_jurabk dtd:jurabk-id13 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150257"@de ;
+    dtd:has_doknr "BJNR030800998"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150257"@de ;
+    dtd:has_doknr "BJNR030800998BJNE000101320"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id24 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id12 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id27 ;
+    dtd:has_standtyp dtd:standtyp-id26 .
+
+dtd:standkommentar-id27 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 16.10.1998 I 3175"@de .
+
+dtd:standtyp-id26 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id22 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id17 ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id25 a dtd:zitstelle ;
+    dtd:has_Value "1998, 230, 308"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

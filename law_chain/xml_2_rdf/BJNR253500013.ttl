@@ -1,0 +1,274 @@
+@prefix dtd: <urn:Münz20EuroBek-2013#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:TIF rdfs:label "TIF"@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR253500013"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id59 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2013, 2535)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49,
+        dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52,
+        dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_BR dtd:BR-id31,
+        dtd:BR-id32 ;
+    dtd:has_P dtd:P-id57 ;
+    dtd:has_table dtd:table-id36 .
+
+dtd:IMG-id44 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "945"@de ;
+    dtd:has_Pos dtd:inline ;
+    dtd:has_SRC "bgbl1_2013_j2535-1_0010.jpg"@de ;
+    dtd:has_Type "TIF"@de ;
+    dtd:has_Units "300"@de ;
+    dtd:has_Width "945"@de ;
+    dtd:has_alt ""@de .
+
+dtd:IMG-id45 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "948"@de ;
+    dtd:has_Pos dtd:inline ;
+    dtd:has_SRC "bgbl1_2013_j2535-1_0020.jpg"@de ;
+    dtd:has_Type "TIF"@de ;
+    dtd:has_Units "300"@de ;
+    dtd:has_Width "945"@de ;
+    dtd:has_alt ""@de .
+
+dtd:NB-id34 a dtd:NB ;
+    dtd:has_Value "61/193"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value " (+++ Textnachweis ab: 22.7.2013 +++)"@de ;
+    dtd:has_pre dtd:pre-id58 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_NB dtd:NB-id34 ;
+    dtd:has_Value "Gemäß den §§ 2, 4 und 5 des Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung am 27. Januar 2010 beschlossen, in den Jahren 2010 bis 2015 eine Serie von Kleinen Goldmünzen im Nominalwert von 20 Euro prägen zu lassen, die dem deutschen Wald gewidmet sind und die sich im Kontext mit dem Internationalen Jahr der Wälder 2011 (UN-Resolution 61/193 vom 20. Dezember 2006) befindet. Bislang sind im Rahmen der Serie die Münzen „Eiche“ (2010), „Buche“ (2011) und „Fichte“ (2012) erschienen. Im Jahr 2013 wird die Ausgabe mit der Münze „Kiefer“ fortgesetzt. Die Münze wird ab dem 26. Juni 2013 in den Verkehr gebracht."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Die limitierte Auflage der 20-Euro-Goldmünze „Kiefer“ beträgt 200 000 Stück. Die Münze wird zu gleichen Teilen in den Münzstätten Berlin (Münzzeichen „A“), München (Münzzeichen „D“), Stuttgart (Münzzeichen „F“), Karlsruhe (Münzzeichen „G“) und Hamburg (Münzzeichen „J“) in Stempelglanzausführung geprägt."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Sie besteht aus Gold mit einem Feingehalt von 999,9 Tausendteilen (Feingold), hat einen Durchmesser von 17,5 Millimeter und eine Masse (Gewicht) von 3,89 Gramm beziehungsweise 1/8 Unze. Der Münzrand ist geriffelt."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Der Entwurf der Bild- und der Wertseite der Münze „Kiefer“ stammt von dem Künstler Frantisek Chochola aus Hamburg."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Die Wertseite zeigt einen Adler, den Schriftzug „BUNDESREPUBLIK DEUTSCHLAND“, die zwölf Europasterne, die Wertziffer mit der Euro-Bezeichnung sowie die Jahreszahl „2013“ und – je nach Münzstätte – das Münzzeichen „A“, „D“, „F“, „G“ oder „J“."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_SP dtd:SP-id33 ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2013, 2535)"@de ;
+    dtd:has_noindex dtd:noindex-id35 .
+
+dtd:SP-id33 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2013-07-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id38 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "80*"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "80*"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id42 a dtd:entry ;
+    dtd:has_IMG dtd:IMG-id44 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id43 a dtd:entry ;
+    dtd:has_IMG dtd:IMG-id45 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id46 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2013"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2013"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2013"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2013"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen im Nennwert von 20 Euro (Goldmünze „Kiefer“ der Serie „Deutscher Wald“)"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id35 a dtd:noindex .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR253500013"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR253500013BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR253500013BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221020213551"@de ;
+    dtd:has_doknr "BJNR253500013BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id58 a dtd:pre ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30 ;
+    dtd:has_Value "(+++ Textnachweis ab: 22.7.2013 +++)"@de .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id42,
+        dtd:entry-id43 .
+
+dtd:table-id36 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id37 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id40 a dtd:tbody ;
+    dtd:has_row dtd:row-id41 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:tgroup-id37 a dtd:tgroup ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id38,
+        dtd:colspec-id39 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id40 .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "2013, 2535"@de .
+
+dtd:inline rdfs:label "inline"@de .
+
+dtd:center rdfs:label "center"@de .
+

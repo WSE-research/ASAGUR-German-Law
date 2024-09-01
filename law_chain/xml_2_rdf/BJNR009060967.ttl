@@ -1,0 +1,656 @@
+@prefix dtd: <urn:BewG§55Abs8DV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625155219"@de ;
+    dtd:has_doknr "BJNR009060967"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id97,
+        dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "Die in dieser Verordnung genannten Beträge in Deutscher Mark gelten nach dem 31. Dezember 2001 als Berechnungsgrößen fort."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach ihrer Verkündung in Kraft."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 19.8.1967 +++)"@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 55 Abs. 8 und des § 123 Abs. 1 des Bewertungsgesetzes in der Fassung vom 10. Dezember 1965 (Bundesgesetzbl. I S. 1861) verordnet die Bundesregierung mit Zustimmung des Bundesrates:"@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value """(1) Die Vergleichswerte der Hauptbewertungsstützpunkte für den forstwirtschaftlichen Nutzungsteil Hochwald werden auf den 1. Januar 1964 in der nachstehenden Höhe festgesetzt: 
+	
+		
+		
+		
+		
+		
+			
+				Lfd. Nr.
+				Hauptbewertungsstützpunkte
+				Vergleichswerte der  Hauptbewertungsstützpunkte DM
+			
+			
+				Belegenheitsfinanzamt
+				Bewertungsgebiet  Nr.
+			
+		
+		
+			
+			
+			
+				1
+				Meschede
+				3101
+				68.811
+			
+			
+				2
+				Geldern
+				3202
+				16.875
+			
+			
+				3
+				Gummersbach
+				3301
+				123.922
+			
+			
+				4
+				Schopfheim
+				7202
+				1.820.751
+			
+			
+				5
+				Freudenstadt
+				7303
+				1.034.748
+			
+			
+				6
+				Öhringen
+				7304
+				897.024
+			
+			
+				7
+				Wunsiedel
+				8107
+				2.001.118
+			
+			
+				8
+				Krumbach
+				8204
+				1.547.012
+			
+		
+	
+ """@de ;
+    dtd:has_table dtd:table-id37 .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(2) Die in der Tabelle bezeichneten Bewertungsgebiete ergeben sich aus der Anlage 2 der Verordnung zur Durchführung des § 55 Abs. 3 und 4 des Bewertungsgesetzes vom 27. Juli 1967 (Bundesgesetzbl. I S. 805)."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1967-08-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id40 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id41 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id42 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:entry-id55 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lfd. Nr."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id56 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauptbewertungsstützpunkte"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vergleichswerte der  Hauptbewertungsstützpunkte DM"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Belegenheitsfinanzamt"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bewertungsgebiet  Nr."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Meschede"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3101"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "68.811"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Geldern"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3202"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "16.875"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gummersbach"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3301"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "123.922"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Schopfheim"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7202"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.820.751"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Freudenstadt"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7303"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.034.748"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "6"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Öhringen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7304"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "897.024"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wunsiedel"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8107"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2.001.118"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Krumbach"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8204"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.547.012"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id103 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id104 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id92 .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BewG§55Abs8DV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BewG§55Abs8DV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "BewG§55Abs8DV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "BewG§55Abs8DV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "BewG§55Abs8DV"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung des § 55 Abs. 8 des Bewertungsgesetzes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625155219"@de ;
+    dtd:has_doknr "BJNR009060967"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625155219"@de ;
+    dtd:has_doknr "BJNR009060967BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625155219"@de ;
+    dtd:has_doknr "BJNR009060967BJNE000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625155219"@de ;
+    dtd:has_doknr "BJNR009060967BJNE000301301"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625155219"@de ;
+    dtd:has_doknr "BJNR009060967BJNE000400303"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id103 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id45 a dtd:row ;
+    dtd:has_entry dtd:entry-id55,
+        dtd:entry-id56,
+        dtd:entry-id57 .
+
+dtd:row-id46 a dtd:row ;
+    dtd:has_entry dtd:entry-id58,
+        dtd:entry-id59 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id47 a dtd:row ;
+    dtd:has_entry dtd:entry-id60,
+        dtd:entry-id61,
+        dtd:entry-id62,
+        dtd:entry-id63 .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id64,
+        dtd:entry-id65,
+        dtd:entry-id66,
+        dtd:entry-id67 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id68,
+        dtd:entry-id69,
+        dtd:entry-id70,
+        dtd:entry-id71 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id72,
+        dtd:entry-id73,
+        dtd:entry-id74,
+        dtd:entry-id75 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id76,
+        dtd:entry-id77,
+        dtd:entry-id78,
+        dtd:entry-id79 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id80,
+        dtd:entry-id81,
+        dtd:entry-id82,
+        dtd:entry-id83 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id84,
+        dtd:entry-id85,
+        dtd:entry-id86,
+        dtd:entry-id87 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id88,
+        dtd:entry-id89,
+        dtd:entry-id90,
+        dtd:entry-id91 .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id106 ;
+    dtd:has_standtyp dtd:standtyp-id105 .
+
+dtd:standkommentar-id106 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 18 Nr. 2 G v. 19.12.2000 I 1790"@de .
+
+dtd:standtyp-id105 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id37 a dtd:table ;
+    dtd:has_frame dtd:top ;
+    dtd:has_tgroup dtd:tgroup-id38 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id44 a dtd:tbody ;
+    dtd:has_row dtd:row-id47,
+        dtd:row-id48,
+        dtd:row-id49,
+        dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id96 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 .
+
+dtd:tgroup-id38 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id39,
+        dtd:colspec-id40,
+        dtd:colspec-id41,
+        dtd:colspec-id42 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id44 ;
+    dtd:has_thead dtd:thead-id43 .
+
+dtd:thead-id43 a dtd:thead ;
+    dtd:has_row dtd:row-id45,
+        dtd:row-id46 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:zitstelle-id104 a dtd:zitstelle ;
+    dtd:has_Value "1967, 906"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

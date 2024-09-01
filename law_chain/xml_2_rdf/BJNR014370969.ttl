@@ -1,0 +1,416 @@
+@prefix dtd: <urn:WasVersStatV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81 .
+
+dtd:Content-id82 a dtd:Content ;
+    dtd:has_P dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87 .
+
+dtd:Content-id88 a dtd:Content ;
+    dtd:has_P dtd:P-id89 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91,
+        dtd:P-id92,
+        dtd:P-id93,
+        dtd:P-id94 .
+
+dtd:Content-id95 a dtd:Content ;
+    dtd:has_P dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72 .
+
+dtd:DD-id57 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id73 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id74 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id75 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id77 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id78 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DL-id53 a dtd:DL ;
+    dtd:has_DD dtd:DD-id56,
+        dtd:DD-id57 ;
+    dtd:has_DT dtd:DT-id54,
+        dtd:DT-id55 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id58 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64 ;
+    dtd:has_DT dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id65 a dtd:DL ;
+    dtd:has_DD dtd:DD-id69,
+        dtd:DD-id70,
+        dtd:DD-id71 ;
+    dtd:has_DT dtd:DT-id66,
+        dtd:DT-id67,
+        dtd:DT-id68 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_DL dtd:DL-id58 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "In der öffentlichen Wasserversorgunga)die Gewinnung und den Bezug von Grundwasser, Quellwasser und Oberflächenwasser, b)die Abgabe von Wasser, c)die Zahl der versorgten Einwohner; "@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Gewinnung und den Bezug von Grundwasser, Quellwasser und Oberflächenwasser,"@de .
+
+dtd:LA-id74 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Abgabe von Wasser,"@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zahl der versorgten Einwohner;"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_DL dtd:DL-id65 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im öffentlichen Abwasserwesena)den Abwasseranfall, b)die Fortleitung und Reinigung des Abwassers, c)die Zahl der an die öffentliche Kanalisation angeschlossenen Einwohner. "@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Abwasseranfall,"@de .
+
+dtd:LA-id78 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Fortleitung und Reinigung des Abwassers,"@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zahl der an die öffentliche Kanalisation angeschlossenen Einwohner."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "Die Verordnung tritt am Tage nach ihrer Verkündung in Kraft."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  2. 9.1969 +++)"@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 6 Abs. 2 des Gesetzes über die Statistik für Bundeszwecke vom 3. September 1953 (Bundesgesetzbl. I S. 1314), zuletzt geändert durch das Einführungsgesetz zum Gesetz über Ordnungswidrigkeiten vom 24. Mai 1968 (Bundesgesetzbl. I S. 503), verordnet die Bundesregierung mit Zustimmung des Bundesrates:"@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "In der öffentlichen Wasserversorgung und im öffentlichen Abwasserwesen werden im Jahre 1970 Erhebungen als Bundesstatistik durchgeführt."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_DL dtd:DL-id53 ;
+    dtd:has_Value "Die Statistik erfaßt für das dem Erhebungsjahr vorangegangene Kalenderjahr folgende Tatbestände: 1.In der öffentlichen Wasserversorgunga)die Gewinnung und den Bezug von Grundwasser, Quellwasser und Oberflächenwasser, b)die Abgabe von Wasser, c)die Zahl der versorgten Einwohner;  2.im öffentlichen Abwasserwesena)den Abwasseranfall, b)die Fortleitung und Reinigung des Abwassers, c)die Zahl der an die öffentliche Kanalisation angeschlossenen Einwohner.  "@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_Value "(1) Auskunftspflichtig nach § 10 des Gesetzes sind Anstalten und Körperschaften des öffentlichen Rechts, Unternehmen und andere Einrichtungen, die Anlagen der öffentlichen Wasserversorgung und des öffentlichen Abwasserwesens betreiben."@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "(2) Die Meldungen nach § 2 sind unter Verwendung der amtlichen Erhebungsvordrucke zu den auf diesen angegebenen Meldeterminen der nach Landesrecht bestimmten, fachlich zuständigen Stelle einzureichen."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "(3) Besitzt ein Auskunftspflichtiger an getrennten Orten Betriebe mit selbständigen Wasserversorgungs- oder Entwässerungsgebieten, so ist für die einzelnen Betriebe jeweils gesondert zu berichten."@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_Value "(4) Die Auskünfte sind auf Anfordern gesondert für die einzelnen Gemeinden zu machen."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "Die Weiterleitung von Einzelangaben nach § 12 Abs. 2 des Gesetzes an die für die Wasserversorgung und das Abwasserwesen zuständigen obersten Bundes- und Landesbehörden oder die von diesen bestimmten Stellen ist zugelassen."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzblatt I S. 1) in Verbindung mit § 17 des Gesetzes über die Statistik für Bundeszwecke auch im Land Berlin."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-08-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id101 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id102 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id82 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "WasVersStatV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "WasVersStatV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "WasVersStatV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "WasVersStatV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "WasVersStatV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "WasVersStatV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "WasVersStatV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "WasVersStatV"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Statistik in der öffentlichen Wasserversorgung und im
+öffentlichen Abwasserwesen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969BJNE000400328"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969BJNE000500328"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969BJNE000600328"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405125656"@de ;
+    dtd:has_doknr "BJNR014370969BJNE000700328"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id101 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id86 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id88 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id90 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id95 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:zitstelle-id102 a dtd:zitstelle ;
+    dtd:has_Value "1969, 1437"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

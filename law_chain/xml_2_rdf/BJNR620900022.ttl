@@ -1,0 +1,232 @@
+@prefix dtd: <urn:GasSpFüllstV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220801213009"@de ;
+    dtd:has_doknr "BJNR620900022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49,
+        dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DL-id37 a dtd:DL ;
+    dtd:has_DD dtd:DD-id40,
+        dtd:DD-id41 ;
+    dtd:has_DT dtd:DT-id38,
+        dtd:DT-id39 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Value "am 1. Oktober: 85 Prozent,"@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Value "am 1. November: 95 Prozent."@de .
+
+dtd:NB-id36 a dtd:NB ;
+    dtd:has_Value "Absatzes 1"@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29.7.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id53 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 35b Absatz 3 des Energiewirtschaftsgesetzes, der durch Artikel 1 Nummer 3 des Gesetzes vom 26. April 2022 (BGBl. I S. 674) eingefügt worden ist, verordnet das Bundesministerium für Wirtschaft und Klimaschutz:"@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_DL dtd:DL-id37 ;
+    dtd:has_Value "(1) Abweichend von § 35b Absatz 1 Satz 2 Nummer 1 und 2 des Energiewirtschaftsgesetzes sind in jeder Gasspeicheranlage die nachfolgend angegebenen Füllstände als prozentualer Anteil am Arbeitsgasvolumen der Gasspeicheranlagen zu den genannten Stichtagen vorzuhalten (Füllstandsvorgaben): 1.am 1. Oktober: 85 Prozent,2.am 1. November: 95 Prozent."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_NB dtd:NB-id36 ;
+    dtd:has_Value "(2) Um die Einhaltung der Füllstandsvorgaben des Absatzes 1 zu gewährleisten, hat der Betreiber einer Gasspeicheranlage abweichend von § 35b Absatz 2 des Energiewirtschaftsgesetzes sowohl am 1. August als auch am 1. September eines Kalenderjahres jeweils zu diesen Stichtagen einen Füllstand nachzuweisen, der die Erreichung der Füllstandsvorgaben des Absatzes 1 nicht gefährdet. Wenn zum 1. September die jeweilige Gasspeicheranlage einen Füllstand von mindestens 75 Prozent aufweist, wird vermutet, dass die Erreichung der Füllstandsvorgaben des Absatzes 1 in dieser Gasspeicheranlage nicht gefährdet ist."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Sie tritt mit Ablauf des 31. März 2025 außer Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "GasSpFüllstV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-07-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "GasSpFüllstV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "GasSpFüllstV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "GasSpFüllstV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "GasSpFüllstV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Gasspeicherfüllstandsverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Anpassung von Füllstandsvorgaben für Gasspeicheranlagen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 ;
+    dtd:has_standangabe dtd:standangabe-id20 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220801213009"@de ;
+    dtd:has_doknr "BJNR620900022"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220801213009"@de ;
+    dtd:has_doknr "BJNR620900022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220801213009"@de ;
+    dtd:has_doknr "BJNR620900022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220801213009"@de ;
+    dtd:has_doknr "BJNR620900022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id53 a dtd:pre ;
+    dtd:has_BR dtd:BR-id34,
+        dtd:BR-id35 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.7.2022 +++)"@de .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id57 ;
+    dtd:has_standtyp dtd:standtyp-id56 .
+
+dtd:standkommentar-id57 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 2 Satz 2 dieser V mit Ablauf des 31.3.2025 außer Kraft"@de .
+
+dtd:standtyp-id56 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Füllstandsvorgaben, Stichtage"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "AT 28.07.2022 V1"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

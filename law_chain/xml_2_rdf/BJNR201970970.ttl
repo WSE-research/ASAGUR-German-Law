@@ -1,0 +1,335 @@
+@prefix dtd: <urn:KOVZusVtrAUTG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id83 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:D .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:I-id61 a dtd:I ;
+    dtd:has_Value "Schwerbeschädigter"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_BR dtd:BR-id59,
+        dtd:BR-id60 ;
+    dtd:has_Value "Überschrift u. Art. 1 Satz 1 Kursivdruck: \"Schwerbeschädigter\" jetzt \"Schwerbehinderter\" gem. Art. III § 4 G v. 24.4.1974 I 981  (+++ Textnachweis ab:  1. 9.1964 +++)"@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_I dtd:I-id61 ;
+    dtd:has_Value "Dem in Wien am 7. Februar 1969 unterzeichneten Zusatzvertrag zur Durchführung und Ergänzung des Vertrags vom 7. Mai 1963 zwischen der Bundesrepublik Deutschland und der Republik Österreich über Kriegsopferversorgung und Beschäftigung Schwerbeschädigter (Bundesgesetzbl. 1964 II S. 220) wird zugestimmt. Der Zusatzvertrag wird nachstehend veröffentlicht."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id83 ;
+    dtd:has_Value "Überschrift u. Art. 1 Satz 1 Kursivdruck: \"Schwerbeschädigter\" jetzt \"Schwerbehinderter\" gem. Art. III § 4 G v. 24.4.1974 I 981"@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "Als Stellen in der Bundesrepublik Deutschland, die nach Artikel 6 Abs. 3 Satz 3 des Zusatzvertrags die Ausfertigung der Bescheide der Verwaltungsbehörden mit der Bestätigung ihrer Vollstreckbarkeit zu versehen haben, werden die Träger der Sozialen Entschädigung bestimmt."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Personen, die einen Anspruch auf Versorgung nach dem Bundesversorgungsgesetz in der am 31. Dezember 2023 geltenden Fassung oder dem Vierzehnten Buch Sozialgesetzbuch besitzen und ihren Wohnsitz oder gewöhnlichen Aufenthalt in den Gemeinden Jungholz (politischer Bezirk Reutte) und Mittelberg (politischer Bezirk Bregenz) der Republik Österreich haben, erhalten Versorgung wie Berechtigte mit Wohnsitz oder gewöhnlichem Aufenthalt im Gebiet der Bundesrepublik Deutschland."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt mit Wirkung vom 1. September 1964, Artikel 2 dieses Gesetzes jedoch mit dem ersten Tag des auf den Austausch der Ratifikationsurkunden zum Zusatzvertrag folgenden Monats, Artikel 3 Nr. 1 mit Wirkung vom 1. Januar 1967 in Kraft."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem der Zusatzvertrag nach seinem Artikel 9 Abs. 2 in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1970-04-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id84 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id85 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id64 .
+
+dtd:fussnoten-id49 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id70 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "KOVZusVtrAUTG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "KOVZusVtrAUTG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "KOVZusVtrAUTG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "KOVZusVtrAUTG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "KOVZusVtrAUTG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "KOVZusVtrAUTG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "KOVZusVtrAUTG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "KOVZusVtrAUTG"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Zusatzvertrag vom 7. Februar 1969 zur Durchführung und
+Ergänzung des Vertrags vom 7. Mai 1963 zwischen der Bundesrepublik Deutschland
+und der Republik Österreich über Kriegsopferversorgung und Beschäftigung
+Schwerbeschädigter"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970BJNE000301126"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970BJNE000501126"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970BJNE000600314"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231231214330"@de ;
+    dtd:has_doknr "BJNR201970970BJNE000700314"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id84 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id87 ;
+    dtd:has_standtyp dtd:standtyp-id86 .
+
+dtd:standkommentar-id87 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 22 G v. 20.8.2021 I 3932"@de .
+
+dtd:standtyp-id86 a dtd:standtyp ;
+    dtd:has_Value "Hinweis"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:zitstelle-id85 a dtd:zitstelle ;
+    dtd:has_Value "1970, 197"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,172 @@
+@prefix dtd: <urn:GrAbfertVbgAUTV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154022"@de ;
+    dtd:has_doknr "BJNR270220996"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38,
+        dtd:P-id39,
+        dtd:P-id40 .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 8.1996 +++)"@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 2 Abs. 2 des Gesetzes vom 25. August 1960 zu dem Abkommen vom 30. Mai 1958 zwischen der Bundesrepublik Deutschland und dem Königreich der Niederlande über die Zusammenlegung der Grenzabfertigung und über die Einrichtung von Gemeinschafts- oder Betriebswechselbahnhöfen an der deutsch-niederländischen Grenze (BGBl. 1960 II S. 2181) verordnen das Bundesministerium des Innern und das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "An der deutsch-österreichischen Grenze werden an den Grenzübergängen Pfronten-Steinach/Schönbichl, Niederndorf/Oberaudorf, Erl/Windshausen, Sachrang/Wildbichl, Schellenberg/Hangendenstein, Ainring/Siezenheim, Oberndorf/Laufen, Tittmoning/Ettenau, Neuhaus am Inn-Alte Innbrücke/Schärding, Passau-Haibach/Haibach, Oberkappel/Kappel und Schwarzenberg/Lackenhäuser nach Maßgabe der Vereinbarung vom 3. Juli 1996/18. Juli 1996 vorgeschobene deutsche Grenzdienststellen auf österreichischem Gebiet und vorgeschobene österreichische Grenzdienststellen auf deutschem Gebiet errichtet und am Grenzübergang Füssen/Pinswang die österreichische Grenzabfertigung zeitweilig auf deutschem Gebiet vorgenommen. Die Vereinbarung wird nachstehend veröffentlicht."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt mit Wirkung vom 1. August 1996 in Kraft."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(2) Diese Verordnung tritt an dem Tage außer Kraft, an dem die Vereinbarung vom 3. Juli 1996/18. Juli 1996 außer Kraft tritt."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(3) Der Tag des Außerkrafttretens ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-11-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id41 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id42 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id31 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertVbgAUTV"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertVbgAUTV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertVbgAUTV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "GrAbfertVbgAUTV"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Verordnung zu der deutsch-österreichischen Vereinbarung
+vom 3. Juli 1996/18. Juli 1996 über die Errichtung
+vorgeschobener deutscher Grenzdienststellen auf österreichischem Gebiet
+und vorgeschobener österreichischer Grenzdienststellen auf deutschem Gebiet
+und die zeitweilige österreichische Grenzabfertigung auf deutschem Gebiet"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154022"@de ;
+    dtd:has_doknr "BJNR270220996"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154022"@de ;
+    dtd:has_doknr "BJNR270220996BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154022"@de ;
+    dtd:has_doknr "BJNR270220996BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154022"@de ;
+    dtd:has_doknr "BJNR270220996BJNE000300310"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id41 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id42 a dtd:zitstelle ;
+    dtd:has_Value "1996, 2702"@de .
+

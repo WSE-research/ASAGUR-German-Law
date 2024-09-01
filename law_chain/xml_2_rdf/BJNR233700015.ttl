@@ -1,0 +1,649 @@
+@prefix dtd: <urn:DBSchichtZulErhV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160316215639"@de ;
+    dtd:has_doknr "BJNR233700015"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130,
+        dtd:P-id131,
+        dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DL-id115 a dtd:DL ;
+    dtd:has_DD dtd:DD-id119,
+        dtd:DD-id120,
+        dtd:DD-id121 ;
+    dtd:has_DT dtd:DT-id116,
+        dtd:DT-id117,
+        dtd:DT-id118 ;
+    dtd:has_Type dtd:Dash .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:Dash rdfs:label "Dash"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Value "§ 47 Absatz 2 Nummer 1 des Bundesbesoldungsgesetzes durch Artikel 43 Nummer 1 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist,"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Value "§ 24 Absatz 2 Satz 1 der Erschwerniszulagenverordnung durch Artikel 2 Nummer 20 der Verordnung vom 20. August 2013 (BGBl. I S. 3286) eingefügt worden ist und"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Value "§ 24 Absatz 2 Satz 2 Nummer 1 der Erschwerniszulagenverordnung durch Artikel 44 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist,"@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2015 +++)"@de ;
+    dtd:has_pre dtd:pre-id135 .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_DL dtd:DL-id115 ;
+    dtd:has_Value "Auf Grund des § 47 Absatz 1 und 2 Nummer 1 des Bundesbesoldungsgesetzes in Verbindung mit § 24 Absatz 2 Satz 1 und 2 Nummer 1 der Erschwerniszulagenverordnung, von denen –§ 47 Absatz 2 Nummer 1 des Bundesbesoldungsgesetzes durch Artikel 43 Nummer 1 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist,–§ 24 Absatz 2 Satz 1 der Erschwerniszulagenverordnung durch Artikel 2 Nummer 20 der Verordnung vom 20. August 2013 (BGBl. I S. 3286) eingefügt worden ist und–§ 24 Absatz 2 Satz 2 Nummer 1 der Erschwerniszulagenverordnung durch Artikel 44 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist,verordnet das Bundesministerium für Verkehr und digitale Infrastruktur im Einvernehmen mit dem Bundesministerium der Finanzen und dem Bundesministerium des Innern:"@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(1) Die Zulage nach § 20 Absatz 5 Satz 1 der Erschwerniszulagenverordnung in der bis zum 30. September 2013 geltenden Fassung beträgt ab dem 1. Januar 2015: Zahl der zwischen 20 Uhr und 6 Uhr geleisteten Stunden im MonatBetrag der Zulagevon 25 bis 34 Stunden 56,24 Eurovon 35 bis 44 Stunden 61,86 Eurovon 45 bis 54 Stunden 70,30 Eurovon 55 bis 64 Stunden 78,74 Eurovon 65 bis 74 Stunden 87,18 Eurovon 75 bis 84 Stunden 95,61 Eurovon 85 bis 94 Stunden104,05 Eurovon 95 bis 104 Stunden112,49 Eurovon 105 bis 114 Stunden120,92 Eurovon 115 bis 124 Stunden129,36 Euroab 125 Stunden134,98 Euro"@de ;
+    dtd:has_table dtd:table-id45 .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(2) Die Erhöhungsbeträge nach § 20 Absatz 5 Satz 2 der Erschwerniszulagenverordnung in der bis zum 30. September 2013 geltenden Fassung betragen ab dem 1. Januar 2015 1.für jede Schicht, die nach 0 Uhrund vor 4 Uhr beendet wird:2,82 Euro,2.für jede Schicht, die nach 24 Uhrund vor 4 Uhr begonnen wird:5,62 Euro."@de ;
+    dtd:has_table dtd:table-id47 .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(3) Die Zulagen nach § 20 Absatz 5 Satz 3 der Erschwerniszulagenverordnung in der bis zum 30. September 2013 gelten Fassung betragen ab dem 1. Januar 2015: 1.die Zulage für Schichtdienst, der innerhalb einer Zeitspanne von mindestens 18 Stunden geleistet wird:33,75 Euro monatlich,2.die Zulage für Schichtdienst, der innerhalb einer Zeitspanne von mindestens 13 Stunden geleistet wird:22,50 Euro monatlich."@de ;
+    dtd:has_table dtd:table-id49 .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Januar 2015 in Kraft."@de .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "DBSchichtZulErhV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-12-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id51 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id52 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id55 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id56 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "80*"@de .
+
+dtd:colspec-id57 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:colspec-id59 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id60 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "64*"@de .
+
+dtd:colspec-id61 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colwidth "46*"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "129,36 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ab 125 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "134,98 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1."@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_BR dtd:BR-id35 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "für jede Schicht, die nach 0 Uhrund vor 4 Uhr beendet wird:"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2,82 Euro,"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2."@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "für jede Schicht, die nach 24 Uhrund vor 4 Uhr begonnen wird:"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5,62 Euro."@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1."@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "die Zulage für Schichtdienst, der innerhalb einer Zeitspanne von mindestens 18 Stunden geleistet wird:"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40,
+        dtd:BR-id41 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "33,75 Euro monatlich,"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2."@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "die Zulage für Schichtdienst, der innerhalb einer Zeitspanne von mindestens 13 Stunden geleistet wird:"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43,
+        dtd:BR-id44 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "22,50 Euro monatlich."@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zahl der zwischen 20 Uhr und 6 Uhr geleisteten Stunden im Monat"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Betrag der Zulage"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 25 bis 34 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 56,24 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 35 bis 44 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 61,86 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 45 bis 54 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 70,30 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 55 bis 64 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 78,74 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 65 bis 74 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 87,18 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 75 bis 84 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 95,61 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 85 bis 94 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "104,05 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 95 bis 104 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "112,49 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 105 bis 114 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "120,92 Euro"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "von 115 bis 124 Stunden"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id136 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id137 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id125 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "DBSchichtZulErhV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "DBSchichtZulErhV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "DBSchichtZulErhV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "DBSchichtZulErhV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Deutsche-Bahn-Schichtzulagenerhöhungsverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Erhöhung der Schichtzulagen für Beamte des Bundeseisenbahnvermögens, die der Deutschen Bahn AG oder einer ihrer Tochtergesellschaften zugewiesen sind"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160316215639"@de ;
+    dtd:has_doknr "BJNR233700015"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160316215639"@de ;
+    dtd:has_doknr "BJNR233700015BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160316215639"@de ;
+    dtd:has_doknr "BJNR233700015BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160316215639"@de ;
+    dtd:has_doknr "BJNR233700015BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id136 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id135 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2015 +++)"@de .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id79,
+        dtd:entry-id80 .
+
+dtd:row-id64 a dtd:row ;
+    dtd:has_entry dtd:entry-id81,
+        dtd:entry-id82 .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84 .
+
+dtd:row-id66 a dtd:row ;
+    dtd:has_entry dtd:entry-id85,
+        dtd:entry-id86 .
+
+dtd:row-id67 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88 .
+
+dtd:row-id68 a dtd:row ;
+    dtd:has_entry dtd:entry-id89,
+        dtd:entry-id90 .
+
+dtd:row-id69 a dtd:row ;
+    dtd:has_entry dtd:entry-id91,
+        dtd:entry-id92 .
+
+dtd:row-id70 a dtd:row ;
+    dtd:has_entry dtd:entry-id93,
+        dtd:entry-id94 .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id95,
+        dtd:entry-id96 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id97,
+        dtd:entry-id98 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id99 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id101,
+        dtd:entry-id102 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id103,
+        dtd:entry-id104,
+        dtd:entry-id105 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id106,
+        dtd:entry-id107,
+        dtd:entry-id108 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id109,
+        dtd:entry-id110,
+        dtd:entry-id111 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id112,
+        dtd:entry-id113,
+        dtd:entry-id114 .
+
+dtd:table-id45 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id46 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id47 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id48 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id49 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id50 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id54 a dtd:tbody ;
+    dtd:has_row dtd:row-id64,
+        dtd:row-id65,
+        dtd:row-id66,
+        dtd:row-id67,
+        dtd:row-id68,
+        dtd:row-id69,
+        dtd:row-id70,
+        dtd:row-id71,
+        dtd:row-id72,
+        dtd:row-id73,
+        dtd:row-id74 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id58 a dtd:tbody ;
+    dtd:has_row dtd:row-id75,
+        dtd:row-id76 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id62 a dtd:tbody ;
+    dtd:has_row dtd:row-id77,
+        dtd:row-id78 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id133 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:tgroup-id46 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id51,
+        dtd:colspec-id52 ;
+    dtd:has_tbody dtd:tbody-id54 ;
+    dtd:has_thead dtd:thead-id53 .
+
+dtd:tgroup-id48 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id55,
+        dtd:colspec-id56,
+        dtd:colspec-id57 ;
+    dtd:has_tbody dtd:tbody-id58 .
+
+dtd:tgroup-id50 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id59,
+        dtd:colspec-id60,
+        dtd:colspec-id61 ;
+    dtd:has_tbody dtd:tbody-id62 .
+
+dtd:thead-id53 a dtd:thead ;
+    dtd:has_row dtd:row-id63 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Schichtzulage"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id137 a dtd:zitstelle ;
+    dtd:has_Value "2015, 2337 (2016 I 121)"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

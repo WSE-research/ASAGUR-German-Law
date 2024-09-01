@@ -1,0 +1,429 @@
+@prefix dtd: <urn:FeiertEVDBest-1#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405133202"@de ;
+    dtd:has_doknr "DDNR202810990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:B-id49 a dtd:B ;
+    dtd:has_Value "Der Minister für Arbeit und Soziales"@de .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90,
+        dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95,
+        dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72,
+        dtd:LA-id73 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76,
+        dtd:LA-id77 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id80 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id74 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id75 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id78 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id81 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id82 .
+
+dtd:DL-id50 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54,
+        dtd:DD-id55,
+        dtd:DD-id56 ;
+    dtd:has_DT dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id57 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61 ;
+    dtd:has_DT dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id62 a dtd:DL ;
+    dtd:has_DD dtd:DD-id65,
+        dtd:DD-id66 ;
+    dtd:has_DT dtd:DT-id63,
+        dtd:DT-id64 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id67 a dtd:DL ;
+    dtd:has_DD dtd:DD-id70,
+        dtd:DD-id71 ;
+    dtd:has_DT dtd:DT-id68,
+        dtd:DT-id69 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_DL dtd:DL-id57 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arbeitnehmer evangelischen Glaubens für die evangelischen Feiertage-Reformationstag und -Buß- und Bettag, "@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn im Territorium gemäß § 1 Fronleichnam und Allerheiligen als gesetzliche Feiertage gelten,"@de .
+
+dtd:LA-id74 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Reformationstag und"@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Buß- und Bettag,"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_DL dtd:DL-id62 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arbeitnehmer katholischen Glaubens für die katholischen Feiertage-Fronleichnam und -Allerheiligen, "@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn im Territorium gemäß § 1 der Reformationstag und der Buß- und Bettag als gesetzliche Feiertage gelten,"@de .
+
+dtd:LA-id78 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Fronleichnam und"@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Allerheiligen,"@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_DL dtd:DL-id67 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arbeitnehmer jüdischen Glaubens für die jüdischen Feiertage-Jaum Kippur, -Rausch Haschonoh.  "@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Jaum Kippur,"@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rausch Haschonoh."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_B dtd:B-id49 ;
+    dtd:has_Value "Der Minister für Arbeit und Soziales"@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value "Im beigetretenen Gebiet fortgeltendes Recht der ehem. Deutschen Demokratischen Republik gem. Anlage II Kap. VIII Sachg. C Abschn. III Nr. 5 nach Maßgabe d. Art. 9 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1208 mWv 3.10.1990. Die Best. gilt bis zum Inkrafttreten landesrechtlicher Regelungen zur Sonn- und Feiertagsruhe. (+++ Textnachweis Geltung ab:  3.10.1990 +++)"@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 2 der Verordnung vom 16. Mai 1990 über die Einführung gesetzlicher Feiertage (GBl. I Nr. 27 S. 248) wird folgendes bestimmt:"@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "(1) Zwischen den Regierungsbevollmächtigten für die Bezirke und den zuständigen Leitungen der evangelischen Kirche sowie der katholischen Kirche ist zu vereinbaren, welche in der Verordnung unter Beachtung der konfessionellen Spezifik festgelegten Feiertage im Territorium gesetzliche Feiertage sind."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_Value "(2) Die Regierungsbevollmächtigten für die Bezirke haben die gemäß Absatz 1 getroffenen Vereinbarungen bekanntzumachen."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "Für die Arbeitnehmer gilt als Feiertag der für das Territorium festgelegte Feiertag, in dem der Beschäftigungsbetrieb seinen Sitz hat oder in dem sich der mit den Arbeitnehmern vereinbarte Arbeitsort befindet."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_DL dtd:DL-id50 ;
+    dtd:has_Value "(1) Das Recht auf unbezahlte ganztägige Freistellung von der Arbeit haben a)Arbeitnehmer evangelischen Glaubens für die evangelischen Feiertage-Reformationstag und -Buß- und Bettag, wenn im Territorium gemäß § 1 Fronleichnam und Allerheiligen als gesetzliche Feiertage gelten,  b)Arbeitnehmer katholischen Glaubens für die katholischen Feiertage-Fronleichnam und -Allerheiligen, wenn im Territorium gemäß § 1 der Reformationstag und der Buß- und Bettag als gesetzliche Feiertage gelten,  c)Arbeitnehmer jüdischen Glaubens für die jüdischen Feiertage-Jaum Kippur, -Rausch Haschonoh.   "@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(2) Die Regelung gemäß Absatz 1 gilt sinngemäß für Schüler, Studenten und Auszubildende evangelischen, katholischen und jüdischen Glaubens. Sie haben das Recht auf Freistellung vom Schulunterricht, Studium bzw. von der Ausbildung. Für Minderjährige erfolgt die Freistellung auf der Grundlage einer Mitteilung der Erziehungsberechtigten."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "Diese Durchführungsbestimmung tritt mit ihrer Veröffentlichung in Kraft."@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-06-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id101 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id102 .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id103 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id104 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id85 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "FeiertEVDBest 1"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "FeiertEVDBest 1"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "FeiertEVDBest 1"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "FeiertEVDBest 1"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "FeiertEVDBest 1"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "FeiertEVDBest 1"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "FeiertEVDBest 1"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_Value """Erste Durchführungsbestimmung zur Verordnung über die Einführung
+gesetzlicher Feiertage"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25,
+        dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id27 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405133202"@de ;
+    dtd:has_doknr "DDNR202810990"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405133202"@de ;
+    dtd:has_doknr "DDNR202810990BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405133202"@de ;
+    dtd:has_doknr "DDNR202810990BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405133202"@de ;
+    dtd:has_doknr "DDNR202810990BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405133203"@de ;
+    dtd:has_doknr "DDNR202810990BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405133203"@de ;
+    dtd:has_doknr "DDNR202810990BJNE000500314"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405133203"@de ;
+    dtd:has_doknr "DDNR202810990BJNE000600314"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id101 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:periodikum-id103 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:zitstelle-id102 a dtd:zitstelle ;
+    dtd:has_Value "1990, 281"@de .
+
+dtd:zitstelle-id104 a dtd:zitstelle ;
+    dtd:has_Value "1990, Nr 31, 281"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

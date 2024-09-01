@@ -1,0 +1,253 @@
+@prefix dtd: <urn:MarshallplAbkG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153141"@de ;
+    dtd:has_doknr "BJNR000090950"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++) Für Berlin vgl. GVBl. 1953 S. 199"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Dem am 15. Dezember 1949 in Bonn unterzeichneten Abkommen über Wirtschaftliche Zusammenarbeit zwischen den Vereinigten Staaten von Amerika und der Bundesrepublik Deutschland wird zugestimmt."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(1) Das Abkommen wird nachstehend mit Gesetzeskraft veröffentlicht."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Die im Zusammenhang mit dem Abkommen der Bundesrepublik Deutschland entstandenen und noch entstehenden Vermögenswerte bilden ein Sondervermögen des Bundes, auf das die Vorschriften der Bundeshaushaltsordnung Anwendung finden. Die Rechnungsprüfung erfolgt durch den Bundesrechnungshof."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Die Bundesregierung wird ermächtigt, im Wege der Rechtsverordnung gemäß Artikel II Abs. 1 des Abkommens Ausführungsbestimmungen über die Kontrolle der Lieferung und Verwendung der mit Marshallplan-Mitteln finanzierten Einfuhrwaren (Marshallplanwaren) dahin zu erlassen, daß die Einführer oder späteren Besitzer von Marshallplanwaren verpflichtet werden, Auskünfte zu erteilen, Bescheinigungen anerkannter Kontrolleure oder öffentlich bestellter und vereidigter Sachverständiger vorzulegen und Rechte aus unvollständiger oder mangelhafter Lieferung geltend zu machen, ferner Prüfungen der Handelsbücher, der Geschäftspapiere und der Lagerbestände vornehmen zu lassen. Diese Ermächtigung umfaßt das Recht der Bundesregierung, sich bei der Ausübung der bezeichneten Befugnisse der Hilfe einer Warenrevisionsstelle zu bedienen, mit deren Geschäftsführung eine öffentlich bestellte Wirtschaftsprüfungsgesellschaft beauftragt werden kann."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt mit dem Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1950-01-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art I"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art II"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art III"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art IV"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art V"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id49 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:fussnoten-id42 a dtd:fussnoten .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "MarshallplAbkG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "MarshallplAbkG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "MarshallplAbkG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "MarshallplAbkG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "MarshallplAbkG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "MarshallplAbkG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz betreffend das Abkommen über Wirtschaftliche Zusammenarbeit
+zwischen den Vereinigten Staaten von Amerika und der Bundesrepublik Deutschland
+vom 15. Dezember 1949"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153141"@de ;
+    dtd:has_doknr "BJNR000090950"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153141"@de ;
+    dtd:has_doknr "BJNR000090950BJNE000100326"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153141"@de ;
+    dtd:has_doknr "BJNR000090950BJNE000200326"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625153141"@de ;
+    dtd:has_doknr "BJNR000090950BJNE000301360"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625153141"@de ;
+    dtd:has_doknr "BJNR000090950BJNE000400326"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625153141"@de ;
+    dtd:has_doknr "BJNR000090950BJNE000500326"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id65 ;
+    dtd:has_standtyp dtd:standtyp-id64 .
+
+dtd:standkommentar-id65 a dtd:standkommentar ;
+    dtd:has_Value "zuletzt geändert durch Art. 72 G v. 8.12.2010 I 1864"@de .
+
+dtd:standtyp-id64 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id42 ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "1950, 9"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

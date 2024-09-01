@@ -1,0 +1,484 @@
+@prefix dtd: <urn:TVMindestbedingungen-FlWi-2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230705213507"@de ;
+    dtd:has_doknr "BJNR636410021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id81,
+        dtd:LA-id82 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91,
+        dtd:LA-id92,
+        dtd:LA-id93,
+        dtd:LA-id94 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84,
+        dtd:LA-id85,
+        dtd:LA-id86 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DL-id50 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54,
+        dtd:DD-id55,
+        dtd:DD-id56 ;
+    dtd:has_DT dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id57 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61 ;
+    dtd:has_DT dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id62 a dtd:DL ;
+    dtd:has_DD dtd:DD-id66,
+        dtd:DD-id67,
+        dtd:DD-id68 ;
+    dtd:has_DT dtd:DT-id63,
+        dtd:DT-id64,
+        dtd:DT-id65 ;
+    dtd:has_Type dtd:Dash .
+
+dtd:DL-id69 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72,
+        dtd:DD-id73 ;
+    dtd:has_DT dtd:DT-id70,
+        dtd:DT-id71 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id74 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80 ;
+    dtd:has_DT dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Value "Räumlicher Geltungsbereich:"@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Value "für das Gebiet der Bundesrepublik Deutschland."@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_DL dtd:DL-id57 ;
+    dtd:has_Value "Betrieblicher Geltungsbereich: a)Alle Betriebe und selbstständige Betriebsabteilungen der Fleischwirtschaft.Dies sind Betriebe, in denen –Schweine und Rinder geschlachtet und/oder zerlegt werden,–Geflügel jeder Art geschlachtet und/oder zerlegt wird,–überwiegend Fleisch und Fleischwaren jeder Art verarbeitet, portioniert und/oder verpackt werden.Hierzu zählen auch Betriebe und selbstständige Betriebsabteilungen, die ihre Arbeitnehmer in Betrieben oder Betriebsabteilungen der Fleischwirtschaft einsetzen (Dienstleister der Fleischwirtschaft). Soweit diese Betriebe in den Geltungsbereich eines nach den §§ 7, 7a des Arbeitnehmer-Entsendegesetzes erstreckten Tarifvertrags fallen, hat jener Tarifvertrag Vorrang.b)Nicht erfasst werden Betriebsstätten, die zum Fleischerhandwerk gemäß der Definition des § 2 Absatz 2 des Gesetzes zur Sicherung von Arbeitnehmerrechten in der Fleischwirtschaft gehören."@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Value "Alle Betriebe und selbstständige Betriebsabteilungen der Fleischwirtschaft."@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_DL dtd:DL-id62 ;
+    dtd:has_Value "Dies sind Betriebe, in denen –Schweine und Rinder geschlachtet und/oder zerlegt werden,–Geflügel jeder Art geschlachtet und/oder zerlegt wird,–überwiegend Fleisch und Fleischwaren jeder Art verarbeitet, portioniert und/oder verpackt werden."@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Value "Hierzu zählen auch Betriebe und selbstständige Betriebsabteilungen, die ihre Arbeitnehmer in Betrieben oder Betriebsabteilungen der Fleischwirtschaft einsetzen (Dienstleister der Fleischwirtschaft). Soweit diese Betriebe in den Geltungsbereich eines nach den §§ 7, 7a des Arbeitnehmer-Entsendegesetzes erstreckten Tarifvertrags fallen, hat jener Tarifvertrag Vorrang."@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Value "Schweine und Rinder geschlachtet und/oder zerlegt werden,"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Value "Geflügel jeder Art geschlachtet und/oder zerlegt wird,"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Value "überwiegend Fleisch und Fleischwaren jeder Art verarbeitet, portioniert und/oder verpackt werden."@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Value "Nicht erfasst werden Betriebsstätten, die zum Fleischerhandwerk gemäß der Definition des § 2 Absatz 2 des Gesetzes zur Sicherung von Arbeitnehmerrechten in der Fleischwirtschaft gehören."@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Value "Persönlicher Geltungsbereich"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Value "Alle Arbeitnehmerinnen und Arbeitnehmer, insbesondere solche, die eine nach den Vorschriften des Sechsten Buches Sozialgesetzbuch – Gesetzliche Rentenversicherung – versicherungspflichtige Tätigkeit ausüben, einschließlich derjenigen, die gemäß § 8 des Vierten Buches Sozialgesetzbuch – Gemeinsame Vorschriften für die Sozialversicherung – eine geringfügige Beschäftigung ausüben."@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Value "Dies sind auch Arbeitnehmer von Dienstleistern der Fleischwirtschaft, soweit sie in Betrieben oder selbstständigen Betriebsabteilungen der Fleischwirtschaft eingesetzt werden."@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_DL dtd:DL-id69 ;
+    dtd:has_Value "Ausgenommen sind: a)Auszubildende im Sinne des Berufsbildungsgesetzes,b)Praktikanten gemäß § 22 Absatz 1 Satz 2 des Mindestlohngesetzes."@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Value "Auszubildende im Sinne des Berufsbildungsgesetzes,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Value "Praktikanten gemäß § 22 Absatz 1 Satz 2 des Mindestlohngesetzes."@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Mindestlohn gemäß diesem Tarifvertrag ist Entgelt im Sinne des § 5 Absatz 1 Nummer 1 des Arbeitnehmer-Entsendegesetzes. Höhere Entgeltansprüche aufgrund anderer Tarifverträge, betrieblicher oder einzelvertraglicher Vereinbarungen bleiben unberührt."@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Mindestlöhne je Stunde betragen ab dem Zeitpunkt der Allgemeinverbindlichkeitserklärung dieses Tarifvertrags durch das Bundesministerium für Arbeit und Soziales bundeseinheitlich 10,80 Euro, ab dem 1. Januar 2022:11 Euro,ab dem 1. Dezember 2022:11,50 Euro,ab dem 1. Dezember 2023:12,30 Euro."@de ;
+    dtd:has_table dtd:table-id36 .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Anspruch auf das Mindestentgelt wird spätestens zum 15. des Monats fällig, der auf den Monat folgt, für den das Mindestentgelt zu zahlen ist."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2022 +++)(+++ Text der Verordnung siehe: FleischWArbbV 2 +++)"@de ;
+    dtd:has_pre dtd:pre-id108 .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_DL dtd:DL-id50 ;
+    dtd:has_Value "1.Räumlicher Geltungsbereich:für das Gebiet der Bundesrepublik Deutschland.2.Betrieblicher Geltungsbereich: a)Alle Betriebe und selbstständige Betriebsabteilungen der Fleischwirtschaft.Dies sind Betriebe, in denen –Schweine und Rinder geschlachtet und/oder zerlegt werden,–Geflügel jeder Art geschlachtet und/oder zerlegt wird,–überwiegend Fleisch und Fleischwaren jeder Art verarbeitet, portioniert und/oder verpackt werden.Hierzu zählen auch Betriebe und selbstständige Betriebsabteilungen, die ihre Arbeitnehmer in Betrieben oder Betriebsabteilungen der Fleischwirtschaft einsetzen (Dienstleister der Fleischwirtschaft). Soweit diese Betriebe in den Geltungsbereich eines nach den §§ 7, 7a des Arbeitnehmer-Entsendegesetzes erstreckten Tarifvertrags fallen, hat jener Tarifvertrag Vorrang.b)Nicht erfasst werden Betriebsstätten, die zum Fleischerhandwerk gemäß der Definition des § 2 Absatz 2 des Gesetzes zur Sicherung von Arbeitnehmerrechten in der Fleischwirtschaft gehören.3.Persönlicher GeltungsbereichAlle Arbeitnehmerinnen und Arbeitnehmer, insbesondere solche, die eine nach den Vorschriften des Sechsten Buches Sozialgesetzbuch – Gesetzliche Rentenversicherung – versicherungspflichtige Tätigkeit ausüben, einschließlich derjenigen, die gemäß § 8 des Vierten Buches Sozialgesetzbuch – Gemeinsame Vorschriften für die Sozialversicherung – eine geringfügige Beschäftigung ausüben.Dies sind auch Arbeitnehmer von Dienstleistern der Fleischwirtschaft, soweit sie in Betrieben oder selbstständigen Betriebsabteilungen der Fleischwirtschaft eingesetzt werden.Ausgenommen sind: a)Auszubildende im Sinne des Berufsbildungsgesetzes,b)Praktikanten gemäß § 22 Absatz 1 Satz 2 des Mindestlohngesetzes."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_DL dtd:DL-id74 ;
+    dtd:has_Value "1.Der Mindestlohn gemäß diesem Tarifvertrag ist Entgelt im Sinne des § 5 Absatz 1 Nummer 1 des Arbeitnehmer-Entsendegesetzes. Höhere Entgeltansprüche aufgrund anderer Tarifverträge, betrieblicher oder einzelvertraglicher Vereinbarungen bleiben unberührt.2.Die Mindestlöhne je Stunde betragen ab dem Zeitpunkt der Allgemeinverbindlichkeitserklärung dieses Tarifvertrags durch das Bundesministerium für Arbeit und Soziales bundeseinheitlich 10,80 Euro, ab dem 1. Januar 2022:11 Euro,ab dem 1. Dezember 2022:11,50 Euro,ab dem 1. Dezember 2023:12,30 Euro.3.Der Anspruch auf das Mindestentgelt wird spätestens zum 15. des Monats fällig, der auf den Monat folgt, für den das Mindestentgelt zu zahlen ist."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "Für alle Ansprüche aus diesem Tarifvertrag gilt eine Ausschlussfrist von sechs Monaten ab Fälligkeit des Anspruchs."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-12-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id38 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "120*"@de .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:entry-id44 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ab dem 1. Januar 2022:"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id45 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11 Euro,"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ab dem 1. Dezember 2022:"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id47 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11,50 Euro,"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id48 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ab dem 1. Dezember 2023:"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id49 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "12,30 Euro."@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id109 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id110 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id100 .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "TVMindestbedingungen FlWi 2"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "TVMindestbedingungen FlWi 2"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "TVMindestbedingungen FlWi 2"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "TVMindestbedingungen FlWi 2"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Rechtsnormen des Bundeseinheitlichen Tarifvertrags zur Regelung der Mindestbedingungen für Arbeitnehmer in der Fleischwirtschaft der Bundesrepublik Deutschland (TV Mindestbedingungen) vom 27. Mai 2021"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 ;
+    dtd:has_titel dtd:titel-id21 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230705213507"@de ;
+    dtd:has_doknr "BJNR636410021"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230705213507"@de ;
+    dtd:has_doknr "BJNR636410021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230705213507"@de ;
+    dtd:has_doknr "BJNR636410021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230705213507"@de ;
+    dtd:has_doknr "BJNR636410021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id109 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id108 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34,
+        dtd:BR-id35 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2022 +++)(+++ Text der Verordnung siehe: FleischWArbbV 2 +++)"@de .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id44,
+        dtd:entry-id45 .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id46,
+        dtd:entry-id47 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id48,
+        dtd:entry-id49 .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id112 ;
+    dtd:has_standtyp dtd:standtyp-id111 .
+
+dtd:standkommentar-id112 a dtd:standkommentar ;
+    dtd:has_Value "Die zugehörige V v. 21.12.2021 BAnz AT 30.12.2021 V1 (FleischWArbbV 2) tritt gem. § 2 dieser V mit Ablauf des 30.11.2024 außer Kraft"@de .
+
+dtd:standtyp-id111 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:table-id36 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id37 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id40 a dtd:tbody ;
+    dtd:has_row dtd:row-id41,
+        dtd:row-id42,
+        dtd:row-id43 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:tgroup-id37 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id38,
+        dtd:colspec-id39 ;
+    dtd:has_tbody dtd:tbody-id40 .
+
+dtd:titel-id21 a dtd:titel ;
+    dtd:has_Value "Geltungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Mindestlöhne"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Ausschlussfristen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id110 a dtd:zitstelle ;
+    dtd:has_Value "AT 30.12.2021 V1"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

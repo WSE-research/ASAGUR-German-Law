@@ -1,0 +1,355 @@
+@prefix dtd: <urn:WZG§4RAMSARBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130428"@de ;
+    dtd:has_doknr "BJNR039800993"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:kommentar-id70 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1993, 399)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DL-id58 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60 ;
+    dtd:has_DT dtd:DT-id59 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des Übereinkommens über Feuchtgebiete, insbesondere als Lebensraum für Wasser- und Wattvögel, von internationaler Bedeutung (Ramsar 1971) (Anlage)"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  3. 4.1993 +++)"@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_DL dtd:DL-id58 ;
+    dtd:has_Value "Auf Grund des § 4 Abs. 2 Nr. 3a des Warenzeichengesetzes in der Fassung der Bekanntmachung vom 2. Januar 1968 (BGBl. I S. 1, 29) wird bekanntgemacht, daß die Bezeichnung, die Abkürzung und das Kennzeichen des Übereinkommens über Feuchtgebiete, insbesondere als Lebensraum für Wasser- und Wattvögel, von internationaler Bedeutung (Ramsar 1971) (Anlage)von der Eintragung als Warenzeichen ausgeschlossen sind.Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 22. Mai 1992 (BGBl. I S. 1024)."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1993, 399)Name:CONVENTION ON WETLANDS OF INTERNATIONAL IMPORTANCE ESPECIALLY AS WATERFOWL HABITAT (RAMSAR, 1971)(englisch) CONVENTION RELATIVE AUX ZONES HUMIDES D'IMPORTANCE INTERNATIONALE PARTICULIEREMENT COMME HABITATS DES OISEAUX D'EAU (RAMSAR, 1971)(französisch) Abkürzung:RAMSAR Kennzeichen: (farbig)... (nicht darstellbares Kennzeichen) CONVENTION ON WETLANDS OF INTERNATIONAL IMPORTANCE ESPECIALLY AS WATERFOWL HABITAT (RAMSAR, 1971) CONVENTION RELATIVE AUX ZONES HUMIDES D'IMPORTANCE INTERNATIONALE PARTICULIEREMENT COMME HABITATS DES OISEAUX D'EAU (RAMSAR, 1971)"@de ;
+    dtd:has_noindex dtd:noindex-id27 ;
+    dtd:has_table dtd:table-id28 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1993-03-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id30 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20.00*"@de .
+
+dtd:colspec-id31 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id44 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Name:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "5"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id45 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "CONVENTION ON WETLANDS OF INTERNATIONAL IMPORTANCE ESPECIALLY AS WATERFOWL HABITAT (RAMSAR, 1971)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "(englisch)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id47 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id48 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "CONVENTION RELATIVE AUX ZONES HUMIDES D'IMPORTANCE INTERNATIONALE PARTICULIEREMENT COMME HABITATS DES OISEAUX D'EAU (RAMSAR, 1971)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id49 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "(französisch)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id50 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id51 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Abkürzung:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id52 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "RAMSAR"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id53 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id54 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kennzeichen: (farbig)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id55 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "... (nicht darstellbares Kennzeichen) CONVENTION ON WETLANDS OF INTERNATIONAL IMPORTANCE ESPECIALLY AS WATERFOWL HABITAT (RAMSAR, 1971)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id56 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "CONVENTION RELATIVE AUX ZONES HUMIDES D'IMPORTANCE INTERNATIONALE PARTICULIEREMENT COMME HABITATS DES OISEAUX D'EAU (RAMSAR, 1971)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id71 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id72 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id64 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "WZG§4RAMSARBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "WZG§4RAMSARBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "WZG§4RAMSARBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 4 des Warenzeichengesetzes"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:noindex-id27 a dtd:noindex .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130428"@de ;
+    dtd:has_doknr "BJNR039800993"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130428"@de ;
+    dtd:has_doknr "BJNR039800993BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130428"@de ;
+    dtd:has_doknr "BJNR039800993BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id71 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id33 a dtd:row ;
+    dtd:has_entry dtd:entry-id44,
+        dtd:entry-id45 .
+
+dtd:row-id34 a dtd:row ;
+    dtd:has_entry dtd:entry-id46 .
+
+dtd:row-id35 a dtd:row ;
+    dtd:has_entry dtd:entry-id47 .
+
+dtd:row-id36 a dtd:row ;
+    dtd:has_entry dtd:entry-id48 .
+
+dtd:row-id37 a dtd:row ;
+    dtd:has_entry dtd:entry-id49 .
+
+dtd:row-id38 a dtd:row ;
+    dtd:has_entry dtd:entry-id50 .
+
+dtd:row-id39 a dtd:row ;
+    dtd:has_entry dtd:entry-id51,
+        dtd:entry-id52 .
+
+dtd:row-id40 a dtd:row ;
+    dtd:has_entry dtd:entry-id53 .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id54,
+        dtd:entry-id55 .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id56 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id57 .
+
+dtd:table-id28 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id29 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id32 a dtd:tbody ;
+    dtd:has_row dtd:row-id33,
+        dtd:row-id34,
+        dtd:row-id35,
+        dtd:row-id36,
+        dtd:row-id37,
+        dtd:row-id38,
+        dtd:row-id39,
+        dtd:row-id40,
+        dtd:row-id41,
+        dtd:row-id42,
+        dtd:row-id43 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:tgroup-id29 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id30,
+        dtd:colspec-id31 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id32 .
+
+dtd:zitstelle-id72 a dtd:zitstelle ;
+    dtd:has_Value "1993, 398"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

@@ -1,0 +1,767 @@
+@prefix dtd: <urn:PflegeStatV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:BR-id89 a dtd:BR .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160,
+        dtd:P-id161 .
+
+dtd:Content-id162 a dtd:Content ;
+    dtd:has_P dtd:P-id163,
+        dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166 .
+
+dtd:Content-id167 a dtd:Content ;
+    dtd:has_P dtd:P-id168,
+        dtd:P-id169,
+        dtd:P-id170 .
+
+dtd:Content-id171 a dtd:Content ;
+    dtd:has_P dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174 .
+
+dtd:Content-id175 a dtd:Content ;
+    dtd:has_P dtd:P-id176,
+        dtd:P-id177 .
+
+dtd:Content-id178 a dtd:Content ;
+    dtd:has_P dtd:P-id179 .
+
+dtd:Content-id180 a dtd:Content ;
+    dtd:has_P dtd:P-id181 .
+
+dtd:Content-id182 a dtd:Content ;
+    dtd:has_P dtd:P-id183 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id131 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DL-id106 a dtd:DL ;
+    dtd:has_DD dtd:DD-id111,
+        dtd:DD-id112,
+        dtd:DD-id113,
+        dtd:DD-id114 ;
+    dtd:has_DT dtd:DT-id107,
+        dtd:DT-id108,
+        dtd:DT-id109,
+        dtd:DT-id110 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id115 a dtd:DL ;
+    dtd:has_DD dtd:DD-id118,
+        dtd:DD-id119 ;
+    dtd:has_DT dtd:DT-id116,
+        dtd:DT-id117 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id120 a dtd:DL ;
+    dtd:has_DD dtd:DD-id123,
+        dtd:DD-id124 ;
+    dtd:has_DT dtd:DT-id121,
+        dtd:DT-id122 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id125 a dtd:DL ;
+    dtd:has_DD dtd:DD-id130,
+        dtd:DD-id131,
+        dtd:DD-id132,
+        dtd:DD-id133 ;
+    dtd:has_DT dtd:DT-id126,
+        dtd:DT-id127,
+        dtd:DT-id128,
+        dtd:DT-id129 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id90 a dtd:DL ;
+    dtd:has_DD dtd:DD-id93,
+        dtd:DD-id94 ;
+    dtd:has_DT dtd:DT-id91,
+        dtd:DT-id92 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id95 a dtd:DL ;
+    dtd:has_DD dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103,
+        dtd:DD-id104,
+        dtd:DD-id105 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id96,
+        dtd:DT-id97,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id121 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id122 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id127 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id128 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Pflegeeinrichtungen,"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Pflegegeldleistungen."@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Art der Pflegeeinrichtung und der Trägerschaft,"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in der Pflegeeinrichtung tätige Personen nach Geschlecht, Geburtsjahr, Beschäftigungsverhältnis, Tätigkeitsbereich (einschließlich Beschäftigungsumfang in der Pflege) und Berufsabschluss und zusätzlich bei Auszubildenden und Umschülern Art der Ausbildung und Ausbildungsjahr,"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zahl und Art der Pflegeplätze,"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_DL dtd:DL-id106 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "betreute Pflegebedürftige a)nach Geschlecht, Geburtsjahr, Grad der Pflegebedürftigkeit,b)bei stationär betreuten Pflegebedürftigen auch die Art der in Anspruch genommenen Pflegeleistung,c)bei ambulant betreuten Pflegebedürftigen die Postleitzahl des Wohnorts sowied)bei vollstationär betreuten Pflegebedürftigen die Postleitzahl des Wohnorts vor Einzug in das Pflegeheim,"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach Geschlecht, Geburtsjahr, Grad der Pflegebedürftigkeit,"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei stationär betreuten Pflegebedürftigen auch die Art der in Anspruch genommenen Pflegeleistung,"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei ambulant betreuten Pflegebedürftigen die Postleitzahl des Wohnorts sowie"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei vollstationär betreuten Pflegebedürftigen die Postleitzahl des Wohnorts vor Einzug in das Pflegeheim,"@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_DL dtd:DL-id115 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "an die Pflegeeinrichtung nach Art und Höhe der Pflegeleistung zu zahlende Entgelte füra)allgemeine Pflegeleistungen nach Pflegegraden undb)Unterkunft und Verpflegung."@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "allgemeine Pflegeleistungen nach Pflegegraden und"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Unterkunft und Verpflegung."@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Art des Leistungsträgers und des privaten Versicherungsunternehmens,"@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Empfänger von Pflegegeldleistungen nach § 37 oder § 38 des Elften Buches Sozialgesetzbuch sowie Empfänger von Leistungen der nach Landesrecht anerkannten Angebote zur Unterstützung im Alltag im Sinne des § 45a des Elften Buches Sozialgesetzbuch, die dem Pflegegrad 1 zugeordnet sind, und Pflegebedürftige mit Pflegegrad 1, die keine Leistungen der Pflegeversicherung im Kostenerstattungsverfahren nach § 45b des Elften Buches Sozialgesetzbuch in Anspruch nehmen, nach Geschlecht, Geburtsjahr, Postleitzahl des Wohnortes und Grad der Pflegebedürftigkeit."@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Name und Anschrift des Auskunftspflichtigen,"@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Erhebungen nach § 1 Abs. 1 Nr. 1 Name und Anschrift der Pflegeeinrichtung,"@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Erhebungen nach § 1 Abs. 1 Nr. 2 das Kennzeichen für den Leistungsträger,"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Name, Kontaktdaten der für Rückfragen zur Verfügung stehenden Person."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_BR dtd:BR-id87 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30.9.1999 +++)"@de ;
+    dtd:has_pre dtd:pre-id184 .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 109 Abs. 1 des Elften Buches Sozialgesetzbuch - Soziale Pflegeversicherung - (Artikel 1 des Gesetzes vom 26. Mai 1994, BGBl. I S. 1014, 1015, 2797) verordnet die Bundesregierung:"@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_DL dtd:DL-id90 ;
+    dtd:has_Value "(1) Erhebungen als Bundesstatistik werden durchgeführt über 1.die Pflegeeinrichtungen, 2.die Pflegegeldleistungen.  "@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(2) Pflegeeinrichtungen im Sinne dieser Verordnung sind ambulante Pflegeeinrichtungen (Pflegedienste) sowie teilstationäre und vollstationäre Pflegeeinrichtungen (Pflegeheime), mit denen ein Versorgungsvertrag nach dem Elften Buch Sozialgesetzbuch besteht (zugelassene Pflegeeinrichtungen)."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_DL dtd:DL-id95 ;
+    dtd:has_Value "(1) Erhebungsmerkmale bei den Erhebungen nach § 1 Abs. 1 Nr. 1 sind für die Pflegeeinrichtung 1.Art der Pflegeeinrichtung und der Trägerschaft,2.in der Pflegeeinrichtung tätige Personen nach Geschlecht, Geburtsjahr, Beschäftigungsverhältnis, Tätigkeitsbereich (einschließlich Beschäftigungsumfang in der Pflege) und Berufsabschluss und zusätzlich bei Auszubildenden und Umschülern Art der Ausbildung und Ausbildungsjahr,3.Zahl und Art der Pflegeplätze,4.betreute Pflegebedürftige a)nach Geschlecht, Geburtsjahr, Grad der Pflegebedürftigkeit,b)bei stationär betreuten Pflegebedürftigen auch die Art der in Anspruch genommenen Pflegeleistung,c)bei ambulant betreuten Pflegebedürftigen die Postleitzahl des Wohnorts sowied)bei vollstationär betreuten Pflegebedürftigen die Postleitzahl des Wohnorts vor Einzug in das Pflegeheim,5.an die Pflegeeinrichtung nach Art und Höhe der Pflegeleistung zu zahlende Entgelte füra)allgemeine Pflegeleistungen nach Pflegegraden undb)Unterkunft und Verpflegung."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_DL dtd:DL-id120 ;
+    dtd:has_Value "(2) Erhebungsmerkmale bei den Erhebungen nach § 1 Abs. 1 Nr. 2 sind 1.Art des Leistungsträgers und des privaten Versicherungsunternehmens,2.Empfänger von Pflegegeldleistungen nach § 37 oder § 38 des Elften Buches Sozialgesetzbuch sowie Empfänger von Leistungen der nach Landesrecht anerkannten Angebote zur Unterstützung im Alltag im Sinne des § 45a des Elften Buches Sozialgesetzbuch, die dem Pflegegrad 1 zugeordnet sind, und Pflegebedürftige mit Pflegegrad 1, die keine Leistungen der Pflegeversicherung im Kostenerstattungsverfahren nach § 45b des Elften Buches Sozialgesetzbuch in Anspruch nehmen, nach Geschlecht, Geburtsjahr, Postleitzahl des Wohnortes und Grad der Pflegebedürftigkeit."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_DL dtd:DL-id125 ;
+    dtd:has_Value "Hilfsmerkmale sind: 1.Name und Anschrift des Auskunftspflichtigen,2.für die Erhebungen nach § 1 Abs. 1 Nr. 1 Name und Anschrift der Pflegeeinrichtung,3.für die Erhebungen nach § 1 Abs. 1 Nr. 2 das Kennzeichen für den Leistungsträger,4.Name, Kontaktdaten der für Rückfragen zur Verfügung stehenden Person."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "(1) Die Erhebungen werden zweijährlich, erstmalig für das Jahr 1999, erhoben."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(2) Die Angaben nach § 2 Abs. 1 werden jeweils nach dem Stand vom 15. Dezember und die Angaben nach § 2 Abs. 2 jeweils nach dem Stand vom 31. Dezember erhoben."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(3) Die Angaben nach den §§ 2 und 3 sind bis zum 15. Februar des Folgejahres dem zuständigen Statistischen Landesamt zu melden. Abweichend davon gilt für die Träger der Pflegeversicherung und die privaten Versicherungsunternehmen der 1. April des Folgejahres."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "(1) Für die Erhebungen besteht Auskunftspflicht. Die Angaben zu § 3 Nr. 4 sind freiwillig."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(2) Für die Erhebungen nach § 1 Abs. 1 Nr. 1 sind die Träger der Pflegedienste und Pflegeheime, für die Erhebungen nach § 1 Abs. 1 Nr. 2 die Träger der Pflegeversicherung und die privaten Versicherungsunternehmen auskunftspflichtig. Die Träger der Pflegedienste haben Angaben zu den Erhebungsmerkmalen nach § 2 Abs. 1 Nr. 1, 2 und 4, die Träger der Pflegeheime Angaben nach § 2 Abs. 1 Nr. 1 bis 5, die Träger der Pflegeversicherung und die privaten Versicherungsunternehmen Angaben nach § 2 Abs. 2 zu machen. Die Träger der Pflegeversicherung können Dritte beauftragen, die Auskunftspflicht zu erfüllen."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(3) Die Auskunftspflichtigen übermitteln die Angaben nach § 2 in maschinenlesbarer Form, soweit die notwendigen technischen Voraussetzungen gegeben sind."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "(1) An die fachlich zuständigen obersten Bundes- und Landesbehörden dürfen für die Verwendung gegenüber den gesetzgebenden Körperschaften und für Zwecke der Planung, jedoch nicht für die Regelung von Einzelfällen vom Statistischen Bundesamt und den statistischen Ämtern der Länder Tabellen mit statistischen Daten übermittelt werden, auch soweit Tabellenfelder nur einen einzigen Fall ausweisen. Tabellen, deren Tabellenfelder nur einen einzigen Fall ausweisen, dürfen nur dann übermittelt werden, wenn sie nicht differenzierter als auf Ebene der Landkreise oder der kreisfreien Städte, im Falle der Stadtstaaten auf Bezirksebene, aufbereitet sind."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(2) Zur Vorbereitung und Durchführung der Erhebungen nach § 1 Abs. 1 Nr. 1 übermitteln die Träger der Pflegeversicherung den statistischen Ämtern der Länder auf Anforderung die Namen und Anschriften der Pflegeeinrichtungen."@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "Die statistischen Ämter der Länder sind berechtigt, mit Zustimmung der Betroffenen zweijährlich ein Verzeichnis mit Namen, Anschrift, Kontaktdaten, Träger und Art der Pflegeeinrichtung sowie Zahl und Art der Pflegeplätze eines Pflegeheimes zu veröffentlichen."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id36 a dtd:amtabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id37 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-11-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id185 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id186 .
+
+dtd:fussnoten-id71 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id155 .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:fussnoten-id79 a dtd:fussnoten .
+
+dtd:fussnoten-id81 a dtd:fussnoten .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "PflegeStatV"@de .
+
+dtd:kurzue-id39 a dtd:kurzue ;
+    dtd:has_Value "Pflegestatistik-Verordnung"@de .
+
+dtd:langue-id40 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung einer Bundesstatistik über Pflegeeinrichtungen sowie über die häusliche Pflege"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id36 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id37 ;
+    dtd:has_fundstelle dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_kurzue dtd:kurzue-id39 ;
+    dtd:has_langue dtd:langue-id40 ;
+    dtd:has_standangabe dtd:standangabe-id41 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000801119"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000900310"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE001000310"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000302119"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000401119"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000501377"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000601377"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20170316213047"@de ;
+    dtd:has_doknr "BJNR228200999BJNE000700310"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id185 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id184 a dtd:pre ;
+    dtd:has_BR dtd:BR-id88,
+        dtd:BR-id89 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.9.1999 +++)"@de .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id188 ;
+    dtd:has_standtyp dtd:standtyp-id187 .
+
+dtd:standkommentar-id188 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 15 G v. 23.12.2016 I 3191"@de .
+
+dtd:standtyp-id187 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id162 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id167 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id171 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id175 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id178 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id180 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id182 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id79 ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id81 ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Umfang der Erhebungen, Begriffsbestimmungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Erhebungsmerkmale"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Hilfsmerkmale"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Periodizität und Berichtszeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Auskunftspflicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Übermittlung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Veröffentlichung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id186 a dtd:zitstelle ;
+    dtd:has_Value "1999, 2282"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,80 @@
+@prefix dtd: <urn:RWahlBes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150917"@de ;
+    dtd:has_doknr "DDNR009040990"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:Content-id13 a dtd:Content ;
+    dtd:has_P dtd:P-id14 .
+
+dtd:P-id14 a dtd:P ;
+    dtd:has_BR dtd:BR-id12 ;
+    dtd:has_Value "Nur mit Überschrift aufgenommen; das Richtergesetz ist im Einigungsvertrag nicht als fortgeltendes Recht ausgewiesen. Im Beitrittsgebiet fortgeltendes Recht der ehem. Deutschen Demokratischen Republik gem. Anlage II Kap. III Sachg. A Abschn. I Nr. 5 nach Maßgabe d. Art. 9 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1153 mWv 3.10.1990."@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-07-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id15 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id16 .
+
+dtd:fundstelle-id8 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id17 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id18 .
+
+dtd:fussnoten-id11 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id13 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "RWahlBes"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value """Beschluß der Volkskammer der Deutschen Demokratischen Republik zum
+Richtergesetz - Ordnung über die Bildung und Arbeitsweise der
+Richterwahlausschüsse -"""@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7,
+        dtd:fundstelle-id8 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id9 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150917"@de ;
+    dtd:has_doknr "DDNR009040990"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id15 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:periodikum-id17 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:text-id10 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id11 ;
+    dtd:has_text dtd:text-id10 .
+
+dtd:zitstelle-id16 a dtd:zitstelle ;
+    dtd:has_Value "1990, 904"@de .
+
+dtd:zitstelle-id18 a dtd:zitstelle ;
+    dtd:has_Value "1990, Nr 49, 904"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+

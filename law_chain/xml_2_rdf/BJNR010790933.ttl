@@ -1,0 +1,199 @@
+@prefix dtd: <urn:LuftRAAbkDG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170808221015"@de ;
+    dtd:has_doknr "BJNR010790933"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43,
+        dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46,
+        dtd:P-id47 .
+
+dtd:I-id35 a dtd:I ;
+    dtd:has_Value "Reichs"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "Überschrift: Abkommen v. 12.10.1929 RGBl. 1933 II S. 1039 jetzt idF von Den Haag gem. Bek. v. 7.8.1958 II 312  (+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Die Reichsregierung hat zur Durchführung des Ersten Abkommens zur Vereinheitlichung des Luftprivatrechts (Reichsgesetzbl. II S. 1039) das folgende Gesetz beschlossen, das hiermit verkündet wird:"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "(1) Bei Tötung, Körperverletzung oder Gesundheitsbeschädigung von Reisenden bestimmen sich der Kreis der Ersatzberechtigten, der Gegenstand der Ersatzpflicht und die Art der Ersatzleistung in den Fällen des Artikels 17 des Ersten Abkommens zur Vereinheitlichung des Luftprivatrechts nach den §§ 35, 36 und 38 des Luftverkehrsgesetzes, in den Fällen des Artikels 25 nach den Vorschriften des Bürgerlichen Gesetzbuchs."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(2) Übersteigen im Falle der Ersatzleistung nach Artikel 17 des Abkommens die Entschädigungen, die mehreren wegen der Tötung, Körperverletzung oder Gesundheitsbeschädigung eines Reisenden zu leisten sind, insgesamt den in Artikel 22 des Abkommens festgesetzten Höchstbetrag, so verringern sich die einzelnen Entschädigungen in dem Verhältnis, wie ihr Gesamtbetrag zum Höchstbetrag steht."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_I dtd:I-id35 ;
+    dtd:has_Value "(1) An Stelle der in Artikel 22 des Abkommens in französischer Währung festgesetzten Höchstbeträge treten die entsprechenden Beträge in deutscher Reichswährung."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(2) Der Bundesminister der Justiz wird ermächtigt, durch eine Rechtsverordnung, die der Zustimmung des Bundesrates nicht bedarf, den Umrechnungssatz für französische Franken entsprechend dem amtlich festgestellten Goldpreis in deutsche Mark vorzuschreiben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1933-12-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id48 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id49 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:fussnoten-id30 a dtd:fussnoten .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "LuftRAAbkDG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "LuftRAAbkDG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "LuftRAAbkDG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "LuftRAAbkDG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Durchführung des Ersten Abkommens zur Vereinheitlichung des Luftprivatrechts"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170808221015"@de ;
+    dtd:has_doknr "BJNR010790933"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170808221015"@de ;
+    dtd:has_doknr "BJNR010790933BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170808221015"@de ;
+    dtd:has_doknr "BJNR010790933BJNE000201119"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20170808221015"@de ;
+    dtd:has_doknr "BJNR010790933BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id48 a dtd:periodikum ;
+    dtd:has_Value "RGBl I"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id51 ;
+    dtd:has_standtyp dtd:standtyp-id50 .
+
+dtd:standkommentar-id51 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 11 G v. 17.7.2017 I 2421"@de .
+
+dtd:standtyp-id50 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:zitstelle-id49 a dtd:zitstelle ;
+    dtd:has_Value "1933, 1079"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

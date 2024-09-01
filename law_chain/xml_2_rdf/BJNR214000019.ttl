@@ -1,0 +1,380 @@
+@prefix dtd: <urn:BStrafAktFV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80,
+        dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84,
+        dtd:P-id85,
+        dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72 .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Value "des Generalbundesanwalts beim Bundesgerichtshof;"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Value "der Finanzbehörden des Bundes in Ermittlungsverfahren nach § 386 Absatz 2 der Abgabenordnung und § 14a des Schwarzarbeitsbekämpfungsgesetzes;"@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_Value "des Bundesgerichtshofs."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_BR dtd:BR-id60 ;
+    dtd:has_Value " (+++ Textnachweis ab: 13.12.2019 +++)"@de ;
+    dtd:has_pre dtd:pre-id93 .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 32 Absatz 2 Satz 1 der Strafprozessordnung, der durch Artikel 1 Nummer 2 des Gesetzes vom 5. Juli 2017 (BGBl. I S. 2208) eingefügt worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Value "Diese Verordnung ist anzuwenden auf elektronisch geführte Strafverfahrensakten 1.des Generalbundesanwalts beim Bundesgerichtshof;2.der Finanzbehörden des Bundes in Ermittlungsverfahren nach § 386 Absatz 2 der Abgabenordnung und § 14a des Schwarzarbeitsbekämpfungsgesetzes;3.des Bundesgerichtshofs."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "(1) In der elektronischen Akte werden zur Akte gebrachte elektronische Dokumente einschließlich zugehöriger Signaturdateien sowie sonstige zur Akte gebrachte Dateien und Informationen gespeichert. Elektronische Empfangsbekenntnisse sowie elektronische Formulare, die als strukturierte maschinenlesbare Datensätze übermittelt worden sind (§ 32c der Strafprozessordnung), werden als Datensätze in der elektronischen Akte gespeichert."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(2) Die nach Absatz 1 in der elektronischen Akte gespeicherten Inhalte müssen jederzeit zusätzlich als elektronische Dokumente im Format PDF/A wiedergegeben werden können; diese Dokumente bilden das Repräsentat. Das Repräsentat muss den gesamten zur Akte gebrachten Inhalt mit Ausnahme der nur für die Datenverarbeitung notwendigen Struktur-, Definitions- und Schemadateien wiedergeben. Soweit die Wiedergabe eines Inhalts technisch nicht möglich ist, ist ein entsprechender Hinweis in das Repräsentat aufzunehmen. An die Stelle von Signaturdateien treten im Repräsentat Vermerke über das Ergebnis der Signaturprüfung. Das Repräsentat muss druckbar, kopierbar und, soweit technisch möglich, durchsuchbar sein. Die Seiten des Repräsentats sind so zu nummerieren, dass sie eindeutig zitiert werden können."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(3) Bei der elektronischen Aktenführung sind alle Daten vorzuhalten, die erforderlich sind, um den für die Übermittlung von elektronischen Akten vorgesehenen strukturierten maschinenlesbaren Datensatz im Dateiformat XML gemäß der Bekanntmachung nach § 6 der Strafaktenübermittlungsverordnung zu erzeugen und die Bearbeitung zu unterstützen."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "(1) Elektronische Dokumente sowie sonstige Dateien und Informationen gelten als zur Akte genommen, wenn sie bewusst und dauerhaft in der elektronischen Akte gespeichert worden sind."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "(2) Es ist sicherzustellen, dass in der elektronischen Akte alle Bearbeitungsvorgänge nachvollzogen werden können. Es ist insbesondere sicherzustellen, dass nachvollzogen werden kann, welche Stelle die Akte zu welchem Zeitpunkt bearbeitet hat."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "(3) Es ist sicherzustellen, dass die elektronische Akte nur von der jeweils lese- und schreibberechtigten Stelle eingesehen und bearbeitet werden kann. Dies gilt auch, wenn die Lese- und Schreibrechte nur teilweise auf eine andere Stelle übergehen."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Elektronische Akten und Verfahren zur elektronischen Aktenführung und -bearbeitung sollen technisch so gestaltet werden, dass sie, soweit technisch möglich, barrierefrei zugänglich und nutzbar sind. Hierzu sollen die Anforderungen an die Barrierefreiheit im Sinne der Barrierefreie-Informationstechnik-Verordnung vom 12. September 2011 (BGBl. I S. 1843), die zuletzt durch Artikel 1 der Verordnung vom 21. Mai 2019 (BGBl. I S. 738) geändert worden ist, in der jeweils geltenden Fassung bereits bei der Planung, Entwicklung, Ausschreibung und Beschaffung beachtet werden."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "Im Fall technischer Störungen der elektronischen Aktenführung kann angeordnet werden, dass eine Ersatzakte in Papierform geführt wird. Diese ist in die elektronische Form zu übertragen, sobald die Störung behoben ist. Art und Dauer der Störung sind zu dokumentieren. Bei anhaltenden technischen Störungen ist das zuständige Bundesministerium zu unterrichten."@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2019-12-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id94 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id95 .
+
+dtd:fussnoten-id52 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id73 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "BStrafAktFV"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "Bundesstrafaktenführungsverordnung"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value "Verordnung über die technischen und organisatorischen Rahmenbedingungen für die elektronische Aktenführung im Strafverfahren"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20200130213034"@de ;
+    dtd:has_doknr "BJNR214000019BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id94 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id93 a dtd:pre ;
+    dtd:has_BR dtd:BR-id61,
+        dtd:BR-id62 ;
+    dtd:has_Value "(+++ Textnachweis ab: 13.12.2019 +++)"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Struktur und Format elektronischer Akten; Repräsentat"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Bearbeitung der elektronischen Akte"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Barrierefreiheit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Ersatzmaßnahmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id95 a dtd:zitstelle ;
+    dtd:has_Value "2019, 2140"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,566 @@
+@prefix dtd: <urn:AdLDAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id15,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121,
+        dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130,
+        dtd:P-id131,
+        dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.12.2002 +++)"@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 61a Abs. 2 des Gesetzes über die Alterssicherung der Landwirte, der durch Artikel 2 Nr. 21 des Gesetzes vom 17. Juli 2001 (BGBl. I S. 1600) eingefügt worden ist, in Verbindung mit § 1 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 22. Oktober 2002 (BGBl. I S. 4206) verordnet das Bundesministerium für Gesundheit und Soziale Sicherung im Einvernehmen mit dem Bundesministerium der Finanzen und dem Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft:"@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "Der automatisierte Datenabgleich nach § 61a Abs. 1 des Gesetzes über die Alterssicherung der Landwirte wird durch zentrale Vermittlungsstellen, die von den Finanzbehörden der Länder bestimmt werden (Vermittlungsstellen), durchgeführt. In den Datenabgleich werden Personen einbezogen, deren Einkommen nach § 32 Abs. 2 des Gesetzes über die Alterssicherung der Landwirte für die Feststellung eines Beitragszuschusses erheblich ist. Die Datenübermittlung von der landwirtschaftlichen Alterskasse an die Vermittlungsstellen richtet sich nach folgenden Vorschriften."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(1) Die landwirtschaftliche Alterskasse übermittelt für jede in den Datenabgleich einzubeziehende Person die in § 61a Absatz 1 Satz 2 des Gesetzes über die Alterssicherung der Landwirte genannten Daten (Anfragedatensatz) an die für die betreffende Person (§ 1 Satz 2) zuständige Vermittlungsstelle. Weitere personenbezogene Daten darf der Anfragedatensatz nicht enthalten."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(2) Die Datenübermittlung erfolgt monatlich bis zum dritten Tag dieses Kalendermonats. In die Datenübermittlung werden alle der landwirtschaftlichen Alterskasse bis zum ersten Tag des betreffenden Kalendermonats zugeleiteten Meldungen nach Absatz 1 einbezogen."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "Der Datenabgleich erstreckt sich auf die Feststellung, wann und für welches Veranlagungsjahr Einkommensteuerbescheide ausgefertigt wurden, und auf die in diesen Einkommensteuerbescheiden ausgewiesenen Einkünfte im Sinne von § 2 Absatz 1 und 2 des Einkommensteuergesetzes, aufgeteilt nach den verschiedenen Einkunftsarten. Zusätzlich ist mitzuteilen, ob die Einkünfte aus Land- und Forstwirtschaft entweder nach § 4 des Einkommensteuergesetzes oder nach § 13a des Einkommensteuergesetzes ermittelt wurden, ob und welche Einkünfte nach § 22 des Einkommensteuergesetzes erzielt wurden und ob der Progressionsvorbehalt nach § 32b des Einkommensteuergesetzes angewendet wurde. Bezeichnet der übermittelte Anfragedatensatz einen bereits vorliegenden Einkommensteuerbescheid, bleiben dieser sowie zeitlich vor diesem ausgefertigte Einkommensteuerbescheide für frühere Veranlagungsjahre beim Abgleich unberücksichtigt. Unberücksichtigt bleiben auch Veranlagungsjahre, die im Zeitpunkt des Datenabgleichs mehr als sechs Jahre zurückliegen."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "Die Vermittlungsstellen übermitteln die von ihnen bei dem Abgleich nach § 4 getroffenen Feststellungen als Antwortdatensatz bis zum zwölften Tag des Kalendermonats der Datenübermittlung nach § 3 Abs. 2 an die landwirtschaftliche Alterskasse."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "Die landwirtschaftliche Alterskasse bestimmt nach Anhörung der Vermittlungsstellen und des Bundesbeauftragten für den Datenschutz und die Informationsfreiheit im Einvernehmen mit dem Bundesministerium für Arbeit und Soziales und dem Bundesministerium für Ernährung und Landwirtschaft die Gestaltung des Anfragedatensatzes."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(1) Die Datenübermittlung erfolgt durch Datenfernübertragung."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(2) Werden Mängel festgestellt, die eine ordnungsgemäße Übernahme der Daten beeinträchtigen, kann die Übernahme der Daten abgelehnt werden. Der Absender ist über die festgestellten Mängel zu unterrichten."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(3) Die in den folgenden Vorschriften genannten DIN-Normen sind vom Deutschen Institut für Normung e. V., Berlin, herausgegeben, bei der Beuth-Verlag GmbH, Burggrafenstraße 4-10, 10787 Berlin, beziehbar und beim Bundesarchiv, Potsdamer Straße 1, 56075 Koblenz, jedermann zugänglich und archivmäßig gesichert niedergelegt."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "Die Daten sind durch Datenübertragung im 8-Bit-Code – DRV 8 – nach DIN 66 303 (ISO 8859-1, 1987) Code-Tabelle 1 zu übermitteln. Bei der Datenübertragung sind dem jeweiligen Stand der Technik entsprechende Maßnahmen zur Sicherstellung von Datenschutz und Datensicherheit zu treffen, die insbesondere die Vertraulichkeit und Unversehrtheit der Daten sowie die Authentizität der übermittelnden und der empfangenden Stelle gewährleisten; bei der Nutzung allgemein zugänglicher Netze sind Verschlüsselungsverfahren anzuwenden."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id45 a dtd:amtabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id46 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-12-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id78 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id81 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id84 a dtd:enbez ;
+    dtd:has_Value "§ 11"@de .
+
+dtd:enbez-id87 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id47 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id143 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id144 .
+
+dtd:fussnoten-id101 a dtd:fussnoten .
+
+dtd:fussnoten-id103 a dtd:fussnoten .
+
+dtd:fussnoten-id105 a dtd:fussnoten .
+
+dtd:fussnoten-id107 a dtd:fussnoten .
+
+dtd:fussnoten-id109 a dtd:fussnoten .
+
+dtd:fussnoten-id88 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id112 .
+
+dtd:fussnoten-id91 a dtd:fussnoten .
+
+dtd:fussnoten-id93 a dtd:fussnoten .
+
+dtd:fussnoten-id95 a dtd:fussnoten .
+
+dtd:fussnoten-id97 a dtd:fussnoten .
+
+dtd:fussnoten-id99 a dtd:fussnoten .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id80 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id83 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:jurabk-id86 a dtd:jurabk ;
+    dtd:has_Value "AdLDAV"@de .
+
+dtd:kurzue-id48 a dtd:kurzue ;
+    dtd:has_Value "Alterssicherung der Landwirte/Datenabgleichsverordnung"@de .
+
+dtd:langue-id49 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung des § 61a des Gesetzes über die Alterssicherung der Landwirte"@de .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id45 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id46 ;
+    dtd:has_fundstelle dtd:fundstelle-id47 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_kurzue dtd:kurzue-id48 ;
+    dtd:has_langue dtd:langue-id49 ;
+    dtd:has_standangabe dtd:standangabe-id50 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id78 ;
+    dtd:has_jurabk dtd:jurabk-id77 ;
+    dtd:has_titel dtd:titel-id79 .
+
+dtd:metadaten-id38 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id81 ;
+    dtd:has_jurabk dtd:jurabk-id80 ;
+    dtd:has_titel dtd:titel-id82 .
+
+dtd:metadaten-id40 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id84 ;
+    dtd:has_jurabk dtd:jurabk-id83 ;
+    dtd:has_titel dtd:titel-id85 .
+
+dtd:metadaten-id42 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id87 ;
+    dtd:has_jurabk dtd:jurabk-id86 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000702124"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000802308"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000901308"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE001002308"@de ;
+    dtd:has_metadaten dtd:metadaten-id38 ;
+    dtd:has_textdaten dtd:textdaten-id39 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id40 ;
+    dtd:has_textdaten dtd:textdaten-id41 .
+
+dtd:norm-id15 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE001200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id42 ;
+    dtd:has_textdaten dtd:textdaten-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000102308"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000302308"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000402308"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000502308"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20201009213011"@de ;
+    dtd:has_doknr "BJNR449000002BJNE000603119"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:periodikum-id143 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id50 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id146 ;
+    dtd:has_standtyp dtd:standtyp-id145 .
+
+dtd:standkommentar-id146 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 23 G v. 12.6.2020 I 1248"@de .
+
+dtd:standtyp-id145 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id100 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id102 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id104 a dtd:text ;
+    dtd:has_Content dtd:Content-id133 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id106 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id108 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id110 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id111 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id91 ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id93 ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id95 ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id97 ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id99 ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id101 ;
+    dtd:has_text dtd:text-id100 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id103 ;
+    dtd:has_text dtd:text-id102 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id105 ;
+    dtd:has_text dtd:text-id104 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id107 ;
+    dtd:has_text dtd:text-id106 .
+
+dtd:textdaten-id39 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id109 ;
+    dtd:has_text dtd:text-id108 .
+
+dtd:textdaten-id41 a dtd:textdaten ;
+    dtd:has_text dtd:text-id110 .
+
+dtd:textdaten-id43 a dtd:textdaten ;
+    dtd:has_text dtd:text-id111 .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Datenabgleich durch Vermittlungsstellen, einzubeziehende Personen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Datenübermittlung an die Vermittlungsstellen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Datenabgleich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Rückübermittlung an die landwirtschaftliche Alterskasse"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Anfragedatensatz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Verfahren der Datenübermittlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Übermittlung durch Datenfernübertragung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id79 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id82 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id85 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id144 a dtd:zitstelle ;
+    dtd:has_Value "2002, 4490"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

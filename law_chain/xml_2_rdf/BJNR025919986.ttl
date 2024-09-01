@@ -1,0 +1,283 @@
+@prefix dtd: <urn:RV/UVRAG-1987#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR025919986"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_BR dtd:BR-id43,
+        dtd:BR-id44,
+        dtd:BR-id45 ;
+    dtd:has_Value "Überschrift: Die Vorschrift gilt nicht in dem in Art. 3 des Einigungsvertrages genannten Gebiet gem. Anl. I Kap. VIII Sachg. H Abschn. I Nr. 16 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1057 Art. 1: RAG 1987 8232-10-27-2  (+++ Textnachweis ab: 31.12.1986 +++)"@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Der Bundesminister für Arbeit und Sozialordnung wird ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates zur Anpassung der Renten der gesetzlichen Rentenversicherung, der Geldleistungen der gesetzlichen Unfallversicherung und der Altersgelder der Altershilfe für Landwirte im Jahre 1987 bis zum 30. Juni 1987 die in Artikel 1 §§ 3, 5, 6 und 7 und Artikel 2 bestimmten Werte und Beträge entsprechend § 1255 Abs. 2 Satz 2 bis 5, § 579 Abs. 1 und 2 der Reichsversicherungsordnung, § 32 Abs. 2 Satz 2 bis 5 des Angestelltenversicherungsgesetzes, § 54 Abs. 2 Satz 2 bis 5 des Reichsknappschaftsgesetzes und § 4 Abs. 1 Satz 3 des Gesetzes über eine Altershilfe für Landwirte zu ändern, soweit sich nach den dem Statistischen Bundesamt zu Beginn des Jahres 1987 vorliegenden Daten das durchschnittliche Bruttoarbeitsentgelt im Jahre 1986 anders entwickelt hat, als es diesen Werten und Beträgen zugrunde gelegt ist."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes auch im Land Berlin. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Die Artikel 1 und 2 treten am 1. Juli 1987 in Kraft. Im übrigen tritt dieses Gesetz am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1986-12-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id73 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id74 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id48 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:gliederungsbez-id61 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:gliederungsbez-id63 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:gliederungsbez-id65 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:gliederungsbez-id68 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:gliederungsbez-id71 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:gliederungseinheit-id25 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id61 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id60 .
+
+dtd:gliederungseinheit-id27 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id63 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id62 .
+
+dtd:gliederungseinheit-id29 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id65 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id64 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id66 .
+
+dtd:gliederungseinheit-id31 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id68 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id67 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id69 .
+
+dtd:gliederungseinheit-id33 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id71 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id70 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id72 .
+
+dtd:gliederungskennzahl-id60 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id62 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id64 a dtd:gliederungskennzahl ;
+    dtd:has_Value "030"@de .
+
+dtd:gliederungskennzahl-id67 a dtd:gliederungskennzahl ;
+    dtd:has_Value "040"@de .
+
+dtd:gliederungskennzahl-id70 a dtd:gliederungskennzahl ;
+    dtd:has_Value "050"@de .
+
+dtd:gliederungstitel-id66 a dtd:gliederungstitel ;
+    dtd:has_Value "Verordnungsermächtigung"@de .
+
+dtd:gliederungstitel-id69 a dtd:gliederungstitel ;
+    dtd:has_Value "Berlin-Klausel"@de .
+
+dtd:gliederungstitel-id72 a dtd:gliederungstitel ;
+    dtd:has_Value "Inkrafttreten"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "RV/UVRAG 1987"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "RV/UVRAG 1987"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "RV/UVRAG 1987"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "RV/UVRAG 1987"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "RV/UVRAG 1987"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "RV/UVRAG 1987"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz über die Anpassung der Renten der gesetzlichen Rentenversicherung
+und der Geldleistungen der gesetzlichen Unfallversicherung im Jahre 1987"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR025919986"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR025919986BJNG000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR025919986BJNG000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR025919986BJNG000300308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR025919986BJNG000400308"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625153928"@de ;
+    dtd:has_doknr "BJNR025919986BJNG000500308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id73 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id74 a dtd:zitstelle ;
+    dtd:has_Value "1986, 2591"@de .
+

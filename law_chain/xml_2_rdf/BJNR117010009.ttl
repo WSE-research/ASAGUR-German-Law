@@ -1,0 +1,456 @@
+@prefix dtd: <urn:KraftStKompG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150458"@de ;
+    dtd:has_doknr "BJNR117010009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92 .
+
+dtd:Content-id93 a dtd:Content ;
+    dtd:has_P dtd:P-id94 .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.2009 +++)Das G wurde als Artikel 1 des G 603-14/1 v. 29.5.2009 I 1170 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 11 dieses G am 1.7.2009 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id95 .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "Den Ländern steht wegen der Übertragung der Kraftfahrzeugsteuer auf den Bund ab dem 1. Juli 2009 aus dem Steueraufkommen des Bundes ab 2010 jährlich ein Betrag von 8 991 764 000 Euro zu. Für das Jahr 2009 ist ein Betrag von 4 570 882 000 Euro zu Grunde zu legen."@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "Der in § 1 festgelegte Betrag wird nach folgenden Prozentsätzen auf die Länder verteilt: Baden-Württemberg14,51618Bayern17,22275Berlin 2,35275Brandenburg 2,98641Bremen 0,61711Hamburg 1,80560Hessen 7,68565Mecklenburg-Vorpommern 1,81271Niedersachsen 9,96509Nordrhein-Westfalen21,16979Rheinland-Pfalz 5,37339Saarland 1,32661Sachsen 4,47004Sachsen-Anhalt 2,58331Schleswig-Holstein 3,54935Thüringen 2,56326."@de ;
+    dtd:has_table dtd:table-id34 .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_Value "Die nach § 1 in Verbindung mit § 2 festgelegten jeweiligen Jahresbeträge werden den Ländern zu jeweils einem Viertel am 15. Februar, 15. Mai, 15. August und 15. November überwiesen; für 2009 wird den Ländern jeweils die Hälfte des jeweiligen Jahresbetrages am 15. August und 15. November überwiesen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-05-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id36 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "2*"@de .
+
+dtd:colspec-id37 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:entry-id55 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Baden-Württemberg"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id56 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "14,51618"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bayern"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "17,22275"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 2,35275"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Brandenburg"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 2,98641"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bremen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 0,61711"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hamburg"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 1,80560"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hessen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 7,68565"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mecklenburg-Vorpommern"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 1,81271"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niedersachsen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 9,96509"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nordrhein-Westfalen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "21,16979"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rheinland-Pfalz"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 5,37339"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Saarland"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 1,32661"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sachsen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 4,47004"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sachsen-Anhalt"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 2,58331"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Schleswig-Holstein"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 3,54935"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Thüringen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 2,56326."@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id96 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id97 .
+
+dtd:fussnoten-id27 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id87 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "KraftStKompG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "KraftStKompG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "KraftStKompG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "KraftStKompG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Regelung der finanziellen Kompensation zugunsten der Länder infolge der Übertragung der Ertragshoheit der Kraftfahrzeugsteuer auf den Bund"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150458"@de ;
+    dtd:has_doknr "BJNR117010009"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150458"@de ;
+    dtd:has_doknr "BJNR117010009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150458"@de ;
+    dtd:has_doknr "BJNR117010009BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150458"@de ;
+    dtd:has_doknr "BJNR117010009BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id96 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id95 a dtd:pre ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.2009 +++)"@de .
+
+dtd:row-id39 a dtd:row ;
+    dtd:has_entry dtd:entry-id55,
+        dtd:entry-id56 .
+
+dtd:row-id40 a dtd:row ;
+    dtd:has_entry dtd:entry-id57,
+        dtd:entry-id58 .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id59,
+        dtd:entry-id60 .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id61,
+        dtd:entry-id62 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id63,
+        dtd:entry-id64 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id65,
+        dtd:entry-id66 .
+
+dtd:row-id45 a dtd:row ;
+    dtd:has_entry dtd:entry-id67,
+        dtd:entry-id68 .
+
+dtd:row-id46 a dtd:row ;
+    dtd:has_entry dtd:entry-id69,
+        dtd:entry-id70 .
+
+dtd:row-id47 a dtd:row ;
+    dtd:has_entry dtd:entry-id71,
+        dtd:entry-id72 .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id73,
+        dtd:entry-id74 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id75,
+        dtd:entry-id76 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id77,
+        dtd:entry-id78 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id79,
+        dtd:entry-id80 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id81,
+        dtd:entry-id82 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id85,
+        dtd:entry-id86 .
+
+dtd:table-id34 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "0"@de ;
+    dtd:has_tabstyle "Laender"@de ;
+    dtd:has_tgroup dtd:tgroup-id35 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id38 a dtd:tbody ;
+    dtd:has_row dtd:row-id39,
+        dtd:row-id40,
+        dtd:row-id41,
+        dtd:row-id42,
+        dtd:row-id43,
+        dtd:row-id44,
+        dtd:row-id45,
+        dtd:row-id46,
+        dtd:row-id47,
+        dtd:row-id48,
+        dtd:row-id49,
+        dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id93 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:tgroup-id35 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id36,
+        dtd:colspec-id37 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id38 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Finanzierung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Verteilung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Zahlungsverkehr"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id97 a dtd:zitstelle ;
+    dtd:has_Value "2009, 1170"@de .
+

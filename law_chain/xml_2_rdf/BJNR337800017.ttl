@@ -1,0 +1,4420 @@
+@prefix dtd: <urn:EgVV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id663 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2017, 3380 - 3381)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:B-id72 a dtd:B ;
+    dtd:has_Value "Annahmen"@de .
+
+dtd:B-id73 a dtd:B ;
+    dtd:has_Value "Makroökonomische Projektion"@de .
+
+dtd:B-id74 a dtd:B ;
+    dtd:has_Value "Preise"@de .
+
+dtd:B-id75 a dtd:B ;
+    dtd:has_Value "Arbeitsmarkt"@de .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:BR-id68 a dtd:BR .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:Content-id634 a dtd:Content ;
+    dtd:has_P dtd:P-id635 .
+
+dtd:Content-id636 a dtd:Content ;
+    dtd:has_P dtd:P-id637 .
+
+dtd:Content-id638 a dtd:Content ;
+    dtd:has_P dtd:P-id639,
+        dtd:P-id640,
+        dtd:P-id641,
+        dtd:P-id642,
+        dtd:P-id643 .
+
+dtd:Content-id644 a dtd:Content ;
+    dtd:has_P dtd:P-id645,
+        dtd:P-id646,
+        dtd:P-id647,
+        dtd:P-id648 .
+
+dtd:Content-id649 a dtd:Content ;
+    dtd:has_P dtd:P-id650,
+        dtd:P-id651 .
+
+dtd:Content-id652 a dtd:Content ;
+    dtd:has_P dtd:P-id653 .
+
+dtd:Content-id654 a dtd:Content ;
+    dtd:has_P dtd:P-id655 .
+
+dtd:Content-id656 a dtd:Content ;
+    dtd:has_P dtd:P-id657 .
+
+dtd:Content-id658 a dtd:Content ;
+    dtd:has_BR dtd:BR-id70,
+        dtd:BR-id71 ;
+    dtd:has_P dtd:P-id659,
+        dtd:P-id660,
+        dtd:P-id661 ;
+    dtd:has_table dtd:table-id79 .
+
+dtd:P-id635 a dtd:P ;
+    dtd:has_BR dtd:BR-id67 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.2018 +++)"@de ;
+    dtd:has_pre dtd:pre-id662 .
+
+dtd:P-id637 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Satz 3 des Vorausschätzungsgesetzes vom 27. Juni 2017 (BGBl. I S. 2080) verordnet das Bundesministerium für Wirtschaft und Energie im Einvernehmen mit dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id639 a dtd:P ;
+    dtd:has_Value "(1) Unabhängige Einrichtung im Sinne des § 3 Satz 1 des Vorausschätzungsgesetzes ist die Projektgruppe Gemeinschaftsdiagnose (Gemeinschaftsdiagnose)."@de .
+
+dtd:P-id640 a dtd:P ;
+    dtd:has_Value "(2) Die Gemeinschaftsdiagnose ist eine Arbeitsgemeinschaft von Wirtschaftsforschungseinrichtungen. Sie prüft im Auftrag der Bundesregierung die gesamtwirtschaftlichen Vorausschätzungen, die der Haushalts- und Finanzplanung der Bundesregierung zugrunde liegen, in dem in § 2 geregelten Befürwortungsverfahren. Der Auftrag nach Satz 2 kann dabei mit der Aufgabe verbunden werden, eigene Prognosen als Orientierung für die gesamtwirtschaftlichen Vorausschätzungen der Bundesregierung zu erstellen."@de .
+
+dtd:P-id641 a dtd:P ;
+    dtd:has_Value "(3) Die Mitglieder der Gemeinschaftsdiagnose werden nach den Vorschriften des Vergaberechts bestimmt. Die Mitgliedschaft wird grundsätzlich jeweils für die Dauer von vier Jahren vergeben."@de .
+
+dtd:P-id642 a dtd:P ;
+    dtd:has_Value "(4) Die Gemeinschaftsdiagnose gibt sich eine Geschäftsordnung. Diese enthält Bestimmungen über die Zusammenarbeit zwischen den Mitgliedern und den Entscheidungsprozess. Die Mitglieder wählen aus ihrer Mitte eine Sprecherin oder einen Sprecher, die oder der die Gemeinschaftsdiagnose für Zwecke des § 2 gegenüber dem Bundesministerium für Wirtschaft und Energie vertritt."@de .
+
+dtd:P-id643 a dtd:P ;
+    dtd:has_Value "(5) Die Gemeinschaftsdiagnose kann ein ständiges Sekretariat als Kontaktstelle und einen eigenen Internetauftritt einrichten."@de .
+
+dtd:P-id645 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesministerium für Wirtschaft und Energie legt der Gemeinschaftsdiagnose den Entwurf einer dem Befürwortungsverfahren unterliegenden Vorausschätzung nach dem Muster der Anlage vor."@de .
+
+dtd:P-id646 a dtd:P ;
+    dtd:has_Value "(2) Nach Erhalt eines Entwurfs nach Absatz 1 prüft die Gemeinschaftsdiagnose, ob dieser unter Berücksichtigung der Informationen, die in die Vorausschätzung einfließen konnten, plausibel ist. Der Unsicherheit bei der Erstellung von Vorausschätzungen ist Rechnung zu tragen. Zeitnah vorliegende gesamtwirtschaftliche Vorausschätzungen können bei der Beurteilung der Vorausschätzungen der Bundesregierung als Orientierung dienen."@de .
+
+dtd:P-id647 a dtd:P ;
+    dtd:has_Value "(3) Die Gemeinschaftsdiagnose teilt dem Bundesministerium für Wirtschaft und Energie innerhalb von zwei Arbeitstagen nach Erhalt des Entwurfs mit, ob sie den Entwurf befürwortet. Falls die Gemeinschaftsdiagnose den Entwurf nicht befürwortet, teilt sie dem Bundesministerium für Wirtschaft und Energie zudem schriftlich ihre Gründe mit. Das Bundesministerium für Wirtschaft und Energie kann der Gemeinschaftsdiagnose nach einer Mitteilung nach Satz 2 einen im Einvernehmen mit dem Bundeskanzleramt, dem Bundesministerium der Finanzen, dem Bundesministerium für Arbeit und Soziales und dem Bundesministerium für Gesundheit erstellten überarbeiteten Entwurf der Vorausschätzung der Bundesregierung vorlegen. Für die Überarbeitung stehen dem Bundesministerium für Wirtschaft und Energie mindestens zwei Arbeitstage zur Verfügung."@de .
+
+dtd:P-id648 a dtd:P ;
+    dtd:has_Value "(4) Die Gemeinschaftsdiagnose teilt dem Bundesministerium für Wirtschaft und Energie innerhalb eines Arbeitstages nach Erhalt des überarbeiteten Entwurfs nach Absatz 3 Satz 3 mit, ob sie diesen überarbeiteten Entwurf befürwortet. Falls die Gemeinschaftsdiagnose den überarbeiteten Entwurf nicht befürwortet, teilt sie dem Bundesministerium für Wirtschaft und Energie zudem schriftlich ihre Gründe mit."@de .
+
+dtd:P-id650 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesministerium für Wirtschaft und Energie gewährt der Gemeinschaftsdiagnose den zur Durchführung des Befürwortungsverfahrens erforderlichen Zugang zu Informationen."@de .
+
+dtd:P-id651 a dtd:P ;
+    dtd:has_Value "(2) Die Mitglieder der Gemeinschaftsdiagnose gewährleisten die Verschwiegenheit ihrer mit dem Befürwortungsverfahren befassten Mitarbeiterinnen und Mitarbeiter über den Inhalt von Beratungen im Zusammenhang mit dem Befürwortungsverfahren und über die ihnen im Zusammenhang mit dem Befürwortungsverfahren zur Verfügung gestellten Informationen."@de .
+
+dtd:P-id653 a dtd:P ;
+    dtd:has_Value "Die Gemeinschaftsdiagnose kann das Ergebnis ihrer Prüfung veröffentlichen, allerdings nicht vor Veröffentlichung der Vorausschätzung durch die Bundesregierung. Im Übrigen steht die Veröffentlichung von Informationen im Zusammenhang mit dem Befürwortungsverfahren im Ermessen des Bundesministeriums für Wirtschaft und Energie."@de .
+
+dtd:P-id655 a dtd:P ;
+    dtd:has_Value "Ab dem 1. Juli 2018 setzt sich die Gemeinschaftsdiagnose bis zum Ende der jeweiligen Vertragslaufzeit aus denjenigen Wirtschaftsforschungseinrichtungen zusammen, die zu diesem Tag mit der Erstellung der in § 1 Absatz 2 Satz 3 bezeichneten Prognosen beauftragt sind."@de .
+
+dtd:P-id657 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Juli 2018 in Kraft."@de .
+
+dtd:P-id659 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2017, 3380 - 3381)"@de ;
+    dtd:has_noindex dtd:noindex-id76 .
+
+dtd:P-id660 a dtd:P ;
+    dtd:has_Value "JahreErläuterungt-1t-1tt+1t+2t+3t+4t+5AnnahmenNiveauVeränderungsrateBIP-Wachstum WeltVeränderungsratexxxx*BIP-Wachstum Welt ohne DeutschlandVeränderungsratexxxx*BIP-Wachstum EUVeränderungsratexxxx*Wachstum der deutschen AbsatzmärkteVeränderungsratexxxx*WeltimportvolumenVeränderungsratexxxx*NiveauÖlpreis (Brent, USD/Barrel)Jahresdurchschnittxxx*Wechselkurs USD/EuroJahresdurchschnittxxx*Makroökonomische ProjektionNiveau/IndexVeränderungsrateBIPin jeweiligen Preisenxxxx*BIPpreisbereinigtxxxx*Private Konsumausgabenpreisbereinigtxxxx*Konsumausgaben des Staatespreisbereinigtxxxx*Bruttoanlageinvestitionenpreisbereinigtxxxx*Ausrüstungsinvestitionenpreisbereinigtxxxx*Bauinvestitionenpreisbereinigtxxxx*Investitionen in sonstige Anlagenpreisbereinigtxxxx*Exporte von Waren und Dienstleistungenpreisbereinigtxxxx*Importe von Waren und Dienstleistungenpreisbereinigtxxxx*ProzentpunkteInländische VerwendungWachstumsbeitragxxx*Vorratsveränderungen und Nettozugang an WertsachenWachstumsbeitragxxx*AußenbeitragWachstumsbeitragxxx*IndexVeränderungsrateVeränderungsrateBIP Produktionspotenzialpreisbereinigtxxxxxxx*ProzentpunkteWachstumsbeitrag: Faktor ArbeitWachstumsbeitragxxx*Wachstumsbeitrag: Faktor KapitalWachstumsbeitragxxx*Wachstumsbeitrag: Totale FaktorproduktivitätWachstumsbeitragxxx*PreiseIndexVeränderungsrateVeränderungsrateBIP Deflatorxxxxxxx*Deflator des privaten Konsumsxxxx*Verbraucherpreisindexxxxx*Deflator des Staatskonsumsxxxx*Deflator der Bruttoanlageinvestitionenxxxx*Deflator der Exportexxxx*Deflator der Importexxxx*ArbeitsmarktNiveauVeränderungsrateErwerbstätigkeit (Inland)Niveauxxxx*Arbeitsvolumen (in Std.)xxxx*Arbeitslosenquote (BA)xxxx*Bruttolöhne und Gehälterxxxx*Bruttolöhne und Gehälter je Arbeitnehmerxxxx*IndexVeränderungsrateArbeitsproduktivität je Erwerbstätigenxxxx*Arbeitsproduktivität je Erwerbstätigenstundexxxx*"@de ;
+    dtd:has_table dtd:table-id77 .
+
+dtd:P-id661 a dtd:P ;
+    dtd:has_Value "Erläuterungen:"@de .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-09-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id81 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "2*"@de .
+
+dtd:colspec-id82 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "2*"@de .
+
+dtd:colspec-id83 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "56*"@de .
+
+dtd:colspec-id84 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:colspec-id85 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id86 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colwidth "9*"@de .
+
+dtd:colspec-id87 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colwidth "9*"@de .
+
+dtd:colspec-id88 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "9*"@de .
+
+dtd:colspec-id89 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colwidth "6.5*"@de .
+
+dtd:colspec-id90 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colwidth "6.5*"@de .
+
+dtd:colspec-id91 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colwidth "6.5*"@de .
+
+dtd:colspec-id92 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_colwidth "6.5*"@de .
+
+dtd:colspec-id95 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "0.06*"@de .
+
+dtd:colspec-id96 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "1.94*"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id149 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id150 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id151 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id152 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id153 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Jahre"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_nameend "col12"@de ;
+    dtd:has_namest "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id154 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id155 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id156 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id157 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Erläuterung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id158 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "t-1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id159 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "t-1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "1"@de .
+
+dtd:entry-id160 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "t"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "1"@de .
+
+dtd:entry-id161 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "t+1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col8"@de .
+
+dtd:entry-id162 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "t+2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "1"@de .
+
+dtd:entry-id163 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "t+3"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "1"@de .
+
+dtd:entry-id164 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "t+4"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "1"@de .
+
+dtd:entry-id165 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "t+5"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col12"@de .
+
+dtd:entry-id166 a dtd:entry ;
+    dtd:has_B dtd:B-id72 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Annahmen"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id167 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id168 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niveau"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id169 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id170 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id171 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id172 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id173 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id174 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BIP-Wachstum Welt"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id175 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id176 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id177 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id178 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id179 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id180 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id181 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id182 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id183 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id184 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BIP-Wachstum Welt ohne Deutschland"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id185 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id186 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id187 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id188 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id189 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id190 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id191 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id192 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id193 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id194 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BIP-Wachstum EU"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id195 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id196 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id197 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id198 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id199 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id200 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id201 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id202 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id203 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id204 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstum der deutschen Absatzmärkte"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id205 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id206 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id207 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id208 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id209 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id210 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id211 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id212 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id213 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id214 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Weltimportvolumen"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id215 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id216 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id217 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id218 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id219 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id220 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id221 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id222 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id223 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id224 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id225 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id226 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id227 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id228 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id229 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niveau"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id230 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id231 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id232 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id233 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id234 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ölpreis (Brent, USD/Barrel)"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id235 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Jahresdurchschnitt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id236 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_diagonal dtd:updown ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id237 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id238 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id239 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id240 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id241 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id242 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id243 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id244 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wechselkurs USD/Euro"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id245 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Jahresdurchschnitt"@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id246 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id247 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id248 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de .
+
+dtd:entry-id249 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id250 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id251 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id252 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de .
+
+dtd:entry-id253 a dtd:entry ;
+    dtd:has_B dtd:B-id73 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Makroökonomische Projektion"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id254 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id255 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niveau/Index"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id256 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id257 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id258 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id259 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id260 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id261 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BIP"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id262 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in jeweiligen Preisen"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id263 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id264 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id265 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id266 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id267 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id268 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id269 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id270 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id271 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BIP"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id272 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id273 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id274 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id275 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id276 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id277 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id278 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id279 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id280 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id281 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id282 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Private Konsumausgaben"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id283 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id284 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id285 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id286 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id287 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id288 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id289 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id290 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id291 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id292 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id293 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Konsumausgaben des Staates"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id294 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id295 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id296 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id297 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id298 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id299 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id300 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id301 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id302 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id303 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id304 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bruttoanlageinvestitionen"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id305 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id306 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id307 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id308 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id309 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id310 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id311 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id312 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id313 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id314 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id315 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id316 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ausrüstungsinvestitionen"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id317 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id318 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id319 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id320 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id321 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id322 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id323 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id324 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id325 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id326 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id327 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id328 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bauinvestitionen"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id329 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id330 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id331 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id332 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id333 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id334 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id335 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id336 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id337 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id338 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id339 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id340 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Investitionen in sonstige Anlagen"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id341 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id342 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id343 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id344 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id345 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id346 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id347 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id348 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id349 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id350 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id351 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Exporte von Waren und Dienstleistungen"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id352 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id353 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id354 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id355 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id356 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id357 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id358 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id359 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id360 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id361 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id362 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Importe von Waren und Dienstleistungen"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id363 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id364 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id365 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id366 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id367 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id368 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id369 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id370 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id371 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id372 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id373 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id374 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id375 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id376 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id377 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Prozentpunkte"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id378 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id379 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id380 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id381 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id382 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id383 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Inländische Verwendung"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id384 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id385 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_diagonal dtd:updown ;
+    dtd:has_morerows "2"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id386 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id387 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id388 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id389 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id390 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id391 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id392 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id393 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id394 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vorratsveränderungen und Nettozugang an Wertsachen"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id395 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id396 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id397 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id398 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id399 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id400 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id401 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id402 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id403 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id404 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Außenbeitrag"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id405 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id406 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id407 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id408 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id409 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id410 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id411 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id412 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id413 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id414 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id415 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id416 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id417 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Index"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id418 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id419 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_nameend "col12"@de ;
+    dtd:has_namest "col9"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id420 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BIP Produktionspotenzial"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id421 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "preisbereinigt"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id422 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id423 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id424 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id425 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id426 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id427 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id428 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id429 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id430 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id431 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id432 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id433 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id434 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id435 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Prozentpunkte"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id436 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id437 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id438 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id439 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id440 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id441 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag: Faktor Arbeit"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id442 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id443 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_diagonal dtd:updown ;
+    dtd:has_morerows "2"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id444 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id445 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id446 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id447 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id448 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id449 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id450 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id451 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id452 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag: Faktor Kapital"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id453 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id454 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id455 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id456 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id457 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id458 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id459 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id460 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id461 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id462 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag: Totale Faktorproduktivität"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id463 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wachstumsbeitrag"@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id464 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id465 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id466 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de .
+
+dtd:entry-id467 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id468 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id469 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id470 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de .
+
+dtd:entry-id471 a dtd:entry ;
+    dtd:has_B dtd:B-id74 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Preise"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id472 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id473 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Index"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id474 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id475 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_nameend "col12"@de ;
+    dtd:has_namest "col9"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id476 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BIP Deflator"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id477 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id478 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id479 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id480 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id481 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id482 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id483 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id484 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id485 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id486 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Deflator des privaten Konsums"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id487 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id488 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id489 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id490 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id491 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id492 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id493 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id494 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id495 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id496 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Verbraucherpreisindex"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id497 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id498 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id499 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id500 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id501 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id502 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id503 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id504 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id505 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id506 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Deflator des Staatskonsums"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id507 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id508 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id509 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id510 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id511 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id512 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id513 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id514 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id515 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id516 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Deflator der Bruttoanlageinvestitionen"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id517 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id518 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id519 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id520 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id521 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id522 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id523 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id524 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id525 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id526 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Deflator der Exporte"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id527 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id528 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id529 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id530 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id531 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id532 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id533 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id534 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id535 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id536 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Deflator der Importe"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id537 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id538 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id539 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id540 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id541 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de .
+
+dtd:entry-id542 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id543 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id544 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id545 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de .
+
+dtd:entry-id546 a dtd:entry ;
+    dtd:has_B dtd:B-id75 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Arbeitsmarkt"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id547 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id548 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niveau"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id549 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id550 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id551 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id552 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id553 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id554 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Erwerbstätigkeit (Inland)"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id555 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niveau"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_morerows "4"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id556 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id557 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id558 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id559 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id560 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id561 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id562 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id563 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id564 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Arbeitsvolumen (in Std.)"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id565 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id566 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id567 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id568 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id569 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id570 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id571 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id572 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id573 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Arbeitslosenquote (BA)"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id574 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id575 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id576 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id577 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id578 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id579 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id580 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id581 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id582 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bruttolöhne und Gehälter"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id583 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id584 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id585 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id586 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id587 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id588 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id589 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id590 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id591 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bruttolöhne und Gehälter je Arbeitnehmer"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id592 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id593 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id594 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id595 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id596 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id597 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id598 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id599 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id600 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id601 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id602 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id603 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id604 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Index"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id605 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Veränderungsrate"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col8"@de ;
+    dtd:has_namest "col6"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id606 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id607 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id608 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id609 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id610 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Arbeitsproduktivität je Erwerbstätigen"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id611 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id612 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id613 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id614 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id615 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id616 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id617 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id618 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id619 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id620 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Arbeitsproduktivität je Erwerbstätigenstunde"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id621 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id622 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id623 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id624 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id625 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "x"@de ;
+    dtd:has_colname "col8"@de .
+
+dtd:entry-id626 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*"@de ;
+    dtd:has_colname "col9"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id627 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col10"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id628 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col11"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id629 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col12"@de .
+
+dtd:entry-id630 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "X:"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id631 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lieferprogramm für die Jahresprojektion und die Frühjahrsprojektion"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id632 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "*:"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id633 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "wird zusätzlich geliefert in der Herbstprojektion"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id664 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id665 .
+
+dtd:fussnoten-id58 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id634 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "EgVV"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "Vorausschätzungsverordnung"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Erstellung der gesamtwirtschaftlichen Vorausschätzungen der Bundesregierung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:noindex-id76 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20180701213610"@de ;
+    dtd:has_doknr "BJNR337800017BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id664 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id662 a dtd:pre ;
+    dtd:has_BR dtd:BR-id68,
+        dtd:BR-id69 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.2018 +++)"@de .
+
+dtd:row-id100 a dtd:row ;
+    dtd:has_entry dtd:entry-id166,
+        dtd:entry-id167,
+        dtd:entry-id168,
+        dtd:entry-id169,
+        dtd:entry-id170,
+        dtd:entry-id171,
+        dtd:entry-id172,
+        dtd:entry-id173 .
+
+dtd:row-id101 a dtd:row ;
+    dtd:has_entry dtd:entry-id174,
+        dtd:entry-id175,
+        dtd:entry-id176,
+        dtd:entry-id177,
+        dtd:entry-id178,
+        dtd:entry-id179,
+        dtd:entry-id180,
+        dtd:entry-id181,
+        dtd:entry-id182,
+        dtd:entry-id183 .
+
+dtd:row-id102 a dtd:row ;
+    dtd:has_entry dtd:entry-id184,
+        dtd:entry-id185,
+        dtd:entry-id186,
+        dtd:entry-id187,
+        dtd:entry-id188,
+        dtd:entry-id189,
+        dtd:entry-id190,
+        dtd:entry-id191,
+        dtd:entry-id192,
+        dtd:entry-id193 .
+
+dtd:row-id103 a dtd:row ;
+    dtd:has_entry dtd:entry-id194,
+        dtd:entry-id195,
+        dtd:entry-id196,
+        dtd:entry-id197,
+        dtd:entry-id198,
+        dtd:entry-id199,
+        dtd:entry-id200,
+        dtd:entry-id201,
+        dtd:entry-id202,
+        dtd:entry-id203 .
+
+dtd:row-id104 a dtd:row ;
+    dtd:has_entry dtd:entry-id204,
+        dtd:entry-id205,
+        dtd:entry-id206,
+        dtd:entry-id207,
+        dtd:entry-id208,
+        dtd:entry-id209,
+        dtd:entry-id210,
+        dtd:entry-id211,
+        dtd:entry-id212,
+        dtd:entry-id213 .
+
+dtd:row-id105 a dtd:row ;
+    dtd:has_entry dtd:entry-id214,
+        dtd:entry-id215,
+        dtd:entry-id216,
+        dtd:entry-id217,
+        dtd:entry-id218,
+        dtd:entry-id219,
+        dtd:entry-id220,
+        dtd:entry-id221,
+        dtd:entry-id222,
+        dtd:entry-id223 .
+
+dtd:row-id106 a dtd:row ;
+    dtd:has_entry dtd:entry-id224,
+        dtd:entry-id225,
+        dtd:entry-id226,
+        dtd:entry-id227,
+        dtd:entry-id228,
+        dtd:entry-id229,
+        dtd:entry-id230,
+        dtd:entry-id231,
+        dtd:entry-id232,
+        dtd:entry-id233 .
+
+dtd:row-id107 a dtd:row ;
+    dtd:has_entry dtd:entry-id234,
+        dtd:entry-id235,
+        dtd:entry-id236,
+        dtd:entry-id237,
+        dtd:entry-id238,
+        dtd:entry-id239,
+        dtd:entry-id240,
+        dtd:entry-id241,
+        dtd:entry-id242,
+        dtd:entry-id243 .
+
+dtd:row-id108 a dtd:row ;
+    dtd:has_entry dtd:entry-id244,
+        dtd:entry-id245,
+        dtd:entry-id246,
+        dtd:entry-id247,
+        dtd:entry-id248,
+        dtd:entry-id249,
+        dtd:entry-id250,
+        dtd:entry-id251,
+        dtd:entry-id252 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id109 a dtd:row ;
+    dtd:has_entry dtd:entry-id253,
+        dtd:entry-id254,
+        dtd:entry-id255,
+        dtd:entry-id256,
+        dtd:entry-id257,
+        dtd:entry-id258,
+        dtd:entry-id259,
+        dtd:entry-id260 .
+
+dtd:row-id110 a dtd:row ;
+    dtd:has_entry dtd:entry-id261,
+        dtd:entry-id262,
+        dtd:entry-id263,
+        dtd:entry-id264,
+        dtd:entry-id265,
+        dtd:entry-id266,
+        dtd:entry-id267,
+        dtd:entry-id268,
+        dtd:entry-id269,
+        dtd:entry-id270 .
+
+dtd:row-id111 a dtd:row ;
+    dtd:has_entry dtd:entry-id271,
+        dtd:entry-id272,
+        dtd:entry-id273,
+        dtd:entry-id274,
+        dtd:entry-id275,
+        dtd:entry-id276,
+        dtd:entry-id277,
+        dtd:entry-id278,
+        dtd:entry-id279,
+        dtd:entry-id280 .
+
+dtd:row-id112 a dtd:row ;
+    dtd:has_entry dtd:entry-id281,
+        dtd:entry-id282,
+        dtd:entry-id283,
+        dtd:entry-id284,
+        dtd:entry-id285,
+        dtd:entry-id286,
+        dtd:entry-id287,
+        dtd:entry-id288,
+        dtd:entry-id289,
+        dtd:entry-id290,
+        dtd:entry-id291 .
+
+dtd:row-id113 a dtd:row ;
+    dtd:has_entry dtd:entry-id292,
+        dtd:entry-id293,
+        dtd:entry-id294,
+        dtd:entry-id295,
+        dtd:entry-id296,
+        dtd:entry-id297,
+        dtd:entry-id298,
+        dtd:entry-id299,
+        dtd:entry-id300,
+        dtd:entry-id301,
+        dtd:entry-id302 .
+
+dtd:row-id114 a dtd:row ;
+    dtd:has_entry dtd:entry-id303,
+        dtd:entry-id304,
+        dtd:entry-id305,
+        dtd:entry-id306,
+        dtd:entry-id307,
+        dtd:entry-id308,
+        dtd:entry-id309,
+        dtd:entry-id310,
+        dtd:entry-id311,
+        dtd:entry-id312,
+        dtd:entry-id313 .
+
+dtd:row-id115 a dtd:row ;
+    dtd:has_entry dtd:entry-id314,
+        dtd:entry-id315,
+        dtd:entry-id316,
+        dtd:entry-id317,
+        dtd:entry-id318,
+        dtd:entry-id319,
+        dtd:entry-id320,
+        dtd:entry-id321,
+        dtd:entry-id322,
+        dtd:entry-id323,
+        dtd:entry-id324,
+        dtd:entry-id325 .
+
+dtd:row-id116 a dtd:row ;
+    dtd:has_entry dtd:entry-id326,
+        dtd:entry-id327,
+        dtd:entry-id328,
+        dtd:entry-id329,
+        dtd:entry-id330,
+        dtd:entry-id331,
+        dtd:entry-id332,
+        dtd:entry-id333,
+        dtd:entry-id334,
+        dtd:entry-id335,
+        dtd:entry-id336,
+        dtd:entry-id337 .
+
+dtd:row-id117 a dtd:row ;
+    dtd:has_entry dtd:entry-id338,
+        dtd:entry-id339,
+        dtd:entry-id340,
+        dtd:entry-id341,
+        dtd:entry-id342,
+        dtd:entry-id343,
+        dtd:entry-id344,
+        dtd:entry-id345,
+        dtd:entry-id346,
+        dtd:entry-id347,
+        dtd:entry-id348,
+        dtd:entry-id349 .
+
+dtd:row-id118 a dtd:row ;
+    dtd:has_entry dtd:entry-id350,
+        dtd:entry-id351,
+        dtd:entry-id352,
+        dtd:entry-id353,
+        dtd:entry-id354,
+        dtd:entry-id355,
+        dtd:entry-id356,
+        dtd:entry-id357,
+        dtd:entry-id358,
+        dtd:entry-id359,
+        dtd:entry-id360 .
+
+dtd:row-id119 a dtd:row ;
+    dtd:has_entry dtd:entry-id361,
+        dtd:entry-id362,
+        dtd:entry-id363,
+        dtd:entry-id364,
+        dtd:entry-id365,
+        dtd:entry-id366,
+        dtd:entry-id367,
+        dtd:entry-id368,
+        dtd:entry-id369,
+        dtd:entry-id370,
+        dtd:entry-id371 .
+
+dtd:row-id120 a dtd:row ;
+    dtd:has_entry dtd:entry-id372,
+        dtd:entry-id373,
+        dtd:entry-id374,
+        dtd:entry-id375,
+        dtd:entry-id376,
+        dtd:entry-id377,
+        dtd:entry-id378,
+        dtd:entry-id379,
+        dtd:entry-id380,
+        dtd:entry-id381 .
+
+dtd:row-id121 a dtd:row ;
+    dtd:has_entry dtd:entry-id382,
+        dtd:entry-id383,
+        dtd:entry-id384,
+        dtd:entry-id385,
+        dtd:entry-id386,
+        dtd:entry-id387,
+        dtd:entry-id388,
+        dtd:entry-id389,
+        dtd:entry-id390,
+        dtd:entry-id391,
+        dtd:entry-id392 .
+
+dtd:row-id122 a dtd:row ;
+    dtd:has_entry dtd:entry-id393,
+        dtd:entry-id394,
+        dtd:entry-id395,
+        dtd:entry-id396,
+        dtd:entry-id397,
+        dtd:entry-id398,
+        dtd:entry-id399,
+        dtd:entry-id400,
+        dtd:entry-id401,
+        dtd:entry-id402 .
+
+dtd:row-id123 a dtd:row ;
+    dtd:has_entry dtd:entry-id403,
+        dtd:entry-id404,
+        dtd:entry-id405,
+        dtd:entry-id406,
+        dtd:entry-id407,
+        dtd:entry-id408,
+        dtd:entry-id409,
+        dtd:entry-id410,
+        dtd:entry-id411,
+        dtd:entry-id412 .
+
+dtd:row-id124 a dtd:row ;
+    dtd:has_entry dtd:entry-id413,
+        dtd:entry-id414,
+        dtd:entry-id415,
+        dtd:entry-id416,
+        dtd:entry-id417,
+        dtd:entry-id418,
+        dtd:entry-id419 .
+
+dtd:row-id125 a dtd:row ;
+    dtd:has_entry dtd:entry-id420,
+        dtd:entry-id421,
+        dtd:entry-id422,
+        dtd:entry-id423,
+        dtd:entry-id424,
+        dtd:entry-id425,
+        dtd:entry-id426,
+        dtd:entry-id427,
+        dtd:entry-id428,
+        dtd:entry-id429 .
+
+dtd:row-id126 a dtd:row ;
+    dtd:has_entry dtd:entry-id430,
+        dtd:entry-id431,
+        dtd:entry-id432,
+        dtd:entry-id433,
+        dtd:entry-id434,
+        dtd:entry-id435,
+        dtd:entry-id436,
+        dtd:entry-id437,
+        dtd:entry-id438,
+        dtd:entry-id439 .
+
+dtd:row-id127 a dtd:row ;
+    dtd:has_entry dtd:entry-id440,
+        dtd:entry-id441,
+        dtd:entry-id442,
+        dtd:entry-id443,
+        dtd:entry-id444,
+        dtd:entry-id445,
+        dtd:entry-id446,
+        dtd:entry-id447,
+        dtd:entry-id448,
+        dtd:entry-id449,
+        dtd:entry-id450 .
+
+dtd:row-id128 a dtd:row ;
+    dtd:has_entry dtd:entry-id451,
+        dtd:entry-id452,
+        dtd:entry-id453,
+        dtd:entry-id454,
+        dtd:entry-id455,
+        dtd:entry-id456,
+        dtd:entry-id457,
+        dtd:entry-id458,
+        dtd:entry-id459,
+        dtd:entry-id460 .
+
+dtd:row-id129 a dtd:row ;
+    dtd:has_entry dtd:entry-id461,
+        dtd:entry-id462,
+        dtd:entry-id463,
+        dtd:entry-id464,
+        dtd:entry-id465,
+        dtd:entry-id466,
+        dtd:entry-id467,
+        dtd:entry-id468,
+        dtd:entry-id469,
+        dtd:entry-id470 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id130 a dtd:row ;
+    dtd:has_entry dtd:entry-id471,
+        dtd:entry-id472,
+        dtd:entry-id473,
+        dtd:entry-id474,
+        dtd:entry-id475 .
+
+dtd:row-id131 a dtd:row ;
+    dtd:has_entry dtd:entry-id476,
+        dtd:entry-id477,
+        dtd:entry-id478,
+        dtd:entry-id479,
+        dtd:entry-id480,
+        dtd:entry-id481,
+        dtd:entry-id482,
+        dtd:entry-id483,
+        dtd:entry-id484,
+        dtd:entry-id485 .
+
+dtd:row-id132 a dtd:row ;
+    dtd:has_entry dtd:entry-id486,
+        dtd:entry-id487,
+        dtd:entry-id488,
+        dtd:entry-id489,
+        dtd:entry-id490,
+        dtd:entry-id491,
+        dtd:entry-id492,
+        dtd:entry-id493,
+        dtd:entry-id494,
+        dtd:entry-id495 .
+
+dtd:row-id133 a dtd:row ;
+    dtd:has_entry dtd:entry-id496,
+        dtd:entry-id497,
+        dtd:entry-id498,
+        dtd:entry-id499,
+        dtd:entry-id500,
+        dtd:entry-id501,
+        dtd:entry-id502,
+        dtd:entry-id503,
+        dtd:entry-id504,
+        dtd:entry-id505 .
+
+dtd:row-id134 a dtd:row ;
+    dtd:has_entry dtd:entry-id506,
+        dtd:entry-id507,
+        dtd:entry-id508,
+        dtd:entry-id509,
+        dtd:entry-id510,
+        dtd:entry-id511,
+        dtd:entry-id512,
+        dtd:entry-id513,
+        dtd:entry-id514,
+        dtd:entry-id515 .
+
+dtd:row-id135 a dtd:row ;
+    dtd:has_entry dtd:entry-id516,
+        dtd:entry-id517,
+        dtd:entry-id518,
+        dtd:entry-id519,
+        dtd:entry-id520,
+        dtd:entry-id521,
+        dtd:entry-id522,
+        dtd:entry-id523,
+        dtd:entry-id524,
+        dtd:entry-id525 .
+
+dtd:row-id136 a dtd:row ;
+    dtd:has_entry dtd:entry-id526,
+        dtd:entry-id527,
+        dtd:entry-id528,
+        dtd:entry-id529,
+        dtd:entry-id530,
+        dtd:entry-id531,
+        dtd:entry-id532,
+        dtd:entry-id533,
+        dtd:entry-id534,
+        dtd:entry-id535 .
+
+dtd:row-id137 a dtd:row ;
+    dtd:has_entry dtd:entry-id536,
+        dtd:entry-id537,
+        dtd:entry-id538,
+        dtd:entry-id539,
+        dtd:entry-id540,
+        dtd:entry-id541,
+        dtd:entry-id542,
+        dtd:entry-id543,
+        dtd:entry-id544,
+        dtd:entry-id545 .
+
+dtd:row-id138 a dtd:row ;
+    dtd:has_entry dtd:entry-id546,
+        dtd:entry-id547,
+        dtd:entry-id548,
+        dtd:entry-id549,
+        dtd:entry-id550,
+        dtd:entry-id551,
+        dtd:entry-id552,
+        dtd:entry-id553 .
+
+dtd:row-id139 a dtd:row ;
+    dtd:has_entry dtd:entry-id554,
+        dtd:entry-id555,
+        dtd:entry-id556,
+        dtd:entry-id557,
+        dtd:entry-id558,
+        dtd:entry-id559,
+        dtd:entry-id560,
+        dtd:entry-id561,
+        dtd:entry-id562,
+        dtd:entry-id563 .
+
+dtd:row-id140 a dtd:row ;
+    dtd:has_entry dtd:entry-id564,
+        dtd:entry-id565,
+        dtd:entry-id566,
+        dtd:entry-id567,
+        dtd:entry-id568,
+        dtd:entry-id569,
+        dtd:entry-id570,
+        dtd:entry-id571,
+        dtd:entry-id572 .
+
+dtd:row-id141 a dtd:row ;
+    dtd:has_entry dtd:entry-id573,
+        dtd:entry-id574,
+        dtd:entry-id575,
+        dtd:entry-id576,
+        dtd:entry-id577,
+        dtd:entry-id578,
+        dtd:entry-id579,
+        dtd:entry-id580,
+        dtd:entry-id581 .
+
+dtd:row-id142 a dtd:row ;
+    dtd:has_entry dtd:entry-id582,
+        dtd:entry-id583,
+        dtd:entry-id584,
+        dtd:entry-id585,
+        dtd:entry-id586,
+        dtd:entry-id587,
+        dtd:entry-id588,
+        dtd:entry-id589,
+        dtd:entry-id590 .
+
+dtd:row-id143 a dtd:row ;
+    dtd:has_entry dtd:entry-id591,
+        dtd:entry-id592,
+        dtd:entry-id593,
+        dtd:entry-id594,
+        dtd:entry-id595,
+        dtd:entry-id596,
+        dtd:entry-id597,
+        dtd:entry-id598,
+        dtd:entry-id599 .
+
+dtd:row-id144 a dtd:row ;
+    dtd:has_entry dtd:entry-id600,
+        dtd:entry-id601,
+        dtd:entry-id602,
+        dtd:entry-id603,
+        dtd:entry-id604,
+        dtd:entry-id605,
+        dtd:entry-id606,
+        dtd:entry-id607,
+        dtd:entry-id608,
+        dtd:entry-id609 .
+
+dtd:row-id145 a dtd:row ;
+    dtd:has_entry dtd:entry-id610,
+        dtd:entry-id611,
+        dtd:entry-id612,
+        dtd:entry-id613,
+        dtd:entry-id614,
+        dtd:entry-id615,
+        dtd:entry-id616,
+        dtd:entry-id617,
+        dtd:entry-id618,
+        dtd:entry-id619 .
+
+dtd:row-id146 a dtd:row ;
+    dtd:has_entry dtd:entry-id620,
+        dtd:entry-id621,
+        dtd:entry-id622,
+        dtd:entry-id623,
+        dtd:entry-id624,
+        dtd:entry-id625,
+        dtd:entry-id626,
+        dtd:entry-id627,
+        dtd:entry-id628,
+        dtd:entry-id629 .
+
+dtd:row-id147 a dtd:row ;
+    dtd:has_entry dtd:entry-id630,
+        dtd:entry-id631 .
+
+dtd:row-id148 a dtd:row ;
+    dtd:has_entry dtd:entry-id632,
+        dtd:entry-id633 .
+
+dtd:row-id98 a dtd:row ;
+    dtd:has_entry dtd:entry-id149,
+        dtd:entry-id150,
+        dtd:entry-id151,
+        dtd:entry-id152,
+        dtd:entry-id153 .
+
+dtd:row-id99 a dtd:row ;
+    dtd:has_entry dtd:entry-id154,
+        dtd:entry-id155,
+        dtd:entry-id156,
+        dtd:entry-id157,
+        dtd:entry-id158,
+        dtd:entry-id159,
+        dtd:entry-id160,
+        dtd:entry-id161,
+        dtd:entry-id162,
+        dtd:entry-id163,
+        dtd:entry-id164,
+        dtd:entry-id165 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:table-id77 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id78 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id79 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id80 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id94 a dtd:tbody ;
+    dtd:has_row dtd:row-id100,
+        dtd:row-id101,
+        dtd:row-id102,
+        dtd:row-id103,
+        dtd:row-id104,
+        dtd:row-id105,
+        dtd:row-id106,
+        dtd:row-id107,
+        dtd:row-id108,
+        dtd:row-id109,
+        dtd:row-id110,
+        dtd:row-id111,
+        dtd:row-id112,
+        dtd:row-id113,
+        dtd:row-id114,
+        dtd:row-id115,
+        dtd:row-id116,
+        dtd:row-id117,
+        dtd:row-id118,
+        dtd:row-id119,
+        dtd:row-id120,
+        dtd:row-id121,
+        dtd:row-id122,
+        dtd:row-id123,
+        dtd:row-id124,
+        dtd:row-id125,
+        dtd:row-id126,
+        dtd:row-id127,
+        dtd:row-id128,
+        dtd:row-id129,
+        dtd:row-id130,
+        dtd:row-id131,
+        dtd:row-id132,
+        dtd:row-id133,
+        dtd:row-id134,
+        dtd:row-id135,
+        dtd:row-id136,
+        dtd:row-id137,
+        dtd:row-id138,
+        dtd:row-id139,
+        dtd:row-id140,
+        dtd:row-id141,
+        dtd:row-id142,
+        dtd:row-id143,
+        dtd:row-id144,
+        dtd:row-id145,
+        dtd:row-id146 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id97 a dtd:tbody ;
+    dtd:has_row dtd:row-id147,
+        dtd:row-id148 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id636 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id638 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id644 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id649 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id652 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id654 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id656 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id658 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:tgroup-id78 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "12"@de ;
+    dtd:has_colspec dtd:colspec-id81,
+        dtd:colspec-id82,
+        dtd:colspec-id83,
+        dtd:colspec-id84,
+        dtd:colspec-id85,
+        dtd:colspec-id86,
+        dtd:colspec-id87,
+        dtd:colspec-id88,
+        dtd:colspec-id89,
+        dtd:colspec-id90,
+        dtd:colspec-id91,
+        dtd:colspec-id92 ;
+    dtd:has_tbody dtd:tbody-id94 ;
+    dtd:has_thead dtd:thead-id93 .
+
+dtd:tgroup-id80 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id95,
+        dtd:colspec-id96 ;
+    dtd:has_tbody dtd:tbody-id97 .
+
+dtd:thead-id93 a dtd:thead ;
+    dtd:has_row dtd:row-id98,
+        dtd:row-id99 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Unabhängige Einrichtung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Befürwortungsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Zugang zu Informationen; Verschwiegenheit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Öffentliche Stellungnahmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Übergangsvorschrift"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "(zu § 2 Absatz 1)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id665 a dtd:zitstelle ;
+    dtd:has_Value "2017, 3378"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:updown rdfs:label "updown"@de .
+

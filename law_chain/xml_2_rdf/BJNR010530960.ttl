@@ -1,0 +1,272 @@
+@prefix dtd: <urn:UmstRückstG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125437"@de ;
+    dtd:has_doknr "BJNR010530960"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53,
+        dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id46,
+        dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id44,
+        dtd:DT-id45 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für Versicherungsunternehmen Artikel 1 der Durchführungsbestimmung Nr. 5 zur Umstellungsergänzungsverordnung vom 15. Mai 1950 (Verordnungsblatt für Groß-Berlin I S. 211),"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für Bausparkassen Artikel 8 Abs. 1 A c der Durchführungsbestimmung Nr. 7 zur Umstellungsergänzungsverordnung vom 26. Oktober 1950 (Verordnungsblatt für Groß-Berlin I S. 494)."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 26.1.1964 +++)"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(1) Geldinstitute, Versicherungsunternehmen und Bausparkassen dürfen für Versorgungsverpflichtungen aus § 61 des Gesetzes zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen in der Fassung vom 11. September 1957 (Bundesgesetzbl. I S. 1296) nach Maßgabe der Achtunddreißigsten Durchführungsverordnung zum Umstellungsgesetz Rückstellungen in ihrer Umstellungsrechnung bilden."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(2) Berliner Altbanken dürfen für Versorgungsverpflichtungen aus § 61 des Gesetzes zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen nach Maßgabe des § 8 Abs. 3 des Altbanken-Bilanz-Gesetzes vom 10. Dezember 1953 (Gesetz- und Verordnungsblatt für Berlin S. 1488) Rückstellungen in ihrer Altbankenrechnung bilden."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(3) Die nach Absatz 1 und 2 zu bildenden Rückstellungen haben keine Rückwirkung auf die Reichsmarkschlußbilanz. Für die Berechnung des vorläufigen Eigenkapitals bleiben sie außer Ansatz."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Die Bundesregierung wird ermächtigt, Vorschriften über die Berechnung der in § 1 zugelassenen Rückstellungen durch Rechtsverordnung zu erlassen."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 und des § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin. Dabei sind an Stelle der Achtunddreißigsten Durchführungsverordnung zum Umstellungsgesetz anzuwenden 1.für Versicherungsunternehmen Artikel 1 der Durchführungsbestimmung Nr. 5 zur Umstellungsergänzungsverordnung vom 15. Mai 1950 (Verordnungsblatt für Groß-Berlin I S. 211), 2.für Bausparkassen Artikel 8 Abs. 1 A c der Durchführungsbestimmung Nr. 7 zur Umstellungsergänzungsverordnung vom 26. Oktober 1950 (Verordnungsblatt für Groß-Berlin I S. 494). "@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nicht im Saarland."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1960-12-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id64 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id65 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "UmstRückstG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "UmstRückstG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "UmstRückstG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "UmstRückstG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "UmstRückstG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "UmstRückstG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz über die Bildung von Rückstellungen in der Umstellungsrechnung der
+Geldinstitute, Versicherungsunternehmen und Bausparkassen und in der
+Altbankenrechnung der Berliner Altbanken"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125437"@de ;
+    dtd:has_doknr "BJNR010530960"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125437"@de ;
+    dtd:has_doknr "BJNR010530960BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125437"@de ;
+    dtd:has_doknr "BJNR010530960BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125437"@de ;
+    dtd:has_doknr "BJNR010530960BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125437"@de ;
+    dtd:has_doknr "BJNR010530960BJNE000400328"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125437"@de ;
+    dtd:has_doknr "BJNR010530960BJNE000500328"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id64 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id67 ;
+    dtd:has_standtyp dtd:standtyp-id66 .
+
+dtd:standkommentar-id67 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch § 17 G v. 22.1.1964 I 33"@de .
+
+dtd:standtyp-id66 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:zitstelle-id65 a dtd:zitstelle ;
+    dtd:has_Value "1960, 1053"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

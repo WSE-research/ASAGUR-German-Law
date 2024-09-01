@@ -1,0 +1,275 @@
+@prefix dtd: <urn:SoZV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150923215601"@de ;
+    dtd:has_doknr "BJNR159100001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62,
+        dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Diese Verordnung dient der Umsetzung der Richtlinie 2000/84/EG desEuropäischen Parlaments und des Rates vom 19. Januar 2001 zurRegelung der Sommerzeit (ABl. EG Nr. L 31 S. 21)."@de ;
+    dtd:has_noindex dtd:noindex-id52 .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_Value " (+++ Textnachweis ab: 19.7.2001 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 84/2000 (CELEX Nr: 300L0084) +++)"@de ;
+    dtd:has_pre dtd:pre-id68 .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 des Zeitgesetzes vom 25. Juli 1978 (BGBl. I S. 1110, 1262), der durch das Gesetz vom 13. September 1994 (BGBl. I S. 2322) geändert worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Ab dem Jahr 2002 wird die mitteleuropäische Sommerzeit (§ 5 des Einheiten- und Zeitgesetzes) auf unbestimmte Zeit eingeführt."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(1) Die mitteleuropäische Sommerzeit beginnt jeweils am letzten Sonntag im März um 2 Uhr mitteleuropäischer Zeit. Im Zeitpunkt des Beginns der Sommerzeit wird die Stundenzählung um eine Stunde von 2 Uhr auf 3 Uhr vorgestellt."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(2) Die mitteleuropäische Sommerzeit endet jeweils am letzten Sonntag im Oktober um 3 Uhr mitteleuropäischer Sommerzeit. Im Zeitpunkt des Endes der Sommerzeit wird die Stundenzählung um eine Stunde von 3 Uhr auf 2 Uhr zurückgestellt. Die Stunde von 2 Uhr bis 3 Uhr erscheint dabei zweimal. Die erste Stunde (von 2 Uhr bis 3 Uhr mitteleuropäischer Sommerzeit) wird mit 2A und die zweite Stunde (von 2 Uhr bis 3 Uhr mitteleuropäischer Zeit) mit 2B bezeichnet."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Wirtschaft und Energie gibt im Bundesanzeiger für jeweils fünf aufeinanderfolgende Jahre Beginn und Ende der Sommerzeit bekannt."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "SoZV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-07-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id69 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id70 .
+
+dtd:fussnoten-id38 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id55 .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SoZV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "SoZV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "SoZV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "SoZV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "SoZV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "SoZV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Sommerzeitverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Einführung der mitteleuropäischen Sommerzeit ab dem Jahr 2002"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:noindex-id52 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150923215601"@de ;
+    dtd:has_doknr "BJNR159100001"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150923215601"@de ;
+    dtd:has_doknr "BJNR159100001BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150923215601"@de ;
+    dtd:has_doknr "BJNR159100001BJNE000201310"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150923215601"@de ;
+    dtd:has_doknr "BJNR159100001BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20150923215601"@de ;
+    dtd:has_doknr "BJNR159100001BJNE000402118"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20150923215601"@de ;
+    dtd:has_doknr "BJNR159100001BJNE000500305"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id69 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id68 a dtd:pre ;
+    dtd:has_BR dtd:BR-id47,
+        dtd:BR-id48,
+        dtd:BR-id49,
+        dtd:BR-id50,
+        dtd:BR-id51 ;
+    dtd:has_Value "(+++ Textnachweis ab: 19.7.2001 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 84/2000 (CELEX Nr: 300L0084) +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id72 ;
+    dtd:has_standtyp dtd:standtyp-id71 .
+
+dtd:standkommentar-id72 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 292 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id71 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:zitstelle-id70 a dtd:zitstelle ;
+    dtd:has_Value "2001, 1591"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

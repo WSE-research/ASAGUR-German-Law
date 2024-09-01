@@ -1,0 +1,187 @@
+@prefix dtd: <urn:CWSSRechtsG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131255"@de ;
+    dtd:has_doknr "BJNR126020011"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38,
+        dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id32 .
+
+dtd:DD-id30 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id33 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id34 .
+
+dtd:DL-id25 a dtd:DL ;
+    dtd:has_DD dtd:DD-id29,
+        dtd:DD-id30,
+        dtd:DD-id31 ;
+    dtd:has_DT dtd:DT-id26,
+        dtd:DT-id27,
+        dtd:DT-id28 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id26 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id27 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id32 a dtd:LA ;
+    dtd:has_Value "Verträge zu schließen,"@de .
+
+dtd:LA-id33 a dtd:LA ;
+    dtd:has_Value "bewegliches und unbewegliches Vermögen zu erwerben und zu veräußern und"@de .
+
+dtd:LA-id34 a dtd:LA ;
+    dtd:has_Value "vor Gericht zu stehen."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value " Textnachweis ab: 15.12.2011 "@de ;
+    dtd:has_kommentar dtd:kommentar-id42 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_DL dtd:DL-id25 ;
+    dtd:has_Value "(1) Das Gemeinsame Wattenmeersekretariat (Common Wadden Sea Secretariat, CWSS), das aufgrund des deutsch-dänisch-niederländischen Verwaltungs-Übereinkommens vom 13. Oktober 1987 (BGBl. 1988 II S. 87, 88) errichtet wurde und aufgrund des Übereinkommens vom 18. März 2010 (BGBl. 2010 II S. 1090, 1091) weitergeführt wird, besitzt in der Bundesrepublik Deutschland die Rechtsfähigkeit1.Verträge zu schließen,2.bewegliches und unbewegliches Vermögen zu erwerben und zu veräußern und3.vor Gericht zu stehen."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(2) Für die Zwecke dieses Artikels wird das Sekretariat durch den Sekretär oder die Sekretärin vertreten."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "CWSSRechtsG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2011-12-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id17 a dtd:enbez ;
+    dtd:has_Value "Artikel 1"@de .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Artikel 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "CWSSRechtsG"@de .
+
+dtd:jurabk-id16 a dtd:jurabk ;
+    dtd:has_Value "CWSSRechtsG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "CWSSRechtsG"@de .
+
+dtd:kommentar-id42 a dtd:kommentar ;
+    dtd:has_Value " Textnachweis ab: 15.12.2011 "@de ;
+    dtd:has_typ dtd:Hinweis .
+
+dtd:langue-id15 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Verleihung der Rechtsfähigkeit an das Gemeinsame Wattenmeersekretariat - Common Wadden Sea Secretariat (CWSS)"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id15 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id17 ;
+    dtd:has_jurabk dtd:jurabk-id16 ;
+    dtd:has_titel dtd:titel-id18 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 ;
+    dtd:has_titel dtd:titel-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131255"@de ;
+    dtd:has_doknr "BJNR126020011"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131255"@de ;
+    dtd:has_doknr "BJNR126020011BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405131255"@de ;
+    dtd:has_doknr "BJNR126020011BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:titel-id18 a dtd:titel ;
+    dtd:has_Value "Rechtsfähigkeit des Gemeinsamen Wattenmeersekretariats"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id21 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "2011, 1260"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

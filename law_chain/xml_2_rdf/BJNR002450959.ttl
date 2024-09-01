@@ -1,0 +1,585 @@
+@prefix dtd: <urn:KoStrukStatG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id74 a dtd:BR .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118,
+        dtd:P-id119,
+        dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130,
+        dtd:P-id131,
+        dtd:P-id132,
+        dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137 .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DL-id77 a dtd:DL ;
+    dtd:has_DD dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85 ;
+    dtd:has_DT dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id86 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92 ;
+    dtd:has_DT dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id96,
+        dtd:DD-id97 ;
+    dtd:has_DT dtd:DT-id94,
+        dtd:DT-id95 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id98 a dtd:DL ;
+    dtd:has_DD dtd:DD-id101,
+        dtd:DD-id102 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "86.21.0 Arztpraxen für Allgemeinmedizin,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "86.22.0 Facharztpraxen,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "86.23.0 Zahnarztpraxen,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "86.90.1 Praxen von psychologischen Psychotherapeutinnen und -therapeuten."@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Wert a)der steuerlichen und wirtschaftlichen Einnahmen,b)der Bruttoinvestitionen in Sachanlagen und immaterielle Vermögensgegenstände;"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der steuerlichen und wirtschaftlichen Einnahmen,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Bruttoinvestitionen in Sachanlagen und immaterielle Vermögensgegenstände;"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Kosten, untergliedert nach Kostenarten;"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die beschäftigten Personen."@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Name, Anschrift, Telefonnummer und Adresse für elektronische Post der nach § 5 Absatz 1 Satz 2 Auskunftgebenden,"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Name und Kontaktdaten der für Rückfragen zur Verfügung stehenden Personen."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_BR dtd:BR-id74 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1976 +++)"@de ;
+    dtd:has_pre dtd:pre-id142 .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_DL dtd:DL-id77 ;
+    dtd:has_Value "(1) In den Wirtschaftsbereichen „Arzt- und Zahnarztpraxen“ sowie „Praxen von psychologischen Psychotherapeutinnen und -therapeuten“ werden jährlich Kostenstrukturerhebungen als Bundesstatistik durchgeführt. Die jährliche Durchführung der Erhebungen erfolgt erstmals für das Jahr 2021. Die Erhebungen erstrecken sich auf die folgenden Wirtschaftszweige nach Anhang I zur Verordnung (EG) Nr. 1893/2006 des Europäischen Parlaments und des Rates vom 20. Dezember 2006 zur Aufstellung der statistischen Systematik der Wirtschaftszweige NACE Revision 2 und zur Änderung der Verordnung (EWG) Nr. 3037/90 des Rates sowie einiger Verordnungen der EG über bestimmte Bereiche der Statistik (ABl. L 393 vom 30.12.2006, S. 1), die zuletzt durch die Verordnung (EU) 2019/1243 (ABl. L 198 vom 25.7.2019, S. 241) geändert worden ist, in der jeweils geltenden Fassung sowie in Verbindung mit der vom Statistischen Bundesamt daraus erstellten Klassifikation der Wirtschaftszweige in der jeweils geltenden Fassung: 1.86.21.0 Arztpraxen für Allgemeinmedizin,2.86.22.0 Facharztpraxen,3.86.23.0 Zahnarztpraxen,4.86.90.1 Praxen von psychologischen Psychotherapeutinnen und -therapeuten."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Erhebungseinheiten sind Unternehmen und Einrichtungen zur Ausübung einer freiberuflichen Tätigkeit, die in den Wirtschaftszweigen nach Absatz 1 Satz 3 tätig sind."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(3) Zu der freiberuflichen Tätigkeit nach Absatz 2 gehört die selbstständige Berufstätigkeit von Angehörigen der in § 18 Absatz 1 Nummer 1 Satz 2 des Einkommensteuergesetzes bezeichneten Berufe."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(4) Das Statistische Bundesamt übermittelt den statistischen Ämtern der Länder die Einzeldatensätze für ihr Land für Sonderaufbereitungen auf regionaler Ebene."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_DL dtd:DL-id86 ;
+    dtd:has_Value "(1) Die Kostenstrukturerhebungen nach § 1 erfassen folgende Tatbestände: 1.den Wert a)der steuerlichen und wirtschaftlichen Einnahmen,b)der Bruttoinvestitionen in Sachanlagen und immaterielle Vermögensgegenstände;2.die Kosten, untergliedert nach Kostenarten;3.die beschäftigten Personen."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(2) Außer den in Absatz 1 bezeichneten Tatbeständen werden Angaben zur Kennzeichnung der Art und Zusammenarbeit der Unternehmen und der Einrichtungen zur Ausübung einer freiberuflichen Tätigkeit erhoben, die zu einer zutreffenden Beurteilung der statistischen Zuordnung erforderlich sind. In den Wirtschaftszweigen „Arztpraxen für Allgemeinmedizin“ und „Facharztpraxen“ wird zusätzlich die Durchführung von Operationen erfasst. Im Wirtschaftszweig „Zahnarztpraxen“ wird zusätzlich der Betrieb eines eigenen Praxislabors erfasst."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(3) (weggefallen)"@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "Die Angaben zu den in § 3 Abs. 1 und 2 bezeichneten Tatbeständen beziehen sich jeweils auf ein dem Erhebungsjahr vorangegangenes Kalenderjahr oder Geschäftsjahr."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(1) Für die Erhebungen nach § 1 besteht Auskunftspflicht. Auskunftspflichtig sind die Inhaberinnen und Inhaber oder Leitungen der Unternehmen und der Einrichtungen zur Ausübung einer freiberuflichen Tätigkeit. Die Angaben zu § 6 Nummer 2 sind freiwillig."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(2) Die Erhebungen werden bei höchstens 7 Prozent der Gesamtzahl der Unternehmen und der Einrichtungen zur Ausübung einer freiberuflichen Tätigkeit (§ 1) für die einzelnen Wirtschaftszweige durchgeführt."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(3) Für Unternehmen und Einrichtungen zur Ausübung einer freiberuflichen Tätigkeit, deren Inhaber oder Inhaberinnen Existenzgründer oder Existenzgründerinnen sind, besteht im Kalenderjahr der Betriebseröffnung abweichend von Absatz 1 keine Auskunftspflicht. In den beiden folgenden Kalenderjahren besteht keine Auskunftspflicht, wenn die in Satz 1 genannten Unternehmen und Einrichtungen im letzten abgeschlossenen Geschäftsjahr Umsätze in Höhe von weniger als 800 000 Euro erwirtschaftet haben. Gesellschaften können sich auf die Befreiung von der Auskunftspflicht berufen, wenn alle an der Gesellschaft Beteiligten Existenzgründer oder Existenzgründerinnen sind."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(4) Existenzgründer und Existenzgründerinnen im Sinne von Absatz 3 sind natürliche Personen, die eine gewerbliche oder freiberufliche Tätigkeit in Form einer Neugründung, einer Übernahme oder einer tätigen Beteiligung aus abhängiger Beschäftigung oder aus der Nichtbeschäftigung heraus aufnehmen."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_DL dtd:DL-id98 ;
+    dtd:has_Value "Hilfsmerkmale der Erhebungen nach § 1 sind 1.Name, Anschrift, Telefonnummer und Adresse für elektronische Post der nach § 5 Absatz 1 Satz 2 Auskunftgebenden,2.Name und Kontaktdaten der für Rückfragen zur Verfügung stehenden Personen."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "Die Kostenstrukturstatistik wird vom Statistischen Bundesamt durchgeführt."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1959-05-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 8 und 9"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id143 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id144 .
+
+dtd:fussnoten-id58 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id114 .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id67 a dtd:fussnoten .
+
+dtd:fussnoten-id69 a dtd:fussnoten .
+
+dtd:fussnoten-id72 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "KoStrukStatG"@de .
+
+dtd:langue-id36 a dtd:langue ;
+    dtd:has_Value "Gesetz über Kostenstrukturstatistik"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_langue dtd:langue-id36 ;
+    dtd:has_standangabe dtd:standangabe-id37 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE000801377"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE001000312"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE000104125"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE000205125"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE000301125"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE000400312"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE000505125"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE000602123"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20210305212505"@de ;
+    dtd:has_doknr "BJNR002450959BJNE000700312"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id143 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id142 a dtd:pre ;
+    dtd:has_BR dtd:BR-id75,
+        dtd:BR-id76 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1976 +++)"@de .
+
+dtd:standangabe-id37 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id146 ;
+    dtd:has_standtyp dtd:standtyp-id145 .
+
+dtd:standkommentar-id146 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 2 G v. 22.2.2021 I 266"@de .
+
+dtd:standtyp-id145 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id138 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id69 ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id144 a dtd:zitstelle ;
+    dtd:has_Value "1959, 245"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

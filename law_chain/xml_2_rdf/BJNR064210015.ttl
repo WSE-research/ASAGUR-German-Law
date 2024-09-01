@@ -1,0 +1,596 @@
+@prefix dtd: <urn:BGremBG-2015#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210811212527"@de ;
+    dtd:has_doknr "BJNR064210015"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:BR-id68 a dtd:BR .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128,
+        dtd:P-id129,
+        dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132,
+        dtd:P-id133,
+        dtd:P-id134,
+        dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137,
+        dtd:P-id138 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id75,
+        dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id79 a dtd:DL ;
+    dtd:has_DD dtd:DD-id82,
+        dtd:DD-id83 ;
+    dtd:has_DT dtd:DT-id80,
+        dtd:DT-id81 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id84 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93,
+        dtd:DD-id94 ;
+    dtd:has_DT dtd:DT-id85,
+        dtd:DT-id86,
+        dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id95 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103 ;
+    dtd:has_DT dtd:DT-id96,
+        dtd:DT-id97,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Aufsichtsgremien: Aufsichts- und Verwaltungsräte sowie vergleichbare Aufsicht führende Organe ungeachtet ihrer Bezeichnung und Rechtsgrundlage, auch wenn deren Mitglieder durch Wahl bestimmt werden;"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_DL dtd:DL-id79 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wesentliche Gremien: a)Gremien, bei denen die Bundesregierung als Gesamtheit die Mitgliedschaft mindestens eines Mitglieds zu beschließen oder zur Kenntnis zu nehmen hat,b)Gremien, die wegen ihrer besonderen tatsächlichen, wissenschaftlichen oder zukunftsrelevanten Bedeutung von den Institutionen des Bundes nach Nummer 3 als wesentliche Gremien bestimmt worden sind;"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gremien, bei denen die Bundesregierung als Gesamtheit die Mitgliedschaft mindestens eines Mitglieds zu beschließen oder zur Kenntnis zu nehmen hat,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gremien, die wegen ihrer besonderen tatsächlichen, wissenschaftlichen oder zukunftsrelevanten Bedeutung von den Institutionen des Bundes nach Nummer 3 als wesentliche Gremien bestimmt worden sind;"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_DL dtd:DL-id84 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Institutionen des Bundes: a)die Bundesregierung als Gesamtheit,b)das Bundeskanzleramt,c)die Bundesministerien sowie die oder der Beauftragte der Bundesregierung für Kultur und Medien einschließlich der Behörden des jeweiligen Geschäftsbereichs,d)die weiteren Beauftragten der Bundesregierung und die Bundesbeauftragten sowiee)die bundesunmittelbaren juristischen Personen des öffentlichen Rechts ohne Recht auf Selbstverwaltung;"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Bundesregierung als Gesamtheit,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Bundeskanzleramt,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Bundesministerien sowie die oder der Beauftragte der Bundesregierung für Kultur und Medien einschließlich der Behörden des jeweiligen Geschäftsbereichs,"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die weiteren Beauftragten der Bundesregierung und die Bundesbeauftragten sowie"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die bundesunmittelbaren juristischen Personen des öffentlichen Rechts ohne Recht auf Selbstverwaltung;"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vom Bund zu bestimmende Mitglieder: Mitglieder, die die Institutionen des Bundes einzeln oder gemeinsam in ein Aufsichtsgremium oder in ein wesentliches Gremium unmittelbar und rechtsverbindlich wählen, berufen, entsenden oder für ein solches Gremium vorschlagen können; ein Mitglied ist nicht vom Bund bestimmt, wenn ein Dritter gegenüber dem Bund ein Vorschlagsrecht für die Mitgliedschaft hat und von diesem Recht Gebrauch macht."@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Aufsichtsgremien und die wesentlichen Gremien, für die sie federführend zuständig sind,"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zahl der vom Bund für die jeweiligen in Nummer 1 genannten Gremien zu bestimmenden Mitglieder,"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Anzahl der Frauen und Männer, die der Bund in den jeweiligen in Nummer 1 genannten Gremien bestimmt hat, und"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Veränderungen nach den Nummern 1 bis 3 im Vergleich zum Vorjahr."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_BR dtd:BR-id67 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.5.2015 +++)Das G wurde als Artikel 1 des G v. 24.4.2015 I 642 vom Bundestag beschlossen. Es ist gem. Art. 24 Abs. 2 Satz 1 dieses G am 1.5.2015 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id139 .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "Ziel des Gesetzes ist die paritätische Vertretung von Frauen und Männern in Gremien, soweit der Bund Mitglieder für diese bestimmen kann."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt für Aufsichtsgremien und wesentliche Gremien, für die der Bund Mitglieder bestimmen kann. Es gilt nicht für die Ernennung der Mitglieder der Bundesregierung, nicht für die Gerichtsbarkeit und nicht für Gremienmitglieder, die in Ausübung gesetzlich verbürgter Unabhängigkeit bestimmt werden."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Value "Im Sinne dieses Gesetzes sind: 1.Aufsichtsgremien: Aufsichts- und Verwaltungsräte sowie vergleichbare Aufsicht führende Organe ungeachtet ihrer Bezeichnung und Rechtsgrundlage, auch wenn deren Mitglieder durch Wahl bestimmt werden;2.wesentliche Gremien: a)Gremien, bei denen die Bundesregierung als Gesamtheit die Mitgliedschaft mindestens eines Mitglieds zu beschließen oder zur Kenntnis zu nehmen hat,b)Gremien, die wegen ihrer besonderen tatsächlichen, wissenschaftlichen oder zukunftsrelevanten Bedeutung von den Institutionen des Bundes nach Nummer 3 als wesentliche Gremien bestimmt worden sind;3.Institutionen des Bundes: a)die Bundesregierung als Gesamtheit,b)das Bundeskanzleramt,c)die Bundesministerien sowie die oder der Beauftragte der Bundesregierung für Kultur und Medien einschließlich der Behörden des jeweiligen Geschäftsbereichs,d)die weiteren Beauftragten der Bundesregierung und die Bundesbeauftragten sowiee)die bundesunmittelbaren juristischen Personen des öffentlichen Rechts ohne Recht auf Selbstverwaltung;4.vom Bund zu bestimmende Mitglieder: Mitglieder, die die Institutionen des Bundes einzeln oder gemeinsam in ein Aufsichtsgremium oder in ein wesentliches Gremium unmittelbar und rechtsverbindlich wählen, berufen, entsenden oder für ein solches Gremium vorschlagen können; ein Mitglied ist nicht vom Bund bestimmt, wenn ein Dritter gegenüber dem Bund ein Vorschlagsrecht für die Mitgliedschaft hat und von diesem Recht Gebrauch macht."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(1) In jedem Aufsichtsgremium mit mindestens zwei vom Bund zu bestimmenden Mitgliedern sollen unter den vom Bund zu bestimmenden Mitgliedern Frauen und Männer zu gleichen Teilen vertreten sein. Steht dem Bund eine ungerade Anzahl an Sitzen zu, so darf das Ungleichgewicht zwischen Frauen und Männern nur einen Sitz betragen. Bei jedem wesentlichen Gremium haben die Institutionen des Bundes darauf hinzuwirken, dass eine paritätische Vertretung von Frauen und Männern nach den Sätzen 1 und 2 geschaffen oder erhalten wird."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt für Neuwahlen, Berufungen und Entsendungen. Bestehende Mandate können bis zu ihrem vorgesehenen Ende wahrgenommen werden."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(3) Sind mehrere Institutionen des Bundes an der Besetzung eines Aufsichtsgremiums oder eines wesentlichen Gremiums beteiligt, so erfüllen sie die Vorgaben des Absatzes 1 gemeinsam unter besonderer Verantwortung der für das jeweilige Gremium federführenden Institution des Bundes. Droht bei einem Aufsichtsgremium oder einem wesentlichen Gremium, dessen Besetzung dem Bundeskabinett vorgelegt wird, eine Unterschreitung der Vorgaben des Absatzes 1, so hat die für dieses Gremium federführende Institution des Bundes unverzüglich das Bundesministerium für Familie, Senioren, Frauen und Jugend davon zu unterrichten. Die Gründe für die drohende Unterschreitung sind darzulegen."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_DL dtd:DL-id95 ;
+    dtd:has_Value "(1) Die Institutionen des Bundes erfassen jährlich zum 31. Dezember 1.die Aufsichtsgremien und die wesentlichen Gremien, für die sie federführend zuständig sind,2.die Zahl der vom Bund für die jeweiligen in Nummer 1 genannten Gremien zu bestimmenden Mitglieder,3.die Anzahl der Frauen und Männer, die der Bund in den jeweiligen in Nummer 1 genannten Gremien bestimmt hat, und4.die Veränderungen nach den Nummern 1 bis 3 im Vergleich zum Vorjahr."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(2) Bis zum 31. März des Folgejahres haben die Institutionen des Bundes die Daten nach Absatz 1 dem Statistischen Bundesamt zu melden. Gleichzeitig haben sie diese Daten in übersichtlicher Form unter Beachtung des Datenschutzes auf ihrer Internetseite zu veröffentlichen."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(3) Das Statistische Bundesamt erstellt im Auftrag des Bundesministeriums für Familie, Senioren, Frauen und Jugend jährlich eine Statistik zu den ihm nach Absatz 2 Satz 1 gemeldeten Daten."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(4) Die Bundesregierung regelt durch Rechtsverordnung ohne Zustimmung des Bundesrates die einzelnen Vorgaben für die Mitteilung der statistischen Daten nach Absatz 2 Satz 1."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesregierung legt dem Deutschen Bundestag alle vier Jahre eine Zusammenstellung und Auswertung der vom Bund vorgenommenen Gremienbesetzungen vor."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(2) Grundlage der Zusammenstellung und Auswertung sind die nach § 5 Absatz 2 Satz 1 gemeldeten Daten. Die obersten Bundesbehörden haben die für die Erstellung des Berichts erforderlichen Angaben zu machen."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "BGremBG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-04-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id140 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id141 .
+
+dtd:fussnoten-id55 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id119 .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BGremBG 2015"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BGremBG 2015"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "BGremBG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BGremBG 2015"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "BGremBG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BGremBG 2015"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "BGremBG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "BGremBG 2015"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "BGremBG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "BGremBG 2015"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "BGremBG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "BGremBG 2015"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "BGremBG"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Bundesgremienbesetzungsgesetz"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Mitwirkung des Bundes an der Besetzung von Gremien"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id31,
+        dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id35,
+        dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id39,
+        dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id43,
+        dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id47,
+        dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id51,
+        dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29,
+        dtd:standangabe-id30 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210811212527"@de ;
+    dtd:has_doknr "BJNR064210015"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210811212527"@de ;
+    dtd:has_doknr "BJNR064210015BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210811212527"@de ;
+    dtd:has_doknr "BJNR064210015BJNE000201377"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210811212527"@de ;
+    dtd:has_doknr "BJNR064210015BJNE000301377"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210811212527"@de ;
+    dtd:has_doknr "BJNR064210015BJNE000401377"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210811212527"@de ;
+    dtd:has_doknr "BJNR064210015BJNE000601377"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210811212527"@de ;
+    dtd:has_doknr "BJNR064210015BJNE000701377"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id140 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id139 a dtd:pre ;
+    dtd:has_BR dtd:BR-id68,
+        dtd:BR-id69 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.5.2015 +++)"@de .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id143 ;
+    dtd:has_standtyp dtd:standtyp-id142 .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id145 ;
+    dtd:has_standtyp dtd:standtyp-id144 .
+
+dtd:standkommentar-id143 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 G v. 7.8.2021 I 3311"@de .
+
+dtd:standkommentar-id145 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt G 11-1 v. 24.6.1994 I 1406, 1413 (BGremBG)"@de .
+
+dtd:standtyp-id142 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id144 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Ziel des Gesetzes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Geltungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Besetzung der Aufsichtsgremien und der wesentlichen Gremien"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Statistik, Verordnungsermächtigung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Bericht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id141 a dtd:zitstelle ;
+    dtd:has_Value "2015, 642"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

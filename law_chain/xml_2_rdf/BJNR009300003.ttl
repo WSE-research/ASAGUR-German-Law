@@ -1,0 +1,2319 @@
+@prefix dtd: <urn:FGNV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR009300003"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id289 a dtd:Content ;
+    dtd:has_P dtd:P-id290 .
+
+dtd:Content-id291 a dtd:Content ;
+    dtd:has_P dtd:P-id292 .
+
+dtd:Content-id293 a dtd:Content ;
+    dtd:has_P dtd:P-id294 .
+
+dtd:Content-id295 a dtd:Content ;
+    dtd:has_P dtd:P-id296 .
+
+dtd:Content-id297 a dtd:Content ;
+    dtd:has_P dtd:P-id298 .
+
+dtd:Content-id299 a dtd:Content ;
+    dtd:has_P dtd:P-id300,
+        dtd:P-id301 .
+
+dtd:Content-id302 a dtd:Content ;
+    dtd:has_P dtd:P-id303 .
+
+dtd:P-id290 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id292 a dtd:P ;
+    dtd:has_BR dtd:BR-id45 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 3.2003 +++)"@de ;
+    dtd:has_pre dtd:pre-id304 .
+
+dtd:P-id294 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 35a Abs. 1 Satz 1 Nr. 2 des Fünften Buches Sozialgesetzbuch - Gesetzliche Krankenversicherung - (Artikel 1 des Gesetzes vom 20. Dezember 1988, BGBl. I S. 2477, 2482), der durch Artikel 1 Nr. 3 des Gesetzes vom 27. Juli 2001 (BGBl. I S. 1948) eingefügt worden ist, jeweils in Verbindung mit § 1 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 22. Oktober 2002 (BGBl. I S. 4206) verordnet das Bundesministerium für Gesundheit und Soziale Sicherung im Einvernehmen mit dem Bundesministerium für Wirtschaft und Arbeit:"@de .
+
+dtd:P-id296 a dtd:P ;
+    dtd:has_Value "Die in der Anlage Teil 1 aufgeführte Arzneimittel-Festbetragsgruppe wird gemäß § 35a Abs. 3 Satz 1 Nr. 2 des Fünften Buches Sozialgesetzbuch neu bestimmt; die in der Anlage Teil 2 aufgeführte Arzneimittel-Festbetragsgruppe wird gemäß § 35a Abs. 3 Satz 1 Nr. 3 des Fünften Buches Sozialgesetzbuch neu bestimmt. Für die jeweilige Standardpackung werden die in der Anlage Teil 1 und 2 ausgewiesenen Festbeträge in Euro auf Grund von § 35a Abs. 2 des Fünften Buches Sozialgesetzbuch festgesetzt. Für Arzneimittel, die nicht der Standardpackung entsprechen, ergibt sich der Festbetrag in Euro durch Multiplikation des Festbetrages der Standardpackung mit dem Ergebnis der in der Anlage genannten gruppenspezifischen Regressionsgleichung. Die festgesetzten Festbeträge gelten für alle Arzneimittel, die von der jeweiligen Gruppenbeschreibung erfasst werden."@de .
+
+dtd:P-id298 a dtd:P ;
+    dtd:has_Value "Die nach § 1 Satz 2 festgesetzten Festbeträge sowie die nach § 1 Satz 3 errechneten Festbeträge sind an den nächsten, sich aus den §§ 2 und 3 der Arzneimittelpreisverordnung vom 14. November 1980 (BGBl. I S. 2147), geändert durch Artikel 3 des Gesetzes vom 10. November 2001 (BGBl. I S. 2992), ergebenden Apothekenabgabepreis einschließlich Umsatzsteuer anzugleichen. Bei gleicher Differenz zu zwei Apothekenabgabepreisen gilt der höhere Preis."@de .
+
+dtd:P-id300 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt am 1. März 2003 in Kraft."@de .
+
+dtd:P-id301 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:P-id303 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value """ Fundstelle des Originaltextes: BGBl. I 2003, 94 - 95  
+	
+		
+		
+		
+		
+		
+		
+			
+				Anlage Teil 1
+			
+			
+				Gemäß § 1 Satz 3 der Verordnung ist für die Festbetragsgruppe nach § 35a Abs. 3 Satz 1 Nr. 2 SGB V folgende Formel anzuwenden:
+			
+			
+				p = a x wäf(hoch)b x pk(hoch) c
+			
+			
+				Dabei bedeuten:
+			
+			
+				P =
+				Ergebnis der Regressionsgleichung
+			
+			
+				wäf =
+				Wirkstärkenäquivalenzfaktor des Arzneimittels;
+			
+			
+				dieser ergibt sich nach der folgenden Formel:
+			
+			
+				 
+				wäf = w/w/Äf
+			
+			
+				 
+				Dabei bedeuten:
+			
+			
+				 
+				w = Wirkstärke in der jeweils für das Arzneimittel geltenden Einheit
+			
+			
+				 
+				Äf = Äquivalenzfaktor gemäß Gruppenbeschreibung
+			
+			
+				pk =
+				Packungsgröße in der jeweils für das Arzneimittel geltenden Einheit
+			
+			
+				a =
+				Multiplikationsfaktor als Ergebnis der Regressionsanalyse
+			
+			
+				b =
+				Exponent des Wirkstärkenäquivalenzfaktors als Ergebnis der Regressionsanalyse
+			
+			
+				c =
+				Exponent der Packungsgröße als Ergebnis der Regressionsanalyse
+			
+			
+				Festbetragsgruppe: (§ 35a Abs. 3 Satz 1Nr. 2 SGB V)
+				ACE-Hemmer
+			
+			
+				Gruppenbeschreibung
+				Standardpackung
+			
+			
+				Wirkstoffe
+				Äquivalenzfaktoren (Äf)
+				Wirkstärkenäquivalenzfaktor (wäf)
+				3,97
+			
+			
+				Benazepril
+				0,62
+				Packungsgröße (pk)
+				100 Stück
+			
+			
+				Captopril
+				6,29
+				Festbetrag
+				34,60 Euro
+			
+			
+				Cilazapril
+				0,31
+				 
+				 
+			
+			
+				Enalapril
+				1,0
+				 
+				 
+			
+			
+				Fosinopril
+				1,64
+				 
+				 
+			
+			
+				Lisinopril
+				1,19
+				 
+				 
+			
+			
+				Moexipril
+				1,11
+				 
+				 
+			
+			
+				Perindopril
+				0,28
+				 
+				 
+			
+			
+				Quinapril
+				1,78
+				 
+				 
+			
+			
+				Ramipril
+				0,31
+				 
+				 
+			
+			
+				Trandolapril
+				0,27
+				Regressionsgleichung
+			
+			
+				orale Darreichungsformen Kapseln, Tabletten, Filmtabletten
+				p = 0,016864788 x wäf(hoch)0,507722 x pk(hoch)0,734500
+			
+			
+				Anlage Teil 2
+			
+			
+				Gemäß § 1 Satz 3 der Verordnung ist für die Festbetragsgruppe nach § 35a Abs. 3 Satz 1 Nr. 3 SGB V folgende Formel anzuwenden:
+			
+			
+				p = a x wvf(hoch)b x pk(hoch)c
+			
+			
+				Dabei bedeuten:
+			
+			
+				P =
+				Ergebnis der Regressionsgleichung
+			
+			
+				wvf =
+				Wirkstärkenvergleichsfaktor des jeweiligen Arzneimittels; dieser ergibt sich nach der folgenden Formel:
+			
+			
+				 
+				wvf = swf/Vf
+			
+			
+				 
+				Dabei bedeuten:
+			
+			
+				 
+				sw = Summe der Wirkstärken der Einzelwirkstoffe in den jeweils für das Arzneimittel geltenden Einheiten
+			
+			
+				 
+				Vf = Vergleichsfaktor gemäß Gruppenbeschreibung
+			
+			
+				pk =
+				Packungsgröße in der jeweils für das Arzneimittel geltenden Einheit
+			
+			
+				a =
+				Multiplikationsfaktor als Ergebnis der Regressionsanalyse
+			
+			
+				b =
+				Exponent des Wirkstärkenvergleichsfaktors als Ergebnis der Regressionsanalyse
+			
+			
+				c =
+				Exponent der Packungsgröße als Ergebnis der Regressionsanalyse
+			
+			
+				Festbetragsgruppe: (§ 35a Abs. 3 Satz 1 Nr. 3 SGB V)
+				Kombinationen von Hydrochlorothiazid mit ACE-Hemmern
+			
+			
+				Gruppenbeschreibung
+				Standardpackung
+			
+			
+				Wirkstoffe
+				Vergleichsfaktoren (Vf)
+				Wirkstärkenvergleichsfaktor (wvf)
+				1,4
+			
+			
+				Benazepril 10 mg + Hydrochlorothiazid 12,5 mg
+				10,65
+				Packungsgröße (pk)
+				100 Stück
+			
+			
+				Festbetrag
+				71,42 Euro
+			
+			
+				Benazepril 20 mg + Hydrochlorothiazid 25 mg
+				10,65
+				 
+				 
+			
+			
+				Captopril 25 mg + Hydrochlorothiazid 12,5 mg
+				41,78
+				 
+				 
+			
+			
+				Captopril 25 mg + Hydrochlorothiazid 25 mg
+				35,78
+				 
+				 
+			
+			
+				Captopril 50 mg + Hydrochlorothiazid 25 mg
+				41,78
+				 
+				 
+			
+			
+				Cilazapril 5 mg + Hydrochlorothiazid 12,5 mg
+				8,28
+				 
+				 
+			
+			
+				Enalapril 10 mg + Hydrochlorothiazid 25 mg
+				17,5
+				 
+				 
+			
+			
+				Lisinopril 10 mg + Hydrochlorothiazid 12,5 mg
+				16,79
+				 
+				 
+			
+			
+				Lisinopril 20 mg + Hydrochlorothiazid 12,5 mg
+				14,9
+				 
+				 
+			
+			
+				Quinapril 10 mg + Hydrochlorothiazid 12,5 mg
+				21,19
+				 
+				 
+			
+			
+				Quinapril 20 mg + Hydrochlorothiazid 12,5 mg
+				20,02
+				 
+				 
+			
+			
+				Quinapril 20 mg + Hydrochlorothiazid 25 mg
+				21,19
+				 
+				 
+			
+			
+				Ramipril 2,5 mg + Hydrochlorothiazid 12,5 mg
+				11,48
+				 
+				 
+			
+			
+				Ramipril 5 mg + Hydrochlorothiazid 25 mg
+				11,48
+				Regressionsgleichung
+			
+			
+				orale Darreichungsformen Tabletten, Filmtabletten
+				p = 0,012512592 x wvf(hoch)0,204579 x pk(hoch)0,936379
+			
+		
+	
+ """@de ;
+    dtd:has_kommentar dtd:kommentar-id305 ;
+    dtd:has_table dtd:table-id49 .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "FGNV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2003-01-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id51 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id52 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id53 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id54 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colwidth "45*"@de .
+
+dtd:colspec-id55 a dtd:colspec ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage Teil 1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gemäß § 1 Satz 3 der Verordnung ist für die Festbetragsgruppe nach § 35a Abs. 3 Satz 1 Nr. 2 SGB V folgende Formel anzuwenden:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "p = a x wäf(hoch)b x pk(hoch) c"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Dabei bedeuten:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "P ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ergebnis der Regressionsgleichung"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "wäf ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wirkstärkenäquivalenzfaktor des Arzneimittels;"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "dieser ergibt sich nach der folgenden Formel:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "wäf = w/w/Äf"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Dabei bedeuten:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "w = Wirkstärke in der jeweils für das Arzneimittel geltenden Einheit"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Äf = Äquivalenzfaktor gemäß Gruppenbeschreibung"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "pk ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Packungsgröße in der jeweils für das Arzneimittel geltenden Einheit"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "a ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Multiplikationsfaktor als Ergebnis der Regressionsanalyse"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "b ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Exponent des Wirkstärkenäquivalenzfaktors als Ergebnis der Regressionsanalyse"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id143 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "c ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id144 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Exponent der Packungsgröße als Ergebnis der Regressionsanalyse"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id145 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Festbetragsgruppe: (§ 35a Abs. 3 Satz 1Nr. 2 SGB V)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id146 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "ACE-Hemmer"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col3"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id147 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gruppenbeschreibung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id148 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Standardpackung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col4"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id149 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wirkstoffe"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id150 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Äquivalenzfaktoren (Äf)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id151 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wirkstärkenäquivalenzfaktor (wäf)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id152 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3,97"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id153 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Benazepril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id154 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,62"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id155 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Packungsgröße (pk)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id156 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100 Stück"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id157 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Captopril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id158 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "6,29"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id159 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Festbetrag"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id160 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "34,60 Euro"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id161 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Cilazapril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id162 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,31"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id163 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id164 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id165 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Enalapril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id166 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,0"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id167 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id168 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id169 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fosinopril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id170 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,64"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id171 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id172 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id173 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lisinopril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id174 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,19"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id175 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id176 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id177 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Moexipril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id178 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,11"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id179 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id180 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id181 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Perindopril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id182 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,28"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id183 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id184 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id185 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Quinapril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id186 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,78"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id187 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id188 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id189 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ramipril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id190 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,31"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id191 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id192 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id193 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Trandolapril"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id194 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,27"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id195 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Regressionsgleichung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col4"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id196 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "orale Darreichungsformen Kapseln, Tabletten, Filmtabletten"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id197 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "p = 0,016864788 x wäf(hoch)0,507722 x pk(hoch)0,734500"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col4"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id198 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage Teil 2"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id199 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gemäß § 1 Satz 3 der Verordnung ist für die Festbetragsgruppe nach § 35a Abs. 3 Satz 1 Nr. 3 SGB V folgende Formel anzuwenden:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id200 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "p = a x wvf(hoch)b x pk(hoch)c"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id201 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Dabei bedeuten:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id202 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "P ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id203 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ergebnis der Regressionsgleichung"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id204 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "wvf ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id205 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wirkstärkenvergleichsfaktor des jeweiligen Arzneimittels; dieser ergibt sich nach der folgenden Formel:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id206 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id207 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "wvf = swf/Vf"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id208 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id209 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Dabei bedeuten:"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id210 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id211 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "sw = Summe der Wirkstärken der Einzelwirkstoffe in den jeweils für das Arzneimittel geltenden Einheiten"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id212 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id213 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vf = Vergleichsfaktor gemäß Gruppenbeschreibung"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id214 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "pk ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id215 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Packungsgröße in der jeweils für das Arzneimittel geltenden Einheit"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id216 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "a ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id217 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Multiplikationsfaktor als Ergebnis der Regressionsanalyse"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id218 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "b ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id219 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Exponent des Wirkstärkenvergleichsfaktors als Ergebnis der Regressionsanalyse"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id220 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "c ="@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id221 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Exponent der Packungsgröße als Ergebnis der Regressionsanalyse"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id222 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Festbetragsgruppe: (§ 35a Abs. 3 Satz 1 Nr. 3 SGB V)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id223 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kombinationen von Hydrochlorothiazid mit ACE-Hemmern"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col3"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id224 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gruppenbeschreibung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id225 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Standardpackung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col4"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id226 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wirkstoffe"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id227 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vergleichsfaktoren (Vf)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id228 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wirkstärkenvergleichsfaktor (wvf)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id229 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,4"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id230 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Benazepril 10 mg + Hydrochlorothiazid 12,5 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id231 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10,65"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "1"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id232 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Packungsgröße (pk)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id233 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100 Stück"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id234 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Festbetrag"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id235 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "71,42 Euro"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id236 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Benazepril 20 mg + Hydrochlorothiazid 25 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id237 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10,65"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id238 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id239 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id240 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Captopril 25 mg + Hydrochlorothiazid 12,5 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id241 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "41,78"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id242 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id243 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id244 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Captopril 25 mg + Hydrochlorothiazid 25 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id245 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "35,78"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id246 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id247 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id248 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Captopril 50 mg + Hydrochlorothiazid 25 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id249 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "41,78"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id250 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id251 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id252 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Cilazapril 5 mg + Hydrochlorothiazid 12,5 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id253 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "8,28"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id254 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id255 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id256 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Enalapril 10 mg + Hydrochlorothiazid 25 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id257 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "17,5"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id258 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id259 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id260 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lisinopril 10 mg + Hydrochlorothiazid 12,5 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id261 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "16,79"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id262 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id263 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id264 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lisinopril 20 mg + Hydrochlorothiazid 12,5 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id265 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "14,9"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id266 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id267 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id268 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Quinapril 10 mg + Hydrochlorothiazid 12,5 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id269 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "21,19"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id270 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id271 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id272 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Quinapril 20 mg + Hydrochlorothiazid 12,5 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id273 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "20,02"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id274 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id275 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id276 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Quinapril 20 mg + Hydrochlorothiazid 25 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id277 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "21,19"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id278 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id279 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id280 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ramipril 2,5 mg + Hydrochlorothiazid 12,5 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id281 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11,48"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id282 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id283 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id284 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ramipril 5 mg + Hydrochlorothiazid 25 mg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id285 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11,48"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id286 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Regressionsgleichung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col4"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id287 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "orale Darreichungsformen Tabletten, Filmtabletten"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id288 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "p = 0,012512592 x wvf(hoch)0,204579 x pk(hoch)0,936379"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col4"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id306 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id307 .
+
+dtd:fussnoten-id38 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id291 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "FGNV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "FGNV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "FGNV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "FGNV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "FGNV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "FGNV"@de .
+
+dtd:kommentar-id305 a dtd:kommentar ;
+    dtd:has_Value " Fundstelle des Originaltextes: BGBl. I 2003, 94 - 95 "@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Festbetragsgruppen-Neubestimmungsverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Neubestimmung von Arzneimittel-Festbetragsgruppen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR009300003"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR009300003BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR009300003BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR009300003BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR009300003BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR009300003BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id306 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id304 a dtd:pre ;
+    dtd:has_BR dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 3.2003 +++)"@de .
+
+dtd:row-id100 a dtd:row ;
+    dtd:has_entry dtd:entry-id220,
+        dtd:entry-id221 .
+
+dtd:row-id101 a dtd:row ;
+    dtd:has_entry dtd:entry-id222,
+        dtd:entry-id223 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id102 a dtd:row ;
+    dtd:has_entry dtd:entry-id224,
+        dtd:entry-id225 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id103 a dtd:row ;
+    dtd:has_entry dtd:entry-id226,
+        dtd:entry-id227,
+        dtd:entry-id228,
+        dtd:entry-id229 .
+
+dtd:row-id104 a dtd:row ;
+    dtd:has_entry dtd:entry-id230,
+        dtd:entry-id231,
+        dtd:entry-id232,
+        dtd:entry-id233 .
+
+dtd:row-id105 a dtd:row ;
+    dtd:has_entry dtd:entry-id234,
+        dtd:entry-id235 .
+
+dtd:row-id106 a dtd:row ;
+    dtd:has_entry dtd:entry-id236,
+        dtd:entry-id237,
+        dtd:entry-id238,
+        dtd:entry-id239 .
+
+dtd:row-id107 a dtd:row ;
+    dtd:has_entry dtd:entry-id240,
+        dtd:entry-id241,
+        dtd:entry-id242,
+        dtd:entry-id243 .
+
+dtd:row-id108 a dtd:row ;
+    dtd:has_entry dtd:entry-id244,
+        dtd:entry-id245,
+        dtd:entry-id246,
+        dtd:entry-id247 .
+
+dtd:row-id109 a dtd:row ;
+    dtd:has_entry dtd:entry-id248,
+        dtd:entry-id249,
+        dtd:entry-id250,
+        dtd:entry-id251 .
+
+dtd:row-id110 a dtd:row ;
+    dtd:has_entry dtd:entry-id252,
+        dtd:entry-id253,
+        dtd:entry-id254,
+        dtd:entry-id255 .
+
+dtd:row-id111 a dtd:row ;
+    dtd:has_entry dtd:entry-id256,
+        dtd:entry-id257,
+        dtd:entry-id258,
+        dtd:entry-id259 .
+
+dtd:row-id112 a dtd:row ;
+    dtd:has_entry dtd:entry-id260,
+        dtd:entry-id261,
+        dtd:entry-id262,
+        dtd:entry-id263 .
+
+dtd:row-id113 a dtd:row ;
+    dtd:has_entry dtd:entry-id264,
+        dtd:entry-id265,
+        dtd:entry-id266,
+        dtd:entry-id267 .
+
+dtd:row-id114 a dtd:row ;
+    dtd:has_entry dtd:entry-id268,
+        dtd:entry-id269,
+        dtd:entry-id270,
+        dtd:entry-id271 .
+
+dtd:row-id115 a dtd:row ;
+    dtd:has_entry dtd:entry-id272,
+        dtd:entry-id273,
+        dtd:entry-id274,
+        dtd:entry-id275 .
+
+dtd:row-id116 a dtd:row ;
+    dtd:has_entry dtd:entry-id276,
+        dtd:entry-id277,
+        dtd:entry-id278,
+        dtd:entry-id279 .
+
+dtd:row-id117 a dtd:row ;
+    dtd:has_entry dtd:entry-id280,
+        dtd:entry-id281,
+        dtd:entry-id282,
+        dtd:entry-id283 .
+
+dtd:row-id118 a dtd:row ;
+    dtd:has_entry dtd:entry-id284,
+        dtd:entry-id285,
+        dtd:entry-id286 .
+
+dtd:row-id119 a dtd:row ;
+    dtd:has_entry dtd:entry-id287,
+        dtd:entry-id288 .
+
+dtd:row-id57 a dtd:row ;
+    dtd:has_entry dtd:entry-id120 .
+
+dtd:row-id58 a dtd:row ;
+    dtd:has_entry dtd:entry-id121 .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id122 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id123 .
+
+dtd:row-id61 a dtd:row ;
+    dtd:has_entry dtd:entry-id124,
+        dtd:entry-id125 .
+
+dtd:row-id62 a dtd:row ;
+    dtd:has_entry dtd:entry-id126,
+        dtd:entry-id127 .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id128 .
+
+dtd:row-id64 a dtd:row ;
+    dtd:has_entry dtd:entry-id129,
+        dtd:entry-id130 .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id131,
+        dtd:entry-id132 .
+
+dtd:row-id66 a dtd:row ;
+    dtd:has_entry dtd:entry-id133,
+        dtd:entry-id134 .
+
+dtd:row-id67 a dtd:row ;
+    dtd:has_entry dtd:entry-id135,
+        dtd:entry-id136 .
+
+dtd:row-id68 a dtd:row ;
+    dtd:has_entry dtd:entry-id137,
+        dtd:entry-id138 .
+
+dtd:row-id69 a dtd:row ;
+    dtd:has_entry dtd:entry-id139,
+        dtd:entry-id140 .
+
+dtd:row-id70 a dtd:row ;
+    dtd:has_entry dtd:entry-id141,
+        dtd:entry-id142 .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id143,
+        dtd:entry-id144 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id145,
+        dtd:entry-id146 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id147,
+        dtd:entry-id148 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id149,
+        dtd:entry-id150,
+        dtd:entry-id151,
+        dtd:entry-id152 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id153,
+        dtd:entry-id154,
+        dtd:entry-id155,
+        dtd:entry-id156 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id157,
+        dtd:entry-id158,
+        dtd:entry-id159,
+        dtd:entry-id160 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id161,
+        dtd:entry-id162,
+        dtd:entry-id163,
+        dtd:entry-id164 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id165,
+        dtd:entry-id166,
+        dtd:entry-id167,
+        dtd:entry-id168 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id169,
+        dtd:entry-id170,
+        dtd:entry-id171,
+        dtd:entry-id172 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id173,
+        dtd:entry-id174,
+        dtd:entry-id175,
+        dtd:entry-id176 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id177,
+        dtd:entry-id178,
+        dtd:entry-id179,
+        dtd:entry-id180 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id181,
+        dtd:entry-id182,
+        dtd:entry-id183,
+        dtd:entry-id184 .
+
+dtd:row-id83 a dtd:row ;
+    dtd:has_entry dtd:entry-id185,
+        dtd:entry-id186,
+        dtd:entry-id187,
+        dtd:entry-id188 .
+
+dtd:row-id84 a dtd:row ;
+    dtd:has_entry dtd:entry-id189,
+        dtd:entry-id190,
+        dtd:entry-id191,
+        dtd:entry-id192 .
+
+dtd:row-id85 a dtd:row ;
+    dtd:has_entry dtd:entry-id193,
+        dtd:entry-id194,
+        dtd:entry-id195 .
+
+dtd:row-id86 a dtd:row ;
+    dtd:has_entry dtd:entry-id196,
+        dtd:entry-id197 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id87 a dtd:row ;
+    dtd:has_entry dtd:entry-id198 .
+
+dtd:row-id88 a dtd:row ;
+    dtd:has_entry dtd:entry-id199 .
+
+dtd:row-id89 a dtd:row ;
+    dtd:has_entry dtd:entry-id200 .
+
+dtd:row-id90 a dtd:row ;
+    dtd:has_entry dtd:entry-id201 .
+
+dtd:row-id91 a dtd:row ;
+    dtd:has_entry dtd:entry-id202,
+        dtd:entry-id203 .
+
+dtd:row-id92 a dtd:row ;
+    dtd:has_entry dtd:entry-id204,
+        dtd:entry-id205 .
+
+dtd:row-id93 a dtd:row ;
+    dtd:has_entry dtd:entry-id206,
+        dtd:entry-id207 .
+
+dtd:row-id94 a dtd:row ;
+    dtd:has_entry dtd:entry-id208,
+        dtd:entry-id209 .
+
+dtd:row-id95 a dtd:row ;
+    dtd:has_entry dtd:entry-id210,
+        dtd:entry-id211 .
+
+dtd:row-id96 a dtd:row ;
+    dtd:has_entry dtd:entry-id212,
+        dtd:entry-id213 .
+
+dtd:row-id97 a dtd:row ;
+    dtd:has_entry dtd:entry-id214,
+        dtd:entry-id215 .
+
+dtd:row-id98 a dtd:row ;
+    dtd:has_entry dtd:entry-id216,
+        dtd:entry-id217 .
+
+dtd:row-id99 a dtd:row ;
+    dtd:has_entry dtd:entry-id218,
+        dtd:entry-id219 .
+
+dtd:table-id49 a dtd:table ;
+    dtd:has_frame dtd:bottom ;
+    dtd:has_tgroup dtd:tgroup-id50 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id56 a dtd:tbody ;
+    dtd:has_row dtd:row-id100,
+        dtd:row-id101,
+        dtd:row-id102,
+        dtd:row-id103,
+        dtd:row-id104,
+        dtd:row-id105,
+        dtd:row-id106,
+        dtd:row-id107,
+        dtd:row-id108,
+        dtd:row-id109,
+        dtd:row-id110,
+        dtd:row-id111,
+        dtd:row-id112,
+        dtd:row-id113,
+        dtd:row-id114,
+        dtd:row-id115,
+        dtd:row-id116,
+        dtd:row-id117,
+        dtd:row-id118,
+        dtd:row-id119,
+        dtd:row-id57,
+        dtd:row-id58,
+        dtd:row-id59,
+        dtd:row-id60,
+        dtd:row-id61,
+        dtd:row-id62,
+        dtd:row-id63,
+        dtd:row-id64,
+        dtd:row-id65,
+        dtd:row-id66,
+        dtd:row-id67,
+        dtd:row-id68,
+        dtd:row-id69,
+        dtd:row-id70,
+        dtd:row-id71,
+        dtd:row-id72,
+        dtd:row-id73,
+        dtd:row-id74,
+        dtd:row-id75,
+        dtd:row-id76,
+        dtd:row-id77,
+        dtd:row-id78,
+        dtd:row-id79,
+        dtd:row-id80,
+        dtd:row-id81,
+        dtd:row-id82,
+        dtd:row-id83,
+        dtd:row-id84,
+        dtd:row-id85,
+        dtd:row-id86,
+        dtd:row-id87,
+        dtd:row-id88,
+        dtd:row-id89,
+        dtd:row-id90,
+        dtd:row-id91,
+        dtd:row-id92,
+        dtd:row-id93,
+        dtd:row-id94,
+        dtd:row-id95,
+        dtd:row-id96,
+        dtd:row-id97,
+        dtd:row-id98,
+        dtd:row-id99 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id289 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id293 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id295 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id297 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id299 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id302 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:tgroup-id50 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "5"@de ;
+    dtd:has_colspec dtd:colspec-id51,
+        dtd:colspec-id52,
+        dtd:colspec-id53,
+        dtd:colspec-id54,
+        dtd:colspec-id55 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id56 .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "(zu § 1)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id307 a dtd:zitstelle ;
+    dtd:has_Value "2003, 93"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

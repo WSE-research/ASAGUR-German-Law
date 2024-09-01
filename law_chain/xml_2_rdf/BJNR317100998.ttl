@@ -1,0 +1,657 @@
+@prefix dtd: <urn:StVOAusnV-9#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id128 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id129 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id130 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136 .
+
+dtd:Content-id137 a dtd:Content ;
+    dtd:has_P dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DL-id103 a dtd:DL ;
+    dtd:has_DD dtd:DD-id106,
+        dtd:DD-id107 ;
+    dtd:has_DT dtd:DT-id104,
+        dtd:DT-id105 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id108 a dtd:DL ;
+    dtd:has_DD dtd:DD-id110 ;
+    dtd:has_DT dtd:DT-id109 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id111 a dtd:DL ;
+    dtd:has_DD dtd:DD-id113 ;
+    dtd:has_DT dtd:DT-id112 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id89 a dtd:DL ;
+    dtd:has_DD dtd:DD-id94,
+        dtd:DD-id95,
+        dtd:DD-id96,
+        dtd:DD-id97 ;
+    dtd:has_DT dtd:DT-id90,
+        dtd:DT-id91,
+        dtd:DT-id92,
+        dtd:DT-id93 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id98 a dtd:DL ;
+    dtd:has_DD dtd:DD-id101,
+        dtd:DD-id102 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "bb)"@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "aa)"@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "bb)"@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "aa)"@de .
+
+dtd:FnR-id71 a dtd:FnR ;
+    dtd:has_ID "BJNR317100998BJNE000208305_01"@de .
+
+dtd:Footnote-id150 a dtd:Footnote ;
+    dtd:has_BR dtd:BR-id70 ;
+    dtd:has_DL dtd:DL-id108,
+        dtd:DL-id111 ;
+    dtd:has_FnZ "*"@de ;
+    dtd:has_Group dtd:column ;
+    dtd:has_ID "BJNR317100998BJNE000208305_01"@de ;
+    dtd:has_Pos dtd:normal ;
+    dtd:has_Postfix ")"@de ;
+    dtd:has_Value "Als Fundstelle und Bezugsquelle der ISO-Norm 11555-1 gilt § 73 der Straßenverkehrs-Zulassungs-Ordnung mit folgendem Wortlaut:\"§ 73Technische FestlegungenSoweit in dieser Verordnung auf DIN- oder ISO-Normen Bezug genommen wird, sind diese im Beuth-Verlag GmbH, Burggrafenstr. 6, D-10787 Berlin, VDE-Bestimmungen auch im VDE-Verlag, Bismarckstr. 33, D-10625 Berlin, erschienen. Sie sind beim Deutschen Patentamt archivmäßig gesichert niedergelegt.\""@de ;
+    dtd:has_table dtd:table-id72 .
+
+dtd:Footnotes-id149 a dtd:Footnotes ;
+    dtd:has_Footnote dtd:Footnote-id150 .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id128 ;
+    dtd:has_DL dtd:DL-id89 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Zugfahrzeug mit einem automatischen Blockierverhinderer ausgestattet und die zulässige Gesamtmasse des Anhängers <= X mal Leermasse des Zugfahrzeugs ist, dabei gelten folgende Bedingungen:a)für alle Anhänger ohne Bremse und für Anhänger mit Bremse, aber ohne hydraulische Schwingungsdämpfer: X = 0,3;b)für Wohnanhänger mit starrem Aufbau und hydraulischen Schwingungsdämpfern: X = 0,8;c)für andere Anhänger mit hydraulischen Schwingungsdämpfern: X = 1,1, wobei als Obergrenze in jedem Fall der jeweils kleinere Wert der beiden folgenden Bedingungen gilt:aa)zulässige Gesamtmasse Anhänger <= zulässige Gesamtmasse Zugfahrzeug,bb)zulässige Gesamtmasse Anhänger <= zulässige Anhängelast;d)für Anhänger, die den Anforderungen des § 30a Abs. 2 der Straßenverkehrs-Zulassungs-Ordnung entsprechen, eine Erhöhung des Faktors nach Nummer 1 Buchstabe b auf X = 1,0 und nach Nummer 1 Buchstabe c auf X = 1,2, wennaa)der Anhänger mit einer Zugkugelkupplung mit Stabilisierungseinrichtung für Zentralachsanhänger (gemäß ISO 11555-1 in der Fassung vom 1. Juli 2003 ) oderbb)mit einem anderen Bauteil oder einer selbstständigen technischen Einheit ausgestattet ist, wodurch der Betrieb einer Kombination bis Tempo 120 km/h im Vergleich zur Nichtausstattung verbessert wird; nachgewiesen werden muss dies mit einem Teilegutachten nach Anlage XIX zur Straßenverkehrs-Zulassungs-Ordnung, einer Allgemeinen Betriebserlaubnis nach § 22 der Straßenverkehrs-Zulassungs-Ordnung oder einer Betriebserlaubnis nach § 20 oder § 21 der Straßenverkehrs-Zulassungs-Ordnung oder einem Nachtrag dazu;"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für alle Anhänger ohne Bremse und für Anhänger mit Bremse, aber ohne hydraulische Schwingungsdämpfer: X = 0,3;"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für Wohnanhänger mit starrem Aufbau und hydraulischen Schwingungsdämpfern: X = 0,8;"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_DL dtd:DL-id98 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für andere Anhänger mit hydraulischen Schwingungsdämpfern: X = 1,1, wobei als Obergrenze in jedem Fall der jeweils kleinere Wert der beiden folgenden Bedingungen gilt:aa)zulässige Gesamtmasse Anhänger <= zulässige Gesamtmasse Zugfahrzeug,bb)zulässige Gesamtmasse Anhänger <= zulässige Anhängelast;"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id129 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zulässige Gesamtmasse Anhänger <= zulässige Gesamtmasse Zugfahrzeug,"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id130 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zulässige Gesamtmasse Anhänger <= zulässige Anhängelast;"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_DL dtd:DL-id103 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für Anhänger, die den Anforderungen des § 30a Abs. 2 der Straßenverkehrs-Zulassungs-Ordnung entsprechen, eine Erhöhung des Faktors nach Nummer 1 Buchstabe b auf X = 1,0 und nach Nummer 1 Buchstabe c auf X = 1,2, wennaa)der Anhänger mit einer Zugkugelkupplung mit Stabilisierungseinrichtung für Zentralachsanhänger (gemäß ISO 11555-1 in der Fassung vom 1. Juli 2003 ) oderbb)mit einem anderen Bauteil oder einer selbstständigen technischen Einheit ausgestattet ist, wodurch der Betrieb einer Kombination bis Tempo 120 km/h im Vergleich zur Nichtausstattung verbessert wird; nachgewiesen werden muss dies mit einem Teilegutachten nach Anlage XIX zur Straßenverkehrs-Zulassungs-Ordnung, einer Allgemeinen Betriebserlaubnis nach § 22 der Straßenverkehrs-Zulassungs-Ordnung oder einer Betriebserlaubnis nach § 20 oder § 21 der Straßenverkehrs-Zulassungs-Ordnung oder einem Nachtrag dazu;"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_FnR dtd:FnR-id71 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Anhänger mit einer Zugkugelkupplung mit Stabilisierungseinrichtung für Zentralachsanhänger (gemäß ISO 11555-1 in der Fassung vom 1. Juli 2003 ) oder"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "mit einem anderen Bauteil oder einer selbstständigen technischen Einheit ausgestattet ist, wodurch der Betrieb einer Kombination bis Tempo 120 km/h im Vergleich zur Nichtausstattung verbessert wird; nachgewiesen werden muss dies mit einem Teilegutachten nach Anlage XIX zur Straßenverkehrs-Zulassungs-Ordnung, einer Allgemeinen Betriebserlaubnis nach § 22 der Straßenverkehrs-Zulassungs-Ordnung oder einer Betriebserlaubnis nach § 20 oder § 21 der Straßenverkehrs-Zulassungs-Ordnung oder einem Nachtrag dazu;"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Falle einer nachträglichen Berichtigung der Fahrzeugpapiere des Anhängers ein amtlich anerkannter Sachverständiger oder Prüfer oder ein Prüfingenieur einer amtlich anerkannten Überwachungsorganisation mit einem Formblatt, das vom Bundesministerium für Verkehr und digitale Infrastruktur im Verkehrsblatt bekannt gegeben wird, einen Vorschlag für die Berichtigung nach § 13 Abs. 1 der Fahrzeug-Zulassungsverordnung in den Fällen der Nummer 1, ausgenommen Nummer 1 Buchstabe d Doppelbuchstabe bb, erstellt, oder, wenn eine Änderung nach Nummer 1 Buchstabe d Doppelbuchstabe bb vorliegt, er den vom Fahrzeugführer nach § 19 Abs. 4 Satz 1 Nr. 2 der Straßenverkehrs-Zulassungs-Ordnung mitzuführenden Nachweis erstellt und bestätigt, dass die Voraussetzungen dieser Verordnung vorliegen und dem Verfügungsberechtigten ein Informationsblatt für die Einhaltung der Bedingungen nach § 4 dieser Verordnung ausgehändigt worden ist;"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die nach Landesrecht zuständige untere Verwaltungsbehörde auf der Grundlage einer Bestätigung nach Nummer 2 mit einem Eintrag in die Fahrzeugpapiere des Anhängers, im Falle des Satzes 2 auch des Zugfahrzeugs, die zulässige Höchstgeschwindigkeit einer Kombination unter Berücksichtigung der Bedingungen dieser Verordnung von 100 km/h bescheinigt;"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die von der nach Landesrecht zuständige untere Verwaltungsbehörde gemäß § 5 ausgegebene und gesiegelte Tempo-100 km/h-Plakette an der Rückseite des Anhängers angebracht ist."@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Als Fundstelle und Bezugsquelle der ISO-Norm 11555-1 gilt § 73 der Straßenverkehrs-Zulassungs-Ordnung mit folgendem Wortlaut:"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Soweit in dieser Verordnung auf DIN- oder ISO-Normen Bezug genommen wird, sind diese im Beuth-Verlag GmbH, Burggrafenstr. 6, D-10787 Berlin, VDE-Bestimmungen auch im VDE-Verlag, Bismarckstr. 33, D-10625 Berlin, erschienen. Sie sind beim Deutschen Patentamt archivmäßig gesichert niedergelegt.\""@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 22.10.1998 +++)"@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_BR dtd:BR-id69 ;
+    dtd:has_DL dtd:DL-id80 ;
+    dtd:has_Value "Abweichend von § 18 Abs. 5 Nr. 1 der Straßenverkehrs-Ordnung beträgt auf Autobahnen (Zeichen 330.1) und Kraftfahrstraßen (Zeichen 331.1) die zulässige Höchstgeschwindigkeit auch unter günstigsten Umständen für Personenkraftwagen mit Anhänger (Kombination) und für sonstige mehrspurige Kraftfahrzeuge mit einer zulässigen Gesamtmasse bis zu 3,5 t mit Anhänger (Kombination), für Kraftomnibus-Anhänger-Kombinationen jedoch nur, wenn der Kraftomnibus mit einer zulässigen Gesamtmasse bis zu 3,5 t als Zugfahrzeug eine Tempo-100 km/h-Zulassung nach § 18 Abs. 5 Nr. 3 der Straßenverkehrs-Ordnung hat, 100 km/h, wenn 1.das Zugfahrzeug mit einem automatischen Blockierverhinderer ausgestattet und die zulässige Gesamtmasse des Anhängers <= X mal Leermasse des Zugfahrzeugs ist, dabei gelten folgende Bedingungen:a)für alle Anhänger ohne Bremse und für Anhänger mit Bremse, aber ohne hydraulische Schwingungsdämpfer: X = 0,3;b)für Wohnanhänger mit starrem Aufbau und hydraulischen Schwingungsdämpfern: X = 0,8;c)für andere Anhänger mit hydraulischen Schwingungsdämpfern: X = 1,1, wobei als Obergrenze in jedem Fall der jeweils kleinere Wert der beiden folgenden Bedingungen gilt:aa)zulässige Gesamtmasse Anhänger <= zulässige Gesamtmasse Zugfahrzeug,bb)zulässige Gesamtmasse Anhänger <= zulässige Anhängelast;d)für Anhänger, die den Anforderungen des § 30a Abs. 2 der Straßenverkehrs-Zulassungs-Ordnung entsprechen, eine Erhöhung des Faktors nach Nummer 1 Buchstabe b auf X = 1,0 und nach Nummer 1 Buchstabe c auf X = 1,2, wennaa)der Anhänger mit einer Zugkugelkupplung mit Stabilisierungseinrichtung für Zentralachsanhänger (gemäß ISO 11555-1 in der Fassung vom 1. Juli 2003 ) oderbb)mit einem anderen Bauteil oder einer selbstständigen technischen Einheit ausgestattet ist, wodurch der Betrieb einer Kombination bis Tempo 120 km/h im Vergleich zur Nichtausstattung verbessert wird; nachgewiesen werden muss dies mit einem Teilegutachten nach Anlage XIX zur Straßenverkehrs-Zulassungs-Ordnung, einer Allgemeinen Betriebserlaubnis nach § 22 der Straßenverkehrs-Zulassungs-Ordnung oder einer Betriebserlaubnis nach § 20 oder § 21 der Straßenverkehrs-Zulassungs-Ordnung oder einem Nachtrag dazu;2.im Falle einer nachträglichen Berichtigung der Fahrzeugpapiere des Anhängers ein amtlich anerkannter Sachverständiger oder Prüfer oder ein Prüfingenieur einer amtlich anerkannten Überwachungsorganisation mit einem Formblatt, das vom Bundesministerium für Verkehr und digitale Infrastruktur im Verkehrsblatt bekannt gegeben wird, einen Vorschlag für die Berichtigung nach § 13 Abs. 1 der Fahrzeug-Zulassungsverordnung in den Fällen der Nummer 1, ausgenommen Nummer 1 Buchstabe d Doppelbuchstabe bb, erstellt, oder, wenn eine Änderung nach Nummer 1 Buchstabe d Doppelbuchstabe bb vorliegt, er den vom Fahrzeugführer nach § 19 Abs. 4 Satz 1 Nr. 2 der Straßenverkehrs-Zulassungs-Ordnung mitzuführenden Nachweis erstellt und bestätigt, dass die Voraussetzungen dieser Verordnung vorliegen und dem Verfügungsberechtigten ein Informationsblatt für die Einhaltung der Bedingungen nach § 4 dieser Verordnung ausgehändigt worden ist;3.die nach Landesrecht zuständige untere Verwaltungsbehörde auf der Grundlage einer Bestätigung nach Nummer 2 mit einem Eintrag in die Fahrzeugpapiere des Anhängers, im Falle des Satzes 2 auch des Zugfahrzeugs, die zulässige Höchstgeschwindigkeit einer Kombination unter Berücksichtigung der Bedingungen dieser Verordnung von 100 km/h bescheinigt;4.die von der nach Landesrecht zuständige untere Verwaltungsbehörde gemäß § 5 ausgegebene und gesiegelte Tempo-100 km/h-Plakette an der Rückseite des Anhängers angebracht ist.Im Falle des Satzes 1 Nr. 1 Buchstabe d ist die Erhöhung der Faktoren auch zulässig, wenn das Zugfahrzeug mit einem speziellen fahrdynamischen Stabilitätssystem für den Anhängerbetrieb ausgestattet ist und eine Bestätigung des Herstellers für die in Satz 1 Nr. 1 Buchstabe d Doppelbuchstabe bb genannten Bedingungen vorliegt und dies in den Fahrzeugpapieren eingetragen ist.----------"@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "Der Bestätigung eines amtlich anerkannten Sachverständigen oder Prüfers oder eines Prüfingenieurs einer amtlich anerkannten Überwachungsorganisation nach § 1 Nr. 2 dieser Verordnung ist die Bestätigung einer in anderen Mitgliedstaaten der Europäischen Union oder der Türkei oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zugelassenen Stelle gleichwertig, wenn die der Bestätigung dieser Stellen zugrunde liegenden technischen Anforderungen, Prüfungen und Prüfverfahren denen der deutschen Stellen gleichwertig sind und die Bestätigung in deutscher Sprache erstellt wurde oder eine amtlich beglaubigte Übersetzung in deutscher Sprache vorgelegt und während der Fahrt mitgeführt und zuständigen Personen auf Verlangen zur Prüfung ausgehändigt wird."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "Die Reifen des Anhängers müssen zum Zeitpunkt der jeweiligen Fahrt, erkennbar am eingeprägten Herstellungsdatum, jünger als sechs Jahre und mindestens mit der Geschwindigkeitskategorie L (= 120 km/h) gekennzeichnet sein."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "Die Stützlast der Kombination ist an der größtmöglichen Stützlast des Zugfahrzeugs oder des Anhängers zu orientieren, wobei als Obergrenze in jedem Fall der kleinere Wert gilt."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "Die Ausführung der großen Tempo-100 km/h-Plakette nach § 1 Nr. 4 bestimmt sich nach § 58 Abs. 2 der Straßenverkehrs-Zulassungs-Ordnung."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "Bei allen Veränderungen, die dazu führen, dass den Anforderungen dieser Verordnung nicht mehr entsprochen wird, richtet sich die zulässige Höchstgeschwindigkeit nach der Straßenverkehrs-Ordnung."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "Bescheinigungen, die nach § 1 Nr. 5 in der bis zum 21. Oktober 2005 geltenden Fassung ausgestellt worden sind, behalten in Bezug auf die darin zum Anhänger der Kombination enthaltenen Angaben weiterhin ihre Gültigkeit."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-10-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id74 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "45*"@de .
+
+dtd:column rdfs:label "column"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "\"§ 73"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Technische Festlegungen"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id151 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id152 .
+
+dtd:fussnoten-id52 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id131 .
+
+dtd:fussnoten-id54 a dtd:fussnoten .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "StVOAusnV 9"@de .
+
+dtd:kurzue-id32 a dtd:kurzue ;
+    dtd:has_Value "9. Ausnahmeverordnung zur StVO"@de .
+
+dtd:langue-id33 a dtd:langue ;
+    dtd:has_Value "Neunte Verordnung über Ausnahmen von den Vorschriften der Straßenverkehrs-Ordnung"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id32 ;
+    dtd:has_langue dtd:langue-id33 ;
+    dtd:has_standangabe dtd:standangabe-id34,
+        dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998BJNE000604308"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998BJNE000208305"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998BJNE000304308"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998BJNE000404308"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998BJNE000503308"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998BJNE000801308"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998BJNE000901308"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20210222212512"@de ;
+    dtd:has_doknr "BJNR317100998BJNE001001308"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id151 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id78 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id79 .
+
+dtd:standangabe-id34 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id154 ;
+    dtd:has_standtyp dtd:standtyp-id153 .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id156 ;
+    dtd:has_standtyp dtd:standtyp-id155 .
+
+dtd:standkommentar-id154 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 481 V v. 31.8.2015 I 1474"@de .
+
+dtd:standkommentar-id156 a dtd:standkommentar ;
+    dtd:has_Value "Die Geltung der V ist durch § 8 idF d. V v. 11.11.2010 I 1624 über den 31.12.2010 hinaus verlängert worden"@de .
+
+dtd:standtyp-id153 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id155 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:table-id72 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tabstyle "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id73 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id75 a dtd:tbody ;
+    dtd:has_row dtd:row-id76,
+        dtd:row-id77 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id133 ;
+    dtd:has_Footnotes dtd:Footnotes-id149 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id137 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:tgroup-id73 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id74 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id75 .
+
+dtd:zitstelle-id152 a dtd:zitstelle ;
+    dtd:has_Value "1998, 3171"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

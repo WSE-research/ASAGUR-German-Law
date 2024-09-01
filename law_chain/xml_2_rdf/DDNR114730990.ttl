@@ -1,0 +1,302 @@
+@prefix dtd: <urn:DJStiftAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405133201"@de ;
+    dtd:has_doknr "DDNR114730990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:B-id44 a dtd:B ;
+    dtd:has_Value "Der Minister für Jugend und Sport"@de .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id54 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id56 .
+
+dtd:DL-id45 a dtd:DL ;
+    dtd:has_DD dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id46 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id48 a dtd:DL ;
+    dtd:has_DD dtd:DD-id50 ;
+    dtd:has_DT dtd:DT-id49 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id51 a dtd:DL ;
+    dtd:has_DD dtd:DD-id53 ;
+    dtd:has_DT dtd:DT-id52 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id54 a dtd:LA ;
+    dtd:has_DL dtd:DL-id48 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"Stiftung Demokratische Jugend\". "@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_DL dtd:DL-id51 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"Stiftung Demokratische Jugend\". "@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"Stiftung Demokratische Jugend\"."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_BR dtd:BR-id43 ;
+    dtd:has_Value "Im beigetretenen Gebiet fortgeltendes Recht der ehem. Deutschen Demokratischen Republik gem. Anlage II Kap. X Sachg. B Abschn. I Nr. 1 - geändert durch Art. 5 Nr. 8 EinigVtrVbg v. 18.9.1990 II 1245 - nach Maßgabe d. Art. 9 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1219 mWv 3.10.1990. (+++ Textnachweis Geltung ab:  3.10.1990 +++)"@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_DL dtd:DL-id45 ;
+    dtd:has_Value "Der Minister für Jugend und Sport errichtet aus Mitteln des ehemaligen zentralen \"Kontos Junger Sozialisten\" in Höhe von 20 Millionen DM die \"Stiftung Demokratische Jugend\". "@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Die Stiftung erhält die im Anhang befindliche Satzung."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt mit ihrer Veröffentlichung in Kraft."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_B dtd:B-id44 ;
+    dtd:has_Value "Der Minister für Jugend und Sport"@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(Text siehe: DJStiftSa)"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-07-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id71 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id72 .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id73 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id74 .
+
+dtd:fussnoten-id37 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id59 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "DJStiftAnO"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "DJStiftAnO"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "DJStiftAnO"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "DJStiftAnO"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "DJStiftAnO"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "DJStiftAnO"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value "Anordnung über die Errichtung der \"Stiftung Demokratische Jugend\""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22,
+        dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405133201"@de ;
+    dtd:has_doknr "DDNR114730990"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405133201"@de ;
+    dtd:has_doknr "DDNR114730990BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405133201"@de ;
+    dtd:has_doknr "DDNR114730990BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405133201"@de ;
+    dtd:has_doknr "DDNR114730990BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405133201"@de ;
+    dtd:has_doknr "DDNR114730990BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405133201"@de ;
+    dtd:has_doknr "DDNR114730990BJNE000500307"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id71 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:periodikum-id73 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Satzung der \"Stiftung Demokratische Jugend\""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id72 a dtd:zitstelle ;
+    dtd:has_Value "1990, 1473"@de .
+
+dtd:zitstelle-id74 a dtd:zitstelle ;
+    dtd:has_Value "1990, Nr 60, 1473"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

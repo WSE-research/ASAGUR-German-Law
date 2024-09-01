@@ -1,0 +1,192 @@
+@prefix dtd: <urn:MarkenG§8Bek-00-03-27#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130442"@de ;
+    dtd:has_doknr "BJNR044510000"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:kommentar-id44 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2000, 446)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id45 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value "(Inhalt: Nicht darstellbares IT-Sicherheitszertifikat(schwarze Schrift auf türkis-grünem Hintergrund)"@de ;
+    dtd:has_typ dtd:Hinweis .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38,
+        dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41,
+        dtd:P-id42,
+        dtd:P-id43 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id32 .
+
+dtd:DL-id29 a dtd:DL ;
+    dtd:has_DD dtd:DD-id31 ;
+    dtd:has_DT dtd:DT-id30 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id30 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id32 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"Deutsches IT-Sicherheitszertifikat erteilt vom Bundesamt für Sicherheit in der Informationstechnik\" (Anlage)."@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 13. 4.2000 +++)"@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_DL dtd:DL-id29 ;
+    dtd:has_Value "Auf Grund des § 8 Abs. 2 Nr. 7 des Markengesetzes vom 25. Oktober 1994 (BGBl. I S. 3082; 1995 I S. 156) wird bekannt gemacht, dass das folgende Prüf- und Gewährzeichen von der Eintragung als Marke ausgeschlossen ist: \"Deutsches IT-Sicherheitszertifikat erteilt vom Bundesamt für Sicherheit in der Informationstechnik\" (Anlage).Diese Bekanntmachung ergeht im Anschluss an die Bekanntmachung vom 20. Juli 1999 (BGBl. I S. 1723)."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "Bundesministerium der Justiz"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2000, 446)"@de ;
+    dtd:has_noindex dtd:noindex-id27 .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "(Inhalt: Nicht darstellbares IT-Sicherheitszertifikat(schwarze Schrift auf türkis-grünem Hintergrund)"@de ;
+    dtd:has_noindex dtd:noindex-id28 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_Value "(Bundesadler) Deutsches IT-Sicherheitszertifikaterteilt vomBundesamt für Sicherheit in der Informationstechnik"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2000-03-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id46 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id47 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id35 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 00-03-27"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 00-03-27"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 00-03-27"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 8 des Markengesetzes"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:noindex-id27 a dtd:noindex .
+
+dtd:noindex-id28 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130442"@de ;
+    dtd:has_doknr "BJNR044510000"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130442"@de ;
+    dtd:has_doknr "BJNR044510000BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130442"@de ;
+    dtd:has_doknr "BJNR044510000BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id46 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Amtliches Prüf- und Gewährzeichen der Bundesrepublik Deutschland für die Sicherheit von informationstechnischen Systemen und Komponenten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id47 a dtd:zitstelle ;
+    dtd:has_Value "2000, 445"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

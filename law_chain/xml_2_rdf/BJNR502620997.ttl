@@ -1,0 +1,89 @@
+@prefix dtd: <urn:LuftVODV-176#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240508215001"@de ;
+    dtd:has_doknr "BJNR502620997"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1997-01-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id13 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id14 .
+
+dtd:fundstelle-id8 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id15 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id16 .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "LuftVODV 176"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value "Hundertsechsundsiebzigste Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flughafen Kiel-Holtenau)"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7,
+        dtd:fundstelle-id8 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id9 ;
+    dtd:has_standangabe dtd:standangabe-id10,
+        dtd:standangabe-id11 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240508215001"@de ;
+    dtd:has_doknr "BJNR502620997"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id13 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:periodikum-id15 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:standangabe-id10 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id18 ;
+    dtd:has_standtyp dtd:standtyp-id17 .
+
+dtd:standangabe-id11 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id20 ;
+    dtd:has_standtyp dtd:standtyp-id19 .
+
+dtd:standkommentar-id18 a dtd:standkommentar ;
+    dtd:has_Value "V aufgeh. durch § 4 Satz 2 V 96-1-2-176-1 v. 9.4.2024 I Nr. 144 mWv 8.8.2024"@de .
+
+dtd:standkommentar-id20 a dtd:standkommentar ;
+    dtd:has_Value "V ersetzt durch V 96-1-2-176-1 v. 9.4.2024 I Nr. 144 (LuftVODV 176 2024)"@de .
+
+dtd:standtyp-id17 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:standtyp-id19 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id12 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_text dtd:text-id12 .
+
+dtd:zitstelle-id14 a dtd:zitstelle ;
+    dtd:has_Value "1997, Nr 26, 1266"@de .
+
+dtd:zitstelle-id16 a dtd:zitstelle ;
+    dtd:has_Value "1997, 1266"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

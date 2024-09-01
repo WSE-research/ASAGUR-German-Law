@@ -1,0 +1,222 @@
+@prefix dtd: <urn:StVOuaVsAusnV-4#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210301212503"@de ;
+    dtd:has_doknr "BJNR605720021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48,
+        dtd:P-id49,
+        dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DL-id36 a dtd:DL ;
+    dtd:has_DD dtd:DD-id39,
+        dtd:DD-id40 ;
+    dtd:has_DT dtd:DT-id37,
+        dtd:DT-id38 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Value "§ 30 Absatz 3 Satz 1 der Straßenverkehrs-Ordnung an Sonntagen und Feiertagen sowie"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Value "§ 1 Absatz 1 der Ferienreiseverordnung an Samstagen vom 1. Juli bis einschließlich 31. August eines Jahres auf den in § 1 Absatz 2 und 3 der Ferienreiseverordnung genannten Straßen"@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.2.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id53 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 6 Absatz 1 Nummer 3 erster Halbsatz und Buchstabe d in Verbindung mit Absatz 2a und in Verbindung mit Absatz 3 des Straßenverkehrsgesetzes, von denen Absatz 1 im Satzteil vor Nummer 1 zuletzt durch Artikel 1 Nummer 6 Buchstabe a Doppelbuchstabe aa des Gesetzes vom 28. November 2014 (BGBl. I S. 1802) und Absatz 2a zuletzt durch Artikel 325 Nummer 2 der Verordnung vom 19. Juni 2020 (BGBl. I S. 1328) geändert worden sind, verordnen das Bundesministerium für Verkehr und digitale Infrastruktur und das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit nach Anhörung der zuständigen obersten Landesbehörden:"@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_DL dtd:DL-id36 ;
+    dtd:has_Value "(1) Der Inhaber einer Reisegewerbekarte nach § 55 Absatz 1 Nummer 2 der Gewerbeordnung darf Lastkraftwagen mit einer zulässigen Gesamtmasse über 7,5 Tonnen sowie Lastkraftwagen mit Anhänger für die Zwecke seiner Tätigkeit als Schausteller oder nach Schaustellerart abweichend von 1.§ 30 Absatz 3 Satz 1 der Straßenverkehrs-Ordnung an Sonntagen und Feiertagen sowie2.§ 1 Absatz 1 der Ferienreiseverordnung an Samstagen vom 1. Juli bis einschließlich 31. August eines Jahres auf den in § 1 Absatz 2 und 3 der Ferienreiseverordnung genannten Straßenführen oder in seinem Auftrag führen lassen."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(2) Führt der Inhaber einer Reisegewerbekarte nach § 55 Absatz 1 Nummer 2 der Gewerbeordnung ein in Absatz 1 genanntes Fahrzeug selbst, gilt § 60c Absatz 1 Satz 1 der Gewerbeordnung entsprechend. Die Tätigkeit als Schausteller oder nach Schaustellerart muss sich aus der Reisegewerbekarte ergeben."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(3) Lässt der Inhaber einer Reisegewerbekarte nach § 55 Absatz 1 Nummer 2 der Gewerbeordnung eine andere Person ein in Absatz 1 genanntes Fahrzeug in seinem Auftrag führen, gilt für diese Person Absatz 2 mit der Maßgabe, dass an die Stelle der Reisegewerbekarte eine Zweitschrift oder eine beglaubigte Kopie der Reisegewerbekarte tritt."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "SchauAusnV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-02-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id43 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "StVOuaVsAusnV 4"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "StVOuaVsAusnV 4"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "SchauAusnV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "StVOuaVsAusnV 4"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "SchauAusnV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "StVOuaVsAusnV 4"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "SchauAusnV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Schausteller-Ausnahmeverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Vierte Verordnung über Ausnahmen von straßenverkehrsrechtlichen Vorschriften"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23,
+        dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26,
+        dtd:jurabk-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20,
+        dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210301212503"@de ;
+    dtd:has_doknr "BJNR605720021"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210301212503"@de ;
+    dtd:has_doknr "BJNR605720021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210301212503"@de ;
+    dtd:has_doknr "BJNR605720021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210301212503"@de ;
+    dtd:has_doknr "BJNR605720021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id53 a dtd:pre ;
+    dtd:has_BR dtd:BR-id34,
+        dtd:BR-id35 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.2.2021 +++)"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "AT 26.02.2021 V2"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

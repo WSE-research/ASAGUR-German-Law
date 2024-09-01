@@ -1,0 +1,132 @@
+@prefix dtd: <urn:FrHfEmd/KielAufhG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150942"@de ;
+    dtd:has_doknr "BJNR171300009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id25 a dtd:Content ;
+    dtd:has_P dtd:P-id26 .
+
+dtd:Content-id27 a dtd:Content ;
+    dtd:has_P dtd:P-id28 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_BR dtd:BR-id22 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2010 +++)"@de ;
+    dtd:has_pre dtd:pre-id31 .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_Value "Die Freihäfen Emden und Kiel werden aufgehoben."@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am 1. Januar 2010 in Kraft. Gleichzeitig treten das Gesetz zur Änderung der Grenze des Freihafens Emden vom 19. Dezember 2000 (BGBl. I S. 1762) sowie die Verordnung über die Änderung des Umfangs des Feihafens Kiel vom 25. Juli 1955 (BAnz. Nr. 147 vom 3. August 1955), die zuletzt durch die Verordnung vom 29. Oktober 1992 (BAnz. S. 8789) geändert worden ist, außer Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-07-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id32 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id33 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id25 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "FrHfEmd/KielAufhG"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "FrHfEmd/KielAufhG"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "FrHfEmd/KielAufhG"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Aufhebung der Freihäfen Emden und Kiel"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150942"@de ;
+    dtd:has_doknr "BJNR171300009"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR171300009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR171300009BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id32 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id31 a dtd:pre ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2010 +++)"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id27 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:zitstelle-id33 a dtd:zitstelle ;
+    dtd:has_Value "2009, 1713"@de .
+

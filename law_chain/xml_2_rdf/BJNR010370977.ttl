@@ -1,0 +1,272 @@
+@prefix dtd: <urn:KOVAnpG-9#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125428"@de ;
+    dtd:has_doknr "BJNR010370977"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53,
+        dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64,
+        dtd:P-id65 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48,
+        dtd:LA-id49 .
+
+dtd:DL-id45 a dtd:DL ;
+    dtd:has_DD dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id46 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "13."@de .
+
+dtd:I-id43 a dtd:I ;
+    dtd:has_Value "In § 42 Abs. 1 wird nach Satz 1 folgender Satz eingefügt:"@de .
+
+dtd:I-id44 a dtd:I ;
+    dtd:has_Value "Eine Versorgung ist nur so lange zu leisten, als die frühere Ehefrau nach den eherechtlichen Vorschriften unterhaltsberechtigt gewesen wäre oder sonst Unterhaltsleistungen erhalten hätte."@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_I dtd:I-id43 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "In § 42 Abs. 1 wird nach Satz 1 folgender Satz eingefügt:"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_I dtd:I-id44 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Eine Versorgung ist nur so lange zu leisten, als die frühere Ehefrau nach den eherechtlichen Vorschriften unterhaltsberechtigt gewesen wäre oder sonst Unterhaltsleistungen erhalten hätte."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 7.1977 +++)"@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_BR dtd:BR-id42 ;
+    dtd:has_Value " Art. 2 d. G. ist in dem in Art. 3 des Einigungsvertrages genannten Gebiet gem. Anlage I Kap. VIII Sachg. K Abschn. III Nr. 20 EinigVtr iVm Art. 1 G v. 23.9.1990 II 885, 1070 ab 1. Januar 1991 anzuwenden. Maßgaben aufgrund EinigVtr nicht mehr anzuwenden gem. Art. 109 Nr. 3 Buchst. i DBuchst. tt G v. 8.12.2010 I 1864."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_DL dtd:DL-id45 ;
+    dtd:has_Value "Nr. 1 bis 12 13.In § 42 Abs. 1 wird nach Satz 1 folgender Satz eingefügt:Eine Versorgung ist nur so lange zu leisten, als die frühere Ehefrau nach den eherechtlichen Vorschriften unterhaltsberechtigt gewesen wäre oder sonst Unterhaltsleistungen erhalten hätte.  Nr. 14 bis 19"@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Art. 1 Nr. 13 Kursivdruck: Abgedruckt im Hinblick auf Art. 2"@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Artikel 1 Nr. 13 gilt nur für die früheren Ehefrauen, deren Ehe nach dem 30. Juni 1977 aufgelöst wurde."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes auch im Land Berlin."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt, soweit Absatz 2 nichts anderes bestimmt, am 1. Juli 1977 in Kraft."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "9. AnpG-KOV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1977-06-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id52 .
+
+dtd:fussnoten-id37 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id57 .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "KOVAnpG 9"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "KOVAnpG 9"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "KOVAnpG 9"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "KOVAnpG 9"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "KOVAnpG 9"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Neuntes Anpassungsgesetz-KOV"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Neuntes Gesetz über die Anpassung der Leistungen des Bundesversorgungsgesetzes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125428"@de ;
+    dtd:has_doknr "BJNR010370977"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125428"@de ;
+    dtd:has_doknr "BJNR010370977BJNE000100311"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125428"@de ;
+    dtd:has_doknr "BJNR010370977BJNE000200311"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125428"@de ;
+    dtd:has_doknr "BJNR010370977BJNE000300311"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125428"@de ;
+    dtd:has_doknr "BJNR010370977BJNE000400311"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Besitzstandsklausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "1977, 1037"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

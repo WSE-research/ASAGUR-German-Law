@@ -1,0 +1,217 @@
+@prefix dtd: <urn:EUFinSchStG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20190723212002"@de ;
+    dtd:has_doknr "BJNR084410019"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DL-id36 a dtd:DL ;
+    dtd:has_DD dtd:DD-id39,
+        dtd:DD-id40 ;
+    dtd:has_DT dtd:DT-id37,
+        dtd:DT-id38 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Value "einer für die Verwaltung von Einnahmen der Europäischen Union zuständigen Stelle über einnahmeerhebliche Tatsachen unrichtige oder unvollständige Angaben macht oder"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Value "eine für die Verwaltung von Einnahmen der Europäischen Union zuständige Stelle pflichtwidrig über einnahmeerhebliche Tatsachen in Unkenntnis lässt."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value " (+++ Textnachweis ab: 28.6.2019 +++)Das G wurde als Artikel 1 des G v. 19.6.2019 I 844 vom Bundestag beschlossen. Es ist gem. Art. 4 dieses G am 28.6.2019 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id51 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Wer in der Absicht, sich oder einem Dritten einen rechtswidrigen Vermögensvorteil zu verschaffen, dem Vermögen der Europäischen Union dadurch einen Nachteil zufügt, dass er ihm aus öffentlichen Mitteln der Europäischen Union gewährte Leistungen, deren Verwendung durch Rechtsvorschrift oder Vertrag beschränkt ist, entgegen dieser Verwendungsbeschränkung verwendet, wird mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe bestraft. Satz 1 gilt nicht für Subventionen im Sinne des § 264 Absatz 8 Nummer 2 des Strafgesetzbuches."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_DL dtd:DL-id36 ;
+    dtd:has_Value "Mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe wird bestraft, wer die Einnahmen der Europäischen Union dadurch rechtswidrig vermindert, dass er einen Irrtum erregt oder unterhält, indem er 1.einer für die Verwaltung von Einnahmen der Europäischen Union zuständigen Stelle über einnahmeerhebliche Tatsachen unrichtige oder unvollständige Angaben macht oder2.eine für die Verwaltung von Einnahmen der Europäischen Union zuständige Stelle pflichtwidrig über einnahmeerhebliche Tatsachen in Unkenntnis lässt."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Für die Anwendung der §§ 332 und 334 des Strafgesetzbuches, jeweils auch in Verbindung mit den §§ 335 und 335a des Strafgesetzbuches, auf eine Tat, die sich auf eine künftige richterliche Handlung oder eine künftige Diensthandlung bezieht, steht einer Verletzung der dienstlichen oder richterlichen Pflichten eine Beschädigung oder Gefährdung des Vermögens der Europäischen Union gleich."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "EUFinSchStG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2019-06-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id52 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id53 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id43 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "EUFinSchStG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "EUFinSchStG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "EUFinSchStG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "EUFinSchStG"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "EU-Finanzschutzstärkungsgesetz"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Stärkung des Schutzes der finanziellen Interessen der Europäischen Union"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20190723212002"@de ;
+    dtd:has_doknr "BJNR084410019"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20190723212002"@de ;
+    dtd:has_doknr "BJNR084410019BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20190723212002"@de ;
+    dtd:has_doknr "BJNR084410019BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20190723212002"@de ;
+    dtd:has_doknr "BJNR084410019BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id52 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id51 a dtd:pre ;
+    dtd:has_BR dtd:BR-id34,
+        dtd:BR-id35 ;
+    dtd:has_Value "(+++ Textnachweis ab: 28.6.2019 +++)"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value "Missbräuchliche Verwendung von Leistungen der Europäischen Union"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Rechtswidrige Verminderung von Einnahmen der Europäischen Union"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Bestechlichkeit und Bestechung mit Bezug zu den finanziellen Interessen der Europäischen Union"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id53 a dtd:zitstelle ;
+    dtd:has_Value "2019, 844"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

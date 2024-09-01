@@ -1,0 +1,810 @@
+@prefix dtd: <urn:ÖlSG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id92 a dtd:BR .
+
+dtd:BR-id93 a dtd:BR .
+
+dtd:BR-id94 a dtd:BR .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156,
+        dtd:P-id157,
+        dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160,
+        dtd:P-id161,
+        dtd:P-id162,
+        dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165,
+        dtd:P-id166,
+        dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169,
+        dtd:P-id170 .
+
+dtd:Content-id171 a dtd:Content ;
+    dtd:has_P dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175,
+        dtd:P-id176,
+        dtd:P-id177,
+        dtd:P-id178 .
+
+dtd:Content-id179 a dtd:Content ;
+    dtd:has_P dtd:P-id180,
+        dtd:P-id181,
+        dtd:P-id182 .
+
+dtd:Content-id183 a dtd:Content ;
+    dtd:has_P dtd:P-id184 .
+
+dtd:Content-id185 a dtd:Content ;
+    dtd:has_P dtd:P-id186,
+        dtd:P-id187,
+        dtd:P-id188 .
+
+dtd:Content-id189 a dtd:Content ;
+    dtd:has_P dtd:P-id190,
+        dtd:P-id191,
+        dtd:P-id192,
+        dtd:P-id193 .
+
+dtd:Content-id194 a dtd:Content ;
+    dtd:has_P dtd:P-id195 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id128 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id129 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id134 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id135 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DL-id103 a dtd:DL ;
+    dtd:has_DD dtd:DD-id106,
+        dtd:DD-id107 ;
+    dtd:has_DT dtd:DT-id104,
+        dtd:DT-id105 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id108 a dtd:DL ;
+    dtd:has_DD dtd:DD-id113,
+        dtd:DD-id114,
+        dtd:DD-id115,
+        dtd:DD-id116 ;
+    dtd:has_DT dtd:DT-id109,
+        dtd:DT-id110,
+        dtd:DT-id111,
+        dtd:DT-id112 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id117 a dtd:DL ;
+    dtd:has_DD dtd:DD-id120,
+        dtd:DD-id121 ;
+    dtd:has_DT dtd:DT-id118,
+        dtd:DT-id119 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id122 a dtd:DL ;
+    dtd:has_DD dtd:DD-id127,
+        dtd:DD-id128,
+        dtd:DD-id129,
+        dtd:DD-id130 ;
+    dtd:has_DT dtd:DT-id123,
+        dtd:DT-id124,
+        dtd:DT-id125,
+        dtd:DT-id126 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id131 a dtd:DL ;
+    dtd:has_DD dtd:DD-id134,
+        dtd:DD-id135 ;
+    dtd:has_DT dtd:DT-id132,
+        dtd:DT-id133 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id96 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102 ;
+    dtd:has_DT dtd:DT-id97,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id123 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id124 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id125 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id132 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id133 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach dem Haftungsübereinkommen von 1992 in der Fassung der Bekanntmachung vom 23. April 1996 (BGBl. 1996 II S. 670, 671),"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach dem Fondsübereinkommen von 1992 in der Fassung der Bekanntmachung vom 23. April 1996 (BGBl. 1996 II S. 685, 686) und dem Protokoll von 2003 vom 16. Mai 2003 zum Internationalen Übereinkommen von 1992 über die Errichtung eines Internationalen Fonds zur Entschädigung für Ölverschmutzungsschäden (BGBl. 2004 II S. 1290, 1291) (Zusatzfondsübereinkommen von 2003),"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach dem Internationalen Übereinkommen von 2001 vom 23. März 2001 über die zivilrechtliche Haftung für Bunkerölverschmutzungsschäden (BGBl. 2006 II S. 578, 579) (Bunkeröl-Übereinkommen)."@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Voraussetzungen für die Ausstellung, Gültigkeit und Einziehung der Bescheinigung,"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Verfahren bei der Ausstellung und Einziehung der Bescheinigung."@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Entschädigung nach Artikel 4 des Fondsübereinkommens von 1992;"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Entschädigung nach Artikel 4 des Zusatzfondsübereinkommens von 2003;"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf die dem Fonds nach dem Fondsübereinkommen von 1992 zustehenden Beiträge;"@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf die dem Fonds nach dem Zusatzfondsübereinkommen von 2003 zustehenden Beiträge"@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Schadenersatz oder Ersatz von Aufwendungen wegen Verschmutzungsschäden nach Artikel III, IV und VII Abs. 8 des Haftungsübereinkommens von 1992, nach Artikel 3, 4, 5 und 7 Abs. 10 des Bunkeröl-Übereinkommens oder nach § 1 Abs. 2 und"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Entschädigung nach Artikel 4 des Fondsübereinkommens von 1992 oder nach Artikel 4 des Zusatzfondsübereinkommens von 2003"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einer Rechtsverordnung nach § 2 Absatz 4 Satz 2 zuwiderhandelt, soweit sie für einen bestimmten Tatbestand auf diese Bußgeldvorschrift verweist,"@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 3 Absatz 1 Satz 1, auch in Verbindung mit Satz 4, oder entgegen § 3 Absatz 1 Satz 2, auch in Verbindung mit Satz 5, nicht sicherstellt, dass eine dort genannte Bescheinigung an Bord mitgeführt wird,"@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 3 Absatz 1 Satz 3, auch in Verbindung mit Satz 4 oder 5, eine dort genannte Bescheinigung an Bord nicht mitführt oder nicht oder nicht rechtzeitig vorweist oder"@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 5 Absatz 2 in Verbindung mit einer Rechtsverordnung nach § 5 Absatz 7 eine Angabe nicht, nicht richtig, nicht vollständig oder nicht rechtzeitig macht."@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in den Fällen des Absatzes 1 Nummer 1 bis 3 und des Absatzes 2 das Bundesamt für Seeschifffahrt und Hydrographie und"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in den Fällen des Absatzes 1 Nummer 4 das Bundesamt für Wirtschaft und Ausfuhrkontrolle."@de .
+
+dtd:NB-id95 a dtd:NB ;
+    dtd:has_Value "Öl-Pflichtversicherungsbescheinigung"@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_BR dtd:BR-id92 ;
+    dtd:has_Value " (+++ Textnachweis ab: 8.10.1988 +++)G teilweise zukünftig in Kraft nach Maßgabe seines § 14 Abs. 1; in Kraft gem. Bek. v. 8.12.1995 I 2084 mWv 30.5.1996 u. Bek. v. 4.7.2005 I 1952 mWv 3.3.2005"@de ;
+    dtd:has_pre dtd:pre-id196 .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_DL dtd:DL-id96 ;
+    dtd:has_Value "(1) Die Haftung und Entschädigung für Ölverschmutzungsschäden und die Verpflichtung zur Aufrechterhaltung einer Versicherung oder sonstigen finanziellen Sicherheit richten sich nach folgenden internationalen Übereinkommen in ihrer jeweils für die Bundesrepublik Deutschland geltenden Fassung: 1.nach dem Haftungsübereinkommen von 1992 in der Fassung der Bekanntmachung vom 23. April 1996 (BGBl. 1996 II S. 670, 671),2.nach dem Fondsübereinkommen von 1992 in der Fassung der Bekanntmachung vom 23. April 1996 (BGBl. 1996 II S. 685, 686) und dem Protokoll von 2003 vom 16. Mai 2003 zum Internationalen Übereinkommen von 1992 über die Errichtung eines Internationalen Fonds zur Entschädigung für Ölverschmutzungsschäden (BGBl. 2004 II S. 1290, 1291) (Zusatzfondsübereinkommen von 2003),3.nach dem Internationalen Übereinkommen von 2001 vom 23. März 2001 über die zivilrechtliche Haftung für Bunkerölverschmutzungsschäden (BGBl. 2006 II S. 578, 579) (Bunkeröl-Übereinkommen)."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(2) Die Bestimmungen der in Absatz 1 Nummer 1 und 3 genannten Übereinkommen über die Verpflichtung zur Aufrechterhaltung einer Versicherung oder sonstigen finanziellen Sicherheit sind auf Schiffe im Sinne des Artikels I Nummer 1 des Haftungsübereinkommens von 1992 und des Artikels 1 Nummer 1 des Internationalen Übereinkommens von 2001 vom 23. März 2001 über die zivilrechtliche Haftung für Bunkerölverschmutzungsschäden aus Nicht-Vertragsstaaten, die sich im deutschen Hoheitsgebiet befinden, anzuwenden."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(3) Die Mindesthöhe der nach Artikel 7 Absatz 1 des Internationalen Übereinkommens von 2001 vom 23. März 2001 über die zivilrechtliche Haftung für Bunkerölverschmutzungsschäden (BGBl. 2006 II S. 578, 579), auch in Verbindung mit Absatz 2, aufrechtzuerhaltenden Versicherung oder sonstigen finanziellen Sicherheit beläuft sich je Schadensereignis auf die Summe der Beträge, auf die der Schiffseigentümer seine Haftung nach Artikel 6 Absatz 1 des Übereinkommens von 1976 vom 19. November 1976 über die Beschränkung der Haftung für Seeforderungen (BGBl. 1986 II S. 786, 787), das durch das Protokoll vom 2. Mai 1996 (BGBl. 2000 II S. 770, 791) geändert worden ist, in der jeweils für die Bundesrepublik Deutschland geltenden Fassung (Haftungsbeschränkungsübereinkommen) beschränken kann."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(1) Das Bestehen der nach Artikel VII Absatz 1 des Haftungsübereinkommens von 1992, auch in Verbindung mit § 1 Absatz 2, vorgeschriebenen Versicherung oder sonstigen finanziellen Sicherheit wird durch eine von dem nach Artikel VII Absatz 2 Satz 2 des Haftungsübereinkommens von 1992 zuständigen Vertragsstaat auszustellende Bescheinigung (Öl-Pflichtversicherungsbescheinigung 1992) nachgewiesen. Das Bestehen der nach Artikel 7 Absatz 1 des Bunkeröl-Übereinkommens vorgeschriebenen Versicherung oder sonstigen finanziellen Sicherheit, auch in Verbindung mit § 1 Absatz 2, wird durch eine von dem nach Artikel 7 Absatz 2 Satz 2 des Bunkeröl-Übereinkommens zuständigen Vertragsstaat auszustellende Bescheinigung (Bunkeröl-Pflichtversicherungsbescheinigung) nachgewiesen."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(2) Dem Eigentümer eines Schiffes, das in das Schiffsregister eines deutschen Gerichts eingetragen ist und die Bundesflagge führt, hat die zuständige Behörde auf Antrag die Öl-Pflichtversicherungsbescheinigung 1992 oder die Bunkeröl-Pflichtversicherungsbescheinigung nach Absatz 1 Satz 1 oder Satz 2 auszustellen, wenn er nachweist, dass eine entsprechende Versicherung oder sonstige finanzielle Sicherheit besteht und kein begründeter Anlass für die Annahme gegeben ist, dass der Sicherheitsgeber nicht in der Lage sein wird, seine Verpflichtungen zu erfüllen."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(3) Dem Eigentümer eines Schiffes, das nicht die Bundesflagge führt, kann die zuständige Behörde die Öl-Pflichtversicherungsbescheinigung 1992 oder die Bunkeröl-Pflichtversicherungsbescheinigung nach Absatz 1 Satz 1 oder Satz 2 auf Antrag ausstellen; Absatz 2 gilt entsprechend."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_DL dtd:DL-id103 ;
+    dtd:has_Value "(4) Das Bundesministerium für Verkehr und digitale Infrastruktur erläßt im Einvernehmen mit dem Bundesministerium der Finanzen durch Rechtsverordnung nähere Bestimmungen über 1.die Voraussetzungen für die Ausstellung, Gültigkeit und Einziehung der Bescheinigung,2.das Verfahren bei der Ausstellung und Einziehung der Bescheinigung.In einer Rechtsverordnung nach Satz 1 Nummer 2 können insbesondere die Mitteilungspflichten des Eigentümers eines Seeschiffes im Verfahren der Ausstellung der Bescheinigung, auch hinsichtlich nach Ausstellung eintretender Umstände, und im Verfahren der Einziehung der Bescheinigung geregelt werden."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_NB dtd:NB-id95 ;
+    dtd:has_Value "(1) Der eingetragene Eigentümer eines Schiffes nach Artikel VII Absatz 1 des Haftungsübereinkommens von 1992, auch in Verbindung mit § 1 Absatz 2, hat sicherzustellen, dass die Öl-Pflichtversicherungsbescheinigung 1992 an Bord mitgeführt wird. Der eingetragene Eigentümer eines Schiffes nach Artikel 7 Absatz 1 des Bunkeröl-Übereinkommens, auch in Verbindung mit § 1 Absatz 2, hat sicherzustellen, dass die Bunkeröl-Pflichtversicherungsbescheinigung an Bord mitgeführt wird. Der Schiffsführer eines Schiffes ist verpflichtet, die Öl-Pflichtversicherungsbescheinigung 1992 und die Bunkeröl-Pflichtversicherungsbescheinigung an Bord mitzuführen und diese der zuständigen Behörde auf Verlangen vorzuweisen. Die Sätze 1 und 3 gelten auch für die Bescheinigung nach Artikel VII Absatz 12 des Haftungsübereinkommens von 1992. Die Sätze 2 und 3 gelten auch für die Bescheinigung nach Artikel 7 Absatz 14 des Bunkeröl-Übereinkommens."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(2) Die zuständige Behörde kann in den Betriebs- und Geschäftsräumen des Schiffes Kontrollen nach Maßgabe von § 8 des Seeaufgabengesetzes durchführen, um die Einhaltung der Pflichten nach Absatz 1 zu überwachen."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(3) Wird die Öl-Pflichtversicherungsbescheinigung 1992 oder die Bunkeröl-Pflichtversicherungsbescheinigung nicht an Bord mitgeführt oder kann sie auf Verlangen nicht vorgelegt werden, kann die zuständige Behörde das Schiff festhalten, bis die jeweilige Bescheinigung vorgelegt worden ist."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(1) § 2 Absatz 2 und 3 und die nach § 2 Absatz 4 erlassene Rechtsverordnung werden durch den Bund ausgeführt; die Wahrnehmung der Aufgaben obliegt dem Bundesamt für Seeschifffahrt und Hydrographie."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(2) § 3 Absatz 2 und 3 wird durch den Bund ausgeführt; die Wahrnehmung der Aufgaben obliegt der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation. § 6 des Seeaufgabengesetzes ist entsprechend anzuwenden."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesministerium für Wirtschaft und Energie teilt dem Direktor des Internationalen Entschädigungsfonds für Ölverschmutzungsschäden (Fonds) die in Artikel 15 Abs. 2 des Fondsübereinkommens von 1992 und dem Direktor des Zusatzfondsübereinkommens von 2003 die in Artikel 13 des Zusatzfondsübereinkommens von 2003 vorgesehenen Angaben hinsichtlich des im Geltungsbereich dieses Gesetzes erhaltenen beitragspflichtigen Öls mit."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(2) Personen, die wegen des Erhalts von Öl im Geltungsbereich dieses Gesetzes zur Zahlung von Beiträgen an den Fonds und an den Zusatzfonds von 2003 verpflichtet sind, haben dem Bundesministerium für Wirtschaft und Energie die für dessen Mitteilung nach Absatz 1 erforderlichen Angaben über ihren Erhalt von Öl zu machen und deren Richtigkeit auf Verlangen des Bundesministeriums für Wirtschaft und Energie zu beweisen."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(3) Macht eine nach Absatz 2 mitteilungspflichtige Person über den Erhalt beitragspflichtigen Öls nicht oder nicht rechtzeitig die vorgeschriebenen Angaben oder erbringt sie nicht die verlangten Beweise, so kann das Bundesministerium für Wirtschaft und Energie nach Ablauf einer angemessenen Nachfrist seiner Mitteilung eine im Wege der Schätzung ermittelte Menge beitragspflichtigen Öls zugrunde legen."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(4) Außer für die in Absatz 1 vorgesehene Mitteilung dürfen die nach Absatz 2 gemachten Angaben Dritten weder vom Bundesministerium für Wirtschaft und Energie noch von nachgeordneten Behörden zugänglich gemacht werden."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "(5) \"Assoziierte Personen\" im Sinne von Artikel 10 Abs. 2 Buchstabe b des Fondsübereinkommens von 1992 sind rechtlich selbständige Unternehmen, die im Verhältnis zueinander in Mehrheitsbesitz stehende Unternehmen und mit Mehrheit beteiligte Unternehmen sind. Ob im Sinne des Satzes 1 Unternehmen im Verhältnis zueinander in Mehrheitsbesitz stehende Unternehmen und mit Mehrheit beteiligte Unternehmen sind, bestimmt sich nach dem sinngemäß anzuwendenden § 16 des Aktiengesetzes."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(6) Das Bundesministerium für Wirtschaft und Energie kann die ihm nach den Absätzen 1 bis 3 zugewiesenen Aufgaben auf eine nachgeordnete Behörde übertragen."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(7) Das Bundesministerium für Wirtschaft und Energie erläßt im Einvernehmen mit dem Bundesministerium der Justiz und für Verbraucherschutz durch Rechtsverordnung nähere Bestimmungen über die in Absatz 2 vorgesehenen Angaben, ihre Form und die zu wahrenden Fristen."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_DL dtd:DL-id108 ;
+    dtd:has_Value "(1) Für Streitigkeiten wegen der Ansprüche 1.auf Entschädigung nach Artikel 4 des Fondsübereinkommens von 1992;2.auf Entschädigung nach Artikel 4 des Zusatzfondsübereinkommens von 2003;3.auf die dem Fonds nach dem Fondsübereinkommen von 1992 zustehenden Beiträge;4.auf die dem Fonds nach dem Zusatzfondsübereinkommen von 2003 zustehenden Beiträgeist der Rechtsweg zu den ordentlichen Gerichten gegeben, soweit sich nicht aus Artikel 7 Abs. 3 Satz 1 des Fondsübereinkommens von 1992 oder aus Artikel 7 des Zusatzfondsübereinkommens von 2003 etwas anderes ergibt."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_DL dtd:DL-id117 ;
+    dtd:has_Value "(2) Für Streitigkeiten wegen der Ansprüche 1.auf Schadenersatz oder Ersatz von Aufwendungen wegen Verschmutzungsschäden nach Artikel III, IV und VII Abs. 8 des Haftungsübereinkommens von 1992, nach Artikel 3, 4, 5 und 7 Abs. 10 des Bunkeröl-Übereinkommens oder nach § 1 Abs. 2 und2.auf Entschädigung nach Artikel 4 des Fondsübereinkommens von 1992 oder nach Artikel 4 des Zusatzfondsübereinkommens von 2003ist auch das Gericht zuständig, in dessen Bezirk das schädigende Ereignis oder der Verschmutzungsschaden eingetreten ist oder Schutzmaßnahmen im Sinne von Artikel I Nr. 7 des Haftungsübereinkommens von 1992 oder Artikel 1 Nr. 9 des Bunkeröl-Übereinkommens ergriffen oder angeordnet worden sind."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(3) Ist der Verschmutzungsschaden in der ausschließlichen Wirtschaftszone der Bundesrepublik Deutschland verursacht worden oder sind dort Schutzmaßnahmen im Sinne von Artikel I Nummer 7 des Haftungsübereinkommens von 1992 oder Artikel 1 Nummer 7 des Bunkeröl-Übereinkommens ergriffen oder angeordnet worden und ist ein anderer Gerichtsstand nicht begründet, so ist das Gericht örtlich zuständig, in dessen Bezirk die Hamburg Port Authority ihren Sitz hat."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "Artikel 10 des Bunkeröl-Übereinkommens ist auf die in einem anderen Mitgliedstaat der Europäischen Union ergangenen Entscheidungen über Klagen aufgrund des Bunkeröl-Übereinkommens, die gemäß dem Recht der Europäischen Union anerkannt und vollstreckt werden, nicht anzuwenden."@de .
+
+dtd:P-id186 a dtd:P ;
+    dtd:has_Value "(1) Mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe wird bestraft, wer entgegen Artikel VII Absatz 1 des Haftungsübereinkommens von 1992 in der Fassung der Bekanntmachung vom 23. April 1996 (BGBl. 1996 II S. 670, 671), auch in Verbindung mit § 1 Absatz 2, eine Versicherung oder eine sonstige finanzielle Sicherheit nicht aufrechterhält."@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_Value "(2) Mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe wird bestraft, wer entgegen Artikel 7 Absatz 1 des Internationalen Übereinkommens von 2001 vom 23. März 2001 über die zivilrechtliche Haftung für Bunkerölverschmutzungsschäden (BGBl. 2006 II S. 578, 579), auch in Verbindung mit § 1 Absatz 2, eine Versicherung oder eine sonstige finanzielle Sicherheit nicht aufrechterhält."@de .
+
+dtd:P-id188 a dtd:P ;
+    dtd:has_Value "(3) Handelt der Täter in den Fällen des Absatzes 1 fahrlässig, so ist die Strafe Freiheitsstrafe bis zu einem Jahr oder Geldstrafe."@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_DL dtd:DL-id122 ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer vorsätzlich oder fahrlässig 1.einer Rechtsverordnung nach § 2 Absatz 4 Satz 2 zuwiderhandelt, soweit sie für einen bestimmten Tatbestand auf diese Bußgeldvorschrift verweist,2.entgegen § 3 Absatz 1 Satz 1, auch in Verbindung mit Satz 4, oder entgegen § 3 Absatz 1 Satz 2, auch in Verbindung mit Satz 5, nicht sicherstellt, dass eine dort genannte Bescheinigung an Bord mitgeführt wird,3.entgegen § 3 Absatz 1 Satz 3, auch in Verbindung mit Satz 4 oder 5, eine dort genannte Bescheinigung an Bord nicht mitführt oder nicht oder nicht rechtzeitig vorweist oder4.entgegen § 5 Absatz 2 in Verbindung mit einer Rechtsverordnung nach § 5 Absatz 7 eine Angabe nicht, nicht richtig, nicht vollständig oder nicht rechtzeitig macht."@de .
+
+dtd:P-id191 a dtd:P ;
+    dtd:has_Value "(2) Ferner handelt ordnungswidrig, wer eine in § 8 Absatz 2 bezeichnete Handlung fahrlässig begeht."@de .
+
+dtd:P-id192 a dtd:P ;
+    dtd:has_Value "(3) Die Ordnungswidrigkeit kann im Falle des Absatzes 1 Nr. 1 und des Absatzes 2 mit einer Geldbuße bis zu dreißigtausend, in den Fällen des Absatzes 1 Nr. 2 bis 4 mit einer Geldbuße bis zu zehntausend Euro geahndet werden."@de .
+
+dtd:P-id193 a dtd:P ;
+    dtd:has_DL dtd:DL-id131 ;
+    dtd:has_Value "(4) Verwaltungsbehörde im Sinne des § 36 Absatz 1 Nummer 1 des Gesetzes über Ordnungswidrigkeiten ist 1.in den Fällen des Absatzes 1 Nummer 1 bis 3 und des Absatzes 2 das Bundesamt für Seeschifffahrt und Hydrographie und2.in den Fällen des Absatzes 1 Nummer 4 das Bundesamt für Wirtschaft und Ausfuhrkontrolle."@de .
+
+dtd:P-id195 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtabk-id36 a dtd:amtabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id37 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1988-09-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id67 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id197 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id198 .
+
+dtd:fussnoten-id71 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id153 .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:fussnoten-id79 a dtd:fussnoten .
+
+dtd:fussnoten-id81 a dtd:fussnoten .
+
+dtd:fussnoten-id83 a dtd:fussnoten .
+
+dtd:fussnoten-id85 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:fussnoten-id89 a dtd:fussnoten .
+
+dtd:fussnoten-id91 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "ÖlSG"@de .
+
+dtd:kurzue-id39 a dtd:kurzue ;
+    dtd:has_Value "Ölschadengesetz"@de .
+
+dtd:langue-id40 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Haftung und Entschädigung für Ölverschmutzungsschäden durch Seeschiffe"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id36 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id37 ;
+    dtd:has_fundstelle dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_kurzue dtd:kurzue-id39 ;
+    dtd:has_langue dtd:langue-id40 ;
+    dtd:has_standangabe dtd:standangabe-id41 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 ;
+    dtd:has_titel dtd:titel-id68 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_jurabk dtd:jurabk-id69 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE001003116"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE001104130"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE001301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE000404116"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE002009130"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE000603116"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE000703116"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE000806377"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE000904116"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20230614213503"@de ;
+    dtd:has_doknr "BJNR017700988BJNE001901116"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id197 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id196 a dtd:pre ;
+    dtd:has_BR dtd:BR-id93,
+        dtd:BR-id94 ;
+    dtd:has_Value "(+++ Textnachweis ab: 8.10.1988 +++)"@de .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id200 ;
+    dtd:has_standtyp dtd:standtyp-id199 .
+
+dtd:standkommentar-id200 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 18 G v. 22.2.2023 I Nr 51"@de .
+
+dtd:standtyp-id199 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id171 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id179 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id183 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id185 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id189 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id194 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id79 ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id81 ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id83 ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id89 ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id91 ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Haftung und Entschädigung für Ölverschmutzungsschäden; Versicherungspflicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Bescheinigung über eine Versicherung oder sonstige finanzielle Sicherheit; Verordnungsermächtigung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Mitführen der Bescheinigungen; Festhalten des Schiffes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Behördliche Zuständigkeiten; Gebühren und Auslagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Mitteilung der erhaltenen Ölmengen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Gerichtliche Zuständigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Anerkennung und Vollstreckung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Strafvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id68 a dtd:titel ;
+    dtd:has_Value "Bußgeldvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id198 a dtd:zitstelle ;
+    dtd:has_Value "1988, 1770"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

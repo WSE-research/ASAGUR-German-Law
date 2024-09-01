@@ -1,0 +1,364 @@
+@prefix dtd: <urn:LFzPfSchG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75,
+        dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78,
+        dtd:P-id79,
+        dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82,
+        dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id65 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id66 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id67 .
+
+dtd:DL-id58 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64 ;
+    dtd:has_DT dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id65 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Luftfahrzeuge, die ausschließlich staatlichen oder postalischen Zwecken dienen,"@de .
+
+dtd:LA-id66 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Luftfahrzeuge, die auf einer Fluglinie des öffentlichen Verkehrs eingesetzt sind, sowie die für den Liniendienst unentbehrlichen Ersatzluftfahrzeuge,"@de .
+
+dtd:LA-id67 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "andere Luftfahrzeuge, die zur Beförderung von Personen oder Gütern gegen Entgelt verwendet werden und zum Abflug für eine solche Beförderung fertig sind."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_BR dtd:BR-id55 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de ;
+    dtd:has_pre dtd:pre-id88 .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "Die Reichsregierung hat zur Durchführung des zweiten Abkommens zur Vereinheitlichung des Luftprivatrechts vom 29. Mai 1933 (Reichsgesetzbl. 1935 II S. 301) und zur Erweiterung des Geltungsbereichs seiner Bestimmungen das folgende Gesetz beschlossen, das hiermit verkündet wird:"@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_DL dtd:DL-id58 ;
+    dtd:has_Value "Zur Vollziehung eines Arrestes dürfen nicht gepfändet werden: 1.Luftfahrzeuge, die ausschließlich staatlichen oder postalischen Zwecken dienen, 2.Luftfahrzeuge, die auf einer Fluglinie des öffentlichen Verkehrs eingesetzt sind, sowie die für den Liniendienst unentbehrlichen Ersatzluftfahrzeuge, 3.andere Luftfahrzeuge, die zur Beförderung von Personen oder Gütern gegen Entgelt verwendet werden und zum Abflug für eine solche Beförderung fertig sind. "@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(1) Das Verbot des § 1 steht der Pfändung eines Luftfahrzeugs der im § 1 Nr. 3 bezeichneten Art nicht entgegen, wenn der Arrestanspruch während der Reise, auf der sich das Luftfahrzeug befindet, entstanden ist oder die Schuld für die bevorstehende Reise eingegangen ist. Das Vorliegen dieser Voraussetzungen ist vom Antragsteller glaubhaft zu machen."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(2) Die Pfändung darf jedoch nur erfolgen, wenn sie im Arrestbefehl oder in einem ergänzenden Beschluß des Arrestgerichts für zulässig erklärt ist."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "(1) Durch Hinterlegung einer den Betrag der Schuld und der Kosten deckenden Summe wird die Vollziehung des Arrestes in Luftfahrzeuge gehemmt und der Schuldner zu dem Antrag auf sofortige Aufhebung des in ein Luftfahrzeug vollzogenen Arrestes berechtigt."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "(2) Ist der Wert des Luftfahrzeugs niedriger als dieser Betrag, so genügt die Hinterlegung eines dem Wert des Luftfahrzeugs entsprechenden Betrags."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "(3) Im übrigen bewendet es bei der Vorschrift des § 923 der Zivilprozeßordnung."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(1) Die Vorschriften der §§ 1 bis 3 gelten sinngemäß für einstweilige Verfügungen, durch die der Abflug eines Luftfahrzeugs gehindert wird."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "(2) Ist dem Eigentümer eines Luftfahrzeugs der Besitz an seinem Luftfahrzeug durch eine unerlaubte Handlung entzogen worden, so werden der Erlaß und die Vollziehung einer von ihm beantragten, den Abflug des Luftfahrzeugs hindernden einstweiligen Verfügung durch dieses Gesetz nicht beschränkt."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "Die in diesem Gesetz bestimmten Vergünstigungen genießen Luftfahrzeuge aus Staaten, für die das Inkrafttreten des Abkommens vom 29. Mai 1933 zur Vereinheitlichung von Regeln über die Sicherungsbeschlagnahme von Luftfahrzeugen (RGBl. 1935 II S. 301) im Bundesgesetzblatt bekannt gemacht worden ist."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1935-03-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id89 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id90 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id68 .
+
+dtd:fussnoten-id52 a dtd:fussnoten .
+
+dtd:fussnoten-id54 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "LFzPfSchG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "LFzPfSchG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "LFzPfSchG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "LFzPfSchG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "LFzPfSchG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "LFzPfSchG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "LFzPfSchG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "LFzPfSchG"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Unzulässigkeit der Sicherungsbeschlagnahme von Luftfahrzeugen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935BJNE000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935BJNE000300303"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935BJNE000400303"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935BJNE000500303"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935BJNE000601310"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405124728"@de ;
+    dtd:has_doknr "BJNR003850935BJNE000701301"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id89 a dtd:periodikum ;
+    dtd:has_Value "RGBl I"@de .
+
+dtd:pre-id88 a dtd:pre ;
+    dtd:has_BR dtd:BR-id56,
+        dtd:BR-id57 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id92 ;
+    dtd:has_standtyp dtd:standtyp-id91 .
+
+dtd:standkommentar-id92 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 57 G v. 19.4.2006 I 866"@de .
+
+dtd:standtyp-id91 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id86 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:zitstelle-id90 a dtd:zitstelle ;
+    dtd:has_Value "1935, 385"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

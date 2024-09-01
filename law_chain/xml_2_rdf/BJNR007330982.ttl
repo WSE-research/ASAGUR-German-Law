@@ -1,0 +1,437 @@
+@prefix dtd: <urn:SeeSchAÜV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125142"@de ;
+    dtd:has_doknr "BJNR007330982"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id88 a dtd:Content ;
+    dtd:has_P dtd:P-id89,
+        dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92 .
+
+dtd:Content-id93 a dtd:Content ;
+    dtd:has_P dtd:P-id94,
+        dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id97 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id99 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id74,
+        dtd:LA-id75 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id81,
+        dtd:LA-id82 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id77 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id78 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id80 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id50,
+        dtd:DD-id51,
+        dtd:DD-id52 ;
+    dtd:has_DT dtd:DT-id47,
+        dtd:DT-id48,
+        dtd:DT-id49 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id53 a dtd:DL ;
+    dtd:has_DD dtd:DD-id59,
+        dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62,
+        dtd:DD-id63 ;
+    dtd:has_DT dtd:DT-id54,
+        dtd:DT-id55,
+        dtd:DT-id56,
+        dtd:DT-id57,
+        dtd:DT-id58 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id64 a dtd:DL ;
+    dtd:has_DD dtd:DD-id67,
+        dtd:DD-id68 ;
+    dtd:has_DT dtd:DT-id65,
+        dtd:DT-id66 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id69 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72,
+        dtd:DD-id73 ;
+    dtd:has_DT dtd:DT-id70,
+        dtd:DT-id71 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id74 a dtd:LA ;
+    dtd:has_DL dtd:DL-id53 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Einhaltung der Vorschriften übera)die Sicherheit und Leichtigkeit des Verkehrs, die Abwehr von Gefahren für das Wasser und die Verhütung der von der Seeschiffahrt ausgehenden Gefahren und schädlichen Umwelteinwirkungen, b)die Schiffssicherheit einschließlich des Freibords, c)die Besetzung und Bemannung von Schiffen, d)die Eignung und Befähigung des Kapitäns und der Besatzungsmitglieder von Schiffen und e)die Sicherheit und Gesundheit der Seeleute, "@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit das Völkerrecht dies zuläßt oder erfordert, zu überwachen,"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Sicherheit und Leichtigkeit des Verkehrs, die Abwehr von Gefahren für das Wasser und die Verhütung der von der Seeschiffahrt ausgehenden Gefahren und schädlichen Umwelteinwirkungen,"@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Schiffssicherheit einschließlich des Freibords,"@de .
+
+dtd:LA-id78 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Besetzung und Bemannung von Schiffen,"@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Eignung und Befähigung des Kapitäns und der Besatzungsmitglieder von Schiffen und"@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Sicherheit und Gesundheit der Seeleute,"@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_DL dtd:DL-id64 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die unaufschiebbaren Maßnahmen zura)Abwehr von Gefahren für den Schiffsverkehr oder für das Wasser, die von Schiffen unter der Bundesflagge ausgehen, nach pflichtgemäßem Ermessen, b)Erfüllung völkerrechtlicher oder zwischenstaatlicher Verpflichtungen oder zur Wahrnehmung völkerrechtlicher oder zwischenstaatlicher Befugnisse der Bundesrepublik Deutschland "@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zu treffen,"@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abwehr von Gefahren für den Schiffsverkehr oder für das Wasser, die von Schiffen unter der Bundesflagge ausgehen, nach pflichtgemäßem Ermessen,"@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Erfüllung völkerrechtlicher oder zwischenstaatlicher Verpflichtungen oder zur Wahrnehmung völkerrechtlicher oder zwischenstaatlicher Befugnisse der Bundesrepublik Deutschland"@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Vollzugs- und Ermittlungsmaßnahmen auf den in Nummer 1 genannten Gebieten auf Ersuchen der zuständigen Behörden durchzuführen."@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die zur Beseitigung einer bereits eingetretenen Störung der Sicherheit oder Leichtigkeit des Schiffsverkehrs und"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die zur Abwehr einer unmittelbar bevorstehenden Gefahr"@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_SP dtd:SP-id45 ;
+    dtd:has_Value "Der Bundesminister für Verkehr"@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.1982 +++)"@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_BR dtd:BR-id44 ;
+    dtd:has_Value " Überschrift: IdF d. Art. 120 Nr. 1 G v. 21.6.2005 I 1818 mWv 1.7.2005"@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 2 des Gesetzes über die Aufgaben des Bundes auf dem Gebiet der Seeschiffahrt in der Fassung der Bekanntmachung vom 30. Juni 1977 (BGBl. I S. 1314), der durch Artikel 3 Nr. 2 des Gesetzes vom 23. Dezember 1981 (BGBl. 1982 II S. 2) geändert worden ist, wird im Einvernehmen mit dem Bundesminister des Innern und dem Bundesminister der Finanzen verordnet:"@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Value "(1) Seewärts der Begrenzung des deutschen Küstenmeeres werden der Bundespolizei und der Zollverwaltung folgende Aufgaben nach § 1 Nr. 3 Buchstabe a, b und d Doppelbuchstabe aa des Seeaufgabengesetzes zur Ausübung übertragen: 1.die Einhaltung der Vorschriften übera)die Sicherheit und Leichtigkeit des Verkehrs, die Abwehr von Gefahren für das Wasser und die Verhütung der von der Seeschiffahrt ausgehenden Gefahren und schädlichen Umwelteinwirkungen, b)die Schiffssicherheit einschließlich des Freibords, c)die Besetzung und Bemannung von Schiffen, d)die Eignung und Befähigung des Kapitäns und der Besatzungsmitglieder von Schiffen und e)die Sicherheit und Gesundheit der Seeleute, soweit das Völkerrecht dies zuläßt oder erfordert, zu überwachen,  2.die unaufschiebbaren Maßnahmen zura)Abwehr von Gefahren für den Schiffsverkehr oder für das Wasser, die von Schiffen unter der Bundesflagge ausgehen, nach pflichtgemäßem Ermessen, b)Erfüllung völkerrechtlicher oder zwischenstaatlicher Verpflichtungen oder zur Wahrnehmung völkerrechtlicher oder zwischenstaatlicher Befugnisse der Bundesrepublik Deutschland zu treffen,  3.die Vollzugs- und Ermittlungsmaßnahmen auf den in Nummer 1 genannten Gebieten auf Ersuchen der zuständigen Behörden durchzuführen.  "@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_DL dtd:DL-id69 ;
+    dtd:has_Value "(2) Auf den Seeschiffahrtstraßen und im übrigen deutschen Küstenmeer werden der Bundespolizei und der Zollverwaltung folgende Aufgaben des Bundes auf dem Gebiet der Seeschiffahrt zur Ausübung übertragen: 1.die zur Beseitigung einer bereits eingetretenen Störung der Sicherheit oder Leichtigkeit des Schiffsverkehrs und 2.die zur Abwehr einer unmittelbar bevorstehenden Gefahr notwendigen Vollzugsmaßnahmen zu treffen, soweit sie nicht nach Maßgabe der Vereinbarungen zwischen dem Bund und den Küstenländern über die Ausübung der schiffahrtpolizeilichen Vollzugsaufgaben von der Wasserschutzpolizei der Länder ausgeübt werden oder diese nicht erreichbar ist."@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "Die Bundespolizei und die Zollverwaltung nehmen die Aufgaben nach den von den zuständigen Behörden erteilten fachlichen Weisungen wahr."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am ersten Tage des auf die Verkündung folgenden Kalendermonats in Kraft."@de .
+
+dtd:SP-id45 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Verkehr"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1982-06-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id102 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id103 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id88 .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SeeSchAÜV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "SeeSchAÜV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "SeeSchAÜV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "SeeSchAÜV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "SeeSchAÜV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "SeeSchAÜV"@de .
+
+dtd:kurzue-id23 a dtd:kurzue ;
+    dtd:has_Value "Seeschiffahrtsaufgaben-Übertragungsverordnung"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Übertragung von Aufgaben auf dem Gebiet der Seeschiffahrt
+zur Ausübung auf die Bundespolizei und die Zollverwaltung"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id23 ;
+    dtd:has_langue dtd:langue-id24 ;
+    dtd:has_standangabe dtd:standangabe-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125142"@de ;
+    dtd:has_doknr "BJNR007330982"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125142"@de ;
+    dtd:has_doknr "BJNR007330982BJNE000100326"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125142"@de ;
+    dtd:has_doknr "BJNR007330982BJNE000202308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125142"@de ;
+    dtd:has_doknr "BJNR007330982BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125142"@de ;
+    dtd:has_doknr "BJNR007330982BJNE000400326"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125142"@de ;
+    dtd:has_doknr "BJNR007330982BJNE000500326"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id102 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id25 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id105 ;
+    dtd:has_standtyp dtd:standtyp-id104 .
+
+dtd:standkommentar-id105 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 120 G v. 21.6.2005 I 1818"@de .
+
+dtd:standtyp-id104 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id93 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id96 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id98 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 .
+
+dtd:zitstelle-id103 a dtd:zitstelle ;
+    dtd:has_Value "1982, 733"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

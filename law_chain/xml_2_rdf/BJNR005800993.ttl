@@ -1,0 +1,161 @@
+@prefix dtd: <urn:KfzAnmVerlG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093449"@de ;
+    dtd:has_doknr "BJNR005800993"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.1993 +++)"@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Abweichend von der in Anlage II Kapitel XI Sachgebiet B Abschnitt III Nr. 1 Buchstabe a des Einigungsvertrages vom 31. August 1990 (BGBl. II S. 889, 1223) angegebenen Frist ist § 45 Abs. 1 Nr. 4 der Verordnung vom 20. Juni 1990 über den Güterkraftverkehr (GüKVO) (GBl. I Nr. 40 S. 580) noch bis zum 31. Dezember 1993 anzuwenden."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am 1. Januar 1993 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1993-01-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id31 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "KfzAnmVerlG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "KfzAnmVerlG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "KfzAnmVerlG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "KfzAnmVerlG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Verlängerung der Regelung über die Anmietung von
+Kraftfahrzeugen im Werkverkehr nach dem Einigungsvertrag"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093449"@de ;
+    dtd:has_doknr "BJNR005800993"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093449"@de ;
+    dtd:has_doknr "BJNR005800993BJNE000100333"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093449"@de ;
+    dtd:has_doknr "BJNR005800993BJNE000200333"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093449"@de ;
+    dtd:has_doknr "BJNR005800993BJNE000300333"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "1993, 58"@de .
+

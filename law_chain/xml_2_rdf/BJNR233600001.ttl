@@ -1,0 +1,183 @@
+@prefix dtd: <urn:UAGAnwG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132310"@de ;
+    dtd:has_doknr "BJNR233600001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:DD-id28 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id32 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id33 .
+
+dtd:DD-id30 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id34 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id35 .
+
+dtd:DL-id23 a dtd:DL ;
+    dtd:has_DD dtd:DD-id28,
+        dtd:DD-id29,
+        dtd:DD-id30,
+        dtd:DD-id31 ;
+    dtd:has_DT dtd:DT-id24,
+        dtd:DT-id25,
+        dtd:DT-id26,
+        dtd:DT-id27 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id24 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id25 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id26 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id27 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id32 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des Umweltauditgesetzes vom 7. Dezember 1995 (BGBl. I S. 1591), geändert durch Artikel 4 des Gesetzes vom 19. Dezember 1998 (BGBl. I S. 3836),"@de .
+
+dtd:LA-id33 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der UAG-Erweiterungsverordnung vom 3. Februar 1998 (BGBl. I S. 338),"@de .
+
+dtd:LA-id34 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der UAG-Zulassungsverfahrensverordnung vom 18. Dezember 1995 (BGBl. I S. 1841), geändert durch die Verordnung vom 14. August 1998 (BGBl. I S. 2200), und"@de .
+
+dtd:LA-id35 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der UAG-Gebührenverordnung vom 18. Dezember 1995 (BGBl. I S. 2014), zuletzt geändert durch die Verordnung vom 5. Mai 1998 (BGBl. I S. 857),"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_Value " (+++ Textnachweis ab: 13. 9.2001 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Durchführung der       EGV 761/2001 (CELEX Nr: 301R0761) +++)Das G wurde als Artikel 32a d. G 2129-8/3 v. 9.9.2001 I 2331 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es tritt gem. Art. 35 Satz 2 dieses G am 13.9.2001 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id42 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_DL dtd:DL-id23 ;
+    dtd:has_Value "Zur Durchführung der Verordnung (EG) Nr. 761/2001 des Europäischen Parlaments und des Rates vom 19. März 2001 über die freiwillige Beteiligung von Organisationen an einem Gemeinschaftssystem für das Umweltmanagement und die Umweltbetriebsprüfung (ABl. EG Nr. L 114 S. 1) finden die Vorschriften 1.des Umweltauditgesetzes vom 7. Dezember 1995 (BGBl. I S. 1591), geändert durch Artikel 4 des Gesetzes vom 19. Dezember 1998 (BGBl. I S. 3836),2.der UAG-Erweiterungsverordnung vom 3. Februar 1998 (BGBl. I S. 338),3.der UAG-Zulassungsverfahrensverordnung vom 18. Dezember 1995 (BGBl. I S. 1841), geändert durch die Verordnung vom 14. August 1998 (BGBl. I S. 2200), und4.der UAG-Gebührenverordnung vom 18. Dezember 1995 (BGBl. I S. 2014), zuletzt geändert durch die Verordnung vom 5. Mai 1998 (BGBl. I S. 857),mit der Maßgabe entsprechend Anwendung, dass an die Stelle der Vorschriften der Verordnung (EWG) Nr. 1836/93 des Rates vom 29. Juni 1993 über die freiwillige Beteiligung gewerblicher Unternehmen an einem Gemeinschaftssystem für das Umweltmanagement und die Umweltbetriebsprüfung (ABl. EG Nr. L 168 S. 1) die Vorschriften der Verordnung (EG) Nr. 761/2001 treten."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-09-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "UAGAnwG"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "UAGAnwG"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Anwendung des Umweltauditgesetzes und seiner Rechtsverordnungen auf die Verordnung (EG) Nr. 761/2001 des Europäischen Parlaments und des Rates vom 19. März 2001 über die freiwillige Beteiligung von Organisationen an einem Gemeinschaftssystem für das Umweltmanagement und die Umweltbetriebsprüfung"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132310"@de ;
+    dtd:has_doknr "BJNR233600001"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132310"@de ;
+    dtd:has_doknr "BJNR233600001BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id42 a dtd:pre ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id19,
+        dtd:BR-id20,
+        dtd:BR-id21,
+        dtd:BR-id22 ;
+    dtd:has_Value "(+++ Textnachweis ab: 13. 9.2001 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Durchführung der       EGV 761/2001 (CELEX Nr: 301R0761) +++)"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "2001, 2331, 2336"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

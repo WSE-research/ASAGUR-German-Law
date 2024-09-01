@@ -1,0 +1,712 @@
+@prefix dtd: <urn:AO1977§180Abs2V#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id15,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id108 a dtd:BR .
+
+dtd:BR-id109 a dtd:BR .
+
+dtd:BR-id110 a dtd:BR .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137 .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139,
+        dtd:P-id140,
+        dtd:P-id141 .
+
+dtd:Content-id142 a dtd:Content ;
+    dtd:has_P dtd:P-id143,
+        dtd:P-id144,
+        dtd:P-id145,
+        dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148,
+        dtd:P-id149,
+        dtd:P-id150,
+        dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155 .
+
+dtd:Content-id156 a dtd:Content ;
+    dtd:has_P dtd:P-id157,
+        dtd:P-id158,
+        dtd:P-id159,
+        dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162,
+        dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165 .
+
+dtd:Content-id166 a dtd:Content ;
+    dtd:has_P dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169 .
+
+dtd:Content-id170 a dtd:Content ;
+    dtd:has_P dtd:P-id171 .
+
+dtd:Content-id172 a dtd:Content ;
+    dtd:has_P dtd:P-id173 .
+
+dtd:Content-id174 a dtd:Content ;
+    dtd:has_P dtd:P-id175 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127,
+        dtd:LA-id128 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DL-id112 a dtd:DL ;
+    dtd:has_DD dtd:DD-id115,
+        dtd:DD-id116 ;
+    dtd:has_DT dtd:DT-id113,
+        dtd:DT-id114 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id117 a dtd:DL ;
+    dtd:has_DD dtd:DD-id120,
+        dtd:DD-id121 ;
+    dtd:has_DT dtd:DT-id118,
+        dtd:DT-id119 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id122 a dtd:DL ;
+    dtd:has_DD dtd:DD-id125,
+        dtd:DD-id126 ;
+    dtd:has_DT dtd:DT-id123,
+        dtd:DT-id124 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id123 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id124 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von mehreren Personen betrieben, genutzt oder gehalten werden"@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "oder"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "mehreren Personen getrennt zuzurechnen sind, die bei der Planung, Herstellung, Erhaltung oder dem Erwerb dieser Wirtschaftsgüter, Anlagen oder Einrichtungen gleichartige Rechtsbeziehungen zu Dritten hergestellt oder unterhalten haben (Gesamtobjekt)."@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in den Fällen des § 1 Abs. 1 Satz 1 Nr. 1 die Personen, die im Feststellungszeitraum die Wirtschaftsgüter, Anlagen oder Einrichtungen betrieben, genutzt oder gehalten haben,"@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in den Fällen des § 1 Abs. 1 Satz 1 Nr. 2 die Personen, die bei der Planung, Herstellung, Erhaltung, dem Erwerb, der Betreuung, Geschäftsführung oder Verwaltung des Gesamtobjektes für die Feststellungsbeteiligten handeln oder im Feststellungszeitraum gehandelt haben; dies gilt in den Fällen des § 1 Abs. 2 entsprechend."@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Value "die Ansprüche aus den Versicherungsverträgen während deren Dauer im Erlebensfall der Tilgung oder Sicherung eines Darlehens dienen, dessen Finanzierungskosten Betriebsausgaben oder Werbungskosten sind und"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Value "nicht die Voraussetzungen für den Sonderausgabenabzug nach § 10 Absatz 2 Satz 2 Buchstabe a oder Buchstabe b des Einkommensteuergesetzes in der am 31. Dezember 2004 geltenden Fassung erfüllt sind oder soweit bei Versicherungsbeiträgen Zinsen in Veranlagungszeiträumen gutgeschrieben werden, in denen die Beiträge nach § 10 Absatz 2 Satz 2 Buchstabe c des Einkommensteuergesetzes in der am 31. Dezember 2004 geltenden Fassung nicht abgezogen werden können."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_BR dtd:BR-id108 ;
+    dtd:has_Value " (+++ Textnachweis ab: 31.12.1986 +++) (+++ Zur Geltung vgl. § 182 AO 1977 +++)"@de ;
+    dtd:has_pre dtd:pre-id176 .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 180 Abs. 2 der Abgabenordnung vom 16. März 1976 (BGBl. I S. 613), der durch Artikel 1 Nr. 31 des Steuerbereinigungsgesetzes 1986 vom 19. Dezember 1985 (BGBl. I S. 2436) neu gefaßt worden ist, wird mit Zustimmung des Bundesrates verordnet:"@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_DL dtd:DL-id112 ;
+    dtd:has_Value "(1) Besteuerungsgrundlagen, insbesondere einkommensteuerpflichtige oder körperschaftsteuerpflichtige Einkünfte, können ganz oder teilweise gesondert festgestellt werden, wenn der Einkunftserzielung dienende Wirtschaftsgüter, Anlagen oder Einrichtungen 1.von mehreren Personen betrieben, genutzt oder gehalten werdenoder2.mehreren Personen getrennt zuzurechnen sind, die bei der Planung, Herstellung, Erhaltung oder dem Erwerb dieser Wirtschaftsgüter, Anlagen oder Einrichtungen gleichartige Rechtsbeziehungen zu Dritten hergestellt oder unterhalten haben (Gesamtobjekt).Satz 1 Nummer 2 gilt entsprechend bei Wohneigentum, das nicht der Einkunftserzielung dient, und bei Mietwohngebäuden, wenn die Feststellung für die Besteuerung von Bedeutung ist."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt für die Umsatzsteuer nur, wenn mehrere Unternehmer im Rahmen eines Gesamtobjekts Umsätze ausführen oder empfangen."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(3) Die Feststellung ist gegenüber den in Absatz 1 genannten Personen einheitlich vorzunehmen. Sie kann auf bestimmte Personen beschränkt werden."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(1) Für Feststellungen in den Fällen des § 1 Abs. 1 Satz 1 Nr. 1 richtet sich die örtliche Zuständigkeit nach § 18 Abs. 1 Nr. 2 der Abgabenordnung. Die Wirtschaftsgüter, Anlagen oder Einrichtungen gelten als gewerblicher Betrieb im Sinne dieser Vorschrift."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(2) Für Feststellungen in den Fällen des § 1 Abs. 1 Satz 1 Nr. 2 ist das Finanzamt zuständig, das nach § 19 oder § 20 der Abgabenordnung für die Steuern vom Einkommen und Vermögen des Erklärungspflichtigen zuständig ist."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "(3) Feststellungen nach § 1 Abs. 2 hat das für die Feststellungen nach § 1 Abs. 1 Satz 1 Nr. 2 zuständige Finanzamt zu treffen."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(4) § 18 Abs. 2 der Abgabenordnung gilt entsprechend."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_DL dtd:DL-id117 ;
+    dtd:has_Value "(1) Eine Erklärung zur gesonderten Feststellung der Besteuerungsgrundlagen haben nach Aufforderung durch die Finanzbehörde abzugeben: 1.in den Fällen des § 1 Abs. 1 Satz 1 Nr. 1 die Personen, die im Feststellungszeitraum die Wirtschaftsgüter, Anlagen oder Einrichtungen betrieben, genutzt oder gehalten haben,2.in den Fällen des § 1 Abs. 1 Satz 1 Nr. 2 die Personen, die bei der Planung, Herstellung, Erhaltung, dem Erwerb, der Betreuung, Geschäftsführung oder Verwaltung des Gesamtobjektes für die Feststellungsbeteiligten handeln oder im Feststellungszeitraum gehandelt haben; dies gilt in den Fällen des § 1 Abs. 2 entsprechend.§ 34 der Abgabenordnung bleibt unberührt."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(2) Die Erklärung ist nach amtlich vorgeschriebenem Vordruck abzugeben und von der zur Abgabe verpflichteten Person eigenhändig zu unterschreiben. Name und Anschrift der Feststellungsbeteiligten sind anzugeben. Der Erklärung ist eine Ermittlung der Besteuerungsgrundlagen beizufügen. Ist Besteuerungsgrundlage ein nach § 4 Abs. 1 oder § 5 des Einkommensteuergesetzes zu ermittelnder Gewinn, gilt § 5b des Einkommensteuergesetzes entsprechend; die Beifügung der in Satz 3 genannten Unterlagen kann in den Fällen des § 5b Abs. 1 des Einkommensteuergesetzes unterbleiben."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(3) Die Finanzbehörde kann entsprechend der vorgesehenen Feststellung den Umfang der Erklärung und die zum Nachweis erforderlichen Unterlagen bestimmen."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(4) Hat ein Erklärungspflichtiger eine Erklärung zur gesonderten Feststellung der Besteuerungsgrundlagen abgegeben, sind andere Erklärungspflichtige insoweit von der Erklärungspflicht befreit."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "Die Finanzbehörde entscheidet nach pflichtgemäßem Ermessen, ob und in welchem Umfang sie ein Feststellungsverfahren durchführt. Hält sie eine gesonderte Feststellung nicht für erforderlich, insbesondere weil das Feststellungsverfahren nicht der einheitlichen Rechtsanwendung und auch nicht der Erleichterung des Besteuerungsverfahrens dient, kann sie dies durch Bescheid feststellen. Der Bescheid gilt als Steuerbescheid."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "Als an dem Feststellungsverfahren Beteiligte gelten neben den Beteiligten nach § 78 der Abgabenordnung auch die in § 3 Abs. 1 Nr. 2 genannten Personen."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(1) Die am Gegenstand der Feststellung beteiligten Personen sollen einen gemeinsamen Empfangsbevollmächtigten bestellen, der ermächtigt ist, für sie alle Verwaltungsakte und Mitteilungen in Empfang zu nehmen, die mit dem Feststellungsverfahren und dem anschließenden Verfahren über einen außergerichtlichen Rechtsbehelf zusammenhängen. Ein Widerruf der Empfangsvollmacht wird der Finanzbehörde gegenüber erst wirksam, wenn er ihr zugeht. Ist ein Empfangsbevollmächtigter nicht bestellt, kann die Finanzbehörde die Beteiligten auffordern, innerhalb einer angemessenen Frist einen Empfangsbevollmächtigten zu benennen. Hierbei ist ein Beteiligter vorzuschlagen und darauf hinzuweisen, daß diesem die in Satz 1 genannten Verwaltungsakte und Mitteilungen mit Wirkung für und gegen alle Beteiligten bekanntgegeben werden, soweit nicht ein anderer Empfangsbevollmächtigter benannt wird. Bei der Bekanntgabe an den Empfangsbevollmächtigten ist darauf hinzuweisen, daß die Bekanntgabe mit Wirkung für und gegen alle Feststellungsbeteiligten erfolgt."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(2) Der Feststellungsbescheid ist auch den in § 3 Abs. 1 Nr. 2 genannten Personen bekanntzugeben, wenn sie die Erklärung abgegeben haben, aber nicht zum Empfangsbevollmächtigten bestellt sind."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(3) Absatz 1 Sätze 3 und 4 ist insoweit nicht anzuwenden, als der Finanzbehörde bekannt ist, daß zwischen den Feststellungsbeteiligten und dem Empfangsbevollmächtigten ernstliche Meinungsverschiedenheiten bestehen."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(4) Ist Einzelbekanntgabe erforderlich, sind dem Beteiligten nur die ihn betreffenden Besteuerungsgrundlagen bekanntzugeben."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(1) Eine Außenprüfung zur Ermittlung der Besteuerungsgrundlagen ist bei jedem Verfahrensbeteiligten zulässig."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(2) Die Prüfungsanordnung ist dem Verfahrensbeteiligten bekanntzugeben, bei dem die Außenprüfung durchgeführt werden soll."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "Dient ein Betrieb von einem bestimmten Zeitpunkt an nicht mehr der Erzielung von Einkünften im Sinne des § 2 Abs. 1 Nr. 1 bis 3 des Einkommensteuergesetzes und liegt deshalb ein Übergang zur Liebhaberei vor, so ist auf diesen Zeitpunkt unabhängig von der Gewinnermittlungsart für jedes Wirtschaftsgut des Anlagevermögens der Unterschiedsbetrag zwischen dem gemeinen Wert und dem Wert, der nach § 4 Abs. 1 oder nach § 5 des Einkommensteuergesetzes anzusetzen wäre, gesondert und bei mehreren Beteiligten einheitlich festzustellen. Auf eine gesonderte Feststellung nach Satz 1 kann verzichtet werden, wenn es sich um einen Fall von geringer Bedeutung handelt."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_DL dtd:DL-id122 ;
+    dtd:has_Value "Das für die Besteuerung des Einkommens des Versicherungsnehmers zuständige Finanzamt stellt die Steuerpflicht der außerrechnungsmäßigen und rechnungsmäßigen Zinsen aus den in den Beiträgen zu Versicherungen auf den Erlebens- oder den Todesfall enthaltenen Sparanteilen (§ 20 Absatz 1 Nummer 6 in Verbindung mit § 10 Absatz 1 Nummer 2 Buchstabe b Doppelbuchstabe bb bis dd des Einkommensteuergesetzes in der am 31. Dezember 2004 geltenden Fassung) gesondert fest, wenn 1.die Ansprüche aus den Versicherungsverträgen während deren Dauer im Erlebensfall der Tilgung oder Sicherung eines Darlehens dienen, dessen Finanzierungskosten Betriebsausgaben oder Werbungskosten sind und2.nicht die Voraussetzungen für den Sonderausgabenabzug nach § 10 Absatz 2 Satz 2 Buchstabe a oder Buchstabe b des Einkommensteuergesetzes in der am 31. Dezember 2004 geltenden Fassung erfüllt sind oder soweit bei Versicherungsbeiträgen Zinsen in Veranlagungszeiträumen gutgeschrieben werden, in denen die Beiträge nach § 10 Absatz 2 Satz 2 Buchstabe c des Einkommensteuergesetzes in der am 31. Dezember 2004 geltenden Fassung nicht abgezogen werden können.Versicherungen im Sinne des Satzes 1 sind solche, deren Versicherungsvertrag vor dem 1. Januar 2005 abgeschlossen worden ist."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(+++ § 10: Zur Weiteranwendung der bisherigen Textfassung vgl. § 11 Satz 3 +++)"@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_SP dtd:SP-id111 ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft. Sie tritt mit Wirkung vom 25. Dezember 1985 in Kraft, soweit einheitliche und gesonderte Feststellungen nach § 180 Abs. 2 der Abgabenordnung in der bis zum 24. Dezember 1985 geltenden Fassung zulässig waren. § 10 ist für Anteile, bei denen hinsichtlich des Gewinns aus der Veräußerung der Anteile die Steuerfreistellung nach § 8b Abs. 4 des Körperschaftsteuergesetzes in der am 12. Dezember 2006 geltenden Fassung oder nach § 3 Nr. 40 Satz 3 und 4 des Einkommensteuergesetzes in der am 12. Dezember 2006 geltenden Fassung ausgeschlossen ist, weiterhin anzuwenden. § 1 Absatz 1 Satz 2 in der am 23. Juli 2016 geltenden Fassung ist erstmals auf Feststellungszeiträume anzuwenden, die nach dem 31. Dezember 2015 beginnen; für Feststellungszeiträume, die vor dem 1. Januar 2016 geendet haben, ist § 1 Absatz 1 Satz 2 in der am 22. Juli 2016 geltenden Fassung weiterhin anzuwenden."@de .
+
+dtd:SP-id111 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtabk-id45 a dtd:amtabk ;
+    dtd:has_Value "V zu § 180 Abs. 2 AO"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id46 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1986-12-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id71 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id74 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id77 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id80 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id83 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id85 a dtd:enbez ;
+    dtd:has_Value "§ 11"@de .
+
+dtd:fundstelle-id47 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id177 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id178 .
+
+dtd:fussnoten-id100 a dtd:fussnoten .
+
+dtd:fussnoten-id102 a dtd:fussnoten .
+
+dtd:fussnoten-id104 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id170 .
+
+dtd:fussnoten-id107 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id134 .
+
+dtd:fussnoten-id90 a dtd:fussnoten .
+
+dtd:fussnoten-id92 a dtd:fussnoten .
+
+dtd:fussnoten-id94 a dtd:fussnoten .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id73 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id76 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id79 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id82 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:jurabk-id84 a dtd:jurabk ;
+    dtd:has_Value "AO1977§180Abs2V"@de .
+
+dtd:langue-id48 a dtd:langue ;
+    dtd:has_Value "Verordnung über die gesonderte Feststellung von Besteuerungsgrundlagen nach § 180 Abs. 2 der Abgabenordnung"@de .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id45 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id46 ;
+    dtd:has_fundstelle dtd:fundstelle-id47 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_langue dtd:langue-id48 ;
+    dtd:has_standangabe dtd:standangabe-id49 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id71 ;
+    dtd:has_jurabk dtd:jurabk-id70 ;
+    dtd:has_titel dtd:titel-id72 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id74 ;
+    dtd:has_jurabk dtd:jurabk-id73 ;
+    dtd:has_titel dtd:titel-id75 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id77 ;
+    dtd:has_jurabk dtd:jurabk-id76 ;
+    dtd:has_titel dtd:titel-id78 .
+
+dtd:metadaten-id38 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id80 ;
+    dtd:has_jurabk dtd:jurabk-id79 ;
+    dtd:has_titel dtd:titel-id81 .
+
+dtd:metadaten-id40 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id83 ;
+    dtd:has_jurabk dtd:jurabk-id82 .
+
+dtd:metadaten-id42 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id85 ;
+    dtd:has_jurabk dtd:jurabk-id84 ;
+    dtd:has_titel dtd:titel-id86 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE001100326"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE001201123"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE001303377"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE001601301"@de ;
+    dtd:has_metadaten dtd:metadaten-id38 ;
+    dtd:has_textdaten dtd:textdaten-id39 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE001500326"@de ;
+    dtd:has_metadaten dtd:metadaten-id40 ;
+    dtd:has_textdaten dtd:textdaten-id41 .
+
+dtd:norm-id15 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE001403377"@de ;
+    dtd:has_metadaten dtd:metadaten-id42 ;
+    dtd:has_textdaten dtd:textdaten-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE000400326"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE000505377"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE000601309"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE000702140"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE000800326"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE000900326"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20230113214013"@de ;
+    dtd:has_doknr "BJNR026630986BJNE001000326"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:periodikum-id177 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id176 a dtd:pre ;
+    dtd:has_BR dtd:BR-id109,
+        dtd:BR-id110 ;
+    dtd:has_Value "(+++ Textnachweis ab: 31.12.1986 +++) (+++ Zur Geltung vgl. § 182 AO 1977 +++)"@de .
+
+dtd:standangabe-id49 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id180 ;
+    dtd:has_standtyp dtd:standtyp-id179 .
+
+dtd:standkommentar-id180 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 9 V v. 19.12.2022 I 2432"@de .
+
+dtd:standtyp-id179 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id101 a dtd:text ;
+    dtd:has_Content dtd:Content-id166 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id103 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id105 a dtd:text ;
+    dtd:has_Content dtd:Content-id172 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id106 a dtd:text ;
+    dtd:has_Content dtd:Content-id174 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id138 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id142 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id97 a dtd:text ;
+    dtd:has_Content dtd:Content-id156 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id99 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id90 ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id92 ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id94 ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id97 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id100 ;
+    dtd:has_text dtd:text-id99 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id102 ;
+    dtd:has_text dtd:text-id101 .
+
+dtd:textdaten-id39 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id104 ;
+    dtd:has_text dtd:text-id103 .
+
+dtd:textdaten-id41 a dtd:textdaten ;
+    dtd:has_text dtd:text-id105 .
+
+dtd:textdaten-id43 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id107 ;
+    dtd:has_text dtd:text-id106 .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Gegenstand, Umfang und Voraussetzungen der Feststellung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Örtliche Zuständigkeit"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Erklärungspflicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Einleitung des Feststellungsverfahrens"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Verfahrensbeteiligte"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Bekanntgabe"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id72 a dtd:titel ;
+    dtd:has_Value "Außenprüfung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id75 a dtd:titel ;
+    dtd:has_Value "Feststellungsgegenstand beim Übergang zur Liebhaberei"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id78 a dtd:titel ;
+    dtd:has_Value "Feststellungsgegenstand bei Einsatz von Versicherungen auf den Erlebens- oder Todesfall zu Finanzierungszwecken"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id81 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id86 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Anwendungsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id178 a dtd:zitstelle ;
+    dtd:has_Value "1986, 2663"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

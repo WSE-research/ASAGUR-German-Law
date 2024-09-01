@@ -1,0 +1,265 @@
+@prefix dtd: <urn:ATZV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153413"@de ;
+    dtd:has_doknr "BJNR319100998"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.9.1998 +++)"@de ;
+    dtd:has_pre dtd:pre-id61 .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Den in § 6 Abs. 2 des Bundesbesoldungsgesetzes genannten Beamten und Richtern wird ein nichtruhegehaltfähiger Altersteilzeitzuschlag gewährt, soweit die Altersteilzeit mindestens mit der Hälfte der bisherigen Arbeitszeit, die für die Bemessung der ermäßigten Arbeitszeit während der Altersteilzeit zugrunde gelegt worden ist, durchgeführt wird."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(1) Der Zuschlag wird gewährt in Höhe des Unterschiedsbetrages zwischen der Nettobesoldung, die sich aus dem Umfang der Teilzeitbeschäftigung ergibt, und 83 vom Hundert der Nettobesoldung, die nach der bisherigen Arbeitszeit, die für die Bemessung der ermäßigten Arbeitszeit während der Altersteilzeit zugrunde gelegt worden ist, bei Beamten mit begrenzter Dienstfähigkeit (§ 45 des Bundesbeamtengesetzes oder entsprechendes Landesrecht) unter Berücksichtigung des § 72a des Bundesbesoldungsgesetzes, zustehen würde. Zur Ermittlung dieser letztgenannten Nettobesoldung ist die Bruttobesoldung um die Lohnsteuer entsprechend der individuellen Steuerklasse (§§ 38a, 38b des Einkommensteuergesetzes), den Solidaritätszuschlag (§ 4 Satz 1 des Solidaritätszuschlaggesetzes 1995) und um einen Abzug in Höhe von 8 vom Hundert der Lohnsteuer zu vermindern; Freibeträge (§ 39a des Einkommensteuergesetzes) oder sonstige individuelle Merkmale bleiben unberücksichtigt."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Brutto- und Nettobesoldung im Sinne des Absatzes 1 sind das Grundgehalt, der Familienzuschlag, Amtszulagen, Stellenzulagen, Zuschüsse zum Grundgehalt für Professoren an Hochschulen und die bei der Deutschen Bundesbank gewährte Bankzulage, Überleitungszulagen und Ausgleichszulagen, die wegen des Wegfalls oder der Verminderung solcher Bezüge zustehen, sowie die jährliche Sonderzahlungen."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(3) Für Beamte im Geschäftsbereich des Bundesministeriums der Verteidigung, deren Dienstposten durch Auflösung oder Verkleinerung von Dienststellen oder durch eine wesentliche Änderung des Aufbaus oder der Aufgaben einer Dienststelle einschließlich der damit verbundenen Umgliederung oder Verlegung auf Grund der Neuausrichtung der Bundeswehr wegfallen, gelten die Absätze 1 bis 3 mit der Maßgabe, dass der Zuschlag auf der Grundlage von 88 vom Hundert der maßgebenden Nettobesoldung bemessen wird. Dies gilt entsprechend für Beamte, deren Dienstposten mit Beamten nach Satz 1 neu besetzt werden."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Wenn die Altersteilzeit mit ungleichmäßiger Verteilung der Arbeitszeit (Blockmodell) vorzeitig endet und die insgesamt gezahlten Altersteilzeitbezüge geringer sind als die Besoldung, die nach der tatsächlichen Beschäftigung ohne Altersteilzeit zugestanden hätte, ist ein Ausgleich in Höhe des Unterschiedsbetrages zu gewähren. Dabei bleiben Zeiten ohne Dienstleistung in der Arbeitsphase, soweit sie insgesamt sechs Monate überschreiten, unberücksichtigt. Abweichendes Landesrecht bleibt unberührt."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "ATZV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-10-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2a"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id37 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id49 .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "ATZV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "ATZV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "ATZV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "ATZV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "ATZV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Altersteilzeitzuschlagsverordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Gewährung eines Zuschlags bei
+Altersteilzeit"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23,
+        dtd:standangabe-id24 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153413"@de ;
+    dtd:has_doknr "BJNR319100998"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153413"@de ;
+    dtd:has_doknr "BJNR319100998BJNE000202310"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153413"@de ;
+    dtd:has_doknr "BJNR319100998BJNE000305310"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625153413"@de ;
+    dtd:has_doknr "BJNR319100998BJNE000601377"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625153413"@de ;
+    dtd:has_doknr "BJNR319100998BJNE000401377"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id61 a dtd:pre ;
+    dtd:has_BR dtd:BR-id47,
+        dtd:BR-id48 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.9.1998 +++)"@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id65 ;
+    dtd:has_standtyp dtd:standtyp-id64 .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id67 ;
+    dtd:has_standtyp dtd:standtyp-id66 .
+
+dtd:standkommentar-id65 a dtd:standkommentar ;
+    dtd:has_Value "Neugefasst durch Bek. v. 23.8.2001 I 2239;"@de .
+
+dtd:standkommentar-id67 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 15 Abs. 38 G v. 5.2.2009 I 160"@de .
+
+dtd:standtyp-id64 a dtd:standtyp ;
+    dtd:has_Value "Neuf"@de .
+
+dtd:standtyp-id66 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Gewährung eines Altersteilzeitzuschlags"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Höhe und Berechnung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Ausgleich bei vorzeitiger Beendigung der Altersteilzeit"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "(Inkrafttreten)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "1998, 3191"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

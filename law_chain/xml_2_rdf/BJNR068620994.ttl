@@ -1,0 +1,201 @@
+@prefix dtd: <urn:StSWEAbkG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152635"@de ;
+    dtd:has_doknr "BJNR068620994"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47,
+        dtd:P-id48 .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 15. 6.1994 +++)"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Dem in Bonn am 14. Juli 1992 unterzeichneten Abkommen zwischen der Bundesrepublik Deutschland und dem Königreich Schweden zur Vermeidung der Doppelbesteuerung bei den Steuern vom Einkommen und vom Vermögen sowie bei den Erbschaft- und Schenkungsteuern und zur Leistung gegenseitigen Beistands bei den Steuern (Deutsch-schwedisches Steuerabkommen) wird zugestimmt. Das Abkommen wird nachstehend veröffentlicht."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Soweit das Abkommen auf Grund seines Artikels 46 Abs. 3 für die Zeit vor seinem Inkrafttreten anzuwenden ist, sind bereits ergangene Steuerfestsetzungen zu ändern oder aufzuheben. Die vierjährige Frist für die Anträge auf Erstattung von Kapitalertragsteuer (Festsetzungsfrist) beginnt mit Ablauf des Kalenderjahrs, in dem das Abkommen in Kraft getreten ist."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Abkommen nach seinem Artikel 46 Abs. 2 in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-06-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id31 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "StSWEAbkG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "StSWEAbkG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "StSWEAbkG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "StSWEAbkG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "StSWEAbkG"@de .
+
+dtd:kurzue-id20 a dtd:kurzue ;
+    dtd:has_Value "Deutsch-schwedisches Steuerabkommen"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Abkommen vom 14. Juli 1992 zwischen der Bundesrepublik
+Deutschland und dem Königreich Schweden zur Vermeidung der Doppelbesteuerung
+bei den Steuern vom Einkommen und vom Vermögen sowie bei den Erbschaft- und
+Schenkungsteuern und zur Leistung gegenseitigen Beistands bei den Steuern"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id20 ;
+    dtd:has_langue dtd:langue-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152635"@de ;
+    dtd:has_doknr "BJNR068620994"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625152635"@de ;
+    dtd:has_doknr "BJNR068620994BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625152635"@de ;
+    dtd:has_doknr "BJNR068620994BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625152635"@de ;
+    dtd:has_doknr "BJNR068620994BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625152635"@de ;
+    dtd:has_doknr "BJNR068620994BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "1994, 686"@de .
+

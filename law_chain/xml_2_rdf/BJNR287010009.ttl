@@ -1,0 +1,857 @@
+@prefix dtd: <urn:EnLAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240516220029"@de ;
+    dtd:has_doknr "BJNR287010009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id162 a dtd:Content ;
+    dtd:has_P dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165,
+        dtd:P-id166,
+        dtd:P-id167,
+        dtd:P-id168,
+        dtd:P-id169 .
+
+dtd:Content-id170 a dtd:Content ;
+    dtd:has_P dtd:P-id171,
+        dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175 .
+
+dtd:Content-id176 a dtd:Content ;
+    dtd:has_P dtd:P-id177 .
+
+dtd:Content-id178 a dtd:Content ;
+    dtd:has_P dtd:P-id179 ;
+    dtd:has_kommentar dtd:kommentar-id180 .
+
+dtd:DD-id134 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id135 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DD-id136 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id153 .
+
+dtd:DD-id137 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id154 .
+
+dtd:DD-id138 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id155 .
+
+dtd:DD-id139 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id156 .
+
+dtd:DD-id146 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id157 .
+
+dtd:DD-id147 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id158 .
+
+dtd:DD-id148 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id159 .
+
+dtd:DD-id149 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id160 .
+
+dtd:DD-id150 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id161 .
+
+dtd:DL-id127 a dtd:DL ;
+    dtd:has_DD dtd:DD-id134,
+        dtd:DD-id135,
+        dtd:DD-id136,
+        dtd:DD-id137,
+        dtd:DD-id138,
+        dtd:DD-id139 ;
+    dtd:has_DT dtd:DT-id128,
+        dtd:DT-id129,
+        dtd:DT-id130,
+        dtd:DT-id131,
+        dtd:DT-id132,
+        dtd:DT-id133 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id140 a dtd:DL ;
+    dtd:has_DD dtd:DD-id146,
+        dtd:DD-id147,
+        dtd:DD-id148,
+        dtd:DD-id149,
+        dtd:DD-id150 ;
+    dtd:has_DT dtd:DT-id141,
+        dtd:DT-id142,
+        dtd:DT-id143,
+        dtd:DT-id144,
+        dtd:DT-id145 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id128 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id130 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id131 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id132 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id133 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id141 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id142 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id143 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id144 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id145 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abschnitt Ganderkesee – St. Hülfe der Leitung Ganderkesee – Wehrendorf,"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Leitung Dörpen/West – Niederrhein,"@de .
+
+dtd:LA-id153 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Leitung Wahle – Mecklar,"@de .
+
+dtd:LA-id154 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abschnitt Altenfeld – Redwitz der Leitung Lauchstädt – Redwitz,"@de .
+
+dtd:LA-id155 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rheinquerung im Abschnitt Wesel – Utfort der Leitung Niederrhein – Utfort – Osterath,"@de .
+
+dtd:LA-id156 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Leitung Wehrendorf – Gütersloh."@de .
+
+dtd:LA-id157 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Leitung in einem Abstand von weniger als 400 Metern zu Wohngebäuden errichtet werden soll, die im Geltungsbereich eines Bebauungsplans oder im unbeplanten Innenbereich im Sinne des § 34 des Baugesetzbuchs liegen, falls diese Gebiete vorwiegend dem Wohnen dienen,"@de .
+
+dtd:LA-id158 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Leitung in einem Abstand von weniger als 200 Metern zu Wohngebäuden errichtet werden soll, die im Außenbereich im Sinne des § 35 des Baugesetzbuchs liegen,"@de .
+
+dtd:LA-id159 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Freileitung gegen die Verbote des § 44 Absatz 1 auch in Verbindung mit Absatz 5 des Bundesnaturschutzgesetzes verstieße und mit dem Einsatz von Erdkabeln eine zumutbare Alternative im Sinne des § 45 Absatz 7 Satz 2 des Bundesnaturschutzgesetzes gegeben ist,"@de .
+
+dtd:LA-id160 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Freileitung nach § 34 Absatz 2 des Bundesnaturschutzgesetzes unzulässig wäre und mit dem Einsatz von Erdkabeln eine zumutbare Alternative im Sinne des § 34 Absatz 3 Nummer 2 des Bundesnaturschutzgesetzes gegeben ist oder"@de .
+
+dtd:LA-id161 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Leitung eine Bundeswasserstraße im Sinne von § 1 Absatz 1 Nummer 1 des Bundeswasserstraßengesetzes queren soll, deren zu querende Breite mindestens 300 Meter beträgt; bei der Bemessung der Breite findet § 1 Absatz 6 des Bundeswasserstraßengesetzes keine Anwendung."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value " (+++ Textnachweis ab: 26.8.2009 +++)(+++ Zur Anwendung d. § 2 Abs. 5 vgl. § 3 Abs. 5 BBPlG +++)(+++ Zur Anwendung d. § 2 Abs. 5 vgl. § 4 Abs. 3 BBPlG +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 72/2009  (CELEX Nr: 32009L0072)        EGRL 73/2009  (CELEX Nr: 32009L0073)        EURL 2019/944 (CELEX Nr: 32019L0944) vgl. G v. 22.12.2023 I Nr. 405 +++)Das G wurde als Art. 1 des G v. 21.8.2009 I 2870 vom Bundestag beschlossen"@de ;
+    dtd:has_pre dtd:pre-id181 .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(1) Für Vorhaben nach § 43 Absatz 1 Satz 1 des Energiewirtschaftsgesetzes im Bereich der Höchstspannungsnetze mit einer Nennspannung von 380 Kilovolt oder mehr, die der Anpassung, Entwicklung und dem Ausbau der Übertragungsnetze zur Einbindung von Elektrizität aus erneuerbaren Energiequellen, zur Interoperabilität der Elektrizitätsnetze innerhalb der Europäischen Union, zum Anschluss neuer Kraftwerke oder zur Vermeidung struktureller Engpässe im Übertragungsnetz dienen und für die daher ein vordringlicher Bedarf besteht, ist ein Bedarfsplan diesem Gesetz als Anlage beigefügt."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(2) Die in den Bedarfsplan aufgenommenen Vorhaben entsprechen den Zielsetzungen des § 1 des Energiewirtschaftsgesetzes. Für diese Vorhaben stehen damit die energiewirtschaftliche Notwendigkeit und der vordringliche Bedarf fest. Die Realisierung dieser Vorhaben ist aus Gründen eines überragenden öffentlichen Interesses und im Interesse der öffentlichen Gesundheit und Sicherheit erforderlich. Diese Feststellungen sind für die Planfeststellung und die Plangenehmigung nach den §§ 43 bis 43d des Energiewirtschaftsgesetzes verbindlich."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(3) Für die in den Bedarfsplan aufgenommenen Vorhaben gilt § 50 Abs. 1 Nr. 6 der Verwaltungsgerichtsordnung. Dies ist auch anzuwenden für auf diese Vorhaben bezogene Zulassungen des vorzeitigen Baubeginns und Anzeigeverfahren."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "(4) Zu den Vorhaben gehören auch die für den Betrieb von Energieleitungen notwendigen Anlagen und die notwendigen Änderungen an den Netzverknüpfungspunkten."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(5) Energieleitungen beginnen und enden jeweils an den Netzverknüpfungspunkten, an denen sie mit dem bestehenden Übertragungsnetz verbunden sind."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_DL dtd:DL-id127 ;
+    dtd:has_Value "(1) Um den Einsatz von Erdkabeln auf der Höchstspannungsebene im Übertragungsnetz als Pilotvorhaben zu testen, können folgende der in der Anlage zu diesem Gesetz genannten Leitungen nach Maßgabe des Absatzes 2 als Erdkabel errichtet und betrieben oder geändert werden: 1.Abschnitt Ganderkesee – St. Hülfe der Leitung Ganderkesee – Wehrendorf,2.Leitung Dörpen/West – Niederrhein,3.Leitung Wahle – Mecklar,4.Abschnitt Altenfeld – Redwitz der Leitung Lauchstädt – Redwitz,5.Rheinquerung im Abschnitt Wesel – Utfort der Leitung Niederrhein – Utfort – Osterath,6.Leitung Wehrendorf – Gütersloh.Als Erdkabel im Sinne des Satzes 1 gelten alle Erdleitungen einschließlich Kabeltunnel und gasisolierter Rohrleitungen."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_DL dtd:DL-id140 ;
+    dtd:has_Value "(2) Im Falle des Neubaus ist auf Verlangen der für die Zulassung des Vorhabens zuständigen Behörde bei den Vorhaben nach Absatz 1 eine Höchstspannungsleitung auf technisch und wirtschaftlich effizienten Teilabschnitten als Erdkabel zu errichten und zu betreiben oder zu ändern, wenn 1.die Leitung in einem Abstand von weniger als 400 Metern zu Wohngebäuden errichtet werden soll, die im Geltungsbereich eines Bebauungsplans oder im unbeplanten Innenbereich im Sinne des § 34 des Baugesetzbuchs liegen, falls diese Gebiete vorwiegend dem Wohnen dienen,2.die Leitung in einem Abstand von weniger als 200 Metern zu Wohngebäuden errichtet werden soll, die im Außenbereich im Sinne des § 35 des Baugesetzbuchs liegen,3.eine Freileitung gegen die Verbote des § 44 Absatz 1 auch in Verbindung mit Absatz 5 des Bundesnaturschutzgesetzes verstieße und mit dem Einsatz von Erdkabeln eine zumutbare Alternative im Sinne des § 45 Absatz 7 Satz 2 des Bundesnaturschutzgesetzes gegeben ist,4.eine Freileitung nach § 34 Absatz 2 des Bundesnaturschutzgesetzes unzulässig wäre und mit dem Einsatz von Erdkabeln eine zumutbare Alternative im Sinne des § 34 Absatz 3 Nummer 2 des Bundesnaturschutzgesetzes gegeben ist oder5.die Leitung eine Bundeswasserstraße im Sinne von § 1 Absatz 1 Nummer 1 des Bundeswasserstraßengesetzes queren soll, deren zu querende Breite mindestens 300 Meter beträgt; bei der Bemessung der Breite findet § 1 Absatz 6 des Bundeswasserstraßengesetzes keine Anwendung.Der Einsatz von Erdkabeln ist auch dann zulässig, wenn die Voraussetzungen nach Satz 1 nicht auf der gesamten Länge des jeweiligen technisch und wirtschaftlich effizienten Teilabschnitts vorliegen. Zusätzlich ist auf Verlangen der für die Zulassung des Vorhabens zuständigen Behörde im Falle des Absatzes 1 Nummer 4 im Naturpark Thüringer Wald (Verordnung über den Naturpark Thüringer Wald vom 27. Juni 2001, GVBl. für den Freistaat Thüringen S. 300) bei der Querung des Rennsteigs eine Höchstspannungsleitung auf einem technisch und wirtschaftlich effizienten Teilabschnitt als Erdkabel zu errichten und zu betreiben oder zu ändern. Um den Einsatz von Erdkabeln auf der Höchstspannungsebene im Übertragungsnetz auf einer längeren Strecke als Pilotvorhaben zu testen, kann zusätzlich ein 10 bis 20 Kilometer langer Teilabschnitt des Abschnitts Wahle – Lamspringe der in Absatz 1 Satz 1 Nummer 3 genannten Leitung auf Antrag des Vorhabenträgers als Erdkabel errichtet und betrieben oder geändert werden."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(3) Für die Vorhaben nach Absatz 1 kann ergänzend zu § 43 Absatz 1 Satz 1 Nummer 1 des Energiewirtschaftsgesetzes ein Planfeststellungsverfahren auch für die Errichtung und den Betrieb sowie die Änderung eines Erdkabels nach Maßgabe des Teils 5 des Energiewirtschaftsgesetzes durchgeführt werden."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(4) Vor dem 31. Dezember 2015 beantragte Planfeststellungsverfahren werden nach den bis dahin geltenden Vorschriften zu Ende geführt. Sie werden nur dann als Planfeststellungsverfahren in der ab dem 31. Dezember 2015 geltenden Fassung dieses Gesetzes fortgeführt, wenn der Träger des Vorhabens dies beantragt."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(5) (weggefallen)"@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(+++ § 2 Abs. 5: Zur Anwendung vgl. § 3 Abs. 6 u. § 4 Abs. 3 BBPlG +++)"@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "Vorhaben nach § 1 Abs. 1, für die ein vordringlicher Bedarf besteht: Nr.Vorhaben 1Neubau Höchstspannungsleitung Kassø (DK) – Hamburg Nord – Dollern, Nennspannung 380 kV 2Neubau Höchstspannungsleitung Ganderkesee – Wehrendorf, Nennspannung 380 kV 3Neubau Höchstspannungsleitung Neuenhagen – Bertikow/Vierraden – Krajnik (PL), Nennspannung 380 kV 4Neubau Höchstspannungsleitung Lauchstädt – Redwitz (als Teil der Verbindung Halle/Saale – Schweinfurt), Nennspannung 380 kV 5Neubau Höchstspannungsleitung Dörpen/West – Niederrhein, Nennspannung 380 kV 6Neubau Höchstspannungsleitung Wahle – Mecklar, Nennspannung 380 kV 7Zubeseilung Höchstspannungsleitung Bergkamen – Gersteinwerk, Nennspannung 380 kV 8Zubeseilung Höchstspannungsleitung Kriftel – Eschborn, Nennspannung 380 kV 9Neubau Höchstspannungsleitung Hamburg/Krümmel – Schwerin, Nennspannung 380 kV10Umrüstung der Höchstspannungsleitung Redwitz – Grafenrheinfeld von 220 kV auf 380 kV (als Teil der Verbindung Halle/Saale – Schweinfurt)11Neubau Höchstspannungsleitung Neuenhagen – Wustermark (als 1. Teil des Berliner Rings), Nennspannung 380 kV12Neubau Interkonnektor Eisenhüttenstadt – Baczyna (PL), Nennspannung 380 kV13Neubau Höchstspannungsleitung Niederrhein/Wesel – Landesgrenze NL (Richtung Doetinchem), Nennspannung 380 kV14Neubau Höchstspannungsleitung Niederrhein – Utfort – Osterath, Nennspannung 380 kV15Neubau Höchstspannungsleitung Osterath – Weißenthurm, Nennspannung 380 kV16Neubau Höchstspannungsleitung Wehrendorf – Gütersloh, Nennspannung 380 kV17Neubau Höchstspannungsleitung Gütersloh – Bechterdissen, Nennspannung 380 kV18Neubau Höchstspannungsleitung Lüstringen – Westerkappeln, Nennspannung 380 kV19Neubau Höchstspannungsleitung Kruckel – Dauersberg, Nennspannung 380 kV20Neubau Höchstspannungsleitung Dauersberg – Hünfelden, Nennspannung 380 kV21Neubau Höchstspannungsleitung Marxheim – Kelsterbach, Nennspannung 380 kV22(weggefallen)23Umrüstung der Höchstspannungsleitung Neckarwestheim – Mühlhausen von Nennspannung 220 kV auf Nennspannung 380 kV24(weggefallen)"@de ;
+    dtd:has_table dtd:table-id46 .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "EnLAG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-08-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id48 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "1.00*"@de .
+
+dtd:colspec-id49 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "19*"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Neuenhagen – Wustermark (als 1. Teil des Berliner Rings), Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "12"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Interkonnektor Eisenhüttenstadt – Baczyna (PL), Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "13"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Niederrhein/Wesel – Landesgrenze NL (Richtung Doetinchem), Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "14"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Niederrhein – Utfort – Osterath, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "15"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Osterath – Weißenthurm, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "16"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Wehrendorf – Gütersloh, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "17"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Gütersloh – Bechterdissen, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "18"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Lüstringen – Westerkappeln, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "19"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Kruckel – Dauersberg, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "20"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Dauersberg – Hünfelden, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "21"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Marxheim – Kelsterbach, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "22"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "23"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Umrüstung der Höchstspannungsleitung Neckarwestheim – Mühlhausen von Nennspannung 220 kV auf Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "24"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nr."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vorhaben"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 1"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Kassø (DK) – Hamburg Nord – Dollern, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 2"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Ganderkesee – Wehrendorf, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 3"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Neuenhagen – Bertikow/Vierraden – Krajnik (PL), Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 4"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Lauchstädt – Redwitz (als Teil der Verbindung Halle/Saale – Schweinfurt), Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 5"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Dörpen/West – Niederrhein, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 6"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Wahle – Mecklar, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 7"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zubeseilung Höchstspannungsleitung Bergkamen – Gersteinwerk, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 8"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zubeseilung Höchstspannungsleitung Kriftel – Eschborn, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 9"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Neubau Höchstspannungsleitung Hamburg/Krümmel – Schwerin, Nennspannung 380 kV"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Umrüstung der Höchstspannungsleitung Redwitz – Grafenrheinfeld von 220 kV auf 380 kV (als Teil der Verbindung Halle/Saale – Schweinfurt)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "11"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id182 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id183 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id162 .
+
+dtd:fussnoten-id31 a dtd:fussnoten .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id176 .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "EnLAG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "EnLAG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "EnLAG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "EnLAG"@de .
+
+dtd:kommentar-id180 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2009, 2872; bzgl. einzelner Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Energieleitungsausbaugesetz"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Gesetz zum Ausbau von Energieleitungen"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 ;
+    dtd:has_standangabe dtd:standangabe-id20,
+        dtd:standangabe-id21,
+        dtd:standangabe-id22 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240516220029"@de ;
+    dtd:has_doknr "BJNR287010009"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240516220029"@de ;
+    dtd:has_doknr "BJNR287010009BJNE000102377"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240516220029"@de ;
+    dtd:has_doknr "BJNR287010009BJNE000207377"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240516220029"@de ;
+    dtd:has_doknr "BJNR287010009BJNE000403118"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id182 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id181 a dtd:pre ;
+    dtd:has_BR dtd:BR-id37,
+        dtd:BR-id38,
+        dtd:BR-id39,
+        dtd:BR-id40,
+        dtd:BR-id41,
+        dtd:BR-id42,
+        dtd:BR-id43,
+        dtd:BR-id44,
+        dtd:BR-id45 ;
+    dtd:has_Value "(+++ Textnachweis ab: 26.8.2009 +++)(+++ Zur Anwendung d. § 2 Abs. 5 vgl. § 3 Abs. 5 BBPlG +++)(+++ Zur Anwendung d. § 2 Abs. 5 vgl. § 4 Abs. 3 BBPlG +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EGRL 72/2009  (CELEX Nr: 32009L0072)        EGRL 73/2009  (CELEX Nr: 32009L0073)        EURL 2019/944 (CELEX Nr: 32019L0944) vgl. G v. 22.12.2023 I Nr. 405 +++)"@de .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id77,
+        dtd:entry-id78 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id79,
+        dtd:entry-id80 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id81,
+        dtd:entry-id82 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84 .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id85,
+        dtd:entry-id86 .
+
+dtd:row-id57 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88 .
+
+dtd:row-id58 a dtd:row ;
+    dtd:has_entry dtd:entry-id89,
+        dtd:entry-id90 .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id91,
+        dtd:entry-id92 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id93,
+        dtd:entry-id94 .
+
+dtd:row-id61 a dtd:row ;
+    dtd:has_entry dtd:entry-id95,
+        dtd:entry-id96 .
+
+dtd:row-id62 a dtd:row ;
+    dtd:has_entry dtd:entry-id97,
+        dtd:entry-id98 .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id99 .
+
+dtd:row-id64 a dtd:row ;
+    dtd:has_entry dtd:entry-id101,
+        dtd:entry-id102 .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id103,
+        dtd:entry-id104 .
+
+dtd:row-id66 a dtd:row ;
+    dtd:has_entry dtd:entry-id105,
+        dtd:entry-id106 .
+
+dtd:row-id67 a dtd:row ;
+    dtd:has_entry dtd:entry-id107,
+        dtd:entry-id108 .
+
+dtd:row-id68 a dtd:row ;
+    dtd:has_entry dtd:entry-id109,
+        dtd:entry-id110 .
+
+dtd:row-id69 a dtd:row ;
+    dtd:has_entry dtd:entry-id111,
+        dtd:entry-id112 .
+
+dtd:row-id70 a dtd:row ;
+    dtd:has_entry dtd:entry-id113,
+        dtd:entry-id114 .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id115,
+        dtd:entry-id116 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id117,
+        dtd:entry-id118 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id119,
+        dtd:entry-id120 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id121,
+        dtd:entry-id122 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id123,
+        dtd:entry-id124 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id125,
+        dtd:entry-id126 .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id185 ;
+    dtd:has_standtyp dtd:standtyp-id184 .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id187 ;
+    dtd:has_standtyp dtd:standtyp-id186 .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id189 ;
+    dtd:has_standtyp dtd:standtyp-id188 .
+
+dtd:standkommentar-id185 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 9 G v. 22.12.2023 I Nr. 405"@de .
+
+dtd:standkommentar-id187 a dtd:standkommentar ;
+    dtd:has_Value "Änderung durch Art. 4 G v. 8.5.2024 I Nr. 151 mWv 1textlich nachgewiesen, dokumentarisch noch nicht abschließend bearbeitet"@de .
+
+dtd:standkommentar-id189 a dtd:standkommentar ;
+    dtd:has_Value "Das G ist gem. Art. 7 G v. 21.8.2009 I 2870 am 26.8.2009 in Kraft getreten"@de .
+
+dtd:standtyp-id184 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id186 a dtd:standtyp ;
+    dtd:has_Value "Hinweis"@de .
+
+dtd:standtyp-id188 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:table-id46 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id47 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id51 a dtd:tbody ;
+    dtd:has_row dtd:row-id53,
+        dtd:row-id54,
+        dtd:row-id55,
+        dtd:row-id56,
+        dtd:row-id57,
+        dtd:row-id58,
+        dtd:row-id59,
+        dtd:row-id60,
+        dtd:row-id61,
+        dtd:row-id62,
+        dtd:row-id63,
+        dtd:row-id64,
+        dtd:row-id65,
+        dtd:row-id66,
+        dtd:row-id67,
+        dtd:row-id68,
+        dtd:row-id69,
+        dtd:row-id70,
+        dtd:row-id71,
+        dtd:row-id72,
+        dtd:row-id73,
+        dtd:row-id74,
+        dtd:row-id75,
+        dtd:row-id76 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id170 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id178 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:tgroup-id47 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id48,
+        dtd:colspec-id49 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id51 ;
+    dtd:has_thead dtd:thead-id50 .
+
+dtd:thead-id50 a dtd:thead ;
+    dtd:has_row dtd:row-id52 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:zitstelle-id183 a dtd:zitstelle ;
+    dtd:has_Value "2009, 2870"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

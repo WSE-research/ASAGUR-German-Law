@@ -1,0 +1,983 @@
+@prefix dtd: <urn:WarnowMautHV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625155024"@de ;
+    dtd:has_doknr "BJNR083500003"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:ABWFORMAT-id167 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:Content-id151 a dtd:Content ;
+    dtd:has_P dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164 .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_BR dtd:BR-id47 ;
+    dtd:has_Value " (+++ Textnachweis ab: 12. 6.2003 +++)"@de ;
+    dtd:has_pre dtd:pre-id165 .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3a Abs. 2 Satz 1 in Verbindung mit § 3 Abs. 2 bis 5 des Fernstraßenbauprivatfinanzierungsgesetzes in der Fassung der Bekanntmachung vom 20. Januar 2003 (BGBl. I S. 98) verordnet das Bundesministerium für Verkehr, Bau- und Wohnungswesen nach Anhörung des Wirtschaftsministeriums des Landes Mecklenburg-Vorpommern:"@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "Für jede einfache Benutzung des Abschnittes der Bundesstraße B 103n zwischen Kilometer 1 + 040 und Kilometer 3 + 160 (Warnow-Tunnel im Stadtgebiet der Hansestadt Rostock) wird von der Warnowquerung GmbH & Co. KG, Rostock, die vom Wirtschaftsministerium des Landes Mecklenburg-Vorpommern durch die Verordnung zur Beleihung mit dem Recht zur Erhebung von Mautgebühren für die Warnowquerung vom 1. April 2003 (GVBl. M-V S. 280) beliehen worden ist, eine Maut nach dem Mautverzeichnis in der Anlage erhoben."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "Die Mauterhebung beginnt mit dem Tag der Freigabe der in § 1 genannten Strecke für den öffentlichen Verkehr. Der in Satz 1 genannte Tag wird vom Bundesministerium für Verkehr, Bau- und Wohnungswesen im Bundesanzeiger bekannt gegeben."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id167 ;
+    dtd:has_BR dtd:BR-id51 ;
+    dtd:has_Value "Fundstelle des Originaltextes: BGBl. I 2003, 836Mauttabelle einschließlich der gesetzlichen Umsatzsteuer von 16%KategorieGesamthöheAnzahl der AchsenSonstige MerkmaleFahrzeugart (Beispiele)1< 1,90 m>= 2 Pkw, Kraftrad2>= 1,90 m und < 2,40 m>= 2Pkw, Kleinbus, Kleintransporter3>= 2,40 m2Lkw 2 Achsen4>= 2,40 m> 2Lkw mehr als 2 Achsen5>= 2,40 m>= 2Bus > 16 SitzplätzeBusMauttabelle einschließlich der gesetzlichen Umsatzsteuer von 16%KategorieSommer (15. Juni - 15. September)Winter (1. Januar - 14. Juni/ 16. September - 31. Dezember) BGEAGEBGEAGE12,50 EUR1,50 EUR2,00 EUR1,50 EUR25,00 EUR3,00 EUR4,00 EUR3,00 EUR312,50 EUR7,50 EUR10,00 EUR7,50 EUR417,50 EUR10,50 EUR14,00 EUR10,50 EUR515,00 EUR9,00 EUR12,00 EUR9,00 EURBGE = Bargeld-Gebührenerfassung (einschließlich EC-Karte oder Kreditkarte)AGE = Automatische Gebührenerfassung (ETC - 5,8 GHz-Mikrowelle und Abonnements mit Magnetkarte)"@de ;
+    dtd:has_kommentar dtd:kommentar-id166 ;
+    dtd:has_table dtd:table-id52,
+        dtd:table-id54 .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "WarnowMautHV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2003-06-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id56 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "15*"@de .
+
+dtd:colspec-id57 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id58 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "15*"@de .
+
+dtd:colspec-id59 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id60 a dtd:colspec ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:colspec-id63 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id64 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "25*"@de .
+
+dtd:colspec-id65 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "25*"@de .
+
+dtd:colspec-id66 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "25*"@de .
+
+dtd:colspec-id67 a dtd:colspec ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "25*"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ">= 2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Pkw, Kleinbus, Kleintransporter"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ">= 2,40 m"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lkw 2 Achsen"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ">= 2,40 m"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "> 2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lkw mehr als 2 Achsen"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ">= 2,40 m"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ">= 2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bus > 16 Sitzplätze"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bus"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mauttabelle einschließlich der gesetzlichen Umsatzsteuer von 16%"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kategorie"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sommer (15. Juni - 15. September)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Winter (1. Januar - 14. Juni/ 16. September - 31. Dezember)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col4"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BGE"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "AGE"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BGE"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "AGE"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "12,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "17,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "14,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id143 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "10,50 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id144 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id145 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "15,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id146 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "9,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id147 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "12,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id148 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "9,00 EUR"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ","@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id149 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BGE = Bargeld-Gebührenerfassung (einschließlich EC-Karte oder Kreditkarte)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id150 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "AGE = Automatische Gebührenerfassung (ETC - 5,8 GHz-Mikrowelle und Abonnements mit Magnetkarte)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mauttabelle einschließlich der gesetzlichen Umsatzsteuer von 16%"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kategorie"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gesamthöhe"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anzahl der Achsen"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sonstige Merkmale"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fahrzeugart (Beispiele)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "< 1,90 m"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ">= 2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_morerows "3"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Pkw, Kraftrad"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ">= 1,90 m und < 2,40 m"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id168 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id169 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id153 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "WarnowMautHV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "WarnowMautHV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "WarnowMautHV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "WarnowMautHV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "WarnowMautHV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "WarnowMautHV"@de .
+
+dtd:kommentar-id166 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle des Originaltextes: BGBl. I 2003, 836"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Warnow-Tunnel-Mauthöheverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Höhe der Maut für die Benutzung des Warnowtunnels"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625155024"@de ;
+    dtd:has_doknr "BJNR083500003"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625155024"@de ;
+    dtd:has_doknr "BJNR083500003BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625155024"@de ;
+    dtd:has_doknr "BJNR083500003BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625155024"@de ;
+    dtd:has_doknr "BJNR083500003BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625155024"@de ;
+    dtd:has_doknr "BJNR083500003BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625155024"@de ;
+    dtd:has_doknr "BJNR083500003BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id168 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id165 a dtd:pre ;
+    dtd:has_BR dtd:BR-id48,
+        dtd:BR-id49 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12. 6.2003 +++)"@de .
+
+dtd:row-id70 a dtd:row ;
+    dtd:has_entry dtd:entry-id87 .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id88,
+        dtd:entry-id89,
+        dtd:entry-id90,
+        dtd:entry-id91,
+        dtd:entry-id92 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id115 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id116,
+        dtd:entry-id117,
+        dtd:entry-id118 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id119,
+        dtd:entry-id120,
+        dtd:entry-id121,
+        dtd:entry-id122,
+        dtd:entry-id123 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id93,
+        dtd:entry-id94,
+        dtd:entry-id95,
+        dtd:entry-id96,
+        dtd:entry-id97 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101,
+        dtd:entry-id98,
+        dtd:entry-id99 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id102,
+        dtd:entry-id103,
+        dtd:entry-id104,
+        dtd:entry-id105 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id106,
+        dtd:entry-id107,
+        dtd:entry-id108,
+        dtd:entry-id109 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id110,
+        dtd:entry-id111,
+        dtd:entry-id112,
+        dtd:entry-id113,
+        dtd:entry-id114 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id124,
+        dtd:entry-id125,
+        dtd:entry-id126,
+        dtd:entry-id127,
+        dtd:entry-id128 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id129,
+        dtd:entry-id130,
+        dtd:entry-id131,
+        dtd:entry-id132,
+        dtd:entry-id133 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id134,
+        dtd:entry-id135,
+        dtd:entry-id136,
+        dtd:entry-id137,
+        dtd:entry-id138 .
+
+dtd:row-id83 a dtd:row ;
+    dtd:has_entry dtd:entry-id139,
+        dtd:entry-id140,
+        dtd:entry-id141,
+        dtd:entry-id142,
+        dtd:entry-id143 .
+
+dtd:row-id84 a dtd:row ;
+    dtd:has_entry dtd:entry-id144,
+        dtd:entry-id145,
+        dtd:entry-id146,
+        dtd:entry-id147,
+        dtd:entry-id148 .
+
+dtd:row-id85 a dtd:row ;
+    dtd:has_entry dtd:entry-id149 ;
+    dtd:has_rowsep "0"@de .
+
+dtd:row-id86 a dtd:row ;
+    dtd:has_entry dtd:entry-id150 .
+
+dtd:table-id52 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_tgroup dtd:tgroup-id53 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id54 a dtd:table ;
+    dtd:has_frame dtd:top ;
+    dtd:has_tgroup dtd:tgroup-id55 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id62 a dtd:tbody ;
+    dtd:has_row dtd:row-id75,
+        dtd:row-id76,
+        dtd:row-id77,
+        dtd:row-id78,
+        dtd:row-id79 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id69 a dtd:tbody ;
+    dtd:has_row dtd:row-id80,
+        dtd:row-id81,
+        dtd:row-id82,
+        dtd:row-id83,
+        dtd:row-id84,
+        dtd:row-id85,
+        dtd:row-id86 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id151 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id163 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:tgroup-id53 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "5"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id56,
+        dtd:colspec-id57,
+        dtd:colspec-id58,
+        dtd:colspec-id59,
+        dtd:colspec-id60 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id62 ;
+    dtd:has_thead dtd:thead-id61 .
+
+dtd:tgroup-id55 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "5"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id63,
+        dtd:colspec-id64,
+        dtd:colspec-id65,
+        dtd:colspec-id66,
+        dtd:colspec-id67 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id69 ;
+    dtd:has_thead dtd:thead-id68 .
+
+dtd:thead-id61 a dtd:thead ;
+    dtd:has_row dtd:row-id70,
+        dtd:row-id71 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:thead-id68 a dtd:thead ;
+    dtd:has_row dtd:row-id72,
+        dtd:row-id73,
+        dtd:row-id74 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Mauthöhe"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Beginn der Mauterhebung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_BR dtd:BR-id50 ;
+    dtd:has_Value "(zu § 1)Mautverzeichnis"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id169 a dtd:zitstelle ;
+    dtd:has_Value "2003, 835"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:left rdfs:label "left"@de .
+

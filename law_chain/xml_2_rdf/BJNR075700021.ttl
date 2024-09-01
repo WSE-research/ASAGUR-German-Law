@@ -1,0 +1,666 @@
+@prefix dtd: <urn:OpfBG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116,
+        dtd:P-id117,
+        dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121,
+        dtd:P-id122,
+        dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127,
+        dtd:P-id128,
+        dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131,
+        dtd:P-id132,
+        dtd:P-id133,
+        dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136,
+        dtd:P-id137,
+        dtd:P-id138,
+        dtd:P-id139,
+        dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142,
+        dtd:P-id143,
+        dtd:P-id144,
+        dtd:P-id145,
+        dtd:P-id146,
+        dtd:P-id147,
+        dtd:P-id148,
+        dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151,
+        dtd:P-id152,
+        dtd:P-id153,
+        dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156,
+        dtd:P-id157,
+        dtd:P-id158,
+        dtd:P-id159 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DL-id81 a dtd:DL ;
+    dtd:has_DD dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89,
+        dtd:DD-id90,
+        dtd:DD-id91 ;
+    dtd:has_DT dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84,
+        dtd:DT-id85,
+        dtd:DT-id86 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id92 a dtd:DL ;
+    dtd:has_DD dtd:DD-id95,
+        dtd:DD-id96 ;
+    dtd:has_DT dtd:DT-id93,
+        dtd:DT-id94 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id97 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101 ;
+    dtd:has_DT dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Value "als Ombudsperson für die Anliegen der Opfer der SED-Diktatur und der kommunistischen Herrschaft in der Sowjetischen Besatzungszone in Deutschland und in der ehemaligen Deutschen Demokratischen Republik sowie deren bis einschließlich im zweiten Grad verwandten Angehörigen in Politik und Öffentlichkeit zu wirken und zur Würdigung der Opfer des Kommunismus in Deutschland beizutragen,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Value "den Deutschen Bundestag und seine Ausschüsse, die Bundesregierung sowie andere öffentliche Einrichtungen in Fragen, die die Angelegenheiten der Opfer der SED-Diktatur und der kommunistischen Herrschaft in der Sowjetischen Besatzungszone in Deutschland und in der ehemaligen Deutschen Demokratischen Republik betreffen, zu beraten,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Value "den Prozess der gesellschaftlichen Verständigung über die unterschiedlichen biografischen Erfahrungen in der Zeit der deutschen Teilung zu befördern,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Value "den Deutschen Bundestag in dem Anliegen zu unterstützen, die Aufmerksamkeit für die Belange der Opfer kommunistischer Gewaltherrschaft im europäischen und internationalen Rahmen zu stärken und daran mitzuwirken, die Vermittlung von Erfahrungen in Deutschland im Umgang mit den Opfern diktatorischer kommunistischer Gewalt im internationalen Kontext zu leisten, und"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Value "alle Institutionen des Bundes in Fragen von Opferinteressen beim Umgang mit den Unterlagen des Ministeriums für Staatssicherheit der ehemaligen Deutschen Demokratischen Republik sowie mit den Archivbeständen, die Bezug zur Geschichte der ehemaligen Deutschen Demokratischen Republik und zu der Zeit der deutschen Teilung haben, zu beraten."@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Value "durch Abberufung aufgrund eines Beschlusses des Deutschen Bundestages oder"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "durch Entlassung auf Verlangen der oder des Opferbeauftragten."@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für den Monat Juni 2023 eine einmalige Sonderzahlung in Höhe von 1 240 Euro sowie"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Monate Juli 2023 bis Februar 2024 eine monatliche Sonderzahlung in Höhe von jeweils 220 Euro."@de .
+
+dtd:NB-id80 a dtd:NB ;
+    dtd:has_Value "Gesetzes"@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_BR dtd:BR-id77 ;
+    dtd:has_Value " (+++ Textnachweis ab: 17.6.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id160 .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(1) Die oder der Bundesbeauftragte für die Opfer der SED-Diktatur beim Deutschen Bundestag (Opferbeauftragte) nimmt ihre oder seine Aufgaben als Hilfsorgan des Deutschen Bundestages wahr."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_DL dtd:DL-id81 ;
+    dtd:has_Value "(2) Die oder der Opferbeauftragte hat die Aufgabe: 1.als Ombudsperson für die Anliegen der Opfer der SED-Diktatur und der kommunistischen Herrschaft in der Sowjetischen Besatzungszone in Deutschland und in der ehemaligen Deutschen Demokratischen Republik sowie deren bis einschließlich im zweiten Grad verwandten Angehörigen in Politik und Öffentlichkeit zu wirken und zur Würdigung der Opfer des Kommunismus in Deutschland beizutragen,2.den Deutschen Bundestag und seine Ausschüsse, die Bundesregierung sowie andere öffentliche Einrichtungen in Fragen, die die Angelegenheiten der Opfer der SED-Diktatur und der kommunistischen Herrschaft in der Sowjetischen Besatzungszone in Deutschland und in der ehemaligen Deutschen Demokratischen Republik betreffen, zu beraten,3.den Prozess der gesellschaftlichen Verständigung über die unterschiedlichen biografischen Erfahrungen in der Zeit der deutschen Teilung zu befördern,4.den Deutschen Bundestag in dem Anliegen zu unterstützen, die Aufmerksamkeit für die Belange der Opfer kommunistischer Gewaltherrschaft im europäischen und internationalen Rahmen zu stärken und daran mitzuwirken, die Vermittlung von Erfahrungen in Deutschland im Umgang mit den Opfern diktatorischer kommunistischer Gewalt im internationalen Kontext zu leisten, und5.alle Institutionen des Bundes in Fragen von Opferinteressen beim Umgang mit den Unterlagen des Ministeriums für Staatssicherheit der ehemaligen Deutschen Demokratischen Republik sowie mit den Archivbeständen, die Bezug zur Geschichte der ehemaligen Deutschen Demokratischen Republik und zu der Zeit der deutschen Teilung haben, zu beraten."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(3) Zur Erfüllung der Aufgaben nach diesem Gesetz kann die oder der Opferbeauftragte Antrag auf Auskunftserteilung und Einsichtnahme in die Unterlagen des Ministeriums für Staatssicherheit der ehemaligen Deutschen Demokratischen Republik nach Maßgabe des Stasi-Unterlagen-Gesetzes bei dem Bundesarchiv stellen, soweit dies für die Erstellung von Gutachten, Berichten oder Stellungnahmen im Auftrag des Deutschen Bundestages erforderlich ist."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(4) Die oder der Opferbeauftragte berät die öffentlichen Stellen des Bundes. Sie oder er kann sich auf Antrag der überprüfenden Stelle an Überprüfungsverfahren nach § 20 Absatz 1 Nummer 6 bis 12 und § 21 Absatz 1 Nummer 6 bis 9 des Stasi-Unterlagen-Gesetzes beratend beteiligen und dabei in die herangezogenen Unterlagen Einsicht nehmen. Sie oder er kann die Ergebnisse von Überprüfungen nach § 20 Absatz 1 Nummer 7 Buchstabe a und § 21 Absatz 1 Nummer 7 Buchstabe a des Stasi-Unterlagen-Gesetzes von Personen, die bei ihr oder ihm beschäftigt sind oder sich bei ihr oder ihm um eine Beschäftigung bewerben, einsehen."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(5) Die öffentlichen Stellen des Bundes und der Länder sollen die oder den Opferbeauftragten bei der Wahrnehmung ihrer oder seiner Aufgaben unterstützen."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(1) Die oder der Opferbeauftragte erstattet dem Deutschen Bundestag jährlich einen Gesamtbericht zur aktuellen Situation der Opfer. Sie oder er hat auf Anforderung des Deutschen Bundestages Gutachten zu erstellen und Berichte zu erstatten."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(2) Die oder der Opferbeauftragte kann von den Ausschüssen des Deutschen Bundestages beauftragt werden, Berichte vorzulegen."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(3) Die oder der Opferbeauftragte kann jederzeit dem Deutschen Bundestag und seinen Ausschüssen Stellungnahmen vorlegen."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(4) Die oder der Opferbeauftragte kann zur Wahrnehmung der Aufgaben nach diesem Gesetz an den Beratungen der Ausschüsse des Deutschen Bundestages teilnehmen."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "Jede Person hat das Recht, sich in Angelegenheiten der Opfer der SED-Diktatur und der kommunistischen Herrschaft in der Sowjetischen Besatzungszone in Deutschland und in der ehemaligen Deutschen Demokratischen Republik an die Opferbeauftragte oder den Opferbeauftragten zu wenden."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(1) Die oder der Opferbeauftragte arbeitet bei der Wahrnehmung der Aufgaben nach diesem Gesetz mit Verbänden der Opfer kommunistischer Gewaltherrschaft sowie Vereinigungen und Interessengemeinschaften von Betroffenen staatlicher Repressionen der ehemaligen Deutschen Demokratischen Republik zusammen."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(2) Bei der Wahrnehmung der Aufgaben nach diesem Gesetz arbeitet die oder der Opferbeauftragte mit den Landesbeauftragten zur Aufarbeitung der SED-Diktatur und der Folgen der kommunistischen Diktatur zusammen."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(3) Die oder der Opferbeauftragte arbeitet bei der Wahrnehmung der Aufgaben nach diesem Gesetz mit der oder dem Beauftragten der Bundesregierung für Kultur und Medien, der oder dem Beauftragten der Bundesregierung für die neuen Bundesländer, der Stiftung zur Aufarbeitung der SED-Diktatur, dem Bundesarchiv, der Bundeszentrale für politische Bildung sowie den Gedenkstätten, den Bürgerarchiven zum Thema Opposition und Widerstand und anderen öffentlichen und nichtöffentlichen Stellen zusammen."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(1) Der Deutsche Bundestag wählt die Opferbeauftragte oder den Opferbeauftragten ohne Aussprache in geheimer Wahl mit der Mehrheit seiner Mitglieder. Vorschlagsberechtigt sind der Ausschuss für Kultur und Medien, die Fraktionen und Gruppen von Abgeordneten, die mindestens so viele Mitglieder haben, wie nach der Geschäftsordnung des Deutschen Bundestages für die Bildung einer Fraktion erforderlich sind."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(2) Zur Opferbeauftragten oder zum Opferbeauftragten sind Deutsche wählbar, die das Wahlrecht zum Deutschen Bundestag besitzen und das 35. Lebensjahr vollendet haben. Zur Opferbeauftragten oder zum Opferbeauftragten kann nicht gewählt werden, wer Mitarbeiterin oder Mitarbeiter des Staatssicherheitsdienstes der ehemaligen Deutschen Demokratischen Republik im Sinne des § 6 Absatz 4 des Stasi-Unterlagen-Gesetzes gewesen ist. Ebenso ausgeschlossen ist die Wahl einer Person, die gegen Grundsätze der Menschlichkeit oder Rechtsstaatlichkeit verstoßen oder in schwerwiegendem Maße ihre Stellung zum eigenen Vorteil oder zum Nachteil anderer missbraucht hat."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(3) Die Amtszeit beträgt fünf Jahre. Eine einmalige Wiederwahl ist zulässig."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(4) Die oder der Opferbeauftragte leistet bei der Amtsübernahme vor der Präsidentin oder dem Präsidenten des Deutschen Bundestages den in Artikel 56 des Grundgesetzes vorgesehenen Eid."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(1) Die oder der Opferbeauftragte steht nach Maßgabe dieses Gesetzes in einem öffentlich-rechtlichen Amtsverhältnis zum Bund. Die Präsidentin oder der Präsident des Deutschen Bundestages ernennt die Gewählte oder den Gewählten. Die oder der Opferbeauftragte ist in der Ausübung ihres oder seines Amtes unabhängig und nur dem Gesetz unterworfen."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(2) Das Amtsverhältnis beginnt mit der Aushändigung der Urkunde über die Ernennung oder, falls die Eidesleistung nach § 5 Absatz 4 vorher erfolgte, mit der Vereidigung."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_DL dtd:DL-id92 ;
+    dtd:has_Value "(3) Das Amtsverhältnis endet außer durch Ablauf der Amtszeit nach § 5 Absatz 3 oder durch den Tod 1.durch Abberufung aufgrund eines Beschlusses des Deutschen Bundestages oder2.durch Entlassung auf Verlangen der oder des Opferbeauftragten.Die Abberufung und die Entlassung werden mit der Aushändigung der Entlassungsurkunde wirksam. Auf Ersuchen der Präsidentin oder des Präsidenten des Deutschen Bundestages ist die oder der Opferbeauftragte verpflichtet, die Geschäfte bis zur Ernennung einer Nachfolgerin oder eines Nachfolgers weiterzuführen."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "(4) Der Deutsche Bundestag kann auf Antrag des Ausschusses für Kultur und Medien die Präsidentin oder den Präsidenten des Deutschen Bundestages beauftragen, die oder den Opferbeauftragten abzuberufen. Der Beschluss bedarf der Zustimmung der Mehrheit der Mitglieder des Deutschen Bundestages."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "(5) Die oder der Opferbeauftragte kann jederzeit die eigene Entlassung verlangen. Die Präsidentin oder der Präsident des Deutschen Bundestages spricht die Entlassung aus."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "(1) Die oder der Opferbeauftragte ist, auch nach Beendigung des Amtsverhältnisses, verpflichtet, über die ihr oder ihm amtlich bekanntgewordenen Angelegenheiten Verschwiegenheit zu bewahren. Dies gilt nicht für Mitteilungen im dienstlichen Verkehr oder über Tatsachen, die offenkundig sind oder ihrer Bedeutung nach keiner Geheimhaltung bedürfen."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(2) Die oder der Opferbeauftragte darf, auch wenn sie oder er nicht mehr im Amt ist, über Angelegenheiten im Sinne des Absatzes 1 Satz 1 ohne Genehmigung weder vor Gericht noch außergerichtlich aussagen, Erklärungen abgeben oder Gutachten erstatten. Die Genehmigung erteilt die Präsidentin oder der Präsident des Deutschen Bundestages im Einvernehmen mit dem Ausschuss für Kultur und Medien."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(3) Die Genehmigung, als Zeugin oder Zeuge auszusagen, soll nur versagt werden, wenn die Aussage dem Wohl des Bundes oder eines deutschen Landes Nachteile bereiten oder die Erfüllung öffentlicher Aufgaben ernstlich gefährden oder erheblich erschweren würde. Die Genehmigung, ein Gutachten zu erstatten, kann versagt werden, wenn die Erstattung den dienstlichen Interessen Nachteile bereiten würde. § 28 des Bundesverfassungsgerichtsgesetzes bleibt unberührt."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "(4) Die oder der Opferbeauftragte ist berechtigt, über Personen, die ihr oder ihm in ihrer oder seiner Eigenschaft als Opferbeauftragte oder Opferbeauftragter Tatsachen anvertraut haben, sowie über diese Tatsachen selbst das Zeugnis zu verweigern. Dies gilt auch für die Beschäftigten der oder des Opferbeauftragten mit der Maßgabe, dass über die Ausübung dieses Rechts die oder der Opferbeauftragte nach pflichtgemäßem Ermessen entscheidet. Nach Beendigung des Amtsverhältnisses der oder des Opferbeauftragten trifft die Entscheidung die oder der amtierende Opferbeauftragte. Soweit das Zeugnisverweigerungsrecht reicht, darf die Vorlegung oder Auslieferung von Akten oder anderen Dokumenten von der oder dem Opferbeauftragten nicht gefordert werden."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(5) Unberührt bleibt die gesetzlich begründete Pflicht, Straftaten anzuzeigen und bei Gefährdung der freiheitlichen demokratischen Grundordnung für deren Erhaltung einzutreten."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(6) Die oder der Opferbeauftragte darf neben ihrem oder seinem Amt kein anderes besoldetes Amt, kein Gewerbe und keinen Beruf ausüben und weder der Leitung, dem Aufsichtsrat oder dem Verwaltungsrat eines auf Erwerb gerichteten Unternehmens noch einer Regierung oder einer gesetzgebenden Körperschaft des Bundes oder eines Landes angehören. Sie oder er darf nicht gegen Entgelt außergerichtliche Gutachten abgeben."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(7) Die oder der Opferbeauftragte ist verpflichtet, eine beabsichtigte Erwerbstätigkeit oder sonstige entgeltliche Beschäftigung außerhalb des öffentlichen Dienstes, die innerhalb der ersten 18 Monate nach ihrem oder seinem Ausscheiden aus dem Amt aufgenommen werden soll, schriftlich oder elektronisch gegenüber der Präsidentin oder dem Präsidenten des Deutschen Bundestages anzuzeigen. Die Präsidentin oder der Präsident des Deutschen Bundestages kann der oder dem Opferbeauftragten die Erwerbstätigkeit oder sonstige entgeltliche Beschäftigung nach dem Ausscheiden aus dem Amt untersagen, soweit zu besorgen ist, dass öffentliche Interessen beeinträchtigt werden. Von einer Beeinträchtigung ist insbesondere dann auszugehen, wenn die beabsichtigte Erwerbstätigkeit oder sonstige entgeltliche Beschäftigung in Angelegenheiten oder Bereichen ausgeführt werden soll, in denen die oder der Opferbeauftragte während der Amtszeit tätig war. Eine Untersagung soll in der Regel die Dauer von einem Jahr nach dem Ausscheiden aus dem Amt nicht überschreiten. In Fällen der schweren Beeinträchtigung öffentlicher Interessen kann eine Untersagung auch für die Dauer von bis zu 18 Monaten nach dem Ausscheiden aus dem Amt ausgesprochen werden."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(8) Die oder der Opferbeauftragte hat der Präsidentin oder dem Präsidenten des Deutschen Bundestages Mitteilung über Geschenke zu machen, die sie oder er in Bezug auf das Amt erhält. Die Präsidentin oder der Präsident des Deutschen Bundestages entscheidet über die Verwendung der Geschenke. Sie oder er kann Verfahrensvorschriften erlassen."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(1) Die oder der Opferbeauftragte hat ihren oder seinen Sitz beim Deutschen Bundestag."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(2) Der oder dem Opferbeauftragten werden Beschäftigte für die Erfüllung ihrer oder seiner Aufgaben beigegeben. Die Beamtinnen und Beamten bei der oder dem Opferbeauftragten sind Beamtinnen und Beamte des Deutschen Bundestages nach § 129 des Bundesbeamtengesetzes. Die oder der Opferbeauftragte ist Vorgesetzte oder Vorgesetzter der ihr oder ihm beigegebenen Beschäftigten."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_NB dtd:NB-id80 ;
+    dtd:has_Value "(3) Eine Beschäftigung von ehemaligen Mitarbeiterinnen und Mitarbeitern des Staatssicherheitsdienstes der ehemaligen Deutschen Demokratischen Republik im Sinne des § 6 Absatz 4 des Stasi-Unterlagen-Gesetzes bei der oder dem Opferbeauftragten ist unzulässig."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(4) Die ihr oder ihm für die Erfüllung der Aufgaben zur Verfügung zu stellende notwendige Personal- und Sachausstattung ist im Einzelplan des Deutschen Bundestages in einem eigenen Kapitel auszuweisen."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(1) Die oder der Opferbeauftragte erhält vom Beginn des Kalendermonats an, in dem das Amtsverhältnis beginnt, bis zum Schluss des Kalendermonats, in dem das Amtsverhältnis endet, im Fall des § 6 Absatz 3 Satz 3 bis zum Ende des Monats, in dem die Geschäftsführung endet, Amtsbezüge in Höhe der einem Bundesbeamten der Besoldungsgruppe B 6 in einer obersten Bundesbehörde zustehenden Besoldung."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_DL dtd:DL-id97 ;
+    dtd:has_Value "(1a) Zur Abmilderung der Folgen der gestiegenen Verbraucherpreise werden der oder dem Opferbeauftragten in entsprechender Anwendung des § 14 Absatz 4 bis 8 des Bundesbesoldungsgesetzes die folgenden Sonderzahlungen gewährt: 1.für den Monat Juni 2023 eine einmalige Sonderzahlung in Höhe von 1 240 Euro sowie2.für die Monate Juli 2023 bis Februar 2024 eine monatliche Sonderzahlung in Höhe von jeweils 220 Euro."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(2) Im Übrigen sind § 12 Absatz 6 sowie die §§ 13 bis 20 und 21a Absatz 5 des Bundesministergesetzes mit den Maßgaben anzuwenden, dass an die Stelle der vierjährigen Amtszeit in § 15 Absatz 1 des Bundesministergesetzes eine Amtszeit von fünf Jahren und an die Stelle der Besoldungsgruppe B 11 in § 21a Absatz 5 des Bundesministergesetzes die Besoldungsgruppe B 6 tritt."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(3) Die Vorschriften des Bundesreisekostengesetzes und des Bundesumzugskostengesetzes für die infolge der Ernennung und Beendigung des Amtsverhältnisses erforderlich werdenden Umzüge sind entsprechend anzuwenden."@de .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-04-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id161 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id162 .
+
+dtd:fussnoten-id67 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id111 .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "OpfBG"@de .
+
+dtd:kurzue-id36 a dtd:kurzue ;
+    dtd:has_Value "SED-Opferbeauftragtengesetz"@de .
+
+dtd:langue-id37 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Bundesbeauftragte oder den Bundesbeauftragten für die Opfer der SED-Diktatur beim Deutschen Bundestag"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id36 ;
+    dtd:has_langue dtd:langue-id37 ;
+    dtd:has_standangabe dtd:standangabe-id38,
+        dtd:standangabe-id39 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000901360"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20240105214030"@de ;
+    dtd:has_doknr "BJNR075700021BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id161 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id160 a dtd:pre ;
+    dtd:has_BR dtd:BR-id78,
+        dtd:BR-id79 ;
+    dtd:has_Value "(+++ Textnachweis ab: 17.6.2021 +++)"@de .
+
+dtd:standangabe-id38 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id164 ;
+    dtd:has_standtyp dtd:standtyp-id163 .
+
+dtd:standangabe-id39 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id166 ;
+    dtd:has_standtyp dtd:standtyp-id165 .
+
+dtd:standkommentar-id164 a dtd:standkommentar ;
+    dtd:has_Value "Änderung durch Art. 11 G v. 22.12.2023 I Nr. 414 textlich nachgewiesen, dokumentarisch noch nicht abschließend bearbeitet"@de .
+
+dtd:standkommentar-id166 a dtd:standkommentar ;
+    dtd:has_Value "Änderung durch Art. 12 G v. 22.12.2023 I Nr. 414 textlich nachgewiesen, dokumentarisch noch nicht abschließend bearbeitet"@de .
+
+dtd:standtyp-id163 a dtd:standtyp ;
+    dtd:has_Value "Hinweis"@de .
+
+dtd:standtyp-id165 a dtd:standtyp ;
+    dtd:has_Value "Hinweis"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Stellung, Aufgaben und Befugnisse"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Berichtspflichten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Anrufung der oder des Opferbeauftragten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Zusammenarbeit mit öffentlichen und nichtöffentlichen Stellen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Wahl der oder des Opferbeauftragten und Amtszeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Rechtsstellung der oder des Opferbeauftragten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Verschwiegenheitspflicht, Berufsbeschränkung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Sitz der oder des Opferbeauftragten, Beschäftigte, Haushalt"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Amtsbezüge, Versorgung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id162 a dtd:zitstelle ;
+    dtd:has_Value "2021, 750, 757"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

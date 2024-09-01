@@ -1,0 +1,120 @@
+@prefix dtd: <urn:LMG1974§25AnwG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152322"@de ;
+    dtd:has_doknr "BJNR095200004"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:Content-id21 a dtd:Content ;
+    dtd:has_P dtd:P-id22 .
+
+dtd:Content-id23 a dtd:Content ;
+    dtd:has_P dtd:P-id24 .
+
+dtd:Content-id25 a dtd:Content ;
+    dtd:has_P dtd:P-id26 .
+
+dtd:P-id22 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id24 a dtd:P ;
+    dtd:has_BR dtd:BR-id18 ;
+    dtd:has_Value " (+++ Textnachweis ab: 20.5.2004 +++)Das G wurde als Art. 8 des G v. 13.5.2004 I 934 (FlBGuaÄndG) vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 14 Satz 1 dieses G am 20.5.2004 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id27 .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value "§ 25 des Lebensmittel- und Bedarfsgegenständegesetzes in der Fassung der Bekanntmachung vom 9. September 1997 (BGBl. I S. 2296), das zuletzt durch Artikel 5 des Gesetzes vom 13. Mai 2004 (BGBl. I S. 934) geändert worden ist, ist in der am 19. Mai 2004 geltenden Fassung hinsichtlich der Aufhebung von Regelungen, die auf seiner Grundlage erlassen worden sind, weiter anzuwenden."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-05-13"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "Art 8"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id28 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id29 .
+
+dtd:fussnoten-id16 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id23 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "LMG1974§25AnwG"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "LMG1974§25AnwG"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Gesetz über die weitere Anwendbarkeit des § 25 des Lebensmittel- und
+Bedarfsgegenständegesetzes"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 ;
+    dtd:has_titel dtd:titel-id14 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152322"@de ;
+    dtd:has_doknr "BJNR095200004"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625152322"@de ;
+    dtd:has_doknr "BJNR095200004BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id28 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id27 a dtd:pre ;
+    dtd:has_BR dtd:BR-id19,
+        dtd:BR-id20 ;
+    dtd:has_Value "(+++ Textnachweis ab: 20.5.2004 +++)"@de .
+
+dtd:text-id15 a dtd:text ;
+    dtd:has_Content dtd:Content-id21 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id17 a dtd:text ;
+    dtd:has_Content dtd:Content-id25 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id16 ;
+    dtd:has_text dtd:text-id15 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id17 .
+
+dtd:titel-id14 a dtd:titel ;
+    dtd:has_Value """Gesetz über die weitere Anwendbarkeit des § 25 des Lebensmittel- und
+Bedarfsgegenständegesetzes"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id29 a dtd:zitstelle ;
+    dtd:has_Value "2004, 934, 952"@de .
+

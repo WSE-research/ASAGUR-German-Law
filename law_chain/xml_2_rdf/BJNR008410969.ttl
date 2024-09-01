@@ -1,0 +1,223 @@
+@prefix dtd: <urn:KrWaffKontrGDV-3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150907215643"@de ;
+    dtd:has_doknr "BJNR008410969"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47,
+        dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value " (+++ Textnachweis ab: 24.7.1969 +++)"@de ;
+    dtd:has_pre dtd:pre-id53 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 23 des Gesetzes über die Kontrolle von Kriegswaffen vom 20. April 1961 (Bundesgesetzbl. I S. 444), geändert durch das Einführungsgesetz zum Gesetz über Ordnungswidrigkeiten vom 24. Mai 1968 (Bundesgesetzbl. I S. 503), in Verbindung mit § 36 Abs. 3 des Gesetzes über Ordnungswidrigkeiten vom 24. Mai 1968 (Bundesgesetzbl. I S. 481) wird verordnet:"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(1) Die Zuständigkeit des Bundesministeriums für Wirtschaft und Energie zur Verfolgung und Ahndung von Ordnungswidrigkeiten nach dem Gesetz über die Kontrolle von Kriegswaffen wird dem Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) übertragen."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(2) Die Zuständigkeit des Bundesministeriums der Finanzen zur Verfolgung und Ahndung von Ordnungswidrigkeiten nach dem Gesetz über die Kontrolle von Kriegswaffen wird den örtlich zuständigen Hauptzollämtern übertragen."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach ihrer Verkündung in Kraft."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_SP dtd:SP-id40,
+        dtd:SP-id41 ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft Der Bundesminister der Finanzen"@de .
+
+dtd:SP-id40 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:SP-id41 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-07-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id42 .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "KrWaffKontrGDV 3"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "KrWaffKontrGDV 3"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "KrWaffKontrGDV 3"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "KrWaffKontrGDV 3"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "KrWaffKontrGDV 3"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Dritte Verordnung zur Durchführung des Gesetzes über die Kontrolle von
+Kriegswaffen"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150907215643"@de ;
+    dtd:has_doknr "BJNR008410969"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150907215643"@de ;
+    dtd:has_doknr "BJNR008410969BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150907215643"@de ;
+    dtd:has_doknr "BJNR008410969BJNE000207377"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150907215643"@de ;
+    dtd:has_doknr "BJNR008410969BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20150907215643"@de ;
+    dtd:has_doknr "BJNR008410969BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id53 a dtd:pre ;
+    dtd:has_BR dtd:BR-id37,
+        dtd:BR-id38 ;
+    dtd:has_Value "(+++ Textnachweis ab: 24.7.1969 +++)"@de .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id57 ;
+    dtd:has_standtyp dtd:standtyp-id56 .
+
+dtd:standkommentar-id57 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 32 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id56 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "1969, 841"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

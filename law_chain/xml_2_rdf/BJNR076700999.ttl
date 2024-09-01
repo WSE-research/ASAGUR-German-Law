@@ -1,0 +1,217 @@
+@prefix dtd: <urn:MarkenG§8Bek-99#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213524"@de ;
+    dtd:has_doknr "BJNR076700999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:kommentar-id48 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl. I 1999, 767)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44,
+        dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:DD-id28 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id35 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id36 .
+
+dtd:DD-id34 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id37 .
+
+dtd:DL-id26 a dtd:DL ;
+    dtd:has_DD dtd:DD-id28 ;
+    dtd:has_DT dtd:DT-id27 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id29 a dtd:DL ;
+    dtd:has_DD dtd:DD-id31 ;
+    dtd:has_DT dtd:DT-id30 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id32 a dtd:DL ;
+    dtd:has_DD dtd:DD-id34 ;
+    dtd:has_DT dtd:DT-id33 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id27 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id30 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:IMG-id38 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1999_j0767_0010.jpg"@de .
+
+dtd:LA-id35 a dtd:LA ;
+    dtd:has_DL dtd:DL-id29 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zertifikationszeichen der Republik Kuba (Anlage)."@de .
+
+dtd:LA-id36 a dtd:LA ;
+    dtd:has_DL dtd:DL-id32 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zertifikationszeichen der Republik Kuba (Anlage)."@de .
+
+dtd:LA-id37 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zertifikationszeichen der Republik Kuba (Anlage)."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 23. 4.1999 +++)"@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_DL dtd:DL-id26 ;
+    dtd:has_Value "Auf Grund des § 8 Abs. 2 Nr. 7 des Markengesetzes vom 25. Oktober 1994 (BGBl. I S. 3082, 1995 I S. 156), zuletzt geändert durch Artikel 5 des Gesetzes vom 16. Juli 1998 (BGBl. I S. 1827), wird bekanntgemacht, daß das folgende amtliche Prüf- und Gewährzeichen von der Eintragung als Marke ausgeschlossen ist: Zertifikationszeichen der Republik Kuba (Anlage).Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 27. November 1998 (BGBl. I S. 3538)."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Bundesministerium der Justiz"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_IMG dtd:IMG-id38 ;
+    dtd:has_Value "Fundstelle: BGBl. I 1999, 767)"@de ;
+    dtd:has_noindex dtd:noindex-id25 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-04-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id41 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 99"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 99"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "MarkenG§8Bek 99"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 8 des Markengesetzes"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:noindex-id25 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213524"@de ;
+    dtd:has_doknr "BJNR076700999"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213524"@de ;
+    dtd:has_doknr "BJNR076700999BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213524"@de ;
+    dtd:has_doknr "BJNR076700999BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Zertifikationszeichen der Republik Kuba"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "1999, 767"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

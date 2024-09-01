@@ -1,0 +1,366 @@
+@prefix dtd: <urn:RentEPPG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221111213105"@de ;
+    dtd:has_doknr "BJNR198510022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67,
+        dtd:P-id68,
+        dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77,
+        dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80,
+        dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84,
+        dtd:P-id85,
+        dtd:P-id86,
+        dtd:P-id87,
+        dtd:P-id88 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id63 .
+
+dtd:DL-id57 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61 ;
+    dtd:has_DT dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Value "einen Anspruch auf diese Leistungen und deren zumindest teilweise Auszahlung hatten und"@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Value "ihren Wohnsitz in der Bundesrepublik Deutschland hatten."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_BR dtd:BR-id54 ;
+    dtd:has_Value " (+++ Textnachweis ab: 12.11.2022 +++)Das G wurde als Artikel 1 des G v. 7.11.2022 I 1985 vom Bundestag beschlossen.  Es ist gem. Art. 6 Satz 1 dieses G am 12.11.2022 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id89 .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(1) Rentnerinnen und Rentnern wird eine einmalige Energiepreispauschale in Höhe von 300 Euro gewährt."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_DL dtd:DL-id57 ;
+    dtd:has_Value "(2) Rentnerinnen und Rentner nach Absatz 1 sind Bezieherinnen und Bezieher laufender dauerhafter Leistungen aus der gesetzlichen Rentenversicherung, der Alterssicherung der Landwirte, Bezieherinnen und Bezieher einer Produktionsaufgaberente nach dem Gesetz zur Förderung der Einstellung der landwirtschaftlichen Erwerbstätigkeit oder Bezieherinnen und Bezieher vergleichbarer Leistungen aus anderen Mitgliedstaaten der Europäischen Union, die der unbeschränkten Steuerpflicht in Deutschland unterliegen, wenn sie am 1. Dezember 2022 1.einen Anspruch auf diese Leistungen und deren zumindest teilweise Auszahlung hatten und2.ihren Wohnsitz in der Bundesrepublik Deutschland hatten.Als laufende dauerhafte Leistung nach Satz 1 gelten auch befristete Renten."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "(3) Hat eine Rentenbezieherin oder ein Rentenbezieher Anspruch auf mehrere Leistungen nach Absatz 2, besteht der Anspruch auf die Energiepreispauschale nur einmal. Besteht neben dem Anspruch auf eine Leistung aus der allgemeinen Rentenversicherung Anspruch auf eine Leistung aus der knappschaftlichen Rentenversicherung, wird die Energiepreispauschale nur wegen der Leistung aus der knappschaftlichen Rentenversicherung gewährt. Besteht neben dem Anspruch auf eine Leistung aus der gesetzlichen Rentenversicherung Anspruch auf eine Leistung aus der Alterssicherung der Landwirte, wird die Energiepreispauschale nur wegen der Leistung aus der Alterssicherung der Landwirte gewährt."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(1) Die Energiepreispauschale soll bis zum 15. Dezember 2022 ausgezahlt werden."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(2) Die Energiepreispauschale wird für Rentenbezieherinnen und Rentenbezieher der allgemeinen Rentenversicherung durch die Deutsche Post AG für die Träger der allgemeinen Rentenversicherung, für Rentenbezieherinnen und Rentenbezieher der knappschaftlichen Rentenversicherung durch die Deutsche Rentenversicherung Knappschaft-Bahn-See und für Rentenbezieherinnen und Rentenbezieher der Alterssicherung der Landwirte durch die Landwirtschaftliche Alterskasse ausgezahlt. Soweit das Verfahren zur Auszahlung der Energiepreispauschale dem Vorgehen bei der Auszahlung von Einmalzahlungen und der Aufgabenwahrnehmung bei der Auszahlung nach dem Sechsten Buch Sozialgesetzbuch entspricht, sind der § 119 des Sechsten Buches Sozialgesetzbuch und die auf der Grundlage des § 120 des Sechsten Buches Sozialgesetzbuch erlassene Rechtsverordnung entsprechend anzuwenden."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(3) Für die nachträgliche Auszahlung der Energiepreispauschale auf Antrag nach § 5 Absatz 1 ist die Deutsche Rentenversicherung Knappschaft-Bahn-See zuständig."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "Die Deutsche Post AG und die Deutsche Rentenversicherung Knappschaft-Bahn-See überprüfen zur Vermeidung von Doppelleistungen vor der Auszahlung der Energiepreispauschale im Wege eines Datenabgleichs mit Daten der Landwirtschaftlichen Alterskasse, ob Rentenbezieherinnen und Rentenbezieher der Landwirtschaftlichen Alterskasse Anspruch auf die Energiepreispauschale haben und diese von dort ausgezahlt wird. Die Landwirtschaftliche Alterskasse übermittelt hierfür die Versicherungsnummer nach § 147 des Sechsten Buches Sozialgesetzbuch an die Deutsche Post AG und die Deutsche Rentenversicherung Knappschaft-Bahn-See, bei Bezieherinnen und Beziehern einer Rente wegen Todes auch die Versicherungsnummer der verstorbenen Versicherten."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(1) Die Energiepreispauschale ist bei einkommensabhängigen Sozialleistungen nicht als Einkommen zu berücksichtigen. Sie ist bei der Berechnung von Sozialversicherungsbeiträgen nicht zu berücksichtigen."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "(2) Der Anspruch auf die Energiepreispauschale kann nicht gepfändet werden."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "(1) Besteht ein Anspruch auf die Energiepreispauschale und wurde diese nicht durch die in § 2 Absatz 2 genannten Stellen gewährt, wird die Energiepreispauschale auf Antrag nachträglich ausgezahlt. Der Antrag ist in der Zeit vom 9. Januar 2023 bis zum Ablauf des 30. Juni 2023 bei der Deutschen Rentenversicherung Knappschaft-Bahn-See zu stellen. Der Deutschen Rentenversicherung Knappschaft-Bahn-See wird die Aufgabe übertragen, die Anträge nach Satz 1 zu bearbeiten. Das Nähere zur Aufgabenübertragung regelt eine Verwaltungsvereinbarung. Soweit erforderlich, verarbeitet die Deutsche Rentenversicherung Knappschaft-Bahn-See Sozialdaten aus bereits nach § 148 Absatz 3 des Sechsten Buches Sozialgesetzbuch eingerichteten Dateisystemen der Träger der Rentenversicherung."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(2) Zu Personen, denen eine Energiepreispauschale nach § 2 Absatz 2 ausgezahlt wurde, übermitteln die Deutsche Post AG und die Landwirtschaftliche Alterskasse die Versicherungsnummer nach § 147 des Sechsten Buches Sozialgesetzbuch an die Deutsche Rentenversicherung Knappschaft-Bahn-See, bei Bezieherinnen und Beziehern einer Rente wegen Todes die Versicherungsnummer der verstorbenen Versicherten. Soweit bei der Landwirtschaftlichen Alterskasse keine Versicherungsnummer vorhanden ist, übermittelt sie den zu der Rentenbezieherin oder dem Rentenbezieher gespeicherten Namen und das Geburtsdatum."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(3) Für öffentlich-rechtliche Streitigkeiten nach diesem Gesetz ist der Verwaltungsrechtsweg eröffnet. Eines Vorverfahrens bedarf es nicht."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "(1) Der Bund trägt die Aufwendungen für die Energiepreispauschale im Sinne dieses Gesetzes. Der Bund trägt auch die im Zusammenhang mit der Ausführung dieses Gesetzes abzugeltenden Verwaltungskosten."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "(2) Für die Summe der nach § 2 Absatz 2 auszuzahlenden Energiepreispauschalen führt das Bundesamt für Soziale Sicherung rechtzeitig die Auszahlung und Abrechnung der Zahlungen des Bundes für die allgemeine Rentenversicherung an die Deutsche Rentenversicherung Bund und für die knappschaftliche Rentenversicherung an die Deutsche Rentenversicherung Knappschaft-Bahn-See durch. Die Deutsche Rentenversicherung Bund für die allgemeine Rentenversicherung und die Deutsche Rentenversicherung Knappschaft-Bahn-See für die knappschaftliche Rentenversicherung haben die Summe der nach § 2 Absatz 2 ausgezahlten Energiepreispauschalen dem Bundesamt für Soziale Sicherung nachvollziehbar zu belegen."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "(3) Die durch das Verwaltungshandeln nach § 2 Absatz 2 entstehenden Verwaltungskosten einschließlich der von der allgemeinen Rentenversicherung zu leistenden Vergütung an die Deutsche Post AG für die Auszahlung der Energiepreispauschale werden im Dezember 2022 mit einem festen Pauschalbetrag von 3,512 Millionen Euro abgegolten und vom Bundesamt für Soziale Sicherung an die Deutsche Rentenversicherung Bund und die Deutsche Rentenversicherung Knappschaft-Bahn-See ausgezahlt und abgerechnet. Die Deutsche Rentenversicherung Bund verteilt die auf die allgemeine Rentenversicherung entfallende Verwaltungskostenerstattung auf die Träger der allgemeinen Rentenversicherung."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "(4) Für die nach § 2 Absatz 3 in Verbindung mit § 5 nachträglich auszuzahlenden Energiepreispauschalen führt das Bundesamt für Soziale Sicherung rechtzeitig die Auszahlung und Abrechnung der Zahlungen des Bundes an die Deutsche Rentenversicherung Knappschaft-Bahn-See durch. Die Deutsche Rentenversicherung Knappschaft-Bahn-See hat die Summe der nach § 2 Absatz 3 in Verbindung mit § 5 ausgezahlten Energiepreispauschalen dem Bundesamt für Soziale Sicherung nachvollziehbar zu belegen. Der Deutschen Rentenversicherung Knappschaft-Bahn-See werden die Verwaltungskosten, die ihr durch die Wahrnehmung der ihr übertragenen Aufgaben nach § 2 Absatz 3 in Verbindung mit § 5 Absatz 1 Satz 3 entstehen, vom Bund erstattet. Sie werden vom Bundesamt für Soziale Sicherung ausgezahlt und abgerechnet."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "(5) Die Landwirtschaftliche Alterskasse hat die Summe der ausgezahlten Energiepreispauschalen dem Bundesministerium für Ernährung und Landwirtschaft nachvollziehbar zu belegen. Die Verwaltungskosten, die der Landwirtschaftlichen Alterskasse entstehen, werden pauschal in Höhe von 466 000 Euro abgegolten."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "RentEPPG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-11-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id90 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id91 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id64 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "RentEPPG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "RentEPPG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "RentEPPG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "RentEPPG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "RentEPPG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "RentEPPG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "RentEPPG"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Rentenbeziehende-Energiepreispauschalengesetz"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Zahlung einer Energiepreispauschale für Rentnerinnen und Rentner"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221111213105"@de ;
+    dtd:has_doknr "BJNR198510022"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221111213105"@de ;
+    dtd:has_doknr "BJNR198510022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221111213105"@de ;
+    dtd:has_doknr "BJNR198510022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221111213105"@de ;
+    dtd:has_doknr "BJNR198510022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20221111213105"@de ;
+    dtd:has_doknr "BJNR198510022BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20221111213105"@de ;
+    dtd:has_doknr "BJNR198510022BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20221111213105"@de ;
+    dtd:has_doknr "BJNR198510022BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id90 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id89 a dtd:pre ;
+    dtd:has_BR dtd:BR-id55,
+        dtd:BR-id56 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.11.2022 +++)"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Anspruchsberechtigung und Höhe der Energiepreispauschale"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Auszahlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Datenabgleich zur Vermeidung von Doppelleistungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Nichtberücksichtigung als Einkommen bei Sozialleistungen und im Beitragsrecht, Unpfändbarkeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Nachträgliche Zahlungen und Rechtsweg"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Kostentragung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id91 a dtd:zitstelle ;
+    dtd:has_Value "2022, 1985"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

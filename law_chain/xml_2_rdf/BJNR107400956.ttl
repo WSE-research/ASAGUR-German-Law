@@ -1,0 +1,579 @@
+@prefix dtd: <urn:ZelterPlRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20141205221006"@de ;
+    dtd:has_doknr "BJNR107400956"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_Revision dtd:Revision-id113 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88,
+        dtd:LA-id89,
+        dtd:LA-id90,
+        dtd:LA-id91 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100,
+        dtd:LA-id101,
+        dtd:LA-id102,
+        dtd:LA-id103,
+        dtd:LA-id99 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107,
+        dtd:LA-id108 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109,
+        dtd:LA-id110,
+        dtd:LA-id111 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DL-id49 a dtd:DL ;
+    dtd:has_DD dtd:DD-id59,
+        dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67 ;
+    dtd:has_DT dtd:DT-id50,
+        dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53,
+        dtd:DT-id54,
+        dtd:DT-id55,
+        dtd:DT-id56,
+        dtd:DT-id57,
+        dtd:DT-id58 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id68 a dtd:DL ;
+    dtd:has_DD dtd:DD-id74,
+        dtd:DD-id75,
+        dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78 ;
+    dtd:has_DT dtd:DT-id69,
+        dtd:DT-id70,
+        dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id79 a dtd:DL ;
+    dtd:has_DD dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85 ;
+    dtd:has_DT dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "9."@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:IMG-id47 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "614"@de ;
+    dtd:has_Pos dtd:inline ;
+    dtd:has_SRC "bgbl1_2014_j1761-1_0010.jpg"@de ;
+    dtd:has_Type "TIF"@de ;
+    dtd:has_Units "200"@de ;
+    dtd:has_Width "531"@de ;
+    dtd:has_alt ""@de .
+
+dtd:IMG-id48 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "618"@de ;
+    dtd:has_Pos dtd:inline ;
+    dtd:has_SRC "bgbl1_2014_j1761-1_0020.jpg"@de ;
+    dtd:has_Type "TIF"@de ;
+    dtd:has_Units "200"@de ;
+    dtd:has_Width "537"@de ;
+    dtd:has_alt ""@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zu den institutionellen Mitgliedern gehören ein Vertreter der für Kultur und Medien zuständigen obersten Bundesbehörde und ein Vertreter der Ständigen Konferenz der Kultusminister der Länder."@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_DL dtd:DL-id79 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Es können hinzutreten: a)ein Vertreter einer der bundesweit tätigen Chororganisationen, wenn der Empfehlungsausschuss über einen Antrag zu entscheiden hat, der von einem zu dieser Chororganisation gehörenden Chor gestellt wurde;b)ein Vertreter eines Chorverbandes, wenn der Empfehlungsausschuss über einen Antrag zu entscheiden hat, der von einem zu diesem Chorverband gehörenden Chor gestellt wurde und der antragstellende Chor nicht durch eine bundesweit tätige Chororganisation vertreten wird;c)ein Vertreter des Auswärtigen Amtes, wenn der Empfehlungsausschuss über einen Antrag eines Chores mit Sitz im Ausland zu entscheiden hat."@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die hinzutretenden Mitglieder nehmen für die Dauer der gesamten Sitzung an der Beratung und Entscheidung des Empfehlungsausschusses teil."@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beschlussfassungen des Empfehlungsausschusses durch Fernkommunikationsmittel sind zulässig, wenn kein Mitglied diesem Verfahren widerspricht. Diese Beschlüsse sind schriftlich festzuhalten und der Niederschrift über die nächste Ausschusssitzung als Anlage beizufügen."@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Vertreter einer der bundesweit tätigen Chororganisationen, wenn der Empfehlungsausschuss über einen Antrag zu entscheiden hat, der von einem zu dieser Chororganisation gehörenden Chor gestellt wurde;"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Vertreter eines Chorverbandes, wenn der Empfehlungsausschuss über einen Antrag zu entscheiden hat, der von einem zu diesem Chorverband gehörenden Chor gestellt wurde und der antragstellende Chor nicht durch eine bundesweit tätige Chororganisation vertreten wird;"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Vertreter des Auswärtigen Amtes, wenn der Empfehlungsausschuss über einen Antrag eines Chores mit Sitz im Ausland zu entscheiden hat."@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Empfehlungsausschuss prüft die von seiner Geschäftsstelle vorbereiteten Anträge inhaltlich und empfiehlt dem jeweils zuständigen Landesministerium, dem Bundespräsidenten den Vorschlag zur Verleihung der Zelter-Plakette zu unterbreiten. Der Vorschlag wird dem Bundespräsidenten nach Gegenzeichnung durch den Bundeskanzler oder einen zuständigen Bundesminister durch die für Kultur und Medien zuständige oberste Bundesbehörde vorgelegt."@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bei Anträgen von Chören mit Sitz im Ausland empfiehlt der Empfehlungsausschuss dem Auswärtigen Amt, dem Bundespräsidenten den Vorschlag zur Verleihung der Zelter-Plakette zu unterbreiten. Der Vorschlag wird dem Bundespräsidenten nach Gegenzeichnung durch den Bundesminister des Auswärtigen durch das Auswärtige Amt vorgelegt."@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Urkunde über die Verleihung der Ehrenplakette vollzieht der Bundespräsident."@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Urkunde kann dem Chor erst nach der zentralen Verleihungsveranstaltung auf Bundesebene ausgehändigt werden. Gleichzeitig wird die Ehrenplakette überreicht."@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bei Chören mit Sitz im Ausland erfolgt die Aushändigung der Urkunde und der Ehrenplakette durch die diplomatische oder konsularische Vertretung der Bundesrepublik Deutschland in dem betreffenden Land."@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bundesweit tätige Chororganisation im Sinne dieser Richtlinien ist ein Dachverband, dem mehrere, nicht nur zu einer bestimmten Region gehörende Chorverbände oder Chöre als Mitglieder angehören. Chorverband im Sinne dieser Richtlinien ist ein Zusammenschluss von einzelnen Chören."@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Zelter-Plakette ist als Auszeichnung für Chöre bestimmt, die sich in langjährigem Wirken besondere Verdienste um die Pflege der Chormusik und des deutschen Volksliedes und damit um die Förderung des kulturellen Lebens erworben haben. Sie besteht aus einer Plakette, die auf der Vorderseite das Bildnis Carl Friedrich Zelters und auf der Rückseite den Bundesadler mit der Umschrift „Für Verdienste um Chorgesang und Volkslied“ zeigt. Form und Größe der Zelter-Plakette sind auf einer Mustertafel festgelegt."@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Zelter-Plakette wird durch den Bundespräsidenten aus Anlass des mindestens einhundertjährigen Bestehens eines Chores auf dessen Antrag verliehen. Voraussetzung für die Verleihung ist der Nachweis, dass sich der Chor über einen Zeitraum von mindestens einhundert Jahren in ernster und erfolgreicher musikalischer Arbeit der Liederpflege gewidmet und im Rahmen der örtlich gegebenen Verhältnisse künstlerische Verdienste oder Verdienste um die musikalische Bildung erworben hat."@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Antrag auf Verleihung der Zelter-Plakette kann frühestens im Vorjahr des Jubiläumsjahres gestellt werden. Die Antragsformulare sind bei der Geschäftsstelle des Empfehlungsausschusses zur Verleihung der Zelter-Plakette und den bundesweit tätigen Chororganisationen erhältlich."@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Chöre, die durch eine bundesweit tätige Chororganisation vertreten werden, richten ihren Antrag bis zum 30. Juni des Jahres der Antragsstellung an ihre Chororganisation. Die Chororganisation prüft den Antrag formal und bescheinigt die Vollständigkeit des Antrags und die Plausibilität der in dem Antrag gemachten Angaben. Die Chororganisation leitet den Antrag nebst den eingereichten Ergänzungsunterlagen bis zum 31. August des Jahres der Antragsstellung an die Geschäftsstelle des Empfehlungsausschusses weiter."@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Chöre, die durch keine bundesweit tätige Chororganisation vertreten werden, richten den Antrag bis zum 30. Juni des Jahres der Antragsstellung an das jeweils zuständige Landesministerium. Das Landesministerium prüft den Antrag formal und bescheinigt die Vollständigkeit des Antrags und die Plausibilität der in dem Antrag gemachten Angaben. Das Landesministerium leitet den Antrag nebst den eingereichten Ergänzungsunterlagen bis zum 31. August des Jahres der Antragsstellung an die Geschäftsstelle des Empfehlungsausschusses weiter."@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Chöre mit Sitz im Ausland richten ihren Antrag bis zum 30. Juni des Jahres der Antragsstellung über die jeweilige diplomatische oder konsularische Vertretung der Bundesrepublik Deutschland an das Auswärtige Amt. Das Auswärtige Amt prüft den Antrag formal und bescheinigt die Vollständigkeit des Antrags und die Plausibilität der in dem Antrag gemachten Angaben. Das Auswärtige Amt leitet den Antrag nebst den eingereichten Ergänzungsunterlagen bis zum 31. August des Jahres der Antragsstellung an die Geschäftsstelle des Empfehlungsausschusses weiter."@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_DL dtd:DL-id68 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Antrag ist in dreifacher Ausfertigung einzureichen. Dem Antrag sind folgende Unterlagen in einfacher Ausfertigung beizufügen:a)ein geschichtlicher Abriss des Chores mit Daten in Zeitabständen von 5 bis 10 Jahren unter Hinweis auf die hierfür beigefügten Belege. Ebenfalls beizufügen ist eine Auflistung aller Chorleiter und gegebenenfalls Vorsitzenden mit genauer Angabe der Jahreszahlen ihrer Tätigkeit sowie eine tabellarische Belegübersicht;b)ein Nachweis über die Gründungszeit (Gründungsprotokoll, Satzung oder authentische Belege, die auf die Gründungszeit hinweisen). Die Dokumente sind in beglaubigter Kopie vorzulegen;c)ein Tätigkeitsbericht des Chores über die musikalischen Aktivitäten der letzten fünf Jahre, hierzu Konzertprogramme sowie einschlägige, mit Datum versehene Presseberichte, ein Verzeichnis des Chorrepertoires, ferner Programme und Festbücher eventuell schon stattgefundener Jubiläumsfeiern sowie Unterlagen über besondere Leistungen in früherer Zeit, die zur Begründung des Antrags wesentlich erscheinen;d)eine Bescheinigung der Stadt oder der Gemeinde im Original über die kulturelle Betätigung des Chores und seiner Verdienste um das vokale Musizieren;e)bei eingetragenen Vereinen ein aktueller Auszug aus dem Vereinsregister."@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein geschichtlicher Abriss des Chores mit Daten in Zeitabständen von 5 bis 10 Jahren unter Hinweis auf die hierfür beigefügten Belege. Ebenfalls beizufügen ist eine Auflistung aller Chorleiter und gegebenenfalls Vorsitzenden mit genauer Angabe der Jahreszahlen ihrer Tätigkeit sowie eine tabellarische Belegübersicht;"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Nachweis über die Gründungszeit (Gründungsprotokoll, Satzung oder authentische Belege, die auf die Gründungszeit hinweisen). Die Dokumente sind in beglaubigter Kopie vorzulegen;"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Tätigkeitsbericht des Chores über die musikalischen Aktivitäten der letzten fünf Jahre, hierzu Konzertprogramme sowie einschlägige, mit Datum versehene Presseberichte, ein Verzeichnis des Chorrepertoires, ferner Programme und Festbücher eventuell schon stattgefundener Jubiläumsfeiern sowie Unterlagen über besondere Leistungen in früherer Zeit, die zur Begründung des Antrags wesentlich erscheinen;"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Bescheinigung der Stadt oder der Gemeinde im Original über die kulturelle Betätigung des Chores und seiner Verdienste um das vokale Musizieren;"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei eingetragenen Vereinen ein aktueller Auszug aus dem Vereinsregister."@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Geschäftsstelle des Empfehlungsausschusses ist bei einer bundesweit tätigen Chororganisation angesiedelt, die durch gesonderte Vereinbarung zwischen dem Bundespräsidialamt, der für Kultur und Medien zuständigen obersten Bundesbehörde und den bundesweit tätigen Chororganisationen zu bestimmen ist. Die Geschäftsstelle verantwortet die organisatorische und inhaltliche Vorbereitung der Sitzung des Empfehlungsausschusses."@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Empfehlungsausschuss besteht aus zwei institutionellen Mitgliedern und gegebenenfalls hinzutretenden Mitgliedern. Der Empfehlungsausschuss tagt jährlich."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "VorderseiteRückseitePlakette: oval, Bronze Originalgröße: 16 cm hoch, 14 cm breit."@de ;
+    dtd:has_table dtd:table-id34 .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_BR dtd:BR-id25 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1964 +++)Richtlinien im Saarland in Kraft gesetzt mWv 1.1.1957 durch Nr. 9 Anordnung v. 23.1.1957 I 1"@de ;
+    dtd:has_pre dtd:pre-id122 .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30 ;
+    dtd:has_SP dtd:SP-id31,
+        dtd:SP-id32,
+        dtd:SP-id33 ;
+    dtd:has_Value "Der Bundespräsident Der Stellvertreter des Bundeskanzlers Der Bundesminister des Innern"@de .
+
+dtd:Revision-id113 a dtd:Revision ;
+    dtd:has_DL dtd:DL-id49 ;
+    dtd:has_P dtd:P-id114 .
+
+dtd:SP-id31 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:SP-id32 a dtd:SP ;
+    dtd:has_Value "Der Stellvertreter des Bundeskanzlers"@de .
+
+dtd:SP-id33 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1956-08-07"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id36 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id37 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:enbez-id17 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:entry-id42 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vorderseite"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id43 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rückseite"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id44 a dtd:entry ;
+    dtd:has_IMG dtd:IMG-id47 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id45 a dtd:entry ;
+    dtd:has_IMG dtd:IMG-id48 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Plakette: oval, Bronze Originalgröße: 16 cm hoch, 14 cm breit."@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id123 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id124 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id117 .
+
+dtd:fussnoten-id23 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "ZelterPlRL"@de .
+
+dtd:jurabk-id16 a dtd:jurabk ;
+    dtd:has_Value "ZelterPlRL"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "ZelterPlRL"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Richtlinien über die Verleihung der Zelter-Plakette"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 ;
+    dtd:has_standangabe dtd:standangabe-id15 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id17 ;
+    dtd:has_jurabk dtd:jurabk-id16 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20141205221006"@de ;
+    dtd:has_doknr "BJNR107400956"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20141205221006"@de ;
+    dtd:has_doknr "BJNR107400956BJNE000101377"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20141205221006"@de ;
+    dtd:has_doknr "BJNR107400956BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id123 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id122 a dtd:pre ;
+    dtd:has_BR dtd:BR-id26,
+        dtd:BR-id27 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:row-id39 a dtd:row ;
+    dtd:has_entry dtd:entry-id42,
+        dtd:entry-id43 .
+
+dtd:row-id40 a dtd:row ;
+    dtd:has_entry dtd:entry-id44,
+        dtd:entry-id45 .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id46 .
+
+dtd:standangabe-id15 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id126 ;
+    dtd:has_standtyp dtd:standtyp-id125 .
+
+dtd:standkommentar-id126 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Erlass v. 19.11.2014 I 1761"@de .
+
+dtd:standtyp-id125 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id34 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id35 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id38 a dtd:tbody ;
+    dtd:has_row dtd:row-id39,
+        dtd:row-id40,
+        dtd:row-id41 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id23 ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:tgroup-id35 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id36,
+        dtd:colspec-id37 ;
+    dtd:has_tbody dtd:tbody-id38 .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id124 a dtd:zitstelle ;
+    dtd:has_Value "1956, 740"@de .
+
+dtd:inline rdfs:label "inline"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

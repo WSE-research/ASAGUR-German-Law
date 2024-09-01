@@ -1,0 +1,192 @@
+@prefix dtd: <urn:XBasisdatenV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220404213005"@de ;
+    dtd:has_doknr "BJNR060100022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40,
+        dtd:P-id41,
+        dtd:P-id42,
+        dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab: 2.4.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id46 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 12 Absatz 3 Nummer 3 des Identifikationsnummerngesetzes vom 28. März 2021 (BGBl. I S. 591) in Verbindung mit § 1 Absatz 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 8. Dezember 2021 (BGBl. I S. 5176) verordnet das Bundesministerium des Innern und für Heimat im Einvernehmen mit dem Bundesministerium der Finanzen und im Benehmen mit dem IT-Planungsrat:"@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(1) XBasisdaten ist der Standard einer technischen Beschreibung des Datensatzes für Datenübermittlungen nach § 7 Absatz 1 Satz 1 und § 10 Absatz 4 des Identifikationsnummerngesetzes. Er legt Form und Inhalt der nach § 7 Absatz 1 Satz 1 und § 10 Absatz 4 des Identifikationsnummerngesetzes zu übermittelnden Daten fest."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(2) Für die Datenübermittlungen an und durch die Registermodernisierungsbehörde nach § 7 Absatz 1 Satz 1 und § 10 Absatz 4 des Identifikationsnummerngesetzes sind XBasisdaten sowie als Transportstandards XTA 2 in Verbindung mit OSCI-Transport in der jeweils aktuellen Fassung oder andere in XBasisdaten genannte Standards oder Schnittstellen zu verwenden. Die näheren Anforderungen an eine sichere Datenübermittlung werden in einer Anlage zu XBasisdaten festgelegt. Für die Kommunikation unter Verwendung von XBasisdaten sind besonders gesicherte verwaltungseigene Netze zu nutzen. Ist dies nicht möglich, sind die Verbindungen durch geeignete technische und organisatorische Maßnahmen nach Stand der Technik so abzubilden, dass das Sicherheitsniveau für einen hohen Schutzbedarf gewährleistet wird."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "(3) Der Standard XBasisdaten wird von der Registermodernisierungsbehörde herausgegeben und vom Bundesministerium des Innern und für Heimat im Einvernehmen mit dem Bundesministerium der Finanzen im Bundesanzeiger bekanntgemacht; entsprechendes gilt für spätere Änderungen. In der Bekanntmachung sind das Herausgabedatum und der Beginn der Anwendung anzugeben."@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "(4) Der Standard XBasisdaten wird beim Bundesarchiv, Potsdamer Straße 1, 56075 Koblenz, archivarisch gesichert niedergelegt und ist der Öffentlichkeit zugänglich. Er kann beim Bundesverwaltungsamt, Barbarastraße 1, 50735 Köln bezogen werden."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "XBasisdatenV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-03-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id47 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id48 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id35 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "XBasisdatenV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "XBasisdatenV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "XBasisdatenV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "XBasisdatenV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "XBasisdaten-Verordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Einführung eines Datenübermittlungsstandards XBasisdaten"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220404213005"@de ;
+    dtd:has_doknr "BJNR060100022"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220404213005"@de ;
+    dtd:has_doknr "BJNR060100022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220404213005"@de ;
+    dtd:has_doknr "BJNR060100022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220404213005"@de ;
+    dtd:has_doknr "BJNR060100022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id47 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id46 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "(+++ Textnachweis ab: 2.4.2022 +++)"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Standard der Datenübermittlungen nach § 7 Absatz 1 Satz 1 und § 10 Absatz 4 des Identifikationsnummerngesetzes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id48 a dtd:zitstelle ;
+    dtd:has_Value "2022, 601"@de .
+

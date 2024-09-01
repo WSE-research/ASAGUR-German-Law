@@ -1,0 +1,214 @@
+@prefix dtd: <urn:KlWalAbkG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200818213028"@de ;
+    dtd:has_doknr "BJNR111320993"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49,
+        dtd:P-id50 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.7.1993 +++)"@de ;
+    dtd:has_pre dtd:pre-id51 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Dem in New York am 9. April 1992 von der Bundesrepublik Deutschland unterzeichneten Abkommen vom 31. März 1992 zur Erhaltung der Kleinwale in der Nord- und Ostsee wird zugestimmt. Das Abkommen wird nachstehend veröffentlicht."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Das Bundesamt für Naturschutz kann auf Antrag abweichend von § 45 Absatz 7 des Bundesnaturschutzgesetzes für Forschungszwecke Ausnahmen von den Verboten des § 44 Absatz 1 Nummer 1 des Bundesnaturschutzgesetzes zulassen, wenn Kleinwale im Sinne von Nummer 1.2 Buchstabe a des Abkommens von einem Schiff aus, das berechtigt ist, die Bundesflagge zu führen, außerhalb der nationalen Hoheitsgewässer der Natur entnommen werden sollen. Die Ausnahmen sind räumlich und zeitlich zu beschränken und dürfen die Erhaltung der betreffenden Art nicht gefährden. Zu Forschungszwecken gefangene Tiere sind nach Abschluß der Forschungen in die Freiheit zu entlassen, sobald sie sich dort selbständig erhalten können."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Koordinierungsbehörde im Sinne der Nummer 2.3 des Abkommens ist das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Abkommen nach seiner Nummer 8.5 für die Bundesrepublik Deutschland in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1993-07-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id52 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id53 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id40 .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "KlWalAbkG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "KlWalAbkG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "KlWalAbkG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "KlWalAbkG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "KlWalAbkG"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Abkommen vom 31. März 1992 zur Erhaltung der Kleinwale in der Nord- und Ostsee"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200818213028"@de ;
+    dtd:has_doknr "BJNR111320993"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200818213028"@de ;
+    dtd:has_doknr "BJNR111320993BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200818213028"@de ;
+    dtd:has_doknr "BJNR111320993BJNE000303377"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200818213028"@de ;
+    dtd:has_doknr "BJNR111320993BJNE000402119"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200818213028"@de ;
+    dtd:has_doknr "BJNR111320993BJNE000500307"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id52 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id51 a dtd:pre ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.7.1993 +++)"@de .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id55 ;
+    dtd:has_standtyp dtd:standtyp-id54 .
+
+dtd:standkommentar-id55 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 288 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id54 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 .
+
+dtd:zitstelle-id53 a dtd:zitstelle ;
+    dtd:has_Value "1993, 1113"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

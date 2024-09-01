@@ -1,0 +1,239 @@
+@prefix dtd: <urn:ErdölBevVbdStiRV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20121024214502"@de ;
+    dtd:has_doknr "BJNR011570978"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_BR dtd:BR-id43 ;
+    dtd:has_Value " (+++ Textnachweis ab: 3.8.1978 +++)"@de ;
+    dtd:has_pre dtd:pre-id57 .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 13 des Erdölbevorratungsgesetzes vom 25. Juli 1978 (BGBl. I S. 1073) wird mit Zustimmung des Bundesrates verordnet:"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Ein Mitglied, das in dem der Mitgliederversammlung vorangegangenen Kalenderjahr mehr als 300 000 Tonnen der in § 13 Absatz 1 des Erdölbevorratungsgesetzes genannten Erzeugnisse abzüglich der in § 23 Absatz 2 Satz 1 Nummer 1 bis 3 des Erdölbevorratungsgesetzes genannten Mengen hergestellt oder eingeführt hat, hat für jede über 300 000 Tonnen hinaus angefangenen 300 000 Tonnen eine weitere Stimme."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_SP dtd:SP-id44 ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:SP-id44 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1978-08-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id58 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id59 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id45 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "ErdölBevVbdStiRV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "ErdölBevVbdStiRV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "ErdölBevVbdStiRV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "ErdölBevVbdStiRV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "ErdölBevVbdStiRV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "ErdölBevVbdStiRV"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Verordnung über das Stimmrecht der Mitglieder des
+Erdölbevorratungsverbandes"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20121024214502"@de ;
+    dtd:has_doknr "BJNR011570978"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20121024214502"@de ;
+    dtd:has_doknr "BJNR011570978BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20121024214502"@de ;
+    dtd:has_doknr "BJNR011570978BJNE000201360"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20121024214502"@de ;
+    dtd:has_doknr "BJNR011570978BJNE000301360"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20121024214502"@de ;
+    dtd:has_doknr "BJNR011570978BJNE000400304"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20121024214502"@de ;
+    dtd:has_doknr "BJNR011570978BJNE000500304"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id58 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id57 a dtd:pre ;
+    dtd:has_Value "(+++ Textnachweis ab: 3.8.1978 +++)"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id61 ;
+    dtd:has_standtyp dtd:standtyp-id60 .
+
+dtd:standkommentar-id61 a dtd:standkommentar ;
+    dtd:has_Value "geändert durch Art. 1 V v. 18.10.2012 I 2172"@de .
+
+dtd:standtyp-id60 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:zitstelle-id59 a dtd:zitstelle ;
+    dtd:has_Value "1978, 1157"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

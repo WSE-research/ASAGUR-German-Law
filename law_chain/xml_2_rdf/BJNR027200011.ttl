@@ -1,0 +1,793 @@
+@prefix dtd: <urn:FMSASatz-2011#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id15,
+        dtd:norm-id16,
+        dtd:norm-id17,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id121 a dtd:BR .
+
+dtd:BR-id122 a dtd:BR .
+
+dtd:BR-id123 a dtd:BR .
+
+dtd:BR-id124 a dtd:BR .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141,
+        dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144,
+        dtd:P-id145,
+        dtd:P-id146,
+        dtd:P-id147,
+        dtd:P-id148,
+        dtd:P-id149,
+        dtd:P-id150 .
+
+dtd:Content-id151 a dtd:Content ;
+    dtd:has_P dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154,
+        dtd:P-id155,
+        dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158,
+        dtd:P-id159,
+        dtd:P-id160,
+        dtd:P-id161,
+        dtd:P-id162,
+        dtd:P-id163,
+        dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166,
+        dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169,
+        dtd:P-id170,
+        dtd:P-id171 .
+
+dtd:Content-id172 a dtd:Content ;
+    dtd:has_P dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175 .
+
+dtd:Content-id176 a dtd:Content ;
+    dtd:has_P dtd:P-id177,
+        dtd:P-id178,
+        dtd:P-id179 .
+
+dtd:Content-id180 a dtd:Content ;
+    dtd:has_P dtd:P-id181,
+        dtd:P-id182,
+        dtd:P-id183,
+        dtd:P-id184 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id131 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DL-id125 a dtd:DL ;
+    dtd:has_DD dtd:DD-id130,
+        dtd:DD-id131,
+        dtd:DD-id132,
+        dtd:DD-id133 ;
+    dtd:has_DT dtd:DT-id126,
+        dtd:DT-id127,
+        dtd:DT-id128,
+        dtd:DT-id129 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id127 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id128 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die auf Antrag der übertragenden Gesellschaft erfolgende Gestattung der Übertragung von Risikopositionen sowie nichtstrategienotwendiger Geschäftsbereiche der übertragenden Gesellschaft durch Rechtsgeschäft oder Umwandlung zum Zwecke der Abwicklung auf eine von der FMSA bereits errichtete Abwicklungsanstalt nach § 8a des Stabilisierungsfondsgesetzes (Abwicklungsanstalt),"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Gestattung der Absicherung von Risikopositionen oder nichtstrategienotwendigen Geschäftsbereichen auch durch Übernahme von Garantien, Unterbeteiligungen oder auf sonstige Weise durch die Abwicklungsanstalten ohne dingliche Übertragung,"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Überwachung von Abwicklungsanstalten, wobei sie insbesondere sicherstellt, dass die Abwicklungsanstalten die Vorgaben aus Gesetz und Statut einhalten sowie"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sonstige Überwachungs- und Koordinierungsaufgaben nach § 8a des Stabilisierungsfondsgesetzes hinsichtlich der Institute, die mit Mitteln des nach § 1 des Stabilisierungsfondsgesetzes errichteten Finanzmarktstabilisierungsfonds stabilisiert werden."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_BR dtd:BR-id121 ;
+    dtd:has_Value " (+++ Textnachweis ab: 26.2.2011 +++)(+++ Text der Verordnung siehe: FMSASatzV 2011 +++)"@de ;
+    dtd:has_pre dtd:pre-id185 .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesanstalt für Finanzmarktstabilisierung ist eine bundesunmittelbare rechtsfähige Anstalt des öffentlichen Rechts im Geschäftsbereich des Bundesministeriums der Finanzen. Mit ihrer Trägerschaft ist gemäß § 3a Absatz 1 Satz 6 des Stabilisierungsfondsgesetzes die Bundesrepublik Deutschland – Finanzagentur GmbH (Finanzagentur) beliehen."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "(2) Die Bundesanstalt für Finanzmarktstabilisierung kann im Geschäftsverkehr als „FMSA“ bezeichnet werden."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_DL dtd:DL-id125 ;
+    dtd:has_Value "(1) Der FMSA obliegen die ihr nach § 8a des Stabilisierungsfondsgesetzes übertragenen Aufgaben, insbesondere: 1.die auf Antrag der übertragenden Gesellschaft erfolgende Gestattung der Übertragung von Risikopositionen sowie nichtstrategienotwendiger Geschäftsbereiche der übertragenden Gesellschaft durch Rechtsgeschäft oder Umwandlung zum Zwecke der Abwicklung auf eine von der FMSA bereits errichtete Abwicklungsanstalt nach § 8a des Stabilisierungsfondsgesetzes (Abwicklungsanstalt),2.die Gestattung der Absicherung von Risikopositionen oder nichtstrategienotwendigen Geschäftsbereichen auch durch Übernahme von Garantien, Unterbeteiligungen oder auf sonstige Weise durch die Abwicklungsanstalten ohne dingliche Übertragung,3.die Überwachung von Abwicklungsanstalten, wobei sie insbesondere sicherstellt, dass die Abwicklungsanstalten die Vorgaben aus Gesetz und Statut einhalten sowie4.sonstige Überwachungs- und Koordinierungsaufgaben nach § 8a des Stabilisierungsfondsgesetzes hinsichtlich der Institute, die mit Mitteln des nach § 1 des Stabilisierungsfondsgesetzes errichteten Finanzmarktstabilisierungsfonds stabilisiert werden.Bei der Wahrnehmung dieser Aufgaben sind die jeweils geltenden Beteiligungs- und Entscheidungsrechte sowie Zustimmungsvorgaben insbesondere in Bezug auf das Bundesministerium der Finanzen und in Bezug auf den nach § 4 des Stabilisierungsfondsgesetzes gebildeten Lenkungsausschuss (Lenkungsausschuss) zu wahren."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "(2) Als Trägerin unterstützt die Finanzagentur die FMSA bei der Wahrnehmung ihrer Aufgaben, stellt die erforderliche Infrastruktur zur Verfügung und sichert die operative Einsatzfähigkeit der FMSA. Die Finanzagentur erbringt hierbei angemessene unterstützende Tätigkeiten im Rahmen der Ausübung der Funktionen IT, Revision, Compliance, Datenschutz, Rechts-und Vertragsprüfung, Rechnungswesen, Vergabe oder Personalmanagement für die FMSA. Die Wahrnehmung dieser Aufgaben obliegt den in der Finanzagentur jeweils zuständigen Organisationseinheiten. Diese unterliegen weiterhin nur den Weisungen der Finanzagentur, sofern nicht gesetzliche oder aufsichtsrechtliche Vorgaben vorrangig sind. Der oder die jeweiligen Datenschutz-, IT-Sicherheits- und Compliancebeauftragten der Finanzagentur gelten grundsätzlich als von der Leitung der FMSA auch für die FMSA bestellt. Änderungen der in diesem Absatz geregelten Aufgabenwahrnehmung oder Bestellung bedürfen der vorherigen Zustimmung des Bundesministeriums der Finanzen."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(3) Die FMSA richtet die zur Wahrnehmung ihrer gesetzlichen Aufgaben erforderliche Geschäftsorganisation ein. Darüber hinaus können gemeinsame Arbeitseinheiten für geschäftsbereichsübergreifende Aufgaben der FMSA und der Finanzagentur gebildet oder andere übergreifende Kooperationsprozesse etabliert werden."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(4) Bei der Vergabe von Aufträgen an Dritte sind die für die öffentliche Auftragsvergabe geltenden Vorschriften einzuhalten. Als Trägerin kann auch die Finanzagentur Aufträge im Namen und für Rechnung der Finanzagentur, der FMSA oder des Bundes an Dritte zum Zwecke der Unterstützung der FMSA zu Lasten des Bundes vergeben."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(5) Bei der Aktenführung der FMSA ist die Registraturrichtlinie für das Bearbeiten und Verwalten von Schriftgut in Bundesministerien entsprechend anzuwenden."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(6) Auf den Umgang mit Verschlusssachen findet der zwischen dem Bundesministerium der Finanzen und der Finanzagentur nach Ziffer 6.6. der Anlage V der Verschlusssachenanweisung des Bundes über den Umgang mit Verschlusssachen des Geheimhaltungsgrades VS – NUR FÜR DEN DIENSTGEBRAUCH abgeschlossene Vertrag in der jeweils geltenden Fassung auf die FMSA entsprechende Anwendung. Die Anwendung erfolgt in Abstimmung mit dem Bundesministerium der Finanzen, soweit keine gesetzlichen oder aufsichtsrechtlichen Vorgaben entgegenstehen."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(7) Die Aufbauorganisation der FMSA sowie deren Änderungen werden mit vorheriger Zustimmung des Bundesministeriums der Finanzen festgelegt."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "Die FMSA untersteht der Rechts- und Fachaufsicht des Bundesministeriums der Finanzen. Die Rechts- und Fachaufsicht umfasst auch die Weisungsbefugnis des Bundesministeriums der Finanzen gegenüber der FMSA."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(1) Organ der FMSA ist der Leitungsausschuss."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "(2) Der Leitungsausschuss erfüllt die ihm durch Gesetz, Verordnung und diese Satzung zugewiesenen Aufgaben. Der Leitungsausschuss hat die Geschäfte der FMSA mit der Sorgfalt einer ordentlichen und gewissenhaften Geschäftsleitung wahrzunehmen."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesministerium der Finanzen kann Wirtschaftsführungsbestimmungen und eine Geschäftsanweisung für den Leitungsausschuss erlassen."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(1) Der Leitungsausschuss besteht aus einem Mitglied. Dieses Mitglied führt den Titel „Leiterin der Bundesanstalt für Finanzmarktstabilisierung“ oder „Leiter der Bundesanstalt für Finanzmarktstabilisierung“ (Leitung)."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(2) Die Leitung hat mit Zustimmung des Bundesministeriums der Finanzen als ständige Vertretung bis zu zwei Stellvertreterinnen oder Stellvertreter (Stellvertretungen) zu benennen, die sie bei Abwesenheit oder im Verhinderungsfall vertreten."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(3) Die Leitung und bei Abwesenheit oder im Verhinderungsfall die Stellvertretungen entscheiden bei Angelegenheiten grundsätzlicher Art oder von erheblicher Bedeutung durch Beschluss. Wenn die Entscheidung der Leitung oder Stellvertretung selbst, ihrem Ehegatten oder Lebenspartner, ihren Verwandten bis zum dritten oder Verschwägerten bis zum zweiten Grade oder einer von ihr kraft Gesetzes oder Vollmacht vertretenen Person einen unmittelbaren oder mittelbaren Vor- oder Nachteil bringen kann, entscheidet hierüber das Bundesministerium der Finanzen. Die Leitung und die Stellvertretungen haben die Vorsitzende beziehungsweise den Vorsitzenden des Lenkungsausschusses unverzüglich über bestehende Interessenkonflikte zu informieren."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(4) Vor Beschlüssen der Leitung oder von deren Stellvertretungen ist eine Stellungnahme der Finanzagentur einzuholen, soweit deren Interessen erkennbar berührt sind oder die Hinzuziehung aufgrund von deren Sachkunde angezeigt ist. Die Interessen der Finanzagentur sind insbesondere dann berührt, wenn die Beschlüsse erhebliche Auswirkungen auf den Finanzmarktstabilisierungsfonds oder auf die Tätigkeit der Finanzagentur nach dem Bundesschuldenwesengesetz haben können. FMSA und Finanzagentur treffen eine Vereinbarung über Voraussetzungen, Kriterien und den Prozess zur Einholung solcher Stellungnahmen und erarbeiten einen Regelkatalog. Diese Vereinbarung und der Regelkatalog bedürfen der Zustimmung des Bundesministeriums der Finanzen. Das Bundesministerium der Finanzen kann gegenüber der FMSA jederzeit die Einholung einer Stellungnahme der Finanzagentur verlangen."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(5) Über die Beschlüsse der Leitung und von deren Stellvertretungen ist eine Niederschrift zu fertigen. Sie ist von der Leitung zu unterzeichnen."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(6) Vorlagen an den Lenkungsausschuss bedürfen ebenfalls der Beschlussfassung durch die Leitung."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "(7) Die Leitung kann sich im Einvernehmen mit dem Bundesministerium der Finanzen eine Geschäftsordnung geben."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(1) Die Leitung unterliegt dem Weisungsrecht des Bundesministeriums der Finanzen."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(2) Die Leitung kann sich und ihren Stellvertretungen einen Verhaltenskodex geben, welcher der Zustimmung des Bundesministeriums der Finanzen bedarf. Insbesondere dürfen die Leitung und die Stellvertretungen ohne Zustimmung des Bundesministeriums der Finanzen weder auf eigene noch auf fremde Rechnung Geschäfte tätigen, die die Interessen der FMSA oder der Finanzagentur offensichtlich berühren oder aus denen sich der Anschein einer Interessenkollision ergeben könnte. Die jeweils geltenden Compliance-Richtlinien der Finanzagentur unter anderem zur Wertpapiercompliance, zur Verhinderung von Geldwäsche und Terrorismusfinanzierung, zur Korruptionsprävention und Betrugsbekämpfung sind entsprechend einzuhalten."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(1) Die Leitung führt die Geschäfte der FMSA und verwaltet deren Vermögen nach den geltenden Gesetzen, insbesondere nach den Maßgaben des Stabilisierungsfondsgesetzes, der Finanzmarktstabilisierungsfonds-Verordnung und nach dieser Satzung."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(2) Die Leitung ist für die ordnungsgemäße Ausführung ihrer Beschlüsse sowie für die der FMSA obliegenden Aufgaben verantwortlich."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(3) Die Entlastung erfolgt durch das Bundesministerium der Finanzen als zuständigem Bundesministerium im Sinne von § 109 Absatz 3 Satz 1 der Bundeshaushaltsordnung."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(1) Die Leitung, im Verhinderungsfall eine der Stellvertretungen, vertritt die FMSA gerichtlich und außergerichtlich. Soweit im Rahmen der Aufgaben nach § 2 Absatz 1 eine Entscheidung oder Handlung mit verbindlicher Außenwirkung erfolgt, bedarf diese Entscheidung oder Handlung der Zustimmung der Leitung. Hiervon unberührt sind sonstige Zustimmungs-, Einbeziehungs- oder Entscheidungserfordernisse, insbesondere seitens der Finanzagentur, des Bundesministeriums der Finanzen oder des Lenkungsausschusses."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(2) Bei Geschäften der laufenden Verwaltung kann die FMSA durch zwei Beschäftigte der FMSA oder von der FMSA bevollmächtigte Beschäftigte der Finanzagentur gemeinschaftlich vertreten werden, soweit diese innerhalb ihrer jeweiligen Zuständigkeiten handeln."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(3) Ist eine Willenserklärung gegenüber der FMSA abzugeben, so genügt die Abgabe gegenüber der Leitung oder einem von der Leitung zur Annahme bevollmächtigten Beschäftigten der FMSA."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(1) Die FMSA kann Arbeitnehmerinnen und Arbeitnehmer im Rahmen des vom Bundesministerium der Finanzen genehmigten Stellenplans in Arbeitsverhältnissen beschäftigen. Ab dem 1. Januar 2018 orientieren sich neue Arbeitsverträge oder Änderungsvereinbarungen zu bestehenden Arbeitsverträgen an den jeweils geltenden arbeitsvertraglichen Musterregelungen der Finanzagentur. Im Übrigen wird die jeweils geltende Geschäftsanweisung für die Geschäftsführung der Finanzagentur bei bestimmten Vertragsabschlüssen oder sonstigen Personalthemen insbesondere in Bezug auf Zustimmungsvorbehalte des Bundesministeriums der Finanzen entsprechend angewendet. Die Zustimmung zu den betreffenden Maßnahmen obliegt der rechts- und fachaufsichtsführenden Stelle des Bundesministeriums der Finanzen."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(2) Vorgesetzter der Mitarbeiterinnen und Mitarbeiter der FMSA ist die Leitung."@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "(3) Die Personalausgaben der FMSA sind von der FMSA zu tragen, insbesondere auch die von zugewiesenen Beamtinnen und Beamten sowie zugewiesenen Arbeitnehmerinnen und Arbeitnehmern."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "(1) Soweit nicht durch Gesetz oder in dieser Satzung abweichend geregelt, bezieht sich die unmittelbare Geltung der §§ 106 bis 110 der Bundeshaushaltsordnung sowie die entsprechende Geltung der §§ 1 bis 87 der Bundeshaushaltsordnung im Sinne von § 105 Absatz 1 der Bundeshaushaltsordnung nur auf Zahlungen, die Buchführung und die Rechnungslegung. Die Rechnungslegung besteht aus einer die Einnahmen und Ausgaben nachweisenden Haushaltsrechnung; die Aufstellung einer Vermögensrechnung ist nicht erforderlich. Einen Abschluss nach dem Handelsgesetzbuch hat die FMSA nicht aufzustellen."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(2) Für die FMSA geltende Vorschriften, die auf Außenrechtssätzen beruhen, setzt die Finanzagentur in Erfüllung ihrer Aufgaben nach § 2 Absatz 2 um. Innenrechtssätze finden auf die FMSA keine Anwendung, es sei denn, diese Satzung trifft eine andere Bestimmung. Die für die Finanzagentur geltenden Vorschriften für die Haushalts- und Wirtschaftsführung, die Rechnungslegung sowie weitere Richtlinien, wie insbesondere für Revision, Datenschutz, Compliance, Reise- und Umzugskosten sowie Trennungsgeld, sind auf die FMSA entsprechend anzuwenden, sofern sich aus Satz 1 nichts anderes ergibt."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_Value "(3) Die Haushalts- und Wirtschaftsführung der FMSA sowie die Rechnungslegung werden vom Abschlussprüfer der Finanzagentur gemäß den jeweils geltenden Standards und vom Bundesministerium der Finanzen im Rahmen der Ausübung der Rechts- und Fachaufsicht geprüft. Dem Bundesrechnungshof steht ein uneingeschränktes Prüfungsrecht der Haushalts- und Wirtschaftsführung sowie der Rechnungslegung der FMSA im Sinne der §§ 109 Absatz 2 und 111 Absatz 1 der Bundeshaushaltsordnung zu. Die Bestellung des Abschlussprüfers der Finanzagentur erfolgt im Einvernehmen mit dem Bundesrechnungshof."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "(4) Die FMSA erhält nach Maßgabe des Stabilisierungsfondsgesetzes eine Zahlung aus dem Bundeshaushalt. Die Finanzagentur stellt im Rahmen der Trägerschaft der FMSA die erforderlichen Sachmittel zur Verfügung."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id51 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2011-02-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id78 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id83 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id88 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id93 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:fundstelle-id52 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id201 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id202 .
+
+dtd:fussnoten-id100 a dtd:fussnoten .
+
+dtd:fussnoten-id102 a dtd:fussnoten .
+
+dtd:fussnoten-id103 a dtd:fussnoten .
+
+dtd:fussnoten-id105 a dtd:fussnoten .
+
+dtd:fussnoten-id107 a dtd:fussnoten .
+
+dtd:fussnoten-id109 a dtd:fussnoten .
+
+dtd:fussnoten-id111 a dtd:fussnoten .
+
+dtd:fussnoten-id112 a dtd:fussnoten .
+
+dtd:fussnoten-id114 a dtd:fussnoten .
+
+dtd:fussnoten-id115 a dtd:fussnoten .
+
+dtd:fussnoten-id117 a dtd:fussnoten .
+
+dtd:fussnoten-id118 a dtd:fussnoten .
+
+dtd:fussnoten-id120 a dtd:fussnoten .
+
+dtd:fussnoten-id95 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id138 .
+
+dtd:fussnoten-id96 a dtd:fussnoten .
+
+dtd:fussnoten-id98 a dtd:fussnoten .
+
+dtd:gliederungsbez-id187 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 1"@de .
+
+dtd:gliederungsbez-id190 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 2"@de .
+
+dtd:gliederungsbez-id193 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 3"@de .
+
+dtd:gliederungsbez-id196 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 4"@de .
+
+dtd:gliederungsbez-id199 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 5"@de .
+
+dtd:gliederungseinheit-id56 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id187 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id186 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id188 .
+
+dtd:gliederungseinheit-id67 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id190 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id189 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id191 .
+
+dtd:gliederungseinheit-id81 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id193 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id192 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id194 .
+
+dtd:gliederungseinheit-id86 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id196 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id195 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id197 .
+
+dtd:gliederungseinheit-id91 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id199 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id198 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id200 .
+
+dtd:gliederungskennzahl-id186 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id189 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id192 a dtd:gliederungskennzahl ;
+    dtd:has_Value "030"@de .
+
+dtd:gliederungskennzahl-id195 a dtd:gliederungskennzahl ;
+    dtd:has_Value "040"@de .
+
+dtd:gliederungskennzahl-id198 a dtd:gliederungskennzahl ;
+    dtd:has_Value "050"@de .
+
+dtd:gliederungstitel-id188 a dtd:gliederungstitel ;
+    dtd:has_Value "Grundlagen der Organisation"@de .
+
+dtd:gliederungstitel-id191 a dtd:gliederungstitel ;
+    dtd:has_Value "Leitungsausschuss"@de .
+
+dtd:gliederungstitel-id194 a dtd:gliederungstitel ;
+    dtd:has_Value "Vertretung"@de .
+
+dtd:gliederungstitel-id197 a dtd:gliederungstitel ;
+    dtd:has_Value "Personal"@de .
+
+dtd:gliederungstitel-id200 a dtd:gliederungstitel ;
+    dtd:has_Value "Haushalts- und Wirtschaftsführung"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id80 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id82 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id85 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id87 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id90 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:jurabk-id92 a dtd:jurabk ;
+    dtd:has_Value "FMSASatz 2011"@de .
+
+dtd:langue-id53 a dtd:langue ;
+    dtd:has_Value "Satzung der Bundesanstalt für Finanzmarktstabilisierung"@de .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id51 ;
+    dtd:has_fundstelle dtd:fundstelle-id52 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_langue dtd:langue-id53 ;
+    dtd:has_standangabe dtd:standangabe-id54 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id78 ;
+    dtd:has_jurabk dtd:jurabk-id77 ;
+    dtd:has_titel dtd:titel-id79 .
+
+dtd:metadaten-id38 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id81 ;
+    dtd:has_jurabk dtd:jurabk-id80 .
+
+dtd:metadaten-id40 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id83 ;
+    dtd:has_jurabk dtd:jurabk-id82 ;
+    dtd:has_titel dtd:titel-id84 .
+
+dtd:metadaten-id42 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id86 ;
+    dtd:has_jurabk dtd:jurabk-id85 .
+
+dtd:metadaten-id44 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id88 ;
+    dtd:has_jurabk dtd:jurabk-id87 ;
+    dtd:has_titel dtd:titel-id89 .
+
+dtd:metadaten-id46 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id91 ;
+    dtd:has_jurabk dtd:jurabk-id90 .
+
+dtd:metadaten-id48 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id93 ;
+    dtd:has_jurabk dtd:jurabk-id92 ;
+    dtd:has_titel dtd:titel-id94 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000603116"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000704123"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNG000301116"@de ;
+    dtd:has_metadaten dtd:metadaten-id38 ;
+    dtd:has_textdaten dtd:textdaten-id39 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000801116"@de ;
+    dtd:has_metadaten dtd:metadaten-id40 ;
+    dtd:has_textdaten dtd:textdaten-id41 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNG000401116"@de ;
+    dtd:has_metadaten dtd:metadaten-id42 ;
+    dtd:has_textdaten dtd:textdaten-id43 .
+
+dtd:norm-id15 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000903123"@de ;
+    dtd:has_metadaten dtd:metadaten-id44 ;
+    dtd:has_textdaten dtd:textdaten-id45 .
+
+dtd:norm-id16 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNG000501116"@de ;
+    dtd:has_metadaten dtd:metadaten-id46 ;
+    dtd:has_textdaten dtd:textdaten-id47 .
+
+dtd:norm-id17 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE001105123"@de ;
+    dtd:has_metadaten dtd:metadaten-id48 ;
+    dtd:has_textdaten dtd:textdaten-id49 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNG000101116"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000103123"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000204123"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000301116"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNG000201116"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000401116"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20230929213502"@de ;
+    dtd:has_doknr "BJNR027200011BJNE000503116"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:periodikum-id201 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id185 a dtd:pre ;
+    dtd:has_BR dtd:BR-id122,
+        dtd:BR-id123,
+        dtd:BR-id124 ;
+    dtd:has_Value "(+++ Textnachweis ab: 26.2.2011 +++)(+++ Text der Verordnung siehe: FMSASatzV 2011 +++)"@de .
+
+dtd:standangabe-id54 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id204 ;
+    dtd:has_standtyp dtd:standtyp-id203 .
+
+dtd:standkommentar-id204 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 21.9.2023 I Nr. 260"@de .
+
+dtd:standtyp-id203 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id101 a dtd:text ;
+    dtd:has_Content dtd:Content-id151 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id104 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id106 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id108 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id110 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id113 a dtd:text ;
+    dtd:has_Content dtd:Content-id172 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id116 a dtd:text ;
+    dtd:has_Content dtd:Content-id176 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id119 a dtd:text ;
+    dtd:has_Content dtd:Content-id180 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id97 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id99 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id95 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id96 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id98 ;
+    dtd:has_text dtd:text-id97 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id100 ;
+    dtd:has_text dtd:text-id99 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id102 ;
+    dtd:has_text dtd:text-id101 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id103 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id105 ;
+    dtd:has_text dtd:text-id104 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id107 ;
+    dtd:has_text dtd:text-id106 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id109 ;
+    dtd:has_text dtd:text-id108 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id111 ;
+    dtd:has_text dtd:text-id110 .
+
+dtd:textdaten-id39 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id112 .
+
+dtd:textdaten-id41 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id114 ;
+    dtd:has_text dtd:text-id113 .
+
+dtd:textdaten-id43 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id115 .
+
+dtd:textdaten-id45 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id117 ;
+    dtd:has_text dtd:text-id116 .
+
+dtd:textdaten-id47 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id118 .
+
+dtd:textdaten-id49 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id120 ;
+    dtd:has_text dtd:text-id119 .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Rechtsform und Bezeichnung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Aufgaben und Organisation der FMSA; Trägerschaft und Unterstützung durch die Finanzagentur"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Rechts- und Fachaufsicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Organe"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Zusammensetzung und Beschlüsse des Leitungsausschusses"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Rechtsstellung der Leitung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id79 a dtd:titel ;
+    dtd:has_Value "Aufgaben, Zuständigkeiten und Entlastung der Leitung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id84 a dtd:titel ;
+    dtd:has_Value "Vertretung der FMSA"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id89 a dtd:titel ;
+    dtd:has_Value "Personal"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id94 a dtd:titel ;
+    dtd:has_Value "Haushaltsführung, Wirtschaftsführung, Rechnungslegung, Revision"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id202 a dtd:zitstelle ;
+    dtd:has_Value "2011, 272"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

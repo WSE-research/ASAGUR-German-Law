@@ -1,0 +1,301 @@
+@prefix dtd: <urn:Münz5DMBek-1984-04#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150849"@de ;
+    dtd:has_doknr "BJNR006160984"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:ABWFORMAT-id63 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52,
+        dtd:P-id53,
+        dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56,
+        dtd:P-id57,
+        dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung wird aus Anlaß des 150. Gründungstages des Deutschen Zollvereins eine Bundesmünze (Gedenkmünze) im Nennwert von 5 Deutschen Mark geprägt. Die Auflage der Münze beträgt 8,35 Millionen Stück. Die Prägung erfolgt im Bayerischen Hauptmünzamt München."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(2) Die Münze wird ab 22. Mai 1984 in den Verkehr gebracht."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(3) Die Münze besteht überwiegend aus einer Kupfer-Nickel-Legierung (75 Prozent Kupfer und 25 Prozent Nickel) und hat einen Reinnickelkern. Sie hat einen Durchmesser von 29 Millimetern und ein Gewicht von 10 Gramm."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(4) Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden glatten Randstab umgeben."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_Value "(5) Die Bildseite zeigt eine Postkutsche, die eine geöffnete Zollschranke durchfährt. Die Umschrift lautet: \"GRÜNDUNG DES DEUTSCHEN ZOLLVEREINS 1934\"."@de ;
+    dtd:has_table dtd:table-id29 .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value "(6) Die Wertseite trägt einen Adler, die Jahreszahl 1984, das Münzzeichen \"D\" des Bayerischen Hauptmünzamtes und die Umschrift: \"BUNDESREPUBLIK DEUTSCHLAND 5 DEUTSCHE MARK\"."@de ;
+    dtd:has_table dtd:table-id31 .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_BR dtd:BR-id25 ;
+    dtd:has_Value "(7) Die Jahreszahl ist - unterteilt in \"19\" und \"84\" - beiderseits der Wertziffer 5 angebracht. Das Münzzeichen befindet sich links unten neben der Wertziffer. Der glatte Münzrand enthält die vertiefte Inschrift: \"ZOLLVEREIN-DEUTSCHLAND * EWG-EUROPA\"."@de ;
+    dtd:has_table dtd:table-id33 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(8) Zwischen Ende und Anfang der Randschrift ist eine liegende Raute eingeprägt."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(9) Der Entwurf der Münze stammt von Reinhart Heinsdorff, Friedberg-Ottmaring."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_BR dtd:BR-id26 ;
+    dtd:has_SP dtd:SP-id28 ;
+    dtd:has_Value "(10) Dies wird namens der Bundesregierung bekanntgemacht.Der Bundesminister der Finanzen"@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id63 ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung) Fundstelle: BGBl I 1984, 616"@de ;
+    dtd:has_kommentar dtd:kommentar-id62 .
+
+dtd:SP-id28 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1984-04-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id35 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "60*"@de .
+
+dtd:colspec-id37 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "60*"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "60*"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id44 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "\"GRÜNDUNG DES DEUTSCHEN ZOLLVEREINS 1934\"."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id45 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND 5 DEUTSCHE MARK\"."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "\"ZOLLVEREIN-DEUTSCHLAND * EWG-EUROPA\"."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id64 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id65 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1984-04"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1984-04"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1984-04"@de .
+
+dtd:kommentar-id62 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl I 1984, 616"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 5
+Deutschen Mark (Gedenkmünze 150. Gründungstag des Deutschen Zollvereins)"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150849"@de ;
+    dtd:has_doknr "BJNR006160984"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150849"@de ;
+    dtd:has_doknr "BJNR006160984BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150849"@de ;
+    dtd:has_doknr "BJNR006160984BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id64 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id44 .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id45 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id46 .
+
+dtd:table-id29 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id30 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id31 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id32 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id33 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id34 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id36 a dtd:tbody ;
+    dtd:has_row dtd:row-id41 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id38 a dtd:tbody ;
+    dtd:has_row dtd:row-id42 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id40 a dtd:tbody ;
+    dtd:has_row dtd:row-id43 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:tgroup-id30 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id35 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id36 .
+
+dtd:tgroup-id32 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id37 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id38 .
+
+dtd:tgroup-id34 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id39 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id40 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münze"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id65 a dtd:zitstelle ;
+    dtd:has_Value "1984, 616"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:top rdfs:label "top"@de .
+

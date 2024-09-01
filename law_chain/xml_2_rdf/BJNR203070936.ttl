@@ -1,0 +1,161 @@
+@prefix dtd: <urn:WZGBek-1936-09-15#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153302"@de ;
+    dtd:has_doknr "BJNR203070936"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:kommentar-id38 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: RGBl. II 1936, 308)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id39 a dtd:kommentar ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Prüf- und Gewährzeichen)"@de ;
+    dtd:has_typ dtd:Hinweis .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_SP dtd:SP-id27 ;
+    dtd:has_Value "Auf Grund des § 4 Abs. 2 Nr. 3 des Warenzeichengesetzes vom 5. Mai 1936 (Reichsgesetzbl. II S. 134) werden in der Anlage amtliche Prüf- und Gewährzeichen bekanntgemacht, die in der Schweiz, in Jugoslawien, in den Niederlanden und im Mandatsgebiet Libanon für bestimmte Waren eingeführt sind.Der Reichsminister der Justiz"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_Value "(Fundstelle: RGBl. II 1936, 308)(Inhalt: nicht darstellbare Prüf- und Gewährzeichen)"@de ;
+    dtd:has_noindex dtd:noindex-id28,
+        dtd:noindex-id29 .
+
+dtd:SP-id27 a dtd:SP ;
+    dtd:has_Value "Der Reichsminister der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1936-09-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id40 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id41 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id32 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "WZGBek 1936-09-15"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "WZGBek 1936-09-15"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "WZGBek 1936-09-15"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung zum Warenzeichengesetz über amtliche Prüf- und
+Gewährzeichen"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:noindex-id28 a dtd:noindex .
+
+dtd:noindex-id29 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153302"@de ;
+    dtd:has_doknr "BJNR203070936"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153302"@de ;
+    dtd:has_doknr "BJNR203070936BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153302"@de ;
+    dtd:has_doknr "BJNR203070936BJNE000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id40 a dtd:periodikum ;
+    dtd:has_Value "RGBl II"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id41 a dtd:zitstelle ;
+    dtd:has_Value "1936, 307"@de .
+

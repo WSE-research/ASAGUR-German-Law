@@ -1,0 +1,254 @@
+@prefix dtd: <urn:AlkopopStV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171231215342"@de ;
+    dtd:has_doknr "BJNR271100004"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52,
+        dtd:P-id53,
+        dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56,
+        dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_BR dtd:BR-id42 ;
+    dtd:has_Value " (+++ Textnachweis ab: 10.11.2004 +++)"@de ;
+    dtd:has_pre dtd:pre-id60 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 4 Satz 3 des Alkopopsteuergesetzes vom 23. Juli 2004 (BGBl. I S. 1857) verordnet die Bundesregierung:"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(1) Das Netto-Mehraufkommen der Alkopopsteuer ist jeweils nach Ablauf eines Haushaltsjahres zu ermitteln. Es ergibt sich aus der Differenz zwischen dem Aufkommen der Alkopopsteuer und den Mindereinnahmen bei der Alkoholsteuer, die sich durch die Einführung der Alkopopsteuer ergeben (§ 4 Satz 2 des Alkopopsteuergesetzes)."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(2) Das Aufkommen der Alkopopsteuer ist die kassenmäßige Einnahme im abgelaufenen Haushaltsjahr ohne die steuerlichen Nebenleistungen nach § 3 Abs. 4 der Abgabenordnung."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(3) Für die Berechnung der Mindereinnahmen bei der Alkoholsteuer, die sich durch die Einführung der Alkopopsteuer ergeben, ist von einer jährlichen Verbrauchsmenge von Alkopops vor Einführung der Alkopopsteuer von 45 000 Hektoliter reinen Alkohols auszugehen (bisherige Verbrauchsmenge). Die Mindereinnahmen bei der Alkoholsteuer werden aus der Differenz zwischen der Alkoholsteuer für die bisherige Verbrauchsmenge und der Alkoholsteuer für die im abgelaufenen Haushaltsjahr versteuerte Alkoholmenge von Alkopops ermittelt. Dabei ist der im abgelaufenen Haushaltsjahr geltende Alkoholsteuersatz nach § 2 Absatz 1 des Alkoholsteuergesetzes zugrunde zu legen."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(1) Bei der Aufstellung des Haushaltsplans wird der Sollansatz für das Netto-Mehraufkommen der Alkopopsteuer entsprechend dem Berechnungsverfahren nach § 1 auf der Grundlage der voraussichtlichen Verbrauchsmenge von Alkopops und unter Berücksichtigung von Absatz 2 veranschlagt."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(2) Die Differenz zwischen dem Sollansatz eines Haushaltsjahres und dem für dieses Haushaltsjahr nach § 1 ermittelten Ist-Netto-Mehraufkommen sowie die Differenz zwischen dem Sollansatz eines Haushaltsjahres und den tatsächlichen Ausgaben der Bundeszentrale für gesundheitliche Aufklärung für Maßnahmen der Suchtprävention (§ 4 Satz 1 des Alkopopsteuergesetzes) werden jeweils mit dem Sollansatz für das übernächste Haushaltsjahr verrechnet."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "AlkopopStV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-11-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id61 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id62 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "AlkopopStV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "AlkopopStV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "AlkopopStV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "AlkopopStV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "AlkopopStV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Alkopopsteuerverordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Verfahren zur Berechnung des Netto-Mehraufkommens der nach dem Alkopopsteuergesetz erhobenen Alkopopsteuer"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171231215342"@de ;
+    dtd:has_doknr "BJNR271100004"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171231215342"@de ;
+    dtd:has_doknr "BJNR271100004BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171231215342"@de ;
+    dtd:has_doknr "BJNR271100004BJNE000201377"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20171231215342"@de ;
+    dtd:has_doknr "BJNR271100004BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20171231215342"@de ;
+    dtd:has_doknr "BJNR271100004BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id61 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id60 a dtd:pre ;
+    dtd:has_BR dtd:BR-id43,
+        dtd:BR-id44 ;
+    dtd:has_Value "(+++ Textnachweis ab: 10.11.2004 +++)"@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id64 ;
+    dtd:has_standtyp dtd:standtyp-id63 .
+
+dtd:standkommentar-id64 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 16 Abs. 8 G v. 10.3.2017 I 420"@de .
+
+dtd:standtyp-id63 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Berechnung des Netto-Mehraufkommens der Alkopopsteuer"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value """Verrechnung der Differenz zwischen Soll- und Ist-Netto-Mehraufkommen
+sowie zwischen Soll- und Ist-Ausgaben für Suchtpräventionsmaßnahmen"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id62 a dtd:zitstelle ;
+    dtd:has_Value "2004, 2711"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

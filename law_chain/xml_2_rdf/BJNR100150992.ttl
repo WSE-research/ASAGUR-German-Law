@@ -1,0 +1,254 @@
+@prefix dtd: <urn:GrÄndStVtr-NW/RP#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625145644"@de ;
+    dtd:has_doknr "BJNR100150992"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60,
+        dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value " (+++ Textnachweis ab:                         1.8.1991 +++)(+++ Text der Bekanntmachung siehe: GrÄndStVtrNW/RPBek +++)"@de ;
+    dtd:has_pre dtd:pre-id64 .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Das Land Nordrhein-Westfalen und das Land Rheinland-Pfalz schließen nachstehenden Staatsvertrag:"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(1) Das Land Nordrhein-Westfalen tritt an das Land Rheinland-Pfalz aus dem Gebiet der Stadt Siegen das Flurstück 762 in Flur 1 sowie die Flurstücke 307, 308, 309, 178, 179, 296, 297 und 7 in Flur 2 der Gemarkung Niederschelden ab."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2) Das Land Rheinland-Pfalz tritt an das Land Nordrhein-Westfalen aus dem Gebiet der Ortsgemeinde Mudersbach die Flurstücke 621/2, 622/1 und 628/1 in Flur 2 der Gemarkung Mudersbach ab."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Die betroffenen Gemeinden und Gemeindeverbände regeln die Rechtsfolgen der Änderung der Gemeindegebiete und die Auseinandersetzung durch Vereinbarungen. Die Vereinbarungen bedürfen der Genehmigung der zuständigen Aufsichtsbehörden."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "(1) Der Staatsvertrag bedarf der Ratifikation. Die Ratifikationsurkunden werden ausgetauscht."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(2) Der Staatsvertrag tritt am ersten Tag des auf den Austausch der Ratifikationsurkunden folgenden Monats in Kraft."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_BR dtd:BR-id45,
+        dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_Value "Für das Land Nordrhein-Westfalen Der Ministerpräsident Für das Land Rheinland-Pfalz Der Ministerpräsident"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-01-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id65 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id66 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr NW/RP"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr NW/RP"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr NW/RP"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr NW/RP"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr NW/RP"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr NW/RP"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Staatsvertrag zwischen dem Land Nordrhein-Westfalen und dem Land
+Rheinland-Pfalz über die Änderung der gemeinsamen Landesgrenze"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625145644"@de ;
+    dtd:has_doknr "BJNR100150992"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625145644"@de ;
+    dtd:has_doknr "BJNR100150992BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625145644"@de ;
+    dtd:has_doknr "BJNR100150992BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625145644"@de ;
+    dtd:has_doknr "BJNR100150992BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625145644"@de ;
+    dtd:has_doknr "BJNR100150992BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625145644"@de ;
+    dtd:has_doknr "BJNR100150992BJNE000500314"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id65 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id64 a dtd:pre ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43,
+        dtd:BR-id44 ;
+    dtd:has_Value "(+++ Textnachweis ab:                         1.8.1991 +++)(+++ Text der Bekanntmachung siehe: GrÄndStVtrNW/RPBek +++)"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id66 a dtd:zitstelle ;
+    dtd:has_Value "1992, 15"@de .
+

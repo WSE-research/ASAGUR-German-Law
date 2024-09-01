@@ -1,0 +1,188 @@
+@prefix dtd: <urn:VerbÜbkParisHaagG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200103213427"@de ;
+    dtd:has_doknr "BJNR201750928"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37,
+        dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value " PVÜ Haager Fassung v. 6.11.1925, 1928 II 175/176; vgl. jetzt auch Londoner Fassung 01-424-1, Lissaboner Fassung 01-424-2"@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Die nach dem Haager Musterabkommen der inländischen Behörde zufallenden Geschäfte übernimmt das Deutsche Patent- und Markenamt. Es kann Bestimmungen über das Verfahren erlassen."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt mit dem auf die Verkündung folgenden Tage in Kraft. ..."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1928-03-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id45 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id46 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id36 .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:fussnoten-id30 a dtd:fussnoten .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "VerbÜbkParisHaagG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "VerbÜbkParisHaagG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "VerbÜbkParisHaagG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "VerbÜbkParisHaagG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz über die am 6. November 1925 im Haag revidierte Pariser Verbandsübereinkunft zum Schutze des gewerblichen Eigentums"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200103213427"@de ;
+    dtd:has_doknr "BJNR201750928"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200103213427"@de ;
+    dtd:has_doknr "BJNR201750928BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200103213427"@de ;
+    dtd:has_doknr "BJNR201750928BJNE000201360"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200103213427"@de ;
+    dtd:has_doknr "BJNR201750928BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id45 a dtd:periodikum ;
+    dtd:has_Value "RGBl II"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id48 ;
+    dtd:has_standtyp dtd:standtyp-id47 .
+
+dtd:standkommentar-id48 a dtd:standkommentar ;
+    dtd:has_Value "geändert durch Art. 49 G v. 8.12.2010 I 1864"@de .
+
+dtd:standtyp-id47 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:zitstelle-id46 a dtd:zitstelle ;
+    dtd:has_Value "1928, 175"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,188 @@
+@prefix dtd: <urn:ArbZustBauV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153231"@de ;
+    dtd:has_doknr "BJNR226900001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id35 ;
+    dtd:has_Value " (+++ Textnachweis ab:  7.9.2001 +++)Überschrift: Buchstabenabkürzung eingefügt durch Art. 62b Nr. 1 G v. 8.5.2008 I 810 mWv 1.4.2008  Die V wurde als Art. 6 G 610-1-3/2 v. 30.8.2001 I 2267 beschlossen."@de ;
+    dtd:has_pre dtd:pre-id44 .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 20a Abs. 3 der Abgabenordnung vom 16. März 1976 (BGBl. I S. 613, 1977 I S. 269), der durch Artikel 1 des Gesetzes vom 30. August 2001 (BGBl. I S. 2267) eingefügt worden ist, verordnet das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Für die Einkommensteuer des Arbeitnehmers, der von einem Unternehmer im Sinne des § 20a Abs. 1 oder 2 der Abgabenordnung im Inland beschäftigt ist und der seinen Wohnsitz im Ausland hat, ist das in § 1 Abs. 1 oder 2 der Umsatzsteuerzuständigkeitsverordnung für seinen Wohnsitzstaat genannte Finanzamt zuständig. Hat der Arbeitnehmer eines in der Republik Polen ansässigen Unternehmens im Sinne des § 20a Abs. 1 oder 2 der Abgabenordnung seinen Wohnsitz in der Republik Polen, ist für seine Einkommensteuer abweichend von Satz 1 das Finanzamt zuständig, das für seinen Arbeitgeber zuständig ist."@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 7. September 2001 in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "ArbZustBauV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-08-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id45 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id46 .
+
+dtd:fussnoten-id27 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id36 .
+
+dtd:fussnoten-id30 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "ArbZustBauV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "ArbZustBauV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "ArbZustBauV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "ArbZustBauV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Arbeitnehmer-Zuständigkeitsverordnung-Bau"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung über die örtliche Zuständigkeit für die Einkommensteuer von im Ausland ansässigen Arbeitnehmern des Baugewerbes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 ;
+    dtd:has_standangabe dtd:standangabe-id20 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153231"@de ;
+    dtd:has_doknr "BJNR226900001"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153231"@de ;
+    dtd:has_doknr "BJNR226900001BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153231"@de ;
+    dtd:has_doknr "BJNR226900001BJNE000201140"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625153231"@de ;
+    dtd:has_doknr "BJNR226900001BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id45 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id44 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "(+++ Textnachweis ab:  7.9.2001 +++)"@de .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id48 ;
+    dtd:has_standtyp dtd:standtyp-id47 .
+
+dtd:standkommentar-id48 a dtd:standkommentar ;
+    dtd:has_Value "geändert durch Art. 62b G v. 8.5.2008 I 810"@de .
+
+dtd:standtyp-id47 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:zitstelle-id46 a dtd:zitstelle ;
+    dtd:has_Value "2001, 2267, 2269"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

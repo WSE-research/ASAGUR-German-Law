@@ -1,0 +1,444 @@
+@prefix dtd: <urn:UrkBefrITAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id87 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102,
+        dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107,
+        dtd:P-id108 .
+
+dtd:Content-id88 a dtd:Content ;
+    dtd:has_P dtd:P-id89 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id97,
+        dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id80,
+        dtd:LA-id81 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id82 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83,
+        dtd:LA-id84 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DL-id61 a dtd:DL ;
+    dtd:has_DD dtd:DD-id63 ;
+    dtd:has_DT dtd:DT-id62 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id64 a dtd:DL ;
+    dtd:has_DD dtd:DD-id66 ;
+    dtd:has_DT dtd:DT-id65 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id67 a dtd:DL ;
+    dtd:has_DD dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id68 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72 ;
+    dtd:has_DT dtd:DT-id71 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id75 ;
+    dtd:has_DT dtd:DT-id74 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id76 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78 ;
+    dtd:has_DT dtd:DT-id77 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "Siegel"@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_DL dtd:DL-id64 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beglaubigung(Vertrag zwischen der Bundesrepublik Deutschland und der Italienischen Republik vom 7. Juni 1969 über den Verzicht auf die Legalisation von Urkunden)  "@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id87 ;
+    dtd:has_SP dtd:SP-id59 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beglaubigung"@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "(Vertrag zwischen der Bundesrepublik Deutschland und der Italienischen Republik vom 7. Juni 1969 über den Verzicht auf die Legalisation von Urkunden)"@de ;
+    dtd:has_small dtd:small-id60 .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "SiegelUnterschrift Stempel "@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "SiegelUnterschrift "@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Stempel"@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_DL dtd:DL-id76 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "SiegelUnterschrift "@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Unterschrift"@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_BR dtd:BR-id54,
+        dtd:BR-id55,
+        dtd:BR-id56,
+        dtd:BR-id57,
+        dtd:BR-id58 ;
+    dtd:has_DL dtd:DL-id61,
+        dtd:DL-id67 ;
+    dtd:has_Value "Die Beglaubigung nach Artikel 2 des Vertrages wird mit den entsprechenden Ergänzungen in der folgenden Form auf der Urkunde selbst oder auf einem mit der Urkunde zu verbindenden Blatt erteilt: Beglaubigung(Vertrag zwischen der Bundesrepublik Deutschland und der Italienischen Republik vom 7. Juni 1969 über den Verzicht auf die Legalisation von Urkunden)  Diese öffentliche Urkunde ist unterschrieben von in seiner/ihrer Eigenschaft als und versehen mit dem Siegel oder Stempel des/der Bestätigt in ... am ... durch SiegelUnterschrift Stempel "@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(1) Die Auskunft nach Artikel 4 Abs. 1 des Vertrages erteilt das Bundesverwaltungsamt nach Maßgabe des Absatzes 2."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesverwaltungsamt nimmt Auskunftsersuchen aus der Republik Italien entgegen, führt eine Äußerung der Person, Stelle oder Behörde herbei, welche die Urkunde errichtet haben soll, und übermittelt diese Äußerung der ersuchenden Stelle. Die Person, Stelle oder Behörde ist verpflichtet, eine Äußerung abzugeben."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1)."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem der Vertrag nach seinem Artikel 8 Abs. 2 in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  3. 8.1974  +++)"@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "Dem in Rom am 7. Juni 1969 unterzeichneten Vertrag zwischen der Bundesrepublik Deutschland und der Italienischen Republik über den Verzicht auf die Legalisation von Urkunden wird zugestimmt. Der Vertrag wird nachstehend veröffentlicht."@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesregierung und die Landesregierungen bestimmen in ihrem jeweiligen Geschäftsbereich die Behörden, die für die Beglaubigung nach Artikel 2 des Vertrages zuständig sind (Artikel 5 Abs. 1 Nr. 1 des Vertrages). Als zuständige Behörde kann auch der Präsident eines Gerichts bestimmt werden."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(2) Rechtsverordnungen der Bundesregierung nach Absatz 1 bedürfen nicht der Zustimmung des Bundesrates."@de .
+
+dtd:SP-id59 a dtd:SP ;
+    dtd:has_Value "Beglaubigung"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1974-07-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id109 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id110 .
+
+dtd:fussnoten-id45 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id90 .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrITAG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrITAG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrITAG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrITAG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrITAG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrITAG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrITAG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "UrkBefrITAG"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Vertrag vom 7. Juni 1969 zwischen der Bundesrepublik Deutschland und der Italienischen Republik über den Verzicht auf die Legalisation von Urkunden"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974BJNE000100306"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974BJNE000200306"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974BJNE000300306"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974BJNE000400306"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974BJNE000500306"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974BJNE000600306"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405132116"@de ;
+    dtd:has_doknr "BJNR210690974BJNE000700306"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id109 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:small-id60 a dtd:small ;
+    dtd:has_Value "(Vertrag zwischen der Bundesrepublik Deutschland und der Italienischen Republik vom 7. Juni 1969 über den Verzicht auf die Legalisation von Urkunden)"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id88 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id96 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:zitstelle-id110 a dtd:zitstelle ;
+    dtd:has_Value "1974, 1069"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

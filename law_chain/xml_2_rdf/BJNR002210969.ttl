@@ -1,0 +1,138 @@
+@prefix dtd: <urn:SGÄndG-7#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120803043413"@de ;
+    dtd:has_doknr "BJNR002210969"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27,
+        dtd:P-id28 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.6.1980 +++)"@de .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value "(1)"@de .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 ist auf Offiziere in Verwendungen als Strahlflugzeugführer, die vor dem Inkrafttreten dieses Gesetzes zu Berufssoldaten ernannt worden sind, nur dann anzuwenden, wenn diese sich damit unwiderruflich einverstanden erklärt haben. Das Einverständnis ist bis 31. Dezember 1981 oder bis zur Vollendung des siebenunddreißigsten Lebensjahrs, falls dieser Zeitpunkt später liegt, schriftlich zu erklären."@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-03-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id17 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id31 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id32 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id24 .
+
+dtd:fussnoten-id22 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "SGÄndG 7"@de .
+
+dtd:jurabk-id16 a dtd:jurabk ;
+    dtd:has_Value "SGÄndG 7"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "SGÄndG 7"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Siebentes Gesetz zur Änderung des Soldatengesetzes"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 ;
+    dtd:has_standangabe dtd:standangabe-id15 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id17 ;
+    dtd:has_jurabk dtd:jurabk-id16 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120803043413"@de ;
+    dtd:has_doknr "BJNR002210969"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120803043413"@de ;
+    dtd:has_doknr "BJNR002210969BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120803043413"@de ;
+    dtd:has_doknr "BJNR002210969BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id31 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id15 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id34 ;
+    dtd:has_standtyp dtd:standtyp-id33 .
+
+dtd:standkommentar-id34 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 5 G v. 22.5.1980 I 581"@de .
+
+dtd:standtyp-id33 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id26 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id22 ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id32 a dtd:zitstelle ;
+    dtd:has_Value "1969, 221"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,420 @@
+@prefix dtd: <urn:BVerfGAmtsGehG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:BR-id73 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102 .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84,
+        dtd:P-id85,
+        dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88,
+        dtd:P-id89,
+        dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92 .
+
+dtd:Content-id93 a dtd:Content ;
+    dtd:has_P dtd:P-id94 .
+
+dtd:Content-id95 a dtd:Content ;
+    dtd:has_P dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id80 .
+
+dtd:DL-id74 a dtd:DL ;
+    dtd:has_DD dtd:DD-id77,
+        dtd:DD-id78 ;
+    dtd:has_DT dtd:DT-id75,
+        dtd:DT-id76 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_Value "für den Monat Juni 2023 eine einmalige Sonderzahlung in Höhe von 1 240 Euro und"@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_Value "für die Monate Juli 2023 bis Februar 2024 eine monatliche Sonderzahlung in Höhe von jeweils 220 Euro."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt mit Wirkung vom 1. Juli 1963 in Kraft."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "Die Bundesregierung hat dem vorstehenden Gesetz die nach Artikel 113 des Grundgesetzes erforderliche Zustimmung erteilt."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_BR dtd:BR-id71 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.1.1975 +++)"@de ;
+    dtd:has_pre dtd:pre-id105 .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "(1) Die Mitglieder des Bundesverfassungsgerichts erhalten als Amtsgehalt (Dienstbezüge) ein Grundgehalt und einen Familienzuschlag entsprechend den §§ 39 bis 41 des Bundesbesoldungsgesetzes. Neben dem Amtsgehalt wird dem Präsidenten und dem Vizepräsidenten des Bundesverfassungsgerichts eine Dienstaufwandsentschädigung gewährt."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_DL dtd:DL-id74 ;
+    dtd:has_Value "(1a) Zur Abmilderung der Folgen der gestiegenen Verbraucherpreise werden den Mitgliedern des Bundesverfassungsgerichts in entsprechender Anwendung des § 14 Absatz 4 bis 8 des Bundesbesoldungsgesetzes die folgenden Sonderzahlungen gewährt: 1.für den Monat Juni 2023 eine einmalige Sonderzahlung in Höhe von 1 240 Euro und2.für die Monate Juli 2023 bis Februar 2024 eine monatliche Sonderzahlung in Höhe von jeweils 220 Euro."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "(2) Im übrigen gelten die allgemeinen besoldungsrechtlichen und beihilferechtlichen Vorschriften, soweit nicht das Gesetz über das Bundesverfassungsgericht besondere Vorschriften enthält."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "(1) Das Grundgehalt des Präsidenten des Bundesverfassungsgerichts wird in Höhe des Amtsgehalts eines Bundesministers festgesetzt."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "(2) Das Grundgehalt des Vizepräsidenten des Bundesverfassungsgerichts wird in Höhe von eineinsechstel des Grundgehalts des Staatssekretärs festgesetzt."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "(3) Die Grundgehälter der anderen Richter des Bundesverfassungsgerichts werden in Höhe des Grundgehalts der Präsidenten bei den obersten Gerichtshöfen des Bundes festgesetzt. Dazu erhalten sie eine nichtruhegehaltfähige Stellenzulage wie die Präsidenten bei den obersten Gerichtshöfen des Bundes."@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "Für den Familienzuschlag gilt der in der Anlage V des Bundesbesoldungsgesetzes bestimmte Satz; jedoch erhält der Präsident des Bundesverfassungsgerichts eineindrittel, der Vizepräsident des Bundesverfassungsgerichts eineinsechstel der hiernach maßgebenden Beträge."@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_Value "Der Präsident und der Vizepräsident des Bundesverfassungsgerichts erhalten eine Dienstaufwandsentschädigung in derselben Höhe wie ein Bundesminister."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "Die Mitglieder des Bundesverfassungsgerichts haben das Recht auf freie Benutzung aller Verkehrsmittel der Eisenbahnen des Bundes."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id33 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1964-02-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 1a"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 1b"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 1c"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 1d"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id34 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id106 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id107 .
+
+dtd:fussnoten-id55 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id81 .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:fussnoten-id59 a dtd:fussnoten .
+
+dtd:fussnoten-id61 a dtd:fussnoten .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:fussnoten-id65 a dtd:fussnoten .
+
+dtd:fussnoten-id67 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "BVerfGAmtsGehG"@de .
+
+dtd:langue-id35 a dtd:langue ;
+    dtd:has_Value "Gesetz über das Amtsgehalt der Mitglieder des Bundesverfassungsgerichts"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id33 ;
+    dtd:has_fundstelle dtd:fundstelle-id34 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_langue dtd:langue-id35 ;
+    dtd:has_standangabe dtd:standangabe-id36 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000800314"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000900314"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000103377"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000201307"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000302377"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000501307"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000600314"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20240123215003"@de ;
+    dtd:has_doknr "BJNR001330964BJNE000700314"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id106 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id105 a dtd:pre ;
+    dtd:has_BR dtd:BR-id72,
+        dtd:BR-id73 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1975 +++)"@de .
+
+dtd:standangabe-id36 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id109 ;
+    dtd:has_standtyp dtd:standtyp-id108 .
+
+dtd:standkommentar-id109 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 8 G v. 22.12.2023 I Nr. 414"@de .
+
+dtd:standtyp-id108 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id93 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id95 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id103 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:zitstelle-id107 a dtd:zitstelle ;
+    dtd:has_Value "1964, 133"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

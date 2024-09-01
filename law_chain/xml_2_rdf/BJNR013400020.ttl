@@ -1,0 +1,274 @@
+@prefix dtd: <urn:Münz20EuroBek-2020-01-22/2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200506213008"@de ;
+    dtd:has_doknr "BJNR013400020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:jpg rdfs:label "jpg"@de .
+
+dtd:kommentar-id59 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2020, 134)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46,
+        dtd:P-id47,
+        dtd:P-id48,
+        dtd:P-id49,
+        dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52,
+        dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 ;
+    dtd:has_table dtd:table-id33 .
+
+dtd:IMG-id41 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "213"@de ;
+    dtd:has_Pos dtd:inline ;
+    dtd:has_SRC "bgbl1_2020_j0134-1_0010.jpg"@de ;
+    dtd:has_Type "jpg"@de ;
+    dtd:has_Units "72"@de ;
+    dtd:has_Width "213"@de ;
+    dtd:has_alt ""@de .
+
+dtd:IMG-id42 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "213"@de ;
+    dtd:has_Pos dtd:inline ;
+    dtd:has_SRC "bgbl1_2020_j0134-1_0020.jpg"@de ;
+    dtd:has_Type "jpg"@de ;
+    dtd:has_Units "72"@de ;
+    dtd:has_Width "213"@de ;
+    dtd:has_alt ""@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11.2.2020 +++)"@de ;
+    dtd:has_pre dtd:pre-id58 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Gemäß den §§ 2, 4 und 5 des Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung beschlossen, zum Thema „Der Wolf und die sieben Geißlein“ eine deutsche Euro-Gedenkmünze im Nennwert von 20 Euro prägen zu lassen. Die Münze ist die neunte Ausgabe im Rahmen der 2012 begonnenen Serie „200 Jahre Grimms Märchen“."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Die Auflage der Münze beträgt ca. 1,0 Millionen Stück, davon ca. 0,1 Millionen Stück in Spiegelglanzqualität. Die Prägung erfolgt durch das Bayerische Hauptmünzamt, München."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Die Münze wird ab dem 16. Januar 2020 in den Verkehr gebracht. Sie besteht aus einer Legierung von 925 Tausendteilen Silber und 75 Tausendteilen Kupfer, hat einen Durchmesser von 32,5 Millimetern und eine Masse von 18 Gramm. Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden, glatten Randstab umgeben."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Die Bildseite zeigt die dominierende Wolfsfigur sowie die zu Tode erschrockenen Geißlein. Durch das fliehende Geißlein wird gleichzeitig auf den Fortgang der Geschichte verwiesen."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Die Wertseite zeigt einen Adler, den Schriftzug „BUNDESREPUBLIK DEUTSCHLAND“, Wertziffer und Wertbezeichnung, das Prägezeichen „D“ des Bayerischen Hauptmünzamtes, München, die Jahreszahl 2020 sowie die zwölf Europasterne. Zusätzlich ist die Angabe „SILBER 925“ aufgeprägt."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Der glatte Münzrand enthält in vertiefter Prägung die Inschrift:"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "„DU BIST DER WOLF *“."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Der Entwurf der Münze stammt von der Künstlerin Adelheid Fuss aus Potsdam."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_SP dtd:SP-id31 ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2020, 134)"@de ;
+    dtd:has_noindex dtd:noindex-id32 .
+
+dtd:SP-id31 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-01-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id35 a dtd:colspec ;
+    dtd:has_colname "col1"@de .
+
+dtd:colspec-id36 a dtd:colspec ;
+    dtd:has_colname "col2"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id39 a dtd:entry ;
+    dtd:has_IMG dtd:IMG-id41 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id40 a dtd:entry ;
+    dtd:has_IMG dtd:IMG-id42 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id43 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2020-01-22/2"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2020-01-22/2"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2020-01-22/2"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2020-01-22/2"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen im Nennwert von 20 Euro (Gedenkmünze „Der Wolf und die sieben Geißlein“)"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id32 a dtd:noindex .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200506213008"@de ;
+    dtd:has_doknr "BJNR013400020"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200506213008"@de ;
+    dtd:has_doknr "BJNR013400020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200506213008"@de ;
+    dtd:has_doknr "BJNR013400020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200506213008"@de ;
+    dtd:has_doknr "BJNR013400020BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id58 a dtd:pre ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11.2.2020 +++)"@de .
+
+dtd:row-id38 a dtd:row ;
+    dtd:has_entry dtd:entry-id39,
+        dtd:entry-id40 .
+
+dtd:table-id33 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id34 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id37 a dtd:tbody ;
+    dtd:has_row dtd:row-id38 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:tgroup-id34 a dtd:tgroup ;
+    dtd:has_align dtd:center ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id35,
+        dtd:colspec-id36 ;
+    dtd:has_tbody dtd:tbody-id37 .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "2020, 134"@de .
+
+dtd:inline rdfs:label "inline"@de .
+
+dtd:center rdfs:label "center"@de .
+

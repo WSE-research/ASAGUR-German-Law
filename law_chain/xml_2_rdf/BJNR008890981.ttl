@@ -1,0 +1,321 @@
+@prefix dtd: <urn:FilmFöFRAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125315"@de ;
+    dtd:has_doknr "BJNR008890981"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66,
+        dtd:P-id67,
+        dtd:P-id68,
+        dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DL-id52 a dtd:DL ;
+    dtd:has_DD dtd:DD-id55,
+        dtd:DD-id56 ;
+    dtd:has_DT dtd:DT-id53,
+        dtd:DT-id54 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Regisseur des Films dem Staat der Minderheitsbeteiligung angehört und"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Voraussetzungen des Satzes 2 sonst nicht erfüllt werden könnten."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 29. 8.1981 +++)"@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 32 Abs. 6 Satz 3 des Filmförderungsgesetzes vom 25. Juni 1979 (BGBl. I S. 803) wird nach Anhörung der Filmförderungsanstalt verordnet:"@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(1) Zur verstärkten Förderung deutsch-französischer Filmvorhaben, die in Gemeinschaftsproduktion im Sinne des Filmförderungsgesetzes hergestellt werden, gewährt die Filmförderungsanstalt zinslose Darlehen von mindestens 100.000 Deutsche Mark und höchstens 200.000 Deutsche Mark. Diese können auch zusätzlich zu einer Förderung nach § 32 Abs. 1 des Filmförderungsgesetzes gewährt werden."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(2) Zur Förderung nach Absatz 1 stellt die Filmförderungsanstalt jährlich einen Gesamtbetrag von 750.000 Deutsche Mark bereit. Falls nach § 68 Abs. 3 des Filmförderungsgesetzes nur ein geringerer Betrag verwendet werden darf, ist der höchstmögliche Betrag bereitzustellen."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(3) Ein Filmvorhaben darf nur gefördert werden, wenn es in annähernd gleicher Höhe auch von französischer Seite gefördert wird."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "(4) Im übrigen richtet sich die Förderung der Filmvorhaben nach den Vorschriften des Filmförderungsgesetzes."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_DL dtd:DL-id52 ;
+    dtd:has_Value "Gefördert werden jährlich bis zu sechs Filmvorhaben. Die Anzahl der im Jahr geförderten Filmvorhaben mit deutscher und mit französischer Mehrheitsbeteiligung muß gleich sein. Dabei wird für jede Seite je ein Filmvorhaben pro Jahr mit Minderheitsbeteiligung wie ein Filmvorhaben mit Mehrheitsbeteiligung behandelt, wenn 1.der Regisseur des Films dem Staat der Minderheitsbeteiligung angehört und 2.die Voraussetzungen des Satzes 2 sonst nicht erfüllt werden könnten. "@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes in Verbindung mit § 76 des Filmförderungsgesetzes auch im Land Berlin."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_SP dtd:SP-id51 ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:SP-id51 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1981-08-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id78 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id79 .
+
+dtd:fussnoten-id44 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id61 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "FilmFöFRAV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "FilmFöFRAV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "FilmFöFRAV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "FilmFöFRAV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "FilmFöFRAV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "FilmFöFRAV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "FilmFöFRAV"@de .
+
+dtd:langue-id26 a dtd:langue ;
+    dtd:has_Value "Verordnung zur verstärkten Förderung deutsch-französischer Filmvorhaben"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125315"@de ;
+    dtd:has_doknr "BJNR008890981"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125315"@de ;
+    dtd:has_doknr "BJNR008890981BJNE000100317"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125315"@de ;
+    dtd:has_doknr "BJNR008890981BJNE000200317"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125315"@de ;
+    dtd:has_doknr "BJNR008890981BJNE000300317"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125315"@de ;
+    dtd:has_doknr "BJNR008890981BJNE000400317"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125315"@de ;
+    dtd:has_doknr "BJNR008890981BJNE000500317"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125315"@de ;
+    dtd:has_doknr "BJNR008890981BJNE000600317"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id78 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Art und Höhe der Förderungshilfe"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Art und Zahl der Filmvorhaben"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id79 a dtd:zitstelle ;
+    dtd:has_Value "1981, 889"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

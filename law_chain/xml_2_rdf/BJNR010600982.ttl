@@ -1,0 +1,339 @@
+@prefix dtd: <urn:Münz5DMBek-1982-07#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR010600982"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:ABWFORMAT-id71 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56,
+        dtd:P-id57,
+        dtd:P-id58,
+        dtd:P-id59,
+        dtd:P-id60,
+        dtd:P-id61,
+        dtd:P-id62,
+        dtd:P-id63,
+        dtd:P-id64,
+        dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung wird aus Anlaß des 10. Jahrestages der Umweltkonferenz der Vereinten Nationen in Stockholm im Jahre 1972 eine Bundesmünze (Gedenkmünze) im Nennwert von 5 Deutschen Mark geprägt. Die Auflage der Münze beträgt 8,35 Millionen Stück. Die Prägung erfolgt in der Staatlichen Münze Stuttgart."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Die Münze wird ab 11. November 1982 in den Verkehr gebracht."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(3) Die Münze besteht überwiegend aus einer Kupfer-Nickel-Legierung (75 Prozent Kupfer und 25 Prozent Nickel) und hat einen Reinnickelkern. Sie hat einen Durchmesser von 29 Millimetern und ein Gewicht von 10 Gramm."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(4) Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden glatten Randstab umgeben."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(5) Die Bildseite zeigt das Internationale Umweltemblem, umgeben von wirbelförmig gegeneinander wirkenden Kreissegmenten."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value "(6) Sie trägt die Umschrift: \"UMWELTKONFERENZ . DER . VEREINTEN . NATIONEN . 1972\"."@de ;
+    dtd:has_table dtd:table-id35 .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value "(7) Die Wertseite trägt einen Adler und die Umschrift: \"BUNDESREPUBLIK . DEUTSCHLAND . 5 DEUTSCHE . MARK . 1982\"."@de ;
+    dtd:has_table dtd:table-id37 .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(8) Das Münzzeichen \"F\" der Staatlichen Münze Stuttgart befindet sich rechts neben der Wertziffer 5."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value "(9) Der glatte Münzrand enthält die vertiefte Inschrift: \"DIE EINE ERDE SCHUETZEN\"."@de ;
+    dtd:has_table dtd:table-id39 .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(10) Zwischen Ende und Anfang der Randschrift ist das Internationale Umweltemblem dreifach eingeprägt."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(11) Der Entwurf der Münze stammt von Herrn Victor Huster, Baden-Baden."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(12) Dies wird namens der Bundesregierung bekanntgemacht."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_SP dtd:SP-id34 ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id71 ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung) Fundstelle: BGBl I 1982, 1061"@de ;
+    dtd:has_kommentar dtd:kommentar-id70 .
+
+dtd:SP-id34 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1982-07-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id41 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "80*"@de .
+
+dtd:colspec-id43 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "80*"@de .
+
+dtd:colspec-id45 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id50 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "\"UMWELTKONFERENZ . DER . VEREINTEN . NATIONEN . 1972\"."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id51 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "\"BUNDESREPUBLIK . DEUTSCHLAND . 5 DEUTSCHE . MARK . 1982\"."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id52 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "\"DIE EINE ERDE SCHUETZEN\"."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id72 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id73 .
+
+dtd:fussnoten-id27 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1982-07"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1982-07"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1982-07"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1982-07"@de .
+
+dtd:kommentar-id70 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl I 1982, 1061"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 5 Deutschen Mark (Umweltkonferenz-Gedenkmünze)"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR010600982"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR010600982BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR010600982BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221020213512"@de ;
+    dtd:has_doknr "BJNR010600982BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id72 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id47 a dtd:row ;
+    dtd:has_entry dtd:entry-id50 .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id51 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id52 .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id75 ;
+    dtd:has_standtyp dtd:standtyp-id74 .
+
+dtd:standkommentar-id75 a dtd:standkommentar ;
+    dtd:has_Value "Bek. v. 31. 8.1982 I 1304"@de .
+
+dtd:standtyp-id74 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:table-id35 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id36 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id37 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id38 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id39 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id40 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id42 a dtd:tbody ;
+    dtd:has_row dtd:row-id47 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id44 a dtd:tbody ;
+    dtd:has_row dtd:row-id48 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id46 a dtd:tbody ;
+    dtd:has_row dtd:row-id49 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:tgroup-id36 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id41 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id42 .
+
+dtd:tgroup-id38 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id43 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id44 .
+
+dtd:tgroup-id40 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id45 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id46 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münze"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id73 a dtd:zitstelle ;
+    dtd:has_Value "1982, 1060"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:top rdfs:label "top"@de .
+

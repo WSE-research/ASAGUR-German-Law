@@ -1,0 +1,230 @@
+@prefix dtd: <urn:EGFinSchAProtG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20161011221002"@de ;
+    dtd:has_doknr "BJNR081420000"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49,
+        dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_Value " (+++ Textnachweis ab: 13.7.2000 +++)"@de ;
+    dtd:has_pre dtd:pre-id53 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Dem in Brüssel am 29. November 1996 von der Bundesrepublik Deutschland unterzeichneten Protokoll aufgrund von Artikel K.3 des Vertrags über die Europäische Union betreffend die Auslegung des Übereinkommens über den Schutz der finanziellen Interessen der Europäischen Gemeinschaften durch den Gerichtshof der Europäischen Gemeinschaften im Wege der Vorabentscheidung und den hierzu abgegebenen Erklärungen wird zugestimmt. Das Protokoll und die Erklärungen werden nachstehend veröffentlicht."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(1) Jedes Gericht kann dem Gerichtshof der Europäischen Gemeinschaften eine Frage zur Vorabentscheidung vorlegen, die sich ihm in einem schwebenden Verfahren stellt, und die sich auf die Auslegung des Übereinkommens über den Schutz der finanziellen Interessen der Europäischen Gemeinschaften, des ersten Protokolls vom 27. September 1996 oder des Zweiten Protokolls vom 19. Juni 1997 zu diesem Übereinkommen bezieht, wenn es eine Entscheidung darüber zum Erlass seiner Entscheidung für erforderlich hält."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(2) Ein Gericht, dessen Entscheidungen selbst nicht mehr mit Rechtsmitteln des innerstaatlichen Rechts angefochten werden können, hat dem Gerichtshof der Europäischen Gemeinschaften zur Vorabentscheidung Fragen nach Absatz 1 vorzulegen, wenn es eine Entscheidung darüber zum Erlass seiner Entscheidung für erforderlich hält."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt mit Ausnahme des Artikels 2 am Tage seiner Verkündung in Kraft. Artikel 2 tritt an dem Tag in Kraft, an dem das Protokoll nach seinem Artikel 4 Abs. 3 für die Bundesrepublik Deutschland in Kraft tritt. Der Tag des Inkrafttretens ist im Bundesgesetzblatt bekannt zu geben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2000-07-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id32 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id42 .
+
+dtd:fussnoten-id36 a dtd:fussnoten .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "EGFinSchAProtG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "EGFinSchAProtG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "EGFinSchAProtG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "EGFinSchAProtG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "EGFinSchAProtG"@de .
+
+dtd:kurzue-id20 a dtd:kurzue ;
+    dtd:has_Value "EG-Finanzschutz-Auslegungsprotokollgesetz"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Protokoll vom 29. November 1996 aufgrund von Artikel K.3 des Vertrags über die Europäische Union betreffend die Auslegung des Übereinkommens über den Schutz der finanziellen Interessen der Europäischen Gemeinschaften durch den Gerichtshof der Europäischen Gemeinschaften im Wege der Vorabentscheidung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id20 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22,
+        dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20161011221002"@de ;
+    dtd:has_doknr "BJNR081420000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20161011221002"@de ;
+    dtd:has_doknr "BJNR081420000BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20161011221002"@de ;
+    dtd:has_doknr "BJNR081420000BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20161011221002"@de ;
+    dtd:has_doknr "BJNR081420000BJNE000301377"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20161011221002"@de ;
+    dtd:has_doknr "BJNR081420000BJNE000400305"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id53 a dtd:pre ;
+    dtd:has_BR dtd:BR-id40,
+        dtd:BR-id41 ;
+    dtd:has_Value "(+++ Textnachweis ab: 13.7.2000 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id57 ;
+    dtd:has_standtyp dtd:standtyp-id56 .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id59 ;
+    dtd:has_standtyp dtd:standtyp-id58 .
+
+dtd:standkommentar-id57 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 G v. 21.10.2002 II 2722; 2016 II 1110"@de .
+
+dtd:standkommentar-id59 a dtd:standkommentar ;
+    dtd:has_Value "Art. 2 tritt gem. Art. 3 Satz 2 iVm Abschn. I Bek. v. 27.4.2007 II 794 mWv 17.10.2002 in Kraft"@de .
+
+dtd:standtyp-id56 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id58 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "2000, 814 (2007 II 794)"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

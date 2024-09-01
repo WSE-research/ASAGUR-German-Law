@@ -1,0 +1,397 @@
+@prefix dtd: <urn:ZinnGießHwV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405124412"@de ;
+    dtd:has_doknr "BJNR000370969"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:B-id41 a dtd:B ;
+    dtd:has_Value "Arbeitsgebiet:"@de .
+
+dtd:B-id42 a dtd:B ;
+    dtd:has_Value "Fertigkeiten und Kenntnisse:"@de .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49,
+        dtd:LA-id50,
+        dtd:LA-id51,
+        dtd:LA-id52,
+        dtd:LA-id53,
+        dtd:LA-id54 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55,
+        dtd:LA-id56,
+        dtd:LA-id57,
+        dtd:LA-id58,
+        dtd:LA-id59,
+        dtd:LA-id60,
+        dtd:LA-id61,
+        dtd:LA-id62,
+        dtd:LA-id63,
+        dtd:LA-id64,
+        dtd:LA-id65,
+        dtd:LA-id66,
+        dtd:LA-id67,
+        dtd:LA-id68,
+        dtd:LA-id69,
+        dtd:LA-id70,
+        dtd:LA-id71,
+        dtd:LA-id72,
+        dtd:LA-id73,
+        dtd:LA-id74,
+        dtd:LA-id75,
+        dtd:LA-id76 .
+
+dtd:DL-id44 a dtd:DL ;
+    dtd:has_DD dtd:DD-id47,
+        dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id45,
+        dtd:DT-id46 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_B dtd:B-id41 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arbeitsgebiet:"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Entwurf, Herstellung und Instandsetzung von Geräten und Gefäßen aus Zinn, insbesondere"@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Tisch- und Ziergeräte wie Krüge, Kannen, Becher, Teller, Platten, Schalen;"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "kirchliche Geräte wie Altar-Leuchter; Kelche, Abendmahlskannen, Taufgeschirr, Versehgarnituren;"@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "technische Geräte und Geräteteile;"@de .
+
+dtd:LA-id54 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Krugbeschläge wie Deckel und Fußreifen."@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_B dtd:B-id42 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Fertigkeiten und Kenntnisse:"@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Entwerfen, Skizzieren, Zeichnen;"@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Herstellen der Zinn-Schmelzmasse;"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gießen in Formen, Abkühlen und Ausschlagen;"@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Feinbearbeiten (Versäubern) der Gußstücke von Hand und mit Maschinen durch Feilen, Stechen, Schaben und Polieren;"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abdrehen mit Handstählen und Schablonenmessern auf der Drehbank;"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Löten (Zusammenfügen) einzelner Gußteile mit Lötkolben oder Lötvorrichtungen;"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anfertigen und Anbringen von Krugbeschlägen (Deckel und Fußreifen);"@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Maschinelles Oberflächenbehandeln durch Schleifen, Polieren und Bürsten;"@de .
+
+dtd:LA-id64 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Entfetten, chemisches Oberflächenbehandeln, Farbtönen;"@de .
+
+dtd:LA-id65 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Verformen von Zinnblechen unter Verwendung von Drückwerkzeugen und Drückvorrichtungen;"@de .
+
+dtd:LA-id66 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bearbeiten und Verzieren von Zinngeräten und -gefäßen;"@de .
+
+dtd:LA-id67 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Konstruieren und Anfertigen von Modellen sowie von Formen für Zinnguß;"@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anfertigen von Drehwerkzeugen und Drehfuttern;"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Instandhalten von Werkzeugen und Maschinen;"@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kenntnisse in der Werkstoffkunde, insbesondere über Zinn und seine Legierungsstoffe;"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kenntnis der handelsüblichen Rohzinn-Sorten und der Legierungsbezeichnungen;"@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kenntnis der gesetzlichen Bestimmungen über die Verwendung von Blei für Zinnlegierungen, der Erkennungsmerkmale dieser Zinnlegierungen sowie der Verfahren zur Prüfung des Legierungsverhältnisses;"@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kenntnis der Qualitätsbezeichnungen (Qualitätsmarken) von Zinngeräten;"@de .
+
+dtd:LA-id74 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kenntnisse in der Stilkunde;"@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kenntnisse über Arten, Eigenschaften, Herstellung, Verwendung und Verarbeitung der Werk- und Hilfsstoffe;"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kenntnis der Unfallverhütungsvorschriften."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 16.1.1969 +++)"@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 45 der Handwerksordnung in der Fassung der Bekanntmachung vom 28. Dezember 1965 (Bundesgesetzbl. 1966 I S. 1) wird im Einvernehmen mit dem Bundesminister für Arbeit und Sozialordnung verordnet:"@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_DL dtd:DL-id44 ;
+    dtd:has_Value "Dem Zinngießer-Handwerk sind folgende Tätigkeiten (Arbeitsgebiet) und folgende Fertigkeiten und Kenntnisse zuzurechnen, die bei der Ordnung der Berufsausbildung zugrunde zu legen sind: 1.Arbeitsgebiet:Entwurf, Herstellung und Instandsetzung von Geräten und Gefäßen aus Zinn, insbesondereTisch- und Ziergeräte wie Krüge, Kannen, Becher, Teller, Platten, Schalen;kirchliche Geräte wie Altar-Leuchter; Kelche, Abendmahlskannen, Taufgeschirr, Versehgarnituren;technische Geräte und Geräteteile;Krugbeschläge wie Deckel und Fußreifen.      2.Fertigkeiten und Kenntnisse:Entwerfen, Skizzieren, Zeichnen;Herstellen der Zinn-Schmelzmasse;Gießen in Formen, Abkühlen und Ausschlagen;Feinbearbeiten (Versäubern) der Gußstücke von Hand und mit Maschinen durch Feilen, Stechen, Schaben und Polieren;Abdrehen mit Handstählen und Schablonenmessern auf der Drehbank;Löten (Zusammenfügen) einzelner Gußteile mit Lötkolben oder Lötvorrichtungen;Anfertigen und Anbringen von Krugbeschlägen (Deckel und Fußreifen);Maschinelles Oberflächenbehandeln durch Schleifen, Polieren und Bürsten;Entfetten, chemisches Oberflächenbehandeln, Farbtönen;Verformen von Zinnblechen unter Verwendung von Drückwerkzeugen und Drückvorrichtungen;Bearbeiten und Verzieren von Zinngeräten und -gefäßen;Konstruieren und Anfertigen von Modellen sowie von Formen für Zinnguß;Anfertigen von Drehwerkzeugen und Drehfuttern;Instandhalten von Werkzeugen und Maschinen;Kenntnisse in der Werkstoffkunde, insbesondere über Zinn und seine Legierungsstoffe;Kenntnis der handelsüblichen Rohzinn-Sorten und der Legierungsbezeichnungen;Kenntnis der gesetzlichen Bestimmungen über die Verwendung von Blei für Zinnlegierungen, der Erkennungsmerkmale dieser Zinnlegierungen sowie der Verfahren zur Prüfung des Legierungsverhältnisses;Kenntnis der Qualitätsbezeichnungen (Qualitätsmarken) von Zinngeräten;Kenntnisse in der Stilkunde;Kenntnisse über Arten, Eigenschaften, Herstellung, Verwendung und Verarbeitung der Werk- und Hilfsstoffe;Kenntnis der Unfallverhütungsvorschriften.                      "@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) in Verbindung mit § 128 der Handwerksordnung auch im Land Berlin."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach ihrer Verkündung in Kraft."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_SP dtd:SP-id43 ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:SP-id43 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-01-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id91 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id92 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id79 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "ZinnGießHwV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "ZinnGießHwV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "ZinnGießHwV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "ZinnGießHwV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "ZinnGießHwV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ZinnGießHwV"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Berufsbild des Zinngießer-Handwerks"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405124412"@de ;
+    dtd:has_doknr "BJNR000370969"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405124412"@de ;
+    dtd:has_doknr "BJNR000370969BJNE000100326"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405124412"@de ;
+    dtd:has_doknr "BJNR000370969BJNE000200326"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405124412"@de ;
+    dtd:has_doknr "BJNR000370969BJNE000300326"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405124412"@de ;
+    dtd:has_doknr "BJNR000370969BJNE000400326"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405124412"@de ;
+    dtd:has_doknr "BJNR000370969BJNE000500326"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id91 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id92 a dtd:zitstelle ;
+    dtd:has_Value "1969, 37"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

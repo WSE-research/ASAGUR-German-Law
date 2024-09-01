@@ -1,0 +1,186 @@
+@prefix dtd: <urn:WZG§4WGSBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151709"@de ;
+    dtd:has_doknr "BJNR012590984"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id44 a dtd:kommentar ;
+    dtd:has_Value "(Inhalt: Nicht darstellbare Abbildung,"@de ;
+    dtd:has_typ dtd:Hinweis .
+
+dtd:kommentar-id45 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl. I 1984, 1259)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38,
+        dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 29. 9.1984 +++)"@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 4 Abs. 2 Nr. 3 des Warenzeichengesetzes in der Fassung der Bekanntmachung vom 2. Januar 1968 (BGBl. I S. 1, 29) werden in der Anlage amtliche Prüf- und Gewährzeichen bekanntgemacht, die in der Republik Österreich für Wein eingeführt sind."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(2) Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 22. August 1984 (BGBl. I S. 1159)."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value "(Inhalt: Nicht darstellbare Abbildung,Fundstelle: BGBl. I 1984, 1259)"@de ;
+    dtd:has_noindex dtd:noindex-id31,
+        dtd:noindex-id32 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1984-09-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id46 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id47 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id35 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "WZG§4WGSBek"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "WZG§4WGSBek"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "WZG§4WGSBek"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "WZG§4WGSBek"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 4 des Warenzeichengesetzes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id31 a dtd:noindex .
+
+dtd:noindex-id32 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151709"@de ;
+    dtd:has_doknr "BJNR012590984"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151709"@de ;
+    dtd:has_doknr "BJNR012590984BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151709"@de ;
+    dtd:has_doknr "BJNR012590984BJNE000900308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151709"@de ;
+    dtd:has_doknr "BJNR012590984BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id46 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Prüf- und Gewährzeichen der Republik Österreich für Wein"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id47 a dtd:zitstelle ;
+    dtd:has_Value "1984, 1259"@de .
+

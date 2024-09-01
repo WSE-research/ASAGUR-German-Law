@@ -1,0 +1,589 @@
+@prefix dtd: <urn:MsbLärmSchV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093856"@de ;
+    dtd:has_doknr "BJNR233800997"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:ABWFORMAT-id104 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90,
+        dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93,
+        dtd:P-id94 .
+
+dtd:Content-id95 a dtd:Content ;
+    dtd:has_P dtd:P-id96,
+        dtd:P-id97,
+        dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id83,
+        dtd:DD-id84 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Verkehrsweg der Magnetschwebebahnen um eine oder mehrere durchgehende Fahrbahnen baulich erweitert wird oder"@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch einen erheblichen baulichen Eingriff der Beurteilungspegel des von dem zu ändernden Verkehrsweg der Magnetschwebebahnen ausgehenden Verkehrslärms um mindestens 3 Dezibel (A) oder auf mindestens 70 Dezibel (A) am Tage oder mindestens 60 Dezibel (A) in der Nacht erhöht wird."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "Der Beurteilungspegel ist nach der Anlage zu berechnen. Die dort unter Nummer 2.1 genannten Angaben hat der Betreiber der Magnetschwebebahn beizubringen."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id104 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Anlage; Fundstelle: BGBl. I 1997, 2338 - 2344)"@de ;
+    dtd:has_kommentar dtd:kommentar-id103 .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1.10.1997 +++)"@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_Value " Diese Verordnung ist als Artikel 2 d. V v. 23.9.1997 I 2329 (MsbV) von der Bundesregierung nach Anhörung der beteiligten Kreise und vom Bundesministerium für Verkehr im Einvernehmen mit dem Bundesministerium für Bildung, Wissenschaft, Forschung und Technologie und dem Bundesministerium für Arbeit und Sozialordnung mit Zustimmung des Bundesrates erlassen worden. Sie tritt gem. Art. 4 dieser V am 1.10.1997 in Kraft."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "(1) Die Verordnung gilt für den Bau oder die wesentliche Änderung von Verkehrswegen der Magnetschwebebahnen."@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_DL dtd:DL-id80 ;
+    dtd:has_Value "(2) Die Änderung ist wesentlich, wenn 1.ein Verkehrsweg der Magnetschwebebahnen um eine oder mehrere durchgehende Fahrbahnen baulich erweitert wird oder 2.durch einen erheblichen baulichen Eingriff der Beurteilungspegel des von dem zu ändernden Verkehrsweg der Magnetschwebebahnen ausgehenden Verkehrslärms um mindestens 3 Dezibel (A) oder auf mindestens 70 Dezibel (A) am Tage oder mindestens 60 Dezibel (A) in der Nacht erhöht wird. Eine Änderung ist auch wesentlich, wenn der Beurteilungspegel des von dem zu ändernden Verkehrsweg der Magnetschwebebahnen ausgehenden Verkehrslärms von mindestens 70 Dezibel (A) am Tage oder 60 Dezibel (A) in der Nacht durch einen erheblichen baulichen Eingriff erhöht wird; dies gilt nicht in Gewerbegebieten."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_Value """(1) Zum Schutz der Nachbarschaft vor schädlichen Umwelteinwirkungen durch Verkehrsgeräusche von Magnetschwebebahnen ist bei dem Bau oder der wesentlichen Änderung von Verkehrswegen der Magnetschwebebahnen sicherzustellen, daß der Beurteilungspegel dieser Verkehrsgeräusche einen der folgenden Immissionsgrenzwerte nicht überschreitet: 
+	
+		
+		
+		
+		
+			
+				 
+				Tag
+				Nacht
+			
+			
+				1.
+				an Krankenhäusern, Schulen, Kurheimen und Altenheimen
+			
+			
+				 
+				57 Dezibel (A)
+				47 Dezibel (A)
+			
+			
+				2.
+				in reinen und allgemeinen Wohngebieten und Kleinsiedlungsgebieten
+			
+			
+				 
+				59 Dezibel (A)
+				49 Dezibel (A)
+			
+			
+				3.
+				in Kerngebieten, Dorfgebieten und Mischgebieten
+			
+			
+				 
+				64 Dezibel (A)
+				54 Dezibel (A)
+			
+			
+				4.
+				in Gewerbegebieten
+			
+			
+				 
+				69 Dezibel (A)
+				59 Dezibel (A)
+			
+		
+	
+ """@de ;
+    dtd:has_table dtd:table-id42 .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "(2) Die Art der in Absatz 1 bezeichneten Anlagen und Gebiete ergibt sich aus den Festsetzungen in den Bebauungsplänen. Sonstige in Bebauungsplänen festgesetzte Flächen für Anlagen und Gebiete sowie Anlagen und Gebiete, für die keine Festsetzungen bestehen, sind nach Absatz 1, bauliche Anlagen im Außenbereich nach Absatz 1 Nr. 1, 3 und 4 entsprechend der Schutzbedürftigkeit zu beurteilen."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(3) Wird die zu schützende Nutzung nur am Tage oder nur in der Nacht ausgeübt, so ist der Immissionsgrenzwert für diesen Zeitraum anzuwenden."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1997-09-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id44 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id45 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:colspec-id46 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Tag"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nacht"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "an Krankenhäusern, Schulen, Kurheimen und Altenheimen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "57 Dezibel (A)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "47 Dezibel (A)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in reinen und allgemeinen Wohngebieten und Kleinsiedlungsgebieten"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "59 Dezibel (A)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "49 Dezibel (A)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in Kerngebieten, Dorfgebieten und Mischgebieten"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "64 Dezibel (A)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "54 Dezibel (A)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "in Gewerbegebieten"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " "@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "69 Dezibel (A)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "59 Dezibel (A)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id105 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id106 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id89 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "MsbLärmSchV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "MsbLärmSchV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "MsbLärmSchV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "MsbLärmSchV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "MsbLärmSchV"@de .
+
+dtd:kommentar-id103 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Anlage; Fundstelle: BGBl. I 1997, 2338 - 2344)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Magnetschwebebahn-Lärmschutzverordnung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093856"@de ;
+    dtd:has_doknr "BJNR233800997"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093856"@de ;
+    dtd:has_doknr "BJNR233800997BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093856"@de ;
+    dtd:has_doknr "BJNR233800997BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093856"@de ;
+    dtd:has_doknr "BJNR233800997BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131008093856"@de ;
+    dtd:has_doknr "BJNR233800997BJNE000400305"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id105 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id57,
+        dtd:entry-id58,
+        dtd:entry-id59 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id60,
+        dtd:entry-id61 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id62,
+        dtd:entry-id63,
+        dtd:entry-id64 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id65,
+        dtd:entry-id66 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id67,
+        dtd:entry-id68,
+        dtd:entry-id69 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id70,
+        dtd:entry-id71 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id72,
+        dtd:entry-id73,
+        dtd:entry-id74 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id75,
+        dtd:entry-id76 .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id77,
+        dtd:entry-id78,
+        dtd:entry-id79 .
+
+dtd:table-id42 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id43 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id47 a dtd:tbody ;
+    dtd:has_row dtd:row-id48,
+        dtd:row-id49,
+        dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54,
+        dtd:row-id55,
+        dtd:row-id56 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id95 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:tgroup-id43 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id44,
+        dtd:colspec-id45,
+        dtd:colspec-id46 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id47 .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Immissionsgrenzwerte"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Berechnung des Beurteilungspegels"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Berechnung des Beurteilungspegels"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id106 a dtd:zitstelle ;
+    dtd:has_Value "1997, 2329, 2338"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

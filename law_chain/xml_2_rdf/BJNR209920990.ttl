@@ -1,0 +1,155 @@
+@prefix dtd: <urn:SBkBÜblG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20201006212512"@de ;
+    dtd:has_doknr "BJNR209920990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33,
+        dtd:P-id34,
+        dtd:P-id35,
+        dtd:P-id36 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29.9.1990 +++)Das G wurde als Nr. 46 der Anlage I Kap. IV Sachgebiet B Abschn. II des Einigungsvertrages G 105-3 vom 23.09.1990 II 1990, 885, 889 vom Bundestag mit Zustimmung des Bundesrates unter Einhaltung des Art. 79 Abs. 2 GG beschlossen. Es ist gem. Art. 10 Abs. 2 dieses G  iVm Bek. v. 16.10.1990 II 1360 mWv 29.9.1990 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id37 .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "Der Bund tritt in die Verbindlichkeiten aus der Gewährträgerhaftung der Deutschen Demokratischen Republik für die Staatsbank Berlin ein. Dies gilt nicht für Verbindlichkeiten, die nach einer Übertragung der Beteiligung auf Länder oder nach einer Übertragung nach § 2 begründet werden. Satz 1 gilt für von der Staatsbank Berlin in Abwicklung begründete neue Verbindlichkeiten entsprechend. Wird der Bund aus der Gewährträgerhaftung in Anspruch genommen, wird die Belastung in die Gesamtverschuldung des Republikhaushalts einbezogen und nach Herstellung der deutschen Einheit in das nicht rechtsfähige Sondervermögen nach Artikel 23 Abs. 1 des Einigungsvertrages übernommen. Als Inanspruchnahme aus der Gewährträgerhaftung gelten auch Leistungen zu ihrer Abwendung."@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value "(1) Der Bundesminister der Finanzen kann zur Ausführung des Artikels 23 Abs. 7 des Einigungsvertrages sowie zur Herstellung einer gesunden Struktur der öffentlich-rechtlichen Kreditinstitute in dem in Artikel 3 des Einigungsvertrages genannten Gebiet durch Rechtsverordnung, die nicht der Zustimmung des Bundesrates bedarf, das Vermögen der Staatsbank Berlin als Ganzes ohne Abwicklung im Wege der Gesamtrechtsnachfolge auf ein öffentlich-rechtliches Kreditinstitut oder einen anderen Rechtsträger (Rechtsträger) oder Teile des Vermögens der Staatsbank Berlin, jeweils als Gesamtheit, gegebenenfalls ohne Abwicklung auf einen oder mehrere Rechtsträger übertragen. Bei Teilübertragungen sind in der Verordnung oder in einer ihren Bestandteil bildenden Anlage die jeweils auf jeden übernehmenden Rechtsträger übergehenden Gegenstände und Verbindlichkeiten zu bezeichnen. Werden nach der Verordnung Gegenstände oder Verbindlichkeiten von einer Übertragung nicht erfaßt, so ist dieser Teil des Vermögens abzuwickeln."@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "(2) Vor Erlaß der Verordnung sind die Leitungs- und Aufsichtsorgane der Staatsbank Berlin und der beteiligten Rechtsträger zu hören."@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(3) Die Übertragung wird am Ende des Tages nach der Verkündung der Verordnung im Bundesgesetzblatt wirksam. Das Vermögen der Staatsbank Berlin geht einschließlich der Verbindlichkeiten, gegebenenfalls nach Maßgabe der in der Verordnung oder in ihrer Anlage festgelegten Aufteilung, auf den oder die in der Verordnung bezeichneten Rechtsträger über. § 613a des Bürgerlichen Gesetzbuches gilt nicht. Bei einer Übertragung des gesamten Vermögens erlischt die Staatsbank Berlin. Auf Grund der Übertragung werden keine Steuern erhoben."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(4) Im Falle der Übertragung von Vermögen der Staatsbank Berlin auf die Deutsche Girozentrale, Deutsche Kommunalbank kann diese für die in Artikel 1 des Einigungsvertrages genannten Länder die Aufgabe einer gemeinsamen Landesbank übernehmen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-09-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id38 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id39 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id28 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "SBkBÜblG"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "SBkBÜblG"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "SBkBÜblG"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Überleitung der Staatsbank Berlin"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20201006212512"@de ;
+    dtd:has_doknr "BJNR209920990"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20201006212512"@de ;
+    dtd:has_doknr "BJNR209920990BJNE000100301"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20201006212512"@de ;
+    dtd:has_doknr "BJNR209920990BJNE000200301"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id38 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id37 a dtd:pre ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.9.1990 +++)"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id26 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id39 a dtd:zitstelle ;
+    dtd:has_Value "1990, 885, 992"@de .
+

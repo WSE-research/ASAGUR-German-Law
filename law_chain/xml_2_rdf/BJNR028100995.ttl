@@ -1,0 +1,168 @@
+@prefix dtd: <urn:BKOrgErl1995Bek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028100995"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:DD-id24 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id28 .
+
+dtd:DD-id25 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id29 .
+
+dtd:DD-id26 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id30 .
+
+dtd:DD-id27 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id31 .
+
+dtd:DL-id19 a dtd:DL ;
+    dtd:has_DD dtd:DD-id24,
+        dtd:DD-id25,
+        dtd:DD-id26,
+        dtd:DD-id27 ;
+    dtd:has_DT dtd:DT-id20,
+        dtd:DT-id21,
+        dtd:DT-id22,
+        dtd:DT-id23 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id20 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id21 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id22 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id23 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id28 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Bundesminister für Raumordnung, Bauwesen und Städtebau wird beauftragt, den Umzug in die Hauptstadt Berlin und den Ausgleich für die Region der Bundesstadt Bonn zu koordinieren."@de .
+
+dtd:LA-id29 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Deshalb wird aus dem Geschäftsbereich des Bundesministeriums des Innern die Zuständigkeit für den Arbeitsstab Berlin/Bonn auf das Bundesministerium für Raumordnung, Bauwesen und Städtebau übertragen."@de .
+
+dtd:LA-id30 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Alle Bundesministerien werden das Bundesministerium für Raumordnung, Bauwesen und Städtebau bei der Erfüllung seiner Aufgabe unterstützen, es insbesondere mit allen dafür erforderlichen Informationen versehen."@de .
+
+dtd:LA-id31 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die weiteren Einzelheiten werden zwischen den Bundesministerien des Innern, der Finanzen, für Verkehr und für Raumordnung, Bauwesen und Städtebau vereinbart und dem Chef des Bundeskanzleramtes mitgeteilt.\""@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  3. 2.1995 +++)"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_DL dtd:DL-id19 ;
+    dtd:has_SP dtd:SP-id18 ;
+    dtd:has_Value "Nachstehend mache ich den Organisationserlaß des Bundeskanzlers vom 3. Februar 1995 bekannt, der mit sofortiger Wirkung in Kraft getreten ist: \"Gemäß § 9 der Geschäftsordnung der Bundesregierung ordne ich mit sofortiger Wirkung an: 1.Der Bundesminister für Raumordnung, Bauwesen und Städtebau wird beauftragt, den Umzug in die Hauptstadt Berlin und den Ausgleich für die Region der Bundesstadt Bonn zu koordinieren.2.Deshalb wird aus dem Geschäftsbereich des Bundesministeriums des Innern die Zuständigkeit für den Arbeitsstab Berlin/Bonn auf das Bundesministerium für Raumordnung, Bauwesen und Städtebau übertragen.3.Alle Bundesministerien werden das Bundesministerium für Raumordnung, Bauwesen und Städtebau bei der Erfüllung seiner Aufgabe unterstützen, es insbesondere mit allen dafür erforderlichen Informationen versehen.4.Die weiteren Einzelheiten werden zwischen den Bundesministerien des Innern, der Finanzen, für Verkehr und für Raumordnung, Bauwesen und Städtebau vereinbart und dem Chef des Bundeskanzleramtes mitgeteilt.\"Der Chef des Bundeskanzleramtes"@de .
+
+dtd:SP-id18 a dtd:SP ;
+    dtd:has_Value "Der Chef des Bundeskanzleramtes"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1995-02-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id38 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id39 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl1995Bek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl1995Bek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung des Organisationserlasses des Bundeskanzlers"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028100995"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028100995BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id38 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id39 a dtd:zitstelle ;
+    dtd:has_Value "1995, 281"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

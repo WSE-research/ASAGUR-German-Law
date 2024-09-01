@@ -1,0 +1,291 @@
+@prefix dtd: <urn:SEFFV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210928213533"@de ;
+    dtd:has_doknr "BJNR436900021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66,
+        dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id54 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id56 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DL-id42 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45,
+        dtd:DD-id46 ;
+    dtd:has_DT dtd:DT-id43,
+        dtd:DT-id44 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id47 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51,
+        dtd:DD-id52,
+        dtd:DD-id53 ;
+    dtd:has_DT dtd:DT-id48,
+        dtd:DT-id49,
+        dtd:DT-id50 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id54 a dtd:LA ;
+    dtd:has_Value "nur für Verbindungen, die auf der Internetseite der Deutschen Bahn AG ausschließlich für Soldatinnen und Soldaten zur kostenlosen Buchung angeboten werden, und"@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_Value "nur für die Buchung einer einzigen Zugverbindung für die jeweilige Fahrt vom Abfahrtsort zum Zielort."@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Value "für die niedrigste Beförderungsklasse,"@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Value "mit Zugbindung und"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Value "ohne Sitzplatzreservierung."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id70 .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 93 Absatz 2 Nummer 3 des Soldatengesetzes, der durch Artikel 5 Nummer 10 Buchstabe a des Gesetzes vom 20. August 2021 (BGBl. I S. 3932) eingefügt worden ist, verordnet das Bundesministerium der Verteidigung:"@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Der Bund ermöglicht Soldatinnen und Soldaten den Bezug eines Fahrscheins für eine unentgeltliche Beförderung in öffentlichen Eisenbahnen bei Privatfahrten, sofern die Soldatinnen und Soldaten während der Beförderung Uniform tragen und ihren Truppenausweis auf Verlangen vorzeigen."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_DL dtd:DL-id42 ;
+    dtd:has_Value "(1) Der Anspruch auf Ermöglichung der unentgeltlichen Beförderung in öffentlichen Eisenbahnen besteht 1.nur für Verbindungen, die auf der Internetseite der Deutschen Bahn AG ausschließlich für Soldatinnen und Soldaten zur kostenlosen Buchung angeboten werden, und2.nur für die Buchung einer einzigen Zugverbindung für die jeweilige Fahrt vom Abfahrtsort zum Zielort.Ein Anspruch auf die Buchung einer alternativen Zugverbindung besteht nur, wenn die gebuchte Verbindung nicht wahrgenommen werden kann, weil dem zwingende dienstliche Gründe entgegenstehen, die zum Zeitpunkt der Buchung nicht vorhersehbar gewesen sind."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_DL dtd:DL-id47 ;
+    dtd:has_Value "(2) Es besteht nur Anspruch auf einen Fahrschein 1.für die niedrigste Beförderungsklasse,2.mit Zugbindung und3.ohne Sitzplatzreservierung."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Januar 2021 in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "SEFFV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-09-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id71 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id72 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id59 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "SEFFV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "SEFFV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "SEFFV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "SEFFV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "SEFFV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Soldaten-Eisenbahnfreifahrscheinverordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Verordnung über die unentgeltliche Beförderung von Soldatinnen und Soldaten in öffentlichen Eisenbahnen bei Privatfahrten"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210928213533"@de ;
+    dtd:has_doknr "BJNR436900021"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210928213533"@de ;
+    dtd:has_doknr "BJNR436900021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210928213533"@de ;
+    dtd:has_doknr "BJNR436900021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210928213533"@de ;
+    dtd:has_doknr "BJNR436900021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210928213533"@de ;
+    dtd:has_doknr "BJNR436900021BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id71 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id70 a dtd:pre ;
+    dtd:has_BR dtd:BR-id40,
+        dtd:BR-id41 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2021 +++)"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Anspruch auf unentgeltliche Beförderung in öffentlichen Eisenbahnen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Umfang des Anspruchs"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id72 a dtd:zitstelle ;
+    dtd:has_Value "2021, 4369"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

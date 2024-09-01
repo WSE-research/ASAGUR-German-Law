@@ -1,0 +1,252 @@
+@prefix dtd: <urn:VergWerkeRegV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160905224115"@de ;
+    dtd:has_doknr "BJNR034600014"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50,
+        dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53,
+        dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56,
+        dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value " (+++ Textnachweis ab: 24.4.2014 +++) (+++ Zur Anwendung vgl. § 2 Abs. 5 +++)"@de ;
+    dtd:has_pre dtd:pre-id60 .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 13e Absatz 5 des Urheberrechtswahrnehmungsgesetzes, der durch Artikel 2 des Gesetzes vom 1. Oktober 2013 (BGBl. I S. 3728) eingefügt worden ist, in Verbindung mit § 1 Absatz 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und mit dem Organisationserlass vom 17. Dezember 2013 (BGBl. I S. 4310) verordnet das Bundesministerium der Justiz und für Verbraucherschutz:"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(1) Der Antrag auf Eintragung von Werken in das Register vergriffener Werke nach § 51 Absatz 1 Nummer 4 des Verwertungsgesellschaftengesetzes muss die Angaben nach § 52 Absatz 1 Satz 2 Nummer 1 bis 5 des Verwertungsgesellschaftengesetzes enthalten."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(2) Die Verwertungsgesellschaft reicht den Antrag elektronisch über die vom Deutschen Patent- und Markenamt zur Verfügung gestellte Schnittstelle ein."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(1) Für jede Eintragung in das Register wird eine Gebühr in Höhe von 1 Euro erhoben."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(2) Zur Zahlung der Eintragungsgebühren ist ein gültiges SEPA-Basislastschriftmandat zu Gunsten der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt zu erteilen. Mit dem SEPA-Basislastschriftmandat sind Angaben zum Verwendungszweck einzureichen. Das SEPA-Basislastschriftmandat soll für eine Vielzahl von Einzügen verwendet werden."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(3) Als Zahlungstag gilt der Tag des Eingangs des SEPA-Basislastschriftmandats samt Angaben zum Verwendungszweck beim Deutschen Patent- und Markenamt. Wird das SEPA-Basislastschriftmandat durch Telefax übermittelt, ist das Original innerhalb einer Frist von einem Monat nach Eingang des Telefax nachzureichen. Andernfalls gilt als Zahlungstag der Tag des Eingangs des Originals."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(4) Das Deutsche Patent- und Markenamt teilt den Verwertungsgesellschaften den Gesamtbetrag der auf sie entfallenden Eintragungsgebühren für jeden Kalendermonat mit und zieht diesen Betrag aufgrund des SEPA-Basislastschriftmandats ein."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(5) Die §§ 5, 6 Absatz 1, § 8 Absatz 2, § 10 Absatz 1, § 12 Absatz 1 und 4 sowie § 13 der DPMA-Verwaltungskostenverordnung sind entsprechend anzuwenden."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "VergWerkeRegV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2014-04-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id61 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id62 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id45 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "VergWerkeRegV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "VergWerkeRegV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "VergWerkeRegV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "VergWerkeRegV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "VergWerkeRegV"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Register vergriffener Werke"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160905224115"@de ;
+    dtd:has_doknr "BJNR034600014"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160905224115"@de ;
+    dtd:has_doknr "BJNR034600014BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160905224115"@de ;
+    dtd:has_doknr "BJNR034600014BJNE000201123"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160905224115"@de ;
+    dtd:has_doknr "BJNR034600014BJNE000301123"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20160905224115"@de ;
+    dtd:has_doknr "BJNR034600014BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id61 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id60 a dtd:pre ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43,
+        dtd:BR-id44 ;
+    dtd:has_Value "(+++ Textnachweis ab: 24.4.2014 +++) (+++ Zur Anwendung vgl. § 2 Abs. 5 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id64 ;
+    dtd:has_standtyp dtd:standtyp-id63 .
+
+dtd:standkommentar-id64 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 G v. 24.5.2016 I 1190"@de .
+
+dtd:standtyp-id63 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Antragstellung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Kosten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id62 a dtd:zitstelle ;
+    dtd:has_Value "2014, 346"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,302 @@
+@prefix dtd: <urn:Münz5DMBek-1986-09#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125733"@de ;
+    dtd:has_doknr "BJNR015250986"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:ABWFORMAT-id67 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56,
+        dtd:P-id57,
+        dtd:P-id58,
+        dtd:P-id59,
+        dtd:P-id60,
+        dtd:P-id61,
+        dtd:P-id62,
+        dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DD-id42 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48,
+        dtd:LA-id49 .
+
+dtd:DL-id37 a dtd:DL ;
+    dtd:has_DD dtd:DD-id39 ;
+    dtd:has_DT dtd:DT-id38 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id40 a dtd:DL ;
+    dtd:has_DD dtd:DD-id42 ;
+    dtd:has_DT dtd:DT-id41 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_DL dtd:DL-id40 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND5 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "5 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der glatte Münzrand enthält die vertiefte Inschrift:"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"ICH BIN DER ERSTE DIENER MEINES STAATES\"."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 19.9.1986 +++)"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung hat die Bundesregierung beschlossen, aus Anlaß des 200. Todestages von Friedrich dem Großen im Jahre 1986 eine Bundesmünze (Gedenkmünze) im Nennwert von 5 Deutschen Mark prägen zu lassen. Die Auflage der Münze beträgt 8,35 Millionen Stück. Die Prägung erfolgt in der Staatlichen Münze Stuttgart."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2) Die Münze wird ab 22. Oktober 1986 in den Verkehr gebracht."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(3) Die Münze besteht überwiegend aus einer Kupfer-Nickel-Legierung (75 Prozent Kupfer und 25 Prozent Nickel). Sie enthält einen Reinnickelkern. Der Durchmesser beträgt 29 Millimeter, das Gewicht 10 Gramm."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(4) Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden glatten Randstab umgeben."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "(5) Die Bildseite zeigt ein Brustbild von Friedrich dem Großen im Profil mit Dreispitz und großem Ordensstern.Die Umschrift lautet: \"FRIEDRICH DER GROSSE 1712 1786\"."@de ;
+    dtd:has_table dtd:table-id31 .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_DL dtd:DL-id37 ;
+    dtd:has_Value "(6) Die Wertseite trägt einen Adler, die Jahreszahl 1986, das Münzzeichen \"F\" der Staatlichen Münze Stuttgart und die Umschrift: \"BUNDESREPUBLIK DEUTSCHLAND5 DEUTSCHE MARK\"."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_SP dtd:SP-id29 ;
+    dtd:has_Value "(7) Die Jahreszahl 1986 ist Teil der Umschrift und schließt sich dem Wort \"MARK\" an. Links davon im Feld (zwischen Jahreszahl und Adler) befindet sich das Münzzeichen \"F\".Der glatte Münzrand enthält die vertiefte Inschrift:\"ICH BIN DER ERSTE DIENER MEINES STAATES\"."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(8) Zwischen Ende und Anfang der Randschrift ist ein fünfeckiger Stern eingeprägt."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_BR dtd:BR-id26,
+        dtd:BR-id27 ;
+    dtd:has_SP dtd:SP-id30 ;
+    dtd:has_Value "(9) Der Entwurf der Münze stammt von Carl Vezerfi-Clemm, München.Der Bundesminister der Finanzen"@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id67 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Münzabbildungen, Fundstelle: BGBl I 1986, 1525)"@de ;
+    dtd:has_kommentar dtd:kommentar-id66 .
+
+dtd:SP-id29 a dtd:SP ;
+    dtd:has_Value "\"MARK\""@de .
+
+dtd:SP-id30 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1986-09-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id33 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id36 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "\"FRIEDRICH DER GROSSE 1712 1786\"."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id68 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id69 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id52 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1986-09"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1986-09"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1986-09"@de .
+
+dtd:kommentar-id66 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Münzabbildungen, Fundstelle: BGBl I 1986, 1525)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 5
+Deutschen Mark (Gedenkmünze Friedrich der Große)"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125733"@de ;
+    dtd:has_doknr "BJNR015250986"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125733"@de ;
+    dtd:has_doknr "BJNR015250986BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125733"@de ;
+    dtd:has_doknr "BJNR015250986BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id68 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id35 a dtd:row ;
+    dtd:has_entry dtd:entry-id36 .
+
+dtd:table-id31 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id32 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id34 a dtd:tbody ;
+    dtd:has_row dtd:row-id35 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:tgroup-id32 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colspec dtd:colspec-id33 ;
+    dtd:has_tbody dtd:tbody-id34 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münzen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id69 a dtd:zitstelle ;
+    dtd:has_Value "1986, 1525"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

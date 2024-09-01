@@ -1,0 +1,195 @@
+@prefix dtd: <urn:EWRAbkAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR031900996"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  2. 3.1996 +++)"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 24a Abs. 4 und des § 53c Nr. 1 des Gesetzes über das Kreditwesen in der Fassung der Bekanntmachung vom 22. Januar 1996 (BGBl. I S. 64) verordnet das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "§ 24a Abs. 1 bis 3 des Gesetzes über das Kreditwesen gilt entsprechend für die Errichtung einer Zweigstelle in der Republik Island oder im Königreich Norwegen."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Die Vorschriften des Gesetzes über das Kreditwesen über Unternehmen mit Sitz in einem anderen Mitgliedstaat der Europäischen Gemeinschaft sind auf Unternehmen mit Sitz in der Republik Island oder im Königreich Norwegen nach Maßgabe des § 53b des Gesetzes über das Kreditwesen anzuwenden."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-02-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id48 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id49 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "EWRAbkAV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "EWRAbkAV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "EWRAbkAV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "EWRAbkAV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "EWRAbkAV"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Ausführung des Abkommens vom 2. Mai 1992
+über den Europäischen Wirtschaftsraum für die Anwendung von
+Vorschriften des Gesetzes über das Kreditwesen"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR031900996"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR031900996BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR031900996BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR031900996BJNE000300310"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR031900996BJNE000400310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id48 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id49 a dtd:zitstelle ;
+    dtd:has_Value "1996, 319"@de .
+

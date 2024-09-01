@@ -1,0 +1,423 @@
+@prefix dtd: <urn:BAPauschV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82,
+        dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87,
+        dtd:P-id88,
+        dtd:P-id89 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95,
+        dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id77 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id78 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id80 .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72 ;
+    dtd:has_DT dtd:DT-id71 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id75 ;
+    dtd:has_DT dtd:DT-id74 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Anzahl der im jeweiligen Kalenderjahr durch die Rentenversicherungsträger erstmals oder durch Rentenänderung neu zugegangenen arbeitsmarktbedingten Erwerbsminderungsrenten (AE),"@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Hälfte der durchschnittlichen monatlichen Rente wegen voller Erwerbsminderung einschließlich der darauf entfallenden Beteiligung der Rentenversicherung an den Beiträgen zur Krankenversicherung (RA),"@de .
+
+dtd:LA-id78 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine durchschnittliche Dauer des Anspruchs auf Arbeitslosengeld von 10,4 Monaten."@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "AB = AE x RA x 10,4."@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "AB = AE x RA x 10,4."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 11.10.2002 +++)"@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_BR dtd:BR-id62 ;
+    dtd:has_Value " Überschrift: IdF d. Art. 116 Nr. 1 G v. 23.12.2003 I 2848 mWv 1.1.2004"@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 226 Abs. 4 des Sechsten Buches Sozialgesetzbuch - Gesetzliche Rentenversicherung - in der Fassung der Bekanntmachung vom 19. Februar 2002 (BGBl. I S. 754) verordnet das Bundesministerium für Arbeit und Sozialordnung im Einvernehmen mit dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Value "(1) Für die Berechnung des jährlichen Ausgleichsbetrags (AB) in § 224 Abs. 1 des Sechsten Buches Sozialgesetzbuch sind zugrunde zu legen: 1.die Anzahl der im jeweiligen Kalenderjahr durch die Rentenversicherungsträger erstmals oder durch Rentenänderung neu zugegangenen arbeitsmarktbedingten Erwerbsminderungsrenten (AE),2.die Hälfte der durchschnittlichen monatlichen Rente wegen voller Erwerbsminderung einschließlich der darauf entfallenden Beteiligung der Rentenversicherung an den Beiträgen zur Krankenversicherung (RA),3.eine durchschnittliche Dauer des Anspruchs auf Arbeitslosengeld von 10,4 Monaten."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Value "(2) Der Ausgleichsbetrag wird nach folgender Formel berechnet: AB = AE x RA x 10,4."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "(3) Die Deutsche Rentenversicherung Bund übermittelt die Angaben nach Absatz 1 Nr. 1 und 2 dem Bundesamt für Soziale Sicherung bis zum 30. Juni des auf das Jahr der Abschlagszahlung folgenden Jahres."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_Value "Die Bundesagentur für Arbeit zahlt die Abschlagszahlungen auf den Ausgleichsbetrag an die Träger der Rentenversicherung am Fälligkeitstag der Vorschüsse zur Auszahlung der Rentenleistungen in das Inland für den letzten Monat eines Kalendervierteljahres. Das Bundesamt für Soziale Sicherung teilt der Bundesagentur für Arbeit jährlich im Voraus die vier Auszahlungstermine nach Satz 1 mit."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "Der Ausgleichsbetrag ist fällig zum Fälligkeitstermin der Vorschüsse zur Auszahlung der Rentenleistungen in das Inland für den Monat Dezember des Kalenderjahres, in dem die Abrechnung durchgeführt wird. Ergibt die Berechnung des Ausgleichsbetrags einen Rückzahlungsanspruch der Bundesagentur für Arbeit, wird dieser mit der Abschlagszahlung für das letzte Kalendervierteljahr verrechnet."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "(1) Der auf die knappschaftliche Rentenversicherung entfallende Anteil des Ausgleichsbetrags wird vom Bundesamt für Soziale Sicherung vorab nach § 224 Abs. 4 Satz 2 des Sechsten Buches Sozialgesetzbuch ermittelt. Die Aufteilung des verbleibenden Ausgleichsbetrags auf die Träger der allgemeinen Rentenversicherung erfolgt im Verhältnis ihrer Beitragseinnahmen entsprechend § 219 Abs. 1 des Sechsten Buches Sozialgesetzbuch. Die buchhalterische Aufteilung nach Satz 2 führt die Deutsche Rentenversicherung Bund durch."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(2) Die Aufteilung der Abschlagszahlungen erfolgt entsprechend der Aufteilung des Ausgleichsbetrags."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-09-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id101 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id102 .
+
+dtd:fussnoten-id50 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id81 .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:fussnoten-id59 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "BAPauschV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BAPauschV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BAPauschV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "BAPauschV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BAPauschV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "BAPauschV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "BAPauschV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "BAPauschV"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Pauschalierung und Zahlung des Ausgleichsbetrags der
+Bundesagentur für Arbeit an die Träger der gesetzlichen Rentenversicherung für
+arbeitsmarktbedingte Renten wegen voller Erwerbsminderung"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002BJNE000000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002BJNE000103126"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002BJNE000202126"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002BJNE000402126"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20200527212521"@de ;
+    dtd:has_doknr "BJNR396100002BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id101 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id104 ;
+    dtd:has_standtyp dtd:standtyp-id103 .
+
+dtd:standkommentar-id104 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 57 Abs. 32 G v. 12.12.2019 I 2652"@de .
+
+dtd:standtyp-id103 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id86 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id90 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Berechnung des Ausgleichsbetrags"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Fälligkeit der Abschlagszahlungen auf den Ausgleichsbetrag"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Fälligkeit des Ausgleichsbetrags"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Verteilung des Ausgleichsbetrags und der Abschlagszahlungen auf den Ausgleichsbetrag"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id102 a dtd:zitstelle ;
+    dtd:has_Value "2002, 3961"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

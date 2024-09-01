@@ -1,0 +1,247 @@
+@prefix dtd: <urn:OrdenErl-2022#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220926213016"@de ;
+    dtd:has_doknr "BJNR149400022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:kommentar-id62 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2022, 1495 - 1498)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_BR dtd:BR-id43 ;
+    dtd:has_P dtd:P-id58,
+        dtd:P-id59,
+        dtd:P-id60 .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.9.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id61 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Absatz 1 des Gesetzes über Titel, Orden und Ehrenzeichen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 1132-1, veröffentlichten bereinigten Fassung, das zuletzt durch Artikel 14 der Verordnung vom 19. Juni 2020 (BGBl. I S. 1328) geändert worden ist, ordne ich an:"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Ich genehmige den in der Anlage wiedergegebenen Gemeinsamen Erlass der Bundesministerin des Innern und für Heimat, der Bundesministerin der Verteidigung und des Bundesministers für Digitales und Verkehr über die Stiftung der Einsatzmedaille „Fluthilfe 2021“."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Dieser Erlass tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_SP dtd:SP-id44 ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2022, 1495 - 1498)"@de ;
+    dtd:has_noindex dtd:noindex-id45 .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(Text der Anlage siehe: FluthilfeMedErl 2022)"@de ;
+    dtd:has_noindex dtd:noindex-id46 .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:SP-id44 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-09-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id63 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id64 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 2022"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 2022"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 2022"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 2022"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 2022"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "OrdenErl 2022"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Erlass über die Genehmigung der Stiftung und Verleihung von Orden und Ehrenzeichen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:noindex-id45 a dtd:noindex .
+
+dtd:noindex-id46 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220926213016"@de ;
+    dtd:has_doknr "BJNR149400022"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220926213016"@de ;
+    dtd:has_doknr "BJNR149400022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220926213016"@de ;
+    dtd:has_doknr "BJNR149400022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220926213016"@de ;
+    dtd:has_doknr "BJNR149400022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220926213016"@de ;
+    dtd:has_doknr "BJNR149400022BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220926213016"@de ;
+    dtd:has_doknr "BJNR149400022BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id63 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id61 a dtd:pre ;
+    dtd:has_BR dtd:BR-id41,
+        dtd:BR-id42 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.9.2022 +++)"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 .
+
+dtd:zitstelle-id64 a dtd:zitstelle ;
+    dtd:has_Value "2022, 1494"@de .
+

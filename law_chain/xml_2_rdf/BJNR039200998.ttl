@@ -1,0 +1,542 @@
+@prefix dtd: <urn:KV/PVPauschBeitrV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104,
+        dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118,
+        dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121,
+        dtd:P-id122,
+        dtd:P-id123,
+        dtd:P-id124,
+        dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100,
+        dtd:LA-id99 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101,
+        dtd:LA-id102 .
+
+dtd:DL-id81 a dtd:DL ;
+    dtd:has_DD dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89 ;
+    dtd:has_DT dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84,
+        dtd:DT-id85 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id90 a dtd:DL ;
+    dtd:has_DD dtd:DD-id93,
+        dtd:DD-id94 ;
+    dtd:has_DT dtd:DT-id91,
+        dtd:DT-id92 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ein Zehntel des Produkts aus jährlicher Beitragsbemessungsgrundlage, allgemeinem Beitragssatz und Zahl der Diensttage wird durch 365 (in Schaltjahren 366) geteilt."@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beiträge zur sozialen Pflegeversicherung:"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ein Zehntel des Produkts aus jährlicher Beitragsbemessungsgrundlage, Beitragssatz und Zahl der Diensttage wird durch 365 (in Schaltjahren 366) geteilt."@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des § 244 Abs. 2 und 3 des Fünften Buches Sozialgesetzbuch - Gesetzliche Krankenversicherung - (Artikel 1 des Gesetzes vom 20. Dezember 1988, BGBl. I S. 2477), der zuletzt gemäß Artikel 39 der Verordnung vom 21. September 1997 (BGBl. I S. 2390) geändert worden ist,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des § 59 des Bundesgrenzschutzes vom 18. August 1972 (BGBl. I S. 1834) in Verbindung mit § 244 Abs. 2 und 3 des Fünften Buches Sozialgesetzbuch,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des § 43 Abs. 1 des Zweiten Gesetzes über die Krankenversicherung der Landwirte vom 20. Dezember 1988 (BGBl. I S. 2477, 2557) in Verbindung mit § 244 Abs. 2 und 3 des Fünften Buches Sozialgesetzbuch und"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des § 57 Abs. 1 des Elften Buches Sozialgesetzbuch - Soziale Pflegeversicherung - (Artikel 1 des Gesetzes vom 26. Mai 1994, BGBl. I S. 1014) in Verbindung mit § 244 Abs. 2 und 3 des Fünften Buches Sozialgesetzbuch"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beiträge zur gesetzlichen Krankenversicherung:"@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.1995 +++)"@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_BR dtd:BR-id80 ;
+    dtd:has_Value " Überschrift: IdF d. Art. 1 Nr. 1 V v. 30.6.2009 I 1680 mWv 1.1.2009"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_DL dtd:DL-id81 ;
+    dtd:has_Value "Auf Grund -des § 244 Abs. 2 und 3 des Fünften Buches Sozialgesetzbuch - Gesetzliche Krankenversicherung - (Artikel 1 des Gesetzes vom 20. Dezember 1988, BGBl. I S. 2477), der zuletzt gemäß Artikel 39 der Verordnung vom 21. September 1997 (BGBl. I S. 2390) geändert worden ist, -des § 59 des Bundesgrenzschutzes vom 18. August 1972 (BGBl. I S. 1834) in Verbindung mit § 244 Abs. 2 und 3 des Fünften Buches Sozialgesetzbuch, -des § 43 Abs. 1 des Zweiten Gesetzes über die Krankenversicherung der Landwirte vom 20. Dezember 1988 (BGBl. I S. 2477, 2557) in Verbindung mit § 244 Abs. 2 und 3 des Fünften Buches Sozialgesetzbuch und -des § 57 Abs. 1 des Elften Buches Sozialgesetzbuch - Soziale Pflegeversicherung - (Artikel 1 des Gesetzes vom 26. Mai 1994, BGBl. I S. 1014) in Verbindung mit § 244 Abs. 2 und 3 des Fünften Buches Sozialgesetzbuch verordnet das Bundesministerium für Gesundheit im Einvernehmen mit dem Bundesministerium des Innern, dem Bundesministerium der Finanzen, dem Bundesministerium der Verteidigung, dem Bundesministerium für Familie, Senioren, Frauen und Jugend sowie dem Bundesministerium für Arbeit und Sozialordnung:"@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "Die Beiträge zur gesetzlichen Krankenversicherung und zur sozialen Pflegeversicherung werden für Personen, deren Mitgliedschaft während des Wehrdienstes oder Zivildienstes fortbesteht (Dienstleistende), pauschal berechnet."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_DL dtd:DL-id90 ;
+    dtd:has_Value "Die pauschalen Beiträge werden kalenderjährlich wie folgt berechnet: 1.Beiträge zur gesetzlichen Krankenversicherung:Ein Zehntel des Produkts aus jährlicher Beitragsbemessungsgrundlage, allgemeinem Beitragssatz und Zahl der Diensttage wird durch 365 (in Schaltjahren 366) geteilt.  2.Beiträge zur sozialen Pflegeversicherung:Ein Zehntel des Produkts aus jährlicher Beitragsbemessungsgrundlage, Beitragssatz und Zahl der Diensttage wird durch 365 (in Schaltjahren 366) geteilt.  "@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(1) Als beitragspflichtige Einnahmen gilt ein Betrag in Höhe von 80 vom Hundert der für das Kalenderjahr der Dienstleistung geltenden Bezugsgröße nach § 18 Absatz 1 des Vierten Buches Sozialgesetzbuch (Beitragsbemessungsgrundlage)."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(2) Der für die gesetzliche Krankenversicherung anzuwendende allgemeine Beitragssatz ergibt sich auf Grund § 241 des Fünften Buches Sozialgesetzbuch. Der für die soziale Pflegeversicherung anzuwendende Beitragssatz ergibt sich aus § 55 Abs. 1 Satz 1 des Elften Buches Sozialgesetzbuch."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(3) Diensttage im Sinne dieser Verordnung sind die Tage, für die Beiträge zu entrichten sind. Die Zahl der Diensttage ist die Gesamtzahl der Tage, an denen im Kalenderjahr Dienst geleistet wurde. Unberücksichtigt bleiben in der Zahl der Diensttage die Diensttage der Personen, die in § 193 Abs. 1 des Fünften Buches Sozialgesetzbuch bezeichnet sind oder zuletzt vor dem Diensteintritt nicht bei einer Krankenkasse (§ 4 des Fünften Buches Sozialgesetzbuch) versichert oder nach § 10 des Fünften Buches Sozialgesetzbuch familienversichert waren. Die Feststellung der Anzahl der nicht zu berücksichtigenden Diensttage nimmt für die Anzahl der Wehrdiensttage das Bundesamt für Wehrverwaltung und für die Anzahl der Zivildiensttage das Bundesamt für den Zivildienst vor. Das Bundesamt für Wehrverwaltung und das Bundesamt für den Zivildienst bestimmen im Einvernehmen mit dem Spitzenverband Bund der Krankenkassen das Verfahren zur Feststellung der nicht zu berücksichtigenden Diensttage."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für Wehrverwaltung und das Bundesamt für den Zivildienst führen die Abrechnung der pauschalen Beiträge nach § 2 Nr. 1 und 2 bis zum 31. Mai des auf das Abrechnungsjahr folgenden Kalenderjahres durch."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Der Spitzenverband Bund der Krankenkassen teilt dem Bundesamt für Wehrverwaltung und dem Bundesamt für den Zivildienst bis zum 30. April jedes Jahres für das vorangegangene Kalenderjahr die Mitgliederzahl der von den gesetzlichen Krankenkassen gemeldeten Wehr- und Zivildienstleistenden im Jahresdurchschnitt mit."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(3) Aus dem errechneten Gesamtbetrag der Beiträge nach Absatz 2 werden die Anteile an den Beiträgen getrennt nach Krankenversicherungs- und Pflegeversicherungsbeiträgen ermittelt."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(1) Die Beiträge zur gesetzlichen Krankenversicherung und zur sozialen Pflegeversicherung werden vom Bundesamt für Wehrverwaltung und vom Bundesamt für den Zivildienst jährlich nachträglich gezahlt."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(2) Die Beiträge zur gesetzlichen Krankenversicherung werden an den Gesundheitsfonds, die Beiträge zur landwirtschaftlichen Krankenversicherung an die Sozialversicherung für Landwirtschaft, Forsten und Gartenbau gezahlt. Die Beiträge zur sozialen Pflegeversicherung nach § 2 Nr. 2 sind jeweils in einer Summe ebenfalls an den Gesundheitsfonds zu zahlen, dabei sind diese Beiträge betragsmäßig als solche auszuweisen."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(3) Auf die Beiträge zur gesetzlichen Krankenversicherung und zur sozialen Pflegeversicherung haben die Zahlungspflichtigen bis zum zehnten Tag jedes Kalendervierteljahres Vorschüsse in Höhe von 25 vom Hundert des zuletzt ermittelten pauschalen Jahresbeitrags zu zahlen. Wenn zu erwarten ist, daß sich die pauschalen Jahresbeiträge für das laufende Kalenderjahr um mehr als 5 vom Hundert gegenüber den zuletzt ermittelten pauschalen Jahresbeiträgen ändern werden, verändern die Zahlungspflichtigen den in Satz 1 genannten Vomhundertsatz entsprechend."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(4) Bis zum 10. Juli jedes Jahres zahlen die Zahlungspflichtigen die Restbeträge, um welche die Vorschüsse niedriger als die Beiträge gewesen sind, oder fordern die Beträge, um welche die Vorschüsse höher als die Beiträge gewesen sind (Ausgleichsbeträge), zurück. Die Zahlungspflichtigen können die Ausgleichsbeträge auch mit den folgenden Vorschußzahlungen verrechnen. Ausgleichsbeträge für das Jahr 2008 sind an den Spitzenverband Bund der Krankenkassen zu zahlen oder von diesem zurückzufordern."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(5) Nachträglich festgestellte Änderungen bezüglich der Anzahl der Diensttage werden mit den Berechnungsgrößen des dazugehörigen Abrechnungsjahres bei der nächsten Abrechnung berücksichtigt."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "Für den Zeitraum vom 1. Juli 2005 bis zum 31. Dezember 2008 ist für die Ermittlung der Berechnungsgrundlagen auch § 241a des Fünften Buches Sozialgesetzbuch in der bis zum 31. Dezember 2008 geltenden Fassung zu berücksichtigen."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "Für die Abrechnungszeiträume bis einschließlich 2008 ist, vorbehaltlich des § 6, diese Verordnung in der bis zum 31. Dezember 2008 geltenden Fassung weiter anzuwenden."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id33 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-03-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id34 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id132 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id133 .
+
+dtd:fussnoten-id63 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id103 .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:fussnoten-id72 a dtd:fussnoten .
+
+dtd:fussnoten-id74 a dtd:fussnoten .
+
+dtd:fussnoten-id76 a dtd:fussnoten .
+
+dtd:fussnoten-id78 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "KV/PVPauschBeitrV"@de .
+
+dtd:kurzue-id35 a dtd:kurzue ;
+    dtd:has_Value "KV-/PV-Pauschalbeitragsverordnung"@de .
+
+dtd:langue-id36 a dtd:langue ;
+    dtd:has_Value "Verordnung über die pauschale Berechnung und die Zahlung der Beiträge zur gesetzlichen Krankenversicherung und zur sozialen Pflegeversicherung für die Dauer einer fortbestehenden Mitgliedschaft bei Wehrdienst oder Zivildienst"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id33 ;
+    dtd:has_fundstelle dtd:fundstelle-id34 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id35 ;
+    dtd:has_langue dtd:langue-id36 ;
+    dtd:has_standangabe dtd:standangabe-id37 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE001000308"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE000900305"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE000201308"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE000405308"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE000504308"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE000605308"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405130425"@de ;
+    dtd:has_doknr "BJNR039200998BJNE000802308"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id132 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id37 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id135 ;
+    dtd:has_standtyp dtd:standtyp-id134 .
+
+dtd:standkommentar-id135 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 13 Abs. 20 G v. 12.4.2012 I 579"@de .
+
+dtd:standtyp-id134 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Allgemeines"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Beitragsberechnung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Berechnungsgrundlagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Abrechnungsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Zahlung der Beiträge"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Berücksichtigung des zusätzlichen Beitragssatzes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Abrechnungszeiträume bis 2008"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id133 a dtd:zitstelle ;
+    dtd:has_Value "1998, 392"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

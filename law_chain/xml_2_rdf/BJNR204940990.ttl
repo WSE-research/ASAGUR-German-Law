@@ -1,0 +1,195 @@
+@prefix dtd: <urn:SeeSchSiÜbkG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160815215532"@de ;
+    dtd:has_doknr "BJNR204940990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43,
+        dtd:P-id44 .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value " (+++ Textnachweis ab: 22. 6.1990 +++)"@de ;
+    dtd:has_pre dtd:pre-id45 .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "Dem Beitritt der Bundesrepublik Deutschland zu dem Übereinkommen von Rom vom 10. März 1988 zur Bekämpfung widerrechtlicher Handlungen gegen die Sicherheit der Seeschiffahrt sowie zu dem Protokoll vom 10. März 1988 zur Bekämpfung widerrechtlicher Handlungen gegen die Sicherheit fester Plattformen, die sich auf dem Festlandsockel befinden, wird zugestimmt. Das Übereinkommen sowie das Protokoll werden nachstehend mit einer amtlichen deutschen Übersetzung veröffentlicht."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tag nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Übereinkommen nach seinem Artikel 18 und das Protokoll nach seinem Artikel 6 für die Bundesrepublik Deutschland in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-06-13"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id46 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id47 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id36 .
+
+dtd:fussnoten-id29 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "SeeSchSiÜbkG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "SeeSchSiÜbkG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "SeeSchSiÜbkG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "SeeSchSiÜbkG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Übereinkommen vom 10. März 1988 zur Bekämpfung
+widerrechtlicher Handlungen gegen die Sicherheit der Seeschiffahrt und zum
+Protokoll vom 10. März 1988 zur Bekämpfung widerrechtlicher Handlungen gegen
+die Sicherheit fester Plattformen, die sich auf dem Festlandsockel befinden"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160815215532"@de ;
+    dtd:has_doknr "BJNR204940990"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160815215532"@de ;
+    dtd:has_doknr "BJNR204940990BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160815215532"@de ;
+    dtd:has_doknr "BJNR204940990BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160815215532"@de ;
+    dtd:has_doknr "BJNR204940990BJNE000400308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id46 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id45 a dtd:pre ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33 ;
+    dtd:has_Value "(+++ Textnachweis ab: 22. 6.1990 +++)"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id49 ;
+    dtd:has_standtyp dtd:standtyp-id48 .
+
+dtd:standkommentar-id49 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 3 G v. 25.11.2015 I 2095"@de .
+
+dtd:standtyp-id48 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:zitstelle-id47 a dtd:zitstelle ;
+    dtd:has_Value "1990, 494"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

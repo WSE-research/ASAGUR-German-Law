@@ -1,0 +1,158 @@
+@prefix dtd: <urn:EuGHG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152321"@de ;
+    dtd:has_doknr "BJNR203500998"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31,
+        dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34,
+        dtd:P-id35 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 5.1999 +++)"@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "(1) Jedes Gericht kann dem Gerichtshof der Europäischen Gemeinschaften auf dem Gebiet der polizeilichen Zusammenarbeit und der justitiellen Zusammenarbeit in Strafsachen unter den in Artikel 35 des EU-Vertrages festgelegten Bedingungen eine Frage zur Vorabentscheidung vorlegen, die sich in einem schwebenden Verfahren stellt und sich auf die Gültigkeit und die Auslegung der Rahmenbeschlüsse und Beschlüsse, oder auf die Auslegung von Übereinkommen oder auf die Gültigkeit und die Auslegung der dazugehörigen Durchführungsmaßnahmen bezieht, wenn es eine Entscheidung darüber zum Erlaß seines Urteils oder Beschlusses für erforderlich hält."@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(2) Ein Gericht, dessen Entscheidungen selbst nicht mehr mit Rechtsmitteln des innerstaatlichen Rechts angefochten werden können, hat dem Gerichtshof zur Vorabentscheidung Fragen nach Absatz 1 vorzulegen, wenn es eine Entscheidung darüber zum Erlaß seines Urteils oder Beschlusses für erforderlich hält."@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt an dem Tage in Kraft, an dem der Vertrag von Amsterdam zur Änderung des Vertrages über die Europäische Union, der Verträge zur Gründung der Europäischen Gemeinschaften sowie einiger damit zusammenhängender Rechtsakte vom 2. Oktober 1997 in Kraft tritt."@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium der Justiz gibt den Tag, an dem dieses Gesetz in Kraft tritt, im Bundesgesetzblatt bekannt."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "EuGHG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-08-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id36 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id37 .
+
+dtd:fussnoten-id23 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id28 .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "EuGHG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "EuGHG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "EuGHG"@de .
+
+dtd:kurzue-id15 a dtd:kurzue ;
+    dtd:has_Value "EuGH-Gesetz"@de .
+
+dtd:langue-id16 a dtd:langue ;
+    dtd:has_Value "Gesetz betreffend die Anrufung des Gerichtshofes der Europäischen Gemeinschaften im Wege des Vorabentscheidungsverfahrens auf dem Gebiet der polizeilichen Zusammenarbeit und der justitiellen Zusammenarbeit in Strafsachen nach Artikel 35 des EU-Vertrages"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id15 ;
+    dtd:has_langue dtd:langue-id16 ;
+    dtd:has_standangabe dtd:standangabe-id17 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152321"@de ;
+    dtd:has_doknr "BJNR203500998"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625152321"@de ;
+    dtd:has_doknr "BJNR203500998BJNE000100311"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625152321"@de ;
+    dtd:has_doknr "BJNR203500998BJNE000200311"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id36 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id17 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id39 ;
+    dtd:has_standtyp dtd:standtyp-id38 .
+
+dtd:standkommentar-id39 a dtd:standkommentar ;
+    dtd:has_Value "Dieses G ist gem. § 2 iVm Bek. v. 19.4.1999 I 728 am 1.5.1999 in Kraft getreten."@de .
+
+dtd:standtyp-id38 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id26 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id23 ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:zitstelle-id37 a dtd:zitstelle ;
+    dtd:has_Value "1998, 2035"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

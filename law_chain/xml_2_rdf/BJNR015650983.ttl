@@ -1,0 +1,219 @@
+@prefix dtd: <urn:PersEinspG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125747"@de ;
+    dtd:has_doknr "BJNR015650983"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38,
+        dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41,
+        dtd:P-id42,
+        dtd:P-id43,
+        dtd:P-id44,
+        dtd:P-id45,
+        dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id34 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id35 .
+
+dtd:DD-id33 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id36 .
+
+dtd:DL-id27 a dtd:DL ;
+    dtd:has_DD dtd:DD-id31,
+        dtd:DD-id32,
+        dtd:DD-id33 ;
+    dtd:has_DT dtd:DT-id28,
+        dtd:DT-id29,
+        dtd:DT-id30 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id29 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id30 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id34 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anstellungen von Beamten auf Probe im Eingangsamt sowie für Auszubildende, die in derselben Verwaltung in ein Arbeitsverhältnis übernommen werden,"@de .
+
+dtd:LA-id35 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Einstellungen von Schwerbehinderten,"@de .
+
+dtd:LA-id36 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Behörden- (Dienststellen-) Leiter."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.1984 +++)"@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id26 ;
+    dtd:has_Value " Überschrift: Gem. Art. 38 d. Haushaltsbegleitgesetzes 1984 gilt dieses Gesetz nach Maßgabe d. § 13 Abs. 1 d. Dritten Überleitungsgesetzes auch im Land Berlin. Das Gesetz wurde als Artikel 31 G 63-19 v. 22.12.1983 I 1532 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 39 Abs. 1 dieses G am 1.1.1984 in Kraft getreten."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(1) Bei der Bundesagentur für Arbeit, der Bundesversicherungsanstalt für Angestellte, der Bundesknappschaft, der Landesversicherungsanstalt Oldenburg-Bremen, den übrigen bundesunmittelbaren Sozialversicherungsträgern (§ 90 Abs. 1 des Vierten Buches Sozialgesetzbuch) sowie der Bundesanstalt für Güterfernverkehr dürfen Planstellen für Beamte, die durch Beendigung des Beamtenverhältnisses zum bisherigen Dienstherrn am 1. Januar 1984 frei sind oder danach frei werden, sechs Monate nach Freiwerden nicht besetzt werden (Stellenbesetzungssperre)."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt entsprechend für Stellen von Angestellten sowie für Arbeiter."@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_DL dtd:DL-id27 ;
+    dtd:has_Value "(3) Die Besetzungssperre gilt nicht für 1.Anstellungen von Beamten auf Probe im Eingangsamt sowie für Auszubildende, die in derselben Verwaltung in ein Arbeitsverhältnis übernommen werden, 2.Einstellungen von Schwerbehinderten, 3.Behörden- (Dienststellen-) Leiter.  "@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(4) Die Dienstherrn können Ausnahmen von der Stellenbesetzungssperre zulassen. Die Zahl der Ausnahmen darf 10 vom Hundert der im Haushaltsjahr bei dem jeweiligen Dienstherrn freiwerdenden Stellen nicht übersteigen."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(5) Die Absätze 1, 3 und 4 gelten entsprechend für die Deutsche Bundespost und die Deutsche Bundesbahn."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(6) Die Stellenbesetzungssperre gilt nur für den Zeitraum, in dem für die Bundesverwaltung auf Grund des Haushaltsgesetzes eine Stellenbesetzungssperre besteht."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Bei den in § 1 genannten Einrichtungen dürfen die bisher gewährten Essenszuschüsse oder entsprechende Leistungen unabhängig von ihrer bisherigen Höhe ab 1. Januar 1984 nicht mehr gewährt werden. Essenszuschüsse sind Leistungen nach Nummer 10 der Richtlinien für Kantinen bei Dienststellen des Bundes vom 25. September 1974 in der bis zum 31. Dezember 1983 geltenden Fassung oder nach gleichartigen Regelungen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1983-12-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id17 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id22 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id37 .
+
+dtd:fussnoten-id24 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "PersEinspG"@de .
+
+dtd:jurabk-id16 a dtd:jurabk ;
+    dtd:has_Value "PersEinspG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "PersEinspG"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Einsparung von Personalausgaben in der mittelbaren Bundesverwaltung sowie bei der Deutschen Bundesbahn und der Deutschen Bundespost"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 ;
+    dtd:has_standangabe dtd:standangabe-id15 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id17 ;
+    dtd:has_jurabk dtd:jurabk-id16 ;
+    dtd:has_titel dtd:titel-id18 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 ;
+    dtd:has_titel dtd:titel-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125747"@de ;
+    dtd:has_doknr "BJNR015650983"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125747"@de ;
+    dtd:has_doknr "BJNR015650983BJNE000101301"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125747"@de ;
+    dtd:has_doknr "BJNR015650983BJNE000200317"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id15 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id52 ;
+    dtd:has_standtyp dtd:standtyp-id51 .
+
+dtd:standkommentar-id52 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 64 G v. 23.12.2003 I 2848"@de .
+
+dtd:standtyp-id51 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id22 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:titel-id18 a dtd:titel ;
+    dtd:has_Value "Stellenbesetzungssperre"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id21 a dtd:titel ;
+    dtd:has_Value "Wegfall des Essenszuschusses"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "1983, 1532, 1565"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

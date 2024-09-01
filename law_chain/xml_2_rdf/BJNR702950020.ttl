@@ -1,0 +1,103 @@
+@prefix dtd: <urn:BinSchStrO2012AbwV-4#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230922213002"@de ;
+    dtd:has_doknr "BJNR702950020"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:BR-id13 a dtd:BR .
+
+dtd:BR-id14 a dtd:BR .
+
+dtd:BR-id15 a dtd:BR .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21 .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_BR dtd:BR-id12 ;
+    dtd:has_Value " (+++ Zur Anwendung dieser V vgl. § 4a +++) V nur mit Überschrift aufgenommen  V geändert durch Art. 2 Abs. 8 V v. 26.11.2021 I 4982 u. durch Art. 1 V v. 28.4.2023 I Nr. 118"@de ;
+    dtd:has_pre dtd:pre-id22 .
+
+dtd:amtabk-id6 a dtd:amtabk ;
+    dtd:has_Value "4. BinSchStrOAbweichV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id7 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-04-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id8 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id23 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id24 .
+
+dtd:fussnoten-id11 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id20 .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "BinSchStrO2012AbwV 4"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value "Vierte Verordnung zur vorübergehenden Abweichung von der Binnenschifffahrtsstraßen-Ordnung"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id6 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id7 ;
+    dtd:has_fundstelle dtd:fundstelle-id8 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id9 ;
+    dtd:has_standangabe dtd:standangabe-id10 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230922213002"@de ;
+    dtd:has_doknr "BJNR702950020"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id23 a dtd:periodikum ;
+    dtd:has_Value "VkBl"@de .
+
+dtd:pre-id22 a dtd:pre ;
+    dtd:has_BR dtd:BR-id13,
+        dtd:BR-id14,
+        dtd:BR-id15,
+        dtd:BR-id16,
+        dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_Value "(+++ Zur Anwendung dieser V vgl. § 4a +++) V nur mit Überschrift aufgenommen  V geändert durch Art. 2 Abs. 8 V v. 26.11.2021 I 4982 u. durch Art. 1 V v. 28.4.2023 I Nr. 118"@de .
+
+dtd:standangabe-id10 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id26 ;
+    dtd:has_standtyp dtd:standtyp-id25 .
+
+dtd:standkommentar-id26 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 5 idF d. Art. 1 Nr. 1 V v. 28.4.2023 I Nr. 118 mit Ablauf des 4.5.2026 außer Kraft"@de .
+
+dtd:standtyp-id25 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id11 .
+
+dtd:zitstelle-id24 a dtd:zitstelle ;
+    dtd:has_Value "2020, 295"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,253 @@
+@prefix dtd: <urn:StrbEG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131104"@de ;
+    dtd:has_doknr "BJNR110930988"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52,
+        dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DL-id35 a dtd:DL ;
+    dtd:has_DD dtd:DD-id39,
+        dtd:DD-id40,
+        dtd:DD-id41 ;
+    dtd:has_DT dtd:DT-id36,
+        dtd:DT-id37,
+        dtd:DT-id38 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor der strafbefreienden Erklärung ein Amtsträger der Finanzbehörde zur Prüfung der Einkommen- oder Vermögensteuer oder zur Ermittlung einer Steuerstraftat oder Steuerordnungswidrigkeit erschienen ist; dies gilt bis zum Abschluß der Prüfung oder der Ermittlungen; oder"@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor der strafbefreienden Erklärung dem Täter oder seinem Vertreter die Einleitung eines Straf- oder Bußgeldverfahrens wegen Hinterziehung oder leichtfertiger Verkürzung von Einkommen- oder Vermögensteuer bekannt gegeben worden ist oder"@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Tat im Zeitpunkt der strafbefreienden Erklärung ganz oder zum Teil bereits entdeckt war und der Täter dies wußte oder bei verständiger Würdigung der Sachlage damit rechnen mußte."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab:  3. 8.1988 +++)Überschrift: Das G wurde als Artikel 17 G 611-1-20-1 v. 25.7.1988 I 1093 (StRG 1990) vom Bundestag mit Zustimmung des Bundesrates beschlossen und ist gem. Art. 29 Abs. 1 dieses G am 3.8.1988 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id59 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(1) Wer bis 31. Dezember 1990 bei der Finanzbehörde für die Besteuerung der Einkünfte aus Kapitalvermögen erhebliche Angaben in der Steuererklärung für 1986 und 1987 richtig und vollständig macht oder für die Veranlagungszeiträume ab 1986 nachholt, berichtigt oder ergänzt (strafbefreiende Erklärung), wird auch für weiter zurückliegende Zeiträume straffrei, soweit auf Einkünfte aus Kapitalvermögen entfallende Steuern hinterzogen worden sind. Die Wirkungen der strafbefreienden Erklärung treten auch dann ein, wenn nach dem 13. Oktober 1987 bis zum Inkrafttreten dieses Gesetzes in für Veranlagungszeiträume ab 1986 abgegebenen Steuererklärungen, Berichtigungserklärungen (§ 153 AO), Selbstanzeigen (§§ 371, 378 Abs. 3 AO) oder sonstigen Erklärungen Angaben enthalten sind, die den Anforderungen des Satzes 1 genügen. Die Sätze 1 und 2 gelten entsprechend für die Angaben zur Besteuerung des Kapitalvermögens, aus dem die Einkünfte geflossen sind. Straffrei werden auch die mit dem Erklärenden zusammen veranlagten Personen und im Fall der strafbefreienden Erklärung eines inzwischen volljährigen Kindes die bisherigen gesetzlichen Vertreter."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(2) Sind Steuerverkürzungen bereits eingetreten, so treten die Wirkungen des Absatzes 1 nur ein, wenn die für Veranlagungszeiträume ab 1986 hinterzogene Einkommen- oder Vermögensteuer innerhalb einer von der Finanzbehörde dem Erklärenden bestimmten angemessenen Frist entrichtet wird."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_DL dtd:DL-id35 ;
+    dtd:has_Value "(3) Eine strafbefreiende Erklärung im Sinne des Absatzes 1 ist auch für zurückliegende Zeiträume ausgeschlossen, wenn 1.vor der strafbefreienden Erklärung ein Amtsträger der Finanzbehörde zur Prüfung der Einkommen- oder Vermögensteuer oder zur Ermittlung einer Steuerstraftat oder Steuerordnungswidrigkeit erschienen ist; dies gilt bis zum Abschluß der Prüfung oder der Ermittlungen; oder 2.vor der strafbefreienden Erklärung dem Täter oder seinem Vertreter die Einleitung eines Straf- oder Bußgeldverfahrens wegen Hinterziehung oder leichtfertiger Verkürzung von Einkommen- oder Vermögensteuer bekannt gegeben worden ist oder 3.die Tat im Zeitpunkt der strafbefreienden Erklärung ganz oder zum Teil bereits entdeckt war und der Täter dies wußte oder bei verständiger Würdigung der Sachlage damit rechnen mußte.  "@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(4) Bei einer leichtfertigen Steuerverkürzung (§ 378 der Abgabenordnung) durch unvollständige oder unrichtige Angabe der Einkünfte aus Kapitalvermögen oder des Kapitalvermögens, aus dem die Einkünfte geflossen sind, gelten die Absätze 1 bis 3 entsprechend."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(1) Im Fall einer strafbefreienden Erklärung nach § 1 Abs. 1 werden die auf die Einkünfte aus Kapitalvermögen und auf das Kapitalvermögen entfallenden Steuern für Veranlagungszeiträume vor 1986 nicht festgesetzt, wenn insoweit nach § 1 Straffreiheit eintritt oder eine Geldbuße nicht festgesetzt wird. Satz 1 ist sinngemäß anzuwenden, soweit die auf die Einkünfte aus Kapitalvermögen entfallende Einkommensteuer oder auf das Kapitalvermögen entfallende Vermögensteuer weder vorsätzlich noch leichtfertig verkürzt worden ist. Sätze 1 und 2 gelten nicht für Steuerschulden, die nach § 45 der Abgabenordnung auf den Erklärenden übergegangen sind."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2) Werden in Steuererklärungen für Veranlagungszeiträume ab 1987 Einkünfte aus Kapitalvermögen oder wird in ihnen Kapitalvermögen im Sinne des § 1 Abs. 1 angegeben, ohne daß solche Einkünfte oder solches Kapitalvermögen zugleich für vorangegangene Veranlagungszeiträume ab 1986 nach § 1 Abs. 1 strafbefreiend erklärt werden, und bestehen Anhaltspunkte dafür, daß solche Einkünfte oder solches Vermögen in Steuererklärungen für solche Veranlagungszeiträume unrichtig oder unvollständig angegeben worden sind, hat die Finanzbehörde für die strafbefreiende Erklärung nach § 1 Abs. 1 eine angemessene Frist zu setzen."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 12 Abs. 1 und des § 13 Abs. 1 des Dritten Überleitungsgesetzes auch im Land Berlin."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1988-07-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "StrbEG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "StrbEG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "StrbEG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "StrbEG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Gesetz über die strafbefreiende Erklärung von Einkünften aus
+Kapitalvermögen und von Kapitalvermögen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131104"@de ;
+    dtd:has_doknr "BJNR110930988"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131104"@de ;
+    dtd:has_doknr "BJNR110930988BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405131104"@de ;
+    dtd:has_doknr "BJNR110930988BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405131104"@de ;
+    dtd:has_doknr "BJNR110930988BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id59 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "(+++ Textnachweis ab:  3. 8.1988 +++)"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Strafbefreiende Erklärung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Absehen von Steuerfestsetzung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "1988, 1093, 1128"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,198 @@
+@prefix dtd: <urn:StiftKStBegV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120803043402"@de ;
+    dtd:has_doknr "BJNR001010926"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 108 Abs. 2 der Reichsabgabenordnung wird mit Zustimmung des Reichsrats folgendes bestimmt:"@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "Ist eine Vermögensmasse, die zu einem standesherrlichen Hausvermögen, einem Familienfideikommiß, einem Lehen oder einem Erbstammgut gehört hat, ganz oder zum Teil nach den für die Auflösung geltenden Vorschriften in eine Stiftung umgewandelt worden, so bleiben bei der Veranlagung einer solchen Stiftung zur Körperschaftsteuer die Einkünfte außer Ansatz, die an die nach der Stiftungssatzung bezugsberechtigten, unbeschränkt einkommensteuerpflichtigen Familienmitglieder verteilt werden."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt erstmalig für den ersten Steuerabschnitt, für den nach dem Körperschaftsteuergesetz vom 10. August 1925 (Reichsgesetzbl. I S. 208) eine Stiftung der in § 1 bezeichneten Art zur Körperschaftsteuer zu veranlagen ist."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_SP dtd:SP-id36 ;
+    dtd:has_Value "Der Reichsminister der Finanzen"@de .
+
+dtd:SP-id36 a dtd:SP ;
+    dtd:has_Value "Der Reichsminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1926-02-13"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id39 .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "StiftKStBegV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "StiftKStBegV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "StiftKStBegV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "StiftKStBegV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "StiftKStBegV"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Steuerbegünstigung von Stiftungen, die an die Stelle
+von Familienfideikommissen getreten sind"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120803043402"@de ;
+    dtd:has_doknr "BJNR001010926"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120803043402"@de ;
+    dtd:has_doknr "BJNR001010926BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120803043402"@de ;
+    dtd:has_doknr "BJNR001010926BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120803043402"@de ;
+    dtd:has_doknr "BJNR001010926BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120803043402"@de ;
+    dtd:has_doknr "BJNR001010926BJNE000400304"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "RGBl I"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "1926, 101"@de .
+

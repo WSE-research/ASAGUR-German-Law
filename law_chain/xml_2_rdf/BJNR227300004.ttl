@@ -1,0 +1,707 @@
+@prefix dtd: <urn:EHKostV-2007#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:ABWFORMAT-id140 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132246"@de ;
+    dtd:has_doknr "BJNR227300004"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:kommentar-id139 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id62 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2004, 2274 - 2275;bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128,
+        dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DL-id114 a dtd:DL ;
+    dtd:has_DD dtd:DD-id117,
+        dtd:DD-id118 ;
+    dtd:has_DT dtd:DT-id115,
+        dtd:DT-id116 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gemäß § 10 des Verwaltungskostengesetzes und"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "abweichend von § 10 Abs. 1 Nr. 5 des Verwaltungskostengesetzes für Vergütungen von Sachverständigen im Rahmen von Überprüfungen nach § 17 Satz 2 des Zuteilungsgesetzes 2007."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_BR dtd:BR-id58 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 9.2004 +++)"@de ;
+    dtd:has_pre dtd:pre-id138 .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 22 Satz 3 des Treibhausgas-Emissionshandelsgesetzes vom 8. Juli 2004 (BGBl. I S. 1578) und des § 23 des Zuteilungsgesetzes 2007 vom 26. August 2004 (BGBl. I S. 2211) in Verbindung mit dem 2. Abschnitt des Verwaltungskostengesetzes vom 23. Juni 1970 (BGBl. I S. 821) verordnet das Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit:"@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(1) Die nach § 20 Abs. 1 Satz 2 des Treibhausgas-Emissionshandelsgesetzes vom 8. Juli 2004 (BGBl. I S. 1578), das zuletzt durch Artikel 9 des Gesetzes vom 11. August 2010 (BGBl. I S. 1163) geändert worden ist, zuständige Behörde erhebt für Amtshandlungen nach dem Treibhausgas-Emissionshandelsgesetz und nach dem Zuteilungsgesetz 2007 Gebühren nach dem Gebührenverzeichnis in der Anlage zu dieser Verordnung."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_DL dtd:DL-id114 ;
+    dtd:has_Value "(2) Auslagen werden erhoben 1.gemäß § 10 des Verwaltungskostengesetzes und2.abweichend von § 10 Abs. 1 Nr. 5 des Verwaltungskostengesetzes für Vergütungen von Sachverständigen im Rahmen von Überprüfungen nach § 17 Satz 2 des Zuteilungsgesetzes 2007."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "Die nach § 20 Abs. 1 Satz 2 des Treibhausgas-Emissionshandelsgesetzes vom 8. Juli 2004 (BGBl. I S. 1578), das zuletzt durch Artikel 9 des Gesetzes vom 11. August 2010 (BGBl. I S. 1163) geändert worden ist, zuständige Behörde kann bei Zuteilungen von weniger als 30 000 Berechtigungen für eine Anlage die Gebühr nach Nummer 1 des Gebührenverzeichnisses aus Gründen der Billigkeit ermäßigen oder von der Erhebung der Gebühr absehen."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "Im Falle des Widerspruchs gegen eine Zuteilungsentscheidung oder gegen deren Kostenentscheidung wird eine Gebühr nach Nummer 4 des Gebührenverzeichnisses erhoben, soweit der Widerspruch zurückgewiesen oder nach Beginn der sachlichen Bearbeitung zurückgenommen wird."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_BR dtd:BR-id63 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2004, 2274 - 2275;bzgl. der einzelnen Änderungen vgl. Fußnote)Lfd. Nr.Gebührenpflichtige AmtshandlungGebühr1Allgemeine Emissionshandelsgebühr für die Zuteilung von Berechtigungen, die alle anschließenden Maßnahmen nach dem Treibhausgas-Emissionshandelsgesetz abdeckt, soweit sie nicht gesondert in diesem Verzeichnis aufgeführt sind1.1für Anlagen, deren Zuteilungsmenge 150 000 Berechtigungen nicht übersteigt3 200 Euro zuzüglich 0,035 Euro pro Berechtigung für die ersten 150 000 zugeteilten Berechtigungen1.2für Anlagen, deren Zuteilungsmenge 150 000, jedoch nicht 1,5 Millionen Berechtigungen übersteigt6 400 Euro zuzüglich 0,035 Euro pro Berechtigung für die ersten 150 000 zugeteilten Berechtigungen, 0,03 Euro pro Berechtigung für die weiteren, über die ersten 150 000 hinausgehenden 1,35 Millionen Berechtigungen1.3für Anlagen, deren Zuteilungsmenge 1,5 Millionen Berechtigungen übersteigt9 600 Euro zuzüglich 0,035 Euro pro Berechtigung für die ersten 150 000 zugeteilten Berechtigungen, 0,03 Euro pro Berechtigung für die weiteren, über die ersten 150 000 hinausgehenden 1,35 Millionen Berechtigungen, 0,025 Euro pro Berechtigung für die weiteren, über die ersten 1,5 Millionen hinausgehenden 13,5 Millionen Berechtigungen, 0,015 Euro pro Berechtigung für die weiteren, über die ersten 15 Millionen hinausgehenden Berechtigungen1.4für Zuteilungen nach § 15 ZuG, unabhängig von der Zuteilungsmenge nach Nr. 1.1 bis 1.30,035 Euro pro Berechtigung2Behebung von Formfehlern bei Zuteilungsanträgen, die nicht den Formerfordernissen nach § 10 Abs. 2 TEHG vom 8. Juli 2004 (BGBl. I S. 1578), das zuletzt durch Artikel 9 des Gesetzes vom 11. August 2010 (BGBl. I S. 1163) geändert worden ist, entsprechen50 Euro bis 400 Euro3Kontoeinrichtung nach § 14 Abs. 2 Satz 1 und 3 TEHG vom 8. Juli 2004 (BGBl. I S. 1578), das zuletzt durch Artikel 9 des Gesetzes vom 11. August 2010 (BGBl. I S. 1163) geändert worden ist200 Euro pro Zuteilungsperiode4Widerspruchsgebühr4.1Teilweise oder vollständige Zurückweisung eines Widerspruchs gegen die Zuteilungsentscheidung, soweit der Widerspruch nicht nur deshalb keinen Erfolg hatte, weil die Verletzung einer Verfahrens- oder Formvorschrift unbeachtlich ist50 Euro bis 4 000 Euro4.2Rücknahme eines Widerspruchs nach Beginn der sachlichen Bearbeitung, jedoch vor deren Beendigungbis zu 75 Prozent der Gebühr nach 4.1"@de ;
+    dtd:has_noindex dtd:noindex-id64 ;
+    dtd:has_table dtd:table-id65 .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "EHKostV 2007"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-08-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id67 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id68 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:colspec-id69 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Anhang"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Behebung von Formfehlern bei Zuteilungsanträgen, die nicht den Formerfordernissen nach § 10 Abs. 2 TEHG vom 8. Juli 2004 (BGBl. I S. 1578), das zuletzt durch Artikel 9 des Gesetzes vom 11. August 2010 (BGBl. I S. 1163) geändert worden ist, entsprechen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "50 Euro bis 400 Euro"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kontoeinrichtung nach § 14 Abs. 2 Satz 1 und 3 TEHG vom 8. Juli 2004 (BGBl. I S. 1578), das zuletzt durch Artikel 9 des Gesetzes vom 11. August 2010 (BGBl. I S. 1163) geändert worden ist"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "200 Euro pro Zuteilungsperiode"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Widerspruchsgebühr"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4.1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Teilweise oder vollständige Zurückweisung eines Widerspruchs gegen die Zuteilungsentscheidung, soweit der Widerspruch nicht nur deshalb keinen Erfolg hatte, weil die Verletzung einer Verfahrens- oder Formvorschrift unbeachtlich ist"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "50 Euro bis 4 000 Euro"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4.2"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rücknahme eines Widerspruchs nach Beginn der sachlichen Bearbeitung, jedoch vor deren Beendigung"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "bis zu 75 Prozent der Gebühr nach 4.1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lfd. Nr."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gebührenpflichtige Amtshandlung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gebühr"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Allgemeine Emissionshandelsgebühr für die Zuteilung von Berechtigungen, die alle anschließenden Maßnahmen nach dem Treibhausgas-Emissionshandelsgesetz abdeckt, soweit sie nicht gesondert in diesem Verzeichnis aufgeführt sind"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.1"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "für Anlagen, deren Zuteilungsmenge 150 000 Berechtigungen nicht übersteigt"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3 200 Euro zuzüglich 0,035 Euro pro Berechtigung für die ersten 150 000 zugeteilten Berechtigungen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.2"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "für Anlagen, deren Zuteilungsmenge 150 000, jedoch nicht 1,5 Millionen Berechtigungen übersteigt"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "6 400 Euro zuzüglich 0,035 Euro pro Berechtigung für die ersten 150 000 zugeteilten Berechtigungen, 0,03 Euro pro Berechtigung für die weiteren, über die ersten 150 000 hinausgehenden 1,35 Millionen Berechtigungen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.3"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "für Anlagen, deren Zuteilungsmenge 1,5 Millionen Berechtigungen übersteigt"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "9 600 Euro zuzüglich 0,035 Euro pro Berechtigung für die ersten 150 000 zugeteilten Berechtigungen, 0,03 Euro pro Berechtigung für die weiteren, über die ersten 150 000 hinausgehenden 1,35 Millionen Berechtigungen, 0,025 Euro pro Berechtigung für die weiteren, über die ersten 1,5 Millionen hinausgehenden 13,5 Millionen Berechtigungen, 0,015 Euro pro Berechtigung für die weiteren, über die ersten 15 Millionen hinausgehenden Berechtigungen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1.4"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "für Zuteilungen nach § 15 ZuG, unabhängig von der Zuteilungsmenge nach Nr. 1.1 bis 1.3"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "0,035 Euro pro Berechtigung"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id141 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id142 .
+
+dtd:fussnoten-id48 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id123 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "EHKostV 2007"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "EHKostV 2007"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "EHKostV 2007"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "EHKostV 2007"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "EHKostV 2007"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "EHKostV 2007"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "EHKostV 2007"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Emissionshandelskostenverordnung 2007"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value """Kostenverordnung zum Treibhausgas-Emissionshandelsgesetz und zum
+Zuteilungsgesetz 2007"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29 .
+
+dtd:noindex-id64 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132246"@de ;
+    dtd:has_doknr "BJNR227300004"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132246"@de ;
+    dtd:has_doknr "BJNR227300004BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132246"@de ;
+    dtd:has_doknr "BJNR227300004BJNE000201310"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132246"@de ;
+    dtd:has_doknr "BJNR227300004BJNE000301310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132246"@de ;
+    dtd:has_doknr "BJNR227300004BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405132246"@de ;
+    dtd:has_doknr "BJNR227300004BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405132246"@de ;
+    dtd:has_doknr "BJNR227300004BJNE000601310"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id141 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id138 a dtd:pre ;
+    dtd:has_BR dtd:BR-id59,
+        dtd:BR-id60 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 9.2004 +++)"@de .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84,
+        dtd:entry-id85 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id86,
+        dtd:entry-id87 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id88,
+        dtd:entry-id89,
+        dtd:entry-id90 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id91,
+        dtd:entry-id92,
+        dtd:entry-id93 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id94,
+        dtd:entry-id95,
+        dtd:entry-id96 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id97,
+        dtd:entry-id98,
+        dtd:entry-id99 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101,
+        dtd:entry-id102 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id103,
+        dtd:entry-id104,
+        dtd:entry-id105 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id106,
+        dtd:entry-id107 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id108,
+        dtd:entry-id109,
+        dtd:entry-id110 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id111,
+        dtd:entry-id112,
+        dtd:entry-id113 .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id144 ;
+    dtd:has_standtyp dtd:standtyp-id143 .
+
+dtd:standkommentar-id144 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 7 G v. 21.7.2011 I 1475"@de .
+
+dtd:standtyp-id143 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id65 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_tgroup dtd:tgroup-id66 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id71 a dtd:tbody ;
+    dtd:has_row dtd:row-id73,
+        dtd:row-id74,
+        dtd:row-id75,
+        dtd:row-id76,
+        dtd:row-id77,
+        dtd:row-id78,
+        dtd:row-id79,
+        dtd:row-id80,
+        dtd:row-id81,
+        dtd:row-id82 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:tgroup-id66 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id67,
+        dtd:colspec-id68,
+        dtd:colspec-id69 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id71 ;
+    dtd:has_thead dtd:thead-id70 .
+
+dtd:thead-id70 a dtd:thead ;
+    dtd:has_row dtd:row-id72 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Gebühren und Auslagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Kostenermäßigung und Kostenbefreiung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Widerspruch"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_BR dtd:BR-id61 ;
+    dtd:has_Value "(zu § 1 Abs. 1)Gebührenverzeichnis"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id142 a dtd:zitstelle ;
+    dtd:has_Value "2004, 2273"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:left rdfs:label "left"@de .
+

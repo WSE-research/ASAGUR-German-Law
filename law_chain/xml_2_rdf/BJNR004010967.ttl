@@ -1,0 +1,512 @@
+@prefix dtd: <urn:KredFinG-1967#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405124731"@de ;
+    dtd:has_doknr "BJNR004010967"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107,
+        dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110,
+        dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100,
+        dtd:LA-id99 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DL-id48 a dtd:DL ;
+    dtd:has_DD dtd:DD-id52,
+        dtd:DD-id53,
+        dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id49,
+        dtd:DT-id50,
+        dtd:DT-id51 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id55 a dtd:DL ;
+    dtd:has_DD dtd:DD-id58,
+        dtd:DD-id59 ;
+    dtd:has_DT dtd:DT-id56,
+        dtd:DT-id57 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id60 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62 ;
+    dtd:has_DT dtd:DT-id61 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id65 ;
+    dtd:has_DT dtd:DT-id64 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id66 a dtd:DL ;
+    dtd:has_DD dtd:DD-id69,
+        dtd:DD-id70 ;
+    dtd:has_DT dtd:DT-id67,
+        dtd:DT-id68 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id71 a dtd:DL ;
+    dtd:has_DD dtd:DD-id74,
+        dtd:DD-id75 ;
+    dtd:has_DT dtd:DT-id72,
+        dtd:DT-id73 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id76 a dtd:DL ;
+    dtd:has_DD dtd:DD-id80,
+        dtd:DD-id81,
+        dtd:DD-id82 ;
+    dtd:has_DT dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id83 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85 ;
+    dtd:has_DT dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "im Bereich der Deutschen Bundesbahn"@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "für Zwecke des Bundesfernstraßenbaues"@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "im Bereich der Deutschen Bundespost"@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "für den sozialen Wohnungsbau"@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "für Hochbaumaßnahmen des Bundes"@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "für den Bau von Studentenwohnheimen"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "der Deutschen Bundesbahn"@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "des Bundesfernstraßenbaus"@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "der Deutschen Bundespost"@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "und"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 100.000.000 Deutsche Mark"@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 750.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 534.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 485.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 200.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 150.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 200.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 73.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 50.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 18.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 20.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 20.000.000 Deutsche Mark."@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "über einen Betrag bis zu 300.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 200.000.000 Deutsche Mark,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bis zum Betrag von 250.000.000 Deutsche Mark"@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 15. 4.1967 +++)"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(1) Der Bundesminister der Finanzen wird ermächtigt, zur Leistung von Investitionsausgaben zum Zwecke einer Belebung der Investitionstätigkeit und der Sicherung eines stetigen Wirtschaftswachstums im Rechnungsjahr 1967 Geldmittel im Wege des Kredits zu beschaffen, deren Höhe den Betrag von 2.500.000.000 Deutsche Mark nicht überschreiten darf."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(2) Im Rahmen der nach Absatz 1 vorgesehenen Kredite können zur Durchführung zusätzlicher Investitionsmaßnahmen Darlehen gewährt und Darlehensverpflichtungen eingegangen werden."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_DL dtd:DL-id48,
+        dtd:DL-id55,
+        dtd:DL-id60,
+        dtd:DL-id63,
+        dtd:DL-id66,
+        dtd:DL-id71 ;
+    dtd:has_Value "(1) Der Bundesminister der Finanzen wird ermächtigt, im Einvernehmen mit dem Bundesminister für Wirtschaft mit den nach § 1 beschafften Geldmitteln zusätzliche Investitionsprogramme zu finanzieren, und zwar im Bereich der Deutschen Bundesbahnbis zum Betrag von 750.000.000 Deutsche Mark, für Zwecke des Bundesfernstraßenbauesbis zum Betrag von 534.000.000 Deutsche Mark, im Bereich der Deutschen Bundespostbis zum Betrag von 485.000.000 Deutsche Mark, für Wohnungsbau und Aufschließungsmaßnahmen zur Unterbringung von Angehörigen der Bundeswehr bis zum Betrag von 200.000.000 Deutsche Mark, für den sozialen Wohnungsbaubis zum Betrag von 150.000.000 Deutsche Mark, im Bereich der Landwirtschaft, insbesondere für den Landeskulturbau bis zum Betrag von 200.000.000 Deutsche Mark, für Zwecke der Wissenschaft und Forschung bis zum Betrag von 73.000.000 Deutsche Mark, für Zwecke des Bundeswasserstraßenbaues bis zum Betrag von 50.000.000 Deutsche Mark, für Hochbaumaßnahmen des Bundesbis zum Betrag von 18.000.000 Deutsche Mark, zur Förderung der Entwicklung der elektronischen Datenverarbeitung bis zum Betrag von 20.000.000 Deutsche Mark, für den Bau von Studentenwohnheimenbis zum Betrag von 20.000.000 Deutsche Mark.  "@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(2) Bei der Vergabe von Aufträgen sind Gebiete mit überdurchschnittlicher Arbeitslosigkeit bevorzugt zu berücksichtigen."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "Die Investitionsmaßnahmen nach § 2 sind in den außerordentlichen Haushalt des Entwurfs des Haushaltsplans für das Rechnungsjahr 1967 zu übernehmen."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(1) Die Festlegung des Investitionsprogramms bedarf der Zustimmung des Haushaltsausschusses des Deutschen Bundestages."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_DL dtd:DL-id76,
+        dtd:DL-id83 ;
+    dtd:has_Value "(2) Unter Anrechnung auf die in § 2 vorgesehenen Maßnahmen kann zugunsten der Deutschen Bundesbahnüber einen Betrag bis zu 300.000.000 Deutsche Mark, des Bundesfernstraßenbausbis zum Betrag von 200.000.000 Deutsche Mark, der Deutschen Bundespostbis zum Betrag von 250.000.000 Deutsche Markund  der Landwirtschaft, insbesondere für den Landeskulturbau bis zum Betrag von 100.000.000 Deutsche Mark mit dem Inkrafttreten dieses Gesetzes verfügt werden."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 12 Abs. 1 und des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1967-04-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id121 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id122 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id104 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "KredFinG 1967"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "KredFinG 1967"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "KredFinG 1967"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "KredFinG 1967"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "KredFinG 1967"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "KredFinG 1967"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "KredFinG 1967"@de .
+
+dtd:kurzue-id26 a dtd:kurzue ;
+    dtd:has_Value "Kreditfinanzierungsgesetz 1967"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_Value """Gesetz über die Aufnahme und Bereitstellung von Krediten zur Belebung der
+Investitionstätigkeit und zur Sicherung eines stetigen Wirtschaftswachstums im
+Rechnungsjahr 1967"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id26 ;
+    dtd:has_langue dtd:langue-id27 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405124731"@de ;
+    dtd:has_doknr "BJNR004010967"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405124731"@de ;
+    dtd:has_doknr "BJNR004010967BJNE000100313"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405124731"@de ;
+    dtd:has_doknr "BJNR004010967BJNE000200313"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405124731"@de ;
+    dtd:has_doknr "BJNR004010967BJNE000300313"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405124731"@de ;
+    dtd:has_doknr "BJNR004010967BJNE000400313"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405124731"@de ;
+    dtd:has_doknr "BJNR004010967BJNE000500313"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405124731"@de ;
+    dtd:has_doknr "BJNR004010967BJNE000600313"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id121 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:zitstelle-id122 a dtd:zitstelle ;
+    dtd:has_Value "1967, 401"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

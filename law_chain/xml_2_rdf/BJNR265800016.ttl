@@ -1,0 +1,289 @@
+@prefix dtd: <urn:UVOGrV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240216214513"@de ;
+    dtd:has_doknr "BJNR265800016"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59,
+        dtd:P-id60,
+        dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id49 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53 .
+
+dtd:DL-id44 a dtd:DL ;
+    dtd:has_DD dtd:DD-id48,
+        dtd:DD-id49,
+        dtd:DD-id50 ;
+    dtd:has_DT dtd:DT-id45,
+        dtd:DT-id46,
+        dtd:DT-id47 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_Value "die Planstellen der Geschäftsführerin oder des Geschäftsführers und der stellvertretenden Geschäftsführerin oder des stellvertretenden Geschäftsführers,"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Value "im Falle des § 36 Absatz 4 Satz 1 des Vierten Buches Sozialgesetzbuch die Stellen der Mitglieder der Geschäftsführung und"@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Value "die Planstellen der leitenden technischen Aufsichtspersonen."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value " (+++ Textnachweis ab: 3.12.2016 +++)"@de ;
+    dtd:has_pre dtd:pre-id66 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels VIII § 1 Absatz 6 Satz 1 des Zweiten Gesetzes zur Vereinheitlichung und Neuregelung des Besoldungsrechts in Bund und Ländern, der zuletzt durch Artikel 31 der Verordnung vom 31. Oktober 2006 (BGBl. I S. 2407) geändert worden ist, verordnet das Bundesministerium für Arbeit und Soziales im Einvernehmen mit dem Bundesministerium des Innern und dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(1) Die Anteile der Beförderungsämter bei den bundesunmittelbaren gewerblichen Berufsgenossenschaften und der Sozialversicherung für Landwirtschaft, Forsten und Gartenbau dürfen nach Maßgabe sachgerechter Bewertung die in § 17a Absatz 1 der Bundeshaushaltsordnung festgelegten Obergrenzen nicht überschreiten."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "(2) § 17a Absatz 5 der Bundeshaushaltsordnung gilt entsprechend."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_DL dtd:DL-id44 ;
+    dtd:has_Value "(3) Bei der Berechnung der Obergrenzen nach den Absätzen 1 und 2 bleiben unberücksichtigt: 1.die Planstellen der Geschäftsführerin oder des Geschäftsführers und der stellvertretenden Geschäftsführerin oder des stellvertretenden Geschäftsführers,2.im Falle des § 36 Absatz 4 Satz 1 des Vierten Buches Sozialgesetzbuch die Stellen der Mitglieder der Geschäftsführung und3.die Planstellen der leitenden technischen Aufsichtspersonen."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Gleichzeitig tritt die Unfallversicherungsobergrenzenverordnung vom 12. Oktober 2004 (BGBl. I S. 2617), die zuletzt durch Artikel 15 des Gesetzes vom 19. Oktober 2013 (BGBl. I S. 3836) geändert worden ist, außer Kraft."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "UVOGrV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2016-11-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id67 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id68 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id54 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "UVOGrV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "UVOGrV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "UVOGrV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "UVOGrV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "UVOGrV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Unfallversicherungsobergrenzenverordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Verordnung über Obergrenzen für Beförderungsämter bei den bundesunmittelbaren gewerblichen Berufsgenossenschaften und der Sozialversicherung für Landwirtschaft, Forsten und Gartenbau"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23,
+        dtd:standangabe-id24 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240216214513"@de ;
+    dtd:has_doknr "BJNR265800016"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240216214513"@de ;
+    dtd:has_doknr "BJNR265800016BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240216214513"@de ;
+    dtd:has_doknr "BJNR265800016BJNE000201116"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240216214513"@de ;
+    dtd:has_doknr "BJNR265800016BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240216214513"@de ;
+    dtd:has_doknr "BJNR265800016BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id67 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id66 a dtd:pre ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43 ;
+    dtd:has_Value "(+++ Textnachweis ab: 3.12.2016 +++)"@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id70 ;
+    dtd:has_standtyp dtd:standtyp-id69 .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id72 ;
+    dtd:has_standtyp dtd:standtyp-id71 .
+
+dtd:standkommentar-id70 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 V v. 15.12.2020 I 2933"@de .
+
+dtd:standkommentar-id72 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 2032-11-2-2 v. 12.10.2004 I 2617 (EinstufHöGrV)"@de .
+
+dtd:standtyp-id69 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id71 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Stellenobergrenzen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id68 a dtd:zitstelle ;
+    dtd:has_Value "2016, 2658"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

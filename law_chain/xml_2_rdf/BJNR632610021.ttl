@@ -1,0 +1,480 @@
+@prefix dtd: <urn:DRG-EKV-2022#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20211123213050"@de ;
+    dtd:has_doknr "BJNR632610021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:kommentar-id100 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BAnz AT 22.11.2021 V1)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:pdf rdfs:label "pdf"@de .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95,
+        dtd:P-id96,
+        dtd:P-id97,
+        dtd:P-id98 .
+
+dtd:FILE-id89 a dtd:FILE ;
+    dtd:has_PREVIEW "banzat_2021_20211122v1.pdf_thumb.gif"@de ;
+    dtd:has_SRC "banzat_2021_20211122v1.pdf"@de ;
+    dtd:has_Type "pdf"@de ;
+    dtd:has_title "PDF-Dokument wird in eigenem Fenster angezeigt"@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value " (+++ Textnachweis ab: 23.11.2021 +++)Die V wurde als Artikel 1 der V v. 19.11.2021 BAnz AT 22.11.2021 V1 vom Bundesministerium für Gesundheit beschlossen. Sie ist gem. Art. 3 dieser V am 23.11.2021 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id99 .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "Der Fallpauschalen-Katalog nach § 9 Absatz 1 Nummer 1 des Krankenhausentgeltgesetzes, der Katalog ergänzender Zusatzentgelte nach § 9 Absatz 1 Nummer 2 des Krankenhausentgeltgesetzes und der Pflegeerlöskatalog nach § 9 Absatz 1 Nummer 2a des Krankenhausentgeltgesetzes werden für das Jahr 2022 mit den Entgeltkatalogen nach den Anlagen 1 bis 8 dieser Verordnung vorgegeben."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BAnz AT 22.11.2021 V1)"@de ;
+    dtd:has_noindex dtd:noindex-id35 .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_FILE dtd:FILE-id89 ;
+    dtd:has_Value ""@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "Anlage 1Fallpauschalen-Katalog und Pflegeerlöskatalog (Entgelte nach § 9 Absatz 1 Nummer 1 und 2a des Krankenhausentgeltgesetzes)Teil aBewertungsrelationen bei Versorgung durch HauptabteilungenTeil bBewertungsrelationen bei Versorgung durch BelegabteilungenTeil cBewertungsrelationen bei teilstationärer VersorgungTeil dBewertungsrelationen mit gezielter Absenkung in Abhängigkeit der Median-Fallzahl bei Versorgung durch HauptabteilungTeil eBewertungsrelationen mit gezielter Absenkung in Abhängigkeit der Median-Fallzahl bei Versorgung durch BelegabteilungAnlage 2Zusatzentgelte-Katalog – Liste – (Entgelte nach § 9 Absatz 1 Nummer 2 des Krankenhausentgeltgesetzes)Anlage 3aNicht mit dem Fallpauschalen-Katalog vergütete vollstationäre Leistungen und Pflegeerlöskatalog (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)Anlage 3bNicht mit dem Fallpauschalen-Katalog vergütete teilstationäre Leistungen und Pflegeerlöskatalog (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)Anlage 4Zusatzentgelte-Katalog – Liste – (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)Anlage 5Zusatzentgelte-Katalog – Definition und differenzierte Beträge – (Entgelte nach § 9 Absatz 1 Nummer 2 des Krankenhausentgeltgesetzes)Anlage 6Zusatzentgelte-Katalog – Definition – (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)Anlage 7Zusatzentgelte-Katalog – Blutgerinnungsstörungen – (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)Anlage 8Ergänzende Informationen zur Abrechnung von bewerteten Zusatzentgelten aus dem Zusatzentgelte-Katalog (Anlage 2 und Anlage 5)"@de ;
+    dtd:has_table dtd:table-id36 .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "DRG-EKV 2022"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-11-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id38 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "12*"@de .
+
+dtd:colspec-id40 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colwidth "138*"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Anlagen"@de .
+
+dtd:entry-id56 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 1"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fallpauschalen-Katalog und Pflegeerlöskatalog (Entgelte nach § 9 Absatz 1 Nummer 1 und 2a des Krankenhausentgeltgesetzes)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Teil a"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bewertungsrelationen bei Versorgung durch Hauptabteilungen"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Teil b"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bewertungsrelationen bei Versorgung durch Belegabteilungen"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Teil c"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bewertungsrelationen bei teilstationärer Versorgung"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Teil d"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bewertungsrelationen mit gezielter Absenkung in Abhängigkeit der Median-Fallzahl bei Versorgung durch Hauptabteilung"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Teil e"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bewertungsrelationen mit gezielter Absenkung in Abhängigkeit der Median-Fallzahl bei Versorgung durch Belegabteilung"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 2"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zusatzentgelte-Katalog – Liste – (Entgelte nach § 9 Absatz 1 Nummer 2 des Krankenhausentgeltgesetzes)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 3a"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nicht mit dem Fallpauschalen-Katalog vergütete vollstationäre Leistungen und Pflegeerlöskatalog (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 3b"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nicht mit dem Fallpauschalen-Katalog vergütete teilstationäre Leistungen und Pflegeerlöskatalog (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 4"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zusatzentgelte-Katalog – Liste – (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 5"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zusatzentgelte-Katalog – Definition und differenzierte Beträge – (Entgelte nach § 9 Absatz 1 Nummer 2 des Krankenhausentgeltgesetzes)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 6"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zusatzentgelte-Katalog – Definition – (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 7"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_BR dtd:BR-id34 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zusatzentgelte-Katalog – Blutgerinnungsstörungen – (Entgelte nach § 6 Absatz 1 Satz 1 des Krankenhausentgeltgesetzes)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anlage 8"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ergänzende Informationen zur Abrechnung von bewerteten Zusatzentgelten aus dem Zusatzentgelte-Katalog (Anlage 2 und Anlage 5)"@de ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id101 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id102 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id90 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "DRG-EKV 2022"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "DRG-EKV 2022"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "DRG-EKV 2022"@de .
+
+dtd:kurzue-id15 a dtd:kurzue ;
+    dtd:has_Value "DRG-Entgeltkatalogverordnung 2022"@de .
+
+dtd:langue-id16 a dtd:langue ;
+    dtd:has_Value "Verordnung zu den Entgeltkatalogen für DRG-Krankenhäuser für das Jahr 2022"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id15 ;
+    dtd:has_langue dtd:langue-id16 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:noindex-id35 a dtd:noindex .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20211123213050"@de ;
+    dtd:has_doknr "BJNR632610021"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20211123213050"@de ;
+    dtd:has_doknr "BJNR632610021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20211123213050"@de ;
+    dtd:has_doknr "BJNR632610021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id101 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id99 a dtd:pre ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_Value "(+++ Textnachweis ab: 23.11.2021 +++)"@de .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id56,
+        dtd:entry-id57 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id58,
+        dtd:entry-id59,
+        dtd:entry-id60 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id61,
+        dtd:entry-id62,
+        dtd:entry-id63 .
+
+dtd:row-id45 a dtd:row ;
+    dtd:has_entry dtd:entry-id64,
+        dtd:entry-id65,
+        dtd:entry-id66 .
+
+dtd:row-id46 a dtd:row ;
+    dtd:has_entry dtd:entry-id67,
+        dtd:entry-id68,
+        dtd:entry-id69 .
+
+dtd:row-id47 a dtd:row ;
+    dtd:has_entry dtd:entry-id70,
+        dtd:entry-id71,
+        dtd:entry-id72 .
+
+dtd:row-id48 a dtd:row ;
+    dtd:has_entry dtd:entry-id73,
+        dtd:entry-id74 .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id75,
+        dtd:entry-id76 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id77,
+        dtd:entry-id78 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id79,
+        dtd:entry-id80 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id81,
+        dtd:entry-id82 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id85,
+        dtd:entry-id86 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88 .
+
+dtd:table-id36 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id37 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id41 a dtd:tbody ;
+    dtd:has_row dtd:row-id42,
+        dtd:row-id43,
+        dtd:row-id44,
+        dtd:row-id45,
+        dtd:row-id46,
+        dtd:row-id47,
+        dtd:row-id48,
+        dtd:row-id49,
+        dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54,
+        dtd:row-id55 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:tgroup-id37 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id38,
+        dtd:colspec-id39,
+        dtd:colspec-id40 ;
+    dtd:has_tbody dtd:tbody-id41 .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id102 a dtd:zitstelle ;
+    dtd:has_Value "AT 22.11.2021 V1"@de .
+

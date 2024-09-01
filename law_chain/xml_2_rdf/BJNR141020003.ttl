@@ -1,0 +1,73 @@
+@prefix dtd: <urn:EUBeitrVtr-CZEua#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213533"@de ;
+    dtd:has_doknr "BJNR141020003"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id11 a dtd:BR .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:Content-id13 a dtd:Content ;
+    dtd:has_P dtd:P-id14,
+        dtd:P-id15 .
+
+dtd:P-id14 a dtd:P ;
+    dtd:has_BR dtd:BR-id11 ;
+    dtd:has_Value "G v. 18.9.2003 II 1408 In Kraft gem. Bek. v. 28.6.2004 II 1102 mWv 1.5.2004"@de .
+
+dtd:P-id15 a dtd:P ;
+    dtd:has_BR dtd:BR-id12 ;
+    dtd:has_Value " Umsetzung der Apotheker betreffenden Regelungen vgl. G v. 15.6.2005 I 1645"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2003-04-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id16 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id17 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id13 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "EUBeitrVtr CZEua"@de .
+
+dtd:langue-id8 a dtd:langue ;
+    dtd:has_Value "Vertrag über den Beitritt der Tschechischen Republik, der Republik Estland, der Republik Zypern, der Republik Lettland, der Republik Litauen, der Republik Ungarn, der Republik Malta, der Republik Polen, der Republik Slowenien und der Slowakischen Republik zur Europäischen Union"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id8 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213533"@de ;
+    dtd:has_doknr "BJNR141020003"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id16 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id9 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 ;
+    dtd:has_text dtd:text-id9 .
+
+dtd:zitstelle-id17 a dtd:zitstelle ;
+    dtd:has_Value "2003, 1410"@de .
+

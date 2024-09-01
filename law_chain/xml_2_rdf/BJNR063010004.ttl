@@ -1,0 +1,183 @@
+@prefix dtd: <urn:BBKG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20201006212510"@de ;
+    dtd:has_doknr "BJNR063010004"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39,
+        dtd:P-id40,
+        dtd:P-id41 .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.5.2004 +++)Das G wurde als Artikel 1 d. G v. 27.4.2004 I 630(BBKEG) vom Bundestag beschlossen. Es ist gem. Art. 5 dieses G am 1.5.2004 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id42 .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "Der Bund errichtet das Bundesamt für Bevölkerungsschutz und Katastrophenhilfe als Bundesoberbehörde. Es untersteht dem Bundesministerium des Innern, für Bau und Heimat."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt nimmt Aufgaben des Bundes auf den Gebieten des Bevölkerungsschutzes und der Katastrophenhilfe wahr, die ihm durch das Zivilschutz- und Katastrophenhilfegesetz oder andere Bundesgesetze oder auf Grund dieser Gesetze übertragen werden oder mit deren Durchführung es vom Bundesministerium des Innern, für Bau und Heimat oder mit dessen Zustimmung von anderen fachlich zuständigen obersten Bundesbehörden beauftragt wird, soweit keine andere Zuständigkeit durch Gesetz oder auf Grund eines Gesetzes festgelegt ist."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesamt unterstützt das Bundesministerium des Innern, für Bau und Heimat auf den in Absatz 1 genannten Gebieten und mit dessen Zustimmung die fachlich zuständigen obersten Bundesbehörden."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(3) Soweit das Bundesamt Aufgaben aus einem anderen Geschäftsbereich als dem des Bundesministeriums des Innern, für Bau und Heimat wahrnimmt, untersteht es der fachlichen Aufsicht der zuständigen obersten Bundesbehörde."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "BBKG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-04-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:fussnoten-id26 a dtd:fussnoten .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BBKG"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BBKG"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BBKG"@de .
+
+dtd:langue-id15 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Errichtung des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id15 ;
+    dtd:has_standangabe dtd:standangabe-id16 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20201006212510"@de ;
+    dtd:has_doknr "BJNR063010004"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20201006212510"@de ;
+    dtd:has_doknr "BJNR063010004BJNE000101116"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20201006212510"@de ;
+    dtd:has_doknr "BJNR063010004BJNE000202116"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id42 a dtd:pre ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.5.2004 +++)"@de .
+
+dtd:standangabe-id16 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id46 ;
+    dtd:has_standtyp dtd:standtyp-id45 .
+
+dtd:standkommentar-id46 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 146 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id45 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Errichtung des Bundesamtes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value "Aufgaben des Bundesamtes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "2004, 630"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

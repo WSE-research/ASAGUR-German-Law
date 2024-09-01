@@ -1,0 +1,236 @@
+@prefix dtd: <urn:BMinUZustAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132725"@de ;
+    dtd:has_doknr "BJNR297400005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DL-id32 a dtd:DL ;
+    dtd:has_DD dtd:DD-id37,
+        dtd:DD-id38,
+        dtd:DD-id39,
+        dtd:DD-id40 ;
+    dtd:has_DT dtd:DT-id33,
+        dtd:DT-id34,
+        dtd:DT-id35,
+        dtd:DT-id36 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Befugnis zur Festsetzung der Kürzung der Dienstbezüge bis zum Höchstmaß gemäß § 33 Abs. 3 Nr. 1 des Bundesdisziplinargesetzes,"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Befugnis, gemäß § 34 Abs. 2 Satz 1 des Bundesdisziplinargesetzes Disziplinarklage zu erheben,"@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Befugnis zur Ausübung der Disziplinarbefugnisse bei Ruhestandsbeamten oder Ruhestandsbeamtinnen gemäß § 84 des Bundesdisziplinargesetzes,"@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zuständigkeit zum Erlass von Widerspruchsbescheiden gemäß § 42 Abs. 1 des Bundesdisziplinargesetzes, soweit sie oder er zum Erlass der angefochtenen Entscheidung zuständig war,"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value " (+++ Textnachweis ab: 19.10.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id55 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_DL dtd:DL-id32 ;
+    dtd:has_Value "Nach § 33 Abs. 5, § 34 Abs. 2 Satz 2, § 42 Abs. 1 Satz 2 und § 84 Satz 2 des Bundesdisziplinargesetzes vom 9. Juli 2001 (BGBl. I S. 1510) werden den Präsidenten oder Präsidentinnen der Behörden des Geschäftsbereichs jeweils für ihren Geschäftsbereich 1.die Befugnis zur Festsetzung der Kürzung der Dienstbezüge bis zum Höchstmaß gemäß § 33 Abs. 3 Nr. 1 des Bundesdisziplinargesetzes, 2.die Befugnis, gemäß § 34 Abs. 2 Satz 1 des Bundesdisziplinargesetzes Disziplinarklage zu erheben, 3.die Befugnis zur Ausübung der Disziplinarbefugnisse bei Ruhestandsbeamten oder Ruhestandsbeamtinnen gemäß § 84 des Bundesdisziplinargesetzes, 4.die Zuständigkeit zum Erlass von Widerspruchsbescheiden gemäß § 42 Abs. 1 des Bundesdisziplinargesetzes, soweit sie oder er zum Erlass der angefochtenen Entscheidung zuständig war, übertragen."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Diese allgemeine Anordnung tritt am Tag nach der Veröffentlichung im Bundesgesetzblatt Teil I in Kraft."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-09-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id56 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id57 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BMinUZustAnO"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "BMinUZustAnO"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BMinUZustAnO"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BMinUZustAnO"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Anordnung zur Übertragung disziplinarrechtlicher Zuständigkeiten und
+Befugnisse im Geschäftsbereich des Bundesministeriums für Umwelt,
+Naturschutz und Reaktorsicherheit"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132725"@de ;
+    dtd:has_doknr "BJNR297400005"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132725"@de ;
+    dtd:has_doknr "BJNR297400005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132725"@de ;
+    dtd:has_doknr "BJNR297400005BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132725"@de ;
+    dtd:has_doknr "BJNR297400005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id56 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id55 a dtd:pre ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "(+++ Textnachweis ab: 19.10.2005 +++)"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id57 a dtd:zitstelle ;
+    dtd:has_Value "2005, 2974"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

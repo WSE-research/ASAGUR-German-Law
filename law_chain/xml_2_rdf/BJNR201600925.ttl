@@ -1,0 +1,132 @@
+@prefix dtd: <urn:WZBOLBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200103213424"@de ;
+    dtd:has_doknr "BJNR201600925"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27,
+        dtd:P-id28,
+        dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:I-id20 a dtd:I ;
+    dtd:has_Value "sechs"@de .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_I dtd:I-id20 ;
+    dtd:has_Value "  Zwischen dem Deutschen Reiche und Bolivien ist durch Notenaustausch vom 20. Februar 1925 Einverständnis dahin festgestellt worden, daß mit Wirkung vom 21. Mai 1925 ab bis zum Ablauf von sechs Monaten nach Kündigung seitens eines der beiden Staaten die Angehörigen des einen der beiden Staaten in dem Gebiete des anderen in bezug auf den Schutz von Handels- oder Fabrikmarken dieselben Rechte wie die eigenen Angehörigen genießen, vorausgesetzt, daß sie die Förmlichkeiten erfüllen, welche die innere Gesetzgebung eines jeden der beiden Staaten den Inländern auferlegt. Sie sind verpflichtet, die vorgeschriebenen Eintragungsgebühren an die betreffende Staatskasse zu bezahlen."@de .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_Value "  Den Angehörigen im Sinne dieser Vereinbarung sind andere Personen gleichgestellt, die in dem Gebiete des einen der beiden Staaten ihren Wohnsitz oder ihre gewerbliche oder Handelsniederlassung haben."@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_BR dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_SP dtd:SP-id21 ;
+    dtd:has_Value "  Dies wird mit Bezug auf § 23 Abs. 1 des Gesetzes zum Schutz der Warenbezeichnungen in der Fassung der Bekanntmachung vom 7. Dezember 1923 (Reichsgesetzbl. 1923 II S. 437) bekanntgemacht.Der Reichsminister des Auswärtigen"@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "Abs. 1 Kursivdruck: Kündigungsfrist auf drei Monate festgesetzt, Bek. v. 29.6.1955 II 747"@de .
+
+dtd:SP-id21 a dtd:SP ;
+    dtd:has_Value "Der Reichsminister des Auswärtigen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1925-04-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id32 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id33 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id24 .
+
+dtd:fussnoten-id17 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id30 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "WZBOLBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "WZBOLBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung betreffend den Markenschutz im Verhältnis zwischen dem Deutschen Reiche und Bolivien"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200103213424"@de ;
+    dtd:has_doknr "BJNR201600925"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200103213424"@de ;
+    dtd:has_doknr "BJNR201600925BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id32 a dtd:periodikum ;
+    dtd:has_Value "RGBl II"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id22 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id26 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id17 ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id33 a dtd:zitstelle ;
+    dtd:has_Value "1925, 160"@de .
+

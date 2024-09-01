@@ -1,0 +1,277 @@
+@prefix dtd: <urn:MindNamÄndG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200722212524"@de ;
+    dtd:has_doknr "BJNR140630997"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56,
+        dtd:P-id57,
+        dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DL-id42 a dtd:DL ;
+    dtd:has_DD dtd:DD-id46,
+        dtd:DD-id47,
+        dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id43,
+        dtd:DT-id44,
+        dtd:DT-id45 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine in die Sprache der nationalen Minderheit oder Volksgruppe übersetzte Form ihres Namens annehmen, wenn ihr Name einer solchen Übersetzung zugänglich ist (begriffliche Übertragung),"@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einen durch Veränderung der Schreibweise ihres Namens an eine der Sprache der Minderheit oder Volksgruppe entsprechende Lautung angeglichenen Namen annehmen (phonetische Übertragung) oder"@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einen früher in der Sprache der nationalen Minderheit oder Volksgruppe geführten Namen annehmen, wenn dieser Name in eine deutsche Form übertragen oder in einen anderen Namen geändert worden ist; dabei reicht es aus, daß der oder die Erklärende die frühere Namensführung glaubhaft macht."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30.7.1997 +++)Das G ist als Artikel 2 G 188-79 v. 22.7.1997 II 1406 (MindSchRÜbkG) vom Bundestag mit Zustimmung des Bundesrates beschlossen worden. Es ist gem. Art. 11 Abs. 1 dieses G mWv 30.7.1997 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id65 .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_DL dtd:DL-id42 ;
+    dtd:has_Value "(1) Eine Person, auf die sowohl das Rahmenübereinkommen zum Schutz nationaler Minderheiten als auch deutsches Namensrecht Anwendung finden, kann durch Erklärung gegenüber dem Standesamt 1.eine in die Sprache der nationalen Minderheit oder Volksgruppe übersetzte Form ihres Namens annehmen, wenn ihr Name einer solchen Übersetzung zugänglich ist (begriffliche Übertragung),2.einen durch Veränderung der Schreibweise ihres Namens an eine der Sprache der Minderheit oder Volksgruppe entsprechende Lautung angeglichenen Namen annehmen (phonetische Übertragung) oder3.einen früher in der Sprache der nationalen Minderheit oder Volksgruppe geführten Namen annehmen, wenn dieser Name in eine deutsche Form übertragen oder in einen anderen Namen geändert worden ist; dabei reicht es aus, daß der oder die Erklärende die frühere Namensführung glaubhaft macht.Das Standesamt, in dessen Bezirk der oder die Erklärende den Wohnsitz oder gewöhnlichen Aufenthalt hat, ist für die Entgegennahme der Erklärung zuständig. Die Landesregierungen werden ermächtigt, durch Rechtsverordnung die Zuständigkeit einem anderen Standesamt zu übertragen. Ergibt sich danach keine Zuständigkeit, ist das Standesamt I in Berlin zuständig."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2) Name im Sinne dieses Gesetzes ist der Geburts- oder Vorname, den eine Person nach den Vorschriften des Bürgerlichen Gesetzbuchs sowie des Personenstandsrechts zu führen hat."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(3) Die personenstandsrechtlichen Vorschriften über die Schreibweise bleiben für den nach Absatz 1 angenommenen Namen maßgebend."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(4) Die Erklärungen nach Absatz 1 müssen öffentlich beglaubigt oder beurkundet werden, wenn sie nicht bei der Eheschließung gegenüber einem deutschen Standesamt abgegeben werden. Sie können auch von den Standesbeamten beglaubigt oder beurkundet werden."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Eine Änderung des Geburtsnamens erstreckt sich auf den Ehenamen oder Lebenspartnerschaftsnamen des oder der Erklärenden nur dann, wenn sich der Ehegatte oder Lebenspartner durch Erklärung gegenüber dem Standesamt der Namensänderung anschließt; § 1 Abs. 1 Satz 2 bis 4 und Abs. 4 gilt entsprechend. Auf Kinder oder deren Ehegatten oder Lebenspartner erstreckt sich eine Namensänderung nur nach Maßgabe der Vorschriften des Bürgerlichen Gesetzbuchs."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "Für die Entgegennahme der Erklärungen und ihre Beglaubigung oder Beurkundung werden Gebühren nicht erhoben."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium des Innern, für Bau und Heimat wird ermächtigt, im Benehmen mit dem Bundesministerium der Justiz und für Verbraucherschutz und mit Zustimmung des Bundesrates zur Durchführung dieses Gesetzes Verwaltungsvorschriften zu erlassen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1997-07-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id31 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id52 .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "MindNamÄndG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "MindNamÄndG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "MindNamÄndG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "MindNamÄndG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "MindNamÄndG"@de .
+
+dtd:kurzue-id20 a dtd:kurzue ;
+    dtd:has_Value "Minderheiten-Namensänderungsgesetz"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Ausführung des Artikels 11 Abs. 1 des Rahmenübereinkommens des Europarats vom 1. Februar 1995 zum Schutz nationaler Minderheiten"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id20 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200722212524"@de ;
+    dtd:has_doknr "BJNR140630997"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200722212524"@de ;
+    dtd:has_doknr "BJNR140630997BJNE000102377"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200722212524"@de ;
+    dtd:has_doknr "BJNR140630997BJNE000202377"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200722212524"@de ;
+    dtd:has_doknr "BJNR140630997BJNE000300320"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200722212524"@de ;
+    dtd:has_doknr "BJNR140630997BJNE000402311"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id65 a dtd:pre ;
+    dtd:has_BR dtd:BR-id40,
+        dtd:BR-id41 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.7.1997 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id69 ;
+    dtd:has_standtyp dtd:standtyp-id68 .
+
+dtd:standkommentar-id69 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 32 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id68 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "1997, 1406"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

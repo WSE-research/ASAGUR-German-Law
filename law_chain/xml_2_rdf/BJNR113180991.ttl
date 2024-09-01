@@ -1,0 +1,587 @@
+@prefix dtd: <urn:SolZG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405131115"@de ;
+    dtd:has_doknr "BJNR113180991"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94,
+        dtd:LA-id95 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96,
+        dtd:LA-id97 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98,
+        dtd:LA-id99 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100,
+        dtd:LA-id101 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104,
+        dtd:LA-id105 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106,
+        dtd:LA-id107 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108,
+        dtd:LA-id109 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DL-id67 a dtd:DL ;
+    dtd:has_DD dtd:DD-id70,
+        dtd:DD-id71 ;
+    dtd:has_DT dtd:DT-id68,
+        dtd:DT-id69 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id72 a dtd:DL ;
+    dtd:has_DD dtd:DD-id80,
+        dtd:DD-id81,
+        dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86 ;
+    dtd:has_DT dtd:DT-id73,
+        dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id87 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91 ;
+    dtd:has_DT dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit Lohnsteuer zu erheben ist:"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_DL dtd:DL-id87 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach der Lohnsteuer, diea)vom laufenden Arbeitslohn zu erheben ist, der für einen nach dem 30. Juni 1991 und vor dem 1. Juli 1992 endenden Lohnzahlungszeitraum gezahlt wird, b)von sonstigen Bezügen zu erheben ist, die nach dem 30. Juni 1991 und vor dem 1. Juli 1992 zufließen; "@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vom laufenden Arbeitslohn zu erheben ist, der für einen nach dem 30. Juni 1991 und vor dem 1. Juli 1992 endenden Lohnzahlungszeitraum gezahlt wird,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von sonstigen Bezügen zu erheben ist, die nach dem 30. Juni 1991 und vor dem 1. Juli 1992 zufließen;"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit ein Lohnsteuer-Jahresausgleich durchzuführen ist:"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach der Jahreslohnsteuer für die Ausgleichsjahre 1991 und 1992;"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit Kapitalertragsteuer zu erheben ist außer in den Fällen des § 44d des Einkommensteuergesetzes:"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach der im Zeitraum vom 1. Juli 1991 bis 30. Juni 1992 zu erhebenden Kapitalertragsteuer;"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit bei beschränkt Steuerpflichtigen ein Steuerabzugsbetrag nach § 50a des Einkommensteuergesetzes zu erheben ist:"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach dem im Zeitraum vom 1. Juli 1991 bis 30. Juni 1992 zu erhebenden Steuerabzugsbetrag."@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "natürliche Personen, die nach § 1 des Einkommensteuergesetzes einkommensteuerpflichtig sind,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Körperschaften, Personenvereinigungen und Vermögensmassen, die nach § 1 oder § 2 des Körperschaftsteuergesetzes körperschaftsteuerpflichtig sind,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit eine Veranlagung zur Einkommensteuer vorzunehmen ist:"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach der für die Veranlagungszeiträume 1991 und 1992 festgesetzten Einkommensteuer;"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit eine Veranlagung zur Körperschaftsteuer vorzunehmen ist:"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach der für die Veranlagungszeiträume 1991 und 1992 festgesetzten positiven Körperschaftsteuer;"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit Vorauszahlungen zur Einkommensteuer oder Körperschaftsteuer zu leisten sind:"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach den im Zeitraum vom 1. Juli 1991 bis 30. Juni 1992 zu leistenden Vorauszahlungen für die Kalenderjahre 1991 und 1992;"@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 28.6.1991 +++)Das G wurde als Art. 1 d. G v. 24.6.1991 I 1318 (SolG) vom Bundestag beschlossen. Es ist gem. Art. 6 dieses G am 28.6.1991 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id123 .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "Zur Einkommensteuer und zur Körperschaftsteuer wird ein Solidaritätszuschlag als Ergänzungsabgabe erhoben."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_DL dtd:DL-id67 ;
+    dtd:has_Value "Abgabepflichtig sind 1.natürliche Personen, die nach § 1 des Einkommensteuergesetzes einkommensteuerpflichtig sind, 2.Körperschaften, Personenvereinigungen und Vermögensmassen, die nach § 1 oder § 2 des Körperschaftsteuergesetzes körperschaftsteuerpflichtig sind, es sei denn, die jeweilige Steuerpflicht hat vor dem 14. Mai 1991 geendet."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_DL dtd:DL-id72 ;
+    dtd:has_Value "(1) Der Solidaritätszuschlag bemißt sich vorbehaltlich Absatz 2, 1.soweit eine Veranlagung zur Einkommensteuer vorzunehmen ist:nach der für die Veranlagungszeiträume 1991 und 1992 festgesetzten Einkommensteuer;  2.soweit eine Veranlagung zur Körperschaftsteuer vorzunehmen ist:nach der für die Veranlagungszeiträume 1991 und 1992 festgesetzten positiven Körperschaftsteuer;  3.soweit Vorauszahlungen zur Einkommensteuer oder Körperschaftsteuer zu leisten sind:nach den im Zeitraum vom 1. Juli 1991 bis 30. Juni 1992 zu leistenden Vorauszahlungen für die Kalenderjahre 1991 und 1992;  4.soweit Lohnsteuer zu erheben ist:nach der Lohnsteuer, diea)vom laufenden Arbeitslohn zu erheben ist, der für einen nach dem 30. Juni 1991 und vor dem 1. Juli 1992 endenden Lohnzahlungszeitraum gezahlt wird, b)von sonstigen Bezügen zu erheben ist, die nach dem 30. Juni 1991 und vor dem 1. Juli 1992 zufließen;   5.soweit ein Lohnsteuer-Jahresausgleich durchzuführen ist:nach der Jahreslohnsteuer für die Ausgleichsjahre 1991 und 1992;  6.soweit Kapitalertragsteuer zu erheben ist außer in den Fällen des § 44d des Einkommensteuergesetzes:nach der im Zeitraum vom 1. Juli 1991 bis 30. Juni 1992 zu erhebenden Kapitalertragsteuer;  7.soweit bei beschränkt Steuerpflichtigen ein Steuerabzugsbetrag nach § 50a des Einkommensteuergesetzes zu erheben ist:nach dem im Zeitraum vom 1. Juli 1991 bis 30. Juni 1992 zu erhebenden Steuerabzugsbetrag.   "@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) § 51a Abs. 2 des Einkommensteuergesetzes ist nicht anzuwenden. Steuerermäßigungen nach den §§ 21 und 26 des Berlinförderungsgesetzes mindern die Bemessungsgrundlage nicht."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_BR dtd:BR-id51,
+        dtd:BR-id52 ;
+    dtd:has_Value """Der Solidaritätszuschlag beträgt in den Fällen 
+		
+			
+			
+			
+			
+				
+					1.
+					des § 3 Abs. 1 Nr. 1, 2 und 5
+					3,75 vom Hundert,
+				
+				
+					2.
+					des § 3 Abs. 1 Nr. 3, 4, 6 und 7
+					7,5 vom Hundert
+				
+			
+		
+	 der Bemessungsgrundlage. Bruchteile eines Pfennigs bleiben außer Ansatz."""@de ;
+    dtd:has_table dtd:table-id53 .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "Werden auf Grund eines Abkommens zur Vermeidung der Doppelbesteuerung im Geltungsbereich dieses Gesetzes erhobene Steuern vom Einkommen ermäßigt, so ist diese Ermäßigung zuerst auf den Solidaritätszuschlag zu beziehen."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "SolZG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-06-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id55 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id56 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "45*"@de .
+
+dtd:colspec-id57 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "des § 3 Abs. 1 Nr. 1, 2 und 5"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3,75 vom Hundert,"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "des § 3 Abs. 1 Nr. 3, 4, 6 und 7"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "7,5 vom Hundert"@de ;
+    dtd:has_align dtd:right ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id124 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id125 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id110 .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SolZG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "SolZG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "SolZG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "SolZG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "SolZG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "SolZG"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value "Solidaritätszuschlaggesetz"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id24 ;
+    dtd:has_standangabe dtd:standangabe-id25 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405131115"@de ;
+    dtd:has_doknr "BJNR113180991"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405131115"@de ;
+    dtd:has_doknr "BJNR113180991BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405131115"@de ;
+    dtd:has_doknr "BJNR113180991BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405131115"@de ;
+    dtd:has_doknr "BJNR113180991BJNE000301301"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405131115"@de ;
+    dtd:has_doknr "BJNR113180991BJNE000400308"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405131115"@de ;
+    dtd:has_doknr "BJNR113180991BJNE000500308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id124 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id123 a dtd:pre ;
+    dtd:has_BR dtd:BR-id49,
+        dtd:BR-id50 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 28.6.1991 +++)"@de .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id61,
+        dtd:entry-id62,
+        dtd:entry-id63 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id64,
+        dtd:entry-id65,
+        dtd:entry-id66 .
+
+dtd:standangabe-id25 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id127 ;
+    dtd:has_standtyp dtd:standtyp-id126 .
+
+dtd:standkommentar-id127 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 19 G v. 25.2.1992 I 297"@de .
+
+dtd:standtyp-id126 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id53 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id54 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id58 a dtd:tbody ;
+    dtd:has_row dtd:row-id59,
+        dtd:row-id60 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:tgroup-id54 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id55,
+        dtd:colspec-id56,
+        dtd:colspec-id57 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id58 .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Erhebung eines Solidaritätszuschlags"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Abgabepflicht"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Bemessungsgrundlage"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Tarifvorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Doppelbesteuerungsabkommen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id125 a dtd:zitstelle ;
+    dtd:has_Value "1991, 1318"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

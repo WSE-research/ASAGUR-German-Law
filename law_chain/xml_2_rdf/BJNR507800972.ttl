@@ -1,0 +1,240 @@
+@prefix dtd: <urn:ZinsSatzV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405133100"@de ;
+    dtd:has_doknr "BJNR507800972"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:ABWFORMAT-id57 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id42 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DL-id38 a dtd:DL ;
+    dtd:has_DD dtd:DD-id41,
+        dtd:DD-id42 ;
+    dtd:has_DT dtd:DT-id39,
+        dtd:DT-id40 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:I-id36 a dtd:I ;
+    dtd:has_Value "zuletzt geändert durch die Verordnung PR Nr. 7/67 vom 12. Dezember 1967 (Bundesanzeiger Nr. 237 vom 19. Dezember 1967),"@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_I dtd:I-id36 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach Nummer 43 Abs. 2 der Anlage zur Verordnung PR Nr. 30/53 über die Preise bei öffentlichen Aufträgen vom 21. November 1953 (Bundesanzeiger Nr. 244 vom 18. Dezember 1953), zuletzt geändert durch die Verordnung PR Nr. 7/67 vom 12. Dezember 1967 (Bundesanzeiger Nr. 237 vom 19. Dezember 1967), und"@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach Nummer 35 Abs. 2 der Anlage zur Verordnung PR Nr. 1/72 über die Preise für Bauleistungen bei öffentlichen oder mit öffentlichen Mitteln finanzierten Aufträgen vom 6. März 1972 (Bundesgesetzbl. I S. 293)"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 26. 4.1972 +++)"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 2 des Preisgesetzes vom 10. April 1948 (Gesetz- und Verordnungsblatt des Wirtschaftsrates des Vereinigten Wirtschaftsgebietes S. 27), zuletzt geändert durch § 37 des Gesetzes über die Investitionshilfe der gewerblichen Wirtschaft vom 7. Januar 1952 (Bundesgesetzbl. I S. 7), wird verordnet:"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id57 ;
+    dtd:has_DL dtd:DL-id38 ;
+    dtd:has_Value "Der Höchstsatz für kalkulatorische Zinsen a)nach Nummer 43 Abs. 2 der Anlage zur Verordnung PR Nr. 30/53 über die Preise bei öffentlichen Aufträgen vom 21. November 1953 (Bundesanzeiger Nr. 244 vom 18. Dezember 1953), zuletzt geändert durch die Verordnung PR Nr. 7/67 vom 12. Dezember 1967 (Bundesanzeiger Nr. 237 vom 19. Dezember 1967), und b)nach Nummer 35 Abs. 2 der Anlage zur Verordnung PR Nr. 1/72 über die Preise für Bauleistungen bei öffentlichen oder mit öffentlichen Mitteln finanzierten Aufträgen vom 6. März 1972 (Bundesgesetzbl. I S. 293) beträgt 6 1/2 vom Hundert jährlich."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_SP dtd:SP-id37 ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft und Finanzen"@de .
+
+dtd:SP-id37 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft und Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1972-04-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id58 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id59 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "ZinsSatzV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "ZinsSatzV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "ZinsSatzV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "ZinsSatzV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "ZinsSatzV"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Verordnung PR Nr. 4/72 über die Bemessung des kalkulatorischen Zinssatzes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405133100"@de ;
+    dtd:has_doknr "BJNR507800972"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405133100"@de ;
+    dtd:has_doknr "BJNR507800972BJNE000100326"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405133100"@de ;
+    dtd:has_doknr "BJNR507800972BJNE000200326"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405133100"@de ;
+    dtd:has_doknr "BJNR507800972BJNE000300326"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405133100"@de ;
+    dtd:has_doknr "BJNR507800972BJNE000400326"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id58 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id59 a dtd:zitstelle ;
+    dtd:has_Value "1972, Nr 78"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

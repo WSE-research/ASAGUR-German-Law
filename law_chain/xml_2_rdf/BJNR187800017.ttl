@@ -1,0 +1,313 @@
+@prefix dtd: <urn:Münz20EuroBek-2017-06-15#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171108221555"@de ;
+    dtd:has_doknr "BJNR187800017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:jpg rdfs:label "jpg"@de .
+
+dtd:kommentar-id65 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2017, 1878)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53,
+        dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56,
+        dtd:P-id57,
+        dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_P dtd:P-id63 ;
+    dtd:has_table dtd:table-id36 .
+
+dtd:IMG-id48 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "204"@de ;
+    dtd:has_Pos dtd:inline ;
+    dtd:has_SRC "bgbl1_2017_j1878-1_0010.jpg"@de ;
+    dtd:has_Type "jpg"@de ;
+    dtd:has_Units "72"@de ;
+    dtd:has_Width "210"@de ;
+    dtd:has_alt ""@de .
+
+dtd:IMG-id49 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Height "204"@de ;
+    dtd:has_Pos dtd:inline ;
+    dtd:has_SRC "bgbl1_2017_j1878-1_0020.jpg"@de ;
+    dtd:has_Type "jpg"@de ;
+    dtd:has_Units "72"@de ;
+    dtd:has_Width "210"@de ;
+    dtd:has_alt ""@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value " (+++ Textnachweis ab: 24.6.2017 +++)"@de ;
+    dtd:has_pre dtd:pre-id64 .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Gemäß den §§ 2, 4 und 5 des Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung beschlossen, eine 20-Euro-Gedenkmünze „Laufmaschine von Karl Drais 1817“ prägen zu lassen. Mit der Laufmaschine (oder Draisine) wurde zum ersten Mal das Zweiradprinzip, die Bewegung eines Fahrzeugs mit zwei Rädern auf einer Spur, verwirklicht."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Die Auflage der Münze beträgt ca. 1,2 Millionen Stück, davon ca. 0,2 Millionen Stück in Spiegelglanzqualität. Die Prägung erfolgt durch die Staatlichen Münzen Baden-Württemberg, Prägestätte Karlsruhe (Prägezeichen G)."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Die Münze wird ab dem 13. Juli 2017 in den Verkehr gebracht. Sie besteht aus einer Legierung von 925 Tausendteilen Silber und 75 Tausendteilen Kupfer, hat einen Durchmesser von 32,5 Millimetern und eine Masse von 18 Gramm. Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden, glatten Randstab umgeben."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "Die Bildseite zeigt die Laufmaschine von Karl Drais in ihrer Anwendung durch einen Draisinenreiter."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Die Wertseite zeigt einen Adler, den Schriftzug „BUNDESREPUBLIK DEUTSCHLAND“, Wertziffer und Wertbezeichnung, das Prägezeichen „G“ der Staatlichen Münzen Baden-Württemberg, Prägestätte Karlsruhe, die Jahreszahl 2017 sowie die zwölf Europasterne. Zusätzlich ist die Angabe „SILBER 925“ aufgeprägt."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Der glatte Münzrand enthält in vertiefter Prägung die Inschrift: „200 JAHRE ZWEIRADPRINZIP“."@de ;
+    dtd:has_table dtd:table-id34 .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Der Entwurf der Münze stammt von dem Künstler Friedrich Brenner aus Diedorf."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_SP dtd:SP-id32 ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2017, 1878)"@de ;
+    dtd:has_noindex dtd:noindex-id33 .
+
+dtd:SP-id32 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-06-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id38 a dtd:colspec ;
+    dtd:has_colname "col1"@de .
+
+dtd:colspec-id40 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "82*"@de .
+
+dtd:colspec-id41 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "82*"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id45 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "„200 JAHRE ZWEIRADPRINZIP“."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_IMG dtd:IMG-id48 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id47 a dtd:entry ;
+    dtd:has_IMG dtd:IMG-id49 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2017-06-15"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2017-06-15"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2017-06-15"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "Münz20EuroBek 2017-06-15"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen im Nennwert von 20 Euro (Gedenkmünze „Laufmaschine von Karl Drais 1817“)"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id33 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171108221555"@de ;
+    dtd:has_doknr "BJNR187800017"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171108221555"@de ;
+    dtd:has_doknr "BJNR187800017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171108221555"@de ;
+    dtd:has_doknr "BJNR187800017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20171108221555"@de ;
+    dtd:has_doknr "BJNR187800017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id64 a dtd:pre ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30 ;
+    dtd:has_Value "(+++ Textnachweis ab: 24.6.2017 +++)"@de .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id45 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id46,
+        dtd:entry-id47 .
+
+dtd:table-id34 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "0"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id35 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id36 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id37 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id39 a dtd:tbody ;
+    dtd:has_row dtd:row-id43 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id42 a dtd:tbody ;
+    dtd:has_row dtd:row-id44 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:tgroup-id35 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colspec dtd:colspec-id38 ;
+    dtd:has_tbody dtd:tbody-id39 .
+
+dtd:tgroup-id37 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id40,
+        dtd:colspec-id41 ;
+    dtd:has_tbody dtd:tbody-id42 .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "2017, 1878"@de .
+
+dtd:inline rdfs:label "inline"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:left rdfs:label "left"@de .
+

@@ -1,0 +1,262 @@
+@prefix dtd: <urn:SGB11ÄndG-1#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154414"@de ;
+    dtd:has_doknr "BJNR083000996"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62,
+        dtd:P-id63 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value " (+++ Textnachweis ab: 25. 6.1996 +++)"@de ;
+    dtd:has_pre dtd:pre-id64 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Pflegekassen, die auf Grund der bisherigen Zuständigkeitsregelung nach § 112 Abs. 3 in Verbindung mit § 112 Abs. 1 Nr. 1 und 6 des Elften Buches Sozialgesetzbuch ein Bußgeldverfahren eingeleitet haben, bleiben für das weitere Verfahren bis zum Erlaß des Bußgeldbescheides zuständig."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Der Deutsche Bundestag und der Bundesrat prüfen im Laufe des Jahres 1999, ob und in welchem Umfang die Aufwendungen für die medizinische Behandlungspflege in stationären Pflegeeinrichtungen ab 1. Januar 2000 von der sozialen Pflegeversicherung oder der gesetzlichen Krankenversicherung zu tragen sind."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach der Verkündung in Kraft, soweit in Absatz 2 nichts Abweichendes bestimmt ist."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "1. SGB XI-ÄndG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-06-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 1 bis 5"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 7"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 8"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id65 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id66 .
+
+dtd:fussnoten-id40 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id51 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:fussnoten-id47 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SGB11ÄndG 1"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "SGB11ÄndG 1"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "SGB11ÄndG 1"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "SGB11ÄndG 1"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "SGB11ÄndG 1"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "SGB11ÄndG 1"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Erstes SGB XI-Änderungsgesetz"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value """Erstes Gesetz zur Änderung des Elften Buches
+Sozialgesetzbuch und anderer Gesetze"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154414"@de ;
+    dtd:has_doknr "BJNR083000996"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154414"@de ;
+    dtd:has_doknr "BJNR083000996BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154414"@de ;
+    dtd:has_doknr "BJNR083000996BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154414"@de ;
+    dtd:has_doknr "BJNR083000996BJNE000300310"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625154414"@de ;
+    dtd:has_doknr "BJNR083000996BJNE000400310"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625154414"@de ;
+    dtd:has_doknr "BJNR083000996BJNE000500310"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id65 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id64 a dtd:pre ;
+    dtd:has_Value "(+++ Textnachweis ab: 25. 6.1996 +++)"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung zur Bußgeldvorschrift"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value """Medizinische Behandlungspflege in stationären
+Pflegeeinrichtungen"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id66 a dtd:zitstelle ;
+    dtd:has_Value "1996, 830"@de .
+

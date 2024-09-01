@@ -1,0 +1,66 @@
+@prefix dtd: <urn:SchwarzArbVtr-NLD#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130930215540"@de ;
+    dtd:has_doknr "BJNR038020013"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id11 a dtd:BR .
+
+dtd:Content-id12 a dtd:Content ;
+    dtd:has_P dtd:P-id13 .
+
+dtd:P-id13 a dtd:P ;
+    dtd:has_BR dtd:BR-id11 ;
+    dtd:has_Value "G v. 8.4.2013 II 378 Inkraft gem. Bek. v. 2.8.2013 II 1222 mWv 1.10.2013"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-01-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id14 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id15 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id12 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "SchwarzArbVtr NLD"@de .
+
+dtd:kurzue-id8 a dtd:kurzue ;
+    dtd:has_Value "Deutsch-Niederländischer Vertrag zur Bekämpfung grenzüberschreitender Schwarzarbeit"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value "Vertrag zwischen der Bundesrepublik Deutschland und dem Königreich der Niederlande über die Zusammenarbeit bei der Bekämpfung des grenzüberschreitenden Missbrauchs bei Sozialversicherungsleistungen und -beiträgen durch Erwerbstätigkeit und bei Leistungen der Grundsicherung für Arbeitsuchende sowie von nicht angemeldeter Erwerbstätigkeit und illegaler grenzüberschreitender Leiharbeit"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_kurzue dtd:kurzue-id8 ;
+    dtd:has_langue dtd:langue-id9 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130930215540"@de ;
+    dtd:has_doknr "BJNR038020013"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id14 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 .
+
+dtd:zitstelle-id15 a dtd:zitstelle ;
+    dtd:has_Value "2013, 380"@de .
+

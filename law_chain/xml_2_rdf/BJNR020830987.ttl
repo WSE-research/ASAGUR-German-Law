@@ -1,0 +1,231 @@
+@prefix dtd: <urn:WZG§35Abs4Bek-1987-07-28#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150359"@de ;
+    dtd:has_doknr "BJNR020830987"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 15. 8.1987 +++)"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "Auf Grund des § 35 Abs. 4 des Warenzeichengesetzes in der Fassung der Bekanntmachung vom 2. Januar 1968 (BGBl. I S. 1, 29), eingefügt durch Artikel 2 Abs. 1 Nr. 10 des Gesetzes vom 15. August 1986 (BGBl. I S. 1446), wird bekanntgemacht, daß im Verhältnis zu Brasilien,Liechtenstein,Marokko,der Sowjetunion,der Tschechoslowakei,VietnamGegenseitigkeit bei der Gewährung der Priorität für Dienstleistungsmarken besteht."@de ;
+    dtd:has_table dtd:table-id25 .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1987-07-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id27 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:entry-id35 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Brasilien,"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id36 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Liechtenstein,"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id37 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Marokko,"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id38 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "der Sowjetunion,"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id39 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "der Tschechoslowakei,"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id40 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vietnam"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id43 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "WZG§35Abs4Bek 1987-07-28"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "WZG§35Abs4Bek 1987-07-28"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "WZG§35Abs4Bek 1987-07-28"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 35 Abs. 4 des Warenzeichengesetzes"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150359"@de ;
+    dtd:has_doknr "BJNR020830987"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150359"@de ;
+    dtd:has_doknr "BJNR020830987BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150359"@de ;
+    dtd:has_doknr "BJNR020830987BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id29 a dtd:row ;
+    dtd:has_entry dtd:entry-id35 .
+
+dtd:row-id30 a dtd:row ;
+    dtd:has_entry dtd:entry-id36 .
+
+dtd:row-id31 a dtd:row ;
+    dtd:has_entry dtd:entry-id37 .
+
+dtd:row-id32 a dtd:row ;
+    dtd:has_entry dtd:entry-id38 .
+
+dtd:row-id33 a dtd:row ;
+    dtd:has_entry dtd:entry-id39 .
+
+dtd:row-id34 a dtd:row ;
+    dtd:has_entry dtd:entry-id40 .
+
+dtd:table-id25 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id26 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id28 a dtd:tbody ;
+    dtd:has_row dtd:row-id29,
+        dtd:row-id30,
+        dtd:row-id31,
+        dtd:row-id32,
+        dtd:row-id33,
+        dtd:row-id34 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:tgroup-id26 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colspec dtd:colspec-id27 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id28 .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "1987, 2083"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

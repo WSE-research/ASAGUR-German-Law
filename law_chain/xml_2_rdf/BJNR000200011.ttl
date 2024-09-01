@@ -1,0 +1,379 @@
+@prefix dtd: <urn:BATZV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79,
+        dtd:P-id80,
+        dtd:P-id81 .
+
+dtd:Content-id82 a dtd:Content ;
+    dtd:has_P dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85,
+        dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DL-id65 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id66,
+        dtd:DT-id67 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Value "als Ressortquote für sich und ihren nachgeordneten Geschäftsbereich oder"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Value "als Behördenquote für jede Behörde oder Dienststelle ihres Geschäftsbereichs oder für mehrere Behörden oder Dienststellen gemeinsam."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_BR dtd:BR-id62 ;
+    dtd:has_Value " (+++ Textnachweis ab: 18.1.2011 +++)"@de ;
+    dtd:has_pre dtd:pre-id91 .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 93 Absatz 5 des Bundesbeamtengesetzes, der durch Artikel 11 Nummer 2 Buchstabe a des Gesetzes vom 19. November 2010 (BGBl. I S. 1552) eingefügt worden ist, verordnet das Bundesministerium des Innern im Einvernehmen mit dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Restrukturierungs- und Stellenabbaubereiche nach § 93 Absatz 3 Satz 1 Nummer 4 des Bundesbeamtengesetzes legt die oberste Dienstbehörde im Einvernehmen mit dem Bundesministerium der Finanzen und dem Haushaltsausschuss des Deutschen Bundestages fest."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "(1) Die Quote für die Altersteilzeit nach § 93 Absatz 4 des Bundesbeamtengesetzes wird jährlich für das laufende Kalenderjahr auf der Grundlage der Statistik nach § 1 Nummer 4 des Finanz- und Personalstatistikgesetzes aus dem Verhältnis der Zahl der Beamtinnen und Beamten und der Zahl der bestehenden Altersteilzeitverhältnisse ermittelt. Bei der Ermittlung der Quote werden auch beurlaubte Beamtinnen und Beamte berücksichtigt; Beamtinnen und Beamte auf Widerruf im Vorbereitungsdienst werden nicht berücksichtigt. Stichtag für die Ermittlung der Quote ist der 30. Juni des Vorjahres."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_DL dtd:DL-id65 ;
+    dtd:has_Value "(2) Die oberste Dienstbehörde kann die Quote ermitteln 1.als Ressortquote für sich und ihren nachgeordneten Geschäftsbereich oder2.als Behördenquote für jede Behörde oder Dienststelle ihres Geschäftsbereichs oder für mehrere Behörden oder Dienststellen gemeinsam."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(3) Ergeben sich bei der Berechnung der Zahl der Beamtinnen und Beamten, denen Altersteilzeit bewilligt werden kann, Bruchteile, so wird auf ganze Zahlen abgerundet."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "Altersteilzeit kann frühestens ein Jahr vor Erfüllung der Voraussetzungen nach § 93 Absatz 3 oder Absatz 4 des Bundesbeamtengesetzes und spätestens drei Monate vor Beginn der Altersteilzeit beantragt werden. Sie kann entweder im Blockmodell oder im Teilzeitmodell bis zum Eintritt in den Ruhestand beantragt werden."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "(1) Über den Antrag auf Altersteilzeit entscheidet die Dienstbehörde unter Berücksichtigung der dienstlichen Belange. Beamtinnen und Beamten, die vor der Altersteilzeit teilzeitbeschäftigt waren, kann Altersteilzeit nur im Blockmodell bewilligt werden. In diesem Fall werden die Zeiten der Freistellung von der Arbeit in der Weise zusammengefasst, dass vor der Freistellung mit mindestens der Hälfte der regelmäßigen Arbeitszeit Dienst zu leisten ist. Im Fall des § 92 Absatz 1, des § 92a oder des § 92b des Bundesbeamtengesetzes oder bei Teilzeitbeschäftigung während der Elternzeit ist mindestens im Umfang der bisherigen Teilzeitbeschäftigung Dienst zu leisten. Geringfügige Unterschreitungen des notwendigen Umfangs der Arbeitszeit bleiben in beiden Fällen unberücksichtigt."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "(2) Im Fall der Überschreitung der Quote nach § 93 Absatz 4 des Bundesbeamtengesetzes ist über die Anträge in der Reihenfolge der Zeitpunkte zu entscheiden, zu denen die persönlichen Bewilligungsvoraussetzungen erfüllt sind, hilfsweise in der Reihenfolge des Eingangs der Anträge."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Soweit vor dem Inkrafttreten dieser Verordnung Stellenabbaubereiche auf Grund des § 93 Absatz 1 Nummer 1 Buchstabe c des Bundesbeamtengesetzes festgelegt worden sind, gelten diese Festlegungen fort."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2011-01-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id92 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id93 .
+
+dtd:fussnoten-id53 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id72 .
+
+dtd:fussnoten-id59 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "BATZV"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "Beamtenaltersteilzeitverordnung"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Altersteilzeit von Beamtinnen und Beamten des Bundes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 ;
+    dtd:has_standangabe dtd:standangabe-id32 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011BJNE000502116"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20170124220501"@de ;
+    dtd:has_doknr "BJNR000200011BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id92 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id91 a dtd:pre ;
+    dtd:has_BR dtd:BR-id63,
+        dtd:BR-id64 ;
+    dtd:has_Value "(+++ Textnachweis ab: 18.1.2011 +++)"@de .
+
+dtd:standangabe-id32 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id95 ;
+    dtd:has_standtyp dtd:standtyp-id94 .
+
+dtd:standkommentar-id95 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 10 Abs. 1 G v. 19.10.2016 I 2362"@de .
+
+dtd:standtyp-id94 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id82 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Festlegung der Restrukturierungs- und Stellenabbaubereiche"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Ermittlung der Quote"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Antrag"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Bewilligung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Übergangsvorschrift"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id93 a dtd:zitstelle ;
+    dtd:has_Value "2011, 2"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

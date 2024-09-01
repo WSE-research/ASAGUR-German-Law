@@ -1,0 +1,181 @@
+@prefix dtd: <urn:FVG1971§5Abs7S4StVV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130702220145"@de ;
+    dtd:has_doknr "BJNR168000013"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37,
+        dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29.6.2013 +++)Die V wurde als Artikel 3 der V v. 24.6.2013 I 1679, 1680 von der Bundesregierung und dem Bundesministerium der Finanzen mit Zustimmung des Bundesrates beschlossen. Sie ist gem. Art. 4 dieser V am 29.6.2013 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id43 .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(1) Das auf die Länder einschließlich ihrer Gemeinden entfallende Aufkommen des Bundeszentralamts für Steuern aus der Ausübung der Aufgabe nach § 5 Absatz 1 Nummer 12 des Finanzverwaltungsgesetzes gebührt dem Land, dessen Finanzbehörde für die Besteuerung vom Einkommen des Vergütungsschuldners örtlich zuständig ist. Ist der Vergütungsschuldner keine Körperschaft und stimmen Betriebs- und Wohnsitzfinanzamt nicht überein, ist das Betriebsfinanzamt maßgebend."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(2) Sofern eine Veranlagung nach § 50 Absatz 2 Satz 2 Nummer 5 des Einkommensteuergesetzes beantragt wird und der hierauf anzurechnende Steuerabzug nach § 50a des Einkommensteuergesetzes von Vergütungsschuldnern vorgenommen wurde, für deren Besteuerung vom Einkommen Finanzbehörden verschiedener Länder örtlich zuständig sind, steht der auf die Länder einschließlich ihrer Gemeinden entfallende Anteil am Zahl- oder Erstattungsbetrag dem Land zu, dessen Finanzbehörde nach Maßgabe der Abgabenordnung für die Veranlagung zuständig gewesen wäre."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Ist keine Zuordnung der Einnahmen zu einem Land nach § 1 möglich, sind die Einnahmen nach dem Verhältnis der für diesen Feststellungszeitraum nach § 1 auf die Länder festgestellten Anteile auszuzahlen."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Nach Ablauf eines jeden Monats stellt das Bundeszentralamt für Steuern die Anteile der einzelnen Länder getrennt nach Steuerarten oder Steuererhebungsarten fest."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2013-06-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id44 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id45 .
+
+dtd:fussnoten-id27 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "FVG1971§5Abs7S4StVV"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "FVG1971§5Abs7S4StVV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "FVG1971§5Abs7S4StVV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "FVG1971§5Abs7S4StVV"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Verteilung des Steueraufkommens aus dem Steuerabzugs- und Veranlagungsverfahren nach § 5 Absatz 7 Satz 4 des Finanzverwaltungsgesetzes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130702220145"@de ;
+    dtd:has_doknr "BJNR168000013"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130702220145"@de ;
+    dtd:has_doknr "BJNR168000013BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130702220145"@de ;
+    dtd:has_doknr "BJNR168000013BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130702220145"@de ;
+    dtd:has_doknr "BJNR168000013BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id44 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id43 a dtd:pre ;
+    dtd:has_BR dtd:BR-id32,
+        dtd:BR-id33 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.6.2013 +++)"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Grundregel"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Verteilung bei gebietsfremden Vergütungsschuldnern"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Verfahren zur Verteilung des Steueraufkommens"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id45 a dtd:zitstelle ;
+    dtd:has_Value "2013, 1679, 1680"@de .
+

@@ -1,0 +1,371 @@
+@prefix dtd: <urn:LuftVStAbsenkV-2020/2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200714212508"@de ;
+    dtd:has_doknr "BJNR076200020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72 .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Value "in einem Land der Anlage 1 zu dem Gesetz:12,90 Euro,"@de ;
+    dtd:has_table dtd:table-id39 .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Value "in einem Land der Anlage 2 zu dem Gesetz:32,67 Euro,"@de ;
+    dtd:has_table dtd:table-id41 .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_Value "in anderen Ländern:58,82 Euro."@de ;
+    dtd:has_table dtd:table-id43 .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.4.2020 +++)"@de ;
+    dtd:has_pre dtd:pre-id81 .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 11 Absatz 2 des Luftverkehrsteuergesetzes, der zuletzt durch Artikel 1 Nummer 6 Buchstabe b des Gesetzes vom 12. Dezember 2019 (BGBl. I S. 2492) geändert worden ist, in Verbindung mit § 1 Absatz 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 14. März 2018 (BGBl. I S. 374) verordnet das Bundesministerium der Finanzen im Einvernehmen mit dem Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit, dem Bundesministerium für Verkehr und digitale Infrastruktur und dem Bundesministerium für Wirtschaft und Energie:"@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Value "Unter Einbeziehung des Luftverkehrs in den Handel mit Treibhausgasemissionszertifikaten werden die Steuersätze des § 11 Absatz 1 Nummer 1 bis 3 des Gesetzes für die Zeit vom 1. April 2020 bis 31. Dezember 2020 abgesenkt. Die Steuer beträgt je Fluggast für Flüge mit einem Zielort 1.in einem Land der Anlage 1 zu dem Gesetz:12,90 Euro,2.in einem Land der Anlage 2 zu dem Gesetz:32,67 Euro,3.in anderen Ländern:58,82 Euro."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. April 2020 in Kraft. Gleichzeitig tritt die Luftverkehrsteuer-Absenkungsverordnung 2020 vom 29. November 2019 (BGBl. I S. 2033) außer Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "LuftVStAbsenkV 2020"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-04-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id45 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id46 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id48 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id49 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:colspec-id51 a dtd:colspec ;
+    dtd:has_align dtd:left ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:colspec-id52 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "rightSplit"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_Value "in einem Land der Anlage 1 zu dem Gesetz:"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_Value "12,90 Euro,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_Value "in einem Land der Anlage 2 zu dem Gesetz:"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_Value "32,67 Euro,"@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_Value "in anderen Ländern:"@de ;
+    dtd:has_colname "leftSplit"@de .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_Value "58,82 Euro."@de ;
+    dtd:has_colname "rightSplit"@de ;
+    dtd:has_valign dtd:bottom .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id82 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id83 .
+
+dtd:fussnoten-id32 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id73 .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2020/2"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2020/2"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2020"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2020/2"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2020"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2020/2"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "LuftVStAbsenkV 2020"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Luftverkehrsteuer-Absenkungsverordnung 2020"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Absenkung der Steuersätze im Jahr 2020 nach § 11 Absatz 2 des Luftverkehrsteuergesetzes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id24,
+        dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id28,
+        dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 ;
+    dtd:has_standangabe dtd:standangabe-id20 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id21,
+        dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200714212508"@de ;
+    dtd:has_doknr "BJNR076200020"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200714212508"@de ;
+    dtd:has_doknr "BJNR076200020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200714212508"@de ;
+    dtd:has_doknr "BJNR076200020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200714212508"@de ;
+    dtd:has_doknr "BJNR076200020BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id82 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id81 a dtd:pre ;
+    dtd:has_BR dtd:BR-id37,
+        dtd:BR-id38 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.4.2020 +++)"@de .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id57,
+        dtd:entry-id58 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id59,
+        dtd:entry-id60 .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id61,
+        dtd:entry-id62 .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id85 ;
+    dtd:has_standtyp dtd:standtyp-id84 .
+
+dtd:standkommentar-id85 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 611-19-1-5 v. 29.11.2019 I 2033 (LuftVStAbsenkV 2020)"@de .
+
+dtd:standtyp-id84 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:table-id39 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id40 .
+
+dtd:table-id41 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id42 .
+
+dtd:table-id43 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id44 .
+
+dtd:tbody-id47 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id54 .
+
+dtd:tbody-id50 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id55 .
+
+dtd:tbody-id53 a dtd:tbody ;
+    dtd:has_Class "Split"@de ;
+    dtd:has_row dtd:row-id56 .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:tgroup-id40 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id45,
+        dtd:colspec-id46 ;
+    dtd:has_tbody dtd:tbody-id47 .
+
+dtd:tgroup-id42 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id48,
+        dtd:colspec-id49 ;
+    dtd:has_tbody dtd:tbody-id50 .
+
+dtd:tgroup-id44 a dtd:tgroup ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id51,
+        dtd:colspec-id52 ;
+    dtd:has_tbody dtd:tbody-id53 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Steuersätze 2020"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id83 a dtd:zitstelle ;
+    dtd:has_Value "2020, 762"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

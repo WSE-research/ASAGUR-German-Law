@@ -1,0 +1,454 @@
+@prefix dtd: <urn:PatKostZV-2004#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220228213030"@de ;
+    dtd:has_doknr "BJNR208300003"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102 .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104 .
+
+dtd:Content-id105 a dtd:Content ;
+    dtd:has_P dtd:P-id106 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92 .
+
+dtd:Content-id93 a dtd:Content ;
+    dtd:has_P dtd:P-id94 .
+
+dtd:Content-id95 a dtd:Content ;
+    dtd:has_P dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id100,
+        dtd:P-id98,
+        dtd:P-id99 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id81 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id82 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DL-id59 a dtd:DL ;
+    dtd:has_DD dtd:DD-id65,
+        dtd:DD-id66,
+        dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id60,
+        dtd:DT-id61,
+        dtd:DT-id62,
+        dtd:DT-id63,
+        dtd:DT-id64 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74,
+        dtd:DT-id75 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Bareinzahlung bei den Geldstellen des Deutschen Patent- und Markenamts;"@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Überweisung auf ein Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt;"@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Bareinzahlung bei einem inländischen oder ausländischen Geldinstitut auf ein Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt;"@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Erteilung eines gültigen SEPA-Basislastschriftmandats mit Angaben zum Verwendungszweck;"@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch elektronisch übermittelte Zahlung auf ein Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt in Marken- und Designverfahren, wenn das Zahlungsmittel für die betreffende Verfahrenshandlung auf der Internetseite des Deutschen Patent- und Markenamts www.dpma.de bekannt gegeben ist."@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Bareinzahlung der Tag der Einzahlung;"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Überweisungen der Tag, an dem der Betrag dem Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt gutgeschrieben wird;"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Bareinzahlung auf das Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt der Tag der Einzahlung;"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Erteilung eines SEPA-Basislastschriftmandats mit Angaben zum Verwendungszweck, der die Kosten umfasst, der Tag des Eingangs beim Deutschen Patent- und Markenamt oder beim Bundespatentgericht, bei zukünftig fällig werdenden Kosten der Tag der Fälligkeit, sofern die Einziehung zu Gunsten der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt erfolgt. Wird das SEPA-Basislastschriftmandat durch Telefax übermittelt, ist dessen Original innerhalb einer Frist von einem Monat nach Eingang des Telefax nachzureichen. Andernfalls gilt als Zahlungstag der Tag des Eingangs des Originals;"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei elektronisch übermittelter Zahlung der Tag, an dem der Betrag dem Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt gutgeschrieben wird; bei Kartenzahlverfahren und dem Einsatz elektronischer Zahlungssysteme der Tag der Akzeptanz."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "(3) Das Deutsche Patent- und Markenamt macht im Blatt für Patent-, Muster- und Zeichenwesen bekannt, unter welchen Bedingungen Sammelzahlungen auf ein Konto bei der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt zulässig und welche Angaben bei der Zahlung erforderlich sind."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Value "Als Zahlungstag gilt 1.bei Bareinzahlung der Tag der Einzahlung;2.bei Überweisungen der Tag, an dem der Betrag dem Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt gutgeschrieben wird;3.bei Bareinzahlung auf das Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt der Tag der Einzahlung;4.bei Erteilung eines SEPA-Basislastschriftmandats mit Angaben zum Verwendungszweck, der die Kosten umfasst, der Tag des Eingangs beim Deutschen Patent- und Markenamt oder beim Bundespatentgericht, bei zukünftig fällig werdenden Kosten der Tag der Fälligkeit, sofern die Einziehung zu Gunsten der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt erfolgt. Wird das SEPA-Basislastschriftmandat durch Telefax übermittelt, ist dessen Original innerhalb einer Frist von einem Monat nach Eingang des Telefax nachzureichen. Andernfalls gilt als Zahlungstag der Tag des Eingangs des Originals;5.bei elektronisch übermittelter Zahlung der Tag, an dem der Betrag dem Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt gutgeschrieben wird; bei Kartenzahlverfahren und dem Einsatz elektronischer Zahlungssysteme der Tag der Akzeptanz."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "Abbuchungsaufträge, die nach § 1 Nr. 4 der Patentkostenzahlungsverordnung vom 20. Dezember 2001 (BGBl. I S. 3853) für künftig fällig werdende Gebühren erteilt worden sind, werden am 1. Januar 2004 gegenstandslos. Für Einziehungsaufträge, die nach § 1 Nr. 5 der in Satz 1 genannten Verordnung für künftig fällig werdende Gebühren erteilt worden sind, gilt § 2 Nr. 4 entsprechend."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 2004 in Kraft."@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_BR dtd:BR-id56 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 1.2004 +++)"@de ;
+    dtd:has_pre dtd:pre-id107 .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 1 Abs. 2 Nr. 2 des Patentkostengesetzes vom 13. Dezember 2001 (BGBl. I S. 3656) verordnet das Bundesministerium der Justiz:"@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_DL dtd:DL-id59 ;
+    dtd:has_Value "(1) Kosten des Deutschen Patent- und Markenamts und des Bundespatentgerichts können gezahlt werden 1.durch Bareinzahlung bei den Geldstellen des Deutschen Patent- und Markenamts;2.durch Überweisung auf ein Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt;3.durch Bareinzahlung bei einem inländischen oder ausländischen Geldinstitut auf ein Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt;4.durch Erteilung eines gültigen SEPA-Basislastschriftmandats mit Angaben zum Verwendungszweck;5.durch elektronisch übermittelte Zahlung auf ein Konto der zuständigen Bundeskasse für das Deutsche Patent- und Markenamt in Marken- und Designverfahren, wenn das Zahlungsmittel für die betreffende Verfahrenshandlung auf der Internetseite des Deutschen Patent- und Markenamts www.dpma.de bekannt gegeben ist."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(2) Bei Zahlungen an das Deutsche Patent- und Markenamt sollen für eine Erklärung nach Absatz 1 Nummer 4 die über die Internetseite www.dpma.de bereitgestellten Formulare verwendet werden."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "PatKostZV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2003-10-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id108 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id109 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id93 .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:fussnoten-id52 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV 2004"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV 2004"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV 2004"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV 2004"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV 2004"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV 2004"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "PatKostZV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Patentkostenzahlungsverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Zahlung der Kosten des Deutschen Patent- und Markenamts und des Bundespatentgerichts"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id27,
+        dtd:jurabk-id28 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id30,
+        dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id34,
+        dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id38,
+        dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id42,
+        dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220228213030"@de ;
+    dtd:has_doknr "BJNR208300003"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220228213030"@de ;
+    dtd:has_doknr "BJNR208300003BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220228213030"@de ;
+    dtd:has_doknr "BJNR208300003BJNE000202125"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220228213030"@de ;
+    dtd:has_doknr "BJNR208300003BJNE000302125"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220228213030"@de ;
+    dtd:has_doknr "BJNR208300003BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220228213030"@de ;
+    dtd:has_doknr "BJNR208300003BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id108 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id107 a dtd:pre ;
+    dtd:has_BR dtd:BR-id57,
+        dtd:BR-id58 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.2004 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id111 ;
+    dtd:has_standtyp dtd:standtyp-id110 .
+
+dtd:standkommentar-id111 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 V v. 7.2.2022 I 171"@de .
+
+dtd:standtyp-id110 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id95 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id103 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id105 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Zahlungswege"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Zahlungstag"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id109 a dtd:zitstelle ;
+    dtd:has_Value "2003, 2083"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

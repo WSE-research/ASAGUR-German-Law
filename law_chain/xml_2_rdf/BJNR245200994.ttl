@@ -1,0 +1,235 @@
+@prefix dtd: <urn:DKfAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160127215040"@de ;
+    dtd:has_doknr "BJNR245200994"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45,
+        dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52 .
+
+dtd:DD-id34 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id39 .
+
+dtd:DD-id35 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id40 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DL-id28 a dtd:DL ;
+    dtd:has_DD dtd:DD-id34,
+        dtd:DD-id35,
+        dtd:DD-id36,
+        dtd:DD-id37,
+        dtd:DD-id38 ;
+    dtd:has_DT dtd:DT-id29,
+        dtd:DT-id30,
+        dtd:DT-id31,
+        dtd:DT-id32,
+        dtd:DT-id33 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id29 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id30 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id31 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id32 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id39 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Versorgung der früheren Angehörigen des öffentlichen Dienstes und ihrer Hinterbliebenen regelt sich nach den §§ 69 und 69a des Beamtenversorgungsgesetzes."@de .
+
+dtd:LA-id40 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Versorgungszahlungen an frühere Bedienstete jüdischer Gemeinden oder öffentlicher Einrichtungen sowie an ihre versorgungsberechtigten Hinterbliebenen regeln sich nach dem bisherigen Recht."@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beihilfen und Unterstützungen werden mit den Maßgaben des bisherigen Rechts gewährt."@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Versorgung nach dem Bundesversorgungsgesetz wird mit den Maßgaben des bisherigen Rechts gewährt."@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Im übrigen regeln sich die Rechtsverhältnisse, sonstigen Ansprüche, Zuständigkeiten, Zahlungspflichten und die Abwicklung der Ansprüche nach dem bisherigen Recht; es verbleibt bei der am Tage vor dem Inkrafttreten dieses Gesetzes bestehenden Zuständigkeit der obersten Dienstbehörde."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1.10.1994 +++)"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value " Das G wurde als Artikel 3 G v. 20.9.1994 I 2442 (BeamtVGÄndG 1993) vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 12 Abs. 1 dieses G am 1.10.1994 in Kraft getreten."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_DL dtd:DL-id28 ;
+    dtd:has_Value "(1) Nach dem Inkrafttreten dieses Gesetzes können Ansprüche nach den in § 1 aufgeführten Rechtsvorschriften nicht mehr geltend gemacht werden; für die Regelung und Abwicklung der Ansprüche, die bis zu diesem Zeitpunkt entstanden sind, gilt folgendes: 1.Die Versorgung der früheren Angehörigen des öffentlichen Dienstes und ihrer Hinterbliebenen regelt sich nach den §§ 69 und 69a des Beamtenversorgungsgesetzes.2.Die Versorgungszahlungen an frühere Bedienstete jüdischer Gemeinden oder öffentlicher Einrichtungen sowie an ihre versorgungsberechtigten Hinterbliebenen regeln sich nach dem bisherigen Recht.3.Beihilfen und Unterstützungen werden mit den Maßgaben des bisherigen Rechts gewährt.4.Versorgung nach dem Bundesversorgungsgesetz wird mit den Maßgaben des bisherigen Rechts gewährt.5.Im übrigen regeln sich die Rechtsverhältnisse, sonstigen Ansprüche, Zuständigkeiten, Zahlungspflichten und die Abwicklung der Ansprüche nach dem bisherigen Recht; es verbleibt bei der am Tage vor dem Inkrafttreten dieses Gesetzes bestehenden Zuständigkeit der obersten Dienstbehörde."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(2) Die Durchführung der Nachversicherung und die Erstattung regeln sich nach dem bisherigen Recht mit der Maßgabe, dass für Nachversicherungen, die nach dem 31. Dezember 2004 erfolgen, diese als in der allgemeinen Rentenversicherung durchgeführt gelten. Zur Erstattung der Verwaltungskosten für Rentenfälle mit nachversicherten Zeiten werden den Trägern der gesetzlichen Rentenversicherung 1,1 vom Hundert der zu erstattenden Rentenbeträge gewährt."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(3) Die Zuständigkeit für die Wahrnehmung der in den Absätzen 1 und 2 genannten Aufgaben, die mit Ablauf des 31. Dezember 2007 auf die Bundesfinanzdirektionen – Service-Center Versorgung – im Geschäftsbereich des Bundesministeriums der Finanzen übergegangen ist, geht mit Ablauf des 31. Dezember 2015 auf die Generalzolldirektion über."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "DKfAG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-09-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id53 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id54 .
+
+dtd:fussnoten-id22 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:fussnoten-id24 a dtd:fussnoten .
+
+dtd:fussnoten-id26 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "DKfAG"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "DKfAG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "DKfAG"@de .
+
+dtd:langue-id15 a dtd:langue ;
+    dtd:has_Value "Dienstrechtliches Kriegsfolgen-Abschlußgesetz"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id15 ;
+    dtd:has_standangabe dtd:standangabe-id16 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 ;
+    dtd:has_titel dtd:titel-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160127215040"@de ;
+    dtd:has_doknr "BJNR245200994"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160127215040"@de ;
+    dtd:has_doknr "BJNR245200994BJNE000100320"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160127215040"@de ;
+    dtd:has_doknr "BJNR245200994BJNE000204116"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id53 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id16 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id56 ;
+    dtd:has_standtyp dtd:standtyp-id55 .
+
+dtd:standkommentar-id56 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 8 Abs. 1 G v. 3.12.2015 I 2178"@de .
+
+dtd:standtyp-id55 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id22 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:titel-id21 a dtd:titel ;
+    dtd:has_Value "Regelung zur Besitzstandswahrung, Nachversicherung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id54 a dtd:zitstelle ;
+    dtd:has_Value "1994, 2442, 2452"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

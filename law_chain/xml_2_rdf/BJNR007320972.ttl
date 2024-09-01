@@ -1,0 +1,492 @@
+@prefix dtd: <urn:EssigV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101,
+        dtd:P-id102,
+        dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109,
+        dtd:P-id110,
+        dtd:P-id111,
+        dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id99 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DL-id68 a dtd:DL ;
+    dtd:has_DD dtd:DD-id72,
+        dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id69,
+        dtd:DT-id70,
+        dtd:DT-id71 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id75 a dtd:DL ;
+    dtd:has_DD dtd:DD-id80,
+        dtd:DD-id81,
+        dtd:DD-id82,
+        dtd:DD-id83 ;
+    dtd:has_DT dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id84 a dtd:DL ;
+    dtd:has_DD dtd:DD-id87,
+        dtd:DD-id88 ;
+    dtd:has_DT dtd:DT-id85,
+        dtd:DT-id86 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Essiggärung aus weingeisthaltigen Flüssigkeiten, auch unter Verdünnen mit Wasser (Gärungsessig),"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Verdünnen von Essigsäure oder Essigessenz mit Wasser oder"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Vermischen von Gärungsessig mit Essigsäure, Essigessenz oder Essig aus Essigessenz."@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gärungsessig als „Essig“ in Verbindung mit der Angabe der Ausgangs- und Rohstoffe;"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Essig aus Essigsäure als „Essig aus Essigsäure“; Essig aus Essigessenz als „Essig aus Essigessenz“;"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "mit Essigessenz oder Essig aus Essigessenz vermischter Gärungsessig als „Essig“ mit dem Hinweis „hergestellt unter Zusatz von Essigessenz“;"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "mit Essigsäure oder Essig aus Essigsäure vermischter Gärungsessig als „Essig“ mit dem Hinweis „hergestellt unter Zusatz von Essigsäure“."@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Nach § 59 Abs. 1 Nr. 21 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches wird bestraft, wer entgegen § 4 Absatz 1 oder 2 Essig oder Essigessenz, die nicht oder nicht in der vorgeschriebenen Weise gekennzeichnet sind, in den Verkehr bringt."@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Wer eine in den Absätzen 1 und 2 bezeichnete Handlung fahrlässig begeht, handelt nach § 60 Abs. 1 des Lebensmittel- und Futtermittelgesetzbuches ordnungswidrig."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_DL dtd:DL-id68 ;
+    dtd:has_Value "(1) Essig im Sinne dieser Verordnung ist das Erzeugnis, das in 100 Millilitern mindestens 5 Gramm und höchstens 15,5 Gramm Säure, berechnet als wasserfreie Essigsäure, enthält und hergestellt ist 1.durch Essiggärung aus weingeisthaltigen Flüssigkeiten, auch unter Verdünnen mit Wasser (Gärungsessig),2.durch Verdünnen von Essigsäure oder Essigessenz mit Wasser oder3.durch Vermischen von Gärungsessig mit Essigsäure, Essigessenz oder Essig aus Essigessenz."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(2) Essigessenz im Sinne dieser Verordnung ist gereinigte, mit Wasser verdünnte Essigsäure, die in 100 Gramm mehr als 15,2 Gramm (15,5 Gramm je 100 Milliliter), jedoch höchstens 25 Gramm wasserfreie Essigsäure enthält."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(3) Für Weinessig gilt die Begriffsbestimmung in Anhang VII Teil II Nr. 17 der Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 922/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 (ABl. L 347 vom 20.12.2013, S. 671) in der jeweils geltenden Fassung. Im übrigen gelten die Vorschriften dieser Verordnung."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "Essig, der in 100 Millilitern mehr als 11 Gramm Säure, berechnet als wasserfreie Essigsäure, enthält, und Essigessenz dürfen nur in verschlossenen Behältnissen in den Verkehr gebracht werden, die den zu erwartenden Beanspruchungen sicher widerstehen und aus Werkstoffen hergestellt sind, die von Essigessenz nicht angegriffen werden und mit ihr nicht in gefährlicher Weise reagieren. Die Behältnisse müssen in deutscher Sprache und in deutlich sichtbarer, leicht lesbarer Schrift mit dem Hinweis „Vorsicht! Nicht unverdünnt genießen!“ versehen sein."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_DL dtd:DL-id75 ;
+    dtd:has_Value "(1) Essig darf nur in den Verkehr gebracht werden, wenn er wie folgt gekennzeichnet ist: 1.Gärungsessig als „Essig“ in Verbindung mit der Angabe der Ausgangs- und Rohstoffe;2.Essig aus Essigsäure als „Essig aus Essigsäure“; Essig aus Essigessenz als „Essig aus Essigessenz“;3.mit Essigessenz oder Essig aus Essigessenz vermischter Gärungsessig als „Essig“ mit dem Hinweis „hergestellt unter Zusatz von Essigessenz“;4.mit Essigsäure oder Essig aus Essigsäure vermischter Gärungsessig als „Essig“ mit dem Hinweis „hergestellt unter Zusatz von Essigsäure“."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(2) Essigessenz darf nur in den Verkehr gebracht werden, wenn sie als solche gekennzeichnet ist."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(3) Der Gehalt an Essigsäure und anderen Säuren, die den verwendeten Ausgangs- oder Rohstoffen oder erlaubten Zusätzen entstammen (Gesamtsäuregehalt), ist, berechnet als wasserfreie Essigsäure, bei Essig in Gramm je 100 Milliliter, bei Essigessenz in Gramm je 100 Gramm mit den Worten „…% Säure“ anzugeben."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(4) Für die Art und Weise der Angaben nach den Absätzen 1 bis 3 gelten Artikel 12 Absatz 1 und 2 und Artikel 13 Absatz 1 bis 3 der Verordnung (EU) Nr. 1169/2011 des Europäischen Parlaments und des Rates vom 25. Oktober 2011 betreffend die Information der Verbraucher über Lebensmittel und zur Änderung der Verordnungen (EG) Nr. 1924/2006 und (EG) Nr. 1925/2006 des Europäischen Parlaments und des Rates und zur Aufhebung der Richtlinie 87/250/EWG der Kommission, der Richtlinie 90/496/EWG des Rates, der Richtlinie 1999/10/EG der Kommission, der Richtlinie 2000/13/EG des Europäischen Parlaments und des Rates, der Richtlinien 2002/67/EG und 2008/5/EG der Kommission und der Verordnung (EG) Nr. 608/2004 der Kommission (ABl. L 304 vom 22.11.2011, S. 18; L 331 vom 18.11.2014, S. 41; L 50 vom 21.2.2015, S. 48; L 266 vom 30.9.2016, S. 7) in der jeweils geltenden Fassung und § 2 der Lebensmittelinformations-Durchführungsverordnung entsprechend."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_DL dtd:DL-id84 ;
+    dtd:has_Value "Nach § 59 Abs. 1 Nr. 21 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches wird bestraft, wer entgegen § 2 Essig oder Essigsäure in nicht vorschriftsmäßigen Behältnissen oder in Behältnissen ohne den vorgeschriebenen Warnhinweis in den Verkehr bringt.1.Nach § 59 Abs. 1 Nr. 21 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches wird bestraft, wer entgegen § 4 Absatz 1 oder 2 Essig oder Essigessenz, die nicht oder nicht in der vorgeschriebenen Weise gekennzeichnet sind, in den Verkehr bringt.2.Wer eine in den Absätzen 1 und 2 bezeichnete Handlung fahrlässig begeht, handelt nach § 60 Abs. 1 des Lebensmittel- und Futtermittelgesetzbuches ordnungswidrig."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_BR dtd:BR-id63 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 31.12.1981 +++)(+++ Maßgaben aufgrund EinigVtr nicht mehr anzuwenden gem. Art. 109 Nr. 4      Buchst. d G v. 8.12.2010 I 1864 mWv 15.12.2010 +++)Überschrift: IdF d. Art. 12 Nr. 1 V v. 20.12.1977 I 2802 mWv 1.1.1978"@de ;
+    dtd:has_pre dtd:pre-id119 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1972-04-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id120 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id121 .
+
+dtd:fussnoten-id48 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id98 .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:fussnoten-id52 a dtd:fussnoten .
+
+dtd:fussnoten-id54 a dtd:fussnoten .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "EssigV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "EssigV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "EssigV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "EssigV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "EssigV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "EssigV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "EssigV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "EssigV"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Verordnung über den Verkehr mit Essig und Essigessenz"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972BJNE000204130"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972BJNE000402130"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972BJNE000501130"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972BJNE000602130"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972BJNE000803130"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972BJNE000901130"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20230206213501"@de ;
+    dtd:has_doknr "BJNR007320972BJNE001102130"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id120 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id119 a dtd:pre ;
+    dtd:has_BR dtd:BR-id64,
+        dtd:BR-id65,
+        dtd:BR-id66,
+        dtd:BR-id67 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 31.12.1981 +++)(+++ Maßgaben aufgrund EinigVtr nicht mehr anzuwenden gem. Art. 109 Nr. 4      Buchst. d G v. 8.12.2010 I 1864 mWv 15.12.2010 +++)"@de .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id123 ;
+    dtd:has_standtyp dtd:standtyp-id122 .
+
+dtd:standkommentar-id123 a dtd:standkommentar ;
+    dtd:has_Value "Neugefasst durch Bek. v. 26.01.2023 I Nr. 31"@de .
+
+dtd:standtyp-id122 a dtd:standtyp ;
+    dtd:has_Value "Neuf"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "(Inkrafttreten)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id121 a dtd:zitstelle ;
+    dtd:has_Value "1972, 732"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

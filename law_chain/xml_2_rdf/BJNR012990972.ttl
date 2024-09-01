@@ -1,0 +1,267 @@
+@prefix dtd: <urn:OlympiaMünz5Bek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125610"@de ;
+    dtd:has_doknr "BJNR012990972"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:ABWFORMAT-id61 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47,
+        dtd:P-id48,
+        dtd:P-id49,
+        dtd:P-id50,
+        dtd:P-id51,
+        dtd:P-id52,
+        dtd:P-id53,
+        dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:DD-id33 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id40 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41,
+        dtd:LA-id42 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DL-id31 a dtd:DL ;
+    dtd:has_DD dtd:DD-id33 ;
+    dtd:has_DT dtd:DT-id32 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id34 a dtd:DL ;
+    dtd:has_DD dtd:DD-id36 ;
+    dtd:has_DT dtd:DT-id35 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id37 a dtd:DL ;
+    dtd:has_DD dtd:DD-id39 ;
+    dtd:has_DT dtd:DT-id38 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id32 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "(7) Die Wertseite mit der Umschrift:"@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id40 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "SPIELE DER XX. OLYMPIADE MÜNCHEN."@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "BUNDESREPUBLIK DEUTSCHLAND"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "DEUTSCHE MARK"@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "CITIUS ALTIUS FORTIUS"@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des Gesetzes über die Ausprägung einer Olympiamünze vom 18. April 1969 (Bundesgesetzbl. I S. 305) wird aus Anlaß der Spiele der XX. Olympiade 1972 in München eine Bundesmünze im Nennwert von 10 Deutschen Mark (Olympiamünze) geprägt."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(2) Das 5. Motiv wird, wie auch die anderen Motive, von allen 4 Münzämtern zu gleichen Teilen geprägt. Die Auflage beträgt 20 Millionen Stück; die Ausgabe beginnt am 22. August 1972."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(3) Die Legierung besteht aus 625 Tausendteilen Feinsilber und aus 375 Tausendteilen Kupfer. Der Durchmesser beträgt 32,5 mm, das Gewicht 15,5 Gramm."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(4) Der Entwurf für das 5. Motiv stammt von dem Bildhauer Siegmund Schütz, Berlin."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_DL dtd:DL-id31 ;
+    dtd:has_Value "(5) Die Bildseite zeigt eine Komposition aus dem Emblem der Spiele der XX. Olympiade München 1972 (Strahlenspirale - im oberen Feld der Münze), dem Olympischen Feuer und den fünf Olympischen Ringen (im unteren Feld der Münze). Die Umschrift lautet: SPIELE DER XX. OLYMPIADE MÜNCHEN."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(6) Die getrennte Jahreszahl 1972 ist beiderseits der Olympischen Ringe angebracht."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_DL dtd:DL-id34 ;
+    dtd:has_Value "(7) Die Wertseite mit der Umschrift:BUNDESREPUBLIK DEUTSCHLANDDEUTSCHE MARKzeigt in der Mitte den Bundesadler und unterhalb der Krallen des Adlers die Wertziffer 10. Das jeweilige Münzzeichen befindet sich oberhalb der linken Kralle."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_DL dtd:DL-id37 ;
+    dtd:has_Value "(8) Der glatte Münzrand ist mit der vertieften Inschrift CITIUS ALTIUS FORTIUSund mit Ornamenten zwischen den Worten versehen."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(9) Dies wird namens der Bundesregierung bekanntgegeben."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_SP dtd:SP-id30 ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft und Finanzen"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id61 ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung) Fundstelle: BGBl I 1972, 1299"@de ;
+    dtd:has_kommentar dtd:kommentar-id60 .
+
+dtd:SP-id30 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft und Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1972-08-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "OlympiaMünz5Bek"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "OlympiaMünz5Bek"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "OlympiaMünz5Bek"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "OlympiaMünz5Bek"@de .
+
+dtd:kommentar-id60 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl I 1972, 1299"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 10
+Deutschen Mark (5. Motiv der Olympiamünze)"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125610"@de ;
+    dtd:has_doknr "BJNR012990972"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125610"@de ;
+    dtd:has_doknr "BJNR012990972BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125610"@de ;
+    dtd:has_doknr "BJNR012990972BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125610"@de ;
+    dtd:has_doknr "BJNR012990972BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münze"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "1972, 1299"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

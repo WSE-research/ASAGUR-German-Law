@@ -1,0 +1,227 @@
+@prefix dtd: <urn:AEntGMeldStellV-2020#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230908213505"@de ;
+    dtd:has_doknr "BJNR197600020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_Value " (+++ Textnachweis ab: 19.9.2020 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der     EURL 2020/1057 (CELEX Nr: 32020L1057) vgl. G v. 28.6.2023 I Nr. 172      EURL 67/2014   (CELEX Nr: 32014L0067) vgl. G v. 28.6.2023 I Nr. 172 +++)"@de ;
+    dtd:has_pre dtd:pre-id52 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 13b Absatz 4 und des § 18 Absatz 6 des Arbeitnehmer-Entsendegesetzes, von denen § 13b Absatz 4 durch Artikel 1 Nummer 11 des Gesetzes vom 10. Juli 2020 (BGBl. I S. 1657) eingefügt worden ist, verordnet das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Die Generalzolldirektion ist zuständige Behörde der Zollverwaltung im Sinne von § 13b Absatz 2 Satz 2 und 3 sowie § 18 Absatz 1 Satz 1, Absatz 2 Satz 1 und Absatz 3 Satz 1 des Arbeitnehmer-Entsendegesetzes."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Gleichzeitig tritt die Verordnung zur Bestimmung der zuständigen Behörde nach § 18 Absatz 6 des Arbeitnehmer-Entsendegesetzes vom 31. August 2009 (BGBl. I S. 3000), die durch Artikel 9 Absatz 16 des Gesetzes vom 3. Dezember 2015 (BGBl. I S. 2178) geändert worden ist, außer Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "AEntGMeldStellV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-08-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id53 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id54 .
+
+dtd:fussnoten-id32 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "AEntGMeldStellV 2020"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "AEntGMeldStellV 2020"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "AEntGMeldStellV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "AEntGMeldStellV 2020"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "AEntGMeldStellV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "AEntGMeldStellV 2020"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "AEntGMeldStellV"@de .
+
+dtd:langue-id18 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Bestimmung der zuständigen Behörde bei Mitteilungen und Anmeldungen nach dem Arbeitnehmer-Entsendegesetz"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id24,
+        dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id28,
+        dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id18 ;
+    dtd:has_standangabe dtd:standangabe-id19,
+        dtd:standangabe-id20 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id21,
+        dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230908213505"@de ;
+    dtd:has_doknr "BJNR197600020"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230908213505"@de ;
+    dtd:has_doknr "BJNR197600020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230908213505"@de ;
+    dtd:has_doknr "BJNR197600020BJNE000201126"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230908213505"@de ;
+    dtd:has_doknr "BJNR197600020BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id53 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id52 a dtd:pre ;
+    dtd:has_BR dtd:BR-id38,
+        dtd:BR-id39,
+        dtd:BR-id40,
+        dtd:BR-id41,
+        dtd:BR-id42,
+        dtd:BR-id43 ;
+    dtd:has_Value "(+++ Textnachweis ab: 19.9.2020 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der     EURL 2020/1057 (CELEX Nr: 32020L1057) vgl. G v. 28.6.2023 I Nr. 172      EURL 67/2014   (CELEX Nr: 32014L0067) vgl. G v. 28.6.2023 I Nr. 172 +++)"@de .
+
+dtd:standangabe-id19 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id56 ;
+    dtd:has_standtyp dtd:standtyp-id55 .
+
+dtd:standangabe-id20 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id58 ;
+    dtd:has_standtyp dtd:standtyp-id57 .
+
+dtd:standkommentar-id56 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 7 G v. 28.6.2023 I Nr. 172"@de .
+
+dtd:standkommentar-id58 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 810-20-1 v. 31.8.2009 I 3000 mWv 19.9.2020"@de .
+
+dtd:standtyp-id55 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id57 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Zuständige Behörde"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id54 a dtd:zitstelle ;
+    dtd:has_Value "2020, 1976"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

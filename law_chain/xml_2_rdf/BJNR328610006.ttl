@@ -1,0 +1,131 @@
+@prefix dtd: <urn:BSG-2007#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150849"@de ;
+    dtd:has_doknr "BJNR328610006"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id25 a dtd:Content ;
+    dtd:has_P dtd:P-id26 .
+
+dtd:Content-id27 a dtd:Content ;
+    dtd:has_P dtd:P-id28 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_BR dtd:BR-id19 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2007 +++) Das G wurde als Artikel 1 des G v. 21.12.2006 I 3286 vom Bundestag erlassen. Es ist gem. Art. 4 Abs. 1 am 1.1.2007 in Kraft getreten. "@de ;
+    dtd:has_pre dtd:pre-id31 .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value "Der Beitragssatz beträgt für das Jahr 2007 in der allgemeinen Rentenversicherung 19,9 Prozent und in der knappschaftlichen Rentenversicherung 26,4 Prozent."@de .
+
+dtd:amtabk-id9 a dtd:amtabk ;
+    dtd:has_Value "BSG 2007"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id10 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2006-12-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id15 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id11 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id32 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id33 .
+
+dtd:fussnoten-id17 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id27 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BSG 2007"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BSG 2007"@de .
+
+dtd:kurzue-id12 a dtd:kurzue ;
+    dtd:has_Value "Beitragssatzgesetz 2007"@de .
+
+dtd:langue-id13 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Bestimmung der Beitragssätze in der gesetzlichen
+Rentenversicherung für das Jahr 2007"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id9 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id10 ;
+    dtd:has_fundstelle dtd:fundstelle-id11 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_kurzue dtd:kurzue-id12 ;
+    dtd:has_langue dtd:langue-id13 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id15 ;
+    dtd:has_jurabk dtd:jurabk-id14 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150849"@de ;
+    dtd:has_doknr "BJNR328610006"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150849"@de ;
+    dtd:has_doknr "BJNR328610006BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id32 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id31 a dtd:pre ;
+    dtd:has_BR dtd:BR-id20,
+        dtd:BR-id21,
+        dtd:BR-id22,
+        dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2007 +++) Das G wurde als Artikel 1 des G v. 21.12.2006 I 3286 vom Bundestag erlassen. Es ist gem. Art. 4 Abs. 1 am 1.1.2007 in Kraft getreten. "@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id25 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id18 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id17 ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id18 .
+
+dtd:zitstelle-id33 a dtd:zitstelle ;
+    dtd:has_Value "2006, 3286"@de .
+

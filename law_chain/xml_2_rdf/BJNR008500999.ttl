@@ -1,0 +1,242 @@
+@prefix dtd: <urn:FDNormV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125254"@de ;
+    dtd:has_doknr "BJNR008500999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52,
+        dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id39,
+        dtd:LA-id40 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41,
+        dtd:LA-id42 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43,
+        dtd:LA-id44 .
+
+dtd:DL-id32 a dtd:DL ;
+    dtd:has_DD dtd:DD-id36,
+        dtd:DD-id37,
+        dtd:DD-id38 ;
+    dtd:has_DT dtd:DT-id33,
+        dtd:DT-id34,
+        dtd:DT-id35 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id39 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Terrestrische Übertragungssysteme:"@de .
+
+dtd:LA-id40 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "DIN ETS 300744 \"Digitaler Fernsehrundfunk (DVB); Rahmenstruktur, Kanalcodierung und Modulation für das digitale terrestrische Fernsehen (DVB-T)\""@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Satelliten-Übertragungssysteme:"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "DIN ETS 300421 \"Digitale Rundfunk-Systeme für Fernsehen, Ton und Datendienste; Rahmenstruktur, Kanalcodierung und Modulation für Dienste über Satellit bei 11/12 GHz\""@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kabel-Übertragungssysteme:"@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "DIN ETS 300429 \"Digitale Rundfunk-Systeme für Fernsehen, Ton und Datendienste; Rahmenstruktur, Kanalcodierung und Modulation bei Kabelsystemen\""@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 19. 2.1999 +++)"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 1 Satz 2 des Fernsehsignalübertragungs-Gesetzes vom 14. November 1997 (BGBl. I S. 2710) in Verbindung mit Artikel 56 des Zuständigkeitsanpassungs-Gesetzes vom 18. März 1975 (BGBl. I S. 705), dem Organisationserlaß vom 17. Dezember 1997 (BGBl. 1998 I S. 68) und dem Organisationserlaß vom 27. Oktober 1998 (BGBl. I S. 3288) verordnet das Bundesministerium für Wirtschaft und Technologie:"@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_DL dtd:DL-id32 ;
+    dtd:has_Value "(1) Für Übertragungssysteme für voll digitale Fernsehdienste müssen nachstehende Normen des Europäischen Instituts für Telekommunikationsnormen ETSI angewendet werden: a)Terrestrische Übertragungssysteme:DIN ETS 300744 \"Digitaler Fernsehrundfunk (DVB); Rahmenstruktur, Kanalcodierung und Modulation für das digitale terrestrische Fernsehen (DVB-T)\"  b)Satelliten-Übertragungssysteme:DIN ETS 300421 \"Digitale Rundfunk-Systeme für Fernsehen, Ton und Datendienste; Rahmenstruktur, Kanalcodierung und Modulation für Dienste über Satellit bei 11/12 GHz\"  c)Kabel-Übertragungssysteme:DIN ETS 300429 \"Digitale Rundfunk-Systeme für Fernsehen, Ton und Datendienste; Rahmenstruktur, Kanalcodierung und Modulation bei Kabelsystemen\"   "@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(2) Für die unter Absatz 1 genannten Normen gilt die jeweilige aktuelle Fassung unter der Voraussetzung, daß die Abwärtskompatibilität gewährleistet ist. Dies schließt das Überführen der Normen von DIN ETS nach DIN EN ein."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-02-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id56 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id57 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id47 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "FDNormV"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "FDNormV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "FDNormV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "FDNormV"@de .
+
+dtd:kurzue-id17 a dtd:kurzue ;
+    dtd:has_Value "Fernsehdienstnormenverordnung"@de .
+
+dtd:langue-id18 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Anwendung von Normen für voll digitale
+Fernsehdienste"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id17 ;
+    dtd:has_langue dtd:langue-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125254"@de ;
+    dtd:has_doknr "BJNR008500999"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125254"@de ;
+    dtd:has_doknr "BJNR008500999BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125254"@de ;
+    dtd:has_doknr "BJNR008500999BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125254"@de ;
+    dtd:has_doknr "BJNR008500999BJNE000300308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id56 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Normen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id57 a dtd:zitstelle ;
+    dtd:has_Value "1999, 85"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

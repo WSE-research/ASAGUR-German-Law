@@ -1,0 +1,223 @@
+@prefix dtd: <urn:HanfSaatV-2024#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08E0A0024"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46,
+        dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_Value " (+++ Textnachweis ab: 4.5.2024 +++)"@de ;
+    dtd:has_pre dtd:pre-id52 .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 5 Absatz 2 Nummer 1 und 1a in Verbindung mit Absatz 1 Nummer 1 Buchstabe b und des § 22 Absatz 1 Nummer 4 in Verbindung mit Absatz 3 des Saatgutverkehrsgesetzes in der Fassung der Bekanntmachung vom 16. Juli 2004 (BGBl. I S. 1673), die jeweils zuletzt durch Artikel 372 Nummer 1 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden sind, verordnet das Bundesministerium für Ernährung und Landwirtschaft:"@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(1) Abweichend von § 6 Satz 2 in Verbindung mit Anlage 3 Nummer 5.1.5 Spalte 3 der Saatgutverordnung in der Fassung der Bekanntmachung vom 8. Februar 2006 (BGBl. I S. 344), die zuletzt durch Artikel 1 der Verordnung vom 13. Juli 2022 (BGBl. I S. 1186) geändert worden ist, beträgt die Mindestkeimfähigkeit für Zertifiziertes Saatgut von Hanf der Sorten „Finola2“ und „Uso-31“ 64 vom Hundert der reinen Körner."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(2) Saatgut, das nach den Anforderungen des Absatzes 1 anerkannt worden ist, darf bis zum Ablauf des 31. August 2024 in den Verkehr gebracht werden."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Bei jeder Packung oder jedem Behältnis mit Zertifiziertem Saatgut, dessen Keimfähigkeit nur den Anforderungen des § 1 Absatz 1 genügt, ist mit einer Zusatzinformation auf dem Etikett, einem Zusatzetikett oder einem Begleitpapier auf die verminderte Keimfähigkeit hinzuweisen. Die Zusatzinformation auf dem Etikett, das Zusatzetikett oder das Begleitpapier sind nicht erforderlich, soweit der Hinweis auf die verminderte Keimfähigkeit auf der Packung oder dem Behältnis unverwischbar aufgedruckt ist."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft und mit Ablauf des 31. August 2024 außer Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2024-04-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id53 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id54 .
+
+dtd:fussnoten-id33 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id41 .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "HanfSaatV 2024"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "HanfSaatV 2024"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "HanfSaatV 2024"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "HanfSaatV 2024"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "HanfSaatV 2024"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Verordnung über besondere Anforderungen an Saatgut von Hanf im Rahmen der Saatgutanerkennung 2024"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08E0A0024"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08E0A0024BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08E0A0024BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08E0A0024BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240504215501"@de ;
+    dtd:has_doknr "BJNR08E0A0024BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id53 a dtd:periodikum ;
+    dtd:has_Value "BGBl. I"@de .
+
+dtd:pre-id52 a dtd:pre ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40 ;
+    dtd:has_Value "(+++ Textnachweis ab: 4.5.2024 +++)"@de .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id56 ;
+    dtd:has_standtyp dtd:standtyp-id55 .
+
+dtd:standkommentar-id56 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 3 mit Ablauf des 31.8.2024 außer Kraft"@de .
+
+dtd:standtyp-id55 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Mindestkeimfähigkeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Kennzeichnung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id54 a dtd:zitstelle ;
+    dtd:has_Value "2024, Nr. 142"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

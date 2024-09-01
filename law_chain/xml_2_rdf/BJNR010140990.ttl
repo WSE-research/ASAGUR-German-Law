@@ -1,0 +1,275 @@
+@prefix dtd: <urn:RAÜG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125409"@de ;
+    dtd:has_doknr "BJNR010140990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53,
+        dtd:P-id54,
+        dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DL-id40 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45,
+        dtd:DD-id46 ;
+    dtd:has_DT dtd:DT-id41,
+        dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erstellung der deutschen Raumfahrtplanung,"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Durchführung der deutschen Raumfahrtprogramme, insbesondere durch Vergabe von Aufträgen und Zuwendungen,"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Wahrnehmung deutscher Raumfahrtinteressen im internationalen Bereich, insbesondere gegenüber der Europäischen Weltraumorganisation."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 21.6.1990 +++)"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(1) Die für Raumfahrtangelegenheiten zuständigen obersten Bundesbehörden verleihen dem Deutschen Zentrum für Luft- und Raumfahrt e.V. (DLR) die Befugnis, Verwaltungsaufgaben auf dem Gebiet der Raumfahrt im eigenen Namen und in den Handlungsformen des öffentlichen Rechts wahrzunehmen."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_DL dtd:DL-id40 ;
+    dtd:has_Value "(2) Verwaltungsaufgaben im Sinne des Absatzes 1 sind 1.die Erstellung der deutschen Raumfahrtplanung, 2.die Durchführung der deutschen Raumfahrtprogramme, insbesondere durch Vergabe von Aufträgen und Zuwendungen, 3.die Wahrnehmung deutscher Raumfahrtinteressen im internationalen Bereich, insbesondere gegenüber der Europäischen Weltraumorganisation.  "@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(3) Über Widersprüche gegen Verwaltungsakte, die das DLR aufgrund der ihm übertragenen Befugnisse erlassen hat, entscheidet dieses selbst."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(4) Das DLR unterliegt hinsichtlich der Durchführung der übertragenen Verwaltungsaufgaben auf dem Gebiet der Raumfahrt der Aufsicht der auftraggebenden obersten Bundesbehörden."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Soweit das DLR im Rahmen der von ihm wahrgenommenen Aufgaben Haushaltsmittel weiterleitet, sollen ihm diese Mittel zur Bewirtschaftung übertragen werden."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Der Bundesrechnungshof prüft die Haushalts- und Wirtschaftsführung des DLR. Für das Prüfungsverfahren gelten die §§ 89, 90, 91, 94, 95, 96 und 100 der Bundeshaushaltsordnung entsprechend."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "RAÜG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-06-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id63 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id64 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "RAÜG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "RAÜG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "RAÜG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "RAÜG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "RAÜG"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Raumfahrtaufgabenübertragungsgesetz"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Übertragung von Verwaltungsaufgaben auf dem Gebiet der
+Raumfahrt"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125409"@de ;
+    dtd:has_doknr "BJNR010140990"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125409"@de ;
+    dtd:has_doknr "BJNR010140990BJNE000103310"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125409"@de ;
+    dtd:has_doknr "BJNR010140990BJNE000203310"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125409"@de ;
+    dtd:has_doknr "BJNR010140990BJNE000304310"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125409"@de ;
+    dtd:has_doknr "BJNR010140990BJNE000503310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id63 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id66 ;
+    dtd:has_standtyp dtd:standtyp-id65 .
+
+dtd:standkommentar-id66 a dtd:standkommentar ;
+    dtd:has_Value "Neugefasst durch Bek. v. 22.8.1998 I 2510"@de .
+
+dtd:standtyp-id65 a dtd:standtyp ;
+    dtd:has_Value "Neuf"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Aufgabenübertragung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Prüfungsrecht des Bundesrechnungshofes"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "(Inkrafttreten)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id64 a dtd:zitstelle ;
+    dtd:has_Value "1990, 1014"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

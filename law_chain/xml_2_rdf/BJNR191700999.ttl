@@ -1,0 +1,202 @@
+@prefix dtd: <urn:BKartASitzBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR191700999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40,
+        dtd:P-id41 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 13. 9.1999 +++)"@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_Value "Das Bundesministerium für Wirtschaft und Technologie gibt gemäß § 9 Nr. 3 des Berlin/Bonn-Gesetzes vom 26. April 1994 (BGBl. I S. 918), der durch Artikel 1 der Verordnung vom 21. September 1997 (BGBl. I S. 2390) geändert worden ist, in Verbindung mit der Bekanntmachung des Bundeskanzlers über die Sitzentscheidung der Bundesregierung vom 22. Juli 1999 (BGBl. I S. 1725) bekannt: Das Bundeskartellamt wird zum 1. Oktober 1999 seinen Sitz von Berlin nach Bonn verlegen. Damit wird die durch das 1998 geänderte Gesetz gegen Wettbewerbsbeschränkungen (GWB) in der Fassung der Bekanntmachung vom 26. August 1998 (BGBl. I S. 2546) getroffene Sitzentscheidung vollzogen.Nach dem Umzug gelten folgende Postanschrift, Telefon- und Faxnummern: BundeskartellamtKaiser-Friedrich-Str. 1653113 BonnTelefon: (0228) 9499-0Fax: (0228) 9499-400."@de ;
+    dtd:has_table dtd:table-id21 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_SP dtd:SP-id20 ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft und Technologie"@de .
+
+dtd:SP-id20 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Wirtschaft und Technologie"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-09-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id23 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id30 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bundeskartellamt"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id31 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kaiser-Friedrich-Str. 16"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id32 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "53113 Bonn"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id33 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Telefon: (0228) 9499-0"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id34 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fax: (0228) 9499-400."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id42 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id43 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id37 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BKartASitzBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BKartASitzBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über den Dienstsitz des Bundeskartellamtes"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR191700999"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150943"@de ;
+    dtd:has_doknr "BJNR191700999BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id42 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id25 a dtd:row ;
+    dtd:has_entry dtd:entry-id30 .
+
+dtd:row-id26 a dtd:row ;
+    dtd:has_entry dtd:entry-id31 .
+
+dtd:row-id27 a dtd:row ;
+    dtd:has_entry dtd:entry-id32 .
+
+dtd:row-id28 a dtd:row ;
+    dtd:has_entry dtd:entry-id33 .
+
+dtd:row-id29 a dtd:row ;
+    dtd:has_entry dtd:entry-id34 .
+
+dtd:table-id21 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id22 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id24 a dtd:tbody ;
+    dtd:has_row dtd:row-id25,
+        dtd:row-id26,
+        dtd:row-id27,
+        dtd:row-id28,
+        dtd:row-id29 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:tgroup-id22 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id23 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id24 .
+
+dtd:zitstelle-id43 a dtd:zitstelle ;
+    dtd:has_Value "1999, 1917"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

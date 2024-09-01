@@ -1,0 +1,209 @@
+@prefix dtd: <urn:PMeriteSaÄndErl-2022#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220325213505"@de ;
+    dtd:has_doknr "BJNR030500022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45,
+        dtd:P-id46,
+        dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:DD-id30 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id33 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id34 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id35 .
+
+dtd:DL-id26 a dtd:DL ;
+    dtd:has_DD dtd:DD-id30,
+        dtd:DD-id31,
+        dtd:DD-id32 ;
+    dtd:has_DT dtd:DT-id27,
+        dtd:DT-id28,
+        dtd:DT-id29 ;
+    dtd:has_Type dtd:Dash .
+
+dtd:DT-id27 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id29 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:Dash rdfs:label "Dash"@de .
+
+dtd:LA-id33 a dtd:LA ;
+    dtd:has_Revision dtd:Revision-id36 ;
+    dtd:has_Value "§ 2 Absatz 3 wird um folgende Formulierung ergänzt: \"Mitglieder, welche das 90. Lebensjahr vollendet haben, werden in die Zahl der Mitglieder nicht eingerechnet; sie behalten ihre vollen Rechte.\""@de .
+
+dtd:LA-id34 a dtd:LA ;
+    dtd:has_Revision dtd:Revision-id37 ;
+    dtd:has_Value "§ 4 Absatz 2 ist neu: \"(2) Sitzungen sind in der Regel physische Zusammenkünfte. Die Teilnahme per elektronischer Kommunikation wie Telefon- oder Videokonferenzen ist zulässig.\""@de .
+
+dtd:LA-id35 a dtd:LA ;
+    dtd:has_Revision dtd:Revision-id38 ;
+    dtd:has_Value "§ 6 Absatz 4 wird neu gefasst: \"(4) Eine Wahl kann nur stattfinden, wenn sich mindestens die Hälfte der inländischen Mitglieder des Kapitels an ihr beteiligt.\""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "\"Mitglieder, welche das 90. Lebensjahr vollendet haben, werden in die Zahl der Mitglieder nicht eingerechnet; sie behalten ihre vollen Rechte.\""@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "\"(2) Sitzungen sind in der Regel physische Zusammenkünfte. Die Teilnahme per elektronischer Kommunikation wie Telefon- oder Videokonferenzen ist zulässig.\""@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "\"(4) Eine Wahl kann nur stattfinden, wenn sich mindestens die Hälfte der inländischen Mitglieder des Kapitels an ihr beteiligt.\""@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_BR dtd:BR-id22 ;
+    dtd:has_Value " (+++ Textnachweis ab: 8.3.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id50 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_DL dtd:DL-id26 ;
+    dtd:has_Value "Das Ordenskapitel des Ordens Pour le mérite für Wissenschaften und Künste hat am 26. September 2021 folgende Änderungen der Satzung des Ordens beschlossen: –§ 2 Absatz 3 wird um folgende Formulierung ergänzt: \"Mitglieder, welche das 90. Lebensjahr vollendet haben, werden in die Zahl der Mitglieder nicht eingerechnet; sie behalten ihre vollen Rechte.\"–§ 4 Absatz 2 ist neu: \"(2) Sitzungen sind in der Regel physische Zusammenkünfte. Die Teilnahme per elektronischer Kommunikation wie Telefon- oder Videokonferenzen ist zulässig.\"–§ 6 Absatz 4 wird neu gefasst: \"(4) Eine Wahl kann nur stattfinden, wenn sich mindestens die Hälfte der inländischen Mitglieder des Kapitels an ihr beteiligt.\""@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Nach Artikel 6 Absatz 1 des Erlasses über die Genehmigung der Stiftung und Verleihung von Orden und Ehrenzeichen und über die Anerkennung als Ehrenzeichen vom 4. Juli 1958 (BGBl. I S. 422) genehmige ich die Satzungsänderungen."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Die Neufassung der Satzung wird vom Bundesministerium des Innern und für Heimat im Bundesanzeiger veröffentlicht."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_SP dtd:SP-id25 ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:Revision-id36 a dtd:Revision ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Revision-id37 a dtd:Revision ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Revision-id38 a dtd:Revision ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:SP-id25 a dtd:SP ;
+    dtd:has_Value "Der Bundespräsident"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-01-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id51 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id52 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id42 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "PMeriteSaÄndErl 2022"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "PMeriteSaÄndErl 2022"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "PMeriteSaÄndErl 2022"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Erlass über die Genehmigung von Änderungen der Satzung des Ordens Pour le mérite für Wissenschaften und Künste"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220325213505"@de ;
+    dtd:has_doknr "BJNR030500022"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220325213505"@de ;
+    dtd:has_doknr "BJNR030500022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220325213505"@de ;
+    dtd:has_doknr "BJNR030500022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id51 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id50 a dtd:pre ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 8.3.2022 +++)"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:zitstelle-id52 a dtd:zitstelle ;
+    dtd:has_Value "2022, 305"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

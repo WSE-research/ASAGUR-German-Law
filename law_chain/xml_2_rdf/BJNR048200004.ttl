@@ -1,0 +1,544 @@
+@prefix dtd: <urn:ZISAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122,
+        dtd:P-id123,
+        dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126,
+        dtd:P-id127,
+        dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80,
+        dtd:DD-id81 ;
+    dtd:has_DT dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id82 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86 ;
+    dtd:has_DT dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id87 a dtd:DL ;
+    dtd:has_DD dtd:DD-id92,
+        dtd:DD-id93,
+        dtd:DD-id94,
+        dtd:DD-id95 ;
+    dtd:has_DT dtd:DT-id88,
+        dtd:DT-id89,
+        dtd:DT-id90,
+        dtd:DT-id91 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ermittlungen wegen der in § 2 genannten Straftaten oder"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Ermittlungen wegen einer Aufsichtspflichtverletzung (§ 130 des Gesetzes über Ordnungswidrigkeiten), die zu den in § 2 genannten Straftaten geführt haben kann oder ursächlich dafür gewesen sein kann,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eines Jahres nach der letzten Ermittlungshandlung, wenn ein Antrag der Staatsanwaltschaft an das Gericht zur Festsetzung einer Geldbuße noch nicht gestellt worden ist,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von drei Jahren, wenn ein Antrag der Staatsanwaltschaft an das Gericht zur Festsetzung einer Geldbuße noch nicht gestellt worden ist,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von sechs Jahren, wenn ein Bußgeldbescheid erlassen worden ist, eine Bußgeldfestsetzung jedoch noch nicht rechtskräftig geworden ist oder"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von zehn Jahren, wenn es zu einer rechtskräftigen Bußgeldfestsetzung gekommen ist."@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eines Jahres nach der letzten Ermittlungshandlung in Strafverfahren, bei denen der Abschluss der Ermittlungen noch nicht verfügt ist (§ 169a der Strafprozessordnung), wenn in diesem Zeitpunkt keine Anklage erhoben worden ist,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von drei Jahren in Strafverfahren, bei denen der Abschluss der Ermittlungen noch nicht verfügt ist (§ 169a der Strafprozessordnung), wenn in diesem Zeitraum keine Anklage erhoben worden ist,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von sechs Jahren bei Strafverfahren, die zur Erhebung der Anklage, aber noch nicht zu einer rechtskräftigen Verurteilung geführt haben, oder"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von zehn Jahren bei Strafverfahren, die zu einer rechtskräftigen Verurteilung geführt haben."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_BR dtd:BR-id69,
+        dtd:BR-id72 ;
+    dtd:has_Value " (+++ Textnachweis ab: 7.4.2004 +++) Überschrift: Bezeichnung idF d. Art. 1 Nr. 1 G v. 12.4.2011 I 617 mWv 27.5.2011"@de ;
+    dtd:has_pre dtd:pre-id131 .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "Für Schadenersatzansprüche nach Artikel 30 des Beschlusses 2009/917/JI des Rates vom 30. November 2009 über den Einsatz der Informationstechnologie im Zollbereich (ABl. L 323 vom 10.12.2009, S. 20, L 234 vom 4.9.2010, S. 17) sowie für Schadensersatzansprüche nach Artikel 40 Absatz 2 der Verordnung (EG) Nr. 515/97 des Rates vom 13. März 1997 über die gegenseitige Amtshilfe zwischen Verwaltungsbehörden der Mitgliedstaaten und die Zusammenarbeit dieser Behörden mit der Kommission im Hinblick auf die ordnungsgemäße Anwendung der Zoll- und der Agrarregelung (ABl. L 82 vom 22.3.1997, S. 1), die zuletzt durch die Verordnung (EG) Nr. 766/2008 (ABl. L 218 vom 13.8.2008, S. 48) geändert worden ist, haftet die Bundesrepublik Deutschland. Ansprüche nach Satz 1 sind gegenüber der Bundesrepublik Deutschland, vertreten durch die Generalzolldirektion, geltend zu machen."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Das Verzeichnis der Zuwiderhandlungen im Sinne des Artikels 15 Absatz 3 Satz 1 des Beschlusses 2009/917/JI enthält ausschließlich zollstrafrechtliche Vorschriften in den in Artikel 2 Nummer 1 dieses Beschlusses genannten Bereichen, die mit einer Freiheitsstrafe oder einer die Freiheit beschränkenden Maßnahme der Sicherung und Besserung mit einem Höchstmaß von mindestens zwölf Monaten bedroht sind. Das Bundesministerium der Finanzen erstellt durch Rechtsverordnung das Verzeichnis nach Satz 1."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(1) Die Generalzolldirektion, die Zollfahndungsämter und die Hauptzollämter dürfen dienstlich erlangte Informationen einschließlich personenbezogener Daten im Zollinformationssystem nach dem Beschluss 2009/917/JI sowie nach der Verordnung (EG) Nr. 515/97 im automatisierten Verfahren erfassen."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Die Daten werden nur erfasst, soweit dies für die Erreichung des mit diesen Datenbanken verfolgten Ziels erforderlich ist und eine Gefährdung des Untersuchungszwecks nicht zu besorgen ist. § 480 Absatz 1 Satz 1 und 2 der Strafprozessordnung findet Anwendung."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Das Bundeskriminalamt ist berechtigt, Daten aus dem Aktennachweissystem für Zollzwecke im automatisierten Verfahren abzurufen, soweit dies zur Erfüllung seiner Aufgaben erforderlich ist."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Value "(1) Die im Aktennachweissystem für Zollzwecke gespeicherten Daten zu natürlichen Personen sind zu löschen nach Ablauf 1.eines Jahres nach der letzten Ermittlungshandlung in Strafverfahren, bei denen der Abschluss der Ermittlungen noch nicht verfügt ist (§ 169a der Strafprozessordnung), wenn in diesem Zeitpunkt keine Anklage erhoben worden ist,2.von drei Jahren in Strafverfahren, bei denen der Abschluss der Ermittlungen noch nicht verfügt ist (§ 169a der Strafprozessordnung), wenn in diesem Zeitraum keine Anklage erhoben worden ist,3.von sechs Jahren bei Strafverfahren, die zur Erhebung der Anklage, aber noch nicht zu einer rechtskräftigen Verurteilung geführt haben, oder4.von zehn Jahren bei Strafverfahren, die zu einer rechtskräftigen Verurteilung geführt haben.Die Fristen nach Satz 1 Nr. 2 bis 4 beginnen mit dem Tag, an dem die Daten erstmals in der Ermittlungsakte vermerkt werden."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(2) Wird in einem Verfahren nach Absatz 1 der Beschuldigte rechtskräftig freigesprochen oder die Eröffnung des Hauptverfahrens gegen ihn unanfechtbar abgelehnt oder das Verfahren nicht nur vorläufig eingestellt, sind seine Daten unverzüglich zu löschen."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(3) Bei einer Einstellung nach den §§ 153a, 153c der Strafprozessordnung kann eine Löschung nach Absatz 2 unterbleiben. Absatz 1 Satz 1 Nummer 3 und Satz 2 gilt entsprechend."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_DL dtd:DL-id82 ;
+    dtd:has_Value "(1) Die in Artikel 16 Absatz 1 Satz 1 und Absatz 2 Buchstabe b) des Beschlusses 2009/917/JI genannten Daten zu Unternehmen dürfen in das Aktennachweissystem für Zollzwecke eingegeben werden, wenn gegen die in § 30 Absatz 1 des Gesetzes über Ordnungswidrigkeiten genannten natürlichen Personen dieser Unternehmen a)Ermittlungen wegen der in § 2 genannten Straftaten oderb)Ermittlungen wegen einer Aufsichtspflichtverletzung (§ 130 des Gesetzes über Ordnungswidrigkeiten), die zu den in § 2 genannten Straftaten geführt haben kann oder ursächlich dafür gewesen sein kann,geführt werden. Daten nach Satz 1 Buchstabe b dürfen nur Hinweise auf die Ermittlungsakten zu den in § 2 genannten Straftaten enthalten."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(2) Die im Aktennachweissystem für Zollzwecke gespeicherten Daten zu Unternehmen sind zu löschen, wenn die zu natürlichen Personen nach Absatz 1 eingestellten Daten gemäß § 5 zu löschen sind."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_DL dtd:DL-id87 ;
+    dtd:has_Value "(3) Absatz 1 gilt auch, wenn wegen der dort genannten Straftaten ein selbständiges Verfahren nach § 30 Absatz 4 Satz 1 des Gesetzes über Ordnungswidrigkeiten durchgeführt wird. Die Daten sind unverzüglich zu löschen, wenn das Bußgeldverfahren nicht nur vorläufig eingestellt oder eine Bußgeldfestsetzung durch das Gericht rechtskräftig abgelehnt wird. Im Übrigen sind die Daten zu löschen nach Ablauf 1.eines Jahres nach der letzten Ermittlungshandlung, wenn ein Antrag der Staatsanwaltschaft an das Gericht zur Festsetzung einer Geldbuße noch nicht gestellt worden ist,2.von drei Jahren, wenn ein Antrag der Staatsanwaltschaft an das Gericht zur Festsetzung einer Geldbuße noch nicht gestellt worden ist,3.von sechs Jahren, wenn ein Bußgeldbescheid erlassen worden ist, eine Bußgeldfestsetzung jedoch noch nicht rechtskräftig geworden ist oder4.von zehn Jahren, wenn es zu einer rechtskräftigen Bußgeldfestsetzung gekommen ist.§ 5 Absatz 1 Satz 2 gilt entsprechend."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "Der Beschluss 2009/917/JI des Rates vom 30. November 2009 über den Einsatz der Informationstechnologie im Zollbereich (ABl. L 323 vom 10.12.2009, S. 20, L 234 vom 4.9.2010, S. 17) findet mit dem Inkrafttreten dieses Gesetzes uneingeschränkte Anwendung."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-03-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id132 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id133 .
+
+dtd:fussnoten-id53 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id108 .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "ZISAG"@de .
+
+dtd:kurzue-id32 a dtd:kurzue ;
+    dtd:has_Value "ZIS-Ausführungsgesetz"@de .
+
+dtd:langue-id33 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Ausführung des Beschlusses 2009/917/JI des Rates vom 30. November 2009 über den Einsatz der Informationstechnologie im Zollbereich sowie zur Verordnung (EG) Nr. 515/97 des Rates vom 13. März 1997 über die gegenseitige Amtshilfe zwischen Verwaltungsbehörden der Mitgliedstaaten und die Zusammenarbeit dieser Behörden mit der Kommission im Hinblick auf die ordnungsgemäße Anwendung der Zoll- und der Agrarregelung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id32 ;
+    dtd:has_langue dtd:langue-id33 ;
+    dtd:has_standangabe dtd:standangabe-id34,
+        dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004BJNE000801140"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004BJNE000202377"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004BJNE000301140"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004BJNE000404123"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004BJNE000601140"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20200106213021"@de ;
+    dtd:has_doknr "BJNR048200004BJNE000701140"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id132 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id131 a dtd:pre ;
+    dtd:has_BR dtd:BR-id70,
+        dtd:BR-id71 ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.4.2004 +++)"@de .
+
+dtd:standangabe-id34 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id135 ;
+    dtd:has_standtyp dtd:standtyp-id134 .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id137 ;
+    dtd:has_standtyp dtd:standtyp-id136 .
+
+dtd:standkommentar-id135 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 26 Abs. 7 G v. 20.11.2019 I 1724"@de .
+
+dtd:standkommentar-id137 a dtd:standkommentar ;
+    dtd:has_Value "Zum Inkrafttreten vgl. § 7"@de .
+
+dtd:standtyp-id134 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id136 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:zitstelle-id133 a dtd:zitstelle ;
+    dtd:has_Value "2004, 482"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

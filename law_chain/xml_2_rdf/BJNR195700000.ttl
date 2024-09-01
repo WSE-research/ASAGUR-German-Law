@@ -1,0 +1,239 @@
+@prefix dtd: <urn:BAW/BAFAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230921213004"@de ;
+    dtd:has_doknr "BJNR195700000"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46,
+        dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49,
+        dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.2001 +++)"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_BR dtd:BR-id42 ;
+    dtd:has_Value " Das G wurde als Artikel 1 G 700-4/1 v. 21.12.2000 I 1956 vom Bundestag beschlossen. Es ist gem. Art. 54 dieses G mWv 1.1.2001 in Kraft getreten."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(1) Im Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie wird das Bundesamt für Wirtschaft in das Bundesausfuhramt eingegliedert."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesamt für Wirtschaft wird damit aufgelöst. Die bisher vom Bundesamt für Wirtschaft wahrgenommenen Aufgaben gehen auf das Bundesausfuhramt über."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Das vom Bundesamt für Wirtschaft genutzte bewegliche Verwaltungsvermögen der Bundesrepublik Deutschland wird als Ganzes dem Bundesausfuhramt übertragen. Rechte und Pflichten, die das Bundesamt für Wirtschaft mit Wirkung für und gegen die Bundesrepublik Deutschland begründet hat, gehen auf das Bundesausfuhramt über."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Das Bundesausfuhramt erhält die Bezeichnung \"Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)\"."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Wirtschaft und Energie wird ermächtigt, durch Rechtsverordnung, die nicht der Zustimmung des Bundesrates bedarf, in Gesetzen und Rechtsverordnungen die Bezeichnungen \"Bundesamt für gewerbliche Wirtschaft\", \"Bundesamt für Wirtschaft\" und \"Bundesausfuhramt\" durch die Bezeichnung \"Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)\" zu ersetzen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2000-12-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id57 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id58 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id45 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BAW/BAFAG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BAW/BAFAG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "BAW/BAFAG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "BAW/BAFAG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BAW/BAFAG"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Zusammenlegung des Bundesamtes für Wirtschaft mit dem Bundesausfuhramt"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230921213004"@de ;
+    dtd:has_doknr "BJNR195700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230921213004"@de ;
+    dtd:has_doknr "BJNR195700000BJNE000101118"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230921213004"@de ;
+    dtd:has_doknr "BJNR195700000BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230921213004"@de ;
+    dtd:has_doknr "BJNR195700000BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230921213004"@de ;
+    dtd:has_doknr "BJNR195700000BJNE000401118"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id57 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id60 ;
+    dtd:has_standtyp dtd:standtyp-id59 .
+
+dtd:standkommentar-id60 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 251 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id59 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Eingliederung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Übergang von Rechten und Pflichten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Bezeichnung des Bundesausfuhramtes"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Anpassung von Bezeichnungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id58 a dtd:zitstelle ;
+    dtd:has_Value "2000, 1956, 1957"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

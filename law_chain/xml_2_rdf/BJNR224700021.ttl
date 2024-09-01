@@ -1,0 +1,144 @@
+@prefix dtd: <urn:SeeSchLStEVerlGAnwBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210702213134"@de ;
+    dtd:has_doknr "BJNR224700021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29,
+        dtd:P-id30,
+        dtd:P-id31 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_BR dtd:BR-id22 ;
+    dtd:has_Value " (+++ Textnachweis ab: 2.7.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id34 .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_Value "Nach § 52 Absatz 40a Satz 4 des Einkommensteuergesetzes in der Fassung des Gesetzes zur Verlängerung des erhöhten Lohnsteuereinbehalts in der Seeschifffahrt vom 12. Mai 2021 (BGBl. I S. 989) wird hiermit bekannt gegeben, dass dieses Gesetz nach Erteilung der Genehmigung durch die Europäische Kommission vom 22. Juni 2021 Anwendung findet."@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value "Die Europäische Kommission hat die Genehmigung mit der Maßgabe erteilt, dass das Erfordernis der Eintragung in einem Seeschiffsregister diskriminierungsfrei ausgestaltet werde. Die mit dem Änderungsgesetz vorgesehene Fassung entspreche nicht dieser Anforderung, da Eigner, deren Handelsschiffe in einem Register eines anderen EU- oder EWR-Staates eingetragen sind, benachteiligt seien, ohne dass es hierfür eine ausreichende Rechtfertigung gebe. Die geänderte Regelung ist daher mit der Maßgabe anzuwenden, dass an die Stelle der Eintragung in einem inländischen Seeschiffsregister die Eintragung in einem Seeschiffsregister eines Mitgliedstaates der Europäischen Union oder eines Staates, auf den das Abkommen über den Europäischen Wirtschaftsraum anwendbar ist, tritt."@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "§ 41a Absatz 4 in der Fassung des Gesetzes vom 12. Mai 2021 (BGBl. I S. 989) gilt für eine Dauer von 72 Monaten und ist erstmals für laufenden Arbeitslohn anzuwenden, der für den Lohnzahlungszeitraum Juni 2021 gezahlt wird; die Regelung ist erstmals für sonstige Bezüge anzuwenden, die ab dem 1. Juni 2021 zufließen."@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_SP dtd:SP-id25 ;
+    dtd:has_Value "Bundesministerium der Finanzen"@de .
+
+dtd:SP-id25 a dtd:SP ;
+    dtd:has_Value "Bundesministerium der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-06-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id35 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id36 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id26 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "SeeSchLStEVerlGAnwBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "SeeSchLStEVerlGAnwBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "SeeSchLStEVerlGAnwBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Anwendung des Gesetzes zur Verlängerung des erhöhten Lohnsteuereinbehalts in der Seeschifffahrt"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210702213134"@de ;
+    dtd:has_doknr "BJNR224700021"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210702213134"@de ;
+    dtd:has_doknr "BJNR224700021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210702213134"@de ;
+    dtd:has_doknr "BJNR224700021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id35 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id34 a dtd:pre ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 2.7.2021 +++)"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id28 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:zitstelle-id36 a dtd:zitstelle ;
+    dtd:has_Value "2021, 2247"@de .
+

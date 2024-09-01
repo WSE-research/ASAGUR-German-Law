@@ -1,0 +1,353 @@
+@prefix dtd: <urn:VersAusglKassG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160101220501"@de ;
+    dtd:has_doknr "BJNR194700009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67,
+        dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75,
+        dtd:P-id76,
+        dtd:P-id77,
+        dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82,
+        dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85 .
+
+dtd:I-id61 a dtd:I ;
+    dtd:has_Value "der gemäß § 235 Absatz 1 Satz 1 Nummer 4 des Versicherungsaufsichtsgesetzes erlassenen Rechtsverordnung"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_BR dtd:BR-id58 ;
+    dtd:has_Value " (+++ Textnachweis ab: 22.7.2009 +++)Das G wurde als Art. 9e des G v. 15.7.2009 I 1939 vom Bundestag beschlossen. Es ist gem. Art. 10 Abs. 1 dieses G am 22.7.2009 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id86 .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Aufgabe der Versorgungsausgleichskasse ist es ausschließlich, die Versorgung der ausgleichsberechtigten Person bei der externen Teilung eines Anrechts im Sinne des Betriebsrentengesetzes durchzuführen, wenn die ausgleichsberechtigte Person ihr Wahlrecht hinsichtlich der Zielversorgung nach § 15 des Versorgungsausgleichsgesetzes nicht ausübt."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(1) Die Versorgungsausgleichskasse ist eine Pensionskasse im Sinne des § 232 des Versicherungsaufsichtsgesetzes in der Rechtsform eines Versicherungsvereins auf Gegenseitigkeit."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(2) Auf sie ist das Versicherungsaufsichtsgesetz anzuwenden, sofern dieses Gesetz nichts anderes bestimmt."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(1) Die erstmalige Erlaubnis zum Geschäftsbetrieb durch die Bundesanstalt für Finanzdienstleistungsaufsicht bedarf der Zustimmung des Bundesministeriums für Arbeit und Soziales im Einvernehmen mit dem Bundesministerium der Finanzen und dem Bundesministerium der Justiz und für Verbraucherschutz. Das Bundesministerium für Arbeit und Soziales macht die Erteilung der Erlaubnis nach Satz 1 im Bundesgesetzblatt bekannt."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(2) Die Gründungsmitglieder der Versorgungsausgleichskasse brauchen abweichend von § 176 Satz 2 des Versicherungsaufsichtsgesetzes kein Versicherungsverhältnis mit dem Verein zu begründen. Die Mitgliedervertreterversammlung der Versorgungsausgleichskasse setzt sich aus den Gründungsmitgliedern zusammen. Die Mitgliedervertreterversammlung ergänzt sich im Wege der Kooptation."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(3) Das gebundene Vermögen der Versorgungsausgleichskasse darf in Versicherungsverträgen angelegt werden, die bei Lebensversicherungsunternehmen im Sinne des § 1 Absatz 2 Satz 1 des Altersvorsorgeverträge-Zertifizierungsgesetzes zur Deckung von Verpflichtungen gegenüber den Versorgungsberechtigten eingegangen werden. In diese Versicherungsverträge dürfen keine Abschluss- und Vertriebskosten eingerechnet werden."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(4) Die Versorgungsausgleichskasse gehört einem Sicherungsfonds nach § 221 Absatz 1 des Versicherungsaufsichtsgesetzes an."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(1) Die von der Versorgungsausgleichskasse durchgeführte Versicherung muss die Voraussetzungen nach § 1 Absatz 1 Satz 1 Nummer 2 und 4 Buchstabe a des Altersvorsorgeverträge-Zertifizierungsgesetzes erfüllen."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_I dtd:I-id61 ;
+    dtd:has_Value "(2) Die Versorgungsausgleichskasse muss einen Zins in einer Höhe garantieren, die dem Höchstwert für den Rechnungszins nach der gemäß § 235 Absatz 1 Satz 1 Nummer 4 des Versicherungsaufsichtsgesetzes erlassenen Rechtsverordnung zum Zeitpunkt der Begründung des Anrechts bei der Versorgungsausgleichskasse entspricht."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(3) Ab Rentenbeginn müssen sämtliche auf den Rentenbestand entfallenden Überschussanteile zur Erhöhung der laufenden Leistungen verwendet werden."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "(4) Die Versorgungsausgleichskasse kann angemessene Verwaltungskosten in Abzug bringen. Abschluss- und Vertriebskosten dürfen nicht erhoben werden."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "§ 4 Abs. 2 (Kursivdruck): IdF d. Art. 2 Abs. 19 Nr. 3 G v. 1.4.2015 I 434 mWv 1.1.2016; aufgrund offensichtl. Unrichtigkeit (doppeltes Wort) wurden in der Änderungsanweisung die Wörter: \"nach der gemäß §  235 Absatz 1 Satz 1 Nummer 4 des Versicherungsaufsichtsgesetzes erlassenen Rechtsverordnung\" durch die Wörter: \"der gemäß § 235 Absatz 1 Satz 1 Nummer 4 des Versicherungsaufsichtsgesetzes erlassenen Rechtsverordnung\" ersetzt."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(1) Ein bei der Versorgungsausgleichskasse bestehendes Anrecht ist nicht übertragbar, nicht beleihbar und nicht veräußerbar. Es darf vorbehaltlich des Satzes 3 nicht vorzeitig verwertet werden. Die Versorgungsausgleichskasse kann ein Anrecht ohne Zustimmung der ausgleichsberechtigten Person bis zu der Wertgrenze in § 3 Absatz 2 Satz 1 des Betriebsrentengesetzes abfinden."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "(2) Eine Fortsetzung der Versorgung mit eigenen Beiträgen ist nicht möglich."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "Verträge, die von der Versorgungsausgleichskasse nach § 3 Absatz 3 bei Lebensversicherungsunternehmen eingegangen werden, sind abweichend von § 341b Absatz 1 bis 3 des Handelsgesetzbuchs mit dem Zeitwert unter Berücksichtigung des Grundsatzes der Vorsicht zu bewerten."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "VersAusglKassG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-07-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id87 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id88 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id62 .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:fussnoten-id52 a dtd:fussnoten .
+
+dtd:fussnoten-id54 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id79 .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "VersAusglKassG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "VersAusglKassG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "VersAusglKassG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "VersAusglKassG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "VersAusglKassG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "VersAusglKassG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "VersAusglKassG"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Versorgungsausgleichskasse"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id27 ;
+    dtd:has_standangabe dtd:standangabe-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160101220501"@de ;
+    dtd:has_doknr "BJNR194700009"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160101220501"@de ;
+    dtd:has_doknr "BJNR194700009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160101220501"@de ;
+    dtd:has_doknr "BJNR194700009BJNE000201119"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160101220501"@de ;
+    dtd:has_doknr "BJNR194700009BJNE000303119"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20160101220501"@de ;
+    dtd:has_doknr "BJNR194700009BJNE000401119"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20160101220501"@de ;
+    dtd:has_doknr "BJNR194700009BJNE000501308"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20160101220501"@de ;
+    dtd:has_doknr "BJNR194700009BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id87 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id86 a dtd:pre ;
+    dtd:has_BR dtd:BR-id59,
+        dtd:BR-id60 ;
+    dtd:has_Value "(+++ Textnachweis ab: 22.7.2009 +++)"@de .
+
+dtd:standangabe-id28 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id90 ;
+    dtd:has_standtyp dtd:standtyp-id89 .
+
+dtd:standkommentar-id90 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 426 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id89 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Aufgabe"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Rechtsform, anzuwendendes Recht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Besondere Bestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Leistungsumfang"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Beschränkung des Anrechts"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Bilanzierung von Rückdeckungsversicherungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id88 a dtd:zitstelle ;
+    dtd:has_Value "2009, 1939, 1947"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

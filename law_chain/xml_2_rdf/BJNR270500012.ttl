@@ -1,0 +1,3403 @@
+@prefix dtd: <urn:BargeldPrüfV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id700 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2012, 2707 - 2709)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id701 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2012, 2710)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id702 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2012, 2711)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:B-id152 a dtd:B ;
+    dtd:has_Value "1."@de .
+
+dtd:B-id153 a dtd:B ;
+    dtd:has_Value "Angaben zum Meldepflichtigen (Bargeldakteur)"@de .
+
+dtd:B-id154 a dtd:B ;
+    dtd:has_Value "Unternehmenstyp:"@de .
+
+dtd:B-id155 a dtd:B ;
+    dtd:has_BR dtd:BR-id83,
+        dtd:BR-id84 ;
+    dtd:has_Value "Auslagerungsunternehmen (sofern relevant):"@de .
+
+dtd:B-id156 a dtd:B ;
+    dtd:has_Value "2."@de .
+
+dtd:B-id157 a dtd:B ;
+    dtd:has_Value "Kundenbediente Systeme"@de .
+
+dtd:B-id158 a dtd:B ;
+    dtd:has_Value "3."@de .
+
+dtd:B-id159 a dtd:B ;
+    dtd:has_Value "Beschäftigtenbediente Systeme"@de .
+
+dtd:B-id160 a dtd:B ;
+    dtd:has_Value "4."@de .
+
+dtd:B-id161 a dtd:B ;
+    dtd:has_Value "Beschäftigtenbediente Systeme"@de .
+
+dtd:B-id162 a dtd:B ;
+    dtd:has_Value "des Auslagerungsunternehmens"@de .
+
+dtd:B-id163 a dtd:B ;
+    dtd:has_Value "5."@de .
+
+dtd:B-id164 a dtd:B ;
+    dtd:has_Value "Geldausgabe- und andere kundenbediente Automaten ohne Recyclingfunktion"@de .
+
+dtd:B-id165 a dtd:B ;
+    dtd:has_Value "1."@de .
+
+dtd:B-id166 a dtd:B ;
+    dtd:has_Value "Operationale Daten zu kundenbedienten Systemen"@de .
+
+dtd:B-id167 a dtd:B ;
+    dtd:has_Value "Anzahl der bearbeiteten Banknoten"@de .
+
+dtd:B-id168 a dtd:B ;
+    dtd:has_Value "davon: Anzahl der an Kunden wieder ausgegebenen Banknoten"@de .
+
+dtd:B-id169 a dtd:B ;
+    dtd:has_Value "davon: Anzahl nicht umlauffähiger Banknoten"@de .
+
+dtd:B-id170 a dtd:B ;
+    dtd:has_Value "  5 €"@de .
+
+dtd:B-id171 a dtd:B ;
+    dtd:has_Value " 10 €"@de .
+
+dtd:B-id172 a dtd:B ;
+    dtd:has_Value " 20 €"@de .
+
+dtd:B-id173 a dtd:B ;
+    dtd:has_Value " 50 €"@de .
+
+dtd:B-id174 a dtd:B ;
+    dtd:has_Value "100 €"@de .
+
+dtd:B-id175 a dtd:B ;
+    dtd:has_Value "200 €"@de .
+
+dtd:B-id176 a dtd:B ;
+    dtd:has_Value "500 €"@de .
+
+dtd:B-id177 a dtd:B ;
+    dtd:has_Value "2."@de .
+
+dtd:B-id178 a dtd:B ;
+    dtd:has_Value "Operationale Daten zu beschäftigtenbedienten Systemen"@de .
+
+dtd:B-id179 a dtd:B ;
+    dtd:has_Value "Anzahl der bearbeiteten Banknoten"@de .
+
+dtd:B-id180 a dtd:B ;
+    dtd:has_Value "davon: Anzahl der an Kunden wieder ausgegebenen Banknoten"@de .
+
+dtd:B-id181 a dtd:B ;
+    dtd:has_Value "davon: Anzahl nicht umlauffähiger Banknoten"@de .
+
+dtd:B-id182 a dtd:B ;
+    dtd:has_Value "  5 €"@de .
+
+dtd:B-id183 a dtd:B ;
+    dtd:has_Value " 10 €"@de .
+
+dtd:B-id184 a dtd:B ;
+    dtd:has_Value " 20 €"@de .
+
+dtd:B-id185 a dtd:B ;
+    dtd:has_Value " 50 €"@de .
+
+dtd:B-id186 a dtd:B ;
+    dtd:has_Value "100 €"@de .
+
+dtd:B-id187 a dtd:B ;
+    dtd:has_Value "200 €"@de .
+
+dtd:B-id188 a dtd:B ;
+    dtd:has_Value "500 €"@de .
+
+dtd:B-id189 a dtd:B ;
+    dtd:has_Value "3."@de .
+
+dtd:B-id190 a dtd:B ;
+    dtd:has_Value "Anzahl der durch kundenbediente Systeme und Geldautomaten ausgegebenen Euro-Banknoten"@de .
+
+dtd:B-id191 a dtd:B ;
+    dtd:has_Value "Stück Banknoten"@de .
+
+dtd:B-id192 a dtd:B ;
+    dtd:has_Value "Operationale Daten zu den beschäftigtenbedienten Systemen des Auslagerungsunternehmens"@de .
+
+dtd:B-id193 a dtd:B ;
+    dtd:has_Value "Anzahl der für den Meldepflichtigen (Bargeldakteur) bearbeiteten Banknoten"@de .
+
+dtd:B-id194 a dtd:B ;
+    dtd:has_Value "davon: Anzahl der an den Meldepflichtigen (Bargeldakteur) abgegebenen Banknoten"@de .
+
+dtd:B-id195 a dtd:B ;
+    dtd:has_Value "davon: Anzahl nicht umlauffähiger Banknoten"@de .
+
+dtd:B-id196 a dtd:B ;
+    dtd:has_Value "  5 €"@de .
+
+dtd:B-id197 a dtd:B ;
+    dtd:has_Value " 10 €"@de .
+
+dtd:B-id198 a dtd:B ;
+    dtd:has_Value " 20 €"@de .
+
+dtd:B-id199 a dtd:B ;
+    dtd:has_Value " 50 €"@de .
+
+dtd:B-id200 a dtd:B ;
+    dtd:has_Value "100 €"@de .
+
+dtd:B-id201 a dtd:B ;
+    dtd:has_Value "200 €"@de .
+
+dtd:B-id202 a dtd:B ;
+    dtd:has_Value "500 €"@de .
+
+dtd:BR-id100 a dtd:BR .
+
+dtd:BR-id101 a dtd:BR .
+
+dtd:BR-id102 a dtd:BR .
+
+dtd:BR-id103 a dtd:BR .
+
+dtd:BR-id104 a dtd:BR .
+
+dtd:BR-id105 a dtd:BR .
+
+dtd:BR-id106 a dtd:BR .
+
+dtd:BR-id107 a dtd:BR .
+
+dtd:BR-id108 a dtd:BR .
+
+dtd:BR-id109 a dtd:BR .
+
+dtd:BR-id110 a dtd:BR .
+
+dtd:BR-id111 a dtd:BR .
+
+dtd:BR-id112 a dtd:BR .
+
+dtd:BR-id113 a dtd:BR .
+
+dtd:BR-id114 a dtd:BR .
+
+dtd:BR-id115 a dtd:BR .
+
+dtd:BR-id116 a dtd:BR .
+
+dtd:BR-id117 a dtd:BR .
+
+dtd:BR-id118 a dtd:BR .
+
+dtd:BR-id119 a dtd:BR .
+
+dtd:BR-id120 a dtd:BR .
+
+dtd:BR-id121 a dtd:BR .
+
+dtd:BR-id122 a dtd:BR .
+
+dtd:BR-id123 a dtd:BR .
+
+dtd:BR-id124 a dtd:BR .
+
+dtd:BR-id125 a dtd:BR .
+
+dtd:BR-id126 a dtd:BR .
+
+dtd:BR-id127 a dtd:BR .
+
+dtd:BR-id128 a dtd:BR .
+
+dtd:BR-id129 a dtd:BR .
+
+dtd:BR-id130 a dtd:BR .
+
+dtd:BR-id131 a dtd:BR .
+
+dtd:BR-id132 a dtd:BR .
+
+dtd:BR-id133 a dtd:BR .
+
+dtd:BR-id134 a dtd:BR .
+
+dtd:BR-id135 a dtd:BR .
+
+dtd:BR-id136 a dtd:BR .
+
+dtd:BR-id137 a dtd:BR .
+
+dtd:BR-id138 a dtd:BR .
+
+dtd:BR-id139 a dtd:BR .
+
+dtd:BR-id140 a dtd:BR .
+
+dtd:BR-id141 a dtd:BR .
+
+dtd:BR-id142 a dtd:BR .
+
+dtd:BR-id143 a dtd:BR .
+
+dtd:BR-id144 a dtd:BR .
+
+dtd:BR-id145 a dtd:BR .
+
+dtd:BR-id146 a dtd:BR .
+
+dtd:BR-id147 a dtd:BR .
+
+dtd:BR-id148 a dtd:BR .
+
+dtd:BR-id149 a dtd:BR .
+
+dtd:BR-id150 a dtd:BR .
+
+dtd:BR-id151 a dtd:BR .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:BR-id68 a dtd:BR .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:BR-id73 a dtd:BR .
+
+dtd:BR-id74 a dtd:BR .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:BR-id81 a dtd:BR .
+
+dtd:BR-id82 a dtd:BR .
+
+dtd:BR-id83 a dtd:BR .
+
+dtd:BR-id84 a dtd:BR .
+
+dtd:BR-id85 a dtd:BR .
+
+dtd:BR-id86 a dtd:BR .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:BR-id89 a dtd:BR .
+
+dtd:BR-id90 a dtd:BR .
+
+dtd:BR-id91 a dtd:BR .
+
+dtd:BR-id92 a dtd:BR .
+
+dtd:BR-id93 a dtd:BR .
+
+dtd:BR-id94 a dtd:BR .
+
+dtd:BR-id95 a dtd:BR .
+
+dtd:BR-id96 a dtd:BR .
+
+dtd:BR-id97 a dtd:BR .
+
+dtd:BR-id98 a dtd:BR .
+
+dtd:BR-id99 a dtd:BR .
+
+dtd:Content-id672 a dtd:Content ;
+    dtd:has_P dtd:P-id673 .
+
+dtd:Content-id674 a dtd:Content ;
+    dtd:has_P dtd:P-id675 .
+
+dtd:Content-id676 a dtd:Content ;
+    dtd:has_P dtd:P-id677,
+        dtd:P-id678,
+        dtd:P-id679 .
+
+dtd:Content-id680 a dtd:Content ;
+    dtd:has_P dtd:P-id681 .
+
+dtd:Content-id682 a dtd:Content ;
+    dtd:has_P dtd:P-id683,
+        dtd:P-id684,
+        dtd:P-id685,
+        dtd:P-id686,
+        dtd:P-id687 .
+
+dtd:Content-id688 a dtd:Content ;
+    dtd:has_P dtd:P-id689 .
+
+dtd:Content-id690 a dtd:Content ;
+    dtd:has_BR dtd:BR-id71 ;
+    dtd:has_P dtd:P-id691,
+        dtd:P-id692 .
+
+dtd:Content-id693 a dtd:Content ;
+    dtd:has_BR dtd:BR-id137 ;
+    dtd:has_P dtd:P-id694,
+        dtd:P-id695 .
+
+dtd:Content-id696 a dtd:Content ;
+    dtd:has_BR dtd:BR-id148 ;
+    dtd:has_P dtd:P-id697,
+        dtd:P-id698 ;
+    dtd:has_table dtd:table-id255 .
+
+dtd:DD-id613 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id649 .
+
+dtd:DD-id614 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id650 .
+
+dtd:DD-id615 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id651 .
+
+dtd:DD-id616 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id652 .
+
+dtd:DD-id617 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id653 .
+
+dtd:DD-id618 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id654 .
+
+dtd:DD-id619 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id655 .
+
+dtd:DD-id620 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id656 .
+
+dtd:DD-id624 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id657 .
+
+dtd:DD-id625 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id658 .
+
+dtd:DD-id629 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id659 .
+
+dtd:DD-id630 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id660 .
+
+dtd:DD-id637 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id661,
+        dtd:LA-id662,
+        dtd:LA-id663,
+        dtd:LA-id664 .
+
+dtd:DD-id638 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id665 .
+
+dtd:DD-id639 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id666 .
+
+dtd:DD-id640 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id667 .
+
+dtd:DD-id641 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id668 .
+
+dtd:DD-id646 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id669 .
+
+dtd:DD-id647 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id670 .
+
+dtd:DD-id648 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id671 .
+
+dtd:DL-id604 a dtd:DL ;
+    dtd:has_DD dtd:DD-id613,
+        dtd:DD-id614,
+        dtd:DD-id615,
+        dtd:DD-id616,
+        dtd:DD-id617,
+        dtd:DD-id618,
+        dtd:DD-id619,
+        dtd:DD-id620 ;
+    dtd:has_DT dtd:DT-id605,
+        dtd:DT-id606,
+        dtd:DT-id607,
+        dtd:DT-id608,
+        dtd:DT-id609,
+        dtd:DT-id610,
+        dtd:DT-id611,
+        dtd:DT-id612 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id621 a dtd:DL ;
+    dtd:has_DD dtd:DD-id624,
+        dtd:DD-id625 ;
+    dtd:has_DT dtd:DT-id622,
+        dtd:DT-id623 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id626 a dtd:DL ;
+    dtd:has_DD dtd:DD-id629,
+        dtd:DD-id630 ;
+    dtd:has_DT dtd:DT-id627,
+        dtd:DT-id628 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id631 a dtd:DL ;
+    dtd:has_DD dtd:DD-id637,
+        dtd:DD-id638,
+        dtd:DD-id639,
+        dtd:DD-id640,
+        dtd:DD-id641 ;
+    dtd:has_DT dtd:DT-id632,
+        dtd:DT-id633,
+        dtd:DT-id634,
+        dtd:DT-id635,
+        dtd:DT-id636 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Indent "5"@de ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id642 a dtd:DL ;
+    dtd:has_DD dtd:DD-id646,
+        dtd:DD-id647,
+        dtd:DD-id648 ;
+    dtd:has_DT dtd:DT-id643,
+        dtd:DT-id644,
+        dtd:DT-id645 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Indent "5"@de ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id605 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id606 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id607 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id608 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id609 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id610 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id611 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id612 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id622 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id623 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id627 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id628 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id632 a dtd:DT ;
+    dtd:has_B dtd:B-id152 ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id633 a dtd:DT ;
+    dtd:has_B dtd:B-id156 ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id634 a dtd:DT ;
+    dtd:has_B dtd:B-id158 ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id635 a dtd:DT ;
+    dtd:has_B dtd:B-id160 ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id636 a dtd:DT ;
+    dtd:has_B dtd:B-id163 ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id643 a dtd:DT ;
+    dtd:has_B dtd:B-id165 ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id644 a dtd:DT ;
+    dtd:has_B dtd:B-id177 ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id645 a dtd:DT ;
+    dtd:has_B dtd:B-id189 ;
+    dtd:has_Value "3."@de .
+
+dtd:F-id203 a dtd:F ;
+    dtd:has_Value " ⃞ "@de .
+
+dtd:F-id204 a dtd:F ;
+    dtd:has_Value " ⃞ "@de .
+
+dtd:F-id205 a dtd:F ;
+    dtd:has_Value " ⃞ "@de .
+
+dtd:F-id206 a dtd:F ;
+    dtd:has_Value " ⃞ "@de .
+
+dtd:F-id207 a dtd:F ;
+    dtd:has_Value " ⃞ "@de .
+
+dtd:F-id208 a dtd:F ;
+    dtd:has_Value " ⃞ "@de .
+
+dtd:FnR-id228 a dtd:FnR ;
+    dtd:has_ID "f779398_01_BJNR270500012BJNE000600000"@de .
+
+dtd:FnR-id229 a dtd:FnR ;
+    dtd:has_ID "f779398_02_BJNR270500012BJNE000600000"@de .
+
+dtd:FnR-id230 a dtd:FnR ;
+    dtd:has_ID "f779398_03_BJNR270500012BJNE000600000"@de .
+
+dtd:FnR-id231 a dtd:FnR ;
+    dtd:has_ID "f779398_04_BJNR270500012BJNE000600000"@de .
+
+dtd:Footnote-id704 a dtd:Footnote ;
+    dtd:has_FnZ "1"@de ;
+    dtd:has_Group dtd:table ;
+    dtd:has_ID "f779398_01_BJNR270500012BJNE000600000"@de ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "CIM (Cash-in machine) – Einzahlungsautomat; CRM (Cash-recycling machine) – Ein- und Auszahlungsautomat; CCM (Combined cash-in machine) – Kombinierter Einzahlungsautomat; COM (Cash-out machine) – Auszahlungsautomat."@de .
+
+dtd:Footnote-id705 a dtd:Footnote ;
+    dtd:has_FnZ "2"@de ;
+    dtd:has_Group dtd:table ;
+    dtd:has_ID "f779398_02_BJNR270500012BJNE000600000"@de ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "BPM (Banknote processing machine) – Banknotenbearbeitungsgerät; BAM (Banknote authentication machine) – Banknoten-Echtheitsprüfgerät; AKT – Automatischer Kassentresor mit Echtheitsprüfung; R-AKT – Automatischer Recycling-Kassentresor."@de .
+
+dtd:Footnote-id706 a dtd:Footnote ;
+    dtd:has_FnZ "3"@de ;
+    dtd:has_Group dtd:table ;
+    dtd:has_ID "f779398_03_BJNR270500012BJNE000600000"@de ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "Alle im Cash Center des Auslagerungsunternehmens eingesetzten beschäftigtenbedienten Systeme sind zu melden."@de .
+
+dtd:Footnote-id707 a dtd:Footnote ;
+    dtd:has_FnZ "4"@de ;
+    dtd:has_Group dtd:table ;
+    dtd:has_ID "f779398_04_BJNR270500012BJNE000600000"@de ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "BPM (Banknote processing machine) – Banknotenbearbeitungsgerät."@de .
+
+dtd:Footnotes-id703 a dtd:Footnotes ;
+    dtd:has_Footnote dtd:Footnote-id704,
+        dtd:Footnote-id705,
+        dtd:Footnote-id706,
+        dtd:Footnote-id707 .
+
+dtd:LA-id649 a dtd:LA ;
+    dtd:has_Value "Name und Anschrift der Stelle, die die falsche oder als falsch verdächtige Banknote oder Münze oder den Gegenstand angehalten hat;"@de .
+
+dtd:LA-id650 a dtd:LA ;
+    dtd:has_Value "Name der natürlichen Person, die die falsche oder als falsch verdächtige Banknote oder Münze oder den Gegenstand angehalten hat;"@de .
+
+dtd:LA-id651 a dtd:LA ;
+    dtd:has_Value "Ort und Zeitpunkt des Anhaltens der falschen oder als falsch verdächtigen Banknote oder Münze oder des Gegenstandes;"@de .
+
+dtd:LA-id652 a dtd:LA ;
+    dtd:has_Value "Einzelheiten des Ablaufs der Feststellung;"@de .
+
+dtd:LA-id653 a dtd:LA ;
+    dtd:has_Value "Stückelung der falschen oder als falsch verdächtigen Banknote oder Münze oder des Gegenstandes;"@de .
+
+dtd:LA-id654 a dtd:LA ;
+    dtd:has_Value "bei Banknoten die Notennummer;"@de .
+
+dtd:LA-id655 a dtd:LA ;
+    dtd:has_Value "Namen und Anschrift sämtlicher bekannter Vorbesitzer der falschen oder als falsch verdächtigen Banknote oder Münze oder des Gegenstandes und"@de .
+
+dtd:LA-id656 a dtd:LA ;
+    dtd:has_DL dtd:DL-id621 ;
+    dtd:has_Value "bei Einzahlung über einen Einzahlungsautomaten, einen Ein- und Auszahlungsautomaten oder einen kombinierten Einzahlungsautomaten a)die Bankleitzahl des kontoführenden Instituts und die Kontonummer oderb)die Internationale Bankkontonummer (IBAN)des Kontos, auf das die falsche oder als falsch verdächtige Banknote oder Münze oder der Gegenstand eingezahlt werden sollte."@de .
+
+dtd:LA-id657 a dtd:LA ;
+    dtd:has_Value "die Bankleitzahl des kontoführenden Instituts und die Kontonummer oder"@de .
+
+dtd:LA-id658 a dtd:LA ;
+    dtd:has_Value "die Internationale Bankkontonummer (IBAN)"@de .
+
+dtd:LA-id659 a dtd:LA ;
+    dtd:has_Value "getrennt für kunden- und beschäftigtenbediente Systeme jeweils zu den bearbeiteten Banknoten, den wieder an Kunden ausgegebenen Banknoten und den nicht umlauffähigen Banknoten sowie"@de .
+
+dtd:LA-id660 a dtd:LA ;
+    dtd:has_Value "für alle kundenbedienten Systeme und Geldautomaten zu den insgesamt ausgegebenen Banknoten."@de .
+
+dtd:LA-id661 a dtd:LA ;
+    dtd:has_B dtd:B-id153 ;
+    dtd:has_BR dtd:BR-id72,
+        dtd:BR-id73,
+        dtd:BR-id74,
+        dtd:BR-id75 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Angaben zum Meldepflichtigen (Bargeldakteur)Name des Meldepflichtigen (Bargeldakteur)Geschäftssitz (Hauptsitz)AnschriftStraße; HausnummerPLZOrtAnsprechpartnerNameVornameTelefon-Nr.Telefax-Nr.E-Mail-AdresseBMS-Kundennummer"@de ;
+    dtd:has_table dtd:table-id235 .
+
+dtd:LA-id662 a dtd:LA ;
+    dtd:has_B dtd:B-id154 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Unternehmenstyp:"@de .
+
+dtd:LA-id663 a dtd:LA ;
+    dtd:has_BR dtd:BR-id76,
+        dtd:BR-id77,
+        dtd:BR-id78,
+        dtd:BR-id79,
+        dtd:BR-id80,
+        dtd:BR-id81,
+        dtd:BR-id82 ;
+    dtd:has_F dtd:F-id203,
+        dtd:F-id204,
+        dtd:F-id205,
+        dtd:F-id206,
+        dtd:F-id207,
+        dtd:F-id208 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value " ⃞ Kreditinstitut ⃞ Wechselstube ⃞ Wertdienstleister (kein Zahlungsinstitut)  ⃞ Händler ⃞ Kasino ⃞ andere Institute, einschließlich Zahlungsinstitute (sofern nicht bereits einer anderen Gruppe zugeordnet)"@de .
+
+dtd:LA-id664 a dtd:LA ;
+    dtd:has_B dtd:B-id155 ;
+    dtd:has_BR dtd:BR-id85,
+        dtd:BR-id86 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Auslagerungsunternehmen (sofern relevant):NameAnschriftStraße; HausnummerPLZOrtBMS-Kundennummer (sofern bekannt)"@de ;
+    dtd:has_table dtd:table-id237 .
+
+dtd:LA-id665 a dtd:LA ;
+    dtd:has_B dtd:B-id157 ;
+    dtd:has_BR dtd:BR-id100,
+        dtd:BR-id87,
+        dtd:BR-id88,
+        dtd:BR-id99 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kundenbediente SystemeArt der Meldung Inbetriebnahme (I),Außerbetriebnahme (A) Bestands­meldung (B)Datumgültig abMaschinentypCIM, CRM, CCM, COMIdenti-fikations-nummer der EZBEingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-InternetseiteAnschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten SystemeAnzahlder eingesetzten Systeme pro Filiale/Cash Center"@de ;
+    dtd:has_table dtd:table-id239 .
+
+dtd:LA-id666 a dtd:LA ;
+    dtd:has_B dtd:B-id159 ;
+    dtd:has_BR dtd:BR-id101,
+        dtd:BR-id102,
+        dtd:BR-id113,
+        dtd:BR-id114 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beschäftigtenbediente SystemeArt der MeldungInbetriebnahme (I), Außerbetriebnahme (A) Bestandsmeldung (B)Datumgültig abMaschinentypBPM, BAM, AKT, R-AKTIdenti-fikations-nummer der EZBEingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-InternetseiteAnschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten SystemeAnzahlder eingesetzten Systeme pro Filiale/Cash Center"@de ;
+    dtd:has_table dtd:table-id241 .
+
+dtd:LA-id667 a dtd:LA ;
+    dtd:has_B dtd:B-id161,
+        dtd:B-id162 ;
+    dtd:has_BR dtd:BR-id115,
+        dtd:BR-id116,
+        dtd:BR-id129,
+        dtd:BR-id130 ;
+    dtd:has_FnR dtd:FnR-id230 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beschäftigtenbediente Systemedes AuslagerungsunternehmensArt der MeldungInbetriebnahme (I),Außerbetriebnahme (A) Bestandsmeldung (B)Datumgültig abMaschinentypBPMIdenti-fikations-nummer der EZBEingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-InternetseiteInterne Maschinen-ID des Auslagerungs-unternehmensAnschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten SystemeAnzahlder eingesetzten Systeme pro Filiale/Cash Center"@de ;
+    dtd:has_table dtd:table-id243 .
+
+dtd:LA-id668 a dtd:LA ;
+    dtd:has_B dtd:B-id164 ;
+    dtd:has_BR dtd:BR-id131,
+        dtd:BR-id132,
+        dtd:BR-id134,
+        dtd:BR-id135 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Geldausgabe- und andere kundenbediente Automaten ohne RecyclingfunktionAutomatentypAnzahl in Betrieb befindlicher SystemeGeldausgabeautomatenSCoTs (Selbstbedienungsterminals mitAuszahlungsfunktion)Andere Automaten"@de ;
+    dtd:has_table dtd:table-id245 .
+
+dtd:LA-id669 a dtd:LA ;
+    dtd:has_B dtd:B-id166 ;
+    dtd:has_BR dtd:BR-id138,
+        dtd:BR-id139 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Operationale Daten zu kundenbedienten SystemenAnzahl der bearbeiteten Banknotendavon: Anzahl der an Kunden wieder ausgegebenen Banknoten (Hinweis: Bei der Bundesbank eingezahlte Banknoten sind hier nicht auszuweisen.)davon: Anzahl nicht umlauffähiger Banknoten  5 € 10 € 20 € 50 €100 €200 €500 €"@de ;
+    dtd:has_table dtd:table-id249 .
+
+dtd:LA-id670 a dtd:LA ;
+    dtd:has_B dtd:B-id178 ;
+    dtd:has_BR dtd:BR-id141,
+        dtd:BR-id142 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Operationale Daten zu beschäftigtenbedienten SystemenAnzahl der bearbeiteten Banknotendavon: Anzahl der an Kunden wieder ausgegebenen Banknoten (Hinweis: Bei der Bundesbank eingezahlte Banknoten sind hier nicht auszuweisen.)davon: Anzahl nicht umlauffähiger Banknoten  5 € 10 € 20 € 50 €100 €200 €500 €"@de ;
+    dtd:has_table dtd:table-id251 .
+
+dtd:LA-id671 a dtd:LA ;
+    dtd:has_B dtd:B-id190 ;
+    dtd:has_BR dtd:BR-id144,
+        dtd:BR-id145 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anzahl der durch kundenbediente Systeme und Geldautomaten ausgegebenen Euro-BanknotenStück Banknoten"@de ;
+    dtd:has_table dtd:table-id253 .
+
+dtd:P-id673 a dtd:P ;
+    dtd:has_BR dtd:BR-id67 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2013 +++)"@de ;
+    dtd:has_pre dtd:pre-id699 .
+
+dtd:P-id675 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 36a Satz 1 bis 3 und 5 des Gesetzes über die Deutsche Bundesbank, der durch Artikel 9 Nummer 3 des Gesetzes vom 22. Dezember 2011 (BGBl. I S. 2959) eingefügt worden ist, in Verbindung mit § 1 der Verordnung zur Übertragung der Verordnungsermächtigung nach § 36a des Gesetzes über die Deutsche Bundesbank vom 9. Juli 2012 (BGBl. I S. 1507) verordnet der Vorstand der Deutschen Bundesbank im Einvernehmen mit dem Bundesministerium der Finanzen:"@de .
+
+dtd:P-id677 a dtd:P ;
+    dtd:has_Value "(1) Die Deutsche Bundesbank kann im Rahmen ihrer Prüfungen nach § 37a Absatz 2 des Gesetzes über die Deutsche Bundesbank an beschäftigtenbedienten Systemen zur Banknotenbearbeitung Stichproben aus bearbeiteten und als auszahlungsfähig eingestuften Banknoten entnehmen. Der Umfang der Stichprobe soll in der Regel nicht größer sein als 5 Prozent der bei Normalauslastung durchschnittlich täglich bearbeiteten Banknoten pro Stückelung und Systemtyp und alle bearbeiteten Stückelungen umfassen."@de .
+
+dtd:P-id678 a dtd:P ;
+    dtd:has_Value "(2) Die Stichprobe ist im Beisein einer Mitarbeiterin oder eines Mitarbeiters des Verpflichteten nach § 36 Absatz 1 des Gesetzes über die Deutsche Bundesbank in von diesem zur Verfügung zu stellenden Spezialbehältern zur Aufbewahrung von Bargeld zu versiegeln oder zu verplomben und mit dem Hinweis „Stichprobe BargeldPrüfV“ zu kennzeichnen. Der Verpflichtete hat die Stichprobe innerhalb von fünf Geschäftstagen bei einer Filiale der Deutschen Bundesbank einzureichen und erhält den Gegenwert nach Maßgabe der dortigen Einzahlungsbedingungen."@de .
+
+dtd:P-id679 a dtd:P ;
+    dtd:has_Value "(3) Die Deutsche Bundesbank hat den geprüften Stellen das Ergebnis der Stichprobenprüfung mitzuteilen."@de .
+
+dtd:P-id681 a dtd:P ;
+    dtd:has_DL dtd:DL-id604 ;
+    dtd:has_Value "Die Berichte nach § 36 Absatz 2 und 3 Satz 1 des Gesetzes über die Deutsche Bundesbank müssen mindestens die folgenden Angaben enthalten: 1.Name und Anschrift der Stelle, die die falsche oder als falsch verdächtige Banknote oder Münze oder den Gegenstand angehalten hat;2.Name der natürlichen Person, die die falsche oder als falsch verdächtige Banknote oder Münze oder den Gegenstand angehalten hat;3.Ort und Zeitpunkt des Anhaltens der falschen oder als falsch verdächtigen Banknote oder Münze oder des Gegenstandes;4.Einzelheiten des Ablaufs der Feststellung;5.Stückelung der falschen oder als falsch verdächtigen Banknote oder Münze oder des Gegenstandes;6.bei Banknoten die Notennummer;7.Namen und Anschrift sämtlicher bekannter Vorbesitzer der falschen oder als falsch verdächtigen Banknote oder Münze oder des Gegenstandes und8.bei Einzahlung über einen Einzahlungsautomaten, einen Ein- und Auszahlungsautomaten oder einen kombinierten Einzahlungsautomaten a)die Bankleitzahl des kontoführenden Instituts und die Kontonummer oderb)die Internationale Bankkontonummer (IBAN)des Kontos, auf das die falsche oder als falsch verdächtige Banknote oder Münze oder der Gegenstand eingezahlt werden sollte."@de .
+
+dtd:P-id683 a dtd:P ;
+    dtd:has_Value "(1) Verpflichtete nach § 36 Absatz 1 des Gesetzes über die Deutsche Bundesbank, die Banknoten mit Banknotenbearbeitungssystemen prüfen und wieder in Umlauf geben, haben der Deutschen Bundesbank ihre Stammdaten und die Stammdaten der von ihnen betriebenen Systeme zur Banknotenbearbeitung sowie die operationalen Daten dieser Systeme zur Banknotenbearbeitung nach Maßgabe der Absätze 2 bis 5 zu melden."@de .
+
+dtd:P-id684 a dtd:P ;
+    dtd:has_Value "(2) Die Stammdaten sind innerhalb von zehn Geschäftstagen nach Inbetriebnahme eines Banknotenbearbeitungssystems und bei jeder Änderung der Stammdaten zu melden; für bestehende Banknotenbearbeitungssysteme sind Stammdaten mit Stichtag 1. Januar 2013 spätestens am 31. Januar 2013 zu melden. Die Stammdaten sind ferner halbjährlich mit Stichtag 30. Juni bis spätestens zum 31. Juli des Jahres und mit Stichtag 31. Dezember bis spätestens zum 31. Januar des Folgejahres zu melden. Für die Meldungen ist das Formular „Meldung statistischer Daten an die Deutsche Bundesbank – Stammdaten“ aus Anlage 1 zu dieser Verordnung zu verwenden."@de .
+
+dtd:P-id685 a dtd:P ;
+    dtd:has_DL dtd:DL-id626 ;
+    dtd:has_Value "(3) Die operationalen Daten sind aggregiert für alle Systeme für das erste Kalenderhalbjahr bis spätestens zum 31. August des Jahres und für das zweite Kalenderhalbjahr bis spätestens zum 28. Februar des darauffolgenden Jahres zu melden und zwar 1.getrennt für kunden- und beschäftigtenbediente Systeme jeweils zu den bearbeiteten Banknoten, den wieder an Kunden ausgegebenen Banknoten und den nicht umlauffähigen Banknoten sowie2.für alle kundenbedienten Systeme und Geldautomaten zu den insgesamt ausgegebenen Banknoten.Für die Meldungen ist das Formular „Meldung statistischer Daten an die Deutsche Bundesbank – Operationale Daten“ aus Anlage 2 zu dieser Verordnung oder im Fall einer Auslagerung das Formular „Meldung statistischer Daten an die Deutsche Bundesbank – Operationale Daten – Auslagerung“ aus Anlage 3 zu dieser Verordnung zu verwenden."@de .
+
+dtd:P-id686 a dtd:P ;
+    dtd:has_Value "(4) Die Meldungen nach den Absätzen 2 und 3 sind der Deutschen Bundesbank elektronisch zu übermitteln. Die elektronische Form im Sinne des § 3a des Verwaltungsverfahrensgesetzes ist nicht erforderlich. Die Deutsche Bundesbank veröffentlicht im Bundesanzeiger die Adresse, an die die Meldungen zu übermitteln sind."@de .
+
+dtd:P-id687 a dtd:P ;
+    dtd:has_Value "(5) Der Meldeweg nach Absatz 4 ist nicht einzuhalten, soweit Meldepflichtige Meldungen über das ExtraNet der Deutschen Bundesbank gemäß den dafür geltenden Bedingungen erstatten."@de .
+
+dtd:P-id689 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 2013 in Kraft."@de .
+
+dtd:P-id691 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2012, 2707 - 2709)"@de ;
+    dtd:has_noindex dtd:noindex-id232 .
+
+dtd:P-id692 a dtd:P ;
+    dtd:has_DL dtd:DL-id631 ;
+    dtd:has_Value "1.Angaben zum Meldepflichtigen (Bargeldakteur)Name des Meldepflichtigen (Bargeldakteur)Geschäftssitz (Hauptsitz)AnschriftStraße; HausnummerPLZOrtAnsprechpartnerNameVornameTelefon-Nr.Telefax-Nr.E-Mail-AdresseBMS-KundennummerUnternehmenstyp: ⃞ Kreditinstitut ⃞ Wechselstube ⃞ Wertdienstleister (kein Zahlungsinstitut)  ⃞ Händler ⃞ Kasino ⃞ andere Institute, einschließlich Zahlungsinstitute (sofern nicht bereits einer anderen Gruppe zugeordnet)Auslagerungsunternehmen (sofern relevant):NameAnschriftStraße; HausnummerPLZOrtBMS-Kundennummer (sofern bekannt)2.Kundenbediente SystemeArt der Meldung Inbetriebnahme (I),Außerbetriebnahme (A) Bestands­meldung (B)Datumgültig abMaschinentypCIM, CRM, CCM, COMIdenti-fikations-nummer der EZBEingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-InternetseiteAnschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten SystemeAnzahlder eingesetzten Systeme pro Filiale/Cash Center3.Beschäftigtenbediente SystemeArt der MeldungInbetriebnahme (I), Außerbetriebnahme (A) Bestandsmeldung (B)Datumgültig abMaschinentypBPM, BAM, AKT, R-AKTIdenti-fikations-nummer der EZBEingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-InternetseiteAnschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten SystemeAnzahlder eingesetzten Systeme pro Filiale/Cash Center4.Beschäftigtenbediente Systemedes AuslagerungsunternehmensArt der MeldungInbetriebnahme (I),Außerbetriebnahme (A) Bestandsmeldung (B)Datumgültig abMaschinentypBPMIdenti-fikations-nummer der EZBEingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-InternetseiteInterne Maschinen-ID des Auslagerungs-unternehmensAnschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten SystemeAnzahlder eingesetzten Systeme pro Filiale/Cash Center5.Geldausgabe- und andere kundenbediente Automaten ohne RecyclingfunktionAutomatentypAnzahl in Betrieb befindlicher SystemeGeldausgabeautomatenSCoTs (Selbstbedienungsterminals mitAuszahlungsfunktion)Andere Automaten"@de .
+
+dtd:P-id694 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2012, 2710)"@de ;
+    dtd:has_noindex dtd:noindex-id233 .
+
+dtd:P-id695 a dtd:P ;
+    dtd:has_DL dtd:DL-id642 ;
+    dtd:has_Value "Name des Meldepflichtigen (Bargeldakteur)BMS-KundennummerBerichtszeitraum:1.Operationale Daten zu kundenbedienten SystemenAnzahl der bearbeiteten Banknotendavon: Anzahl der an Kunden wieder ausgegebenen Banknoten (Hinweis: Bei der Bundesbank eingezahlte Banknoten sind hier nicht auszuweisen.)davon: Anzahl nicht umlauffähiger Banknoten  5 € 10 € 20 € 50 €100 €200 €500 €2.Operationale Daten zu beschäftigtenbedienten SystemenAnzahl der bearbeiteten Banknotendavon: Anzahl der an Kunden wieder ausgegebenen Banknoten (Hinweis: Bei der Bundesbank eingezahlte Banknoten sind hier nicht auszuweisen.)davon: Anzahl nicht umlauffähiger Banknoten  5 € 10 € 20 € 50 €100 €200 €500 €3.Anzahl der durch kundenbediente Systeme und Geldautomaten ausgegebenen Euro-BanknotenStück Banknoten"@de ;
+    dtd:has_table dtd:table-id247 .
+
+dtd:P-id697 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2012, 2711)"@de ;
+    dtd:has_noindex dtd:noindex-id234 .
+
+dtd:P-id698 a dtd:P ;
+    dtd:has_B dtd:B-id192 ;
+    dtd:has_BR dtd:BR-id149,
+        dtd:BR-id150 ;
+    dtd:has_Value "Operationale Daten zu den beschäftigtenbedienten Systemen des AuslagerungsunternehmensAnzahl der für den Meldepflichtigen (Bargeldakteur) bearbeiteten Banknotendavon: Anzahl der an den Meldepflichtigen (Bargeldakteur) abgegebenen Banknoten (Hinweis: Bei der Bundesbank eingezahlte Banknoten sind hier nicht auszuweisen.)davon: Anzahl nicht umlauffähiger Banknoten  5 € 10 € 20 € 50 €100 €200 €500 €"@de ;
+    dtd:has_table dtd:table-id257 .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-12-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id259 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20.13*"@de .
+
+dtd:colspec-id260 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "25.16*"@de .
+
+dtd:colspec-id261 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "54.72*"@de .
+
+dtd:colspec-id263 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id264 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "25.00*"@de .
+
+dtd:colspec-id265 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "55.00*"@de .
+
+dtd:colspec-id267 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "14*"@de .
+
+dtd:colspec-id268 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "6.00*"@de .
+
+dtd:colspec-id269 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "11.00*"@de .
+
+dtd:colspec-id270 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "6.00*"@de .
+
+dtd:colspec-id271 a dtd:colspec ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "34.00*"@de .
+
+dtd:colspec-id272 a dtd:colspec ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colnum "6"@de ;
+    dtd:has_colwidth "21.00*"@de .
+
+dtd:colspec-id273 a dtd:colspec ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colnum "7"@de ;
+    dtd:has_colwidth "16.00*"@de .
+
+dtd:colspec-id275 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "14*"@de .
+
+dtd:colspec-id276 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "6.00*"@de .
+
+dtd:colspec-id277 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "11.00*"@de .
+
+dtd:colspec-id278 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "6.00*"@de .
+
+dtd:colspec-id279 a dtd:colspec ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "34.00*"@de .
+
+dtd:colspec-id280 a dtd:colspec ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colnum "6"@de ;
+    dtd:has_colwidth "21.00*"@de .
+
+dtd:colspec-id281 a dtd:colspec ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colnum "7"@de ;
+    dtd:has_colwidth "16.00*"@de .
+
+dtd:colspec-id283 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "14*"@de .
+
+dtd:colspec-id284 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "6.00*"@de .
+
+dtd:colspec-id285 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "11.00*"@de .
+
+dtd:colspec-id286 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "6.00*"@de .
+
+dtd:colspec-id287 a dtd:colspec ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "22.50*"@de .
+
+dtd:colspec-id288 a dtd:colspec ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_colnum "6"@de ;
+    dtd:has_colwidth "11.50*"@de .
+
+dtd:colspec-id289 a dtd:colspec ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_colnum "7"@de ;
+    dtd:has_colwidth "21.00*"@de .
+
+dtd:colspec-id290 a dtd:colspec ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_colnum "8"@de ;
+    dtd:has_colwidth "16.00*"@de .
+
+dtd:colspec-id292 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:colspec-id293 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:colspec-id295 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:colspec-id296 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:colspec-id298 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "8*"@de .
+
+dtd:colspec-id299 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "24.00*"@de .
+
+dtd:colspec-id300 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "33*"@de .
+
+dtd:colspec-id301 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "34*"@de .
+
+dtd:colspec-id303 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "8*"@de .
+
+dtd:colspec-id304 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "24.00*"@de .
+
+dtd:colspec-id305 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "33*"@de .
+
+dtd:colspec-id306 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "34*"@de .
+
+dtd:colspec-id308 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:colspec-id309 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:colspec-id311 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:colspec-id312 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:colspec-id314 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "8*"@de .
+
+dtd:colspec-id315 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "27*"@de .
+
+dtd:colspec-id316 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "33*"@de .
+
+dtd:colspec-id317 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "34*"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "Anlage 1"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "Anlage 2"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "Anlage 3"@de .
+
+dtd:entry-id381 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Name des Meldepflichtigen (Bargeldakteur)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id382 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id383 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Geschäftssitz (Hauptsitz)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id384 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id385 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anschrift"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_morerows "2"@de .
+
+dtd:entry-id386 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Straße; Hausnummer"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id387 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id388 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "PLZ"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id389 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id390 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ort"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id391 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id392 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ansprechpartner"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_morerows "4"@de .
+
+dtd:entry-id393 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Name"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id394 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id395 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vorname"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id396 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id397 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Telefon-Nr."@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id398 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id399 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Telefax-Nr."@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id400 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id401 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "E-Mail-Adresse"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id402 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id403 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BMS-Kundennummer"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id404 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id405 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Name"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id406 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id407 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anschrift"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_morerows "2"@de .
+
+dtd:entry-id408 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Straße; Hausnummer"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id409 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id410 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "PLZ"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id411 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id412 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Ort"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id413 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id414 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BMS-Kundennummer (sofern bekannt)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id415 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id416 a dtd:entry ;
+    dtd:has_BR dtd:BR-id89,
+        dtd:BR-id90 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Art der Meldung Inbetriebnahme (I),Außerbetriebnahme (A) Bestands­meldung (B)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_small dtd:small-id209 .
+
+dtd:entry-id417 a dtd:entry ;
+    dtd:has_BR dtd:BR-id92 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Datumgültig ab"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_small dtd:small-id210 .
+
+dtd:entry-id418 a dtd:entry ;
+    dtd:has_BR dtd:BR-id93 ;
+    dtd:has_FnR dtd:FnR-id228 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "MaschinentypCIM, CRM, CCM, COM"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_small dtd:small-id211 .
+
+dtd:entry-id419 a dtd:entry ;
+    dtd:has_BR dtd:BR-id94,
+        dtd:BR-id95 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Identi-fikations-nummer der EZB"@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id420 a dtd:entry ;
+    dtd:has_BR dtd:BR-id96 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Eingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-Internetseite"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_small dtd:small-id212 .
+
+dtd:entry-id421 a dtd:entry ;
+    dtd:has_BR dtd:BR-id97 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten Systeme"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_small dtd:small-id213 .
+
+dtd:entry-id422 a dtd:entry ;
+    dtd:has_BR dtd:BR-id98 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anzahlder eingesetzten Systeme pro Filiale/Cash Center"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_small dtd:small-id214 .
+
+dtd:entry-id423 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id424 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id425 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id426 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id427 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id428 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col6"@de .
+
+dtd:entry-id429 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col7"@de .
+
+dtd:entry-id430 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id431 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id432 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id433 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id434 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id435 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col6"@de .
+
+dtd:entry-id436 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col7"@de .
+
+dtd:entry-id437 a dtd:entry ;
+    dtd:has_BR dtd:BR-id103 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Art der MeldungInbetriebnahme (I), Außerbetriebnahme (A) Bestandsmeldung (B)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_small dtd:small-id215 .
+
+dtd:entry-id438 a dtd:entry ;
+    dtd:has_BR dtd:BR-id106 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Datumgültig ab"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_small dtd:small-id216 .
+
+dtd:entry-id439 a dtd:entry ;
+    dtd:has_BR dtd:BR-id107 ;
+    dtd:has_FnR dtd:FnR-id229 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "MaschinentypBPM, BAM, AKT, R-AKT"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_small dtd:small-id217 .
+
+dtd:entry-id440 a dtd:entry ;
+    dtd:has_BR dtd:BR-id108,
+        dtd:BR-id109 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Identi-fikations-nummer der EZB"@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id441 a dtd:entry ;
+    dtd:has_BR dtd:BR-id110 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Eingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-Internetseite"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_small dtd:small-id218 .
+
+dtd:entry-id442 a dtd:entry ;
+    dtd:has_BR dtd:BR-id111 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten Systeme"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_small dtd:small-id219 .
+
+dtd:entry-id443 a dtd:entry ;
+    dtd:has_BR dtd:BR-id112 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anzahlder eingesetzten Systeme pro Filiale/Cash Center"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_small dtd:small-id220 .
+
+dtd:entry-id444 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id445 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id446 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id447 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id448 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id449 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col6"@de .
+
+dtd:entry-id450 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col7"@de .
+
+dtd:entry-id451 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id452 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id453 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id454 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id455 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id456 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col6"@de .
+
+dtd:entry-id457 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col7"@de .
+
+dtd:entry-id458 a dtd:entry ;
+    dtd:has_BR dtd:BR-id117,
+        dtd:BR-id118 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Art der MeldungInbetriebnahme (I),Außerbetriebnahme (A) Bestandsmeldung (B)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_small dtd:small-id221 .
+
+dtd:entry-id459 a dtd:entry ;
+    dtd:has_BR dtd:BR-id120 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Datumgültig ab"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_small dtd:small-id222 .
+
+dtd:entry-id460 a dtd:entry ;
+    dtd:has_BR dtd:BR-id121 ;
+    dtd:has_FnR dtd:FnR-id231 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "MaschinentypBPM"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_small dtd:small-id223 .
+
+dtd:entry-id461 a dtd:entry ;
+    dtd:has_BR dtd:BR-id122,
+        dtd:BR-id123 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Identi-fikations-nummer der EZB"@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id462 a dtd:entry ;
+    dtd:has_BR dtd:BR-id124 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Eingesetzter Systemtyp(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-Internetseite"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_small dtd:small-id224 .
+
+dtd:entry-id463 a dtd:entry ;
+    dtd:has_BR dtd:BR-id125 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Interne Maschinen-ID des Auslagerungs-unternehmens"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col6"@de ;
+    dtd:has_small dtd:small-id225 .
+
+dtd:entry-id464 a dtd:entry ;
+    dtd:has_BR dtd:BR-id127 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anschrift der Aufstellungsorte(Filiale/Cash Center) der eingesetzten Systeme"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col7"@de ;
+    dtd:has_small dtd:small-id226 .
+
+dtd:entry-id465 a dtd:entry ;
+    dtd:has_BR dtd:BR-id128 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anzahlder eingesetzten Systeme pro Filiale/Cash Center"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col8"@de ;
+    dtd:has_small dtd:small-id227 .
+
+dtd:entry-id466 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id467 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id468 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id469 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id470 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id471 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col6"@de .
+
+dtd:entry-id472 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col7"@de .
+
+dtd:entry-id473 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col8"@de .
+
+dtd:entry-id474 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id475 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id476 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id477 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id478 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id479 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col6"@de .
+
+dtd:entry-id480 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col7"@de .
+
+dtd:entry-id481 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col8"@de .
+
+dtd:entry-id482 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Automatentyp"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id483 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anzahl in Betrieb befindlicher Systeme"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id484 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Geldausgabeautomaten"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id485 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id486 a dtd:entry ;
+    dtd:has_BR dtd:BR-id133 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "SCoTs (Selbstbedienungsterminals mitAuszahlungsfunktion)"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id487 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id488 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Andere Automaten"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id489 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id490 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Name des Meldepflichtigen (Bargeldakteur)"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id491 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id492 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BMS-Kundennummer"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id493 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id494 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berichtszeitraum:"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id495 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id496 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id497 a dtd:entry ;
+    dtd:has_B dtd:B-id167 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anzahl der bearbeiteten Banknoten"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id498 a dtd:entry ;
+    dtd:has_B dtd:B-id168 ;
+    dtd:has_BR dtd:BR-id140 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "davon: Anzahl der an Kunden wieder ausgegebenen Banknoten (Hinweis: Bei der Bundesbank eingezahlte Banknoten sind hier nicht auszuweisen.)"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id499 a dtd:entry ;
+    dtd:has_B dtd:B-id169 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "davon: Anzahl nicht umlauffähiger Banknoten"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id500 a dtd:entry ;
+    dtd:has_B dtd:B-id170 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "  5 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id501 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id502 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id503 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id504 a dtd:entry ;
+    dtd:has_B dtd:B-id171 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 10 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id505 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id506 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id507 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id508 a dtd:entry ;
+    dtd:has_B dtd:B-id172 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 20 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id509 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id510 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id511 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id512 a dtd:entry ;
+    dtd:has_B dtd:B-id173 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 50 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id513 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id514 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id515 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id516 a dtd:entry ;
+    dtd:has_B dtd:B-id174 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id517 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id518 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id519 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id520 a dtd:entry ;
+    dtd:has_B dtd:B-id175 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "200 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id521 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id522 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id523 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id524 a dtd:entry ;
+    dtd:has_B dtd:B-id176 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "500 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id525 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id526 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id527 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id528 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id529 a dtd:entry ;
+    dtd:has_B dtd:B-id179 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anzahl der bearbeiteten Banknoten"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id530 a dtd:entry ;
+    dtd:has_B dtd:B-id180 ;
+    dtd:has_BR dtd:BR-id143 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "davon: Anzahl der an Kunden wieder ausgegebenen Banknoten (Hinweis: Bei der Bundesbank eingezahlte Banknoten sind hier nicht auszuweisen.)"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id531 a dtd:entry ;
+    dtd:has_B dtd:B-id181 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "davon: Anzahl nicht umlauffähiger Banknoten"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id532 a dtd:entry ;
+    dtd:has_B dtd:B-id182 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "  5 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id533 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id534 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id535 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id536 a dtd:entry ;
+    dtd:has_B dtd:B-id183 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 10 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id537 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id538 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id539 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id540 a dtd:entry ;
+    dtd:has_B dtd:B-id184 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 20 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id541 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id542 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id543 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id544 a dtd:entry ;
+    dtd:has_B dtd:B-id185 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 50 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id545 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id546 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id547 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id548 a dtd:entry ;
+    dtd:has_B dtd:B-id186 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id549 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id550 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id551 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id552 a dtd:entry ;
+    dtd:has_B dtd:B-id187 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "200 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id553 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id554 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id555 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id556 a dtd:entry ;
+    dtd:has_B dtd:B-id188 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "500 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id557 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id558 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id559 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id560 a dtd:entry ;
+    dtd:has_B dtd:B-id191 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Stück Banknoten"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id561 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id562 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Name des Meldepflichtigen (Bargeldakteur)"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id563 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id564 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BMS-Kundennummer"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id565 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id566 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Name des Auslagerungsunternehmens"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id567 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id568 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "BMS-Kundennummer des Auslagerungsunternehmens (sofern bekannt)"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id569 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id570 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berichtszeitraum:"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id571 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id572 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id573 a dtd:entry ;
+    dtd:has_B dtd:B-id193 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Anzahl der für den Meldepflichtigen (Bargeldakteur) bearbeiteten Banknoten"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id574 a dtd:entry ;
+    dtd:has_B dtd:B-id194 ;
+    dtd:has_BR dtd:BR-id151 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "davon: Anzahl der an den Meldepflichtigen (Bargeldakteur) abgegebenen Banknoten (Hinweis: Bei der Bundesbank eingezahlte Banknoten sind hier nicht auszuweisen.)"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id575 a dtd:entry ;
+    dtd:has_B dtd:B-id195 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "davon: Anzahl nicht umlauffähiger Banknoten"@de ;
+    dtd:has_align dtd:justify ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id576 a dtd:entry ;
+    dtd:has_B dtd:B-id196 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "  5 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id577 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id578 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id579 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id580 a dtd:entry ;
+    dtd:has_B dtd:B-id197 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 10 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id581 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id582 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id583 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id584 a dtd:entry ;
+    dtd:has_B dtd:B-id198 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 20 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id585 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id586 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id587 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id588 a dtd:entry ;
+    dtd:has_B dtd:B-id199 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 50 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id589 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id590 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id591 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id592 a dtd:entry ;
+    dtd:has_B dtd:B-id200 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id593 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id594 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id595 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id596 a dtd:entry ;
+    dtd:has_B dtd:B-id201 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "200 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id597 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id598 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id599 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id600 a dtd:entry ;
+    dtd:has_B dtd:B-id202 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "500 €"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id601 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id602 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id603 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col4"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id708 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id709 .
+
+dtd:fussnoten-id58 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id672 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "BargeldPrüfV"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "Bargeldprüfungsverordnung"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Prüfung von Bargeld"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:noindex-id232 a dtd:noindex .
+
+dtd:noindex-id233 a dtd:noindex .
+
+dtd:noindex-id234 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20140228221506"@de ;
+    dtd:has_doknr "BJNR270500012BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id708 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id699 a dtd:pre ;
+    dtd:has_BR dtd:BR-id68,
+        dtd:BR-id69 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2013 +++)"@de .
+
+dtd:row-id319 a dtd:row ;
+    dtd:has_entry dtd:entry-id381,
+        dtd:entry-id382 .
+
+dtd:row-id320 a dtd:row ;
+    dtd:has_entry dtd:entry-id383,
+        dtd:entry-id384 .
+
+dtd:row-id321 a dtd:row ;
+    dtd:has_entry dtd:entry-id385,
+        dtd:entry-id386,
+        dtd:entry-id387 .
+
+dtd:row-id322 a dtd:row ;
+    dtd:has_entry dtd:entry-id388,
+        dtd:entry-id389 .
+
+dtd:row-id323 a dtd:row ;
+    dtd:has_entry dtd:entry-id390,
+        dtd:entry-id391 .
+
+dtd:row-id324 a dtd:row ;
+    dtd:has_entry dtd:entry-id392,
+        dtd:entry-id393,
+        dtd:entry-id394 .
+
+dtd:row-id325 a dtd:row ;
+    dtd:has_entry dtd:entry-id395,
+        dtd:entry-id396 .
+
+dtd:row-id326 a dtd:row ;
+    dtd:has_entry dtd:entry-id397,
+        dtd:entry-id398 .
+
+dtd:row-id327 a dtd:row ;
+    dtd:has_entry dtd:entry-id399,
+        dtd:entry-id400 .
+
+dtd:row-id328 a dtd:row ;
+    dtd:has_entry dtd:entry-id401,
+        dtd:entry-id402 .
+
+dtd:row-id329 a dtd:row ;
+    dtd:has_entry dtd:entry-id403,
+        dtd:entry-id404 .
+
+dtd:row-id330 a dtd:row ;
+    dtd:has_entry dtd:entry-id405,
+        dtd:entry-id406 .
+
+dtd:row-id331 a dtd:row ;
+    dtd:has_entry dtd:entry-id407,
+        dtd:entry-id408,
+        dtd:entry-id409 .
+
+dtd:row-id332 a dtd:row ;
+    dtd:has_entry dtd:entry-id410,
+        dtd:entry-id411 .
+
+dtd:row-id333 a dtd:row ;
+    dtd:has_entry dtd:entry-id412,
+        dtd:entry-id413 .
+
+dtd:row-id334 a dtd:row ;
+    dtd:has_entry dtd:entry-id414,
+        dtd:entry-id415 .
+
+dtd:row-id335 a dtd:row ;
+    dtd:has_entry dtd:entry-id416,
+        dtd:entry-id417,
+        dtd:entry-id418,
+        dtd:entry-id419,
+        dtd:entry-id420,
+        dtd:entry-id421,
+        dtd:entry-id422 .
+
+dtd:row-id336 a dtd:row ;
+    dtd:has_entry dtd:entry-id423,
+        dtd:entry-id424,
+        dtd:entry-id425,
+        dtd:entry-id426,
+        dtd:entry-id427,
+        dtd:entry-id428,
+        dtd:entry-id429 .
+
+dtd:row-id337 a dtd:row ;
+    dtd:has_entry dtd:entry-id430,
+        dtd:entry-id431,
+        dtd:entry-id432,
+        dtd:entry-id433,
+        dtd:entry-id434,
+        dtd:entry-id435,
+        dtd:entry-id436 .
+
+dtd:row-id338 a dtd:row ;
+    dtd:has_entry dtd:entry-id437,
+        dtd:entry-id438,
+        dtd:entry-id439,
+        dtd:entry-id440,
+        dtd:entry-id441,
+        dtd:entry-id442,
+        dtd:entry-id443 .
+
+dtd:row-id339 a dtd:row ;
+    dtd:has_entry dtd:entry-id444,
+        dtd:entry-id445,
+        dtd:entry-id446,
+        dtd:entry-id447,
+        dtd:entry-id448,
+        dtd:entry-id449,
+        dtd:entry-id450 .
+
+dtd:row-id340 a dtd:row ;
+    dtd:has_entry dtd:entry-id451,
+        dtd:entry-id452,
+        dtd:entry-id453,
+        dtd:entry-id454,
+        dtd:entry-id455,
+        dtd:entry-id456,
+        dtd:entry-id457 .
+
+dtd:row-id341 a dtd:row ;
+    dtd:has_entry dtd:entry-id458,
+        dtd:entry-id459,
+        dtd:entry-id460,
+        dtd:entry-id461,
+        dtd:entry-id462,
+        dtd:entry-id463,
+        dtd:entry-id464,
+        dtd:entry-id465 .
+
+dtd:row-id342 a dtd:row ;
+    dtd:has_entry dtd:entry-id466,
+        dtd:entry-id467,
+        dtd:entry-id468,
+        dtd:entry-id469,
+        dtd:entry-id470,
+        dtd:entry-id471,
+        dtd:entry-id472,
+        dtd:entry-id473 .
+
+dtd:row-id343 a dtd:row ;
+    dtd:has_entry dtd:entry-id474,
+        dtd:entry-id475,
+        dtd:entry-id476,
+        dtd:entry-id477,
+        dtd:entry-id478,
+        dtd:entry-id479,
+        dtd:entry-id480,
+        dtd:entry-id481 .
+
+dtd:row-id344 a dtd:row ;
+    dtd:has_entry dtd:entry-id482,
+        dtd:entry-id483 .
+
+dtd:row-id345 a dtd:row ;
+    dtd:has_entry dtd:entry-id484,
+        dtd:entry-id485 .
+
+dtd:row-id346 a dtd:row ;
+    dtd:has_entry dtd:entry-id486,
+        dtd:entry-id487 .
+
+dtd:row-id347 a dtd:row ;
+    dtd:has_entry dtd:entry-id488,
+        dtd:entry-id489 .
+
+dtd:row-id348 a dtd:row ;
+    dtd:has_entry dtd:entry-id490,
+        dtd:entry-id491 .
+
+dtd:row-id349 a dtd:row ;
+    dtd:has_entry dtd:entry-id492,
+        dtd:entry-id493 .
+
+dtd:row-id350 a dtd:row ;
+    dtd:has_entry dtd:entry-id494,
+        dtd:entry-id495 .
+
+dtd:row-id351 a dtd:row ;
+    dtd:has_entry dtd:entry-id496,
+        dtd:entry-id497,
+        dtd:entry-id498,
+        dtd:entry-id499 .
+
+dtd:row-id352 a dtd:row ;
+    dtd:has_entry dtd:entry-id500,
+        dtd:entry-id501,
+        dtd:entry-id502,
+        dtd:entry-id503 .
+
+dtd:row-id353 a dtd:row ;
+    dtd:has_entry dtd:entry-id504,
+        dtd:entry-id505,
+        dtd:entry-id506,
+        dtd:entry-id507 .
+
+dtd:row-id354 a dtd:row ;
+    dtd:has_entry dtd:entry-id508,
+        dtd:entry-id509,
+        dtd:entry-id510,
+        dtd:entry-id511 .
+
+dtd:row-id355 a dtd:row ;
+    dtd:has_entry dtd:entry-id512,
+        dtd:entry-id513,
+        dtd:entry-id514,
+        dtd:entry-id515 .
+
+dtd:row-id356 a dtd:row ;
+    dtd:has_entry dtd:entry-id516,
+        dtd:entry-id517,
+        dtd:entry-id518,
+        dtd:entry-id519 .
+
+dtd:row-id357 a dtd:row ;
+    dtd:has_entry dtd:entry-id520,
+        dtd:entry-id521,
+        dtd:entry-id522,
+        dtd:entry-id523 .
+
+dtd:row-id358 a dtd:row ;
+    dtd:has_entry dtd:entry-id524,
+        dtd:entry-id525,
+        dtd:entry-id526,
+        dtd:entry-id527 .
+
+dtd:row-id359 a dtd:row ;
+    dtd:has_entry dtd:entry-id528,
+        dtd:entry-id529,
+        dtd:entry-id530,
+        dtd:entry-id531 .
+
+dtd:row-id360 a dtd:row ;
+    dtd:has_entry dtd:entry-id532,
+        dtd:entry-id533,
+        dtd:entry-id534,
+        dtd:entry-id535 .
+
+dtd:row-id361 a dtd:row ;
+    dtd:has_entry dtd:entry-id536,
+        dtd:entry-id537,
+        dtd:entry-id538,
+        dtd:entry-id539 .
+
+dtd:row-id362 a dtd:row ;
+    dtd:has_entry dtd:entry-id540,
+        dtd:entry-id541,
+        dtd:entry-id542,
+        dtd:entry-id543 .
+
+dtd:row-id363 a dtd:row ;
+    dtd:has_entry dtd:entry-id544,
+        dtd:entry-id545,
+        dtd:entry-id546,
+        dtd:entry-id547 .
+
+dtd:row-id364 a dtd:row ;
+    dtd:has_entry dtd:entry-id548,
+        dtd:entry-id549,
+        dtd:entry-id550,
+        dtd:entry-id551 .
+
+dtd:row-id365 a dtd:row ;
+    dtd:has_entry dtd:entry-id552,
+        dtd:entry-id553,
+        dtd:entry-id554,
+        dtd:entry-id555 .
+
+dtd:row-id366 a dtd:row ;
+    dtd:has_entry dtd:entry-id556,
+        dtd:entry-id557,
+        dtd:entry-id558,
+        dtd:entry-id559 .
+
+dtd:row-id367 a dtd:row ;
+    dtd:has_entry dtd:entry-id560,
+        dtd:entry-id561 .
+
+dtd:row-id368 a dtd:row ;
+    dtd:has_entry dtd:entry-id562,
+        dtd:entry-id563 .
+
+dtd:row-id369 a dtd:row ;
+    dtd:has_entry dtd:entry-id564,
+        dtd:entry-id565 .
+
+dtd:row-id370 a dtd:row ;
+    dtd:has_entry dtd:entry-id566,
+        dtd:entry-id567 .
+
+dtd:row-id371 a dtd:row ;
+    dtd:has_entry dtd:entry-id568,
+        dtd:entry-id569 .
+
+dtd:row-id372 a dtd:row ;
+    dtd:has_entry dtd:entry-id570,
+        dtd:entry-id571 .
+
+dtd:row-id373 a dtd:row ;
+    dtd:has_entry dtd:entry-id572,
+        dtd:entry-id573,
+        dtd:entry-id574,
+        dtd:entry-id575 .
+
+dtd:row-id374 a dtd:row ;
+    dtd:has_entry dtd:entry-id576,
+        dtd:entry-id577,
+        dtd:entry-id578,
+        dtd:entry-id579 .
+
+dtd:row-id375 a dtd:row ;
+    dtd:has_entry dtd:entry-id580,
+        dtd:entry-id581,
+        dtd:entry-id582,
+        dtd:entry-id583 .
+
+dtd:row-id376 a dtd:row ;
+    dtd:has_entry dtd:entry-id584,
+        dtd:entry-id585,
+        dtd:entry-id586,
+        dtd:entry-id587 .
+
+dtd:row-id377 a dtd:row ;
+    dtd:has_entry dtd:entry-id588,
+        dtd:entry-id589,
+        dtd:entry-id590,
+        dtd:entry-id591 .
+
+dtd:row-id378 a dtd:row ;
+    dtd:has_entry dtd:entry-id592,
+        dtd:entry-id593,
+        dtd:entry-id594,
+        dtd:entry-id595 .
+
+dtd:row-id379 a dtd:row ;
+    dtd:has_entry dtd:entry-id596,
+        dtd:entry-id597,
+        dtd:entry-id598,
+        dtd:entry-id599 .
+
+dtd:row-id380 a dtd:row ;
+    dtd:has_entry dtd:entry-id600,
+        dtd:entry-id601,
+        dtd:entry-id602,
+        dtd:entry-id603 .
+
+dtd:small-id209 a dtd:small ;
+    dtd:has_BR dtd:BR-id91 ;
+    dtd:has_Value "Außerbetriebnahme (A) Bestands­meldung (B)"@de .
+
+dtd:small-id210 a dtd:small ;
+    dtd:has_Value "gültig ab"@de .
+
+dtd:small-id211 a dtd:small ;
+    dtd:has_Value "CIM, CRM, CCM, COM"@de .
+
+dtd:small-id212 a dtd:small ;
+    dtd:has_Value "(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-Internetseite"@de .
+
+dtd:small-id213 a dtd:small ;
+    dtd:has_Value "(Filiale/Cash Center) der eingesetzten Systeme"@de .
+
+dtd:small-id214 a dtd:small ;
+    dtd:has_Value "der eingesetzten Systeme pro Filiale/Cash Center"@de .
+
+dtd:small-id215 a dtd:small ;
+    dtd:has_BR dtd:BR-id104,
+        dtd:BR-id105 ;
+    dtd:has_Value "Inbetriebnahme (I), Außerbetriebnahme (A) Bestandsmeldung (B)"@de .
+
+dtd:small-id216 a dtd:small ;
+    dtd:has_Value "gültig ab"@de .
+
+dtd:small-id217 a dtd:small ;
+    dtd:has_Value "BPM, BAM, AKT, R-AKT"@de .
+
+dtd:small-id218 a dtd:small ;
+    dtd:has_Value "(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-Internetseite"@de .
+
+dtd:small-id219 a dtd:small ;
+    dtd:has_Value "(Filiale/Cash Center) der eingesetzten Systeme"@de .
+
+dtd:small-id220 a dtd:small ;
+    dtd:has_Value "der eingesetzten Systeme pro Filiale/Cash Center"@de .
+
+dtd:small-id221 a dtd:small ;
+    dtd:has_BR dtd:BR-id119 ;
+    dtd:has_Value "Außerbetriebnahme (A) Bestandsmeldung (B)"@de .
+
+dtd:small-id222 a dtd:small ;
+    dtd:has_Value "gültig ab"@de .
+
+dtd:small-id223 a dtd:small ;
+    dtd:has_Value "BPM"@de .
+
+dtd:small-id224 a dtd:small ;
+    dtd:has_Value "(Hersteller; Maschinenname und Hardware-/Software-Version) gemäß Ausweis auf der EZB-Internetseite"@de .
+
+dtd:small-id225 a dtd:small ;
+    dtd:has_BR dtd:BR-id126 ;
+    dtd:has_Value "des Auslagerungs-unternehmens"@de .
+
+dtd:small-id226 a dtd:small ;
+    dtd:has_Value "(Filiale/Cash Center) der eingesetzten Systeme"@de .
+
+dtd:small-id227 a dtd:small ;
+    dtd:has_Value "der eingesetzten Systeme pro Filiale/Cash Center"@de .
+
+dtd:table-id235 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_orient dtd:port ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id236 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id237 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_orient dtd:port ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id238 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id239 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_orient dtd:port ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id240 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id241 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_orient dtd:port ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id242 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id243 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_orient dtd:port ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id244 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id245 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_orient dtd:port ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id246 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id247 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id248 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id249 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id250 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id251 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id252 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id253 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id254 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id255 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id256 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id257 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id258 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id262 a dtd:tbody ;
+    dtd:has_row dtd:row-id319,
+        dtd:row-id320,
+        dtd:row-id321,
+        dtd:row-id322,
+        dtd:row-id323,
+        dtd:row-id324,
+        dtd:row-id325,
+        dtd:row-id326,
+        dtd:row-id327,
+        dtd:row-id328,
+        dtd:row-id329 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id266 a dtd:tbody ;
+    dtd:has_row dtd:row-id330,
+        dtd:row-id331,
+        dtd:row-id332,
+        dtd:row-id333,
+        dtd:row-id334 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id274 a dtd:tbody ;
+    dtd:has_row dtd:row-id335,
+        dtd:row-id336,
+        dtd:row-id337 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id282 a dtd:tbody ;
+    dtd:has_row dtd:row-id338,
+        dtd:row-id339,
+        dtd:row-id340 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id291 a dtd:tbody ;
+    dtd:has_row dtd:row-id341,
+        dtd:row-id342,
+        dtd:row-id343 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id294 a dtd:tbody ;
+    dtd:has_row dtd:row-id344,
+        dtd:row-id345,
+        dtd:row-id346,
+        dtd:row-id347 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id297 a dtd:tbody ;
+    dtd:has_row dtd:row-id348,
+        dtd:row-id349,
+        dtd:row-id350 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id302 a dtd:tbody ;
+    dtd:has_row dtd:row-id351,
+        dtd:row-id352,
+        dtd:row-id353,
+        dtd:row-id354,
+        dtd:row-id355,
+        dtd:row-id356,
+        dtd:row-id357,
+        dtd:row-id358 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id307 a dtd:tbody ;
+    dtd:has_row dtd:row-id359,
+        dtd:row-id360,
+        dtd:row-id361,
+        dtd:row-id362,
+        dtd:row-id363,
+        dtd:row-id364,
+        dtd:row-id365,
+        dtd:row-id366 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id310 a dtd:tbody ;
+    dtd:has_row dtd:row-id367 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id313 a dtd:tbody ;
+    dtd:has_row dtd:row-id368,
+        dtd:row-id369,
+        dtd:row-id370,
+        dtd:row-id371,
+        dtd:row-id372 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id318 a dtd:tbody ;
+    dtd:has_row dtd:row-id373,
+        dtd:row-id374,
+        dtd:row-id375,
+        dtd:row-id376,
+        dtd:row-id377,
+        dtd:row-id378,
+        dtd:row-id379,
+        dtd:row-id380 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id674 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id676 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id680 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id682 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id688 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id690 ;
+    dtd:has_Footnotes dtd:Footnotes-id703 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id693 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id696 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:tgroup-id236 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id259,
+        dtd:colspec-id260,
+        dtd:colspec-id261 ;
+    dtd:has_tbody dtd:tbody-id262 .
+
+dtd:tgroup-id238 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id263,
+        dtd:colspec-id264,
+        dtd:colspec-id265 ;
+    dtd:has_tbody dtd:tbody-id266 .
+
+dtd:tgroup-id240 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "7"@de ;
+    dtd:has_colspec dtd:colspec-id267,
+        dtd:colspec-id268,
+        dtd:colspec-id269,
+        dtd:colspec-id270,
+        dtd:colspec-id271,
+        dtd:colspec-id272,
+        dtd:colspec-id273 ;
+    dtd:has_tbody dtd:tbody-id274 .
+
+dtd:tgroup-id242 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "7"@de ;
+    dtd:has_colspec dtd:colspec-id275,
+        dtd:colspec-id276,
+        dtd:colspec-id277,
+        dtd:colspec-id278,
+        dtd:colspec-id279,
+        dtd:colspec-id280,
+        dtd:colspec-id281 ;
+    dtd:has_tbody dtd:tbody-id282 .
+
+dtd:tgroup-id244 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "8"@de ;
+    dtd:has_colspec dtd:colspec-id283,
+        dtd:colspec-id284,
+        dtd:colspec-id285,
+        dtd:colspec-id286,
+        dtd:colspec-id287,
+        dtd:colspec-id288,
+        dtd:colspec-id289,
+        dtd:colspec-id290 ;
+    dtd:has_tbody dtd:tbody-id291 .
+
+dtd:tgroup-id246 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id292,
+        dtd:colspec-id293 ;
+    dtd:has_tbody dtd:tbody-id294 .
+
+dtd:tgroup-id248 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id295,
+        dtd:colspec-id296 ;
+    dtd:has_tbody dtd:tbody-id297 .
+
+dtd:tgroup-id250 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colspec dtd:colspec-id298,
+        dtd:colspec-id299,
+        dtd:colspec-id300,
+        dtd:colspec-id301 ;
+    dtd:has_tbody dtd:tbody-id302 .
+
+dtd:tgroup-id252 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colspec dtd:colspec-id303,
+        dtd:colspec-id304,
+        dtd:colspec-id305,
+        dtd:colspec-id306 ;
+    dtd:has_tbody dtd:tbody-id307 .
+
+dtd:tgroup-id254 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id308,
+        dtd:colspec-id309 ;
+    dtd:has_tbody dtd:tbody-id310 .
+
+dtd:tgroup-id256 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id311,
+        dtd:colspec-id312 ;
+    dtd:has_tbody dtd:tbody-id313 .
+
+dtd:tgroup-id258 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colspec dtd:colspec-id314,
+        dtd:colspec-id315,
+        dtd:colspec-id316,
+        dtd:colspec-id317 ;
+    dtd:has_tbody dtd:tbody-id318 .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Stichprobenentnahme bei Prüfungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Berichte nach § 36 Absatz 2 und 3 Satz 1 des Gesetzes über die Deutsche Bundesbank"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Meldepflichten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_BR dtd:BR-id70 ;
+    dtd:has_Value "Meldung statistischer Daten an die Deutsche Bundesbank nach § 3 der Bargeldprüfungsverordnung  – Stammdaten –"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_BR dtd:BR-id136 ;
+    dtd:has_Value "Meldung statistischer Daten an die Deutsche Bundesbank nach § 3 der Bargeldprüfungsverordnung  – Operationale Daten –"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_BR dtd:BR-id146,
+        dtd:BR-id147 ;
+    dtd:has_Value "Meldung statistischer Daten an die Deutsche Bundesbank nach § 3 der Bargeldprüfungsverordnung  – Operationale Daten –  Auslagerung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id709 a dtd:zitstelle ;
+    dtd:has_Value "2012, 2705"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:exp rdfs:label "exp"@de .
+
+dtd:port rdfs:label "port"@de .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:table rdfs:label "table"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

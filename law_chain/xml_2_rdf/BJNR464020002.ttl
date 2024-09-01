@@ -1,0 +1,116 @@
+@prefix dtd: <urn:GKVStabG-2003#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151354"@de ;
+    dtd:has_doknr "BJNR464020002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:Content-id18 a dtd:Content ;
+    dtd:has_P dtd:P-id19 .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21,
+        dtd:P-id22 .
+
+dtd:Content-id23 a dtd:Content ;
+    dtd:has_P dtd:P-id24,
+        dtd:P-id25,
+        dtd:P-id26 .
+
+dtd:P-id19 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  7.11.2002 +++)"@de .
+
+dtd:P-id22 a dtd:P ;
+    dtd:has_BR dtd:BR-id17 ;
+    dtd:has_Value " Das G wurde als Art. 7 d. G 860-5/10 v. 23.12.2002 I 4637 vom Bundestag beschlossen. Es ist gem. Art. 13 Abs. 2 dieses G mWv 7.11.2002 in Kraft getreten."@de .
+
+dtd:P-id24 a dtd:P ;
+    dtd:has_Value "(1) Bis zum 31. Dezember 2003 sind Beitragssatzanhebungen der Krankenkassen (§ 4 des Fünften Buches Sozialgesetzbuch) nur zulässig, wenn die dafür erforderlichen Satzungsänderungen vor dem 7. November 2002 genehmigt worden sind. Eine hiervon abweichende Satzungsänderung ist unwirksam. § 220 Abs. 2 des Fünften Buches Sozialgesetzbuch ist in dem in Satz 1 genannten Zeitraum nicht anzuwenden."@de .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt für Beiträge, die in Beitragsklassen festgesetzt werden, entsprechend."@de .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value "(3) Die Absätze 1 und 2 gelten nicht, soweit allein durch Veränderungen der Verpflichtungen oder Ansprüche im Risikostrukturausgleich Beitragssatzanhebungen zwingend erforderlich sind. Die Absätze 1 und 2 gelten ferner nicht für Krankenkassen, deren Mittel so weit erschöpft sind, dass eine Beitragssatzanhebung zwingend erforderlich ist, um die Leistungsfähigkeit der Krankenkasse zu sichern. Dies ist nur dann der Fall, wenn der Krankenkasse auch nach Ausschöpfen sämtlicher Wirtschaftlichkeitsreserven und nach Aufbrauchen von Betriebsmitteln und Rücklagen nicht mehr die finanziellen Mittel zur Verfügung stehen, die unabweisbar notwendig sind, um die medizinisch notwendige Versorgung der Versicherten zu gewährleisten und ansonsten eine Kreditfinanzierung droht."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-12-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id27 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id28 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id20 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "GKVStabG 2003"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "GKVStabG 2003"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Stabilisierung der Beitragssätze in der gesetzlichen
+Krankenversicherung im Jahre 2003"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151354"@de ;
+    dtd:has_doknr "BJNR464020002"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151354"@de ;
+    dtd:has_doknr "BJNR464020002BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id27 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id18 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id23 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id28 a dtd:zitstelle ;
+    dtd:has_Value "2002, 4637, 4640"@de .
+

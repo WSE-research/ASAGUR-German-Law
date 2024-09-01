@@ -1,0 +1,342 @@
+@prefix dtd: <urn:GefBeitrV-1998#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130436"@de ;
+    dtd:has_doknr "BJNR043000998"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:ABWFORMAT-id64 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id65 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71,
+        dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DD-id57 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id63 .
+
+dtd:DL-id53 a dtd:DL ;
+    dtd:has_DD dtd:DD-id56,
+        dtd:DD-id57 ;
+    dtd:has_DT dtd:DT-id54,
+        dtd:DT-id55 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id58 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60 ;
+    dtd:has_DT dtd:DT-id59 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id55 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die jährliche Beitragsbemessungsgrundlage für den Beitrag zur Arbeitsförderung für versicherungspflichtige Gefangene (§ 345 Nr. 3 des Dritten Buches Sozialgesetzbuch - BBGrdl),"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id64 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Summe der Tage, für die versicherungspflichtige Gefangene innerhalb des Kalenderjahres Arbeitsentgelt, Ausbildungsbeihilfe oder Ausfallentschädigung (§§ 43 bis 45, 176 und 177 des Strafvollzugsgesetzes) erhalten oder Ausbildungsbeihilfe nur wegen des Vorrangs von Leistungen zur Förderung der Berufsausbildung nach dem Dritten Buch Sozialgesetzbuch nicht erhalten haben, im Verhältnis zu den Arbeitstagen des Kalenderjahres "@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id65 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Beitragssatz (§ 341 Abs. 2 des Dritten Buches Sozialgesetzbuch) im Durchschnitt des Kalenderjahres "@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.1998 +++)"@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 352 Abs. 3 des Dritten Buches Sozialgesetzbuch - Arbeitsförderung - (Artikel 1 des Gesetzes vom 24. März 1997, BGBl. I S. 594) verordnet das Bundesministerium für Arbeit und Sozialordnung:"@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_DL dtd:DL-id53,
+        dtd:DL-id58 ;
+    dtd:has_Value "(1) Für die Berechnung der Beiträge für versicherungspflichtige Gefangene (§ 26 Abs. 1 Nr. 4 des Dritten Buches Sozialgesetzbuch) sind zugrunde zu legen: 1.die jährliche Beitragsbemessungsgrundlage für den Beitrag zur Arbeitsförderung für versicherungspflichtige Gefangene (§ 345 Nr. 3 des Dritten Buches Sozialgesetzbuch - BBGrdl),2.die Summe der Tage, für die versicherungspflichtige Gefangene innerhalb des Kalenderjahres Arbeitsentgelt, Ausbildungsbeihilfe oder Ausfallentschädigung (§§ 43 bis 45, 176 und 177 des Strafvollzugsgesetzes) erhalten oder Ausbildungsbeihilfe nur wegen des Vorrangs von Leistungen zur Förderung der Berufsausbildung nach dem Dritten Buch Sozialgesetzbuch nicht erhalten haben, im Verhältnis zu den Arbeitstagen des Kalenderjahres     ( T )    (---) und    (250)3.der Beitragssatz (§ 341 Abs. 2 des Dritten Buches Sozialgesetzbuch) im Durchschnitt des Kalenderjahres     ( B )    (---).    (100)"@de ;
+    dtd:has_pre dtd:pre-id79,
+        dtd:pre-id80 .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_BR dtd:BR-id50 ;
+    dtd:has_Value "(2) Die Beiträge werden nach folgender Formel berechnet:                       T     B            BBGrdl x --- x ---.                     250   100"@de ;
+    dtd:has_pre dtd:pre-id81 .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "Die Beiträge sind drei Monate nach Ablauf des Kalenderjahres fällig, in dem die Beitragsansprüche entstanden sind. Bis zum Ende eines jeden Kalendervierteljahres werden angemessene Abschläge auf die in dem Kalendervierteljahr entstehenden Beitragsansprüche geleistet. Beiträge und Abschläge sind an die von der Bundesagentur für Arbeit bestimmte Stelle zu zahlen. Zum Fälligkeitstermin übermitteln die Länder der von der Bundesagentur für Arbeit bestimmten Stelle eine Abrechnung über die fälligen Beiträge und die geleisteten Zahlungen."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Januar 1998 in Kraft."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1998-03-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id82 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id83 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id66 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "GefBeitrV 1998"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "GefBeitrV 1998"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "GefBeitrV 1998"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "GefBeitrV 1998"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "GefBeitrV 1998"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "GefBeitrV 1998"@de .
+
+dtd:kurzue-id23 a dtd:kurzue ;
+    dtd:has_Value "Gefangenen-Beitragsverordnung"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Pauschalberechnung der
+Beiträge zur Arbeitsförderung für Gefangene"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id23 ;
+    dtd:has_langue dtd:langue-id24 ;
+    dtd:has_standangabe dtd:standangabe-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130436"@de ;
+    dtd:has_doknr "BJNR043000998"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130436"@de ;
+    dtd:has_doknr "BJNR043000998BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130436"@de ;
+    dtd:has_doknr "BJNR043000998BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130436"@de ;
+    dtd:has_doknr "BJNR043000998BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130436"@de ;
+    dtd:has_doknr "BJNR043000998BJNE000400310"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405130436"@de ;
+    dtd:has_doknr "BJNR043000998BJNE000500310"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id82 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id79 a dtd:pre ;
+    dtd:has_BR dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_Value "    ( T )    (---) und    (250)"@de .
+
+dtd:pre-id80 a dtd:pre ;
+    dtd:has_BR dtd:BR-id48,
+        dtd:BR-id49 ;
+    dtd:has_Value "    ( B )    (---).    (100)"@de .
+
+dtd:pre-id81 a dtd:pre ;
+    dtd:has_BR dtd:BR-id51,
+        dtd:BR-id52 ;
+    dtd:has_Value "                      T     B            BBGrdl x --- x ---.                     250   100"@de .
+
+dtd:standangabe-id25 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id85 ;
+    dtd:has_standtyp dtd:standtyp-id84 .
+
+dtd:standkommentar-id85 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 105 G v. 23.12.2003 I 2848"@de .
+
+dtd:standtyp-id84 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Berechnungsgrundlagen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Zahlungsweise und -verfahren"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id83 a dtd:zitstelle ;
+    dtd:has_Value "1998, 430"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

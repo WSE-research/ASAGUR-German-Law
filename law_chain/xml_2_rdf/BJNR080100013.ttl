@@ -1,0 +1,740 @@
+@prefix dtd: <urn:IntTestV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id15,
+        dtd:norm-id16,
+        dtd:norm-id17,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id116 a dtd:BR .
+
+dtd:BR-id117 a dtd:BR .
+
+dtd:BR-id118 a dtd:BR .
+
+dtd:Content-id142 a dtd:Content ;
+    dtd:has_P dtd:P-id143 .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145 .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_P dtd:P-id147 .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151,
+        dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158,
+        dtd:P-id159 .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161,
+        dtd:P-id162,
+        dtd:P-id163,
+        dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166,
+        dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169,
+        dtd:P-id170,
+        dtd:P-id171 .
+
+dtd:Content-id172 a dtd:Content ;
+    dtd:has_P dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175 .
+
+dtd:Content-id176 a dtd:Content ;
+    dtd:has_P dtd:P-id177 .
+
+dtd:Content-id178 a dtd:Content ;
+    dtd:has_P dtd:P-id179 .
+
+dtd:Content-id180 a dtd:Content ;
+    dtd:has_P dtd:P-id181,
+        dtd:P-id182 .
+
+dtd:Content-id183 a dtd:Content ;
+    dtd:has_P dtd:P-id184 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id134 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DL-id119 a dtd:DL ;
+    dtd:has_DD dtd:DD-id124,
+        dtd:DD-id125,
+        dtd:DD-id126,
+        dtd:DD-id127 ;
+    dtd:has_DT dtd:DT-id120,
+        dtd:DT-id121,
+        dtd:DT-id122,
+        dtd:DT-id123 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id128 a dtd:DL ;
+    dtd:has_DD dtd:DD-id132,
+        dtd:DD-id133,
+        dtd:DD-id134 ;
+    dtd:has_DT dtd:DT-id129,
+        dtd:DT-id130,
+        dtd:DT-id131 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id120 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id121 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id122 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id123 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id130 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id131 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Value "die Daten zum Prüfling,"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Value "die Daten zur Prüfungsstelle,"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Value "der Prüfungstermin und die Uhrzeit sowie"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Value "gegebenenfalls besondere Vorkommnisse."@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Value "täuscht oder zu täuschen versucht,"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Value "unerlaubte Hilfsmittel einsetzt oder sie gewährt oder"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Value "durch sein Verhalten den ordnungsgemäßen Prüfungsablauf stört oder zu stören versucht."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_BR dtd:BR-id116 ;
+    dtd:has_Value " (+++ Textnachweis ab: 20.4.2013 +++)"@de ;
+    dtd:has_pre dtd:pre-id185 .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 43 Absatz 4 Satz 2 des Aufenthaltsgesetzes, der durch Artikel 2 des Gesetzes vom 21. Januar 2013 (BGBl. I S. 86) eingefügt worden ist, und des § 10 Absatz 7 des Staatsangehörigkeitsgesetzes, der durch Artikel 5 Nummer 7 Buchstabe c des Gesetzes vom 19. August 2007 (BGBl. I S. 1970) eingefügt worden ist, verordnet das Bundesministerium des Innern:"@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "Die Verordnung gilt für die skalierten Tests „Deutsch-Test für Zuwanderer“ und „Leben in Deutschland“ nach § 17 Absatz 1 der Integrationskursverordnung."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "Anmeldung und Teilnahme erfolgen bei den nach § 20a der Integrationskursverordnung zugelassenen Prüfungsstellen."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(1) Der „Deutsch-Test für Zuwanderer“ setzt sich aus einer schriftlichen Prüfung von 100 Minuten und einer mündlichen Paarprüfung von circa 15 Minuten zusammen. Die Prüfungen bestehen aus Aufgaben aus den Fertigkeitsbereichen Hören, Lesen, Schreiben und Sprechen der Kompetenzstufen A2 und B1 des Gemeinsamen Europäischen Referenzrahmens für Sprachen."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(2) Der Test „Leben in Deutschland“ ist eine schriftliche Prüfung. Der Prüfungsumfang und die Prüfungsdauer entsprechen § 1 Absatz 1 bis 3 der Einbürgerungstestverordnung in Verbindung mit deren Anlage 1."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "Die Prüfungsunterlagen werden den Prüfungsstellen durch das Bundesamt für Migration und Flüchtlinge (Bundesamt) oder durch das nach § 17 Absatz 1 Satz 5 der Integrationskursverordnung beauftragte Testinstitut zur Verfügung gestellt."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "Die Prüfungen sind nicht öffentlich."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(1) Die Prüfungsstelle ist verpflichtet, vor Beginn des Tests die Identität jedes Prüflings anhand eines gültigen amtlichen Ausweisdokuments mit Lichtbild festzustellen. Bei Zweifeln an der Identität des Prüflings wird dieser nicht zum Test zugelassen."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(2) Während des schriftlichen Tests muss das amtliche Ausweisdokument einsehbar am Platz des Prüflings liegen. Das Aufsichtspersonal stellt sicher, dass die persönlichen Angaben auf dem Antwortbogen mit denen im Ausweisdokument übereinstimmen."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(1) Die Prüfungsstelle stellt sicher, dass mindestens zwei Aufsichtspersonen die ordnungsgemäße Durchführung der schriftlichen Prüfung überwachen. Beim „Deutsch-Test für Zuwanderer“ sorgt sie darüber hinaus dafür, dass die mündliche Prüfung von zwei Prüfern, die über die Qualifikation nach § 15 Absatz 5 der Integrationskursverordnung verfügen, durchgeführt wird."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(2) Mindestens einer der jeweils eingesetzten Prüfer und eine der jeweils eingesetzten Aufsichtspersonen dürfen in keinem Honorar- oder Abhängigkeitsverhältnis zur Prüfungsstelle stehen, das über die Abnahme der Prüfung hinausgeht."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(3) Eine Lehrkraft, die einen Prüfling in den letzten sechs Monaten vor der Testteilnahme unterrichtet hat, darf nicht als dessen Prüfer eingesetzt werden."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_DL dtd:DL-id119 ;
+    dtd:has_Value "(4) Über den Verlauf der Prüfung ist ein Protokoll anzufertigen, in dem die Daten zur Prüfung festgehalten werden, insbesondere 1.die Daten zum Prüfling,2.die Daten zur Prüfungsstelle,3.der Prüfungstermin und die Uhrzeit sowie4.gegebenenfalls besondere Vorkommnisse."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_DL dtd:DL-id128 ;
+    dtd:has_Value "(1) Von der Prüfung wird ausgeschlossen, wer vor oder während der Prüfung 1.täuscht oder zu täuschen versucht,2.unerlaubte Hilfsmittel einsetzt oder sie gewährt oder3.durch sein Verhalten den ordnungsgemäßen Prüfungsablauf stört oder zu stören versucht."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(2) Stellt sich erst nach Beendigung der Tests heraus, dass Voraussetzungen für einen Ausschluss vorgelegen haben, so wird der Prüfling durch das Bundesamt oder im Fall der Beauftragung nach § 17 Absatz 1 Satz 5 der Integrationskursverordnung durch das beauftragte Testinstitut rückwirkend von der Prüfung ausgeschlossen."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(1) Vor Beginn der Prüfung kann der Prüfling jederzeit von der Prüfung zurücktreten."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(2) Bricht der Prüfling durch eigenes Verschulden die Prüfung nach Beginn ab, so gilt sie als nicht bestanden. Bereits abgelegte Prüfungsteile werden nicht gewertet."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(3) Die Prüfungen können unbegrenzt häufig wiederholt werden."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(1) Die Bedingungen für das Bestehen des „Deutsch-Tests für Zuwanderer“ richten sich nach § 17 Absatz 2 der Integrationskursverordnung. Dabei ist die Kompetenzstufe B1 des Gemeinsamen Europäischen Referenzrahmens für Sprachen erreicht, wenn in dem Fertigkeitsbereich „Sprechen“ sowie in mindestens einem der Bereiche „Hören/Lesen“ oder „Schreiben“ die Kompetenzstufe B1 erreicht ist."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(2) Für das Bestehen des Orientierungskurses nach § 17 Absatz 2 der Integrationskursverordnung müssen im Test „Leben in Deutschland“ mindestens 15 der 33 Fragen eines Fragebogens richtig beantwortet worden sein."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(3) Besteht zwischen dem Land, in dem der Prüfling seinen rechtmäßigen Aufenthalt hat, und dem Bundesamt eine Verwaltungsvereinbarung nach § 2 Absatz 1 der Einbürgerungstestverordnung, so wird eine Bescheinigung nach § 1 Absatz 4 der Einbürgerungstestverordnung ausgestellt, wenn im Test „Leben in Deutschland“ 17 der 33 Fragen eines Fragebogens richtig beantwortet wurden."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "Die Prüfungsunterlagen können innerhalb von drei Monaten nach Mitteilung des Ergebnisses vom Prüfling eingesehen werden."@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "Alle mit der Testdurchführung und -auswertung beauftragten Personen haben über Prüfungsvorgänge und Prüfungsergebnisse Verschwiegenheit gegenüber Dritten zu wahren. Alle Prüfungsunterlagen unterliegen der Geheimhaltung und sind unter Verschluss zu halten."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "(1) Die Prüfungsunterlagen werden, nach Ablauf des Tages, an dem das Prüfungsergebnis mitgeteilt worden ist, ein Jahr lang aufbewahrt."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(2) Das Prüfungsergebnis, insbesondere das Gesamtergebnis, die Teilergebnisse, die jeweils erreichte Punktzahl und Kompetenzstufe, sowie das Prüfungsdatum, die Kennziffer der Prüfungsstelle, die Personenkennziffer und das Geburtsdatum des Prüflings werden fünf Jahre nach Ablauf des Tages, an dem das Prüfungsergebnis mitgeteilt worden ist, gelöscht."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id51 a dtd:amtabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id52 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2013-04-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id71 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id74 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id77 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id80 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id83 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id86 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id89 a dtd:enbez ;
+    dtd:has_Value "§ 11"@de .
+
+dtd:enbez-id92 a dtd:enbez ;
+    dtd:has_Value "§ 12"@de .
+
+dtd:enbez-id95 a dtd:enbez ;
+    dtd:has_Value "§ 13"@de .
+
+dtd:enbez-id98 a dtd:enbez ;
+    dtd:has_Value "§ 14"@de .
+
+dtd:fundstelle-id53 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id186 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id187 .
+
+dtd:fussnoten-id100 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id142 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id73 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id76 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id79 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id82 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id85 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id88 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id91 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id94 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:jurabk-id97 a dtd:jurabk ;
+    dtd:has_Value "IntTestV"@de .
+
+dtd:kurzue-id54 a dtd:kurzue ;
+    dtd:has_Value "Integrationskurstestverordnung"@de .
+
+dtd:langue-id55 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Prüfungs- und Nachweismodalitäten für die Abschlusstests des Integrationskurses"@de .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id51 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id52 ;
+    dtd:has_fundstelle dtd:fundstelle-id53 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_kurzue dtd:kurzue-id54 ;
+    dtd:has_langue dtd:langue-id55 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id71 ;
+    dtd:has_jurabk dtd:jurabk-id70 ;
+    dtd:has_titel dtd:titel-id72 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id74 ;
+    dtd:has_jurabk dtd:jurabk-id73 ;
+    dtd:has_titel dtd:titel-id75 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id77 ;
+    dtd:has_jurabk dtd:jurabk-id76 ;
+    dtd:has_titel dtd:titel-id78 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id80 ;
+    dtd:has_jurabk dtd:jurabk-id79 ;
+    dtd:has_titel dtd:titel-id81 .
+
+dtd:metadaten-id38 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id83 ;
+    dtd:has_jurabk dtd:jurabk-id82 ;
+    dtd:has_titel dtd:titel-id84 .
+
+dtd:metadaten-id40 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id86 ;
+    dtd:has_jurabk dtd:jurabk-id85 ;
+    dtd:has_titel dtd:titel-id87 .
+
+dtd:metadaten-id42 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id89 ;
+    dtd:has_jurabk dtd:jurabk-id88 ;
+    dtd:has_titel dtd:titel-id90 .
+
+dtd:metadaten-id44 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id92 ;
+    dtd:has_jurabk dtd:jurabk-id91 ;
+    dtd:has_titel dtd:titel-id93 .
+
+dtd:metadaten-id46 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id95 ;
+    dtd:has_jurabk dtd:jurabk-id94 ;
+    dtd:has_titel dtd:titel-id96 .
+
+dtd:metadaten-id48 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id98 ;
+    dtd:has_jurabk dtd:jurabk-id97 ;
+    dtd:has_titel dtd:titel-id99 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE001000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id38 ;
+    dtd:has_textdaten dtd:textdaten-id39 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id40 ;
+    dtd:has_textdaten dtd:textdaten-id41 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE001200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id42 ;
+    dtd:has_textdaten dtd:textdaten-id43 .
+
+dtd:norm-id15 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE001300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id44 ;
+    dtd:has_textdaten dtd:textdaten-id45 .
+
+dtd:norm-id16 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE001400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id46 ;
+    dtd:has_textdaten dtd:textdaten-id47 .
+
+dtd:norm-id17 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE001500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id48 ;
+    dtd:has_textdaten dtd:textdaten-id49 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130717215003"@de ;
+    dtd:has_doknr "BJNR080100013BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:periodikum-id186 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id185 a dtd:pre ;
+    dtd:has_BR dtd:BR-id117,
+        dtd:BR-id118 ;
+    dtd:has_Value "(+++ Textnachweis ab: 20.4.2013 +++)"@de .
+
+dtd:text-id101 a dtd:text ;
+    dtd:has_Content dtd:Content-id144 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id102 a dtd:text ;
+    dtd:has_Content dtd:Content-id146 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id103 a dtd:text ;
+    dtd:has_Content dtd:Content-id148 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id104 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id105 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id106 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id107 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id108 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id109 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id110 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id111 a dtd:text ;
+    dtd:has_Content dtd:Content-id172 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id112 a dtd:text ;
+    dtd:has_Content dtd:Content-id176 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id113 a dtd:text ;
+    dtd:has_Content dtd:Content-id178 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id114 a dtd:text ;
+    dtd:has_Content dtd:Content-id180 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id115 a dtd:text ;
+    dtd:has_Content dtd:Content-id183 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id100 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id101 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id102 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id103 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id104 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id105 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id106 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_text dtd:text-id107 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_text dtd:text-id108 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_text dtd:text-id109 .
+
+dtd:textdaten-id39 a dtd:textdaten ;
+    dtd:has_text dtd:text-id110 .
+
+dtd:textdaten-id41 a dtd:textdaten ;
+    dtd:has_text dtd:text-id111 .
+
+dtd:textdaten-id43 a dtd:textdaten ;
+    dtd:has_text dtd:text-id112 .
+
+dtd:textdaten-id45 a dtd:textdaten ;
+    dtd:has_text dtd:text-id113 .
+
+dtd:textdaten-id47 a dtd:textdaten ;
+    dtd:has_text dtd:text-id114 .
+
+dtd:textdaten-id49 a dtd:textdaten ;
+    dtd:has_text dtd:text-id115 .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Anmeldung und Teilnahme"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Prüfungsumfang und Prüfungsdauer"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Prüfungsunterlagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id72 a dtd:titel ;
+    dtd:has_Value "Ausschluss der Öffentlichkeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id75 a dtd:titel ;
+    dtd:has_Value "Überprüfung der Identität"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id78 a dtd:titel ;
+    dtd:has_Value "Aufsicht und Protokoll"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id81 a dtd:titel ;
+    dtd:has_Value "Ausschluss von der Prüfung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id84 a dtd:titel ;
+    dtd:has_Value "Rücktritt, Abbruch und Wiederholung der Prüfung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id87 a dtd:titel ;
+    dtd:has_Value "Bewertung der Prüfungsergebnisse"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id90 a dtd:titel ;
+    dtd:has_Value "Einsichtnahme"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id93 a dtd:titel ;
+    dtd:has_Value "Verschwiegenheit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id96 a dtd:titel ;
+    dtd:has_Value "Archivierung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id99 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id187 a dtd:zitstelle ;
+    dtd:has_Value "2013, 801"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

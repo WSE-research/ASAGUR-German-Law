@@ -1,0 +1,344 @@
+@prefix dtd: <urn:BeitrEntlG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150010"@de ;
+    dtd:has_doknr "BJNR163109996"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:BR-id56 a dtd:BR .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_BR dtd:BR-id55,
+        dtd:BR-id56 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.1997 +++) Art. 1: BeitrEntlKrG 860-5-15 Art. 2 u. 3: Änderungsvorschriften"@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "Versicherte, die nach dem 31. Dezember 1978 geboren sind und deren zahnärztliche Behandlung zur Versorgung mit Zahnersatz vor dem 1. Januar 1997 begonnen hat, haben Anspruch auf Übernahme der Kosten für Zahnersatz nach dem am 31. Dezember 1996 geltenden Recht, wenn die Krankenkasse vor dem 28. Juni 1996 über den Anspruch entschieden hat."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "§ 47 des Fünften Buches Sozialgesetzbuch in der ab 1. Januar 1997 geltenden Fassung ist vom Inkrafttreten dieses Gesetzes an auch auf Krankengeldzahlungen anzuwenden, die vor dem 1. Januar 1997 begonnen haben."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am 1. Januar 1997 in Kraft; Artikel 1 § 1 tritt mit Wirkung vom 10. Mai 1996 in Kraft."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "BeitrEntlG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-11-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id88 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id89 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id59 .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:gliederungsbez-id74 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:gliederungsbez-id77 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 2 u. 3"@de .
+
+dtd:gliederungsbez-id79 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:gliederungsbez-id82 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:gliederungsbez-id84 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:gliederungsbez-id86 a dtd:gliederungsbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:gliederungseinheit-id30 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id74 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id73 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id75 .
+
+dtd:gliederungseinheit-id32 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id77 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id76 .
+
+dtd:gliederungseinheit-id34 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id79 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id78 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id80 .
+
+dtd:gliederungseinheit-id36 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id82 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id81 .
+
+dtd:gliederungseinheit-id40 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id84 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id83 .
+
+dtd:gliederungseinheit-id44 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id86 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id85 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id87 .
+
+dtd:gliederungskennzahl-id73 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id76 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id78 a dtd:gliederungskennzahl ;
+    dtd:has_Value "040"@de .
+
+dtd:gliederungskennzahl-id81 a dtd:gliederungskennzahl ;
+    dtd:has_Value "040"@de .
+
+dtd:gliederungskennzahl-id83 a dtd:gliederungskennzahl ;
+    dtd:has_Value "040"@de .
+
+dtd:gliederungskennzahl-id85 a dtd:gliederungskennzahl ;
+    dtd:has_Value "050"@de .
+
+dtd:gliederungstitel-id75 a dtd:gliederungstitel ;
+    dtd:has_Value """Gesetz zur Beitragsentlastung der
+gesetzlichen Krankenversicherung"""@de .
+
+dtd:gliederungstitel-id80 a dtd:gliederungstitel ;
+    dtd:has_Value "Übergangsregelungen"@de .
+
+dtd:gliederungstitel-id87 a dtd:gliederungstitel ;
+    dtd:has_Value "Inkrafttreten"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "BeitrEntlG"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Beitragsentlastungsgesetz"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Entlastung der Beiträge in der
+gesetzlichen Krankenversicherung"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150010"@de ;
+    dtd:has_doknr "BJNR163109996"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150010"@de ;
+    dtd:has_doknr "BJNR163109996BJNG000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150010"@de ;
+    dtd:has_doknr "BJNR163109996BJNG000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625150010"@de ;
+    dtd:has_doknr "BJNR163109996BJNG000300310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625150010"@de ;
+    dtd:has_doknr "BJNR163109996BJNE000500310"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625150010"@de ;
+    dtd:has_doknr "BJNR163109996BJNE000600310"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20120625150010"@de ;
+    dtd:has_doknr "BJNR163109996BJNG000400310"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id88 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Versorgung mit Zahnersatz"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Anpassung laufender Krankengeldzahlungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id89 a dtd:zitstelle ;
+    dtd:has_Value "1996, 1631"@de .
+

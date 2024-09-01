@@ -1,0 +1,70 @@
+@prefix dtd: <urn:UrlRAbk-USA#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150545"@de ;
+    dtd:has_doknr "BJNR213840961"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id11 a dtd:BR .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:Content-id13 a dtd:Content ;
+    dtd:has_P dtd:P-id14 .
+
+dtd:P-id14 a dtd:P ;
+    dtd:has_BR dtd:BR-id11,
+        dtd:BR-id12 ;
+    dtd:has_Value "G v. 18.8.1961 II 1183 In Kraft gem. Bek. v. 16.6.1963 II 745 mWv 1.7.1963 Überschrift: Diese Vorschrift gilt nicht in Berlin (West) gem. § 3 Nr. 6 Buchst. j G v. 25.9.1990 I 2106 und nicht in dem in Artikel 3 des Einigungsvertrages genannten Gebiet gem. Artikel 11 und Anl. I Kap. I Nr. 6 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 908"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1959-08-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id15 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id16 .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id13 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "UrlRAbk USA"@de .
+
+dtd:langue-id8 a dtd:langue ;
+    dtd:has_Value """Abkommen zwischen der Bundesrepublik Deutschland und den Vereinigten
+Staaten von Amerika über die Rechtsstellung von Urlaubern"""@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id8 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150545"@de ;
+    dtd:has_doknr "BJNR213840961"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id15 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id9 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 ;
+    dtd:has_text dtd:text-id9 .
+
+dtd:zitstelle-id16 a dtd:zitstelle ;
+    dtd:has_Value "1961, 1384"@de .
+

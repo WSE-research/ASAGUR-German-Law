@@ -1,0 +1,485 @@
+@prefix dtd: <urn:PPDAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231102214011"@de ;
+    dtd:has_doknr "BJNR368210021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104,
+        dtd:P-id105,
+        dtd:P-id106,
+        dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109,
+        dtd:P-id110,
+        dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113,
+        dtd:P-id114 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95,
+        dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id100,
+        dtd:P-id101,
+        dtd:P-id102,
+        dtd:P-id98,
+        dtd:P-id99 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DL-id62 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68,
+        dtd:DD-id69,
+        dtd:DD-id70,
+        dtd:DD-id71,
+        dtd:DD-id72 ;
+    dtd:has_DT dtd:DT-id63,
+        dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66,
+        dtd:DT-id67 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id76,
+        dtd:DD-id77 ;
+    dtd:has_DT dtd:DT-id74,
+        dtd:DT-id75 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id81,
+        dtd:DD-id82 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "automatisierte Abrufe des Lichtbilds aus dem Pass- oder dem Personalausweisregister durch die in § 22a Absatz 2 Satz 5 des Passgesetzes sowie in § 25 Absatz 2 Satz 4 des Personalausweisgesetzes genannten Behörden bei der ausstellenden Pass- oder Personalausweisbehörde,"@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "automatisierte Abrufe des Lichtbildes bei einem zentralen Passregister- oder Personalausweisregisterbestand, sofern ein Land von der Regelungsbefugnis des § 27a des Passgesetzes oder des § 34a des Personalausweisgesetzes Gebrauch gemacht hat,"@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "automatisierte Abrufe des Lichtbilds und der Unterschrift aus dem Pass- oder Personalausweisregister durch die in § 22a Absatz 2 Satz 6 des Passgesetzes sowie in § 25 Absatz 2 Satz 5 des Personalausweisgesetzes genannten Behörden bei der ausstellenden Pass- oder Personalausweisbehörde,"@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "automatisierte Abrufe des Lichtbilds und der Unterschrift bei einem zentralen Passregister- oder Personalausweisregisterbestand, sofern ein Land von der Regelungsbefugnis des § 27a des Passgesetzes oder des § 34a des Personalausweisgesetzes Gebrauch gemacht hat,"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "automatisierte Abrufe sowie automatisierte Mitteilungen einer Pass-, Personalausweis- oder eID-Karte-Behörde gegenüber einer anderen Pass-, Personalausweis- oder eID-Karte-Behörde nach § 24 Absatz 1a des Personalausweisgesetzes, nach § 22 Absatz 1a des Passgesetzes oder nach § 19a des eID-Karte-Gesetzes."@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Familienname, die Vornamen, der Tag der Geburt und der letzte Tag der Gültigkeit des Passes oder des Personalausweises oder"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in den Fällen des § 16 Absatz 4 Satz 2 Nummer 2 des Passgesetzes sowie des § 20 Absatz 3 Satz 2 Nummer 2 des Personalausweisgesetzes die Seriennummer."@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Abrufen nach § 1 Absatz 1 Nummer 1 und Nummer 2 eine Übermittlung des Lichtbilds und"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Abrufen nach § 1 Absatz 1 Nummer 3 und Nummer 4 eine Übermittlung des Lichtbilds und der Überschrift"@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "(3) Länderübergreifende Datenabrufe erfolgen ausschließlich über das Verbindungsnetz nach § 3 des Gesetzes über die Verbindung der informationstechnischen Netze des Bundes und der Länder – Gesetz zur Ausführung von Artikel 91c Absatz 4 des Grundgesetzes."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "(4) Betreiben mehrere Länder gemeinsam eine Vermittlungsstelle, kann bei Datenabrufen zwischen diesen Ländern auch ein anderes Übermittlungsprotokoll eingesetzt werden, wenn es dem Übermittlungsprotokoll OSCI-Transport hinsichtlich der Sicherstellung der Vertraulichkeit, Integrität und Authentizität der übertragenen Daten gleichwertig ist. Die Gleichwertigkeit ist durch die verantwortliche Stelle des jeweiligen Landes zu dokumentieren."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(5) Bei der Datenübermittlung innerhalb von Rechenzentren und besonders gesicherter verwaltungseigener Netze kann auf die Verwendung des Übermittlungsprotokolls OSCI-Transport verzichtet werden, wenn durch technische und organisatorische Maßnahmen gewährleistet ist, dass die Sicherheitseigenschaften denen von OSCI-Transport gleichwertig sind."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "(1) XLichtbild ist ein Datenaustauschformat in dem Standard XInneres für die Übermittlung von Daten nach § 1 Absatz 1 Nummer 1 bis 4 aus den Pass- oder Personalausweisregistern der jeweils zuständigen Pass- oder Personalausweisbehörde an die abrufende Behörde. XPassAusweis ist ein Datenaustauschformat im Standard XInneres für die Übermittlungen von Daten zwischen Pass-, Personalausweis- und eID-Karte-Behörden nach § 1 Absatz 1 Nummer 5 sowie für die Übermittlung von Daten im Rahmen des automatisierten Lichtbildabrufs an die abrufenden Behörden nach § 1 Absatz 1 Nummer 1 bis 4."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(2) OSCI-Transport ist der am 6. Juni 2002 herausgegebene Standard für ein Datenübermittlungsprotokoll."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(3) Die Datenaustauschformate XPassAusweis, XLichtbild und das Übermittlungsprotokoll OSCI-Transport sind beim Bundesarchiv, Potsdamer Straße 1, 56075 Koblenz, archivmäßig gesichert niedergelegt und der Öffentlichkeit zugänglich. Sie können beim Informationstechnikzentrum Bund (ITZBund), Dienstsitz Bonn, Bernkasteler Straße 8, 53175 Bonn, bezogen werden."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(4) Änderungen der Datenaustauschformate XPassAusweis, XLichtbild und des Übermittlungsprotokolls OSCI-Transport werden vom Bundesministerium des Innern, für Bau und Heimat im Bundesanzeiger bekannt gemacht. In der Bekanntmachung sind das Herausgabedatum und der Beginn der Anwendung anzugeben."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Value "(1) Als Auswahldaten für Abrufe nach § 1 Absatz 1 Nummer 1 bis 4 können verwendet werden: 1.der Familienname, die Vornamen, der Tag der Geburt und der letzte Tag der Gültigkeit des Passes oder des Personalausweises oder2.in den Fällen des § 16 Absatz 4 Satz 2 Nummer 2 des Passgesetzes sowie des § 20 Absatz 3 Satz 2 Nummer 2 des Personalausweisgesetzes die Seriennummer."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(2) Aus dem Pass- oder Personalausweisregister darf 1.bei Abrufen nach § 1 Absatz 1 Nummer 1 und Nummer 2 eine Übermittlung des Lichtbilds und2.bei Abrufen nach § 1 Absatz 1 Nummer 3 und Nummer 4 eine Übermittlung des Lichtbilds und der Überschriftnur dann erfolgen, wenn die Anfrage zu einer eindeutigen Übereinstimmung geführt hat."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(3) Als Auswahldaten für Abrufe nach § 1 Absatz 1 Nummer 5 sowie zur Adressierung von automatisierten Mitteilungen nach § 1 Absatz 1 Nummer 5 können die Seriennummer und das Geburtsdatum verwendet werden."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(1) Abweichend von § 1 Absatz 2 Satz 1 dürfen automatisierte Abrufe nach Absatz 1 Nummer 1 bis 4 bis zum 31. Oktober 2025 auch im asynchronen Verfahren erfolgen."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(2) Abweichend von § 2 Absatz 1 Satz 1 dürfen elektronische Datenabrufe nach § 1 Absatz 1 Satz 1 Nummer 1 bis 4 bis zum 30. April 2024 auch unter Zugrundelegung des Datenaustauschformats XLichtbild aus dem Standard XInneres erfolgen."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_BR dtd:BR-id58,
+        dtd:BR-id61 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.5.2022 +++)Die V wurde als Artikel 1 der V v. 20.8.2021 I 3682 vom Bundesministerium des Innern, für Bau und Heimat im Benehmen mit dem Auswärtigen Amt und mit Zustimmung des Bundesrates erlassen. Sie tritt gem. Art. 5 Abs. 4 dieser V am 1.5.2022 in Kraft. Überschrift, Kurzbezeichnung u. Buchstabenabkürzung: IdF d. Art. 5 Nr. 1 V v. 30.10.2023 I Nr. 290 mWv 1.11.2023"@de ;
+    dtd:has_pre dtd:pre-id115 .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_DL dtd:DL-id62 ;
+    dtd:has_Value "(1) Diese Verordnung regelt die Voraussetzungen für 1.automatisierte Abrufe des Lichtbilds aus dem Pass- oder dem Personalausweisregister durch die in § 22a Absatz 2 Satz 5 des Passgesetzes sowie in § 25 Absatz 2 Satz 4 des Personalausweisgesetzes genannten Behörden bei der ausstellenden Pass- oder Personalausweisbehörde,2.automatisierte Abrufe des Lichtbildes bei einem zentralen Passregister- oder Personalausweisregisterbestand, sofern ein Land von der Regelungsbefugnis des § 27a des Passgesetzes oder des § 34a des Personalausweisgesetzes Gebrauch gemacht hat,3.automatisierte Abrufe des Lichtbilds und der Unterschrift aus dem Pass- oder Personalausweisregister durch die in § 22a Absatz 2 Satz 6 des Passgesetzes sowie in § 25 Absatz 2 Satz 5 des Personalausweisgesetzes genannten Behörden bei der ausstellenden Pass- oder Personalausweisbehörde,4.automatisierte Abrufe des Lichtbilds und der Unterschrift bei einem zentralen Passregister- oder Personalausweisregisterbestand, sofern ein Land von der Regelungsbefugnis des § 27a des Passgesetzes oder des § 34a des Personalausweisgesetzes Gebrauch gemacht hat,5.automatisierte Abrufe sowie automatisierte Mitteilungen einer Pass-, Personalausweis- oder eID-Karte-Behörde gegenüber einer anderen Pass-, Personalausweis- oder eID-Karte-Behörde nach § 24 Absatz 1a des Personalausweisgesetzes, nach § 22 Absatz 1a des Passgesetzes oder nach § 19a des eID-Karte-Gesetzes."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(2) Automatisierte Abrufe nach Absatz 1 Nummer 1 bis 4 erfolgen im synchronen Verfahren. Automatisierte Abrufe sowie automatisierte Mitteilungen nach Absatz 1 Nummer 5 können im synchronen oder im asynchronen Verfahren erfolgen."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(1) Datenabrufe erfolgen elektronisch unter Zugrundelegung des Datenaustauschformats XPassAusweis aus dem Standard XInneres und unter Nutzung des Übermittlungsprotokolls OSCI-Transport in der im Bundesanzeiger jeweils bekannt gemachten geltenden Fassung. § 3 des Gesetzes über die Verbindung der informationstechnischen Netze des Bundes und der Länder – Gesetz zur Ausführung von Artikel 91c Absatz 4 des Grundgesetzes – vom 10. August 2009 (BGBl. I S. 2702, 2706), das durch Artikel 72 der Verordnung vom 19. Juni 2020 (BGBl. I S. 1328) geändert worden ist, in der jeweils geltenden Fassung bleibt unberührt."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(2) Das Lichtbild sowie bei Abrufen nach § 1 Absatz 1 Nummer 2 die Unterschrift sind von der Pass- oder Personalausweisbehörde im Datenformat ISO/IEC 10918-1 (JPEG) an die abrufende Behörde zu übermitteln."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "PPeKDAV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-08-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id116 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id117 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id92 .
+
+dtd:fussnoten-id49 a dtd:fussnoten .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "PPDAV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "PPDAV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "PPeKDAV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "PPDAV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "PPeKDAV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "PPDAV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "PPeKDAV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "PPDAV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "PPeKDAV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "PPDAV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "PPeKDAV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Pass-, Personalausweis- und eID-Karte-Datenabrufverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung zur automatisierten Datenübermittlung und zu automatisierten Datenabrufen aus den Pass-, den Personalausweis- und den eID-Karte-Registern"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id27,
+        dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id31,
+        dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id35,
+        dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id39,
+        dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id43,
+        dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231102214011"@de ;
+    dtd:has_doknr "BJNR368210021"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231102214011"@de ;
+    dtd:has_doknr "BJNR368210021BJNE000101130"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231102214011"@de ;
+    dtd:has_doknr "BJNR368210021BJNE000201130"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231102214011"@de ;
+    dtd:has_doknr "BJNR368210021BJNE000301130"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231102214011"@de ;
+    dtd:has_doknr "BJNR368210021BJNE000401130"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231102214011"@de ;
+    dtd:has_doknr "BJNR368210021BJNE000500130"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id116 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id115 a dtd:pre ;
+    dtd:has_BR dtd:BR-id59,
+        dtd:BR-id60 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.5.2022 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id119 ;
+    dtd:has_standtyp dtd:standtyp-id118 .
+
+dtd:standkommentar-id119 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 5 V v. 30.10.2023 I Nr. 290"@de .
+
+dtd:standtyp-id118 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id103 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich und Verfahrensgrundsätze"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Technische Grundlagen des Abrufverfahrens"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Standards der Datenübermittlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Auswahldaten; Voraussetzung der Übermittlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Übergangsregelungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id117 a dtd:zitstelle ;
+    dtd:has_Value "2021, 3682"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

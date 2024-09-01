@@ -1,0 +1,109 @@
+@prefix dtd: <urn:TIRÜbk-1975#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625145752"@de ;
+    dtd:has_doknr "BJNR204460979"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:BR-id13 a dtd:BR .
+
+dtd:BR-id14 a dtd:BR .
+
+dtd:BR-id15 a dtd:BR .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_BR dtd:BR-id12,
+        dtd:BR-id13,
+        dtd:BR-id14,
+        dtd:BR-id15,
+        dtd:BR-id16,
+        dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19,
+        dtd:BR-id20,
+        dtd:BR-id21,
+        dtd:BR-id22,
+        dtd:BR-id23,
+        dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "G v. 21.5.1979 II 445 In Kraft gem. Bek. v. 10.6.1983 II 446 mWv 20.6.1983 Änderung vom 24.6.1981 II 453 mWv 20.6.1983 Änderung vom 5.10.1983 II 642 mWv 20.6.1983 Änderung vom 10.6.1987 II 316 mWv 1.8.1984 Änderung vom 27.3.1991 II 606 mWv 1.8.1987 Änderung vom 22.11.1995 II 931 mWv 3.12.1995 Änderung vom 15.3.1996 II 314 mWv 29.3.1996 Änderung vom 9.3.1999 II 185 mWv 17.2.1999 Änderung vom 23.1.2002 II 142 mWv 12.6.2001 Änderung vom 15.1.2004 II 34 mWv 12.5.2002 Änderung vom 1.6.2006 II 563 mWv 7.11.2003 Änderung vom 20.12.2005 II 1282 mWv 1.10.2005 Änderung vom 27.9.2006 II 905 mWv 1.4.2006 Änderung vom 26.4.2007 II 658 mWv 12.8.2006"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1975-11-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id28 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id29 .
+
+dtd:fussnoten-id11 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id26 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "TIRÜbk 1975"@de .
+
+dtd:kurzue-id8 a dtd:kurzue ;
+    dtd:has_Value "TIR-Übereinkommen"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value "Zollübereinkommen über den internationalen Warentransport mit Carnets TIR"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_kurzue dtd:kurzue-id8 ;
+    dtd:has_langue dtd:langue-id9 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625145752"@de ;
+    dtd:has_doknr "BJNR204460979"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id28 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id10 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id11 ;
+    dtd:has_text dtd:text-id10 .
+
+dtd:zitstelle-id29 a dtd:zitstelle ;
+    dtd:has_Value "1979, 445, 446"@de .
+

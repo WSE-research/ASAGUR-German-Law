@@ -1,0 +1,638 @@
+@prefix dtd: <urn:DDRIG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130,
+        dtd:P-id131,
+        dtd:P-id132,
+        dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135,
+        dtd:P-id136,
+        dtd:P-id137,
+        dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146,
+        dtd:P-id147,
+        dtd:P-id148 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DL-id102 a dtd:DL ;
+    dtd:has_DD dtd:DD-id105,
+        dtd:DD-id106 ;
+    dtd:has_DT dtd:DT-id103,
+        dtd:DT-id104 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id66,
+        dtd:DD-id67 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id68 a dtd:DL ;
+    dtd:has_DD dtd:DD-id75,
+        dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80 ;
+    dtd:has_DT dtd:DT-id69,
+        dtd:DT-id70,
+        dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id81 a dtd:DL ;
+    dtd:has_DD dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89 ;
+    dtd:has_DT dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84,
+        dtd:DT-id85 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id90 a dtd:DL ;
+    dtd:has_DD dtd:DD-id92 ;
+    dtd:has_DT dtd:DT-id91 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id95 ;
+    dtd:has_DT dtd:DT-id94 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id96 a dtd:DL ;
+    dtd:has_DD dtd:DD-id98 ;
+    dtd:has_DT dtd:DT-id97 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id99 a dtd:DL ;
+    dtd:has_DD dtd:DD-id101 ;
+    dtd:has_DT dtd:DT-id100 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Kapitalgesellschaft ausschließlich oder fast ausschließlich die folgenden Tätigkeiten in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) zum Gegenstand hat: die Herstellung oder Lieferung einschließlich Ausfuhr von Waren, außer Waffen anderer Art als Sport- und Jagdwaffen, die Gewinnung von Bodenschätzen oder die Bewirkung anderer gewerblicher Leistungen oder land- und forstwirtschaftlicher oder freiberuflicher Tätigkeiten oder das Halten einer Beteiligung von mindestens einem Viertel am Nennkapital einer Kapitalgesellschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost), die ausschließlich oder fast ausschließlich die vorgenannten Tätigkeiten in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) zum Gegenstand hat, und"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Bildung und Auflösung der Rücklage in der Buchführung des Steuerpflichtigen verfolgt werden können."@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der neue Anteilserwerb im Sinne des Absatzes 1 Satz 2 nach dem 31. Dezember 1989 stattgefunden hat,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Tochtergesellschaft ausschließlich oder fast ausschließlich die folgenden Tätigkeiten in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) zum Gegenstand hat: die Herstellung oder Lieferung einschließlich Ausfuhr von Waren, außer Waffen anderer Art als Sport- und Jagdwaffen, die Gewinnung von Bodenschätzen oder die Bewirkung anderer gewerblicher Leistungen oder land- und forstwirtschaftlicher oder freiberuflicher Tätigkeiten oder das Halten einer Beteiligung von mindestens einem Viertel am Nennkapital einer Kapitalgesellschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost), die ausschließlich oder fast ausschließlich die vorgenannten Tätigkeiten in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) zum Gegenstand hat, und"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Voraussetzungen der Nummer 2 durch Vorlage sachdienlicher Unterlagen, insbesondere Bilanzen und Ergebnisrechnungen und etwaige Geschäftsberichte der Tochtergesellschaft, nachgewiesen werden; auf Verlangen sind diese Unterlagen mit dem vorgeschriebenen Prüfungsvermerk einer behördlich anerkannten Wirtschaftsprüfungsstelle oder einer vergleichbaren Stelle vorzulegen,"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Steuerpflichtige und die Tochtergesellschaft sich verpflichten, Unterlagen der in Nummer 3 bezeichneten Art auch für die dem Verlustjahr folgenden Wirtschaftsjahre vorzulegen, solange eine Rücklage im Sinne des Absatzes 1 ausgewiesen wird; aus den Unterlagen muß sich die Höhe der in diesen Wirtschaftsjahren erzielten Betriebsergebnisse der Tochtergesellschaft zweifelsfrei ergeben,"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Tochtergesellschaft erklärt, daß sie mit der Erteilung von Auskünften durch die Steuerbehörden der Deutschen Demokratischen Republik einschließlich Berlin (Ost) an die inländischen Finanzbehörden einverstanden ist, und"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Bildung und Auflösung der Rücklage in der Buchführung des Steuerpflichtigen verfolgt werden können."@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_DL dtd:DL-id90 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn die Tochtergesellschaft in einem auf das Verlustjahr folgenden Wirtschaftsjahr einen Gewinn erzielt,in Höhe des Teils des Gewinns, der dem Verhältnis der neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 zum Nennkapital der Tochtergesellschaft entspricht, soweit er die Verlustteile, die bei der Bildung der Rücklage nach Absatz 1 Satz 3 zweiter Halbsatz und Satz 4 unberücksichtigt geblieben sind, oder den Auflösungsbetrag im Sinne der Nummer 2 übersteigt, "@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Höhe des Teils des Gewinns, der dem Verhältnis der neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 zum Nennkapital der Tochtergesellschaft entspricht, soweit er die Verlustteile, die bei der Bildung der Rücklage nach Absatz 1 Satz 3 zweiter Halbsatz und Satz 4 unberücksichtigt geblieben sind, oder den Auflösungsbetrag im Sinne der Nummer 2 übersteigt,"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn in einem auf ihre Bildung folgenden Wirtschaftsjahr auf die neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 an der Tochtergesellschaft eine Teilwertabschreibung vorgenommen wird,in Höhe des Betrags der Teilwertabschreibung, "@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Höhe des Betrags der Teilwertabschreibung,"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_DL dtd:DL-id96 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn vom Steuerpflichtigen Anteile an der Tochtergesellschaft veräußert oder in das Privatvermögen überführt werden,in Höhe des Teils der Rücklage, der dem Anteil der veräußerten oder in das Privatvermögen überführten Anteile an den neu erworbenen Anteilen im Sinne des Absatzes 1 Satz 2 entspricht, "@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Höhe des Teils der Rücklage, der dem Anteil der veräußerten oder in das Privatvermögen überführten Anteile an den neu erworbenen Anteilen im Sinne des Absatzes 1 Satz 2 entspricht,"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_DL dtd:DL-id99 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn die Nachweisverpflichtungen im Sinne des Absatzes 2 Nr. 4 und 6 nicht erfüllt werden,in voller Höhe, "@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in voller Höhe,"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nach den §§ 14 bis 17 des Körperschaftsteuergesetzes einem Organträger zuzurechnen ist oder"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Einkommensermittlung der Tochtergesellschaft nach § 10d Abs. 1 des Einkommensteuergesetzes in Verbindung mit § 8 Abs. 1 und 5 des Körperschaftsteuergesetzes abgezogen worden ist."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_BR dtd:BR-id62 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.6.1990 +++) (+++ Zur Anwendung vgl. § 7 +++)"@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(1) Steuerpflichtige, die den Gewinn nach § 4 Abs. 1 oder § 5 des Einkommensteuergesetzes ermitteln und zum Anlagevermögen eines inländischen Betriebs gehörende abnutzbare Wirtschaftsgüter in eine Kapitalgesellschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) gegen Gewährung neuer Anteile an der Gesellschaft überführen, können im Wirtschaftsjahr der Überführung bis zur Höhe des durch die Überführung entstandenen Gewinns eine den steuerlichen Gewinn mindernde Rücklage bilden. Besteht bereits eine Beteiligung an einer Kapitalgesellschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) und werden in einem solchen Fall zum Anlagevermögen eines inländischen Betriebs gehörende abnutzbare Wirtschaftsgüter in die Gesellschaft ohne Gewährung neuer Anteile und ohne eine sonstige Gegenleistung, die dem Wert der überführten Wirtschaftsgüter entspricht, überführt, gilt Satz 1 mit der Maßgabe entsprechend, daß im Wirtschaftsjahr der Überführung bis zur Höhe des infolge der unentgeltlichen oder teilunentgeltlichen Überführung entstandenen Gewinns eine Rücklage gebildet werden kann. Die Rücklage ist spätestens vom zehnten auf ihre Bildung folgenden Wirtschaftsjahr an jährlich mit mindestens einem Zehntel gewinnerhöhend aufzulösen."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Value "(2) Die Bildung der Rücklage setzt voraus, daß 1.die Kapitalgesellschaft ausschließlich oder fast ausschließlich die folgenden Tätigkeiten in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) zum Gegenstand hat: die Herstellung oder Lieferung einschließlich Ausfuhr von Waren, außer Waffen anderer Art als Sport- und Jagdwaffen, die Gewinnung von Bodenschätzen oder die Bewirkung anderer gewerblicher Leistungen oder land- und forstwirtschaftlicher oder freiberuflicher Tätigkeiten oder das Halten einer Beteiligung von mindestens einem Viertel am Nennkapital einer Kapitalgesellschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost), die ausschließlich oder fast ausschließlich die vorgenannten Tätigkeiten in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) zum Gegenstand hat, und 2.die Bildung und Auflösung der Rücklage in der Buchführung des Steuerpflichtigen verfolgt werden können. Zum Schluß des Wirtschaftsjahrs, in dem die Voraussetzungen der Nummer 1 oder 2 nicht mehr erfüllt sind, ist die Rücklage in voller Höhe gewinnerhöhend aufzulösen."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(3) Wird eine Beteiligung im Sinne des Absatzes 1 Sätze 1 oder 2 ganz oder teilweise veräußert oder in das Privatvermögen überführt, so ist die gebildete Rücklage im Wirtschaftsjahr der Veräußerung oder Überführung in das Privatvermögen insgesamt oder im Verhältnis des veräußerten oder in das Privatvermögen überführten Anteils der Beteiligung zur Gesamtbeteiligung im Sinne des Absatzes 1 Sätze 1 oder 2 vorzeitig gewinnerhöhend aufzulösen. Entsprechendes gilt in den Fällen des Absatzes 1 Satz 2, soweit die überführten Wirtschaftsgüter aus dem Betriebsvermögen der Kapitalgesellschaft in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) ausscheiden."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(4) Die Absätze 1 bis 3 sind bei der Überführung von zum Anlagevermögen eines inländischen Betriebs gehörenden abnutzbaren Wirtschaftsgütern in eine Erwerbs- oder Wirtschaftsgenossenschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) sinngemäß anzuwenden."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(1) Unbeschränkt Steuerpflichtige, die den Gewinn nach § 4 Abs. 1 oder § 5 des Einkommensteuergesetzes ermitteln, können für Verluste einer Kapitalgesellschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost), an deren Nennkapital der Steuerpflichtige mindestens zu 10 vom Hundert unmittelbar beteiligt ist (Tochtergesellschaft), eine den steuerlichen Gewinn mindernde Rücklage bilden. Die Bildung der Rücklage ist für das Wirtschaftsjahr, in dem der Steuerpflichtige Anteile an der Tochtergesellschaft in einem Ausmaß erwirbt, das erstmals zu einer Beteiligung des Steuerpflichtigen in dem in Satz 1 bezeichneten Umfang führt, oder - wenn der Steuerpflichtige an der Tochtergesellschaft bereits in dem in Satz 1 bezeichneten Umfang beteiligt war - in dem er weitere Anteile an dieser Gesellschaft erwirbt, und in den vier folgenden Wirtschaftsjahren zulässig; die neu erworbenen Anteile müssen mindestens 5 vom Hundert des Nennkapitals der Tochtergesellschaft betragen. Die Rücklage darf für das Wirtschaftsjahr des Steuerpflichtigen, in dem der Verlust der Tochtergesellschaft entstanden ist, bis zur Höhe des Teils des Verlustes gebildet werden, der dem Verhältnis der neu erworbenen Anteile zum Nennkapital dieser Gesellschaft entspricht; sie ist zu vermindern um den Betrag, in dessen Höhe der Steuerpflichtige im Wirtschaftsjahr ihrer Bildung auf die neu erworbenen Anteile an der Tochtergesellschaft eine Teilwertabschreibung vornimmt. Die Rücklage darf den Betrag nicht übersteigen, mit dem die neu erworbenen Anteile in der Steuerbilanz angesetzt sind."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_DL dtd:DL-id68 ;
+    dtd:has_Value "(2) Voraussetzung für die Bildung der Rücklage ist, daß 1.der neue Anteilserwerb im Sinne des Absatzes 1 Satz 2 nach dem 31. Dezember 1989 stattgefunden hat, 2.die Tochtergesellschaft ausschließlich oder fast ausschließlich die folgenden Tätigkeiten in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) zum Gegenstand hat: die Herstellung oder Lieferung einschließlich Ausfuhr von Waren, außer Waffen anderer Art als Sport- und Jagdwaffen, die Gewinnung von Bodenschätzen oder die Bewirkung anderer gewerblicher Leistungen oder land- und forstwirtschaftlicher oder freiberuflicher Tätigkeiten oder das Halten einer Beteiligung von mindestens einem Viertel am Nennkapital einer Kapitalgesellschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost), die ausschließlich oder fast ausschließlich die vorgenannten Tätigkeiten in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) zum Gegenstand hat, und 3.die Voraussetzungen der Nummer 2 durch Vorlage sachdienlicher Unterlagen, insbesondere Bilanzen und Ergebnisrechnungen und etwaige Geschäftsberichte der Tochtergesellschaft, nachgewiesen werden; auf Verlangen sind diese Unterlagen mit dem vorgeschriebenen Prüfungsvermerk einer behördlich anerkannten Wirtschaftsprüfungsstelle oder einer vergleichbaren Stelle vorzulegen, 4.der Steuerpflichtige und die Tochtergesellschaft sich verpflichten, Unterlagen der in Nummer 3 bezeichneten Art auch für die dem Verlustjahr folgenden Wirtschaftsjahre vorzulegen, solange eine Rücklage im Sinne des Absatzes 1 ausgewiesen wird; aus den Unterlagen muß sich die Höhe der in diesen Wirtschaftsjahren erzielten Betriebsergebnisse der Tochtergesellschaft zweifelsfrei ergeben, 5.die Tochtergesellschaft erklärt, daß sie mit der Erteilung von Auskünften durch die Steuerbehörden der Deutschen Demokratischen Republik einschließlich Berlin (Ost) an die inländischen Finanzbehörden einverstanden ist, und 6.die Bildung und Auflösung der Rücklage in der Buchführung des Steuerpflichtigen verfolgt werden können.  "@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_DL dtd:DL-id81 ;
+    dtd:has_Value "(3) Die Rücklage ist gewinnerhöhend aufzulösen, 1.wenn die Tochtergesellschaft in einem auf das Verlustjahr folgenden Wirtschaftsjahr einen Gewinn erzielt,in Höhe des Teils des Gewinns, der dem Verhältnis der neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 zum Nennkapital der Tochtergesellschaft entspricht, soweit er die Verlustteile, die bei der Bildung der Rücklage nach Absatz 1 Satz 3 zweiter Halbsatz und Satz 4 unberücksichtigt geblieben sind, oder den Auflösungsbetrag im Sinne der Nummer 2 übersteigt,  2.wenn in einem auf ihre Bildung folgenden Wirtschaftsjahr auf die neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 an der Tochtergesellschaft eine Teilwertabschreibung vorgenommen wird,in Höhe des Betrags der Teilwertabschreibung,  3.wenn vom Steuerpflichtigen Anteile an der Tochtergesellschaft veräußert oder in das Privatvermögen überführt werden,in Höhe des Teils der Rücklage, der dem Anteil der veräußerten oder in das Privatvermögen überführten Anteile an den neu erworbenen Anteilen im Sinne des Absatzes 1 Satz 2 entspricht,  4.wenn die Nachweisverpflichtungen im Sinne des Absatzes 2 Nr. 4 und 6 nicht erfüllt werden,in voller Höhe,  spätestens jedoch am Schluß des fünften auf ihre Bildung folgenden Wirtschaftsjahrs."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(4) Die Absätze 1 bis 3 sind für Verluste einer Erwerbs- oder Wirtschaftsgenossenschaft mit Sitz und Geschäftsleitung in der Deutschen Demokratischen Republik einschließlich Berlin (Ost) sinngemäß anzuwenden."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "Die Vorschriften der §§ 1 und 2 gelten auch für die Ermittlung des Gewerbeertrags nach § 7 des Gewerbesteuergesetzes."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 12 Abs. 1 des Dritten Überleitungsgesetzes auch im Land Berlin."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach der Verkündung in Kraft. Es ist erstmals anzuwenden für Wirtschaftsjahre, die im Veranlagungszeitraum 1990 enden."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(2) Eine Rücklage nach § 1 kann nur gebildet werden, wenn die Wirtschaftsgüter vor dem 1. Januar 1992 überführt werden."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_DL dtd:DL-id102 ;
+    dtd:has_Value "(3) Eine Rücklage nach § 2 kann nur gebildet werden, wenn der Erwerb neuer Anteile im Sinne des § 2 Abs. 1 Satz 2 vor dem 1. Januar 1992 stattgefunden hat. Die Bildung der Rücklage ist ausgeschlossen, soweit der Verlust der Tochtergesellschaft 1.nach den §§ 14 bis 17 des Körperschaftsteuergesetzes einem Organträger zuzurechnen ist oder 2.bei der Einkommensermittlung der Tochtergesellschaft nach § 10d Abs. 1 des Einkommensteuergesetzes in Verbindung mit § 8 Abs. 1 und 5 des Körperschaftsteuergesetzes abgezogen worden ist. "@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "DDR-IG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-06-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 4 und 5"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id149 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id150 .
+
+dtd:fussnoten-id52 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id125 .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id61 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "DDRIG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "DDRIG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "DDRIG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "DDRIG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "DDRIG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "DDRIG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "DDRIG"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "DDRIG"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "DDR-Investitionsgesetz"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value "Gesetz zum Abbau von Hemmnissen bei Investitionen in der Deutschen Demokratischen Republik einschließlich Berlin (Ost)"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 ;
+    dtd:has_standangabe dtd:standangabe-id32 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990BJNE000400328"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990BJNE000500328"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990BJNE000600328"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405125505"@de ;
+    dtd:has_doknr "BJNR011430990BJNE000701309"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id149 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id32 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id152 ;
+    dtd:has_standtyp dtd:standtyp-id151 .
+
+dtd:standkommentar-id152 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Anlage I Kap IV B II Nr. 22 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 978"@de .
+
+dtd:standtyp-id151 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value """Steuerfreie Rücklage bei Überführung bestimmter
+Wirtschaftsgüter in eine Kapitalgesellschaft oder Erwerbs- oder
+Wirtschaftsgenossenschaft in der Deutschen Demokratischen
+Republik einschließlich Berlin (Ost)"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value """Steuerfreie Rücklage für Verluste einer Tochtergesellschaft
+in der Deutschen Demokratischen Republik einschließlich Berlin
+(Ost)"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Gewerbesteuer"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Anwendungszeitraum"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id150 a dtd:zitstelle ;
+    dtd:has_Value "1990, 1143"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

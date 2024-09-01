@@ -1,0 +1,196 @@
+@prefix dtd: <urn:AARKZustAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130630214608"@de ;
+    dtd:has_doknr "BJNR006800013"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id35 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.2013 +++)"@de ;
+    dtd:has_pre dtd:pre-id48 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Nach § 126 Absatz 3 Satz 2 und § 127 Absatz 3 Satz 1 des Bundesbeamtengesetzes vom 5. Februar 2009 (BGBl. I S. 160) ordnet das Auswärtige Amt an:"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Dem Bundesverwaltungsamt wird die Befugnis übertragen, über Widersprüche von Beschäftigten des Auswärtigen Amts in Angelegenheiten nach dem Bundesreisekostengesetz und der Auslandsreisekostenverordnung zu entscheiden, soweit das Bundesverwaltungsamt den mit dem Widerspruch angefochtenen Verwaltungsakt erlassen hat oder den Erlass eines Verwaltungsaktes abgelehnt hat. Das Auswärtige Amt behält sich vor, im Einzelfall selbst zu entscheiden."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "Dem Bundesverwaltungsamt wird die Vertretung der Bundesrepublik Deutschland in verwaltungsgerichtlichen Verfahren in Angelegenheiten nach Abschnitt I übertragen. Das Auswärtige Amt behält sich vor, im Einzelfall die Vertretung selbst wahrzunehmen."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt mit Wirkung vom 1. Juli 2012 in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "AARKZustAnO"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2013-01-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "III."@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "AARKZustAnO"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "AARKZustAnO"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "AARKZustAnO"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "AARKZustAnO"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "AARKZustAnO"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Anordnung zur Übertragung von Zuständigkeiten für den Erlass von Widerspruchsbescheiden und für die Vertretung des Dienstherrn bei Klagen von Beschäftigten des Auswärtigen Amts in Reisekostenangelegenheiten"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130630214608"@de ;
+    dtd:has_doknr "BJNR006800013"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130630214608"@de ;
+    dtd:has_doknr "BJNR006800013BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130630214608"@de ;
+    dtd:has_doknr "BJNR006800013BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130630214608"@de ;
+    dtd:has_doknr "BJNR006800013BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130630214608"@de ;
+    dtd:has_doknr "BJNR006800013BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id48 a dtd:pre ;
+    dtd:has_BR dtd:BR-id36,
+        dtd:BR-id37 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.2013 +++)"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "2013, 68"@de .
+

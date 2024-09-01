@@ -1,0 +1,237 @@
+@prefix dtd: <urn:SKBPRV-2017#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221028213006"@de ;
+    dtd:has_doknr "BJNR151900017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:DD-id32 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id39 .
+
+dtd:DD-id33 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id40 .
+
+dtd:DD-id34 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DD-id35 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id45 .
+
+dtd:DL-id24 a dtd:DL ;
+    dtd:has_DD dtd:DD-id32,
+        dtd:DD-id33,
+        dtd:DD-id34,
+        dtd:DD-id35,
+        dtd:DD-id36,
+        dtd:DD-id37,
+        dtd:DD-id38 ;
+    dtd:has_DT dtd:DT-id25,
+        dtd:DT-id26,
+        dtd:DT-id27,
+        dtd:DT-id28,
+        dtd:DT-id29,
+        dtd:DT-id30,
+        dtd:DT-id31 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id25 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id26 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id27 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id29 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id30 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id31 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:LA-id39 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kommando Heer,"@de .
+
+dtd:LA-id40 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kommando Luftwaffe,"@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Marinekommando,"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kommando Streitkräftebasis,"@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kommando Sanitätsdienst der Bundeswehr,"@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kommando Cyber- und Informationsraum und"@de .
+
+dtd:LA-id45 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Territoriales Führungskommando der Bundeswehr."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_BR dtd:BR-id21 ;
+    dtd:has_Value " (+++ Textnachweis ab: 14.6.2017 +++)"@de ;
+    dtd:has_pre dtd:pre-id50 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_DL dtd:DL-id24 ;
+    dtd:has_Value "Bezirkspersonalräte werden bei den folgenden militärischen Dienststellen gebildet, die den Behörden der Mittelstufe nach § 4 Absatz 1 Nummer 4 des Bundespersonalvertretungsgesetzes entsprechen:1.Kommando Heer,2.Kommando Luftwaffe,3.Marinekommando,4.Kommando Streitkräftebasis,5.Kommando Sanitätsdienst der Bundeswehr,6.Kommando Cyber- und Informationsraum und7.Territoriales Führungskommando der Bundeswehr."@de .
+
+dtd:amtabk-id9 a dtd:amtabk ;
+    dtd:has_Value "SKBPRV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id10 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-05-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id17 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id11 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id51 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id52 .
+
+dtd:fussnoten-id18 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id46 .
+
+dtd:fussnoten-id20 a dtd:fussnoten .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "SKBPRV 2017"@de .
+
+dtd:jurabk-id16 a dtd:jurabk ;
+    dtd:has_Value "SKBPRV"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "SKBPRV 2017"@de .
+
+dtd:langue-id12 a dtd:langue ;
+    dtd:has_Value "Streitkräfte-Bezirkspersonalräteverordnung"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id9 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id10 ;
+    dtd:has_fundstelle dtd:fundstelle-id11 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id12 ;
+    dtd:has_standangabe dtd:standangabe-id13,
+        dtd:standangabe-id14 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id17 ;
+    dtd:has_jurabk dtd:jurabk-id15,
+        dtd:jurabk-id16 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221028213006"@de ;
+    dtd:has_doknr "BJNR151900017"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221028213006"@de ;
+    dtd:has_doknr "BJNR151900017BJNE000102377"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id51 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id50 a dtd:pre ;
+    dtd:has_BR dtd:BR-id22,
+        dtd:BR-id23 ;
+    dtd:has_Value "(+++ Textnachweis ab: 14.6.2017 +++)"@de .
+
+dtd:standangabe-id13 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id54 ;
+    dtd:has_standtyp dtd:standtyp-id53 .
+
+dtd:standangabe-id14 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id56 ;
+    dtd:has_standtyp dtd:standtyp-id55 .
+
+dtd:standkommentar-id54 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 17.10.2022 I 1872"@de .
+
+dtd:standkommentar-id56 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 51-3-5 v. 21.8.2012 I 1804 (SKBPRV)"@de .
+
+dtd:standtyp-id53 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id55 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id18 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:zitstelle-id52 a dtd:zitstelle ;
+    dtd:has_Value "2017, 1506, 1519"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,191 @@
+@prefix dtd: <urn:BPolRZustAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154636"@de ;
+    dtd:has_doknr "BJNR501340968"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 24. 7.1968 +++)"@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Das Bundesverwaltungsamt wird hiermit zur zuständigen Behörde bestimmt, die nach § 11 Abs. 3 und § 12 Abs. 2 Satz 4 des Bundespolizeibeamtengesetzes in der Fassung vom 10. Juli 1967 (Bundesgesetzbl. I S. 701) über Anträge zur Verlängerung der Dauer der Teilnahme an der allgemeinberuflichen Ausbildung oder der Fachausbildung von Polizeivollzugsbeamten oder früheren Polizeivollzugsbeamten, die nach dem 31. Mai 1967 aus dem Vollzugsdienst des Bundesgrenzschutzes ausgeschieden sind oder ausscheiden, entscheidet."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 2 des Bundespolizeibeamtengesetzes in der Fassung vom 10. Juli 1967 in Verbindung mit § 172 des Bundesbeamtengesetzes in der Fassung vom 22. Oktober 1965 (Bundesgesetzbl. I S. 1776) und § 126 Abs. 3 Nr. 2 Satz 2 des Beamtenrechtsrahmengesetzes in der Fassung vom 22. Oktober 1965 (Bundesgesetzbl. I S. 1753), beide zuletzt geändert durch Artikel 6 Nr. 4 des Achten Strafrechtsänderungsgesetzes vom 25. Juni 1968 (Bundesgesetzbl. I S. 741), übertrage ich dem Bundesverwaltungsamt die Zuständigkeit zur Entscheidung über Widersprüche gegen den Erlaß oder die Ablehnung eines Verwaltungsaktes oder gegen die Ablehnung eines Anspruches, soweit sie sich auf Entscheidungen beziehen, die das Bundesverwaltungsamt in Angelegenheiten der Berufsförderung nach dem Bundespolizeibeamtengesetz erlassen hat."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "Die Anordnung tritt am Tage nach ihrer Veröffentlichung in Kraft."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1968-07-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "III."@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id47 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id48 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id37 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BPolRZustAnO"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "BPolRZustAnO"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BPolRZustAnO"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "BPolRZustAnO"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "BPolRZustAnO"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Anordnung über die Übertragung von Zuständigkeiten auf dem Gebiet der
+Rechtsverhältnisse der Polizeivollzugsbeamten des Bundes"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154636"@de ;
+    dtd:has_doknr "BJNR501340968"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154636"@de ;
+    dtd:has_doknr "BJNR501340968BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154636"@de ;
+    dtd:has_doknr "BJNR501340968BJNE000200303"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154636"@de ;
+    dtd:has_doknr "BJNR501340968BJNE000300303"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625154636"@de ;
+    dtd:has_doknr "BJNR501340968BJNE000400303"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id47 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id48 a dtd:zitstelle ;
+    dtd:has_Value "1968, Nr 134"@de .
+

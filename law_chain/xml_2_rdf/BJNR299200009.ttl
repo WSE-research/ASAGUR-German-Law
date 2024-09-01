@@ -1,0 +1,874 @@
+@prefix dtd: <urn:FlugLSV-2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id74 a dtd:BR .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:BR-id81 a dtd:BR .
+
+dtd:BR-id82 a dtd:BR .
+
+dtd:Content-id162 a dtd:Content ;
+    dtd:has_P dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165 .
+
+dtd:Content-id166 a dtd:Content ;
+    dtd:has_P dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169 .
+
+dtd:Content-id170 a dtd:Content ;
+    dtd:has_P dtd:P-id171,
+        dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175,
+        dtd:P-id176 .
+
+dtd:Content-id177 a dtd:Content ;
+    dtd:has_P dtd:P-id178,
+        dtd:P-id179 .
+
+dtd:Content-id180 a dtd:Content ;
+    dtd:has_P dtd:P-id181,
+        dtd:P-id182,
+        dtd:P-id183,
+        dtd:P-id184,
+        dtd:P-id185,
+        dtd:P-id186 .
+
+dtd:Content-id187 a dtd:Content ;
+    dtd:has_P dtd:P-id188 .
+
+dtd:Content-id189 a dtd:Content ;
+    dtd:has_P dtd:P-id190 .
+
+dtd:Content-id191 a dtd:Content ;
+    dtd:has_P dtd:P-id192 .
+
+dtd:DD-id149 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id157 .
+
+dtd:DD-id150 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id158 .
+
+dtd:DD-id151 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id159 .
+
+dtd:DD-id155 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id160 .
+
+dtd:DD-id156 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id161 .
+
+dtd:DL-id145 a dtd:DL ;
+    dtd:has_DD dtd:DD-id149,
+        dtd:DD-id150,
+        dtd:DD-id151 ;
+    dtd:has_DT dtd:DT-id146,
+        dtd:DT-id147,
+        dtd:DT-id148 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id152 a dtd:DL ;
+    dtd:has_DD dtd:DD-id155,
+        dtd:DD-id156 ;
+    dtd:has_DT dtd:DT-id153,
+        dtd:DT-id154 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id146 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id147 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id148 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id153 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id154 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id157 a dtd:LA ;
+    dtd:has_Value "in Wohnungen: Wohnräume einschließlich Wohndielen, Wohnküchen und Arbeitsräume sowie Räume, die in nicht nur unwesentlichem Umfang zum Schlafen genutzt werden (Schlafräume), das heißt Schlafzimmer sowie Kinder- und Jugendzimmer;"@de .
+
+dtd:LA-id158 a dtd:LA ;
+    dtd:has_Value "in Erholungsheimen, Altenheimen, Krankenhäusern und ähnlichen in gleichem Maße schutzbedürftigen Einrichtungen: Wohn- und Schlafräume einschließlich Übernachtungs- und Bettenräume, Gemeinschaftsräume sowie Untersuchungs-, Behandlungs- und Operationsräume;"@de .
+
+dtd:LA-id159 a dtd:LA ;
+    dtd:has_Value "in Kindergärten, Schulen und ähnlichen in gleichem Maße schutzbedürftigen Einrichtungen: Gemeinschaftsräume, Unterrichts- und Vortragsräume, Leseräume in Bibliotheken sowie wissenschaftliche Arbeitsräume."@de .
+
+dtd:LA-id160 a dtd:LA ;
+    dtd:has_Value "in der Tag-Schutzzone 1 und in der Tag-Schutzzone 2: bei einem äquivalentenDauerschallpegel für denTag (LAeq Tag) vonR'w,res fürAufenthaltsräumeweniger als 60 dB(A)30 dB60 bis weniger als 65 dB(A)35 dB65 bis weniger als 70 dB(A)40 dB70 bis weniger als 75 dB(A)45 dB75 dB(A) und mehr50 dB"@de ;
+    dtd:has_table dtd:table-id97 .
+
+dtd:LA-id161 a dtd:LA ;
+    dtd:has_Value "in der Nacht-Schutzzone: bei einem äquivalentenDauerschallpegel für dieNacht (LAeq Nacht) vonR'w,res fürSchlafräumeweniger als 50 dB(A)30 dB50 bis weniger als 55 dB(A)35 dB55 bis weniger als 60 dB(A)40 dB60 bis weniger als 65 dB(A)45 dB65 dB(A) und mehr50 dB"@de ;
+    dtd:has_table dtd:table-id99 .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_BR dtd:BR-id74 ;
+    dtd:has_Value " (+++ Textnachweis ab: 15.9.2009 +++)"@de ;
+    dtd:has_pre dtd:pre-id193 .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Absatz 2 und der §§ 7 und 9 Absatz 4 Satz 2 des Gesetzes zum Schutz gegen Fluglärm in der Fassung der Bekanntmachung vom 31. Oktober 2007 (BGBl. I S. 2550), hinsichtlich des § 3 Absatz 2 und des § 7 nach Anhörung der beteiligten Kreise, verordnet die Bundesregierung:"@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "Diese Verordnung mit Schallschutzanforderungen zum Schutz gegen Fluglärm gilt für die Errichtung von schutzbedürftigen Einrichtungen und Wohnungen nach § 5 Absatz 1 und 3 des Gesetzes zum Schutz gegen Fluglärm in dem Lärmschutzbereich eines Flugplatzes sowie für die Errichtung von Wohnungen in der Tag-Schutzzone 2 eines Flugplatzes. Diese Verordnung gilt auch für die Erstattung von Aufwendungen für bauliche Schallschutzmaßnahmen an schutzbedürftigen Einrichtungen und Wohnungen, die bei der Festsetzung des Lärmschutzbereichs errichtet sind oder deren Errichtung nach § 5 Absatz 4 des Gesetzes zum Schutz gegen Fluglärm zulässig ist."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_DL dtd:DL-id145 ;
+    dtd:has_Value "Aufenthaltsräume sind 1.in Wohnungen: Wohnräume einschließlich Wohndielen, Wohnküchen und Arbeitsräume sowie Räume, die in nicht nur unwesentlichem Umfang zum Schlafen genutzt werden (Schlafräume), das heißt Schlafzimmer sowie Kinder- und Jugendzimmer;2.in Erholungsheimen, Altenheimen, Krankenhäusern und ähnlichen in gleichem Maße schutzbedürftigen Einrichtungen: Wohn- und Schlafräume einschließlich Übernachtungs- und Bettenräume, Gemeinschaftsräume sowie Untersuchungs-, Behandlungs- und Operationsräume;3.in Kindergärten, Schulen und ähnlichen in gleichem Maße schutzbedürftigen Einrichtungen: Gemeinschaftsräume, Unterrichts- und Vortragsräume, Leseräume in Bibliotheken sowie wissenschaftliche Arbeitsräume."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_DL dtd:DL-id152 ;
+    dtd:has_SUB dtd:SUB-id83,
+        dtd:SUB-id88 ;
+    dtd:has_Value "(1) Bei der Errichtung baulicher Anlagen nach § 1 Satz 1 muss das resultierende bewertete Bauschalldämm-Maß R'w,res der DIN 4109, Ausgabe November 1989, der Umfassungsbauteile von Aufenthaltsräumen abhängig von der Zugehörigkeit der baulichen Anlage zu den nachstehenden Isophonen-Bändern mindestens betragen: 1.in der Tag-Schutzzone 1 und in der Tag-Schutzzone 2: bei einem äquivalentenDauerschallpegel für denTag (LAeq Tag) vonR'w,res fürAufenthaltsräumeweniger als 60 dB(A)30 dB60 bis weniger als 65 dB(A)35 dB65 bis weniger als 70 dB(A)40 dB70 bis weniger als 75 dB(A)45 dB75 dB(A) und mehr50 dB2.in der Nacht-Schutzzone: bei einem äquivalentenDauerschallpegel für dieNacht (LAeq Nacht) vonR'w,res fürSchlafräumeweniger als 50 dB(A)30 dB50 bis weniger als 55 dB(A)35 dB55 bis weniger als 60 dB(A)40 dB60 bis weniger als 65 dB(A)45 dB65 dB(A) und mehr50 dBFür Aufenthaltsräume einer baulichen Anlage, deren Grundfläche in zwei Isophonen-Bändern liegt, wird einheitlich das resultierende bewertete Bauschalldämm-Maß R'w,res des höheren Isophonen-Bandes zugrunde gelegt."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_SUB dtd:SUB-id89 ;
+    dtd:has_Value "(2) Umfassungsbauteile von Aufenthaltsräumen sind insbesondere Wände einschließlich Fenster, Türen, Rollladenkästen oder anderer Einzelflächen, Dächer sowie Decken, die Aufenthalträume umschließen. Besteht die Gesamtfläche eines Umfassungsbauteils von Aufenthaltsräumen aus Einzelflächen mit unterschiedlichen Bauschalldämm-Maßen, so ist das bewertete Bauschalldämm-Maß dieses Umfassungsbauteils das nach Gleichung 15 des Beiblatts 1 zur DIN 4109, Ausgabe November 1989, bestimmte resultierende Schalldämm-Maß R'w,R,res."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(3) Die in Absatz 1 Satz 1 genannten Isophonen-Bänder mit den äquivalenten Dauerschallpegeln für den Tag und für die Nacht werden nach § 4 der Verordnung über die Datenerfassung und das Berechnungsverfahren für die Festsetzung von Lärmschutzbereichen vom 27. Dezember 2008 (BGBl. I S. 2980) ermittelt und in den Listen und Karten nach § 4 Absatz 4 der genannten Verordnung dargestellt. Dies gilt auch für Gebiete, die allein aufgrund des Häufigkeits-Maximalpegelkriteriums nach § 4 Absatz 1 Satz 2 Nummer 3 der genannten Verordnung zur Nacht-Schutzzone gehören."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_SUB dtd:SUB-id90,
+        dtd:SUB-id91,
+        dtd:SUB-id92 ;
+    dtd:has_Value "(4) Das resultierende bewertete Bauschalldämm-Maß R'w,res nach Absatz 1 Satz 1 ist in Abhängigkeit vom Verhältnis der gesamten Außenfläche eines Raumes S(W+F) zur Grundfläche des Raumes SG nach Tabelle 9 der DIN 4109, Ausgabe November 1989, zu erhöhen oder zu vermindern."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_SUB dtd:SUB-id93,
+        dtd:SUB-id94,
+        dtd:SUB-id95 ;
+    dtd:has_Value "(5) Das resultierende bewertete Bauschalldämm-Maß R'w,res nach Absatz 1 Satz 1 und Absatz 4 ist von den Umfassungsbauteilen einzuhalten, die Aufenthaltsräume unmittelbar nach außen abschließen. Soweit Aufenthaltsräume an nicht zu schützende Räume grenzen, muss das resultierende bewertete Bauschalldämm-Maß R'w,res nach Absatz 1 Satz 1 und Absatz 4 von allen Umfassungsbauteilen zusammen eingehalten werden, die zwischen den betreffenden Aufenthaltsräumen und dem Freien liegen. Diese Anforderung ist als erfüllt anzusehen, wenn Umfassungsbauteile, die nicht zu schützende Räume nach außen abschließen, ein resultierendes bewertetes Bauschalldämm-Maß R'w,res einhalten, das um nicht mehr als 20 Dezibel unter den in Absatz 1 Satz 1 angegebenen Bauschalldämm-Maßen liegt. Satz 3 gilt nur, wenn die Umfassungsbauteile des Aufenthaltsraums keine unverschließbaren Öffnungen enthalten."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_SUB dtd:SUB-id96 ;
+    dtd:has_Value "(6) Belüftungseinrichtungen dürfen nicht zu einer Minderung des resultierenden bewerteten Bauschalldämm-Maßes R'w,res führen. Sie sind bei dem nach Absatz 1 Satz 1 Nummer 2 und Absatz 4 erforderlichen Schallschutz von Schlafräumen in der Nacht-Schutzzone mit zu berücksichtigen. In der Tag-Schutzzone 1 ist bei Aufenthaltsräumen für eine größere Zahl von Personen nach § 2 Nummer 3 (zum Beispiel Schul- oder Gruppenräume) ebenfalls der Einbau von Belüftungseinrichtungen vorzusehen. Die Eigengeräusche von Belüftungseinrichtungen in Schlafräumen dürfen nicht höher sein, als nach dem Stand der Schallschutztechnik im Hochbau unvermeidbar; maßgeblich ist der Zeitpunkt des Einbaus. Die Lüftungsleistung schallgedämmter Lüftungsgeräte für die dezentrale Belüftung oder sonstiger erforderlicher Belüftungseinrichtungen in Schlafräumen ist unter Beachtung des Standes der Schallschutztechnik im Hochbau zu bemessen."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(1) Die Anforderungen nach § 3 gelten vorbehaltlich des § 3 Absatz 5 Satz 2 bis 4 für Aufenthaltsräume in Wohngebäuden als eingehalten, wenn die in Tabelle 10 der DIN 4109, Ausgabe November 1989, angegebenen Anforderungen an die Bauschalldämm-Maße für die Wand und für das Fenster unter Beachtung der in dieser Tabelle genannten Raumhöhen, Raumtiefen und Fensterflächenanteile jeweils einzeln eingehalten werden."@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "(2) Die bewerteten Bauschalldämm-Maße der einzelnen Umfassungsbauteile werden nach den Ausführungsbeispielen in dem Beiblatt 1 zur DIN 4109, Ausgabe November 1989, bestimmt. Entsprechen die Umfassungsbauteile nicht den Ausführungsbeispielen, ist für die Bestimmung der Bauschalldämm-Maße auf die Erkenntnisse nach dem Stand der Schallschutztechnik zurückzugreifen."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "(1) Bauliche Schallschutzmaßnahmen einschließlich Belüftungseinrichtungen, für die nach § 9 Absatz 1 bis 4 des Gesetzes zum Schutz gegen Fluglärm ein Anspruch auf Erstattung von Aufwendungen besteht, sind bauliche Verbesserungen des Schallschutzes von Umfassungsbauteilen von Aufenthaltsräumen, die die Einwirkung durch Fluglärm mindern. Der Anspruch auf Erstattung von Aufwendungen für bauliche Schallschutzmaßnahmen umfasst als Nebenleistungen die Ermittlung der erforderlichen Bauschalldämm-Maße der einzelnen Umfassungsbauteile und die für den Ausbau und den Einbau erforderlichen Arbeiten einschließlich der Putz- und Anstricharbeiten."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(2) Bei baulichen Anlagen nach § 1 Satz 2 werden Aufwendungen für bauliche Schallschutzmaßnahmen insoweit erstattet, wie sich diese bei Bauschalldämm-Maßen ergeben, die um 3 Dezibel unter den Bauschalldämm-Maßen für die Errichtung baulicher Anlagen nach § 3 liegen. Ein Erstattungsanspruch für Maßnahmen des baulichen Schallschutzes besteht nur, wenn die baulichen Anlagen den sich aus Satz 1 ergebenden Bauschalldämm-Maßen nicht bereits entsprechen."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_Value "(3) Bei baulichen Anlagen nach § 1 Satz 2, die vor dem 15. September 2009 schon bei ihrer Errichtung den Schallschutzanforderungen genügen mussten oder für die vor dem 15. September 2009 bereits im Rahmen freiwilliger Schallschutzprogramme oder in sonstiger Weise Aufwendungen für bauliche Schallschutzmaßnahmen erstattet worden sind oder ein Anspruch auf die Erstattung solcher Aufwendungen bestand, werden Aufwendungen für weitere bauliche Schallschutzmaßnahmen nach Maßgabe des Absatzes 2 erstattet, wenn die Bauschalldämm-Maße der früheren Schallschutzmaßnahmen um mehr als 8 Dezibel unter den Bauschalldämm-Maßen für die Errichtung baulicher Anlagen nach § 3 liegen."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "(4) Der Höchstbetrag für die Erstattung von Aufwendungen für bauliche Schallschutzmaßnahmen beträgt 150 Euro je Quadratmeter Wohnfläche. In dem Höchstbetrag sind die Kosten für die erstattungsfähigen Nebenleistungen nach Absatz 1 Satz 2 und für Belüftungseinrichtungen enthalten."@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_Value "(5) Für die Berechnung der Wohnflächen nach Absatz 4 gelten die Vorschriften der Wohnflächenverordnung vom 25. November 2003 (BGBl. I S. 2346) entsprechend. Beheizbare und unbeheizbare Wintergärten, Schwimmbäder und ähnliche nach allen Seiten geschlossene Räume sowie Balkone, Loggien, Dachgärten und Terrassen werden nicht angerechnet."@de .
+
+dtd:P-id186 a dtd:P ;
+    dtd:has_Value "(6) Im Falle der Erstattung von Aufwendungen für bauliche Schallschutzmaßnahmen ist die tatsächliche oder zu erwartende Raumnutzung zum Zeitpunkt der Entscheidung über den Erstattungsantrag maßgeblich."@de .
+
+dtd:P-id188 a dtd:P ;
+    dtd:has_Value "DIN-Normen, auf die in dieser Verordnung verwiesen wird, sind bei der Beuth Verlag GmbH, Berlin, zu beziehen und beim Deutschen Patent- und Markenamt in München archivmäßig gesichert niedergelegt."@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id192 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:SUB-id83 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:SUB-id84 a dtd:SUB ;
+    dtd:has_Value "Aeq Tag"@de .
+
+dtd:SUB-id85 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:SUB-id86 a dtd:SUB ;
+    dtd:has_Value "Aeq Nacht"@de .
+
+dtd:SUB-id87 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:SUB-id88 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:SUB-id89 a dtd:SUB ;
+    dtd:has_Value "w,R,res"@de .
+
+dtd:SUB-id90 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:SUB-id91 a dtd:SUB ;
+    dtd:has_Value "(W+F)"@de .
+
+dtd:SUB-id92 a dtd:SUB ;
+    dtd:has_Value "G"@de .
+
+dtd:SUB-id93 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:SUB-id94 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:SUB-id95 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:SUB-id96 a dtd:SUB ;
+    dtd:has_Value "w,res"@de .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "2. FlugLSV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-09-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id101 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "5.00*"@de .
+
+dtd:colspec-id102 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "3.00*"@de .
+
+dtd:colspec-id105 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "5.00*"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:colspec-id106 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colwidth "3.00*"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_BR dtd:BR-id77,
+        dtd:BR-id78 ;
+    dtd:has_SUB dtd:SUB-id84 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "bei einem äquivalentenDauerschallpegel für denTag (LAeq Tag) von"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_BR dtd:BR-id79 ;
+    dtd:has_SUB dtd:SUB-id85 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "R'w,res fürAufenthaltsräume"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "weniger als 60 dB(A)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "30 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "60 bis weniger als 65 dB(A)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "35 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "65 bis weniger als 70 dB(A)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "40 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "70 bis weniger als 75 dB(A)"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "45 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "75 dB(A) und mehr"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_rowsep "1"@de .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "50 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_BR dtd:BR-id80,
+        dtd:BR-id81 ;
+    dtd:has_SUB dtd:SUB-id86 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "bei einem äquivalentenDauerschallpegel für dieNacht (LAeq Nacht) von"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_BR dtd:BR-id82 ;
+    dtd:has_SUB dtd:SUB-id87 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "R'w,res fürSchlafräume"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "weniger als 50 dB(A)"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "30 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "50 bis weniger als 55 dB(A)"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "35 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "55 bis weniger als 60 dB(A)"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "40 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "60 bis weniger als 65 dB(A)"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "45 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id143 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "65 dB(A) und mehr"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id144 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "50 dB"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id194 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id195 .
+
+dtd:fussnoten-id63 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id162 .
+
+dtd:fussnoten-id72 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "FlugLSV 2"@de .
+
+dtd:kurzue-id36 a dtd:kurzue ;
+    dtd:has_Value "Flugplatz-Schallschutzmaßnahmenverordnung"@de .
+
+dtd:langue-id37 a dtd:langue ;
+    dtd:has_Value "Zweite Verordnung zur Durchführung des Gesetzes zum Schutz gegen Fluglärm"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id36 ;
+    dtd:has_langue dtd:langue-id37 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405132732"@de ;
+    dtd:has_doknr "BJNR299200009BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id194 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id193 a dtd:pre ;
+    dtd:has_BR dtd:BR-id75,
+        dtd:BR-id76 ;
+    dtd:has_Value "(+++ Textnachweis ab: 15.9.2009 +++)"@de .
+
+dtd:row-id109 a dtd:row ;
+    dtd:has_entry dtd:entry-id121,
+        dtd:entry-id122 .
+
+dtd:row-id110 a dtd:row ;
+    dtd:has_entry dtd:entry-id133,
+        dtd:entry-id134 .
+
+dtd:row-id111 a dtd:row ;
+    dtd:has_entry dtd:entry-id123,
+        dtd:entry-id124 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id112 a dtd:row ;
+    dtd:has_entry dtd:entry-id125,
+        dtd:entry-id126 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id113 a dtd:row ;
+    dtd:has_entry dtd:entry-id127,
+        dtd:entry-id128 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id114 a dtd:row ;
+    dtd:has_entry dtd:entry-id129,
+        dtd:entry-id130 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id115 a dtd:row ;
+    dtd:has_entry dtd:entry-id131,
+        dtd:entry-id132 ;
+    dtd:has_rowsep "1"@de .
+
+dtd:row-id116 a dtd:row ;
+    dtd:has_entry dtd:entry-id135,
+        dtd:entry-id136 .
+
+dtd:row-id117 a dtd:row ;
+    dtd:has_entry dtd:entry-id137,
+        dtd:entry-id138 .
+
+dtd:row-id118 a dtd:row ;
+    dtd:has_entry dtd:entry-id139,
+        dtd:entry-id140 .
+
+dtd:row-id119 a dtd:row ;
+    dtd:has_entry dtd:entry-id141,
+        dtd:entry-id142 .
+
+dtd:row-id120 a dtd:row ;
+    dtd:has_entry dtd:entry-id143,
+        dtd:entry-id144 .
+
+dtd:table-id97 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id98 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id99 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id100 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id104 a dtd:tbody ;
+    dtd:has_row dtd:row-id111,
+        dtd:row-id112,
+        dtd:row-id113,
+        dtd:row-id114,
+        dtd:row-id115 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id108 a dtd:tbody ;
+    dtd:has_row dtd:row-id116,
+        dtd:row-id117,
+        dtd:row-id118,
+        dtd:row-id119,
+        dtd:row-id120 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id166 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id170 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id177 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id180 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id187 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id189 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id191 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:tgroup-id100 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id105,
+        dtd:colspec-id106 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id108 ;
+    dtd:has_thead dtd:thead-id107 .
+
+dtd:tgroup-id98 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id101,
+        dtd:colspec-id102 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id104 ;
+    dtd:has_thead dtd:thead-id103 .
+
+dtd:thead-id103 a dtd:thead ;
+    dtd:has_row dtd:row-id109 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:thead-id107 a dtd:thead ;
+    dtd:has_row dtd:row-id110 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Aufenthaltsräume"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Schallschutzanforderungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Einhaltung der Anforderungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Erstattung von Aufwendungen für bauliche Schallschutzmaßnahmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Zugänglichkeit der Normblätter"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id195 a dtd:zitstelle ;
+    dtd:has_Value "2009, 2992"@de .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

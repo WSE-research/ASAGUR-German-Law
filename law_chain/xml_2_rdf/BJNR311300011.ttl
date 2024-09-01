@@ -1,0 +1,384 @@
+@prefix dtd: <urn:FeV2010AusnV-2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180524213049"@de ;
+    dtd:has_doknr "BJNR311300011"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:kommentar-id89 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2011, 3114;bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_BR dtd:BR-id42 ;
+    dtd:has_P dtd:P-id84,
+        dtd:P-id85,
+        dtd:P-id86,
+        dtd:P-id87 ;
+    dtd:has_Title dtd:Title-id72,
+        dtd:Title-id73,
+        dtd:Title-id74 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id64 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id65 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id66 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id67 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id68 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id69 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51,
+        dtd:DD-id52,
+        dtd:DD-id53,
+        dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id47,
+        dtd:DT-id48,
+        dtd:DT-id49,
+        dtd:DT-id50 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id55 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62,
+        dtd:DD-id63 ;
+    dtd:has_DT dtd:DT-id56,
+        dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:LA-id64 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Ausbildung umfasst mindestens drei Tage mit jeweils acht Stunden Unterricht."@de .
+
+dtd:LA-id65 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Ausbildung enthält einen theoretischen und einen praktischen Teil. In beiden Ausbildungsteilen sind die besonderen Fahreigenschaften der Fahrzeuge sowohl bei Routine- als auch bei konkreten Gefahrensituationen mit unterschiedlichen Geschwindigkeiten, Sichtverhältnissen und Straßenzuständen sowie Bremsvorgängen zu schulen."@de .
+
+dtd:LA-id66 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der erfolgreiche Abschluss der zusätzlichen Fahrausbildung ist durch eine vom Bundeskriminalamt oder den Polizeien der Länder ausgestellte Bescheinigung nachzuweisen, die beim Führen des Kraftfahrzeuges mitzuführen und zuständigen Personen auf Verlangen zur Prüfung auszuhändigen ist."@de .
+
+dtd:LA-id67 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Nach erfolgreichem Abschluss der zusätzlichen Fahrausbildung hat der Fahrer einmal im Jahr an einem Wiederholungs- und Vertiefungskurs teilzunehmen."@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die eingesetzten Sonderschutzfahrzeuge müssen über eine europäische Typgenehmigung oder eine Einzelgenehmigung gemäß Artikel 24 der Richtlinie 2007/46/EG verfügen."@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Fahrzeuge müssen die Anforderungen an Bremssysteme nach Anhang I Nummer 2.2.1 der Richtlinie 71/320/EWG des Rates vom 21. Juli 1971 zur Angleichung der Rechtsvorschriften der Mitgliedstaaten über die Bremsanlagen bestimmter Klassen von Fahrzeugen und deren Anhängern (ABl. L 202 vom 6.9.1971, S. 37) erfüllen."@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Abmessungen der Fahrzeuge sollen denen eines Personenkraftwagens der Klasse M1, AA Limousine im Sinne von Anhang II Teil C Ziffer 1 der Richtlinie 2007/46/EG bei der Breite, Länge und Wendekreis entsprechen."@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Sichtverhältnisse der eingesetzten Sonderschutzfahrzeuge müssen denen eines Personenkraftwagens der Klasse M1, AA Limousine im Sinne von Anhang II Teil C der Richtlinie 2007/46/EG entsprechen."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_Value " (+++ Textnachweis ab: 31.12.2011 +++)"@de ;
+    dtd:has_pre dtd:pre-id88 .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 6 Absatz 1 Nummer 1 Buchstabe w in Verbindung mit § 6 Absatz 3 des Straßenverkehrsgesetzes, von denen § 6 Absatz 1 Nummer 1 Buchstabe w durch Artikel 1 Buchstabe a Doppelbuchstabe cc des Gesetzes vom 3. Mai 2005 (BGBl. I S. 1221) geändert worden ist, verordnet das Bundesministerium für Verkehr, Bau und Stadtentwicklung nach Anhörung der zuständigen obersten Landesbehörden:"@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "Abweichend von § 6 Absatz 1 der Fahrerlaubnis-Verordnung dürfen die in Anhang II Teil A Absatz 5 Ziffer 2 der Richtlinie 2007/46/EG des Europäischen Parlaments und des Rates vom 5. September 2007 zur Schaffung eines Rahmens für die Genehmigung von Kraftfahrzeugen und Kraftfahrzeuganhängern sowie von Systemen, Bauteilen und selbstständigen technischen Einheiten für diese Fahrzeuge (ABl. L 263 vom 9.10.2007, S. 1) genannten beschussgeschützten Fahrzeuge mit einer zulässigen Gesamtmasse von mehr als 3 500 kg bis einschließlich 4 100 kg mit einer Fahrerlaubnis der Klasse B geführt werden, sofern sie als Fahrzeuge für den Personenschutz vom Bundeskriminalamt nach § 6 des Bundeskriminalamtgesetzes oder den Polizeien der Länder eingesetzt werden und die in der Anlage aufgeführten Anforderungen erfüllt sind."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2011, 3114;bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_noindex dtd:noindex-id45 .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_BR dtd:BR-id43,
+        dtd:BR-id44 ;
+    dtd:has_Value "Der Kraftfahrzeugführer muss eine vom Bundeskriminalamt oder von den Polizeien der Länder durchgeführte zusätzliche Fahrausbildung nachgewiesen haben. An der zusätzlichen Fahrausbildung können nur Inhaber der Fahrerlaubnis der Klasse B teilnehmen, die zu Beginn der zusätzlichen Fahrausbildung nicht mit Punkten im Fahreignungsregister belastet sind. Der Nachweis erfolgt durch Vorlage eines Auszuges aus dem Fahreignungsregister, der nicht älter als sechs Monate sein darf."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Value "a)Die Ausbildung umfasst mindestens drei Tage mit jeweils acht Stunden Unterricht.b)Die Ausbildung enthält einen theoretischen und einen praktischen Teil. In beiden Ausbildungsteilen sind die besonderen Fahreigenschaften der Fahrzeuge sowohl bei Routine- als auch bei konkreten Gefahrensituationen mit unterschiedlichen Geschwindigkeiten, Sichtverhältnissen und Straßenzuständen sowie Bremsvorgängen zu schulen.c)Der erfolgreiche Abschluss der zusätzlichen Fahrausbildung ist durch eine vom Bundeskriminalamt oder den Polizeien der Länder ausgestellte Bescheinigung nachzuweisen, die beim Führen des Kraftfahrzeuges mitzuführen und zuständigen Personen auf Verlangen zur Prüfung auszuhändigen ist.d)Nach erfolgreichem Abschluss der zusätzlichen Fahrausbildung hat der Fahrer einmal im Jahr an einem Wiederholungs- und Vertiefungskurs teilzunehmen."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_DL dtd:DL-id55 ;
+    dtd:has_Value "a)Die eingesetzten Sonderschutzfahrzeuge müssen über eine europäische Typgenehmigung oder eine Einzelgenehmigung gemäß Artikel 24 der Richtlinie 2007/46/EG verfügen.b)Die Fahrzeuge müssen die Anforderungen an Bremssysteme nach Anhang I Nummer 2.2.1 der Richtlinie 71/320/EWG des Rates vom 21. Juli 1971 zur Angleichung der Rechtsvorschriften der Mitgliedstaaten über die Bremsanlagen bestimmter Klassen von Fahrzeugen und deren Anhängern (ABl. L 202 vom 6.9.1971, S. 37) erfüllen.c)Die Abmessungen der Fahrzeuge sollen denen eines Personenkraftwagens der Klasse M1, AA Limousine im Sinne von Anhang II Teil C Ziffer 1 der Richtlinie 2007/46/EG bei der Breite, Länge und Wendekreis entsprechen.d)Die Sichtverhältnisse der eingesetzten Sonderschutzfahrzeuge müssen denen eines Personenkraftwagens der Klasse M1, AA Limousine im Sinne von Anhang II Teil C der Richtlinie 2007/46/EG entsprechen."@de .
+
+dtd:Title-id72 a dtd:Title ;
+    dtd:has_Align dtd:auto ;
+    dtd:has_Class "S1"@de ;
+    dtd:has_Value "1. Anforderungen an die Fahrer"@de .
+
+dtd:Title-id73 a dtd:Title ;
+    dtd:has_Align dtd:auto ;
+    dtd:has_Class "S1"@de ;
+    dtd:has_Value "2. Anforderungen an die zusätzliche Fahrausbildung"@de .
+
+dtd:Title-id74 a dtd:Title ;
+    dtd:has_Align dtd:auto ;
+    dtd:has_Class "S1"@de ;
+    dtd:has_Value "3. Anforderungen an die Fahrzeuge"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2011-12-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id90 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id91 .
+
+dtd:fussnoten-id31 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id75 .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "FeV2010AusnV 2"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "FeV2010AusnV 2"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "FeV2010AusnV 2"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "FeV2010AusnV 2"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "FeV2010AusnV 2"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value "Zweite Verordnung über Ausnahmen von den Vorschriften der Fahrerlaubnis-Verordnung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:noindex-id45 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180524213049"@de ;
+    dtd:has_doknr "BJNR311300011"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180524213049"@de ;
+    dtd:has_doknr "BJNR311300011BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20180524213049"@de ;
+    dtd:has_doknr "BJNR311300011BJNE000201116"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20180524213050"@de ;
+    dtd:has_doknr "BJNR311300011BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20180524213050"@de ;
+    dtd:has_doknr "BJNR311300011BJNE000401305"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id90 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id88 a dtd:pre ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40 ;
+    dtd:has_Value "(+++ Textnachweis ab: 31.12.2011 +++)"@de .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id93 ;
+    dtd:has_standtyp dtd:standtyp-id92 .
+
+dtd:standkommentar-id93 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 11 G v. 1.6.2017 I 1354"@de .
+
+dtd:standtyp-id92 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "(zu § 1)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id91 a dtd:zitstelle ;
+    dtd:has_Value "2011, 3113"@de .
+
+dtd:alpha rdfs:label "alpha"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:auto rdfs:label "auto"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

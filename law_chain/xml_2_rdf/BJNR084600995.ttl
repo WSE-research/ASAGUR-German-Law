@@ -1,0 +1,660 @@
+@prefix dtd: <urn:SchuV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id15,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id157 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id104 a dtd:BR .
+
+dtd:BR-id105 a dtd:BR .
+
+dtd:BR-id106 a dtd:BR .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121,
+        dtd:P-id122,
+        dtd:P-id123,
+        dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133,
+        dtd:P-id134,
+        dtd:P-id135,
+        dtd:P-id136,
+        dtd:P-id137,
+        dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142,
+        dtd:P-id143,
+        dtd:P-id144,
+        dtd:P-id145 .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_P dtd:P-id147 .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DL-id107 a dtd:DL ;
+    dtd:has_DD dtd:DD-id110,
+        dtd:DD-id111 ;
+    dtd:has_DT dtd:DT-id108,
+        dtd:DT-id109 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Kreditinstitut und die Nummer eines Depots oder"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Nummer seines bereits bestehenden Einzelschuldbuchkontos im Bundesschuldbuch"@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.6.1995 +++)"@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 9 Abs. 8 des Entschädigungsgesetzes vom 27. September 1994 (BGBl. I S. 2624) verordnet das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(1) Für die Schuldverschreibungen wird eine Sammelschuldbuchforderung für die Deutscher Kassenverein AG mit der Maßgabe der Verfügung durch die Deutsche Bundesbank in das Bundesschuldbuch eingetragen. Die Eintragungen werden in Teilbeträgen vorgenommen."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(2) Der Nennwert der Schuldverschreibungen beträgt 1.000 Deutsche Mark oder ein ganzes Vielfaches davon. Der Nennwert der Schuldverschreibungen, die ab 1. Januar 1999 zugeteilt werden, beträgt 100 Euro oder ein ganzes Vielfaches davon."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(2a) Der bei der Erfüllung eines Entschädigungsanspruchs durch Zuteilung einer auf Euro lautenden Schuldverschreibung verbleibende Restbetrag wird durch Barzahlung aus dem Entschädigungsfonds erfüllt. Bis zum 31. Dezember 2001 geschieht dies in Deutscher Mark nach entsprechender Rückumrechnung des auf Euro lautenden Restbetrages."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(3) Die Schuldverschreibungen haben beginnend am 1. Januar 1995 eine längste Laufzeit von 13 Jahren. Sie sind somit spätestens am 1. Januar 2008 fällig. Sie werden vom Jahr 2004 an in fünf gleichen Jahresraten durch Auslosung zum Nennwert getilgt, erstmals zum 1. Januar 2004. Eine vorzeitige Kündigung ist ausgeschlossen."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(4) Vor Beginn der Tilgung werden die Schuldverschreibungen in fünf gleich große Gruppen aufgeteilt. Die ersten vier Tilgungsraten werden jeweils drei Monate vor dem Tilgungstermin von der das Bundesschuldbuch führenden Stelle durch Auslosung einer Gruppe ermittelt."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(5) Die Schuldverschreibungen werden bis 31. Dezember 2003 nicht verzinst. Ab 1. Januar 2004 werden sie mit sechs Prozent verzinst. Die Zinsen sind jährlich nachträglich fällig, erstmals am 1. Januar 2005. Die Verzinsung endet mit dem Ablauf des dem Fälligkeitstag vorhergehenden Tages; das gilt auch dann, wenn die Leistung nach § 193 Bürgerliches Gesetzbuch bewirkt wird."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(6) Sämtliche Zahlungen werden durch die das Bundesschuldbuch führende Stelle veranlaßt. Die fälligen Zinsen und Rückzahlungsbeträge werden bei Sammelbestandsanteilen durch das depotführende Kreditinstitut gutgeschrieben. Bei Einzelschuldbuchforderungen erfolgt die Überweisung auf Veranlassung der das Bundesschuldbuch führenden Stelle."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "Der Entschädigungsfonds sorgt für die Marktpflege. Hierzu können in Höhe bis zu zehn Prozent der umlaufenden Schuldtitel Schuldverschreibungen angekauft werden. Die Mittel für die Marktpflege stellt der Entschädigungsfonds zur Verfügung. Sie sind in dessen jährlichem Wirtschaftsplan zu berücksichtigen. Eine Kreditaufnahme ist nicht zulässig."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(1) Nach § 1 Abs. 1 Satz 2 des Entschädigungsgesetzes wird ein in einem bestandskräftigen Bescheid festgestellter Entschädigungs- oder Ausgleichsleistungsanspruch durch Zuteilung von Schuldverschreibungen des Entschädigungsfonds erfüllt. Diese werden für den Berechtigten nach seiner Wahl in einem Depot eines von ihm zu benennenden Kreditinstitutes oder als Einzelschuldbuchforderung im Bundesschuldbuch verwaltet. Haben sich die Gesellschafter eines als Berechtigten festgestellten Unternehmens i.L. einvernehmlich auseinandergesetzt, kann die Zuteilung von Schuldverschreibungen unmittelbar an die Gesellschafter erfolgen, ohne dass eine nochmalige Abrundung stattfindet. Entsprechendes gilt für Erbengemeinschaften."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_DL dtd:DL-id107 ;
+    dtd:has_Value "(2) Die bescheidende Stelle weist den Berechtigten auf die in Absatz 1 Satz 2 genannten Verwaltungsarten hin. Der Berechtigte bestimmt die Art der Verwaltung, indem er entweder 1.das Kreditinstitut und die Nummer eines Depots oder 2.die Nummer seines bereits bestehenden Einzelschuldbuchkontos im Bundesschuldbuch der bescheidenden Stelle mitteilt oder dieser erklärt, daß er die Neueröffnung eines Einzelschuldbuchkontos im Bundesschuldbuch wünscht."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(3) Die bescheidende Stelle fertigt eine Anordnung aus, bestätigt deren sachliche und rechnerische Richtigkeit und leitet sie mit den Angaben zur gewählten Verwaltungsart an das Bundesamt für zentrale Dienste und offene Vermögensfragen (nachfolgend Bundesamt genannt) weiter. Diese Daten werden im beleglosen Verfahren übermittelt, sobald über Form und Inhalt des Datensatzes sowie über die Form der Feststellungen der sachlichen und rechnerischen Richtigkeit und der Unterschrift des Anordnungsbefugten eine Vereinbarung mit Zustimmung des Bundesministeriums der Finanzen und des Bundesrechnungshofes getroffen ist. Der Datensatz hat nach Inhalt und Form einem maschinenlesbaren Formblatt (Anlage) zu entsprechen und den Bestimmungen über den Einsatz von automatisierten Verfahren im Haushalts-, Kassen- und Rechnungswesen (Anlage zur Vorläufigen Verwaltungsvorschrift Nr. 2.6 zu § 34 BHO) zu genügen. Bis zur Installierung des beleglosen Verfahrens erfolgt die Datenübermittlung durch Übersendung des maschinenlesbaren Formblattes. Das Verfahren sowie der Inhalt des Formblattes können nur im Einvernehmen mit den neuen Bundesländern und Berlin geändert werden."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(4) Das Bundesamt sendet denjenigen Berechtigten, die die Neueröffnung eines Einzelschuldbuchkontos im Bundesschuldbuch wünschen, einen Kontoeröffnungsantrag zu. Die Berechtigten leiten die Kontoeröffnungsanträge ausgefüllt und mit ihrer bestätigten Unterschrift versehen der das Bundesschuldbuch führenden Stelle zu. Sie können ihre Unterschrift auf dem Kontoeröffnungsantrag von jeder dienstsiegelführenden Stelle beglaubigen lassen."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(5) Das Bundesamt weist im Auftrag der Deutschen Bundesbank die Deutscher Kassenverein AG an, dem Berechtigten die ihm zustehende Schuldverschreibung zuzuteilen. Diese unterrichtet die Deutsche Bundesbank und das Bundesamt von der erfolgten Zuteilung. Das Bundesamt unterrichtet hiervon die bescheidende Stelle."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(6) Die Zuteilung an den im Formblatt (Datensatz) genannten Berechtigten erfolgt unbeschadet bereits getroffener Verfügungen über den Entschädigungsanspruch und hat befreiende Wirkung."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "Die Schuldverschreibungen sind handelbare Wertrechte."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "(1) Die das Bundesschuldbuch führende Stelle führt Einzelschuldbuchkonten für natürliche Personen (ein oder höchstens zwei Kontoinhaber), für juristische Personen und für Handelsgesellschaften."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(2) Die das Bundesschuldbuch führende Stelle benachrichtigt den Berechtigten (Kontoinhaber) und das Bundesamt über die Kontoeröffnung unter Angabe der Kontonummer."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "(3) Die Eintragung und Verwaltung der Einzelschuldbuchforderung sowie die Überweisung von Zins und Tilgung sind gebührenfrei. Der Berechtigte erhält jährlich einen Kontoauszug."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "(4) Die Einzelschuldbuchforderungen können verkauft werden, sobald die Schuldverschreibungen in den Handel an den deutschen Wertpapierbörsen eingeführt worden sind. Der Inhaber richtet seinen Verkaufsauftrag an die das Bundesschuldbuch führende Stelle. Diese läßt den Verkaufsauftrag durch die Deutsche Bundesbank nach deren Allgemeinen Geschäftsbedingungen einschließlich Gebührentabelle ausführen."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "Die Verwaltung und der Verkauf von Schuldverschreibungen durch Kreditinstitute richtet sich nach deren Bedingungen."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "Die zur Durchführung dieser Verordnung erforderlichen Angaben der Berechtigten dürfen nur zu Zwecken der Erfüllung von Entschädigungs- und Ausgleichsleistungsansprüchen verarbeitet und genutzt werden."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id157 ;
+    dtd:has_BR dtd:BR-id104 ;
+    dtd:has_Value " (Inhalt: Nicht darstellbares, maschinenlesbares Formblatt, Fundstelle: BGBl. I 1995, S. 848 - 851; bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_kommentar dtd:kommentar-id156 .
+
+dtd:amtabk-id45 a dtd:amtabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id46 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1995-06-21"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id64 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id67 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id73 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id76 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id79 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id82 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id84 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id47 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id164 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id165 .
+
+dtd:fussnoten-id103 a dtd:fussnoten .
+
+dtd:fussnoten-id86 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id114 .
+
+dtd:fussnoten-id90 a dtd:fussnoten .
+
+dtd:fussnoten-id94 a dtd:fussnoten .
+
+dtd:fussnoten-id97 a dtd:fussnoten .
+
+dtd:gliederungsbez-id159 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 1"@de .
+
+dtd:gliederungsbez-id162 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 2"@de .
+
+dtd:gliederungseinheit-id54 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id159 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id158 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id160 .
+
+dtd:gliederungseinheit-id62 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id162 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id161 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id163 .
+
+dtd:gliederungskennzahl-id158 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id161 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungstitel-id160 a dtd:gliederungstitel ;
+    dtd:has_Value "Begebung"@de .
+
+dtd:gliederungstitel-id163 a dtd:gliederungstitel ;
+    dtd:has_Value "Zuteilung und Verwaltung"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id66 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id72 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id75 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id78 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id81 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:jurabk-id83 a dtd:jurabk ;
+    dtd:has_Value "SchuV"@de .
+
+dtd:kommentar-id156 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id105,
+        dtd:BR-id106 ;
+    dtd:has_Value "(Inhalt: Nicht darstellbares, maschinenlesbares Formblatt, Fundstelle: BGBl. I 1995, S. 848 - 851; bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id48 a dtd:kurzue ;
+    dtd:has_Value "Schuldverschreibungsverordnung"@de .
+
+dtd:langue-id49 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Erfüllung von Entschädigungs- und
+Ausgleichsleistungsansprüchen durch Begebung und Zuteilung von
+Schuldverschreibungen des Entschädigungsfonds"""@de .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id45 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id46 ;
+    dtd:has_fundstelle dtd:fundstelle-id47 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_kurzue dtd:kurzue-id48 ;
+    dtd:has_langue dtd:langue-id49 ;
+    dtd:has_standangabe dtd:standangabe-id50 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id64 ;
+    dtd:has_jurabk dtd:jurabk-id63 ;
+    dtd:has_titel dtd:titel-id65 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id67 ;
+    dtd:has_jurabk dtd:jurabk-id66 ;
+    dtd:has_titel dtd:titel-id68 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_jurabk dtd:jurabk-id69 ;
+    dtd:has_titel dtd:titel-id71 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id73 ;
+    dtd:has_jurabk dtd:jurabk-id72 ;
+    dtd:has_titel dtd:titel-id74 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id76 ;
+    dtd:has_jurabk dtd:jurabk-id75 ;
+    dtd:has_titel dtd:titel-id77 .
+
+dtd:metadaten-id38 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id79 ;
+    dtd:has_jurabk dtd:jurabk-id78 ;
+    dtd:has_titel dtd:titel-id80 .
+
+dtd:metadaten-id40 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id82 ;
+    dtd:has_jurabk dtd:jurabk-id81 .
+
+dtd:metadaten-id42 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id84 ;
+    dtd:has_jurabk dtd:jurabk-id83 ;
+    dtd:has_titel dtd:titel-id85 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE000801301"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE000900305"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE001000305"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE001100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id38 ;
+    dtd:has_textdaten dtd:textdaten-id39 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE001200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id40 ;
+    dtd:has_textdaten dtd:textdaten-id41 .
+
+dtd:norm-id15 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE001301307"@de ;
+    dtd:has_metadaten dtd:metadaten-id42 ;
+    dtd:has_textdaten dtd:textdaten-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNG000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE000402301"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE000500305"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNG000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE000603301"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405130803"@de ;
+    dtd:has_doknr "BJNR084600995BJNE000700305"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:periodikum-id164 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id50 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id167 ;
+    dtd:has_standtyp dtd:standtyp-id166 .
+
+dtd:standkommentar-id167 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 Abs. 15 G v. 12.7.2006 I 1466"@de .
+
+dtd:standtyp-id166 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id100 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id101 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id102 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id146 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id99 a dtd:text ;
+    dtd:has_Content dtd:Content-id148 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id90 ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id94 ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id97 ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_text dtd:text-id99 .
+
+dtd:textdaten-id39 a dtd:textdaten ;
+    dtd:has_text dtd:text-id100 .
+
+dtd:textdaten-id41 a dtd:textdaten ;
+    dtd:has_text dtd:text-id101 .
+
+dtd:textdaten-id43 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id103 ;
+    dtd:has_text dtd:text-id102 .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value """Begebung, Nennwert, Laufzeit, Tilgung und Verzinsung
+der Schuldverschreibungen"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Marktpflege"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id65 a dtd:titel ;
+    dtd:has_Value "Zuteilung der Schuldverschreibungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id68 a dtd:titel ;
+    dtd:has_Value "Handelbarkeit"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id71 a dtd:titel ;
+    dtd:has_Value "Verwaltung der Einzelschuldbuchkonten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id74 a dtd:titel ;
+    dtd:has_Value "Verwaltung durch Kreditinstitute"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id77 a dtd:titel ;
+    dtd:has_Value "Datenschutz"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id80 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id85 a dtd:titel ;
+    dtd:has_Value "(zu § 3 Abs. 3)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id165 a dtd:zitstelle ;
+    dtd:has_Value "1995, 846"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

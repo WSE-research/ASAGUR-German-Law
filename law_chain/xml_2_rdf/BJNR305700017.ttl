@@ -1,0 +1,588 @@
+@prefix dtd: <urn:BMIWidVertrAnO-2017#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170807221050"@de ;
+    dtd:has_doknr "BJNR305700017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131,
+        dtd:P-id132,
+        dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137 .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139,
+        dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DL-id62 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103,
+        dtd:DD-id104,
+        dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89,
+        dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93,
+        dtd:DD-id94,
+        dtd:DD-id95,
+        dtd:DD-id96,
+        dtd:DD-id97,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id63,
+        dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66,
+        dtd:DT-id67,
+        dtd:DT-id68,
+        dtd:DT-id69,
+        dtd:DT-id70,
+        dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74,
+        dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "9."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "10."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "11."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "12."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "13."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "14."@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "15."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "16."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "17."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "18."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "19."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "20."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "21."@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Value "dem Bundesamt für Migration und Flüchtlinge,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Value "dem Bundesamt für Verfassungsschutz,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Value "dem Bundeskriminalamt,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "dem Bundespolizeipräsidium,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Value "dem Bundesverwaltungsamt,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Value "dem Statistischen Bundesamt,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Value "dem Bundesamt für Sicherheit in der Informationstechnik,"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Value "dem Bundesamt für Bevölkerungsschutz und Katastrophenhilfe,"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Value "dem Bundesamt für zentrale Dienste und offene Vermögensfragen,"@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Value "der Bundesanstalt Technisches Hilfswerk,"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Value "dem Bundesausgleichsamt,"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Value "den Bundespolizeidirektionen,"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Value "der Bundeszentrale für politische Bildung,"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Value "dem Bundesamt für Kartographie und Geodäsie,"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Value "der Bundesanstalt für den Digitalfunk der Behörden und Organisationen mit Sicherheitsaufgaben,"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Value "der Hochschule des Bundes für öffentliche Verwaltung,"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Value "der Zentralen Stelle für Informationstechnik im Sicherheitsbereich,"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Value "der Bundespolizeiakademie,"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Value "dem Beschaffungsamt des Bundesministeriums des Innern,"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Value "dem Bundesinstitut für Bevölkerungsforschung,"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Value "dem Bundesinstitut für Sportwissenschaft,"@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_BR dtd:BR-id58 ;
+    dtd:has_Value " (+++ Textnachweis ab: 4.8.2017 +++)"@de ;
+    dtd:has_pre dtd:pre-id143 .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "Nach § 126 Absatz 3 Satz 2 und § 127 Absatz 3 Satz 1 des Bundesbeamtengesetzes vom 5. Februar 2009 (BGBl. I S. 160) wird angeordnet:"@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_DL dtd:DL-id62 ;
+    dtd:has_Value "(1) Die Zuständigkeit für den Erlass des Widerspruchsbescheids wird übertragen 1.dem Bundesamt für Migration und Flüchtlinge,2.dem Bundesamt für Verfassungsschutz,3.dem Bundeskriminalamt,4.dem Bundespolizeipräsidium,5.dem Bundesverwaltungsamt,6.dem Statistischen Bundesamt,7.dem Bundesamt für Sicherheit in der Informationstechnik,8.dem Bundesamt für Bevölkerungsschutz und Katastrophenhilfe,9.dem Bundesamt für zentrale Dienste und offene Vermögensfragen,10.der Bundesanstalt Technisches Hilfswerk,11.dem Bundesausgleichsamt,12.den Bundespolizeidirektionen,13.der Bundeszentrale für politische Bildung,14.dem Bundesamt für Kartographie und Geodäsie,15.der Bundesanstalt für den Digitalfunk der Behörden und Organisationen mit Sicherheitsaufgaben,16.der Hochschule des Bundes für öffentliche Verwaltung,17.der Zentralen Stelle für Informationstechnik im Sicherheitsbereich,18.der Bundespolizeiakademie,19.dem Beschaffungsamt des Bundesministeriums des Innern,20.dem Bundesinstitut für Bevölkerungsforschung,21.dem Bundesinstitut für Sportwissenschaft,soweit diese oder ihnen nachgeordnete Behörden die Maßnahme getroffen oder abgelehnt haben."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(2) Ist die Behördenleiterin oder der Behördenleiter selbst betroffen, erlässt das Bundesministerium des Innern den Widerspruchsbescheid."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(3) Richtet sich der Widerspruch gegen eine dienstliche Beurteilung, entscheiden die genannten Behörden nur dann, wenn ihnen durch die Anordnung über die Ernennung und Entlassung von Beamtinnen und Beamten im Geschäftsbereich des Bundesministeriums des Innern vom 25. Mai 2017 (GMBl S. 366) in der jeweils geltenden Fassung die Befugnis zur Ernennung und Entlassung übertragen worden ist."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "Die Vertretung der Bundesrepublik Deutschland bei Klagen aus dem Beamtenverhältnis wird den in § 1 genannten Behörden übertragen, soweit sie nach § 1 für den Erlass des Widerspruchsbescheids zuständig sind."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium des Innern kann im Einzelfall die Zuständigkeit nach § 1 und die Vertretung nach § 2 abweichend von dieser Anordnung regeln oder selbst übernehmen."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "(1) Diese Anordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "(2) Gleichzeitig tritt die Anordnung zur Übertragung von Zuständigkeiten für den Erlass von Widerspruchsbescheiden und für die Vertretung der Bundesrepublik Deutschland bei Klagen aus dem Beamtenverhältnis im Geschäftsbereich des Bundesministeriums des Innern vom 27. Dezember 2016 (BGBl. I S. 3453) außer Kraft."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_SP dtd:SP-id61 ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:SP-id61 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "BMIWidVertrAnO"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-07-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id144 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id145 .
+
+dtd:fussnoten-id51 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id126 .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO 2017"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO 2017"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO 2017"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO 2017"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO 2017"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO 2017"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO 2017"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "BMIWidVertrAnO"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_Value "Anordnung zur Übertragung von Zuständigkeiten für den Erlass von Widerspruchsbescheiden und für die Vertretung der Bundesrepublik Deutschland bei Klagen aus dem Beamtenverhältnis im Geschäftsbereich des Bundesministeriums des Innern"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29,
+        dtd:jurabk-id30 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id32,
+        dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id36,
+        dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id40,
+        dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id44,
+        dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id48,
+        dtd:jurabk-id49 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id27 ;
+    dtd:has_standangabe dtd:standangabe-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170807221050"@de ;
+    dtd:has_doknr "BJNR305700017"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170807221050"@de ;
+    dtd:has_doknr "BJNR305700017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170807221050"@de ;
+    dtd:has_doknr "BJNR305700017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20170807221050"@de ;
+    dtd:has_doknr "BJNR305700017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20170807221050"@de ;
+    dtd:has_doknr "BJNR305700017BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20170807221050"@de ;
+    dtd:has_doknr "BJNR305700017BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20170807221050"@de ;
+    dtd:has_doknr "BJNR305700017BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id144 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id143 a dtd:pre ;
+    dtd:has_BR dtd:BR-id59,
+        dtd:BR-id60 ;
+    dtd:has_Value "(+++ Textnachweis ab: 4.8.2017 +++)"@de .
+
+dtd:standangabe-id28 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id147 ;
+    dtd:has_standtyp dtd:standtyp-id146 .
+
+dtd:standkommentar-id147 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt AnO 2030-14-215 v. 27.12.2016 I 3453 (BMIWidVertrAnO)"@de .
+
+dtd:standtyp-id146 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id138 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Widerspruchsbescheid"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Vertretung bei Klagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Vorbehaltsklausel"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id145 a dtd:zitstelle ;
+    dtd:has_Value "2017, 3057"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,697 @@
+@prefix dtd: <urn:WoFlV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132314"@de ;
+    dtd:has_doknr "BJNR234610003"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:Content-id142 a dtd:Content ;
+    dtd:has_P dtd:P-id143 .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145 .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_P dtd:P-id147,
+        dtd:P-id148 .
+
+dtd:Content-id149 a dtd:Content ;
+    dtd:has_P dtd:P-id150,
+        dtd:P-id151,
+        dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154,
+        dtd:P-id155,
+        dtd:P-id156,
+        dtd:P-id157 .
+
+dtd:Content-id158 a dtd:Content ;
+    dtd:has_P dtd:P-id159,
+        dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DL-id100 a dtd:DL ;
+    dtd:has_DD dtd:DD-id103,
+        dtd:DD-id104 ;
+    dtd:has_DT dtd:DT-id101,
+        dtd:DT-id102 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id110,
+        dtd:DD-id111,
+        dtd:DD-id112,
+        dtd:DD-id113 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107,
+        dtd:DT-id108,
+        dtd:DT-id109 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id51 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54,
+        dtd:DD-id55 ;
+    dtd:has_DT dtd:DT-id52,
+        dtd:DT-id53 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id71,
+        dtd:DD-id72,
+        dtd:DD-id73,
+        dtd:DD-id74,
+        dtd:DD-id75,
+        dtd:DD-id76,
+        dtd:DD-id77 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66,
+        dtd:DT-id67,
+        dtd:DT-id68,
+        dtd:DT-id69,
+        dtd:DT-id70 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89,
+        dtd:DD-id90 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id91 a dtd:DL ;
+    dtd:has_DD dtd:DD-id96,
+        dtd:DD-id97,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id92,
+        dtd:DT-id93,
+        dtd:DT-id94,
+        dtd:DT-id95 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "f)"@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "g)"@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Wintergärten, Schwimmbädern und ähnlichen nach allen Seiten geschlossenen Räumen sowie"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Balkonen, Loggien, Dachgärten und Terrassen,"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zubehörräume, insbesondere:a)Kellerräume, b)Abstellräume und Kellerersatzräume außerhalb der Wohnung, c)Waschküchen, d)Bodenräume, e)Trockenräume, f)Heizungsräume und g)Garagen, "@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kellerräume,"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abstellräume und Kellerersatzräume außerhalb der Wohnung,"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Waschküchen,"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bodenräume,"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Trockenräume,"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Heizungsräume und"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Garagen,"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Räume, die nicht den an ihre Nutzung zu stellenden Anforderungen des Bauordnungsrechts der Länder genügen, sowie"@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Geschäftsräume."@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Tür- und Fensterbekleidungen sowie Tür- und Fensterumrahmungen,"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Fuß-, Sockel- und Schrammleisten,"@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "fest eingebauten Gegenständen, wie z. B. Öfen, Heiz- und Klimageräten, Herden, Bade- oder Duschwannen,"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "freiliegenden Installationen,"@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Einbaumöbeln und"@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nicht ortsgebundenen, versetzbaren Raumteilern."@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Schornsteinen, Vormauerungen, Bekleidungen, freistehenden Pfeilern und Säulen, wenn sie eine Höhe von mehr als 1,50 Meter aufweisen und ihre Grundfläche mehr als 0,1 Quadratmeter beträgt,"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Treppen mit über drei Steigungen und deren Treppenabsätze,"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Türnischen und"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Fenster- und offenen Wandnischen, die nicht bis zum Fußboden herunterreichen oder bis zum Fußboden herunterreichen und 0,13 Meter oder weniger tief sind."@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für ein Genehmigungs-, Anzeige-, Genehmigungsfreistellungs- oder ähnliches Verfahren nach dem Bauordnungsrecht der Länder gefertigt oder, wenn ein bauordnungsrechtliches Verfahren nicht erforderlich ist, für ein solches geeignet sein und"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Ermittlung der lichten Maße zwischen den Bauteilen im Sinne des Absatzes 1 ermöglichen."@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Räumen und Raumteilen mit einer lichten Höhe von mindestens zwei Metern sind vollständig,"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Räumen und Raumteilen mit einer lichten Höhe von mindestens einem Meter und weniger als zwei Metern sind zur Hälfte,"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von unbeheizbaren Wintergärten, Schwimmbädern und ähnlichen nach allen Seiten geschlossenen Räumen sind zur Hälfte,"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Balkonen, Loggien, Dachgärten und Terrassen sind in der Regel zu einem Viertel, höchstens jedoch zur Hälfte"@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 1.2004 +++)Die V wurde als Artikel 1 d. V v. 25.11.2003 I 2346 von der Bundesregierung und dem Bundesministerium für Familie, Senioren, Frauen und Jugend im Einvernehmen mit dem Bundesministerium für Wirtschaft und Arbeit, dem Bundesministerium für Verkehr, Bau- und Wohnungswesen und dem Bundesministerium für Gesundheit und Soziale Sicherung mit Zustimmung des Bundesrates verordnet. Sie ist gem. Art. 6 der V mWv 1.1.2004 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id163 .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(1) Wird nach dem Wohnraumförderungsgesetz die Wohnfläche berechnet, sind die Vorschriften dieser Verordnung anzuwenden."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "(2) Zur Berechnung der Wohnfläche sind die nach § 2 zur Wohnfläche gehörenden Grundflächen nach § 3 zu ermitteln und nach § 4 auf die Wohnfläche anzurechnen."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(1) Die Wohnfläche einer Wohnung umfasst die Grundflächen der Räume, die ausschließlich zu dieser Wohnung gehören. Die Wohnfläche eines Wohnheims umfasst die Grundflächen der Räume, die zur alleinigen und gemeinschaftlichen Nutzung durch die Bewohner bestimmt sind."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_DL dtd:DL-id51 ;
+    dtd:has_Value "(2) Zur Wohnfläche gehören auch die Grundflächen von 1.Wintergärten, Schwimmbädern und ähnlichen nach allen Seiten geschlossenen Räumen sowie 2.Balkonen, Loggien, Dachgärten und Terrassen, wenn sie ausschließlich zu der Wohnung oder dem Wohnheim gehören."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Value "(3) Zur Wohnfläche gehören nicht die Grundflächen folgender Räume: 1.Zubehörräume, insbesondere:a)Kellerräume, b)Abstellräume und Kellerersatzräume außerhalb der Wohnung, c)Waschküchen, d)Bodenräume, e)Trockenräume, f)Heizungsräume und g)Garagen,  2.Räume, die nicht den an ihre Nutzung zu stellenden Anforderungen des Bauordnungsrechts der Länder genügen, sowie 3.Geschäftsräume. "@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(1) Die Grundfläche ist nach den lichten Maßen zwischen den Bauteilen zu ermitteln; dabei ist von der Vorderkante der Bekleidung der Bauteile auszugehen. Bei fehlenden begrenzenden Bauteilen ist der bauliche Abschluss zu Grunde zu legen."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(2) Bei der Ermittlung der Grundfläche sind namentlich einzubeziehen die Grundflächen von 1.Tür- und Fensterbekleidungen sowie Tür- und Fensterumrahmungen, 2.Fuß-, Sockel- und Schrammleisten, 3.fest eingebauten Gegenständen, wie z. B. Öfen, Heiz- und Klimageräten, Herden, Bade- oder Duschwannen, 4.freiliegenden Installationen, 5.Einbaumöbeln und 6.nicht ortsgebundenen, versetzbaren Raumteilern.  "@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_DL dtd:DL-id91 ;
+    dtd:has_Value "(3) Bei der Ermittlung der Grundflächen bleiben außer Betracht die Grundflächen von 1.Schornsteinen, Vormauerungen, Bekleidungen, freistehenden Pfeilern und Säulen, wenn sie eine Höhe von mehr als 1,50 Meter aufweisen und ihre Grundfläche mehr als 0,1 Quadratmeter beträgt, 2.Treppen mit über drei Steigungen und deren Treppenabsätze, 3.Türnischen und 4.Fenster- und offenen Wandnischen, die nicht bis zum Fußboden herunterreichen oder bis zum Fußboden herunterreichen und 0,13 Meter oder weniger tief sind.  "@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_DL dtd:DL-id100 ;
+    dtd:has_Value "(4) Die Grundfläche ist durch Ausmessung im fertig gestellten Wohnraum oder auf Grund einer Bauzeichnung zu ermitteln. Wird die Grundfläche auf Grund einer Bauzeichnung ermittelt, muss diese 1.für ein Genehmigungs-, Anzeige-, Genehmigungsfreistellungs- oder ähnliches Verfahren nach dem Bauordnungsrecht der Länder gefertigt oder, wenn ein bauordnungsrechtliches Verfahren nicht erforderlich ist, für ein solches geeignet sein und 2.die Ermittlung der lichten Maße zwischen den Bauteilen im Sinne des Absatzes 1 ermöglichen. Ist die Grundfläche nach einer Bauzeichnung ermittelt worden und ist abweichend von dieser Bauzeichnung gebaut worden, ist die Grundfläche durch Ausmessung im fertig gestellten Wohnraum oder auf Grund einer berichtigten Bauzeichnung neu zu ermitteln."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "Die Grundflächen 1.von Räumen und Raumteilen mit einer lichten Höhe von mindestens zwei Metern sind vollständig, 2.von Räumen und Raumteilen mit einer lichten Höhe von mindestens einem Meter und weniger als zwei Metern sind zur Hälfte, 3.von unbeheizbaren Wintergärten, Schwimmbädern und ähnlichen nach allen Seiten geschlossenen Räumen sind zur Hälfte, 4.von Balkonen, Loggien, Dachgärten und Terrassen sind in der Regel zu einem Viertel, höchstens jedoch zur Hälfte  "@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "anzurechnen."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "Ist die Wohnfläche bis zum 31. Dezember 2003 nach der Zweiten Berechnungsverordnung in der Fassung der Bekanntmachung vom 12. Oktober 1990 (BGBl. I S. 2178), zuletzt geändert durch Artikel 3 der Verordnung vom 25. November 2003 (BGBl. I S. 2346), in der jeweils geltenden Fassung berechnet worden, bleibt es bei dieser Berechnung. Soweit in den in Satz 1 genannten Fällen nach dem 31. Dezember 2003 bauliche Änderungen an dem Wohnraum vorgenommen werden, die eine Neuberechnung der Wohnfläche erforderlich machen, sind die Vorschriften dieser Verordnung anzuwenden."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "WoFlV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2003-11-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id164 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id165 .
+
+dtd:fussnoten-id42 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id144 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "WoFlV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "WoFlV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "WoFlV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "WoFlV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "WoFlV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "WoFlV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Wohnflächenverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Berechnung der Wohnfläche"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132314"@de ;
+    dtd:has_doknr "BJNR234610003"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132314"@de ;
+    dtd:has_doknr "BJNR234610003BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132314"@de ;
+    dtd:has_doknr "BJNR234610003BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132314"@de ;
+    dtd:has_doknr "BJNR234610003BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132314"@de ;
+    dtd:has_doknr "BJNR234610003BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405132314"@de ;
+    dtd:has_doknr "BJNR234610003BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id164 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id163 a dtd:pre ;
+    dtd:has_BR dtd:BR-id49,
+        dtd:BR-id50 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.2004 +++)"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id142 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id146 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id149 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id158 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id42 ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich, Berechnung der Wohnfläche"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Zur Wohnfläche gehörende Grundflächen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Ermittlung der Grundfläche"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Anrechnung der Grundflächen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Überleitungsvorschrift"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id165 a dtd:zitstelle ;
+    dtd:has_Value "2003, 2346"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

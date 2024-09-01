@@ -1,0 +1,188 @@
+@prefix dtd: <urn:TeleFinV-2024#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231211213506"@de ;
+    dtd:has_doknr "BJNR15B0A0023"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab: 12.12.2023 +++)"@de ;
+    dtd:has_pre dtd:pre-id43 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 316 Absatz 1 Satz 2 des Fünften Buches Sozialgesetzbuch, der durch Artikel 1 Nummer 31 des Gesetzes vom 14. Oktober 2020 (BGBl. I S. 2115) eingefügt worden ist, verordnet das Bundesministerium für Gesundheit:"@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Der Spitzenverband Bund der Krankenkassen zahlt an die Gesellschaft für Telematik zu deren Finanzierung für den Zeitraum vom 1. Januar 2024 bis zum 31. Dezember 2024 zusätzlich zu dem in § 316 Absatz 1 Satz 1 des Fünften Buches Sozialgesetzbuch festgelegten Betrag von 1,50 Euro je Mitglied der gesetzlichen Krankenversicherung einen Betrag in Höhe von 0,17 Euro je Mitglied der gesetzlichen Krankenversicherung."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Sie tritt am 31. Dezember 2024 außer Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "TeleFinV 2024"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2023-12-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id44 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id45 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id35 .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "TeleFinV 2024"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "TeleFinV 2024"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "TeleFinV 2024"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "TeleFinV 2024"@de .
+
+dtd:langue-id18 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Anpassung des Betrags zur Finanzierung der Gesellschaft für Telematik für das Jahr 2024"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id18 ;
+    dtd:has_standangabe dtd:standangabe-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231211213506"@de ;
+    dtd:has_doknr "BJNR15B0A0023"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231211213506"@de ;
+    dtd:has_doknr "BJNR15B0A0023BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231211213506"@de ;
+    dtd:has_doknr "BJNR15B0A0023BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231211213506"@de ;
+    dtd:has_doknr "BJNR15B0A0023BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id44 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id43 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.12.2023 +++)"@de .
+
+dtd:standangabe-id19 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id47 ;
+    dtd:has_standtyp dtd:standtyp-id46 .
+
+dtd:standkommentar-id47 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt gem. § 2 Satz 2 am 31.12.2024 außer Kraft"@de .
+
+dtd:standtyp-id46 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Anpassung des Betrags zur Finanzierung der Gesellschaft für Telematik"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id45 a dtd:zitstelle ;
+    dtd:has_Value "2023, Nr. 347"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

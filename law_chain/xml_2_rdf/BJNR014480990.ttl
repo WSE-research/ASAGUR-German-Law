@@ -1,0 +1,329 @@
+@prefix dtd: <urn:DBUStiftG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160808220022"@de ;
+    dtd:has_doknr "BJNR014480990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68,
+        dtd:P-id69,
+        dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DL-id48 a dtd:DL ;
+    dtd:has_DD dtd:DD-id53,
+        dtd:DD-id54,
+        dtd:DD-id55,
+        dtd:DD-id56 ;
+    dtd:has_DT dtd:DT-id49,
+        dtd:DT-id50,
+        dtd:DT-id51,
+        dtd:DT-id52 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Forschung, Entwicklung und Innovation im Bereich umwelt- und gesundheitsfreundlicher Verfahren und Produkte unter besonderer Berücksichtigung kleiner und mittlerer Unternehmen;"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Austausch von Wissen über die Umwelt zwischen Wissenschaft, Wirtschaft und anderen öffentlichen oder privaten Stellen; Vorhaben zur Vermittlung von Wissen über die Umwelt;"@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "innerdeutsche Kooperationsprojekte in der Anwendung von Umwelttechnik vorwiegend durch mittelständische Unternehmen einschließlich Aus- und Weiterbildungsmaßnahmen;"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bewahrung und Sicherung nationalen Kulturgutes im Hinblick auf schädliche Umwelteinflüsse (Modellvorhaben)."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 28. 7.1990 +++)"@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "Der Bund wird unter dem Namen \"Deutsche Bundesstiftung Umwelt\" eine rechtsfähige Stiftung des bürgerlichen Rechts errichten."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(1) Aufgabe der Stiftung soll es sein, Vorhaben zum Schutz der Umwelt unter besonderer Berücksichtigung der mittelständischen Wirtschaft zu fördern. Die Stiftung soll in der Regel außerhalb der staatlichen Programme tätig werden; sie kann diese ergänzen."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_DL dtd:DL-id48 ;
+    dtd:has_Value "(2) Zur Erfüllung ihrer Aufgabe soll die Stiftung insbesondere fördern: -Forschung, Entwicklung und Innovation im Bereich umwelt- und gesundheitsfreundlicher Verfahren und Produkte unter besonderer Berücksichtigung kleiner und mittlerer Unternehmen;-Austausch von Wissen über die Umwelt zwischen Wissenschaft, Wirtschaft und anderen öffentlichen oder privaten Stellen; Vorhaben zur Vermittlung von Wissen über die Umwelt;-innerdeutsche Kooperationsprojekte in der Anwendung von Umwelttechnik vorwiegend durch mittelständische Unternehmen einschließlich Aus- und Weiterbildungsmaßnahmen;-Bewahrung und Sicherung nationalen Kulturgutes im Hinblick auf schädliche Umwelteinflüsse (Modellvorhaben)."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(3) Die Stiftung soll jährlich einen Umweltpreis vergeben."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "Die Haushalts- und Wirtschaftsführung der Stiftung unterliegt der Prüfung durch den Bundesrechnungshof."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes auch im Land Berlin."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-07-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id77 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id78 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id63 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "DBUStiftG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "DBUStiftG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "DBUStiftG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "DBUStiftG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "DBUStiftG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "DBUStiftG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Errichtung einer Stiftung \"Deutsche Bundesstiftung Umwelt\""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160808220022"@de ;
+    dtd:has_doknr "BJNR014480990"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160808220022"@de ;
+    dtd:has_doknr "BJNR014480990BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160808220022"@de ;
+    dtd:has_doknr "BJNR014480990BJNE000201116"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160808220022"@de ;
+    dtd:has_doknr "BJNR014480990BJNE000300328"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20160808220022"@de ;
+    dtd:has_doknr "BJNR014480990BJNE000400328"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20160808220022"@de ;
+    dtd:has_doknr "BJNR014480990BJNE000500328"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id77 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id80 ;
+    dtd:has_standtyp dtd:standtyp-id79 .
+
+dtd:standkommentar-id80 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 G v. 31.7.2016 I 1914"@de .
+
+dtd:standtyp-id79 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Errichtung und Rechtsform"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Aufgabe"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Rechnungsprüfung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id78 a dtd:zitstelle ;
+    dtd:has_Value "1990, 1448"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

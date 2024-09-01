@@ -1,0 +1,637 @@
+@prefix dtd: <urn:EntschRG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104,
+        dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109,
+        dtd:P-id110,
+        dtd:P-id111,
+        dtd:P-id112,
+        dtd:P-id113,
+        dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116,
+        dtd:P-id117,
+        dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122,
+        dtd:P-id123,
+        dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128,
+        dtd:P-id129,
+        dtd:P-id130,
+        dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135,
+        dtd:P-id136,
+        dtd:P-id137,
+        dtd:P-id138 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DL-id86 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92 ;
+    dtd:has_DT dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id96,
+        dtd:DD-id97 ;
+    dtd:has_DT dtd:DT-id94,
+        dtd:DT-id95 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vor dem 1. März 1990 als Verfolgte anerkannt worden sind und die Nichtbewilligung oder der Entzug einer Ehrenpension oder die Aberkennung der Eigenschaft als Verfolgte mit rechtsstaatlichen Grundsätzen oder mit den Regelungen des Einigungsvertrages unvereinbar ist (Artikel 19 Satz 2 des Einigungsvertrages)"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Haft in einem Konzentrationslager im Sinne des § 42 Abs. 2 BEG während mindestens sechs Monaten oder"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Freiheitsentziehung in einer anderen Haftstätte oder bei entschädigungsfähigen Freiheitsbeschränkungen im Sinne des § 47 BEG während mindestens 12 Monaten."@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in der Zeit vom 1. März 1990 bis zum 2. Oktober 1990 einschließlich als Verfolgte nach den in § 2 der Anordnung über Ehrenpensionen genannten Vorschriften anerkannt worden sind,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Voraussetzungen für die Anerkennung der Eigenschaft als Verfolgte erfüllt haben und die Ablehnung der Anerkennung mit rechtsstaatlichen Grundsätzen oder mit den Regelungen des Einigungsvertrages unvereinbar ist (Artikel 19 Satz 2 des Einigungsvertrages) oder"@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.5.1992 +++)"@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_BR dtd:BR-id66 ;
+    dtd:has_Value " Das Gesetz wurde als Artikel 1 G v. 22.4.1992 I 906 vom Bundestag mit Zustimmung des Bundesrates beschlossen und gem. Art. 3 dieses G mWv 1.5.1992 in Kraft getreten."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "Die Ehrenpensionen und Hinterbliebenenpensionen aufgrund der Anordnung über Ehrenpensionen für Kämpfer gegen den Faschismus und für Verfolgte des Faschismus sowie für deren Hinterbliebene vom 20. September 1976, die nach Anlage II Kapitel VIII Sachgebiet H Abschnitt III Nr. 5 des Einigungsvertrages vom 31. August 1990 in Verbindung mit Artikel 1 des Gesetzes vom 23. September 1990 (BGBl. 1990 II S. 885, 1214) mit Maßgaben fortgilt, werden nach den folgenden Vorschriften als Entschädigungsrenten weitergezahlt."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(1) Personen, die bis zum 30. April 1992 eine Ehrenpension bezogen haben, erhalten eine Entschädigungsrente in Höhe von 717,50 Euro monatlich."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_BR dtd:BR-id67 ;
+    dtd:has_Value """(2) Empfänger von Hinterbliebenenpensionen und Hinterbliebene von Empfängern einer Entschädigungsrente nach Absatz 1 erhalten eine Entschädigungsrente in folgender Höhe: 
+	
+		
+		
+		
+		
+			
+				1.
+				arbeitsunfähige Witwen (Witwer)
+				410 Euro monatlich,
+			
+			
+				2.
+				Vollwaisen
+				256,25 Euro monatlich,
+			
+			
+				3.
+				Halbwaisen
+				153,75 Euro monatlich.
+			
+		
+	
+ """@de ;
+    dtd:has_table dtd:table-id68 .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(3) Die Entschädigungsrenten nach Absatz 1 und 2 werden um den Vomhundertsatz erhöht, um den die Mindestrenten nach § 32 des Bundesentschädigungsgesetzes in Anlehnung an die Erhöhung der Dienst- und Versorgungsbezüge der Bundesbeamten durch Rechtsverordnung jeweils angehoben werden. Die Erhöhung erfolgt erstmals, wenn und soweit eine im Mai 1992 unterstellte Rentenleistung in Höhe von monatlich 512,50 Euro bei Anpassung nach Satz 1 den Betrag von monatlich 717,50 Euro übersteigt."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(4) Soweit nach § 4 der Anordnung über Ehrenpensionen bei einem Körperschaden von mindestens 20 vom Hundert eine Teilpension in Höhe des festgestellten prozentualen Körperschadens gewährt wurde, wird die Teilrente von dem in Absatz 1 bestimmten Betrag abgeleitet. Bei Erreichen des Pensionsalters oder bei Eintritt von Invalidität nach dem 30. April 1992 wird eine Entschädigungsrente nach Absatz 1 gewährt."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(5) Für jedes anspruchsberechtigte Kind wird ein Kinderzuschlag in Höhe von monatlich 102,50 Euro geleistet."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(6) Entschädigungsrente für Witwen und Witwer wird geleistet, wenn die Ehe vor dem 1. Januar 1951 geschlossen wurde. Dies gilt auch, wenn eine Eheschließung vor dem 1. Januar 1951 wegen fehlender amtlicher Dokumente oder aus anderen wichtigen Gründen nicht möglich war oder eine eheähnliche Gemeinschaft bestand und die Ehe erst nach diesem Zeitpunkt geschlossen wurde. Bei einer Rückkehr aus einer Emigration oder bei Entlassung aus einer Internierung, Haft oder Kriegsgefangenschaft nach dem 31. Dezember 1945 tritt an die Stelle des 1. Januar 1951 der Ablauf von fünf Jahren nach der Rückkehr oder Entlassung."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_DL dtd:DL-id86 ;
+    dtd:has_Value "(1) Personen, die die Voraussetzungen für den Bezug einer Entschädigungsrente nur deshalb nicht erfüllen, weil sie eine Ehrenpension oder Hinterbliebenenpension am 30. April 1992 nicht bezogen haben, erhalten auf Antrag frühestens ab 3. Oktober 1990 eine Entschädigungsrente, wenn sie a)in der Zeit vom 1. März 1990 bis zum 2. Oktober 1990 einschließlich als Verfolgte nach den in § 2 der Anordnung über Ehrenpensionen genannten Vorschriften anerkannt worden sind,b)die Voraussetzungen für die Anerkennung der Eigenschaft als Verfolgte erfüllt haben und die Ablehnung der Anerkennung mit rechtsstaatlichen Grundsätzen oder mit den Regelungen des Einigungsvertrages unvereinbar ist (Artikel 19 Satz 2 des Einigungsvertrages) oderc)vor dem 1. März 1990 als Verfolgte anerkannt worden sind und die Nichtbewilligung oder der Entzug einer Ehrenpension oder die Aberkennung der Eigenschaft als Verfolgte mit rechtsstaatlichen Grundsätzen oder mit den Regelungen des Einigungsvertrages unvereinbar ist (Artikel 19 Satz 2 des Einigungsvertrages)und zu keiner Zeit Gründe für eine Aberkennung der Eigenschaft als Verfolgte vorgelegen haben."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(2) Eine Entschädigungsrente nach Absatz 1 wird nicht geleistet, wenn für die Sachverhalte, die zur Anerkennung als Verfolgter geführt haben oder hätten führen können, Entschädigung oder Wiedergutmachung nach anderen Vorschriften, insbesondere des Bundesentschädigungsgesetzes, gewährt wird oder gewährt worden ist."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(3) Über die Bewilligung einer Entschädigungsrente nach Absatz 1 entscheidet das Bundesamt für Soziale Sicherung. Soweit es erforderlich ist, kann das Bundesamt für Soziale Sicherung bei öffentlichen Stellen Auskünfte einholen und Akten einsehen. Für die Übermittlung personenbezogener Daten und die Akteneinsicht gelten die für die übermittelnde oder Einsicht gewährende Stelle jeweils maßgebenden Regelungen. Auf Antrag des Betroffenen hat das Bundesamt für Soziale Sicherung eine von dem Betroffenen benannte Verfolgtenorganisation zu hören."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Entschädigungsrenten und Leistungen aufgrund der nach § 8 zu erlassenden Richtlinien bleiben als Einkommen bei Sozialleistungen, deren Gewährung von anderen Einkommen abhängig ist, unberücksichtigt. Bei Inanspruchnahme von Leistungen nach dem Zwölften Buch Sozialgesetzbuch werden Entschädigungsrenten und Leistungen aufgrund der nach § 8 zu erlassenden Richtlinien zur Hälfte angerechnet."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(1) Entschädigungsrenten sind nicht zu bewilligen, zu kürzen oder abzuerkennen, wenn der Berechtigte oder derjenige, von dem sich die Berechtigung ableitet, gegen die Grundsätze der Menschlichkeit oder der Rechtsstaatlichkeit verstoßen oder in schwerwiegendem Maße seine Stellung zum eigenen Vorteil oder zum Nachteil anderer mißbraucht hat."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(2) Über die Kürzung oder Aberkennung einer Entschädigungsrente entscheidet das Bundesamt für Soziale Sicherung."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(3) Für das Verfahren nach Absatz 1 gelten die Vorschriften des Versorgungsruhensgesetzes entsprechend; insbesondere finden auf die vorläufige Aberkennung von Entschädigungsrenten die Vorschriften über ein vorläufiges Ruhen der Versorgung nach § 4 Abs. 4 des Versorgungsruhensgesetzes entsprechende Anwendung. Auf Antrag des Betroffenen hat das Bundesamt für Soziale Sicherung eine von ihm benannte Verfolgtenorganisation zu hören."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(4) Liegen Anhaltspunkte für einen Sachverhalt im Sinne des Absatzes 1 vor, hat die Deutsche Rentenversicherung Bund den Vorgang dem Bundesamt für Soziale Sicherung vorzulegen. Die Vorlage an das Bundesamt für Soziale Sicherung ist dem Berechtigten mitzuteilen."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(5) Das Bundesamt für Soziale Sicherung kann Sachverhalte im Sinne des Absatzes 1 auch von sich aus aufgreifen. In solchen Fällen teilt es dies der Deutschen Rentenversicherung Bund und dem Berechtigten mit."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(1) Die Deutsche Rentenversicherung Bund ist für die Erfüllung der Aufgaben nach diesem Gesetz zuständig, soweit nicht die Zuständigkeit des Bundesamtes für Soziale Sicherung gegeben ist. Die Zuständigkeit der Deutschen Rentenversicherung Bund erstreckt sich auch auf die bisher nicht von der Überleitungsanstalt Sozialversicherung ausgezahlten Ehrenpensionen."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(2) Die Stellen, die Ehrenpensionen auszahlen, haben der Deutschen Rentenversicherung Bund die für die Gewährung der Entschädigungsrenten erforderlichen Daten und Unterlagen, soweit möglich auf maschinell verwertbaren Datenträgern, zu übermitteln."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(3) Das Erste und Zehnte Buch Sozialgesetzbuch gelten entsprechend. Die Festsetzung einer Entschädigungsrente nach § 2 Abs. 1, 2 und 5, die Neubewilligung einer Entschädigungsrente nach § 3 sowie die Entscheidung nach § 5 erfolgt durch schriftlichen Bescheid. Bei der Festsetzung einer Entschädigungsrente nach § 2 Abs. 1, 2 und 5 ist die Anhörung eines Beteiligten vor Erlaß des Bescheides nicht erforderlich."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(4) Über Streitigkeiten aufgrund dieses Gesetzes entscheiden die Gerichte der Sozialgerichtsbarkeit; es sind die für die Rentenversicherung geltenden Vorschriften anzuwenden. Bei einer Entscheidung nach § 5 gilt § 2 Absatz 2 des Versorgungsruhensgesetzes entsprechend."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Value "(1) Die Bundesregierung erläßt Richtlinien für die Entschädigung von Personen, die Verfolgte im Sinne des § 1 des Bundesentschädigungsgesetzes (BEG) sind, keinen Anspruch auf Entschädigungsrente nach diesem Gesetz haben und die wegen ihres Wohnsitzes im Beitrittsgebiet keine Wiedergutmachungsleistungen nach dem Bundesentschädigungsgesetz oder anderen vergleichbaren Regelungen erhalten konnten. Laufende Leistungen sind vorzusehen 1.bei Haft in einem Konzentrationslager im Sinne des § 42 Abs. 2 BEG während mindestens sechs Monaten oder 2.bei Freiheitsentziehung in einer anderen Haftstätte oder bei entschädigungsfähigen Freiheitsbeschränkungen im Sinne des § 47 BEG während mindestens 12 Monaten. Leistungen sind auch vorzusehen bei Vorliegen außergewöhnlicher Umstände; hierbei sind insbesondere die Art und Schwere der Verfolgung sowie die Stärke und Dauer ihrer Auswirkungen zu berücksichtigen."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(2) Für die Anspruchsberechtigung von Witwen und Witwern von Verfolgten im Sinne des § 1 BEG gilt § 2 Abs. 6 entsprechend."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(3) Die Leistungen werden in gleicher Höhe wie Entschädigungsrenten gewährt und dynamisiert. Sie werden mit Wirkung vom 3. Oktober 1990 gewährt."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(4) Die Leistungen sind nicht zu gewähren oder sind zu entziehen, wenn die Voraussetzungen des § 5 Abs. 1 vorliegen."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1992-04-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id70 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "5*"@de .
+
+dtd:colspec-id71 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id72 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "arbeitsunfähige Witwen (Witwer)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "410 Euro monatlich,"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Vollwaisen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "256,25 Euro monatlich,"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Halbwaisen"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "153,75 Euro monatlich."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id139 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id140 .
+
+dtd:fussnoten-id51 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id103 .
+
+dtd:fussnoten-id54 a dtd:fussnoten .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "EntschRG"@de .
+
+dtd:langue-id32 a dtd:langue ;
+    dtd:has_Value "Entschädigungsrentengesetz"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_langue dtd:langue-id32 ;
+    dtd:has_standangabe dtd:standangabe-id33 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992BJNE000800314"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992BJNE000201320"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992BJNE000302116"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992BJNE000401310"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992BJNE000503116"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992BJNE000603116"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20230103213506"@de ;
+    dtd:has_doknr "BJNR109060992BJNE000702310"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id139 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id77,
+        dtd:entry-id78,
+        dtd:entry-id79 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id80,
+        dtd:entry-id81,
+        dtd:entry-id82 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84,
+        dtd:entry-id85 .
+
+dtd:standangabe-id33 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id142 ;
+    dtd:has_standtyp dtd:standtyp-id141 .
+
+dtd:standkommentar-id142 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 24 G v. 20.12.2022 I 2759"@de .
+
+dtd:standtyp-id141 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id68 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id69 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id73 a dtd:tbody ;
+    dtd:has_row dtd:row-id74,
+        dtd:row-id75,
+        dtd:row-id76 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id115 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:tgroup-id69 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id70,
+        dtd:colspec-id71,
+        dtd:colspec-id72 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id73 .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id140 a dtd:zitstelle ;
+    dtd:has_Value "1992, 906"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

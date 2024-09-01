@@ -1,0 +1,633 @@
+@prefix dtd: <urn:StrafAktEinV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id97 a dtd:BR .
+
+dtd:BR-id98 a dtd:BR .
+
+dtd:BR-id99 a dtd:BR .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132,
+        dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135,
+        dtd:P-id136,
+        dtd:P-id137,
+        dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140 .
+
+dtd:Content-id141 a dtd:Content ;
+    dtd:has_P dtd:P-id142 .
+
+dtd:Content-id143 a dtd:Content ;
+    dtd:has_P dtd:P-id144 .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146,
+        dtd:P-id147 .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151,
+        dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DL-id100 a dtd:DL ;
+    dtd:has_DD dtd:DD-id103,
+        dtd:DD-id104 ;
+    dtd:has_DT dtd:DT-id101,
+        dtd:DT-id102 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id110,
+        dtd:DD-id111,
+        dtd:DD-id112,
+        dtd:DD-id113 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107,
+        dtd:DT-id108,
+        dtd:DT-id109 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id114 a dtd:DL ;
+    dtd:has_DD dtd:DD-id117,
+        dtd:DD-id118 ;
+    dtd:has_DT dtd:DT-id115,
+        dtd:DT-id116 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Value "Bußgeldakten der Behörden und Gerichte im Bußgeldverfahren (§ 110c Satz 1 des Gesetzes über Ordnungswidrigkeiten);"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Value "Gerichtsakten der Behörden und Gerichte in gerichtlichen Verfahren nach dem Strafvollzugsgesetz (§ 120 Absatz 1 Satz 2 des Strafvollzugsgesetzes)."@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Value "sämtliche Inhalte, die im Rahmen der Akteneinsicht überlassen werden, weder ganz noch teilweise öffentlich verbreitet oder Dritten zu verfahrensfremden Zwecken übermittelt oder zugänglich gemacht werden dürfen;"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Value "personenbezogene Daten nur zu dem Zweck, für den die Akteneinsicht gewährt wird, verwendet werden dürfen, es sei denn, dass für den Zweck, zu dem die Person, der Akteneinsicht gewährt wird, die Daten verwenden will, ebenfalls Auskunft oder Akteneinsicht gewährt werden dürfte;"@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Value "die Offenbarung oder Veröffentlichung von Akteninhalten nach den §§ 94 bis 97, 203, 353d des Strafgesetzbuches oder § 42 des Bundesdatenschutzgesetzes strafbar sein kann;"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Value "der durch einen Abruf gespeicherte Inhalt einschließlich der personenbezogenen Daten zu löschen ist, sobald der Zweck für seine Speicherung weggefallen ist und seine weitere Aufbewahrung und Verarbeitung nicht nach anderen Vorschriften gestattet ist."@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Definitions- oder Schemadateien, die bei der Übermittlung eines strukturierten maschinenlesbaren Datensatzes im Format XML genutzt werden sollen;"@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die nach § 6 Absatz 1 zulässigen physischen Datenträger."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_BR dtd:BR-id97 ;
+    dtd:has_Value " (+++ Textnachweis ab: 6.3.2020 +++)"@de ;
+    dtd:has_pre dtd:pre-id157 .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 32f Absatz 6 Satz 1 der Strafprozessordnung, der durch Artikel 1 Nummer 2 des Gesetzes vom 5. Juli 2017 (BGBl. I S. 2208) eingefügt worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung ist anzuwenden auf die Einsicht in elektronisch geführte Strafverfahrensakten der Staatsanwaltschaften, der Gerichte und der Finanzbehörden in Ermittlungsverfahren nach § 386 Absatz 2 der Abgabenordnung und § 14a des Schwarzarbeitsbekämpfungsgesetzes."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_DL dtd:DL-id100 ;
+    dtd:has_Value "(2) Diese Verordnung gilt entsprechend für die Einsicht in elektronisch geführte 1.Bußgeldakten der Behörden und Gerichte im Bußgeldverfahren (§ 110c Satz 1 des Gesetzes über Ordnungswidrigkeiten);2.Gerichtsakten der Behörden und Gerichte in gerichtlichen Verfahren nach dem Strafvollzugsgesetz (§ 120 Absatz 1 Satz 2 des Strafvollzugsgesetzes)."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(1) Für die Einsicht in elektronische Akten wird ihr Inhalt, soweit Einsicht gewährt werden soll, in Form des Repräsentats zum Abruf bereitgestellt. Auf dem Repräsentat ist der Name der Person, der Akteneinsicht gewährt wird, dauerhaft erkennbar anzubringen. Dem Repräsentat soll ein strukturierter maschinenlesbarer Datensatz beigefügt werden, der den nach § 8 Nummer 1 bekanntgemachten Definitions- oder Schemadateien entspricht."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(2) Die Bereitstellung erfolgt für 30 Tage. Die Person, der Akteneinsicht gewährt wird, ist auf die Bereitstellung, das Datum des Stands der elektronischen Akte sowie auf das Datum, an dem die Bereitstellung endet, hinzuweisen."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(3) Der Abruf ist über das Internet möglich. Die Internetseite wird in geeigneter Weise bekanntgemacht. Der Abruf darf nur erfolgen, wenn sich die Person, der Akteneinsicht gewährt wird, hinreichend sicher authentisiert hat. Der abzurufende Inhalt ist nach dem Stand der Technik verschlüsselt zu übertragen. Er soll auf dem System der Person, der Akteneinsicht gewährt wird, gespeichert werden können."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(4) Bei der Einrichtung der Internetseite für ein Akteneinsichtsportal sollen die Anforderungen an die Barrierefreiheit im Sinne der Barrierefreie-Informationstechnik-Verordnung vom 12. September 2011 (BGBl. I S. 1843), die zuletzt durch Artikel 1 der Verordnung vom 21. Mai 2019 (BGBl. I S. 738) geändert worden ist, in der jeweils geltenden Fassung beachtet werden."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_Value "Einsicht in den Inhalt der elektronischen Akte kann, soweit Einsicht gewährt werden soll, auch durch Übermittlung des Repräsentats auf einem sicheren Übermittlungsweg nach § 32a Absatz 4 der Strafprozessordnung gewährt werden, wenn die Person, der Akteneinsicht gewährt werden soll, über einen entsprechenden Zugang verfügt. § 2 Absatz 1 Satz 2 und 3 gilt entsprechend. Die Person, der Akteneinsicht gewährt wird, ist auf das Datum des Stands der elektronischen Akte hinzuweisen."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "Bei der Einsichtnahme in die elektronische Akte in Diensträumen ist sicherzustellen, dass der Akteninhalt nicht von unbefugten Personen wahrgenommen und nicht verändert werden kann."@de .
+
+dtd:P-id144 a dtd:P ;
+    dtd:has_Value "Das Ausdrucken einer elektronischen Akte zum Zwecke der Akteneinsicht erfolgt durch das Ausdrucken des Repräsentats."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_Value "(1) Das Speichern des Inhalts einer elektronischen Akte auf einem physischen Datenträger zum Zwecke der Akteneinsicht erfolgt durch das Speichern ihres Repräsentats auf einem nach § 8 Nummer 2 zulässigen physischen Datenträger."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(2) Die Daten sind nach dem Stand der Technik zu verschlüsseln. Das für die Entschlüsselung erforderliche Kennwort darf nicht zusammen mit dem Datenträger übermittelt werden. § 2 Absatz 1 Satz 2 und 3 gilt entsprechend. Die Person, der Akteneinsicht gewährt wird, ist auf das Datum des Stands der elektronischen Akte hinzuweisen."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "Die Person, der Akteneinsicht gewährt wird, ist darüber zu belehren, dass 1.sämtliche Inhalte, die im Rahmen der Akteneinsicht überlassen werden, weder ganz noch teilweise öffentlich verbreitet oder Dritten zu verfahrensfremden Zwecken übermittelt oder zugänglich gemacht werden dürfen;2.personenbezogene Daten nur zu dem Zweck, für den die Akteneinsicht gewährt wird, verwendet werden dürfen, es sei denn, dass für den Zweck, zu dem die Person, der Akteneinsicht gewährt wird, die Daten verwenden will, ebenfalls Auskunft oder Akteneinsicht gewährt werden dürfte;3.die Offenbarung oder Veröffentlichung von Akteninhalten nach den §§ 94 bis 97, 203, 353d des Strafgesetzbuches oder § 42 des Bundesdatenschutzgesetzes strafbar sein kann;4.der durch einen Abruf gespeicherte Inhalt einschließlich der personenbezogenen Daten zu löschen ist, sobald der Zweck für seine Speicherung weggefallen ist und seine weitere Aufbewahrung und Verarbeitung nicht nach anderen Vorschriften gestattet ist."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_DL dtd:DL-id114 ;
+    dtd:has_Value "(1) Die Bundesregierung macht folgende technische Anforderungen im Bundesanzeiger und auf der Internetseite www.justiz.de bekannt: 1.die Definitions- oder Schemadateien, die bei der Übermittlung eines strukturierten maschinenlesbaren Datensatzes im Format XML genutzt werden sollen;2.die nach § 6 Absatz 1 zulässigen physischen Datenträger."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(2) Die technischen Anforderungen können mit einer Mindestgültigkeitsdauer und einem Ablaufdatum versehen werden."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id39 a dtd:amtabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id40 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-02-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id41 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id158 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id159 .
+
+dtd:fussnoten-id76 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id127 .
+
+dtd:fussnoten-id80 a dtd:fussnoten .
+
+dtd:fussnoten-id82 a dtd:fussnoten .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:fussnoten-id86 a dtd:fussnoten .
+
+dtd:fussnoten-id88 a dtd:fussnoten .
+
+dtd:fussnoten-id90 a dtd:fussnoten .
+
+dtd:fussnoten-id92 a dtd:fussnoten .
+
+dtd:fussnoten-id94 a dtd:fussnoten .
+
+dtd:fussnoten-id96 a dtd:fussnoten .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "StrafAktEinV"@de .
+
+dtd:kurzue-id42 a dtd:kurzue ;
+    dtd:has_Value "Strafakteneinsichtsverordnung"@de .
+
+dtd:langue-id43 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Standards für die Einsicht in elektronische Akten im Strafverfahren"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id39 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id40 ;
+    dtd:has_fundstelle dtd:fundstelle-id41 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_kurzue dtd:kurzue-id42 ;
+    dtd:has_langue dtd:langue-id43 ;
+    dtd:has_standangabe dtd:standangabe-id44 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000701125"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000801125"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000901125"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE001001125"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000301125"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE001100125"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000401125"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000501125"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20210902213516"@de ;
+    dtd:has_doknr "BJNR024200020BJNE000601125"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id158 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id157 a dtd:pre ;
+    dtd:has_BR dtd:BR-id98,
+        dtd:BR-id99 ;
+    dtd:has_Value "(+++ Textnachweis ab: 6.3.2020 +++)"@de .
+
+dtd:standangabe-id44 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id161 ;
+    dtd:has_standtyp dtd:standtyp-id160 .
+
+dtd:standkommentar-id161 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 11 G v. 25.6.2021 I 2099"@de .
+
+dtd:standtyp-id160 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id141 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id143 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id145 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id148 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id80 ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id90 ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id92 ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id94 ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id96 ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Bereitstellen des Inhalts zum Abruf"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Übermittlung des Inhalts auf einem sicheren Übermittlungsweg"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Einsichtnahme in Diensträumen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Ausdruck"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Datenträger"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Belehrung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Bekanntmachung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id159 a dtd:zitstelle ;
+    dtd:has_Value "2020, 242"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

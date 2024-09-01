@@ -1,0 +1,779 @@
+@prefix dtd: <urn:RegMoG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231106213534"@de ;
+    dtd:has_doknr "BJNR059100021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155 .
+
+dtd:Content-id156 a dtd:Content ;
+    dtd:has_P dtd:P-id157 .
+
+dtd:Content-id158 a dtd:Content ;
+    dtd:has_TOC dtd:TOC-id153 .
+
+dtd:Content-id159 a dtd:Content .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161 .
+
+dtd:Content-id162 a dtd:Content ;
+    dtd:has_P dtd:P-id163 .
+
+dtd:Content-id164 a dtd:Content ;
+    dtd:has_P dtd:P-id165 .
+
+dtd:DD-id147 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id148 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id149 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DL-id143 a dtd:DL ;
+    dtd:has_DD dtd:DD-id147,
+        dtd:DD-id148,
+        dtd:DD-id149 ;
+    dtd:has_DT dtd:DT-id144,
+        dtd:DT-id145,
+        dtd:DT-id146 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id144 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id145 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id146 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_Value "Personenstandsregister"@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Value "Melderegister"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Value "personenbezogene Datenbestände der Elterngeldstellen zu Leistungsempfängern nach § 12 des Bundeselterngeld- und Elternzeitgesetzes."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_BR dtd:BR-id57 ;
+    dtd:has_Value " (+++ Textnachweis ab: 7.4.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id166 .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_DL dtd:DL-id143 ;
+    dtd:has_Value "Bis zum Inkrafttreten der Artikel 1, 3 Nummer 1 Buchstabe a, von Artikel 4 Nummer 1 Buchstabe a, Nummer 4 und 5 und von Artikel 5 Nummer 3 und 4 darf die Identifikationsnummer nach § 139b der Abgabenordnung zur Pilotierung des Datenschutzcockpits regional begrenzt als zusätzliches Ordnungsmerkmal von den jeweils zuständigen Behörden in folgenden Registern gespeichert werden: 1.Personenstandsregister2.Melderegister3.personenbezogene Datenbestände der Elterngeldstellen zu Leistungsempfängern nach § 12 des Bundeselterngeld- und Elternzeitgesetzes.Die bei der Bewilligung von Elterngeld sowie bei der Anzeige der Geburt und Namensbestimmung jeweils beteiligten Behörden dürfen die Identifikationsnummer nach § 139b der Abgabenordnung in Verfahren zur Bewilligung von Elterngeld sowie zur Anzeige der Geburt und Namensbestimmung verarbeiten. Bis zum Inkrafttreten von Artikel 1 § 3 dürfen die Meldebehörden die Identifikationsnummer nach § 139b der Abgabenordnung an die bei der Bewilligung von Elterngeld sowie bei der Anzeige der Geburt und Namensbestimmung beteiligten Behörden auf deren Ersuchen übermitteln. Die Datenübermittlungen zwischen den an der Bewilligung von Elterngeld sowie der Anzeige der Geburt und Namensbestimmung beteiligten Behörden unter Nutzung der Identifikationsnummer nach § 139b der Abgabenordnung werden protokolliert. Die Protokolldaten dürfen dem Datenschutzcockpit zum Zweck der Anzeige übermittelt werden. Die datenschutzrechtliche Verantwortung des einzelnen Abrufs der Identifikationsnummer bei den Meldebehörden trägt die jeweils abrufende Stelle."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "Artikel 1 § 12, Artikel 2 § 11, Artikel 5 Nummer 2, Artikel 7 Nummer 3, Artikel 8 Nummer 3, Artikel 19 Nummer 2 Buchstabe b und Artikel 21 treten am Tag nach der Verkündung in Kraft. Im Übrigen treten die Artikel 1 und 2 an dem Tag in Kraft, an dem das Bundesministerium des Innern, für Bau und Heimat im Bundesgesetzblatt bekannt gibt, dass die technischen Voraussetzungen für den Betrieb nach dem Identifikationsnummerngesetz gegeben sind. Die Artikel 3, Artikel 4 Nummer 1 bis 4, Nummer 5 Buchstabe b, Nummer 6 und 7, Artikel 5 Nummer 1 sowie Artikel 6 bis 20 treten jeweils an dem Tag in Kraft, an dem das Bundesministerium des Innern, für Bau und Heimat im Bundesgesetzblatt jeweils bekannt gibt, dass die technischen Voraussetzungen für die Verarbeitung der Identifikationsnummer nach § 139b der Abgabenordnung nach den jeweils geänderten Gesetzen vorliegen. Artikel 4 Nummer 5 Buchstabe a tritt am 1. Mai 2021 in Kraft."@de .
+
+dtd:TOC-id153 a dtd:TOC ;
+    dtd:has_table dtd:table-id60 .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "RegMoG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-03-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id62 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "14*"@de .
+
+dtd:colspec-id63 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "56*"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Inhaltsübersicht"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 2 bis 20c"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "Art 21"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "Art 22"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Personenstandsgesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  6"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des AZR-Gesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  7"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Passgesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  8"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Personalausweisgesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  9"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des eID-Karte-Gesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 10"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Staatsangehörigkeitsgesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 11"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Fünften Buches Sozialgesetzbuch"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 12"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Sechsten Buches Sozialgesetzbuch"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 13"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Siebten Buches Sozialgesetzbuch"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 14"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Zehnten Buches Sozialgesetzbuch"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 15"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Elften Buches Sozialgesetzbuch"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 16"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Berufsbildungsgesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 17"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Gesetzes zur vorläufigen Regelung des Rechts der Industrie- und Handelskammern"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 18"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung der Handwerksordnung"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 19"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung der Personenstandsverordnung"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 20"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung der AZRG-Durchführungsverordnung"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 20a"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung der Aufenthaltsverordnung"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 20b"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Konsulargesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 20c"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Asylbewerberleistungsgesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 21"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Übergangsregelung zur Verwendung der Identifikationsnummer nach § 139b der Abgabenordnung für die Pilotierung des Datencockpits"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel 22"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  1"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gesetz zur Einführung und Verwendung einer Identifikationsnummer in der öffentlichen Verwaltung (Identifikationsnummerngesetz – IDNrG)"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  2"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Onlinezugangsgesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  3"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung der Abgabenordnung"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  4"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Änderung des Bundesmeldegesetzes"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Artikel  5"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id167 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id168 .
+
+dtd:fussnoten-id47 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id154 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "RegMoG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "RegMoG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "RegMoG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "RegMoG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "RegMoG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "RegMoG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "RegMoG"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Registermodernisierungsgesetz"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Einführung und Verwendung einer Identifikationsnummer in der öffentlichen Verwaltung und zur Änderung weiterer Gesetze"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29,
+        dtd:standangabe-id30 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231106213534"@de ;
+    dtd:has_doknr "BJNR059100021"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231106213534"@de ;
+    dtd:has_doknr "BJNR059100021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231106213534"@de ;
+    dtd:has_doknr "BJNR059100021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231106213534"@de ;
+    dtd:has_doknr "BJNR059100021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231106213534"@de ;
+    dtd:has_doknr "BJNR059100021BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231106213534"@de ;
+    dtd:has_doknr "BJNR059100021BJNE000501116"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231106213534"@de ;
+    dtd:has_doknr "BJNR059100021BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id167 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id166 a dtd:pre ;
+    dtd:has_BR dtd:BR-id58,
+        dtd:BR-id59 ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.4.2021 +++)"@de .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id91,
+        dtd:entry-id92 .
+
+dtd:row-id66 a dtd:row ;
+    dtd:has_entry dtd:entry-id93,
+        dtd:entry-id94 .
+
+dtd:row-id67 a dtd:row ;
+    dtd:has_entry dtd:entry-id95,
+        dtd:entry-id96 .
+
+dtd:row-id68 a dtd:row ;
+    dtd:has_entry dtd:entry-id97,
+        dtd:entry-id98 .
+
+dtd:row-id69 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id99 .
+
+dtd:row-id70 a dtd:row ;
+    dtd:has_entry dtd:entry-id101,
+        dtd:entry-id102 .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id103,
+        dtd:entry-id104 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id105,
+        dtd:entry-id106 .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id107,
+        dtd:entry-id108 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id109,
+        dtd:entry-id110 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id111,
+        dtd:entry-id112 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id113,
+        dtd:entry-id114 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id115,
+        dtd:entry-id116 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id117,
+        dtd:entry-id118 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id119,
+        dtd:entry-id120 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id121,
+        dtd:entry-id122 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id123,
+        dtd:entry-id124 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id125,
+        dtd:entry-id126 .
+
+dtd:row-id83 a dtd:row ;
+    dtd:has_entry dtd:entry-id127,
+        dtd:entry-id128 .
+
+dtd:row-id84 a dtd:row ;
+    dtd:has_entry dtd:entry-id129,
+        dtd:entry-id130 .
+
+dtd:row-id85 a dtd:row ;
+    dtd:has_entry dtd:entry-id131,
+        dtd:entry-id132 .
+
+dtd:row-id86 a dtd:row ;
+    dtd:has_entry dtd:entry-id133,
+        dtd:entry-id134 .
+
+dtd:row-id87 a dtd:row ;
+    dtd:has_entry dtd:entry-id135,
+        dtd:entry-id136 .
+
+dtd:row-id88 a dtd:row ;
+    dtd:has_entry dtd:entry-id137,
+        dtd:entry-id138 .
+
+dtd:row-id89 a dtd:row ;
+    dtd:has_entry dtd:entry-id139,
+        dtd:entry-id140 .
+
+dtd:row-id90 a dtd:row ;
+    dtd:has_entry dtd:entry-id141,
+        dtd:entry-id142 .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id170 ;
+    dtd:has_standtyp dtd:standtyp-id169 .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id172 ;
+    dtd:has_standtyp dtd:standtyp-id171 .
+
+dtd:standkommentar-id170 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 11 G v. 9.7.2021 I 2467"@de .
+
+dtd:standkommentar-id172 a dtd:standkommentar ;
+    dtd:has_Value "Bek. v 12.10.2023 I Nr 293 ist berücksichtigt"@de .
+
+dtd:standtyp-id169 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id171 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:table-id60 a dtd:table ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tgroup dtd:tgroup-id61 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id64 a dtd:tbody ;
+    dtd:has_row dtd:row-id65,
+        dtd:row-id66,
+        dtd:row-id67,
+        dtd:row-id68,
+        dtd:row-id69,
+        dtd:row-id70,
+        dtd:row-id71,
+        dtd:row-id72,
+        dtd:row-id73,
+        dtd:row-id74,
+        dtd:row-id75,
+        dtd:row-id76,
+        dtd:row-id77,
+        dtd:row-id78,
+        dtd:row-id79,
+        dtd:row-id80,
+        dtd:row-id81,
+        dtd:row-id82,
+        dtd:row-id83,
+        dtd:row-id84,
+        dtd:row-id85,
+        dtd:row-id86,
+        dtd:row-id87,
+        dtd:row-id88,
+        dtd:row-id89,
+        dtd:row-id90 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id156 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id158 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id162 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id164 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:tgroup-id61 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id62,
+        dtd:colspec-id63 ;
+    dtd:has_tbody dtd:tbody-id64 .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Gesetz zur Einführung und Verwendung einer Identifikationsnummer in der öffentlichen Verwaltung (Identifikationsnummerngesetz - IDNrG)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Änderungsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung zur Verwendung der Identifikationsnummer nach § 139b der Abgabenordnung für die Pilotierung des Datenschutzcockpits"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id168 a dtd:zitstelle ;
+    dtd:has_Value "2021, 591 (2023 I Nr. 230, Nr. 293)"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

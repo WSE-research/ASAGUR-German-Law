@@ -1,0 +1,528 @@
+@prefix dtd: <urn:ITSiV-PV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id129 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2022, 20)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104,
+        dtd:P-id105,
+        dtd:P-id106,
+        dtd:P-id107,
+        dtd:P-id108,
+        dtd:P-id109,
+        dtd:P-id110,
+        dtd:P-id111,
+        dtd:P-id112,
+        dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id97 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id100,
+        dtd:P-id101,
+        dtd:P-id102,
+        dtd:P-id99 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DL-id67 a dtd:DL ;
+    dtd:has_DD dtd:DD-id70,
+        dtd:DD-id71 ;
+    dtd:has_DT dtd:DT-id68,
+        dtd:DT-id69 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id72 a dtd:DL ;
+    dtd:has_DD dtd:DD-id75,
+        dtd:DD-id76 ;
+    dtd:has_DT dtd:DT-id73,
+        dtd:DT-id74 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id77 a dtd:DL ;
+    dtd:has_DD dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85 ;
+    dtd:has_DT dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Value "die von Bund und Ländern betriebenen informationstechnischen Systeme, die unmittelbar Daten mit dem Portalverbund austauschen, und"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Value "mittelbar an den Portalverbund angebundene informationstechnische Systeme öffentlicher Stellen, die sich für die Anbindung der Dienste der in Nummer 1 genannten Stellen bedienen."@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Value "kann bis zum 31. Dezember 2022 von den Vorgaben des § 2 Absatz 6 abgewichen werden,"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Value "kann in begründeten Fällen bis zu zwei Jahre nach Inkrafttreten dieser Verordnung von den Regelungen der in der Anlage zu dieser Verordnung genannten Technischen Richtlinien abgewichen werden."@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "BSI TR-03160 Servicekonten"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_NB dtd:NB-id65 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "BSI TR-03107-1 Elektronische Identitäten und Vertrauensdienste im E-Government Teil 1"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "BSI TR-03147 Vertrauensniveaubewertung von Verfahren zur Identitätsprüfung natürlicher Personen"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "BSI TR-03116-4 Kryptographische Vorgaben für Projekte der Bundesregierung Teil 4"@de .
+
+dtd:NB-id63 a dtd:NB ;
+    dtd:has_Value "ISO/IEC 27001"@de .
+
+dtd:NB-id64 a dtd:NB ;
+    dtd:has_Value "IT-Komponenten"@de .
+
+dtd:NB-id65 a dtd:NB ;
+    dtd:has_Value "E-Government"@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "(2) Soweit in dieser Verordnung Begriffe Verwendung finden, die in § 2 des BSI-Gesetzes definiert werden, finden die dortigen Begriffsbestimmungen auch für den Geltungsbereich dieser Verordnung Anwendung."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "(3) IT-Sicherheit der IT-Komponenten im Sinne dieser Verordnung bezeichnet die Einhaltung bestimmter Sicherheitsstandards, welche die Verfügbarkeit, Integrität oder Vertraulichkeit von Informationen sicherstellen, die durch IT-Komponenten im Portalverbund und in IT-Komponenten zur Anbindung an den Portalverbund verarbeitet werden."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_DL dtd:DL-id67 ;
+    dtd:has_Value "(4) IT-Komponenten zur Anbindung an den Portalverbund im Sinne dieser Verordnung sind 1.die von Bund und Ländern betriebenen informationstechnischen Systeme, die unmittelbar Daten mit dem Portalverbund austauschen, und2.mittelbar an den Portalverbund angebundene informationstechnische Systeme öffentlicher Stellen, die sich für die Anbindung der Dienste der in Nummer 1 genannten Stellen bedienen."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "(1) Für den Portalverbund und für IT-Komponenten nach § 1 Absatz 4 Nummer 1 sind zur Gewährleistung der IT-Sicherheit Maßnahmen nach dem Stand der Technik zu treffen."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(2) Die Einhaltung des Standes der Technik im Sinne von Absatz 1 wird vermutet, wenn die in der Anlage aufgeführten Standards in Form von Technischen Richtlinien des Bundesamtes für Sicherheit in der Informationstechnik in der jeweils geltenden Fassung eingehalten werden. Die jeweils geltende Fassung der Anlage wird im Bundesanzeiger durch Verweis auf die Internetseite des Bundesamtes für Sicherheit in der Informationstechnik bekanntgegeben. Bei Fortschreibung einer Technischen Richtlinie gilt die Vermutung nach Satz 1 für zwei Jahre ab Bekanntgabe der Fortschreibung im Bundesanzeiger fort, soweit durch das Bundesministerium des Innern und für Heimat keine andere Umsetzungsfrist vorgegeben wird."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(3) Weitere Technische Richtlinien sowie neuere Versionen von Technischen Richtlinien nach Absatz 2 werden durch das Bundesamt für Sicherheit in der Informationstechnik im Benehmen mit den Ländern erarbeitet. Die erarbeiteten Technischen Richtlinien sind dem Bundesministerium des Innern und für Heimat zur Zustimmung vorzulegen. Nach der Zustimmung durch das Bundesministerium des Innern und für Heimat erfolgt eine Bekanntgabe der Technischen Richtlinien durch das Bundesamt für Sicherheit in der Informationstechnik nach Absatz 2 Satz 2."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(4) Die genutzten IT-Komponenten müssen einem Informationssicherheitsmanagementsystem unterliegen, welches die Vorgaben der aktuell gültigen Leitlinie für die Informationssicherheit in der öffentlichen Verwaltung des IT-Planungsrates umsetzt."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_NB dtd:NB-id63 ;
+    dtd:has_Value "(5) Die für die genutzten IT-Komponenten verantwortlichen Stellen erstellen und setzen ein IT-Sicherheitskonzept um, das den Standards 200-1, 200-2 und 200-3 des Bundesamtes für Sicherheit in der Informationstechnik oder den Vorgaben der ISO/IEC 27001 in der jeweils geltenden Fassung entspricht. Mindestanforderung ist die Umsetzung der Standard-Absicherung nach BSI Standard 200-2."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(6) IT-Komponenten, die über eine technische Schnittstelle unmittelbar mit dem Internet verbunden sind, und alle sonstigen IT-Komponenten mit einem nach BSI IT-Grundschutz hohen oder sehr hohen Schutzbedarf in mindestens einem der Schutzziele Vertraulichkeit, Integrität oder Verfügbarkeit sind vor Anbindung an den Portalverbund einem Penetrationstest und einem Webcheck nach den Vorgaben des Bundesamtes für Sicherheit in der Informationstechnik zu unterziehen. Zu den IT-Komponenten nach Satz 1 zählen insbesondere Nutzerkonto, elektronischer Bezahldienst, Postfach und Datensafe."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(7) Penetrationstests und Webchecks sind spätestens nach drei Jahren oder bei größeren Änderungen der in Absatz 6 genannten IT-Komponenten zu wiederholen."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(8) Penetrationstests und Webchecks für IT-Systeme der Bundesverwaltung werden vom Bundesamt für Sicherheit in der Informationstechnik oder durch vom Bundesamt für Sicherheit in der Informationstechnik zertifizierte IT-Sicherheitsdienstleister durchgeführt. IT-Systeme der Länder werden durch Fachbehörden für Informationssicherheit der Länder oder durch vom Bundesamt für Sicherheit in der Informationstechnik zertifizierte IT-Sicherheitsdienstleister einem Penetrationstest und einem Webcheck unterzogen."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(9) IT-Sicherheitsdienstleister, die über keine Zertifizierung durch das Bundesamt für Sicherheit in der Informationstechnik verfügen, können von der für die IT-Komponente verantwortlichen Stelle ersatzweise mit der Prüfung beauftragt werden, sofern zertifizierte IT-Sicherheitsdienstleister nicht zur Verfügung stehen und der Penetrationstest und der Webcheck nach den Vorgaben des Bundesamtes für Sicherheit in der Informationstechnik durchgeführt werden."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(10) Das Bundesamt für Sicherheit in der Informationstechnik, die Fachbehörden für Informationssicherheit der Länder oder die beauftragten IT-Sicherheitsdienstleister haben die Prüfberichte spätestens sechs Wochen nach Durchführung des Penetrationstests oder Webchecks der jeweiligen verantwortlichen Stelle zur Kenntnis zu bringen."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(11) Die genutzten IT-Komponenten müssen einem IT-Notfallmanagement unterliegen, das die Anforderungen der Leitlinie für die Informationssicherheit in der öffentlichen Verwaltung des IT-Planungsrates in der jeweils geltenden Fassung erfüllt."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(12) Die Umsetzung der Vorgaben der Absätze 1 bis 11 obliegt der für die jeweilige IT-Komponente verantwortlichen Stelle. Werden IT-Komponenten von Dienstleistern betrieben, bleibt die auslagernde Stelle verantwortlich für die Erfüllung der Anforderungen dieser Verordnung. Die Umsetzung der Maßnahmen ist für die IT-Komponenten im Portalverbund durch eine jährliche Eigenerklärung der für die jeweilige IT-Komponente verantwortlichen Stelle zu dokumentieren. Ein verbindliches Erklärungsmuster wird durch das Bundesministerium des Innern und für Heimat bereitgestellt. Die jeweils geltende Fassung des Erklärungsmusters wird im Bundesanzeiger durch Verweis auf die Internetseite des Bundesamtes für Sicherheit in der Informationstechnik bekanntgegeben."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(13) Verantwortliche Stellen des Bundes übermitteln die Eigenerklärung bis zum 1. Januar eines Kalenderjahres der zentralen Stelle des Bundes. Verantwortliche Stellen in den Ländern hinterlegen die Erklärung bis zum 1. Januar eines Kalenderjahres bei der jeweiligen zentralen Stelle des Landes. Die zentrale Stelle für den Bund und das Verfahren zur Abgabe der Erklärungen im Bund werden durch das Bundesministerium des Innern und für Heimat bestimmt. Die Länder legen die für ihren jeweiligen Zuständigkeitsbereich zentrale Stelle und das Verfahren zur Abgabe der Erklärungen fest."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_NB dtd:NB-id64 ;
+    dtd:has_Value "Stellen nach § 1 Absatz 4 Nummer 2 sind auf der Grundlage angemessener Nutzungsbedingungen anzubinden. Sie erstellen und setzen für die zum Datenaustausch mit dem Portalverbund eingesetzten IT-Komponenten ein Sicherheitskonzept um, das den Standards 200-1, 200-2 und 200-3 des Bundesamtes für Sicherheit in der Informationstechnik in der jeweils geltenden Fassung oder einem vergleichbaren vom Land anerkannten Standard entspricht. Mindestanforderung ist die Umsetzung der Basis-Absicherung nach BSI Standard 200-2."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_DL dtd:DL-id72 ;
+    dtd:has_Value "(1) Für IT-Komponenten im Portalverbund und für IT-Komponenten zur unmittelbaren Anbindung an den Portalverbund nach § 1 Absatz 4 Nummer 1, die zum Zeitpunkt des Inkrafttretens dieser Verordnung in Betrieb sind oder bis zum 30. Juni 2022 in Betrieb genommen werden, 1.kann bis zum 31. Dezember 2022 von den Vorgaben des § 2 Absatz 6 abgewichen werden,2.kann in begründeten Fällen bis zu zwei Jahre nach Inkrafttreten dieser Verordnung von den Regelungen der in der Anlage zu dieser Verordnung genannten Technischen Richtlinien abgewichen werden."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(2) Die Abweichungen sind zu dokumentieren."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2022, 20)"@de ;
+    dtd:has_noindex dtd:noindex-id66 .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_DL dtd:DL-id77 ;
+    dtd:has_Value "1.BSI TR-03160 Servicekonten2.BSI TR-03107-1 Elektronische Identitäten und Vertrauensdienste im E-Government Teil 13.BSI TR-03147 Vertrauensniveaubewertung von Verfahren zur Identitätsprüfung natürlicher Personen4.BSI TR-03116-4 Kryptographische Vorgaben für Projekte der Bundesregierung Teil 4"@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_BR dtd:BR-id60 ;
+    dtd:has_Value " (+++ Textnachweis ab: 20.1.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id128 .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 5 Satz 1 des Onlinezugangsgesetzes vom 14. August 2017 (BGBl. I S. 3122, 3138), der zuletzt durch Artikel 77 der Verordnung vom 19. Juni 2020 (BGBl. I S. 1328) geändert worden ist, in Verbindung mit § 1 Absatz 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 8. Dezember 2021 (BGBl. I S. 5176) verordnet das Bundesministerium des Innern und für Heimat:"@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(1) Soweit in dieser Verordnung Begriffe Verwendung finden, die in § 2 des Onlinezugangsgesetzes definiert werden, finden die dortigen Begriffsbestimmungen auch für den Geltungsbereich dieser Verordnung Anwendung."@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-01-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id130 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id131 .
+
+dtd:fussnoten-id52 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id94 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "ITSiV-PV"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "IT-Sicherheitsverordnung Portalverbund"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Gewährleistung der IT-Sicherheit der im Portalverbund und zur Anbindung an den Portalverbund genutzten IT-Komponenten"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:noindex-id66 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20220119213024"@de ;
+    dtd:has_doknr "BJNR001800022BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id130 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id128 a dtd:pre ;
+    dtd:has_BR dtd:BR-id61,
+        dtd:BR-id62 ;
+    dtd:has_Value "(+++ Textnachweis ab: 20.1.2022 +++)"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id96 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id98 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id103 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Portalverbund und unmittelbar angebundene IT-Komponenten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Mittelbar angebundene IT-Komponenten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "(zu § 2 Absatz 2)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id131 a dtd:zitstelle ;
+    dtd:has_Value "2022, 18"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

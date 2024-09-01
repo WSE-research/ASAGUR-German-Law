@@ -1,0 +1,217 @@
+@prefix dtd: <urn:Münz10EuroBek-2003-04#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131202132553"@de ;
+    dtd:has_doknr "BJNR065000003"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id53 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id35 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2003, 650)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:ABWFORMAT-id52 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:IMG-id41 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_2003_j0650_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  9. 5.2003 +++)"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id52 ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30,
+        dtd:BR-id31,
+        dtd:BR-id32,
+        dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "Gemäß den §§ 2, 4 und 5 des Münzgesetzes vom 16. Dezember 1999 (BGBl. I S. 2402) hat die Bundesregierung beschlossen, zum Thema \"50 Jahre Volksaufstand 17. Juni 1953\" eine deutsche Euro-Gedenkmünze im Nennwert von 10 Euro prägen zu lassen. Die Auflage der Münze beträgt 2.400.000 Stück, darunter 350.000 Stück in Spiegelglanzausführung. Die Prägung erfolgt durch die Staatliche Münze Berlin. Die Münze wird ab dem 12. Juni 2003 in den Verkehr gebracht. Sie besteht aus einer Legierung von 925 Tausendteilen Silber und 75 Tausendteilen Kupfer, hat einen Durchmesser von 32,5 Millimetern und eine Masse von 18 Gramm. Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden, glatten Randstab umgeben. Die Bildseite erinnert mit den dargestellten stilisierten Panzerketten an die gewaltsame Niederschlagung des Volksaufstandes am 17. Juni 1953 in der DDR. Die dargestellten Begriffe \"STREIK\", \"NIEDER MIT DEN NORMEN\", \"RÜCKTRITT DER REGIERUNG\", \"FREIE GEHEIME WAHLEN\", \"DEMOKRATIE\" und \"FREIHEIT\" erinnern an Ablauf und Steigerung des Volksaufstandes sowie an die erhobenen Forderungen. Die Wertseite trägt einen Adler, zwölf Sterne, den Nennwert \"10 EURO\", die Aufschrift \"BUNDESREPUBLIK DEUTSCHLAND\", die Jahreszahl 2003 und das Münzzeichen \"A\" der Staatlichen Münze Berlin. Der glatte Münzrand enthält in vertiefter Prägung die Inschrift: \"ERINNERUNG AN DEN VOLKSAUFSTAND IN DER DDR <>\". Der Entwurf der Münze stammt von Hans Joa Dobler, Ehekirchen."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_BR dtd:BR-id36,
+        dtd:BR-id37,
+        dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_IMG dtd:IMG-id41 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2003, 650)"@de ;
+    dtd:has_noindex dtd:noindex-id40 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2003-04-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2003-04"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2003-04"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2003-04"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "Münz10EuroBek 2003-04"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von deutschen Euro-Gedenkmünzen im
+Nennwert von 10 Euro
+(Gedenkmünze "50 Jahre Volksaufstand 17. Juni 1953")"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id40 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131202132553"@de ;
+    dtd:has_doknr "BJNR065000003"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131202132553"@de ;
+    dtd:has_doknr "BJNR065000003BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131202132553"@de ;
+    dtd:has_doknr "BJNR065000003BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131202132553"@de ;
+    dtd:has_doknr "BJNR065000003BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "2003, 650"@de .
+

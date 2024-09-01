@@ -1,0 +1,842 @@
+@prefix dtd: <urn:AuslInvG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id91 a dtd:BR .
+
+dtd:BR-id92 a dtd:BR .
+
+dtd:BR-id93 a dtd:BR .
+
+dtd:BR-id94 a dtd:BR .
+
+dtd:Content-id158 a dtd:Content ;
+    dtd:has_P dtd:P-id159 .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161,
+        dtd:P-id162,
+        dtd:P-id163,
+        dtd:P-id164,
+        dtd:P-id165 .
+
+dtd:Content-id166 a dtd:Content ;
+    dtd:has_P dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169,
+        dtd:P-id170 .
+
+dtd:Content-id171 a dtd:Content ;
+    dtd:has_P dtd:P-id172 .
+
+dtd:Content-id173 a dtd:Content ;
+    dtd:has_P dtd:P-id174,
+        dtd:P-id175,
+        dtd:P-id176,
+        dtd:P-id177 .
+
+dtd:Content-id178 a dtd:Content ;
+    dtd:has_P dtd:P-id179 .
+
+dtd:Content-id180 a dtd:Content ;
+    dtd:has_P dtd:P-id181 .
+
+dtd:Content-id182 a dtd:Content ;
+    dtd:has_P dtd:P-id183 .
+
+dtd:Content-id184 a dtd:Content ;
+    dtd:has_P dtd:P-id185 .
+
+dtd:Content-id186 a dtd:Content ;
+    dtd:has_P dtd:P-id187 .
+
+dtd:Content-id188 a dtd:Content ;
+    dtd:has_P dtd:P-id189 .
+
+dtd:Content-id190 a dtd:Content ;
+    dtd:has_P dtd:P-id191 .
+
+dtd:Content-id192 a dtd:Content ;
+    dtd:has_P dtd:P-id193,
+        dtd:P-id194,
+        dtd:P-id195,
+        dtd:P-id196,
+        dtd:P-id197 .
+
+dtd:Content-id198 a dtd:Content ;
+    dtd:has_P dtd:P-id199 .
+
+dtd:Content-id200 a dtd:Content ;
+    dtd:has_P dtd:P-id201 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id117 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id118 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id154 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id156 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id153 .
+
+dtd:DD-id136 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id155 .
+
+dtd:DD-id139 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id157 .
+
+dtd:DL-id103 a dtd:DL ;
+    dtd:has_DD dtd:DD-id106,
+        dtd:DD-id107 ;
+    dtd:has_DT dtd:DT-id104,
+        dtd:DT-id105 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id108 a dtd:DL ;
+    dtd:has_DD dtd:DD-id114,
+        dtd:DD-id115,
+        dtd:DD-id116,
+        dtd:DD-id117,
+        dtd:DD-id118 ;
+    dtd:has_DT dtd:DT-id109,
+        dtd:DT-id110,
+        dtd:DT-id111,
+        dtd:DT-id112,
+        dtd:DT-id113 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id119 a dtd:DL ;
+    dtd:has_DD dtd:DD-id124,
+        dtd:DD-id125,
+        dtd:DD-id126,
+        dtd:DD-id127 ;
+    dtd:has_DT dtd:DT-id120,
+        dtd:DT-id121,
+        dtd:DT-id122,
+        dtd:DT-id123 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id128 a dtd:DL ;
+    dtd:has_DD dtd:DD-id130 ;
+    dtd:has_DT dtd:DT-id129 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id131 a dtd:DL ;
+    dtd:has_DD dtd:DD-id133 ;
+    dtd:has_DT dtd:DT-id132 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id134 a dtd:DL ;
+    dtd:has_DD dtd:DD-id136 ;
+    dtd:has_DT dtd:DT-id135 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id137 a dtd:DL ;
+    dtd:has_DD dtd:DD-id139 ;
+    dtd:has_DT dtd:DT-id138 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id96 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102 ;
+    dtd:has_DT dtd:DT-id97,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id120 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id121 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id122 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id123 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id132 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id135 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id138 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:I-id95 a dtd:I ;
+    dtd:has_Value "4"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Erwerb von Beteiligungen an Kapitalgesellschaften mit Sitz und Geschäftsleitung in einem ausländischen Staat,"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Einlagen in Personengesellschaften in einem ausländischen Staat und"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zuführung von Betriebsvermögen in einen Betrieb oder eine Betriebstätte des Steuerpflichtigen in einem ausländischen Staat."@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der umgewandelten Betriebstätte die Voraussetzungen des Absatzes 1 Satz 4 vorgelegen haben oder"@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Steuerpflichtige nachweist, daß die Kapitalgesellschaft nach den für sie geltenden Vorschriften einen Abzug von Verlusten der Betriebstätte nicht beanspruchen kann."@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der neue Anteilserwerb im Sinne des Absatzes 1 Satz 2 nach dem 31. Dezember 1968 stattgefunden hat,"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Verlust der ausländischen Tochtergesellschaft nach Vorschriften ermittelt ist, die den allgemeinen deutschen Gewinnermittlungsvorschriften entsprechen; steuerliche Vergünstigungen sind dabei unberücksichtigt zu lassen,"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Voraussetzungen der Nummer 2 und des § 5 durch Vorlage sachdienlicher Unterlagen, insbesondere Bilanzen und Ergebnisrechnungen und etwaige Geschäftsberichte der ausländischen Tochtergesellschaft, nachgewiesen werden; auf Verlangen sind diese Unterlagen mit dem im Staat der Geschäftsleitung oder des Sitzes vorgeschriebenen oder üblichen Prüfungsvermerk einer behördlich anerkannten Wirtschaftsprüfungsstelle oder einer vergleichbaren Stelle vorzulegen,"@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Steuerpflichtige und die ausländische Tochtergesellschaft sich verpflichten, Unterlagen der in Nummer 3 bezeichneten Art auch für die dem Verlustjahr folgenden Wirtschaftsjahre vorzulegen, so lange eine Rücklage im Sinne des Absatzes 1 ausgewiesen wird; aus den Unterlagen muß sich die Höhe der in diesen Wirtschaftsjahren erzielten Betriebsergebnisse der ausländischen Tochtergesellschaft zweifelsfrei ergeben, und"@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die ausländische Tochtergesellschaft erklärt, daß sie mit der Erteilung von Auskünften durch die Steuerbehörden des Staates, in dem sie ihren Sitz und ihre Geschäftsleitung hat, an die deutschen Steuerbehörden einverstanden ist."@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_DL dtd:DL-id128 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn die ausländische Tochtergesellschaft in einem auf das Verlustjahr folgenden Wirtschaftsjahr einen Gewinn erzielt,in Höhe des Teils des Gewinns, der dem Verhältnis der neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 zum Nennkapital der ausländischen Tochtergesellschaft entspricht, soweit er die Verlustteile, die bei der Bildung der Rücklage nach Absatz 1 Satz 3 zweiter Halbsatz und Satz 4 unberücksichtigt geblieben sind, oder den Auflösungsbetrag im Sinne der Nummer 2 übersteigt, "@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Höhe des Teils des Gewinns, der dem Verhältnis der neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 zum Nennkapital der ausländischen Tochtergesellschaft entspricht, soweit er die Verlustteile, die bei der Bildung der Rücklage nach Absatz 1 Satz 3 zweiter Halbsatz und Satz 4 unberücksichtigt geblieben sind, oder den Auflösungsbetrag im Sinne der Nummer 2 übersteigt,"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_DL dtd:DL-id131 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn in einem auf ihre Bildung folgenden Wirtschaftsjahr auf die neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 an der ausländischen Tochtergesellschaft eine Teilwertabschreibung vorgenommen wird,in Höhe des Betrags der Teilwertabschreibung, "@de .
+
+dtd:LA-id153 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Höhe des Betrags der Teilwertabschreibung,"@de .
+
+dtd:LA-id154 a dtd:LA ;
+    dtd:has_DL dtd:DL-id134 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn vom Steuerpflichtigen Anteile an der ausländischen Tochtergesellschaft veräußert oder in das Privatvermögen überführt werden,in Höhe des Teils der Rücklage, der dem Anteil der veräußerten oder in das Privatvermögen überführten Anteile an den neu erworbenen Anteilen im Sinne des Absatzes 1 Satz 2 entspricht, "@de .
+
+dtd:LA-id155 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Höhe des Teils der Rücklage, der dem Anteil der veräußerten oder in das Privatvermögen überführten Anteile an den neu erworbenen Anteilen im Sinne des Absatzes 1 Satz 2 entspricht,"@de .
+
+dtd:LA-id156 a dtd:LA ;
+    dtd:has_DL dtd:DL-id137 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "wenn die Nachweisverpflichtungen im Sinne des Absatzes 2 Nr. 4 nicht erfüllt werden,in voller Höhe, "@de .
+
+dtd:LA-id157 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in voller Höhe,"@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_BR dtd:BR-id91 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 30.12.1981 +++)(+++ Zur Anwendung vgl. § 8 +++)Das G wurde als Artikel 2 G 707-6-1-1 v. 18.8.1969 I 1211 (StÄndG 1969) vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 13 Satz 2 dieses G am 22.8.1969 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id202 .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(1) Steuerpflichtige, die den Gewinn nach § 4 Abs. 1 oder § 5 des Einkommensteuergesetzes ermitteln und im Zusammenhang mit Investitionen im Sinne des Absatzes 2 zum Anlagevermögen eines inländischen Betriebs gehörende abnutzbare Wirtschaftsgüter in die Gesellschaft, den Betrieb oder die Betriebstätte im Ausland überführen, können im Wirtschaftsjahr der Überführung bis zur Höhe des durch die Überführung entstandenen Gewinns eine den steuerlichen Gewinn mindernde Rücklage bilden. Die Rücklage ist vom fünften auf ihre Bildung folgenden Wirtschaftsjahr an jährlich mit mindestens einem Fünftel gewinnerhöhend aufzulösen."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_DL dtd:DL-id96 ;
+    dtd:has_Value "(2) Investitionen im Ausland im Sinne des Absatzes 1 sind 1.der Erwerb von Beteiligungen an Kapitalgesellschaften mit Sitz und Geschäftsleitung in einem ausländischen Staat, 2.Einlagen in Personengesellschaften in einem ausländischen Staat und 3.die Zuführung von Betriebsvermögen in einen Betrieb oder eine Betriebstätte des Steuerpflichtigen in einem ausländischen Staat.  "@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(3) Die Bildung der Rücklage nach Absatz 1 ist ausgeschlossen, wenn der Steuerpflichtige für die Investition im Ausland die Steuervergünstigung des § 3 des Entwicklungsländer-Steuergesetzes in Anspruch nimmt."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "(4) Werden Beteiligungen im Sinne des Absatzes 2 Nr. 1 veräußert oder in das Privatvermögen überführt, so ist die für die Beteiligung gebildete Rücklage im Wirtschaftsjahr der Veräußerung oder Überführung in das Privatvermögen im Verhältnis des Anteils der veräußerten oder in das Privatvermögen überführten Beteiligung zur gesamten Beteiligung im Sinne des Absatzes 2 Nr. 1 vorzeitig gewinnerhöhend aufzulösen. Entsprechendes gilt, wenn bei Investitionen im Ausland im Sinne des Absatzes 2 Nr. 2 und 3 die zugeführten Wirtschaftsgüter veräußert oder in das Inland oder in das Privatvermögen überführt werden, ohne daß der Personengesellschaft, dem Betrieb oder der Betriebstätte im Ausland bis zum Ende des auf die Veräußerung oder Überführung folgenden Wirtschaftsjahrs in entsprechendem Umfang Ersatzwirtschaftsgüter zugeführt werden. Bei einer durch die Verhältnisse im ausländischen Staat bedingten Umwandlung einer Personengesellschaft, eines Betriebs oder einer Betriebstätte im Ausland in eine Kapitalgesellschaft entfällt die vorzeitige gewinnerhöhende Auflösung der Rücklage in Höhe des Betrags oder Teilbetrags, der dem Verhältnis zwischen der Beteiligung des Steuerpflichtigen an dieser Kapitalgesellschaft und seinem Anteil an der Personengesellschaft, dem Betrieb oder der Betriebstätte vor der Umwandlung entspricht. Nach der Umwandlung gelten die Sätze 1 und 2 sinngemäß. Erfüllt die Gesellschaft, der Betrieb oder die Betriebstätte im Ausland nicht mehr die Voraussetzungen des § 5, so ist die steuerfreie Rücklage in voller Höhe gewinnerhöhend aufzulösen."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(5) Voraussetzung für die Anwendung der Absätze 1 bis 4 ist, daß die Bildung und Auflösung der Rücklage in der Buchführung verfolgt werden können."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(+++ § 1 Abs. 3 Sätze 1 u. 2: Zur Anwendung vgl. § 8 Abs. 3 F. ab 1981-12-22 +++)"@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(1) Sind nach einem Abkommen zur Vermeidung der Doppelbesteuerung bei einem unbeschränkt Steuerpflichtigen aus einer in einem ausländischen Staat belegenen Betriebstätte stammende Einkünfte aus gewerblicher Tätigkeit von der Einkommensteuer oder Körperschaftsteuer zu befreien, so ist auf Antrag des Steuerpflichtigen ein Verlust, der sich nach den Vorschriften des Einkommensteuergesetzes bei diesen Einkünften ergibt und nach den Vorschriften des Einkommensteuergesetzes vom Steuerpflichtigen ausgeglichen oder abgezogen werden könnte, wenn die Einkünfte nicht von der Einkommensteuer oder Körperschaftsteuer zu befreien wären, bei der Ermittlung des Gesamtbetrags der Einkünfte insoweit abzuziehen, als er nach diesem Abkommen zu befreiende positive Einkünfte aus gewerblicher Tätigkeit aus anderen in diesem ausländischen Staat belegenen Betriebstätten übersteigt. Soweit der Verlust dabei nicht ausgeglichen wird, ist bei Vorliegen der Voraussetzungen des § 10d des Einkommensteuergesetzes der Verlustabzug zulässig. Der nach Satz 1 abgezogene Betrag ist, soweit sich in einem der folgenden Veranlagungszeiträume bei den nach diesem Abkommen zu befreienden Einkünften aus gewerblicher Tätigkeit aus in diesem ausländischen Staat belegenen Betriebstätten insgesamt ein positiver Betrag ergibt, in dem betreffenden Veranlagungszeitraum bei der Ermittlung des Gesamtbetrags der Einkünfte wieder hinzuzurechnen. Satz 3 ist nicht anzuwenden, wenn der Steuerpflichtige nachweist, daß nach den für ihn geltenden Vorschriften des ausländischen Staates ein Abzug von Verlusten in anderen Jahren als dem Verlustjahr allgemein nicht beansprucht werden kann."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_DL dtd:DL-id103 ;
+    dtd:has_Value "(2) Wird eine in einem ausländischen Staat belegene Betriebstätte in eine Kapitalgesellschaft umgewandelt, so ist ein nach Absatz 1 Satz 1 und 2 abgezogener Verlust, soweit er nach Absatz 1 Satz 3 nicht wieder hinzugerechnet worden ist oder nicht noch hinzuzurechnen ist, im Veranlagungszeitraum der Umwandlung in entsprechender Anwendung des Absatzes 1 Satz 3 dem Gesamtbetrag der Einkünfte hinzuzurechnen. Satz 1 ist nicht anzuwenden, wenn 1.bei der umgewandelten Betriebstätte die Voraussetzungen des Absatzes 1 Satz 4 vorgelegen haben oder 2.der Steuerpflichtige nachweist, daß die Kapitalgesellschaft nach den für sie geltenden Vorschriften einen Abzug von Verlusten der Betriebstätte nicht beanspruchen kann. "@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "(+++ § 2 Abs. 1 Satz 3 und 4, Abs. 2: Zur Anwendung vgl. § 5 Satz 2 (F ab 1999-03-24) +++)"@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(1) Unbeschränkt Steuerpflichtige, die den Gewinn nach § 4 Abs. 1 oder § 5 des Einkommensteuergesetzes ermitteln, können für Verluste einer Kapitalgesellschaft mit Sitz und Geschäftsleitung in einem ausländischen Staat, an deren Nennkapital der Steuerpflichtige mindestens zu 50 vom Hundert, bei Kapitalgesellschaften mit Sitz und Geschäftsleitung in Entwicklungsländern im Sinne des § 6 des Entwicklungsländer-Steuergesetzes mindestens zu 25 vom Hundert, unmittelbar beteiligt ist (ausländische Tochtergesellschaft), eine den steuerlichen Gewinn mindernde Rücklage bilden. Die Bildung der Rücklage ist für das Wirtschaftsjahr, in dem der Steuerpflichtige Anteile an der ausländischen Kapitalgesellschaft in einem Ausmaß erwirbt, das erstmals zu einer Beteiligung des Steuerpflichtigen in dem in Satz 1 bezeichneten Umfang führt, oder - wenn der Steuerpflichtige an der ausländischen Kapitalgesellschaft bereits in dem in Satz 1 bezeichneten Umfang beteiligt war - in dem er weitere Anteile an dieser Kapitalgesellschaft erwirbt, und in den vier folgenden Wirtschaftsjahren zulässig; die neu erworbenen Anteile müssen mindestens 5 vom Hundert des Nennkapitals der ausländischen Kapitalgesellschaft betragen. Die Rücklage darf für das Wirtschaftsjahr des Steuerpflichtigen, in dem der Verlust der ausländischen Tochtergesellschaft entstanden ist, bis zur Höhe des Teils des Verlustes gebildet werden, der dem Verhältnis der neu erworbenen Anteile zum Nennkapital dieser Gesellschaft entspricht; sie ist zu vermindern um den Betrag, in dessen Höhe der Steuerpflichtige im Wirtschaftsjahr ihrer Bildung auf die neu erworbenen Anteile an der ausländischen Tochtergesellschaft eine Teilwertabschreibung vornimmt. Die Rücklage darf den Betrag nicht übersteigen, mit dem die neu erworbenen Anteile in der Steuerbilanz angesetzt sind."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_DL dtd:DL-id108 ;
+    dtd:has_Value "(2) Voraussetzung für die Bildung der Rücklage ist, daß 1.der neue Anteilserwerb im Sinne des Absatzes 1 Satz 2 nach dem 31. Dezember 1968 stattgefunden hat, 2.der Verlust der ausländischen Tochtergesellschaft nach Vorschriften ermittelt ist, die den allgemeinen deutschen Gewinnermittlungsvorschriften entsprechen; steuerliche Vergünstigungen sind dabei unberücksichtigt zu lassen, 3.die Voraussetzungen der Nummer 2 und des § 5 durch Vorlage sachdienlicher Unterlagen, insbesondere Bilanzen und Ergebnisrechnungen und etwaige Geschäftsberichte der ausländischen Tochtergesellschaft, nachgewiesen werden; auf Verlangen sind diese Unterlagen mit dem im Staat der Geschäftsleitung oder des Sitzes vorgeschriebenen oder üblichen Prüfungsvermerk einer behördlich anerkannten Wirtschaftsprüfungsstelle oder einer vergleichbaren Stelle vorzulegen, 4.der Steuerpflichtige und die ausländische Tochtergesellschaft sich verpflichten, Unterlagen der in Nummer 3 bezeichneten Art auch für die dem Verlustjahr folgenden Wirtschaftsjahre vorzulegen, so lange eine Rücklage im Sinne des Absatzes 1 ausgewiesen wird; aus den Unterlagen muß sich die Höhe der in diesen Wirtschaftsjahren erzielten Betriebsergebnisse der ausländischen Tochtergesellschaft zweifelsfrei ergeben, und 5.die ausländische Tochtergesellschaft erklärt, daß sie mit der Erteilung von Auskünften durch die Steuerbehörden des Staates, in dem sie ihren Sitz und ihre Geschäftsleitung hat, an die deutschen Steuerbehörden einverstanden ist.  "@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_DL dtd:DL-id119 ;
+    dtd:has_Value "(3) Die Rücklage ist gewinnerhöhend aufzulösen, 1.wenn die ausländische Tochtergesellschaft in einem auf das Verlustjahr folgenden Wirtschaftsjahr einen Gewinn erzielt,in Höhe des Teils des Gewinns, der dem Verhältnis der neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 zum Nennkapital der ausländischen Tochtergesellschaft entspricht, soweit er die Verlustteile, die bei der Bildung der Rücklage nach Absatz 1 Satz 3 zweiter Halbsatz und Satz 4 unberücksichtigt geblieben sind, oder den Auflösungsbetrag im Sinne der Nummer 2 übersteigt,  2.wenn in einem auf ihre Bildung folgenden Wirtschaftsjahr auf die neu erworbenen Anteile im Sinne des Absatzes 1 Satz 2 an der ausländischen Tochtergesellschaft eine Teilwertabschreibung vorgenommen wird,in Höhe des Betrags der Teilwertabschreibung,  3.wenn vom Steuerpflichtigen Anteile an der ausländischen Tochtergesellschaft veräußert oder in das Privatvermögen überführt werden,in Höhe des Teils der Rücklage, der dem Anteil der veräußerten oder in das Privatvermögen überführten Anteile an den neu erworbenen Anteilen im Sinne des Absatzes 1 Satz 2 entspricht,  4.wenn die Nachweisverpflichtungen im Sinne des Absatzes 2 Nr. 4 nicht erfüllt werden,in voller Höhe,  spätestens jedoch am Schluß des fünften auf ihre Bildung folgenden Wirtschaftsjahrs."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(4) § 1 Abs. 5 gilt entsprechend."@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "(+++ § 3 Abs. 2 Nr. 2: Zur Anwendung vgl. § 8 Abs. 3 F. ab 1981-12-22 +++)"@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_Value "Voraussetzung für die Anwendung der §§ 1 bis 3 ist, daß die Gesellschaft, der Betrieb oder die Betriebstätte im Ausland ausschließlich oder fast ausschließlich die Herstellung oder Lieferung von Waren außer Waffen, die Gewinnung von Bodenschätzen sowie die Bewirkung gewerblicher Leistungen zum Gegenstand hat, soweit diese nicht in der Errichtung oder dem Betrieb von Anlagen, die dem Fremdenverkehr dienen, oder in der Vermietung und Verpachtung von Wirtschaftsgütern einschließlich der Überlassung von Rechten, Plänen, Mustern, Verfahren, Erfahrungen und Kenntnissen bestehen. Soweit die Bewirkung gewerblicher Leistungen im Betrieb von Handelsschiffen oder Luftfahrzeugen im internationalen Verkehr besteht, ist weitere Voraussetzung, daß das Bundesministerium für Verkehr und digitale Infrastruktur oder die von ihm bestimmte Stelle die verkehrspolitische Förderungswürdigkeit bestätigt."@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_Value "(+++ § 5: Zur Anwendung vgl. § 8 Abs. 3 F. ab 1981-12-22 +++)"@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_I dtd:I-id95 ;
+    dtd:has_Value "Die Vorschriften der §§ 1, 3 und 4 gelten auch für die Ermittlung des Gewerbeertrags."@de .
+
+dtd:P-id189 a dtd:P ;
+    dtd:has_Value "§ 6: Früher § 5 gem. Art. 33 Nr. 5 G v. 22.12.1981 I 1523 mWv 30.12.1981 Kursivdruck: Vgl. Fußnote zu § 4"@de .
+
+dtd:P-id191 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Finanzen wird ermächtigt, den Wortlaut dieses Gesetzes in der jeweils geltenden Fassung mit neuem Datum bekanntzumachen, die Paragraphenfolge zu ändern und Unstimmigkeiten des Wortlauts zu beseitigen."@de .
+
+dtd:P-id193 a dtd:P ;
+    dtd:has_Value "(1) Die vorstehende Fassung dieses Gesetzes ist vorbehaltlich der Absätze 2 und 3 erstmals für den Veranlagungszeitraum 1982 anzuwenden."@de .
+
+dtd:P-id194 a dtd:P ;
+    dtd:has_Value "(2) § 4 in der Fassung des Artikels 2 des Gesetzes vom 18. August 1969 (BGBl. I S. 1214) ist auf Anteile an Kapitalgesellschaften anzuwenden, die vor dem 1. Januar 1982 erworben werden."@de .
+
+dtd:P-id195 a dtd:P ;
+    dtd:has_Value "(3) § 5 in Verbindung mit den §§ 1 und 3 ist erstmals für das Wirtschaftsjahr anzuwenden, das nach dem 31. Dezember 1981 beginnt; für Wirtschaftsjahre, die vor dem 1. Januar 1982 beginnen, sind § 1 Abs. 3 Satz 1 und 2 sowie § 3 Abs. 2 Nr. 2 in der Fassung des Artikels 2 des Gesetzes vom 18. August 1969 (BGBl. I S. 1214) anzuwenden."@de .
+
+dtd:P-id196 a dtd:P ;
+    dtd:has_Value "(4) Rücklagen nach den §§ 1 und 3 können letztmalig für das Wirtschaftsjahr gebildet werden, das vor dem 1. Januar 1990 endet."@de .
+
+dtd:P-id197 a dtd:P ;
+    dtd:has_Value "(5) § 2 ist letztmals auf Verluste des Veranlagungszeitraums 1989 anzuwenden. § 2 Abs. 1 Satz 3, 4 und Abs. 2 ist für Veranlagungszeiträume ab 2009 weiter anzuwenden."@de .
+
+dtd:P-id199 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 12 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id201 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:ausfertigung-datum-id36 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-08-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:fundstelle-id37 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id203 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id204 .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id205 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id206 .
+
+dtd:fussnoten-id70 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id158 .
+
+dtd:fussnoten-id72 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id166 .
+
+dtd:fussnoten-id74 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id171 .
+
+dtd:fussnoten-id76 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id178 .
+
+dtd:fussnoten-id78 a dtd:fussnoten .
+
+dtd:fussnoten-id80 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id184 .
+
+dtd:fussnoten-id82 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id188 .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:fussnoten-id86 a dtd:fussnoten .
+
+dtd:fussnoten-id88 a dtd:fussnoten .
+
+dtd:fussnoten-id90 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "AuslInvG"@de .
+
+dtd:langue-id39 a dtd:langue ;
+    dtd:has_Value "Gesetz über steuerliche Maßnahmen bei Auslandsinvestitionen der deutschen Wirtschaft"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id36 ;
+    dtd:has_fundstelle dtd:fundstelle-id37,
+        dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_langue dtd:langue-id39 ;
+    dtd:has_standangabe dtd:standangabe-id40 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000803377"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000900317"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE001000317"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000100317"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000200317"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000300317"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000400317"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000503118"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000600317"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20150917215009"@de ;
+    dtd:has_doknr "BJNR012140969BJNE000700317"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id203 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:periodikum-id205 a dtd:periodikum ;
+    dtd:has_Value "BStBl I"@de .
+
+dtd:pre-id202 a dtd:pre ;
+    dtd:has_BR dtd:BR-id92,
+        dtd:BR-id93,
+        dtd:BR-id94 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 30.12.1981 +++)(+++ Zur Anwendung vgl. § 8 +++)"@de .
+
+dtd:standangabe-id40 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id208 ;
+    dtd:has_standtyp dtd:standtyp-id207 .
+
+dtd:standkommentar-id208 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 268 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id207 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id173 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id180 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id182 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id186 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id190 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id192 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id87 a dtd:text ;
+    dtd:has_Content dtd:Content-id198 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id200 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id80 ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 ;
+    dtd:has_text dtd:text-id87 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id90 ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value """Steuerfreie Rücklage bei Überführung bestimmter
+Wirtschaftsgüter in Gesellschaften, Betriebe oder
+Betriebstätten im Ausland"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Ausländische Verluste bei Doppelbesteuerungsabkommen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value """Steuerfreie Rücklage für Verluste von ausländischen
+Tochtergesellschaften"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Gemeinsame Voraussetzungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Gewerbesteuer"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Ermächtigung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Anwendung im Land Berlin"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id204 a dtd:zitstelle ;
+    dtd:has_Value "1969, 1211, 1214"@de .
+
+dtd:zitstelle-id206 a dtd:zitstelle ;
+    dtd:has_Value "1969, 480"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

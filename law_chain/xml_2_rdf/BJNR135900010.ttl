@@ -1,0 +1,148 @@
+@prefix dtd: <urn:GrÄndStVtrBB/SNBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150326"@de ;
+    dtd:has_doknr "BJNR135900010"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id22 a dtd:BR .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:Content-id28 a dtd:Content ;
+    dtd:has_P dtd:P-id29,
+        dtd:P-id30,
+        dtd:P-id31,
+        dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_BR dtd:BR-id22 ;
+    dtd:has_Value " (+++ Textnachweis ab: 8.10.2010 +++)"@de ;
+    dtd:has_pre dtd:pre-id35 .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_Value "Zwischen dem Land Brandenburg und dem Freistaat Sachsen wurde am 21. April/15. Mai 1998 ein Staatsvertrag über die Änderung der gemeinsamen Landesgrenze abgeschlossen. Diesem Vertrag haben der Landtag Brandenburg mit Gesetz vom 23. Oktober 1998 (Gesetz- und Verordnungsblatt für das Land Brandenburg, Teil I S. 206) und der Sächsische Landtag mit Gesetz vom 9. Dezember 1998 (Sächsisches Gesetz- und Verordnungsblatt, S. 635) zugestimmt."@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value "Der Staatsvertrag ist nach seinem Artikel 7 Absatz 2 am 20. Januar 1999 in Kraft getreten (Bekanntmachung des Ministerpräsidenten des Landes Brandenburg vom 5. Februar 1999 – Gesetz- und Verordnungsblatt für das Land Brandenburg, Teil I S. 53; Bekanntmachung der Sächsischen Staatskanzlei vom 1. Februar 1999 – Sächsisches Gesetz- und Verordnungsblatt, S. 82)."@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "Die in Artikel 1 Absatz 4 des Staatsvertrages genannten Kartenblätter wurden in den oben genannten Verkündungsblättern des Landes Brandenburg und des Freistaates Sachsen veröffentlicht und liegen in Brandenburg beim Landesvermessungsamt Brandenburg und in Sachsen beim Landesvermessungsamt Sachsen zur Einsicht bereit."@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "Gemäß § 2 Absatz 3 des Gesetzes über das Verfahren bei sonstigen Änderungen des Gebietsbestandes der Länder nach Artikel 29 Absatz 7 des Grundgesetzes vom 30. Juli 1979 (BGBl. I S. 1325) wird der dem Bundesministerium des Innern 2010 übermittelte Staatsvertrag nachstehend bekannt gemacht."@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_SP dtd:SP-id25 ;
+    dtd:has_Value "Bundesministerium des Innern"@de .
+
+dtd:SP-id25 a dtd:SP ;
+    dtd:has_Value "Bundesministerium des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2010-09-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id36 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id37 .
+
+dtd:fussnoten-id19 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id26 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtrBB/SNBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtrBB/SNBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtrBB/SNBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über den Abschluss und das Inkrafttreten des Staatsvertrages zwischen dem Land Brandenburg und dem Freistaat Sachsen über die Änderung der gemeinsamen Landesgrenze"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150326"@de ;
+    dtd:has_doknr "BJNR135900010"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150326"@de ;
+    dtd:has_doknr "BJNR135900010BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625150326"@de ;
+    dtd:has_doknr "BJNR135900010BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id36 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id35 a dtd:pre ;
+    dtd:has_BR dtd:BR-id23,
+        dtd:BR-id24 ;
+    dtd:has_Value "(+++ Textnachweis ab: 8.10.2010 +++)"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id28 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:zitstelle-id37 a dtd:zitstelle ;
+    dtd:has_Value "2010, 1359"@de .
+

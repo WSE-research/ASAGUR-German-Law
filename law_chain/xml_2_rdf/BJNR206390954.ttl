@@ -1,0 +1,376 @@
+@prefix dtd: <urn:UNSOrgVorRAbkG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132032"@de ;
+    dtd:has_doknr "BJNR206390954"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80,
+        dtd:P-id81 .
+
+dtd:Content-id82 a dtd:Content ;
+    dtd:has_P dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id66 .
+
+dtd:DD-id49 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id67 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id68 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id69 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id73 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id74 .
+
+dtd:DL-id45 a dtd:DL ;
+    dtd:has_DD dtd:DD-id48,
+        dtd:DD-id49 ;
+    dtd:has_DT dtd:DT-id46,
+        dtd:DT-id47 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id50 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54,
+        dtd:DD-id55,
+        dtd:DD-id56 ;
+    dtd:has_DT dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id57 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65 ;
+    dtd:has_DT dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:LA-id66 a dtd:LA ;
+    dtd:has_DL dtd:DL-id50 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "über die Anwendung des Abkommens aufa)die Sonderorganisationen der Vereinten Nationen, b)durch zwischenstaatliche Vereinbarungen geschaffene Organisationen, die nicht Sonderorganisationen der Vereinten Nationen sind, c)Einrichtungen anderer Staaten; "@de .
+
+dtd:LA-id67 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Sonderorganisationen der Vereinten Nationen,"@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch zwischenstaatliche Vereinbarungen geschaffene Organisationen, die nicht Sonderorganisationen der Vereinten Nationen sind,"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Einrichtungen anderer Staaten;"@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_DL dtd:DL-id57 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "über die Gewährung diplomatischer Vorrechte und Immunitäten ana)die in Nummer 1 genannten Organisationen und Einrichtungen, b)die Bediensteten dieser Organisationen und Einrichtungen sowie die zum Haushalt der Bediensteten gehörenden Familienmitglieder und privaten Hausangestellten, c)die Vertreter der Mitglieder dieser Organisationen sowie die zum Haushalt der Vertreter gehörenden Familienmitglieder und privaten Hausangestellten, d)die Sachverständigen, die Aufträge für diese Organisationen durchführen. "@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die in Nummer 1 genannten Organisationen und Einrichtungen,"@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Bediensteten dieser Organisationen und Einrichtungen sowie die zum Haushalt der Bediensteten gehörenden Familienmitglieder und privaten Hausangestellten,"@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Vertreter der Mitglieder dieser Organisationen sowie die zum Haushalt der Vertreter gehörenden Familienmitglieder und privaten Hausangestellten,"@de .
+
+dtd:LA-id74 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Sachverständigen, die Aufträge für diese Organisationen durchführen."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 24.8.1980 +++)"@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "(1)"@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Abkommen gemäß Artikel XI § 44 in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_DL dtd:DL-id45 ;
+    dtd:has_Value "Die Bundesregierung wird ermächtigt, mit Zustimmung des Bundesrates, soweit dies im Interesse der Pflege internationaler Beziehungen erforderlich ist, Rechtsverordnungen zu erlassen 1.über die Anwendung des Abkommens aufa)die Sonderorganisationen der Vereinten Nationen, b)durch zwischenstaatliche Vereinbarungen geschaffene Organisationen, die nicht Sonderorganisationen der Vereinten Nationen sind, c)Einrichtungen anderer Staaten;  2.über die Gewährung diplomatischer Vorrechte und Immunitäten ana)die in Nummer 1 genannten Organisationen und Einrichtungen, b)die Bediensteten dieser Organisationen und Einrichtungen sowie die zum Haushalt der Bediensteten gehörenden Familienmitglieder und privaten Hausangestellten, c)die Vertreter der Mitglieder dieser Organisationen sowie die zum Haushalt der Vertreter gehörenden Familienmitglieder und privaten Hausangestellten, d)die Sachverständigen, die Aufträge für diese Organisationen durchführen.  "@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, wenn das Land Berlin seine Anwendung feststellt. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1)."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1954-06-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id88 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id89 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id75 .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRAbkG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRAbkG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRAbkG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRAbkG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRAbkG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "UNSOrgVorRAbkG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz über den Beitritt der Bundesrepublik Deutschland zum Abkommen über
+die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen
+vom 21. November 1947 und über die Gewährung von Vorrechten und Befreiungen an
+andere zwischenstaatliche Organisationen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132032"@de ;
+    dtd:has_doknr "BJNR206390954"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132032"@de ;
+    dtd:has_doknr "BJNR206390954BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132032"@de ;
+    dtd:has_doknr "BJNR206390954BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132032"@de ;
+    dtd:has_doknr "BJNR206390954BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132032"@de ;
+    dtd:has_doknr "BJNR206390954BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405132032"@de ;
+    dtd:has_doknr "BJNR206390954BJNE000500314"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id88 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id91 ;
+    dtd:has_standtyp dtd:standtyp-id90 .
+
+dtd:standkommentar-id91 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 4 Abs. 1 G v. 16.8.1980 II 941"@de .
+
+dtd:standtyp-id90 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id82 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id86 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:zitstelle-id89 a dtd:zitstelle ;
+    dtd:has_Value "1954, 639"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

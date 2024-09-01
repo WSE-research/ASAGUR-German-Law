@@ -1,0 +1,211 @@
+@prefix dtd: <urn:StVZOAusnV-15#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151617"@de ;
+    dtd:has_doknr "BJNR002630967"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43,
+        dtd:P-id44,
+        dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 10.3.1967 +++)"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 6 Abs. 1 und des § 27 Abs. 3 des Straßenverkehrsgesetzes wird nach Anhören der zuständigen obersten Landesbehörden verordnet:"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "(1) (weggefallen)"@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(2) (weggefallen)"@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(3) Abweichend von § 29 Abs. 1 der Straßenverkehrs-Zulassung Ordnung dürfen an Fahrzeugen der auf Grund des Nordatlantikvertrags errichteten internationalen militärischen Hauptquartiere, soweit die Fahrzeuge ihren regelmäßigen Standort im Geltungsbereich dieser Verordnung haben, auch nach § 16 Abs. 1 des Kraftfahrsachverständigengesetzes vom 22. Dezember 1971 (BGBl. I S. 2086), zuletzt geändert durch Artikel 12 Abs. 80 des Gesetzes vom 14. September 1994 (BGBl. I S. 2325), für den Bereich der Bundeswehr anerkannte Sachverständige oder Prüfer für den Kraftfahrzeugverkehr die Hauptuntersuchungen und Sicherheitsprüfungen durchführen. Abweichend von Nummer 3.2.1 der Anlage VIII der Straßenverkehrs-Zulassungs-Ordnung dürfen Sicherheitsprüfungen an diesen Fahrzeugen auch von geeigneten Werkstätten der Bundeswehr durchgeführt werden."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach ihrer Verkündung in Kraft."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_SP dtd:SP-id37 ;
+    dtd:has_Value "Der Bundesminister für Verkehr"@de .
+
+dtd:SP-id37 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Verkehr"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1967-02-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id50 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id51 .
+
+dtd:fussnoten-id31 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "StVZOAusnV 15"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "StVZOAusnV 15"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "StVZOAusnV 15"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "StVZOAusnV 15"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "StVZOAusnV 15"@de .
+
+dtd:kurzue-id20 a dtd:kurzue ;
+    dtd:has_Value "Fünfzehnte Ausnahmeverordnung zur StVZO"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value """Fünfzehnte Verordnung über Ausnahmen von den Vorschriften der
+Straßenverkehrs-Zulassungs-Ordnung"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id20 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151617"@de ;
+    dtd:has_doknr "BJNR002630967"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151617"@de ;
+    dtd:has_doknr "BJNR002630967BJNE000100312"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151617"@de ;
+    dtd:has_doknr "BJNR002630967BJNE000205308"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151617"@de ;
+    dtd:has_doknr "BJNR002630967BJNE000300312"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625151617"@de ;
+    dtd:has_doknr "BJNR002630967BJNE000400312"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id50 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id53 ;
+    dtd:has_standtyp dtd:standtyp-id52 .
+
+dtd:standkommentar-id53 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 4 V v. 25.4.2006 I 988"@de .
+
+dtd:standtyp-id52 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 .
+
+dtd:zitstelle-id51 a dtd:zitstelle ;
+    dtd:has_Value "1967, 263"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

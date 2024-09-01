@@ -1,0 +1,462 @@
+@prefix dtd: <urn:BierV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:BR-id81 a dtd:BR .
+
+dtd:BR-id82 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101,
+        dtd:P-id102,
+        dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107,
+        dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95,
+        dtd:P-id96,
+        dtd:P-id97 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id99 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DL-id83 a dtd:DL ;
+    dtd:has_DD dtd:DD-id86,
+        dtd:DD-id87 ;
+    dtd:has_DT dtd:DT-id84,
+        dtd:DT-id85 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 1 Abs. 1 oder § 3 Abs. 2 ein Getränk unter einer dort genannten Bezeichnung oder"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 3 Abs. 1 Bier mit einem dort genannten Stammwürzegehalt nicht unter der vorgeschriebenen Bezeichnung"@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "(1) Bier mit einem Stammwürzegehalt von weniger als 7 vom Hundert darf nur unter der Bezeichnung \"Bier mit niedrigem Stammwürzegehalt\", Bier mit einem Stammwürzegehalt von 7 oder mehr als 7, aber weniger als 11 vom Hundert darf nur unter der Bezeichnung \"Schankbier\" gewerbsmäßig in den Verkehr gebracht werden."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(2) Bier darf unter der Bezeichnung \"Starkbier\", \"Bockbier\" oder einer sonstigen Bezeichnung, die den Anschein erweckt, als ob das Bier besonders stark eingebraut sei, gewerbsmäßig nur in den Verkehr gebracht werden, wenn der Stammwürzegehalt 16 vom Hundert oder mehr beträgt."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(3)"@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_DL dtd:DL-id83 ;
+    dtd:has_Value "(1) Nach § 59 Abs. 1 Nr. 21 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches wird bestraft, wer 1.entgegen § 1 Abs. 1 oder § 3 Abs. 2 ein Getränk unter einer dort genannten Bezeichnung oder2.entgegen § 3 Abs. 1 Bier mit einem dort genannten Stammwürzegehalt nicht unter der vorgeschriebenen Bezeichnunggewerbsmäßig in den Verkehr bringt."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(2) Wer eine in Absatz 1 bezeichnete Handlung fahrlässig begeht, handelt nach § 60 Abs. 1 des Lebensmittel- und Futtermittelgesetzbuches ordnungswidrig."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_BR dtd:BR-id76 ;
+    dtd:has_Value " (+++ Textnachweis ab: 7.7.1990 +++)(+++ Maßgaben aufgrund EinigVtr nicht mehr anzuwenden gem. Art. 109 Nr. 4      Buchst. d G v. 8.12.2010 I 1864 mWv 15.12.2010 +++)"@de ;
+    dtd:has_pre dtd:pre-id115 .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_BR dtd:BR-id81,
+        dtd:BR-id82 ;
+    dtd:has_Value "Der Bundesminister für Jugend, Familie, Frauen und Gesundheit verordnet auf Grund des § 12 Abs. 1 Nr. 1 und Abs. 3, des § 16 Abs. 1 Satz 2 und des § 19 Nr. 1 und 4 Buchstabe a und b des Lebensmittel- und Bedarfsgegenständegesetzes vom 15. August 1974 (BGBl. I S. 1945, 1946) im Einvernehmen mit den Bundesministern für Ernährung, Landwirtschaft und Forsten und für Wirtschaft sowie auf Grund des Artikels 4 Abs. 1 Nr. 8 und 9 und Abs. 2 des Gesetzes zur Gesamtreform des Lebensmittelrechts vom 15. August 1974 (BGBl. I S. 1945) auch im Einvernehmen mit dem Bundesminister der Finanzen:"@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "(1) Unter der Bezeichnung Bier - allein oder in Zusammensetzung - oder unter Bezeichnungen oder bildlichen Darstellungen, die den Anschein erwecken, als ob es sich um Bier handelt, dürfen gewerbsmäßig nur Getränke in den Verkehr gebracht werden, die gegoren sind und den Vorschriften des § 9 Abs. 1, 2 und 4 bis 6 des Vorläufigen Biergesetzes und den §§ 16 bis 19, § 20 Abs. 1 Satz 2 und §§ 21 und 22 Abs. 1 der Verordnung zur Durchführung des Vorläufigen Biergesetzes entsprechen."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(2) Abweichend von Absatz 1 dürfen im Ausland hergestellte gegorene Getränke, die nicht den in Absatz 1 genannten Vorschriften entsprechen, unter der Bezeichnung \"Bier\" gewerbsmäßig in den Verkehr gebracht werden, wenn sie im jeweiligen Herstellungsland unter der Bezeichnung \"Bier\" oder einer dieser Bezeichnung entsprechenden Bezeichnung des Lebensmittels verkehrsfähig sind. Sind diesen Getränken zulassungsbedürftige Zusatzstoffe zugesetzt worden, so gilt dies jedoch nur, wenn für diese Zusatzstoffe eine Ausnahmeregelung nach dem Lebensmittel- und Futtermittelgesetzbuch getroffen worden ist."@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "(3) Ein Getränk, bei dem die Gärung unterbrochen ist, gilt ebenfalls als gegoren."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id33 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-07-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id34 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id116 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id117 .
+
+dtd:fussnoten-id59 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id90 .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:fussnoten-id72 a dtd:fussnoten .
+
+dtd:fussnoten-id74 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "BierV"@de .
+
+dtd:langue-id35 a dtd:langue ;
+    dtd:has_Value "Bierverordnung"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id33 ;
+    dtd:has_fundstelle dtd:fundstelle-id34 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_langue dtd:langue-id35 ;
+    dtd:has_standangabe dtd:standangabe-id36 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE000801314"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE001000328"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE000205116"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE000302308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE000401308"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE000502301"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE000602310"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20171016220515"@de ;
+    dtd:has_doknr "BJNR013320990BJNE000901314"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id116 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id115 a dtd:pre ;
+    dtd:has_BR dtd:BR-id77,
+        dtd:BR-id78,
+        dtd:BR-id79,
+        dtd:BR-id80 ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.7.1990 +++)(+++ Maßgaben aufgrund EinigVtr nicht mehr anzuwenden gem. Art. 109 Nr. 4      Buchst. d G v. 8.12.2010 I 1864 mWv 15.12.2010 +++)"@de .
+
+dtd:standangabe-id36 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id119 ;
+    dtd:has_standtyp dtd:standtyp-id118 .
+
+dtd:standkommentar-id119 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 26 V v. 5.7.2017 I 2272"@de .
+
+dtd:standtyp-id118 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id98 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Schutz der Bezeichnung Bier"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Kenntlichmachung der Biergattungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Straftaten und Ordnungswidrigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id117 a dtd:zitstelle ;
+    dtd:has_Value "1990, 1332"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

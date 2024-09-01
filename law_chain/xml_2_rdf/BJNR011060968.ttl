@@ -1,0 +1,204 @@
+@prefix dtd: <urn:Münz5DMBek-1968-10-31#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625145814"@de ;
+    dtd:has_doknr "BJNR011060968"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:ABWFORMAT-id46 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id48 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34,
+        dtd:P-id35,
+        dtd:P-id36,
+        dtd:P-id37,
+        dtd:P-id38,
+        dtd:P-id39,
+        dtd:P-id40,
+        dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des Gesetzes über die Ausprägung von Scheidemünzen vom 8. Juli 1950 (Bundesgesetzbl. S. 323) wird am 11. November 1968 aus Anlaß des 500. Todestages von Johannes Gutenberg, dem Erfinder der beweglichen Letter, eine Bundesmünze (Gedenkmünze) im Nennwert von 5 Deutschen Mark in den Verkehr gebracht. Die Gesamtauflage richtet sich nach dem Bedarf."@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(2) Die Münze besteht aus einer Legierung von 625 Tausendteilen Feinsilber und 375 Tausendteilen Kupfer. Sie hat einen Durchmesser von 29 mm und ein Gewicht von 11,2 Gramm."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(3) Das Gepräge auf beiden Seiten ist erhaben und wird von einem ebenfalls erhabenen glatten Randstab umrahmt, an den sich innen ein Perlkranz anschließt."@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(4) Die Wertseite zeigt in der Mitte den Bundesadler und beiderseits der Schwanzfedern unterhalb der gespreizten Fänge die geteilte Jahreszahl 1968. Die Umschrift lautet: \". BUNDESREPUBLIK DEUTSCHLAND . DEUTSCHE 5 MARK\". Der Buchstabe G, das Münzzeichen der Staatlichen Münze Karlsruhe, ist in dem Bogen der Wertziffer 5 angebracht."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id46 ;
+    dtd:has_Value "(5) Die Bildseite zeigt das Kopfbild Gutenbergs mit der Umschrift: \". JOHANNES GUTENBERG . gest. 1468\"."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(6) Der glatte Münzrand ist mit der vertieften Inschrift versehen: \". GESEGNET SEI - WER DIE SCHRIFT ERFAND .\"."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(7) Der Entwurf der Münze stammt von Frau Doris Waschke-Balz, Hamburg."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(8) Dies wird namens der Bundesregierung bekanntgemacht."@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_SP dtd:SP-id30 ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id48 ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung) Fundstelle: BGBl I 1968, 1106"@de ;
+    dtd:has_kommentar dtd:kommentar-id47 .
+
+dtd:SP-id30 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1968-10-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1968-10-31"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1968-10-31"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1968-10-31"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "Münz5DMBek 1968-10-31"@de .
+
+dtd:kommentar-id47 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle: BGBl I 1968, 1106"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 5
+Deutschen Mark (Gutenberg-Gedenkmünze)"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625145814"@de ;
+    dtd:has_doknr "BJNR011060968"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625145814"@de ;
+    dtd:has_doknr "BJNR011060968BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625145814"@de ;
+    dtd:has_doknr "BJNR011060968BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625145814"@de ;
+    dtd:has_doknr "BJNR011060968BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id31 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münze"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "1968, 1106"@de .
+

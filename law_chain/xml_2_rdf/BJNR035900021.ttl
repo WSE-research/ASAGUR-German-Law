@@ -1,0 +1,257 @@
+@prefix dtd: <urn:BEBußAktEV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210324212505"@de ;
+    dtd:has_doknr "BJNR035900021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57,
+        dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DL-id40 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44,
+        dtd:DD-id45,
+        dtd:DD-id46 ;
+    dtd:has_DT dtd:DT-id41,
+        dtd:DT-id42,
+        dtd:DT-id43 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Value "den Verwaltungsbehörden des Bundes, die als Bußgeldbehörden tätig sind,"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Value "dem Generalbundesanwalt beim Bundesgerichtshof und"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Value "dem Bundesgerichtshof."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_BR dtd:BR-id39 ;
+    dtd:has_Value " (+++ Textnachweis ab: 25.3.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id61 .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 110a Absatz 1 Satz 2 und 3 des Gesetzes über Ordnungswidrigkeiten, der durch Artikel 8 Nummer 13 des Gesetzes vom 5. Juli 2017 (BGBl. I S. 2208) neu gefasst worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_DL dtd:DL-id40 ;
+    dtd:has_Value "Diese Verordnung gilt für die Führung elektronischer Bußgeldakten bei 1.den Verwaltungsbehörden des Bundes, die als Bußgeldbehörden tätig sind,2.dem Generalbundesanwalt beim Bundesgerichtshof und3.dem Bundesgerichtshof."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(1) Die Akten können ab dem 25. März 2021 elektronisch geführt werden."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(2) Die Präsidentin oder der Präsident des Bundesgerichtshofs, der Generalbundesanwalt beim Bundesgerichtshof sowie vorbehaltlich des Satzes 2 die jeweilige Leiterin oder der jeweilige Leiter der Verwaltungsbehörden des Bundes, die als Bußgeldbehörden tätig sind, bestimmen jeweils für ihren Bereich durch Verwaltungsanordnung die Verfahren, in denen die Bußgeldakten elektronisch geführt werden. Für die Hauptzollämter bestimmt die Präsidentin oder der Präsident der Generalzolldirektion diese Verfahren. Die Verwaltungsanordnungen sind im Bundesanzeiger bekannt zu machen und auf der Internetseite desjenigen zu veröffentlichen, der sie erlassen hat."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "BEBußAktEV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-03-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BEBußAktEV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BEBußAktEV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "BEBußAktEV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "BEBußAktEV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BEBußAktEV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Bundes-E-Bußgeldakten-Einführungsverordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Verordnung über den Zeitpunkt der Einführung der elektronischen Aktenführung in Bußgeldverfahren im Geschäftsbereich des Bundes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210324212505"@de ;
+    dtd:has_doknr "BJNR035900021"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210324212505"@de ;
+    dtd:has_doknr "BJNR035900021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210324212505"@de ;
+    dtd:has_doknr "BJNR035900021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210324212505"@de ;
+    dtd:has_doknr "BJNR035900021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210324212505"@de ;
+    dtd:has_doknr "BJNR035900021BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id61 a dtd:pre ;
+    dtd:has_Value "(+++ Textnachweis ab: 25.3.2021 +++)"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Einführung der elektronischen Akte"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "2021, 359"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

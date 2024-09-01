@@ -1,0 +1,227 @@
+@prefix dtd: <urn:SGGÄndG-6#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154140"@de ;
+    dtd:has_doknr "BJNR214400001"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47,
+        dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_BR dtd:BR-id41 ;
+    dtd:has_Value " (+++ Textnachweis ab: 2.1.2001 +++)"@de ;
+    dtd:has_pre dtd:pre-id53 .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(1) Für einen Rechtszug, für den am Tag vor dem Inkrafttreten dieses Gesetzes die Gebühr fällig geworden ist oder Kosten gemäß § 192 des Sozialgerichtsgesetzes auferlegt worden sind, gelten die §§ 184 bis 187 und 192 des Sozialgerichtsgesetzes und die Rechtsverordnung nach § 184 Abs. 2 des Sozialgerichtsgesetzes in der bisherigen Fassung. Für Verfahren nach § 197a des Sozialgerichtsgesetzes, die vor dem Inkrafttreten dieses Gesetzes rechtshängig waren, gilt § 183 des Sozialgerichtsgesetzes in der bisherigen Fassung."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(2) Artikel 1 Nr. 50 und 54 gilt nicht für Verfahren, in denen die angefochtene Entscheidung vor Inkrafttreten der Änderung verkündet, zugestellt oder bekannt gegeben wurde."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Arbeit und Sozialordnung kann den Wortlaut des Sozialgerichtsgesetzes in der beim Inkrafttreten dieses Gesetzes geltenden Fassung im Bundesgesetzblatt bekannt machen."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "... Im Übrigen tritt dieses Gesetz am 2. Januar 2002 in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "6. SGGÄndG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-08-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 1 bis 16"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 17"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 18"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Art 19"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id54 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id55 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:fussnoten-id36 a dtd:fussnoten .
+
+dtd:fussnoten-id40 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "SGGÄndG 6"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "SGGÄndG 6"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "SGGÄndG 6"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "SGGÄndG 6"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "SGGÄndG 6"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Sechstes Gesetz zur Änderung des Sozialgerichtsgesetzes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154140"@de ;
+    dtd:has_doknr "BJNR214400001"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154140"@de ;
+    dtd:has_doknr "BJNR214400001BJNE000101310"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154140"@de ;
+    dtd:has_doknr "BJNR214400001BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154141"@de ;
+    dtd:has_doknr "BJNR214400001BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625154141"@de ;
+    dtd:has_doknr "BJNR214400001BJNE000400305"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id54 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id53 a dtd:pre ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43 ;
+    dtd:has_Value "(+++ Textnachweis ab: 2.1.2001 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id57 ;
+    dtd:has_standtyp dtd:standtyp-id56 .
+
+dtd:standkommentar-id57 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 9 Abs. 8 G v. 10.12.2001 I 3422"@de .
+
+dtd:standtyp-id56 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Übergangsregelungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Neufassung des Sozialgerichtsgesetzes"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id55 a dtd:zitstelle ;
+    dtd:has_Value "2001, 2144"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

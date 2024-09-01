@@ -1,0 +1,481 @@
+@prefix dtd: <urn:DollBBerAbk2G#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101,
+        dtd:P-id102,
+        dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107,
+        dtd:P-id108,
+        dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92 .
+
+dtd:Content-id93 a dtd:Content ;
+    dtd:has_P dtd:P-id94,
+        dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id97,
+        dtd:P-id98,
+        dtd:P-id99 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id81 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id82 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DL-id68 a dtd:DL ;
+    dtd:has_DD dtd:DD-id75,
+        dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80 ;
+    dtd:has_DT dtd:DT-id69,
+        dtd:DT-id70,
+        dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Soweit nach diesen Gesetzen der Zeitpunkt ihres Inkrafttretens maßgebend ist, tritt an dessen Stelle der Zeitpunkt des Inkrafttretens dieses Gesetzes."@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Schuldverschreibungen, für die keine Lieferbarkeitsbescheinigungen ausgestellt sind, gelten im Geltungsbereich dieses Gesetzes als kraftlos. Vom Tag der Bekanntmachung der rechtskräftigen Feststellung durch die Kammer für Wertpapierbereinigung an dürfen Lieferbarkeitsbescheinigungen nicht mehr ausgestellt werden."@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Für die Bereinigung von Schuldverschreibungen, die von dem im Verzeichnis unter Nummer 1 genannten Aussteller ausgegeben worden sind, gelten die in dem Verzeichnis genannten Garanten als Aussteller."@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Als Prüfstelle kann ein Kreditinstitut im Geltungsbereich dieses Gesetzes benannt werden."@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zuständigkeiten, die nach dem Wertpapierbereinigungsgesetz von dem Sitz des Ausstellers abhängen, richten sich nach dem Sitz der Prüfstelle."@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Schuldverschreibungen gelten für das Bereinigungsverfahren als fällig im Sinne des § 1 des Zweiten Gesetzes zur Änderung und Ergänzung des Wertpapierbereinigungsgesetzes; §§ 11, 12, 13, 19 des Zweiten Gesetzes zur Änderung und Ergänzung des Wertpapierbereinigungsgesetzes sind nicht anzuwenden."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "(1) Auslandsbonds, für die nach §§ 4, 37 des Bereinigungsgesetzes für deutsche Auslandsbonds ein Feststellungsbescheid beansprucht wird, können nachträglich angemeldet werden, wenn die Versäumung der Anmeldefristen (§ 37 Abs. 2 in Verbindung mit § 21 Abs. 1 des Bereinigungsgesetzes für deutsche Auslandsbonds) nicht auf eigener grober Fahrlässigkeit des Anmeldeberechtigten beruht. Ist eine frühere Anmeldung wegen Fristversäumung abgelehnt worden, so kann die Anmeldung unter der in Satz 1 genannten Voraussetzung wiederholt werden."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(2) Entschädigungsansprüche aus Feststellungsbescheiden, die auf eine nachträgliche Anmeldung nach Absatz 1 erteilt werden, können nicht geltend gemacht werden, soweit dies zu einer Beeinträchtigung der Entschädigungsansprüche nach §§ 52 bis 54 des Bereinigungsgesetzes für deutsche Auslandsbonds führen würde. Sie sind insoweit ausgeschlossen, als ihre Berücksichtigung den Aussteller nach § 53 Abs. 2 oder nach § 54 Abs. 2 des Bereinigungsgesetzes für deutsche Auslandsbonds zu Kürzungen berechtigen würde; ein Ausschluß des Kürzungsrechts nach § 6 Abs. 1 des Auslandsbonds-Entschädigungsgesetzes bleibt dabei außer Betracht."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(3) Für die in Absatz 2 genannten Entschädigungsansprüche gelten die Vorschriften des Auslandsbonds-Entschädigungsgesetzes über Entschädigungsansprüche aus Feststellungsbescheiden mit Ausnahme der §§ 6, 9 und mit der Maßgabe, daß die Leistungspflicht des Ausstellers frühestens zwei Monate nach Rechtskraft des Feststellungsbescheids beginnt; § 13 des Auslandsbonds-Entschädigungsgesetzes gilt entsprechend."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_DL dtd:DL-id68 ;
+    dtd:has_Value "(1) Für Schuldverschreibungen, die von den im Verzeichnis zu Artikel I Abs. 1 des Abkommens genannten Ausstellern vor dem 9. Mai 1945 in deutscher Währung ausgegeben worden sind, gelten die in § 27 des Dritten Gesetzes zur Änderung und Ergänzung des Wertpapierbereinigungsgesetzes vom 16. November 1956 (Bundesgesetzbl. I S. 850) bezeichneten Wertpapierbereinigungsgesetze sinngemäß mit folgenden Maßgaben: 1.Soweit nach diesen Gesetzen der Zeitpunkt ihres Inkrafttretens maßgebend ist, tritt an dessen Stelle der Zeitpunkt des Inkrafttretens dieses Gesetzes.2.Schuldverschreibungen, für die keine Lieferbarkeitsbescheinigungen ausgestellt sind, gelten im Geltungsbereich dieses Gesetzes als kraftlos. Vom Tag der Bekanntmachung der rechtskräftigen Feststellung durch die Kammer für Wertpapierbereinigung an dürfen Lieferbarkeitsbescheinigungen nicht mehr ausgestellt werden.3.Für die Bereinigung von Schuldverschreibungen, die von dem im Verzeichnis unter Nummer 1 genannten Aussteller ausgegeben worden sind, gelten die in dem Verzeichnis genannten Garanten als Aussteller.4.Als Prüfstelle kann ein Kreditinstitut im Geltungsbereich dieses Gesetzes benannt werden.5.Zuständigkeiten, die nach dem Wertpapierbereinigungsgesetz von dem Sitz des Ausstellers abhängen, richten sich nach dem Sitz der Prüfstelle.6.Die Schuldverschreibungen gelten für das Bereinigungsverfahren als fällig im Sinne des § 1 des Zweiten Gesetzes zur Änderung und Ergänzung des Wertpapierbereinigungsgesetzes; §§ 11, 12, 13, 19 des Zweiten Gesetzes zur Änderung und Ergänzung des Wertpapierbereinigungsgesetzes sind nicht anzuwenden."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(2) Für Schuldverschreibungen, die von dem im Verzeichnis unter Nummer 1 genannten Aussteller ausgegeben worden sind, gelten auch die Vorschriften des Dritten Gesetzes zur Änderung und Ergänzung des Wertpapierbereinigungsgesetzes über Nachanmeldungen sinngemäß."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(3) Die Bundesregierung kann durch Rechtsverordnung, die nicht der Zustimmung des Bundesrates bedarf, die Vorschriften dieses Artikels auf vor dem 9. Mai 1945 in deutscher Währung ausgegebene Schuldverschreibungen anderer juristischer Personen ausdehnen, die am 8. Mai 1945 ihren Sitz im Deutschen Reich innerhalb seiner Grenzen vom 31. Dezember 1937 gehabt haben und für deren Schuldverschreibungen die Voraussetzungen für eine Bereinigung nicht gegeben sind. Eine Rechtsverordnung nach Satz 1 darf nur erlassen werden, wenn verwertbares Vermögen der Aussteller im Geltungsbereich dieses Gesetzes festgestellt wird, dessen Umfang Bereinigungsmaßnahmen erforderlich erscheinen läßt, oder wenn Bereinigungsmaßnahmen aus anderen Gründen wirtschaftlich geboten sind. In der Rechtsverordnung ist zu bestimmen, daß an die Stelle des in Absatz 1 Nr. 1 genannten Zeitpunktes des Inkrafttretens dieses Gesetzes der Zeitpunkt des Inkrafttretens der Rechtsverordnung tritt."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt. Rechtsverordnungen, die auf Grund dieses Gesetzes erlassen werden, gelten im Land Berlin nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1)."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt mit Ausnahme der Artikel 2, 4 und 5 am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(2) Artikel 2 und 5 treten am gleichen Tage in Kraft, an dem das Abkommen in Kraft tritt."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(3) Artikel 4 tritt, soweit er die nachträgliche Erteilung von Feststellungsbescheiden für Arten von Auslandsbonds betrifft, als deren Begebungsland im Verzeichnis der Auslandsbonds (Anlage zu § 1 Abs. 1 des Bereinigungsgesetzes für deutsche Auslandsbonds, ergänzt durch § 1 der Ersten Durchführungsverordnung zum Bereinigungsgesetz vom 21. Februar 1953 - Bundesgesetzbl. I S. 31) die Vereinigten Staaten von Amerika angegeben sind, zu dem in Absatz 2 genannten Zeitpunkt, im übrigen zu dem in Absatz 1 genannten Zeitpunkt in Kraft."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(4)"@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++)"@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "Dem in Bonn am 16. August 1960 unterzeichneten Zweiten Abkommen zwischen der Bundesrepublik Deutschland und den Vereinigten Staaten von Amerika über gewisse Angelegenheiten, die sich aus der Bereinigung deutscher Dollarbonds ergeben, wird zugestimmt. Das Abkommen wird nachstehend veröffentlicht."@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_Value "(1) Für Dollarbonds, die im Verzeichnis zu Artikel I Abs. 1 des Abkommens aufgeführt sind, gelten die Vorschriften der Dreizehnten Durchführungsverordnung zum Bereinigungsgesetz für deutsche Auslandsbonds (Endgültige Verwaltungsabgabe) vom 10. November 1959 (Bundesgesetzbl. I S. 682) mit der Maßgabe, daß die von den Ausstellern nach § 1 dieser Verordnung zu entrichtende Verwaltungsabgabe für das Bereinigungsverfahren vier vom Hundert des Bemessungsbetrages beträgt; für Dollarbonds, die im Verzeichnis unter Nummer 1 aufgeführt sind, ist die Verwaltungsabgabe von den Garanten zu entrichten."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "(2) Für Dollarbonds, die in dem in Absatz 1 genannten Verzeichnis unter Nummer 1 aufgeführt sind, gelten die Vorschriften des Auslandsbonds-Entschädigungsgesetzes vom 10. März 1960 (Bundesgesetzbl. I S. 177) mit der Maßgabe, daß die Leistungspflicht gegenüber Entschädigungsberechtigten (§ 5 Abs. 1 des Auslandsbonds-Entschädigungsgesetzes) zwei Monate nach Ablauf der Anmeldefrist, frühestens jedoch zwei Monate nach Abgabe des Regelungsangebotes der Garanten beginnt."@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "(1) Über das im Geltungsbereich dieses Gesetzes befindliche Vermögen von juristischen Personen, die am 8. Mai 1945 ihren Sitz im Deutschen Reich innerhalb seiner Grenzen vom 31. Dezember 1937 gehabt haben und die im Geltungsbereich dieses Gesetzes weder eine gewerbliche Niederlassung noch einen allgemeinen Gerichtsstand haben, findet ein Konkursverfahren auch dann statt, wenn die Voraussetzungen des § 238 Abs. 2 der Konkursordnung nicht gegeben sind. Für das Verfahren ist das Amtsgericht ausschließlich zuständig, in dessen Bezirk sich das Vermögen befindet."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(2) Vorschriften, die eine Inanspruchnahme des Schuldners wegen seiner Verbindlichkeiten bis auf weiteres ausschließen, bleiben unberührt."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(3) Die Kosten der Bereinigung, die von den Ausstellern von Auslandsbonds nach §§ 63, 64 des Bereinigungsgesetzes für deutsche Auslandsbonds vom 25. August 1952 (Bundesgesetzbl. I S. 553) zu tragen sind, gelten im Falle der Konkurseröffnung über das Vermögen der Aussteller als Massekosten im Sinne des § 58 Nr. 2 der Konkursordnung."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1961-04-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "Art 7"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "Art 8"@de .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id117 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id118 .
+
+dtd:fussnoten-id57 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id89 .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:fussnoten-id67 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "DollBBerAbk2G"@de .
+
+dtd:langue-id32 a dtd:langue ;
+    dtd:has_Value """Gesetz zum Zweiten Abkommen vom 16. August 1960 zwischen der
+Bundesrepublik Deutschland und den Vereinigten Staaten von Amerika über gewisse
+Angelegenheiten, die sich aus der Bereinigung deutscher Dollarbonds ergeben"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_langue dtd:langue-id32 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961BJNE000800306"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961BJNE000100306"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961BJNE000200306"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961BJNE000300306"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961BJNE000400306"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961BJNE000500306"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961BJNE000600306"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20180227214003"@de ;
+    dtd:has_doknr "BJNR204610961BJNE000700306"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id117 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id93 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id96 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Zustimmung zum Abkommen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Durchführungsvorschriften zum Abkommen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Konkursrechtliche Vorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Nachträgliche Erteilung von Feststellungsbescheiden"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value """Vorschriften für auf deutsche Währung lautende
+Schuldverschreibungen"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Land Berlin"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id118 a dtd:zitstelle ;
+    dtd:has_Value "1961, 461"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

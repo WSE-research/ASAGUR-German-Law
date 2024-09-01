@@ -1,0 +1,460 @@
+@prefix dtd: <urn:StiftEinsatzMedBWErl-2022#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220429213007"@de ;
+    dtd:has_doknr "BJNR067900022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87 .
+
+dtd:Content-id88 a dtd:Content ;
+    dtd:has_P dtd:P-id89,
+        dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92,
+        dtd:P-id93,
+        dtd:P-id94,
+        dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id100,
+        dtd:P-id101,
+        dtd:P-id102,
+        dtd:P-id103,
+        dtd:P-id97,
+        dtd:P-id98,
+        dtd:P-id99 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id77 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id78 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id79 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id80 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id81 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id82 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id74,
+        dtd:DD-id75,
+        dtd:DD-id76 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Medaille ist aus goldfarbenem Metall und hat einen schwarz-roten Rand."@de .
+
+dtd:LA-id78 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Der Bundesadler auf der Vorderseite der Medaille ist schwarz emailliert."@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die goldfarbene Spange trägt in schwarzer Schrift die Bezeichnung „Gefecht“."@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Einsatzmedaille in Bronze mindestens 30 Tage,"@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Einsatzmedaille in Silber mindestens 360 Tage und"@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Einsatzmedaille in Gold mindestens 690 Tage."@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die auszuzeichnende Person hat mindestens einmal aktiv an Gefechtshandlungen teilgenommen oder unter hoher persönlicher Gefährdung terroristische oder militärische Gewalt erlitten."@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Dienstzeiten nach Absatz 1 Satz 1 müssen für die Verleihung der Einsatzmedaille der Stufe „Gefecht“ nicht erfüllt sein."@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Einsatzmedaille der Stufe „Gefecht“ wird nur einmal verliehen."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "(4) Die Einsatzmedaillen gehen in das Eigentum der Beliehenen über."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "(5) Die Beliehenen erhalten eine Verleihungsurkunde mit der Unterschrift der Bundesministerin oder des Bundesministers der Verteidigung; die Verleihungsurkunde trägt das kleine Bundessiegel."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(6) Die Einsatzmedaille kann auch nach dem Tod verliehen werden."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(7) Die Bundesministerin oder der Bundesminister der Verteidigung bestimmt die für die Aushändigung zuständige Stelle."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "Die Einsatzmedaille kann in Ausnahmefällen Angehörigen ausländischer Streitkräfte verliehen werden, wenn sie sich im Rahmen der in Artikel 1 genannten Einsätze oder besonderen Verwendungen besondere Verdienste um die Bundeswehr erworben haben. Einzelheiten regeln die Verfahrenshinweise des Bundesministeriums der Verteidigung. Die Verleihung ist nur im Einvernehmen mit der Bundesministerin oder dem Bundesminister des Auswärtigen zulässig."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "Dieser Erlass tritt am Tag nach der Verkündung in Kraft. Gleichzeitig tritt der Erlass über die Stiftung der Einsatzmedaille der Bundeswehr vom 9. November 2010 (BAnz. S. 3910) außer Kraft."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_SP dtd:SP-id55 ;
+    dtd:has_Value "Die Bundesministerin der Verteidigung"@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_BR dtd:BR-id51 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30.4.2022 +++)(+++ Text des Genehmigungserlasses siehe: OrdensErl7NeufGenErl 2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id110 .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "Als sichtbares Zeichen für die Teilnahme an Einsätzen oder besonderen Verwendungen im Ausland im Rahmen humanitärer, friedenserhaltender oder friedensschaffender Maßnahmen stifte ich für Soldatinnen und Soldaten sowie für zivile Mitarbeiterinnen und Mitarbeiter der Bundeswehr die Einsatzmedaille der Bundeswehr."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "(1) Die Einsatzmedaille der Bundeswehr ist rund und aus bronze-, silber- oder goldfarbenem Metall. Sie trägt auf der Vorderseite den Bundesadler, die Rückseite ist glatt. Der Rand der Medaille und der Adler sind erhaben geprägt. Das schwarz-rot-goldene Medaillenband ist mit einer Spange zur Kennzeichnung des Einsatzes oder der besonderen Verwendung versehen. Die Spange ist entsprechend der Medaille aus bronze-, silber- oder goldfarbenem Metall."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Value "(2) Für die Gestaltung der Einsatzmedaille der weiteren Stufe „Gefecht“ gilt Absatz 1 mit folgenden Maßgaben entsprechend: 1.Die Medaille ist aus goldfarbenem Metall und hat einen schwarz-roten Rand.2.Der Bundesadler auf der Vorderseite der Medaille ist schwarz emailliert.3.Die goldfarbene Spange trägt in schwarzer Schrift die Bezeichnung „Gefecht“."@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_Value "(3) Die Einsatzmedaille der Bundeswehr und die Einsatzmedaille der Stufe „Gefecht“ können in verkleinerter Form und als Bandsteg in den Farben des Medaillenbandes mit aufgesetzter verkleinerter Spange getragen werden."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "(4) Die Einsatzmedaille nach Absatz 1 wird nur in der höchsten für den jeweiligen Einsatz oder die jeweilige besondere Verwendung zuerkannten Stufe getragen. Die Einsatzmedaille der Stufe „Gefecht“ nach Absatz 2 darf neben der Einsatzmedaille nach Absatz 1 getragen werden."@de .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Value "(1) Voraussetzung für die Verleihung der Einsatzmedaille der Bundeswehr nach Artikel 2 Absatz 1 sind folgende Dienstzeiten im Rahmen der in Artikel 1 genannten Einsätze oder besonderen Verwendungen: 1.für die Einsatzmedaille in Bronze mindestens 30 Tage,2.für die Einsatzmedaille in Silber mindestens 360 Tage und3.für die Einsatzmedaille in Gold mindestens 690 Tage.Berücksichtigt werden nur Dienstzeiten nach dem 31. Oktober 1991. Der Dienst muss nicht zusammenhängend geleistet worden sein. Die Verleihung an Personen, die die zeitlichen Voraussetzungen nicht erfüllen, ist in besonderen Ausnahmefällen im Einvernehmen mit der Chefin oder dem Chef des Bundespräsidialamtes möglich."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Value "(2) Für die Verleihung der Einsatzmedaille der Stufe „Gefecht“ nach Artikel 2 Absatz 2 gelten folgende Maßgaben: 1.Die auszuzeichnende Person hat mindestens einmal aktiv an Gefechtshandlungen teilgenommen oder unter hoher persönlicher Gefährdung terroristische oder militärische Gewalt erlitten.2.Die Dienstzeiten nach Absatz 1 Satz 1 müssen für die Verleihung der Einsatzmedaille der Stufe „Gefecht“ nicht erfüllt sein.3.Die Einsatzmedaille der Stufe „Gefecht“ wird nur einmal verliehen."@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "(3) Für die Auszeichnung vorbestrafter Personen gelten die Ausführungsbestimmungen zum Statut des Verdienstordens der Bundesrepublik Deutschland in der Fassung der Bekanntmachung vom 5. September 1983 (GMBl 1983 S. 389) entsprechend. Bei Pflichtverletzungen während der Einsätze oder der besonderen Verwendungen kann die Verleihung ausgeschlossen werden."@de .
+
+dtd:SP-id55 a dtd:SP ;
+    dtd:has_Value "Die Bundesministerin der Verteidigung"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-01-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id111 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id112 .
+
+dtd:fussnoten-id44 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id86 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "StiftEinsatzMedBWErl 2022"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "StiftEinsatzMedBWErl 2022"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "StiftEinsatzMedBWErl 2022"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "StiftEinsatzMedBWErl 2022"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "StiftEinsatzMedBWErl 2022"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "StiftEinsatzMedBWErl 2022"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "StiftEinsatzMedBWErl 2022"@de .
+
+dtd:langue-id26 a dtd:langue ;
+    dtd:has_Value "Erlass über die Stiftung der Einsatzmedaille der Bundeswehr vom 27. Januar 2022"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220429213007"@de ;
+    dtd:has_doknr "BJNR067900022"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220429213007"@de ;
+    dtd:has_doknr "BJNR067900022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220429213007"@de ;
+    dtd:has_doknr "BJNR067900022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220429213007"@de ;
+    dtd:has_doknr "BJNR067900022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220429213007"@de ;
+    dtd:has_doknr "BJNR067900022BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220429213007"@de ;
+    dtd:has_doknr "BJNR067900022BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20220429213007"@de ;
+    dtd:has_doknr "BJNR067900022BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id111 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id110 a dtd:pre ;
+    dtd:has_BR dtd:BR-id52,
+        dtd:BR-id53,
+        dtd:BR-id54 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.4.2022 +++)(+++ Text des Genehmigungserlasses siehe: OrdensErl7NeufGenErl 2022 +++)"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id88 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id96 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Stiftung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Gestaltung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Verleihung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Ausnahmeregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id112 a dtd:zitstelle ;
+    dtd:has_Value "2022, 679"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,368 @@
+@prefix dtd: <urn:BKOrgErl-2018#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20180320214501"@de ;
+    dtd:has_doknr "BJNR037400018"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88,
+        dtd:P-id89 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DL-id65 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id66,
+        dtd:DT-id67 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Value "aus dem Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit die Zuständigkeiten für Bauwesen, Bauwirtschaft und Bundesbauten, für Stadtentwicklung, Wohnen, Ländliche Infrastruktur und öffentliches Baurecht, für die Stadtentwicklungsangelegenheiten der Raumordnung sowie für den demografischen Wandel;"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Value "aus dem Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur die Zuständigkeiten für Raumordnung, für den Bundesraumordnungsplan Hochwasserschutz, für die Europäische Raumentwicklungspolitik und den territorialen Zusammenhalt sowie für den demografischen Wandel."@de .
+
+dtd:NB-id63 a dtd:NB ;
+    dtd:has_Value "IT-Steuerung"@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_BR dtd:BR-id59 ;
+    dtd:has_Value " (+++ Textnachweis ab: 14.3.2018 +++)"@de ;
+    dtd:has_pre dtd:pre-id92 .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "Gemäß § 9 der Geschäftsordnung der Bundesregierung ordne ich mit sofortiger Wirkung an:"@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit erhält die Bezeichnung Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium des Innern erhält die Bezeichnung Bundesministerium des Innern, für Bau und Heimat."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_DL dtd:DL-id65 ;
+    dtd:has_Value "Dem Bundesministerium des Innern, für Bau und Heimat werden übertragen 1.aus dem Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit die Zuständigkeiten für Bauwesen, Bauwirtschaft und Bundesbauten, für Stadtentwicklung, Wohnen, Ländliche Infrastruktur und öffentliches Baurecht, für die Stadtentwicklungsangelegenheiten der Raumordnung sowie für den demografischen Wandel;2.aus dem Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur die Zuständigkeiten für Raumordnung, für den Bundesraumordnungsplan Hochwasserschutz, für die Europäische Raumentwicklungspolitik und den territorialen Zusammenhalt sowie für den demografischen Wandel."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Die Zuständigkeitsübertragungen schließen deren europäische und internationale Bezüge sowie die Grundsatz- und Planungsangelegenheiten ein."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_NB dtd:NB-id63 ;
+    dtd:has_Value "Dem Bundeskanzleramt werden aus dem Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat die Zuständigkeiten für die IT-Steuerung des Bundes, für die Geschäftsstelle IT-Rat sowie für die Gemeinsame IT des Bundes übertragen."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Die Einzelheiten des Übergangs werden zwischen den beteiligten Mitgliedern der Bundesregierung geregelt und dem Chef des Bundeskanzleramtes mitgeteilt."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "Der Übergang der Zuständigkeiten unter Ziffer III.1. entspricht dabei im Mengengerüst der Vereinbarung vom 22. Mai 2014 zwischen dem Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit und dem Bundesministerium für Verkehr und digitale Infrastruktur zur Umsetzung des Organisationserlasses der Bundeskanzlerin vom 17. Dezember 2013."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_SP dtd:SP-id62 ;
+    dtd:has_Value "Die Bundeskanzlerin"@de .
+
+dtd:SP-id62 a dtd:SP ;
+    dtd:has_Value "Die Bundeskanzlerin"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2018-03-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "III."@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "IV."@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "V."@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "VI."@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id93 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id94 .
+
+dtd:fussnoten-id50 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id72 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "BKOrgErl 2018"@de .
+
+dtd:langue-id32 a dtd:langue ;
+    dtd:has_Value "Organisationserlass der Bundeskanzlerin"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_langue dtd:langue-id32 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:noindex-id64 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20180320214502"@de ;
+    dtd:has_doknr "BJNR037400018BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20180320214501"@de ;
+    dtd:has_doknr "BJNR037400018"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20180320214501"@de ;
+    dtd:has_doknr "BJNR037400018BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20180320214501"@de ;
+    dtd:has_doknr "BJNR037400018BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20180320214502"@de ;
+    dtd:has_doknr "BJNR037400018BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20180320214502"@de ;
+    dtd:has_doknr "BJNR037400018BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20180320214502"@de ;
+    dtd:has_doknr "BJNR037400018BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20180320214502"@de ;
+    dtd:has_doknr "BJNR037400018BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20180320214502"@de ;
+    dtd:has_doknr "BJNR037400018BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id93 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id92 a dtd:pre ;
+    dtd:has_BR dtd:BR-id60,
+        dtd:BR-id61 ;
+    dtd:has_Value "(+++ Textnachweis ab: 14.3.2018 +++)"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id90 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "(Änderungsvorschrift)"@de ;
+    dtd:has_format "XML"@de ;
+    dtd:has_noindex dtd:noindex-id64 .
+
+dtd:zitstelle-id94 a dtd:zitstelle ;
+    dtd:has_Value "2018, 374"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

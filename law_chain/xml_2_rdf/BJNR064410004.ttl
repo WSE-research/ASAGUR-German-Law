@@ -1,0 +1,878 @@
+@prefix dtd: <urn:PauschAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200527212514"@de ;
+    dtd:has_doknr "BJNR064410004"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:ABWFORMAT-id218 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:B-id67 a dtd:B ;
+    dtd:has_Value "1"@de .
+
+dtd:B-id68 a dtd:B ;
+    dtd:has_Value "Kontengruppe 47:"@de .
+
+dtd:B-id69 a dtd:B ;
+    dtd:has_Value "Krankengeld und Beiträge aus Krankengeld"@de .
+
+dtd:B-id70 a dtd:B ;
+    dtd:has_Value "2"@de .
+
+dtd:B-id71 a dtd:B ;
+    dtd:has_Value "Kontengruppe 53:"@de .
+
+dtd:B-id72 a dtd:B ;
+    dtd:has_Value "Empfängnisverhütung, Sterilisation und Schwangerschaftsabbruch"@de .
+
+dtd:B-id73 a dtd:B ;
+    dtd:has_Value "3"@de .
+
+dtd:B-id74 a dtd:B ;
+    dtd:has_Value "Kontengruppe 55:"@de .
+
+dtd:B-id75 a dtd:B ;
+    dtd:has_Value "Leistungen bei Schwangerschaft und Mutterschaft"@de .
+
+dtd:B-id76 a dtd:B ;
+    dtd:has_Value "4"@de .
+
+dtd:B-id77 a dtd:B ;
+    dtd:has_Value "Kontengruppe 56:"@de .
+
+dtd:B-id78 a dtd:B ;
+    dtd:has_Value "Betriebs-, Haushaltshilfe und häusliche Krankenpflege"@de .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:Content-id191 a dtd:Content ;
+    dtd:has_P dtd:P-id192 .
+
+dtd:Content-id193 a dtd:Content ;
+    dtd:has_P dtd:P-id194 .
+
+dtd:Content-id195 a dtd:Content ;
+    dtd:has_P dtd:P-id196,
+        dtd:P-id197 .
+
+dtd:Content-id198 a dtd:Content ;
+    dtd:has_P dtd:P-id199,
+        dtd:P-id200 .
+
+dtd:Content-id201 a dtd:Content ;
+    dtd:has_P dtd:P-id202,
+        dtd:P-id203,
+        dtd:P-id204 .
+
+dtd:Content-id205 a dtd:Content ;
+    dtd:has_P dtd:P-id206,
+        dtd:P-id207,
+        dtd:P-id208,
+        dtd:P-id209,
+        dtd:P-id210,
+        dtd:P-id211 .
+
+dtd:Content-id212 a dtd:Content ;
+    dtd:has_P dtd:P-id213 .
+
+dtd:Content-id214 a dtd:Content ;
+    dtd:has_P dtd:P-id215 .
+
+dtd:DD-id187 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id189 .
+
+dtd:DD-id188 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id190 .
+
+dtd:DL-id184 a dtd:DL ;
+    dtd:has_DD dtd:DD-id187,
+        dtd:DD-id188 ;
+    dtd:has_DT dtd:DT-id185,
+        dtd:DT-id186 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id185 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id186 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id189 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für den Termin 1. Mai ist die in der Vierteljahresrechnung für den Berichtszeitraum 1. Januar bis 31. Dezember des Vorjahres ausgewiesene Summe der Ausgaben nach § 2,"@de .
+
+dtd:LA-id190 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für den Termin 1. November sind der gesamte Abgeltungsbetrag für das Jahr und die in der Vierteljahresrechnung für den Berichtszeitraum 1. Januar bis 30. Juni ausgewiesene Summe der Ausgaben nach § 2"@de .
+
+dtd:P-id192 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id194 a dtd:P ;
+    dtd:has_BR dtd:BR-id60 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 1.2004 +++)Die V wurde als Artikel 1 der V v. 26.4.2004 vom Bundesministerium für Gesundheit und Soziale Sicherung mit Zustimmung des Bundesrates erlassen. Sie ist gem. Art. 3 dieser V mWv 1.1.2004 in Kraft gesetzt."@de ;
+    dtd:has_pre dtd:pre-id216 .
+
+dtd:P-id196 a dtd:P ;
+    dtd:has_Value "(1) Krankenkassen und Spitzenverbände der Krankenkassen im Sinne dieser Verordnung sind die in § 4 Abs. 2 und § 213 Abs. 1 des Fünften Buches Sozialgesetzbuch genannten Körperschaften."@de .
+
+dtd:P-id197 a dtd:P ;
+    dtd:has_Value "(2) Die Mitteilung der Spitzenverbände, wer zentrale Stelle nach § 221 Abs. 1 Satz 2 des Fünften Buches Sozialgesetzbuch ist, erfolgt bis zum 15. April 2004 an das Bundesamt für Soziale Sicherung."@de .
+
+dtd:P-id199 a dtd:P ;
+    dtd:has_Value "(1) Als Ausgaben für versicherungsfremde Leistungen im Sinne dieser Verordnung sind die in der Anlage aufgeführten Ausgaben zu berücksichtigen, soweit sie nach § 37 der Allgemeinen Verwaltungsvorschrift über das Rechnungswesen in der Sozialversicherung in der im Erhebungszeitraum geltenden Fassung und nach Maßgabe der Bestimmungen des Kontenrahmens für die Träger der gesetzlichen Krankenversicherung gebucht wurden."@de .
+
+dtd:P-id200 a dtd:P ;
+    dtd:has_Value "(2) Die Summe der in Absatz 1 genannten Ausgaben ist von den Krankenkassen gesondert in der jeweiligen Vierteljahresrechnung anzugeben. Die in der Vierteljahresrechnung für den Berichtszeitraum 1. Januar bis 31. Dezember ausgewiesene Summe gilt als endgültige Summe für die Berechnung der Verteilung auf die Krankenkassen."@de .
+
+dtd:P-id202 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für Soziale Sicherung legt die Verteilungsquote für die nach § 221 Abs. 1 Satz 1 des Fünften Buches Sozialgesetzbuch vom Bund geleisteten Abgeltungsbeträge fest. Die Verteilungsquote entspricht dem Verhältnis der Summe der in Satz 1 genannten Beträge zur Summe der in § 2 Abs. 2 Satz 2 genannten Ausgaben."@de .
+
+dtd:P-id203 a dtd:P ;
+    dtd:has_DL dtd:DL-id184 ;
+    dtd:has_Value "(2) Für die in § 221 Abs. 1 Satz 1 des Fünften Buches Sozialgesetzbuch genannten Zahlungstermine legt das Bundesamt für Soziale Sicherung eine vorläufige Verteilungsquote mit folgender Maßgabe fest: 1.für den Termin 1. Mai ist die in der Vierteljahresrechnung für den Berichtszeitraum 1. Januar bis 31. Dezember des Vorjahres ausgewiesene Summe der Ausgaben nach § 2,2.für den Termin 1. November sind der gesamte Abgeltungsbetrag für das Jahr und die in der Vierteljahresrechnung für den Berichtszeitraum 1. Januar bis 30. Juni ausgewiesene Summe der Ausgaben nach § 2zugrunde zu legen."@de .
+
+dtd:P-id204 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesamt für Soziale Sicherung teilt die nach den Absätzen 1 und 2 ermittelte Verteilungsquote unverzüglich den Spitzenverbänden der Krankenkassen mit. Die Spitzenverbände stellen sicher, dass die Krankenkassen, für die sie zuständig sind, unverzüglich Kenntnis von der Verteilungsquote erhalten. Das Bundesamt für Soziale Sicherung macht die Verteilungsquote im Bundesanzeiger bekannt."@de .
+
+dtd:P-id206 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für Soziale Sicherung ermittelt für jede Krankenkasse die Höhe des Jahresabgeltungsbetrages, indem die in § 2 Abs. 2 Satz 2 genannte Summe der Ausgaben der jeweiligen Krankenkasse mit der nach § 3 Abs. 1 festgelegten Verteilungsquote vervielfacht wird."@de .
+
+dtd:P-id207 a dtd:P ;
+    dtd:has_Value "(2) Für die Bestimmung der vorläufigen Abgeltungsbeträge gilt Absatz 1 mit der Maßgabe, dass anstelle der in § 2 Abs. 2 Satz 2 genannten Summe für den Termin 1. Mai die in § 3 Abs. 2 Nr. 1 und für den Termin 1. November die in § 3 Abs. 2 Nr. 2 genannte Summe der Ausgaben tritt. Der zum 1. Mai ermittelte vorläufige Abgeltungsbetrag gilt als Abschlag auf den zum 1. November ermittelten vorläufigen Abgeltungsbetrag, der als Abschlag auf den nach Absatz 1 zu ermittelnden Jahresabgeltungsbetrag gilt."@de .
+
+dtd:P-id208 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesamt für Soziale Sicherung leitet die vorläufigen Abgeltungsbeträge jeweils unverzüglich an die zentrale Stelle und teilt dieser die auf die einzelnen Krankenkassen entfallenden Beträge mit. Der Jahresabgeltungsbetrag ist unter Berücksichtigung der geleisteten vorläufigen Abgeltungsbeträge mit den Ausgleichsansprüchen und -verpflichtungen der Krankenkassen in dem für den Zeitraum des gesamten Vorjahres durchzuführenden Ausgleich nach § 17 Abs. 3a Satz 1 der Risikostruktur-Ausgleichsverordnung, bei Nichtdurchführung dieses Ausgleichs im monatlichen Ausgleich (§ 17 der Risikostruktur-Ausgleichsverordnung) für den Monat April des Folgejahres zu verrechnen."@de .
+
+dtd:P-id209 a dtd:P ;
+    dtd:has_Value "(4) Das Nähere über die Weiterleitung der Abgeltungsbeträge an die einzelnen Krankenkassen bestimmt die zentrale Stelle im Einvernehmen mit dem Bundesamt für Soziale Sicherung."@de .
+
+dtd:P-id210 a dtd:P ;
+    dtd:has_Value "(5) Die Krankenkasse weist die Abgeltungsbeträge jeweils gesondert in ihren Geschäfts- und Rechnungsergebnissen aus."@de .
+
+dtd:P-id211 a dtd:P ;
+    dtd:has_Value "(6) Das Bundesamt für Soziale Sicherung kann im Einvernehmen mit den Spitzenverbänden der Krankenkassen das Verteilungsverfahren vereinfachen."@de .
+
+dtd:P-id213 a dtd:P ;
+    dtd:has_Value "Werden nach Abschluss der Ermittlung der Werte nach § 4 Abs. 1 sachliche oder rechnerische Fehler in den Berechnungsgrundlagen festgestellt, berücksichtigt das Bundesamt für Soziale Sicherung diese im nächsten Verteilungsverfahren. Das Nähere regelt das Bundesamt für Soziale Sicherung im Einvernehmen mit den Spitzenverbänden der Krankenkassen."@de .
+
+dtd:P-id215 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id218 ;
+    dtd:has_BR dtd:BR-id63 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2004, 645)Nr.Bezeichnung der Kontengruppe, der Kontenart und des Kontos1Kontengruppe 47:Krankengeld und Beiträge aus Krankengeld1aKonto 4710:Krankengeld bei Betreuung eines kranken Kindes- Mitglieder bis unter 12 Jahre -1bKonto 4715:Krankengeld bei Betreuung eines kranken Kindes- Mitglieder ab 12 Jahre -1cKonto 4720:Krankengeld bei Vorsorgeleistungen und medizinischer Vorsorge für Mütter1dKonto 4730:Krankengeld bei stationären Rehabilitationsleistungen und medizinischer Rehabilitation für Mütter1eKonto 4740:Krankengeld bei Sterilisation und Schwangerschaftsabbruch2Kontengruppe 53:Empfängnisverhütung, Sterilisation und Schwangerschaftsabbruch2aKontenart 530:Ärztliche Beratung und Behandlung2bKontenart 531:Krankenhausbehandlung2cKontenart 532:Arznei- und Verbandmittel2dKontenart 537:Investitionszuschlag nach Art. 14 Abs. 3 GSG2eKontenart 539:Übrige Aufwendungen3Kontengruppe 55:Leistungen bei Schwangerschaft und Mutterschaft3aKontenart 550:Ärztliche Betreuung3bKontenart 551:Hebammenhilfe3cKontenart 552:Stationäre Entbindung3dKontenart 553:Häusliche Pflege wegen Schwangerschaft oder Entbindung3eKontenart 554:Haushaltshilfe wegen Schwangerschaft oder Entbindung3fKontenart 555:Sonstige Sachleistungen3gKontenart 556:Mutterschaftsgeld nach § 200 RVO, § 29 KVLG/Beiträge zur Bundesagentur für Arbeit3hKontenart 559:Investitionszuschlag nach Art. 14 Abs. 3 GSG4Kontengruppe 56:Betriebs-, Haushaltshilfe und häusliche Krankenpflege4aKontenart 564:Gestellte Haushaltshilfe - Regelleistung -4bKontenart 565:Erstattungen für selbst beschaffte Haushaltshilfe- Regelleistung -"@de ;
+    dtd:has_kommentar dtd:kommentar-id217 ;
+    dtd:has_table dtd:table-id79 .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "PauschAV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-04-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id81 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "50"@de .
+
+dtd:colspec-id82 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colwidth "150"@de .
+
+dtd:colspec-id83 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "400"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_Value "Nr."@de .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_Value "Bezeichnung der Kontengruppe, der Kontenart und des Kontos"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_nameend "col3"@de ;
+    dtd:has_namest "col2"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_B dtd:B-id67 ;
+    dtd:has_Value "1"@de .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_B dtd:B-id68 ;
+    dtd:has_Value "Kontengruppe 47:"@de .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_B dtd:B-id69 ;
+    dtd:has_Value "Krankengeld und Beiträge aus Krankengeld"@de .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_Value "1a"@de .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_Value "Konto 4710:"@de .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_BR dtd:BR-id64 ;
+    dtd:has_Value "Krankengeld bei Betreuung eines kranken Kindes- Mitglieder bis unter 12 Jahre -"@de .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_Value "1b"@de .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_Value "Konto 4715:"@de .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_BR dtd:BR-id65 ;
+    dtd:has_Value "Krankengeld bei Betreuung eines kranken Kindes- Mitglieder ab 12 Jahre -"@de .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_Value "1c"@de .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_Value "Konto 4720:"@de .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_Value "Krankengeld bei Vorsorgeleistungen und medizinischer Vorsorge für Mütter"@de .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_Value "1d"@de .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_Value "Konto 4730:"@de .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_Value "Krankengeld bei stationären Rehabilitationsleistungen und medizinischer Rehabilitation für Mütter"@de .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_Value "1e"@de .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_Value "Konto 4740:"@de .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_Value "Krankengeld bei Sterilisation und Schwangerschaftsabbruch"@de .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_B dtd:B-id70 ;
+    dtd:has_Value "2"@de .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_B dtd:B-id71 ;
+    dtd:has_Value "Kontengruppe 53:"@de .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_B dtd:B-id72 ;
+    dtd:has_Value "Empfängnisverhütung, Sterilisation und Schwangerschaftsabbruch"@de .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_Value "2a"@de .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_Value "Kontenart 530:"@de .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_Value "Ärztliche Beratung und Behandlung"@de .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_Value "2b"@de .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_Value "Kontenart 531:"@de .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_Value "Krankenhausbehandlung"@de .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_Value "2c"@de .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_Value "Kontenart 532:"@de .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_Value "Arznei- und Verbandmittel"@de .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_Value "2d"@de .
+
+dtd:entry-id143 a dtd:entry ;
+    dtd:has_Value "Kontenart 537:"@de .
+
+dtd:entry-id144 a dtd:entry ;
+    dtd:has_Value "Investitionszuschlag nach Art. 14 Abs. 3 GSG"@de .
+
+dtd:entry-id145 a dtd:entry ;
+    dtd:has_Value "2e"@de .
+
+dtd:entry-id146 a dtd:entry ;
+    dtd:has_Value "Kontenart 539:"@de .
+
+dtd:entry-id147 a dtd:entry ;
+    dtd:has_Value "Übrige Aufwendungen"@de .
+
+dtd:entry-id148 a dtd:entry ;
+    dtd:has_B dtd:B-id73 ;
+    dtd:has_Value "3"@de .
+
+dtd:entry-id149 a dtd:entry ;
+    dtd:has_B dtd:B-id74 ;
+    dtd:has_Value "Kontengruppe 55:"@de .
+
+dtd:entry-id150 a dtd:entry ;
+    dtd:has_B dtd:B-id75 ;
+    dtd:has_Value "Leistungen bei Schwangerschaft und Mutterschaft"@de .
+
+dtd:entry-id151 a dtd:entry ;
+    dtd:has_Value "3a"@de .
+
+dtd:entry-id152 a dtd:entry ;
+    dtd:has_Value "Kontenart 550:"@de .
+
+dtd:entry-id153 a dtd:entry ;
+    dtd:has_Value "Ärztliche Betreuung"@de .
+
+dtd:entry-id154 a dtd:entry ;
+    dtd:has_Value "3b"@de .
+
+dtd:entry-id155 a dtd:entry ;
+    dtd:has_Value "Kontenart 551:"@de .
+
+dtd:entry-id156 a dtd:entry ;
+    dtd:has_Value "Hebammenhilfe"@de .
+
+dtd:entry-id157 a dtd:entry ;
+    dtd:has_Value "3c"@de .
+
+dtd:entry-id158 a dtd:entry ;
+    dtd:has_Value "Kontenart 552:"@de .
+
+dtd:entry-id159 a dtd:entry ;
+    dtd:has_Value "Stationäre Entbindung"@de .
+
+dtd:entry-id160 a dtd:entry ;
+    dtd:has_Value "3d"@de .
+
+dtd:entry-id161 a dtd:entry ;
+    dtd:has_Value "Kontenart 553:"@de .
+
+dtd:entry-id162 a dtd:entry ;
+    dtd:has_Value "Häusliche Pflege wegen Schwangerschaft oder Entbindung"@de .
+
+dtd:entry-id163 a dtd:entry ;
+    dtd:has_Value "3e"@de .
+
+dtd:entry-id164 a dtd:entry ;
+    dtd:has_Value "Kontenart 554:"@de .
+
+dtd:entry-id165 a dtd:entry ;
+    dtd:has_Value "Haushaltshilfe wegen Schwangerschaft oder Entbindung"@de .
+
+dtd:entry-id166 a dtd:entry ;
+    dtd:has_Value "3f"@de .
+
+dtd:entry-id167 a dtd:entry ;
+    dtd:has_Value "Kontenart 555:"@de .
+
+dtd:entry-id168 a dtd:entry ;
+    dtd:has_Value "Sonstige Sachleistungen"@de .
+
+dtd:entry-id169 a dtd:entry ;
+    dtd:has_Value "3g"@de .
+
+dtd:entry-id170 a dtd:entry ;
+    dtd:has_Value "Kontenart 556:"@de .
+
+dtd:entry-id171 a dtd:entry ;
+    dtd:has_Value "Mutterschaftsgeld nach § 200 RVO, § 29 KVLG/Beiträge zur Bundesagentur für Arbeit"@de .
+
+dtd:entry-id172 a dtd:entry ;
+    dtd:has_Value "3h"@de .
+
+dtd:entry-id173 a dtd:entry ;
+    dtd:has_Value "Kontenart 559:"@de .
+
+dtd:entry-id174 a dtd:entry ;
+    dtd:has_Value "Investitionszuschlag nach Art. 14 Abs. 3 GSG"@de .
+
+dtd:entry-id175 a dtd:entry ;
+    dtd:has_B dtd:B-id76 ;
+    dtd:has_Value "4"@de .
+
+dtd:entry-id176 a dtd:entry ;
+    dtd:has_B dtd:B-id77 ;
+    dtd:has_Value "Kontengruppe 56:"@de .
+
+dtd:entry-id177 a dtd:entry ;
+    dtd:has_B dtd:B-id78 ;
+    dtd:has_Value "Betriebs-, Haushaltshilfe und häusliche Krankenpflege"@de .
+
+dtd:entry-id178 a dtd:entry ;
+    dtd:has_Value "4a"@de .
+
+dtd:entry-id179 a dtd:entry ;
+    dtd:has_Value "Kontenart 564:"@de .
+
+dtd:entry-id180 a dtd:entry ;
+    dtd:has_Value "Gestellte Haushaltshilfe - Regelleistung -"@de .
+
+dtd:entry-id181 a dtd:entry ;
+    dtd:has_Value "4b"@de .
+
+dtd:entry-id182 a dtd:entry ;
+    dtd:has_Value "Kontenart 565:"@de .
+
+dtd:entry-id183 a dtd:entry ;
+    dtd:has_BR dtd:BR-id66 ;
+    dtd:has_Value "Erstattungen für selbst beschaffte Haushaltshilfe- Regelleistung -"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id219 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id220 .
+
+dtd:fussnoten-id49 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id193 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id54 a dtd:fussnoten .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "PauschAV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "PauschAV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "PauschAV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "PauschAV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "PauschAV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "PauschAV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "PauschAV"@de .
+
+dtd:kommentar-id217 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2004, 645)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Pauschal-Abgeltungsverordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Verteilung der pauschalen Abgeltung für
+Aufwendungen der Krankenkassen für versicherungsfremde Leistungen
+durch den Bund"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200527212514"@de ;
+    dtd:has_doknr "BJNR064410004"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200527212514"@de ;
+    dtd:has_doknr "BJNR064410004BJNE000101126"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200527212514"@de ;
+    dtd:has_doknr "BJNR064410004BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200527212514"@de ;
+    dtd:has_doknr "BJNR064410004BJNE000301126"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200527212514"@de ;
+    dtd:has_doknr "BJNR064410004BJNE000401126"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200527212514"@de ;
+    dtd:has_doknr "BJNR064410004BJNE000501126"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200527212514"@de ;
+    dtd:has_doknr "BJNR064410004BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id219 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id216 a dtd:pre ;
+    dtd:has_BR dtd:BR-id61,
+        dtd:BR-id62 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.2004 +++)"@de .
+
+dtd:row-id100 a dtd:row ;
+    dtd:has_entry dtd:entry-id154,
+        dtd:entry-id155,
+        dtd:entry-id156 .
+
+dtd:row-id101 a dtd:row ;
+    dtd:has_entry dtd:entry-id157,
+        dtd:entry-id158,
+        dtd:entry-id159 .
+
+dtd:row-id102 a dtd:row ;
+    dtd:has_entry dtd:entry-id160,
+        dtd:entry-id161,
+        dtd:entry-id162 .
+
+dtd:row-id103 a dtd:row ;
+    dtd:has_entry dtd:entry-id163,
+        dtd:entry-id164,
+        dtd:entry-id165 .
+
+dtd:row-id104 a dtd:row ;
+    dtd:has_entry dtd:entry-id166,
+        dtd:entry-id167,
+        dtd:entry-id168 .
+
+dtd:row-id105 a dtd:row ;
+    dtd:has_entry dtd:entry-id169,
+        dtd:entry-id170,
+        dtd:entry-id171 .
+
+dtd:row-id106 a dtd:row ;
+    dtd:has_entry dtd:entry-id172,
+        dtd:entry-id173,
+        dtd:entry-id174 .
+
+dtd:row-id107 a dtd:row ;
+    dtd:has_entry dtd:entry-id175,
+        dtd:entry-id176,
+        dtd:entry-id177 .
+
+dtd:row-id108 a dtd:row ;
+    dtd:has_entry dtd:entry-id178,
+        dtd:entry-id179,
+        dtd:entry-id180 .
+
+dtd:row-id109 a dtd:row ;
+    dtd:has_entry dtd:entry-id181,
+        dtd:entry-id182,
+        dtd:entry-id183 .
+
+dtd:row-id85 a dtd:row ;
+    dtd:has_entry dtd:entry-id110,
+        dtd:entry-id111 .
+
+dtd:row-id86 a dtd:row ;
+    dtd:has_entry dtd:entry-id112,
+        dtd:entry-id113,
+        dtd:entry-id114 .
+
+dtd:row-id87 a dtd:row ;
+    dtd:has_entry dtd:entry-id115,
+        dtd:entry-id116,
+        dtd:entry-id117 .
+
+dtd:row-id88 a dtd:row ;
+    dtd:has_entry dtd:entry-id118,
+        dtd:entry-id119,
+        dtd:entry-id120 .
+
+dtd:row-id89 a dtd:row ;
+    dtd:has_entry dtd:entry-id121,
+        dtd:entry-id122,
+        dtd:entry-id123 .
+
+dtd:row-id90 a dtd:row ;
+    dtd:has_entry dtd:entry-id124,
+        dtd:entry-id125,
+        dtd:entry-id126 .
+
+dtd:row-id91 a dtd:row ;
+    dtd:has_entry dtd:entry-id127,
+        dtd:entry-id128,
+        dtd:entry-id129 .
+
+dtd:row-id92 a dtd:row ;
+    dtd:has_entry dtd:entry-id130,
+        dtd:entry-id131,
+        dtd:entry-id132 .
+
+dtd:row-id93 a dtd:row ;
+    dtd:has_entry dtd:entry-id133,
+        dtd:entry-id134,
+        dtd:entry-id135 .
+
+dtd:row-id94 a dtd:row ;
+    dtd:has_entry dtd:entry-id136,
+        dtd:entry-id137,
+        dtd:entry-id138 .
+
+dtd:row-id95 a dtd:row ;
+    dtd:has_entry dtd:entry-id139,
+        dtd:entry-id140,
+        dtd:entry-id141 .
+
+dtd:row-id96 a dtd:row ;
+    dtd:has_entry dtd:entry-id142,
+        dtd:entry-id143,
+        dtd:entry-id144 .
+
+dtd:row-id97 a dtd:row ;
+    dtd:has_entry dtd:entry-id145,
+        dtd:entry-id146,
+        dtd:entry-id147 .
+
+dtd:row-id98 a dtd:row ;
+    dtd:has_entry dtd:entry-id148,
+        dtd:entry-id149,
+        dtd:entry-id150 .
+
+dtd:row-id99 a dtd:row ;
+    dtd:has_entry dtd:entry-id151,
+        dtd:entry-id152,
+        dtd:entry-id153 .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id222 ;
+    dtd:has_standtyp dtd:standtyp-id221 .
+
+dtd:standkommentar-id222 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 57 Abs. 25 G v. 12.12.2019 I 2652"@de .
+
+dtd:standtyp-id221 a dtd:standtyp ;
+    dtd:has_Value "Hinweis"@de .
+
+dtd:table-id79 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_tgroup dtd:tgroup-id80 .
+
+dtd:tbody-id84 a dtd:tbody ;
+    dtd:has_row dtd:row-id100,
+        dtd:row-id101,
+        dtd:row-id102,
+        dtd:row-id103,
+        dtd:row-id104,
+        dtd:row-id105,
+        dtd:row-id106,
+        dtd:row-id107,
+        dtd:row-id108,
+        dtd:row-id109,
+        dtd:row-id85,
+        dtd:row-id86,
+        dtd:row-id87,
+        dtd:row-id88,
+        dtd:row-id89,
+        dtd:row-id90,
+        dtd:row-id91,
+        dtd:row-id92,
+        dtd:row-id93,
+        dtd:row-id94,
+        dtd:row-id95,
+        dtd:row-id96,
+        dtd:row-id97,
+        dtd:row-id98,
+        dtd:row-id99 .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id191 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id195 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id198 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id201 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id205 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id212 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id214 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:tgroup-id80 a dtd:tgroup ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id81,
+        dtd:colspec-id82,
+        dtd:colspec-id83 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id84 .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Verfahrensbeteiligte und zentrale Stelle"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Zu berücksichtigende Ausgaben"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Verteilungsquote"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Verteilungsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Korrekturverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "(zu § 2 Abs. 1)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id220 a dtd:zitstelle ;
+    dtd:has_Value "2004, 644"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

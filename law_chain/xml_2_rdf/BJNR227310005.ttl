@@ -1,0 +1,555 @@
+@prefix dtd: <urn:GrSiDAV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103,
+        dtd:P-id104,
+        dtd:P-id105,
+        dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110,
+        dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116,
+        dtd:P-id117,
+        dtd:P-id118,
+        dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121,
+        dtd:P-id122,
+        dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127,
+        dtd:P-id128,
+        dtd:P-id129,
+        dtd:P-id130,
+        dtd:P-id131,
+        dtd:P-id132 .
+
+dtd:DD-id75 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DL-id72 a dtd:DL ;
+    dtd:has_DD dtd:DD-id75,
+        dtd:DD-id76 ;
+    dtd:has_DT dtd:DT-id73,
+        dtd:DT-id74 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id77 a dtd:DL ;
+    dtd:has_DD dtd:DD-id80,
+        dtd:DD-id81 ;
+    dtd:has_DT dtd:DT-id78,
+        dtd:DT-id79 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id82 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86 ;
+    dtd:has_DT dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id87 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91 ;
+    dtd:has_DT dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "übermittelt der Bundesagentur für Arbeit (als Träger der Arbeitsförderung), der Deutschen Rentenversicherung Knappschaft-Bahn-See, der Deutschen Post AG (für die übrigen Träger der Rentenversicherung und der Unfallversicherung), dem Bundeszentralamt für Steuern und der Zentralen Zulagenstelle für Altersvermögen (Auskunftstellen) bis zum Ende des ersten Monats, der auf den Abgleichszeitraum folgt, die Anfragedatensätze; sie übermittelt dem Bundeszentralamt für Steuern einen um die Daten \"Versicherungsnummer\" und \"Geburtsort\" verminderten Anfragedatensatz,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "veranlasst den Datenabgleich bei der Datenstelle der Rentenversicherung nach § 2 Absatz 6."@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des § 52 Absatz 1 Satz 1 des Zweiten Buches Sozialgesetzbuch bis zum Ende des zweiten Monats und"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des § 52 Absatz 1 Satz 3 des Zweiten Buches Sozialgesetzbuch bis zum Ende des Monats,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Kapitalerträgen, für die ein Freistellungsauftrag erteilt worden ist, und von Namen und Anschrift des Empfängers des Freistellungsauftrags,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von Zinserträgen, die auf Grund der Richtlinie 2003/48/EG des Rates vom 3. Juni 2003 im Bereich der Besteuerung von Zinserträgen (ABl. EU Nr. L 157 S. 38) mitgeteilt wurden."@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Kopfstelle hinsichtlich der ihr von den Auskunftsstellen und der Datenstelle der Rentenversicherung übermittelten Antwortdatensätze,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Bundesagentur für Arbeit und die zugelassenen kommunalen Träger hinsichtlich der ihnen von der Kopfstelle übermittelten Datensätze nach § 1b Abs. 2."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_BR dtd:BR-id69 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11.8.2005 +++)Die V wurde als Artikel 1 der V v. 27.7.2005 I 2273 vom Bundesministerium für Wirtschaft und Arbeit im Einvernehmen mit dem Bundesministerium für Gesundheit und Soziale Sicherung mit Zustimmung des Bundesrates erlassen. Sie ist gem. Art. 3 dieser V am 11.8.2005 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id133 .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesagentur für Arbeit bezieht in den Datenabgleich alle Personen ein, die innerhalb des dem Abgleich vorangehenden Kalendervierteljahres oder in den Fällen des § 52 Absatz 1 Satz 3 des Zweiten Buches Sozialgesetzbuch innerhalb des dem Abgleich vorangehenden Kalendermonats (Abgleichszeitraum) von einem Träger der Grundsicherung für Arbeitsuchende mit Ausnahme der zugelassenen kommunalen Träger Leistungen bezogen haben oder mit Personen, die Leistungen nach dem Zweiten Buch Sozialgesetzbuch bezogen haben, in einer Bedarfsgemeinschaft gelebt haben (Abgleichsfälle). Abweichend von Satz 1 werden in den Abgleich nach § 2 Absatz 4 zum dritten Kalendervierteljahr alle Personen einbezogen, die innerhalb des dem Abgleich vorangegangenen Jahres Leistungen bezogen haben oder mit Personen, die Leistungen nach dem Zweiten Buch Sozialgesetzbuch bezogen haben, in einer Bedarfsgemeinschaft gelebt haben."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "(2) Die Bundesagentur für Arbeit übermittelt der Datenstelle der Rentenversicherung als zentraler Vermittlungsstelle (Kopfstelle) zwischen dem ersten und dem 15. des ersten Monats, der auf den jeweiligen Abgleichszeitraum folgt, für jeden Abgleichsfall einen Anfragedatensatz mit der Kundennummer, der Bedarfsgemeinschaftsnummer, dem Leistungszeitraum und den in § 52 Abs. 2 Nr. 1 bis 4 des Zweiten Buches Sozialgesetzbuch genannten Daten."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(3) Die Bundesagentur für Arbeit unterrichtet innerhalb von zwei Wochen die Stellen, die die Leistungen bewilligt haben, über die Ergebnisse des Datenabgleichs nach § 2. Die Unterrichtung kann unterbleiben, wenn die aktuellen Ergebnisse von gespeicherten Ergebnissen des vorangegangenen Abgleichs nicht oder nur unwesentlich abweichen."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(4) (weggefallen)"@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "Die zugelassenen kommunalen Träger beziehen in den Datenabgleich alle Personen ein, die im Abgleichszeitraum von ihnen Leistungen der Grundsicherung für Arbeitssuchende erhalten haben oder mit Personen, die Leistungen nach dem Zweiten Buch Sozialgesetzbuch bezogen haben, in einer Bedarfsgemeinschaft gelebt haben. § 1 Absatz 1 Satz 2 und Absatz 2 gilt entsprechend."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_DL dtd:DL-id72 ;
+    dtd:has_Value "(1) Die Kopfstelle 1.übermittelt der Bundesagentur für Arbeit (als Träger der Arbeitsförderung), der Deutschen Rentenversicherung Knappschaft-Bahn-See, der Deutschen Post AG (für die übrigen Träger der Rentenversicherung und der Unfallversicherung), dem Bundeszentralamt für Steuern und der Zentralen Zulagenstelle für Altersvermögen (Auskunftstellen) bis zum Ende des ersten Monats, der auf den Abgleichszeitraum folgt, die Anfragedatensätze; sie übermittelt dem Bundeszentralamt für Steuern einen um die Daten \"Versicherungsnummer\" und \"Geburtsort\" verminderten Anfragedatensatz,2.veranlasst den Datenabgleich bei der Datenstelle der Rentenversicherung nach § 2 Absatz 6.Kann eine Versicherungsnummer nicht ermittelt werden, erfolgt die Übermittlung nur, wenn ein Datenabgleich ohne Versicherungsnummer möglich ist."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_DL dtd:DL-id77 ;
+    dtd:has_Value "(2) Die Kopfstelle übermittelt der Bundesagentur für Arbeit und den zugelassenen kommunalen Trägern zu von ihnen übermittelten Anfragedatensätzen die Antwortdatensätze in den Fällen 1.des § 52 Absatz 1 Satz 1 des Zweiten Buches Sozialgesetzbuch bis zum Ende des zweiten Monats und2.des § 52 Absatz 1 Satz 3 des Zweiten Buches Sozialgesetzbuch bis zum Ende des Monats,der auf den Abgleichszeitraum folgt."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(1) Die Auskunftsstellen und die Datenstelle der Rentenversicherung führen den Datenabgleich nach den Absätzen 2 bis 7 durch und übermitteln die Antwortdatensätze bis zum 15. des zweiten Monats, der auf den Abgleichszeitraum folgt, an die Kopfstelle. In den Fällen des § 52 Absatz 1 Satz 3 des Zweiten Buches Sozialgesetzbuch wird ausschließlich der Abgleich nach Absatz 6 mit Ausnahme des Abgleichs mit Leistungen der Grundsicherung für Arbeitsuchende durchgeführt. Die Datenstelle der Rentenversicherung stellt in den Fällen des § 52 Absatz 1 Satz 3 des Zweiten Buches Sozialgesetzbuch der Kopfstelle die Antwortdatensätze bis zum 25. des Monats, der auf den Abgleichszeitraum folgt, bereit. Die Übermittlung der Antwortdatensätze beim Abgleich nach Absatz 4 unterbleibt in Fällen, in denen dem Bundeszentralamt für Steuern Kapitalerträge und Zinserträge von insgesamt weniger als 10 Euro übermittelt worden sind."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(2) Die Deutsche Rentenversicherung Knappschaft-Bahn-See gleicht die ihr übermittelten Daten mit den bei ihr gespeicherten Daten ab zur Feststellung der Dauer des Bezugs und der monatlichen Höhe von laufenden Leistungen und von Einmalzahlungen der gesetzlichen Rentenversicherung im Abgleichszeitraum."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(3) Die Deutsche Post AG gleicht die ihr übermittelten Daten mit den bei ihr gespeicherten Daten ab zur Feststellung der Dauer des Bezugs und der monatlichen Höhe von laufenden Leistungen und von Einmalzahlungen der gesetzlichen Rentenversicherung und der Unfallversicherung im Abgleichszeitraum."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_DL dtd:DL-id82 ;
+    dtd:has_Value "(4) Das Bundeszentralamt für Steuern gleicht die ihm übermittelten Daten mit den bei ihm gespeicherten Daten ab zur Feststellung 1.von Kapitalerträgen, für die ein Freistellungsauftrag erteilt worden ist, und von Namen und Anschrift des Empfängers des Freistellungsauftrags,2.von Zinserträgen, die auf Grund der Richtlinie 2003/48/EG des Rates vom 3. Juni 2003 im Bereich der Besteuerung von Zinserträgen (ABl. EU Nr. L 157 S. 38) mitgeteilt wurden."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(5) Die Zentrale Zulagenstelle für Altersvermögen gleicht die ihr übermittelten Daten mit den bei ihr gespeicherten Daten ab zur Feststellung ob und in welcher Höhe ein Kapital nach § 12 Absatz 2 Satz 1 Nummer 2 des Zweiten Buches Sozialgesetzbuch nicht mehr dem Zweck einer geförderten zusätzlichen Altersvorsorge im Sinne des § 10a oder des Abschnitts XI des Einkommensteuergesetzes dient."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(6) Die Datenstelle der Rentenversicherung gleicht die ihr übermittelten Daten mit den bei ihr gespeicherten Daten ab zur Feststellung von Zeiten einer geringfügigen Beschäftigung und einer versicherungspflichtigen Beschäftigung, zur Feststellung der Betriebsnummer, des Namens und der Anschrift des Arbeitgebers sowie zur Feststellung des Bezugs von Leistungen der Grundsicherung für Arbeitsuchende im Abgleichszeitraum."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(7) Die Bundesagentur für Arbeit gleicht die ihr übermittelten Daten nach § 1b Abs. 1 mit den bei ihr gespeicherten Daten ab zur Feststellung der Dauer des Bezugs und der monatlichen Höhe von laufenden Leistungen und von Einmalzahlungen der Bundesagentur für Arbeit als Träger der Arbeitsförderung im Abgleichszeitraum."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(1) Das für die Datenübermittlung verwendete Übermittlungsmedium und das Übermittlungsverfahren müssen dem Stand der Technik entsprechend den Datenschutz und die Datensicherheit gewährleisten, insbesondere die Vertraulichkeit, die Unversehrtheit und die Zurechenbarkeit der Daten sowie die Authentizität von Absender und Empfänger der Daten. Werden Mängel festgestellt, die eine ordnungsgemäße Übernahme der Daten beeinträchtigen, kann die Übernahme der Daten ganz oder teilweise abgelehnt werden. Der Absender ist über die festgestellten Mängel unter Beachtung der Verfahrensgrundsätze (§ 4) zu unterrichten. Er kann die zurückgewiesenen Datensätze unverzüglich berichtigen und innerhalb des Zeitraumes des § 1 Abs. 2 erneut übermitteln."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_DL dtd:DL-id87 ;
+    dtd:has_Value "(2) Die Auskunftsstellen und die Datenstelle der Rentenversicherung haben den Eingang der ihnen von der Kopfstelle zu übermittelnden Datensätze zu überwachen und die eingegangenen Datensätze auf Vollständigkeit zu überprüfen. Sie haben den Eingang und das Ergebnis der Prüfung auf Vollständigkeit der Kopfstelle unverzüglich mitzuteilen. Satz 1 gilt entsprechend 1.für die Kopfstelle hinsichtlich der ihr von den Auskunftsstellen und der Datenstelle der Rentenversicherung übermittelten Antwortdatensätze,2.für die Bundesagentur für Arbeit und die zugelassenen kommunalen Träger hinsichtlich der ihnen von der Kopfstelle übermittelten Datensätze nach § 1b Abs. 2."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(3) Die Auskunftsstellen, die Datenstelle der Rentenversicherung und die Kopfstelle haben die ihnen übermittelten Daten unverzüglich nach Abschluss des Abgleichs zu löschen."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "Die Einzelheiten des Datenabgleichverfahrens, insbesondere des Aufbaus der Datensätze, der Übermittlung, der Prüfung und Berichtigung von Datensätzen legt die Kopfstelle in Verfahrensgrundsätzen fest. Die Kopfstelle hat die Bundesagentur für Arbeit, die zugelassenen kommunalen Träger und die Auskunftsstellen an der Erarbeitung der Verfahrensgrundsätze mit dem Ziel zu beteiligen, einvernehmliche Festlegungen zu erreichen."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesagentur für Arbeit erstattet der Kopfstelle den Aufwand für die Vermittlung des Datenabgleichs nach § 52 des Zweiten Buches Sozialgesetzbuch."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(2) Für das Jahr 2017 wird der Kopfstelle für die Vermittlung des Datenabgleichs ein Betrag in Höhe von 218 300 Euro abzüglich des Betrages erstattet, der der Kopfstelle bereits am 1. April 2017 erstattet wurde. Für die Kosten der Entwicklung des monatlichen Datenabgleichs nach § 52 Absatz 1 Satz 3 des Zweiten Buches Sozialgesetzbuch wird der Kopfstelle einmalig ein Betrag in Höhe von 5 500 Euro erstattet."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(3) Für das Jahr 2018 setzt sich der Erstattungsbetrag zusammen aus dem Betrag von 267 000 Euro und dem Betrag, der der Lohn- und Gehaltsentwicklung des Jahres 2016 im öffentlichen Dienst des Bundes entspricht. Der Erstattungsbetrag wird auf volle hundert Euro abgerundet."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(4) Für die Jahre ab 2019 setzt sich der Erstattungsbetrag zusammen aus dem im Vorjahr erstatteten Betrag und dem Betrag, der der Lohn- und Gehaltsentwicklung des Vorvorjahres im öffentlichen Dienst des Bundes entspricht. Der Erstattungsbetrag wird auf volle hundert Euro abgerundet."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(5) Die Kopfstelle teilt der Bundesagentur für Arbeit und dem Bundesministerium für Arbeit und Soziales bis zum 30. September den Erstattungsbetrag für das Folgejahr mit."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "(6) Der Erstattungsbetrag wird zum 1. April des Jahres fällig, für das der Betrag erstattet wird. Die nach Absatz 2 zu erstattenden Beträge werden zum 1. April 2018 fällig."@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-07-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 1a"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 1b"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id134 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id135 .
+
+dtd:fussnoten-id54 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id100 .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "GrSiDAV"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "Grundsicherungs-Datenabgleichsverordnung"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value """Verordnung über den automatisierten Datenabgleich bei Leistungen
+der Grundsicherung für Arbeitsuchende"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 ;
+    dtd:has_standangabe dtd:standangabe-id32 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005BJNE000105119"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005BJNE000601119"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005BJNE000703119"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005BJNE000205119"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005BJNE000303119"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005BJNE000401308"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20171207221025"@de ;
+    dtd:has_doknr "BJNR227310005BJNE000503360"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id134 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id133 a dtd:pre ;
+    dtd:has_BR dtd:BR-id70,
+        dtd:BR-id71 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11.8.2005 +++)"@de .
+
+dtd:standangabe-id32 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id137 ;
+    dtd:has_standtyp dtd:standtyp-id136 .
+
+dtd:standkommentar-id137 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 30.11.2017 I 3826"@de .
+
+dtd:standtyp-id136 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Verfahren bei der Bundesagentur für Arbeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Verfahren bei den zugelassenen kommunalen Trägern"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Verfahren bei der Kopfstelle"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Verfahren bei den Auskunftsstellen und der Datenstelle der Rentenversicherung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Anforderungen an die Datenübermittlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Einzelheiten des Datenabgleichverfahrens"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Kosten der Kopfstelle"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id135 a dtd:zitstelle ;
+    dtd:has_Value "2005, 2273"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

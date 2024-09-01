@@ -1,0 +1,147 @@
+@prefix dtd: <urn:SchatzAnwBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154043"@de ;
+    dtd:has_doknr "BJNR004620963"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:Content-id27 a dtd:Content ;
+    dtd:has_P dtd:P-id28,
+        dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_Value "Überschrift: IdF d. Art. 6 Abs. 62 G v. 27.12.1993 I 2378"@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1. 1.1964 +++)"@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_Value "Auf Grund des § 2 des Gesetzes über die Errichtung einer Schuldenverwaltung des Vereinigten Wirtschaftsgebietes vom 13. Juli 1948 (WiGBl. S. 73) und der Verordnung über die Bundesschuldenverwaltung vom 13. Dezember 1949 (Bundesgesetzbl. 1950 S. 1) in Verbindung mit § 21 Abs. 2 der Reichsschuldenordnung in der Fassung der Verordnung zur Ergänzung der Reichsschuldenordnung vom 29. Dezember 1936 (Reichsgesetzbl. I S. 1156) bestimme ich, daß die verzinslichen Schatzanweisungen der Bundesrepublik Deutschland den Schuldverschreibungen nach § 21 Abs. 1 der Reichsschuldenordnung und den Vorschriften des Reichsschuldbuchgesetzes in der Fassung der Bekanntmachung vom 31. Mai 1910 (Reichsgesetzbl. S. 840) gleichzusetzen sind.Entsprechendes gilt für verzinsliche Schatzanweisungen des Bundeseisenbahnvermögens und Deutschen Bundespost.Die Schatzanweisungen können somit in das Schuldbuch eingetragen werden."@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1963-07-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id17 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id34 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id35 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id27 .
+
+dtd:fussnoten-id22 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "SchatzAnwBek"@de .
+
+dtd:jurabk-id16 a dtd:jurabk ;
+    dtd:has_Value "SchatzAnwBek"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "SchatzAnwBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Eintragung von verzinslichen Schatzanweisungen der Bundesrepublik Deutschland in das Bundesschuldbuch sowie von verzinslichen Schatzanweisungen des Bundeseisenbahnvermögens in das Bundesbahnschuldbuch und von verzinslichen Schatzanweisungen der Deutschen Bundespost in das Schuldbuch der Deutschen Bundespost"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 ;
+    dtd:has_standangabe dtd:standangabe-id15 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id17 ;
+    dtd:has_jurabk dtd:jurabk-id16 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154043"@de ;
+    dtd:has_doknr "BJNR004620963"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154043"@de ;
+    dtd:has_doknr "BJNR004620963BJNE000101301"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154043"@de ;
+    dtd:has_doknr "BJNR004620963BJNE000200301"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id34 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id15 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id37 ;
+    dtd:has_standtyp dtd:standtyp-id36 .
+
+dtd:standkommentar-id37 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 6 Abs. 62 G v. 27.12.1993 I 2378"@de .
+
+dtd:standtyp-id36 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id22 ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id35 a dtd:zitstelle ;
+    dtd:has_Value "1963, 462"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

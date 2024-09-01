@@ -1,0 +1,525 @@
+@prefix dtd: <urn:WoStichPrG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104 .
+
+dtd:Content-id105 a dtd:Content ;
+    dtd:has_P dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114,
+        dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118,
+        dtd:P-id119,
+        dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92,
+        dtd:LA-id93 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DL-id59 a dtd:DL ;
+    dtd:has_DD dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65 ;
+    dtd:has_DT dtd:DT-id60,
+        dtd:DT-id61,
+        dtd:DT-id62 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id66 a dtd:DL ;
+    dtd:has_DD dtd:DD-id70,
+        dtd:DD-id71,
+        dtd:DD-id72 ;
+    dtd:has_DT dtd:DT-id67,
+        dtd:DT-id68,
+        dtd:DT-id69 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id76,
+        dtd:DD-id77 ;
+    dtd:has_DT dtd:DT-id74,
+        dtd:DT-id75 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id68 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:I-id55 a dtd:I ;
+    dtd:has_Value "§ 12 Abs. 2 des Gesetzes über die Statistik für Bundeszwecke"@de .
+
+dtd:I-id56 a dtd:I ;
+    dtd:has_Value "Bundesgesetzblatt Teil III, Gliederungsnummer 29-1, veröffentlichten bereinigten Fassung, zuletzt geändert durch Artikel 52 des Einführungsgesetzes zur Abgabenordnung vom 14. Dezember 1976 (BGBl. I S. 3341),"@de .
+
+dtd:I-id57 a dtd:I ;
+    dtd:has_Value "§ 12 Abs. 1 des Gesetzes über die Statistik für Bundeszwecke"@de .
+
+dtd:I-id58 a dtd:I ;
+    dtd:has_Value "§ 12 Abs. 4 des Gesetzes über die Statistik für Bundeszwecke"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Wohngeldbezug Höhe des Wohngelds, Jahr und Anlaß der erstmaligen Gewährung;"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Beurteilung der Wohnumgebung hinsichtlich der in Nummer 2 Buchstabe b genannten Sachverhalte; bei Wohnungswechsel Beurteilung der Wohnumgebung, Größe, Ausstattung und Kosten der jetzigen Wohnung im Vergleich zur vorherigen Wohnung; bei Arbeitsplatzwechsel auch Beurteilung des jetzigen Arbeitsplatzes im Vergleich zum vorherigen;"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Untermietern Fläche und Einrichtung der gemieteten Räume sowie die Höhe der Miete."@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_DL dtd:DL-id66 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bei den Gebäuden:a)Art, Baujahr, Zahl der Geschosse und Wohnungen und bei Wohnheimen auch der Heimplätze; Art der Beheizung, der Heizenergie und bei Zwei- und Mehrfamilienhäusern der Heizkostenabrechnung; Zahl und Größe der Luftschutzräume; Größe des zugehörigen Grundstücks und seine Lage im Gemeindegebiet; Größe und Nutzungsart der Flächen, die nicht für Wohnzwecke genutzt werden; b)Eigentümer oder an seiner Stelle der Nießbrauchberechtigte oder Erbbauberechtigte oder derjenige, der Anspruch auf Übereignung hat, bei Einzelpersonen und Ehepaaren deren soziale Stellung; c)bei Wohngebäudenaußerdem Art des Erwerbs und Jahr des Eigentumsübergangs; Art und Höhe der Betriebs- und Erhaltungskosten; bei Modernisierungs- und Instandsetzungsmaßnahmen Art der Maßnahmen und deren Kosten und Finanzierung; Mieteinnahmen; Versicherungswert.  "@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Art, Baujahr, Zahl der Geschosse und Wohnungen und bei Wohnheimen auch der Heimplätze; Art der Beheizung, der Heizenergie und bei Zwei- und Mehrfamilienhäusern der Heizkostenabrechnung; Zahl und Größe der Luftschutzräume; Größe des zugehörigen Grundstücks und seine Lage im Gemeindegebiet; Größe und Nutzungsart der Flächen, die nicht für Wohnzwecke genutzt werden;"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Eigentümer oder an seiner Stelle der Nießbrauchberechtigte oder Erbbauberechtigte oder derjenige, der Anspruch auf Übereignung hat, bei Einzelpersonen und Ehepaaren deren soziale Stellung;"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei Wohngebäuden"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "außerdem Art des Erwerbs und Jahr des Eigentumsübergangs; Art und Höhe der Betriebs- und Erhaltungskosten; bei Modernisierungs- und Instandsetzungsmaßnahmen Art der Maßnahmen und deren Kosten und Finanzierung; Mieteinnahmen; Versicherungswert."@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bei den Wohnungen:a)Art, Größe und Ausstattung; Art der Beheizung und der Heizenergie; Förderung mit Mitteln des sozialen Wohnungsbaus; Art der Nutzung der Räume; bei Mietwohnungen außerdem die Höhe der Miete; bei Modernisierungsmaßnahmen des Mieters Art der Maßnahmen; bei leerstehenden Wohnungen außerdem Grund und Dauer des Leerstehens; b)Lage zu öffentlichen Verkehrsmitteln, Versorgungseinrichtungen, Gemeinschaftsanlagen, Frei- und Grünflächen; Häufigkeit der Verkehrsbedienung; Verkehrs- und Immissionsbelastung der Wohngegend. "@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Art, Größe und Ausstattung; Art der Beheizung und der Heizenergie; Förderung mit Mitteln des sozialen Wohnungsbaus; Art der Nutzung der Räume; bei Mietwohnungen außerdem die Höhe der Miete; bei Modernisierungsmaßnahmen des Mieters Art der Maßnahmen; bei leerstehenden Wohnungen außerdem Grund und Dauer des Leerstehens;"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Lage zu öffentlichen Verkehrsmitteln, Versorgungseinrichtungen, Gemeinschaftsanlagen, Frei- und Grünflächen; Häufigkeit der Verkehrsbedienung; Verkehrs- und Immissionsbelastung der Wohngegend."@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bei den Wohnparteien:a)Haushaltsmitglieder nach Alter, Geschlecht, Familienstand, Stellung innerhalb des Haushalts, Staatsangehörigkeit, Erwerbstätigkeit, sozialer Stellung und Einkommensgruppe sowie die Erreichbarkeit ihrer Arbeits- und Ausbildungsstätte; b)Jahr und Grund des Bezugs der jetzigen Wohnung sowie deren Beurteilung; Wohnverhältnis, bei Wohnungswechsel auch früheres Wohnverhältnis und die Zahl der Umzüge; Anzahl eigengenutzter Kraftfahrzeuge und deren Abstellung; Freizeitwohnungen nach Größe und Häufigkeit der Nutzung; c)bei Wohngeldbezug Höhe des Wohngelds, Jahr und Anlaß der erstmaligen Gewährung; d)Beurteilung der Wohnumgebung hinsichtlich der in Nummer 2 Buchstabe b genannten Sachverhalte; bei Wohnungswechsel Beurteilung der Wohnumgebung, Größe, Ausstattung und Kosten der jetzigen Wohnung im Vergleich zur vorherigen Wohnung; bei Arbeitsplatzwechsel auch Beurteilung des jetzigen Arbeitsplatzes im Vergleich zum vorherigen; e)bei Untermietern Fläche und Einrichtung der gemieteten Räume sowie die Höhe der Miete. "@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Haushaltsmitglieder nach Alter, Geschlecht, Familienstand, Stellung innerhalb des Haushalts, Staatsangehörigkeit, Erwerbstätigkeit, sozialer Stellung und Einkommensgruppe sowie die Erreichbarkeit ihrer Arbeits- und Ausbildungsstätte;"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Jahr und Grund des Bezugs der jetzigen Wohnung sowie deren Beurteilung; Wohnverhältnis, bei Wohnungswechsel auch früheres Wohnverhältnis und die Zahl der Umzüge; Anzahl eigengenutzter Kraftfahrzeuge und deren Abstellung; Freizeitwohnungen nach Größe und Häufigkeit der Nutzung;"@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 18.12.1977 +++)"@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "Im Geltungsbereich dieses Gesetzes wird auf repräsentativer Grundlage eine Bundesstatistik über Gebäude, Wohnungen, Wohnparteien und deren Wohnumgebung (Wohnungsstichprobe) nach den Verhältnissen im April 1978 durchgeführt."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "Die Wohnungsstichprobe wird mit einem Auswahlsatz von 1 vom Hundert der Gebäude mit Wohnraum durchgeführt."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_DL dtd:DL-id59 ;
+    dtd:has_Value "In der Wohnungsstichprobe sind zu erfassen: 1.Bei den Gebäuden:a)Art, Baujahr, Zahl der Geschosse und Wohnungen und bei Wohnheimen auch der Heimplätze; Art der Beheizung, der Heizenergie und bei Zwei- und Mehrfamilienhäusern der Heizkostenabrechnung; Zahl und Größe der Luftschutzräume; Größe des zugehörigen Grundstücks und seine Lage im Gemeindegebiet; Größe und Nutzungsart der Flächen, die nicht für Wohnzwecke genutzt werden; b)Eigentümer oder an seiner Stelle der Nießbrauchberechtigte oder Erbbauberechtigte oder derjenige, der Anspruch auf Übereignung hat, bei Einzelpersonen und Ehepaaren deren soziale Stellung; c)bei Wohngebäudenaußerdem Art des Erwerbs und Jahr des Eigentumsübergangs; Art und Höhe der Betriebs- und Erhaltungskosten; bei Modernisierungs- und Instandsetzungsmaßnahmen Art der Maßnahmen und deren Kosten und Finanzierung; Mieteinnahmen; Versicherungswert.   2.Bei den Wohnungen:a)Art, Größe und Ausstattung; Art der Beheizung und der Heizenergie; Förderung mit Mitteln des sozialen Wohnungsbaus; Art der Nutzung der Räume; bei Mietwohnungen außerdem die Höhe der Miete; bei Modernisierungsmaßnahmen des Mieters Art der Maßnahmen; bei leerstehenden Wohnungen außerdem Grund und Dauer des Leerstehens; b)Lage zu öffentlichen Verkehrsmitteln, Versorgungseinrichtungen, Gemeinschaftsanlagen, Frei- und Grünflächen; Häufigkeit der Verkehrsbedienung; Verkehrs- und Immissionsbelastung der Wohngegend.  3.Bei den Wohnparteien:a)Haushaltsmitglieder nach Alter, Geschlecht, Familienstand, Stellung innerhalb des Haushalts, Staatsangehörigkeit, Erwerbstätigkeit, sozialer Stellung und Einkommensgruppe sowie die Erreichbarkeit ihrer Arbeits- und Ausbildungsstätte; b)Jahr und Grund des Bezugs der jetzigen Wohnung sowie deren Beurteilung; Wohnverhältnis, bei Wohnungswechsel auch früheres Wohnverhältnis und die Zahl der Umzüge; Anzahl eigengenutzter Kraftfahrzeuge und deren Abstellung; Freizeitwohnungen nach Größe und Häufigkeit der Nutzung; c)bei Wohngeldbezug Höhe des Wohngelds, Jahr und Anlaß der erstmaligen Gewährung; d)Beurteilung der Wohnumgebung hinsichtlich der in Nummer 2 Buchstabe b genannten Sachverhalte; bei Wohnungswechsel Beurteilung der Wohnumgebung, Größe, Ausstattung und Kosten der jetzigen Wohnung im Vergleich zur vorherigen Wohnung; bei Arbeitsplatzwechsel auch Beurteilung des jetzigen Arbeitsplatzes im Vergleich zum vorherigen; e)bei Untermietern Fläche und Einrichtung der gemieteten Räume sowie die Höhe der Miete.  "@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(1) Auskunftspflichtig sind alle volljährigen oder einen eigenen Haushalt führenden minderjährigen Personen, die im April 1978 bei der Erhebung nach dem Gesetz über die Durchführung einer Repräsentativstatistik der Bevölkerung und des Erwerbslebens vom 15. Juli 1975 (BGBl. I S. 1909) befragt werden, und zwar auch für minderjährige oder behinderte Haushaltsmitglieder; für Personen in Anstalten, Wohnheimen und ähnlichen Einrichtungen auch die Leiter dieser Einrichtungen. Auskunftspflichtig sind ferner die Wohnungsinhaber, die Eigentümer oder Verwalter von Gebäuden oder deren Vertreter und die Gemeinden."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(2) Die Auskünfte werden durch persönliche oder schriftliche Befragung eingeholt."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_I dtd:I-id55,
+        dtd:I-id56 ;
+    dtd:has_Value "(1) Die Weiterleitung von Einzelangaben nach § 12 Abs. 2 des Gesetzes über die Statistik für Bundeszwecke in der im Bundesgesetzblatt Teil III, Gliederungsnummer 29-1, veröffentlichten bereinigten Fassung, zuletzt geändert durch Artikel 52 des Einführungsgesetzes zur Abgabenordnung vom 14. Dezember 1976 (BGBl. I S. 3341), an die fachlich zuständigen obersten Bundes- und Landesbehörden und die von ihnen bestimmten Stellen und Personen ist ohne Nennung von Namen und Anschrift des Auskunftspflichtigen zugelassen."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Die Weiterleitung von Einzelangaben ist nur durch die für die Statistik zuständigen Stellen des Bundes und der Länder zulässig. Die Weiterleitung zu steuerlichen Zwecken ist ausgeschlossen."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_I dtd:I-id57 ;
+    dtd:has_Value "(3) § 12 Abs. 1 des Gesetzes über die Statistik für Bundeszwecke gilt auch für Personen, denen von diesem Gesetz erfaßte Einzelangaben zugeleitet werden."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_I dtd:I-id58 ;
+    dtd:has_Value "(4) § 12 Abs. 4 des Gesetzes über die Statistik für Bundeszwecke gilt nicht für statistische Tabellen mit Bundes- oder Landesergebnissen oder mit Ergebnissen für Gebietsgliederungen zum Zwecke der Raumordnung, soweit Einzelangaben zur vollständigen Darstellung der Ergebnisse in den Tabellen erforderlich sind."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "§ 5 Abs. 1, 3 u. 4 Kursivdruck: StatG aufgeh. durch § 17 Abs. 2 G v. 14.3.1980 I 289, vgl. § 11 BStatG 29-14, aufgeh. durch § 28 Nr. 1 G v. 22.1.1987 I 462; vgl. jetzt BStatG 1987 29-22"@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach § 13 Abs. 1 des Dritten Überleitungsgesetzes auch im Land Berlin."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1977-12-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id127 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id128 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id105 .
+
+dtd:fussnoten-id52 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id121 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "WoStichPrG"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "WoStichPrG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "WoStichPrG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "WoStichPrG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "WoStichPrG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "WoStichPrG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "WoStichPrG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "WoStichPrG"@de .
+
+dtd:kurzue-id29 a dtd:kurzue ;
+    dtd:has_Value "Wohnungsstichprobengesetz 1978"@de .
+
+dtd:langue-id30 a dtd:langue ;
+    dtd:has_Value """Gesetz über die Durchführung einer Repräsentativstatistik auf dem Gebiet
+des Wohnungswesens"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id29 ;
+    dtd:has_langue dtd:langue-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977BJNE000400304"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977BJNE000500304"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977BJNE000600304"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405130209"@de ;
+    dtd:has_doknr "BJNR025620977BJNE000700304"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id127 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id103 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:zitstelle-id128 a dtd:zitstelle ;
+    dtd:has_Value "1977, 2562"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

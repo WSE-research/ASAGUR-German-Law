@@ -1,0 +1,209 @@
+@prefix dtd: <urn:HHG§3V#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152212"@de ;
+    dtd:has_doknr "BJNR005450962"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43,
+        dtd:P-id44,
+        dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_BR dtd:BR-id37 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 1.1.1964 +++) (+++ Änderungen aufgrund EinigVtr vgl. § 1 +++)"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Buchstabe b des Häftlingshilfegesetzes in der Fassung der Bekanntmachung vom 25. Juli 1960 (Bundesgesetzbl. I S. 578) verordnet die Bundesregierung mit Zustimmung des Bundesrates:"@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "(1) Deutsche Staatsangehörige und deutsche Volkszugehörige erhalten auf Antrag Beschädigtenversorgung nach Maßgabe des § 4 des Häftlingshilfegesetzes, wenn sie aus den in § 1 Abs. 1 Nr. 1 des Häftlingshilfegesetzes genannten Gründen aus der sowjetischen Besatzungszone oder aus dem sowjetisch besetzten Sektor von Berlin geflüchtet sind oder dies versucht haben, eine gesundheitliche Schädigung infolge von Maßnahmen zur Verhinderung der Flucht erlitten haben und ihren Wohnsitz oder ständigen Aufenthalt im Geltungsbereich dieser Verordnung haben."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(2) Ist der Beschädigte an den Folgen der Schädigung gestorben, so erhalten seine Hinterbliebenen, die deutsche Staatsangehörige oder deutsche Volkszugehörige sind und ihren Wohnsitz oder ständigen Aufenthalt im Geltungsbereich dieser Verordnung haben, auf Antrag Hinterbliebenenversorgung nach Maßgabe des § 5 des Häftlingshilfegesetzes."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(3) Die §§ 2, 6, 10 Abs. 1, 3 bis 6, §§ 12, 13 und 18 des Häftlingshilfegesetzes sind sinngemäß anzuwenden."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzblatt I S. 1) in Verbindung mit § 15 des Häftlingshilfegesetzes auch im Land Berlin."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit dem Tag des Inkrafttretens des Häftlingshilfegesetzes in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1962-08-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id50 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id51 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:fussnoten-id36 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "HHG§3V"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "HHG§3V"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "HHG§3V"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "HHG§3V"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "HHG§3V"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Gleichstellung von Personen nach § 3 des
+Häftlingshilfegesetzes"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 ;
+    dtd:has_standangabe dtd:standangabe-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152212"@de ;
+    dtd:has_doknr "BJNR005450962"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625152212"@de ;
+    dtd:has_doknr "BJNR005450962BJNE000100319"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625152212"@de ;
+    dtd:has_doknr "BJNR005450962BJNE000203314"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625152212"@de ;
+    dtd:has_doknr "BJNR005450962BJNE000300319"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625152212"@de ;
+    dtd:has_doknr "BJNR005450962BJNE000400319"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id50 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id21 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id53 ;
+    dtd:has_standtyp dtd:standtyp-id52 .
+
+dtd:standkommentar-id53 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 7 G v. 21.12.1992 I 2094"@de .
+
+dtd:standtyp-id52 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 .
+
+dtd:zitstelle-id51 a dtd:zitstelle ;
+    dtd:has_Value "1962, 545"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,405 @@
+@prefix dtd: <urn:TSEVorsorgV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132932"@de ;
+    dtd:has_doknr "BJNR361800005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86,
+        dtd:P-id87 .
+
+dtd:Content-id88 a dtd:Content ;
+    dtd:has_P dtd:P-id89,
+        dtd:P-id90,
+        dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72,
+        dtd:LA-id73 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id74 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id75 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id77 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id78 .
+
+dtd:DL-id50 a dtd:DL ;
+    dtd:has_DD dtd:DD-id53,
+        dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id51,
+        dtd:DT-id52 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id55 a dtd:DL ;
+    dtd:has_DD dtd:DD-id58,
+        dtd:DD-id59 ;
+    dtd:has_DT dtd:DT-id56,
+        dtd:DT-id57 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id60 a dtd:DL ;
+    dtd:has_DD dtd:DD-id63,
+        dtd:DD-id64 ;
+    dtd:has_DT dtd:DT-id61,
+        dtd:DT-id62 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id65 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id66,
+        dtd:DT-id67 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "nachgewiesen werden kann, dass die Rinder der Kohorte keinen Zugang zu denselben Futtermitteln hatten wie das befallene Tier oder"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "es sich um Bullen handelt, die ausschließlich in einer Besamungsstation gehalten werden und sichergestellt ist, dass die Bullen nach ihrem Tod als Material der Kategorie 1 im Sinne des Artikels 4 Abs. 1 der Verordnung (EG) Nr. 1774/2002 des Europäischen Parlaments und des Rates vom 3. Oktober 2002 mit Hygienevorschriften für nicht für den menschlichen Verzehr bestimmte tierische Nebenprodukte (ABl. EG Nr. L 273 S. 1) in der jeweils geltenden Fassung beseitigt werden."@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_DL dtd:DL-id60 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Anteil der Tiere des Bestandes,a)die Träger eines ARR-Allels sind, innerhalb der Rasse, der sie angehören, oder, b)im Falle von Schafen, die Träger eines ARR-Allels sind, "@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "weniger als 25 vom Hundert beträgt oder"@de .
+
+dtd:LA-id74 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Träger eines ARR-Allels sind, innerhalb der Rasse, der sie angehören, oder,"@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Falle von Schafen, die Träger eines ARR-Allels sind,"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Ausnahme zur Vermeidung von Inzucht erforderlich ist und"@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sichergestellt ist, dass die Schafe kein VRQ-Allel aufweisen oder"@de .
+
+dtd:LA-id78 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Schafe nicht trächtig sind und ihr jeweiliger Genotyp unbekannt ist."@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_Value " (+++ Textnachweis ab: 24.12.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id96 .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 79a Abs. 2 Nr. 4 in Verbindung mit den §§ 18, 20 Abs. 1 Nr. 2 und § 24 Abs. 1 und 2 und des § 79a Abs. 2 Nr. 6 in Verbindung mit § 78 Nr. 1 Buchstabe a, jeweils auch in Verbindung mit § 79a Abs. 1 Satz 1 und § 79b, des Tierseuchengesetzes in der Fassung der Bekanntmachung vom 22. Juni 2004 (BGBl. I S. 1260), von denen § 79a Abs. 1 Satz 1 durch Artikel 2 § 3 Abs. 5 des Gesetzes vom 1. September 2005 (BGBl. I S. 2618) geändert worden ist, in Verbindung mit § 3 Abs. 2 des Zuständigkeitsanpassungsgesetzes vom 16. August 2002 (BGBl. I S. 3165) und dem Organisationserlass vom 22. November 2005 (BGBl. I S. 3197) verordnet das Bundesministerium Ernährung, Landwirtschaft und Verbraucherschutz:"@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_DL dtd:DL-id50 ;
+    dtd:has_Value "(1) Die zuständige Behörde kann im Falle der amtlichen Feststellung von boviner spongiformer Enzephalopathie bei einem Rind Ausnahmen von Artikel 13 Abs. 1 Unterabs. 1 Buchstabe c in Verbindung mit Anhang VII Nr. 2 Buchstabe a der Verordnung (EG) Nr. 999/2001 des Europäischen Parlaments und des Rates vom 22. Mai 2001 mit Vorschriften zur Verhütung, Kontrolle und Tilgung bestimmter transmissibler spongiformer Enzephalopathien (ABl. EG Nr. L 147 S. 1) in der jeweils geltenden Fassung im Hinblick auf die Tötung der Rinder einer Kohorte genehmigen, soweit 1.nachgewiesen werden kann, dass die Rinder der Kohorte keinen Zugang zu denselben Futtermitteln hatten wie das befallene Tier oder 2.es sich um Bullen handelt, die ausschließlich in einer Besamungsstation gehalten werden und sichergestellt ist, dass die Bullen nach ihrem Tod als Material der Kategorie 1 im Sinne des Artikels 4 Abs. 1 der Verordnung (EG) Nr. 1774/2002 des Europäischen Parlaments und des Rates vom 3. Oktober 2002 mit Hygienevorschriften für nicht für den menschlichen Verzehr bestimmte tierische Nebenprodukte (ABl. EG Nr. L 273 S. 1) in der jeweils geltenden Fassung beseitigt werden. Eine Ausnahmegenehmigung nach Satz 1 darf nur erteilt werden, soweit Belange der Vorsorge für die menschliche oder tierische Gesundheit nicht entgegenstehen."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_Value "(2) Der Tierhalter hat in den Fällen des Absatzes 1 Satz 1 Nr. 2 dafür Sorge zu tragen, dass jede Abgabe eines Bullen, für den eine Ausnahmegenehmigung erteilt worden ist, der zuständigen Behörde unter Angabe des Empfängers anzuzeigen ist."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_BR dtd:BR-id49 ;
+    dtd:has_DL dtd:DL-id55 ;
+    dtd:has_Value "(1) Die zuständige Behörde kann im Falle der amtlichen Feststellung einer transmissiblen spongiformen Enzephalopathie bei einem Schaf oder einer Ziege Ausnahmen von Artikel 13 Abs. 1 Unterabs. 1 Buchstabe c in Verbindung mit Anhang VII Nr. 2 Buchstabe b Nr. i oder ii der Verordnung (EG) Nr. 999/2001 im Hinblick auf die Tötung der Schafe und Ziegen eines Bestandes genehmigen, soweit 1. der Anteil der Tiere des Bestandes,a)die Träger eines ARR-Allels sind, innerhalb der Rasse, der sie angehören, oder, b)im Falle von Schafen, die Träger eines ARR-Allels sind, weniger als 25 vom Hundert beträgt oder  2.die Ausnahme zur Vermeidung von Inzucht erforderlich ist und sichergestellt ist, dass die Tiere spätestens fünf Jahre nach der amtlichen Feststellung der transmissiblen spongiformen Enzephalopathie als Material der Kategorie 1 im Sinne des Artikels 4 Abs. 1 der Verordnung (EG) Nr. 1774/2002 beseitigt werden. Eine Ausnahmegenehmigung nach Satz 1 darf nur erteilt werden, soweit Belange der Vorsorge für die menschliche oder tierische Gesundheit nicht entgegenstehen."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_Value "(2) Der Tierhalter hat in den Fällen des Absatzes 1 Satz 1 dafür Sorge zu tragen, dass jede Abgabe eines Tieres, für das eine Ausnahmegenehmigung erteilt worden ist, der zuständigen Behörde unter Angabe des Empfängers unverzüglich anzuzeigen ist."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_DL dtd:DL-id65 ;
+    dtd:has_Value "(3) Die zuständige Behörde kann im Falle der amtlichen Feststellung einer transmissiblen spongiformen Enzephalopathie bei einem Schaf das Verbringen von Schafen in den Bestand, in dem sich das erkrankte Tier zuletzt befunden hat, über die in Anhang VII Nr. 4 der Verordnung (EG) Nr. 999/2001 vorgesehenen Fälle hinaus genehmigen, sofern 1.sichergestellt ist, dass die Schafe kein VRQ-Allel aufweisen oder 2.die Schafe nicht trächtig sind und ihr jeweiliger Genotyp unbekannt ist. Ausnahmen nach Satz 1 Nr. 2 dürfen längstens bis zum 1. Januar 2006 genehmigt werden."@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-12-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id97 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id98 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id81 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "TSEVorsorgV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "TSEVorsorgV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "TSEVorsorgV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "TSEVorsorgV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "TSEVorsorgV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "TSEVorsorgV"@de .
+
+dtd:kurzue-id23 a dtd:kurzue ;
+    dtd:has_Value "TSE-Vorsorgeverordnung"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Tötung von Rindern, Schafen und Ziegen zur Vorsorge 
+für die menschliche und tierische Gesundheit im Hinblick auf Transmissible 
+Spongiforme Enzephalopathien"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id23 ;
+    dtd:has_langue dtd:langue-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132932"@de ;
+    dtd:has_doknr "BJNR361800005"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132932"@de ;
+    dtd:has_doknr "BJNR361800005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132932"@de ;
+    dtd:has_doknr "BJNR361800005BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132932"@de ;
+    dtd:has_doknr "BJNR361800005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132932"@de ;
+    dtd:has_doknr "BJNR361800005BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405132932"@de ;
+    dtd:has_doknr "BJNR361800005BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id97 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id96 a dtd:pre ;
+    dtd:has_BR dtd:BR-id47,
+        dtd:BR-id48 ;
+    dtd:has_Value "(+++ Textnachweis ab: 24.12.2005 +++)"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id88 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Ausnahmen von der Tötung bei Rindern"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Ausnahmen von der Tötung bei Schafen und Ziegen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id98 a dtd:zitstelle ;
+    dtd:has_Value "2005, 3618"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,53 @@
+@prefix dtd: <urn:BauBetrPEO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625152532"@de ;
+    dtd:has_doknr "DDNR090190979"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:Content-id11 a dtd:Content ;
+    dtd:has_P dtd:P-id12 .
+
+dtd:P-id12 a dtd:P ;
+    dtd:has_Value "Im beigetretenen Gebiet fortgeltendes Recht der ehem. Deutschen Demokratischen Republik gem. Anlage II Kap. XI Sachg. A Abschn. III Nr. 3 nach Maßgabe d. Art. 9 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1222 mWv 3.10.1990 mit der Maßgabe, daß für eine Aufhebung oder Änderung die in Art. 1 EinigVtr genannten Länder zuständig sind; die Vorschr. ist daher nur mit ihrer Überschrift aufgenommen."@de .
+
+dtd:amtabk-id6 a dtd:amtabk ;
+    dtd:has_Value "BOP"@de .
+
+dtd:ausfertigung-datum-id7 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1979-02-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fussnoten-id10 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id11 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "BauBetrPEO"@de .
+
+dtd:langue-id8 a dtd:langue ;
+    dtd:has_Value "Bau- und Betriebsordnung für Pioniereisenbahnen"@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id6 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_langue dtd:langue-id8 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625152532"@de ;
+    dtd:has_doknr "DDNR090190979"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:text-id9 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id10 ;
+    dtd:has_text dtd:text-id9 .
+

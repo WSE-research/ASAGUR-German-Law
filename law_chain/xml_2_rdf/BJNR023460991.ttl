@@ -1,0 +1,570 @@
+@prefix dtd: <urn:VersorgLErstV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118,
+        dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123,
+        dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129,
+        dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100,
+        dtd:LA-id101 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id75 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79 ;
+    dtd:has_DT dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id89 a dtd:DL ;
+    dtd:has_DD dtd:DD-id92,
+        dtd:DD-id93 ;
+    dtd:has_DT dtd:DT-id90,
+        dtd:DT-id91 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id94 a dtd:DL ;
+    dtd:has_DD dtd:DD-id97,
+        dtd:DD-id98 ;
+    dtd:has_DT dtd:DT-id95,
+        dtd:DT-id96 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "aa)"@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "bb)"@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "cc)"@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "dd)"@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_DL dtd:DL-id80 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erstattungsaufwendungen des Bundes für Nachversicherungen nachaa)§ 72 des Gesetzes zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen,bb)§ 99 des Allgemeinen Kriegsfolgengesetzes,cc)§§ 20, 23 und 23a des Gesetzes zur Regelung der Verbindlichkeiten nationalsozialistischer Einrichtungen und der Rechtsverhältnisse an deren Vermögen,dd)§§ 18, 19, 22 und 23 des Fremdrenten- und Auslandsrenten-Neuregelungsgesetzes"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Gebiet der Bundesrepublik Deutschland mit Ausnahme des in Artikel 3 des Einigungsvertrages genannten Gebietes vom vergangenen Kalenderjahr zum vorvergangenen Kalenderjahr ohne Berücksichtigung von Rentenanpassungen verändert haben und"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§ 72 des Gesetzes zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§ 99 des Allgemeinen Kriegsfolgengesetzes,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§§ 20, 23 und 23a des Gesetzes zur Regelung der Verbindlichkeiten nationalsozialistischer Einrichtungen und der Rechtsverhältnisse an deren Vermögen,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "§§ 18, 19, 22 und 23 des Fremdrenten- und Auslandsrenten-Neuregelungsgesetzes"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Aufwendungen der Träger der Rentenversicherung aufgrund der Anpassung der Renten im Beitrittsgebiet entsprechend der Veränderung des aktuellen Rentenwerts (Ost) im Erstattungszeitraum verändern,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_DL dtd:DL-id89 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zu einem Drittel in dem Verhältnis, in dem sicha)die Aufwendungen des Bundes für die Versorgung nach dem Gesetz zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen vom vergangenen Kalenderjahr zum vorvergangenen Kalenderjahr ohne Berücksichtigung von Versorgungsanpassungen verändert haben undb)die Aufwendungen der Träger der Rentenversicherung aufgrund der Anpassung der Renten im Beitrittsgebiet entsprechend der Veränderung des aktuellen Rentenwerts (Ost) im Erstattungszeitraum verändern."@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Aufwendungen des Bundes für die Versorgung nach dem Gesetz zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen vom vergangenen Kalenderjahr zum vorvergangenen Kalenderjahr ohne Berücksichtigung von Versorgungsanpassungen verändert haben und"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Aufwendungen der Träger der Rentenversicherung aufgrund der Anpassung der Renten im Beitrittsgebiet entsprechend der Veränderung des aktuellen Rentenwerts (Ost) im Erstattungszeitraum verändern."@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Festsetzung für das erste Halbjahr eines Kalenderjahres bis zum 28. oder 29. Februar des Jahres,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Festsetzung für das zweite Halbjahr eines Kalenderjahres bis zum 31. August des Jahres"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_DL dtd:DL-id75 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zu zwei Dritteln in dem Verhältnis, in dem sicha)die Erstattungsaufwendungen des Bundes für Nachversicherungen nachaa)§ 72 des Gesetzes zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen,bb)§ 99 des Allgemeinen Kriegsfolgengesetzes,cc)§§ 20, 23 und 23a des Gesetzes zur Regelung der Verbindlichkeiten nationalsozialistischer Einrichtungen und der Rechtsverhältnisse an deren Vermögen,dd)§§ 18, 19, 22 und 23 des Fremdrenten- und Auslandsrenten-Neuregelungsgesetzesim Gebiet der Bundesrepublik Deutschland mit Ausnahme des in Artikel 3 des Einigungsvertrages genannten Gebietes vom vergangenen Kalenderjahr zum vorvergangenen Kalenderjahr ohne Berücksichtigung von Rentenanpassungen verändert haben undb)die Aufwendungen der Träger der Rentenversicherung aufgrund der Anpassung der Renten im Beitrittsgebiet entsprechend der Veränderung des aktuellen Rentenwerts (Ost) im Erstattungszeitraum verändern,"@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.1992 +++)"@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 292a des Sechsten Buches Sozialgesetzbuch, der durch Artikel 1 des Gesetzes vom 25. Juli 1991 (BGBl. I S. 1606) eingefügt worden ist, verordnet der Bundesminister für Arbeit und Sozialordnung im Einvernehmen mit dem Bundesminister des Innern und dem Bundesminister der Finanzen:"@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(1) Der Bund erstattet den Trägern der gesetzlichen Rentenversicherung bei Renten, die nach den Vorschriften des Beitrittsgebietes berechnet worden sind, die Aufwendungen für die Berücksichtigung von Zeiten, für die bei Renten, die nach den Vorschriften des Sechsten Buches Sozialgesetzbuch berechnet werden, eine Nachversicherung als durchgeführt gilt. Die Erstattung erfolgt durch Zahlung pauschaler Erstattungsbeträge."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(2) Für das erste Halbjahr 1992 wird der in § 2 genannte pauschale Erstattungsbetrag festgesetzt."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(3) Für die Folgezeit werden die pauschalen Erstattungsbeträge nach Maßgabe des § 3 vom Bundesamt für Soziale Sicherung festgesetzt."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "Der pauschale Erstattungsbetrag beträgt für das erste Halbjahr 1992 98 Millionen DM."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_DL dtd:DL-id70 ;
+    dtd:has_Value "(1) In der Folgezeit verändert sich der pauschale Erstattungsbetrag halbjährlich 1.zu zwei Dritteln in dem Verhältnis, in dem sicha)die Erstattungsaufwendungen des Bundes für Nachversicherungen nachaa)§ 72 des Gesetzes zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen,bb)§ 99 des Allgemeinen Kriegsfolgengesetzes,cc)§§ 20, 23 und 23a des Gesetzes zur Regelung der Verbindlichkeiten nationalsozialistischer Einrichtungen und der Rechtsverhältnisse an deren Vermögen,dd)§§ 18, 19, 22 und 23 des Fremdrenten- und Auslandsrenten-Neuregelungsgesetzesim Gebiet der Bundesrepublik Deutschland mit Ausnahme des in Artikel 3 des Einigungsvertrages genannten Gebietes vom vergangenen Kalenderjahr zum vorvergangenen Kalenderjahr ohne Berücksichtigung von Rentenanpassungen verändert haben undb)die Aufwendungen der Träger der Rentenversicherung aufgrund der Anpassung der Renten im Beitrittsgebiet entsprechend der Veränderung des aktuellen Rentenwerts (Ost) im Erstattungszeitraum verändern,2.zu einem Drittel in dem Verhältnis, in dem sicha)die Aufwendungen des Bundes für die Versorgung nach dem Gesetz zur Regelung der Rechtsverhältnisse der unter Artikel 131 des Grundgesetzes fallenden Personen vom vergangenen Kalenderjahr zum vorvergangenen Kalenderjahr ohne Berücksichtigung von Versorgungsanpassungen verändert haben undb)die Aufwendungen der Träger der Rentenversicherung aufgrund der Anpassung der Renten im Beitrittsgebiet entsprechend der Veränderung des aktuellen Rentenwerts (Ost) im Erstattungszeitraum verändern.Rentenanpassungen und Versorgungsanpassungen, die sich nicht auf das gesamte Kalenderjahr beziehen, sind im Rahmen des Satzes 1 Nr. 1 Buchstabe a und Nr. 2 Buchstabe a anteilig auf das gesamte Kalenderjahr umzulegen. Jede Veränderung ist nur einmal zu berücksichtigen; das hierauf beruhende Ergebnis ist Grundlage der weiteren Fortschreibung."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_DL dtd:DL-id94 ;
+    dtd:has_Value "(2) Das Bundesamt für Soziale Sicherung nimmt die Fortschreibung nach Absatz 1 vor und setzt die pauschalen Erstattungsbeträge für die Folgezeit fest. Die Festsetzung erfolgt aufgrund der Veränderungen, die ihm 1.bei der Festsetzung für das erste Halbjahr eines Kalenderjahres bis zum 28. oder 29. Februar des Jahres,2.bei der Festsetzung für das zweite Halbjahr eines Kalenderjahres bis zum 31. August des Jahresbekanntgeworden sind; Veränderungen, die ihm später bekannt werden, sind erst bei der Festsetzung des Erstattungsbetrages für das nächste Halbjahr zu berücksichtigen. Das Bundesamt für Soziale Sicherung kann die pauschalen Erstattungsbeträge auf volle 500 Euro aufrunden."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(1) Die pauschalen Erstattungsbeträge für das jeweilige Halbjahr sind jeweils an den Auszahlungstagen der Rentenleistungen in das Inland der Renten für die Monate April und Oktober fällig."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesamt für Soziale Sicherung zahlt den auf die allgemeine Rentenversicherung entfallenden Erstattungsbetrag an die Deutsche Rentenversicherung Bund und den auf die knappschaftliche Rentenversicherung entfallenden Anteil an die Deutsche Rentenversicherung Knappschaft-Bahn-See als Träger der knappschaftlichen Rentenversicherung aus."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(1) Die Aufteilung der pauschalen Erstattungsbeträge auf die Rentenversicherung der Arbeiter und der Angestellten sowie die knappschaftliche Rentenversicherung erfolgt in dem Verhältnis, in dem die Rentenversicherung der Arbeiter und der Angestellten sowie die knappschaftliche Rentenversicherung im Jahre 1990 Erstattungszahlungen aus den in § 3 Abs. 1 Satz 1 Nr. 1 Buchstabe a genannten Nachversicherungen erhalten haben. Danach entfallen auf die Träger der allgemeinen Rentenversicherung 94,72 vom Hundert und auf den Träger der knappschaftlichen Rentenversicherung 5,28 vom Hundert des Erstattungsbetrages."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(2) Der auf die allgemeine Rentenversicherung entfallende Erstattungsbetrag wird buchhalterisch auf die Träger der allgemeinen Rentenversicherung entsprechend ihrem Anteil an den Beitragseinnahmen aufgeteilt. Diese Aufteilung führt die Deutsche Rentenversicherung Bund durch."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 1992 in Kraft."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id30 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-12-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id31 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id135 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id136 .
+
+dtd:fussnoten-id57 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id112 .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:fussnoten-id65 a dtd:fussnoten .
+
+dtd:fussnoten-id67 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "VersorgLErstV"@de .
+
+dtd:kurzue-id32 a dtd:kurzue ;
+    dtd:has_Value "Versorgungslast-Erstattungsverordnung"@de .
+
+dtd:langue-id33 a dtd:langue ;
+    dtd:has_Value """Verordnung über die pauschale Erstattung der Aufwendungen der Träger der
+Rentenversicherung aufgrund der Übernahme der Versorgungslast für frühere
+Beamte und vergleichbare Personengruppen im Beitrittsgebiet"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id30 ;
+    dtd:has_fundstelle dtd:fundstelle-id31 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id32 ;
+    dtd:has_langue dtd:langue-id33 ;
+    dtd:has_standangabe dtd:standangabe-id34 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991BJNE000800307"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991BJNE000201126"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991BJNE000402126"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991BJNE000502126"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991BJNE000601308"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20200527212510"@de ;
+    dtd:has_doknr "BJNR023460991BJNE000700307"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id135 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id34 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id138 ;
+    dtd:has_standtyp dtd:standtyp-id137 .
+
+dtd:standkommentar-id138 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 57 Abs. 31 G v. 12.12.2019 I 2652"@de .
+
+dtd:standtyp-id137 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id133 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Grundsätze"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value """Pauschaler Erstattungsbetrag für das erste
+Halbjahr 1992"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Pauschale Erstattungsbeträge für die Folgezeit"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Fälligkeit der pauschalen Erstattungsbeträge"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Aufteilung der pauschalen Erstattungsbeträge"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id136 a dtd:zitstelle ;
+    dtd:has_Value "1991, 2346"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

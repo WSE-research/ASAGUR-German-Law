@@ -1,0 +1,287 @@
+@prefix dtd: <urn:TKModG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220719214018"@de ;
+    dtd:has_doknr "BJNR185800021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content .
+
+dtd:Content-id61 a dtd:Content .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65,
+        dtd:P-id66,
+        dtd:P-id67 .
+
+dtd:FnR-id54 a dtd:FnR ;
+    dtd:has_ID "F816631_01_BJNR185800021"@de .
+
+dtd:Footnote-id70 a dtd:Footnote ;
+    dtd:has_FnZ "*"@de ;
+    dtd:has_Group dtd:column ;
+    dtd:has_ID "F816631_01_BJNR185800021"@de ;
+    dtd:has_Pos dtd:exp ;
+    dtd:has_Value "Dieses Gesetz dient der Umsetzung der Richtlinie (EU) 2018/1972 des Europäischen Parlaments und des Rates vom 11. Dezember 2018 über den europäischen Kodex für die elektronische Kommunikation (Neufassung) (ABl. L 321 vom 17.12.2018, S. 36)."@de ;
+    dtd:has_noindex dtd:noindex-id55 .
+
+dtd:Footnotes-id69 a dtd:Footnotes ;
+    dtd:has_Footnote dtd:Footnote-id70 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.12.2021 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EURL 2018/1972            (CELEX Nr: 32018L1972) +++)"@de ;
+    dtd:has_pre dtd:pre-id68 .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Arbeit und Soziales berichtet im Einvernehmen mit dem Bundesministerium der Finanzen dem Deutschen Bundestag bis zum 31. Dezember 2021, welche Auswirkungen sich nach dem durch Artikel 61 Absatz 1 ergebenden Inkrafttreten der Änderung von § 2 Nummer 15 der Betriebskostenverordnung auf die Höhe der Bedarfe nach dem Zweiten Buch Sozialgesetzbuch, dem Dritten und Vierten Kapitel des Zwölften Buches Sozialgesetzbuch sowie den fürsorgerischen Leistungen nach dem Bundesversorgungsgesetz ergeben."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt vorbehaltlich der Absätze 2 und 3 am 1. Dezember 2021 in Kraft. Gleichzeitig tritt das Telekommunikationsgesetz vom 22. Juni 2004 (BGBl. I S. 1190), das zuletzt durch Artikel 2 des Gesetzes vom 18. Mai 2021 (BGBl. I S. 1122) geändert worden ist, außer Kraft."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(2) Artikel 58 tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(3) Artikel 4 Nummer 4 und Artikel 59 treten am 1. Januar 2022 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-06-23"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:column rdfs:label "column"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 2 bis 59"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 60"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 61"@de .
+
+dtd:exp rdfs:label "exp"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id71 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id72 .
+
+dtd:fussnoten-id40 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id56 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "TKModG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "TKModG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "TKModG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "TKModG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "TKModG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "TKModG"@de .
+
+dtd:kurzue-id23 a dtd:kurzue ;
+    dtd:has_Value "Telekommunikationsmodernisierungsgesetz"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_FnR dtd:FnR-id54 ;
+    dtd:has_Value "Gesetz zur Umsetzung der Richtlinie (EU) 2018/1972 des Europäischen Parlaments und des Rates vom 11. Dezember 2018 über den europäischen Kodex für die elektronische Kommunikation (Neufassung) und zur Modernisierung des Telekommunikationsrechts"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id23 ;
+    dtd:has_langue dtd:langue-id24 .
+
+dtd:noindex-id55 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220719214018"@de ;
+    dtd:has_doknr "BJNR185800021"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220719214018"@de ;
+    dtd:has_doknr "BJNR185800021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220719214018"@de ;
+    dtd:has_doknr "BJNR185800021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220719214018"@de ;
+    dtd:has_doknr "BJNR185800021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220719214018"@de ;
+    dtd:has_doknr "BJNR185800021BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220719214018"@de ;
+    dtd:has_doknr "BJNR185800021BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id71 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id68 a dtd:pre ;
+    dtd:has_BR dtd:BR-id49,
+        dtd:BR-id50,
+        dtd:BR-id51,
+        dtd:BR-id52,
+        dtd:BR-id53 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.12.2021 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Umsetzung der       EURL 2018/1972            (CELEX Nr: 32018L1972) +++)"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Footnotes dtd:Footnotes-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Telekommunikationsgesetz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Änderungsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Überprüfung der Auswirkungen von Artikel 15"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id72 a dtd:zitstelle ;
+    dtd:has_Value "2021, 1858 (2022 I 1045)"@de .
+

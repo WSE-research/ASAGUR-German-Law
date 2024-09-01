@@ -1,0 +1,872 @@
+@prefix dtd: <urn:SoldErnAnO-2015#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id15,
+        dtd:norm-id16,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id100 a dtd:BR .
+
+dtd:BR-id101 a dtd:BR .
+
+dtd:BR-id99 a dtd:BR .
+
+dtd:Content-id171 a dtd:Content ;
+    dtd:has_P dtd:P-id172 .
+
+dtd:Content-id173 a dtd:Content ;
+    dtd:has_P dtd:P-id174 .
+
+dtd:Content-id175 a dtd:Content ;
+    dtd:has_P dtd:P-id176 .
+
+dtd:Content-id177 a dtd:Content ;
+    dtd:has_P dtd:P-id178 .
+
+dtd:Content-id179 a dtd:Content ;
+    dtd:has_P dtd:P-id180 .
+
+dtd:Content-id181 a dtd:Content ;
+    dtd:has_P dtd:P-id182,
+        dtd:P-id183 .
+
+dtd:Content-id184 a dtd:Content ;
+    dtd:has_P dtd:P-id185,
+        dtd:P-id186 .
+
+dtd:Content-id187 a dtd:Content ;
+    dtd:has_P dtd:P-id188 .
+
+dtd:Content-id189 a dtd:Content ;
+    dtd:has_P dtd:P-id190,
+        dtd:P-id191,
+        dtd:P-id192,
+        dtd:P-id193,
+        dtd:P-id194,
+        dtd:P-id195,
+        dtd:P-id196,
+        dtd:P-id197,
+        dtd:P-id198 .
+
+dtd:Content-id199 a dtd:Content ;
+    dtd:has_P dtd:P-id200,
+        dtd:P-id201,
+        dtd:P-id202 .
+
+dtd:Content-id203 a dtd:Content ;
+    dtd:has_P dtd:P-id204 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id153 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id154 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id155 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id156 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id157 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id158 .
+
+dtd:DD-id128 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id159 .
+
+dtd:DD-id129 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id160 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id161 .
+
+dtd:DD-id131 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id162 .
+
+dtd:DD-id135 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id163 .
+
+dtd:DD-id136 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id164 .
+
+dtd:DD-id142 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id165 .
+
+dtd:DD-id143 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id166 .
+
+dtd:DD-id144 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id167 .
+
+dtd:DD-id145 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id168 .
+
+dtd:DD-id149 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id169 .
+
+dtd:DD-id150 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id170 .
+
+dtd:DL-id104 a dtd:DL ;
+    dtd:has_DD dtd:DD-id108,
+        dtd:DD-id109,
+        dtd:DD-id110 ;
+    dtd:has_DT dtd:DT-id105,
+        dtd:DT-id106,
+        dtd:DT-id107 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id111 a dtd:DL ;
+    dtd:has_DD dtd:DD-id114,
+        dtd:DD-id115 ;
+    dtd:has_DT dtd:DT-id112,
+        dtd:DT-id113 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id116 a dtd:DL ;
+    dtd:has_DD dtd:DD-id120,
+        dtd:DD-id121,
+        dtd:DD-id122 ;
+    dtd:has_DT dtd:DT-id117,
+        dtd:DT-id118,
+        dtd:DT-id119 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id123 a dtd:DL ;
+    dtd:has_DD dtd:DD-id128,
+        dtd:DD-id129,
+        dtd:DD-id130,
+        dtd:DD-id131 ;
+    dtd:has_DT dtd:DT-id124,
+        dtd:DT-id125,
+        dtd:DT-id126,
+        dtd:DT-id127 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id132 a dtd:DL ;
+    dtd:has_DD dtd:DD-id135,
+        dtd:DD-id136 ;
+    dtd:has_DT dtd:DT-id133,
+        dtd:DT-id134 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id137 a dtd:DL ;
+    dtd:has_DD dtd:DD-id142,
+        dtd:DD-id143,
+        dtd:DD-id144,
+        dtd:DD-id145 ;
+    dtd:has_DT dtd:DT-id138,
+        dtd:DT-id139,
+        dtd:DT-id140,
+        dtd:DT-id141 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id146 a dtd:DL ;
+    dtd:has_DD dtd:DD-id149,
+        dtd:DD-id150 ;
+    dtd:has_DT dtd:DT-id147,
+        dtd:DT-id148 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id124 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id125 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id127 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id133 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id134 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id138 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id139 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id140 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id141 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id147 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id148 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Value "Ernennungen zum Oberst in der Besoldungsgruppe A 16 und der Reservistinnen und Reservisten zum Oberst,"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Value "Ernennungen der Anwärterinnen und Anwärter für die Laufbahnen der Offiziere des Truppendienstes und des militärfachlichen Dienstes zum Leutnant und"@de .
+
+dtd:LA-id153 a dtd:LA ;
+    dtd:has_Value "Ernennungen und Entlassungen in sonstigen besonderen Fällen."@de .
+
+dtd:LA-id154 a dtd:LA ;
+    dtd:has_Value "in ein Dienstverhältnis als Soldatin auf Zeit, Soldat auf Zeit, Berufssoldatin oder Berufssoldat bis zum Oberst in der Besoldungsgruppe A 16 und"@de .
+
+dtd:LA-id155 a dtd:LA ;
+    dtd:has_Value "in ein Reservewehrdienstverhältnis."@de .
+
+dtd:LA-id156 a dtd:LA ;
+    dtd:has_Value "dem fliegenden Personal, dem Flugsicherungspersonal, dem luftfahrzeugtechnischen Personal, nationalen Dienststellen bei integrierten Stäben, dem Bereich der Spitzensportförderung der Bundeswehr, dem Zentralen Sanitätsdienst der Bundeswehr oder einer Dienststelle außerhalb der Organisationsbereiche Heer oder Streitkräftebasis angehören,"@de .
+
+dtd:LA-id157 a dtd:LA ;
+    dtd:has_Value "sich in einer integrierten Verwendung, in den Laufbahnen des Sanitätsdienstes oder des Militärmusikdienstes befinden oder"@de .
+
+dtd:LA-id158 a dtd:LA ;
+    dtd:has_Value "nach § 7 des Einsatz-Weiterverwendungsgesetzes in das Dienstverhältnis einer Berufssoldatin oder eines Berufssoldaten berufen werden oder worden sind."@de .
+
+dtd:LA-id159 a dtd:LA ;
+    dtd:has_Value "die Bataillone, der deutsche Anteil des Deutsch-Französischen Versorgungsbataillons, das Gefechtssimulationszentrum Heer, das Gefechtsübungszentrum Heer und das Ausbildungs- und Übungszentrum Spezielle Operationen, soweit nicht in Absatz 3 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id160 a dtd:LA ;
+    dtd:has_NB dtd:NB-id103 ;
+    dtd:has_Value "die Brigaden, der deutsche Anteil der Deutsch-Französischen Brigade, das Kommando Spezialkräfte, die Regimenter, das Ausbildungszentrum Munster, das Ausbildungszentrum Infanterie, das Ausbildungszentrum Pioniere, das Internationale Hubschrauberausbildungszentrum Bückeburg, das Ausbildungszentrum Technische Landsysteme und die Schulen, soweit nicht in Absatz 3 oder in Nummer 1 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id161 a dtd:LA ;
+    dtd:has_Value "die Divisionen, das Amt für Heeresentwicklung und das Ausbildungskommando, soweit nicht in Absatz 3 oder in Nummer 1 und 2 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id162 a dtd:LA ;
+    dtd:has_Value "das Kommando Heer, soweit nicht in Absatz 3 oder in Nummer 1 bis 3 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id163 a dtd:LA ;
+    dtd:has_Value "die Divisionen, das Amt für Heeresentwicklung und das Ausbildungskommando,"@de .
+
+dtd:LA-id164 a dtd:LA ;
+    dtd:has_Value "das Kommando Heer, soweit nicht in Nummer 1 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id165 a dtd:LA ;
+    dtd:has_Value "die Bataillone, soweit nicht in Absatz 6 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id166 a dtd:LA ;
+    dtd:has_Value "das Kommando Feldjäger der Bundeswehr, das ABC-Abwehrkommando der Bundeswehr, das Zentrum für Militärmusik der Bundeswehr, die Regimenter, Landeskommandos, das Betriebszentrum IT-System der Bundeswehr, das Logistikzentrum der Bundeswehr, das Zentrum Innere Führung, das Zentrum für Operative Kommunikation der Bundeswehr, das Zentrum für Verifikationsaufgaben der Bundeswehr, das Zentrum für Geoinformationswesen der Bundeswehr, das Zentrum Informationsarbeit Bundeswehr, das Militärgeschichtliche Forschungsamt, das Zentrum für Zivil-Militärische Zusammenarbeit der Bundeswehr, das Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr, die Bundesakademie für Sicherheitspolitik und die Schulen, soweit nicht in Absatz 6 oder in Nummer 1 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id167 a dtd:LA ;
+    dtd:has_Value "die Fähigkeitskommandos und die Führungsakademie der Bundeswehr, soweit nicht in Absatz 6 oder in Nummer 1 und 2 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id168 a dtd:LA ;
+    dtd:has_Value "das Kommando Streitkräftebasis, das Multinationale Kommando Operative Führung und das Streitkräfteamt, soweit nicht in Absatz 6 oder in Nummer 1 bis 3 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:LA-id169 a dtd:LA ;
+    dtd:has_Value "die Fähigkeitskommandos, das Zentrum Innere Führung und die Führungsakademie der Bundeswehr,"@de .
+
+dtd:LA-id170 a dtd:LA ;
+    dtd:has_Value "das Kommando Streitkräftebasis, das Multinationale Kommando Operative Führung und das Streitkräfteamt, soweit nicht in Nummer 1 andere Zuständigkeiten begründet worden sind,"@de .
+
+dtd:NB-id103 a dtd:NB ;
+    dtd:has_Value "Französischen"@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_BR dtd:BR-id99 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.10.2015 +++)"@de ;
+    dtd:has_pre dtd:pre-id205 .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "Nach § 4 Absatz 2 des Soldatengesetzes in der Fassung der Bekanntmachung vom 30. Mai 2005 (BGBl. I S. 1482) und Artikel 1 Absatz 2 der Anordnung des Bundespräsidenten über die Ernennung und Entlassung der Soldaten vom 10. Juli 1969 (BGBl. I S. 775), die durch die Anordnung vom 17. März 1972 (BGBl. I S. 499) geändert worden ist, ordne ich an:"@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "Soweit in dieser Anordnung Dienstgradbezeichnungen des Heeres und der Luftwaffe verwendet werden, gelten die jeweiligen Regelungen auch für die entsprechenden Dienstgrade der Marine und des Sanitätsdienstes."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_DL dtd:DL-id104 ;
+    dtd:has_Value "Dem Bundesministerium der Verteidigung behalte ich vor: 1.Ernennungen zum Oberst in der Besoldungsgruppe A 16 und der Reservistinnen und Reservisten zum Oberst,2.Ernennungen der Anwärterinnen und Anwärter für die Laufbahnen der Offiziere des Truppendienstes und des militärfachlichen Dienstes zum Leutnant und3.Ernennungen und Entlassungen in sonstigen besonderen Fällen."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "Die Ausübung der nachfolgend übertragenen Rechte zur Ernennung und Entlassung obliegt der Leiterin oder dem Leiter der jeweiligen Dienststelle persönlich, soweit sie oder er nicht von einer Ermächtigung durch das Bundesministerium der Verteidigung Gebrauch macht, die Vollziehung von Ernennungs- und Entlassungsurkunden auf andere Angehörige der Dienststelle zu übertragen."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für das Personalmanagement der Bundeswehr ernennt und entlässt Soldatinnen und Soldaten bis zum Oberst in der Besoldungsgruppe A 16."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_DL dtd:DL-id111 ;
+    dtd:has_Value "(2) Es beruft Bewerberinnen und Bewerber 1.in ein Dienstverhältnis als Soldatin auf Zeit, Soldat auf Zeit, Berufssoldatin oder Berufssoldat bis zum Oberst in der Besoldungsgruppe A 16 und2.in ein Reservewehrdienstverhältnis."@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für das Personalmanagement der Bundeswehr darf zu Dienstgraden bis zum Oberst befördern. Dies gilt auch für die Verleihung vorläufiger und zeitweiliger Dienstgrade nach § 5 Absatz 3, § 22 Absatz 5 und § 43 Absatz 3 der Soldatenlaufbahnverordnung."@de .
+
+dtd:P-id186 a dtd:P ;
+    dtd:has_Value "(2) Soldatinnen und Soldaten werden durch ihren Übungstruppenteil entlassen. Als Leiterin oder Leiter eines Truppenteils eingesetzte Soldatinnen und Soldaten werden durch die nächsthöhere Dienststelle entlassen."@de .
+
+dtd:P-id188 a dtd:P ;
+    dtd:has_Value "Für Soldaten, die Wehrdienst nach § 4 Absatz 1 Nummer 1, 4 oder 7 des Wehrpflichtgesetzes leisten, gilt § 4 entsprechend, und für Soldaten, die Wehrdienst nach § 4 Absatz 1 Nummer 2, 3, 5 oder 6 des Wehrpflichtgesetzes leisten, gilt § 5 entsprechend."@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_Value "(1) Für Mannschaften, die Heeresuniform tragen, gelten bis zum Ablauf des 30. Juni 2016 anstelle von § 4 die nachfolgenden Zuständigkeitsregelungen."@de .
+
+dtd:P-id191 a dtd:P ;
+    dtd:has_DL dtd:DL-id116 ;
+    dtd:has_Value "(2) Das Bundesamt für das Personalmanagement der Bundeswehr ernennt und entlässt Mannschaften, die 1.dem fliegenden Personal, dem Flugsicherungspersonal, dem luftfahrzeugtechnischen Personal, nationalen Dienststellen bei integrierten Stäben, dem Bereich der Spitzensportförderung der Bundeswehr, dem Zentralen Sanitätsdienst der Bundeswehr oder einer Dienststelle außerhalb der Organisationsbereiche Heer oder Streitkräftebasis angehören,2.sich in einer integrierten Verwendung, in den Laufbahnen des Sanitätsdienstes oder des Militärmusikdienstes befinden oder3.nach § 7 des Einsatz-Weiterverwendungsgesetzes in das Dienstverhältnis einer Berufssoldatin oder eines Berufssoldaten berufen werden oder worden sind."@de .
+
+dtd:P-id192 a dtd:P ;
+    dtd:has_Value "(3) Im Heer dürfen die Kompanien, Batterien, Staffeln, Inspektionen, Stabsquartiere, die Ausbildungsbereiche des Ausbildungszentrums Munster, der deutsche Anteil der Stabskompanie der Deutsch-Französischen Brigade sowie das Einsatz- und Ausbildungszentrum für Tragtierwesen ihnen unterstellte Soldatinnen und Soldaten auf Zeit sowie Soldatinnen und Soldaten, die freiwilligen Wehrdienst nach § 58b des Soldatengesetzes leisten, zu einem Mannschaftsdienstgrad befördern."@de .
+
+dtd:P-id193 a dtd:P ;
+    dtd:has_DL dtd:DL-id123 ;
+    dtd:has_Value "(4) Weiterhin dürfen im Heer 1.die Bataillone, der deutsche Anteil des Deutsch-Französischen Versorgungsbataillons, das Gefechtssimulationszentrum Heer, das Gefechtsübungszentrum Heer und das Ausbildungs- und Übungszentrum Spezielle Operationen, soweit nicht in Absatz 3 andere Zuständigkeiten begründet worden sind,2.die Brigaden, der deutsche Anteil der Deutsch-Französischen Brigade, das Kommando Spezialkräfte, die Regimenter, das Ausbildungszentrum Munster, das Ausbildungszentrum Infanterie, das Ausbildungszentrum Pioniere, das Internationale Hubschrauberausbildungszentrum Bückeburg, das Ausbildungszentrum Technische Landsysteme und die Schulen, soweit nicht in Absatz 3 oder in Nummer 1 andere Zuständigkeiten begründet worden sind,3.die Divisionen, das Amt für Heeresentwicklung und das Ausbildungskommando, soweit nicht in Absatz 3 oder in Nummer 1 und 2 andere Zuständigkeiten begründet worden sind,4.das Kommando Heer, soweit nicht in Absatz 3 oder in Nummer 1 bis 3 andere Zuständigkeiten begründet worden sind,Bewerberinnen und Bewerber sowie ihnen unterstellte Soldatinnen und Soldaten in einer Mannschaftslaufbahn in das Dienstverhältnis einer Soldatin auf Zeit oder eines Soldaten auf Zeit berufen. Sie dürfen außerdem ihnen unterstellte Soldatinnen und Soldaten zu einem Mannschaftsdienstgrad befördern, soweit nicht in Absatz 3 andere Zuständigkeiten begründet worden sind."@de .
+
+dtd:P-id194 a dtd:P ;
+    dtd:has_DL dtd:DL-id132 ;
+    dtd:has_Value "(5) Im Heer dürfen 1.die Divisionen, das Amt für Heeresentwicklung und das Ausbildungskommando,2.das Kommando Heer, soweit nicht in Nummer 1 andere Zuständigkeiten begründet worden sind,ihnen unterstellte Mannschaften entlassen."@de .
+
+dtd:P-id195 a dtd:P ;
+    dtd:has_Value "(6) In der Streitkräftebasis dürfen Kompanien, Ausbildungszentren, Inspektionen, Truppenübungsplatzkommandanturen und Stabsquartiere ihnen unterstellte Soldatinnen und Soldaten auf Zeit sowie Soldatinnen und Soldaten, die freiwilligen Wehrdienst nach § 58b des Soldatengesetzes leisten, zu einem Mannschaftsdienstgrad befördern."@de .
+
+dtd:P-id196 a dtd:P ;
+    dtd:has_DL dtd:DL-id137 ;
+    dtd:has_Value "(7) Weiterhin dürfen in der Streitkräftebasis 1.die Bataillone, soweit nicht in Absatz 6 andere Zuständigkeiten begründet worden sind,2.das Kommando Feldjäger der Bundeswehr, das ABC-Abwehrkommando der Bundeswehr, das Zentrum für Militärmusik der Bundeswehr, die Regimenter, Landeskommandos, das Betriebszentrum IT-System der Bundeswehr, das Logistikzentrum der Bundeswehr, das Zentrum Innere Führung, das Zentrum für Operative Kommunikation der Bundeswehr, das Zentrum für Verifikationsaufgaben der Bundeswehr, das Zentrum für Geoinformationswesen der Bundeswehr, das Zentrum Informationsarbeit Bundeswehr, das Militärgeschichtliche Forschungsamt, das Zentrum für Zivil-Militärische Zusammenarbeit der Bundeswehr, das Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr, die Bundesakademie für Sicherheitspolitik und die Schulen, soweit nicht in Absatz 6 oder in Nummer 1 andere Zuständigkeiten begründet worden sind,3.die Fähigkeitskommandos und die Führungsakademie der Bundeswehr, soweit nicht in Absatz 6 oder in Nummer 1 und 2 andere Zuständigkeiten begründet worden sind,4.das Kommando Streitkräftebasis, das Multinationale Kommando Operative Führung und das Streitkräfteamt, soweit nicht in Absatz 6 oder in Nummer 1 bis 3 andere Zuständigkeiten begründet worden sind,Bewerberinnen und Bewerber sowie ihnen unterstellte Soldatinnen und Soldaten in einer Mannschaftslaufbahn in das Dienstverhältnis einer Soldatin auf Zeit oder eines Soldaten auf Zeit berufen. Sie dürfen außerdem ihnen unterstellte Soldatinnen und Soldaten zu einem Mannschaftsdienstgrad befördern, soweit nicht in Absatz 6 andere Zuständigkeiten begründet worden sind."@de .
+
+dtd:P-id197 a dtd:P ;
+    dtd:has_DL dtd:DL-id146 ;
+    dtd:has_Value "(8) In der Streitkräftebasis dürfen 1.die Fähigkeitskommandos, das Zentrum Innere Führung und die Führungsakademie der Bundeswehr,2.das Kommando Streitkräftebasis, das Multinationale Kommando Operative Führung und das Streitkräfteamt, soweit nicht in Nummer 1 andere Zuständigkeiten begründet worden sind,ihnen unterstellte Mannschaften entlassen."@de .
+
+dtd:P-id198 a dtd:P ;
+    dtd:has_Value "(9) In nicht von den Absätzen 3 bis 8 erfassten Fällen werden Mannschaften durch das Bundesamt für das Personalmanagement der Bundeswehr ernannt und entlassen."@de .
+
+dtd:P-id200 a dtd:P ;
+    dtd:has_Value "(1) Diese Anordnung tritt am 1. Oktober 2015 in Kraft."@de .
+
+dtd:P-id201 a dtd:P ;
+    dtd:has_Value "(2) Gleichzeitig wird die Anordnung über die Ernennung und Entlassung von Soldatinnen und Soldaten und die Ernennung von Reservistinnen und Reservisten vom 25. April 2013 (BGBl. I S. 954), geändert durch die Anordnung vom 3. März 2014 (BGBl. I S. 254), aufgehoben."@de .
+
+dtd:P-id202 a dtd:P ;
+    dtd:has_Value "(3) Der Gesamtvertrauenspersonenausschuss ist beteiligt worden."@de .
+
+dtd:P-id204 a dtd:P ;
+    dtd:has_SP dtd:SP-id102 ;
+    dtd:has_Value "Die Bundesministerin der Verteidigung"@de .
+
+dtd:SP-id102 a dtd:SP ;
+    dtd:has_Value "Die Bundesministerin der Verteidigung"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id48 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-09-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id68 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id73 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id76 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id81 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id84 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id87 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id49 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id218 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id219 .
+
+dtd:fussnoten-id88 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id171 .
+
+dtd:gliederungsbez-id207 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 1"@de .
+
+dtd:gliederungsbez-id210 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 2"@de .
+
+dtd:gliederungsbez-id213 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 3"@de .
+
+dtd:gliederungsbez-id216 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 4"@de .
+
+dtd:gliederungseinheit-id55 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id207 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id206 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id208 .
+
+dtd:gliederungseinheit-id66 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id210 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id209 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id211 .
+
+dtd:gliederungseinheit-id71 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id213 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id212 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id214 .
+
+dtd:gliederungseinheit-id79 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id216 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id215 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id217 .
+
+dtd:gliederungskennzahl-id206 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id209 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungskennzahl-id212 a dtd:gliederungskennzahl ;
+    dtd:has_Value "030"@de .
+
+dtd:gliederungskennzahl-id215 a dtd:gliederungskennzahl ;
+    dtd:has_Value "040"@de .
+
+dtd:gliederungstitel-id208 a dtd:gliederungstitel ;
+    dtd:has_Value "Allgemeines"@de .
+
+dtd:gliederungstitel-id211 a dtd:gliederungstitel ;
+    dtd:has_Value "Zuständigkeiten für Berufssoldatinnen und Berufssoldaten, Soldatinnen auf Zeit und Soldaten auf Zeit, Soldatinnen und Soldaten, die freiwilligen Wehrdienst nach § 58b des Soldatengesetzes leisten, und Soldatinnen und Soldaten, die in ein Reservewehrdienstverhältnis nach § 4 des Reservistinnen- und Reservistengesetzes berufen sind"@de .
+
+dtd:gliederungstitel-id214 a dtd:gliederungstitel ;
+    dtd:has_Value "Zuständigkeiten für Reservistinnen und Reservisten, Soldatinnen und Soldaten, die nach dem Vierten und Fünften Abschnitt des Soldatengesetzes Wehrdienst leisten und Soldaten, die nach dem Wehrpflichtgesetz Wehrdienst leisten"@de .
+
+dtd:gliederungstitel-id217 a dtd:gliederungstitel ;
+    dtd:has_Value "Schlussbestimmungen"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id70 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id72 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id75 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id78 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id80 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id83 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:jurabk-id86 a dtd:jurabk ;
+    dtd:has_Value "SoldErnAnO 2015"@de .
+
+dtd:langue-id50 a dtd:langue ;
+    dtd:has_Value "Anordnung über die Ernennung und Entlassung von Soldatinnen und Soldaten und die Ernennung von Reservistinnen und Reservisten"@de .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id48 ;
+    dtd:has_fundstelle dtd:fundstelle-id49 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_langue dtd:langue-id50 ;
+    dtd:has_standangabe dtd:standangabe-id51 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 ;
+    dtd:has_titel dtd:titel-id69 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id71 ;
+    dtd:has_jurabk dtd:jurabk-id70 .
+
+dtd:metadaten-id35 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id73 ;
+    dtd:has_jurabk dtd:jurabk-id72 ;
+    dtd:has_titel dtd:titel-id74 .
+
+dtd:metadaten-id37 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id76 ;
+    dtd:has_jurabk dtd:jurabk-id75 ;
+    dtd:has_titel dtd:titel-id77 .
+
+dtd:metadaten-id39 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id79 ;
+    dtd:has_jurabk dtd:jurabk-id78 .
+
+dtd:metadaten-id41 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id81 ;
+    dtd:has_jurabk dtd:jurabk-id80 ;
+    dtd:has_titel dtd:titel-id82 .
+
+dtd:metadaten-id43 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id84 ;
+    dtd:has_jurabk dtd:jurabk-id83 ;
+    dtd:has_titel dtd:titel-id85 .
+
+dtd:metadaten-id45 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id87 ;
+    dtd:has_jurabk dtd:jurabk-id86 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNG000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id35 ;
+    dtd:has_textdaten dtd:textdaten-id36 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id37 ;
+    dtd:has_textdaten dtd:textdaten-id38 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNG000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id39 ;
+    dtd:has_textdaten dtd:textdaten-id40 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id41 ;
+    dtd:has_textdaten dtd:textdaten-id42 .
+
+dtd:norm-id15 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id43 ;
+    dtd:has_textdaten dtd:textdaten-id44 .
+
+dtd:norm-id16 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE001000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id45 ;
+    dtd:has_textdaten dtd:textdaten-id46 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNG000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNG000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20151015214515"@de ;
+    dtd:has_doknr "BJNR159700015BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:periodikum-id218 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id205 a dtd:pre ;
+    dtd:has_BR dtd:BR-id100,
+        dtd:BR-id101 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.10.2015 +++)"@de .
+
+dtd:standangabe-id51 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id221 ;
+    dtd:has_standtyp dtd:standtyp-id220 .
+
+dtd:standkommentar-id221 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 51-1-13-9 v. 25.4.2013 I 954 (SoldErnAnO 2013)"@de .
+
+dtd:standtyp-id220 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id89 a dtd:text ;
+    dtd:has_Content dtd:Content-id173 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id175 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id177 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id179 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id93 a dtd:text ;
+    dtd:has_Content dtd:Content-id181 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id184 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id95 a dtd:text ;
+    dtd:has_Content dtd:Content-id187 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id189 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id97 a dtd:text ;
+    dtd:has_Content dtd:Content-id199 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id203 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id88 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id89 .
+
+dtd:textdaten-id22 a dtd:textdaten .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id30 a dtd:textdaten .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_text dtd:text-id93 .
+
+dtd:textdaten-id34 a dtd:textdaten .
+
+dtd:textdaten-id36 a dtd:textdaten ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id38 a dtd:textdaten ;
+    dtd:has_text dtd:text-id95 .
+
+dtd:textdaten-id40 a dtd:textdaten .
+
+dtd:textdaten-id42 a dtd:textdaten ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id44 a dtd:textdaten ;
+    dtd:has_text dtd:text-id97 .
+
+dtd:textdaten-id46 a dtd:textdaten ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Dienstgradbezeichnungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Vorbehaltene Ernennungen und Entlassungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Ausschließliche Zuständigkeit der Dienststellenleitung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id69 a dtd:titel ;
+    dtd:has_Value "Zuständigkeit des Bundesamtes für das Personalmanagement der Bundeswehr"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id74 a dtd:titel ;
+    dtd:has_Value "Reservistinnen und Reservisten, Soldatinnen und Soldaten, die nach dem Vierten und Fünften Abschnitt des Soldatengesetzes Wehrdienst leisten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id77 a dtd:titel ;
+    dtd:has_Value "Soldaten, die nach dem Wehrpflichtgesetz Wehrdienst leisten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id82 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id85 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id219 a dtd:zitstelle ;
+    dtd:has_Value "2015, 1597"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

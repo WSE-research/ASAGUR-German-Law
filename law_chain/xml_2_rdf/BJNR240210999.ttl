@@ -1,0 +1,274 @@
+@prefix dtd: <urn:DMBeEndG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093858"@de ;
+    dtd:has_doknr "BJNR240210999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53,
+        dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2002 +++)"@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_BR dtd:BR-id51 ;
+    dtd:has_Value " Das Gesetz ist als Artikel 1 G v. 16.12.1999 I 2402 vom Bundestag beschlossen. Es ist gem. Art. 8 dieses G mWv 1.1.2002 in Kraft getreten. § 1 ist bereits mWv 22.12.1999 in Kraft getreten."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "Mit Ablauf des 31. Dezember 2001 verlieren die von der Deutschen Bundesbank ausgegebenen, auf Deutsche Mark lautenden Banknoten und die von der Bundesrepublik Deutschland ausgegebenen, auf Deutsche Mark oder Deutsche Pfennig lautenden Bundesmünzen ihre Eigenschaft als gesetzliches Zahlungsmittel. Die Deutsche Bundesbank tauscht im Rahmen von Artikel 16 der Verordnung (EG) Nr. 974/98 des Rates vom 3. Mai 1998 über die Einführung des Euro (ABl. EG Nr. L 139 S. 1) die in Satz 1 bezeichneten Banknoten und Bundesmünzen ab 1. Januar 2002 zum gemäß der Verordnung (EG) Nr. 2866/98 des Rates vom 31. Dezember 1998 über die Umrechnungskurse zwischen dem Euro und den Währungen der Mitgliedstaaten, die den Euro einführen (ABl. EG Nr. L 359 S. 1), unwiderruflich festgelegten Umrechnungskurs in Euro-Banknoten und Euro-Münzen um."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Die Deutsche Bundesbank ist nicht verpflichtet, für auf Deutsche Mark lautende vernichtete, verlorene, falsche oder verfälschte Banknoten Ersatz zu leisten. Sie darf für beschädigte auf Deutsche Mark lautende Banknoten Ersatz nur leisten, wenn der Inhaber entweder Teile einer Note vorlegt, die insgesamt größer sind als die Hälfte der Note, oder den Nachweis führt, dass der Rest der Note, von der er nur die Hälfte oder einen geringeren Teil vorlegt, vernichtet ist."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Die Deutsche Bundesbank ist nicht verpflichtet, auf Deutsche Mark oder Deutsche Pfennig lautende Bundesmünzen in gesetzliche Zahlungsmittel umzutauschen, wenn diese verfälscht, durchlöchert oder anders als durch den gewöhnlichen Umlauf verändert sind."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "Die für die Verfolgung einer Straftat auf dem Gebiet der Geldfälschung geltenden Vorschriften der Strafprozessordnung gelten entsprechend für die Verfolgung einer Straftat nach § 4 in Verbindung mit einer dort genannten Vorschrift des Strafgesetzbuches. Die für die Verfolgung einer Geldfälschung nach § 146 des Strafgesetzbuches geltenden Vorschriften der Strafprozessordnung gelten entsprechend für die Verfolgung einer Straftat nach § 4 in Verbindung mit § 146 des Strafgesetzbuches."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "§ 4 ist auf Taten, die während seiner Geltung begangen sind, auch dann anzuwenden, wenn er außer Kraft getreten ist."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "DMBeEndG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-12-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id67 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id68 .
+
+dtd:fussnoten-id42 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id52 .
+
+dtd:fussnoten-id46 a dtd:fussnoten .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "DMBeEndG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "DMBeEndG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "DMBeEndG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "DMBeEndG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "DMBeEndG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "DMBeEndG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "DMBeEndG"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "DM-Beendigungsgesetz"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value """Gesetz über die Beendigung der Zahlungsmitteleigenschaft der auf
+Deutsche Mark lautenden Banknoten und der auf Deutsche Mark oder
+Deutsche Pfennig lautenden Bundesmünzen"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093858"@de ;
+    dtd:has_doknr "BJNR240210999"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093858"@de ;
+    dtd:has_doknr "BJNR240210999BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093858"@de ;
+    dtd:has_doknr "BJNR240210999BJNE000200310"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093858"@de ;
+    dtd:has_doknr "BJNR240210999BJNE000301377"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131008093858"@de ;
+    dtd:has_doknr "BJNR240210999BJNE000500310"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131008093858"@de ;
+    dtd:has_doknr "BJNR240210999BJNE000600310"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20131008093858"@de ;
+    dtd:has_doknr "BJNR240210999BJNE000700310"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id67 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id70 ;
+    dtd:has_standtyp dtd:standtyp-id69 .
+
+dtd:standkommentar-id70 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 7 G v. 14. 9.2005 I 2746"@de .
+
+dtd:standtyp-id69 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id42 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:zitstelle-id68 a dtd:zitstelle ;
+    dtd:has_Value "1999, 2402"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

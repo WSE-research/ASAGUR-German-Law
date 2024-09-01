@@ -1,0 +1,744 @@
+@prefix dtd: <urn:BGVPLTAufgDV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id86 a dtd:BR .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:Content-id145 a dtd:Content ;
+    dtd:has_P dtd:P-id146 .
+
+dtd:Content-id147 a dtd:Content ;
+    dtd:has_P dtd:P-id148 .
+
+dtd:Content-id149 a dtd:Content ;
+    dtd:has_P dtd:P-id150 .
+
+dtd:Content-id151 a dtd:Content ;
+    dtd:has_P dtd:P-id152,
+        dtd:P-id153,
+        dtd:P-id154,
+        dtd:P-id155 .
+
+dtd:Content-id156 a dtd:Content ;
+    dtd:has_P dtd:P-id157,
+        dtd:P-id158,
+        dtd:P-id159 .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161,
+        dtd:P-id162,
+        dtd:P-id163,
+        dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166,
+        dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169,
+        dtd:P-id170,
+        dtd:P-id171,
+        dtd:P-id172 .
+
+dtd:Content-id173 a dtd:Content ;
+    dtd:has_P dtd:P-id174,
+        dtd:P-id175,
+        dtd:P-id176 .
+
+dtd:Content-id177 a dtd:Content ;
+    dtd:has_P dtd:P-id178,
+        dtd:P-id179,
+        dtd:P-id180 .
+
+dtd:Content-id181 a dtd:Content ;
+    dtd:has_P dtd:P-id182 .
+
+dtd:Content-id183 a dtd:Content ;
+    dtd:has_P dtd:P-id184 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id107 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DL-id103 a dtd:DL ;
+    dtd:has_DD dtd:DD-id107,
+        dtd:DD-id108,
+        dtd:DD-id109 ;
+    dtd:has_DT dtd:DT-id104,
+        dtd:DT-id105,
+        dtd:DT-id106 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id110 a dtd:DL ;
+    dtd:has_DD dtd:DD-id113,
+        dtd:DD-id114 ;
+    dtd:has_DT dtd:DT-id111,
+        dtd:DT-id112 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id115 a dtd:DL ;
+    dtd:has_DD dtd:DD-id122,
+        dtd:DD-id123,
+        dtd:DD-id124,
+        dtd:DD-id125,
+        dtd:DD-id126,
+        dtd:DD-id127 ;
+    dtd:has_DT dtd:DT-id116,
+        dtd:DT-id117,
+        dtd:DT-id118,
+        dtd:DT-id119,
+        dtd:DT-id120,
+        dtd:DT-id121 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id89 a dtd:DL ;
+    dtd:has_DD dtd:DD-id93,
+        dtd:DD-id94,
+        dtd:DD-id95 ;
+    dtd:has_DT dtd:DT-id90,
+        dtd:DT-id91,
+        dtd:DT-id92 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id96 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102 ;
+    dtd:has_DT dtd:DT-id97,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id104 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id105 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id120 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id121 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Value "Unfallfürsorge nach dem Beamtenversorgungsgesetz,"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Value "Sachschadensersatz nach § 78 des Bundesbeamtengesetzes und"@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Value "Geltendmachung von Schadensersatzansprüchen gegenüber Dritten nach § 76 Satz 2 des Bundesbeamtengesetzes."@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Value "gesetzliche Unfallversicherung,"@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Value "Unfallfürsorge nach dem Beamtenversorgungsgesetz, Sachschadensersatz nach § 78 des Bundesbeamtengesetzes und Geltendmachung von Schadensersatzansprüchen gegenüber Dritten nach § 76 Satz 2 des Bundesbeamtengesetzes sowie"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Value "Prävention und Arbeitsschutz für die bei den Mitgliedsunternehmen beschäftigten Personen."@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Value "Unfallfürsorge nach dem Beamtenversorgungsgesetz einschließlich Prävention,"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Value "Sachschadensersatz nach § 78 des Bundesbeamtengesetzes und"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Value "Geltendmachung von Schadensersatzansprüchen gegenüber Dritten nach § 76 Satz 2 des Bundesbeamtengesetzes."@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Value "jeden Unfall, der mutmaßlich in Ausübung oder infolge des Dienstes eingetreten ist und"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Value "jede mutmaßlich dienstlich verursachte Erkrankung."@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Value "den Unfallhergang zu untersuchen und bei der Aufklärung der Entstehung von Berufskrankheiten und dienstbedingten Erkrankungen mitzuwirken,"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Value "Auskunft zu geben über die Art und Dauer der Beschäftigung, den Beschäftigungsort, den Zustand, die Behandlung sowie die Dienst- und Verdienstverhältnisse der verunfallten Bediensteten,"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Value "auf Verlangen die für die Berechnung von Leistungen und Regressansprüchen maßgeblichen Beträge nachzuweisen,"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Value "die Anträge der Beamtinnen und Beamten auf Ausgleich von Sachschäden an die Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation weiterzuleiten und bei der Prüfung der Anspruchsvoraussetzungen und des Schadensumfangs mitzuwirken,"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Value "die Geltendmachung von Schadensersatzansprüchen und die Maßnahmen zur Verhütung von Unfällen sowie dienstbedingten Gesundheitsgefahren und zur Ersten Hilfe zu unterstützen und"@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Value "alle Tatsachen anzugeben, die für die Berechnung der zu erstattenden Kosten und zu erbringenden Vorschüsse notwendig sind."@de .
+
+dtd:P-id146 a dtd:P ;
+    dtd:has_BR dtd:BR-id86 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2016 +++)"@de ;
+    dtd:has_pre dtd:pre-id185 .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 5 Absatz 6 des Gesetzes zur Errichtung der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation vom 19. Oktober 2013 (BGBl. I S. 3836, 3838) verordnet das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "Soweit in dieser Verordnung nichts anderes bestimmt ist, obliegt die Durchführung der nach § 5 Absatz 1 des Gesetzes zur Errichtung der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation übertragenen Aufgaben der Geschäftsführerin oder dem Geschäftsführer der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(1) In der Rechnungslegung der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation sind die Einnahmen und die Leistungsausgaben für die übertragenen Aufgaben, die Personal- und Sachkosten sowie die Ausgaben für die Prävention gesondert auszuweisen."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_DL dtd:DL-id89 ;
+    dtd:has_Value "(2) Die Einnahmen und Leistungsausgaben werden nach Einnahme- und Ausgabearten getrennt. Sie werden den einzelnen Unternehmen und Einrichtungen im Sinne von § 121 Absatz 2 Nummer 3 bis 8 des Siebten Buches Sozialgesetzbuch (Mitgliedsunternehmen) sowie den folgenden Aufgabenbereichen zugeordnet: 1.Unfallfürsorge nach dem Beamtenversorgungsgesetz,2.Sachschadensersatz nach § 78 des Bundesbeamtengesetzes und3.Geltendmachung von Schadensersatzansprüchen gegenüber Dritten nach § 76 Satz 2 des Bundesbeamtengesetzes."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_DL dtd:DL-id96 ;
+    dtd:has_Value "(3) Die Personal- und Sachkosten werden folgenden Aufgabenbereichen zugeordnet: 1.gesetzliche Unfallversicherung,2.Unfallfürsorge nach dem Beamtenversorgungsgesetz, Sachschadensersatz nach § 78 des Bundesbeamtengesetzes und Geltendmachung von Schadensersatzansprüchen gegenüber Dritten nach § 76 Satz 2 des Bundesbeamtengesetzes sowie3.Prävention und Arbeitsschutz für die bei den Mitgliedsunternehmen beschäftigten Personen.Soweit eine Zuordnung nicht oder nur mit einem unverhältnismäßig großen Aufwand möglich ist, werden die Personal- und Sachkosten nach dem gleichen Verhältnis wie die den Aufgabenbereichen direkt zurechenbaren Beschäftigten der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation aufgeteilt. In den Fällen des Satzes 2 werden die Personal- und Sachkosten für den Aufgabenbereich Prävention und Arbeitsschutz anschließend nach dem gleichen Zahlenverhältnis den Aufgabenbereichen Gesetzliche Unfallversicherung und Unfallfürsorge zugeordnet, in dem die bei den Mitgliedsunternehmen im vorangegangenen Kalenderjahr beschäftigten Arbeitnehmer und Beamten zueinander stehen; dabei sind die bei den Mitgliedsunternehmen beschäftigten Beamtinnen und Beamten, soweit sie ohne Dienstbezüge beurlaubt sind, den sozialversicherungsrechtlich Versicherten zuzurechnen."@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "(4) Die Ausgaben für die Prävention sind auf die Aufgabenbereiche Gesetzliche Unfallversicherung und Unfallfürsorge nach dem gleichen Zahlenverhältnis zuzuordnen, in dem die bei den Mitgliedsunternehmen im vorangegangenen Kalenderjahr beschäftigten Arbeitnehmer und Beamten zueinander stehen; dabei sind die bei den Mitgliedsunternehmen beschäftigten Beamtinnen und Beamten, soweit sie ohne Dienstbezüge beurlaubt sind, den sozialversicherungsrechtlich Versicherten zuzurechnen."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(1) Die Personal- und Sachkosten für die Prävention und den Arbeitsschutz sowie die Ausgaben für die Prävention, die durch die Wahrnehmung der übertragenen Aufgaben entstehen, werden auf die Mitgliedsunternehmen, für die diese Aufgaben durchgeführt werden, nach dem Verhältnis der im abgelaufenen Geschäftsjahr bei ihnen durchschnittlich beschäftigten Beamtinnen und Beamten umgelegt."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(2) Die Leistungsausgaben sind von dem jeweiligen Mitgliedsunternehmen zu tragen. Sie werden nach Ablauf des Geschäftsjahres mit den Mitgliedsunternehmen abgerechnet."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(3) Die Einnahmen aus dem Übergang von Schadensersatzansprüchen gegen Dritte nach § 76 Satz 2 des Bundesbeamtengesetzes sind für aktive Beamtinnen und Beamte dem jeweiligen Mitgliedsunternehmen zuzurechnen, soweit diese darauf zurückzuführen sind, dass das Mitgliedsunternehmen während einer auf einem Dienstunfall beruhenden Aufhebung der Dienstfähigkeit zur Gewährung von Leistungen verpflichtet ist oder der Beamtin oder dem Beamten einen Schaden ersetzt hat, der aufgrund eines Dienstunfalls entstanden ist. Die Einnahmen aus dem Übergang von Schadensersatzansprüchen gegen Dritte nach § 76 Satz 2 des Bundesbeamtengesetzes sind für Versorgungsempfängerinnen und Versorgungsempfänger sowie deren Hinterbliebene insgesamt der Postbeamtenversorgungskasse bei der Bundesanstalt für Post und Telekommunikation Deutsche Bundespost zu erstatten. Die Einnahmen werden monatlich abgerechnet und abgeführt."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_DL dtd:DL-id103 ;
+    dtd:has_Value "(1) Zur Sicherstellung ihrer Leistungsfähigkeit erhebt die Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation für die übertragenen Aufgaben auf der Grundlage ihres Haushaltsplans und der zu erwartenden Ausgaben Vorschüsse, deren Höhe sie für die einzelnen Mitgliedsunternehmen näher bestimmt, und zwar getrennt nach den folgenden Aufgabenbereichen: 1.Unfallfürsorge nach dem Beamtenversorgungsgesetz einschließlich Prävention,2.Sachschadensersatz nach § 78 des Bundesbeamtengesetzes und3.Geltendmachung von Schadensersatzansprüchen gegenüber Dritten nach § 76 Satz 2 des Bundesbeamtengesetzes."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(2) Die Vorschüsse sind jeweils monatlich im Voraus zum 15. des Vormonats fällig, beginnend mit dem 15. März 2016. Die Vorschüsse sind bis zur Neufestsetzung in der bisherigen Höhe weiterzuzahlen."@de .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_Value "(3) Nach Ablauf des Haushaltsjahres und der Vorlage der Jahresrechnung werden die Vorschüsse abgerechnet. Überschüsse sind an die jeweiligen Mitgliedsunternehmen abzuführen, Minderbeträge müssen innerhalb von zwei Wochen nach Zugang der Abrechnung vom Mitgliedsunternehmen ausgeglichen werden."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "(4) Nach Vorlage des neuen Haushaltsplans, der Abrechnung der Ausgaben für das vergangene Haushaltsjahr und der Jahresrechnung der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation werden die Vorschüsse unternehmensbezogen neu festgesetzt."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(1) Um Einnahme- und Ausgabeschwankungen ausgleichen zu können, sind für die Erfüllung der übertragenen Aufgaben jeweils Betriebsmittel im erforderlichen Umfang bereitzuhalten. Sie dürfen die Ausgaben für die übertragenen Aufgaben des abgelaufenen Kalenderjahres am 31. Dezember des laufenden Kalenderjahres nicht übersteigen."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(2) Überschüsse werden an die Mitgliedsunternehmen abgeführt, Minderbeträge werden innerhalb von zwei Wochen nach Zugang der Abrechnung von diesen ausgeglichen. Sie sind den zu bildenden Betriebsmitteln wieder zuzuführen."@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value "(1) Die Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation hat zur Sicherstellung ihrer Leistungsfähigkeit für die übertragenen Aufgaben, vorrangig für den Fall, dass Einnahme- und Ausgabeschwankungen durch Einsatz der Betriebsmittel nicht mehr ausgeglichen werden können, eine Rücklage zu bilden. Sie ist so anzulegen, dass sie für die in Satz 1 genannten Zwecke verfügbar ist."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(2) Die Rücklage wird mindestens in zweifacher Höhe der durchschnittlichen monatlichen Ausgaben des abgelaufenen Kalenderjahres und höchstens in vierfacher Höhe der durchschnittlichen monatlichen Ausgaben des abgelaufenen Kalenderjahres gebildet. Stichtag für die Bemessung ist der 31. Dezember des laufenden Kalenderjahres."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(3) Bis die Rücklage die in Absatz 2 vorgesehene Mindesthöhe erreicht hat, wird ihr jährlich ein Betrag in Höhe von 1,5 Prozent der Ausgaben des abgelaufenen Kalenderjahres zugeführt."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "(4) Die Zinsen aus der Rücklage fließen dieser zu, bis sie den Höchstbetrag nach Absatz 2 erreicht hat."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(1) Für Forderungen und Vorschusszahlungen, die ein Mitgliedsunternehmen nicht bis zum Ablauf des Fälligkeitstages erfüllt, ist für jeden angefangenen Monat der Säumnis ein Säumniszuschlag von 1 Prozent des rückständigen, auf hundert Euro nach unten abgerundeten Betrages zu zahlen."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "(2) Bei einem rückständigen Betrag von weniger als 200 Euro ist ein Säumniszuschlag nicht zu erheben."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "(3) Ein Säumniszuschlag auf eine Forderung wird nicht erhoben, wenn ein Mitgliedsunternehmen glaubhaft macht, dass es unverschuldet keine Kenntnis von der Zahlungspflicht hatte."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_DL dtd:DL-id110 ;
+    dtd:has_Value "(1) Die Mitgliedsunternehmen haben der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation hinsichtlich der bei ihnen beschäftigten Beamtinnen und Beamten, auch soweit diese unter Anerkennung des dienstlichen Interesses beurlaubt sind, anzuzeigen: 1.jeden Unfall, der mutmaßlich in Ausübung oder infolge des Dienstes eingetreten ist und2.jede mutmaßlich dienstlich verursachte Erkrankung."@de .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_Value "(2) Die Mitgliedsunternehmen sollen der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation jeden von einer dritten Person verursachten Unfall anzeigen, durch den eine Beamtin oder ein Beamter, eine Versorgungsempfängerin oder ein Versorgungsempfänger oder deren Hinterbliebene getötet oder körperlich verletzt worden ist."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "(3) Die Anzeige soll binnen drei Tagen nach der Kenntniserlangung des Mitgliedsunternehmens auf dem von der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation vorgegebenen Meldeformular erfolgen."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_DL dtd:DL-id115 ;
+    dtd:has_Value "Die Mitgliedsunternehmen sind verpflichtet, die Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation bei der Durchführung der übertragenen Aufgaben zu unterstützen. Insbesondere haben sie: 1.den Unfallhergang zu untersuchen und bei der Aufklärung der Entstehung von Berufskrankheiten und dienstbedingten Erkrankungen mitzuwirken,2.Auskunft zu geben über die Art und Dauer der Beschäftigung, den Beschäftigungsort, den Zustand, die Behandlung sowie die Dienst- und Verdienstverhältnisse der verunfallten Bediensteten,3.auf Verlangen die für die Berechnung von Leistungen und Regressansprüchen maßgeblichen Beträge nachzuweisen,4.die Anträge der Beamtinnen und Beamten auf Ausgleich von Sachschäden an die Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation weiterzuleiten und bei der Prüfung der Anspruchsvoraussetzungen und des Schadensumfangs mitzuwirken,5.die Geltendmachung von Schadensersatzansprüchen und die Maßnahmen zur Verhütung von Unfällen sowie dienstbedingten Gesundheitsgefahren und zur Ersten Hilfe zu unterstützen und6.alle Tatsachen anzugeben, die für die Berechnung der zu erstattenden Kosten und zu erbringenden Vorschüsse notwendig sind."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit Wirkung vom 1. Januar 2016 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id39 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2016-01-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:fundstelle-id40 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id186 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id187 .
+
+dtd:fussnoten-id74 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id145 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "BGVPLTAufgDV"@de .
+
+dtd:langue-id41 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Durchführung übertragener Aufgaben durch die Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id39 ;
+    dtd:has_fundstelle dtd:fundstelle-id40 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_langue dtd:langue-id41 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE001000000"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20160322215505"@de ;
+    dtd:has_doknr "BJNR003400016BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id186 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id185 a dtd:pre ;
+    dtd:has_BR dtd:BR-id87,
+        dtd:BR-id88 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.2016 +++)"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id147 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id149 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id151 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id156 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id80 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id82 a dtd:text ;
+    dtd:has_Content dtd:Content-id173 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id177 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id181 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id183 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id80 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id82 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Allgemeines"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Kostenermittlung und Rechnungslegung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Kostenerstattung für die übertragenen Aufgaben"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Laufende Finanzierung der übertragenen Aufgaben"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Betriebsmittel"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Rücklage"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Säumniszuschläge"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Anzeige von Unfällen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Unterstützung durch die Mitgliedsunternehmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id187 a dtd:zitstelle ;
+    dtd:has_Value "2016, 34"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

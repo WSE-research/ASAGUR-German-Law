@@ -1,0 +1,154 @@
+@prefix dtd: <urn:BGruVerkOlympG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625155044"@de ;
+    dtd:has_doknr "BJNR015370969"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:Content-id25 a dtd:Content ;
+    dtd:has_P dtd:P-id26 .
+
+dtd:Content-id27 a dtd:Content ;
+    dtd:has_P dtd:P-id28 .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30,
+        dtd:P-id31,
+        dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:I-id24 a dtd:I ;
+    dtd:has_Value "§ 47 RHO"@de .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  3. 9.1969 +++)"@de .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_I dtd:I-id24 ;
+    dtd:has_Value "(1) Die Bundesregierung wird ermächtigt, eine Teilfläche des bundeseigenen Grundstücks Flur-Nr. 404/23 der Gemarkung München-Milbertshofen in der Größe von 116.169 qm abweichend von § 47 RHO zum Kaufpreis von 13.319.300 DM zu verkaufen."@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "(2) Der Kaufpreis ist entsprechend dem im Absatz 1 festgelegten Wertverhältnis auszugleichen, wenn sich bei der Vermessung Veränderungen in der Größe des Grundstücks ergeben."@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_Value "(3) Die Käufer sind vertraglich zu verpflichten, eine entsprechende Nachzahlung zu leisten, wenn die Geschoßflächenzahl von 0,64, die der baulichen Nutzbarkeit zugrunde gelegt ist, erhöht wird."@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "§ 1 Abs. 1 Kursivdruck: Als Bundesrecht außer Kraft gem. § 119 Abs. 2 Satz 1 Nr. 1 BHO mWv 1.1.1970. Vgl. jetzt BHO 63-1"@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt mit dem Tag der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1969-08-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id37 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id38 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id27 .
+
+dtd:fussnoten-id22 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id33 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BGruVerkOlympG"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "BGruVerkOlympG"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BGruVerkOlympG"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Gesetz über den Verkauf von bundeseigenem Gelände in München zur
+Errichtung frei finanzierter Wohnungen, die während der Olympischen Spiele 1972
+als Olympisches Dorf der Männer benutzt werden sollen"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625155044"@de ;
+    dtd:has_doknr "BJNR015370969"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625155044"@de ;
+    dtd:has_doknr "BJNR015370969BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625155044"@de ;
+    dtd:has_doknr "BJNR015370969BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id37 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id25 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id22 ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id38 a dtd:zitstelle ;
+    dtd:has_Value "1969, 1537"@de .
+

@@ -1,0 +1,325 @@
+@prefix dtd: <urn:Münz10DMBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125510"@de ;
+    dtd:has_doknr "BJNR011590987"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:ABWFORMAT-id74 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63,
+        dtd:P-id64,
+        dtd:P-id65,
+        dtd:P-id66,
+        dtd:P-id67,
+        dtd:P-id68,
+        dtd:P-id69,
+        dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id56 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DL-id50 a dtd:DL ;
+    dtd:has_DD dtd:DD-id52 ;
+    dtd:has_DT dtd:DT-id51 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id53 a dtd:DL ;
+    dtd:has_DD dtd:DD-id55 ;
+    dtd:has_DT dtd:DT-id54 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ab 30. April 1987 in Berlin"@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"EINIGKEIT UND RECHT UND FREIHEIT\"."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 15. 4.1987 +++)"@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung hat die Bundesregierung beschlossen, aus Anlaß der 750-Jahr-Feier Berlins im Jahre 1987 eine Bundesmünze (Gedenkmünze) im Nennwert von 10 Deutschen Mark prägen zu lassen. Die Auflage der Münze beträgt 8,35 Millionen Stück. Die Prägung erfolgt in der Hamburgischen Münze."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_DL dtd:DL-id50 ;
+    dtd:has_Value "(2) Der zur Ausgabe in Berlin vorgesehene Teil der Auflage wird ab 30. April 1987 in Berlinin den Verkehr gebracht."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(3) Die für das Bundesgebiet bestimmten Münzen können aus technischen Gründen erst zu einem späteren Zeitpunkt (voraussichtlich im September 1987) ausgegeben werden. Der Termin wird zu gegebener Zeit bekanntgegeben."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(4) Die Münze besteht aus einer Legierung von 625 Tausendteilen Feinsilber und 375 Tausendteilen Kupfer. Sie hat einen Durchmesser von 32,5 Millimetern und ein Gewicht von 15,5 Gramm."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(5) Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden glatten Randstab umgeben."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_BR dtd:BR-id25 ;
+    dtd:has_Value "(6) Die Bildseite zeigt den Berliner Bären als Emblem der Stadt. In seinen Tatzen hält er das mittelalterliche Stadtsiegel Berlins. Die Umschrift lautet: \"BERLIN 750 JAHRE*1237**1987*\"."@de ;
+    dtd:has_table dtd:table-id32 .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_BR dtd:BR-id26,
+        dtd:BR-id27 ;
+    dtd:has_DL dtd:DL-id53 ;
+    dtd:has_Value "(7) Die Wertseite trägt einen Adler, die Jahreszahl 1987, das Münzzeichen \"J\" der Hamburgischen Münze und die Umschrift: \"BUNDESREPUBLIK DEUTSCHLAND10 DEUTSCHE MARK\".Die Jahreszahl 1987 befindet sich in der Umschrift rechts neben dem Wort \"MARK\", das Münzzeichen \"J\" steht zwischen den beiden Fängen des Adlers.Der glatte Münzrand enthält die vertiefte Inschrift: \"EINIGKEIT UND RECHT UND FREIHEIT\".Zwischen Ende und Anfang der Randschrift ist ein doppelblättriges Eichenblattornament mit 2 Eicheln eingeprägt."@de ;
+    dtd:has_table dtd:table-id34 .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_BR dtd:BR-id28,
+        dtd:BR-id29 ;
+    dtd:has_SP dtd:SP-id31 ;
+    dtd:has_Value "(8) Der Entwurf der Münze stammt von Reinhart Heinsdorff, Ottmaring.Der Bundesminister der Finanzen"@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id74 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung, Fundstelle: BGBl. I 1987, 1159)"@de ;
+    dtd:has_kommentar dtd:kommentar-id73 .
+
+dtd:SP-id31 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1987-04-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id36 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "78.000000pt"@de .
+
+dtd:colspec-id37 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "53.000000pt"@de .
+
+dtd:colspec-id39 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "1*"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id45 a dtd:entry ;
+    dtd:has_Value "\"BERLIN 750 JAHRE"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_Value "*1237*"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id47 a dtd:entry ;
+    dtd:has_Value "*1987*\"."@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id48 a dtd:entry ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND"@de ;
+    dtd:has_align dtd:center .
+
+dtd:entry-id49 a dtd:entry ;
+    dtd:has_Value "10 DEUTSCHE MARK\"."@de ;
+    dtd:has_align dtd:center .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id75 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id76 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id60 .
+
+dtd:fussnoten-id23 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek"@de .
+
+dtd:kommentar-id73 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value "(Inhalt: nicht darstellbare Abbildung, Fundstelle: BGBl. I 1987, 1159)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 10
+Deutschen Mark (Gedenkmünze 750-Jahr-Feier Berlins)"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125510"@de ;
+    dtd:has_doknr "BJNR011590987"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125510"@de ;
+    dtd:has_doknr "BJNR011590987BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125510"@de ;
+    dtd:has_doknr "BJNR011590987BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id75 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id41 a dtd:row ;
+    dtd:has_entry dtd:entry-id45 .
+
+dtd:row-id42 a dtd:row ;
+    dtd:has_entry dtd:entry-id46,
+        dtd:entry-id47 .
+
+dtd:row-id43 a dtd:row ;
+    dtd:has_entry dtd:entry-id48 .
+
+dtd:row-id44 a dtd:row ;
+    dtd:has_entry dtd:entry-id49 .
+
+dtd:table-id32 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id33 .
+
+dtd:table-id34 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id35 .
+
+dtd:tbody-id38 a dtd:tbody ;
+    dtd:has_row dtd:row-id41,
+        dtd:row-id42 .
+
+dtd:tbody-id40 a dtd:tbody ;
+    dtd:has_row dtd:row-id43,
+        dtd:row-id44 .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id23 ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:tgroup-id33 a dtd:tgroup ;
+    dtd:has_align dtd:center ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id36,
+        dtd:colspec-id37 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id38 .
+
+dtd:tgroup-id35 a dtd:tgroup ;
+    dtd:has_cols "1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id39 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id40 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münze"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id76 a dtd:zitstelle ;
+    dtd:has_Value "1987, 1159"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

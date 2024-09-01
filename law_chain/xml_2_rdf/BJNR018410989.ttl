@@ -1,0 +1,348 @@
+@prefix dtd: <urn:Münz10DMBek-1989-10#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131202132527"@de ;
+    dtd:has_doknr "BJNR018410989"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:kommentar-id80 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id27 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1841)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68,
+        dtd:P-id69,
+        dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73,
+        dtd:P-id74,
+        dtd:P-id75,
+        dtd:P-id76,
+        dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id56 .
+
+dtd:DD-id42 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DL-id34 a dtd:DL ;
+    dtd:has_DD dtd:DD-id36 ;
+    dtd:has_DT dtd:DT-id35 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id37 a dtd:DL ;
+    dtd:has_DD dtd:DD-id39 ;
+    dtd:has_DT dtd:DT-id38 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id40 a dtd:DL ;
+    dtd:has_DD dtd:DD-id42 ;
+    dtd:has_DT dtd:DT-id41 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45 ;
+    dtd:has_DT dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id48 ;
+    dtd:has_DT dtd:DT-id47 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id49 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51 ;
+    dtd:has_DT dtd:DT-id50 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id52 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id53 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id41 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:IMG-id62 a dtd:IMG ;
+    dtd:has_Align dtd:center ;
+    dtd:has_Pos dtd:block ;
+    dtd:has_SRC "bgbl1_1989_j1841_0010.jpg"@de ;
+    dtd:has_alt ""@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_DL dtd:DL-id37 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"800 JAHRE HAFEN UND HAMBURG\"."@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"800 JAHRE HAFEN UND HAMBURG\"."@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND10 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"BUNDESREPUBLIK DEUTSCHLAND10 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "10 DEUTSCHE MARK\"."@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_DL dtd:DL-id52 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"HAMBURG TOR ZUR WELT\"."@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "\"HAMBURG TOR ZUR WELT\"."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.10.1989 +++)"@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 6 des Gesetzes über die Ausprägung von Scheidemünzen in der im Bundesgesetzblatt Teil III, Gliederungsnummer 690-1, veröffentlichten bereinigten Fassung hat die Bundesregierung beschlossen, zum 800jährigen Bestehen des Hamburger Hafens im Jahre 1989 eine Bundesmünze (Gedenkmünze) im Nennwert von 10 Deutschen Mark prägen zu lassen. Die Auflage der Münze beträgt 8,35 Millionen Stück. Die Prägung erfolgt in der Hamburgischen Münze."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "(2) Die Münze wird ab 8. November 1989 in den Verkehr gebracht."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(3) Die Münze besteht aus einer Legierung von 625 Tausendteilen Silber und 375 Tausendteilen Kupfer. Sie hat einen Durchmesser von 32,5 Millimetern und ein Gewicht von 15,5 Gramm."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(4) Das Gepräge auf beiden Seiten ist erhaben und wird von einem schützenden glatten Randstab umgeben."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_BR dtd:BR-id24 ;
+    dtd:has_DL dtd:DL-id34 ;
+    dtd:has_Value "(5) Die Bildseite zeigt in Anlehnung an das Hamburger Wappen die hamburgische Burg am Wasser.Die Umschrift lautet: \"800 JAHRE HAFEN UND HAMBURG\"."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_DL dtd:DL-id40 ;
+    dtd:has_Value "(6) Die Wertseite trägt einen Adler, die Jahreszahl 1989, das Münzzeichen \"J\" der Hamburgischen Münze und die Umschrift: \"BUNDESREPUBLIK DEUTSCHLAND10 DEUTSCHE MARK\"."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(7) Die Jahreszahl 1989 ist Teil der Umschrift. Das Münzzeichen \"J\" befindet sich im Feld zwischen Adler und dem Wort \"DEUTSCHE\"."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_DL dtd:DL-id49 ;
+    dtd:has_Value "(8) Der glatte Münzrand enthält in vertiefter Prägung die Inschrift: \"HAMBURG TOR ZUR WELT\"."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(9) Die einzelnen Worte der Randschrift sind durch das stilisierte Bild der hamburgischen Burg voneinander getrennt. Zwischen Ende und Anfang der Randschrift ist dieses Bild zweifach eingeprägt."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_BR dtd:BR-id25,
+        dtd:BR-id26 ;
+    dtd:has_SP dtd:SP-id32 ;
+    dtd:has_Value "(10) Der Entwurf der Münze stammt von Klaus Luckey, Hamburg.Der Bundesminister der Finanzen"@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_BR dtd:BR-id28,
+        dtd:BR-id29,
+        dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_IMG dtd:IMG-id62 ;
+    dtd:has_Value "(Fundstelle: BGBl. I 1989, 1841)"@de ;
+    dtd:has_noindex dtd:noindex-id33 .
+
+dtd:SP-id32 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1989-10-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:block rdfs:label "block"@de .
+
+dtd:center rdfs:label "center"@de .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id81 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id82 .
+
+dtd:fussnoten-id21 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id65 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1989-10"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1989-10"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "Münz10DMBek 1989-10"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Ausprägung von Bundesmünzen im Nennwert von 10
+Deutschen Mark (Gedenkmünze 800 Jahre Hafen und Hamburg)"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_titel dtd:titel-id19 .
+
+dtd:noindex-id33 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131202132527"@de ;
+    dtd:has_doknr "BJNR018410989"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131202132527"@de ;
+    dtd:has_doknr "BJNR018410989BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131202132527"@de ;
+    dtd:has_doknr "BJNR018410989BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id81 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id20 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id23 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id23 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id21 ;
+    dtd:has_text dtd:text-id20 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:titel-id19 a dtd:titel ;
+    dtd:has_Value "Abbildung der Münze"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id82 a dtd:zitstelle ;
+    dtd:has_Value "1989, 1841"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

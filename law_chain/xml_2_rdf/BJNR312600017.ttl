@@ -1,0 +1,285 @@
+@prefix dtd: <urn:SanG-2017#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171024221025"@de ;
+    dtd:has_doknr "BJNR312600017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56,
+        dtd:P-id57,
+        dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61,
+        dtd:P-id62,
+        dtd:P-id63,
+        dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:DD-id49 a dtd:DD ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id49,
+        dtd:DD-id50 ;
+    dtd:has_DT dtd:DT-id47,
+        dtd:DT-id48 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Indent "15"@de .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "Bremen"@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "Saarland"@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_Value "400 Millionen Euro"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Value "400 Millionen Euro."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_BR dtd:BR-id43 ;
+    dtd:has_Value " (+++ Textnachweis ab: 18.8.2017 +++)Das G wurde als Artikel 5 des G v. 14.8.2017 I 3122 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 25 Abs. 1 dieses G am  18.8.2017 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id69 .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(1) Als Hilfe zur künftig eigenständigen Einhaltung der Vorgaben des Artikels 109 Absatz 3 des Grundgesetzes erhalten die Länder Bremen und Saarland nach Maßgabe dieses Gesetzes ab dem 1. Januar 2020 Sanierungshilfen aus dem Bundeshaushalt in Höhe von insgesamt 800 Millionen Euro jährlich."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Value "(2) Der Jahresbetrag nach Absatz 1 wird wie folgt auf die genannten Länder verteilt: Bremen400 Millionen EuroSaarland400 Millionen Euro."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(3) Die Auszahlung der Jahresbeträge der Sanierungshilfen erfolgt durch das Bundesministerium der Finanzen jeweils zum 1. Juli des laufenden Jahres."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(4) Die gleichzeitige Gewährung von Sanierungshilfen nach diesem Gesetz und Sanierungshilfen aufgrund einer extremen Haushaltsnotlage ist ausgeschlossen."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(1) Die in § 1 Absatz 1 genannten Länder verpflichten sich mit den Sanierungshilfen dazu, die Vorgaben des Artikels 109 Absatz 3 einzuhalten. Darüber hinaus haben sie geeignete Maßnahmen zur künftig eigenständigen Einhaltung dieser Vorgaben zu ergreifen. Dazu gehören der Abbau der übermäßigen Verschuldung sowie Maßnahmen zur Stärkung der Wirtschafts- und Finanzkraft."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(2) Die Länder verpflichten sich zu einem Abbau ihrer Verschuldung. Jährlich sind haushaltsmäßige Tilgungen in Höhe von mindestens einem Achtel der gewährten Sanierungshilfe zu leisten. In einem Zeitraum von jeweils fünf Jahren sind insgesamt haushaltsmäßige Tilgungen in Höhe von einem Fünftel der gewährten Sanierungshilfen zu leisten. Die Länder streben an, im Zeitraum der Gewährung der Hilfen steigende positive Finanzierungsüberschüsse zu erzielen."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(3) Nach Ablauf von jeweils zwei Kalenderjahren, erstmals im Jahr 2022, prüft das Bundesministerium der Finanzen, ob die nach Absatz 2 Satz 2 notwendigen Tilgungen in den beiden Vorjahren insgesamt geleistet wurden. Die Unterschreitung in einem Jahr kann durch eine mindestens ebenso große Überschreitung im Folgejahr ausgeglichen werden. In begründeten Ausnahmefällen kann festgestellt werden, dass eine Unterschreitung der in den beiden Jahren zu leistenden Tilgung nach Absatz 2 Satz 2 unbeachtlich ist. Die Entscheidung des Bundesministeriums der Finanzen ergeht bis zum 1. Juni des Folgejahres. Wird die nach Absatz 2 Satz 2 erforderliche Tilgung nicht festgestellt und liegt zudem kein begründeter Ausnahmefall vor, wird in Höhe des Differenzbetrags zwischen erforderlicher Tilgung und tatsächlich geleisteter Tilgung die Sanierungshilfe einbehalten und auf ein Verwahrkonto des Bundes einbezahlt, bis die nicht erzielte Tilgung nachgeholt wurde. Der Bund zahlt sie bei nachgeholter Tilgung an das jeweilige Land aus."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(4) Nach Ablauf von jeweils fünf Jahren prüft das Bundesministerium der Finanzen, ob eine Tilgung gemäß Absatz 2 Satz 3 geleistet wurde. In begründeten Ausnahmefällen kann festgestellt werden, dass eine Unterschreitung der erforderlichen Tilgung unbeachtlich ist. Die Entscheidung des Bundesministeriums der Finanzen ergeht bis zum 1. Juni des Folgejahres. Wird die nach Absatz 2 Satz 3 erforderliche Tilgung nicht festgestellt und liegt zudem kein begründeter Ausnahmefall vor, wird die in den fünf Folgejahren jährlich zu erzielende Tilgung nach Absatz 2 Satz 2 um ein Fünftel des Differenzbetrags zwischen erforderlicher Tilgung und tatsächlich geleisteter Tilgung erhöht."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "Die sich aus der Gewährung der Sanierungshilfen ergebende Finanzierungslast wird vom Bund getragen."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "Die Auszahlung der Sanierungshilfen erfolgt auf der Grundlage einer Verwaltungsvereinbarung, die das Nähere nach Maßgabe dieses Gesetzes regelt."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "SanG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-08-14"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id70 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id71 .
+
+dtd:fussnoten-id38 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id53 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "SanG 2017"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "SanG 2017"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "SanG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "SanG 2017"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "SanG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "SanG 2017"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "SanG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "SanG 2017"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "SanG"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Sanierungshilfengesetz"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26,
+        dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id30,
+        dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id34,
+        dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id22,
+        dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171024221025"@de ;
+    dtd:has_doknr "BJNR312600017"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171024221025"@de ;
+    dtd:has_doknr "BJNR312600017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171024221025"@de ;
+    dtd:has_doknr "BJNR312600017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20171024221025"@de ;
+    dtd:has_doknr "BJNR312600017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20171024221025"@de ;
+    dtd:has_doknr "BJNR312600017BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:periodikum-id70 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id69 a dtd:pre ;
+    dtd:has_BR dtd:BR-id44,
+        dtd:BR-id45 ;
+    dtd:has_Value "(+++ Textnachweis ab: 18.8.2017 +++)"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Sanierungshilfen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Sanierungsverpflichtungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Finanzierung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Verwaltungsvereinbarung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id71 a dtd:zitstelle ;
+    dtd:has_Value "2017, 3122, 3126"@de .
+

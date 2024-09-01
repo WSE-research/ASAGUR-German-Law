@@ -1,0 +1,190 @@
+@prefix dtd: <urn:IntKonnBek-1994#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154121"@de ;
+    dtd:has_doknr "BJNR318000994"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 3.11.1994 +++)"@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19,
+        dtd:BR-id20 ;
+    dtd:has_SP dtd:SP-id21 ;
+    dtd:has_Value "Nach Artikel 6 Abs. 3 des Einführungsgesetzes zum Handelsgesetzbuche, der durch Artikel 5 Nr. 1 des Gesetzes vom 25. Juli 1986 (BGBl. I S. 1120) eingefügt worden ist, wird bekanntgegeben, daß das Protokoll vom 23. Februar 1968 zur Änderung des Internationalen Abkommens vom 25. August 1924 zur Vereinheitlichung von Regeln über Konnossemente für Australienam 16. Oktober 1993 undMexikoam 20. August 1994in Kraft getreten ist.Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 18. März 1992 (BGBl. I S. 744).Bundesministerium der Justiz"@de ;
+    dtd:has_table dtd:table-id22 .
+
+dtd:SP-id21 a dtd:SP ;
+    dtd:has_Value "Bundesministerium der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-10-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id24 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:colspec-id25 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "50*"@de .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id29 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Australien"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id30 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "am 16. Oktober 1993 und"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id31 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mexiko"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id32 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "am 20. August 1994"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id35 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "IntKonnBek 1994"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "IntKonnBek 1994"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung nach Artikel 6 Abs. 3 des Einführungsgesetzes zum Handelsgesetzbuche"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154121"@de ;
+    dtd:has_doknr "BJNR318000994"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154121"@de ;
+    dtd:has_doknr "BJNR318000994BJNE000100320"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id27 a dtd:row ;
+    dtd:has_entry dtd:entry-id29,
+        dtd:entry-id30 .
+
+dtd:row-id28 a dtd:row ;
+    dtd:has_entry dtd:entry-id31,
+        dtd:entry-id32 .
+
+dtd:table-id22 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_tgroup dtd:tgroup-id23 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id26 a dtd:tbody ;
+    dtd:has_row dtd:row-id27,
+        dtd:row-id28 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:tgroup-id23 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id24,
+        dtd:colspec-id25 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id26 .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "1994, 3180"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:top rdfs:label "top"@de .
+

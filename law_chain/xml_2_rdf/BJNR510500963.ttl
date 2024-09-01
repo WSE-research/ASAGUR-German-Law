@@ -1,0 +1,257 @@
+@prefix dtd: <urn:BMFlüJubAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405133101"@de ;
+    dtd:has_doknr "BJNR510500963"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:Content-id61 a dtd:Content ;
+    dtd:has_P dtd:P-id62 .
+
+dtd:DD-id35 a dtd:DD ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_LA dtd:LA-id49 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id44 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DL-id33 a dtd:DL ;
+    dtd:has_DD dtd:DD-id35 ;
+    dtd:has_DT dtd:DT-id34 .
+
+dtd:DL-id36 a dtd:DL ;
+    dtd:has_DD dtd:DD-id38 ;
+    dtd:has_DT dtd:DT-id37 .
+
+dtd:DL-id39 a dtd:DL ;
+    dtd:has_DD dtd:DD-id41 ;
+    dtd:has_DT dtd:DT-id40 .
+
+dtd:DL-id42 a dtd:DL ;
+    dtd:has_DD dtd:DD-id44 ;
+    dtd:has_DT dtd:DT-id43 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id45 a dtd:DL ;
+    dtd:has_DD dtd:DD-id47 ;
+    dtd:has_DT dtd:DT-id46 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id40 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_DL dtd:DL-id36 ;
+    dtd:has_Value "- BGBl. I 1975, 705 - "@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_DL dtd:DL-id39 ;
+    dtd:has_Value "- BGBl. I 1975, 705 - "@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_Value "- BGBl. I 1975, 705 -"@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_DL dtd:DL-id45 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Präsidenten des Bundesausgleichsamtesin Bad Homburg v.d.H. "@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Bad Homburg v.d.H."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_DL dtd:DL-id33 ;
+    dtd:has_Value "Überschrift: Kursivdruck: \"Bundesminister des Innern\" gem. Art. 1 G 1103-4 v. 18.3.1975 I 705 mWv 11.11.1969  (+++ Textnachweis Geltung ab:       21. 3.1975 +++) (+++ Stand: Änderungsvorschrift vom 18. 3.1975 +++) - BGBl. I 1975, 705 - "@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_DL dtd:DL-id42 ;
+    dtd:has_Value "Auf Grund des § 8 Abs. 1 der Verordnung über die Gewährung von Jubiläumszuwendungen an Beamte und Richter des Bundes vom 24. Mai 1962 (Bundesgesetzbl. I S. 363) übertrage ich im Einvernehmen mit dem Bundesminister der Finanzen dem Präsidenten des Bundesausgleichsamtesin Bad Homburg v.d.H.  für seinen Geschäftsbereich die Ausübung der Befugnis, Jubiläumszuwendungen an Beamte von der Besoldungsgruppe A 16 der Bundesbesoldungsordnung abwärts zu gewähren oder über ihre Versagung zu entscheiden."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt am Tage der Verkündung im Bundesanzeiger in Kraft."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_SP dtd:SP-id32 ;
+    dtd:has_Value "Der Bundesminister für Vertriebene, Flüchtlinge und Kriegsgeschädigte"@de .
+
+dtd:SP-id32 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Vertriebene, Flüchtlinge und Kriegsgeschädigte"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1963-05-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id63 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id64 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id55 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BMFlüJubAnO"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "BMFlüJubAnO"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "BMFlüJubAnO"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BMFlüJubAnO"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value """Anordnung über die Übertragung der Befugnis zu Entscheidungen über
+Jubiläumszuwendungen an Beamte im Geschäftsbereich des Bundesministeriums für
+Vertriebene, Flüchtlinge und Kriegsgeschädigte"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405133101"@de ;
+    dtd:has_doknr "BJNR510500963"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405133101"@de ;
+    dtd:has_doknr "BJNR510500963BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405133101"@de ;
+    dtd:has_doknr "BJNR510500963BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405133101"@de ;
+    dtd:has_doknr "BJNR510500963BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id63 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id61 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id64 a dtd:zitstelle ;
+    dtd:has_Value "1963, Nr 105"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,187 @@
+@prefix dtd: <urn:WZG§4IFADBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154541"@de ;
+    dtd:has_doknr "BJNR011520980"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id45 a dtd:kommentar ;
+    dtd:has_Value "(Inhalt: Nicht darstellbare Bezeichnungen und Kennzeichen,"@de ;
+    dtd:has_typ dtd:Hinweis .
+
+dtd:kommentar-id46 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id31 ;
+    dtd:has_Value "Fundstelle: BGBl. I 1980, 1153, bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39,
+        dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  8. 8.1980 +++)"@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 4 Abs. 2 Nr. 3a des Warenzeichengesetzes in der Fassung der Bekanntmachung vom 2. Januar 1968 (BGBl. I S. 1, 29) wird bekanntgemacht, daß die Bezeichnungen, Abkürzungen und das Kennzeichen des Internationalen Fonds für landwirtschaftliche Entwicklung (Anlage) von der Eintragung als Warenzeichen ausgeschlossen sind."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(2) Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 19. Mai 1980 (BGBl. I S. 586)."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value "(Inhalt: Nicht darstellbare Bezeichnungen und Kennzeichen,Fundstelle: BGBl. I 1980, 1153, bzgl. der einzelnen Änderungen vgl. Fußnote)"@de ;
+    dtd:has_noindex dtd:noindex-id32,
+        dtd:noindex-id33 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1980-08-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id47 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id48 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id36 .
+
+dtd:fussnoten-id29 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "WZG§4IFADBek"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "WZG§4IFADBek"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "WZG§4IFADBek"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "WZG§4IFADBek"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 4 des Warenzeichengesetzes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id32 a dtd:noindex .
+
+dtd:noindex-id33 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154541"@de ;
+    dtd:has_doknr "BJNR011520980"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154541"@de ;
+    dtd:has_doknr "BJNR011520980BJNE000100303"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154541"@de ;
+    dtd:has_doknr "BJNR011520980BJNE000900303"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154541"@de ;
+    dtd:has_doknr "BJNR011520980BJNE000201306"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id47 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id34 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id48 a dtd:zitstelle ;
+    dtd:has_Value "1980, 1152"@de .
+

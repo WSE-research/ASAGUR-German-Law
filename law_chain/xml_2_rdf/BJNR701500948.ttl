@@ -1,0 +1,122 @@
+@prefix dtd: <urn:Münz1PfBek-1948#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625150708"@de ;
+    dtd:has_doknr "BJNR701500948"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id20 a dtd:Content ;
+    dtd:has_P dtd:P-id21 .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25,
+        dtd:P-id26,
+        dtd:P-id27,
+        dtd:P-id28 .
+
+dtd:P-id21 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 1 Abs. 1 des Zweiten Gesetzes zur Neuordnung des Geldwesens (Emissionsgesetz) werden demnächst neue auf 1 Pfennig lautende Münzen in Umlauf gesetzt."@de .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value "(2) Die mit glattem Rand geprägten Münzen bestehen aus einem Eisenkern mit einer beiderseitigen Kupferplattierung. Die Münzen haben einen Durchmesser von 16,5 Millimeter und ein Gewicht von 2 Gramm."@de .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value "(3) Die Münzen tragen auf der Wertseite innerhalb des erhabenen Randes in der oberen Hälfte beiderseits je eine Ährengarbe, zwischen deren oberen Enden sich das Münzzeichen befindet. Am unteren Rand ist in Balkenschrift das Wort \"PFENNIG\" angebracht. In der Mitte befindet sich als arabische Ziffer die Wertbezeichnung \"1\"."@de .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_BR dtd:BR-id18 ;
+    dtd:has_SP dtd:SP-id19 ;
+    dtd:has_Value "(4) Auf der Schauseite befindet sich im oberen Teil innerhalb des erhabenen Randes in Balkenschrift die Umschrift \"BANK DEUTSCHER LÄNDER\" und am unteren Rand, durch je einen Punkt von der Umschrift getrennt, die Jahreszahl. Die Mitte zeigt einen aufrecht stehenden fünfblättrigen Eichenzweig.Bank deutscher Länder"@de .
+
+dtd:SP-id19 a dtd:SP ;
+    dtd:has_Value "Bank deutscher Länder"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1948-11-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id29 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id30 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id22 .
+
+dtd:fussnoten-id17 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "Münz1PfBek 1948"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "Münz1PfBek 1948"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Ausprägung von Münzen im Nennwert von 1 Pfennig"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625150708"@de ;
+    dtd:has_doknr "BJNR701500948"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625150708"@de ;
+    dtd:has_doknr "BJNR701500948BJNE000100317"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id29 a dtd:periodikum ;
+    dtd:has_Value "Öff Anz"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id20 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id17 ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id30 a dtd:zitstelle ;
+    dtd:has_Value "1948, 15"@de .
+

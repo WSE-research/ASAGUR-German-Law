@@ -1,0 +1,184 @@
+@prefix dtd: <urn:ERPBürgschG-2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120807043547"@de ;
+    dtd:has_doknr "BJNR005170957"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:Content-id32 a dtd:Content ;
+    dtd:has_P dtd:P-id33 .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37,
+        dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:I-id31 a dtd:I ;
+    dtd:has_Value "Bundesminister für wirtschaftliche Zusammenarbeit"@de .
+
+dtd:P-id33 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "(1) Der in § 2 Satz 1 des Dritten Gesetzes über die Übernahme von Sicherheitsleistungen und Gewährleistungen zur Förderung der deutschen Wirtschaft vom 6. Dezember 1954 (Bundesgesetzbl. I S. 365) festgesetzte Betrag von zweihundert Millionen Deutsche Mark wird um zweihundert Millionen Deutsche Mark zu Lasten des ERP-Sondervermögens auf vierhundert Millionen Deutsche Mark erhöht."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_I dtd:I-id31 ;
+    dtd:has_Value "(2) Die gemäß vorstehenden Vorschriften zu übernehmenden Sicherheitsleistungen und Gewährleistungen werden nach den für die Verwaltung der allgemeinen Bundesschuld jeweils geltenden gesetzlichen Vorschriften durch die Bundesschuldenverwaltung verwaltet. Befugnisse, die danach dem Bundesminister der Finanzen zustehen, werden von diesem und dem Bundesminister für wirtschaftliche Zusammenarbeit gemeinsam ausgeübt."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "§ 1 Abs. 2 Kursivdruck: Jetzt Bundesminister für Wirtschaft"@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "2. ERP-BürgschG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1957-05-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id45 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id46 .
+
+dtd:fussnoten-id26 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:fussnoten-id28 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id39 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "ERPBürgschG 2"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "ERPBürgschG 2"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "ERPBürgschG 2"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "ERPBürgschG 2"@de .
+
+dtd:langue-id18 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Ergänzung des Dritten Gesetzes über die Übernahme von
+Sicherheitsleistungen und Gewährleistungen zur Förderung der deutschen
+Wirtschaft"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120807043547"@de ;
+    dtd:has_doknr "BJNR005170957"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120807043547"@de ;
+    dtd:has_doknr "BJNR005170957BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120807043547"@de ;
+    dtd:has_doknr "BJNR005170957BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120807043547"@de ;
+    dtd:has_doknr "BJNR005170957BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id45 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id32 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:zitstelle-id46 a dtd:zitstelle ;
+    dtd:has_Value "1957, 517"@de .
+

@@ -1,0 +1,565 @@
+@prefix dtd: <urn:BVers17ZBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20211116213037"@de ;
+    dtd:has_doknr "BJNR490100021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:Content-id91 a dtd:Content ;
+    dtd:has_P dtd:P-id92,
+        dtd:P-id93,
+        dtd:P-id94 .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_BR dtd:BR-id16 ;
+    dtd:has_Value " (+++ Textnachweis ab: 15.11.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id95 .
+
+dtd:P-id92 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 2 Absatz 1 des Gesetzes über die Wahl des Bundespräsidenten durch die Bundesversammlung in der im Bundesgesetzblatt Teil III, Gliederungsnummer 1100-1, veröffentlichten bereinigten Fassung, das zuletzt durch Artikel 1 des Gesetzes vom 12. Juli 2007 (BGBl. I S. 1326) geändert worden ist, stellt die Bundesregierung fest:"@de .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "Zur 17. Bundesversammlung wählt die Volksvertretung des Landes"@de .
+
+dtd:P-id94 a dtd:P ;
+    dtd:has_Value "Baden-Württemberg94MitgliederBayern115MitgliederBerlin30MitgliederBrandenburg24MitgliederBremen6MitgliederHamburg16MitgliederHessen53MitgliederMecklenburg-Vorpommern16MitgliederNiedersachsen73MitgliederNordrhein-Westfalen156MitgliederRheinland-Pfalz37MitgliederSaarland9MitgliederSachsen39MitgliederSachsen-Anhalt21MitgliederSchleswig-Holstein27MitgliederThüringen20Mitglieder."@de ;
+    dtd:has_table dtd:table-id19 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-11-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id21 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "80*"@de .
+
+dtd:colspec-id22 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "15"@de .
+
+dtd:colspec-id23 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "16"@de .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:entry-id41 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Baden-Württemberg"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id42 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "94"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id43 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id44 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bayern"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id45 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "115"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id46 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id47 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id48 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "30"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id49 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id50 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Brandenburg"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id51 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "24"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id52 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id53 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bremen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id54 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "6"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id55 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id56 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hamburg"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id57 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "16"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id58 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id59 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hessen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id60 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "53"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mecklenburg-Vorpommern"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "16"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niedersachsen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "73"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nordrhein-Westfalen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "156"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rheinland-Pfalz"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "37"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Saarland"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "9"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sachsen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "39"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sachsen-Anhalt"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "21"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Schleswig-Holstein"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "27"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder"@de ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Thüringen"@de ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "20"@de ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colsep "0"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mitglieder."@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id96 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id97 .
+
+dtd:fussnoten-id14 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id89 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "BVers17ZBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "BVers17ZBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die Zahl der von den Volksvertretungen der Länder zu wählenden Mitglieder der 17. Bundesversammlung"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20211116213037"@de ;
+    dtd:has_doknr "BJNR490100021"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20211116213037"@de ;
+    dtd:has_doknr "BJNR490100021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id96 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id95 a dtd:pre ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_Value "(+++ Textnachweis ab: 15.11.2021 +++)"@de .
+
+dtd:row-id25 a dtd:row ;
+    dtd:has_entry dtd:entry-id41,
+        dtd:entry-id42,
+        dtd:entry-id43 .
+
+dtd:row-id26 a dtd:row ;
+    dtd:has_entry dtd:entry-id44,
+        dtd:entry-id45,
+        dtd:entry-id46 .
+
+dtd:row-id27 a dtd:row ;
+    dtd:has_entry dtd:entry-id47,
+        dtd:entry-id48,
+        dtd:entry-id49 .
+
+dtd:row-id28 a dtd:row ;
+    dtd:has_entry dtd:entry-id50,
+        dtd:entry-id51,
+        dtd:entry-id52 .
+
+dtd:row-id29 a dtd:row ;
+    dtd:has_entry dtd:entry-id53,
+        dtd:entry-id54,
+        dtd:entry-id55 .
+
+dtd:row-id30 a dtd:row ;
+    dtd:has_entry dtd:entry-id56,
+        dtd:entry-id57,
+        dtd:entry-id58 .
+
+dtd:row-id31 a dtd:row ;
+    dtd:has_entry dtd:entry-id59,
+        dtd:entry-id60,
+        dtd:entry-id61 .
+
+dtd:row-id32 a dtd:row ;
+    dtd:has_entry dtd:entry-id62,
+        dtd:entry-id63,
+        dtd:entry-id64 .
+
+dtd:row-id33 a dtd:row ;
+    dtd:has_entry dtd:entry-id65,
+        dtd:entry-id66,
+        dtd:entry-id67 .
+
+dtd:row-id34 a dtd:row ;
+    dtd:has_entry dtd:entry-id68,
+        dtd:entry-id69,
+        dtd:entry-id70 .
+
+dtd:row-id35 a dtd:row ;
+    dtd:has_entry dtd:entry-id71,
+        dtd:entry-id72,
+        dtd:entry-id73 .
+
+dtd:row-id36 a dtd:row ;
+    dtd:has_entry dtd:entry-id74,
+        dtd:entry-id75,
+        dtd:entry-id76 .
+
+dtd:row-id37 a dtd:row ;
+    dtd:has_entry dtd:entry-id77,
+        dtd:entry-id78,
+        dtd:entry-id79 .
+
+dtd:row-id38 a dtd:row ;
+    dtd:has_entry dtd:entry-id80,
+        dtd:entry-id81,
+        dtd:entry-id82 .
+
+dtd:row-id39 a dtd:row ;
+    dtd:has_entry dtd:entry-id83,
+        dtd:entry-id84,
+        dtd:entry-id85 .
+
+dtd:row-id40 a dtd:row ;
+    dtd:has_entry dtd:entry-id86,
+        dtd:entry-id87,
+        dtd:entry-id88 .
+
+dtd:table-id19 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id20 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id24 a dtd:tbody ;
+    dtd:has_row dtd:row-id25,
+        dtd:row-id26,
+        dtd:row-id27,
+        dtd:row-id28,
+        dtd:row-id29,
+        dtd:row-id30,
+        dtd:row-id31,
+        dtd:row-id32,
+        dtd:row-id33,
+        dtd:row-id34,
+        dtd:row-id35,
+        dtd:row-id36,
+        dtd:row-id37,
+        dtd:row-id38,
+        dtd:row-id39,
+        dtd:row-id40 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id15 a dtd:text ;
+    dtd:has_Content dtd:Content-id91 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id15 .
+
+dtd:tgroup-id20 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colspec dtd:colspec-id21,
+        dtd:colspec-id22,
+        dtd:colspec-id23 ;
+    dtd:has_tbody dtd:tbody-id24 .
+
+dtd:top rdfs:label "top"@de .
+
+dtd:zitstelle-id97 a dtd:zitstelle ;
+    dtd:has_Value "2021, 4901"@de .
+

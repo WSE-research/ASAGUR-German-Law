@@ -1,0 +1,246 @@
+@prefix dtd: <urn:GBAWidVertrAnO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221109214022"@de ;
+    dtd:has_doknr "BJNR197500022"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_BR dtd:BR-id45 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.11.2022 +++)"@de ;
+    dtd:has_pre dtd:pre-id60 .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Nach § 126 Absatz 3 Satz 2 und § 127 Absatz 3 Satz 1 des Bundesbeamtengesetzes vom 5. Februar 2009 (BGBl. I S. 160) ordnet das Bundesministerium der Justiz an:"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Dem Bundesverwaltungsamt wird die Zuständigkeit für den Erlass von Widerspruchsbescheiden übertragen, soweit dadurch über Widersprüche von Beamtinnen und Beamten des Generalbundesanwalts beim Bundesgerichtshof in Angelegenheiten der Besoldung entschieden wird, die sich gegen Entscheidungen richten, für die eine Zuständigkeit des Bundesverwaltungsamts besteht."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Der Präsidentin oder dem Präsidenten des Bundesverwaltungsamts wird die Vertretung der Bundesrepublik Deutschland in verwaltungsgerichtlichen Verfahren in Angelegenheiten der Besoldung übertragen, soweit eine Zuständigkeit des Bundesverwaltungsamts für den Erlass des Widerspruchsbescheids besteht."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Die §§ 1 und 2 sind nicht auf Widersprüche und Klagen in Angelegenheiten der Besoldung anzuwenden, die vor dem Inkrafttreten dieser Anordnung eingelegt oder erhoben worden sind."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt am Tag nach der Veröffentlichung im Bundesgesetzblatt in Kraft."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "GBAWidVertrAnO"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2022-11-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id61 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id62 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id48 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "GBAWidVertrAnO"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "GBAWidVertrAnO"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "GBAWidVertrAnO"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "GBAWidVertrAnO"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "GBAWidVertrAnO"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "GBAWidVertrAnO"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value "Anordnung zur Übertragung der Zuständigkeit für den Erlass von Widerspruchsbescheiden sowie der Vertretung bei Klagen von Beamtinnen und Beamten des Generalbundesanwalts beim Bundesgerichtshof in Angelegenheiten der Besoldung"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221109214022"@de ;
+    dtd:has_doknr "BJNR197500022"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221109214022"@de ;
+    dtd:has_doknr "BJNR197500022BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221109214022"@de ;
+    dtd:has_doknr "BJNR197500022BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221109214022"@de ;
+    dtd:has_doknr "BJNR197500022BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20221109214022"@de ;
+    dtd:has_doknr "BJNR197500022BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20221109214022"@de ;
+    dtd:has_doknr "BJNR197500022BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id61 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id60 a dtd:pre ;
+    dtd:has_BR dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.11.2022 +++)"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Erlass von Widerspruchsbescheiden"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Vertretung bei Klagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id62 a dtd:zitstelle ;
+    dtd:has_Value "2022, 1975"@de .
+

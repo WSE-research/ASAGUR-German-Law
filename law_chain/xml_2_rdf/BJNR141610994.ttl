@@ -1,0 +1,621 @@
+@prefix dtd: <urn:BGA-NachfG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id74 a dtd:BR .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126,
+        dtd:P-id127,
+        dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130,
+        dtd:P-id131,
+        dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136,
+        dtd:P-id137,
+        dtd:P-id138,
+        dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141 .
+
+dtd:Content-id142 a dtd:Content ;
+    dtd:has_P dtd:P-id143 .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id114 .
+
+dtd:DD-id101 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id115 .
+
+dtd:DD-id102 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id116 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id106 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id110 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id111 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id112 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id113 .
+
+dtd:DL-id77 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89,
+        dtd:DD-id90,
+        dtd:DD-id91 ;
+    dtd:has_DT dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id92 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id101,
+        dtd:DD-id102,
+        dtd:DD-id103,
+        dtd:DD-id104,
+        dtd:DD-id105,
+        dtd:DD-id106 ;
+    dtd:has_DT dtd:DT-id93,
+        dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96,
+        dtd:DT-id97,
+        dtd:DT-id98,
+        dtd:DT-id99 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id99 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zulassung von Fertigarzneimitteln im Sinne des § 4 Absatz 1 des Arzneimittelgesetzes auf der Grundlage der analytischen, pharmakologisch-toxikologischen und klinischen Prüfungen, soweit nicht das Paul-Ehrlich-Institut nach § 77 des Arzneimittelgesetzes zuständig ist,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Registrierung homöopathischer Arzneimittel im Sinne des § 4 Absatz 26 des Arzneimittelgesetzes,"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Risikoerfassung und -bewertung sowie Durchführung von Maßnahmen nach dem Stufenplan,"@de .
+
+dtd:LA-id110 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Überwachung des Verkehrs mit Betäubungsmitteln,"@de .
+
+dtd:LA-id111 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Arbeiten zur medizinischen und technischen Sicherheit, Eignung und Leistung von Medizinprodukten,"@de .
+
+dtd:LA-id112 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zentrale Risikoerfassung sowie Durchführung von Maßnahmen zur Risikoabwehr bei Medizinprodukten,"@de .
+
+dtd:LA-id113 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Koordinierung des Datenzugangs im Gesundheitswesen für die forschungsbezogene Zusammenführung und Verknüpfung von Gesundheitsdaten."@de .
+
+dtd:LA-id114 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Erkennung, Verhütung und Bekämpfung von Übertragbaren und nicht übertragbaren Krankheiten,"@de .
+
+dtd:LA-id115 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "epidemiologische Untersuchungen auf dem Gebiet der übertragbaren und nicht übertragbaren Krankheiten einschließlich der Erkennung und Bewertung von Risiken sowie der Dokumentation und Information,"@de .
+
+dtd:LA-id116 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Sammlung und Bewertung von Erkenntnissen und Erfahrungen zu HIV-Infektionen und AIDS-Erkrankungen einschließlich der gesellschaftlichen und sozialen Folgen,"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gesundheitsberichterstattung,"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Risikoerfassung und -bewertung bei gentechnisch veränderten Organismen und Produkten, Humangenetik,"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gesundheitliche Fragen des Transports ansteckungsgefährlicher Stoffe,"@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gesundheitliche Fragen des Transports gentechnisch veränderter Organismen und Produkte."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_BR dtd:BR-id74 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.1994 +++)Das G wurde als Artikel 1 G 2120-4-2 v. 24.6.1994 I 1416 (GNG) vom Bundestag beschlossen. Es ist gem. Art. 11 Satz 1 dieses G am 1.7.1994 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id146 .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(1) Im Geschäftsbereich des Bundesministeriums für Gesundheit wird ein \"Bundesinstitut für Arzneimittel und Medizinprodukte\" als selbständige Bundesoberbehörde errichtet."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(2) Der Sitz des Bundesinstitutes ist Bonn. Die Sitzentscheidung wird mit dem Vollzug der Entscheidung über den Sitz der Bundesregierung gemäß § 3 Abs. 2 des Berlin/Bonn-Gesetzes vom 26. April 1994 (BGBl. I S. 918) vollzogen. Bis zum Vollzug der Sitzentscheidung ist Sitz des Bundesinstitutes Berlin."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_DL dtd:DL-id77 ;
+    dtd:has_Value "(3) Dieses Bundesinstitut wird insbesondere tätig auf folgenden Gebieten: 1.Zulassung von Fertigarzneimitteln im Sinne des § 4 Absatz 1 des Arzneimittelgesetzes auf der Grundlage der analytischen, pharmakologisch-toxikologischen und klinischen Prüfungen, soweit nicht das Paul-Ehrlich-Institut nach § 77 des Arzneimittelgesetzes zuständig ist,2.Registrierung homöopathischer Arzneimittel im Sinne des § 4 Absatz 26 des Arzneimittelgesetzes,3.Risikoerfassung und -bewertung sowie Durchführung von Maßnahmen nach dem Stufenplan,4.Überwachung des Verkehrs mit Betäubungsmitteln,5.Arbeiten zur medizinischen und technischen Sicherheit, Eignung und Leistung von Medizinprodukten,6.zentrale Risikoerfassung sowie Durchführung von Maßnahmen zur Risikoabwehr bei Medizinprodukten,7.Koordinierung des Datenzugangs im Gesundheitswesen für die forschungsbezogene Zusammenführung und Verknüpfung von Gesundheitsdaten."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(1) Im Geschäftsbereich des Bundesministeriums für Gesundheit wird unter dem Namen \"Robert Koch-Institut\" ein Bundesinstitut für Infektionskrankheiten und nicht übertragbare Krankheiten als selbständige Bundesoberbehörde errichtet."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(2) Der Sitz des Bundesinstitutes ist Berlin."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_DL dtd:DL-id92 ;
+    dtd:has_Value "(3) Dieses Bundesinstitut wird insbesondere tätig auf folgenden Gebieten: 1.Erkennung, Verhütung und Bekämpfung von Übertragbaren und nicht übertragbaren Krankheiten, 2.epidemiologische Untersuchungen auf dem Gebiet der übertragbaren und nicht übertragbaren Krankheiten einschließlich der Erkennung und Bewertung von Risiken sowie der Dokumentation und Information, 3.Sammlung und Bewertung von Erkenntnissen und Erfahrungen zu HIV-Infektionen und AIDS-Erkrankungen einschließlich der gesellschaftlichen und sozialen Folgen, 4.Gesundheitsberichterstattung, 5.Risikoerfassung und -bewertung bei gentechnisch veränderten Organismen und Produkten, Humangenetik, 6.gesundheitliche Fragen des Transports ansteckungsgefährlicher Stoffe, 7.gesundheitliche Fragen des Transports gentechnisch veränderter Organismen und Produkte. "@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesinstitute erledigen im Rahmen der ihnen jeweils durch die §§ 1 und 2 zugewiesenen Tätigkeitsgebiete die Verwaltungsaufgaben des Bundes, die ihnen durch Gesetz oder aufgrund eines Gesetzes zugewiesen werden, und unterstützen auf diesen Gebieten die zuständigen Bundesministerien."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(2) Die Bundesinstitute erledigen, soweit keine andere Zuständigkeit gesetzlich festgelegt ist, Aufgaben des Bundes in ihrem Zuständigkeitsbereich, mit deren Durchführung sie von dem Bundesministerium, zu dessen Geschäftsbereich sie gehören, oder mit dessen Zustimmung von der sachlich zuständigen obersten Bundesbehörde beauftragt werden."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(3) Auf den in den §§ 1 und 2 genannten Gebieten betreiben die Bundesinstitute zur Erfüllung ihrer Aufgaben wissenschaftliche Forschung und wirken bei der Entwicklung von Standards und Normen mit."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "(4) Die Bundesinstitute informieren im Rahmen ihrer Zuständigkeit die Öffentlichkeit."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "Soweit die Bundesinstitute Aufgaben aus einem anderen Geschäftsbereich als dem des Bundesministeriums, zu dessen Geschäftsbereich sie gehören, wahrnehmen, unterstehen sie den fachlichen Weisungen der sachlich zuständigen obersten Bundesbehörde."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_Value "Beamte und Arbeitnehmer des Bundesgesundheitsamtes, die zum Zeitpunkt der Errichtung der in den §§ 1 und 2 genannten Bundesinstitute Aufgaben wahrnehmen, die nach diesen Vorschriften den Bundesinstituten obliegen, sind vom selben Zeitpunkt an Beamte und Arbeitnehmer des zuständigen Bundesinstitutes."@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-06-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id150 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id151 .
+
+dtd:fussnoten-id58 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id121 .
+
+dtd:fussnoten-id61 a dtd:fussnoten .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:fussnoten-id65 a dtd:fussnoten .
+
+dtd:fussnoten-id67 a dtd:fussnoten .
+
+dtd:fussnoten-id69 a dtd:fussnoten .
+
+dtd:fussnoten-id71 a dtd:fussnoten .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:gliederungsbez-id148 a dtd:gliederungsbez ;
+    dtd:has_Value "-"@de .
+
+dtd:gliederungseinheit-id37 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id148 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id147 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id149 .
+
+dtd:gliederungskennzahl-id147 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungstitel-id149 a dtd:gliederungstitel ;
+    dtd:has_Value """Errichtung von Bundesinstituten, Aufgabenstellung,
+Kostenerhebung, Dienstverhältnisse von Beamten und
+Arbeitnehmern"""@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "BGA-NachfG"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "BGA-Nachfolgegesetz"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_Value "Gesetz über Nachfolgeeinrichtungen des Bundesgesundheitsamtes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 ;
+    dtd:has_standangabe dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994BJNE000801320"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994BJNG000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994BJNE000203130"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994BJNE000301310"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994BJNE000402320"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994BJNE000502320"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994BJNE000601320"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20240326214012"@de ;
+    dtd:has_doknr "BJNR141610994BJNE000705116"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id150 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id146 a dtd:pre ;
+    dtd:has_BR dtd:BR-id75,
+        dtd:BR-id76 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.1994 +++)"@de .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id153 ;
+    dtd:has_standtyp dtd:standtyp-id152 .
+
+dtd:standkommentar-id153 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 2 G v. 22.3.2024 I Nr. 102"@de .
+
+dtd:standtyp-id152 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id133 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id142 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id144 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id69 ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Bundesinstitut für Arzneimittel und Medizinprodukte"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value """Robert Koch-Institut - Bundesinstitut für
+Infektionskrankheiten und nicht übertragbare Krankheiten -"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Aufgabendurchführung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Fachaufsicht"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Übernahme der Beamten und Arbeitnehmer"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id151 a dtd:zitstelle ;
+    dtd:has_Value "1994, 1416"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

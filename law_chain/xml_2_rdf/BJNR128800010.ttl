@@ -1,0 +1,190 @@
+@prefix dtd: <urn:VsorglastVteilStVtrG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231128213542"@de ;
+    dtd:has_doknr "BJNR128800010"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44,
+        dtd:P-id45 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value " (+++ Textnachweis ab 14.9.2010 +++)(+++ Text des Staatsvertrags siehe: VsorglastVteilStVtr +++)"@de ;
+    dtd:has_pre dtd:pre-id46 .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Dem am 16. Dezember 2009 und 26. Januar 2010 unterzeichneten Staatsvertrag über die Verteilung von Versorgungslasten bei bund- und länderübergreifenden Dienstherrenwechseln (Versorgungslastenteilungs-Staatsvertrag) wird zugestimmt. Der Staatsvertrag wird nachstehend veröffentlicht."@de .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(1) Artikel 1 tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(2) Im Übrigen tritt dieses Gesetz an dem Tag in Kraft, an dem der Versorgungslastenteilungs-Staatsvertrag nach seinem § 17 Absatz 1 für den Bund in Kraft tritt. Das Bundesministerium des Innern gibt den Tag des Inkrafttretens im Bundesgesetzblatt bekannt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2010-09-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 2 bis Art 5"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id47 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id48 .
+
+dtd:fussnoten-id27 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id37 .
+
+dtd:fussnoten-id30 a dtd:fussnoten .
+
+dtd:fussnoten-id32 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "VsorglastVteilStVtrG"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "VsorglastVteilStVtrG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "VsorglastVteilStVtrG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "VsorglastVteilStVtrG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Staatsvertrag vom 16. Dezember 2009 und 26. Januar 2010 über die Verteilung von Versorgungslasten bei bund- und länderübergreifenden Dienstherrenwechseln"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231128213542"@de ;
+    dtd:has_doknr "BJNR128800010"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231128213542"@de ;
+    dtd:has_doknr "BJNR128800010BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231128213542"@de ;
+    dtd:has_doknr "BJNR128800010BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231128213542"@de ;
+    dtd:has_doknr "BJNR128800010BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id47 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id46 a dtd:pre ;
+    dtd:has_BR dtd:BR-id34,
+        dtd:BR-id35,
+        dtd:BR-id36 ;
+    dtd:has_Value "(+++ Textnachweis ab 14.9.2010 +++)(+++ Text des Staatsvertrags siehe: VsorglastVteilStVtr +++)"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id43 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id32 ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Zustimmung zum Versorgungslastenteilungs-Staatsvertrag"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id48 a dtd:zitstelle ;
+    dtd:has_Value "2010, 1288 (1404)"@de .
+

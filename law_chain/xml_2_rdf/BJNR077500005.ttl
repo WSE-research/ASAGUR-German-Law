@@ -1,0 +1,587 @@
+@prefix dtd: <urn:ParlBG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118,
+        dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121,
+        dtd:P-id122,
+        dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129,
+        dtd:P-id130,
+        dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133,
+        dtd:P-id134 .
+
+dtd:Content-id135 a dtd:Content ;
+    dtd:has_P dtd:P-id136,
+        dtd:P-id137 .
+
+dtd:Content-id138 a dtd:Content ;
+    dtd:has_P dtd:P-id139 .
+
+dtd:Content-id140 a dtd:Content ;
+    dtd:has_P dtd:P-id141 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89,
+        dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84,
+        dtd:DT-id85 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id97,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Einsatzauftrag,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Einsatzgebiet,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die rechtlichen Grundlagen des Einsatzes,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Höchstzahl der einzusetzenden Soldatinnen und Soldaten,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Fähigkeiten der einzusetzenden Streitkräfte,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die geplante Dauer des Einsatzes,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die voraussichtlichen Kosten und die Finanzierung."@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "es sich um ein Erkundungskommando handelt, das Waffen lediglich zum Zweck der Selbstverteidigung mit sich führt,"@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einzelne Soldatinnen oder Soldaten betroffen sind, die auf Grund von Austauschvereinbarungen Dienst in verbündeten Streitkräften leisten, oder"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einzelne Soldatinnen oder Soldaten im Rahmen eines Einsatzes der VN, der NATO, der EU oder einer Organisation, die einen VN-Auftrag erfüllt, verwendet werden."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_BR dtd:BR-id75 ;
+    dtd:has_Value " (+++ Textnachweis ab: 24. 3.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id142 .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz regelt Form und Ausmaß der Beteiligung des Bundestages beim Einsatz bewaffneter deutscher Streitkräfte im Ausland. Artikel 115a des Grundgesetzes bleibt davon unberührt."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(2) Der Einsatz bewaffneter deutscher Streitkräfte außerhalb des Geltungsbereichs des Grundgesetzes bedarf der Zustimmung des Bundestages."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(1) Ein Einsatz bewaffneter Streitkräfte liegt vor, wenn Soldatinnen oder Soldaten der Bundeswehr in bewaffnete Unternehmungen einbezogen sind oder eine Einbeziehung in eine bewaffnete Unternehmung zu erwarten ist."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(2) Vorbereitende Maßnahmen und Planungen sind kein Einsatz im Sinne dieses Gesetzes. Sie bedürfen keiner Zustimmung des Bundestages. Gleiches gilt für humanitäre Hilfsdienste und Hilfsleistungen der Streitkräfte, bei denen Waffen lediglich zum Zweck der Selbstverteidigung mitgeführt werden, wenn nicht zu erwarten ist, dass die Soldatinnen oder Soldaten in bewaffnete Unternehmungen einbezogen werden."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesregierung übersendet dem Bundestag den Antrag auf Zustimmung zum Einsatz der Streitkräfte rechtzeitig vor Beginn des Einsatzes."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(2) Der Antrag der Bundesregierung enthält Angaben insbesondere über -den Einsatzauftrag, -das Einsatzgebiet, -die rechtlichen Grundlagen des Einsatzes, -die Höchstzahl der einzusetzenden Soldatinnen und Soldaten, -die Fähigkeiten der einzusetzenden Streitkräfte, -die geplante Dauer des Einsatzes, -die voraussichtlichen Kosten und die Finanzierung.  "@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(3) Der Bundestag kann dem Antrag zustimmen oder ihn ablehnen. Änderungen des Antrags sind nicht zulässig."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(1) Bei Einsätzen von geringer Intensität und Tragweite kann die Zustimmung in einem vereinfachten Verfahren erteilt werden. Die Bundesregierung hat begründet darzulegen, aus welchen Gründen der bevorstehende Einsatz von geringer Intensität und Tragweite ist. Die Präsidentin oder der Präsident des Deutschen Bundestages übermittelt den Antrag an die Vorsitzenden der Fraktionen sowie die Vorsitzenden des Auswärtigen Ausschusses und des Verteidigungsausschusses und je einen von jeder in diesen Ausschüssen vertretenen Fraktionen benannten Vertreter (Obleute) und lässt den Antrag als Bundestagsdrucksache an alle Mitglieder des Bundestages verteilen. Die Zustimmung gilt als erteilt, wenn nicht innerhalb von sieben Tagen nach der Verteilung der Drucksache von einer Fraktion oder fünf vom Hundert der Mitglieder des Bundestages eine Befassung des Bundestages verlangt wird. Wird die Befassung des Bundestages verlangt, entscheidet dieser."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(2) Ein Einsatz ist dann von geringer Intensität und Tragweite, wenn die Zahl der eingesetzten Soldatinnen und Soldaten gering ist, der Einsatz auf Grund der übrigen Begleitumstände erkennbar von geringer Bedeutung ist und es sich nicht um die Beteiligung an einem Krieg handelt."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Value "(3) In der Regel liegt ein Einsatz von geringer Intensität und Tragweite vor, wenn -es sich um ein Erkundungskommando handelt, das Waffen lediglich zum Zweck der Selbstverteidigung mit sich führt, -einzelne Soldatinnen oder Soldaten betroffen sind, die auf Grund von Austauschvereinbarungen Dienst in verbündeten Streitkräften leisten, oder -einzelne Soldatinnen oder Soldaten im Rahmen eines Einsatzes der VN, der NATO, der EU oder einer Organisation, die einen VN-Auftrag erfüllt, verwendet werden. "@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(1) Einsätze bei Gefahr im Verzug, die keinen Aufschub dulden, bedürfen keiner vorherigen Zustimmung des Bundestages. Gleiches gilt für Einsätze zur Rettung von Menschen aus besonderen Gefahrenlagen, solange durch die öffentliche Befassung des Bundestages das Leben der zu rettenden Menschen gefährdet würde."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(2) Der Bundestag ist vor Beginn und während des Einsatzes in geeigneter Weise zu unterrichten."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "(3) Der Antrag auf Zustimmung zum Einsatz ist unverzüglich nachzuholen. Lehnt der Bundestag den Antrag ab, ist der Einsatz zu beenden."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesregierung unterrichtet den Bundestag regelmäßig über den Verlauf der Einsätze und über die Entwicklung im Einsatzgebiet."@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "(2) In Fällen des § 4 Abs. 1 (Vereinfachtes Zustimmungsverfahren) unterrichtet die Bundesregierung die zuständigen Ausschüsse und die Obleute unverzüglich."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(1) Das Verfahren nach § 4 findet auch Anwendung auf die Verlängerung von Zustimmungsbeschlüssen ohne inhaltliche Änderung."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(2) Beantragt die Bundesregierung die Verlängerung eines Einsatzes, so gilt der Einsatz bis zum Ablauf von zwei Sitzungstagen nach Verteilung des Antrags als Bundestagsdrucksache als genehmigt. Wird der Antrag im vereinfachten Verfahren nach § 4 gestellt, so gilt er bis zum Ablauf der in § 4 Abs. 1 Satz 4 bestimmten Frist als genehmigt; wird innerhalb der Frist eine Befassung des Bundestages verlangt, so gilt er bis zum Ablauf der auf das Verlangen auf Befassung folgenden Sitzungswoche als genehmigt. Die Geltungsdauer der ursprünglichen Genehmigung bleibt durch die Regelungen der Sätze 1 und 2 unberührt."@de .
+
+dtd:P-id139 a dtd:P ;
+    dtd:has_Value "Der Bundestag kann die Zustimmung zu einem Einsatz bewaffneter Streitkräfte widerrufen."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id33 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-03-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:fundstelle-id34 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id143 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id144 .
+
+dtd:fussnoten-id65 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id112 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "ParlBG"@de .
+
+dtd:kurzue-id35 a dtd:kurzue ;
+    dtd:has_Value "Parlamentsbeteiligungsgesetz"@de .
+
+dtd:langue-id36 a dtd:langue ;
+    dtd:has_Value """Gesetz über die parlamentarische Beteiligung bei der Entscheidung über
+den Einsatz bewaffneter Streitkräfte im Ausland"""@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id33 ;
+    dtd:has_fundstelle dtd:fundstelle-id34 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id35 ;
+    dtd:has_langue dtd:langue-id36 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 ;
+    dtd:has_titel dtd:titel-id48 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405130728"@de ;
+    dtd:has_doknr "BJNR077500005BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id143 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id142 a dtd:pre ;
+    dtd:has_BR dtd:BR-id76,
+        dtd:BR-id77 ;
+    dtd:has_Value "(+++ Textnachweis ab: 24. 3.2005 +++)"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id135 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id138 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id140 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Grundsatz"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Antrag"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id48 a dtd:titel ;
+    dtd:has_Value "Vereinfachtes Zustimmungsverfahren"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Nachträgliche Zustimmung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Unterrichtungspflicht"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Verlängerung von Einsätzen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Rückholrecht"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id144 a dtd:zitstelle ;
+    dtd:has_Value "2005, 775"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,874 @@
+@prefix dtd: <urn:MargMFV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id184 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id86 a dtd:BR .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:BR-id89 a dtd:BR .
+
+dtd:BR-id90 a dtd:BR .
+
+dtd:BR-id91 a dtd:BR .
+
+dtd:BR-id92 a dtd:BR .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_P dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166,
+        dtd:P-id167,
+        dtd:P-id168 .
+
+dtd:Content-id169 a dtd:Content ;
+    dtd:has_P dtd:P-id170,
+        dtd:P-id171 .
+
+dtd:Content-id172 a dtd:Content ;
+    dtd:has_P dtd:P-id173,
+        dtd:P-id174,
+        dtd:P-id175,
+        dtd:P-id176 .
+
+dtd:Content-id177 a dtd:Content ;
+    dtd:has_P dtd:P-id178 .
+
+dtd:Content-id179 a dtd:Content ;
+    dtd:has_P dtd:P-id180 .
+
+dtd:Content-id181 a dtd:Content ;
+    dtd:has_P dtd:P-id182 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id128 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id137 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id138 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id143 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DD-id144 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id153 .
+
+dtd:DD-id145 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id154 .
+
+dtd:DL-id124 a dtd:DL ;
+    dtd:has_DD dtd:DD-id127,
+        dtd:DD-id128 ;
+    dtd:has_DT dtd:DT-id125,
+        dtd:DT-id126 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id129 a dtd:DL ;
+    dtd:has_DD dtd:DD-id132,
+        dtd:DD-id133 ;
+    dtd:has_DT dtd:DT-id130,
+        dtd:DT-id131 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id134 a dtd:DL ;
+    dtd:has_DD dtd:DD-id137,
+        dtd:DD-id138 ;
+    dtd:has_DT dtd:DT-id135,
+        dtd:DT-id136 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id139 a dtd:DL ;
+    dtd:has_DD dtd:DD-id143,
+        dtd:DD-id144,
+        dtd:DD-id145 ;
+    dtd:has_DT dtd:DT-id140,
+        dtd:DT-id141,
+        dtd:DT-id142 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id125 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id130 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id131 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id135 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id136 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id140 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id141 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id142 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Value "bei vorverpackten Erzeugnissen und bei nicht vorverpackten Erzeugnissen im Sinne von § 4 Absatz 1 der Lebensmittelinformations-Durchführungsverordnung in deutscher Sprache und an gut sichtbarer Stelle auf der Verpackung oder auf einem an der Verpackung befestigten Etikett,"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Value "bei der Abgabe von nicht vorverpackten Erzeugnissen im Sinne von § 4 Absatz 2 der Lebensmittelinformations-Durchführungsverordnung in deutscher Sprache und nach Maßgabe des § 4 Absatz 3 der Lebensmittelinformations-Durchführungsverordnung."@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "es nach den Rechtsvorschriften des Herstellungslandes hergestellt und dort verkehrsfähig ist und,"@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "soweit es sich nicht um ein Erzeugnis handelt, das in einem anderen Mitgliedstaat der Europäischen Union oder einem anderen Vertragsstaat des Abkommens über den Europäischen Wirtschaftsraum rechtmäßig hergestellt und in den Verkehr gebracht ist oder aus einem Drittland stammt und sich in einem Mitgliedstaat der Europäischen Union rechtmäßig im Verkehr befindet, für in dem Erzeugnis enthaltene zulassungsbedürftige Zusatzstoffe eine Ausnahme nach § 37 des Lebensmittel- und Bedarfsgegenständegesetzes in der bis zum 6. September 2005 geltenden Fassung oder nach § 68 des Lebensmittel- und Futtermittelgesetzbuches zugelassen worden ist."@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 3 Margarineschmalz oder Mischfettschmalz in den Verkehr bringt oder"@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 4 Absatz 3 eine Verkehrsbezeichnung verwendet."@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abschnitt I Unterabsatz 1 ein dort genanntes Erzeugnis abgibt,"@de .
+
+dtd:LA-id153 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abschnitt I Unterabsatz 2 eine andere als eine dort genannte Verkehrsbezeichnung verwendet oder"@de .
+
+dtd:LA-id154 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abschnitt II Nummer 2 für ein in Anhang VII Anlage II Buchstabe B und C genanntes Erzeugnis einen Hinweis gibt."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 16.9.1990 +++)"@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_BR dtd:BR-id86,
+        dtd:BR-id87,
+        dtd:BR-id88,
+        dtd:BR-id89,
+        dtd:BR-id90,
+        dtd:BR-id91 ;
+    dtd:has_Value "Es verordnen der Bundesminister für Ernährung, Landwirtschaft und Forsten auf Grund des § 7 Satz 1 und des § 19 Abs. 2 des Milch- und Margarinegesetzes vom 25. Juli 1990 (BGBl. I S. 1471) im Einvernehmen mit den Bundesministern für Jugend, Familie, Frauen und Gesundheit, der Justiz und für Wirtschaft der Bundesminister für Jugend, Familie, Frauen und Gesundheit auf Grund des § 12 Abs. 1 Nr. 1 und des § 19 Nr. 4 Buchstabe b des Lebensmittel- und Bedarfsgegenständegesetzes vom 15. August 1974 (BGBl. I S. 1945, 1946) im Einvernehmen mit den Bundesministern für Ernährung, Landwirtschaft und Forsten und für Wirtschaft der Bundesminister für Wirtschaft auf Grund des § 17a Abs. 1 Nr. 1 Buchstabe c des Eichgesetzes in der Fassung der Bekanntmachung vom 22. Februar 1985 (BGBl. I S. 410) im Einvernehmen mit den Bundesministern für Ernährung, Landwirtschaft und Forsten, für Jugend, Familie, Frauen und Gesundheit und der Finanzen:"@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "Die Vorschriften dieser Verordnung gelten für die Durchführung der Rechtsakte der Europäischen Gemeinschaft oder der Europäischen Union über die Normen für Streichfette mit Ausnahme der Milchstreichfette."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "Margarineschmalz oder Mischfettschmalz, das den in der Anlage vorgeschriebenen Anforderungen nicht entspricht, darf nicht in den Verkehr gebracht werden."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(1) Für Margarineschmalz und Mischfettschmalz sind die in der Anlage vorgesehenen Bezeichnungen die Bezeichnungen der Lebensmittel im Sinne der Verordnung (EU) Nr. 1169/2011 des Europäischen Parlaments und des Rates vom 25. Oktober 2011 betreffend die Information der Verbraucher über Lebensmittel und zur Änderung der Verordnungen (EG) Nr. 1924/2006 und (EG) Nr. 1925/2006 des Europäischen Parlaments und des Rates und zur Aufhebung der Richtlinie 87/250/EWG der Kommission, der Richtlinie 90/496/EWG des Rates, der Richtlinie 1999/10/EG der Kommission, der Richtlinie 2000/13/EG des Europäischen Parlaments und des Rates, der Richtlinie 2002/67/EG und 2008/5/EG der Kommission und der Verordnung (EG) Nr. 608/2004 der Kommission (ABl. L 304 vom 22.11.2011, S. 18; L 331 vom 18.11.2014, S. 41; L 50 vom 21.2.2015, S. 48; L 266 vom 30.9.2016, S. 7) in der jeweils geltenden Fassung."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_DL dtd:DL-id124 ;
+    dtd:has_Value "(2) Bei Erzeugnissen mit einem Gesamtfettgehalt von 50 Gramm pro 100 Gramm in Massenanteilen und weniger ist ein Hinweis anzubringen, dass das Erzeugnis zum Braten nicht geeignet ist, und zwar 1.bei vorverpackten Erzeugnissen und bei nicht vorverpackten Erzeugnissen im Sinne von § 4 Absatz 1 der Lebensmittelinformations-Durchführungsverordnung in deutscher Sprache und an gut sichtbarer Stelle auf der Verpackung oder auf einem an der Verpackung befestigten Etikett,2.bei der Abgabe von nicht vorverpackten Erzeugnissen im Sinne von § 4 Absatz 2 der Lebensmittelinformations-Durchführungsverordnung in deutscher Sprache und nach Maßgabe des § 4 Absatz 3 der Lebensmittelinformations-Durchführungsverordnung."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "(3) Es ist verboten, eine Verkehrsbezeichnung, die nach Anhang VII Teil VII Abschnitt I Unterabsatz 3 Buchstabe b und c der Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 922/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 (ABl. L 347 vom 20.12.2013, S. 671) einem bestimmten Erzeugnis vorbehalten ist, für ein anderes als ein dort genanntes Erzeugnis zu verwenden."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_DL dtd:DL-id129 ;
+    dtd:has_Value "(1) Außerhalb des Geltungsbereichs dieser Verordnung hergestelltes Margarineschmalz oder Mischfettschmalz (ausländisches Margarineschmalz oder Mischfettschmalz), das nicht den Vorschriften dieser Verordnung entspricht, darf vorbehaltlich des Absatzes 2 in den Verkehr gebracht werden, wenn 1.es nach den Rechtsvorschriften des Herstellungslandes hergestellt und dort verkehrsfähig ist und,2.soweit es sich nicht um ein Erzeugnis handelt, das in einem anderen Mitgliedstaat der Europäischen Union oder einem anderen Vertragsstaat des Abkommens über den Europäischen Wirtschaftsraum rechtmäßig hergestellt und in den Verkehr gebracht ist oder aus einem Drittland stammt und sich in einem Mitgliedstaat der Europäischen Union rechtmäßig im Verkehr befindet, für in dem Erzeugnis enthaltene zulassungsbedürftige Zusatzstoffe eine Ausnahme nach § 37 des Lebensmittel- und Bedarfsgegenständegesetzes in der bis zum 6. September 2005 geltenden Fassung oder nach § 68 des Lebensmittel- und Futtermittelgesetzbuches zugelassen worden ist."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(2) Ausländisches Margarine- und Mischfettschmalz, das in wesentlichen charakteristischen Merkmalen, insbesondere hinsichtlich des Fettgehalts und der Verwendung von Ausgangsstoffen, von inländischen Erzeugnissen abweicht, darf nur in den Verkehr gebracht werden, wenn zusätzlich zu der Kennzeichnung nach § 4 und nach der Verordnung (EU) Nr. 1169/2011 die Beschreibung der Abweichung auf der Fertigpackung oder dem Hinweisschild deutlich lesbar angegeben ist. Der Hinweis ist in Verbindung mit der Bezeichnung des Lebensmittels anzugeben, sofern nicht durch eine Angabe im Zutatenverzeichnis eine Irreführung des Verbrauchers ausgeschlossen werden kann. Zusätzlich darf auch die Bezeichnung des Lebensmittels des Herstellungslandes verwendet werden."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(1) Nach § 59 Abs. 1 Nr. 21 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches wird bestraft, wer entgegen § 5 Abs. 2 Satz 1 ausländisches Margarineschmalz oder ausländisches Mischfettschmalz, das nicht oder nicht in der vorgeschriebenen Weise kenntlich gemacht ist, in den Verkehr bringt."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(2) Wer eine in Absatz 1 bezeichnete Handlung fahrlässig begeht, handelt nach § 60 Abs. 1 des Lebensmittel- und Futtermittelgesetzbuches ordnungswidrig."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_DL dtd:DL-id134 ;
+    dtd:has_Value "(3) Ordnungswidrig im Sinne des § 9 Absatz 2 Nummer 2 des Milch- und Margarinegesetzes handelt, wer vorsätzlich oder fahrlässig 1.entgegen § 3 Margarineschmalz oder Mischfettschmalz in den Verkehr bringt oder2.entgegen § 4 Absatz 3 eine Verkehrsbezeichnung verwendet."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_DL dtd:DL-id139 ;
+    dtd:has_Value "(4) Ordnungswidrig im Sinne des § 9 Absatz 2 Nummer 4 des Milch- und Margarinegesetzes handelt, wer gegen die Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 922/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 (ABl. L 347 vom 20.12.2013, S. 671) verstößt, indem er vorsätzlich oder fahrlässig entgegen Anhang VII Teil VII 1.Abschnitt I Unterabsatz 1 ein dort genanntes Erzeugnis abgibt,2.Abschnitt I Unterabsatz 2 eine andere als eine dort genannte Verkehrsbezeichnung verwendet oder3.Abschnitt II Nummer 2 für ein in Anhang VII Anlage II Buchstabe B und C genanntes Erzeugnis einen Hinweis gibt."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id184 ;
+    dtd:has_BR dtd:BR-id92 ;
+    dtd:has_Value """ Fundstelle des Originaltextes: BGBl. I 1999, 1265  
+		
+			
+			
+			
+			
+				
+					1
+					2
+					3
+				
+				
+					Bezeichnung
+					Herstellungsweise Zusammensetzung
+					Fettgehalt in 100 Gewichtsteilen
+				
+			
+			
+				
+					I.
+					
+					
+				
+				
+					Margarineschmalz (Schmelzmargarine)
+					hergestellt aus genußtauglichen Fettstoffen pflanzlicher oder tierischer Herkunft, keine Emulsion, aromatisiert, in der Regel kräftig gelb und einem Höchstgehalt an Milchfett von 3% des Gesamtfettgehaltes
+					mindestens 99
+				
+				
+					II .
+					
+					
+				
+				
+					Mischfettschmalz (Schmelzmischfett)
+					hergestellt aus genußtauglichen Fettstoffen pflanzlicher und tierischer Herkunft, keine Emulsion; Milchfettanteil am Gesamtfett 10% bis 80%
+					mindestens 99
+				
+			
+		
+	 """@de ;
+    dtd:has_kommentar dtd:kommentar-id183 ;
+    dtd:has_table dtd:table-id93 .
+
+dtd:amtabk-id36 a dtd:amtabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id37 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-08-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id95 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "35*"@de .
+
+dtd:colspec-id96 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:colspec-id97 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "35*"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bezeichnung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Herstellungsweise Zusammensetzung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Fettgehalt in 100 Gewichtsteilen"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "I."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Margarineschmalz (Schmelzmargarine)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "hergestellt aus genußtauglichen Fettstoffen pflanzlicher oder tierischer Herkunft, keine Emulsion, aromatisiert, in der Regel kräftig gelb und einem Höchstgehalt an Milchfett von 3% des Gesamtfettgehaltes"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "mindestens 99"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "II ."@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mischfettschmalz (Schmelzmischfett)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "hergestellt aus genußtauglichen Fettstoffen pflanzlicher und tierischer Herkunft, keine Emulsion; Milchfettanteil am Gesamtfett 10% bis 80%"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "mindestens 99"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id38 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id185 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id186 .
+
+dtd:fussnoten-id67 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id155 .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:fussnoten-id72 a dtd:fussnoten .
+
+dtd:fussnoten-id74 a dtd:fussnoten .
+
+dtd:fussnoten-id76 a dtd:fussnoten .
+
+dtd:fussnoten-id78 a dtd:fussnoten .
+
+dtd:fussnoten-id80 a dtd:fussnoten .
+
+dtd:fussnoten-id82 a dtd:fussnoten .
+
+dtd:fussnoten-id85 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "MargMFV"@de .
+
+dtd:kommentar-id183 a dtd:kommentar ;
+    dtd:has_Value " Fundstelle des Originaltextes: BGBl. I 1999, 1265 "@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id39 a dtd:kurzue ;
+    dtd:has_Value "Margarine- und Mischfettverordnung"@de .
+
+dtd:langue-id40 a dtd:langue ;
+    dtd:has_Value "Verordnung über Margarine- und Mischfetterzeugnisse"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id36 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id37 ;
+    dtd:has_fundstelle dtd:fundstelle-id38 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_kurzue dtd:kurzue-id39 ;
+    dtd:has_langue dtd:langue-id40 ;
+    dtd:has_standangabe dtd:standangabe-id41 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE001001308"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE001100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE001202308"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE000202377"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE000301308"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE000402308"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE000505124"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE000603124"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231128213525"@de ;
+    dtd:has_doknr "BJNR019890990BJNE000705124"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id185 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:row-id100 a dtd:row ;
+    dtd:has_entry dtd:entry-id106,
+        dtd:entry-id107,
+        dtd:entry-id108 .
+
+dtd:row-id101 a dtd:row ;
+    dtd:has_entry dtd:entry-id109,
+        dtd:entry-id110,
+        dtd:entry-id111 .
+
+dtd:row-id102 a dtd:row ;
+    dtd:has_entry dtd:entry-id112,
+        dtd:entry-id113,
+        dtd:entry-id114 .
+
+dtd:row-id103 a dtd:row ;
+    dtd:has_entry dtd:entry-id115,
+        dtd:entry-id116,
+        dtd:entry-id117 .
+
+dtd:row-id104 a dtd:row ;
+    dtd:has_entry dtd:entry-id118,
+        dtd:entry-id119,
+        dtd:entry-id120 .
+
+dtd:row-id105 a dtd:row ;
+    dtd:has_entry dtd:entry-id121,
+        dtd:entry-id122,
+        dtd:entry-id123 .
+
+dtd:standangabe-id41 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id188 ;
+    dtd:has_standtyp dtd:standtyp-id187 .
+
+dtd:standkommentar-id188 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 17 V v. 5.7.2017 I 2272"@de .
+
+dtd:standtyp-id187 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id93 a dtd:table ;
+    dtd:has_frame dtd:topbot ;
+    dtd:has_tgroup dtd:tgroup-id94 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id99 a dtd:tbody ;
+    dtd:has_row dtd:row-id102,
+        dtd:row-id103,
+        dtd:row-id104,
+        dtd:row-id105 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id163 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id169 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id172 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id177 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id179 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id181 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id80 ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:tgroup-id94 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "3"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id95,
+        dtd:colspec-id96,
+        dtd:colspec-id97 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id99 ;
+    dtd:has_thead dtd:thead-id98 .
+
+dtd:thead-id98 a dtd:thead ;
+    dtd:has_row dtd:row-id100,
+        dtd:row-id101 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Kennzeichnungsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Straftaten und Ordnungswidrigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "(zu § 3)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:topbot rdfs:label "topbot"@de .
+
+dtd:zitstelle-id186 a dtd:zitstelle ;
+    dtd:has_Value "1990, 1989 (2259)"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

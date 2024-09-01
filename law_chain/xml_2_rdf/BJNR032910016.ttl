@@ -1,0 +1,329 @@
+@prefix dtd: <urn:See-DatenÜbermittDV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20190430212003"@de ;
+    dtd:has_doknr "BJNR032910016"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66,
+        dtd:P-id67,
+        dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73,
+        dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76,
+        dtd:P-id77,
+        dtd:P-id78 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id55 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id56 .
+
+dtd:DD-id42 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id57 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id58 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59 .
+
+dtd:DD-id49 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DL-id36 a dtd:DL ;
+    dtd:has_DD dtd:DD-id40,
+        dtd:DD-id41,
+        dtd:DD-id42 ;
+    dtd:has_DT dtd:DT-id37,
+        dtd:DT-id38,
+        dtd:DT-id39 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id43 a dtd:DL ;
+    dtd:has_DD dtd:DD-id47,
+        dtd:DD-id48,
+        dtd:DD-id49 ;
+    dtd:has_DT dtd:DT-id44,
+        dtd:DT-id45,
+        dtd:DT-id46 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id50 a dtd:DL ;
+    dtd:has_DD dtd:DD-id53,
+        dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id51,
+        dtd:DT-id52 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_Value "Hafenbetriebe,"@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Value "Schiffsmeldedienste und"@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Value "für die Hafenwirtschaft tätige Dienstleister, insbesondere Schlepperbetriebe, Terminal- und Kaibetreiber, Festmacherbetriebe, Speditionen, Transportbetriebe, Schiffsausrüster, Schiffsmakler, Reparaturbetriebe sowie weitere Servicebetriebe."@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Value "Name, Sitz oder Niederlassung der nichtöffentlichen Stelle,"@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Value "welche der in § 9e Absatz 1 Nummer 1 und 6 des Seeaufgabengesetzes genannten Daten übermittelt werden sollen,"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Value "Zweck im Sinne von § 2 Absatz 2, zu dessen Erfüllung die Übermittlung der Daten nach Nummer 2 erforderlich ist."@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Value "elektronisch oder"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Value "in Papierform"@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_BR dtd:BR-id33 ;
+    dtd:has_Value " (+++ Textnachweis ab: 8.3.2016 +++)Die V wurde als Artikel 1 der V v. 1.3.2016 I 329 vom Bundesministerium für Verkehr und digitale Infrastruktur im Einvernehmen mit dem Bundesministerium des Innern und dem Bundesministerium der Finanzen verordnet. Die V ist gem. Art. 5 dieser V am 8.3.2016 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id79 .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung regelt die Übermittlung der in § 9e Absatz 1 Satz 1 Nummer 1 und 6 des Seeaufgabengesetzes bezeichneten Daten durch die datenerhebenden Stellen an nichtöffentliche Stellen."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "(2) Datenerhebende Stellen nach dieser Verordnung sind die Behörden der Wasser- und Schifffahrtsverwaltung des Bundes."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_DL dtd:DL-id36 ;
+    dtd:has_Value "(3) Nichtöffentliche Stellen nach dieser Verordnung sind 1.Hafenbetriebe,2.Schiffsmeldedienste und3.für die Hafenwirtschaft tätige Dienstleister, insbesondere Schlepperbetriebe, Terminal- und Kaibetreiber, Festmacherbetriebe, Speditionen, Transportbetriebe, Schiffsausrüster, Schiffsmakler, Reparaturbetriebe sowie weitere Servicebetriebe."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(1) Die datenerhebende Stelle darf die bei ihr nach § 9e Absatz 1 Satz 1 Nummer 1 und 6 des Seeaufgabengesetzes gespeicherten Daten an eine der in § 1 Absatz 3 genannten nichtöffentlichen Stellen auf deren Ersuchen übermitteln. Die Verantwortung für die Zulässigkeit der Übermittlung der Daten trägt die datenerhebende Stelle."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(2) Die Übermittlung der Daten darf nur erfolgen, wenn dies der Erhaltung der Leistungsfähigkeit des deutschen Seehafens dient, für den die nichtöffentliche Stelle tätig ist. Die Leistungsfähigkeit eines Seehafens wird erhalten, wenn die übermittelten Daten zur Unterstützung des Hafenmanagements einschließlich der Anschlusslogistik oder zur besseren Organisation des Schiffsverkehrs im Hafen eingesetzt werden oder der sicheren Behandlung von Schiffen mit gefährlicher Ladung dienen."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(3) Die datenerhebende Stelle hat die nichtöffentliche Stelle bei der Übermittlung darauf hinzuweisen, dass eine Nutzung der Daten für einen anderen Zweck als den, für den sie übermittelt worden sind, unzulässig ist."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(4) Die Übermittlung von personenbezogenen Daten nach Absatz 1 ist ausgeschlossen, wenn der Betroffene ein schutzwürdiges Interesse an dem Ausschluss der Übermittlung hat. Zur Ermöglichung der Geltendmachung eines schutzwürdigen Interesses an dem Ausschluss der Übermittlung, ist der Betroffene vor einer beabsichtigten Übermittlung der Daten von der datenerhebenden Stelle rechtzeitig zu benachrichtigen."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(5) Im Falle einer nachweislich zweckwidrigen Nutzung übermittelter Daten durch eine nichtöffentliche Stelle ist diese von der weiteren Datenübermittlung auszuschließen."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(1) Ersuchen zur Übermittlung von Daten sind von der nichtöffentlichen Stelle elektronisch oder in Papierform an die datenerhebende Stelle zu richten."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_DL dtd:DL-id43 ;
+    dtd:has_Value "(2) Das Ersuchen zur Übermittlung von Daten muss folgende Angaben enthalten: 1.Name, Sitz oder Niederlassung der nichtöffentlichen Stelle,2.welche der in § 9e Absatz 1 Nummer 1 und 6 des Seeaufgabengesetzes genannten Daten übermittelt werden sollen,3.Zweck im Sinne von § 2 Absatz 2, zu dessen Erfüllung die Übermittlung der Daten nach Nummer 2 erforderlich ist.Die Angaben sind auf Verlangen im Einzelfall gegenüber der übermittelnden Stelle glaubhaft zu machen."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_DL dtd:DL-id50 ;
+    dtd:has_Value "(3) Die Datenübermittlung der datenerhebenden Stelle kann 1.elektronisch oder2.in Papierformerfolgen."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "See-DatenÜbermittDV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2016-03-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id80 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id81 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id63 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "See-DatenÜbermittDV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "See-DatenÜbermittDV"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "See-DatenÜbermittDV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "See-DatenÜbermittDV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "See-Datenübermittlung-Durchführungsverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung der Datenübermittlung an nichtöffentliche Stellen im Seeverkehr"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_titel dtd:titel-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_titel dtd:titel-id28 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_titel dtd:titel-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20190430212003"@de ;
+    dtd:has_doknr "BJNR032910016"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20190430212003"@de ;
+    dtd:has_doknr "BJNR032910016BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20190430212003"@de ;
+    dtd:has_doknr "BJNR032910016BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20190430212003"@de ;
+    dtd:has_doknr "BJNR032910016BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id80 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id79 a dtd:pre ;
+    dtd:has_BR dtd:BR-id34,
+        dtd:BR-id35 ;
+    dtd:has_Value "(+++ Textnachweis ab: 8.3.2016 +++)"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:titel-id22 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id25 a dtd:titel ;
+    dtd:has_Value "Übermittlung und Nutzung der Daten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id28 a dtd:titel ;
+    dtd:has_Value "Verfahren der Datenübermittlung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id81 a dtd:zitstelle ;
+    dtd:has_Value "2016, 329"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

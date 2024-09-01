@@ -1,0 +1,276 @@
+@prefix dtd: <urn:BinSchUkrAbkG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160531215618"@de ;
+    dtd:has_doknr "BJNR025820994"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65,
+        dtd:P-id66 .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_BR dtd:BR-id49 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11.2.1994 +++)"@de ;
+    dtd:has_pre dtd:pre-id67 .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Dem in Bonn am 14. Juli 1992 unterzeichneten Abkommen zwischen der Regierung der Bundesrepublik Deutschland und der Regierung der Ukraine über die Binnenschiffahrt sowie dem dazugehörigen Protokoll vom selben Tage wird zugestimmt. Das Abkommen sowie das Protokoll werden nachstehend veröffentlicht."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Verkehr und digitale Infrastruktur wird ermächtigt, die genehmigten Vereinbarungen über die Mindest-/Höchstfrachten sowie die Nebenbedingungen für den Wechselverkehr, auf die sich der Gemischte Ausschuß gemäß Artikel 14 Abs. 8 des Abkommens geeinigt hat, durch Rechtsverordnung in Kraft zu setzen."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Abweichungen von den in einer Rechtsverordnung nach Artikel 2 festgesetzten Mindest-/Höchstfrachten für Verkehrsleistungen sowie Zahlungen oder andere Zuwendungen, die einer Umgehung des festgesetzten Entgelts gleichkommen, sind verboten."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "Ordnungswidrig im Sinne des § 3 des Wirtschaftsstrafgesetzes 1954 handelt, wer vorsätzlich oder fahrlässig den Abschluß von Verträgen über Wechselverkehre im Sinne des Artikels 3 des Abkommens in Abweichung von den durch Rechtsverordnung nach Artikel 2 in Kraft gesetzten Mindest-/Höchstfrachten anbietet oder vermittelt oder wer solche Verträge abschließt oder erfüllt."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Verwaltungsbehörde im Sinne des § 36 Abs. 1 Nr. 1 des Gesetzes über Ordnungswidrigkeiten ist die Generaldirektion Wasserstraßen und Schifffahrt."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Abkommen nach seinem Artikel 16 Abs. 2 sowie das Protokoll in Kraft treten, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1994-02-02"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id68 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id69 .
+
+dtd:fussnoten-id40 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id52 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:fussnoten-id47 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BinSchUkrAbkG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "BinSchUkrAbkG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "BinSchUkrAbkG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "BinSchUkrAbkG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "BinSchUkrAbkG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "BinSchUkrAbkG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "BinSchUkrAbkG"@de .
+
+dtd:langue-id26 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Abkommen vom 14. Juli 1992 zwischen der Regierung der
+Bundesrepublik Deutschland und der Regierung der Ukraine über die
+Binnenschiffahrt"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id26 ;
+    dtd:has_standangabe dtd:standangabe-id27 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160531215618"@de ;
+    dtd:has_doknr "BJNR025820994"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160531215618"@de ;
+    dtd:has_doknr "BJNR025820994BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160531215618"@de ;
+    dtd:has_doknr "BJNR025820994BJNE000203377"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160531215618"@de ;
+    dtd:has_doknr "BJNR025820994BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20160531215618"@de ;
+    dtd:has_doknr "BJNR025820994BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20160531215618"@de ;
+    dtd:has_doknr "BJNR025820994BJNE000504377"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20160531215618"@de ;
+    dtd:has_doknr "BJNR025820994BJNE000600307"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id68 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id67 a dtd:pre ;
+    dtd:has_BR dtd:BR-id50,
+        dtd:BR-id51 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11.2.1994 +++)"@de .
+
+dtd:standangabe-id27 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id71 ;
+    dtd:has_standtyp dtd:standtyp-id70 .
+
+dtd:standkommentar-id71 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 G v. 24.5.2016 I 1217"@de .
+
+dtd:standtyp-id70 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:zitstelle-id69 a dtd:zitstelle ;
+    dtd:has_Value "1994, 258"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

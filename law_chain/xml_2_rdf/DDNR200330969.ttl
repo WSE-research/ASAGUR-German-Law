@@ -1,0 +1,265 @@
+@prefix dtd: <urn:ESBiSGDBest-4#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153132"@de ;
+    dtd:has_doknr "DDNR200330969"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:B-id47 a dtd:B ;
+    dtd:has_Value "Der Minister für Volksbildung"@de .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57,
+        dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_Value "Im beigetretenen Gebiet in Teilen fortgeltende Rechtsvorschrift der ehem. Deutschen Demokratischen Republik gem. Anlage II Kap. X Sachg. B Abschn. I Nr. 3 nach Maßgabe d. Art. 9 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1219 mWv 3.10.1990. (+++ Textnachweis Geltung ab:  3.10.1990 +++)"@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "In Anwendung des Artikels 40 der Verfassung der Deutschen Demokratischen Republik wird zur allseitigen Verwirklichung des Gesetzes vom 25. Februar 1965 über das einheitliche sozialistische Bildungssystem (GBl. I S. 83) im zweisprachigen Gebiet der Bezirke Cottbus und Dresden auf Grund des § 79 Abs. 2 für die Durchführung des § 31 dieses Gesetzes im Einvernehmen mit dem Minister für Hoch- und Fachschulwesen, dem Leiter des Staatlichen Amtes für Berufsausbildung und den Leitern der anderen zuständigen zentralen staatlichen Organe folgendes bestimmt:"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(1) In Kindergärten im zweisprachigen Gebiet sind, ausgehend von den muttersprachlichen Voraussetzungen der Kinder, die deutsche bzw. sorbische Sprache in der Bildungs- und Erziehungsarbeit anzuwenden und die muttersprachliche Entwicklung der Kinder zu fördern."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(2) In Kindergärten im zweisprachigen Gebiet sind, wenn die erforderlichen Voraussetzungen - Sprachkenntnisse der Kinder und ausreichende Anzahl von Kindern - gegeben sind, Gruppen für Kinder mit sorbischer Muttersprache zu bilden. Besuchen Kinder mit sorbischer und Kinder mit deutscher Muttersprache gemeinsam einen Kindergarten und ist die Bildung von Parallelgruppen nicht möglich, sind beide Sprachen in der Bildungs- und Erziehungsarbeit anzuwenden."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(3) In Kindergärten im zweisprachigen Gebiet sind die Kinder, ausgehend von den gesellschaftlichen Erfordernissen, in einer ihren Kräften und Fähigkeiten angemessenen Weise auch mit der zweiten Sprache, Deutsch bzw. Sorbisch, vertraut zu machen."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_B dtd:B-id47 ;
+    dtd:has_Value "Der Minister für Volksbildung"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1968-12-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 3 bis 13"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id64 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id65 .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id38 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "ESBiSGDBest 4"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "ESBiSGDBest 4"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "ESBiSGDBest 4"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "ESBiSGDBest 4"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ESBiSGDBest 4"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "ESBiSGDBest 4"@de .
+
+dtd:langue-id24 a dtd:langue ;
+    dtd:has_Value """Vierte Durchführungsbestimmung zum Gesetz über das einheitliche
+sozialistische Bildungssystem - Bildung und Erziehung im zweisprachigen Gebiet
+der Bezirke Cottbus und Dresden -"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22,
+        dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153132"@de ;
+    dtd:has_doknr "DDNR200330969"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153132"@de ;
+    dtd:has_doknr "DDNR200330969BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153132"@de ;
+    dtd:has_doknr "DDNR200330969BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625153132"@de ;
+    dtd:has_doknr "DDNR200330969BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625153132"@de ;
+    dtd:has_doknr "DDNR200330969BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625153132"@de ;
+    dtd:has_doknr "DDNR200330969BJNE000500307"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id64 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR II"@de .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR II"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Kindergärten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id65 a dtd:zitstelle ;
+    dtd:has_Value "1969, 33"@de .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "1969, Nr 3, 33"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+

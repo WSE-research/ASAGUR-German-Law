@@ -1,0 +1,377 @@
+@prefix dtd: <urn:TreuhGDV-3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:B-id55 a dtd:B ;
+    dtd:has_Value "Der Ministerrat der Deutschen Demokratischen Republik"@de .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75,
+        dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:Content-id87 a dtd:Content ;
+    dtd:has_P dtd:P-id88 .
+
+dtd:Content-id89 a dtd:Content ;
+    dtd:has_P dtd:P-id90 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id67 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id68 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id69 .
+
+dtd:DD-id65 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id66 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id62,
+        dtd:DD-id63,
+        dtd:DD-id64,
+        dtd:DD-id65,
+        dtd:DD-id66 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59,
+        dtd:DT-id60,
+        dtd:DT-id61 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id60 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id67 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der volkseigenen Güter,"@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der staatlichen Forstwirtschaftsbetriebe und Forsteinrichtungsämter,"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der volkseigenen Binnenfischereibetriebe,"@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der volkseigenen Gestüte, Pferdezuchtdirektionen und Rennbetriebe sowie"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Betriebe bzw. der bereits ausgegliederten Betriebe des volkseigenen Kombinates Industrielle Tierproduktion"@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  3.10.1990 +++)"@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_BR dtd:BR-id54 ;
+    dtd:has_Value " Fortgeltendes Recht der ehem. Deutschen Demokratischen Republik gem. Anlage II Kap. IV Abschn. I Nr. 8 nach Maßgabe d. Art. 9 EinigVtr v. 31.8.1990 iVm Art. 1 G v. 23.9.1990 II 885, 1198 mWv 3.10.1990"@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "Auf der Grundlage des § 1 Abs. 2 und 6 und des § 24 Abs. 4 des Gesetzes vom 17. Juni 1990 zur Privatisierung und Reorganisation des volkseigenen Vermögens (Treuhandgesetz) (GBl. I Nr. 33 S. 300) wird folgendes verordnet:"@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Value "Der Treuhandanstalt wird das Vermögen -der volkseigenen Güter, -der staatlichen Forstwirtschaftsbetriebe und Forsteinrichtungsämter, -der volkseigenen Binnenfischereibetriebe, -der volkseigenen Gestüte, Pferdezuchtdirektionen und Rennbetriebe sowie -der Betriebe bzw. der bereits ausgegliederten Betriebe des volkseigenen Kombinates Industrielle Tierproduktion (nachfolgend Wirtschaftseinheiten genannt) zur zeitweiligen treuhänderischen Verwaltung übergeben."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Soweit eine Übertragung bisheriger Wirtschaftseinheiten gemäß § 1 in das Eigentum der Länder und Kommunen nicht vorgesehen ist, erfolgt ihre Privatisierung auf der Grundlage des § 1 Abs. 2 des Treuhandgesetzes. Die übrigen Bestimmungen des Treuhandgesetzes finden entsprechende Anwendung."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Die Eigentumsrechte an den volkseigenen land- und forstwirtschaftlichen Nutzflächen (Grundstücke), die sich im Besitz von Genossenschaften oder Einzelpersonen befinden, werden nach Maßgabe des Gesetzes vom 22. Juli 1990 über die Übertragung des Eigentums und die Verpachtung volkseigener landwirtschaftlich genutzter Grundstücke an Genossenschaften, Genossenschaftsmitglieder und andere Bürger in die treuhänderische Verwaltung der Treuhandanstalt übertragen."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "Die Treuhandanstalt hat in Abstimmung mit dem Ministerium für Ernährung, Land- und Forstwirtschaft die erforderlichen Voraussetzungen für die Erfassung, Privatisierung und Reorganisation der volkseigenen Vermögenswerte im Bereich der Land- und Forstwirtschaft sicherzustellen und in Übereinstimmung mit § 1 Abs. 6 des Treuhandgesetzes die dazu notwendigen Organisationsstrukturen in der Treuhandanstalt zu schaffen."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "Diese Durchführungsverordnung tritt mit ihrer Veröffentlichung in Kraft."@de .
+
+dtd:P-id90 a dtd:P ;
+    dtd:has_B dtd:B-id55 ;
+    dtd:has_Value "Der Ministerrat der Deutschen Demokratischen Republik"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-08-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id91 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id92 .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id93 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id94 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id74 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "TreuhGDV 3"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "TreuhGDV 3"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "TreuhGDV 3"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "TreuhGDV 3"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "TreuhGDV 3"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "TreuhGDV 3"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "TreuhGDV 3"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "TreuhGDV 3"@de .
+
+dtd:langue-id30 a dtd:langue ;
+    dtd:has_Value "Dritte Durchführungsverordnung zum Treuhandgesetz"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28,
+        dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990BJNE000500307"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990BJNE000600307"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20131008093954"@de ;
+    dtd:has_doknr "DDNR213330990BJNE000700307"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id91 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:periodikum-id93 a dtd:periodikum ;
+    dtd:has_Value "GBl DDR I"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id87 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id89 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:zitstelle-id92 a dtd:zitstelle ;
+    dtd:has_Value "1990, 1333"@de .
+
+dtd:zitstelle-id94 a dtd:zitstelle ;
+    dtd:has_Value "1990, Nr 57, 1333"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

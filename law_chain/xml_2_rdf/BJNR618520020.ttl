@@ -1,0 +1,129 @@
+@prefix dtd: <urn:EpiAAppOAbwV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220810213025"@de ;
+    dtd:has_doknr "BJNR618520020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:BR-id20 a dtd:BR .
+
+dtd:BR-id21 a dtd:BR .
+
+dtd:Content-id22 a dtd:Content ;
+    dtd:has_P dtd:P-id23 .
+
+dtd:Content-id24 a dtd:Content ;
+    dtd:has_P dtd:P-id25 .
+
+dtd:Content-id26 a dtd:Content ;
+    dtd:has_P dtd:P-id27 .
+
+dtd:P-id23 a dtd:P ;
+    dtd:has_BR dtd:BR-id19 ;
+    dtd:has_Value " (+++ Textnachweis ab: 23.5.2020 +++)Die V wurde als Artikel 2 der V v. 3.7.2020 BAnz AT 03.07.2020 V1 vom Bundesministerium für Gesundheit beschlossen. Sie ist gem. Art. 4 Abs. 1 dieser V am 4.7.2020 in Kraft getreten. Gem. Art. 4 Abs. 2 dieser V tritt § 3 mWv 23.5.2020 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id28 .
+
+dtd:P-id25 a dtd:P ;
+    dtd:has_Value "Für Studierende oder Auszubildende, die zum Zeitpunkt der Aufhebung der Feststellung einer epidemischen Lage von nationaler Tragweite die Famulatur oder die praktische Ausbildung begonnen, aber noch nicht abgeschlossen haben, gilt § 3 oder § 4 fort."@de .
+
+dtd:P-id27 a dtd:P ;
+    dtd:has_Value "(+++ § 6: Inkraft gem. Art. 4 Abs. 1 V v. 3.7.2020 BAnz AT 03.07.2020 V1 mWv 4.7.2020 +++)"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-07-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id14 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id29 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id30 .
+
+dtd:fussnoten-id16 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id22 .
+
+dtd:fussnoten-id18 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id26 .
+
+dtd:jurabk-id13 a dtd:jurabk ;
+    dtd:has_Value "EpiAAppOAbwV"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "EpiAAppOAbwV"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Abweichung von der Approbationsordnung für Apotheker bei einer epidemischen Lage von nationaler Tragweite"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 ;
+    dtd:has_standangabe dtd:standangabe-id12 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id14 ;
+    dtd:has_jurabk dtd:jurabk-id13 ;
+    dtd:has_titel dtd:titel-id15 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220810213025"@de ;
+    dtd:has_doknr "BJNR618520020"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220810213025"@de ;
+    dtd:has_doknr "BJNR618520020BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id29 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id28 a dtd:pre ;
+    dtd:has_BR dtd:BR-id20,
+        dtd:BR-id21 ;
+    dtd:has_Value "(+++ Textnachweis ab: 23.5.2020 +++)"@de .
+
+dtd:standangabe-id12 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id32 ;
+    dtd:has_standtyp dtd:standtyp-id31 .
+
+dtd:standkommentar-id32 a dtd:standkommentar ;
+    dtd:has_Value "V aufgeh. durch § 5 Abs. 4 Satz 1 nach Maßgabe d. § 5 Abs. 4 Satz 2 Nummer 1 IfSG idF d. G v. 22.11.2021 I 4906 iVm § 5 Abs. 1 Satz 3 iVm Satz 2 IfSG idF d. G v. 22.11.2021 I 4906 mWv 26.11.2021, dadurch gilt § 6 über den 25.11.2021 hinaus fort"@de .
+
+dtd:standtyp-id31 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:text-id17 a dtd:text ;
+    dtd:has_Content dtd:Content-id24 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id16 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id18 ;
+    dtd:has_text dtd:text-id17 .
+
+dtd:titel-id15 a dtd:titel ;
+    dtd:has_Value "Übergangsregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id30 a dtd:zitstelle ;
+    dtd:has_Value "AT 03.07.2020 V1"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

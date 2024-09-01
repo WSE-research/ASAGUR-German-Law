@@ -1,0 +1,181 @@
+@prefix dtd: <urn:EuRHiÜbkErgVtrPOLG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151927"@de ;
+    dtd:has_doknr "BJNR053020004"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40,
+        dtd:P-id41 .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value " (+++ Textnachweis ab: 5.5.2004 +++)G in Kraft gem. seinem Art. 3 Abs. 1 Satz 1 mWv 5.5.2004"@de ;
+    dtd:has_pre dtd:pre-id42 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Dem in Berlin am 17. Juli 2003 unterzeichneten Vertrag zwischen der Bundesrepublik Deutschland und der Republik Polen über die Ergänzung des Europäischen Übereinkommens vom 20. April 1959 über die Rechtshilfe in Strafsachen (BGBl. 1964 II S. 1369, 1386) und die Erleichterung einer Anwendung wird zugestimmt. Der Vertrag wird nachstehend veröffentlicht."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "Rechtshilfeersuchen polnischer Behörden, denen eine Zuwiderhandlung zugrunde liegt, die nach deutschem Recht eine Ordnungswidrigkeit wäre, werden so behandelt, als ob ihnen nach deutschem Recht eine mit Strafe bedrohte Handlung zugrunde läge. Die Bewilligungsbehörde kann der Verwaltungsbehörde, die für die Verfolgung der Zuwiderhandlung zuständig wäre, die Vornahme der Rechtshilfehandlung übertragen."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt mit Ausnahme des Artikels 2 am Tag nach seiner Verkündung in Kraft. Artikel 2 tritt zusammen mit dem Vertrag in Kraft."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem der Vertrag nach seinem Artikel 28 Abs. 1 Satz 2 in Kraft tritt, ist im Bundesgesetzblatt bekannt zu geben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2004-04-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id33 .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "EuRHiÜbkErgVtrPOLG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "EuRHiÜbkErgVtrPOLG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "EuRHiÜbkErgVtrPOLG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "EuRHiÜbkErgVtrPOLG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Vertrag vom 17. Juli 2003 zwischen der Bundesrepublik Deutschland und der Republik Polen über die Ergänzung des Europäischen Übereinkommens vom 20. April 1959 über die Rechtshilfe in Strafsachen und die Erleichterung seiner Anwendung"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151927"@de ;
+    dtd:has_doknr "BJNR053020004"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625151927"@de ;
+    dtd:has_doknr "BJNR053020004BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625151927"@de ;
+    dtd:has_doknr "BJNR053020004BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625151927"@de ;
+    dtd:has_doknr "BJNR053020004BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id42 a dtd:pre ;
+    dtd:has_BR dtd:BR-id31,
+        dtd:BR-id32 ;
+    dtd:has_Value "(+++ Textnachweis ab: 5.5.2004 +++)"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id46 ;
+    dtd:has_standtyp dtd:standtyp-id45 .
+
+dtd:standkommentar-id46 a dtd:standkommentar ;
+    dtd:has_Value "Art. 2 tritt gem. Art. 3 Abs. 1 Satz 2 iVm Bek. v. 18.8.2004 II 1339 mWv 4.9.2004 in Kraft"@de .
+
+dtd:standtyp-id45 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "2004, 530"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,834 @@
+@prefix dtd: <urn:WSG2020§7Satz2Bek-2021#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240125215002"@de ;
+    dtd:has_doknr "BJNR418800021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:kommentar-id163 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2021, 4189)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:Content-id151 a dtd:Content ;
+    dtd:has_P dtd:P-id152 .
+
+dtd:Content-id153 a dtd:Content ;
+    dtd:has_P dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158,
+        dtd:P-id159,
+        dtd:P-id160,
+        dtd:P-id161 ;
+    dtd:has_Title dtd:Title-id147,
+        dtd:Title-id148,
+        dtd:Title-id149,
+        dtd:Title-id150 ;
+    dtd:has_table dtd:table-id55,
+        dtd:table-id57 .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value " (+++ Textnachweis ab: 14.9.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id162 .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 7 Satz 2 des Wehrsoldgesetzes vom 4. August 2019 (BGBl. I S. 1147, 1158), das durch Artikel 4 des Gesetzes vom 21. Dezember 2020 (BGBl. I S. 3136) geändert worden ist, werden als Anhang die ab dem 1. April 2021 und ab dem 1. April 2022 geltenden Beträge des Wehrsoldgrundbetrags, des Kinderzuschlags und der Auslandsvergütung nach der Tabelle in der Anlage des Wehrsoldgesetzes bekannt gemacht."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_SP dtd:SP-id53 ;
+    dtd:has_Value "Die Bundesministerin der Verteidigung"@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2021, 4189)"@de ;
+    dtd:has_noindex dtd:noindex-id54 .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:SP-id53 a dtd:SP ;
+    dtd:has_Value "Die Bundesministerin der Verteidigung"@de .
+
+dtd:Title-id147 a dtd:Title ;
+    dtd:has_Align dtd:right ;
+    dtd:has_BR dtd:BR-id31,
+        dtd:BR-id32 ;
+    dtd:has_Value "Anlage(zu den §§ 4 und 6) Gültig ab 1. April 2021"@de .
+
+dtd:Title-id148 a dtd:Title ;
+    dtd:has_Align dtd:auto ;
+    dtd:has_Value "Wehrsoldgrundbetrag, Kinderzuschlag, Auslandsvergütung"@de .
+
+dtd:Title-id149 a dtd:Title ;
+    dtd:has_Align dtd:right ;
+    dtd:has_BR dtd:BR-id42,
+        dtd:BR-id43 ;
+    dtd:has_Value "Anlage (zu den §§ 4 und 6) Gültig ab 1. April 2022"@de .
+
+dtd:Title-id150 a dtd:Title ;
+    dtd:has_Align dtd:auto ;
+    dtd:has_Value "Wehrsoldgrundbetrag, Kinderzuschlag, Auslandsvergütung"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-08-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id59 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "11"@de .
+
+dtd:colspec-id60 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "41.4"@de .
+
+dtd:colspec-id61 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "19.5"@de .
+
+dtd:colspec-id62 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "19.5"@de .
+
+dtd:colspec-id63 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "19.5"@de .
+
+dtd:colspec-id66 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "11"@de .
+
+dtd:colspec-id67 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "41.4"@de .
+
+dtd:colspec-id68 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "19.5"@de .
+
+dtd:colspec-id69 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "19.5"@de .
+
+dtd:colspec-id70 a dtd:colspec ;
+    dtd:has_align dtd:right ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_colnum "5"@de ;
+    dtd:has_colwidth "19.5"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Anhang"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Jäger, Panzerschütze, Panzergrenadier, Kanonier, Pionier, Panzerpionier, Funker, Schütze, Flieger, Sanitätssoldat, Matrose"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 518"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "101"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_morerows "3"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "309"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gefreiter"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 569"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "309"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Obergefreiter"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 670"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "354"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauptgefreiter"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 923"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "354"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id119 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Monatsbetrag in Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col3"@de .
+
+dtd:entry-id120 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id121 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id122 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id123 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id124 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id125 a dtd:entry ;
+    dtd:has_BR dtd:BR-id44,
+        dtd:BR-id45 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wehr- sold- gruppe"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id126 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Dienstgrad"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id127 a dtd:entry ;
+    dtd:has_BR dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wehrsold- grundbetrag (§ 4 Absatz 1)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id128 a dtd:entry ;
+    dtd:has_BR dtd:BR-id48,
+        dtd:BR-id49,
+        dtd:BR-id50 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kinder- zuschlag je Kind (§ 4 Absatz 2)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id129 a dtd:entry ;
+    dtd:has_BR dtd:BR-id51,
+        dtd:BR-id52 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Auslands- vergütung (§ 6 Absatz 2)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id130 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id131 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Jäger, Panzerschütze, Panzergrenadier, Kanonier, Pionier, Panzerpionier, Funker, Schütze, Flieger, Sanitätssoldat, Matrose"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id132 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 545"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id133 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "103"@de ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_morerows "3"@de .
+
+dtd:entry-id134 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "315"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id135 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id136 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Gefreiter"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id137 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 597"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id138 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "315"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id139 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id140 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Obergefreiter"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id141 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 700"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id142 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "360"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id143 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id144 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hauptgefreiter"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id145 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1 958"@de ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id146 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "360"@de ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value ""@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Monatsbetrag in Euro"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_nameend "col5"@de ;
+    dtd:has_namest "col3"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "3"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "4"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col4"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "5"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col5"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wehr- sold- gruppe"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Dienstgrad"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_BR dtd:BR-id35,
+        dtd:BR-id36 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Wehrsold- grundbetrag (§ 4 Absatz 1)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_BR dtd:BR-id37,
+        dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kinder- zuschlag je Kind (§ 4 Absatz 2)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_BR dtd:BR-id40,
+        dtd:BR-id41 ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Auslands- vergütung (§ 6 Absatz 2)"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col5"@de ;
+    dtd:has_valign dtd:middle .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id164 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id165 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id151 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "WSG2020§7Satz2Bek 2021"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "WSG2020§7Satz2Bek 2021"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "WSG2020§7Satz2Bek 2021"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "WSG2020§7Satz2Bek 2021"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zur Anpassung des Wehrsoldes nach § 7 Satz 2 des Wehrsoldgesetzes"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:noindex-id54 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240125215002"@de ;
+    dtd:has_doknr "BJNR418800021"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240125215002"@de ;
+    dtd:has_doknr "BJNR418800021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240125215002"@de ;
+    dtd:has_doknr "BJNR418800021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240125215002"@de ;
+    dtd:has_doknr "BJNR418800021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id164 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id162 a dtd:pre ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30 ;
+    dtd:has_Value "(+++ Textnachweis ab: 14.9.2021 +++)"@de .
+
+dtd:row-id73 a dtd:row ;
+    dtd:has_entry dtd:entry-id87,
+        dtd:entry-id88,
+        dtd:entry-id89 .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id90,
+        dtd:entry-id91,
+        dtd:entry-id92,
+        dtd:entry-id93,
+        dtd:entry-id94 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id95,
+        dtd:entry-id96,
+        dtd:entry-id97,
+        dtd:entry-id98,
+        dtd:entry-id99 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id117,
+        dtd:entry-id118,
+        dtd:entry-id119 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id120,
+        dtd:entry-id121,
+        dtd:entry-id122,
+        dtd:entry-id123,
+        dtd:entry-id124 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id125,
+        dtd:entry-id126,
+        dtd:entry-id127,
+        dtd:entry-id128,
+        dtd:entry-id129 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101,
+        dtd:entry-id102,
+        dtd:entry-id103,
+        dtd:entry-id104 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id105,
+        dtd:entry-id106,
+        dtd:entry-id107,
+        dtd:entry-id108 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id109,
+        dtd:entry-id110,
+        dtd:entry-id111,
+        dtd:entry-id112 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id113,
+        dtd:entry-id114,
+        dtd:entry-id115,
+        dtd:entry-id116 .
+
+dtd:row-id83 a dtd:row ;
+    dtd:has_entry dtd:entry-id130,
+        dtd:entry-id131,
+        dtd:entry-id132,
+        dtd:entry-id133,
+        dtd:entry-id134 .
+
+dtd:row-id84 a dtd:row ;
+    dtd:has_entry dtd:entry-id135,
+        dtd:entry-id136,
+        dtd:entry-id137,
+        dtd:entry-id138 .
+
+dtd:row-id85 a dtd:row ;
+    dtd:has_entry dtd:entry-id139,
+        dtd:entry-id140,
+        dtd:entry-id141,
+        dtd:entry-id142 .
+
+dtd:row-id86 a dtd:row ;
+    dtd:has_entry dtd:entry-id143,
+        dtd:entry-id144,
+        dtd:entry-id145,
+        dtd:entry-id146 .
+
+dtd:table-id55 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id56 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id57 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_frame dtd:all ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id58 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id65 a dtd:tbody ;
+    dtd:has_row dtd:row-id79,
+        dtd:row-id80,
+        dtd:row-id81,
+        dtd:row-id82 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id72 a dtd:tbody ;
+    dtd:has_row dtd:row-id83,
+        dtd:row-id84,
+        dtd:row-id85,
+        dtd:row-id86 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id153 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:tgroup-id56 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "5"@de ;
+    dtd:has_colspec dtd:colspec-id59,
+        dtd:colspec-id60,
+        dtd:colspec-id61,
+        dtd:colspec-id62,
+        dtd:colspec-id63 ;
+    dtd:has_tbody dtd:tbody-id65 ;
+    dtd:has_thead dtd:thead-id64 .
+
+dtd:tgroup-id58 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "5"@de ;
+    dtd:has_colspec dtd:colspec-id66,
+        dtd:colspec-id67,
+        dtd:colspec-id68,
+        dtd:colspec-id69,
+        dtd:colspec-id70 ;
+    dtd:has_tbody dtd:tbody-id72 ;
+    dtd:has_thead dtd:thead-id71 .
+
+dtd:thead-id64 a dtd:thead ;
+    dtd:has_row dtd:row-id73,
+        dtd:row-id74,
+        dtd:row-id75 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:thead-id71 a dtd:thead ;
+    dtd:has_row dtd:row-id76,
+        dtd:row-id77,
+        dtd:row-id78 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:zitstelle-id165 a dtd:zitstelle ;
+    dtd:has_Value "2021, 4188"@de .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:right rdfs:label "right"@de .
+

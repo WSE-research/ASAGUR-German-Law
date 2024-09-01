@@ -1,0 +1,251 @@
+@prefix dtd: <urn:FluLärmSchutzVerbG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093659"@de ;
+    dtd:has_doknr "BJNR098600007"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54 .
+
+dtd:Content-id55 a dtd:Content ;
+    dtd:has_P dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58 .
+
+dtd:Content-id59 a dtd:Content ;
+    dtd:has_P dtd:P-id60 .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_BR dtd:BR-id46 ;
+    dtd:has_Value " (+++ Textnachweis ab: 7.6.2007 +++)"@de ;
+    dtd:has_pre dtd:pre-id61 .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "Bis zur Festsetzung der Lärmschutzbereiche nach § 4 des Gesetzes zum Schutz gegen Fluglärm in der ab dem 7. Juni 2007 geltenden Fassung gelten die bis zum 6. Juni 2007 erlassenen Rechtsverordnungen zur Festsetzung der Lärmschutzbereiche fort. Für die darin festgesetzten Lärmschutzbereiche gelten die Bestimmungen des Gesetzes zum Schutz gegen Fluglärm in der bis zum 6. Juni 2007 geltenden Fassung fort."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "Die Regelung des Artikels 1 Nr. 10 Buchstabe d (§ 9 Abs. 7 Satz 2 des Gesetzes zum Schutz gegen Fluglärm) findet auf Ansprüche, die vor Inkrafttreten dieses Gesetzes entstanden sind, mit der Maßgabe Anwendung, dass die Fünfjahresfrist sich nicht durch die Neufestsetzung eines Lärmschutzbereichs verlängert."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "Der Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit kann den Wortlaut des Gesetzes zum Schutz gegen Fluglärm in der vom Inkrafttreten dieses Artikelgesetzes an geltenden Fassung im Bundesgesetzblatt bekannt machen."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2007-06-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "(XXXX) Art 1 und 2"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 6"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id62 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id63 .
+
+dtd:fussnoten-id40 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id51 .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "FluLärmSchutzVerbG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "FluLärmSchutzVerbG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "FluLärmSchutzVerbG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "FluLärmSchutzVerbG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "FluLärmSchutzVerbG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "FluLärmSchutzVerbG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz zur Verbesserung des Schutzes vor Fluglärm in der Umgebung von 
+Flugplätzen"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093659"@de ;
+    dtd:has_doknr "BJNR098600007"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093659"@de ;
+    dtd:has_doknr "BJNR098600007BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20131008093659"@de ;
+    dtd:has_doknr "BJNR098600007BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20131008093659"@de ;
+    dtd:has_doknr "BJNR098600007BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20131008093659"@de ;
+    dtd:has_doknr "BJNR098600007BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20131008093659"@de ;
+    dtd:has_doknr "BJNR098600007BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id62 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id61 a dtd:pre ;
+    dtd:has_BR dtd:BR-id47,
+        dtd:BR-id48 ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.6.2007 +++)"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id55 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id59 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id40 ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Fortgeltung von Vorschriften"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Übergangsvorschrift"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Neufassung des Gesetzes zum Schutz gegen Fluglärm"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id63 a dtd:zitstelle ;
+    dtd:has_Value "2007, 986"@de .
+

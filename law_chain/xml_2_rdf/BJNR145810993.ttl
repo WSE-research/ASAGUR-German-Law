@@ -1,0 +1,219 @@
+@prefix dtd: <urn:BfNatSchG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200818213039"@de ;
+    dtd:has_doknr "BJNR145810993"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40,
+        dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43,
+        dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46,
+        dtd:P-id47,
+        dtd:P-id48,
+        dtd:P-id49 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 15. 8.1993 +++)"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value " Das G wurde als Artikel 1 G v. 6.8.1993 I 1458 vom Bundestag beschlossen. Es tritt gem. Art. 8 dieses G am 15.8.1993 in Kraft."@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "(1) Im Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit wird ein \"Bundesamt für Naturschutz\" als selbständige Bundesoberbehörde errichtet."@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesamt für Naturschutz hat seinen Sitz in Bonn."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesamt für Naturschutz erledigt Verwaltungsaufgaben des Bundes auf den Gebieten des Naturschutzes und der Landschaftspflege, die ihm durch das Bundesnaturschutzgesetz oder andere Bundesgesetze oder auf Grund dieser Gesetze zugewiesen werden."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesamt für Naturschutz unterstützt das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit fachlich und wissenschaftlich in allen Fragen des Naturschutzes und der Landschaftspflege sowie bei der internationalen Zusammenarbeit."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesamt für Naturschutz betreibt zur Erfüllung seiner Aufgaben wissenschaftliche Forschung auf den Gebieten des Naturschutzes und der Landschaftspflege."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_Value "(4) Das Bundesamt für Naturschutz erledigt, soweit keine andere Zuständigkeit gesetzlich festgelegt ist, Aufgaben des Bundes auf den Gebieten des Naturschutzes und der Landschaftspflege, mit deren Durchführung es vom Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit oder mit seiner Zustimmung von der sachlich zuständigen Bundesbehörde beauftragt wird."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "Soweit das Bundesamt für Naturschutz Aufgaben aus einem anderen Geschäftsbereich als dem des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit wahrnimmt, untersteht es den fachlichen Weisungen der sachlich zuständigen obersten Bundesbehörde."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1993-08-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id20 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id52 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id53 .
+
+dtd:fussnoten-id29 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id39 .
+
+dtd:fussnoten-id31 a dtd:fussnoten .
+
+dtd:fussnoten-id33 a dtd:fussnoten .
+
+dtd:fussnoten-id35 a dtd:fussnoten .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "BfNatSchG"@de .
+
+dtd:jurabk-id19 a dtd:jurabk ;
+    dtd:has_Value "BfNatSchG"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "BfNatSchG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "BfNatSchG"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Errichtung eines Bundesamtes für Naturschutz"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 ;
+    dtd:has_standangabe dtd:standangabe-id18 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id20 ;
+    dtd:has_jurabk dtd:jurabk-id19 ;
+    dtd:has_titel dtd:titel-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200818213039"@de ;
+    dtd:has_doknr "BJNR145810993"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200818213039"@de ;
+    dtd:has_doknr "BJNR145810993BJNE000102119"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200818213039"@de ;
+    dtd:has_doknr "BJNR145810993BJNE000202119"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200818213039"@de ;
+    dtd:has_doknr "BJNR145810993BJNE000302119"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id52 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id18 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id55 ;
+    dtd:has_standtyp dtd:standtyp-id54 .
+
+dtd:standkommentar-id55 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 289 V v. 19.6.2020 I 1328"@de .
+
+dtd:standtyp-id54 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id33 ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:titel-id21 a dtd:titel ;
+    dtd:has_Value "Errichtung und Sitz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value "Aufgaben"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value "Fachaufsicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id53 a dtd:zitstelle ;
+    dtd:has_Value "1993, 1458"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

@@ -1,0 +1,567 @@
+@prefix dtd: <urn:PatAnwVV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:BR-id72 a dtd:BR .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104 .
+
+dtd:Content-id105 a dtd:Content ;
+    dtd:has_P dtd:P-id106,
+        dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109,
+        dtd:P-id110,
+        dtd:P-id111,
+        dtd:P-id112,
+        dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116,
+        dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123,
+        dtd:P-id124,
+        dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127 .
+
+dtd:Content-id128 a dtd:Content ;
+    dtd:has_P dtd:P-id129,
+        dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132,
+        dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135,
+        dtd:P-id136,
+        dtd:P-id137 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DL-id73 a dtd:DL ;
+    dtd:has_DD dtd:DD-id76,
+        dtd:DD-id77 ;
+    dtd:has_DT dtd:DT-id74,
+        dtd:DT-id75 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id81,
+        dtd:DD-id82 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id83 a dtd:DL ;
+    dtd:has_DD dtd:DD-id89,
+        dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93 ;
+    dtd:has_DT dtd:DT-id84,
+        dtd:DT-id85,
+        dtd:DT-id86,
+        dtd:DT-id87,
+        dtd:DT-id88 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Value "Anschrift der Kanzlei oder Zweigstelle;"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Value "Kanzleiname, Name oder Firma der Berufsausübungsgesellschaft oder Name der Zweigstelle;"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Value "Berufsbezeichnung."@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Value "von der Patentanwaltskammer aufgenommene niedergelassene europäische Patentanwälte einschließlich der niedergelassenen europäischen Syndikuspatentanwälte nach § 20 des Gesetzes über die Tätigkeit europäischer Patentanwälte in Deutschland;"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Value "von der Patentanwaltskammer aufgenommene Patentanwälte aus anderen Staaten einschließlich der Syndikuspatentanwälte aus anderen Staaten nach § 157 Absatz 1 der Patentanwaltsordnung."@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Value "nach § 52f der Patentanwaltsordnung zugelassen sind oder"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Value "als niedergelassene ausländische Berufsausübungsgesellschaften nach § 159 der Patentanwaltsordnung zugelassen sind."@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Value "Familienname; ist als Zusatz hierzu ein Berufsname eingetragen, muss auch dieser bei der Suche gefunden werden können;"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Value "Vorname;"@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_BR dtd:BR-id70 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.8.2022 +++)Die V wurde als Artikel 8 der V v. 17.12.2021 I 5219 vom Bundesministerium der Justiz im Einvernehmen mit dem Bundesministerium der Finanzen mit Zustimmung des Bundesrates beschlossen. Sie ist gem. Art. 9 Abs. 2 dieser V am 1.8.2022 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id138 .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_DL dtd:DL-id73 ;
+    dtd:has_Value "(1) Die Patentanwaltskammer führt ein elektronisches Verzeichnis der zugelassenen Patentanwälte einschließlich der Syndikuspatentanwälte. In das Verzeichnis sind zudem die folgenden Personen einzutragen: 1.von der Patentanwaltskammer aufgenommene niedergelassene europäische Patentanwälte einschließlich der niedergelassenen europäischen Syndikuspatentanwälte nach § 20 des Gesetzes über die Tätigkeit europäischer Patentanwälte in Deutschland;2.von der Patentanwaltskammer aufgenommene Patentanwälte aus anderen Staaten einschließlich der Syndikuspatentanwälte aus anderen Staaten nach § 157 Absatz 1 der Patentanwaltsordnung."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(2) In das Verzeichnis nach Absatz 1 sind von der Patentanwaltskammer zudem die Berufsausübungsgesellschaften einzutragen, die 1.nach § 52f der Patentanwaltsordnung zugelassen sind oder2.als niedergelassene ausländische Berufsausübungsgesellschaften nach § 159 der Patentanwaltsordnung zugelassen sind."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(1) Als Zusatz zum Familiennamen werden, soweit von der eingetragenen Person geführt und mitgeteilt, akademische Grade und Ehrengrade sowie die Bezeichnung „Professor“ eingetragen. Die Patentanwaltskammer kann die Eintragung davon abhängig machen, dass die Berechtigung zum Führen des akademischen Grades, des Ehrengrades oder der Bezeichnung „Professor“ nachgewiesen wird."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(2) Führt die eingetragene Person einen Berufsnamen und teilt sie diesen mit, wird auch dieser eingetragen."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(3) Verfügt die eingetragene Person über mehrere Vornamen, so sind diese nur insoweit einzutragen, als sie im Rahmen der Berufsausübung üblicherweise verwendet werden."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(4) Als Name der Kanzlei, Zweigstelle oder Berufsausübungsgesellschaft ist die Bezeichnung einzutragen, unter der die eingetragene Person oder Berufsausübungsgesellschaft am jeweiligen Standort beruflich auftritt. Führt eine Berufsausübungsgesellschaft eine Kurzbezeichnung, so ist diese als Name einzutragen. Bei Syndikuspatentanwälten ist als Name der Arbeitgeber einzutragen. Wird eine weitere Kanzlei eingetragen, muss sich deren Name von dem Namen anderer für die Person eingetragener Kanzleien unterscheiden."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(5) An Telekommunikationsdaten werden, soweit von der eingetragenen Person oder Berufsausübungsgesellschaft mitgeteilt, jeweils eine Telefon- und eine Telefaxnummer, eine E-Mail-Adresse sowie die Bezeichnung eines elektronischen Bürger- und Organisationenpostfachs je Kanzlei und Zweigstelle eingetragen. Einem besonderen elektronischen Bürger- und Organisationenpostfach im Sinne des Satzes 1 stehen andere Postfächer im Sinne des § 130a Absatz 4 Satz 1 Nummer 2 und 5 der Zivilprozessordnung gleich. Zudem wird, soweit von der eingetragenen Person oder Berufsausübungsgesellschaft mitgeteilt, eine Internetadresse je Kanzlei und Zweigstelle eingetragen. Die eingetragene Person hat der Patentanwaltskammer zumindest eine Telefonnummer und eine E-Mail-Adresse je Kanzlei mitzuteilen."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(6) Als Zeitpunkt der Zulassung ist der Zeitpunkt der erstmaligen Zulassung zur Patentanwaltschaft oder als Berufsausübungsgesellschaft in der Bundesrepublik Deutschland einzutragen, sofern die eingetragene Person oder Berufsausübungsgesellschaft seitdem ununterbrochen Mitglied der Patentanwaltskammer gewesen ist. Andernfalls ist der Zeitpunkt der letzten Aufnahme in die Patentanwaltskammer einzutragen. Auf Antrag der eingetragenen Person ist im Fall des Satzes 2 auch ein nachgewiesener Zeitpunkt der ersten Zulassung zur Patentanwaltschaft in der Bundesrepublik Deutschland einzutragen. Bei nach § 1 Absatz 1 Satz 2 in das Verzeichnis eingetragenen Personen tritt an die Stelle der Zulassung die Aufnahme in die Patentanwaltskammer."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(7) Vollziehbare Berufs-, Berufsausübungs- und Vertretungsverbote sind unter Angabe des Zeitpunkts des Beginns sowie der Dauer des Verbots einzutragen. Bei der Eintragung eines Berufsausübungsverbots ist zu vermerken, dass dieses für die Dauer einer Tätigkeit im öffentlichen Dienst oder einer Übernahme eines öffentlichen Amtes besteht. Wurde nach § 21 Absatz 4 Satz 1 der Patentanwaltsordnung die sofortige Vollziehung der Rücknahme oder des Widerrufs der Zulassung angeordnet, so ist auch diese Maßnahme unter Angabe des Zeitpunkts des Beginns einzutragen; Absatz 6 Satz 4 gilt entsprechend."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(8) Die Eintragung einer Vertretung muss den Zeitraum erkennen lassen, für den diese bestellt ist."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(9) Im Fall der Befreiung von der Kanzleipflicht sind auch der Zeitpunkt des Beginns der Befreiung und bestehende Auflagen einzutragen."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "Die Eintragung der nach § 1 in das Verzeichnis einzutragenden Personen und Berufsausübungsgesellschaften erfolgt unverzüglich nach ihrer Aufnahme in die Patentanwaltskammer. Im Übrigen nimmt die Patentanwaltskammer Eintragungen unverzüglich vor, nachdem sie von den einzutragenden Umständen Kenntnis erlangt hat und ihr erforderliche Nachweise vorgelegt wurden."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "Stellt die Patentanwaltskammer fest, dass Eintragungen in ihrem Verzeichnis unrichtig oder unvollständig sind, hat sie diese unverzüglich zu berichtigen. Insbesondere sind nicht mehr bestehende Berufs-, Berufsausübungs- oder Vertretungsverbote unverzüglich aus dem Verzeichnis zu löschen. Bestehen Zweifel an der Richtigkeit oder Vollständigkeit des Verzeichnisses, hat die Patentanwaltskammer Auskünfte einzuholen und gegebenenfalls die Vorlage von Nachweisen durch die eingetragene Person oder Berufsausübungsgesellschaft zu verlangen."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(1) Scheidet eine in das Verzeichnis eingetragene Person oder zugelassene Berufsausübungsgesellschaft aus der Patentanwaltskammer aus, so sperrt die Patentanwaltskammer unverzüglich sämtliche der zu dieser Person oder Berufsausübungsgesellschaft eingetragenen Angaben. Die Rechtsfolge des Satzes 1 gilt sinngemäß für die gesonderte Eintragung eines Syndikuspatentanwalts nach § 41d Absatz 5 Satz 2 der Patentanwaltsordnung, soweit dessen Zulassung widerrufen wird."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(2) Gesperrte Eintragungen dürfen nicht durch Einsichtnahme in das Register ersichtlich sein."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(3) Gesperrte Eintragungen werden spätestens zwei Jahre nach der Sperrung gelöscht, soweit nicht die eingetragene Person oder Berufsausübungsgesellschaft einer längeren Speicherung ausdrücklich zustimmt. Auf Antrag der eingetragenen Person oder Berufsausübungsgesellschaft sind gesperrte Eintragungen unverzüglich zu löschen. § 29 Absatz 5 Satz 4 der Patentanwaltsordnung bleibt unberührt."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "(4) Eine zu Unrecht erfolgte Sperrung ist unverzüglich rückgängig zu machen."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(5) Ist für die Abwicklung einer Kanzlei oder Berufsausübungsgesellschaft ein Abwickler bestellt, so ist im Verzeichnis zu vermerken, dass die eingetragene Person oder Berufsausübungsgesellschaft nicht mehr Mitglied der Patentanwaltskammer ist und dass ein Abwickler bestellt wurde."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(1) Die Einsichtnahme in das Verzeichnis der Patentanwaltskammer muss über das Internet jederzeit kostenfrei und ohne vorherige Registrierung möglich sein."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "(2) Eine anstelle der Kanzleianschrift in das Verzeichnis eingetragene zustellfähige Anschrift ist nicht einsehbar."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_DL dtd:DL-id83 ;
+    dtd:has_Value "(1) Die Patentanwaltskammer hat die Einsichtnahme in ihr Verzeichnis über eine Suchfunktion zu gewährleisten. Die Suchfunktion hat die alternative und die kumulative Suche anhand folgender Angaben zu ermöglichen: 1.Familienname; ist als Zusatz hierzu ein Berufsname eingetragen, muss auch dieser bei der Suche gefunden werden können;2.Vorname;3.Anschrift der Kanzlei oder Zweigstelle;4.Kanzleiname, Name oder Firma der Berufsausübungsgesellschaft oder Name der Zweigstelle;5.Berufsbezeichnung."@de .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "(2) Die Nutzung der Suchfunktion kann von der Eingabe eines auf der Internetseite angegebenen Sicherheitscodes abhängig gemacht werden."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "(1) Die Patentanwaltskammer hat zu gewährleisten, dass Eintragungen, Berichtigungen, Sperrungen, Entsperrungen und Löschungen von Daten im Verzeichnis allein durch sie selbst vorgenommen werden können. Zudem muss nachträglich überprüft und festgestellt werden können, wer diese Maßnahmen innerhalb der Patentanwaltskammer zu welchem Zeitpunkt vorgenommen hat."@de .
+
+dtd:P-id136 a dtd:P ;
+    dtd:has_Value "(2) Die Patentanwaltskammer hat durch geeignete organisatorische und dem aktuellen Stand entsprechende technische Maßnahmen sicherzustellen, dass die in das Verzeichnis aufgenommenen Angaben jederzeit einsehbar sind."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(3) Die Patentanwaltskammer hat durch geeignete organisatorische und dem Stand der Technik entsprechende technische Maßnahmen Vorkehrungen zu treffen, dass sie von auftretenden Fehlfunktionen des Verzeichnisses unverzüglich Kenntnis erlangt. Schwerwiegende Fehlfunktionen hat sie unverzüglich, andere Fehlfunktionen hat sie zeitnah zu beheben."@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-12-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id139 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id140 .
+
+dtd:fussnoten-id60 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id103 .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "PatAnwVV"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "Patentanwaltsverzeichnisverordnung"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Patentanwaltsverzeichnis"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 ;
+    dtd:has_standangabe dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 ;
+    dtd:has_titel dtd:titel-id56 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 ;
+    dtd:has_titel dtd:titel-id59 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021BJNE000201360"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231207213516"@de ;
+    dtd:has_doknr "BJNR522700021BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id139 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id138 a dtd:pre ;
+    dtd:has_BR dtd:BR-id71,
+        dtd:BR-id72 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.8.2022 +++)"@de .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id142 ;
+    dtd:has_standtyp dtd:standtyp-id141 .
+
+dtd:standkommentar-id142 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 29.11.2023 I Nr. 340"@de .
+
+dtd:standtyp-id141 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id105 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id108 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id128 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Gegenstand des Verzeichnisses"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Inhalt des Verzeichnisses"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Eintragungen in das Verzeichnis"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Berichtigungen des Verzeichnisses; Auskunftsersuchen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Sperrung und Löschung von Eintragungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "Einsichtnahme in das Verzeichnis"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id56 a dtd:titel ;
+    dtd:has_Value "Suchfunktion"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id59 a dtd:titel ;
+    dtd:has_Value "Sicherheit und Einsehbarkeit der Verzeichnisdaten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id140 a dtd:zitstelle ;
+    dtd:has_Value "2021, 5219, 5227"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

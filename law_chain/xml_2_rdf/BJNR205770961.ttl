@@ -1,0 +1,358 @@
+@prefix dtd: <urn:ERPEntwHiG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id57 a dtd:BR .
+
+dtd:BR-id58 a dtd:BR .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70,
+        dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75,
+        dtd:P-id76,
+        dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:Content-id85 a dtd:Content ;
+    dtd:has_P dtd:P-id86 .
+
+dtd:DD-id63 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id65 .
+
+dtd:DD-id64 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id66 .
+
+dtd:DL-id60 a dtd:DL ;
+    dtd:has_DD dtd:DD-id63,
+        dtd:DD-id64 ;
+    dtd:has_DT dtd:DT-id61,
+        dtd:DT-id62 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id61 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id65 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "aus dem ERP-Sondervermögen jährlich Mittel nach näherer Bestimmung des ERP-Wirtschaftsplans;"@de .
+
+dtd:LA-id66 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "aus der Beschaffung im Wege des Kredits Geldmittel bis zur Höhe von insgesamt fünfhundert Millionen Deutsche Mark."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_BR dtd:BR-id57 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 21. 3.1975 +++)"@de ;
+    dtd:has_pre dtd:pre-id87 .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(1) Zur Förderung der Zusammenarbeit mit dem Ausland, insbesondere mit den Entwicklungsländern, ist das Bundesministerium für Wirtschaft und Energie ermächtigt, Verpflichtungen zur Gewährung von Darlehen bis zu einem Gesamtbetrag von eintausendfünfhundert Millionen Deutsche Mark zu Lasten der in § 3 bezeichneten Mittel zu übernehmen."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(2) In dem Umfang, in dem der Bund (ERP-Sondervermögen) aus den Verpflichtungen nach Absatz 1 nicht mehr in Anspruch genommen werden kann, können neue Verpflichtungen ohne erneute Anrechnung auf den dort bezeichneten Gesamtbetrag übernommen werden. Soweit jedoch Verpflichtungen durch Erfüllung erlöschen, gilt dies nur in dem Umfang, als zur Erfüllung die in § 3 Abs. 1 Nr. 1 bezeichneten Mittel verwendet worden sind."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "Die Förderungsmittel dienen in Ergänzung anderer Leistungen, insbesondere des Geld- und Kapitalmarktes, zur Gewährung von Darlehen und für die Finanzierung von Vorhaben, für die der Bund Gewährleistungen übernimmt."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_DL dtd:DL-id60 ;
+    dtd:has_Value "(1) Für den Förderungszweck, insbesondere zur Erfüllung der nach § 1 Abs. 1 eingegangenen Verpflichtungen, werden bereitgestellt: 1.aus dem ERP-Sondervermögen jährlich Mittel nach näherer Bestimmung des ERP-Wirtschaftsplans;2.aus der Beschaffung im Wege des Kredits Geldmittel bis zur Höhe von insgesamt fünfhundert Millionen Deutsche Mark."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(2) Den Förderungsmitteln fließen sonstige Zuweisungen zu, wenn sie ausdrücklich für den Förderungszweck bestimmt sind."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesministerium für Wirtschaft und Energie ist ermächtigt, die in Absatz 1 Nr. 2 bezeichneten Geldmittel zu Lasten des ERP-Sondervermögens zu beschaffen."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Wirtschaft und Energie ist ermächtigt, Kassenmittel zur Vorfinanzierung der Darlehen nach § 1 zu verwenden. Die Verwendung ist in einem Anhang zum ERP-Wirtschaftsplan und zur Jahresrechnung gesondert nachzuweisen."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(1) Die Förderungsmittel bleiben Bestandteil des ERP-Sondervermögens."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(2) Auf die Verwaltung der Mittel findet das Gesetz über die Verwaltung des ERP-Sondervermögens vom 31. August 1953 (Bundesgesetzbl. I S. 1312), mit Ausnahme des § 2, Anwendung."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt nach Maßgabe des § 13 Abs. 1 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) auch im Land Berlin."@de .
+
+dtd:P-id86 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1961-06-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id88 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id89 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id67 .
+
+dtd:fussnoten-id48 a dtd:fussnoten .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "ERPEntwHiG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ERPEntwHiG"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "ERPEntwHiG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "ERPEntwHiG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "ERPEntwHiG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "ERPEntwHiG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "ERPEntwHiG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "ERPEntwHiG"@de .
+
+dtd:kurzue-id29 a dtd:kurzue ;
+    dtd:has_Value "ERP-Entwicklungshilfegesetz"@de .
+
+dtd:langue-id30 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Finanzierungshilfe für Entwicklungsländer aus Mitteln des ERP-Sondervermögens"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id29 ;
+    dtd:has_langue dtd:langue-id30 ;
+    dtd:has_standangabe dtd:standangabe-id31 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961BJNE000104377"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961BJNE000200313"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961BJNE000304377"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961BJNE000404377"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961BJNE000500313"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961BJNE000600313"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20150907220037"@de ;
+    dtd:has_doknr "BJNR205770961BJNE000700313"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id88 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id87 a dtd:pre ;
+    dtd:has_BR dtd:BR-id58,
+        dtd:BR-id59 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 21. 3.1975 +++)"@de .
+
+dtd:standangabe-id31 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id91 ;
+    dtd:has_standtyp dtd:standtyp-id90 .
+
+dtd:standkommentar-id91 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 247 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id90 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id85 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:zitstelle-id89 a dtd:zitstelle ;
+    dtd:has_Value "1961, 577"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

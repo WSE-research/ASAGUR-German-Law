@@ -1,0 +1,619 @@
+@prefix dtd: <urn:TreuhUntÜV-2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150907215917"@de ;
+    dtd:has_doknr "BJNR111500996"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101,
+        dtd:P-id102 .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104 .
+
+dtd:Content-id105 a dtd:Content ;
+    dtd:has_P dtd:P-id106 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95 .
+
+dtd:Content-id96 a dtd:Content ;
+    dtd:has_P dtd:P-id97 .
+
+dtd:Content-id98 a dtd:Content ;
+    dtd:has_P dtd:P-id99 .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "(1) Die Geschäftsanteile der Bundesanstalt für vereinigungsbedingte Sonderaufgaben an der im Handelsregister des Amtsgerichts Berlin-Charlottenburg unter HRB 38419 eingetragenen DUHO Verwaltungs-Gesellschaft mbH mit Sitz in Berlin werden mit Wirkung vom 31. Juli 1996 auf den Bund übertragen."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(2) Die Geschäftsanteile der Bundesanstalt für vereinigungsbedingte Sonderaufgaben an den in der Anlage bezeichneten Gesellschaften werden mit Wirkung vom 1. August 1996 auf die DUHO Verwaltungs-Gesellschaft mbH übertragen."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value """ 
+	
+		
+		
+		
+		
+		
+			
+				Firma
+				Sitz
+				Handelsregister-Nummer
+				Amtsgericht
+			
+		
+		
+			
+				EXHO Immobilien-Verwaltungs-Gesellschaft mbH
+				Berlin
+				HRB 38420
+				Berlin-Charlottenburg
+			
+			
+				FREHO Immobilien-Verwaltungs-Gesellschaft mbH
+				Berlin
+				HRB 38421
+				Berlin-Charlottenburg
+			
+			
+				Behim Handelsimmobiliengesellschaft mbH
+				Berlin
+				HRB 34447
+				Berlin-Charlottenburg
+			
+			
+				Handelsgesellschaft Aue/Schwarzenberg mbH
+				Berlin
+				HRB 58736
+				Berlin-Charlottenburg
+			
+			
+				Frankfurter Allgemeine Markt GmbH
+				Berlin
+				HRB 57696
+				Berlin-Charlottenburg
+			
+			
+				Rugia Hotel- und Gastronomie GmbH
+				Berlin
+				HRB 59040
+				Berlin-Charlottenburg
+			
+		
+	
+ """@de ;
+    dtd:has_table dtd:table-id51 .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30. 7.1996 +++)"@de ;
+    dtd:has_pre dtd:pre-id107 .
+
+dtd:P-id97 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 23a Abs. 1 und 2 des Treuhandgesetzes, der durch Artikel 1 Nr. 9 des Gesetzes vom 9. August 1994 (BGBl. I S. 2062) eingefügt worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id99 a dtd:P ;
+    dtd:has_Value "Die der Bundesanstalt für vereinigungsbedingte Sonderaufgaben auf Grund des Treuhandgesetzes und des Artikels 25 des Einigungsvertrages zugewiesenen unternehmensbezogenen Aufgaben werden zu den in § 2 genannten Zeitpunkten auf das Bundesministerium der Finanzen übertragen, soweit die in § 2 bezeichneten Unternehmen einschließlich ihrer Beteiligungen betroffen sind. Das Bundesministerium der Finanzen nimmt diese Aufgaben im Einvernehmen mit dem Bundesministerium für Wirtschaft und Energie und dem jeweils zuständigen Bundesministerium wahr."@de .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "2. TreuhUntÜV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1996-07-25"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id53 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:colspec-id54 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id55 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "20*"@de .
+
+dtd:colspec-id56 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Firma"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sitz"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Handelsregister-Nummer"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Amtsgericht"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "EXHO Immobilien-Verwaltungs-Gesellschaft mbH"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "HRB 38420"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin-Charlottenburg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "FREHO Immobilien-Verwaltungs-Gesellschaft mbH"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "HRB 38421"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin-Charlottenburg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Behim Handelsimmobiliengesellschaft mbH"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "HRB 34447"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin-Charlottenburg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Handelsgesellschaft Aue/Schwarzenberg mbH"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "HRB 58736"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin-Charlottenburg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Frankfurter Allgemeine Markt GmbH"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "HRB 57696"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin-Charlottenburg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rugia Hotel- und Gastronomie GmbH"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "HRB 59040"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Berlin-Charlottenburg"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id108 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id109 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id94 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "TreuhUntÜV 2"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "TreuhUntÜV 2"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "TreuhUntÜV 2"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "TreuhUntÜV 2"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "TreuhUntÜV 2"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "TreuhUntÜV 2"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Zweite Treuhandunternehmensübertragungsverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Zweite Verordnung zur Übertragung von unternehmensbezogenen Aufgaben nach dem Treuhandgesetz und von Unternehmensbeteiligungen der Bundesanstalt für vereinigungsbedingte Sonderaufgaben"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150907215917"@de ;
+    dtd:has_doknr "BJNR111500996"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150907215917"@de ;
+    dtd:has_doknr "BJNR111500996BJNE000100310"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150907215917"@de ;
+    dtd:has_doknr "BJNR111500996BJNE000204377"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150907215917"@de ;
+    dtd:has_doknr "BJNR111500996BJNE000300310"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20150907215917"@de ;
+    dtd:has_doknr "BJNR111500996BJNE000400310"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20150907215917"@de ;
+    dtd:has_doknr "BJNR111500996BJNE000500310"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id108 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id107 a dtd:pre ;
+    dtd:has_BR dtd:BR-id49,
+        dtd:BR-id50 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30. 7.1996 +++)"@de .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id66,
+        dtd:entry-id67,
+        dtd:entry-id68,
+        dtd:entry-id69 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id70,
+        dtd:entry-id71,
+        dtd:entry-id72,
+        dtd:entry-id73 .
+
+dtd:row-id61 a dtd:row ;
+    dtd:has_entry dtd:entry-id74,
+        dtd:entry-id75,
+        dtd:entry-id76,
+        dtd:entry-id77 .
+
+dtd:row-id62 a dtd:row ;
+    dtd:has_entry dtd:entry-id78,
+        dtd:entry-id79,
+        dtd:entry-id80,
+        dtd:entry-id81 .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id82,
+        dtd:entry-id83,
+        dtd:entry-id84,
+        dtd:entry-id85 .
+
+dtd:row-id64 a dtd:row ;
+    dtd:has_entry dtd:entry-id86,
+        dtd:entry-id87,
+        dtd:entry-id88,
+        dtd:entry-id89 .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id90,
+        dtd:entry-id91,
+        dtd:entry-id92,
+        dtd:entry-id93 .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id111 ;
+    dtd:has_standtyp dtd:standtyp-id110 .
+
+dtd:standkommentar-id111 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 593 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id110 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:table-id51 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_tgroup dtd:tgroup-id52 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id58 a dtd:tbody ;
+    dtd:has_row dtd:row-id60,
+        dtd:row-id61,
+        dtd:row-id62,
+        dtd:row-id63,
+        dtd:row-id64,
+        dtd:row-id65 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id96 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id98 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id100 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id103 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id105 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:tgroup-id52 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id53,
+        dtd:colspec-id54,
+        dtd:colspec-id55,
+        dtd:colspec-id56 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id58 ;
+    dtd:has_thead dtd:thead-id57 .
+
+dtd:thead-id57 a dtd:thead ;
+    dtd:has_row dtd:row-id59 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Übertragung von Aufgaben"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Übertragung von Unternehmensbeteiligungen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "(zu § 2 Abs. 2)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id109 a dtd:zitstelle ;
+    dtd:has_Value "1996, 1115"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:left rdfs:label "left"@de .
+

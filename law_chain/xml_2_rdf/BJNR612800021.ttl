@@ -1,0 +1,742 @@
+@prefix dtd: <urn:SchAusnahmV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id91 a dtd:BR .
+
+dtd:BR-id92 a dtd:BR .
+
+dtd:BR-id93 a dtd:BR .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155,
+        dtd:P-id156,
+        dtd:P-id157 .
+
+dtd:Content-id158 a dtd:Content ;
+    dtd:has_P dtd:P-id159 .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161,
+        dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164,
+        dtd:P-id165,
+        dtd:P-id166 .
+
+dtd:Content-id167 a dtd:Content ;
+    dtd:has_P dtd:P-id168 .
+
+dtd:Content-id169 a dtd:Content ;
+    dtd:has_P dtd:P-id170,
+        dtd:P-id171 .
+
+dtd:Content-id172 a dtd:Content ;
+    dtd:has_P dtd:P-id173 .
+
+dtd:Content-id174 a dtd:Content ;
+    dtd:has_P dtd:P-id175 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id126 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id127 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id131 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DL-id106 a dtd:DL ;
+    dtd:has_DD dtd:DD-id109,
+        dtd:DD-id110 ;
+    dtd:has_DT dtd:DT-id107,
+        dtd:DT-id108 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id111 a dtd:DL ;
+    dtd:has_DD dtd:DD-id120,
+        dtd:DD-id121,
+        dtd:DD-id122,
+        dtd:DD-id123,
+        dtd:DD-id124,
+        dtd:DD-id125,
+        dtd:DD-id126,
+        dtd:DD-id127 ;
+    dtd:has_DT dtd:DT-id112,
+        dtd:DT-id113,
+        dtd:DT-id114,
+        dtd:DT-id115,
+        dtd:DT-id116,
+        dtd:DT-id117,
+        dtd:DT-id118,
+        dtd:DT-id119 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id128 a dtd:DL ;
+    dtd:has_DD dtd:DD-id131,
+        dtd:DD-id132 ;
+    dtd:has_DT dtd:DT-id129,
+        dtd:DT-id130 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id94 a dtd:DL ;
+    dtd:has_DD dtd:DD-id97,
+        dtd:DD-id98 ;
+    dtd:has_DT dtd:DT-id95,
+        dtd:DT-id96 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id99 a dtd:DL ;
+    dtd:has_DD dtd:DD-id103,
+        dtd:DD-id104,
+        dtd:DD-id105 ;
+    dtd:has_DT dtd:DT-id100,
+        dtd:DT-id101,
+        dtd:DT-id102 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id100 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id114 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "8."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id130 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Value "bei denen von einer Immunisierung gegen das Coronavirus SARS-CoV-2 auszugehen ist oder"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Value "die ein negatives Ergebnis eines Tests auf eine Infektion mit dem Coronavirus SARS-CoV-2 vorlegen können."@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Value "ein Gebot, eine Mund-Nasen-Bedeckung, einen Mund-Nasen-Schutz oder eine Atemschutzmaske zu tragen,"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Value "ein Abstandsgebot im öffentlichen Raum und"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Value "Vorgaben in Hygiene- und Schutzkonzepten."@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Value "die typische Symptome einer Infektion mit dem Coronavirus SARS-CoV-2 aufweisen oder"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Value "bei denen eine aktuelle Infektion mit dem Coronavirus SARS-CoV-2 nachgewiesen ist."@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine asymptomatische Person, eine Person, bei der aktuell kein typisches Symptom oder sonstiger Anhaltspunkt für eine Infektion mit dem Coronavirus SARS-CoV-2 vorliegt; typische Symptome einer Infektion mit dem Coronavirus SARS-CoV-2 sind Atemnot, neu auftretender Husten, Fieber und Geruchs- oder Geschmacksverlust,"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine geimpfte Person eine asymptomatische Person, die im Besitz eines auf sie ausgestellten Impfnachweises im Sinne von § 22a Absatz 1 des Infektionsschutzgesetzes ist,"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine genesene Person eine asymptomatische Person, die im Besitz eines auf sie ausgestellten Genesenennachweises im Sinne von § 22a Absatz 2 des Infektionsschutzgesetzes ist,"@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_DL dtd:DL-id128 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine getestete Person eine asymptomatische Person, die a)das sechste Lebensjahr noch nicht vollendet hat oderb)im Besitz eines auf sie ausgestellten Testnachweises im Sinne von § 22a Absatz 3 des Infektionsschutzgesetzes ist,"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das sechste Lebensjahr noch nicht vollendet hat oder"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Besitz eines auf sie ausgestellten Testnachweises im Sinne von § 22a Absatz 3 des Infektionsschutzgesetzes ist,"@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "(weggefallen)"@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht eine Rechtsverordnung oder eine Allgemeinverfügung, die ein Land oder eine nach Landesrecht zuständige Stelle auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes zur Verhinderung der Verbreitung der Coronavirus-Krankheit-2019 (COVID-19) erlassen hat."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_BR dtd:BR-id91 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.5.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id176 .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 28c des Infektionsschutzgesetzes, der durch Artikel 6 Nummer 1 des Gesetzes vom 7. Mai 2021 (BGBl. I S. 850) geändert worden ist, verordnet die Bundesregierung unter Berücksichtigung des Beschlusses des Bundestages vom 6. Mai 2021:"@de .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_DL dtd:DL-id94 ;
+    dtd:has_Value "(1) Zweck dieser Verordnung ist es, Erleichterungen und Ausnahmen von Geboten und Verboten nach dem fünften Abschnitt des Infektionsschutzgesetzes oder von auf Grund der Vorschriften im fünften Abschnitt des Infektionsschutzgesetzes erlassenen Geboten und Verboten für Personen zu regeln, 1.bei denen von einer Immunisierung gegen das Coronavirus SARS-CoV-2 auszugehen ist oder2.die ein negatives Ergebnis eines Tests auf eine Infektion mit dem Coronavirus SARS-CoV-2 vorlegen können."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_DL dtd:DL-id99 ;
+    dtd:has_Value "(2) Von dieser Verordnung unberührt bleiben, sofern in dieser Verordnung nichts anderes geregelt ist, Gebote und Verbote, die nach dem fünften Abschnitt des Infektionsschutzgesetzes bestehen oder auf Grund der Vorschriften im fünften Abschnitt des Infektionsschutzgesetzes erlassen worden sind oder werden wie insbesondere 1.ein Gebot, eine Mund-Nasen-Bedeckung, einen Mund-Nasen-Schutz oder eine Atemschutzmaske zu tragen,2.ein Abstandsgebot im öffentlichen Raum und3.Vorgaben in Hygiene- und Schutzkonzepten."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_DL dtd:DL-id106 ;
+    dtd:has_Value "(3) Die in dieser Verordnung vorgesehenen Erleichterungen und Ausnahmen gelten nicht für Personen, 1.die typische Symptome einer Infektion mit dem Coronavirus SARS-CoV-2 aufweisen oder2.bei denen eine aktuelle Infektion mit dem Coronavirus SARS-CoV-2 nachgewiesen ist."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_DL dtd:DL-id111 ;
+    dtd:has_Value "Im Sinne dieser Verordnung ist 1.eine asymptomatische Person, eine Person, bei der aktuell kein typisches Symptom oder sonstiger Anhaltspunkt für eine Infektion mit dem Coronavirus SARS-CoV-2 vorliegt; typische Symptome einer Infektion mit dem Coronavirus SARS-CoV-2 sind Atemnot, neu auftretender Husten, Fieber und Geruchs- oder Geschmacksverlust,2.eine geimpfte Person eine asymptomatische Person, die im Besitz eines auf sie ausgestellten Impfnachweises im Sinne von § 22a Absatz 1 des Infektionsschutzgesetzes ist,3.(weggefallen)4.eine genesene Person eine asymptomatische Person, die im Besitz eines auf sie ausgestellten Genesenennachweises im Sinne von § 22a Absatz 2 des Infektionsschutzgesetzes ist,5.(weggefallen)6.eine getestete Person eine asymptomatische Person, die a)das sechste Lebensjahr noch nicht vollendet hat oderb)im Besitz eines auf sie ausgestellten Testnachweises im Sinne von § 22a Absatz 3 des Infektionsschutzgesetzes ist,7.(weggefallen)8.auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht eine Rechtsverordnung oder eine Allgemeinverfügung, die ein Land oder eine nach Landesrecht zuständige Stelle auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes zur Verhinderung der Verbreitung der Coronavirus-Krankheit-2019 (COVID-19) erlassen hat."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(1) Sofern auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht eine Ausnahme von Geboten oder Verboten für Personen, die negativ auf eine Infektion mit dem Coronavirus SARS-CoV-2 getestet sind, vorgesehen ist oder erlassen wird, gilt diese Ausnahme auch für geimpfte Personen und genesene Personen."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(2) Sofern auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht vorgibt oder voraussetzt, dass eine Person negativ auf eine Infektion mit dem Coronavirus SARS-CoV-2 getestet ist, gilt diese Vorgabe oder Voraussetzung im Fall von geimpften Personen und genesenen Personen als erfüllt. Auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht, kann vorsehen, dass Erleichterungen und Ausnahmen von Schutzmaßnahmen für geimpfte Personen und für genesene Personen nur bestehen, wenn sie ein negatives Ergebnis eines Tests auf eine Infektion mit dem Coronavirus SARS-CoV-2 vorlegen können."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "(1) Sofern auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht die Anzahl von Personen begrenzt wird, gilt diese Begrenzung nicht für private Zusammenkünfte sowie für ähnliche soziale Kontakte, wenn an der Zusammenkunft ausschließlich geimpfte Personen oder genesene Personen teilnehmen. Auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht, durch das die Anzahl von Personen begrenzt wird, kann abweichend von Satz 1 vorsehen, dass die Begrenzung auch für private Zusammenkünfte sowie für ähnliche soziale Kontakte gilt, an denen ausschließlich geimpfte oder genesene Personen teilnehmen."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(2) Sofern auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht die Zahl der Teilnehmer bei einer privaten Zusammenkunft oder bei ähnlichen sozialen Kontakten beschränkt, bleiben geimpfte Personen und genesene Personen bei der Ermittlung der Zahl der Teilnehmer unberücksichtigt. Auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht, durch das die Zahl der Teilnehmer bei einer privaten Zusammenkunft oder bei ähnlichen sozialen Kontakten beschränkt wird, kann abweichend von Satz 1 vorsehen, dass auch geimpfte und genesene Personen bei der Ermittlung der Zahl der Teilnehmer berücksichtigt werden. "@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(3) Die Anordnung von Schutzmaßnahmen, die zur Abwendung einer Gefahr für Personen, die auf Grund ihres Alters oder ihres Gesundheitszustandes ein erhöhtes Risiko für einen schweren oder tödlichen Krankheitsverlauf haben, erforderlich sind, bleibt unberührt. Schutzmaßnahme im Sinne von Satz 1 kann auch die Pflicht geimpfter Personen und genesener Personen sein, ein negatives Ergebnis eines Tests auf eine Infektion mit dem Coronavirus SARS-CoV-2 vorzulegen."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "Sofern auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht den Aufenthalt außerhalb einer Wohnung oder einer Unterkunft und dem jeweils dazugehörigen befriedeten Besitztum beschränkt, gilt eine solche Beschränkung nicht für geimpfte Personen und genesene Personen."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(1) Sofern auf Grund der Vorschriften des fünften Abschnitts des Infektionsschutzgesetzes erlassenes Landesrecht eine Pflicht zur Absonderung vorsieht, gilt diese Pflicht nicht für geimpfte Personen und genesene Personen."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(2) Absatz 1 gilt nicht für Personen, die nach einem Voraufenthalt in einem Virusvariantengebiet im Sinne der Coronavirus-Einreiseverordnung in die Bundesrepublik Deutschland einreisen."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "Die Landesregierungen werden ermächtigt, Erleichterungen und Ausnahmen von den auf Grund der Vorschriften im fünften Abschnitt des Infektionsschutzgesetzes erlassenen landesrechtlichen Geboten oder Verboten für geimpfte Personen, genesene Personen und getestete Personen zu regeln, soweit diese Verordnung nichts anderes regelt. § 3 Absatz 2 Satz 2 gilt entsprechend."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id39 a dtd:amtabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id40 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-05-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id70 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id73 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id41 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id183 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id184 .
+
+dtd:fussnoten-id74 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id150 .
+
+dtd:fussnoten-id78 a dtd:fussnoten .
+
+dtd:fussnoten-id80 a dtd:fussnoten .
+
+dtd:fussnoten-id82 a dtd:fussnoten .
+
+dtd:fussnoten-id84 a dtd:fussnoten .
+
+dtd:fussnoten-id86 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:fussnoten-id89 a dtd:fussnoten .
+
+dtd:gliederungsbez-id178 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 1"@de .
+
+dtd:gliederungsbez-id181 a dtd:gliederungsbez ;
+    dtd:has_Value "Abschnitt 2"@de .
+
+dtd:gliederungseinheit-id48 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id178 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id177 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id179 .
+
+dtd:gliederungseinheit-id68 a dtd:gliederungseinheit ;
+    dtd:has_gliederungsbez dtd:gliederungsbez-id181 ;
+    dtd:has_gliederungskennzahl dtd:gliederungskennzahl-id180 ;
+    dtd:has_gliederungstitel dtd:gliederungstitel-id182 .
+
+dtd:gliederungskennzahl-id177 a dtd:gliederungskennzahl ;
+    dtd:has_Value "010"@de .
+
+dtd:gliederungskennzahl-id180 a dtd:gliederungskennzahl ;
+    dtd:has_Value "020"@de .
+
+dtd:gliederungstitel-id179 a dtd:gliederungstitel ;
+    dtd:has_Value "Allgemeine Bestimmungen"@de .
+
+dtd:gliederungstitel-id182 a dtd:gliederungstitel ;
+    dtd:has_Value "Erleichterungen und Ausnahmen von auf Grund der Vorschriften im fünften Abschnitt des Infektionsschutzgesetzes erlassenen landesrechtlichen Geboten und Verboten"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id67 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id69 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:jurabk-id72 a dtd:jurabk ;
+    dtd:has_Value "SchAusnahmV"@de .
+
+dtd:kurzue-id42 a dtd:kurzue ;
+    dtd:has_Value "COVID-19-Schutzmaßnahmen-Ausnahmenverordnung"@de .
+
+dtd:langue-id43 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Regelung von Erleichterungen und Ausnahmen von Schutzmaßnahmen zur Verhinderung der Verbreitung von COVID-19"@de .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id39 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id40 ;
+    dtd:has_fundstelle dtd:fundstelle-id41 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_kurzue dtd:kurzue-id42 ;
+    dtd:has_langue dtd:langue-id43 ;
+    dtd:has_standangabe dtd:standangabe-id44 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 ;
+    dtd:has_titel dtd:titel-id51 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 ;
+    dtd:has_titel dtd:titel-id57 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:metadaten-id32 a dtd:metadaten ;
+    dtd:has_gliederungseinheit dtd:gliederungseinheit-id68 ;
+    dtd:has_jurabk dtd:jurabk-id67 .
+
+dtd:metadaten-id34 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id70 ;
+    dtd:has_jurabk dtd:jurabk-id69 ;
+    dtd:has_titel dtd:titel-id71 .
+
+dtd:metadaten-id36 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id73 ;
+    dtd:has_jurabk dtd:jurabk-id72 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE001104116"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNG000301116"@de ;
+    dtd:has_metadaten dtd:metadaten-id32 ;
+    dtd:has_textdaten dtd:textdaten-id33 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE001201116"@de ;
+    dtd:has_metadaten dtd:metadaten-id34 ;
+    dtd:has_textdaten dtd:textdaten-id35 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE001400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id36 ;
+    dtd:has_textdaten dtd:textdaten-id37 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNG000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE000302116"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE000801116"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE000902360"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20220930213046"@de ;
+    dtd:has_doknr "BJNR612800021BJNE001001116"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:periodikum-id183 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id176 a dtd:pre ;
+    dtd:has_BR dtd:BR-id92,
+        dtd:BR-id93 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.5.2021 +++)"@de .
+
+dtd:standangabe-id44 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id186 ;
+    dtd:has_standtyp dtd:standtyp-id185 .
+
+dtd:standkommentar-id186 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 2 V v. 18.3.2022 I 478"@de .
+
+dtd:standtyp-id185 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id152 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id77 a dtd:text ;
+    dtd:has_Content dtd:Content-id158 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id79 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id81 a dtd:text ;
+    dtd:has_Content dtd:Content-id163 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id167 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id85 a dtd:text ;
+    dtd:has_Content dtd:Content-id169 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id172 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id174 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id19 a dtd:textdaten .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id78 ;
+    dtd:has_text dtd:text-id77 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id80 ;
+    dtd:has_text dtd:text-id79 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 ;
+    dtd:has_text dtd:text-id81 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id84 ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id86 ;
+    dtd:has_text dtd:text-id85 .
+
+dtd:textdaten-id33 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 .
+
+dtd:textdaten-id35 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id89 ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id37 a dtd:textdaten ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:titel-id51 a dtd:titel ;
+    dtd:has_Value "Zweck der Verordnung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id57 a dtd:titel ;
+    dtd:has_Value "Gleichstellung von geimpften Personen und genesenen Personen mit getesteten Personen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_Value "Ausnahmen von der Beschränkung von Zusammenkünften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_Value "Ausnahmen von der Beschränkung des Aufenthalts außerhalb einer Wohnung oder einer Unterkunft"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Ausnahmen von Absonderungspflichten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id71 a dtd:titel ;
+    dtd:has_Value "Ermächtigung der Landesregierungen zu Erleichterungen und Ausnahmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id184 a dtd:zitstelle ;
+    dtd:has_Value "AT 08.05.2021 V1"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

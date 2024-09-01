@@ -1,0 +1,221 @@
+@prefix dtd: <urn:WTOVorRV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20220425212509"@de ;
+    dtd:has_doknr "BJNR200230976"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:Content-id41 a dtd:Content ;
+    dtd:has_P dtd:P-id42 .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52,
+        dtd:P-id53,
+        dtd:P-id54 .
+
+dtd:P-id42 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_BR dtd:BR-id38 ;
+    dtd:has_Value " (+++ Textnachweis ab: 29. 1.1976 +++)V gem. ihrem § 3 Abs. 3 iVm Bek. v. 26.7.1976 II 1692 in Kraft mWv 29.1.1976"@de ;
+    dtd:has_pre dtd:pre-id55 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 3 des Gesetzes vom 22. Juni 1954 über den Beitritt der Bundesrepublik Deutschland zum Abkommen über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen vom 21. November 1947 und über die Gewährung von Vorrechten und Befreiungen an andere zwischenstaatliche Organisationen (Bundesgesetzbl. 1954 II S. 639), zuletzt geändert durch das Gesetz vom 28. Februar 1964 (Bundesgesetzbl. II S. 187), verordnet die Bundesregierung mit Zustimmung des Bundesrates:"@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Für die Gewährung von Vorrechten und Befreiungen an die Weltorganisation für Tourismus gilt deren Satzung vom 27. September 1970. Die Satzung wird nachstehend veröffentlicht."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) in Verbindung mit Artikel 4 des Gesetzes vom 22. Juni 1954 über den Beitritt der Bundesrepublik Deutschland zum Abkommen über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen vom 21. November 1947 und über die Gewährung von Vorrechten und Befreiungen an andere zwischenstaatliche Organisationen, zuletzt geändert durch das Gesetz vom 28. Februar 1964, auch im Land Berlin."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(1) Diese Verordnung tritt an dem Tage in Kraft, an dem die Satzung der Weltorganisation für Tourismus für die Bundesrepublik Deutschland in Kraft tritt."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(2) Diese Verordnung tritt an dem Tage außer Kraft, an dem die Satzung der Weltorganisation für Tourismus für die Bundesrepublik Deutschland außer Kraft tritt."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(3) Der Tag des Inkrafttretens und des Außerkrafttretens ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "WTO"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1975-12-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id56 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id57 .
+
+dtd:fussnoten-id31 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id43 .
+
+dtd:fussnoten-id34 a dtd:fussnoten .
+
+dtd:fussnoten-id37 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "WTOVorRV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "WTOVorRV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "WTOVorRV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "WTOVorRV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "WTOVorRV"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Gewährung von Vorrechten und Befreiungen an die Weltorganisation für Tourismus"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20220425212509"@de ;
+    dtd:has_doknr "BJNR200230976"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20220425212509"@de ;
+    dtd:has_doknr "BJNR200230976BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20220425212509"@de ;
+    dtd:has_doknr "BJNR200230976BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20220425212509"@de ;
+    dtd:has_doknr "BJNR200230976BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20220425212509"@de ;
+    dtd:has_doknr "BJNR200230976BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id56 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id55 a dtd:pre ;
+    dtd:has_BR dtd:BR-id39,
+        dtd:BR-id40 ;
+    dtd:has_Value "(+++ Textnachweis ab: 29. 1.1976 +++)"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id37 ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:zitstelle-id57 a dtd:zitstelle ;
+    dtd:has_Value "1976, 23"@de .
+

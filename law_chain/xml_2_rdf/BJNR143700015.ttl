@@ -1,0 +1,500 @@
+@prefix dtd: <urn:VIBBestV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240517214522"@de ;
+    dtd:has_doknr "BJNR143700015"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id105 a dtd:Content ;
+    dtd:has_P dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110,
+        dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113,
+        dtd:P-id114 .
+
+dtd:Content-id115 a dtd:Content ;
+    dtd:has_P dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:DD-id49 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id70 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id71 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id72 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id49,
+        dtd:DD-id50 ;
+    dtd:has_DT dtd:DT-id47,
+        dtd:DT-id48 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id51 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54,
+        dtd:DD-id55 ;
+    dtd:has_DT dtd:DT-id52,
+        dtd:DT-id53 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id59,
+        dtd:DD-id60 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id61 a dtd:DL ;
+    dtd:has_DD dtd:DD-id68,
+        dtd:DD-id69,
+        dtd:DD-id70,
+        dtd:DD-id71,
+        dtd:DD-id72,
+        dtd:DD-id73 ;
+    dtd:has_DT dtd:DT-id62,
+        dtd:DT-id63,
+        dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66,
+        dtd:DT-id67 ;
+    dtd:has_Type dtd:a-alpha .
+
+dtd:DL-id74 a dtd:DL ;
+    dtd:has_DD dtd:DD-id81,
+        dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86 ;
+    dtd:has_DT dtd:DT-id75,
+        dtd:DT-id76,
+        dtd:DT-id77,
+        dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80 ;
+    dtd:has_Type dtd:a-alpha .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id62 a dtd:DT ;
+    dtd:has_Value "aa)"@de .
+
+dtd:DT-id63 a dtd:DT ;
+    dtd:has_Value "bb)"@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "cc)"@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "dd)"@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "ee)"@de .
+
+dtd:DT-id67 a dtd:DT ;
+    dtd:has_Value "ff)"@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "aa)"@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "bb)"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "cc)"@de .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "dd)"@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "ee)"@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "ff)"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Value "des Datums der Gründung,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Value "sofern vorhanden, der Registernummer unter Angabe der zuständigen registerführenden Stelle,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Value "des Sitzes oder der Geschäftsanschrift,"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Value "der E-Mail-Adresse oder der Telefonnummer sowie"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Value "hinsichtlich der natürlichen Person, die für die juristische Person oder andere rechtsfähige Personenvereinigung handelt, die in Buchstabe a Doppelbuchstabe aa bis dd genannten Angaben."@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_DL dtd:DL-id51 ;
+    dtd:has_Value "ein elektronisches Dokument, welches das Vermögensanlagen-Informationsblatt enthält, a)bei Anlegern, die natürliche Personen sind, um deren Vor- und Familiennamen und bei Anlegern, die juristische Personen oder andere rechtsfähige Personenvereinigungen sind, um deren Firma oder deren Namen sowie um den Vor- und Familiennamen der natürlichen Person, die für diese handelt, unter Nennung von Ort und Datum ergänzt wird undb)das elektronische Dokument vom Anleger oder, wenn der Anleger eine juristische Person oder eine andere rechtsfähige Personenvereinigung ist, von deren Vertreter mit seiner qualifizierten elektronischen Signatur versehen oder von dem De-Mail-Konto des Anlegers nach § 5 Absatz 5 des De-Mail-Gesetzes versandt wird, oder"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Value "bei Anlegern, die natürliche Personen sind, um deren Vor- und Familiennamen und bei Anlegern, die juristische Personen oder andere rechtsfähige Personenvereinigungen sind, um deren Firma oder deren Namen sowie um den Vor- und Familiennamen der natürlichen Person, die für diese handelt, unter Nennung von Ort und Datum ergänzt wird und"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Value "das elektronische Dokument vom Anleger oder, wenn der Anleger eine juristische Person oder eine andere rechtsfähige Personenvereinigung ist, von deren Vertreter mit seiner qualifizierten elektronischen Signatur versehen oder von dem De-Mail-Konto des Anlegers nach § 5 Absatz 5 des De-Mail-Gesetzes versandt wird, oder"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Value "das Vermögensanlagen-Informationsblatt auf einer Internetseite des Emittenten oder Anbieters der Vermögensanlage durch die eigenständige Eingabe folgender Angaben in einer Formularmaske unter Nennung von Ort und Datum ergänzt wird: a)bei Anlegern, die natürliche Personen sind: aa)des Vor- und Familiennamens,bb)des Geburtsorts,cc)des Geburtsdatums,dd)der Nummer des Personalausweises oder des Reisepasses unter Angabe der ausstellenden Behörde,ee)der Anschrift sowieff)der E-Mail-Adresse oder der Telefonnummer,b)bei Anlegern, die juristische Personen oder andere rechtsfähige Personenvereinigungen sind: aa)der Firma oder des Namens,bb)des Datums der Gründung,cc)sofern vorhanden, der Registernummer unter Angabe der zuständigen registerführenden Stelle,dd)des Sitzes oder der Geschäftsanschrift,ee)der E-Mail-Adresse oder der Telefonnummer sowieff)hinsichtlich der natürlichen Person, die für die juristische Person oder andere rechtsfähige Personenvereinigung handelt, die in Buchstabe a Doppelbuchstabe aa bis dd genannten Angaben."@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_DL dtd:DL-id61 ;
+    dtd:has_Value "bei Anlegern, die natürliche Personen sind: aa)des Vor- und Familiennamens,bb)des Geburtsorts,cc)des Geburtsdatums,dd)der Nummer des Personalausweises oder des Reisepasses unter Angabe der ausstellenden Behörde,ee)der Anschrift sowieff)der E-Mail-Adresse oder der Telefonnummer,"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Value "des Vor- und Familiennamens,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Value "des Geburtsorts,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Value "des Geburtsdatums,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Value "der Nummer des Personalausweises oder des Reisepasses unter Angabe der ausstellenden Behörde,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Value "der Anschrift sowie"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Value "der E-Mail-Adresse oder der Telefonnummer,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_DL dtd:DL-id74 ;
+    dtd:has_Value "bei Anlegern, die juristische Personen oder andere rechtsfähige Personenvereinigungen sind: aa)der Firma oder des Namens,bb)des Datums der Gründung,cc)sofern vorhanden, der Registernummer unter Angabe der zuständigen registerführenden Stelle,dd)des Sitzes oder der Geschäftsanschrift,ee)der E-Mail-Adresse oder der Telefonnummer sowieff)hinsichtlich der natürlichen Person, die für die juristische Person oder andere rechtsfähige Personenvereinigung handelt, die in Buchstabe a Doppelbuchstabe aa bis dd genannten Angaben."@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Value "der Firma oder des Namens,"@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_BR dtd:BR-id43 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.8.2015 +++)"@de ;
+    dtd:has_pre dtd:pre-id119 .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 15 Absatz 5 des Vermögensanlagengesetzes, der durch Artikel 2 Nummer 16 Buchstabe b des Gesetzes vom 3. Juli 2015 (BGBl. I S. 1114) eingefügt worden ist, verordnet das Bundesministerium der Finanzen im Einvernehmen mit dem Bundesministerium der Justiz und für Verbraucherschutz:"@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(1) Durch diese Verordnung werden die Anforderungen näher bestimmt, die an eine Bestätigung durch Nutzung von Fernkommunikationsmittel nach § 15 Absatz 4 des Gesetzes zu stellen sind, um die eigenhändige Unterzeichnung durch den Anleger nach § 15 Absatz 3 des Gesetzes in gleichwertiger Art und Weise zu ersetzen."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(2) Fernkommunikationsmittel im Sinne des § 15 Absatz 4 des Gesetzes sind Kommunikationsmittel, die zur Anbahnung oder zum Abschluss eines Vertrags über eine Vermögensanlage zwischen einem Anleger und einem Anbieter oder Emittenten eingesetzt werden können, ohne dass die Vertragsparteien gleichzeitig körperlich anwesend sind, wie Telefonanrufe, Telekopien, E-Mails, über den Mobilfunkdienst versendete Nachrichten (SMS), digitale Dienste nach § 1 Absatz 4 Nummer 1 des Digitale-Dienste-Gesetzes sowie Internetseiten."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Value "(1) Eine Bestätigung im Sinne von § 15 Absatz 4 Satz 1 des Gesetzes ist der eigenhändigen Unterschrift nach § 15 Absatz 3 des Gesetzes gleichwertig, wenn 1.ein elektronisches Dokument, welches das Vermögensanlagen-Informationsblatt enthält, a)bei Anlegern, die natürliche Personen sind, um deren Vor- und Familiennamen und bei Anlegern, die juristische Personen oder andere rechtsfähige Personenvereinigungen sind, um deren Firma oder deren Namen sowie um den Vor- und Familiennamen der natürlichen Person, die für diese handelt, unter Nennung von Ort und Datum ergänzt wird undb)das elektronische Dokument vom Anleger oder, wenn der Anleger eine juristische Person oder eine andere rechtsfähige Personenvereinigung ist, von deren Vertreter mit seiner qualifizierten elektronischen Signatur versehen oder von dem De-Mail-Konto des Anlegers nach § 5 Absatz 5 des De-Mail-Gesetzes versandt wird, oder2.das Vermögensanlagen-Informationsblatt auf einer Internetseite des Emittenten oder Anbieters der Vermögensanlage durch die eigenständige Eingabe folgender Angaben in einer Formularmaske unter Nennung von Ort und Datum ergänzt wird: a)bei Anlegern, die natürliche Personen sind: aa)des Vor- und Familiennamens,bb)des Geburtsorts,cc)des Geburtsdatums,dd)der Nummer des Personalausweises oder des Reisepasses unter Angabe der ausstellenden Behörde,ee)der Anschrift sowieff)der E-Mail-Adresse oder der Telefonnummer,b)bei Anlegern, die juristische Personen oder andere rechtsfähige Personenvereinigungen sind: aa)der Firma oder des Namens,bb)des Datums der Gründung,cc)sofern vorhanden, der Registernummer unter Angabe der zuständigen registerführenden Stelle,dd)des Sitzes oder der Geschäftsanschrift,ee)der E-Mail-Adresse oder der Telefonnummer sowieff)hinsichtlich der natürlichen Person, die für die juristische Person oder andere rechtsfähige Personenvereinigung handelt, die in Buchstabe a Doppelbuchstabe aa bis dd genannten Angaben."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(2) Bei Zweifeln über die Richtigkeit der Angaben zur Identität des Anlegers oder der für den Anleger handelnden Person bei Bestätigungen nach Absatz 1 Nummer 2 hat sich der Emittent oder der Anbieter oder die Internet-Dienstleistungsplattform, die die Vermögensanlage im Wege der Anlageberatung oder Anlagevermittlung vermittelt, einen geeigneten Nachweis über die Angaben über den Anleger oder die für den Anleger handelnde Person zum Geburtsort, zum Geburtsdatum und zur Nummer des Personalausweises oder des Reisepasses einschließlich der ausstellenden Behörde zukommen zu lassen. Ein geeigneter Nachweis liegt vor, wenn der Anleger oder die für den Anleger handelnde Person den Angaben in der Formularmaske nach Absatz 1 Nummer 2 einen Identitätsnachweis nach § 18 des Personalausweisgesetzes, nach § 12 des eID-Karte-Gesetzes oder nach § 78 Absatz 5 des Aufenthaltsgesetzes oder eine Ablichtung des Personalausweises oder Reisepasses beifügt."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(+++ Hinweis: Die Änderung d. Art. 6 Abs. 1 G v. 21.6.2019 I 846 durch Art. 154a Nr. 3 Buchst. a G v. 20.11.2019 I 1626 (Verschiebung d. Inkrafttretens zum 1.11.2020) ist nicht ausführbar, da Art. 5 d. G v. 21.6.2019 I 846 zum Zeitpunkt d. Inkrafttretens d. G v. 20.11.2019 I 1626 bereits mWv 1.11.2019 in Kraft getreten war +++)"@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "VIBBestV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2015-08-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id120 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id121 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id105 .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id115 .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "VIBBestV"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "VIBBestV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "VIBBestV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "VIBBestV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "VIBBestV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Vermögensanlagen-Informationsblatt-Bestätigungsverordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung des § 15 Absatz 4 des Vermögensanlagengesetzes"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23,
+        dtd:standangabe-id24 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240517214522"@de ;
+    dtd:has_doknr "BJNR143700015"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240517214522"@de ;
+    dtd:has_doknr "BJNR143700015BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240517214522"@de ;
+    dtd:has_doknr "BJNR143700015BJNE000201360"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240517214522"@de ;
+    dtd:has_doknr "BJNR143700015BJNE000302360"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240517214522"@de ;
+    dtd:has_doknr "BJNR143700015BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id120 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id119 a dtd:pre ;
+    dtd:has_BR dtd:BR-id44,
+        dtd:BR-id45 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.8.2015 +++)"@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id123 ;
+    dtd:has_standtyp dtd:standtyp-id122 .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id125 ;
+    dtd:has_standtyp dtd:standtyp-id124 .
+
+dtd:standkommentar-id123 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 20 G v. 6.5.2024 I Nr. 149"@de .
+
+dtd:standkommentar-id125 a dtd:standkommentar ;
+    dtd:has_Value "Mittelbare Änderung durch Art. 154a Nr. 3 Buchst. a G v. 20.11.2019 I 1626 ist nicht ausführbar, da das geänderte G v. 21.6.2019 I 846 zum Zeitpunkt des Inkrafttretens des mittelbaren Änderungsgesetzes bereits zum 1.11.2019 in Kraft getreten war."@de .
+
+dtd:standtyp-id122 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id124 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Gleichwertigkeit der Bestätigung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id121 a dtd:zitstelle ;
+    dtd:has_Value "2015, 1437"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,335 @@
+@prefix dtd: <urn:BMFWidVertrAnO-2019#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200130213029"@de ;
+    dtd:has_doknr "BJNR162400019"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id43 a dtd:BR .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75,
+        dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id52 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DD-id53 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id63 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id64 .
+
+dtd:DD-id59 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id65 .
+
+dtd:DL-id46 a dtd:DL ;
+    dtd:has_DD dtd:DD-id51,
+        dtd:DD-id52,
+        dtd:DD-id53,
+        dtd:DD-id54 ;
+    dtd:has_DT dtd:DT-id47,
+        dtd:DT-id48,
+        dtd:DT-id49,
+        dtd:DT-id50 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id55 a dtd:DL ;
+    dtd:has_DD dtd:DD-id58,
+        dtd:DD-id59 ;
+    dtd:has_DT dtd:DT-id56,
+        dtd:DT-id57 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id47 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id48 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id49 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id50 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id56 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Value "der Generalzolldirektion,"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Value "dem Bundeszentralamt für Steuern,"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Value "dem Informationstechnikzentrum Bund und"@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Value "dem Bundesverwaltungsamt."@de .
+
+dtd:LA-id64 a dtd:LA ;
+    dtd:has_Value "der Generalzolldirektion für die Besoldungsgruppen A 2 bis A 16, W 2 und W 3,"@de .
+
+dtd:LA-id65 a dtd:LA ;
+    dtd:has_Value "den in Absatz 1 Nummer 2 und 3 bezeichneten Stellen für die Besoldungsgruppen A 2 bis A 13 (gehobener Dienst)."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_BR dtd:BR-id43 ;
+    dtd:has_Value " (+++ Textnachweis ab: 23.11.2019 +++)"@de ;
+    dtd:has_pre dtd:pre-id79 .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "Nach § 126 Absatz 3 Satz 2 und § 127 Absatz 3 Satz 1 des Bundesbeamtengesetzes vom 5. Februar 2009 (BGBl. I S. 160) ordnet das Bundesministerium der Finanzen im Einvernehmen mit dem Bundesministerium des Innern, für Bau und Heimat an:"@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_DL dtd:DL-id46 ;
+    dtd:has_Value "(1) Die Zuständigkeit für den Erlass von Widerspruchsbescheiden auf den Gebieten des Besoldungs-, Dienstunfall-, Reisekosten-, Umzugskosten-, Trennungsgeld- und Beihilferechts wird folgenden Behörden übertragen, soweit diese oder ihnen nachgeordnete Behörden die Maßnahme getroffen oder abgelehnt haben: 1.der Generalzolldirektion,2.dem Bundeszentralamt für Steuern,3.dem Informationstechnikzentrum Bund und4.dem Bundesverwaltungsamt."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_DL dtd:DL-id55 ;
+    dtd:has_Value "(2) In allen anderen beamtenrechtlichen Angelegenheiten wird die Zuständigkeit für den Erlass von Widerspruchsbescheiden folgenden Behörden übertragen, soweit diese oder ihnen nachgeordnete Behörden die Maßnahme getroffen oder abgelehnt haben: 1.der Generalzolldirektion für die Besoldungsgruppen A 2 bis A 16, W 2 und W 3,2.den in Absatz 1 Nummer 2 und 3 bezeichneten Stellen für die Besoldungsgruppen A 2 bis A 13 (gehobener Dienst)."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(3) Das Bundesministerium der Finanzen kann im Einzelfall die Zuständigkeit abweichend regeln oder selbst entscheiden."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(1) Die Vertretung der Bundesrepublik Deutschland bei Klagen aus dem Beamtenverhältnis wird den Leitern der in § 1 genannten Behörden übertragen, soweit diese nach § 1 für den Erlass von Widerspruchsbescheiden zuständig sind."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium der Finanzen kann im Einzelfall die Vertretung abweichend regeln oder selbst übernehmen."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "Diese Anordnung tritt am Tag nach der Veröffentlichung im Bundesgesetzblatt in Kraft. Gleichzeitig tritt die Anordnung über die Übertragung von Zuständigkeiten im Widerspruchsverfahren und die Vertretung der Bundesrepublik Deutschland bei Klagen aus dem Beamtenverhältnis von Beamten im Geschäftsbereich des Bundesministeriums der Finanzen vom 12. Juni 2017 (BGBl. I S. 1879) außer Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "BMFWidVertrAnO"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2019-11-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id80 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id81 .
+
+dtd:fussnoten-id38 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id66 .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO 2019"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO 2019"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO 2019"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO 2019"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO 2019"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "BMFWidVertrAnO"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value "Anordnung zur Übertragung von Zuständigkeiten im Widerspruchsverfahren und die Vertretung der Bundesrepublik Deutschland bei Klagen aus dem Beamtenverhältnis von Beamten im Geschäftsbereich des Bundesministeriums der Finanzen"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26,
+        dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id30,
+        dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id34,
+        dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 ;
+    dtd:has_standangabe dtd:standangabe-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23,
+        dtd:jurabk-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200130213029"@de ;
+    dtd:has_doknr "BJNR162400019"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200130213029"@de ;
+    dtd:has_doknr "BJNR162400019BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200130213029"@de ;
+    dtd:has_doknr "BJNR162400019BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200130213029"@de ;
+    dtd:has_doknr "BJNR162400019BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200130213029"@de ;
+    dtd:has_doknr "BJNR162400019BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id80 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id79 a dtd:pre ;
+    dtd:has_BR dtd:BR-id44,
+        dtd:BR-id45 ;
+    dtd:has_Value "(+++ Textnachweis ab: 23.11.2019 +++)"@de .
+
+dtd:standangabe-id22 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id83 ;
+    dtd:has_standtyp dtd:standtyp-id82 .
+
+dtd:standkommentar-id83 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 2030-14-216 v. 12.6.2017 I 1879 (BMFWidVertrAnO 2017)"@de .
+
+dtd:standtyp-id82 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Erlass von Widerspruchsbescheiden"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Vertretung bei Klagen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id81 a dtd:zitstelle ;
+    dtd:has_Value "2019, 1624"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

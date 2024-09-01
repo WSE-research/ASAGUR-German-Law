@@ -1,0 +1,166 @@
+@prefix dtd: <urn:DBBankAbkG-GBR#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20121107215505"@de ;
+    dtd:has_doknr "BJNR123420012"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38,
+        dtd:P-id39 .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_BR dtd:BR-id28 ;
+    dtd:has_Value " (+++ Textnachweis ab: 3.11.2012 +++)"@de ;
+    dtd:has_pre dtd:pre-id40 .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value "Dem in London am 7. Dezember 2011 unterzeichneten Abkommen zwischen der Bundesrepublik Deutschland und dem Vereinigten Königreich Großbritannien und Nordirland zur Vermeidung der Doppelbelastung bei der Bankenabgabe wird zugestimmt. Das Abkommen wird nachstehend veröffentlicht."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Nach Artikel 7 Absatz 1 Buchstabe a des Abkommens auf die deutsche Bankenabgabe anzurechnende Beträge sind den betroffenen Kreditinstituten von der Bundesanstalt für Finanzmarktstabilisierung auf Antrag des betroffenen Kreditinstituts maximal bis zur Höhe der geleisteten deutschen Bankenabgabe zu erstatten."@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Abkommen nach seinem Artikel 11 Absatz 2 in Kraft tritt, ist im Bundesgesetzblatt bekannt zu geben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id15 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-10-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:fundstelle-id16 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id41 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id42 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id31 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "DBBankAbkG GBR"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "DBBankAbkG GBR"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "DBBankAbkG GBR"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "DBBankAbkG GBR"@de .
+
+dtd:langue-id17 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Abkommen vom 7. Dezember 2011 zwischen der Bundesrepublik Deutschland und dem Vereinigten Königreich Großbritannien und Nordirland zur Vermeidung der Doppelbelastung bei der Bankenabgabe"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id15 ;
+    dtd:has_fundstelle dtd:fundstelle-id16 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_langue dtd:langue-id17 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20121107215505"@de ;
+    dtd:has_doknr "BJNR123420012"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20121107215505"@de ;
+    dtd:has_doknr "BJNR123420012BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20121107215505"@de ;
+    dtd:has_doknr "BJNR123420012BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20121107215505"@de ;
+    dtd:has_doknr "BJNR123420012BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id41 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id40 a dtd:pre ;
+    dtd:has_BR dtd:BR-id29,
+        dtd:BR-id30 ;
+    dtd:has_Value "(+++ Textnachweis ab: 3.11.2012 +++)"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:zitstelle-id42 a dtd:zitstelle ;
+    dtd:has_Value "2012, 1234"@de .
+

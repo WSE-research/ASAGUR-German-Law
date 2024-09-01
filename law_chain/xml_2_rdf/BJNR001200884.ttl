@@ -1,0 +1,536 @@
+@prefix dtd: <urn:FeinGehG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20150929215501"@de ;
+    dtd:has_doknr "BJNR001200884"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107,
+        dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122,
+        dtd:P-id123,
+        dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126,
+        dtd:P-id127,
+        dtd:P-id128,
+        dtd:P-id129 .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DL-id79 a dtd:DL ;
+    dtd:has_DD dtd:DD-id83,
+        dtd:DD-id84,
+        dtd:DD-id85 ;
+    dtd:has_DT dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id86 a dtd:DL ;
+    dtd:has_DD dtd:DD-id91,
+        dtd:DD-id92,
+        dtd:DD-id93,
+        dtd:DD-id94 ;
+    dtd:has_DT dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89,
+        dtd:DT-id90 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "gold- oder silberähnliche Waren mit einem durch dieses Gesetz vorgesehenen Stempelzeichen oder mit einem Stempelzeichen versieht, welches nach diesem Gesetz als Feingehaltsbezeichnung für Gold- und Silberwaren nicht zulässig ist;"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Waren feilhält, welche mit einer gegen die Bestimmungen dieses Gesetzes verstoßenden Bezeichnung versehen sind."@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zur Verzierung der Ware dienen;"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zur Herstellung mechanischer Vorrichtungen erforderlich sind;"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "als Verstärkungsvorrichtungen ohne metallische Verbindung sich darstellen."@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gold- oder Silberwaren, welche nach diesem Gesetz mit einer Angabe des Feingehalts nicht versehen sein dürfen, mit einer solchen Angabe versieht;"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gold- oder Silberwaren, welche nach diesem Gesetz mit einer Angabe des Feingehalts versehen sein dürfen, mit einer anderen, als der nach diesem Gesetz zulässigen Feingehaltsangabe versieht;"@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_BR dtd:BR-id76 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 18.3.1976 +++)"@de ;
+    dtd:has_pre dtd:pre-id132 .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "Gold- und Silberwaren dürfen zu jedem Feingehalt angefertigt und feilgehalten werden. Die Angabe des Feingehalts auf denselben ist nur nach Maßgabe der folgenden Bestimmungen gestattet."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(1) Auf goldenen Geräten darf der Feingehalt nur in 585 oder mehr Tausendteilen, auf silbernen Geräten nur in 800 oder mehr Tausendteilen angegeben werden."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(2) Der wirkliche Feingehalt darf weder im Ganzen der Ware noch auch in deren einzelnen Bestandteilen bei goldenen Geräten mehr als fünf, bei silbernen Geräten mehr als acht Tausendteile unter dem angegebenen Feingehalt bleiben. Vorbehaltlich dieser Abweichung muß der Gegenstand im Ganzen und mit der Lötung eingeschmolzen den angegebenen Feingehalt haben."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "Die Angabe des Feingehalts auf goldenen und silbernen Geräten geschieht durch ein Stempelzeichen, welches die Zahl der Tausendteile und die Firma des Geschäfts, für welches die Stempelung bewirkt ist, kenntlich macht. Das Bundesministerium für Wirtschaft und Energie wird ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates die Form des Stempelzeichens zu bestimmen."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "Goldene und silberne Uhrgehäuse unterliegen den Bestimmungen des § 2 Abs. 2 und des § 5 Abs. 1 und 3."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(1) Schmucksachen von Gold und Silber dürfen in jedem Feingehalt gestempelt werden und ist in diesem Fall der letztere in Tausendteilen anzugeben."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(2) Die Fehlergrenze darf zehn Tausendteile nicht überschreiten, wenn der Gegenstand im Ganzen eingeschmolzen wird."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(3) Das gemäß § 3 bestimmte Stempelzeichen darf auf Schmucksachen von Gold und Silber nicht angebracht werden."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Aus dem Ausland eingeführte Gold- und Silberwaren, deren Feingehalt durch eine diesem Gesetz nicht entsprechende Bezeichnung angegeben ist, dürfen nur dann feilgehalten werden, wenn sie außerdem mit einem Stempelzeichen nach Maßgabe dieses Gesetzes versehen sind."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Für die Richtigkeit des angegebenen Feingehalts haftet der Verkäufer der Ware. Ist deren Stempelung im Inland erfolgt, so haftet gleich dem Verkäufer der Inhaber des Geschäfts, für welches die Stempelung erfolgt ist."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(1) Auf Gold- und Silberwaren, welche mit anderen metallischen Stoffen ausgefüllt sind, darf der Feingehalt nicht angegeben werden."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(2) Dasselbe gilt von Gold- und Silberwaren, mit welchen aus anderen Metallen bestehende Verstärkungsvorrichtungen metallisch verbunden sind."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_DL dtd:DL-id79 ;
+    dtd:has_Value "(3) Bei Ermittlung des Feingehalts bleiben alle von dem zu stempelnden Metall verschiedenen, äußerlich als solche erkennbaren Metalle außer Betracht, welche: 1.zur Verzierung der Ware dienen; 2.zur Herstellung mechanischer Vorrichtungen erforderlich sind; 3.als Verstärkungsvorrichtungen ohne metallische Verbindung sich darstellen. "@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_DL dtd:DL-id86 ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer vorsätzlich oder fahrlässig 1.Gold- oder Silberwaren, welche nach diesem Gesetz mit einer Angabe des Feingehalts nicht versehen sein dürfen, mit einer solchen Angabe versieht; 2.Gold- oder Silberwaren, welche nach diesem Gesetz mit einer Angabe des Feingehalts versehen sein dürfen, mit einer anderen, als der nach diesem Gesetz zulässigen Feingehaltsangabe versieht; 3.gold- oder silberähnliche Waren mit einem durch dieses Gesetz vorgesehenen Stempelzeichen oder mit einem Stempelzeichen versieht, welches nach diesem Gesetz als Feingehaltsbezeichnung für Gold- und Silberwaren nicht zulässig ist; 4.Waren feilhält, welche mit einer gegen die Bestimmungen dieses Gesetzes verstoßenden Bezeichnung versehen sind.  "@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(2) Die Vorschriften des Absatzes 1 Nrn. 3 und 4 gelten nicht für versilberte Bestecke und andere Tafelgeräte, die mit einem die Niederschlagsmenge des Feinsilbers angebenden Zahlenstempel versehen werden."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(3) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu fünftausend Euro geahndet werden."@de .
+
+dtd:P-id129 a dtd:P ;
+    dtd:has_Value "(4) Gegenstände, auf die sich die Ordnungswidrigkeit bezieht, können eingezogen werden."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am 1. Januar 1888 in Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id36 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1884-07-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id47 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:fundstelle-id37 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id133 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id134 .
+
+dtd:fussnoten-id60 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id102 .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id46 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "FeinGehG"@de .
+
+dtd:langue-id38 a dtd:langue ;
+    dtd:has_Value "Gesetz über den Feingehalt der Gold- und Silberwaren"@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id36 ;
+    dtd:has_fundstelle dtd:fundstelle-id37 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_langue dtd:langue-id38 ;
+    dtd:has_standangabe dtd:standangabe-id39 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id47 ;
+    dtd:has_jurabk dtd:jurabk-id46 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id52 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000800328"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000901377"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE001000328"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20150929215501"@de ;
+    dtd:has_doknr "BJNR001200884"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000302118"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000400328"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000501377"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000600328"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20150929215502"@de ;
+    dtd:has_doknr "BJNR001200884BJNE000700328"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id133 a dtd:periodikum ;
+    dtd:has_Value "RGBl"@de .
+
+dtd:pre-id132 a dtd:pre ;
+    dtd:has_BR dtd:BR-id77,
+        dtd:BR-id78 ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab: 18.3.1976 +++)"@de .
+
+dtd:standangabe-id39 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id136 ;
+    dtd:has_standtyp dtd:standtyp-id135 .
+
+dtd:standkommentar-id136 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 294 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id135 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id130 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:zitstelle-id134 a dtd:zitstelle ;
+    dtd:has_Value "1884, 120"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,87 @@
+@prefix dtd: <urn:UmwSeeInkrV-4#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625151805"@de ;
+    dtd:has_doknr "BJNR001820001"@de ;
+    dtd:has_norm dtd:norm-id2 .
+
+dtd:BR-id12 a dtd:BR .
+
+dtd:BR-id13 a dtd:BR .
+
+dtd:BR-id14 a dtd:BR .
+
+dtd:BR-id15 a dtd:BR .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:Content-id17 a dtd:Content ;
+    dtd:has_P dtd:P-id18 .
+
+dtd:P-id18 a dtd:P ;
+    dtd:has_BR dtd:BR-id12 ;
+    dtd:has_Value " (+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Beachtung der       EGRL 34/98 (CELEX Nr: 398L0034) +++)Die Verpflichtungen aus der Richtlinie 98/34/EG des Europäischen Parlaments und des Rates vom 22. Juni 1998 über ein Informationsverfahren auf dem Gebiet der Normen und technischen Vorschriften (ABl. EG Nr. L 204 S. 37), zuletzt geändert durch die Richtlinie 98/48/EG des Europäischen Parlaments und des Rates vom 20. Juli 1998 (ABl. EG Nr. L 217 S. 18), sind beachtet worden."@de ;
+    dtd:has_pre dtd:pre-id19 .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id6 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2001-01-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:fundstelle-id7 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id20 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id21 .
+
+dtd:fussnoten-id11 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id17 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id5 a dtd:jurabk ;
+    dtd:has_Value "UmwSeeInkrV 4"@de .
+
+dtd:kurzue-id8 a dtd:kurzue ;
+    dtd:has_Value "Vierte Inkraftsetzungsverordnung Umweltschutz-See"@de .
+
+dtd:langue-id9 a dtd:langue ;
+    dtd:has_Value """Vierte Verordnung über die Inkraftsetzung von Änderungen internationaler
+Vorschriften über den Umweltschutz im Seeverkehr"""@de .
+
+dtd:metadaten-id3 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id6 ;
+    dtd:has_fundstelle dtd:fundstelle-id7 ;
+    dtd:has_jurabk dtd:jurabk-id5 ;
+    dtd:has_kurzue dtd:kurzue-id8 ;
+    dtd:has_langue dtd:langue-id9 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625151805"@de ;
+    dtd:has_doknr "BJNR001820001"@de ;
+    dtd:has_metadaten dtd:metadaten-id3 ;
+    dtd:has_textdaten dtd:textdaten-id4 .
+
+dtd:periodikum-id20 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id19 a dtd:pre ;
+    dtd:has_BR dtd:BR-id13,
+        dtd:BR-id14,
+        dtd:BR-id15,
+        dtd:BR-id16 ;
+    dtd:has_Value "(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Beachtung der       EGRL 34/98 (CELEX Nr: 398L0034) +++)"@de .
+
+dtd:text-id10 a dtd:text ;
+    dtd:has_format "decorated"@de .
+
+dtd:textdaten-id4 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id11 ;
+    dtd:has_text dtd:text-id10 .
+
+dtd:zitstelle-id21 a dtd:zitstelle ;
+    dtd:has_Value "2001, 18"@de .
+

@@ -1,0 +1,134 @@
+@prefix dtd: <urn:WZG§35SWEBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120808043316"@de ;
+    dtd:has_doknr "BJNR002800954"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:Content-id23 a dtd:Content ;
+    dtd:has_P dtd:P-id24 .
+
+dtd:Content-id25 a dtd:Content ;
+    dtd:has_P dtd:P-id26 .
+
+dtd:Content-id27 a dtd:Content ;
+    dtd:has_P dtd:P-id28,
+        dtd:P-id29 .
+
+dtd:Content-id30 a dtd:Content ;
+    dtd:has_P dtd:P-id31 .
+
+dtd:P-id24 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id26 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:P-id28 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 35 Abs. 3 Satz 2 des Warenzeichengesetzes in der Fassung vom 18. Juli 1953 (Bundesgesetzbl. I S. 645) wird gemäß einer Mitteilung der Königlich Schwedischen Regierung bekanntgemacht:"@de .
+
+dtd:P-id29 a dtd:P ;
+    dtd:has_Value "Deutsche Staatsangehörige, die ein Warenzeichen in Schweden anmelden, brauchen nicht den Nachweis zu erbringen, daß sie für das Zeichen in dem Staat, in dem sich ihre Niederlassung befindet, den Markenschutz nachgesucht und erhalten haben. Dies gilt nicht für Verbandszeichen gemäß § 17 des Warenzeichengesetzes."@de .
+
+dtd:P-id31 a dtd:P ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1954-09-24"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id32 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id33 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id25 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "WZG§35SWEBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "WZG§35SWEBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "WZG§35SWEBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung zu § 35 des Warenzeichengesetzes"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120808043316"@de ;
+    dtd:has_doknr "BJNR002800954"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120808043316"@de ;
+    dtd:has_doknr "BJNR002800954BJNE000100306"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120808043316"@de ;
+    dtd:has_doknr "BJNR002800954BJNE000200306"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id32 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id23 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id27 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id30 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id33 a dtd:zitstelle ;
+    dtd:has_Value "1954, 280"@de .
+

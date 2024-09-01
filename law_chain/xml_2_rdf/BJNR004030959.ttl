@@ -1,0 +1,511 @@
+@prefix dtd: <urn:SchuldSaarUmstV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102,
+        dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105,
+        dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110,
+        dtd:P-id111,
+        dtd:P-id112,
+        dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119,
+        dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id95 a dtd:Content ;
+    dtd:has_P dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id90 .
+
+dtd:DD-id83 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id82,
+        dtd:DD-id83,
+        dtd:DD-id84 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id85 a dtd:DL ;
+    dtd:has_DD dtd:DD-id88,
+        dtd:DD-id89 ;
+    dtd:has_DT dtd:DT-id86,
+        dtd:DT-id87 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id86 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:I-id77 a dtd:I ;
+    dtd:has_Value "Frankreich"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "natürliche Personen mit gewöhnlichem Aufenthalt im Geltungsbereich dieser Verordnung, jedoch nicht hinsichtlich ihrer im Geschäftsbereich einer Hauptniederlassung oder einer Zweigniederlassung außerhalb des Geltungsbereichs dieser Verordnung entstandenen Forderungen und Verbindlichkeiten;"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "natürliche Personen mit gewöhnlichem Aufenthalt außerhalb des Geltungsbereichs dieser Verordnung hinsichtlich ihrer im Geschäftsbereich einer Hauptniederlassung oder einer Zweigniederlassung im Geltungsbereich dieser Verordnung entstandenen Forderungen und Verbindlichkeiten;"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "juristische Personen, Personenhandelsgesellschaften und Personenvereinigungen hinsichtlich ihrer im Geschäftsbereich der Hauptniederlassung, einer Zweigniederlassung oder einer Verwaltungsstelle im Geltungsbereich dieser Verordnung entstandenen Forderungen und Verbindlichkeiten."@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Forderungen und Verbindlichkeiten, die unter Artikel 55 Abs. 5 des Saarvertrages fallen;"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Forderungen und Verbindlichkeiten, die ohne Rücksicht darauf, daß die französische Währung im Saarland gegolten hat, in Franken begründet worden sind."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 17 Abs. 1 Nr. 3 des Gesetzes über die Eingliederung des Saarlandes vom 23. Dezember 1956 (Bundesgesetzbl. I S. 1011) verordnet die Bundesregierung nach Anhörung der Regierung des Saarlandes:"@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(1) Forderungen und Verbindlichkeiten im Sinne dieser Verordnung sind auf französische Franken (Franken) lautende Forderungen und Verbindlichkeiten des privaten und öffentlichen Rechts aus Schuldverhältnissen, die vor dem Ende der Übergangszeit (Artikel 3 des Saarvertrages) begründet worden sind."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_Value "(2) Auf Forderungen und Verbindlichkeiten, die am Ende der Übergangszeit bereits erloschen waren, und auf Guthaben bei Kreditinstituten und beim Postscheckamt Saarbrücken ist die Verordnung nicht anzuwenden. Das gleiche gilt für Forderungen und Verbindlichkeiten, deren Umstellung auf Deutsche Mark am Ende der Übergangszeit durch andere gesetzliche Vorschriften bestimmt worden ist."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(1) Forderungen und Verbindlichkeiten zwischen Personen im Geltungsbereich dieser Verordnung sowie Forderungen und Verbindlichkeiten aus Schuldverschreibungen, die von einer Person im Geltungsbereich dieser Verordnung ausgegeben worden sind, werden in der Weise auf Deutsche Mark umgestellt, daß an Stelle von 100 Franken 0,8507 Deutsche Mark tritt."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(2) Als Personen im Geltungsbereich dieser Verordnung sind anzusehen 1.natürliche Personen mit gewöhnlichem Aufenthalt im Geltungsbereich dieser Verordnung, jedoch nicht hinsichtlich ihrer im Geschäftsbereich einer Hauptniederlassung oder einer Zweigniederlassung außerhalb des Geltungsbereichs dieser Verordnung entstandenen Forderungen und Verbindlichkeiten; 2.natürliche Personen mit gewöhnlichem Aufenthalt außerhalb des Geltungsbereichs dieser Verordnung hinsichtlich ihrer im Geschäftsbereich einer Hauptniederlassung oder einer Zweigniederlassung im Geltungsbereich dieser Verordnung entstandenen Forderungen und Verbindlichkeiten; 3.juristische Personen, Personenhandelsgesellschaften und Personenvereinigungen hinsichtlich ihrer im Geschäftsbereich der Hauptniederlassung, einer Zweigniederlassung oder einer Verwaltungsstelle im Geltungsbereich dieser Verordnung entstandenen Forderungen und Verbindlichkeiten. "@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_DL dtd:DL-id85 ;
+    dtd:has_Value "In Franken bleiben bestehen 1.Forderungen und Verbindlichkeiten, die unter Artikel 55 Abs. 5 des Saarvertrages fallen; 2.Forderungen und Verbindlichkeiten, die ohne Rücksicht darauf, daß die französische Währung im Saarland gegolten hat, in Franken begründet worden sind. "@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(1) Auf Franken lautende Hypotheken werden in der Weise umgestellt, daß an Stelle von 100 Franken 0,8507 Deutsche Mark aus dem Grundstück zu zahlen ist. Das gleiche gilt für vor dem 20. November 1947 bestellte Hypotheken, die auf Franken umgestellt, im Grundbuch aber noch nicht in Franken eingetragen worden sind."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_I dtd:I-id77 ;
+    dtd:has_Value "(2) Soweit die durch eine Hypothek gesicherte Forderung in Frankreich bestehenbleibt, wird die Hypothek nicht nach Absatz 1 umgestellt. Vereinigt sich eine nach Satz 1 von der Umstellung ausgenommene Hypothek mit dem Eigentum, so wird sie im Zeitpunkt der Vereinigung nach Absatz 1 auf Deutsche Mark umgestellt."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(3) Zur Eintragung des nach Absatz 1 in Deutscher Mark sich ergebenden Nennbetrages einer Hypothek in das Grundbuch bedarf es der Bewilligung des Gläubigers und des Eigentümers. Der Vorlegung des Hypothekenbriefes bedarf es zur Berichtigung des Grundbuches nicht."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(4) Ist eine vor dem 20. November 1947 bestellte, auf Franken umgestellte Hypothek im Grundbuch noch nicht in Franken eingetragen, so kann das Grundbuch nach Absatz 3 berichtigt werden, ohne daß die Umstellung der Hypothek auf Franken einzutragen ist."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(5) Gebühren für die Berichtigung des Grundbuches und für die Ergänzung des Grundbuchauszuges auf dem Hypothekenbrief werden nicht erhoben."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(6) Die Absätze 1 bis 5 gelten für Grundschulden, Rentenschulden und Reallasten sowie für Schiffshypotheken und Pfandrechte an Bahneinheiten sinngemäß."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "§ 4 Abs. 2 Kursivdruck: Müßte richtig lauten \"Franken\""@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_Value "(1) Haben Gläubiger und Schuldner über die Umstellung von Forderungen, Verbindlichkeiten oder dinglichen Rechten vor dem Inkrafttreten der Verordnung Vereinbarungen getroffen, so behält es dabei sein Bewenden. § 4 Abs. 3 Satz 1, Abs. 4 bis 6 gilt sinngemäß."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(2) Durch eine Vereinbarung über die Umstellung eines dinglichen Rechts kann die Haftung des Grundstücks ohne Zustimmung der im Range gleich- oder nachstehenden Berechtigten nicht erweitert werden. Hat der Eigentümer des belasteten Grundstücks einer Vereinbarung über die Umstellung des dinglichen Rechts nicht zugestimmt, so ist sie unwirksam. Das Zustimmungserfordernis bestimmt sich nach den beim Inkrafttreten dieser Verordnung bestehenden Rechtsverhältnissen."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "Vollstreckungstitel, die auf einen der Umstellung unterliegenden Geldbetrag lauten, sind in Deutscher Mark zu vollstrecken. Über Einwendungen des Gläubigers oder des Schuldners gegen die Berechnung des in Deutscher Mark beizutreibenden Betrages entscheidet das Vollstreckungsgericht in entsprechender Anwendung des § 766 der Zivilprozeßordnung."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "Für die Anwendung dieser Verordnung gelten auf Reichsmark lautende, noch nicht auf Franken oder Deutsche Mark umgestellte Verbindlichkeiten von Personen im Saarland (Artikel 55 Abs. 8 Buchstabe a des Saarvertrages) als auf Franken umgestellt; an Stelle von einer Reichsmark treten zwanzig Franken."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) in Verbindung mit § 19 des Gesetzes über die Eingliederung des Saarlandes auch im Land Berlin."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt mit dem Ende der Übergangszeit in Kraft."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis Geltung ab:  1. 1.1964 +++)"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id36 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1959-06-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id58 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:fundstelle-id37 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id129 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id130 .
+
+dtd:fussnoten-id60 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id97 .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id116 .
+
+dtd:fussnoten-id72 a dtd:fussnoten .
+
+dtd:fussnoten-id74 a dtd:fussnoten .
+
+dtd:fussnoten-id76 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:jurabk-id57 a dtd:jurabk ;
+    dtd:has_Value "SchuldSaarUmstV"@de .
+
+dtd:langue-id38 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Umstellung von Schuldverhältnissen und dinglichen
+Rechten im Saarland"""@de .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id36 ;
+    dtd:has_fundstelle dtd:fundstelle-id37 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_langue dtd:langue-id38 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id58 ;
+    dtd:has_jurabk dtd:jurabk-id57 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000800325"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000900325"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE001000325"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000100325"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000200325"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000300325"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000400325"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000500325"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000600325"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405124733"@de ;
+    dtd:has_doknr "BJNR004030959BJNE000700325"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:periodikum-id129 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id95 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id72 ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id74 ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:zitstelle-id130 a dtd:zitstelle ;
+    dtd:has_Value "1959, 403"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,771 @@
+@prefix dtd: <urn:ÖkoKennzV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id181 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:ABWFORMAT-id183 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:E .
+
+dtd:B-id90 a dtd:B ;
+    dtd:has_Value "Technische Beschreibung:"@de .
+
+dtd:B-id91 a dtd:B ;
+    dtd:has_Value "Für die Farbanwendungen gilt:"@de .
+
+dtd:B-id92 a dtd:B ;
+    dtd:has_Value "Vierfarbig nach Euroskala (4c):"@de .
+
+dtd:B-id93 a dtd:B ;
+    dtd:has_Value "Pantone (pant):"@de .
+
+dtd:B-id94 a dtd:B ;
+    dtd:has_Value "HKS (hks):"@de .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:BR-id81 a dtd:BR .
+
+dtd:BR-id82 a dtd:BR .
+
+dtd:BR-id83 a dtd:BR .
+
+dtd:BR-id84 a dtd:BR .
+
+dtd:BR-id85 a dtd:BR .
+
+dtd:BR-id86 a dtd:BR .
+
+dtd:BR-id87 a dtd:BR .
+
+dtd:BR-id88 a dtd:BR .
+
+dtd:BR-id89 a dtd:BR .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151 .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155 .
+
+dtd:Content-id156 a dtd:Content ;
+    dtd:has_P dtd:P-id157,
+        dtd:P-id158,
+        dtd:P-id159,
+        dtd:P-id160,
+        dtd:P-id161,
+        dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164,
+        dtd:P-id165 .
+
+dtd:Content-id166 a dtd:Content ;
+    dtd:has_P dtd:P-id167,
+        dtd:P-id168 .
+
+dtd:Content-id169 a dtd:Content ;
+    dtd:has_P dtd:P-id170 .
+
+dtd:Content-id171 a dtd:Content ;
+    dtd:has_P dtd:P-id172 .
+
+dtd:Content-id173 a dtd:Content ;
+    dtd:has_P dtd:P-id174 .
+
+dtd:Content-id175 a dtd:Content ;
+    dtd:has_P dtd:P-id176 .
+
+dtd:Content-id177 a dtd:Content ;
+    dtd:has_P dtd:P-id178 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136,
+        dtd:LA-id137,
+        dtd:LA-id138,
+        dtd:LA-id139,
+        dtd:LA-id140,
+        dtd:LA-id141,
+        dtd:LA-id142,
+        dtd:LA-id143,
+        dtd:LA-id144,
+        dtd:LA-id145,
+        dtd:LA-id146,
+        dtd:LA-id147 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148,
+        dtd:LA-id149 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DL-id101 a dtd:DL ;
+    dtd:has_DD dtd:DD-id104,
+        dtd:DD-id105 ;
+    dtd:has_DT dtd:DT-id102,
+        dtd:DT-id103 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id106 a dtd:DL ;
+    dtd:has_DD dtd:DD-id109,
+        dtd:DD-id110 ;
+    dtd:has_DT dtd:DT-id107,
+        dtd:DT-id108 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id111 a dtd:DL ;
+    dtd:has_DD dtd:DD-id114,
+        dtd:DD-id115 ;
+    dtd:has_DT dtd:DT-id112,
+        dtd:DT-id113 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id116 a dtd:DL ;
+    dtd:has_DD dtd:DD-id119,
+        dtd:DD-id120 ;
+    dtd:has_DT dtd:DT-id117,
+        dtd:DT-id118 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id121 a dtd:DL ;
+    dtd:has_DD dtd:DD-id124,
+        dtd:DD-id125 ;
+    dtd:has_DT dtd:DT-id122,
+        dtd:DT-id123 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id96 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id97,
+        dtd:DT-id98 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id122 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id123 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id97 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id98 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "auch in einer der anderen Sprachen der Mitgliedstaaten der Europäischen Union verwendet werden oder"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entfallen, soweit auch durch eine Vergrößerung des Schriftzuges nach Absatz 3 Satz 2 die Lesbarkeit nicht gewährleistet werden kann."@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Breite von zehn Millimeter nicht unterschreiten und"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "vorbehaltlich des Satzes 3 eine Breite von bis zu 33 Millimeter erreichen, soweit die Größe des Schriftzuges \"Bio\" unter Beachtung des Absatzes 3 nicht mehr als 60 vom Hundert der Größe des Schriftzuges der Produktbezeichnung des gekennzeichneten Erzeugnisses beträgt."@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_DL dtd:DL-id111 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Abgabe verpackter Erzeugnisse auf der Verpackunga)durch Aufdruck, Aufkleber oder einem auf sonstige Weise mit der Verpackung verbundenen Etikett, b)an gut sichtbarer Stelle, deutlich lesbar und unverwischbar oder "@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "durch Aufdruck, Aufkleber oder einem auf sonstige Weise mit der Verpackung verbundenen Etikett,"@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "an gut sichtbarer Stelle, deutlich lesbar und unverwischbar oder"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei der Abgabe unverpackter Erzeugnisse unmittelbar auf dem Erzeugnis oder auf einem Schild unmittelbar neben dem Erzeugnis nach Maßgabe der Nummer 1 Buchstabe b"@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ein Erzeugnis, das mit dem Öko-Kennzeichen gekennzeichnet werden darf, oder"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "unabhängig von einem Erzeugnis der ökologische Landbau"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Das Kennzeichen ist vierfarbig mit weißem Fond und weißer Kontur in der Stärke des grünen Rahmens zu drucken."@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rahmen, Buchstabe \"i\" und Bogen sind in Grün, Buchstaben \"B\", i-Punkt und \"O\" sowie \"nach EG-Öko-Verordnung\" sind in Schwarz zu drucken."@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_B dtd:B-id91 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Für die Farbanwendungen gilt:"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_B dtd:B-id92 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Vierfarbig nach Euroskala (4c):"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Grün-Anteil (cyan = 60%, magenta = 0%, yellow = 100%, black = 0%)."@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Schwarz-Anteil (black = 100%)."@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_B dtd:B-id93 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Pantone (pant):"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Grün-Anteil (Pantone 375)."@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Schwarz-Anteil (black = 100%)."@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_B dtd:B-id94 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "HKS (hks):"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Grün-Anteil (HKS 66)."@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Schwarz-Anteil (black = 100%)."@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Das Öko-Kennzeichen ist in der Version mit Verlauf zu verwenden (Schwarz-Anteil bei Verlauf: black = 100%, black = 65%; bei angepassten Farben ist der Verlauf in den entsprechenden Farbanteilen einzufärben)."@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bei einfarbiger Verwendung des Kennzeichens im Sinne von § 1 Abs. 4 ist die Strich-Version des Öko-Kennzeichens zulässig (Schwarz-Anteil bei Strich: black = 100% bzw. in der entsprechenden Farbe eingefärbt)."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "Die Verpflichtungen aus der Richtlinie 98/34/EG des Europäischen Parlaments und des Rates vom 22. Juni 1998 über ein Informationsverfahren auf dem Gebiet der Normen und technischen Vorschriften (ABl. EG Nr. L 204 S. 37), geändert durch die Richtlinie 98/48/EG des Europäischen Parlaments und des Rates vom 20. Juli 1998 (ABl. EG Nr. L 217 S. 18), sind beachtet worden."@de ;
+    dtd:has_noindex dtd:noindex-id95 .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_BR dtd:BR-id77 ;
+    dtd:has_Value " (+++ Textnachweis ab: 16.2.2002 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Beachtung der       EGRL 34/98 (CELEX Nr: 31998L0034) +++)"@de ;
+    dtd:has_pre dtd:pre-id179 .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 2 Abs. 1 des Öko-Kennzeichengesetzes vom 10. Dezember 2001 (BGBl. I S. 3441) verordnet das Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft:"@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_DL dtd:DL-id96 ;
+    dtd:has_Value "(1) Das Öko-Kennzeichen nach § 1 Abs. 1 des Öko-Kennzeichengesetzes besteht nach Maßgabe des Musters und der technischen Beschreibung der Anlage 1 aus einem umrandeten Sechseck und trägt als Inschrift den Schriftzug \"Bio\" und darunter den Schriftzug \"nach EG-Öko-Verordnung\". Der Schriftzug \"nach EG-Öko-Verordnung\" kann 1.auch in einer der anderen Sprachen der Mitgliedstaaten der Europäischen Union verwendet werden oder 2.entfallen, soweit auch durch eine Vergrößerung des Schriftzuges nach Absatz 3 Satz 2 die Lesbarkeit nicht gewährleistet werden kann.  "@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_DL dtd:DL-id101 ;
+    dtd:has_Value "(2) Das Öko-Kennzeichen darf zwischen der linken und rechten äußeren Ecke des grünen Rands 1.eine Breite von zehn Millimeter nicht unterschreiten und 2.vorbehaltlich des Satzes 3 eine Breite von bis zu 33 Millimeter erreichen, soweit die Größe des Schriftzuges \"Bio\" unter Beachtung des Absatzes 3 nicht mehr als 60 vom Hundert der Größe des Schriftzuges der Produktbezeichnung des gekennzeichneten Erzeugnisses beträgt. Es darf um höchstens 15 Grad gedreht werden. Bei einer Verwendung im Sinne des § 2 Abs. 2 darf die höchstzulässige Breite des Öko-Kennzeichens nach Satz 1 Nr. 2 überschritten werden."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(3) Das Größenverhältnis und das räumliche Verhältnis der Wort- und Grafikbestandteile des Öko-Kennzeichens zueinander darf nicht verändert werden. Eine unverhältnismäßige Vergrößerung des Schriftzuges \"nach EG-Öko-Verordnung\" innerhalb der höchstzulässigen Breite des Öko-Kennzeichens ist zulässig, soweit dies erforderlich ist, um die Lesbarkeit zu gewährleisten. Im Falle des Absatzes 1 Satz 2 Nr. 1 darf von Satz 1 abgewichen werden, sofern dies auf Grund der Übersetzung erforderlich ist."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(4) Abweichend von den in Anlage 1 festgelegten Farbkombinationen darf das Öko-Kennzeichen auch einfarbig in Schwarz oder in angepasster Farbe verwendet werden. Als Fond und Kontur ist Weiß oder der jeweils vorhandene Untergrund zulässig."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(5) Regionale oder andere Herkunftsangaben dürfen im unmittelbaren Umfeld des Öko-Kennzeichens angebracht werden. Die zusätzliche Verwendung sonstiger Kennzeichen, die auf eine Herkunft des gekennzeichneten Erzeugnisses aus dem ökologischen Landbau oder der biologischen Landwirtschaft hindeuten, ist zulässig."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(6) Das Weglassen oder Hinzufügen von Bestandteilen oder sonstige Änderungen des Öko-Kennzeichens sind vorbehaltlich der Absätze 1 bis 5 verboten."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_DL dtd:DL-id106 ;
+    dtd:has_Value "(1) Das Öko-Kennzeichen ist 1.bei der Abgabe verpackter Erzeugnisse auf der Verpackunga)durch Aufdruck, Aufkleber oder einem auf sonstige Weise mit der Verpackung verbundenen Etikett, b)an gut sichtbarer Stelle, deutlich lesbar und unverwischbar oder  2.bei der Abgabe unverpackter Erzeugnisse unmittelbar auf dem Erzeugnis oder auf einem Schild unmittelbar neben dem Erzeugnis nach Maßgabe der Nummer 1 Buchstabe b anzubringen."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_DL dtd:DL-id116 ;
+    dtd:has_Value "(2) Die Verwendung des Öko-Kennzeichens für Zwecke der Werbung oder der sonstigen Unterrichtung des Verbrauchers ist zulässig, soweit 1.ein Erzeugnis, das mit dem Öko-Kennzeichen gekennzeichnet werden darf, oder 2.unabhängig von einem Erzeugnis der ökologische Landbau angepriesen wird."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(1) Wer für Erzeugnisse nach § 1 Abs. 1 des Öko-Kennzeichengesetzes das Öko-Kennzeichen verwenden will, hat dies der Bundesanstalt für landwirtschaft und Ernährung vor dem erstmaligen Verwenden anzuzeigen. Die Anzeige ist nach dem Muster des Formblattes in Anlage 2 vorzunehmen. Abweichend von den Sätzen 1 und 2 kann eine Anzeige auch elektronisch über eine Registrierung in der Bio-Siegel-Datenbank erfolgen."@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value "(2) Wer vor dem Inkrafttreten dieser Verordnung das beim Deutschen Patent- und Markenamt unter der Registernummer 301 41 473 eingetragene Öko-Kennzeichen verwendet hat, hat die Anzeige nach Absatz 1 bis zum 1. Juni 2002 zu erstatten."@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "Ordnungswidrig im Sinne des § 4 Abs. 2 des Öko-Kennzeichengesetzes handelt, wer vorsätzlich oder fahrlässig entgegen § 3 Abs. 1 Satz 1 oder Abs. 2 eine Anzeige nicht, nicht richtig oder nicht rechtzeitig erstattet."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "Die Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id181 ;
+    dtd:has_B dtd:B-id90 ;
+    dtd:has_BR dtd:BR-id86 ;
+    dtd:has_DL dtd:DL-id121 ;
+    dtd:has_Value "(Inhalt: nicht darstellbares Muster Öko-Kennzeichen; Fundstelle: BGBl. I 2002, 591)  Technische Beschreibung: a)Das Kennzeichen ist vierfarbig mit weißem Fond und weißer Kontur in der Stärke des grünen Rahmens zu drucken.Rahmen, Buchstabe \"i\" und Bogen sind in Grün, Buchstaben \"B\", i-Punkt und \"O\" sowie \"nach EG-Öko-Verordnung\" sind in Schwarz zu drucken.Für die Farbanwendungen gilt:Vierfarbig nach Euroskala (4c):Grün-Anteil (cyan = 60%, magenta = 0%, yellow = 100%, black = 0%).Schwarz-Anteil (black = 100%).Pantone (pant):Grün-Anteil (Pantone 375).Schwarz-Anteil (black = 100%).HKS (hks):Grün-Anteil (HKS 66).Schwarz-Anteil (black = 100%).            b)Das Öko-Kennzeichen ist in der Version mit Verlauf zu verwenden (Schwarz-Anteil bei Verlauf: black = 100%, black = 65%; bei angepassten Farben ist der Verlauf in den entsprechenden Farbanteilen einzufärben).Bei einfarbiger Verwendung des Kennzeichens im Sinne von § 1 Abs. 4 ist die Strich-Version des Öko-Kennzeichens zulässig (Schwarz-Anteil bei Strich: black = 100% bzw. in der entsprechenden Farbe eingefärbt). "@de ;
+    dtd:has_kommentar dtd:kommentar-id180 .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id183 ;
+    dtd:has_Value "(nicht darstellbares Formblatt; Fundstelle: BGBl. I 2005, 3384 - 3385)"@de ;
+    dtd:has_kommentar dtd:kommentar-id182 .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-02-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id59 a dtd:enbez ;
+    dtd:has_Value "Anlage 1"@de .
+
+dtd:enbez-id62 a dtd:enbez ;
+    dtd:has_Value "Anlage 2"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id184 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id185 .
+
+dtd:fussnoten-id65 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id152 .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:fussnoten-id76 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id58 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:jurabk-id61 a dtd:jurabk ;
+    dtd:has_Value "ÖkoKennzV"@de .
+
+dtd:kommentar-id180 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id85 ;
+    dtd:has_Value "(Inhalt: nicht darstellbares Muster Öko-Kennzeichen; Fundstelle: BGBl. I 2002, 591)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id182 a dtd:kommentar ;
+    dtd:has_BR dtd:BR-id89 ;
+    dtd:has_Value "(nicht darstellbares Formblatt; Fundstelle: BGBl. I 2005, 3384 - 3385)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id36 a dtd:kurzue ;
+    dtd:has_Value "Öko-Kennzeichenverordnung"@de .
+
+dtd:langue-id37 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Gestaltung und Verwendung des Öko-Kennzeichens"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id36 ;
+    dtd:has_langue dtd:langue-id37 ;
+    dtd:has_standangabe dtd:standangabe-id38 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id59 ;
+    dtd:has_jurabk dtd:jurabk-id58 ;
+    dtd:has_titel dtd:titel-id60 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id62 ;
+    dtd:has_jurabk dtd:jurabk-id61 ;
+    dtd:has_titel dtd:titel-id63 .
+
+dtd:noindex-id95 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000800305"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000901377"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000300305"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000402119"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000500305"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000600305"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20231004213502"@de ;
+    dtd:has_doknr "BJNR058900002BJNE000700305"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id184 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id179 a dtd:pre ;
+    dtd:has_BR dtd:BR-id78,
+        dtd:BR-id79,
+        dtd:BR-id80,
+        dtd:BR-id81,
+        dtd:BR-id82 ;
+    dtd:has_Value "(+++ Textnachweis ab: 16.2.2002 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Beachtung der       EGRL 34/98 (CELEX Nr: 31998L0034) +++)"@de .
+
+dtd:standangabe-id38 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id187 ;
+    dtd:has_standtyp dtd:standtyp-id186 .
+
+dtd:standkommentar-id187 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 2 V v. 27.9.2023 I Nr. 265"@de .
+
+dtd:standtyp-id186 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id156 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id163 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id166 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id169 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id171 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id173 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id175 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id177 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id76 ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Gestaltung des Öko-Kennzeichens"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Verwendung des Öko-Kennzeichens"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Anzeigepflicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Ordnungswidrigkeiten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id60 a dtd:titel ;
+    dtd:has_BR dtd:BR-id83,
+        dtd:BR-id84 ;
+    dtd:has_Value """(zu § 1 Abs. 1)
+
+Öko-Kennzeichen
+
+Muster"""@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id63 a dtd:titel ;
+    dtd:has_BR dtd:BR-id87,
+        dtd:BR-id88 ;
+    dtd:has_Value """(zu § 3 Abs. 1)
+
+Formblattmuster für die Anzeige
+
+VERPFLICHTENDE ANGABEN!"""@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id185 a dtd:zitstelle ;
+    dtd:has_Value "2002, 589"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

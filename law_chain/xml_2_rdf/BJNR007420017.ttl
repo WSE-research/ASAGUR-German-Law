@@ -1,0 +1,230 @@
+@prefix dtd: <urn:EUROCONTROLÜbkNFProtG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170801221632"@de ;
+    dtd:has_doknr "BJNR007420017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:BR-id41 a dtd:BR .
+
+dtd:BR-id42 a dtd:BR .
+
+dtd:Content-id43 a dtd:Content ;
+    dtd:has_P dtd:P-id44 .
+
+dtd:Content-id45 a dtd:Content ;
+    dtd:has_P dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50,
+        dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:P-id44 a dtd:P ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11.2.2017 +++)"@de ;
+    dtd:has_pre dtd:pre-id57 .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Dem in Brüssel am 27. Juni 1997 von der Bundesrepublik Deutschland unterzeichneten Protokoll zur Neufassung des Internationalen Übereinkommens vom 13. Dezember 1960 über Zusammenarbeit zur Sicherung der Luftfahrt „EUROCONTROL“ entsprechend den verschiedenen vorgenommenen Änderungen und den der Schlussakte vom 27. Juni 1997 beigefügten Änderungen durch die Diplomatische Konferenz vom 27. Juni 1997 sowie dem Zusatzprotokoll vom 27. Juni 1997 betreffend den Übergang von der Regelung nach der Mehrseitigen Vereinbarung vom 12. Februar 1981 über Flugsicherungs-Streckengebühren zu der Regelung nach den einschlägigen Bestimmungen der Neufassung des Internationalen Übereinkommens über Zusammenarbeit zur Sicherung der Luftfahrt „EUROCONTROL“ aufgrund der 1997 in Brüssel vorgenommenen Änderungen, einschließlich ihrer Anlage IV, wird zugestimmt. Das Protokoll und die Schlussakte sowie das Zusatzprotokoll werden nachstehend veröffentlicht."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(1) Die nach Artikel 3 Satz 2 Buchstabe b und c der Anlage IV zum Übereinkommen („Bestimmungen über das gemeinsame Flugsicherungs-Streckengebührensystem“) gefassten Beschlüsse sind in ihrer jeweils geltenden, in der Bundesrepublik Deutschland angewendeten Fassung vom Bundesministerium für Verkehr und digitale Infrastruktur im Bundesgesetzblatt bekannt zu machen."@de .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium für Verkehr und digitale Infrastruktur wird ermächtigt, durch Rechtsverordnung ohne Zustimmung des Bundesrates Abweichungen von einem Beschluss nach Absatz 1 festzulegen, wenn der Beschluss dieses vorsieht."@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Die Einziehung der Gebühr gemäß den Artikeln 6 und 7 der Anlage IV zum Übereinkommen wird auf dem Verwaltungsweg durch die Bundesrepublik Deutschland vorgenommen. Zu dem Zweck gilt die Gebühr gemäß Artikel 4 der Anlage IV zum Übereinkommen als öffentlich-rechtliche Geldforderung des Bundes. Das Verwaltungs-Vollstreckungsgesetz in der im Bundesgesetzblatt Teil III, Gliederungsnummer 201-4, veröffentlichten bereinigten Fassung, das zuletzt durch Artikel 15 Absatz 1 des Gesetzes vom 21. November 2016 (BGBl. I S. 2591) geändert worden ist, findet Anwendung."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Protokoll nach seinem Artikel II Absatz 3 für die Bundesrepublik Deutschland in Kraft tritt, ist im Bundesgesetzblatt bekannt zu geben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-02-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Art 5"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id58 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id59 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id43 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "EUROCONTROLÜbkNFProtG"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "EUROCONTROLÜbkNFProtG"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "EUROCONTROLÜbkNFProtG"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "EUROCONTROLÜbkNFProtG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "EUROCONTROLÜbkNFProtG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "EUROCONTROLÜbkNFProtG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Protokoll vom 27. Juni 1997 zur Neufassung des Internationalen Übereinkommens vom 13. Dezember 1960 über Zusammenarbeit zur Sicherung der Luftfahrt „EUROCONTROL“"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170801221632"@de ;
+    dtd:has_doknr "BJNR007420017"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170801221632"@de ;
+    dtd:has_doknr "BJNR007420017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170801221632"@de ;
+    dtd:has_doknr "BJNR007420017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20170801221632"@de ;
+    dtd:has_doknr "BJNR007420017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20170801221632"@de ;
+    dtd:has_doknr "BJNR007420017BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20170801221632"@de ;
+    dtd:has_doknr "BJNR007420017BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id58 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id57 a dtd:pre ;
+    dtd:has_BR dtd:BR-id41,
+        dtd:BR-id42 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11.2.2017 +++)"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id45 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 .
+
+dtd:zitstelle-id59 a dtd:zitstelle ;
+    dtd:has_Value "2017, 74"@de .
+

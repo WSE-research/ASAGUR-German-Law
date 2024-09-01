@@ -1,0 +1,214 @@
+@prefix dtd: <urn:StipHV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213550"@de ;
+    dtd:has_doknr "BJNR245010011"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45,
+        dtd:P-id46,
+        dtd:P-id47 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id38 .
+
+dtd:DD-id37 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id39 .
+
+dtd:DL-id33 a dtd:DL ;
+    dtd:has_DD dtd:DD-id36,
+        dtd:DD-id37 ;
+    dtd:has_DT dtd:DT-id34,
+        dtd:DT-id35 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id35 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id38 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für das Jahr 2012 bis einschließlich 31. Juli 2013 1 Prozent der Studierenden einer Hochschule,"@de .
+
+dtd:LA-id39 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "ab dem 1. August 2013 1,5 Prozent der Studierenden einer Hochschule."@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value "  (+++ Textnachweis ab: 1.1.2012 +++)Die V wurde als Artikel 1 der V v. 29.11.2011 I 2450 vom Bundesministerium für Bildung und Forschung im Einvernehmen mit dem Bundesministerium der Finanzen erlassen. Sie ist gem. Art. 3 dieser V am 1.1.2012 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id48 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_DL dtd:DL-id33 ;
+    dtd:has_Value "Die Höchstgrenze gemäß § 11 Absatz 4 des Stipendienprogramm-Gesetzes beträgt1.für das Jahr 2012 bis einschließlich 31. Juli 2013 1 Prozent der Studierenden einer Hochschule,2.ab dem 1. August 2013 1,5 Prozent der Studierenden einer Hochschule."@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesministerium für Bildung und Forschung teilt den nach Landesrecht zuständigen Landesbehörden rechtzeitig die auf jede ihrer Hochschulen entfallende Zahl der Stipendien mit, die der jährlichen Höchstgrenze nach § 1 entspricht. Auf jede Hochschule entfällt mindestens ein Stipendium."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(2) Hat eine Hochschule nicht genügend private Mittel eingeworben, um die jeweils gültige Höchstgrenze nach § 1 auszuschöpfen, so soll die zuständige Landesbehörde von Amts wegen das frei bleibende Stipendienkontingent innerhalb des Bundeslandes auf andere Hochschulen (Begünstigte) übertragen. Als Begünstigte nach Satz 1 kommen solche Hochschulen in Betracht, die mit den von ihnen eingeworbenen Mitteln mehr Stipendien vergeben können, als ihnen nach der jeweils geltenden Höchstgrenze zustehen. Die Landesbehörde strebt dabei eine Verteilung an, die im Verhältnis zu der Studierendenzahl der begünstigten Hochschulen steht."@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "(3) Durch die Übertragung frei bleibender Stipendien darf an den begünstigten Hochschulen die Höchstgrenze des § 11 Absatz 4 Satz 1 des Stipendienprogramm-Gesetzes nicht überschritten werden."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "StipHV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2011-11-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id49 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id50 .
+
+dtd:fussnoten-id24 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id40 .
+
+dtd:fussnoten-id26 a dtd:fussnoten .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "StipHV"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "StipHV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "StipHV"@de .
+
+dtd:kurzue-id15 a dtd:kurzue ;
+    dtd:has_Value "Stipendienprogramm-Höchstgrenzen-Verordnung"@de .
+
+dtd:langue-id16 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Erreichung der Höchstgrenze nach dem Stipendienprogramm-Gesetz"@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id15 ;
+    dtd:has_langue dtd:langue-id16 ;
+    dtd:has_standangabe dtd:standangabe-id17 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213550"@de ;
+    dtd:has_doknr "BJNR245010011"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213550"@de ;
+    dtd:has_doknr "BJNR245010011BJNE000101140"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213550"@de ;
+    dtd:has_doknr "BJNR245010011BJNE000203305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id49 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id48 a dtd:pre ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31,
+        dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.2012 +++)"@de .
+
+dtd:standangabe-id17 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id52 ;
+    dtd:has_standtyp dtd:standtyp-id51 .
+
+dtd:standkommentar-id52 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 1 V v. 29.6.2015 I 1167"@de .
+
+dtd:standtyp-id51 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id25 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id24 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id26 ;
+    dtd:has_text dtd:text-id25 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Jährliche Höchstgrenze"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Verfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id50 a dtd:zitstelle ;
+    dtd:has_Value "2011, 2450"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

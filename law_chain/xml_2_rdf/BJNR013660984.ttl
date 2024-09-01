@@ -1,0 +1,184 @@
+@prefix dtd: <urn:KüMErwBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20131008093529"@de ;
+    dtd:has_doknr "BJNR013660984"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:ABWFORMAT-id26 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id27 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id28 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id29 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id30 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id31 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id32 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id33 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id34 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id35 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:DD-id22 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id23,
+        dtd:LA-id24,
+        dtd:LA-id25 .
+
+dtd:DL-id20 a dtd:DL ;
+    dtd:has_DD dtd:DD-id22 ;
+    dtd:has_DT dtd:DT-id21 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id21 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id23 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Um geeignete Maßnahmen gegen die Gefahr eines Tankerunfalles und einer Ölverseuchung des Meeres und der Küste in der Deutschen Bucht treffen zu können, wird das Küstenmeer der Bundesrepublik Deutschland in der Nordsee erweitert. Die Grenzen des erweiterten Küstenmeeres der Bundesrepublik Deutschland werden wie folgt festgelegt (Koordinatenangabe im Europa-Datum - ED -):"@de .
+
+dtd:LA-id24 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id26,
+        dtd:ABWFORMAT-id27,
+        dtd:ABWFORMAT-id28,
+        dtd:ABWFORMAT-id29 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Im Westen durch eine Linie, die durch den Meridian 7 Grad 24' 36\" Ost gebildet wird. Sie wird begrenzt von dem nordwestlich von Langeoog gelegenen Schnittpunkt dieses Meridians mit der gegenwärtigen 3-sm-Grenze des Küstenmeeres der Bundesrepublik Deutschland (53 Grad 47' 58\" Nord) und dem nördlichsten Punkt der Tiefwasserreede (54 Grad 08' 11\" Nord, 7 Grad 24' 36\" Ost)."@de .
+
+dtd:LA-id25 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id30,
+        dtd:ABWFORMAT-id31,
+        dtd:ABWFORMAT-id32,
+        dtd:ABWFORMAT-id33,
+        dtd:ABWFORMAT-id34,
+        dtd:ABWFORMAT-id35 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Im Norden durch eine Tangente vom letztgenannten Punkt an die kreisförmige gegenwärtige Küstenmeergrenze nordwestlich von Helgoland (der Tangentenberührungspunkt hat die Lage 54 Grad 14' 26\" Nord, 7 Grad 49' 50\" Ost); weiter auf der nördlichen gegenwärtigen Küstenmeergrenze dieser Insel bis zu dem Punkt nordöstlich von Helgoland, in dem die Tangente vom Punkt der gegenwärtigen Küstenmeergrenze vor der Elbmündung mit der Lage 54 Grad 01' 11\" Nord, 8 Grad 18' 40\" Ost die kreisförmige gegenwärtige Küstenmeergrenze nordöstlich von Helgoland berührt (54 Grad 13' 36\" Nord, 7 Grad 58' 57\" Ost). Diese Tangente bildet die Ostgrenze des erweiterten Küstenmeeres."@de .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 16. 3.1985 +++)"@de .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_DL dtd:DL-id20 ;
+    dtd:has_SP dtd:SP-id19 ;
+    dtd:has_Value "Der Beschluß der Bundesregierung über die \"Erweiterung des Küstenmeeres der Bundesrepublik Deutschland in der Nordsee zur Verhinderung von Tankerunfällen in der Deutschen Bucht\" wird hiermit bekanntgemacht: Um geeignete Maßnahmen gegen die Gefahr eines Tankerunfalles und einer Ölverseuchung des Meeres und der Küste in der Deutschen Bucht treffen zu können, wird das Küstenmeer der Bundesrepublik Deutschland in der Nordsee erweitert. Die Grenzen des erweiterten Küstenmeeres der Bundesrepublik Deutschland werden wie folgt festgelegt (Koordinatenangabe im Europa-Datum - ED -):Im Westen durch eine Linie, die durch den Meridian 7 Grad 24' 36\" Ost gebildet wird. Sie wird begrenzt von dem nordwestlich von Langeoog gelegenen Schnittpunkt dieses Meridians mit der gegenwärtigen 3-sm-Grenze des Küstenmeeres der Bundesrepublik Deutschland (53 Grad 47' 58\" Nord) und dem nördlichsten Punkt der Tiefwasserreede (54 Grad 08' 11\" Nord, 7 Grad 24' 36\" Ost).Im Norden durch eine Tangente vom letztgenannten Punkt an die kreisförmige gegenwärtige Küstenmeergrenze nordwestlich von Helgoland (der Tangentenberührungspunkt hat die Lage 54 Grad 14' 26\" Nord, 7 Grad 49' 50\" Ost); weiter auf der nördlichen gegenwärtigen Küstenmeergrenze dieser Insel bis zu dem Punkt nordöstlich von Helgoland, in dem die Tangente vom Punkt der gegenwärtigen Küstenmeergrenze vor der Elbmündung mit der Lage 54 Grad 01' 11\" Nord, 8 Grad 18' 40\" Ost die kreisförmige gegenwärtige Küstenmeergrenze nordöstlich von Helgoland berührt (54 Grad 13' 36\" Nord, 7 Grad 58' 57\" Ost). Diese Tangente bildet die Ostgrenze des erweiterten Küstenmeeres.Dieser Beschluß tritt am 16. März 1985 in Kraft.Der Bundesminister des Innern"@de .
+
+dtd:SP-id19 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1984-11-12"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id42 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id43 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id38 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "KüMErwBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "KüMErwBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung des Beschlusses der Bundesregierung über die Erweiterung
+des Küstenmeeres der Bundesrepublik Deutschland in der Nordsee zur Verhinderung
+von Tankerunfällen in der Deutschen Bucht"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20131008093529"@de ;
+    dtd:has_doknr "BJNR013660984"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20131008093529"@de ;
+    dtd:has_doknr "BJNR013660984BJNE000100319"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id42 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id40 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id43 a dtd:zitstelle ;
+    dtd:has_Value "1984, 1366"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

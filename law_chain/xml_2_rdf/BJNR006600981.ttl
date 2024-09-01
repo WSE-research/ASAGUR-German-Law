@@ -1,0 +1,270 @@
+@prefix dtd: <urn:ÄApprOÄndV-3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625145750"@de ;
+    dtd:has_doknr "BJNR006600981"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59,
+        dtd:P-id60,
+        dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 8.1981 +++)"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 4 der Bundesärzteordnung in der Fassung der Bekanntmachung vom 14. Oktober 1977 (BGBl. I S. 1885) wird mit Zustimmung des Bundesrates verordnet:"@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(1) Abweichend von § 1 Abs. 2 Nr. 2 und 3 der Approbationsordnung für Ärzte können Studierende der Medizin, die im März 1981 erfolglos an der vollständigen Ärztlichen Vorprüfung teilgenommen haben, den Ersten Abschnitt der Ärztlichen Prüfung nach einem Studium der Medizin von einem halben Jahr, den Zweiten Abschnitt der Ärztlichen Prüfung nach einem Studium der Medizin von zweieinhalb Jahren nach Bestehen der Ärztlichen Vorprüfung ablegen, soweit sie bereits im Sommersemester 1981 Unterrichtsveranstaltungen gemäß Anlage 2 zur Approbationsordnung für Ärzte regelmäßig und mit Erfolg besucht haben."@de .
+
+dtd:P-id60 a dtd:P ;
+    dtd:has_Value "(2) In den Fällen des Absatzes 1 können bei Meldung zum Ersten Abschnitt der Ärztlichen Prüfung abweichend von § 10 Abs. 5 der Approbationsordnung für Ärzte die Bescheinigungen über Veranstaltungen nach Anlage 2 zur Approbationsordnung für Ärzte, die die Studenten im Sommersemester 1981 regelmäßig und mit Erfolg besucht haben, anerkannt werden."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(3) Studierende nach Absatz 1 können abweichend von § 20 Abs. 1 der Approbationsordnung für Ärzte zu einer weiteren Wiederholung der Ärztlichen Vorprüfung zugelassen werden."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 13 des Dritten Überleitungsgesetzes in Verbindung mit § 15 der Bundesärzteordnung auch im Land Berlin."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. August 1981 in Kraft."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_SP dtd:SP-id49 ;
+    dtd:has_Value "Der Bundesminister für Jugend, Familie und Gesundheit"@de .
+
+dtd:SP-id49 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Jugend, Familie und Gesundheit"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1981-07-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id68 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id69 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id52 .
+
+dtd:fussnoten-id44 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "ÄApprOÄndV 3"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "ÄApprOÄndV 3"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "ÄApprOÄndV 3"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "ÄApprOÄndV 3"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "ÄApprOÄndV 3"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "ÄApprOÄndV 3"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "ÄApprOÄndV 3"@de .
+
+dtd:langue-id26 a dtd:langue ;
+    dtd:has_Value "Dritte Verordnung zur Änderung der Approbationsordnung für Ärzte"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625145750"@de ;
+    dtd:has_doknr "BJNR006600981"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625145750"@de ;
+    dtd:has_doknr "BJNR006600981BJNE000100314"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625145750"@de ;
+    dtd:has_doknr "BJNR006600981BJNE000200314"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625145750"@de ;
+    dtd:has_doknr "BJNR006600981BJNE000300314"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625145750"@de ;
+    dtd:has_doknr "BJNR006600981BJNE000400314"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625145750"@de ;
+    dtd:has_doknr "BJNR006600981BJNE000500314"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20120625145750"@de ;
+    dtd:has_doknr "BJNR006600981BJNE000600314"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id68 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id50 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Ausnahmeregelung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id69 a dtd:zitstelle ;
+    dtd:has_Value "1981, 660"@de .
+

@@ -1,0 +1,551 @@
+@prefix dtd: <urn:AMBtAngV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125946"@de ;
+    dtd:has_doknr "BJNR019680991"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107 .
+
+dtd:Content-id108 a dtd:Content ;
+    dtd:has_P dtd:P-id109 .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113,
+        dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:DD-id47 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id52 .
+
+dtd:DD-id48 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id53,
+        dtd:LA-id54,
+        dtd:LA-id55,
+        dtd:LA-id56,
+        dtd:LA-id57,
+        dtd:LA-id58,
+        dtd:LA-id59,
+        dtd:LA-id60,
+        dtd:LA-id61,
+        dtd:LA-id62,
+        dtd:LA-id63,
+        dtd:LA-id64,
+        dtd:LA-id65,
+        dtd:LA-id66,
+        dtd:LA-id67 .
+
+dtd:DD-id49 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id68,
+        dtd:LA-id69,
+        dtd:LA-id70,
+        dtd:LA-id71,
+        dtd:LA-id72,
+        dtd:LA-id73,
+        dtd:LA-id74,
+        dtd:LA-id75 .
+
+dtd:DD-id50 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76,
+        dtd:LA-id77,
+        dtd:LA-id78,
+        dtd:LA-id79,
+        dtd:LA-id80,
+        dtd:LA-id81,
+        dtd:LA-id82,
+        dtd:LA-id83,
+        dtd:LA-id84,
+        dtd:LA-id85,
+        dtd:LA-id86,
+        dtd:LA-id87,
+        dtd:LA-id88,
+        dtd:LA-id89,
+        dtd:LA-id90,
+        dtd:LA-id91,
+        dtd:LA-id92,
+        dtd:LA-id93,
+        dtd:LA-id94,
+        dtd:LA-id95,
+        dtd:LA-id96,
+        dtd:LA-id97,
+        dtd:LA-id98 .
+
+dtd:DD-id51 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100,
+        dtd:LA-id101,
+        dtd:LA-id102,
+        dtd:LA-id103,
+        dtd:LA-id104,
+        dtd:LA-id105,
+        dtd:LA-id99 .
+
+dtd:DL-id41 a dtd:DL ;
+    dtd:has_DD dtd:DD-id47,
+        dtd:DD-id48,
+        dtd:DD-id49,
+        dtd:DD-id50,
+        dtd:DD-id51 ;
+    dtd:has_DT dtd:DT-id42,
+        dtd:DT-id43,
+        dtd:DT-id44,
+        dtd:DT-id45,
+        dtd:DT-id46 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id42 a dtd:DT ;
+    dtd:has_Value "1"@de .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "1.1"@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "1.2"@de .
+
+dtd:DT-id45 a dtd:DT ;
+    dtd:has_Value "2"@de .
+
+dtd:DT-id46 a dtd:DT ;
+    dtd:has_Value "3"@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Aminosäuren und Peptide, Purine und Pyrimidine"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Elektrolyte"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Mono- und Disaccharide, abbaubare"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Vitamine und ihre Vorprodukte"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Wasser"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zuckeralkohole (Dulcit, Inosit, Mannit, Sorbit)"@de .
+
+dtd:LA-id52 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Stoffe zur pH-Wert-Einstellung oder zur Pufferung"@de .
+
+dtd:LA-id53 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Arzneimitteln zur Anwendung auf der Haut und Schleimhaut einschließlich der Vaginalschleimhaut, mit Ausnahme der Arzneimittel zur Anwendung am Auge:"@de .
+
+dtd:LA-id54 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Äpfelsäure und ihre Salze"@de .
+
+dtd:LA-id55 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bernsteinsäure"@de .
+
+dtd:LA-id56 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Citronensäure und ihre Natriumsalze"@de .
+
+dtd:LA-id57 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Essigsäure und ihre Magnesium-, Natrium- und Kaliumsalze"@de .
+
+dtd:LA-id58 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kaliumhydroxid"@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Maleinsäure"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Milchsäure und ihr Natriumsalz"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumcarbonat"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumhydrogencarbonat"@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumhydroxid"@de .
+
+dtd:LA-id64 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Salzsäure und ihre Natrium-, Kalium-, Magnesium- und Calciumsalze"@de .
+
+dtd:LA-id65 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Schwefelsäure und ihre Natrium-, Kalium- und Magnesiumsalze"@de .
+
+dtd:LA-id66 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Wasser"@de .
+
+dtd:LA-id67 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Weinsäure"@de .
+
+dtd:LA-id68 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "in Arzneimitteln zur Anwendung am Auge:"@de .
+
+dtd:LA-id69 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Essigsäure und ihre Natrium- und Kaliumsalze"@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kaliumhydroxid"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumcarbonat"@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumhydrogencarbonat"@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumhydroxid"@de .
+
+dtd:LA-id74 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Salzsäure"@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Wasser"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Stoffe in oral anzuwendenden Arzneimitteln:"@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Äpfelsäure und ihre Salze"@de .
+
+dtd:LA-id78 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bernsteinsäure"@de .
+
+dtd:LA-id79 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Cellulose"@de .
+
+dtd:LA-id80 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Citronensäure und ihre Natriumsalze"@de .
+
+dtd:LA-id81 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Drucktinten und ihre Bestandteile"@de .
+
+dtd:LA-id82 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Essigsäure und ihre Magnesium-, Natrium- und Kaliumsalze"@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Fette, natürliche"@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Gelatine"@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kaliumhydroxid"@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Maleinsäure"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Mono- und Disaccharide, abbaubare, ausgenommen Lactose, sowie Sorbit und Xylit, wenn mit der Tagesdosis des Fertigarzneimittels für Erwachsene nicht mehr als 3 g und für Kinder nicht mehr als 2 g verabreicht werden"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Milchsäure und ihr Natriumsalz"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumcarbonat"@de .
+
+dtd:LA-id90 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumhydrogencarbonat"@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Natriumhydroxid"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Öle, natürliche"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Salzsäure und ihre Natrium-, Kalium-, Magnesium- und Calciumsalze"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Schwefelsäure und ihre Natrium- und Kaliumsalze"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Siliciumdioxid"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Stärke"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Wasser"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Weinsäure"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Stoffe in Impfstoffen in physiologisch unbedeutenden Mengen:"@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.1992 +++)"@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 12 Abs. 1a des Arzneimittelgesetzes vom 24. August 1976 (BGBl. I S. 2445, 2448), der durch Artikel 1 Nr. 5 des Gesetzes vom 11. April 1990 (BGBl. I S. 717) eingefügt worden ist, in Verbindung mit Artikel 56 Abs. 1 des Zuständigkeitsanpassungs-Gesetzes vom 18. März 1975 (BGBl. I S. 705) und dem Organisationserlaß des Bundeskanzlers vom 23. Januar 1991 (BGBl. I S. 530) verordnet der Bundesminister für Gesundheit im Einvernehmen mit dem Bundesminister für Ernährung, Landwirtschaft und Forsten:"@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(1) Die in der Anlage genannten Stoffe oder Zubereitungen aus Stoffen unterliegen nicht der Verpflichtung zur Angabe nach § 11 Abs. 1 Satz 1 Nr. 3 und § 11a Abs. 1 Satz 2 Nr. 3 des Arzneimittelgesetzes, soweit es sich nicht um wirksame Bestandteile handelt und sie in Arzneimitteln der in der Anlage jeweils genannten Anwendungsbereiche verwendet werden."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_Value "(2) Werden Geruchs- oder Aromastoffe in Arzneimitteln in den in der Anlage unter den Nummern 1.1 oder 2 genannten Anwendungsbereichen verwendet, so dürfen diese mit der zusammenfassenden Bezeichnung \"Geruchsstoffe\" oder \"Aromastoffe\" angegeben werden. Enthalten sie Bergamottöl, Beta-Asaron oder Safrol, so sind diese anzugeben."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(3) Werden Farbstoffe verwendet, so dürfen diese mit der Bezeichnung \"Farbstoff\" oder \"Farbstoffe\", gefolgt von der EWG-Nummer oder den EWG-Nummern, angegeben werden."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(4) Werden Alkyl-4-hydroxybenzoate als Konservierungsmittel verwendet, so dürfen diese mit der Bezeichnung \"Paraben\" oder \"Parabene\", gefolgt von der EWG-Nummer oder den EWG-Nummern, angegeben werden. Dies gilt nur für Arzneimittel in den in der Anlage unter den Nummern 1.1 und 2 genannten Anwendungsbereichen."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Januar 1992 in Kraft."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_DL dtd:DL-id41 ;
+    dtd:has_Value "1Stoffe zur pH-Wert-Einstellung oder zur Pufferung 1.1in Arzneimitteln zur Anwendung auf der Haut und Schleimhaut einschließlich der Vaginalschleimhaut, mit Ausnahme der Arzneimittel zur Anwendung am Auge:Äpfelsäure und ihre SalzeBernsteinsäureCitronensäure und ihre NatriumsalzeEssigsäure und ihre Magnesium-, Natrium- und KaliumsalzeKaliumhydroxidMaleinsäureMilchsäure und ihr NatriumsalzNatriumcarbonatNatriumhydrogencarbonatNatriumhydroxidSalzsäure und ihre Natrium-, Kalium-, Magnesium- und CalciumsalzeSchwefelsäure und ihre Natrium-, Kalium- und MagnesiumsalzeWasserWeinsäure               1.2in Arzneimitteln zur Anwendung am Auge:Essigsäure und ihre Natrium- und KaliumsalzeKaliumhydroxidNatriumcarbonatNatriumhydrogencarbonatNatriumhydroxidSalzsäureWasser        2Stoffe in oral anzuwendenden Arzneimitteln:Äpfelsäure und ihre SalzeBernsteinsäureCelluloseCitronensäure und ihre NatriumsalzeDrucktinten und ihre BestandteileEssigsäure und ihre Magnesium-, Natrium- und KaliumsalzeFette, natürlicheGelatineKaliumhydroxidMaleinsäureMono- und Disaccharide, abbaubare, ausgenommen Lactose, sowie Sorbit und Xylit, wenn mit der Tagesdosis des Fertigarzneimittels für Erwachsene nicht mehr als 3 g und für Kinder nicht mehr als 2 g verabreicht werdenMilchsäure und ihr NatriumsalzNatriumcarbonatNatriumhydrogencarbonatNatriumhydroxidÖle, natürlicheSalzsäure und ihre Natrium-, Kalium-, Magnesium- und CalciumsalzeSchwefelsäure und ihre Natrium- und KaliumsalzeSiliciumdioxidStärkeWasserWeinsäure                       3Stoffe in Impfstoffen in physiologisch unbedeutenden Mengen:Aminosäuren und Peptide, Purine und PyrimidineElektrolyteMono- und Disaccharide, abbaubareVitamine und ihre VorprodukteWasserZuckeralkohole (Dulcit, Inosit, Mannit, Sorbit)       "@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-10-04"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id27 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id123 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id124 .
+
+dtd:fussnoten-id35 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id108 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "AMBtAngV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "AMBtAngV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "AMBtAngV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "AMBtAngV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "AMBtAngV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "AMBtAngV"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Angabe von Arzneimittelbestandteilen"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id27 ;
+    dtd:has_jurabk dtd:jurabk-id26 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125946"@de ;
+    dtd:has_doknr "BJNR019680991"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125946"@de ;
+    dtd:has_doknr "BJNR019680991BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405125946"@de ;
+    dtd:has_doknr "BJNR019680991BJNE000200308"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405125946"@de ;
+    dtd:has_doknr "BJNR019680991BJNE000300308"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405125946"@de ;
+    dtd:has_doknr "BJNR019680991BJNE000400308"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405125946"@de ;
+    dtd:has_doknr "BJNR019680991BJNE000500308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id123 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id110 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id35 ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:zitstelle-id124 a dtd:zitstelle ;
+    dtd:has_Value "1991, 1968"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

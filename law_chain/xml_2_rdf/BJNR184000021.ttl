@@ -1,0 +1,529 @@
+@prefix dtd: <urn:BVollzVergV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210630213253"@de ;
+    dtd:has_doknr "BJNR184000021"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:Content-id110 a dtd:Content ;
+    dtd:has_P dtd:P-id111 .
+
+dtd:Content-id112 a dtd:Content ;
+    dtd:has_P dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117,
+        dtd:P-id118,
+        dtd:P-id119,
+        dtd:P-id120,
+        dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:Content-id126 a dtd:Content ;
+    dtd:has_P dtd:P-id127 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id73 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id74 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id105 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id107 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id108 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id109 .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id70 a dtd:DL ;
+    dtd:has_DD dtd:DD-id73,
+        dtd:DD-id74 ;
+    dtd:has_DT dtd:DT-id71,
+        dtd:DT-id72 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id75 a dtd:DL ;
+    dtd:has_DD dtd:DD-id78,
+        dtd:DD-id79 ;
+    dtd:has_DT dtd:DT-id76,
+        dtd:DT-id77 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id80 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88 ;
+    dtd:has_DT dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id89 a dtd:DL ;
+    dtd:has_DD dtd:DD-id92,
+        dtd:DD-id93 ;
+    dtd:has_DT dtd:DT-id90,
+        dtd:DT-id91 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id76 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id77 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_DL dtd:DL-id75 ;
+    dtd:has_Value "die Vollstreckungsschuldnerin oder der Vollstreckungsschuldner oder eine dritte Person zugunsten der Vollstreckungsschuldnerin oder des Vollstreckungsschuldners, um die Vollstreckung abzuwenden, a)der Vollziehungsbeamtin oder dem Vollziehungsbeamten Zahlungsmittel aushändigt oderb)eine bargeldlose Zahlung leistet oder"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Value "der Vollziehungsbeamtin oder dem Vollziehungsbeamten Zahlungsmittel aushändigt oder"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Value "eine bargeldlose Zahlung leistet oder"@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Value "die Vollziehungsbeamtin oder der Vollziehungsbeamte Zahlungsmittel pfändet."@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Value "die Zahlung in Banknoten oder Münzen in Euro und Cent geleistet worden ist,"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Value "die Zahlung im Beisein der Vollziehungsbeamtin oder des Vollziehungsbeamten bargeldlos erfolgt ist,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Value "die gepfändeten Zahlungsmittel von der Vollziehungsbeamtin oder dem Vollziehungsbeamten in Besitz genommen worden sind,"@de .
+
+dtd:LA-id107 a dtd:LA ;
+    dtd:has_Value "ein auf Euro lautender Scheck von dem bezogenen Kreditinstitut eingelöst worden ist."@de .
+
+dtd:LA-id108 a dtd:LA ;
+    dtd:has_Value "zur Abwendung der Vollstreckung Zahlungsmittel ausgehändigt worden sind oder eine bargeldlose Zahlung geleistet worden ist oder"@de .
+
+dtd:LA-id109 a dtd:LA ;
+    dtd:has_Value "ausschließlich Geldbeträge gepfändet worden sind."@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Value "die Vereinnahmung von Zahlungsmitteln a)bis 200 Euro mit 2 Euro,b)bis 600 Euro mit 3 Euro,c)von mehr als 600 Euro mit 5 Euro,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Value "bis 200 Euro mit 2 Euro,"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Value "bis 600 Euro mit 3 Euro,"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Value "von mehr als 600 Euro mit 5 Euro,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Value "die Pfändung beweglicher Sachen mit Ausnahme von Zahlungsmitteln mit insgesamt 3 Euro,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Value "eine fruchtlos verlaufene Pfändung mit 1,50 Euro."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_BR dtd:BR-id53 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.2021 +++)"@de ;
+    dtd:has_pre dtd:pre-id128 .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 49 des Bundesbesoldungsgesetzes, der durch Artikel 1 Nummer 23 des Gesetzes vom 9. Dezember 2019 (BGBl. I S. 2053) neu gefasst worden ist, verordnet das Bundesministerium der Finanzen im Einvernehmen mit dem Bundesministerium des Innern, für Bau und Heimat:"@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Beamtinnen und Beamte des mittleren Dienstes, die dauerhaft als Vollziehungsbeamtinnen oder  ‑beamte im Sinne des § 285 der Abgabenordnung verwendet werden, erhalten für Vollstreckungshandlungen eine Vergütung nach dieser Verordnung."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(1) Die Vergütung wird für Vollstreckungshandlungen nach Absatz 2 gewährt, die von der Vollziehungsbeamtin oder dem Vollziehungsbeamten dokumentiert worden sind."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Value "(2) Vergütet wird 1.die Vereinnahmung von Zahlungsmitteln a)bis 200 Euro mit 2 Euro,b)bis 600 Euro mit 3 Euro,c)von mehr als 600 Euro mit 5 Euro,2.die Pfändung beweglicher Sachen mit Ausnahme von Zahlungsmitteln mit insgesamt 3 Euro,3.eine fruchtlos verlaufene Pfändung mit 1,50 Euro."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_DL dtd:DL-id70,
+        dtd:DL-id80 ;
+    dtd:has_Value "(3) Die Vereinnahmung von Zahlungsmitteln erfolgt, indem 1.die Vollstreckungsschuldnerin oder der Vollstreckungsschuldner oder eine dritte Person zugunsten der Vollstreckungsschuldnerin oder des Vollstreckungsschuldners, um die Vollstreckung abzuwenden, a)der Vollziehungsbeamtin oder dem Vollziehungsbeamten Zahlungsmittel aushändigt oderb)eine bargeldlose Zahlung leistet oder2.die Vollziehungsbeamtin oder der Vollziehungsbeamte Zahlungsmittel pfändet.Die Zahlungsmittel sind vereinnahmt, wenn 1.die Zahlung in Banknoten oder Münzen in Euro und Cent geleistet worden ist,2.die Zahlung im Beisein der Vollziehungsbeamtin oder des Vollziehungsbeamten bargeldlos erfolgt ist,3.die gepfändeten Zahlungsmittel von der Vollziehungsbeamtin oder dem Vollziehungsbeamten in Besitz genommen worden sind,4.ein auf Euro lautender Scheck von dem bezogenen Kreditinstitut eingelöst worden ist."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_DL dtd:DL-id89 ;
+    dtd:has_Value "(4) Werden mehrere Vollstreckungsaufträge gegen dieselbe Vollstreckungsschuldnerin oder denselben Vollstreckungsschuldner in einem Termin erledigt, so entsteht der Vergütungsanspruch nur einmal. Vergütungen nach Absatz 2 Nummer 1 und 2 werden jedoch nebeneinander gewährt. Neben einer Vergütung nach Absatz 2 Nummer 3 wird eine Vergütung nach Absatz 2 Nummer 1 nur dann gewährt, wenn 1.zur Abwendung der Vollstreckung Zahlungsmittel ausgehändigt worden sind oder eine bargeldlose Zahlung geleistet worden ist oder2.ausschließlich Geldbeträge gepfändet worden sind.Sind mehrere bewegliche Sachen gepfändet worden, so entsteht die Vergütung nach Absatz 2 Nummer 2 nur einmal."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(5) Der monatliche Höchstbetrag der Vergütung beträgt 210 Euro."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "Die Vergütung wird spätestens mit den Bezügen für den vierten Monat, der auf die Vollstreckungshandlung folgt, gezahlt."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "Der Ersatz der Fahrtkosten und der sonstigen Reisekosten, die mit dem Außendienst der Vollziehungsbeamtinnen und  ‑beamten verbunden sind, richtet sich nach dem Bundesreisekostengesetz. Sonstige besondere, für die Vollziehungstätigkeit typische Aufwendungen sind mit der Vergütung abgegolten."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Juli 2021 in Kraft. Gleichzeitig tritt die Vollstreckungsvergütungsverordnung in der Fassung der Bekanntmachung vom 6. Januar 2003 (BGBl. I S. 8) außer Kraft."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "BVollzVergV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2021-06-16"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id129 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id130 .
+
+dtd:fussnoten-id46 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id110 .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "BVollzVergV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "BVollzVergV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "BVollzVergV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "BVollzVergV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "BVollzVergV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "BVollzVergV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "BVollzVergV"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_Value "Bundesvollziehungsvergütungsverordnung"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 ;
+    dtd:has_titel dtd:titel-id45 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_langue dtd:langue-id27 ;
+    dtd:has_standangabe dtd:standangabe-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210630213253"@de ;
+    dtd:has_doknr "BJNR184000021"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210630213253"@de ;
+    dtd:has_doknr "BJNR184000021BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210630213253"@de ;
+    dtd:has_doknr "BJNR184000021BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210630213253"@de ;
+    dtd:has_doknr "BJNR184000021BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210630213253"@de ;
+    dtd:has_doknr "BJNR184000021BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210630213253"@de ;
+    dtd:has_doknr "BJNR184000021BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210630213253"@de ;
+    dtd:has_doknr "BJNR184000021BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id129 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id128 a dtd:pre ;
+    dtd:has_BR dtd:BR-id54,
+        dtd:BR-id55 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.2021 +++)"@de .
+
+dtd:standangabe-id28 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id132 ;
+    dtd:has_standtyp dtd:standtyp-id131 .
+
+dtd:standkommentar-id132 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 2032-1-17 v. 6.1.2003 I 8 (VollstrVergV)"@de .
+
+dtd:standtyp-id131 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id112 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id126 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Vergütung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Entstehen und Höhe des Vergütungsanspruchs"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Zahlung der Vergütung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Aufwendungsersatz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id45 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id130 a dtd:zitstelle ;
+    dtd:has_Value "2021, 1840"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

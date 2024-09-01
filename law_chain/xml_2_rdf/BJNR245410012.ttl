@@ -1,0 +1,670 @@
+@prefix dtd: <urn:EU-FahrgRSchG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:BR-id81 a dtd:BR .
+
+dtd:BR-id82 a dtd:BR .
+
+dtd:BR-id83 a dtd:BR .
+
+dtd:BR-id84 a dtd:BR .
+
+dtd:BR-id85 a dtd:BR .
+
+dtd:Content-id130 a dtd:Content ;
+    dtd:has_P dtd:P-id131 .
+
+dtd:Content-id132 a dtd:Content ;
+    dtd:has_P dtd:P-id133 .
+
+dtd:Content-id134 a dtd:Content ;
+    dtd:has_P dtd:P-id135 .
+
+dtd:Content-id136 a dtd:Content ;
+    dtd:has_P dtd:P-id137,
+        dtd:P-id138 .
+
+dtd:Content-id139 a dtd:Content ;
+    dtd:has_P dtd:P-id140,
+        dtd:P-id141,
+        dtd:P-id142,
+        dtd:P-id143 .
+
+dtd:Content-id144 a dtd:Content ;
+    dtd:has_P dtd:P-id145 .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_P dtd:P-id147,
+        dtd:P-id148,
+        dtd:P-id149,
+        dtd:P-id150,
+        dtd:P-id151,
+        dtd:P-id152,
+        dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158,
+        dtd:P-id159,
+        dtd:P-id160,
+        dtd:P-id161 .
+
+dtd:DD-id103 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id123 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id124 .
+
+dtd:DD-id108 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id125 .
+
+dtd:DD-id109 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id127 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id117 .
+
+dtd:DD-id91 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id118 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id119 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id120 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id121 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id122 .
+
+dtd:DL-id100 a dtd:DL ;
+    dtd:has_DD dtd:DD-id103,
+        dtd:DD-id104 ;
+    dtd:has_DT dtd:DT-id101,
+        dtd:DT-id102 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id108,
+        dtd:DD-id109 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id110 a dtd:DL ;
+    dtd:has_DD dtd:DD-id114,
+        dtd:DD-id115,
+        dtd:DD-id116 ;
+    dtd:has_DT dtd:DT-id111,
+        dtd:DT-id112,
+        dtd:DT-id113 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id86 a dtd:DL ;
+    dtd:has_DD dtd:DD-id90,
+        dtd:DD-id91,
+        dtd:DD-id92 ;
+    dtd:has_DT dtd:DT-id87,
+        dtd:DT-id88,
+        dtd:DT-id89 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id93 a dtd:DL ;
+    dtd:has_DD dtd:DD-id97,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id94,
+        dtd:DT-id95,
+        dtd:DT-id96 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id101 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id112 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id113 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id87 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id88 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id96 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:LA-id117 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den verantwortlichen Beförderer, Reisevermittler, Reiseveranstalter oder Terminalbetreiber im Sinne des Artikels 3 Buchstabe d, p, q und s der Verordnung (EU) Nr. 1177/2010 verpflichten, einen festgestellten Verstoß gegen die genannte Verordnung zu beseitigen oder künftige Verstöße zu unterlassen,"@de .
+
+dtd:LA-id118 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "von dem Beförderer, Reisevermittler, Reiseveranstalter oder Terminalbetreiber alle erforderlichen Auskünfte innerhalb einer zu bestimmenden angemessenen Frist verlangen,"@de .
+
+dtd:LA-id119 a dtd:LA ;
+    dtd:has_DL dtd:DL-id93 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für die Erfüllung der in Satz 1 sowie in den Nummern 1 und 2 genannten Befugnisse von dem verantwortlichen Beförderer, Reisevermittler, Reiseveranstalter oder Terminalbetreiber im Sinne des Artikels 3 Buchstabe d, p, q und s der Verordnung (EU) Nr. 1177/2010a)verlangen, Einsicht in die erforderlichen Schrift- oder Datenträger, insbesondere Aufzeichnungen und Vertragsunterlagen, zu erhalten,b)Abschriften, Auszüge, Ausdrucke oder Kopien, auch von Datenträgern, anfertigen oder solche verlangen,c)die unter Buchstabe b genannten Unterlagen und Datenträger verwenden und hierfür – soweit erforderlich – speichern."@de .
+
+dtd:LA-id120 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "verlangen, Einsicht in die erforderlichen Schrift- oder Datenträger, insbesondere Aufzeichnungen und Vertragsunterlagen, zu erhalten,"@de .
+
+dtd:LA-id121 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Abschriften, Auszüge, Ausdrucke oder Kopien, auch von Datenträgern, anfertigen oder solche verlangen,"@de .
+
+dtd:LA-id122 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die unter Buchstabe b genannten Unterlagen und Datenträger verwenden und hierfür – soweit erforderlich – speichern."@de .
+
+dtd:LA-id123 a dtd:LA ;
+    dtd:has_Value "die Maßnahmen nach § 4 Absatz 1 Nummer 3 und Absatz 2 zu dulden und"@de .
+
+dtd:LA-id124 a dtd:LA ;
+    dtd:has_Value "die zuständige Behörde und die von ihr beauftragten Personen bei der Erfüllung ihrer Aufgaben zu unterstützen."@de .
+
+dtd:LA-id125 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Streitigkeiten wegen der Verletzung der nach der Verordnung (EU) Nr. 1177/2010 bestehenden Rechte und Pflichten sowie"@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Streitigkeiten wegen Verlust, Beschädigung oder verspäteter Ablieferung von Gepäck eines Fahrgastes oder von sonstigen Sachen, die ein Fahrgast an sich getragen oder mit sich geführt hat."@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zu bestimmen, dass die Durchsetzung der Verordnung (EU) Nr. 1177/2010 nach deren Artikel 25 Absatz 1 Satz 1 und Absatz 3 Satz 1 von einer anderen Bundesoberbehörde seines Geschäftsbereichs, die zum Zwecke der Wahrnehmung Verkehrsträger übergreifender Aufgaben im Bereich der Wahrung von Fahrgastrechten durch Gesetz oder auf Grund eines Gesetzes errichtet worden ist, wahrgenommen wird,"@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Verfahren zur Durchsetzung der Fahrgastrechte im See- und Binnenschiffsverkehr nach der Verordnung (EU) Nr. 1177/2010 zu regeln,"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Regelungen zur Berichterstattung über die Durchsetzung der Verordnung (EU) Nr. 1177/2010 nach deren Artikel 26 zu treffen."@de .
+
+dtd:P-id131 a dtd:P ;
+    dtd:has_BR dtd:BR-id80 ;
+    dtd:has_Value " (+++ Textnachweis ab: 12.12.2012 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Durchführung der       EUV 1177/2010           (CELEX Nr: 32010R1177) vgl. § 1 +++)Das G wurde als Artikel 1 des G v. 5.12.2012 I 2454 vom Bundestag beschlossen. Es ist gem. Art. 4 dieses G am 12.12.2012 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id162 .
+
+dtd:P-id133 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz dient der Durchführung der Verordnung (EU) Nr. 1177/2010 des Europäischen Parlaments und des Rates vom 24. November 2010 über die Fahrgastrechte im See- und Binnenschiffsverkehr und zur Änderung der Verordnung (EG) Nr. 2006/2004 (ABl. L 334 vom 17.12.2010, S. 1)."@de .
+
+dtd:P-id135 a dtd:P ;
+    dtd:has_Value "Dem Bund obliegt die Durchsetzung der Fahrgastrechte auf dem Gebiet des See- und Binnenschiffsverkehrs."@de .
+
+dtd:P-id137 a dtd:P ;
+    dtd:has_Value "(1) Zuständige Behörde für die Durchsetzung der Verordnung (EU) Nr. 1177/2010 ist das Eisenbahn-Bundesamt."@de .
+
+dtd:P-id138 a dtd:P ;
+    dtd:has_Value "(2) Die in Absatz 1 bezeichnete Behörde ist Beschwerdestelle für Beschwerden über einen mutmaßlichen Verstoß gegen die Verordnung (EU) Nr. 1177/2010 nach Artikel 25 Absatz 3 Satz 1 der Verordnung (EU) Nr. 1177/2010."@de .
+
+dtd:P-id140 a dtd:P ;
+    dtd:has_DL dtd:DL-id86 ;
+    dtd:has_Value "(1) Soweit es zur Durchführung der Verordnung (EU) Nr. 1177/2010 erforderlich ist, kann die zuständige Behörde die notwendigen Maßnahmen treffen, die zur Feststellung, Beseitigung oder Verhütung von Verstößen gegen die Verordnung (EU) Nr. 1177/2010 erforderlich sind. Sie kann insbesondere1.den verantwortlichen Beförderer, Reisevermittler, Reiseveranstalter oder Terminalbetreiber im Sinne des Artikels 3 Buchstabe d, p, q und s der Verordnung (EU) Nr. 1177/2010 verpflichten, einen festgestellten Verstoß gegen die genannte Verordnung zu beseitigen oder künftige Verstöße zu unterlassen,2.von dem Beförderer, Reisevermittler, Reiseveranstalter oder Terminalbetreiber alle erforderlichen Auskünfte innerhalb einer zu bestimmenden angemessenen Frist verlangen,3.für die Erfüllung der in Satz 1 sowie in den Nummern 1 und 2 genannten Befugnisse von dem verantwortlichen Beförderer, Reisevermittler, Reiseveranstalter oder Terminalbetreiber im Sinne des Artikels 3 Buchstabe d, p, q und s der Verordnung (EU) Nr. 1177/2010a)verlangen, Einsicht in die erforderlichen Schrift- oder Datenträger, insbesondere Aufzeichnungen und Vertragsunterlagen, zu erhalten,b)Abschriften, Auszüge, Ausdrucke oder Kopien, auch von Datenträgern, anfertigen oder solche verlangen,c)die unter Buchstabe b genannten Unterlagen und Datenträger verwenden und hierfür – soweit erforderlich – speichern."@de .
+
+dtd:P-id141 a dtd:P ;
+    dtd:has_Value "(2) Im Rahmen des Absatzes 1 sind die von der zuständigen Behörde beauftragten Personen befugt, Wasserfahrzeuge, Betriebsräume sowie Geschäftsräume während der üblichen Betriebs- oder Geschäftszeit zu betreten."@de .
+
+dtd:P-id142 a dtd:P ;
+    dtd:has_Value "(3) Eine nach Absatz 1 Satz 2 Nummer 2 zur Auskunft verpflichtete Person kann die Auskunft auf solche Fragen verweigern, deren Beantwortung sie selbst oder einen der in § 383 Absatz 1 Nummer 1 bis 3 der Zivilprozessordnung bezeichneten Angehörigen der Gefahr strafrechtlicher Verfolgung oder eines Verfahrens nach dem Gesetz über Ordnungswidrigkeiten aussetzen würde. Sie ist über ihr Recht zur Verweigerung der Auskunft zu belehren."@de .
+
+dtd:P-id143 a dtd:P ;
+    dtd:has_Value "(4) Die zuständige Behörde kann ihre Anordnungen nach den für die Vollstreckung von Verwaltungsmaßnahmen geltenden Bestimmungen durchsetzen. Bei der Verhängung eines Zwangsgeldes kann dieses bis zu 500 000 Euro betragen."@de .
+
+dtd:P-id145 a dtd:P ;
+    dtd:has_DL dtd:DL-id100 ;
+    dtd:has_Value "Beförderer, Reisevermittler, Reiseveranstalter oder Terminalbetreiber, die nach Gesetz oder Satzung zu deren Vertretung berufenen Personen und die von ihnen bestellten Vertreter sowie die Eigentümer und sonstigen nutzungsberechtigten Personen der in § 4 Absatz 2 bezeichneten Wasserfahrzeuge, Betriebs- und Geschäftsräume sind verpflichtet,1.die Maßnahmen nach § 4 Absatz 1 Nummer 3 und Absatz 2 zu dulden und2.die zuständige Behörde und die von ihr beauftragten Personen bei der Erfüllung ihrer Aufgaben zu unterstützen.Insbesondere sind die in Satz 1 genannten Personen verpflichtet, auf Verlangen der zuständigen Behörde und den von ihr beauftragten Personen die in Betracht kommenden Räume zu öffnen."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_Value "(1) Zur Beilegung von Streitigkeiten aus der Beförderung im See- und Binnenschiffsverkehr kann der Fahrgast eine geeignete Verbraucherschlichtungsstelle anrufen, wenn sich der Vertragspartner bereit erklärt hat, an der Schlichtung teilzunehmen."@de .
+
+dtd:P-id148 a dtd:P ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "(2) Streitigkeiten im Sinne des Absatzes 1 sind1.Streitigkeiten wegen der Verletzung der nach der Verordnung (EU) Nr. 1177/2010 bestehenden Rechte und Pflichten sowie2.Streitigkeiten wegen Verlust, Beschädigung oder verspäteter Ablieferung von Gepäck eines Fahrgastes oder von sonstigen Sachen, die ein Fahrgast an sich getragen oder mit sich geführt hat.Das Recht, die Gerichte anzurufen, bleibt durch die Schlichtung unberührt."@de .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "(3) Die Verbraucherschlichtungsstelle nach Absatz 1 bedarf der Anerkennung nach dem Verbraucherstreitbeilegungsgesetz vom 19. Februar 2016 (BGBl. I S. 254), das durch Artikel 1 des Gesetzes vom 30. November 2019 (BGBl. I S. 1942) geändert worden ist, in der jeweils geltenden Fassung, durch das Bundesamt für Justiz. Die Verbraucherschlichtungsstelle kann auch eine verkehrsträgerübergreifende Schlichtungsstelle sein. Die Anerkennung und der Widerruf oder die Rücknahme der Anerkennung sind im Bundesanzeiger bekannt zu machen."@de .
+
+dtd:P-id150 a dtd:P ;
+    dtd:has_Value "(4) Die Beförderer, Reiseveranstalter und Reisevermittler haben bei der Beantwortung einer Beschwerde im Zusammenhang mit den unter die Verordnung (EU) Nr. 1177/2010 fallenden Rechten und Pflichten auf die Möglichkeit der Schlichtung hinzuweisen und die Adressen geeigneter Verbraucherschlichtungsstellen mitzuteilen."@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(5) Soweit keine Verbraucherschlichtungsstelle nach Absatz 3 anerkannt wurde, kann das Bundesministerium für Verkehr und digitale Infrastruktur im Einvernehmen mit dem Bundesministerium der Justiz und für Verbraucherschutz die Aufgabe der Schlichtungsstelle durch Rechtsverordnung ohne Zustimmung des Bundesrates einer Bundesoberbehörde oder Bundesanstalt zuweisen und deren Verfahren sowie die Erhebung von Gebühren und Auslagen regeln. § 31 des Verbraucherstreitbeilegungsgesetzes ist auf die Regelung der Gebühren entsprechend anzuwenden. Die Schlichtungsstelle ist Verbraucherschlichtungsstelle nach dem Verbraucherstreitbeilegungsgesetz und muss die Anforderungen nach dem Verbraucherstreitbeilegungsgesetz erfüllen."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_Value "(6) (weggefallen)"@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(7) (weggefallen)"@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_DL dtd:DL-id110 ;
+    dtd:has_Value "Zur Durchsetzung der Fahrgastrechte im See- und Binnenschiffsverkehr nach der Verordnung (EU) Nr. 1177/2010 wird das Bundesministerium für Verkehr und digitale Infrastruktur zur Wahrnehmung der Aufgaben des Bundes nach § 2 ermächtigt, durch Rechtsverordnung ohne Zustimmung des Bundesrates1.zu bestimmen, dass die Durchsetzung der Verordnung (EU) Nr. 1177/2010 nach deren Artikel 25 Absatz 1 Satz 1 und Absatz 3 Satz 1 von einer anderen Bundesoberbehörde seines Geschäftsbereichs, die zum Zwecke der Wahrnehmung Verkehrsträger übergreifender Aufgaben im Bereich der Wahrung von Fahrgastrechten durch Gesetz oder auf Grund eines Gesetzes errichtet worden ist, wahrgenommen wird,2.das Verfahren zur Durchsetzung der Fahrgastrechte im See- und Binnenschiffsverkehr nach der Verordnung (EU) Nr. 1177/2010 zu regeln,3.Regelungen zur Berichterstattung über die Durchsetzung der Verordnung (EU) Nr. 1177/2010 nach deren Artikel 26 zu treffen."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "(1) Ordnungswidrig handelt, wer vorsätzlich oder fahrlässig einer unmittelbar geltenden Vorschrift in Rechtsakten der Europäischen Union über die Fahrgastrechte im See- und Binnenschiffsverkehr zuwiderhandelt, soweit eine Rechtsverordnung nach Absatz 4 für einen bestimmten Tatbestand auf diese Bußgeldvorschrift verweist."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_Value "(2) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu dreißigtausend Euro geahndet werden."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "(3) Verwaltungsbehörde im Sinne des § 36 Absatz 1 Nummer 1 des Gesetzes über Ordnungswidrigkeiten ist die vom Bundesministerium für Verkehr und digitale Infrastruktur durch Rechtsverordnung bestimmte Behörde."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(4) Das Bundesministerium für Verkehr und digitale Infrastruktur wird ermächtigt, soweit dies zur Durchsetzung der Rechtsakte der Europäischen Union erforderlich ist, durch Rechtsverordnung ohne Zustimmung des Bundesrates die Tatbestände zu bezeichnen, die als Ordnungswidrigkeit nach Absatz 1 geahndet werden können."@de .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-12-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id163 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id164 .
+
+dtd:fussnoten-id65 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id130 .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:fussnoten-id75 a dtd:fussnoten .
+
+dtd:fussnoten-id77 a dtd:fussnoten .
+
+dtd:fussnoten-id79 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "EU-FahrgRSchG"@de .
+
+dtd:langue-id36 a dtd:langue ;
+    dtd:has_Value "EU-Fahrgastrechte-Schifffahrt-Gesetz"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_langue dtd:langue-id36 ;
+    dtd:has_standangabe dtd:standangabe-id37 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000805123"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000901305"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000401126"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000602124"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20210930213130"@de ;
+    dtd:has_doknr "BJNR245410012BJNE000704123"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id163 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id162 a dtd:pre ;
+    dtd:has_BR dtd:BR-id81,
+        dtd:BR-id82,
+        dtd:BR-id83,
+        dtd:BR-id84,
+        dtd:BR-id85 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.12.2012 +++)(+++ Amtlicher Hinweis des Normgebers auf EG-Recht:     Durchführung der       EUV 1177/2010           (CELEX Nr: 32010R1177) vgl. § 1 +++)"@de .
+
+dtd:standangabe-id37 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id166 ;
+    dtd:has_standtyp dtd:standtyp-id165 .
+
+dtd:standkommentar-id166 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert Art. 10 G v. 30.11.2019 I 1942"@de .
+
+dtd:standtyp-id165 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id132 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id134 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id136 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id139 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id144 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id146 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id78 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id75 ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id77 ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id79 ;
+    dtd:has_text dtd:text-id78 .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Aufgaben des Bundes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Zuständige Behörde"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Befugnisse"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Duldungs- und Mitwirkungspflichten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Schlichtungsstelle"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Verordnungsermächtigung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Bußgeldvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id164 a dtd:zitstelle ;
+    dtd:has_Value "2012, 2454"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

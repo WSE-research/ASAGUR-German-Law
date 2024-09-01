@@ -1,0 +1,154 @@
+@prefix dtd: <urn:GrÄndStVtr3ND/NWBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625153818"@de ;
+    dtd:has_doknr "BJNR185900006"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id23 a dtd:BR .
+
+dtd:BR-id24 a dtd:BR .
+
+dtd:BR-id25 a dtd:BR .
+
+dtd:BR-id26 a dtd:BR .
+
+dtd:BR-id27 a dtd:BR .
+
+dtd:BR-id28 a dtd:BR .
+
+dtd:Content-id29 a dtd:Content ;
+    dtd:has_P dtd:P-id30 .
+
+dtd:Content-id31 a dtd:Content ;
+    dtd:has_P dtd:P-id32 .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:P-id30 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id32 a dtd:P ;
+    dtd:has_BR dtd:BR-id23 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11.8.2006 +++)"@de ;
+    dtd:has_pre dtd:pre-id37 .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_BR dtd:BR-id26,
+        dtd:BR-id27,
+        dtd:BR-id28 ;
+    dtd:has_Value "Zwischen dem Land Niedersachsen und dem Land Nordrhein-Westfalen wurde am 15./28. Dezember 2005 der Dritte Staatsvertrag über Änderungen der gemeinsamen Landesgrenze abgeschlossen. Diesem Vertrag haben der Landtag des Landes Niedersachsen mit Gesetz vom 23. März 2006 (Niedersächsisches Gesetz- und Verordnungsblatt S. 170) und der Landtag des Landes Nordrhein-Westfalen mit Gesetz vom 26. April 2006 (Gesetz- und Verordnungsblatt für das Land Nordrhein-Westfalen S. 154) zugestimmt.Der Staatsvertrag ist nach seinem Artikel 4 Abs. 2 am 1. Juni 2006 in Kraft getreten (Bekanntmachung der Niedersächsischen Staatskanzlei vom 6. Juni 2006 - Niedersächsisches Gesetz- und Verordnungsblatt S. 233/Bekanntmachung des Ministerpräsidenten des Landes Nordrhein-Westfalen vom 30. Mai 2006 - Gesetz- und Verordnungsblatt für das Land Nordrhein-Westfalen S. 250).Die in Artikel 1 Abs. 1 des Staatsvertrages genannten Kartenblätter wurden in den in Absatz 1 genannten Verkündungsblättern des Landes Niedersachsen und des Landes Nordrhein-Westfalen veröffentlicht und liegen bei der Bezirksregierung in Detmold und beim Niedersächsischen Ministerium für Inneres und Sport - Regierungsvertretung Oldenburg - sowie bei den jeweils örtlich zuständigen Vermessungs- und Katasterbehörden zur Einsicht bereit.Gemäß § 2 Abs. 3 des Gesetzes über das Verfahren bei sonstigen Änderungen des Gebietsbestandes der Länder nach Artikel 29 Abs. 7 des Grundgesetzes vom 30. Juli 1979 (BGBl. I S. 1325) wird der Staatsvertrag nachstehend bekannt gemacht."@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "Bundesministerium des Innern"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2006-08-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id16 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:enbez-id18 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id38 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id39 .
+
+dtd:fussnoten-id20 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id31 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr3ND/NWBek"@de .
+
+dtd:jurabk-id15 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr3ND/NWBek"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "GrÄndStVtr3ND/NWBek"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über den Abschluss und das Inkrafttreten des Dritten 
+Staatsvertrages zwischen den Ländern Niedersachsen und Nordrhein-Westfalen 
+über Änderungen der gemeinsamen Landesgrenze"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id16 ;
+    dtd:has_jurabk dtd:jurabk-id15 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id18 ;
+    dtd:has_jurabk dtd:jurabk-id17 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625153818"@de ;
+    dtd:has_doknr "BJNR185900006"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625153818"@de ;
+    dtd:has_doknr "BJNR185900006BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625153818"@de ;
+    dtd:has_doknr "BJNR185900006BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id38 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id37 a dtd:pre ;
+    dtd:has_BR dtd:BR-id24,
+        dtd:BR-id25 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11.8.2006 +++)"@de .
+
+dtd:text-id19 a dtd:text ;
+    dtd:has_Content dtd:Content-id29 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id21 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id22 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id22 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id20 ;
+    dtd:has_text dtd:text-id19 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id21 .
+
+dtd:zitstelle-id39 a dtd:zitstelle ;
+    dtd:has_Value "2006, 1859"@de .
+

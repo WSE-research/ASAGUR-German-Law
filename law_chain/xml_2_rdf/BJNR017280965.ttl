@@ -1,0 +1,269 @@
+@prefix dtd: <urn:VermRglISRBek#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405125843"@de ;
+    dtd:has_doknr "BJNR017280965"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:ABWFORMAT-id52 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id53 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:DD-id24 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id42 .
+
+dtd:DD-id25 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id45 .
+
+dtd:DD-id26 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48,
+        dtd:LA-id49 .
+
+dtd:DD-id30 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id43 .
+
+dtd:DD-id31 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id44 .
+
+dtd:DD-id35 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id46 .
+
+dtd:DD-id36 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id40 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id50 .
+
+dtd:DD-id41 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id51 .
+
+dtd:DL-id20 a dtd:DL ;
+    dtd:has_DD dtd:DD-id24,
+        dtd:DD-id25,
+        dtd:DD-id26 ;
+    dtd:has_DT dtd:DT-id21,
+        dtd:DT-id22,
+        dtd:DT-id23 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id27 a dtd:DL ;
+    dtd:has_DD dtd:DD-id30,
+        dtd:DD-id31 ;
+    dtd:has_DT dtd:DT-id28,
+        dtd:DT-id29 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id32 a dtd:DL ;
+    dtd:has_DD dtd:DD-id35,
+        dtd:DD-id36 ;
+    dtd:has_DT dtd:DT-id33,
+        dtd:DT-id34 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id37 a dtd:DL ;
+    dtd:has_DD dtd:DD-id40,
+        dtd:DD-id41 ;
+    dtd:has_DT dtd:DT-id38,
+        dtd:DT-id39 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id21 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id22 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id23 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id29 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id33 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id34 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id38 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id39 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id42 a dtd:LA ;
+    dtd:has_DL dtd:DL-id27 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Für die Verteilung der auf die Bundesrepublik Deutschland und den Australischen Bund entfallenden Anteile an der Gesamtentschädigung an die einzelnen Berechtigten gilt auf Grund des Artikels 9 des Vertrages vom 21. April 1965 zwischen der Bundesrepublik Deutschland und dem Australischen Bund über die Aufteilung der von der Regierung des Staates Israel gezahlten Entschädigung auf Deutschland und Australien (im Folgenden mit deutsch-australischer Vertrag vom 21. April 1965 bezeichnet), dem der Deutsche Bundestag durch das Gesetz vom 17. September 1965 (Bundesgesetzbl. II S. 1305) zugestimmt hat, folgendes:a)Aus dem auf die Bundesrepublik Deutschland entfallenden Anteil wird entschädigt, wer als unmittelbar Geschädigter oder als Erbe oder weiterer Erbe eines unmittelbar Geschädigten in Betracht kommt, wenn der unmittelbar Geschädigte am 1. Juni 1962 seinen Wohnsitz oder ständigen Aufenthalt nicht in Australien hatte. Ist der unmittelbar Geschädigte vor dem 1. Juni 1962 verstorben, so werden seine Erben oder weiteren Erben, wenn sie ihren Wohnsitz oder ständigen Aufenthalt am 1. Juni 1962 nicht in Australien hatten, aus dem auf die Bundesrepublik Deutschland entfallenden Anteil entschädigt.b)Aus dem auf den Australischen Bund entfallenden Anteil werden Personen entschädigt, die von der Regierung des Australischen Bundes als entschädigungsberechtigt angesehen werden und am 1. Juni 1962 ihren Wohnsitz oder ständigen Aufenthalt in Australien hatten oder, wenn dies nicht der Fall ist, an Stelle einer solchen Person Entschädigung beanspruchen."@de .
+
+dtd:LA-id43 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Aus dem auf die Bundesrepublik Deutschland entfallenden Anteil wird entschädigt, wer als unmittelbar Geschädigter oder als Erbe oder weiterer Erbe eines unmittelbar Geschädigten in Betracht kommt, wenn der unmittelbar Geschädigte am 1. Juni 1962 seinen Wohnsitz oder ständigen Aufenthalt nicht in Australien hatte. Ist der unmittelbar Geschädigte vor dem 1. Juni 1962 verstorben, so werden seine Erben oder weiteren Erben, wenn sie ihren Wohnsitz oder ständigen Aufenthalt am 1. Juni 1962 nicht in Australien hatten, aus dem auf die Bundesrepublik Deutschland entfallenden Anteil entschädigt."@de .
+
+dtd:LA-id44 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Aus dem auf den Australischen Bund entfallenden Anteil werden Personen entschädigt, die von der Regierung des Australischen Bundes als entschädigungsberechtigt angesehen werden und am 1. Juni 1962 ihren Wohnsitz oder ständigen Aufenthalt in Australien hatten oder, wenn dies nicht der Fall ist, an Stelle einer solchen Person Entschädigung beanspruchen."@de .
+
+dtd:LA-id45 a dtd:LA ;
+    dtd:has_DL dtd:DL-id32 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Von dem auf die Bundesrepublik Deutschland entfallenden Anteil an der Gesamtentschädigung stehen für die in § 1 Buchstaben a und b des Gesetzes vom 29. März 1965 bezeichneten Verluste folgende Beträge zur Verfügung:a)Nach Artikel 5 Abs. 2 Buchstabe a des deutsch-australischen Vertrages vom 21. April 1965 der Betrag von 17 460 000 DM für den unter das deutsch-israelische Abkommen vom 1. Juni 1962 fallenden Verlust des in Israel belegenen Grundbesitzes.b)Nach Artikel 5 Abs. 2 Buchstabe b des deutsch-australischen Vertrages vom 21. April 1965 der Betrag von 747 088 DM für den Verlust von Vermögenswerten, über die vor Errichtung des Staates Israel verfügt worden und deren Gegenwert in dem im Briefwechsel Nr. 1 zum deutsch-israelischen Abkommen vom 1. Juni 1962 bezeichneten Betrage von 1 793 000 Pfund enthalten ist."@de .
+
+dtd:LA-id46 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Nach Artikel 5 Abs. 2 Buchstabe a des deutsch-australischen Vertrages vom 21. April 1965 der Betrag von 17 460 000 DM für den unter das deutsch-israelische Abkommen vom 1. Juni 1962 fallenden Verlust des in Israel belegenen Grundbesitzes."@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id52 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Nach Artikel 5 Abs. 2 Buchstabe b des deutsch-australischen Vertrages vom 21. April 1965 der Betrag von 747 088 DM für den Verlust von Vermögenswerten, über die vor Errichtung des Staates Israel verfügt worden und deren Gegenwert in dem im Briefwechsel Nr. 1 zum deutsch-israelischen Abkommen vom 1. Juni 1962 bezeichneten Betrage von 1 793 000 Pfund enthalten ist."@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_DL dtd:DL-id37 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Die Entschädigungsbeträgea)für den Verlust von Vermögenswerten, über die vor Errichtung des Staates Israel verfügt worden und deren Gegenwert in dem im Briefwechsel Nr. 1 zum deutsch-israelischen Abkommen vom 1. Juni 1962 bezeichneten Betrag von 346 000 Pfund enthalten ist, in Höhe von insgesamt 1 098 336 DM,b)für den Verlust von in Israel belegenem Betriebsvermögen, mit Ausnahme von Betriebsgrundstücken, für das Israel nach dem deutsch-israelischen Abkommen vom 1. Juni 1962 Entschädigung geleistet hat, in Höhe von insgesamt 1 940 000 DM"@de .
+
+dtd:LA-id49 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "sind zwischen Deutschland und Australien noch nicht aufgeteilt worden. Es wird insoweit auf die die spätere Aufteilung regelnden Artikel 7 und 8 des deutsch-australischen Vertrages vom 21. April 1965 verwiesen."@de .
+
+dtd:LA-id50 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id53 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für den Verlust von Vermögenswerten, über die vor Errichtung des Staates Israel verfügt worden und deren Gegenwert in dem im Briefwechsel Nr. 1 zum deutsch-israelischen Abkommen vom 1. Juni 1962 bezeichneten Betrag von 346 000 Pfund enthalten ist, in Höhe von insgesamt 1 098 336 DM,"@de .
+
+dtd:LA-id51 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "für den Verlust von in Israel belegenem Betriebsvermögen, mit Ausnahme von Betriebsgrundstücken, für das Israel nach dem deutsch-israelischen Abkommen vom 1. Juni 1962 Entschädigung geleistet hat, in Höhe von insgesamt 1 940 000 DM"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 29.10.1965 +++)"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_DL dtd:DL-id20 ;
+    dtd:has_SP dtd:SP-id19 ;
+    dtd:has_Value "Auf Grund des § 6 des Gesetzes vom 29. März 1965 über die Verteilung des auf die Bundesrepublik Deutschland entfallenden Anteils an der von Israel für das deutsche weltliche Vermögen in Israel nach dem Abkommen vom 1. Juni 1962 gezahlten Entschädigung (Bundesgesetzbl. 1965 I S. 189) wird bekanntgemacht: 1.Für die Verteilung der auf die Bundesrepublik Deutschland und den Australischen Bund entfallenden Anteile an der Gesamtentschädigung an die einzelnen Berechtigten gilt auf Grund des Artikels 9 des Vertrages vom 21. April 1965 zwischen der Bundesrepublik Deutschland und dem Australischen Bund über die Aufteilung der von der Regierung des Staates Israel gezahlten Entschädigung auf Deutschland und Australien (im Folgenden mit deutsch-australischer Vertrag vom 21. April 1965 bezeichnet), dem der Deutsche Bundestag durch das Gesetz vom 17. September 1965 (Bundesgesetzbl. II S. 1305) zugestimmt hat, folgendes:a)Aus dem auf die Bundesrepublik Deutschland entfallenden Anteil wird entschädigt, wer als unmittelbar Geschädigter oder als Erbe oder weiterer Erbe eines unmittelbar Geschädigten in Betracht kommt, wenn der unmittelbar Geschädigte am 1. Juni 1962 seinen Wohnsitz oder ständigen Aufenthalt nicht in Australien hatte. Ist der unmittelbar Geschädigte vor dem 1. Juni 1962 verstorben, so werden seine Erben oder weiteren Erben, wenn sie ihren Wohnsitz oder ständigen Aufenthalt am 1. Juni 1962 nicht in Australien hatten, aus dem auf die Bundesrepublik Deutschland entfallenden Anteil entschädigt.b)Aus dem auf den Australischen Bund entfallenden Anteil werden Personen entschädigt, die von der Regierung des Australischen Bundes als entschädigungsberechtigt angesehen werden und am 1. Juni 1962 ihren Wohnsitz oder ständigen Aufenthalt in Australien hatten oder, wenn dies nicht der Fall ist, an Stelle einer solchen Person Entschädigung beanspruchen.2.Von dem auf die Bundesrepublik Deutschland entfallenden Anteil an der Gesamtentschädigung stehen für die in § 1 Buchstaben a und b des Gesetzes vom 29. März 1965 bezeichneten Verluste folgende Beträge zur Verfügung:a)Nach Artikel 5 Abs. 2 Buchstabe a des deutsch-australischen Vertrages vom 21. April 1965 der Betrag von 17 460 000 DM für den unter das deutsch-israelische Abkommen vom 1. Juni 1962 fallenden Verlust des in Israel belegenen Grundbesitzes.b)Nach Artikel 5 Abs. 2 Buchstabe b des deutsch-australischen Vertrages vom 21. April 1965 der Betrag von 747 088 DM für den Verlust von Vermögenswerten, über die vor Errichtung des Staates Israel verfügt worden und deren Gegenwert in dem im Briefwechsel Nr. 1 zum deutsch-israelischen Abkommen vom 1. Juni 1962 bezeichneten Betrage von 1 793 000 Pfund enthalten ist.3.Die Entschädigungsbeträgea)für den Verlust von Vermögenswerten, über die vor Errichtung des Staates Israel verfügt worden und deren Gegenwert in dem im Briefwechsel Nr. 1 zum deutsch-israelischen Abkommen vom 1. Juni 1962 bezeichneten Betrag von 346 000 Pfund enthalten ist, in Höhe von insgesamt 1 098 336 DM,b)für den Verlust von in Israel belegenem Betriebsvermögen, mit Ausnahme von Betriebsgrundstücken, für das Israel nach dem deutsch-israelischen Abkommen vom 1. Juni 1962 Entschädigung geleistet hat, in Höhe von insgesamt 1 940 000 DMsind zwischen Deutschland und Australien noch nicht aufgeteilt worden. Es wird insoweit auf die die spätere Aufteilung regelnden Artikel 7 und 8 des deutsch-australischen Vertrages vom 21. April 1965 verwiesen.Der Bundesminister der Finanzen"@de .
+
+dtd:SP-id19 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Finanzen"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1965-10-11"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id60 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id61 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id56 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "VermRglISRBek"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "VermRglISRBek"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung über die Voraussetzungen für die Auszahlung der von Israel
+für das deutsche weltliche Vermögen in Israel geleisteten Entschädigung durch
+die Regierung der Bundesrepublik Deutschland oder die Regierung des
+Australischen Bundes und über die Entschädigungsbeträge, die für die einzelnen
+Gruppen von Vermögensschäden für die Verteilung durch die Bundesrepublik
+Deutschland zur Verfügung stehen"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405125843"@de ;
+    dtd:has_doknr "BJNR017280965"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405125843"@de ;
+    dtd:has_doknr "BJNR017280965BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id60 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id61 a dtd:zitstelle ;
+    dtd:has_Value "1965, 1728"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

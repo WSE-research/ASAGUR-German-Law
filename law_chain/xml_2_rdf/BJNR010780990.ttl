@@ -1,0 +1,551 @@
+@prefix dtd: <urn:StVUnfStatG-1990#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id74 a dtd:BR .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id113 a dtd:Content ;
+    dtd:has_P dtd:P-id114,
+        dtd:P-id115,
+        dtd:P-id116,
+        dtd:P-id117,
+        dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122,
+        dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125,
+        dtd:P-id126,
+        dtd:P-id127,
+        dtd:P-id128 .
+
+dtd:Content-id129 a dtd:Content ;
+    dtd:has_P dtd:P-id130 .
+
+dtd:Content-id131 a dtd:Content ;
+    dtd:has_P dtd:P-id132 .
+
+dtd:Content-id133 a dtd:Content ;
+    dtd:has_P dtd:P-id134 .
+
+dtd:DD-id84 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id100 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id101 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id102 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id103 .
+
+dtd:DD-id95 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id104,
+        dtd:LA-id105 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id106 .
+
+dtd:DL-id77 a dtd:DL ;
+    dtd:has_DD dtd:DD-id84,
+        dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89 ;
+    dtd:has_DT dtd:DT-id78,
+        dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id90 a dtd:DL ;
+    dtd:has_DD dtd:DD-id94,
+        dtd:DD-id95,
+        dtd:DD-id96 ;
+    dtd:has_DT dtd:DT-id91,
+        dtd:DT-id92,
+        dtd:DT-id93 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id78 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id100 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die verunglückten Mitfahrer nach Alter in Jahren, Geschlecht und Unfallfolgen nach den Absätzen 3 und 4,"@de .
+
+dtd:LA-id101 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die beteiligten Verkehrsmittel nach Fahrzeugart, Zulassungsbezirk, Nationalitätszeichen, technischen Mängeln, Art und Höhe des Sachschadens, bei der Beförderung gefährlicher Güter die Art des Gefahrgutes sowie die Anwendung von Ausnahmebestimmungen nach der jeweils geltenden Straßen-Gefahrgutausnahmeverordnung,"@de .
+
+dtd:LA-id102 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bei deutschen Kraftfahrzeugen die fahrzeugbezogenen Merkmale: Jahr der Erstzulassung, Hersteller, Typ und Ausführung des Fahrzeugs, technische Ausstattung, Fahrzeug- und Aufbauart, Hubraum und Motorleistung, Höchstgeschwindigkeit, Maße und Gewichte."@de .
+
+dtd:LA-id103 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Angaben nach § 2 Abs. 1 Nr. 1, 3 und 4,"@de .
+
+dtd:LA-id104 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Angaben nach § 2 Abs. 1 Nr. 2 mit Ausnahme folgender Merkmale:"@de .
+
+dtd:LA-id105 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Staatsangehörigkeit, bei Ausländern auch nach Wohnsitz im In- oder Ausland, Monat und Jahr der Erteilung der Fahrerlaubnis, unerlaubtes Entfernen vom Unfallort, Grad der Alkoholeinwirkung,"@de .
+
+dtd:LA-id106 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Angaben nach § 2 Abs. 1 Nr. 5 mit Ausnahme des Nationalitätszeichens."@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Unfallstelle, Datum, Uhrzeit, Hergang und Umstände des Unfalls sowie allgemeine Unfallursachen,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die beteiligten Verkehrsteilnehmer nach Geburtsmonat/-jahr, Geschlecht, Staatsangehörigkeit, bei Ausländern auch nach Wohnsitz im In- oder Ausland, Art der Verkehrsbeteiligung, Monat und Jahr der Erteilung der Fahrerlaubnis, unerlaubtes Entfernen vom Unfallort, Unfallfolgen nach den Absätzen 3 und 4 sowie Art des Fehlverhaltens und Grad der Alkoholeinwirkung,"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zahl der Fahrzeugbenutzer,"@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_BR dtd:BR-id74 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.1.1991 +++)"@de ;
+    dtd:has_pre dtd:pre-id135 .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "Über Unfälle, bei denen infolge des Fahrverkehrs auf öffentlichen Wegen und Plätzen Personen getötet oder verletzt oder Sachschäden verursacht worden sind, wird laufend eine Bundesstatistik geführt. Sie dient dazu, eine aktuelle, umfassende und zuverlässige Datenbasis über Struktur und Entwicklung der Straßenverkehrsunfälle zu erstellen."@de .
+
+dtd:P-id114 a dtd:P ;
+    dtd:has_DL dtd:DL-id77 ;
+    dtd:has_Value "(1) Die Statistik erfaßt bei Unfällen, bei denen wenigstens eine Person getötet oder verletzt worden ist oder bei schwerwiegenden Unfällen mit Sachschaden, 1.Unfallstelle, Datum, Uhrzeit, Hergang und Umstände des Unfalls sowie allgemeine Unfallursachen, 2.die beteiligten Verkehrsteilnehmer nach Geburtsmonat/-jahr, Geschlecht, Staatsangehörigkeit, bei Ausländern auch nach Wohnsitz im In- oder Ausland, Art der Verkehrsbeteiligung, Monat und Jahr der Erteilung der Fahrerlaubnis, unerlaubtes Entfernen vom Unfallort, Unfallfolgen nach den Absätzen 3 und 4 sowie Art des Fehlverhaltens und Grad der Alkoholeinwirkung, 3.die Zahl der Fahrzeugbenutzer, 4.die verunglückten Mitfahrer nach Alter in Jahren, Geschlecht und Unfallfolgen nach den Absätzen 3 und 4, 5.die beteiligten Verkehrsmittel nach Fahrzeugart, Zulassungsbezirk, Nationalitätszeichen, technischen Mängeln, Art und Höhe des Sachschadens, bei der Beförderung gefährlicher Güter die Art des Gefahrgutes sowie die Anwendung von Ausnahmebestimmungen nach der jeweils geltenden Straßen-Gefahrgutausnahmeverordnung, 6.bei deutschen Kraftfahrzeugen die fahrzeugbezogenen Merkmale: Jahr der Erstzulassung, Hersteller, Typ und Ausführung des Fahrzeugs, technische Ausstattung, Fahrzeug- und Aufbauart, Hubraum und Motorleistung, Höchstgeschwindigkeit, Maße und Gewichte.  "@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(2) Bei allen anderen Unfällen erfaßt die Statistik lediglich die Gesamtzahl, gegliedert nach Unfällen auf Autobahnen und sonstigen Straßen. Die Unfälle auf sonstigen Straßen sind zu untergliedern nach Unfällen innerhalb und außerhalb geschlossener Ortschaften."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(3) Als Getötete werden alle Personen gezählt, die innerhalb von 30 Tagen nach dem Unfall an den Unfallfolgen verstorben sind."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "(4) Verletzte sind Personen, die bei dem Unfall Körperschäden erlitten haben. Werden sie deshalb zur stationären Behandlung in ein Krankenhaus aufgenommen, so gelten sie als Schwerverletzte."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "(5)"@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "Als Hilfsmerkmale der Statistik werden die übermittelnde Polizeidienststelle und ihre Tagebuch-Nummer sowie die Kraftfahrzeugkennzeichen der beteiligten Verkehrsmittel erfaßt."@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_Value "(1) Auskunftspflichtig sind die Polizeidienststellen, deren Beamte den Unfall aufgenommen haben. Die Auskünfte werden aus den Unterlagen der Unfallaufnahme erteilt und den statistischen Ämtern der Länder laufend zugeleitet. Die Polizei der Länder ist berechtigt, das Kraftfahrzeugkennzeichen von unfallbeteiligten Fahrzeugen auch im automatisierten Verfahren an die statistischen Ämter der Länder weiterzuleiten."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(2) Abweichend von Absatz 1 ist das Kraftfahrt-Bundesamt für die fahrzeugbezogenen Merkmale nach § 2 Abs. 1 Nr. 6 auskunftspflichtig. Das Kraftfahrt-Bundesamt erteilt die Auskünfte nach § 2 Abs. 1 Nr. 6 aus dem Zentralen Fahrzeugregister. Zu diesem Zweck übermitteln die statistischen Ämter der Länder die Kraftfahrzeugkennzeichen nach § 3 und das Datum des Unfalls nach § 2 Abs. 1 Nr. 1 einer von anderen Aufgabenbereichen getrennten Organisationseinheit des Kraftfahrt-Bundesamtes gemäß § 58 Abs. 2 Satz 1 des Güterkraftverkehrsgesetzes in der Fassung der Bekanntmachung vom 3. November 1993 (BGBl. I S. 1839, 1992), das durch Artikel 40 des Gesetzes vom 29. Juli 1994 (BGBl. I S. 1890) geändert worden ist. § 58 Abs. 2 Satz 2 und 3 des Güterkraftverkehrsgesetzes gilt entsprechend. Die in Satz 3 genannten Angaben sind im Kraftfahrt-Bundesamt spätestens einen Monat nach der Übermittlung der Angaben nach § 2 Abs. 1 Nr. 6 an die statistischen Ämter der Länder zu löschen."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "(1) An die fachlich zuständigen obersten Bundes- oder Landesbehörden dürfen für die Verwendung gegenüber den gesetzgebenden Körperschaften und für Zwecke der Planung, jedoch nicht für die Regelung von Einzelfällen, vom Statistischen Bundesamt und den statistischen Ämtern der Länder Tabellen mit statistischen Ergebnissen übermittelt werden, auch soweit Tabellenfelder nur einen einzigen Fall ausweisen."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_DL dtd:DL-id90 ;
+    dtd:has_Value "(2) An die zur Durchführung statistischer Aufgaben zuständigen Stellen der Gemeinden und Gemeindeverbände dürfen von den statistischen Ämtern der Länder unter den Voraussetzungen des § 16 Abs. 5 Bundesstatistikgesetz über Unfälle, die sich in ihrem Zuständigkeitsbereich ereignet haben, folgende Einzelangaben übermittelt werden: 1.die Angaben nach § 2 Abs. 1 Nr. 1, 3 und 4,2.die Angaben nach § 2 Abs. 1 Nr. 2 mit Ausnahme folgender Merkmale:Staatsangehörigkeit, bei Ausländern auch nach Wohnsitz im In- oder Ausland, Monat und Jahr der Erteilung der Fahrerlaubnis, unerlaubtes Entfernen vom Unfallort, Grad der Alkoholeinwirkung,3.die Angaben nach § 2 Abs. 1 Nr. 5 mit Ausnahme des Nationalitätszeichens."@de .
+
+dtd:P-id127 a dtd:P ;
+    dtd:has_Value "(3) Für Zwecke der Unfallforschung sind der Bundesanstalt für Straßenwesen von den statistischen Ämtern der Länder jährlich die Einzelangaben nach § 2 Abs. 1 und 2 zu übermitteln. Bei Bedarf können vorliegende Daten auch vor dem nächsten Jahrestermin angefordert werden. Zur Durchführung der Unfallforschung mit den nach Satz 1 übermittelten Daten wird in der Bundesanstalt für Straßenwesen eine Organisationseinheit eingerichtet, die räumlich, organisatorisch und personell von anderen Aufgabenbereichen der Bundesanstalt zu trennen ist. Die in dieser Organisationseinheit tätigen Personen müssen Amtsträger oder für den öffentlichen Dienst besonders Verpflichtete sein. Sie dürfen die aus ihrer Tätigkeit gewonnenen Erkenntnisse nur für Zwecke der Unfallforschung verwenden. Die nach Satz 1 übermittelten Einzelangaben dürfen nicht mit anderen personenbezogenen Daten zusammengeführt werden. Das Nähere zur Ausführung der Sätze 3 und 4 regelt das Bundesministerium für Verkehr und digitale Infrastruktur durch Erlaß."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "(4) Die Übermittlung von Einzelangaben an Hochschulen und sonstige Einrichtungen mit der Aufgabe unabhängiger wissenschaftlicher Forschung erfolgt unter den Voraussetzungen des § 16 Abs. 6 Bundesstatistikgesetz."@de .
+
+dtd:P-id130 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium für Verkehr und digitale Infrastruktur hat durch Rechtsverordnung mit Zustimmung des Bundesrates den schwerwiegenden Unfall mit Sachschaden im Sinne des § 2 Abs. 1 näher zu bestimmen."@de .
+
+dtd:P-id132 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id134 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am 1. Januar des auf die Verkündung folgenden Kalenderjahres in Kraft."@de .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "StVUnfStatG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-06-15"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id56 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id136 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id137 .
+
+dtd:fussnoten-id57 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id107 .
+
+dtd:fussnoten-id61 a dtd:fussnoten .
+
+dtd:fussnoten-id63 a dtd:fussnoten .
+
+dtd:fussnoten-id65 a dtd:fussnoten .
+
+dtd:fussnoten-id67 a dtd:fussnoten .
+
+dtd:fussnoten-id69 a dtd:fussnoten .
+
+dtd:fussnoten-id71 a dtd:fussnoten .
+
+dtd:fussnoten-id73 a dtd:fussnoten .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "StVUnfStatG 1990"@de .
+
+dtd:kurzue-id36 a dtd:kurzue ;
+    dtd:has_Value "Straßenverkehrsunfallstatistikgesetz"@de .
+
+dtd:langue-id37 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Statistik der Straßenverkehrsunfälle"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id36 ;
+    dtd:has_langue dtd:langue-id37 ;
+    dtd:has_standangabe dtd:standangabe-id38 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id56 ;
+    dtd:has_jurabk dtd:jurabk-id55 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000801308"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000900328"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000100328"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000200328"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000302308"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000401308"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000501308"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000604305"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20151201215522"@de ;
+    dtd:has_doknr "BJNR010780990BJNE000704305"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id136 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id135 a dtd:pre ;
+    dtd:has_BR dtd:BR-id75,
+        dtd:BR-id76 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.1.1991 +++)"@de .
+
+dtd:standangabe-id38 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id139 ;
+    dtd:has_standtyp dtd:standtyp-id138 .
+
+dtd:standkommentar-id139 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 497 V v. 31.8.2015 I 1474"@de .
+
+dtd:standtyp-id138 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id113 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id121 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id129 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id131 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id133 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id61 ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id63 ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id69 ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id71 ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id73 ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:zitstelle-id137 a dtd:zitstelle ;
+    dtd:has_Value "1990, 1078"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

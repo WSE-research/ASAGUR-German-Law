@@ -1,0 +1,740 @@
+@prefix dtd: <urn:WvGeflpestMonV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:kommentar-id168 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2016, 450)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kommentar-id169 a dtd:kommentar ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2016, 451)"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:BR-id59 a dtd:BR .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:BR-id64 a dtd:BR .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:Content-id146 a dtd:Content ;
+    dtd:has_P dtd:P-id147 .
+
+dtd:Content-id148 a dtd:Content ;
+    dtd:has_P dtd:P-id149 .
+
+dtd:Content-id150 a dtd:Content ;
+    dtd:has_P dtd:P-id151,
+        dtd:P-id152,
+        dtd:P-id153,
+        dtd:P-id154 .
+
+dtd:Content-id155 a dtd:Content ;
+    dtd:has_P dtd:P-id156 .
+
+dtd:Content-id157 a dtd:Content ;
+    dtd:has_P dtd:P-id158 .
+
+dtd:Content-id159 a dtd:Content ;
+    dtd:has_P dtd:P-id160 .
+
+dtd:Content-id161 a dtd:Content ;
+    dtd:has_BR dtd:BR-id63 ;
+    dtd:has_P dtd:P-id162,
+        dtd:P-id163,
+        dtd:P-id164 ;
+    dtd:has_Title dtd:Title-id144,
+        dtd:Title-id145 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_BR dtd:BR-id65 ;
+    dtd:has_P dtd:P-id166 ;
+    dtd:has_table dtd:table-id68 .
+
+dtd:DD-id119 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id129 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id140 .
+
+dtd:DD-id130 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id134 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id135 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DL-id116 a dtd:DL ;
+    dtd:has_DD dtd:DD-id119,
+        dtd:DD-id120 ;
+    dtd:has_DT dtd:DT-id117,
+        dtd:DT-id118 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id121 a dtd:DL ;
+    dtd:has_DD dtd:DD-id124,
+        dtd:DD-id125 ;
+    dtd:has_DT dtd:DT-id122,
+        dtd:DT-id123 ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id126 a dtd:DL ;
+    dtd:has_DD dtd:DD-id129,
+        dtd:DD-id130 ;
+    dtd:has_DT dtd:DT-id127,
+        dtd:DT-id128 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id131 a dtd:DL ;
+    dtd:has_DD dtd:DD-id134,
+        dtd:DD-id135 ;
+    dtd:has_DT dtd:DT-id132,
+        dtd:DT-id133 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id122 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id123 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id127 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id128 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id132 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id133 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_DL dtd:DL-id121 ;
+    dtd:has_Value "während der Monate September bis Januar des Folgejahres a)mittels kombiniertem Rachen- und Kloakentupfer Proben von den Wildvogelarten im Sinne des Absatzes 1 Satz 1, für die Jagdzeiten festgesetzt sind, oderb)frische Proben von beobachtet abgesetztem Kot von den übrigen Wildvogelarten im Sinne des Absatzes 1 Satz 1,"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Value "mittels kombiniertem Rachen- und Kloakentupfer Proben von den Wildvogelarten im Sinne des Absatzes 1 Satz 1, für die Jagdzeiten festgesetzt sind, oder"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Value "frische Proben von beobachtet abgesetztem Kot von den übrigen Wildvogelarten im Sinne des Absatzes 1 Satz 1,"@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_Value "während der übrigen Monate eines Jahres frische Proben von beobachtet abgesetztem Kot von sämtlichen Wildvogelarten im Sinne des Absatzes 1 Satz 1"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Value "Proben nach Anlage 1 Teil 1 von im Rahmen der Ausübung der Jagd erlegten Wildvögeln zu entnehmen und"@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Value "der von der zuständigen Behörde bestimmten Untersuchungseinrichtung zur virologischen Untersuchung auf das Virus zuzuleiten."@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Value "Kombinierte Rachen- und Kloakentupferproben nach Kapitel IV Nummer 4 Buchstabe a Satz 5 und 7 und Nummer 5 des Anhangs der Entscheidung 2006/437/EG der Kommission vom 4. August 2006 über die Genehmigung eines Handbuchs zur Diagnose der Aviären Influenza gemäß der Richtlinie 2005/94/EG des Rates (ABl. L 237 vom 31.8.2006, S. 1)."@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Value "Für den Transport der Proben gelten die Mindestanforderungen nach Kapitel XII des Anhangs der Entscheidung 2006/437/EG."@de .
+
+dtd:P-id147 a dtd:P ;
+    dtd:has_BR dtd:BR-id59 ;
+    dtd:has_Value " (+++ Textnachweis ab: 17.3.2016 +++)"@de ;
+    dtd:has_pre dtd:pre-id167 .
+
+dtd:P-id149 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 10 Absatz 2 des Tiergesundheitsgesetzes vom 22. Mai 2013 (BGBl. I S. 1324) verordnet das Bundesministerium für Ernährung und Landwirtschaft:"@de .
+
+dtd:P-id151 a dtd:P ;
+    dtd:has_Value "(1) Die Länder führen jährlich in den Monaten September bis Januar des Folgejahres ein Monitoring zur Untersuchung von Wildvögeln, insbesondere von Arten aus der Ordnung Gänsevögel, auf die in § 1 Absatz 1 Nummer 1 und 3 der Geflügelpest-Verordnung bezeichneten Viren durch. Soweit in dem in Satz 1 genannten Zeitraum keine hinreichende Probenzahl untersucht werden kann, dürfen auch in den übrigen Monaten eines Jahres gewonnene Proben untersucht werden."@de .
+
+dtd:P-id152 a dtd:P ;
+    dtd:has_DL dtd:DL-id116 ;
+    dtd:has_Value "(2) Für die im Rahmen des Monitorings nach Absatz 1 durchzuführenden Untersuchungen sind 1.während der Monate September bis Januar des Folgejahres a)mittels kombiniertem Rachen- und Kloakentupfer Proben von den Wildvogelarten im Sinne des Absatzes 1 Satz 1, für die Jagdzeiten festgesetzt sind, oderb)frische Proben von beobachtet abgesetztem Kot von den übrigen Wildvogelarten im Sinne des Absatzes 1 Satz 1,2.während der übrigen Monate eines Jahres frische Proben von beobachtet abgesetztem Kot von sämtlichen Wildvogelarten im Sinne des Absatzes 1 Satz 1zu gewinnen. Bei der Gewinnung, Lagerung und Beförderung der Proben sind die Vorgaben der Anlage 1 zu beachten."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_Value "(3) Die Gesamtzahl der im jeweiligen Land mindestens zu untersuchenden Proben bestimmt sich nach der Anlage 2. Der Anteil der Kotproben an der Gesamtzahl der jeweils zu untersuchenden Proben darf 50 vom Hundert nicht überschreiten."@de .
+
+dtd:P-id154 a dtd:P ;
+    dtd:has_Value "(4) Die Länder übermitteln dem Bundesministerium für Ernährung und Landwirtschaft jährlich bis zum 1. April des Folgejahres die im Rahmen des Monitorings erzielten Ergebnisse, aufgeschlüsselt nach den untersuchten Wildvogelarten und den jeweils ermittelten Subtypen des nachgewiesenen Virus."@de .
+
+dtd:P-id156 a dtd:P ;
+    dtd:has_DL dtd:DL-id126 ;
+    dtd:has_Value "Jagdausübungsberechtigte haben nach näherer Anweisung der zuständigen Behörde 1.Proben nach Anlage 1 Teil 1 von im Rahmen der Ausübung der Jagd erlegten Wildvögeln zu entnehmen und2.der von der zuständigen Behörde bestimmten Untersuchungseinrichtung zur virologischen Untersuchung auf das Virus zuzuleiten."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id160 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2016, 450)"@de ;
+    dtd:has_noindex dtd:noindex-id66 .
+
+dtd:P-id163 a dtd:P ;
+    dtd:has_DL dtd:DL-id131 ;
+    dtd:has_Value "1.Kombinierte Rachen- und Kloakentupferproben nach Kapitel IV Nummer 4 Buchstabe a Satz 5 und 7 und Nummer 5 des Anhangs der Entscheidung 2006/437/EG der Kommission vom 4. August 2006 über die Genehmigung eines Handbuchs zur Diagnose der Aviären Influenza gemäß der Richtlinie 2005/94/EG des Rates (ABl. L 237 vom 31.8.2006, S. 1).2.Für den Transport der Proben gelten die Mindestanforderungen nach Kapitel XII des Anhangs der Entscheidung 2006/437/EG."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "Für den Transport der Proben gelten die Mindestanforderungen gemäß Kapitel XII des Anhangs der Entscheidung 2006/437/EG."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(Fundstelle: BGBl. I 2016, 451)"@de ;
+    dtd:has_noindex dtd:noindex-id67 .
+
+dtd:Title-id144 a dtd:Title ;
+    dtd:has_Align dtd:justify ;
+    dtd:has_Class "S1"@de ;
+    dtd:has_Value "Teil 1"@de .
+
+dtd:Title-id145 a dtd:Title ;
+    dtd:has_Align dtd:justify ;
+    dtd:has_Class "S1"@de ;
+    dtd:has_Value "Teil 2"@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2016-03-08"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id70 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "56.00*"@de .
+
+dtd:colspec-id71 a dtd:colspec ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "56*"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id35 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "Anlage 1"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "Anlage 2"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mecklenburg-Vorpommern"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 90"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Niedersachsen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "750"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Nordrhein-Westfalen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "750"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rheinland-Pfalz"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 60"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sachsen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 70"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Sachsen-Anhalt"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 50"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Schleswig-Holstein"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "450"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Thüringen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value " 50"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Land"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mindestprobenzahl"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Baden-Württemberg"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "170"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bayern"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "750"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Brandenburg"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hamburg"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "100"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hessen"@de ;
+    dtd:has_colname "col1"@de .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "110"@de ;
+    dtd:has_colname "col2"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id170 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id171 .
+
+dtd:fussnoten-id51 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id146 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "WvGeflpestMonV"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "Wildvogel-Geflügelpest-Monitoring-Verordnung"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Durchführung eines Monitorings auf das Virus der Geflügelpest bei Wildvögeln"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id35 ;
+    dtd:has_jurabk dtd:jurabk-id34 ;
+    dtd:has_titel dtd:titel-id36 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 ;
+    dtd:has_titel dtd:titel-id39 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:noindex-id66 a dtd:noindex .
+
+dtd:noindex-id67 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20160330215527"@de ;
+    dtd:has_doknr "BJNR044900016BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id170 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id167 a dtd:pre ;
+    dtd:has_BR dtd:BR-id60,
+        dtd:BR-id61 ;
+    dtd:has_Value "(+++ Textnachweis ab: 17.3.2016 +++)"@de .
+
+dtd:row-id74 a dtd:row ;
+    dtd:has_entry dtd:entry-id88,
+        dtd:entry-id89 .
+
+dtd:row-id75 a dtd:row ;
+    dtd:has_entry dtd:entry-id90,
+        dtd:entry-id91 .
+
+dtd:row-id76 a dtd:row ;
+    dtd:has_entry dtd:entry-id92,
+        dtd:entry-id93 .
+
+dtd:row-id77 a dtd:row ;
+    dtd:has_entry dtd:entry-id94,
+        dtd:entry-id95 .
+
+dtd:row-id78 a dtd:row ;
+    dtd:has_entry dtd:entry-id96,
+        dtd:entry-id97 .
+
+dtd:row-id79 a dtd:row ;
+    dtd:has_entry dtd:entry-id98,
+        dtd:entry-id99 .
+
+dtd:row-id80 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101 .
+
+dtd:row-id81 a dtd:row ;
+    dtd:has_entry dtd:entry-id102,
+        dtd:entry-id103 .
+
+dtd:row-id82 a dtd:row ;
+    dtd:has_entry dtd:entry-id104,
+        dtd:entry-id105 .
+
+dtd:row-id83 a dtd:row ;
+    dtd:has_entry dtd:entry-id106,
+        dtd:entry-id107 .
+
+dtd:row-id84 a dtd:row ;
+    dtd:has_entry dtd:entry-id108,
+        dtd:entry-id109 .
+
+dtd:row-id85 a dtd:row ;
+    dtd:has_entry dtd:entry-id110,
+        dtd:entry-id111 .
+
+dtd:row-id86 a dtd:row ;
+    dtd:has_entry dtd:entry-id112,
+        dtd:entry-id113 .
+
+dtd:row-id87 a dtd:row ;
+    dtd:has_entry dtd:entry-id114,
+        dtd:entry-id115 .
+
+dtd:table-id68 a dtd:table ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id69 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id73 a dtd:tbody ;
+    dtd:has_row dtd:row-id75,
+        dtd:row-id76,
+        dtd:row-id77,
+        dtd:row-id78,
+        dtd:row-id79,
+        dtd:row-id80,
+        dtd:row-id81,
+        dtd:row-id82,
+        dtd:row-id83,
+        dtd:row-id84,
+        dtd:row-id85,
+        dtd:row-id86,
+        dtd:row-id87 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id148 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id150 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id155 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id157 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id159 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id161 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:tgroup-id69 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id70,
+        dtd:colspec-id71 ;
+    dtd:has_tbody dtd:tbody-id73 ;
+    dtd:has_thead dtd:thead-id72 .
+
+dtd:thead-id72 a dtd:thead ;
+    dtd:has_row dtd:row-id74 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id36 a dtd:titel ;
+    dtd:has_Value "Monitoring"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id39 a dtd:titel ;
+    dtd:has_Value "Duldungs- und Mitwirkungspflichten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_BR dtd:BR-id62 ;
+    dtd:has_Value "(zu § 1 Absatz 2)Vorgaben für das im Rahmen des Monitorings zu untersuchende Probenmaterial"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_BR dtd:BR-id64 ;
+    dtd:has_Value "(zu § 1 Absatz 3)Probenschlüssel für die Untersuchungen auf Geflügelpest-Virus bei Wildvögeln"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id171 a dtd:zitstelle ;
+    dtd:has_Value "2016, 449"@de .
+
+dtd:justify rdfs:label "justify"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

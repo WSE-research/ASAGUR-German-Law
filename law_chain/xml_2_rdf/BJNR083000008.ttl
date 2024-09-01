@@ -1,0 +1,208 @@
+@prefix dtd: <urn:SpEisHErprobV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20210615213136"@de ;
+    dtd:has_doknr "BJNR083000008"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id29 a dtd:BR .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:Content-id34 a dtd:Content ;
+    dtd:has_P dtd:P-id35 .
+
+dtd:Content-id36 a dtd:Content ;
+    dtd:has_P dtd:P-id37 .
+
+dtd:Content-id38 a dtd:Content ;
+    dtd:has_P dtd:P-id39 .
+
+dtd:FnR-id32 a dtd:FnR ;
+    dtd:has_ID "f771080_01_BJNR083000008"@de .
+
+dtd:Footnote-id42 a dtd:Footnote ;
+    dtd:has_FnZ "*"@de ;
+    dtd:has_Group dtd:column ;
+    dtd:has_ID "f771080_01_BJNR083000008"@de ;
+    dtd:has_Pos dtd:normal ;
+    dtd:has_Postfix ")"@de ;
+    dtd:has_Value "Diese Rechtsverordnung ist eine Ausbildungsordnung im Sinne des § 6 des Berufsbildungsgesetzes und des § 27 der Handwerksordnung. Die Ausbildungsordnung und der damit abgestimmte von der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland beschlossene Rahmenlehrplan für die Berufsschule werden demnächst als Beilage im Bundesanzeiger veröffentlicht."@de ;
+    dtd:has_noindex dtd:noindex-id33 .
+
+dtd:Footnotes-id41 a dtd:Footnotes ;
+    dtd:has_Footnote dtd:Footnote-id42 .
+
+dtd:P-id35 a dtd:P ;
+    dtd:has_BR dtd:BR-id29 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.8.2008 +++)"@de ;
+    dtd:has_pre dtd:pre-id40 .
+
+dtd:P-id37 a dtd:P ;
+    dtd:has_Value "Die bei Außerkrafttreten dieser Verordnung bestehenden Berufsausbildungsverhältnisse können nach den Vorschriften dieser Verordnung zu Ende geführt werden."@de .
+
+dtd:P-id39 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. August 2008 in Kraft und mit Ausnahme des § 10 am 31. Juli 2014 außer Kraft."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id12 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2008-05-13"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:column rdfs:label "column"@de .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 11"@de .
+
+dtd:fundstelle-id13 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id43 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id44 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id34 .
+
+dtd:fussnoten-id28 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "SpEisHErprobV"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "SpEisHErprobV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "SpEisHErprobV"@de .
+
+dtd:langue-id14 a dtd:langue ;
+    dtd:has_FnR dtd:FnR-id32 ;
+    dtd:has_Value "Verordnung über die Entwicklung und Erprobung des Ausbildungsberufs Speiseeishersteller/Speiseeisherstellerin "@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id12 ;
+    dtd:has_fundstelle dtd:fundstelle-id13 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_langue dtd:langue-id14 ;
+    dtd:has_standangabe dtd:standangabe-id15,
+        dtd:standangabe-id16,
+        dtd:standangabe-id17 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:noindex-id33 a dtd:noindex .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20210615213136"@de ;
+    dtd:has_doknr "BJNR083000008"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20210615213136"@de ;
+    dtd:has_doknr "BJNR083000008BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20210615213136"@de ;
+    dtd:has_doknr "BJNR083000008BJNE001201140"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:normal rdfs:label "normal"@de .
+
+dtd:periodikum-id43 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id40 a dtd:pre ;
+    dtd:has_BR dtd:BR-id30,
+        dtd:BR-id31 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.8.2008 +++)"@de .
+
+dtd:standangabe-id15 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id46 ;
+    dtd:has_standtyp dtd:standtyp-id45 .
+
+dtd:standangabe-id16 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id48 ;
+    dtd:has_standtyp dtd:standtyp-id47 .
+
+dtd:standangabe-id17 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id50 ;
+    dtd:has_standtyp dtd:standtyp-id49 .
+
+dtd:standkommentar-id46 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 1 V v. 19.6.2013 I 1611"@de .
+
+dtd:standkommentar-id48 a dtd:standkommentar ;
+    dtd:has_Value "Die V tritt mit Ausnahme des § 10 nach ihrem § 11 am 31. Juli 2013 außer Kraft"@de .
+
+dtd:standkommentar-id50 a dtd:standkommentar ;
+    dtd:has_Value "Die Geltung dieser V ist durch § 11 idF d. Art. 1 V v. 19.6.2013 I 1611 über den 31.7.2013 hinaus bis zum 31.7.2014 verlängert worden."@de .
+
+dtd:standtyp-id45 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:standtyp-id47 a dtd:standtyp ;
+    dtd:has_Value "Aufh"@de .
+
+dtd:standtyp-id49 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Footnotes dtd:Footnotes-id41 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id36 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id27 a dtd:text ;
+    dtd:has_Content dtd:Content-id38 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id28 ;
+    dtd:has_text dtd:text-id27 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Bestehende Berufsausbildungsverhältnisse"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id44 a dtd:zitstelle ;
+    dtd:has_Value "2008, 830"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

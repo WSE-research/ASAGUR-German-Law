@@ -1,0 +1,235 @@
+@prefix dtd: <urn:KatHiLAbkDNKG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405132010"@de ;
+    dtd:has_doknr "BJNR202860988"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45 .
+
+dtd:Content-id46 a dtd:Content ;
+    dtd:has_P dtd:P-id47 .
+
+dtd:Content-id48 a dtd:Content ;
+    dtd:has_P dtd:P-id49,
+        dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:DD-id38 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id40 .
+
+dtd:DD-id39 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id41 .
+
+dtd:DL-id35 a dtd:DL ;
+    dtd:has_DD dtd:DD-id38,
+        dtd:DD-id39 ;
+    dtd:has_DT dtd:DT-id36,
+        dtd:DT-id37 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id36 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id37 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id40 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des Artikels 3 Abs. 1 Buchstabe a des Abkommens der Bund,"@de .
+
+dtd:LA-id41 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "des Artikels 3 Abs. 1 Buchstabe b und des Artikels 3 Abs. 2 des Abkommens das Land Schleswig-Holstein; landesrechtliche Bestimmungen über die Kostentragung innerhalb des Landes bleiben unberührt."@de .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 27. 3.1988 +++)"@de .
+
+dtd:P-id47 a dtd:P ;
+    dtd:has_Value "Dem in Tondern am 16. Mai 1985 unterzeichneten Abkommen zwischen der Bundesrepublik Deutschland und dem Königreich Dänemark über die gegenseitige Hilfeleistung bei Katastrophen oder schweren Unglücksfällen wird zugestimmt. Das Abkommen wird nachstehend veröffentlicht."@de .
+
+dtd:P-id49 a dtd:P ;
+    dtd:has_DL dtd:DL-id35 ;
+    dtd:has_Value "(1) Aufwendungen, die auf seiten der Bundesrepublik Deutschland bei Hilfeleistungen in Dänemark entstehen, trägt in den Fällen 1.des Artikels 3 Abs. 1 Buchstabe a des Abkommens der Bund, 2.des Artikels 3 Abs. 1 Buchstabe b und des Artikels 3 Abs. 2 des Abkommens das Land Schleswig-Holstein; landesrechtliche Bestimmungen über die Kostentragung innerhalb des Landes bleiben unberührt.  "@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "(2) Bei Aufwendungen, die auf seiten der Bundesrepublik Deutschland in den Fällen des Artikels 8 Abs. 2 und 3 des Abkommens entstehen, richtet sich die Kostenträgerschaft danach, ob die jeweilige Hilfemaßnahme in den Aufgabenbereich des Bundes oder der Länder fällt."@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz gilt auch im Land Berlin, sofern das Land Berlin die Anwendung dieses Gesetzes feststellt."@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_Value "(1) Dieses Gesetz tritt am Tage nach seiner Verkündung in Kraft."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Der Tag, an dem das Abkommen nach seinem Artikel 16 Abs. 2 in Kraft tritt, ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id18 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1988-03-17"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:fundstelle-id19 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id56 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id57 .
+
+dtd:fussnoten-id30 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id44 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "KatHiLAbkDNKG"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "KatHiLAbkDNKG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "KatHiLAbkDNKG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "KatHiLAbkDNKG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "KatHiLAbkDNKG"@de .
+
+dtd:langue-id20 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Abkommen vom 16. Mai 1985 zwischen der Bundesrepublik
+Deutschland und dem Königreich Dänemark über die gegenseitige Hilfeleistung bei
+Katastrophen oder schweren Unglücksfällen"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id18 ;
+    dtd:has_fundstelle dtd:fundstelle-id19 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405132010"@de ;
+    dtd:has_doknr "BJNR202860988"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405132010"@de ;
+    dtd:has_doknr "BJNR202860988BJNE000100304"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405132010"@de ;
+    dtd:has_doknr "BJNR202860988BJNE000200304"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405132010"@de ;
+    dtd:has_doknr "BJNR202860988BJNE000300304"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405132010"@de ;
+    dtd:has_doknr "BJNR202860988BJNE000400304"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id56 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id31 a dtd:text ;
+    dtd:has_Content dtd:Content-id46 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id48 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id51 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id31 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id30 ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:zitstelle-id57 a dtd:zitstelle ;
+    dtd:has_Value "1988, 286"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

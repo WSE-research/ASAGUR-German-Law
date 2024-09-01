@@ -1,0 +1,905 @@
+@prefix dtd: <urn:TLMV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id15,
+        dtd:norm-id16,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:ABWFORMAT-id173 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id174 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id175 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:ABWFORMAT-id222 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id122 a dtd:BR .
+
+dtd:BR-id123 a dtd:BR .
+
+dtd:BR-id124 a dtd:BR .
+
+dtd:BR-id125 a dtd:BR .
+
+dtd:BR-id126 a dtd:BR .
+
+dtd:BR-id127 a dtd:BR .
+
+dtd:Content-id176 a dtd:Content ;
+    dtd:has_P dtd:P-id177 .
+
+dtd:Content-id178 a dtd:Content ;
+    dtd:has_P dtd:P-id179 .
+
+dtd:Content-id180 a dtd:Content ;
+    dtd:has_P dtd:P-id181 .
+
+dtd:Content-id182 a dtd:Content ;
+    dtd:has_P dtd:P-id183,
+        dtd:P-id184,
+        dtd:P-id185 .
+
+dtd:Content-id186 a dtd:Content ;
+    dtd:has_P dtd:P-id187,
+        dtd:P-id188,
+        dtd:P-id189,
+        dtd:P-id190,
+        dtd:P-id191 .
+
+dtd:Content-id192 a dtd:Content ;
+    dtd:has_P dtd:P-id193,
+        dtd:P-id194 .
+
+dtd:Content-id195 a dtd:Content ;
+    dtd:has_P dtd:P-id196,
+        dtd:P-id197 .
+
+dtd:Content-id198 a dtd:Content ;
+    dtd:has_P dtd:P-id199 .
+
+dtd:Content-id200 a dtd:Content ;
+    dtd:has_P dtd:P-id201 .
+
+dtd:Content-id202 a dtd:Content ;
+    dtd:has_P dtd:P-id203 .
+
+dtd:Content-id204 a dtd:Content ;
+    dtd:has_P dtd:P-id205,
+        dtd:P-id206 .
+
+dtd:Content-id207 a dtd:Content ;
+    dtd:has_P dtd:P-id208,
+        dtd:P-id209,
+        dtd:P-id210,
+        dtd:P-id211,
+        dtd:P-id212 .
+
+dtd:Content-id213 a dtd:Content ;
+    dtd:has_P dtd:P-id214 .
+
+dtd:Content-id215 a dtd:Content ;
+    dtd:has_P dtd:P-id216 .
+
+dtd:Content-id217 a dtd:Content ;
+    dtd:has_P dtd:P-id218 .
+
+dtd:Content-id219 a dtd:Content ;
+    dtd:has_P dtd:P-id220 .
+
+dtd:DD-id132 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id160 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id161 .
+
+dtd:DD-id137 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id162 .
+
+dtd:DD-id138 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id163 .
+
+dtd:DD-id144 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id164 .
+
+dtd:DD-id145 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id165 .
+
+dtd:DD-id146 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id166 .
+
+dtd:DD-id147 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id167 .
+
+dtd:DD-id152 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id168 .
+
+dtd:DD-id153 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id169 .
+
+dtd:DD-id154 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id170 .
+
+dtd:DD-id158 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id171 .
+
+dtd:DD-id159 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id172 .
+
+dtd:DL-id129 a dtd:DL ;
+    dtd:has_DD dtd:DD-id132,
+        dtd:DD-id133 ;
+    dtd:has_DT dtd:DT-id130,
+        dtd:DT-id131 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id134 a dtd:DL ;
+    dtd:has_DD dtd:DD-id137,
+        dtd:DD-id138 ;
+    dtd:has_DT dtd:DT-id135,
+        dtd:DT-id136 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id139 a dtd:DL ;
+    dtd:has_DD dtd:DD-id144,
+        dtd:DD-id145,
+        dtd:DD-id146,
+        dtd:DD-id147 ;
+    dtd:has_DT dtd:DT-id140,
+        dtd:DT-id141,
+        dtd:DT-id142,
+        dtd:DT-id143 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id148 a dtd:DL ;
+    dtd:has_DD dtd:DD-id152,
+        dtd:DD-id153,
+        dtd:DD-id154 ;
+    dtd:has_DT dtd:DT-id149,
+        dtd:DT-id150,
+        dtd:DT-id151 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id155 a dtd:DL ;
+    dtd:has_DD dtd:DD-id158,
+        dtd:DD-id159 ;
+    dtd:has_DT dtd:DT-id156,
+        dtd:DT-id157 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id130 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id131 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id135 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id136 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id140 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id141 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id142 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id143 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id149 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id150 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id151 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id156 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id157 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:LA-id160 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id173 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "einem geeigneten Gefrierprozess (Tiefgefrieren) unterzogen worden sind, bei dem der Bereich der maximalen Kristallisation entsprechend der Art des Lebensmittels so schnell wie nötig durchschritten wird, mit der Wirkung, dass die Temperatur des Lebensmittels an allen seinen Punkten nach der thermischen Stabilisierung mindestens minus 18 Grad C beträgt, und"@de .
+
+dtd:LA-id161 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "mit einem Hinweis darauf, dass sie tiefgefroren sind, in den Verkehr gebracht werden."@de .
+
+dtd:LA-id162 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id174 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "beim Versand kurzfristige Schwankungen von höchstens 3 Grad C,"@de .
+
+dtd:LA-id163 a dtd:LA ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id175 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "beim örtlichen Vertrieb und in den Tiefkühlgeräten des Einzelhandels im Rahmen redlicher Aufbewahrungs- und Vertriebsverfahren Abweichungen von höchstens 3 Grad C."@de .
+
+dtd:LA-id164 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Worte \"tiefgefroren\", \"tiefgekühlt\", \"Tiefkühlkost\" oder \"gefrostet\" in Verbindung mit der Bezeichnung des Lebensmittels,"@de .
+
+dtd:LA-id165 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Zeitraum, während dessen das Lebensmittel beim Verbraucher gelagert werden kann, sowie die Aufbewahrungstemperatur oder die zur Aufbewahrung erforderliche Anlage,"@de .
+
+dtd:LA-id166 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Worte \"nach dem Auftauen nicht wieder einfrieren\" oder ein gleichsinniger Hinweis,"@de .
+
+dtd:LA-id167 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Angabe zur Feststellung der Partie."@de .
+
+dtd:LA-id168 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Bezeichnung des Lebensmittels, ergänzt um die Worte \"tiefgekühlt\", \"tiefgefroren\", \"Tiefkühlkost\" oder \"gefrostet\","@de .
+
+dtd:LA-id169 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "eine Angabe zur Feststellung der Partie,"@de .
+
+dtd:LA-id170 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Name oder die Firma und die Anschrift des Herstellers, des Verpackers oder eines in einem Mitgliedstaat der Europäischen Union oder in einem anderen Vertragsstaat des Abkommens über den Europäischen Wirtschaftsraum niedergelassenen Verkäufers."@de .
+
+dtd:LA-id171 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 2a Abs. 1, auch in Verbindung mit Abs. 2 Satz 1, nicht sicherstellt, dass die Lufttemperatur gemessen und aufgezeichnet wird, oder"@de .
+
+dtd:LA-id172 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "entgegen § 5 oder § 6 tiefgefrorene Lebensmittel, die nicht oder nicht in der vorgeschriebenen Weise gekennzeichnet sind, in den Verkehr bringt."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "Mit dieser Verordnung wird die Richtlinie 89/108/EWG des Rates vom 21. Dezember 1988 (ABl. EG Nr. L 40 S. 34) in deutsches Recht umgesetzt."@de ;
+    dtd:has_noindex dtd:noindex-id128 .
+
+dtd:P-id179 a dtd:P ;
+    dtd:has_BR dtd:BR-id122 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.11.1991 +++)(+++ Amtliche Hinweise des Normgebers auf EG-Recht:     Umsetzung der       EWGRL 108/89     (CELEX Nr: 389L0108) +++)"@de ;
+    dtd:has_pre dtd:pre-id221 .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 19 Abs. 1 Nr. 1 und 2 Buchstabe a, b und d sowie Nr. 4 Buchstabe a des Lebensmittel- und Bedarfsgegenständegesetzes vom 15. August 1974 (BGBl. I S. 1945, 1946), der durch Artikel 1 Nr. 3 des Gesetzes vom 22. Januar 1991 (BGBl. I S. 121) geändert worden ist, in Verbindung mit Artikel 56 Abs. 1 des Zuständigkeitsanpassungs-Gesetzes vom 18. März 1975 (BGBl. I S. 705) und dem Organisationserlaß vom 23. Januar 1991 (BGBl. I S. 530) verordnet der Bundesminister für Gesundheit im Einvernehmen mit den Bundesministern für Ernährung, Landwirtschaft und Forsten und für Wirtschaft:"@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_DL dtd:DL-id129 ;
+    dtd:has_Value "(1) Tiefgefrorene Lebensmittel im Sinne dieser Verordnung sind Lebensmittel, die 1.einem geeigneten Gefrierprozess (Tiefgefrieren) unterzogen worden sind, bei dem der Bereich der maximalen Kristallisation entsprechend der Art des Lebensmittels so schnell wie nötig durchschritten wird, mit der Wirkung, dass die Temperatur des Lebensmittels an allen seinen Punkten nach der thermischen Stabilisierung mindestens minus 18 Grad C beträgt, und 2.mit einem Hinweis darauf, dass sie tiefgefroren sind, in den Verkehr gebracht werden.  "@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_Value "(2) Speiseeis unterliegt nicht den Vorschriften dieser Verordnung."@de .
+
+dtd:P-id185 a dtd:P ;
+    dtd:has_Value "(3) (weggefallen)"@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_Value "(1) Zum Tiefgefrieren müssen Lebensmittel von einwandfreier handelsüblicher Qualität verwendet werden, die den nötigen Frischegrad besitzen."@de .
+
+dtd:P-id188 a dtd:P ;
+    dtd:has_Value "(2) Beim Tiefgefrieren dürfen keine anderen Gefriermittel als Luft, Stickstoff und Kohlendioxid mit dem Lebensmittel in unmittelbaren Kontakt kommen."@de .
+
+dtd:P-id189 a dtd:P ;
+    dtd:has_Value "(3) Die Zubereitung und das Tiefgefrieren müssen unverzüglich mit geeigneten Geräten ausgeführt werden."@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id222 ;
+    dtd:has_DL dtd:DL-id134 ;
+    dtd:has_Value "(4) Nach dem Tiefgefrieren muss die Temperatur bis zur Abgabe an den Verbraucher an allen Punkten des Erzeugnisses ständig bei minus 18 Grad C oder tiefer gehalten werden. Von dieser Temperatur sind folgende Abweichungen nach oben zulässig: 1.beim Versand kurzfristige Schwankungen von höchstens 3 Grad C,2.beim örtlichen Vertrieb und in den Tiefkühlgeräten des Einzelhandels im Rahmen redlicher Aufbewahrungs- und Vertriebsverfahren Abweichungen von höchstens 3 Grad C.Dem Verbraucher stehen Anbieter von Gemeinschaftsverpflegung sowie Gewerbetreibende, soweit sie Lebensmittel zum Verbrauch innerhalb ihrer Betriebsstätte beziehen, gleich."@de .
+
+dtd:P-id191 a dtd:P ;
+    dtd:has_Value "(5) Örtlicher Vertrieb im Sinne dieser Verordnung ist die lokale Auslieferung von tiefgefrorenen Lebensmitteln an den Einzelhandel, und an Anbieter von Gemeinschaftsverpflegung sowie die Direktlieferung an Privathaushalte."@de .
+
+dtd:P-id193 a dtd:P ;
+    dtd:has_Value "(1) Der für die Beförderung sowie für die Einlagerungs- und Lagereinrichtungen für tiefgefrorene Lebensmittel Verantwortliche hat sicherzustellen, dass während des Betriebs der Beförderungsmittel oder der Einlagerungs- oder Lagereinrichtungen die Lufttemperatur, der tiefgefrorene Lebensmittel ausgesetzt sind, mit Messgeräten nach Artikel 2 Abs. 1 der Verordnung (EG) Nr. 37/2005 der Kommission vom 12. Januar 2005 zur Überwachung der Temperaturen von tiefgefrorenen Lebensmitteln in Beförderungsmitteln sowie Einlagerungs- und Lagereinrichtungen (ABl. EU Nr. L 10 S. 18, Nr. L 153 S. 43) so häufig und in regelmäßigen Zeitabständen gemessen und aufgezeichnet wird, dass das Temperaturgeschehen nachvollziehbar ist."@de .
+
+dtd:P-id194 a dtd:P ;
+    dtd:has_Value "(2) Abweichend von Absatz 1 ist die Lufttemperaturmessung in Tiefkühleinrichtungen mit einem Fassungsvermögen von weniger als 10 Kubikmetern, die im Einzelhandel zur Lagerung von Reservevorräten dienen, durch den für die Lagerung Verantwortlichen mit mindestens einem gut sichtbaren Thermometer sicherzustellen. Das Thermometer muss bei offenen Tiefkühlmöbeln die Lufttemperatur auf der Seite der Luftrückführung in Höhe der maximalen Füllhöhe anzeigen. Die Füllhöhe ist deutlich zu kennzeichnen."@de .
+
+dtd:P-id196 a dtd:P ;
+    dtd:has_Value "(1) Die amtliche Überwachung der Temperaturen tiefgefrorener Lebensmittel erfolgt gemäß den Anhängen I und II der Richtlinie 92/2/EWG der Kommission vom 13. Januar 1992 zur Festlegung des Probenahmeverfahrens und des gemeinschaftlichen Analyseverfahrens für die amtliche Kontrolle der Temperaturen von tiefgefrorenen Lebensmitteln (ABl. EG Nr. L 34 S. 30). Das in Anhang II dieser Richtlinie beschriebene Temperaturmessverfahren darf nur dann angewandt werden, wenn sich auf Grund der Kontrolle berechtigte Zweifel an der Einhaltung der vorgeschriebenen Temperaturgrenzwerte ergeben haben."@de .
+
+dtd:P-id197 a dtd:P ;
+    dtd:has_Value "(2) Es können auch andere als in Absatz 1 genannte, wissenschaftlich vergleichbare Temperaturmessverfahren angewandt werden. Bei voneinander abweichenden Ergebnissen sind die mit den gemeinschaftlichen Verfahren erhaltenen Ergebnisse ausschlaggebend."@de .
+
+dtd:P-id199 a dtd:P ;
+    dtd:has_Value "Lebensmittel dürfen mit den Angaben \"tiefgefroren\", \"tiefgekühlt\", \"Tiefkühlkost\" oder \"gefrostet\" nur in den Verkehr gebracht werden, wenn sie den Anforderungen des § 1 Abs. 1 Nr. 1 und des § 2 entsprechen."@de .
+
+dtd:P-id201 a dtd:P ;
+    dtd:has_Value "Tiefgefrorene Lebensmittel, die zur Abgabe an Verbraucher bestimmt sind, dürfen nur in Verpackungen in den Verkehr gebracht werden, die das Lebensmittel vor Austrocknung sowie vor Befall durch Mikroorganismen und anderen nachteiligen Beeinflussungen von außen schützen."@de .
+
+dtd:P-id203 a dtd:P ;
+    dtd:has_DL dtd:DL-id139 ;
+    dtd:has_Value "Vorverpackte tiefgefrorene Lebensmittel, die zur Abgabe an Verbraucher bestimmt sind, dürfen nur in den Verkehr gebracht werden, wenn zusätzlich zu den Angaben, die durch die Verordnung (EU) Nr. 1169/2011 des Europäischen Parlaments und des Rates vom 25. Oktober 2011 betreffend die Information der Verbraucher über Lebensmittel und zur Änderung der Verordnungen (EG) Nr. 1924/2006 und (EG) Nr. 1925/2006 des Europäischen Parlaments und des Rates und zur Aufhebung der Richtlinie 87/250/EWG der Kommission, der Richtlinie 90/496/EWG des Rates, der Richtlinie 1999/10/EG der Kommission, der Richtlinie 2000/13/EG des Europäischen Parlaments und des Rates, der Richtlinien 2002/67/EG und 2008/5/EG der Kommission und der Verordnung (EG) Nr. 608/2004 der Kommission (ABl. L 304 vom 22.11.2011, S. 18; L 331 vom 18.11.2014, S. 41; L 50 vom 21.2.2015, S. 48; L 266 vom 30.9.2016, S. 7) in der jeweils geltenden Fassung vorgeschrieben sind, folgende Angaben angegeben sind: 1.die Worte \"tiefgefroren\", \"tiefgekühlt\", \"Tiefkühlkost\" oder \"gefrostet\" in Verbindung mit der Bezeichnung des Lebensmittels,2.der Zeitraum, während dessen das Lebensmittel beim Verbraucher gelagert werden kann, sowie die Aufbewahrungstemperatur oder die zur Aufbewahrung erforderliche Anlage,3.die Worte \"nach dem Auftauen nicht wieder einfrieren\" oder ein gleichsinniger Hinweis,4.eine Angabe zur Feststellung der Partie.Dem Verbraucher stehen Anbieter von Gemeinschaftsverpflegung sowie Gewerbetreibende, soweit sie Lebensmittel zum Verbrauch innerhalb ihrer Betriebsstätte beziehen, gleich."@de .
+
+dtd:P-id205 a dtd:P ;
+    dtd:has_DL dtd:DL-id148 ;
+    dtd:has_Value "(1) Tiefgefrorene Lebensmittel, die nicht zur Abgabe an Verbraucher bestimmt sind, dürfen nur in den Verkehr gebracht werden, wenn angegeben sind: 1.die Bezeichnung des Lebensmittels, ergänzt um die Worte \"tiefgekühlt\", \"tiefgefroren\", \"Tiefkühlkost\" oder \"gefrostet\",2.eine Angabe zur Feststellung der Partie,3.der Name oder die Firma und die Anschrift des Herstellers, des Verpackers oder eines in einem Mitgliedstaat der Europäischen Union oder in einem anderen Vertragsstaat des Abkommens über den Europäischen Wirtschaftsraum niedergelassenen Verkäufers.Dem Verbraucher stehen Anbieter von Gemeinschaftsverpflegung sowie Gewerbetreibende, soweit sie Lebensmittel zum Verbrauch innerhalb ihrer Betriebsstätte beziehen, gleich."@de .
+
+dtd:P-id206 a dtd:P ;
+    dtd:has_Value "(2) Die Angaben nach Absatz 1 müssen auf der Packung, dem Behältnis, der Umhüllung oder einem damit verbundenen Etikett angebracht werden."@de .
+
+dtd:P-id208 a dtd:P ;
+    dtd:has_Value "(1) Nach § 59 Abs. 1 Nr. 21 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches wird bestraft, wer entgegen § 3 Lebensmittel, die den dort bezeichneten Anforderungen nicht entsprechen, mit einer dort genannten Angabe in den Verkehr bringt."@de .
+
+dtd:P-id209 a dtd:P ;
+    dtd:has_Value "(2) Wer eine in Absatz 1 bezeichnete Handlung fahrlässig begeht, handelt nach § 60 Abs. 1 des Lebensmittel- und Futtermittelgesetzbuches ordnungswidrig."@de .
+
+dtd:P-id210 a dtd:P ;
+    dtd:has_DL dtd:DL-id155 ;
+    dtd:has_Value "(3) Ordnungswidrig im Sinne des § 60 Abs. 2 Nr. 26 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches handelt, wer vorsätzlich oder fahrlässig 1.entgegen § 2a Abs. 1, auch in Verbindung mit Abs. 2 Satz 1, nicht sicherstellt, dass die Lufttemperatur gemessen und aufgezeichnet wird, oder 2.entgegen § 5 oder § 6 tiefgefrorene Lebensmittel, die nicht oder nicht in der vorgeschriebenen Weise gekennzeichnet sind, in den Verkehr bringt.  "@de .
+
+dtd:P-id211 a dtd:P ;
+    dtd:has_Value "(4) Ordnungswidrig im Sinne des § 60 Abs. 2 Nr. 26 Buchstabe b des Lebensmittel- und Futtermittelgesetzbuches handelt, wer vorsätzlich oder fahrlässig entgegen § 4 ein tiefgefrorenes Lebensmittel in den Verkehr bringt."@de .
+
+dtd:P-id212 a dtd:P ;
+    dtd:has_Value "(5) Ordnungswidrig im Sinne des § 60 Abs. 4 Nr. 2 Buchstabe a des Lebensmittel- und Futtermittelgesetzbuches handelt, wer vorsätzlich oder fahrlässig entgegen Artikel 2 Abs. 3 der Verordnung (EG) Nr. 37/2005 der Kommission vom 12. Januar 2005 zur Überwachung der Temperaturen von tiefgefrorenen Lebensmitteln in Beförderungsmitteln sowie Einlagerungs- und Lagereinrichtungen (ABl. EU Nr. L 10 S. 18, Nr. L 153 S. 43) eine Aufzeichnung nicht oder nicht mindestens ein Jahr aufbewahrt."@de .
+
+dtd:P-id214 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id216 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id218 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id220 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtabk-id48 a dtd:amtabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id49 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1991-10-29"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id55 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 2a"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 2b"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id78 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id81 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id84 a dtd:enbez ;
+    dtd:has_Value "§ 7a"@de .
+
+dtd:enbez-id87 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id90 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:enbez-id92 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:fundstelle-id50 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id223 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id224 .
+
+dtd:fussnoten-id100 a dtd:fussnoten .
+
+dtd:fussnoten-id102 a dtd:fussnoten .
+
+dtd:fussnoten-id104 a dtd:fussnoten .
+
+dtd:fussnoten-id106 a dtd:fussnoten .
+
+dtd:fussnoten-id108 a dtd:fussnoten .
+
+dtd:fussnoten-id110 a dtd:fussnoten .
+
+dtd:fussnoten-id112 a dtd:fussnoten .
+
+dtd:fussnoten-id114 a dtd:fussnoten .
+
+dtd:fussnoten-id116 a dtd:fussnoten .
+
+dtd:fussnoten-id118 a dtd:fussnoten .
+
+dtd:fussnoten-id121 a dtd:fussnoten .
+
+dtd:fussnoten-id95 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id178 .
+
+dtd:fussnoten-id98 a dtd:fussnoten .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id54 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id80 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id83 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id86 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id89 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:jurabk-id91 a dtd:jurabk ;
+    dtd:has_Value "TLMV"@de .
+
+dtd:langue-id51 a dtd:langue ;
+    dtd:has_Value "Verordnung über tiefgefrorene Lebensmittel"@de .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id48 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id49 ;
+    dtd:has_fundstelle dtd:fundstelle-id50 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_langue dtd:langue-id51 ;
+    dtd:has_standangabe dtd:standangabe-id52,
+        dtd:standangabe-id53 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id55 ;
+    dtd:has_jurabk dtd:jurabk-id54 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:metadaten-id35 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id78 ;
+    dtd:has_jurabk dtd:jurabk-id77 ;
+    dtd:has_titel dtd:titel-id79 .
+
+dtd:metadaten-id37 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id81 ;
+    dtd:has_jurabk dtd:jurabk-id80 ;
+    dtd:has_titel dtd:titel-id82 .
+
+dtd:metadaten-id39 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id84 ;
+    dtd:has_jurabk dtd:jurabk-id83 ;
+    dtd:has_titel dtd:titel-id85 .
+
+dtd:metadaten-id41 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id87 ;
+    dtd:has_jurabk dtd:jurabk-id86 ;
+    dtd:has_titel dtd:titel-id88 .
+
+dtd:metadaten-id43 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id90 ;
+    dtd:has_jurabk dtd:jurabk-id89 .
+
+dtd:metadaten-id45 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id92 ;
+    dtd:has_jurabk dtd:jurabk-id91 ;
+    dtd:has_titel dtd:titel-id93 .
+
+dtd:noindex-id128 a dtd:noindex .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000603116"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000705116"@de ;
+    dtd:has_metadaten dtd:metadaten-id35 ;
+    dtd:has_textdaten dtd:textdaten-id36 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000803310"@de ;
+    dtd:has_metadaten dtd:metadaten-id37 ;
+    dtd:has_textdaten dtd:textdaten-id38 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE001302310"@de ;
+    dtd:has_metadaten dtd:metadaten-id39 ;
+    dtd:has_textdaten dtd:textdaten-id40 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000901310"@de ;
+    dtd:has_metadaten dtd:metadaten-id41 ;
+    dtd:has_textdaten dtd:textdaten-id42 .
+
+dtd:norm-id15 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE001000307"@de ;
+    dtd:has_metadaten dtd:metadaten-id43 ;
+    dtd:has_textdaten dtd:textdaten-id44 .
+
+dtd:norm-id16 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE001401310"@de ;
+    dtd:has_metadaten dtd:metadaten-id45 ;
+    dtd:has_textdaten dtd:textdaten-id46 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000203310"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000304116"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE001102310"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE001201310"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000402116"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20171016220516"@de ;
+    dtd:has_doknr "BJNR020510991BJNE000503116"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:periodikum-id223 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id221 a dtd:pre ;
+    dtd:has_BR dtd:BR-id123,
+        dtd:BR-id124,
+        dtd:BR-id125,
+        dtd:BR-id126,
+        dtd:BR-id127 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.11.1991 +++)(+++ Amtliche Hinweise des Normgebers auf EG-Recht:     Umsetzung der       EWGRL 108/89     (CELEX Nr: 389L0108) +++)"@de .
+
+dtd:standangabe-id52 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id226 ;
+    dtd:has_standtyp dtd:standtyp-id225 .
+
+dtd:standangabe-id53 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id228 ;
+    dtd:has_standtyp dtd:standtyp-id227 .
+
+dtd:standkommentar-id226 a dtd:standkommentar ;
+    dtd:has_Value "Neugefasst durch Bek. v. 22.2.2007 I 258"@de .
+
+dtd:standkommentar-id228 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 4 V v. 5.7.2017 I 2272"@de .
+
+dtd:standtyp-id225 a dtd:standtyp ;
+    dtd:has_Value "Neuf"@de .
+
+dtd:standtyp-id227 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id101 a dtd:text ;
+    dtd:has_Content dtd:Content-id192 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id103 a dtd:text ;
+    dtd:has_Content dtd:Content-id195 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id105 a dtd:text ;
+    dtd:has_Content dtd:Content-id198 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id107 a dtd:text ;
+    dtd:has_Content dtd:Content-id200 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id109 a dtd:text ;
+    dtd:has_Content dtd:Content-id202 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id111 a dtd:text ;
+    dtd:has_Content dtd:Content-id204 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id113 a dtd:text ;
+    dtd:has_Content dtd:Content-id207 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id115 a dtd:text ;
+    dtd:has_Content dtd:Content-id213 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id117 a dtd:text ;
+    dtd:has_Content dtd:Content-id215 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id119 a dtd:text ;
+    dtd:has_Content dtd:Content-id217 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id120 a dtd:text ;
+    dtd:has_Content dtd:Content-id219 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id176 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id180 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id97 a dtd:text ;
+    dtd:has_Content dtd:Content-id182 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id99 a dtd:text ;
+    dtd:has_Content dtd:Content-id186 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id95 ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id98 ;
+    dtd:has_text dtd:text-id97 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id100 ;
+    dtd:has_text dtd:text-id99 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id102 ;
+    dtd:has_text dtd:text-id101 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id104 ;
+    dtd:has_text dtd:text-id103 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id106 ;
+    dtd:has_text dtd:text-id105 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id108 ;
+    dtd:has_text dtd:text-id107 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id110 ;
+    dtd:has_text dtd:text-id109 .
+
+dtd:textdaten-id36 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id112 ;
+    dtd:has_text dtd:text-id111 .
+
+dtd:textdaten-id38 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id114 ;
+    dtd:has_text dtd:text-id113 .
+
+dtd:textdaten-id40 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id116 ;
+    dtd:has_text dtd:text-id115 .
+
+dtd:textdaten-id42 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id118 ;
+    dtd:has_text dtd:text-id117 .
+
+dtd:textdaten-id44 a dtd:textdaten ;
+    dtd:has_text dtd:text-id119 .
+
+dtd:textdaten-id46 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id121 ;
+    dtd:has_text dtd:text-id120 .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Begriffsbestimmung, Anwendungsbereich"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Anforderungen an das Herstellen und Behandeln"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Lufttemperaturmessung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Amtliche Lebensmittelüberwachung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Bezeichnungsschutz"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Verpackung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Kennzeichnung von Erzeugnissen für Verbraucher"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id79 a dtd:titel ;
+    dtd:has_Value "Kennzeichnung von Erzeugnissen, die nicht für Verbraucher bestimmt sind"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id82 a dtd:titel ;
+    dtd:has_Value "Straftaten und Ordnungswidrigkeiten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id85 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id88 a dtd:titel ;
+    dtd:has_Value "(Inkrafttreten)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id93 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id224 a dtd:zitstelle ;
+    dtd:has_Value "1991, 2051"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

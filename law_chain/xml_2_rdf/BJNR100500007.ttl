@@ -1,0 +1,593 @@
+@prefix dtd: <urn:VerklV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154611"@de ;
+    dtd:has_doknr "BJNR100500007"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5 .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:BR-id33 a dtd:BR .
+
+dtd:BR-id34 a dtd:BR .
+
+dtd:BR-id35 a dtd:BR .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120 .
+
+dtd:Content-id121 a dtd:Content ;
+    dtd:has_P dtd:P-id122 .
+
+dtd:Content-id123 a dtd:Content ;
+    dtd:has_P dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id122 a dtd:P ;
+    dtd:has_BR dtd:BR-id32 ;
+    dtd:has_Value " (+++ Textnachweis ab: 13.6.2007 +++)"@de ;
+    dtd:has_pre dtd:pre-id129 .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 522 Abs. 2 des Handelsgesetzbuchs in der im Bundesgesetzblatt Teil III, Gliederungsnummer 4100-1, veröffentlichten bereinigten Fassung, der durch Artikel 1 Nr. 12 des Gesetzes vom 21. Juni 1972 (BGBl. I S. 966) neu gefasst und durch Artikel 91 Nr. 5 der Verordnung vom 29. Oktober 2001 (BGBl. I S. 2785) geändert worden ist, verordnet das Auswärtige Amt:"@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_BR dtd:BR-id35,
+        dtd:BR-id36,
+        dtd:BR-id37,
+        dtd:BR-id38 ;
+    dtd:has_Value "Außerhalb des Geltungsbereichs des Grundgesetzes werden Verklarungen durch folgende Auslandsvertretungen aufgenommen: Botschaften der Bundesrepublik Deutschland inAddis AbebaLimaAlgierLissabonAthenLondonBangkokMontevideoBeirutMoskauBogotáOsloBrüsselParisBuenos AiresRomBukarestSantiago de ChileCanberraSingapurCaracasStockholmDen HaagTeheranDublinTel AvivHelsinkiTokyoKairoWashingtonKopenhagenZagrebGeneralkonsulate der Bundesrepublik Deutschland inBarcelonaMumbaiChicagoNew YorkHongkongRio de JaneiroIstanbulSão PauloKarachiSt. PetersburgLos AngelesToronto."@de ;
+    dtd:has_table dtd:table-id39,
+        dtd:table-id41 .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id15 a dtd:amtabk ;
+    dtd:has_Value "VerklV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id16 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2007-05-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:colspec-id43 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "33.33*"@de .
+
+dtd:colspec-id44 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "66.67*"@de .
+
+dtd:colspec-id46 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colwidth "33.33*"@de .
+
+dtd:colspec-id47 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colwidth "66.67*"@de .
+
+dtd:enbez-id21 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:entry-id100 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Helsinki"@de .
+
+dtd:entry-id101 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Tokyo"@de .
+
+dtd:entry-id102 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kairo"@de .
+
+dtd:entry-id103 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Washington"@de .
+
+dtd:entry-id104 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Kopenhagen"@de .
+
+dtd:entry-id105 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Zagreb"@de .
+
+dtd:entry-id106 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Generalkonsulate der Bundesrepublik Deutschland in"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id107 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Barcelona"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id108 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mumbai"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id109 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Chicago"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id110 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "New York"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id111 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Hongkong"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id112 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rio de Janeiro"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id113 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Istanbul"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id114 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "São Paulo"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id115 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Karachi"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id116 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "St. Petersburg"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id117 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Los Angeles"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id118 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Toronto."@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_rowsep "0"@de .
+
+dtd:entry-id73 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Botschaften der Bundesrepublik Deutschland in"@de ;
+    dtd:has_nameend "col2"@de ;
+    dtd:has_namest "col1"@de .
+
+dtd:entry-id74 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Addis Abeba"@de .
+
+dtd:entry-id75 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lima"@de .
+
+dtd:entry-id76 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Algier"@de .
+
+dtd:entry-id77 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Lissabon"@de .
+
+dtd:entry-id78 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Athen"@de .
+
+dtd:entry-id79 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "London"@de .
+
+dtd:entry-id80 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bangkok"@de .
+
+dtd:entry-id81 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Montevideo"@de .
+
+dtd:entry-id82 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Beirut"@de .
+
+dtd:entry-id83 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Moskau"@de .
+
+dtd:entry-id84 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bogotá"@de .
+
+dtd:entry-id85 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Oslo"@de .
+
+dtd:entry-id86 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Brüssel"@de .
+
+dtd:entry-id87 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Paris"@de .
+
+dtd:entry-id88 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Buenos Aires"@de .
+
+dtd:entry-id89 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Rom"@de .
+
+dtd:entry-id90 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bukarest"@de .
+
+dtd:entry-id91 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Santiago de Chile"@de .
+
+dtd:entry-id92 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Canberra"@de .
+
+dtd:entry-id93 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Singapur"@de .
+
+dtd:entry-id94 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Caracas"@de .
+
+dtd:entry-id95 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Stockholm"@de .
+
+dtd:entry-id96 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Den Haag"@de .
+
+dtd:entry-id97 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Teheran"@de .
+
+dtd:entry-id98 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Dublin"@de .
+
+dtd:entry-id99 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Tel Aviv"@de .
+
+dtd:fundstelle-id17 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id130 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id131 .
+
+dtd:fussnoten-id27 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id121 .
+
+dtd:fussnoten-id31 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id14 a dtd:jurabk ;
+    dtd:has_Value "VerklV"@de .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "VerklV"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "VerklV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "VerklV"@de .
+
+dtd:kurzue-id18 a dtd:kurzue ;
+    dtd:has_Value "Verklarungsverordnung"@de .
+
+dtd:langue-id19 a dtd:langue ;
+    dtd:has_Value """Verordnung über die Bestimmung der zur Aufnahme von Verklarungen
+berechtigten Auslandsvertretungen der Bundesrepublik Deutschland"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id15 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id16 ;
+    dtd:has_fundstelle dtd:fundstelle-id17 ;
+    dtd:has_jurabk dtd:jurabk-id14 ;
+    dtd:has_kurzue dtd:kurzue-id18 ;
+    dtd:has_langue dtd:langue-id19 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id21 ;
+    dtd:has_jurabk dtd:jurabk-id20 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154611"@de ;
+    dtd:has_doknr "BJNR100500007"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154611"@de ;
+    dtd:has_doknr "BJNR100500007BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154611"@de ;
+    dtd:has_doknr "BJNR100500007BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154611"@de ;
+    dtd:has_doknr "BJNR100500007BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:periodikum-id130 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id129 a dtd:pre ;
+    dtd:has_BR dtd:BR-id33,
+        dtd:BR-id34 ;
+    dtd:has_Value "(+++ Textnachweis ab: 13.6.2007 +++)"@de .
+
+dtd:row-id49 a dtd:row ;
+    dtd:has_entry dtd:entry-id73 .
+
+dtd:row-id50 a dtd:row ;
+    dtd:has_entry dtd:entry-id74,
+        dtd:entry-id75 .
+
+dtd:row-id51 a dtd:row ;
+    dtd:has_entry dtd:entry-id76,
+        dtd:entry-id77 .
+
+dtd:row-id52 a dtd:row ;
+    dtd:has_entry dtd:entry-id78,
+        dtd:entry-id79 .
+
+dtd:row-id53 a dtd:row ;
+    dtd:has_entry dtd:entry-id80,
+        dtd:entry-id81 .
+
+dtd:row-id54 a dtd:row ;
+    dtd:has_entry dtd:entry-id82,
+        dtd:entry-id83 .
+
+dtd:row-id55 a dtd:row ;
+    dtd:has_entry dtd:entry-id84,
+        dtd:entry-id85 .
+
+dtd:row-id56 a dtd:row ;
+    dtd:has_entry dtd:entry-id86,
+        dtd:entry-id87 .
+
+dtd:row-id57 a dtd:row ;
+    dtd:has_entry dtd:entry-id88,
+        dtd:entry-id89 .
+
+dtd:row-id58 a dtd:row ;
+    dtd:has_entry dtd:entry-id90,
+        dtd:entry-id91 .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id92,
+        dtd:entry-id93 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id94,
+        dtd:entry-id95 .
+
+dtd:row-id61 a dtd:row ;
+    dtd:has_entry dtd:entry-id96,
+        dtd:entry-id97 .
+
+dtd:row-id62 a dtd:row ;
+    dtd:has_entry dtd:entry-id98,
+        dtd:entry-id99 .
+
+dtd:row-id63 a dtd:row ;
+    dtd:has_entry dtd:entry-id100,
+        dtd:entry-id101 .
+
+dtd:row-id64 a dtd:row ;
+    dtd:has_entry dtd:entry-id102,
+        dtd:entry-id103 .
+
+dtd:row-id65 a dtd:row ;
+    dtd:has_entry dtd:entry-id104,
+        dtd:entry-id105 .
+
+dtd:row-id66 a dtd:row ;
+    dtd:has_entry dtd:entry-id106 .
+
+dtd:row-id67 a dtd:row ;
+    dtd:has_entry dtd:entry-id107,
+        dtd:entry-id108 .
+
+dtd:row-id68 a dtd:row ;
+    dtd:has_entry dtd:entry-id109,
+        dtd:entry-id110 .
+
+dtd:row-id69 a dtd:row ;
+    dtd:has_entry dtd:entry-id111,
+        dtd:entry-id112 .
+
+dtd:row-id70 a dtd:row ;
+    dtd:has_entry dtd:entry-id113,
+        dtd:entry-id114 .
+
+dtd:row-id71 a dtd:row ;
+    dtd:has_entry dtd:entry-id115,
+        dtd:entry-id116 .
+
+dtd:row-id72 a dtd:row ;
+    dtd:has_entry dtd:entry-id117,
+        dtd:entry-id118 .
+
+dtd:table-id39 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id40 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:table-id41 a dtd:table ;
+    dtd:has_frame dtd:none ;
+    dtd:has_pgwide "1"@de ;
+    dtd:has_tgroup dtd:tgroup-id42 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id45 a dtd:tbody ;
+    dtd:has_row dtd:row-id49,
+        dtd:row-id50,
+        dtd:row-id51,
+        dtd:row-id52,
+        dtd:row-id53,
+        dtd:row-id54,
+        dtd:row-id55,
+        dtd:row-id56,
+        dtd:row-id57,
+        dtd:row-id58,
+        dtd:row-id59,
+        dtd:row-id60,
+        dtd:row-id61,
+        dtd:row-id62,
+        dtd:row-id63,
+        dtd:row-id64,
+        dtd:row-id65 ;
+    dtd:has_valign dtd:top .
+
+dtd:tbody-id48 a dtd:tbody ;
+    dtd:has_row dtd:row-id66,
+        dtd:row-id67,
+        dtd:row-id68,
+        dtd:row-id69,
+        dtd:row-id70,
+        dtd:row-id71,
+        dtd:row-id72 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id123 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id29 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id30 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id29 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 ;
+    dtd:has_text dtd:text-id30 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:tgroup-id40 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_colspec dtd:colspec-id43,
+        dtd:colspec-id44 ;
+    dtd:has_rowsep "0"@de ;
+    dtd:has_tbody dtd:tbody-id45 .
+
+dtd:tgroup-id42 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "2"@de ;
+    dtd:has_colspec dtd:colspec-id46,
+        dtd:colspec-id47 ;
+    dtd:has_tbody dtd:tbody-id48 .
+
+dtd:zitstelle-id131 a dtd:zitstelle ;
+    dtd:has_Value "2007, 1005"@de .
+
+dtd:left rdfs:label "left"@de .
+
+dtd:none rdfs:label "none"@de .
+
+dtd:top rdfs:label "top"@de .
+

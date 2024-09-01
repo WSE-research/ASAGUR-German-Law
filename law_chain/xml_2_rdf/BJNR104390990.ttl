@@ -1,0 +1,172 @@
+@prefix dtd: <urn:IntKonnBek-1990#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130959"@de ;
+    dtd:has_doknr "BJNR104390990"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:BR-id19 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:DD-id23 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id30 .
+
+dtd:DD-id26 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id31 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id32 .
+
+dtd:DL-id21 a dtd:DL ;
+    dtd:has_DD dtd:DD-id23 ;
+    dtd:has_DT dtd:DT-id22 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id24 a dtd:DL ;
+    dtd:has_DD dtd:DD-id26 ;
+    dtd:has_DT dtd:DT-id25 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id27 a dtd:DL ;
+    dtd:has_DD dtd:DD-id29 ;
+    dtd:has_DT dtd:DT-id28 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id22 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id25 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:DT-id28 a dtd:DT ;
+    dtd:has_Value ""@de .
+
+dtd:LA-id30 a dtd:LA ;
+    dtd:has_DL dtd:DL-id24 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Argentinien"@de .
+
+dtd:LA-id31 a dtd:LA ;
+    dtd:has_DL dtd:DL-id27 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Argentinien"@de .
+
+dtd:LA-id32 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Argentinien"@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 13.3.1990 +++)"@de .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18,
+        dtd:BR-id19 ;
+    dtd:has_DL dtd:DL-id21 ;
+    dtd:has_SP dtd:SP-id20 ;
+    dtd:has_Value "Die nach Artikel 6 Abs. 3 des Einführungsgesetzes zum Handelsgesetzbuch durch Bekanntmachung vom 25. Juli 1986 (BGBl. I S. 1162) bekanntgegebene Liste der Vertragsparteien des Internationalen Abkommens vom 25. August 1924 zur Vereinheitlichung von Regeln über Konnossemente in der Fassung des Änderungsprotokolls vom 23. Februar 1968 wird dahingehend berichtigt, daß Argentiniennicht zu den Vertragsparteien des Änderungsprotokolls vom 23. Februar 1968 gehört.Diese Bekanntmachung ergeht im Anschluß an die Bekanntmachung vom 9. Oktober 1986 (BGBl. I S. 1654).Der Bundesminister der Justiz"@de .
+
+dtd:SP-id20 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister der Justiz"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1990-03-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id39 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id40 .
+
+dtd:fussnoten-id15 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id35 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "IntKonnBek 1990"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "IntKonnBek 1990"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value """Bekanntmachung nach Artikel 6 Abs. 3 des Einführungsgesetzes zum
+Handelsgesetzbuch"""@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130959"@de ;
+    dtd:has_doknr "BJNR104390990"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130959"@de ;
+    dtd:has_doknr "BJNR104390990BJNE000100308"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id39 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id14 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id16 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id15 ;
+    dtd:has_text dtd:text-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id16 .
+
+dtd:zitstelle-id40 a dtd:zitstelle ;
+    dtd:has_Value "1990, 439"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

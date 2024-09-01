@@ -1,0 +1,384 @@
+@prefix dtd: <urn:EJKoV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200212213007"@de ;
+    dtd:has_doknr "BJNR209310012"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id44 a dtd:BR .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:BR-id50 a dtd:BR .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81 .
+
+dtd:Content-id82 a dtd:Content ;
+    dtd:has_P dtd:P-id83 .
+
+dtd:Content-id84 a dtd:Content ;
+    dtd:has_P dtd:P-id85 .
+
+dtd:Content-id86 a dtd:Content ;
+    dtd:has_P dtd:P-id87,
+        dtd:P-id88,
+        dtd:P-id89 .
+
+dtd:DD-id54 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id70 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id74 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id71 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id72 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id73 .
+
+dtd:DD-id67 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id75 .
+
+dtd:DD-id68 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id76 .
+
+dtd:DD-id69 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id77 .
+
+dtd:DL-id51 a dtd:DL ;
+    dtd:has_DD dtd:DD-id54,
+        dtd:DD-id55 ;
+    dtd:has_DT dtd:DT-id52,
+        dtd:DT-id53 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DL-id63 a dtd:DL ;
+    dtd:has_DD dtd:DD-id67,
+        dtd:DD-id68,
+        dtd:DD-id69 ;
+    dtd:has_DT dtd:DT-id64,
+        dtd:DT-id65,
+        dtd:DT-id66 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id64 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id65 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id66 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id70 a dtd:LA ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "das Bundesamt für Justiz für das a)Netzwerk nationaler Experten für gemeinsame Ermittlungsgruppen,b)Netzwerk im Sinne des Beschlusses 2002/494/JI des Rates vom 13. Juni 2002 zur Einrichtung eines Europäischen Netzes von Anlaufstellen betreffend Personen, die für Völkermord, Verbrechen gegen die Menschlichkeit und Kriegsverbrechen verantwortlich sind (ABl. L 167 vom 26.6.2002, S. 1),c)Netzwerk im Sinne des Beschlusses 2007/845/JI des Rates vom 6. Dezember 2007 über die Zusammenarbeit zwischen den Vermögensabschöpfungsstellen der Mitgliedstaaten auf dem Gebiet des Aufspürens und der Ermittlung von Erträgen aus Straftaten oder anderen Vermögensgegenständen im Zusammenhang mit Straftaten (ABl. L 332 vom 18.12.2007, S. 103) und"@de .
+
+dtd:LA-id71 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Netzwerk nationaler Experten für gemeinsame Ermittlungsgruppen,"@de .
+
+dtd:LA-id72 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Netzwerk im Sinne des Beschlusses 2002/494/JI des Rates vom 13. Juni 2002 zur Einrichtung eines Europäischen Netzes von Anlaufstellen betreffend Personen, die für Völkermord, Verbrechen gegen die Menschlichkeit und Kriegsverbrechen verantwortlich sind (ABl. L 167 vom 26.6.2002, S. 1),"@de .
+
+dtd:LA-id73 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Netzwerk im Sinne des Beschlusses 2007/845/JI des Rates vom 6. Dezember 2007 über die Zusammenarbeit zwischen den Vermögensabschöpfungsstellen der Mitgliedstaaten auf dem Gebiet des Aufspürens und der Ermittlung von Erträgen aus Straftaten oder anderen Vermögensgegenständen im Zusammenhang mit Straftaten (ABl. L 332 vom 18.12.2007, S. 103) und"@de .
+
+dtd:LA-id74 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Justizbehörde, die von der Bundesregierung für das Netzwerk im Sinne des Beschlusses 2008/852/JI des Rates vom 24. Oktober 2008 über ein Kontaktstellennetz zur Korruptionsbekämpfung (ABl. L 301 vom 12.11.2008, S. 38) benannt ist."@de .
+
+dtd:LA-id75 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Eurojust-Anlaufstellen,"@de .
+
+dtd:LA-id76 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "den Eurojust-Kontaktstellen und"@de .
+
+dtd:LA-id77 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Generalbundesanwalt beim Bundesgerichtshof als nationaler Anlaufstelle im Sinne von § 1 der Eurojust-Anlaufstellen-Verordnung"@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_BR dtd:BR-id44 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.10.2012 +++) Die V wurde als Art. 1 der V v. 26.9.2012 I 2093 vom Bundesministerium der Justiz mit Zustimmung des Bundesrates erlassen. Sie tritt gem. Art. 3 dieser V am 9.10.2012 in Kraft."@de ;
+    dtd:has_pre dtd:pre-id90 .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "Diese Verordnung regelt die Zusammenarbeit zwischen Eurojust-Anlaufstellen, Eurojust-Kontaktstellen und Eurojust."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_Value "Das Bundesamt für Justiz, der Generalbundesanwalt beim Bundesgerichtshof und die von den Landesregierungen bestimmten Kontaktstellen nach § 12 Absatz 2 des Eurojust-Gesetzes sind zugleich Eurojust-Anlaufstellen nach Artikel 20 Absatz 1 der Verordnung (EU) 2018/1727 des Europäischen Parlaments und des Rates vom 14. November 2018 betreffend die Agentur der Europäischen Union für justizielle Zusammenarbeit in Strafsachen (Eurojust) und zur Ersetzung und Aufhebung des Beschlusses 2002/187/JI des Rates (ABl. L 295 vom 21.11.2018, S. 138 – Eurojust-Verordnung)."@de .
+
+dtd:P-id85 a dtd:P ;
+    dtd:has_DL dtd:DL-id51 ;
+    dtd:has_Value "Kontaktstellen nach Artikel 20 Absatz 3 Buchstabe e der Eurojust-Verordnung (Eurojust-Kontaktstellen) sind:1.das Bundesamt für Justiz für das a)Netzwerk nationaler Experten für gemeinsame Ermittlungsgruppen,b)Netzwerk im Sinne des Beschlusses 2002/494/JI des Rates vom 13. Juni 2002 zur Einrichtung eines Europäischen Netzes von Anlaufstellen betreffend Personen, die für Völkermord, Verbrechen gegen die Menschlichkeit und Kriegsverbrechen verantwortlich sind (ABl. L 167 vom 26.6.2002, S. 1),c)Netzwerk im Sinne des Beschlusses 2007/845/JI des Rates vom 6. Dezember 2007 über die Zusammenarbeit zwischen den Vermögensabschöpfungsstellen der Mitgliedstaaten auf dem Gebiet des Aufspürens und der Ermittlung von Erträgen aus Straftaten oder anderen Vermögensgegenständen im Zusammenhang mit Straftaten (ABl. L 332 vom 18.12.2007, S. 103) und2.die Justizbehörde, die von der Bundesregierung für das Netzwerk im Sinne des Beschlusses 2008/852/JI des Rates vom 24. Oktober 2008 über ein Kontaktstellennetz zur Korruptionsbekämpfung (ABl. L 301 vom 12.11.2008, S. 38) benannt ist."@de .
+
+dtd:P-id87 a dtd:P ;
+    dtd:has_DL dtd:DL-id63 ;
+    dtd:has_Value "(1) Zur Koordinierung der Zusammenarbeit zwischen 1.den Eurojust-Anlaufstellen,2.den Eurojust-Kontaktstellen und3.dem Generalbundesanwalt beim Bundesgerichtshof als nationaler Anlaufstelle im Sinne von § 1 der Eurojust-Anlaufstellen-Verordnungwird ein nationales Eurojust-Koordinierungssystem eingerichtet."@de .
+
+dtd:P-id88 a dtd:P ;
+    dtd:has_Value "(2) Die Eurojust-Anlaufstellen sind für die Organisation des Eurojust-Koordinierungssystems zuständig. Das Bundesamt für Justiz nimmt diese Aufgabe im Einvernehmen mit den übrigen Eurojust-Anlaufstellen wahr."@de .
+
+dtd:P-id89 a dtd:P ;
+    dtd:has_Value "(3) Neben der Wahrnehmung der in Artikel 20 Absatz 7 der Eurojust-Verordnung genannten Aufgaben unterstützt das nationale Eurojust-Koordinierungssystem das nationale Mitglied in sonstiger Weise bei der Erfüllung von dessen Aufgaben nach den Artikeln 2 und 4 der Eurojust-Verordnung."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "EJKoV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2012-09-26"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id91 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id92 .
+
+dtd:fussnoten-id36 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id78 .
+
+dtd:fussnoten-id39 a dtd:fussnoten .
+
+dtd:fussnoten-id41 a dtd:fussnoten .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "EJKoV"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "EJKoV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "EJKoV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "EJKoV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "EJKoV"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Eurojust-Koordinierungs-Verordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Koordinierung der Zusammenarbeit mit Eurojust"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 ;
+    dtd:has_standangabe dtd:standangabe-id23 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id24 ;
+    dtd:has_titel dtd:titel-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200212213007"@de ;
+    dtd:has_doknr "BJNR209310012"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200212213007"@de ;
+    dtd:has_doknr "BJNR209310012BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200212213007"@de ;
+    dtd:has_doknr "BJNR209310012BJNE000201125"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200212213007"@de ;
+    dtd:has_doknr "BJNR209310012BJNE000301125"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200212213007"@de ;
+    dtd:has_doknr "BJNR209310012BJNE000401125"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id91 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id90 a dtd:pre ;
+    dtd:has_BR dtd:BR-id45,
+        dtd:BR-id46,
+        dtd:BR-id47,
+        dtd:BR-id48,
+        dtd:BR-id49,
+        dtd:BR-id50 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.10.2012 +++) Die V wurde als Art. 1 der V v. 26.9.2012 I 2093 vom Bundesministerium der Justiz mit Zustimmung des Bundesrates erlassen. Sie tritt gem. Art. 3 dieser V am 9.10.2012 in Kraft."@de .
+
+dtd:standangabe-id23 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id94 ;
+    dtd:has_standtyp dtd:standtyp-id93 .
+
+dtd:standkommentar-id94 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 3 Abs. 3 G v. 9.12.2019 I 2010"@de .
+
+dtd:standtyp-id93 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id82 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id84 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id86 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id36 .
+
+dtd:titel-id26 a dtd:titel ;
+    dtd:has_Value "Gegenstand der Verordnung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Eurojust-Anlaufstellen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Eurojust-Kontaktstellen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Nationales Eurojust-Koordinierungssystem"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id92 a dtd:zitstelle ;
+    dtd:has_Value "2012, 2093"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

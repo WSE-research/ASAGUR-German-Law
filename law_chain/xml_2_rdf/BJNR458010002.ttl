@@ -1,0 +1,180 @@
+@prefix dtd: <urn:BinSchÜbertragungsV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20160819215701"@de ;
+    dtd:has_doknr "BJNR458010002"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4 .
+
+dtd:BR-id30 a dtd:BR .
+
+dtd:BR-id31 a dtd:BR .
+
+dtd:BR-id32 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:Content-id37 a dtd:Content ;
+    dtd:has_P dtd:P-id38 .
+
+dtd:Content-id39 a dtd:Content ;
+    dtd:has_P dtd:P-id40 .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_BR dtd:BR-id30 ;
+    dtd:has_Value " (+++ Textnachweis ab:  1. 1.2003 +++)Die V wurde als Artikel 1 der V v. 18.12.2002 I 4580 vom Bundesministerium für Verkehr, Bau- und Wohnungswesen und dem Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit im Einvernehmen mit dem Bundesministerium für Wirtschaft und Arbeit erlassen. Sie ist gem. Art. 12 dieser V am 1.1.2003 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id41 .
+
+dtd:P-id38 a dtd:P ;
+    dtd:has_Value "Die Generaldirektion Wasserstraßen und Schifffahrt wird ermächtigt, im Rahmen des § 1 Abs. 1 Nr. 2, 4 und 5 des Binnenschifffahrtsaufgabengesetzes für die Eder- und die Diemeltalsperre Rechtsverordnungen nach § 3 Abs. 1 Nr. 1 bis 6 und Abs. 6 auch in Verbindung mit Abs. 7 zu erlassen."@de .
+
+dtd:P-id40 a dtd:P ;
+    dtd:has_Value "Die Generaldirektion Wasserstraßen und Schifffahrt wird ermächtigt, die Entgelte für die Leistungen der Binnenlotsen auf der Bundeswasserstraße Rhein oberhalb Mannheim/Ludwigshafen durch Rechtsverordnung nach § 3b des Binnenschifffahrtsaufgabengesetzes im Benehmen mit den beteiligten Ländern und nach Anhörung der beteiligten Verbände der Binnenschifffahrt sowie von Vertretern der beteiligten Lotsen festzusetzen."@de .
+
+dtd:amtabk-id12 a dtd:amtabk ;
+    dtd:has_Value "BinSchÜbertragungsV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id13 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2002-12-18"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id19 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id22 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:fundstelle-id14 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id42 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id43 .
+
+dtd:fussnoten-id25 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id35 .
+
+dtd:fussnoten-id27 a dtd:fussnoten .
+
+dtd:fussnoten-id29 a dtd:fussnoten .
+
+dtd:jurabk-id11 a dtd:jurabk ;
+    dtd:has_Value "BinSchÜbertragungsV"@de .
+
+dtd:jurabk-id18 a dtd:jurabk ;
+    dtd:has_Value "BinSchÜbertragungsV"@de .
+
+dtd:jurabk-id21 a dtd:jurabk ;
+    dtd:has_Value "BinSchÜbertragungsV"@de .
+
+dtd:kurzue-id15 a dtd:kurzue ;
+    dtd:has_Value "Binnenschifffahrt-Übertragungsverordnung"@de .
+
+dtd:langue-id16 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Übertragung von Befugnissen zum Erlassen von
+Rechtsverordnungen im Bereich der Binnenschifffahrt"""@de .
+
+dtd:metadaten-id5 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id12 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id13 ;
+    dtd:has_fundstelle dtd:fundstelle-id14 ;
+    dtd:has_jurabk dtd:jurabk-id11 ;
+    dtd:has_kurzue dtd:kurzue-id15 ;
+    dtd:has_langue dtd:langue-id16 ;
+    dtd:has_standangabe dtd:standangabe-id17 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id19 ;
+    dtd:has_jurabk dtd:jurabk-id18 ;
+    dtd:has_titel dtd:titel-id20 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id22 ;
+    dtd:has_jurabk dtd:jurabk-id21 ;
+    dtd:has_titel dtd:titel-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20160819215701"@de ;
+    dtd:has_doknr "BJNR458010002"@de ;
+    dtd:has_metadaten dtd:metadaten-id5 ;
+    dtd:has_textdaten dtd:textdaten-id6 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20160819215701"@de ;
+    dtd:has_doknr "BJNR458010002BJNE000101305"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20160819215701"@de ;
+    dtd:has_doknr "BJNR458010002BJNE000201305"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:periodikum-id42 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id41 a dtd:pre ;
+    dtd:has_BR dtd:BR-id31,
+        dtd:BR-id32 ;
+    dtd:has_Value "(+++ Textnachweis ab:  1. 1.2003 +++)"@de .
+
+dtd:standangabe-id17 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id45 ;
+    dtd:has_standtyp dtd:standtyp-id44 .
+
+dtd:standkommentar-id45 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 34 V v. 2.6.2016 I 1257"@de .
+
+dtd:standtyp-id44 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id24 a dtd:text ;
+    dtd:has_Content dtd:Content-id33 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id26 a dtd:text ;
+    dtd:has_Content dtd:Content-id37 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id28 a dtd:text ;
+    dtd:has_Content dtd:Content-id39 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id29 ;
+    dtd:has_text dtd:text-id28 .
+
+dtd:textdaten-id6 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id25 ;
+    dtd:has_text dtd:text-id24 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id27 ;
+    dtd:has_text dtd:text-id26 .
+
+dtd:titel-id20 a dtd:titel ;
+    dtd:has_Value "Eder- und Diemeltalsperre"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id23 a dtd:titel ;
+    dtd:has_Value "Lotsenentgelte"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id43 a dtd:zitstelle ;
+    dtd:has_Value "2002, 4580"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

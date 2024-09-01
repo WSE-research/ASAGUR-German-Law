@@ -1,0 +1,858 @@
+@prefix dtd: <urn:RDV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id12,
+        dtd:norm-id13,
+        dtd:norm-id14,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id102 a dtd:BR .
+
+dtd:BR-id103 a dtd:BR .
+
+dtd:BR-id104 a dtd:BR .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164 .
+
+dtd:Content-id165 a dtd:Content ;
+    dtd:has_P dtd:P-id166 .
+
+dtd:Content-id167 a dtd:Content ;
+    dtd:has_P dtd:P-id168 .
+
+dtd:Content-id169 a dtd:Content ;
+    dtd:has_P dtd:P-id170,
+        dtd:P-id171,
+        dtd:P-id172,
+        dtd:P-id173,
+        dtd:P-id174 .
+
+dtd:Content-id175 a dtd:Content ;
+    dtd:has_P dtd:P-id176,
+        dtd:P-id177,
+        dtd:P-id178 .
+
+dtd:Content-id179 a dtd:Content ;
+    dtd:has_P dtd:P-id180,
+        dtd:P-id181,
+        dtd:P-id182,
+        dtd:P-id183,
+        dtd:P-id184 .
+
+dtd:Content-id185 a dtd:Content ;
+    dtd:has_P dtd:P-id186,
+        dtd:P-id187,
+        dtd:P-id188,
+        dtd:P-id189,
+        dtd:P-id190,
+        dtd:P-id191 .
+
+dtd:Content-id192 a dtd:Content ;
+    dtd:has_P dtd:P-id193,
+        dtd:P-id194,
+        dtd:P-id195,
+        dtd:P-id196 .
+
+dtd:Content-id197 a dtd:Content ;
+    dtd:has_P dtd:P-id198,
+        dtd:P-id199,
+        dtd:P-id200 .
+
+dtd:Content-id201 a dtd:Content ;
+    dtd:has_P dtd:P-id202,
+        dtd:P-id203 .
+
+dtd:Content-id204 a dtd:Content ;
+    dtd:has_P dtd:P-id205,
+        dtd:P-id206 .
+
+dtd:Content-id207 a dtd:Content ;
+    dtd:has_P dtd:P-id208 .
+
+dtd:Content-id209 a dtd:Content ;
+    dtd:has_P dtd:P-id210 .
+
+dtd:DD-id110 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id111 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id120 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id121 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id152 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id153 .
+
+dtd:DD-id133 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id154 .
+
+dtd:DD-id134 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id155 .
+
+dtd:DD-id135 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id156 .
+
+dtd:DD-id136 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id157 .
+
+dtd:DD-id137 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id158 .
+
+dtd:DD-id138 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id159 .
+
+dtd:DD-id139 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id162 .
+
+dtd:DD-id143 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id160 .
+
+dtd:DD-id144 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id161 .
+
+dtd:DL-id105 a dtd:DL ;
+    dtd:has_DD dtd:DD-id110,
+        dtd:DD-id111,
+        dtd:DD-id112,
+        dtd:DD-id113 ;
+    dtd:has_DT dtd:DT-id106,
+        dtd:DT-id107,
+        dtd:DT-id108,
+        dtd:DT-id109 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id114 a dtd:DL ;
+    dtd:has_DD dtd:DD-id120,
+        dtd:DD-id121,
+        dtd:DD-id122,
+        dtd:DD-id123,
+        dtd:DD-id124 ;
+    dtd:has_DT dtd:DT-id115,
+        dtd:DT-id116,
+        dtd:DT-id117,
+        dtd:DT-id118,
+        dtd:DT-id119 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id125 a dtd:DL ;
+    dtd:has_DD dtd:DD-id133,
+        dtd:DD-id134,
+        dtd:DD-id135,
+        dtd:DD-id136,
+        dtd:DD-id137,
+        dtd:DD-id138,
+        dtd:DD-id139 ;
+    dtd:has_DT dtd:DT-id126,
+        dtd:DT-id127,
+        dtd:DT-id128,
+        dtd:DT-id129,
+        dtd:DT-id130,
+        dtd:DT-id131,
+        dtd:DT-id132 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id140 a dtd:DL ;
+    dtd:has_DD dtd:DD-id143,
+        dtd:DD-id144 ;
+    dtd:has_DT dtd:DT-id141,
+        dtd:DT-id142 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id106 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id115 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id116 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id117 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id126 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id127 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id128 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id129 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id130 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id131 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:DT-id132 a dtd:DT ;
+    dtd:has_Value "7."@de .
+
+dtd:DT-id141 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id142 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Value "die Bestätigung, dass die Teilnehmerin oder der Teilnehmer an einem Lehrgang, der den Anforderungen der Absätze 1 und 2 entspricht, erfolgreich teilgenommen hat,"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Value "Zeitraum und Ort des Lehrgangs sowie die Namen und Berufsbezeichnungen aller Lehrkräfte,"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Value "Anzahl, jeweilige Dauer und Ergebnis aller abgelegten schriftlichen Aufsichtsarbeiten,"@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Value "Zeit, Ort und Ergebnis der abschließenden mündlichen Prüfung sowie die Namen und Berufsbezeichnungen der Mitglieder der Prüfungskommission."@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Value "für Ersatzansprüche aus wissentlicher Pflichtverletzung,"@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_Value "für Ersatzansprüche aus Tätigkeiten über Kanzleien oder Büros, die in anderen Staaten eingerichtet sind oder unterhalten werden,"@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Value "für Ersatzansprüche aus Tätigkeiten im Zusammenhang mit der Beratung und Beschäftigung mit einem außereuropäischem Recht, soweit sich nicht die Registrierung nach § 10 Abs. 1 Satz 1 Nr. 3 des Rechtsdienstleistungsgesetzes auf dieses Recht erstreckt,"@de .
+
+dtd:LA-id152 a dtd:LA ;
+    dtd:has_Value "für Ersatzansprüche aus Tätigkeiten vor außereuropäischen Gerichten,"@de .
+
+dtd:LA-id153 a dtd:LA ;
+    dtd:has_Value "für Ersatzansprüche wegen Veruntreuung durch Personal oder Angehörige der registrierten Person."@de .
+
+dtd:LA-id154 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Bundesland,"@de .
+
+dtd:LA-id155 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "zuständige Behörde,"@de .
+
+dtd:LA-id156 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "behördliches Aktenzeichen,"@de .
+
+dtd:LA-id157 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Datum der Veröffentlichung,"@de .
+
+dtd:LA-id158 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Registrierungsbereich in den Fällen des § 16 Absatz 2 Satz 1 Nummer 1 des Rechtsdienstleistungsgesetzes,"@de .
+
+dtd:LA-id159 a dtd:LA ;
+    dtd:has_DL dtd:DL-id140 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Familienname, Vorname, Firma oder Name a)der registrierten Person, ihrer gesetzlichen Vertreter oder einer qualifizierten Person in den Fällen des § 16 Absatz 2 Satz 1 Nummer 1 des Rechtsdienstleistungsgesetzes,b)der Person oder Vereinigung, der die Erbringung von Rechtsdienstleistungen untersagt ist, oder ihrer gesetzlichen Vertreter in den Fällen des § 16 Absatz 2 Satz 1 Nummer 2 des Rechtsdienstleistungsgesetzes oder"@de .
+
+dtd:LA-id160 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der registrierten Person, ihrer gesetzlichen Vertreter oder einer qualifizierten Person in den Fällen des § 16 Absatz 2 Satz 1 Nummer 1 des Rechtsdienstleistungsgesetzes,"@de .
+
+dtd:LA-id161 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "der Person oder Vereinigung, der die Erbringung von Rechtsdienstleistungen untersagt ist, oder ihrer gesetzlichen Vertreter in den Fällen des § 16 Absatz 2 Satz 1 Nummer 2 des Rechtsdienstleistungsgesetzes oder"@de .
+
+dtd:LA-id162 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Anschrift."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_BR dtd:BR-id102 ;
+    dtd:has_Value " (+++ Textnachweis ab: 1.7.2008 +++)"@de ;
+    dtd:has_pre dtd:pre-id211 .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 10 Abs. 1 Satz 2, § 12 Abs. 5, § 13 Abs. 4, § 16 Abs. 3 Satz 3, § 17 Abs. 2 und des § 18 Abs. 3 des Rechtsdienstleistungsgesetzes vom 12. Dezember 2007 (BGBl. I S. 2840), von denen § 18 Abs. 3 durch Artikel 6 des Gesetzes vom 12. Juni 2008 (BGBl. I S. 1000) geändert worden ist, verordnet das Bundesministerium der Justiz:"@de .
+
+dtd:P-id168 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id170 a dtd:P ;
+    dtd:has_Value "(1) In den Bereichen Inkassodienstleistungen und Rentenberatung wird die nach § 12 Abs. 3 Satz 1 des Rechtsdienstleistungsgesetzes erforderliche theoretische Sachkunde in der Regel durch ein Zeugnis über einen erfolgreich abgeschlossenen Sachkundelehrgang im Sinn des § 4 nachgewiesen. Zum Nachweis der theoretischen Sachkunde genügt auch das Zeugnis über die erste Prüfung nach § 5d Abs. 2 des Deutschen Richtergesetzes. Die zuständige Behörde kann als Nachweis der theoretischen Sachkunde auch andere Zeugnisse anerkennen, insbesondere das Abschlusszeugnis einer deutschen Hochschule oder Fachhochschule über einen mindestens dreijährigen Hochschul- oder Fachhochschulstudiengang mit überwiegend rechtlichen Studieninhalten, wenn der Studiengang die nach § 11 Abs. 1 oder 2 des Rechtsdienstleistungsgesetzes erforderlichen Rechtskenntnisse vermittelt. Insbesondere in Fällen, in denen bei Inkassodienstleistungen Tätigkeiten auf in § 11 Absatz 1 des Rechtsdienstleistungsgesetzes nicht genannten Rechtsgebieten erbracht werden sollen, kann die zuständige Behörde über den Sachkundelehrgang nach Satz 1 hinausgehende Nachweise der theoretischen Sachkunde wie die in den Sätzen 2 und 3 genannten Zeugnisse verlangen."@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(2) In den Fällen des § 12 Absatz 3 Satz 4 des Rechtsdienstleistungsgesetzes ist durch geeignete Unterlagen, insbesondere das Zeugnis einer ausländischen Behörde, nachzuweisen, dass die Voraussetzungen des § 12 Absatz 3 Satz 4 des Rechtsdienstleistungsgesetzes vorliegen. Daneben ist ein gesonderter Nachweis der theoretischen Sachkunde nicht erforderlich."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_Value "(3) Im Bereich der Rechtsdienstleistungen in einem ausländischen Recht wird die theoretische Sachkunde in der Regel durch das Zeugnis einer ausländischen Behörde darüber nachgewiesen, dass die zu registrierende Person in dem ausländischen Land rechtmäßig zur Ausübung des Rechtsanwaltsberufs oder eines vergleichbaren rechtsberatenden Berufs niedergelassen ist oder war. Zum Nachweis der theoretischen Sachkunde genügt auch das Abschlusszeugnis einer ausländischen Hochschule über den erfolgreichen Abschluss eines Studiengangs, der nach Umfang und Inhalten den in Absatz 1 Satz 3 genannten Studiengängen entspricht."@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(4) Ist der Antrag in den Fällen des Absatzes 3 auf einen Teilbereich beschränkt, so genügt zum Nachweis der theoretischen Sachkunde das Zeugnis einer ausländischen Behörde darüber, dass die zu registrierende Person in dem ausländischen Staat rechtmäßig zur Ausübung eines Berufs, der den beantragten Teilbereich umfasst, niedergelassen ist oder war."@de .
+
+dtd:P-id174 a dtd:P ;
+    dtd:has_Value "(5) Der Nachweis der Sachkunde in einem ausländischen Recht erstreckt sich nur auf das Recht, auf das sich die vorgelegten Zeugnisse beziehen."@de .
+
+dtd:P-id176 a dtd:P ;
+    dtd:has_Value "(1) Die nach § 12 Abs. 3 Satz 2 des Rechtsdienstleistungsgesetzes erforderliche praktische Sachkunde wird in der Regel durch Arbeitszeugnisse und sonstige Zeugnisse über die bisherige praktische Tätigkeit der zu registrierenden Person in dem Bereich des Rechts nachgewiesen, für den eine Registrierung beantragt wird. Über die erforderliche praktische Sachkunde verfügt auch, wer die Befähigung zum Richteramt nach dem Deutschen Richtergesetz besitzt."@de .
+
+dtd:P-id177 a dtd:P ;
+    dtd:has_Value "(2) Im Bereich der Rechtsdienstleistungen in einem ausländischen Recht genügt zum Nachweis der praktischen Sachkunde auch das Zeugnis einer ausländischen Behörde darüber, dass die zu registrierende Person in dem ausländischen Land rechtmäßig zur Ausübung des Rechtsanwaltsberufs oder eines vergleichbaren rechtsberatenden Berufs, in den Fällen des § 2 Absatz 4 zur Ausübung eines Berufs, der den beantragten Teilbereich umfasst, niedergelassen ist oder war. § 2 Abs. 5 gilt entsprechend."@de .
+
+dtd:P-id178 a dtd:P ;
+    dtd:has_Value "(3) In den Fällen des § 12 Absatz 3 Satz 4 des Rechtsdienstleistungsgesetzes ist das von einer registrierten Person oder einem Mitglied einer Rechtsanwaltskammer ausgestellte Zeugnis darüber vorzulegen, dass die zu registrierende Person in dem Bereich, für den sie die Registrierung beantragt, mindestens sechs Monate unter der Verantwortung der registrierten oder einer für sie tätigen qualifizierten Person oder des Mitglieds einer Rechtsanwaltskammer im Inland tätig gewesen ist."@de .
+
+dtd:P-id180 a dtd:P ;
+    dtd:has_Value "(1) Der Sachkundelehrgang muss geeignet sein, alle nach § 11 Abs. 1 oder 2 des Rechtsdienstleistungsgesetzes für die jeweilige Registrierung erforderlichen Kenntnisse zu vermitteln. Die Gesamtdauer des Lehrgangs muss im Bereich Inkassodienstleistungen mindestens 120 Zeitstunden und im Bereich Rentenberatung mindestens 150 Zeitstunden betragen. Erlaubnisinhaber nach dem Rechtsberatungsgesetz, deren Registrierung nach § 1 Abs. 3 des Einführungsgesetzes zum Rechtsdienstleistungsgesetz auf den Umfang ihrer bisherigen Erlaubnis zu beschränken ist, können zum Nachweis ihrer theoretischen Sachkunde in den nicht von der Erlaubnis erfassten Teilbereichen einen abgekürzten Sachkundelehrgang absolvieren, dessen Gesamtdauer 50 Zeitstunden nicht unterschreiten darf."@de .
+
+dtd:P-id181 a dtd:P ;
+    dtd:has_Value "(2) Die Anbieter von Sachkundelehrgängen müssen gewährleisten, dass nur qualifizierte Lehrkräfte eingesetzt werden. Qualifiziert sind insbesondere Richterinnen und Richter aus der mit dem jeweiligen Bereich vorrangig befassten Gerichtsbarkeit, Mitglieder einer Rechtsanwaltskammer, Hochschullehrerinnen und Hochschullehrer sowie registrierte und qualifizierte Personen mit mindestens fünfjähriger Berufserfahrung in dem jeweiligen Bereich."@de .
+
+dtd:P-id182 a dtd:P ;
+    dtd:has_Value "(3) Die Lehrgangsteilnehmerinnen und -teilnehmer müssen mindestens eine schriftliche Aufsichtsarbeit ablegen und darin ihre Kenntnisse aus verschiedenen Bereichen des Lehrgangs nachweisen. Die Gesamtdauer der erfolgreich abgelegten schriftlichen Aufsichtsarbeiten darf fünf Zeitstunden nicht unterschreiten."@de .
+
+dtd:P-id183 a dtd:P ;
+    dtd:has_Value "(4) Die Lehrgangsteilnehmerinnen und -teilnehmer müssen eine abschließende mündliche Prüfung erfolgreich ablegen. Die mündliche Prüfung besteht aus einem Fachgespräch, das sich auf verschiedene Bereiche des Lehrgangs erstrecken muss und im Bereich Rentenberatung auch eine fallbezogene Präsentation beinhalten soll. Die Prüfungskommission soll mit mindestens einer Richterin oder einem Richter aus der mit dem jeweiligen Bereich vorrangig befassten Gerichtsbarkeit und mindestens einer registrierten oder qualifizierten Person mit mindestens fünfjähriger Berufserfahrung in dem jeweiligen Bereich besetzt sein."@de .
+
+dtd:P-id184 a dtd:P ;
+    dtd:has_DL dtd:DL-id105 ;
+    dtd:has_Value "(5) Das Zeugnis über den erfolgreich abgelegten Sachkundelehrgang muss enthalten: 1.die Bestätigung, dass die Teilnehmerin oder der Teilnehmer an einem Lehrgang, der den Anforderungen der Absätze 1 und 2 entspricht, erfolgreich teilgenommen hat,2.Zeitraum und Ort des Lehrgangs sowie die Namen und Berufsbezeichnungen aller Lehrkräfte,3.Anzahl, jeweilige Dauer und Ergebnis aller abgelegten schriftlichen Aufsichtsarbeiten,4.Zeit, Ort und Ergebnis der abschließenden mündlichen Prüfung sowie die Namen und Berufsbezeichnungen der Mitglieder der Prüfungskommission.Die schriftlichen Aufsichtsarbeiten und ihre Bewertung sowie eine detaillierte Beschreibung von Inhalten und Ablauf des Lehrgangs sind dem Zeugnis beizufügen."@de .
+
+dtd:P-id186 a dtd:P ;
+    dtd:has_Value "(1) Die nach § 12 Abs. 1 Nr. 3 des Rechtsdienstleistungsgesetzes von der registrierten Person zu unterhaltende Berufshaftpflichtversicherung muss bei einem im Inland zum Geschäftsbetrieb befugten Versicherungsunternehmen zu den nach Maßgabe des Versicherungsaufsichtsgesetzes eingereichten Allgemeinen Versicherungsbedingungen genommen werden. Der Versicherungsvertrag muss Deckung für die sich aus der beruflichen Tätigkeit der registrierten Person ergebenden Haftpflichtgefahren für Vermögensschäden gewähren und sich auch auf solche Vermögensschäden erstrecken, für die die registrierte Person nach § 278 oder § 831 des Bürgerlichen Gesetzbuchs einzustehen hat."@de .
+
+dtd:P-id187 a dtd:P ;
+    dtd:has_Value "(2) Der Versicherungsvertrag hat Versicherungsschutz für jede einzelne Pflichtverletzung zu gewähren, die gesetzliche Haftpflichtansprüche privatrechtlichen Inhalts gegen die registrierte Person zur Folge haben könnte; dabei kann vereinbart werden, dass sämtliche Pflichtverletzungen bei Erledigung eines einheitlichen Auftrags, mögen diese auf dem Verhalten der registrierten Person oder einer von ihr herangezogenen Hilfsperson beruhen, als ein Versicherungsfall gelten."@de .
+
+dtd:P-id188 a dtd:P ;
+    dtd:has_DL dtd:DL-id114 ;
+    dtd:has_Value "(3) Von der Versicherung kann die Haftung ausgeschlossen werden: 1.für Ersatzansprüche aus wissentlicher Pflichtverletzung,2.für Ersatzansprüche aus Tätigkeiten über Kanzleien oder Büros, die in anderen Staaten eingerichtet sind oder unterhalten werden,3.für Ersatzansprüche aus Tätigkeiten im Zusammenhang mit der Beratung und Beschäftigung mit einem außereuropäischem Recht, soweit sich nicht die Registrierung nach § 10 Abs. 1 Satz 1 Nr. 3 des Rechtsdienstleistungsgesetzes auf dieses Recht erstreckt,4.für Ersatzansprüche aus Tätigkeiten vor außereuropäischen Gerichten,5.für Ersatzansprüche wegen Veruntreuung durch Personal oder Angehörige der registrierten Person."@de .
+
+dtd:P-id189 a dtd:P ;
+    dtd:has_Value "(4) Die Leistungen des Versicherers für alle innerhalb eines Versicherungsjahres verursachten Schäden können auf den vierfachen Betrag der gesetzlichen Mindestversicherungssumme begrenzt werden."@de .
+
+dtd:P-id190 a dtd:P ;
+    dtd:has_Value "(5) Die Vereinbarung eines Selbstbehalts bis zu 1 Prozent der Mindestversicherungssumme ist zulässig. Ein Selbstbehalt des Versicherungsnehmers kann dem Dritten nicht entgegengehalten und gegenüber einer mitversicherten Person nicht geltend gemacht werden."@de .
+
+dtd:P-id191 a dtd:P ;
+    dtd:has_Value "(6) Im Versicherungsvertrag ist der Versicherer zu verpflichten, der nach § 19 des Rechtsdienstleistungsgesetzes zuständigen Behörde die Beendigung oder Kündigung des Versicherungsvertrages sowie jede Änderung des Versicherungsvertrages, die den vorgeschriebenen Versicherungsschutz beeinträchtigt, unverzüglich mitzuteilen. Die nach § 19 des Rechtsdienstleistungsgesetzes zuständige Behörde erteilt Dritten zur Geltendmachung von Schadensersatzansprüchen auf Antrag Auskunft über den Namen und die Adresse der Berufshaftpflichtversicherung der registrierten Person sowie die Versicherungsnummer, soweit das Auskunftsinteresse das schutzwürdige Interesse der registrierten Person an der Nichterteilung dieser Auskunft überwiegt."@de .
+
+dtd:P-id193 a dtd:P ;
+    dtd:has_Value "(1) Anträge nach § 13 Abs. 1 des Rechtsdienstleistungsgesetzes sind in Textform zu stellen. Dabei ist anzugeben, für welchen Bereich oder Teilbereich die Registrierung erfolgen soll, und ob die Einwilligung zur Veröffentlichung von Telefonnummer und E-Mail-Adresse erteilt wird."@de .
+
+dtd:P-id194 a dtd:P ;
+    dtd:has_Value "(2) Im Bereich der Rechtsdienstleistungen in einem ausländischen Recht ist das ausländische Recht anzugeben, auf das sich die Registrierung beziehen soll."@de .
+
+dtd:P-id195 a dtd:P ;
+    dtd:has_Value "(3) Erlaubnisinhaber nach dem Rechtsberatungsgesetz, die eine Registrierung als registrierte Erlaubnisinhaber nach § 1 Abs. 3 Satz 2 des Einführungsgesetzes zum Rechtsdienstleistungsgesetz beantragen, haben den Umfang dieser Registrierung in dem Antrag genau zu bezeichnen."@de .
+
+dtd:P-id196 a dtd:P ;
+    dtd:has_Value "(4) Von Zeugnissen und Nachweisen, die nicht in deutscher Sprache ausgestellt sind, kann die Vorlage einer Übersetzung verlangt werden."@de .
+
+dtd:P-id198 a dtd:P ;
+    dtd:has_Value "(1) Die nach § 13 Absatz 1 Satz 1 und 2 und § 15 Absatz 2 Satz 1 des Rechtsdienstleistungsgesetzes für die Registrierung zuständigen Behörden haben Akten und elektronische Akten über registrierte Personen für einen Zeitraum von zehn Jahren nach der Löschung der im Rechtsdienstleistungsregister öffentlich bekannt gemachten Daten gemäß § 17 Absatz 1 Satz 1 Nummer 1 bis 4 sowie 6 des Rechtsdienstleistungsgesetzes aufzubewahren."@de .
+
+dtd:P-id199 a dtd:P ;
+    dtd:has_Value "(2) Akten und elektronische Akten über Personen oder Vereinigungen, denen die Erbringung von Rechtsdienstleistungen untersagt worden ist, sind für einen Zeitraum von fünf Jahren nach Ablauf der Dauer der Untersagung aufzubewahren."@de .
+
+dtd:P-id200 a dtd:P ;
+    dtd:has_Value "(3) Akten und elektronische Akten, in denen eine beantragte Registrierung bestandskräftig abgelehnt worden oder eine Untersagung nicht erfolgt ist, sind für einen Zeitraum von fünf Jahren nach der Beendigung des Verfahrens aufzubewahren."@de .
+
+dtd:P-id202 a dtd:P ;
+    dtd:has_DL dtd:DL-id125 ;
+    dtd:has_Value "(1) Für öffentliche Bekanntmachungen nach § 16 Absatz 2 Satz 1 Nummer 1 des Rechtsdienstleistungsgesetzes und solche nach § 16 Absatz 2 Satz 1 Nummer 2 des Rechtsdienstleistungsgesetzes sind innerhalb des Rechtsdienstleistungsregisters zwei getrennte Bereiche vorzusehen. Eine Suche nach den eingestellten Daten darf nur anhand eines oder mehrerer der folgenden Suchkriterien erfolgen: 1.Bundesland,2.zuständige Behörde,3.behördliches Aktenzeichen,4.Datum der Veröffentlichung,5.Registrierungsbereich in den Fällen des § 16 Absatz 2 Satz 1 Nummer 1 des Rechtsdienstleistungsgesetzes,6.Familienname, Vorname, Firma oder Name a)der registrierten Person, ihrer gesetzlichen Vertreter oder einer qualifizierten Person in den Fällen des § 16 Absatz 2 Satz 1 Nummer 1 des Rechtsdienstleistungsgesetzes,b)der Person oder Vereinigung, der die Erbringung von Rechtsdienstleistungen untersagt ist, oder ihrer gesetzlichen Vertreter in den Fällen des § 16 Absatz 2 Satz 1 Nummer 2 des Rechtsdienstleistungsgesetzes oder7.Anschrift.Die Angaben nach Satz 2 können unvollständig sein, sofern sie Unterscheidungskraft besitzen."@de .
+
+dtd:P-id203 a dtd:P ;
+    dtd:has_Value "(2) Die öffentlich bekanntzumachenden Daten werden von der Behörde, die nach § 9 Absatz 1 Satz 1, § 13 Absatz 1 Satz 1 oder 2 oder § 15 Absatz 2 Satz 1 des Rechtsdienstleistungsgesetzes für die Untersagung oder für das Registrierungs- oder Meldeverfahren zuständig ist, unverzüglich nach der Registrierung elektronisch an die zentrale Veröffentlichungsstelle übermittelt. Durch technische und organisatorische Maßnahmen ist sicherzustellen, dass die Herkunft der Daten jederzeit nachvollziehbar ist."@de .
+
+dtd:P-id205 a dtd:P ;
+    dtd:has_Value "(1) Die zuständige Behörde hat die Löschung der nach § 16 Abs. 2 des Rechtsdienstleistungsgesetzes öffentlich bekanntgemachten Daten aus dem Rechtsdienstleistungsregister unverzüglich nach Bekanntwerden des Löschungstatbestands zu veranlassen."@de .
+
+dtd:P-id206 a dtd:P ;
+    dtd:has_Value "(2) Soweit Daten in einem zentralen Dateisystem nach § 18 Abs. 1 Satz 2 des Rechtsdienstleistungsgesetzes gespeichert sind, ist durch technische und organisatorische Maßnahmen sicherzustellen, dass ein Datenabruf nur durch die hierzu befugten Behörden erfolgt. Verantwortlich für die Zulässigkeit des Abrufs ist die abrufende Behörde."@de .
+
+dtd:P-id208 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am 1. Juli 2008 in Kraft."@de .
+
+dtd:P-id210 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtabk-id42 a dtd:amtabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id43 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2008-06-19"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id66 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id69 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id72 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id75 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:enbez-id78 a dtd:enbez ;
+    dtd:has_Value "§ 10"@de .
+
+dtd:enbez-id81 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id44 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id212 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id213 .
+
+dtd:fussnoten-id82 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id163 .
+
+dtd:fussnoten-id85 a dtd:fussnoten .
+
+dtd:fussnoten-id87 a dtd:fussnoten .
+
+dtd:fussnoten-id89 a dtd:fussnoten .
+
+dtd:fussnoten-id93 a dtd:fussnoten .
+
+dtd:fussnoten-id95 a dtd:fussnoten .
+
+dtd:fussnoten-id97 a dtd:fussnoten .
+
+dtd:fussnoten-id99 a dtd:fussnoten .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id65 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id68 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id71 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id74 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id77 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:jurabk-id80 a dtd:jurabk ;
+    dtd:has_Value "RDV"@de .
+
+dtd:kurzue-id45 a dtd:kurzue ;
+    dtd:has_Value "Rechtsdienstleistungsverordnung"@de .
+
+dtd:langue-id46 a dtd:langue ;
+    dtd:has_Value "Verordnung zum Rechtsdienstleistungsgesetz"@de .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id42 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id43 ;
+    dtd:has_fundstelle dtd:fundstelle-id44 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_kurzue dtd:kurzue-id45 ;
+    dtd:has_langue dtd:langue-id46 ;
+    dtd:has_standangabe dtd:standangabe-id47 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:metadaten-id29 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id66 ;
+    dtd:has_jurabk dtd:jurabk-id65 ;
+    dtd:has_titel dtd:titel-id67 .
+
+dtd:metadaten-id31 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id69 ;
+    dtd:has_jurabk dtd:jurabk-id68 ;
+    dtd:has_titel dtd:titel-id70 .
+
+dtd:metadaten-id33 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id72 ;
+    dtd:has_jurabk dtd:jurabk-id71 ;
+    dtd:has_titel dtd:titel-id73 .
+
+dtd:metadaten-id35 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id75 ;
+    dtd:has_jurabk dtd:jurabk-id74 ;
+    dtd:has_titel dtd:titel-id76 .
+
+dtd:metadaten-id37 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id78 ;
+    dtd:has_jurabk dtd:jurabk-id77 ;
+    dtd:has_titel dtd:titel-id79 .
+
+dtd:metadaten-id39 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id81 ;
+    dtd:has_jurabk dtd:jurabk-id80 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000802119"@de ;
+    dtd:has_metadaten dtd:metadaten-id31 ;
+    dtd:has_textdaten dtd:textdaten-id32 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20230317214043"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000903119"@de ;
+    dtd:has_metadaten dtd:metadaten-id33 ;
+    dtd:has_textdaten dtd:textdaten-id34 .
+
+dtd:norm-id12 a dtd:norm ;
+    dtd:has_builddate "20230317214043"@de ;
+    dtd:has_doknr "BJNR106900008BJNE001002119"@de ;
+    dtd:has_metadaten dtd:metadaten-id35 ;
+    dtd:has_textdaten dtd:textdaten-id36 .
+
+dtd:norm-id13 a dtd:norm ;
+    dtd:has_builddate "20230317214043"@de ;
+    dtd:has_doknr "BJNR106900008BJNE001100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id37 ;
+    dtd:has_textdaten dtd:textdaten-id38 .
+
+dtd:norm-id14 a dtd:norm ;
+    dtd:has_builddate "20230317214043"@de ;
+    dtd:has_doknr "BJNR106900008BJNE001200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id39 ;
+    dtd:has_textdaten dtd:textdaten-id40 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000201311"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000302125"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000401311"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20230317214042"@de ;
+    dtd:has_doknr "BJNR106900008BJNE000702119"@de ;
+    dtd:has_metadaten dtd:metadaten-id29 ;
+    dtd:has_textdaten dtd:textdaten-id30 .
+
+dtd:periodikum-id212 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id211 a dtd:pre ;
+    dtd:has_BR dtd:BR-id103,
+        dtd:BR-id104 ;
+    dtd:has_Value "(+++ Textnachweis ab: 1.7.2008 +++)"@de .
+
+dtd:standangabe-id47 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id215 ;
+    dtd:has_standtyp dtd:standtyp-id214 .
+
+dtd:standkommentar-id215 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 5 G v. 10.3.2023 I Nr. 64"@de .
+
+dtd:standtyp-id214 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id100 a dtd:text ;
+    dtd:has_Content dtd:Content-id207 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id101 a dtd:text ;
+    dtd:has_Content dtd:Content-id209 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id83 a dtd:text ;
+    dtd:has_Content dtd:Content-id165 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id84 a dtd:text ;
+    dtd:has_Content dtd:Content-id167 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id86 a dtd:text ;
+    dtd:has_Content dtd:Content-id169 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id88 a dtd:text ;
+    dtd:has_Content dtd:Content-id175 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id90 a dtd:text ;
+    dtd:has_Content dtd:Content-id179 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id91 a dtd:text ;
+    dtd:has_Content dtd:Content-id185 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id92 a dtd:text ;
+    dtd:has_Content dtd:Content-id192 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id94 a dtd:text ;
+    dtd:has_Content dtd:Content-id197 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id96 a dtd:text ;
+    dtd:has_Content dtd:Content-id201 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id98 a dtd:text ;
+    dtd:has_Content dtd:Content-id204 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id82 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id83 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id85 ;
+    dtd:has_text dtd:text-id84 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id87 ;
+    dtd:has_text dtd:text-id86 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id89 ;
+    dtd:has_text dtd:text-id88 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id90 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id91 .
+
+dtd:textdaten-id30 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id93 ;
+    dtd:has_text dtd:text-id92 .
+
+dtd:textdaten-id32 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id95 ;
+    dtd:has_text dtd:text-id94 .
+
+dtd:textdaten-id34 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id97 ;
+    dtd:has_text dtd:text-id96 .
+
+dtd:textdaten-id36 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id99 ;
+    dtd:has_text dtd:text-id98 .
+
+dtd:textdaten-id38 a dtd:textdaten ;
+    dtd:has_text dtd:text-id100 .
+
+dtd:textdaten-id40 a dtd:textdaten ;
+    dtd:has_text dtd:text-id101 .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Nachweis der theoretischen Sachkunde"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Nachweis der praktischen Sachkunde"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Sachkundelehrgang"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Berufshaftpflichtversicherung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id67 a dtd:titel ;
+    dtd:has_Value "Registrierungsverfahren"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id70 a dtd:titel ;
+    dtd:has_Value "Aufbewahrungsfristen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id73 a dtd:titel ;
+    dtd:has_Value "Öffentliche Bekanntmachungen im Rechtsdienstleistungsregister"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id76 a dtd:titel ;
+    dtd:has_Value "Löschung von Veröffentlichungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id79 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id213 a dtd:zitstelle ;
+    dtd:has_Value "2008, 1069"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

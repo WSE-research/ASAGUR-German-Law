@@ -1,0 +1,275 @@
+@prefix dtd: <urn:ZOVers-BMPT#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028200995"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id40 a dtd:BR .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:Content-id51 a dtd:Content ;
+    dtd:has_P dtd:P-id52 .
+
+dtd:Content-id53 a dtd:Content ;
+    dtd:has_P dtd:P-id54,
+        dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57,
+        dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61,
+        dtd:P-id62 .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:DD-id45 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id47 .
+
+dtd:DD-id46 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id48 .
+
+dtd:DL-id42 a dtd:DL ;
+    dtd:has_DD dtd:DD-id45,
+        dtd:DD-id46 ;
+    dtd:has_DT dtd:DT-id43,
+        dtd:DT-id44 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id43 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:DT-id44 a dtd:DT ;
+    dtd:has_Value "-"@de .
+
+dtd:LA-id47 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Präsidenten des Bundesamtes für Post und Telekommunikation,"@de .
+
+dtd:LA-id48 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "dem Leiter des Bundesamtes für Zulassungen in der Telekommunikation"@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id52 a dtd:P ;
+    dtd:has_Value "(+++ Textnachweis ab: 15. 3.1995 +++)"@de .
+
+dtd:P-id54 a dtd:P ;
+    dtd:has_DL dtd:DL-id42 ;
+    dtd:has_Value "(1) Auf Grund des § 49 Abs. 1 Satz 2 des Gesetzes über die Versorgung der Beamten und Richter in Bund und Ländern (Beamtenversorgungsgesetz - BeamtVG) in der Fassung der Bekanntmachung vom 16. Dezember 1994 (BGBl. I S. 3858) übertrage ich im Einvernehmen mit dem Bundesministerium des Innern -dem Präsidenten des Bundesamtes für Post und Telekommunikation, -dem Leiter des Bundesamtes für Zulassungen in der Telekommunikation die Ausübung des Rechts, über die Berücksichtigung von Vordienstzeiten als ruhegehaltfähige Dienstzeiten nach §§ 10 bis 12 BeamtVG von Beamten zu entscheiden, sofern sie deren Dienstvorgesetzte sind. Ausgenommen von der Übertragung der Zuständigkeit nach Satz 1 und damit dem Bundesministerium für Post und Telekommunikation vorbehalten sind Entscheidungen, die die in Satz 1 genannten Behördenleiter selbst betreffen."@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(2) Die Zuständigkeit für die Festsetzung und Regelung der Versorgungsbezüge bestimmt sich nach der Anordnung des Bundesministeriums der Finanzen über die Übertragung von Zuständigkeiten auf dem Gebiet der beamtenrechtlichen Versorgung vom 5. September 1991 (BGBl. I S. 1983), geändert durch Anordnung vom 28. November 1994 (BGBl. I S. 3854)."@de .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "(1) Auf Grund des § 172 des Bundesbeamtengesetzes in der Fassung der Bekanntmachung vom 27. Februar 1985 (BGBl. I S. 479) in Verbindung mit § 126 Abs. 3 Nr. 2 Satz 2 des Beamtenrechtsrahmengesetzes in der Fassung der Bekanntmachung vom 27. Februar 1985 (BGBl. I S. 462) übertrage ich die Befugnis, bei versorgungsrechtlichen Entscheidungen nach Abschnitt I Absatz 1 Satz 1 Widerspruchsbescheide zu erlassen, den dort genannten Behördenleitern, soweit sie den mit dem Widerspruch angefochtenen Bescheid erlassen oder den Erlaß des Verwaltungsakts abgelehnt haben."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(2) Im übrigen bestimmt sich die Zuständigkeit für den Erlaß von Widerspruchsbescheiden auf dem Gebiet der beamtenrechtlichen Versorgung, der Beihilfe und der Unterstützung nach der Anordnung des Bundesministeriums der Finanzen vom 29. November 1994 (BGBl. I S. 3855)."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_BR dtd:BR-id40 ;
+    dtd:has_Value "(3) Auf Grund des § 174 Abs. 3 des Bundesbeamtengesetzes übertrage ich die Vertretung des Dienstherrn bei Klagen auf Grund von Entscheidungen nach Abschnitt I Absatz 1 Satz 1 dieser Anordnung den dort genannten Behördenleitern, soweit sie nach dieser Anordnung für den Erlaß von Widerspruchsbescheiden zuständig sind. Für besondere Fälle behalte ich mir die Vertretung des Dienstherrn vor."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "(1) Diese Anordnung tritt am Tage nach ihrer Veröffentlichung im Bundesgesetzblatt in Kraft."@de .
+
+dtd:P-id62 a dtd:P ;
+    dtd:has_Value "(2)"@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_SP dtd:SP-id41 ;
+    dtd:has_Value "Bundesministerium für Post und Telekommunikation"@de .
+
+dtd:SP-id41 a dtd:SP ;
+    dtd:has_Value "Bundesministerium für Post und Telekommunikation"@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "ZOVers-BMPT"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1995-02-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id23 a dtd:enbez ;
+    dtd:has_Value "I."@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "II."@de .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "III."@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id65 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id66 .
+
+dtd:fussnoten-id34 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id51 .
+
+dtd:fussnoten-id38 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "ZOVers-BMPT"@de .
+
+dtd:jurabk-id22 a dtd:jurabk ;
+    dtd:has_Value "ZOVers-BMPT"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "ZOVers-BMPT"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "ZOVers-BMPT"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "ZOVers-BMPT"@de .
+
+dtd:langue-id21 a dtd:langue ;
+    dtd:has_Value """Anordnung über die Übertragung von Zuständigkeiten auf dem Gebiet der
+beamtenrechtlichen Versorgung im Geschäftsbereich des Bundesministeriums für
+Post und Telekommunikation"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 ;
+    dtd:has_titel dtd:titel-id27 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 ;
+    dtd:has_titel dtd:titel-id30 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_langue dtd:langue-id21 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id23 ;
+    dtd:has_jurabk dtd:jurabk-id22 ;
+    dtd:has_titel dtd:titel-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028200995"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028200995BJNE000100307"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028200995BJNE000200307"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028200995BJNE000300307"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130250"@de ;
+    dtd:has_doknr "BJNR028200995BJNE000400307"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id65 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id53 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id36 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id37 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id39 a dtd:text ;
+    dtd:has_Content dtd:Content-id63 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id36 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id38 ;
+    dtd:has_text dtd:text-id37 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id39 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id34 ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:titel-id24 a dtd:titel ;
+    dtd:has_Value """Übertragung von beamtenversorgungsrechtlichen
+Zuständigkeiten"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id27 a dtd:titel ;
+    dtd:has_Value """Erlaß von Widerspruchsbescheiden und Vertretung
+des Dienstherrn bei Klagen aus dem Beamtenverhältnis
+in Angelegenheiten der Beamtenversorgung"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id30 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id66 a dtd:zitstelle ;
+    dtd:has_Value "1995, 282"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

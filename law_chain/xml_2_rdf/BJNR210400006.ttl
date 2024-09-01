@@ -1,0 +1,354 @@
+@prefix dtd: <urn:SZAG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130725220058"@de ;
+    dtd:has_doknr "BJNR210400006"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:BR-id54 a dtd:BR .
+
+dtd:BR-id55 a dtd:BR .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69,
+        dtd:P-id70 .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74,
+        dtd:P-id75,
+        dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78,
+        dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81,
+        dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:DD-id60 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id63 .
+
+dtd:DD-id61 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id64 .
+
+dtd:DD-id62 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id65 .
+
+dtd:DL-id56 a dtd:DL ;
+    dtd:has_DD dtd:DD-id60,
+        dtd:DD-id61,
+        dtd:DD-id62 ;
+    dtd:has_DT dtd:DT-id57,
+        dtd:DT-id58,
+        dtd:DT-id59 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id57 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id58 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id59 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id63 a dtd:LA ;
+    dtd:has_Value "Verordnung (EG) Nr. 1467/97 des Rates vom 7. Juli 1997 über die Beschleunigung und Klärung des Verfahrens bei einem übermäßigen Defizit (ABl. L 209 vom 2.8.1997, S. 6), die zuletzt durch die Verordnung (EU) Nr. 1177/2011 (ABl. L 306 vom 23.11.2011, S. 33) geändert worden ist,"@de .
+
+dtd:LA-id64 a dtd:LA ;
+    dtd:has_Value "Verordnung (EG) Nr. 1466/97 des Rates vom 7. Juli 1997 über den Ausbau der haushaltspolitischen Überwachung und der Überwachung und Koordinierung der Wirtschaftspolitiken (ABl. L 209 vom 2.8.1997, S. 1), die zuletzt durch die Verordnung (EU) Nr. 1175/2011 (ABl. L 306 vom 23.11.2011, S. 12) geändert worden ist, und"@de .
+
+dtd:LA-id65 a dtd:LA ;
+    dtd:has_Value "Verordnung (EU) Nr. 1173/2011 des Europäischen Parlaments und des Rates vom 16. November 2011 über die wirksame Durchsetzung der haushaltspolitischen Überwachung im Euro-Währungsgebiet (ABl. L 306 vom 23.11.2011, S. 1)."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_BR dtd:BR-id52 ;
+    dtd:has_Value " (+++ Textnachweis ab: 12.9.2006 +++)Überschrift: IdF d. Art. 3 Nr. 1 G v. 15.7.2013 I 2398 mWv 19.7.2013"@de ;
+    dtd:has_pre dtd:pre-id85 .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_BR dtd:BR-id55 ;
+    dtd:has_Value " Das G wurde als Artikel 14 des G v. 5.9.2006 I 2098 vom Bundestag mit Zustimmung des Bundesrates beschlossen. Es ist gem. Art. 22 Satz 2 dieses G am 12.9.2006 in Kraft getreten."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_DL dtd:DL-id56 ;
+    dtd:has_Value "Dieses Gesetz regelt die innerstaatliche Aufteilung von Einlagen sowie Geldbußen (Sanktionszahlungen) gemäß den Artikeln 121, 126 und 136 des Vertrags über die Arbeitsweise der Europäischen Union in Verbindung mit der 1.Verordnung (EG) Nr. 1467/97 des Rates vom 7. Juli 1997 über die Beschleunigung und Klärung des Verfahrens bei einem übermäßigen Defizit (ABl. L 209 vom 2.8.1997, S. 6), die zuletzt durch die Verordnung (EU) Nr. 1177/2011 (ABl. L 306 vom 23.11.2011, S. 33) geändert worden ist,2.Verordnung (EG) Nr. 1466/97 des Rates vom 7. Juli 1997 über den Ausbau der haushaltspolitischen Überwachung und der Überwachung und Koordinierung der Wirtschaftspolitiken (ABl. L 209 vom 2.8.1997, S. 1), die zuletzt durch die Verordnung (EU) Nr. 1175/2011 (ABl. L 306 vom 23.11.2011, S. 12) geändert worden ist, und3.Verordnung (EU) Nr. 1173/2011 des Europäischen Parlaments und des Rates vom 16. November 2011 über die wirksame Durchsetzung der haushaltspolitischen Überwachung im Euro-Währungsgebiet (ABl. L 306 vom 23.11.2011, S. 1).Bund und Länder tragen den jeweils auf sie entfallenden Anteil an Sanktionszahlungen. Die Zahlungspflicht der Länder gegenüber dem Bund entsteht mit der Bekanntgabe eines Beschlusses des Rates über Sanktionszahlungen an die Bundesrepublik Deutschland."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(1) Der Anteil des Bundes an Sanktionszahlungen beträgt 65 Prozent, der Anteil der Länder 35 Prozent. 35 Prozent des Länderanteils tragen die Länder entsprechend ihrer Einwohnerzahl. 65 Prozent des Länderanteils tragen die Länder nach dem Anteil des Finanzierungsdefizits des jeweiligen Landes an der Summe der Finanzierungsdefizite aller Länder (Verursachungsbeitrag); Länder, die einen ausgeglichenen oder positiven Finanzierungssaldo aufweisen, bleiben bei der Ermittlung der Summe der Finanzierungsdefizite unberücksichtigt und werden an dem Teil der Sanktionslasten, der sich nach dem Verursachungsbeitrag bemisst, nicht beteiligt. Werden Sanktionszahlungen auf Grundlage von Artikel 4 der Verordnung (EU) Nr. 1173/2011 vor dem 1. Januar 2020 begründet, trägt der Bund die Sanktionszahlungen. Sanktionszahlungen gelten als vor dem 1. Januar 2020 begründet, soweit die Frist des Rates zur Behebung der Abweichungen und zur Ergreifung wirksamer Maßnahmen (Artikel 6 Absatz 2 zweiter Unterabsatz der Verordnung (EG) Nr. 1466/97) vor dem 1. Januar 2020 ausläuft."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(2) Der Finanzierungssaldo nach Absatz 1 setzt sich zusammen aus dem Finanzierungssaldo in haushaltsrechtlicher Abgrenzung abzüglich der Einnahmen aus der Veräußerung von Beteiligungen, aus der Kreditaufnahme beim öffentlichen Bereich sowie aus Darlehensrückflüssen von Dritten und zuzüglich der Ausgaben für den Erwerb von Beteiligungen, der Tilgungsausgaben an den öffentlichen Bereich sowie der Darlehensvergabe an Dritte (VGR-nahe Abgrenzung). Bei der Ermittlung der Finanzierungssalden der Länder sind die entsprechend zu ermittelnden Finanzierungssalden der Gemeinden, Gemeindeverbände und Zweckverbände einzubeziehen."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(3) Die nach den Absätzen 1 und 2 berechneten Zahlungsverpflichtungen eines Landes werden für die Dauer einer vom Bundesverfassungsgericht festgestellten extremen Haushaltsnotlage im Rahmen eines abgestimmten Sanierungskonzeptes vom Bund gestundet. Nach Abschluss des Sanierungsprozesses sind die Beträge, mit denen der Bund in Vorleistung getreten ist, durch das betroffene Land unverzüglich zu erstatten. Die gestundeten Beträge sind bis zu ihrer Rückzahlung nach dem Refinanzierungszins des Bundes zu verzinsen."@de .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "(1) Für die Berechnung des Länderanteils an Sanktionszahlungen gemäß § 2 Abs. 1 Satz 2 sind die Einwohnerzahlen maßgebend, die das Statistische Bundesamt zum 30. Juni des dem Beschluss des Rates gemäß § 1 Satz 3 vorausgehenden Kalenderjahres (Anlastungsjahr) festgestellt hat."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "(2) Maßgeblich für die Höhe der Finanzierungssalden der Länder einschließlich der Gemeinden und Gemeindeverbände gemäß § 2 Abs. 1 Satz 3 ist, bei Geldbußen gemäß § 1 Satz 1 vorbehaltlich der endgültigen Ergebnisse der amtlichen Rechnungsstatistik, das Ergebnis der amtlichen Vierteljahresstatistik des Statistischen Bundesamtes zu den öffentlichen Haushalten zum 31. Dezember des Anlastungsjahres."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "(1) Werden Einlagen vollständig an die Bundesrepublik Deutschland zurückerstattet, erhalten Bund und Länder ihre gemäß § 2 geleisteten Anteile zurück. Eine teilweise Rückerstattung von Einlagen sowie eine Rückerstattung von bei verzinslichen Einlagen aufgelaufenen Zinsen werden entsprechend den gemäß § 2 geleisteten Anteilen auf den Bund und die Länder verteilt."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "(2) Zinsen auf Einlagen anderer Mitgliedstaaten und entsprechende Geldbußen, die der Bundesrepublik Deutschland zufließen, stehen dem Bund zu 65 Prozent, den Ländern zu 35 Prozent zu. Der Länderanteil wird entsprechend der Einwohnerzahl auf die einzelnen Länder aufgeteilt. Für die Berechnung der Anteile der einzelnen Länder sind die Einwohnerzahlen maßgebend, die das Statistische Bundesamt zum 30. Juni des dem Eingang dieser Gelder vorausgehenden Kalenderjahres festgestellt hat."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium der Finanzen wird ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates die Höhe der Anteile gemäß § 2 Abs. 1 und § 4 festzustellen sowie die Zahlungsmodalitäten und sonstige Einzelheiten im Zusammenhang mit der Durchführung dieses Gesetzes zu bestimmen."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "SZAG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2006-09-05"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id86 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id87 .
+
+dtd:fussnoten-id43 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id68 .
+
+dtd:fussnoten-id45 a dtd:fussnoten .
+
+dtd:fussnoten-id47 a dtd:fussnoten .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "SZAG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "SZAG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "SZAG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "SZAG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "SZAG"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "SZAG"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Sanktionszahlungs-Aufteilungsgesetz"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Gesetz zur innerstaatlichen Aufteilung von Sanktionszahlungen zur Sicherstellung der Haushaltsdisziplin in der Europäischen Union"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130725220058"@de ;
+    dtd:has_doknr "BJNR210400006"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130725220058"@de ;
+    dtd:has_doknr "BJNR210400006BJNE000101377"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130725220058"@de ;
+    dtd:has_doknr "BJNR210400006BJNE000201377"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130725220058"@de ;
+    dtd:has_doknr "BJNR210400006BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130725220058"@de ;
+    dtd:has_doknr "BJNR210400006BJNE000401377"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130725220058"@de ;
+    dtd:has_doknr "BJNR210400006BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id86 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id85 a dtd:pre ;
+    dtd:has_BR dtd:BR-id53,
+        dtd:BR-id54 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.9.2006 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id89 ;
+    dtd:has_standtyp dtd:standtyp-id88 .
+
+dtd:standkommentar-id89 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 3 G v. 15.7.2013 I 2398"@de .
+
+dtd:standtyp-id88 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id45 ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id47 ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Gegenstand"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Aufteilung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Grundlagen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Rückerstattungen; Einlagen anderer Mitgliedstaaten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Verordnungsermächtigung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id87 a dtd:zitstelle ;
+    dtd:has_Value "2006, 2098, 2104"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

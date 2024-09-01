@@ -1,0 +1,162 @@
+@prefix dtd: <urn:SchKG§19Abs2/§24Bek-2023#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20230629213508"@de ;
+    dtd:has_doknr "BJNR617800023"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3 .
+
+dtd:B-id19 a dtd:B ;
+    dtd:has_Value "1 383"@de .
+
+dtd:B-id20 a dtd:B ;
+    dtd:has_Value "328"@de .
+
+dtd:B-id21 a dtd:B ;
+    dtd:has_Value "405"@de .
+
+dtd:B-id22 a dtd:B ;
+    dtd:has_Value "405"@de .
+
+dtd:BR-id16 a dtd:BR .
+
+dtd:BR-id17 a dtd:BR .
+
+dtd:BR-id18 a dtd:BR .
+
+dtd:Content-id33 a dtd:Content ;
+    dtd:has_P dtd:P-id34 .
+
+dtd:Content-id35 a dtd:Content ;
+    dtd:has_P dtd:P-id36 .
+
+dtd:DD-id27 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id30 .
+
+dtd:DD-id28 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id31 .
+
+dtd:DD-id29 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id32 .
+
+dtd:DL-id23 a dtd:DL ;
+    dtd:has_DD dtd:DD-id27,
+        dtd:DD-id28,
+        dtd:DD-id29 ;
+    dtd:has_DT dtd:DT-id24,
+        dtd:DT-id25,
+        dtd:DT-id26 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id24 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id25 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id26 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:LA-id30 a dtd:LA ;
+    dtd:has_B dtd:B-id19 ;
+    dtd:has_Value "Die Einkommensgrenze nach § 19 Absatz 2 Satz 1 beträgt 1 383 Euro."@de .
+
+dtd:LA-id31 a dtd:LA ;
+    dtd:has_B dtd:B-id20 ;
+    dtd:has_Value "Der Zuschlag für Kinder nach § 19 Absatz 2 Satz 2 beträgt 328 Euro."@de .
+
+dtd:LA-id32 a dtd:LA ;
+    dtd:has_B dtd:B-id21,
+        dtd:B-id22 ;
+    dtd:has_Value "Bei den Kosten der Unterkunft nach § 19 Absatz 2 Satz 3 wird ein 405 Euro übersteigender Mehrbetrag bis zur Höhe von 405 Euro berücksichtigt."@de .
+
+dtd:P-id34 a dtd:P ;
+    dtd:has_BR dtd:BR-id16 ;
+    dtd:has_Value " (+++ Textnachweis ab: 27.6.2023 +++)"@de ;
+    dtd:has_pre dtd:pre-id37 .
+
+dtd:P-id36 a dtd:P ;
+    dtd:has_DL dtd:DL-id23 ;
+    dtd:has_Value "Aufgrund des § 24 des Schwangerschaftskonfliktgesetzes, der durch Artikel 36 Nummer 4 des Gesetzes vom 8. Dezember 2010 (BGBl. I S. 1864) eingefügt worden ist, macht das Bundesministerium für Familie, Senioren, Frauen und Jugend die ab dem 1. Juli 2023 geltenden Beträge gemäß § 19 Absatz 2 des Schwangerschaftskonfliktgesetzes wie folgt bekannt: 1.Die Einkommensgrenze nach § 19 Absatz 2 Satz 1 beträgt 1 383 Euro.2.Der Zuschlag für Kinder nach § 19 Absatz 2 Satz 2 beträgt 328 Euro.3.Bei den Kosten der Unterkunft nach § 19 Absatz 2 Satz 3 wird ein 405 Euro übersteigender Mehrbetrag bis zur Höhe von 405 Euro berücksichtigt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id9 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2023-06-01"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id13 a dtd:enbez ;
+    dtd:has_Value "(XXXX)"@de .
+
+dtd:fundstelle-id10 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id38 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id39 .
+
+dtd:fussnoten-id14 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id33 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id12 a dtd:jurabk ;
+    dtd:has_Value "SchKG§19Abs2/§24Bek 2023"@de .
+
+dtd:jurabk-id8 a dtd:jurabk ;
+    dtd:has_Value "SchKG§19Abs2/§24Bek 2023"@de .
+
+dtd:langue-id11 a dtd:langue ;
+    dtd:has_Value "Bekanntmachung über die nach § 19 Absatz 2 in Verbindung mit § 24 des Schwangerschaftskonfliktgesetzes ab dem 1. Juli 2023 geltenden Beträge"@de .
+
+dtd:metadaten-id4 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id9 ;
+    dtd:has_fundstelle dtd:fundstelle-id10 ;
+    dtd:has_jurabk dtd:jurabk-id8 ;
+    dtd:has_langue dtd:langue-id11 .
+
+dtd:metadaten-id6 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id13 ;
+    dtd:has_jurabk dtd:jurabk-id12 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20230629213508"@de ;
+    dtd:has_doknr "BJNR617800023"@de ;
+    dtd:has_metadaten dtd:metadaten-id4 ;
+    dtd:has_textdaten dtd:textdaten-id5 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20230629213508"@de ;
+    dtd:has_doknr "BJNR617800023BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id6 ;
+    dtd:has_textdaten dtd:textdaten-id7 .
+
+dtd:periodikum-id38 a dtd:periodikum ;
+    dtd:has_Value "BAnz"@de .
+
+dtd:pre-id37 a dtd:pre ;
+    dtd:has_BR dtd:BR-id17,
+        dtd:BR-id18 ;
+    dtd:has_Value "(+++ Textnachweis ab: 27.6.2023 +++)"@de .
+
+dtd:text-id15 a dtd:text ;
+    dtd:has_Content dtd:Content-id35 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id5 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id14 .
+
+dtd:textdaten-id7 a dtd:textdaten ;
+    dtd:has_text dtd:text-id15 .
+
+dtd:zitstelle-id39 a dtd:zitstelle ;
+    dtd:has_Value "AT 27.06.2023 B3"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

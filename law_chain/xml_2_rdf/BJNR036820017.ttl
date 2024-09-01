@@ -1,0 +1,458 @@
+@prefix dtd: <urn:IUCNVorV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20170502215510"@de ;
+    dtd:has_doknr "BJNR036820017"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id65 a dtd:BR .
+
+dtd:BR-id66 a dtd:BR .
+
+dtd:BR-id67 a dtd:BR .
+
+dtd:Content-id101 a dtd:Content ;
+    dtd:has_P dtd:P-id102 .
+
+dtd:Content-id103 a dtd:Content ;
+    dtd:has_P dtd:P-id104,
+        dtd:P-id105,
+        dtd:P-id106 .
+
+dtd:Content-id107 a dtd:Content ;
+    dtd:has_P dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110 .
+
+dtd:Content-id111 a dtd:Content ;
+    dtd:has_P dtd:P-id112 .
+
+dtd:Content-id90 a dtd:Content ;
+    dtd:has_P dtd:P-id91 .
+
+dtd:Content-id92 a dtd:Content ;
+    dtd:has_P dtd:P-id93 .
+
+dtd:Content-id94 a dtd:Content ;
+    dtd:has_P dtd:P-id95,
+        dtd:P-id96 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id83 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id84 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id85 .
+
+dtd:DD-id79 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id86 .
+
+dtd:DD-id80 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id87 .
+
+dtd:DD-id81 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id88 .
+
+dtd:DD-id82 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id89 .
+
+dtd:DL-id68 a dtd:DL ;
+    dtd:has_DD dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78,
+        dtd:DD-id79,
+        dtd:DD-id80,
+        dtd:DD-id81,
+        dtd:DD-id82 ;
+    dtd:has_DT dtd:DT-id69,
+        dtd:DT-id70,
+        dtd:DT-id71,
+        dtd:DT-id72,
+        dtd:DT-id73,
+        dtd:DT-id74,
+        dtd:DT-id75 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id69 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id70 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id71 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id72 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "f)"@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "g)"@de .
+
+dtd:LA-id83 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Einkommensteuer,"@de .
+
+dtd:LA-id84 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Körperschaftsteuer,"@de .
+
+dtd:LA-id85 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Gewerbesteuer,"@de .
+
+dtd:LA-id86 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Vermögensteuer,"@de .
+
+dtd:LA-id87 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Grundsteuer,"@de .
+
+dtd:LA-id88 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Grunderwerbsteuer und"@de .
+
+dtd:LA-id89 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Kraftfahrzeugsteuer."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "Die Bestimmungen des Artikels V § 15 des Abkommens vom 21. November 1947 über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen sind nicht auf Vertreter der Bundesrepublik Deutschland sowie Personen, die Staatsangehörige der Bundesrepublik Deutschland sind oder im Hoheitsgebiet der Bundesrepublik Deutschland ihren ständigen Aufenthalt haben, anwendbar. Die Bestimmungen des Artikels VI § 19 Buchstabe c und § 20 des in Satz 1 genannten Abkommens sind nicht auf diejenigen Personen anwendbar, die Staatsangehörige der Bundesrepublik Deutschland sind oder im Hoheitsgebiet der Bundesrepublik Deutschland ihren ständigen Aufenthalt haben."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "Das Vermögen und die Guthaben der IUCN sind von Beschränkungen, Regelungen, Kontrollen oder Stillhaltemaßnahmen jeder Art befreit."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_DL dtd:DL-id68 ;
+    dtd:has_Value "(1) Die IUCN, ihre Guthaben, Einkünfte und sonstigen Vermögenswerte sind im Rahmen ihrer amtlichen Tätigkeit befreit von jeder direkten Steuer. Die direkten Steuern umfassen insbesondere, ohne jedoch darauf beschränkt zu sein,a)die Einkommensteuer,b)die Körperschaftsteuer,c)die Gewerbesteuer,d)die Vermögensteuer,e)die Grundsteuer,f)die Grunderwerbsteuer undg)die Kraftfahrzeugsteuer."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(2) Die Gelder, Guthaben und alle sonstigen Vermögenswerte der IUCN einschließlich Veröffentlichungen, audiovisueller Materialien und sonstiger Dokumente, ungeachtet ihrer Form, sind von Verboten und Beschränkungen hinsichtlich der von der IUCN für ihren amtlichen Gebrauch ein- oder ausgeführten Gegenstände befreit. Das gilt nicht für zollrechtliche Bestimmungen."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(3) Die in Absatz 1 genannten Befreiungen und Vorrechte werden in Übereinstimmung mit den förmlichen Erfordernissen der Bundesrepublik Deutschland angewandt. Die IUCN erhält keine Befreiung von Steuern und sonstigen Abgaben, die tatsächlich lediglich eine Vergütung für Leistungen öffentlicher Versorgungsdienste darstellen."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "Nach Einführung eines Systems der internen Besteuerung durch die IUCN als eine durch zwischenstaatliche Vereinbarung geschaffene Organisation sind von dem Zeitpunkt an, zu dem die Gehälter und Bezüge der Beschäftigten der IUCN der von der Organisation für eigene Rechnung erhobenen Steuer unterworfen werden, die Beschäftigten der IUCN von den Steuern auf die von der Organisation an sie gezahlten Gehälter und Bezüge befreit, soweit sie nicht die deutsche Staatsangehörigkeit haben. Diese Gehälter und Bezüge können von der Bundesrepublik Deutschland für die Festsetzung des auf Einkünfte aus anderen Quellen zu erhebenden Steuersatzes berücksichtigt werden."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:P-id91 a dtd:P ;
+    dtd:has_BR dtd:BR-id65 ;
+    dtd:has_Value " (+++ Textnachweis ab: 12.4.2017 +++)"@de ;
+    dtd:has_pre dtd:pre-id113 .
+
+dtd:P-id93 a dtd:P ;
+    dtd:has_Value "Auf Grund des Artikels 3 Nummer 1 Buchstabe b des Gesetzes vom 22. Juni 1954 über den Beitritt der Bundesrepublik Deutschland zum Abkommen über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen vom 21. November 1947 und über die Gewährung von Vorrechten und Befreiungen an andere zwischenstaatliche Organisationen (BGBl. 1954 II S. 639), der durch Artikel 4 Absatz 1 des Gesetzes vom 16. August 1980 (BGBl. 1980 II S. 941) neu gefasst worden ist, verordnet die Bundesregierung:"@de .
+
+dtd:P-id95 a dtd:P ;
+    dtd:has_Value "(1) Die Bestimmungen des Artikels II § 3, des Artikels III § 6, des Artikels IV §§ 11 und 12, des Artikels V §§ 15 bis 17, des Artikels VI § 19 Buchstabe c, §§ 20, 22 und 23, des Artikels VII §§ 24 und 25 sowie des Artikels IX § 31 Buchstabe b des Abkommens vom 21. November 1947 über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen finden nach Maßgabe dieser Verordnung auf die Internationale Union für die Erhaltung der Natur und der natürlichen Hilfsquellen (IUCN) entsprechende Anwendung."@de .
+
+dtd:P-id96 a dtd:P ;
+    dtd:has_Value "(2) Der Leiter der IUCN genießt mit Ausnahme von steuerlichen und Befreiungen von der Gerichtsbarkeit die Vorrechte und Befreiungen, die nach dem Völkerrecht diplomatischen Vertretern gewährt werden."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_Value "Beschäftigte der IUCN, auf die § 1 dieser Verordnung in Verbindung mit Artikel VI § 19 Buchstabe c, §§ 20, 22 und 23 des Abkommens vom 21. November 1947 über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen und § 6 dieser Verordnung Anwendung finden, sind die Amtsträger der IUCN, die für den in Deutschland ansässigen Teil der IUCN angestellt sind. „Leiter der Sonderorganisation“ im Sinne des § 21 des Abkommens vom 21. November 1947 über die Vorrechte und Befreiungen der Sonderorganisationen der Vereinten Nationen ist für die Anwendung dieser Verordnung der Leiter der IUCN."@de .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-03-31"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id44 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id50 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id114 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id115 .
+
+dtd:fussnoten-id55 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id90 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id49 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "IUCNVorV"@de .
+
+dtd:langue-id36 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Gewährung von Vorrechten und Befreiungen an die Internationale Union für die Erhaltung der Natur und der natürlichen Hilfsquellen"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_langue dtd:langue-id36 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id44 ;
+    dtd:has_jurabk dtd:jurabk-id43 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id50 ;
+    dtd:has_jurabk dtd:jurabk-id49 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20170502215511"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20170502215511"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20170502215510"@de ;
+    dtd:has_doknr "BJNR036820017"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20170502215510"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20170502215510"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20170502215510"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20170502215510"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20170502215511"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20170502215511"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20170502215511"@de ;
+    dtd:has_doknr "BJNR036820017BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id114 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id113 a dtd:pre ;
+    dtd:has_BR dtd:BR-id66,
+        dtd:BR-id67 ;
+    dtd:has_Value "(+++ Textnachweis ab: 12.4.2017 +++)"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id92 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id94 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id97 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id101 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id103 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id62 a dtd:text ;
+    dtd:has_Content dtd:Content-id107 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id64 a dtd:text ;
+    dtd:has_Content dtd:Content-id111 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id62 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id64 .
+
+dtd:zitstelle-id115 a dtd:zitstelle ;
+    dtd:has_Value "2017, 368"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

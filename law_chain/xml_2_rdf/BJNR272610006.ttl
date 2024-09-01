@@ -1,0 +1,321 @@
+@prefix dtd: <urn:StIdV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20231031213513"@de ;
+    dtd:has_doknr "BJNR272610006"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id60 a dtd:BR .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68,
+        dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content .
+
+dtd:Content-id71 a dtd:Content ;
+    dtd:has_P dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76,
+        dtd:P-id77 .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_BR dtd:BR-id60 ;
+    dtd:has_Value " (+++ Textnachweis ab: 7.12.2006 +++)Die V wurde als Artikel 1 der V v. 28.11.2006 I 2726 von der Bundesregierung und dem Bundesministerium der Finanzen mit Zustimmung des Bundesrates erlassen. Sie ist gem. Art. 3 dieser V am 7.12.2006 in Kraft getreten."@de ;
+    dtd:has_pre dtd:pre-id78 .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "Die Identifikationsnummer nach § 139b der Abgabenordnung besteht aus zehn Ziffern und einer Prüfziffer als elfter Ziffer."@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(1) Für die Datenübermittlungen der Meldebehörden an das Bundeszentralamt für Steuern nach § 139b Absatz 6 Satz 1, 3, Absatz 7 Satz 1 und Absatz 8 der Abgabenordnung gelten die §§ 2 und 9 der Zweiten Bundesmeldedatenübermittlungsverordnung."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "(2) Die Datenübermittlungen des Bundeszentralamts für Steuern an die Meldebehörden nach § 139b Absatz 6 Satz 4 und Abs. 7 Satz 2 der Abgabenordnung erfolgen durch Datenübertragung über verwaltungseigene Kommunikationsnetze oder über das Internet. Sie erfolgen unmittelbar oder über Vermittlungsstellen. Die zu übermittelnden Daten sind mit einer fortgeschrittenen elektronischen Signatur zu versehen und nach dem Stand der Technik zu verschlüsseln. Hierbei sind die Satzbeschreibung OSCI-XMeld (§ 3 Absatz 1 der Zweiten Bundesmeldedatenübermittlungsverordnung) und das Übermittlungsprotokoll OSCI-Transport (§ 3 Absatz 2 der Zweiten Bundesmeldedatenübermittlungsverordnung) in der im Bundesanzeiger bekannt gemachten jeweils geltenden Fassung zu Grunde zu legen."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "Die beim Bundeszentralamt für Steuern nach § 139b Abs. 3 der Abgabenordnung gespeicherten Daten sind zu löschen, wenn sie zur Erfüllung der gesetzlichen Aufgaben der Finanzbehörden nicht mehr erforderlich sind, spätestens jedoch 20 Jahre nach Ablauf des Kalenderjahres, in dem der Steuerpflichtige verstorben ist."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "Das Bundeszentralamt für Steuern hat die Sicherheit und Funktionsfähigkeit des Verfahrens zu gewährleisten. Anforderungen an die Sicherheit der elektronischen Übermittlung hat das Bundeszentralamt für Steuern im Benehmen mit dem Bundesamt für Sicherheit in der Informationstechnik festzulegen."@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_Value "(1) Das Bundeszentralamt für Steuern unterrichtet den Steuerpflichtigen unverzüglich über die ihm zugeteilte Identifikationsnummer."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "(2) Stellen die Finanzbehörden Unrichtigkeiten der Daten im Sinne des § 139b Abs. 3 der Abgabenordnung fest, teilen sie dies dem Bundeszentralamt für Steuern mit. Einzelheiten des Verfahrens bestimmt das Bundesministerium der Finanzen im Einvernehmen mit den obersten Finanzbehörden der Länder durch ein im Bundessteuerblatt zu veröffentlichendes Schreiben."@de .
+
+dtd:amtabk-id24 a dtd:amtabk ;
+    dtd:has_Value "StIdV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id25 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2006-11-28"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:fundstelle-id26 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id79 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id80 .
+
+dtd:fussnoten-id48 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id63 .
+
+dtd:fussnoten-id50 a dtd:fussnoten .
+
+dtd:fussnoten-id52 a dtd:fussnoten .
+
+dtd:fussnoten-id54 a dtd:fussnoten .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:fussnoten-id59 a dtd:fussnoten .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "StIdV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "StIdV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "StIdV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "StIdV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "StIdV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "StIdV"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "StIdV"@de .
+
+dtd:kurzue-id27 a dtd:kurzue ;
+    dtd:has_Value "Steueridentifikationsnummerverordnung"@de .
+
+dtd:langue-id28 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Vergabe steuerlicher Identifikationsnummern"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id24 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id25 ;
+    dtd:has_fundstelle dtd:fundstelle-id26 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id27 ;
+    dtd:has_langue dtd:langue-id28 ;
+    dtd:has_standangabe dtd:standangabe-id29 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20231031213513"@de ;
+    dtd:has_doknr "BJNR272610006"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20231031213513"@de ;
+    dtd:has_doknr "BJNR272610006BJNE000101377"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20231031213513"@de ;
+    dtd:has_doknr "BJNR272610006BJNE000205123"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20231031213513"@de ;
+    dtd:has_doknr "BJNR272610006BJNE000302377"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20231031213513"@de ;
+    dtd:has_doknr "BJNR272610006BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20231031213513"@de ;
+    dtd:has_doknr "BJNR272610006BJNE000501301"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20231031213513"@de ;
+    dtd:has_doknr "BJNR272610006BJNE000602123"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id79 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id78 a dtd:pre ;
+    dtd:has_BR dtd:BR-id61,
+        dtd:BR-id62 ;
+    dtd:has_Value "(+++ Textnachweis ab: 7.12.2006 +++)"@de .
+
+dtd:standangabe-id29 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id82 ;
+    dtd:has_standtyp dtd:standtyp-id81 .
+
+dtd:standkommentar-id82 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 5 V v. 19.12.2022 I 2432"@de .
+
+dtd:standtyp-id81 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id51 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id53 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id71 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id75 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id48 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id50 ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id52 ;
+    dtd:has_text dtd:text-id51 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 ;
+    dtd:has_text dtd:text-id53 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Aufbau der Identifikationsnummer"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Form und Verfahren der Datenübermittlungen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Löschungsfrist"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Sicherheit und Funktionsfähigkeit des Verfahrens"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "Benachrichtigung des Betroffenen, Berichtigung unrichtiger Daten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id80 a dtd:zitstelle ;
+    dtd:has_Value "2006, 2726"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

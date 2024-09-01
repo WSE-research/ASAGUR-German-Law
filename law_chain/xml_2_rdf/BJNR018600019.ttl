@@ -1,0 +1,276 @@
+@prefix dtd: <urn:DBATURNV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20190403212004"@de ;
+    dtd:has_doknr "BJNR018600019"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8 .
+
+dtd:BR-id51 a dtd:BR .
+
+dtd:BR-id52 a dtd:BR .
+
+dtd:BR-id53 a dtd:BR .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55 .
+
+dtd:Content-id56 a dtd:Content ;
+    dtd:has_P dtd:P-id57 .
+
+dtd:Content-id58 a dtd:Content ;
+    dtd:has_P dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63 .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_BR dtd:BR-id51 ;
+    dtd:has_Value " (+++ Textnachweis ab: 9.3.2019 +++)"@de ;
+    dtd:has_pre dtd:pre-id68 .
+
+dtd:P-id57 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 2 Absatz 3 Nummer 1 der Abgabenordnung, der durch Artikel 2 Nummer 1 des Gesetzes vom 20. Dezember 2016 (BGBl. I S. 3000) angefügt worden ist, verordnet das Bundesministerium der Finanzen:"@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "Abkommen im Sinn dieser Verordnung ist das Abkommen zwischen der Bundesrepublik Deutschland und der Republik Türkei zur Vermeidung der Doppelbesteuerung und der Steuerverkürzung auf dem Gebiet der Steuern vom Einkommen (Abkommen) vom 19. September 2011 (BGBl. 2012 II S. 527) in der jeweils geltenden Fassung."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "Aufgrund der auf diplomatischem Weg erfolgten Notifizierung gemäß Artikel 22 Absatz 2 Buchstabe e Doppelbuchstabe bb des Abkommens wird bei einer nach Artikel 4 des Abkommens in der Bundesrepublik Deutschland ansässigen Person die Doppelbesteuerung bei Einkünften aus nichtselbständiger Arbeit nach Artikel 15 des Abkommens wie folgt vermieden: Einkünfte, die nach dem Abkommen in der Republik Türkei besteuert werden können, sind nicht mehr von der Bemessungsgrundlage der deutschen Steuer nach Artikel 22 Absatz 2 Buchstabe a des Abkommens auszunehmen, wenn aufgrund eines anderen, nichtsteuerlichen bilateralen Abkommens die Republik Türkei diese Einkünfte nicht besteuern kann. In diesen Fällen vermeidet die Bundesrepublik Deutschland die Doppelbesteuerung durch Steueranrechnung nach Artikel 22 Absatz 2 Buchstabe b des Abkommens."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "Diese Verordnung ist auf Steuern anzuwenden, die für Zeiträume ab dem 1. Januar 2019 erhoben werden."@de .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Der Bundesrat hat zugestimmt."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id24 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2019-02-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id29 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "Schlussformel"@de .
+
+dtd:fundstelle-id25 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id69 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id70 .
+
+dtd:fussnoten-id44 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id54 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "DBATURNV"@de .
+
+dtd:jurabk-id28 a dtd:jurabk ;
+    dtd:has_Value "DBATURNV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "DBATURNV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "DBATURNV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "DBATURNV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "DBATURNV"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "DBATURNV"@de .
+
+dtd:kurzue-id26 a dtd:kurzue ;
+    dtd:has_Value "Notifizierungsverordnung DBA Türkei"@de .
+
+dtd:langue-id27 a dtd:langue ;
+    dtd:has_Value "Verordnung zur Umsetzung der Notifizierung zur Anwendung der Anrechnungsmethode bei bestimmten Einkünften nach dem deutsch-türkischen Doppelbesteuerungsabkommen"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id29 ;
+    dtd:has_jurabk dtd:jurabk-id28 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id24 ;
+    dtd:has_fundstelle dtd:fundstelle-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23 ;
+    dtd:has_kurzue dtd:kurzue-id26 ;
+    dtd:has_langue dtd:langue-id27 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20190403212004"@de ;
+    dtd:has_doknr "BJNR018600019"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20190403212004"@de ;
+    dtd:has_doknr "BJNR018600019BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20190403212004"@de ;
+    dtd:has_doknr "BJNR018600019BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20190403212004"@de ;
+    dtd:has_doknr "BJNR018600019BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20190403212005"@de ;
+    dtd:has_doknr "BJNR018600019BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20190403212005"@de ;
+    dtd:has_doknr "BJNR018600019BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20190403212005"@de ;
+    dtd:has_doknr "BJNR018600019BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:periodikum-id69 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id68 a dtd:pre ;
+    dtd:has_BR dtd:BR-id52,
+        dtd:BR-id53 ;
+    dtd:has_Value "(+++ Textnachweis ab: 9.3.2019 +++)"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id56 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id58 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id47 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id48 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id49 a dtd:text ;
+    dtd:has_Content dtd:Content-id64 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id44 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id47 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id48 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id49 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Abkommen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Vermeidung der Doppelbesteuerung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Anwendung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id70 a dtd:zitstelle ;
+    dtd:has_Value "2019, 186"@de .
+

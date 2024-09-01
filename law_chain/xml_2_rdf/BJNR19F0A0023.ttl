@@ -1,0 +1,523 @@
+@prefix dtd: <urn:SPRINDFG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id11,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id75 a dtd:BR .
+
+dtd:BR-id76 a dtd:BR .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:Content-id106 a dtd:Content ;
+    dtd:has_P dtd:P-id107,
+        dtd:P-id108 .
+
+dtd:Content-id109 a dtd:Content ;
+    dtd:has_P dtd:P-id110,
+        dtd:P-id111,
+        dtd:P-id112,
+        dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115,
+        dtd:P-id116 .
+
+dtd:Content-id117 a dtd:Content ;
+    dtd:has_P dtd:P-id118 .
+
+dtd:Content-id119 a dtd:Content ;
+    dtd:has_P dtd:P-id120,
+        dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123,
+        dtd:P-id124 .
+
+dtd:Content-id125 a dtd:Content ;
+    dtd:has_P dtd:P-id126 .
+
+dtd:Content-id127 a dtd:Content ;
+    dtd:has_P dtd:P-id128 .
+
+dtd:Content-id97 a dtd:Content ;
+    dtd:has_P dtd:P-id98 .
+
+dtd:Content-id99 a dtd:Content ;
+    dtd:has_P dtd:P-id100,
+        dtd:P-id101,
+        dtd:P-id102,
+        dtd:P-id103,
+        dtd:P-id104,
+        dtd:P-id105 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id91 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id92 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id93 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id94 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id90 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DL-id78 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89,
+        dtd:DD-id90 ;
+    dtd:has_DT dtd:DT-id79,
+        dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id79 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "6."@de .
+
+dtd:LA-id91 a dtd:LA ;
+    dtd:has_Value "Beteiligungen einschließlich typische und atypische stille Beteiligungen und vergleichbare Beteiligungen an privatrechtlichen Unternehmen erwerben, erhöhen und veräußern; § 65 der Bundeshaushaltsordnung bleibt nach Maßgabe des § 4 unberührt,"@de .
+
+dtd:LA-id92 a dtd:LA ;
+    dtd:has_Value "Darlehen einschließlich Wandeldarlehen vergeben; § 65 der Bundeshaushaltsordnung bleibt nach Maßgabe des § 4 unberührt,"@de .
+
+dtd:LA-id93 a dtd:LA ;
+    dtd:has_Value "schuldrechtliche Vereinbarungen eingehen,"@de .
+
+dtd:LA-id94 a dtd:LA ;
+    dtd:has_Value "Forschungs- und Entwicklungsaufträge vergeben,"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Value "Projektfinanzierungen, Zuschüsse und sonstige spezifische Unterstützungsprogramme gewähren und"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Value "auf Forschung an Sprunginnovationen und auf die Weiterentwicklung von Sprunginnovationen gerichtete Beratungsleistungen erbringen."@de .
+
+dtd:P-id100 a dtd:P ;
+    dtd:has_Value "(1) Die Bundesagentur für Sprunginnovationen SPRIND GmbH mit Sitz in Leipzig unter dem Handelsregistereintrag HRB 36977 (SPRIND) wird durch dieses Gesetz mit Förderaufgaben auf dem Gebiet der Sprunginnovationen betraut. Förderaufgaben im Sinne dieses Gesetzes sind die Identifizierung, Validierung und öffentliche Förderung von Vorhaben, die das Potential für eine Sprunginnovation aufweisen. Die SPRIND handelt dabei mit dem Ziel, dass durch neue hochinnovative Produkte, Prozesse oder Dienstleistungen neue Wertschöpfung insbesondere in Deutschland und Europa entsteht. Dies geschieht in der Absicht, das durch die SPRIND geförderte geistige Eigentum zu sichern."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_Value "(2) Sprunginnovationen im Sinne dieses Gesetzes sind Innovationen, die durch neuartige Lösungsansätze bestehende Produkte, Technologien oder Geschäftsmodelle auf Märkten grundlegend verändern oder ersetzen und dadurch neue Märkte und große Wertschöpfungspotentiale eröffnen oder ein bedeutendes technologisches, soziales oder ökologisches Problem lösen können."@de .
+
+dtd:P-id102 a dtd:P ;
+    dtd:has_Value "(3) Die SPRIND ist befugt, Förderaufgaben auf dem Gebiet der Sprunginnovationen im eigenen Namen und in den Handlungsformen des öffentlichen Rechts gemäß § 44 Absatz 3 der Bundeshaushaltsordnung wahrzunehmen."@de .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_DL dtd:DL-id78 ;
+    dtd:has_Value "(4) Die SPRIND kann darüber hinaus zur Wahrnehmung ihrer Förderaufgaben auf dem Gebiet der Sprunginnovationen insbesondere: 1.Beteiligungen einschließlich typische und atypische stille Beteiligungen und vergleichbare Beteiligungen an privatrechtlichen Unternehmen erwerben, erhöhen und veräußern; § 65 der Bundeshaushaltsordnung bleibt nach Maßgabe des § 4 unberührt,2.Darlehen einschließlich Wandeldarlehen vergeben; § 65 der Bundeshaushaltsordnung bleibt nach Maßgabe des § 4 unberührt,3.schuldrechtliche Vereinbarungen eingehen,4.Forschungs- und Entwicklungsaufträge vergeben,5.Projektfinanzierungen, Zuschüsse und sonstige spezifische Unterstützungsprogramme gewähren und6.auf Forschung an Sprunginnovationen und auf die Weiterentwicklung von Sprunginnovationen gerichtete Beratungsleistungen erbringen."@de .
+
+dtd:P-id104 a dtd:P ;
+    dtd:has_Value "(5) Nähere Regelungen zur Wahrnehmung der Förderaufgaben der SPRIND treffen das Bundesministerium für Bildung und Forschung und das Bundesministerium für Wirtschaft und Klimaschutz für den Bund in einer vertraglichen Vereinbarung mit der SPRIND."@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(6) Darüber hinaus erfüllt die SPRIND ihre Aufgaben im Rahmen ihres satzungsgemäßen Unternehmensgegenstands als Auftragnehmerin des Bundes."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(1) Die SPRIND unterliegt der Rechts- und Fachaufsicht des Bundesministeriums für Bildung und Forschung. Die Fachaufsicht soll sich auf die Etablierung angemessener Verfahren zur Wahrnehmung der übertragenen Förderaufgaben sowie die Sicherstellung einer wirtschaftlichen Aufgabenerfüllung durch die SPRIND konzentrieren."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(2) Dem Bundesministerium für Bildung und Forschung steht ein uneingeschränktes Informationsrecht zu. Das Bundesministerium für Bildung und Forschung kann sich zur Gewährleistung der Rechts- und Fachaufsicht jederzeit durch die Organe der SPRIND über die Wahrnehmung der übertragenen Förderaufgaben unterrichten lassen. Die SPRIND ist darüber hinaus verpflichtet, begangene oder drohende Rechtsverstöße, Zweifelsfragen oder Schwierigkeiten im Zusammenhang mit den ihr übertragenen Förderaufgaben unverzüglich gegenüber dem Bundesministerium für Bildung und Forschung anzuzeigen."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(1) Die SPRIND darf Haushaltsmittel des Bundes verwalten. § 44 Absatz 2 der Bundeshaushaltsordnung bleibt unberührt."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(2) Die Mittel zur Förderung von Sprunginnovationen können bis zur Höhe von 30 Prozent nach Maßgabe des § 15 Absatz 2 der Bundeshaushaltsordnung zur Selbstbewirtschaftung veranschlagt werden."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(3) Aus der Förderung von Sprunginnovationen nach § 1 dieses Gesetzes herrührende Einnahmen, soweit sie aus der Veräußerung von Unternehmensanteilen oder der Veräußerung oder sonstigen Verwertung von geistigen Eigentumsrechten resultieren, sollen zur Hälfte den Mitteln zur Förderung von Sprunginnovationen zufließen. Das Nähere regelt das jährliche Haushaltsgesetz."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(4) Soweit Einnahmen im Sinne von Absatz 3 aus einem Fördervorhaben die Summe aller Aufwendungen aus Bundesmitteln übersteigen, die zuvor diesem Fördervorhaben zugeflossen sind, können diese in Höhe des übersteigenden Betrags nach Maßgabe des § 15 Absatz 2 der Bundeshaushaltsordnung zusätzlich zur Selbstbewirtschaftung zugewiesen werden."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "(1) Auf die Gründung von Tochtergesellschaften, in denen jeweils Projekte mit Sprunginnovationspotential umgesetzt werden und deren Gründung zu den Kernaufgaben der SPRIND gehört, findet das Genehmigungsverfahren nach § 65 der Bundeshaushaltsordnung keine Anwendung. Darüber hinaus kann die SPRIND Beteiligungen an privatrechtlichen Unternehmen zur Förderung von Sprunginnovationen ohne Zustimmung des Bundes bis einschließlich 25 Prozent der Anteile eines anderen Unternehmens erwerben, erhöhen oder solche Beteiligungen veräußern."@de .
+
+dtd:P-id116 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium der Finanzen entscheidet über Anträge gemäß § 65 der Bundeshaushaltsordnung oberhalb 25 Prozent der Anteile eines anderen Unternehmens. Es wird unwiderleglich vermutet, dass das Bundesministerium der Finanzen bei Anträgen die Einwilligung gemäß § 65 Absatz 3 Satz 2 der Bundeshaushaltsordnung erteilt hat, wenn dieses einem Antrag des zuständigen Bundesministeriums nicht innerhalb von vier Wochen nach Eingang des vollständigen Antrages widerspricht. Wenn innerhalb dieser Frist Widerspruch nach Satz 2 eingelegt wird, ist über den Antrag innerhalb von drei Monaten nach Eingang der vollständigen Antragsunterlagen zu entscheiden, andernfalls wird unwiderleglich vermutet, dass das Bundesministerium der Finanzen die Einwilligung erteilt hat. Sollte das Bundesministerium der Finanzen die Antragsunterlagen eines Antrags gemäß § 65 Bundeshaushaltsordnung für unvollständig befinden, weist es die Beteiligten unverzüglich auf die Notwendigkeit zu deren Ergänzung hin."@de .
+
+dtd:P-id118 a dtd:P ;
+    dtd:has_Value "Die SPRIND kann bei Vorliegen zwingender Gründe für die eigene Geschäftstätigkeit und ihre Tochtergesellschaften sowie die weiteren Unternehmen, an denen die SPRIND beteiligt ist, zulassen, dass die jeweils beschäftigten Mitarbeiterinnen und Mitarbeiter sowie Mitglieder der Geschäftsführung, soweit deren Beschäftigung andernfalls dem Besserstellungsverbot unterfiele, bessergestellt werden als vergleichbare Arbeitnehmerinnen und Arbeitnehmer des Bundes. Das Gleiche gilt im Falle der Gewährung von Fördermaßnahmen im Sinne von § 1 Absatz 3 und 4 Nummer 2 und 5 für die Mitarbeiterinnen und Mitarbeiter der privaten Unternehmen in den ersten fünf Jahren der Förderung durch die SPRIND."@de .
+
+dtd:P-id120 a dtd:P ;
+    dtd:has_Value "(1) Der Bundesrechnungshof hat die Befugnisse des § 54 des Haushaltsgrundsätzegesetzes."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "(2) Die SPRIND schließt mit dem Bundesrechnungshof eine Vereinbarung über die Prüfung der Haushalts- und Wirtschaftsführung gemäß § 104 Absatz 1 Nummer 3 der Bundeshaushaltsordnung."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesministerium für Bildung und Forschung wird die Förderung von Sprunginnovationen durch die SPRIND bis Ende 2024 evaluieren."@de .
+
+dtd:P-id124 a dtd:P ;
+    dtd:has_Value "(2) In einer weiteren Evaluation, die bis zum 31. Januar 2026 vorgelegt werden soll, wird die Fachaufsicht gemäß § 2 Absatz 1 Gegenstand einer Effizienz- und Wirksamkeitskotrolle sein, auf deren Grundlage gesetzliche Änderungen geprüft werden."@de .
+
+dtd:P-id126 a dtd:P ;
+    dtd:has_Value "Die SPRIND hat den Bund von allen Ansprüchen Dritter wegen Schäden freizustellen, die von der SPRIND in Wahrnehmung der ihr übertragenen Förderaufgaben vorsätzlich oder fahrlässig verursacht werden."@de .
+
+dtd:P-id128 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:P-id98 a dtd:P ;
+    dtd:has_BR dtd:BR-id75 ;
+    dtd:has_Value " (+++ Textnachweis ab: 30.12.2023 +++)"@de ;
+    dtd:has_pre dtd:pre-id129 .
+
+dtd:amtabk-id33 a dtd:amtabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id34 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2023-12-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id54 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id60 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:enbez-id63 a dtd:enbez ;
+    dtd:has_Value "§ 9"@de .
+
+dtd:fundstelle-id35 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id130 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id131 .
+
+dtd:fussnoten-id65 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id97 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id53 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:jurabk-id62 a dtd:jurabk ;
+    dtd:has_Value "SPRINDFG"@de .
+
+dtd:kurzue-id36 a dtd:kurzue ;
+    dtd:has_Value "SPRIND-Freiheitsgesetz"@de .
+
+dtd:langue-id37 a dtd:langue ;
+    dtd:has_Value "Gesetz über die Arbeitsweise der Bundesagentur für Sprunginnovationen und zur Flexibilisierung ihrer rechtlichen und finanziellen Rahmenbedingungen"@de .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id33 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id34 ;
+    dtd:has_fundstelle dtd:fundstelle-id35 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_kurzue dtd:kurzue-id36 ;
+    dtd:has_langue dtd:langue-id37 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id54 ;
+    dtd:has_jurabk dtd:jurabk-id53 ;
+    dtd:has_titel dtd:titel-id55 .
+
+dtd:metadaten-id26 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id28 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id60 ;
+    dtd:has_jurabk dtd:jurabk-id59 ;
+    dtd:has_titel dtd:titel-id61 .
+
+dtd:metadaten-id30 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id63 ;
+    dtd:has_jurabk dtd:jurabk-id62 ;
+    dtd:has_titel dtd:titel-id64 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id28 ;
+    dtd:has_textdaten dtd:textdaten-id29 .
+
+dtd:norm-id11 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000900000"@de ;
+    dtd:has_metadaten dtd:metadaten-id30 ;
+    dtd:has_textdaten dtd:textdaten-id31 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20240103213509"@de ;
+    dtd:has_doknr "BJNR19F0A0023BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id26 ;
+    dtd:has_textdaten dtd:textdaten-id27 .
+
+dtd:periodikum-id130 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id129 a dtd:pre ;
+    dtd:has_BR dtd:BR-id76,
+        dtd:BR-id77 ;
+    dtd:has_Value "(+++ Textnachweis ab: 30.12.2023 +++)"@de .
+
+dtd:text-id66 a dtd:text ;
+    dtd:has_Content dtd:Content-id99 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id106 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id109 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id70 a dtd:text ;
+    dtd:has_Content dtd:Content-id117 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id119 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id125 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id127 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id65 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id66 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id70 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id27 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id29 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id31 a dtd:textdaten ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Förderaufgaben, Beleihung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Aufsicht"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Finanzierung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Beteiligung an Unternehmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Einschränkung des Besserstellungsverbots"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id55 a dtd:titel ;
+    dtd:has_Value "Prüfungsrechte des Bundesrechnungshofes"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Evaluation"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id61 a dtd:titel ;
+    dtd:has_Value "Regress"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id64 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id131 a dtd:zitstelle ;
+    dtd:has_Value "2023, Nr. 415"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

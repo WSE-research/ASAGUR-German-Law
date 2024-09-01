@@ -1,0 +1,338 @@
+@prefix dtd: <urn:FischwAusbStEignV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20221020213557"@de ;
+    dtd:has_doknr "BJNR382200017"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:Content-id63 a dtd:Content ;
+    dtd:has_P dtd:P-id64 .
+
+dtd:Content-id65 a dtd:Content ;
+    dtd:has_P dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68,
+        dtd:P-id69,
+        dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72 .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74,
+        dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:DD-id55 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id59 .
+
+dtd:DD-id56 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id60 .
+
+dtd:DD-id57 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id61 .
+
+dtd:DD-id58 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id62 .
+
+dtd:DL-id50 a dtd:DL ;
+    dtd:has_DD dtd:DD-id55,
+        dtd:DD-id56,
+        dtd:DD-id57,
+        dtd:DD-id58 ;
+    dtd:has_DT dtd:DT-id51,
+        dtd:DT-id52,
+        dtd:DT-id53,
+        dtd:DT-id54 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id51 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id52 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id53 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id54 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:LA-id59 a dtd:LA ;
+    dtd:has_Value "fischwirtschaftliches Unternehmen,"@de .
+
+dtd:LA-id60 a dtd:LA ;
+    dtd:has_Value "selbständige fischwirtschaftliche Betriebseinheit,"@de .
+
+dtd:LA-id61 a dtd:LA ;
+    dtd:has_Value "fischwirtschaftliche Untersuchungsanstalt oder"@de .
+
+dtd:LA-id62 a dtd:LA ;
+    dtd:has_Value "Einrichtung der öffentlichen Hand."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_BR dtd:BR-id47 ;
+    dtd:has_Value " (+++ Textnachweis ab: 8.12.2017 +++)"@de ;
+    dtd:has_pre dtd:pre-id80 .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 27 Absatz 3 Satz 2 in Verbindung mit Absatz 1 und 2 des Berufsbildungsgesetzes, dessen Absatz 3 zuletzt durch Artikel 436 Nummer 2 Buchstabe a der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist, verordnet das Bundesministerium für Ernährung und Landwirtschaft im Einvernehmen mit dem Bundesministerium für Bildung und Forschung nach Anhörung des Hauptausschusses des Bundesinstituts für Berufsbildung:"@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "(1) Die Ausbildungsstätte muss unter Berücksichtigung der in § 27 Absatz 1 des Berufsbildungsgesetzes genannten Anforderungen ein Betrieb sein, der nach Art und Umfang der Produktion und der Dienstleistungen sowie nach seinem Bewirtschaftungszustand geeignet ist, um den Auszubildenden die Fertigkeiten, Kenntnisse und Fähigkeiten für die Ausübung des Berufs des Fischwirts und der Fischwirtin nach der Fischwirtausbildungsverordnung vom 26. Februar 2016 (BGBl. I S. 312) zu vermitteln. Die Ausbildungsstätte muss eine kontinuierliche Anleitung der Auszubildenden gewährleisten."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_DL dtd:DL-id50 ;
+    dtd:has_Value "(2) Die Ausbildungsstätte muss im Haupterwerb bewirtschaftet und nach betriebswirtschaftlichen Grundsätzen geführt werden, und zwar als 1.fischwirtschaftliches Unternehmen,2.selbständige fischwirtschaftliche Betriebseinheit,3.fischwirtschaftliche Untersuchungsanstalt oder4.Einrichtung der öffentlichen Hand.Die Wirtschaftsergebnisse der Ausbildungsstätte müssen buchführungsgemäß erfasst sein."@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(3) Die Gebäude, baulichen Anlagen, Maschinen, Anlagen und Geräte der Ausbildungsstätte müssen den im Hinblick auf die Ausbildungsziele zu stellenden Anforderungen entsprechen, in ordnungsgemäßem Zustand sein und dem Stand der Technik entsprechen. Es muss gewährleistet sein, dass die erforderlichen Betriebsmittel, insbesondere die Geräte, Maschinen und technischen Einrichtungen, für die Ausbildung zur Verfügung stehen und in ordnungsgemäßem Zustand sind. Die Ausbildungsstätte muss über geeignete Sozialräume und Sanitärräume verfügen."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(4) Ausbildungsstätten, die selbst nicht über die für die Durchführung der Ausbildung erforderliche Vielfalt und den erforderlichen Umfang der Produktion verfügen, dürfen nur ausbilden, wenn sie nachweisen, dass die durch sie nicht vermittelbaren Inhalte der Ausbildungsordnung in der erforderlichen Vielfalt und im erforderlichen Umfang bei Vertragspartnern vermittelt werden können."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(5) Die Ausbildungsstätte muss gewährleisten, dass die Regelungen des Jugendarbeitsschutzgesetzes, der Unfallverhütungsvorschriften, der Arbeitsstättenverordnung und sonstige Vorschriften zum Schutz der Auszubildenden eingehalten werden können. Bei der Beantragung der Anerkennung nach § 27 Absatz 3 Satz 1 des Berufsbildungsgesetzes muss eine Bescheinigung der zuständigen Berufsgenossenschaft über die sicherheitstechnische Überprüfung des Betriebes vorliegen, die nicht älter als ein Jahr ist."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(1) In der Ausbildungsstätte müssen ein Abdruck der Fischwirtausbildungsverordnung und der Prüfungsordnung sowie der Ausbildungsplan an geeigneter Stelle zur Einsicht ausgelegt oder den Auszubildenden ausgehändigt werden. Soweit tarifvertragliche Regelungen für den Ausbildungsbetrieb gelten, sind auch diese zur Einsicht auszulegen. Des Weiteren soll den Auszubildenden für die betriebliche Ausbildung geeignete Fachliteratur in der Ausbildungsstätte zur Verfügung stehen."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(2) Eine Ausbildungsstätte ist ungeeignet, wenn über das Vermögen des Inhabers oder der Inhaberin ein Insolvenz- oder Vergleichsverfahren eröffnet worden ist."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Eine Ausbildungsstätte, in der die erforderlichen beruflichen Fertigkeiten, Kenntnisse und Fähigkeiten nicht im vollen Umfang vermittelt werden können, gilt als geeignet, wenn sichergestellt ist, dass diese durch Ausbildungsmaßnahmen außerhalb der Ausbildungsstätte in einer anderen anerkannten Ausbildungsstätte, in Form von Ausbildungsverbünden oder in Form von überbetrieblicher Ausbildung vermittelt werden können."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tag nach der Verkündung in Kraft. Gleichzeitig tritt die Verordnung über die Eignung der Ausbildungsstätte für die Berufsausbildung zum Fischwirt vom 21. Dezember 1978 (BGBl. I S. 2072), die durch Artikel 6 Absatz 17 des Gesetzes vom 23. Mai 2017 (BGBl. I S. 1228) geändert worden ist, außer Kraft."@de .
+
+dtd:amtabk-id21 a dtd:amtabk ;
+    dtd:has_Value "FischwAusbStEignV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:ausfertigung-datum-id22 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2017-11-27"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:fundstelle-id23 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id81 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id82 .
+
+dtd:fussnoten-id41 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id63 .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "FischwAusbStEignV"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "FischwAusbStEignV"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "FischwAusbStEignV"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "FischwAusbStEignV"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "FischwAusbStEignV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "FischwAusbStEignV"@de .
+
+dtd:kurzue-id24 a dtd:kurzue ;
+    dtd:has_Value "Fischwirte-Ausbildungsstätteneignungsverordnung"@de .
+
+dtd:langue-id25 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Eignung der Ausbildungsstätte für die Berufsausbildung zum Fischwirt und zur Fischwirtin"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_titel dtd:titel-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id21 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id22 ;
+    dtd:has_fundstelle dtd:fundstelle-id23 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_kurzue dtd:kurzue-id24 ;
+    dtd:has_langue dtd:langue-id25 ;
+    dtd:has_standangabe dtd:standangabe-id26 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20221020213557"@de ;
+    dtd:has_doknr "BJNR382200017"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20221020213557"@de ;
+    dtd:has_doknr "BJNR382200017BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20221020213557"@de ;
+    dtd:has_doknr "BJNR382200017BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20221020213557"@de ;
+    dtd:has_doknr "BJNR382200017BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20221020213557"@de ;
+    dtd:has_doknr "BJNR382200017BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20221020213557"@de ;
+    dtd:has_doknr "BJNR382200017BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id81 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id80 a dtd:pre ;
+    dtd:has_BR dtd:BR-id48,
+        dtd:BR-id49 ;
+    dtd:has_Value "(+++ Textnachweis ab: 8.12.2017 +++)"@de .
+
+dtd:standangabe-id26 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id84 ;
+    dtd:has_standtyp dtd:standtyp-id83 .
+
+dtd:standkommentar-id84 a dtd:standkommentar ;
+    dtd:has_Value "Ersetzt V 806-21-8-5 v. 21.12.1978 I 2072 (FischWiAusbStEignV)"@de .
+
+dtd:standtyp-id83 a dtd:standtyp ;
+    dtd:has_Value "Sonst"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id65 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id43 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id46 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id43 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id46 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id41 .
+
+dtd:titel-id31 a dtd:titel ;
+    dtd:has_Value "Mindestanforderungen an die Einrichtung und an den Bewirtschaftungszustand der Ausbildungsstätte"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Sonstige Vorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Ausnahmeregelung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id82 a dtd:zitstelle ;
+    dtd:has_Value "2017, 3822"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

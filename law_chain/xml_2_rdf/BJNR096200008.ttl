@@ -1,0 +1,515 @@
+@prefix dtd: <urn:WeinfondsV-2008#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008"@de ;
+    dtd:has_norm dtd:norm-id10,
+        dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id77 a dtd:BR .
+
+dtd:BR-id78 a dtd:BR .
+
+dtd:BR-id79 a dtd:BR .
+
+dtd:BR-id80 a dtd:BR .
+
+dtd:BR-id81 a dtd:BR .
+
+dtd:BR-id82 a dtd:BR .
+
+dtd:Content-id100 a dtd:Content ;
+    dtd:has_P dtd:P-id101 .
+
+dtd:Content-id102 a dtd:Content ;
+    dtd:has_P dtd:P-id103 .
+
+dtd:Content-id104 a dtd:Content ;
+    dtd:has_P dtd:P-id105,
+        dtd:P-id106,
+        dtd:P-id107,
+        dtd:P-id108,
+        dtd:P-id109,
+        dtd:P-id110,
+        dtd:P-id111,
+        dtd:P-id112,
+        dtd:P-id113 .
+
+dtd:Content-id114 a dtd:Content ;
+    dtd:has_P dtd:P-id115 .
+
+dtd:Content-id116 a dtd:Content ;
+    dtd:has_P dtd:P-id117 .
+
+dtd:Content-id118 a dtd:Content ;
+    dtd:has_P dtd:P-id119 .
+
+dtd:Content-id120 a dtd:Content ;
+    dtd:has_P dtd:P-id121 .
+
+dtd:Content-id122 a dtd:Content ;
+    dtd:has_P dtd:P-id123 .
+
+dtd:Content-id124 a dtd:Content ;
+    dtd:has_P dtd:P-id125 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id95 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id96 .
+
+dtd:DD-id92 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id97 .
+
+dtd:DD-id93 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id98 .
+
+dtd:DD-id94 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id99 .
+
+dtd:DL-id83 a dtd:DL ;
+    dtd:has_DD dtd:DD-id86,
+        dtd:DD-id87 ;
+    dtd:has_DT dtd:DT-id84,
+        dtd:DT-id85 ;
+    dtd:has_Type dtd:Dash .
+
+dtd:DL-id88 a dtd:DL ;
+    dtd:has_DD dtd:DD-id92,
+        dtd:DD-id93,
+        dtd:DD-id94 ;
+    dtd:has_DT dtd:DT-id89,
+        dtd:DT-id90,
+        dtd:DT-id91 ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id85 a dtd:DT ;
+    dtd:has_Value "–"@de .
+
+dtd:DT-id89 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id90 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:Dash rdfs:label "Dash"@de .
+
+dtd:LA-id95 a dtd:LA ;
+    dtd:has_Value "des § 44 Abs. 2 Satz 2 in Verbindung mit Satz 3 des Weingesetzes in der Fassung der Bekanntmachung vom 16. Mai 2001 (BGBl. I S. 985), § 44 Abs. 2 Satz 2 zuletzt geändert durch Artikel 1 des Gesetzes vom 16. Mai 2007 (BGBl. I S. 753), sowie"@de .
+
+dtd:LA-id96 a dtd:LA ;
+    dtd:has_Value "des § 36 Abs. 3 des Gesetzes über Ordnungswidrigkeiten in der Fassung der Bekanntmachung vom 19. Februar 1987 (BGBl. I S. 602), der zuletzt durch Artikel 1 des Gesetzes vom 26. Januar 1998 (BGBl. I S. 156, 340) geändert worden ist:"@de .
+
+dtd:LA-id97 a dtd:LA ;
+    dtd:has_Value "entgegen § 1 Abs. 2 Satz 1 oder Abs. 6 Satz 2 eine Meldung nicht, nicht richtig, nicht vollständig oder nicht rechtzeitig macht,"@de .
+
+dtd:LA-id98 a dtd:LA ;
+    dtd:has_Value "entgegen § 2 Verkaufs- oder Abgabebelege nicht oder nicht vollständig sammelt oder nicht oder nicht für die vorgeschriebene Dauer aufbewahrt oder"@de .
+
+dtd:LA-id99 a dtd:LA ;
+    dtd:has_Value "entgegen § 3 eine Mitteilung nicht, nicht richtig oder nicht rechtzeitig macht oder Bücher oder Geschäftspapiere nicht oder nicht rechtzeitig zur Einsicht vorlegt."@de .
+
+dtd:P-id101 a dtd:P ;
+    dtd:has_BR dtd:BR-id77 ;
+    dtd:has_Value " (+++ Textnachweis ab: 10.6.2008 +++)"@de ;
+    dtd:has_pre dtd:pre-id126 .
+
+dtd:P-id103 a dtd:P ;
+    dtd:has_DL dtd:DL-id83 ;
+    dtd:has_Value "Das Bundesministerium für Ernährung, Landwirtschaft und Verbraucherschutz verordnet auf Grund –des § 44 Abs. 2 Satz 2 in Verbindung mit Satz 3 des Weingesetzes in der Fassung der Bekanntmachung vom 16. Mai 2001 (BGBl. I S. 985), § 44 Abs. 2 Satz 2 zuletzt geändert durch Artikel 1 des Gesetzes vom 16. Mai 2007 (BGBl. I S. 753), sowie–des § 36 Abs. 3 des Gesetzes über Ordnungswidrigkeiten in der Fassung der Bekanntmachung vom 19. Februar 1987 (BGBl. I S. 602), der zuletzt durch Artikel 1 des Gesetzes vom 26. Januar 1998 (BGBl. I S. 156, 340) geändert worden ist:"@de .
+
+dtd:P-id105 a dtd:P ;
+    dtd:has_Value "(1) Die Abgabeschuld für die Abgabe nach § 43 Abs. 1 Satz 1 Nr. 2 und Satz 2 des Weingesetzes (Abgabe) entsteht vorbehaltlich des Absatzes 6 Satz 1 mit Ablauf des Kalendervierteljahres, in dem die abgefüllten Erzeugnisse erstmals an andere oder die nicht abgefüllten Erzeugnisse erstmals ins Ausland an andere abgegeben werden. Das Datum der vom Abgabeschuldner ausgestellten Rechnung gilt als Zeitpunkt der erstmaligen Abgabe des Erzeugnisses. Bei der Berechnung der Abgabe ist von der Summe der Lieferungen in einem Kalendervierteljahr auszugehen."@de .
+
+dtd:P-id106 a dtd:P ;
+    dtd:has_Value "(2) Der Abgabeschuldner hat dem Deutschen Weinfonds vorbehaltlich des Absatzes 6 Satz 2 innerhalb eines Monats nach Ablauf jedes Kalendervierteljahres die für die Berechnung der Abgabeschuld maßgeblichen Mengen zu melden. Die Meldung hat nach einem Muster zu erfolgen, das der Deutsche Weinfonds im Bundesanzeiger veröffentlicht."@de .
+
+dtd:P-id107 a dtd:P ;
+    dtd:has_Value "(3) Der Deutsche Weinfonds erteilt auf der Grundlage der Meldung nach Absatz 2 Satz 1 einen Abgabebescheid. Er kann die für die Abgabeschuld maßgeblichen Mengen ermitteln oder schätzen, soweit die Meldung nach Absatz 2 Satz 1 unrichtig oder unvollständig oder bis zum vorgeschriebenen Zeitpunkt nicht eingegangen ist, und auf Grundlage der Ermittlung oder Schätzung einen Abgabebescheid erteilen."@de .
+
+dtd:P-id108 a dtd:P ;
+    dtd:has_Value "(4) Die Abgabe wird zwei Wochen nach Zugang des Abgabebescheides fällig."@de .
+
+dtd:P-id109 a dtd:P ;
+    dtd:has_Value "(5) Soweit die für die Abgabeschuld maßgeblichen Mengen nur mit einem unverhältnismäßigen Aufwand zu ermitteln sind, kann der Deutsche Weinfonds dem Abgabeschuldner auf Antrag deren Schätzung gestatten, wenn dieser die Grundlagen und Methoden der Schätzung zuvor angegeben hat."@de .
+
+dtd:P-id110 a dtd:P ;
+    dtd:has_Value "(6) Abweichend von Absatz 1 Satz 1 entsteht die Abgabeschuld erst mit Ablauf des Kalenderjahres, wenn die Abgabeschuld im ersten Kalendervierteljahr nicht mehr als 80 Euro beträgt. In diesem Fall hat der Abgabeschuldner dem Deutschen Weinfonds innerhalb eines Monats nach Ablauf des Kalenderjahres die für die Berechnung der Abgabeschuld maßgeblichen Mengen zu melden, sofern die Höhe der geschuldeten Abgabe für dieses Kalenderjahr mehr als 80 Euro beträgt. Absatz 1 Satz 2, Absatz 2 Satz 2 und die Absätze 3 bis 5 gelten entsprechend."@de .
+
+dtd:P-id111 a dtd:P ;
+    dtd:has_Value "(7) Der Abzug von der Abgabeschuld nach § 43 Abs. 3 des Weingesetzes erfolgt bei der Erteilung des ersten Abgabebescheides eines Kalenderjahres nach Absatz 3 oder des Abgabebescheides nach Absatz 6."@de .
+
+dtd:P-id112 a dtd:P ;
+    dtd:has_Value "(8) Wird die Abgabe nicht bis zum Ablauf des Fälligkeitstages entrichtet, so ist für jeden angefangenen Monat der Säumnis ein Säumniszuschlag von 0,5 vom Hundert des rückständigen Abgabebetrages verwirkt. Für die Berechnung des Säumniszuschlages wird der rückständige Abgabebetrag auf volle 50 Euro nach unten gerundet."@de .
+
+dtd:P-id113 a dtd:P ;
+    dtd:has_Value "(9) Die Abgabeschuld verjährt am Ende des fünften Jahres nach Ablauf des Jahres, in dem die Zahlung fällig geworden ist."@de .
+
+dtd:P-id115 a dtd:P ;
+    dtd:has_Value "Der Abgabeschuldner ist verpflichtet, die Verkaufs- und Abgabebelege vollständig zu sammeln und bis zum Ende des fünften Jahres nach Ablauf des Jahres aufzubewahren, in dem die Zahlung fällig geworden ist."@de .
+
+dtd:P-id117 a dtd:P ;
+    dtd:has_Value "Der Abgabeschuldner ist verpflichtet, dem Deutschen Weinfonds auf Verlangen mitzuteilen, in welcher Menge er die in § 43 Abs. 1 Satz 1 Nr. 2 des Weingesetzes genannten Erzeugnisse abgegeben hat, und insoweit seine Bücher und Geschäftspapiere zur Einsicht vorzulegen."@de .
+
+dtd:P-id119 a dtd:P ;
+    dtd:has_DL dtd:DL-id88 ;
+    dtd:has_Value "Ordnungswidrig im Sinne des § 50 Abs. 2 Nr. 4 des Weingesetzes handelt, wer vorsätzlich oder fahrlässig 1.entgegen § 1 Abs. 2 Satz 1 oder Abs. 6 Satz 2 eine Meldung nicht, nicht richtig, nicht vollständig oder nicht rechtzeitig macht,2.entgegen § 2 Verkaufs- oder Abgabebelege nicht oder nicht vollständig sammelt oder nicht oder nicht für die vorgeschriebene Dauer aufbewahrt oder3.entgegen § 3 eine Mitteilung nicht, nicht richtig oder nicht rechtzeitig macht oder Bücher oder Geschäftspapiere nicht oder nicht rechtzeitig zur Einsicht vorlegt."@de .
+
+dtd:P-id121 a dtd:P ;
+    dtd:has_Value "Die Zuständigkeit für die Verfolgung und Ahndung von Ordnungswidrigkeiten nach § 4 wird auf die Bundesanstalt für Landwirtschaft und Ernährung übertragen."@de .
+
+dtd:P-id123 a dtd:P ;
+    dtd:has_Value "Die Weinfonds-Verordnung vom 9. Mai 1995 (BGBl. I S. 630, 666), geändert durch Artikel 2 des Gesetzes vom 25. Juni 2001 (BGBl. I S. 1215), wird aufgehoben. Auf Abgabeschulden, die bis zum 30. März 2008 entstanden sind, ist die in Satz 1 genannte Verordnung weiter anzuwenden."@de .
+
+dtd:P-id125 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id30 a dtd:amtabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id31 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2008-05-30"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id38 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id41 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id53 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id57 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id61 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id65 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id32 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id127 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id128 .
+
+dtd:fussnoten-id67 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id100 .
+
+dtd:fussnoten-id70 a dtd:fussnoten .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id37 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id40 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:jurabk-id43 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id52 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:jurabk-id55 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id56 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:jurabk-id59 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id60 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:jurabk-id63 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV 2008"@de .
+
+dtd:jurabk-id64 a dtd:jurabk ;
+    dtd:has_Value "WeinfondsV"@de .
+
+dtd:kurzue-id33 a dtd:kurzue ;
+    dtd:has_Value "Weinfonds-Verordnung"@de .
+
+dtd:langue-id34 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Erhebung der Abgabe für den Deutschen Weinfonds"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id30 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id31 ;
+    dtd:has_fundstelle dtd:fundstelle-id32 ;
+    dtd:has_jurabk dtd:jurabk-id29 ;
+    dtd:has_kurzue dtd:kurzue-id33 ;
+    dtd:has_langue dtd:langue-id34 ;
+    dtd:has_standangabe dtd:standangabe-id35 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id38 ;
+    dtd:has_jurabk dtd:jurabk-id36,
+        dtd:jurabk-id37 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id41 ;
+    dtd:has_jurabk dtd:jurabk-id39,
+        dtd:jurabk-id40 ;
+    dtd:has_titel dtd:titel-id42 .
+
+dtd:metadaten-id17 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id43,
+        dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id19 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id47,
+        dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id21 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id53 ;
+    dtd:has_jurabk dtd:jurabk-id51,
+        dtd:jurabk-id52 ;
+    dtd:has_titel dtd:titel-id54 .
+
+dtd:metadaten-id23 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id57 ;
+    dtd:has_jurabk dtd:jurabk-id55,
+        dtd:jurabk-id56 ;
+    dtd:has_titel dtd:titel-id58 .
+
+dtd:metadaten-id25 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id61 ;
+    dtd:has_jurabk dtd:jurabk-id59,
+        dtd:jurabk-id60 ;
+    dtd:has_titel dtd:titel-id62 .
+
+dtd:metadaten-id27 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id65 ;
+    dtd:has_jurabk dtd:jurabk-id63,
+        dtd:jurabk-id64 ;
+    dtd:has_titel dtd:titel-id66 .
+
+dtd:norm-id10 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008BJNE000800000"@de ;
+    dtd:has_metadaten dtd:metadaten-id27 ;
+    dtd:has_textdaten dtd:textdaten-id28 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008BJNE000201310"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id17 ;
+    dtd:has_textdaten dtd:textdaten-id18 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id19 ;
+    dtd:has_textdaten dtd:textdaten-id20 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id21 ;
+    dtd:has_textdaten dtd:textdaten-id22 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id23 ;
+    dtd:has_textdaten dtd:textdaten-id24 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20130405130902"@de ;
+    dtd:has_doknr "BJNR096200008BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id25 ;
+    dtd:has_textdaten dtd:textdaten-id26 .
+
+dtd:periodikum-id127 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id126 a dtd:pre ;
+    dtd:has_BR dtd:BR-id78,
+        dtd:BR-id79 ;
+    dtd:has_Value "(+++ Textnachweis ab: 10.6.2008 +++)"@de .
+
+dtd:standangabe-id35 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id130 ;
+    dtd:has_standtyp dtd:standtyp-id129 .
+
+dtd:standkommentar-id130 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 2 Abs. 14 G v. 22.12.2011 I 3044"@de .
+
+dtd:standtyp-id129 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id68 a dtd:text ;
+    dtd:has_Content dtd:Content-id102 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id69 a dtd:text ;
+    dtd:has_Content dtd:Content-id104 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id71 a dtd:text ;
+    dtd:has_Content dtd:Content-id114 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id72 a dtd:text ;
+    dtd:has_Content dtd:Content-id116 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id73 a dtd:text ;
+    dtd:has_Content dtd:Content-id118 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id74 a dtd:text ;
+    dtd:has_Content dtd:Content-id120 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id75 a dtd:text ;
+    dtd:has_Content dtd:Content-id122 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id76 a dtd:text ;
+    dtd:has_Content dtd:Content-id124 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id67 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id68 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id70 ;
+    dtd:has_text dtd:text-id69 .
+
+dtd:textdaten-id18 a dtd:textdaten ;
+    dtd:has_text dtd:text-id71 .
+
+dtd:textdaten-id20 a dtd:textdaten ;
+    dtd:has_text dtd:text-id72 .
+
+dtd:textdaten-id22 a dtd:textdaten ;
+    dtd:has_text dtd:text-id73 .
+
+dtd:textdaten-id24 a dtd:textdaten ;
+    dtd:has_text dtd:text-id74 .
+
+dtd:textdaten-id26 a dtd:textdaten ;
+    dtd:has_text dtd:text-id75 .
+
+dtd:textdaten-id28 a dtd:textdaten ;
+    dtd:has_text dtd:text-id76 .
+
+dtd:titel-id42 a dtd:titel ;
+    dtd:has_BR dtd:BR-id80 ;
+    dtd:has_Value "Erhebung der Abgabe(zu § 44 Abs. 2 des Weingesetzes)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_BR dtd:BR-id81 ;
+    dtd:has_Value "Sammlung der Belege und Aufbewahrungsfrist(zu § 44 Abs. 2 des Weingesetzes)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_BR dtd:BR-id82 ;
+    dtd:has_Value "Mitteilungspflicht(zu § 44 Abs. 2 des Weingesetzes)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id54 a dtd:titel ;
+    dtd:has_Value "Ordnungswidrigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id58 a dtd:titel ;
+    dtd:has_Value "Zuständigkeiten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id62 a dtd:titel ;
+    dtd:has_Value "Aufhebung von Rechtsvorschriften"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id66 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id128 a dtd:zitstelle ;
+    dtd:has_Value "2008, 962"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

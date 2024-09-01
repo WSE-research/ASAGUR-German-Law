@@ -1,0 +1,449 @@
+@prefix dtd: <urn:FStrPrivFinBestV-2005#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154432"@de ;
+    dtd:has_doknr "BJNR168600005"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:ABWFORMAT-id87 a dtd:ABWFORMAT ;
+    dtd:has_typ dtd:A .
+
+dtd:BR-id45 a dtd:BR .
+
+dtd:BR-id46 a dtd:BR .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:Content-id73 a dtd:Content ;
+    dtd:has_P dtd:P-id74 .
+
+dtd:Content-id75 a dtd:Content ;
+    dtd:has_P dtd:P-id76 .
+
+dtd:Content-id77 a dtd:Content ;
+    dtd:has_P dtd:P-id78 .
+
+dtd:Content-id79 a dtd:Content ;
+    dtd:has_P dtd:P-id80 .
+
+dtd:Content-id81 a dtd:Content ;
+    dtd:has_P dtd:P-id82 .
+
+dtd:Content-id83 a dtd:Content ;
+    dtd:has_P dtd:P-id84 .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id76 a dtd:P ;
+    dtd:has_BR dtd:BR-id45 ;
+    dtd:has_Value " (+++ Textnachweis ab: 25. 6.2005 +++)"@de ;
+    dtd:has_pre dtd:pre-id85 .
+
+dtd:P-id78 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 3 Abs. 1 Satz 2 des Fernstraßenbauprivatfinanzierungsgesetzes in der Fassung der Bekanntmachung vom 20. Januar 2003 (BGBl. I S. 98) verordnet das Bundesministerium für Verkehr, Bau- und Wohnungswesen im Einvernehmen mit den Landesregierungen der Länder Mecklenburg-Vorpommern und Schleswig-Holstein:"@de .
+
+dtd:P-id80 a dtd:P ;
+    dtd:has_Value "Die in der Anlage bezeichneten Abschnitte von Bundesfernstraßen werden als Strecken festgelegt, die nach Maßgabe des Fernstraßenbauprivatfinanzierungsgesetzes und der übrigen zu diesem Gesetz ergangenen Rechtsverordnungen gebaut, erhalten, betrieben und finanziert werden sollen (Privatfinanzierte Abschnitte von Bundesfernstraßen)."@de .
+
+dtd:P-id82 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am Tage nach der Verkündung in Kraft."@de .
+
+dtd:P-id84 a dtd:P ;
+    dtd:has_ABWFORMAT dtd:ABWFORMAT-id87 ;
+    dtd:has_BR dtd:BR-id49 ;
+    dtd:has_Value """Fundstelle des Originaltextes: BGBl. I 2005, 1686 
+	
+		
+		
+		
+		
+		
+			
+				lfd Nr.
+				Bezeichnung
+				Streckenabschnitt
+				Bundesland
+			
+		
+		
+			
+				1
+				Warnow-Tunnel (im Stadtgebiet der Hansestadt Rostock)
+				Bundesstraße B 103n zwischen Straßenkilometer 1+040 und Straßenkilometer 3+160
+				Mecklenburg-Vorpommern
+			
+			
+				2
+				Herrentunnel (im Stadtgebiet der Hansestadt Lübeck)
+				Bundesstraße B 104 zwischen Straßenkilometer 6+034,11 westlich der Trave und Straßenkilometer 8+051,08 östlich der Trave
+				Schleswig-Holstein
+			
+		
+	
+ """@de ;
+    dtd:has_kommentar dtd:kommentar-id86 ;
+    dtd:has_table dtd:table-id50 .
+
+dtd:all rdfs:label "all"@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "FStrPrivFinBestV"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2005-06-20"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:bottom rdfs:label "bottom"@de .
+
+dtd:colspec-id52 a dtd:colspec ;
+    dtd:has_colname "col1"@de ;
+    dtd:has_colnum "1"@de ;
+    dtd:has_colwidth "10*"@de .
+
+dtd:colspec-id53 a dtd:colspec ;
+    dtd:has_colname "col2"@de ;
+    dtd:has_colnum "2"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:colspec-id54 a dtd:colspec ;
+    dtd:has_colname "col3"@de ;
+    dtd:has_colnum "3"@de ;
+    dtd:has_colwidth "40*"@de .
+
+dtd:colspec-id55 a dtd:colspec ;
+    dtd:has_colname "col4"@de ;
+    dtd:has_colnum "4"@de ;
+    dtd:has_colwidth "30*"@de .
+
+dtd:enbez-id25 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "Anlage"@de .
+
+dtd:entry-id61 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "lfd Nr."@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id62 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bezeichnung"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id63 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Streckenabschnitt"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id64 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bundesland"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id65 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "1"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id66 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Warnow-Tunnel (im Stadtgebiet der Hansestadt Rostock)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id67 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bundesstraße B 103n zwischen Straßenkilometer 1+040 und Straßenkilometer 3+160"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id68 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Mecklenburg-Vorpommern"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id69 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "2"@de ;
+    dtd:has_align dtd:center ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id70 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Herrentunnel (im Stadtgebiet der Hansestadt Lübeck)"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id71 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Bundesstraße B 104 zwischen Straßenkilometer 6+034,11 westlich der Trave und Straßenkilometer 8+051,08 östlich der Trave"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:entry-id72 a dtd:entry ;
+    dtd:has_VJ "1"@de ;
+    dtd:has_Value "Schleswig-Holstein"@de ;
+    dtd:has_align dtd:left ;
+    dtd:has_colsep "0"@de ;
+    dtd:has_valign dtd:top .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id88 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id89 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id75 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV 2005"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV 2005"@de .
+
+dtd:jurabk-id24 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV 2005"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV 2005"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV"@de .
+
+dtd:jurabk-id34 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV 2005"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "FStrPrivFinBestV"@de .
+
+dtd:kommentar-id86 a dtd:kommentar ;
+    dtd:has_Value "Fundstelle des Originaltextes: BGBl. I 2005, 1686"@de ;
+    dtd:has_typ dtd:Fundstelle .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Fernstraßenbauprivatfinanzierungs-Bestimmungsverordnung"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value """Verordnung zur Bestimmung von privatfinanzierten Abschnitten von
+Bundesfernstraßen"""@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26,
+        dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id30,
+        dtd:jurabk-id31 ;
+    dtd:has_titel dtd:titel-id33 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id34,
+        dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id25 ;
+    dtd:has_jurabk dtd:jurabk-id23,
+        dtd:jurabk-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154432"@de ;
+    dtd:has_doknr "BJNR168600005"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154432"@de ;
+    dtd:has_doknr "BJNR168600005BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154432"@de ;
+    dtd:has_doknr "BJNR168600005BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154432"@de ;
+    dtd:has_doknr "BJNR168600005BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625154432"@de ;
+    dtd:has_doknr "BJNR168600005BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id88 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id85 a dtd:pre ;
+    dtd:has_BR dtd:BR-id46,
+        dtd:BR-id47 ;
+    dtd:has_Value "(+++ Textnachweis ab: 25. 6.2005 +++)"@de .
+
+dtd:row-id58 a dtd:row ;
+    dtd:has_entry dtd:entry-id61,
+        dtd:entry-id62,
+        dtd:entry-id63,
+        dtd:entry-id64 .
+
+dtd:row-id59 a dtd:row ;
+    dtd:has_entry dtd:entry-id65,
+        dtd:entry-id66,
+        dtd:entry-id67,
+        dtd:entry-id68 .
+
+dtd:row-id60 a dtd:row ;
+    dtd:has_entry dtd:entry-id69,
+        dtd:entry-id70,
+        dtd:entry-id71,
+        dtd:entry-id72 .
+
+dtd:table-id50 a dtd:table ;
+    dtd:has_frame dtd:all ;
+    dtd:has_tgroup dtd:tgroup-id51 ;
+    dtd:has_tocentry "%yes;"@de .
+
+dtd:tbody-id57 a dtd:tbody ;
+    dtd:has_row dtd:row-id59,
+        dtd:row-id60 ;
+    dtd:has_valign dtd:top .
+
+dtd:text-id38 a dtd:text ;
+    dtd:has_Content dtd:Content-id73 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id77 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id79 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id81 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id83 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 ;
+    dtd:has_text dtd:text-id38 .
+
+dtd:tgroup-id51 a dtd:tgroup ;
+    dtd:has_align dtd:left ;
+    dtd:has_char ""@de ;
+    dtd:has_charoff "50"@de ;
+    dtd:has_cols "4"@de ;
+    dtd:has_colsep "1"@de ;
+    dtd:has_colspec dtd:colspec-id52,
+        dtd:colspec-id53,
+        dtd:colspec-id54,
+        dtd:colspec-id55 ;
+    dtd:has_rowsep "1"@de ;
+    dtd:has_tbody dtd:tbody-id57 ;
+    dtd:has_thead dtd:thead-id56 .
+
+dtd:thead-id56 a dtd:thead ;
+    dtd:has_row dtd:row-id58 ;
+    dtd:has_valign dtd:bottom .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Bestimmung privatfinanzierter Abschnitte von Bundesfernstraßen"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id33 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten, Außerkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_BR dtd:BR-id48 ;
+    dtd:has_Value """(zu § 1)
+
+Privatfinanzierte Abschnitte von Bundesfernstraßen"""@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id89 a dtd:zitstelle ;
+    dtd:has_Value "2005, 1686"@de .
+
+dtd:left rdfs:label "left"@de .
+

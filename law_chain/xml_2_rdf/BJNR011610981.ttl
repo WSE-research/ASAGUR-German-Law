@@ -1,0 +1,754 @@
+@prefix dtd: <urn:ZuckQuotV-1981#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id69 a dtd:BR .
+
+dtd:BR-id70 a dtd:BR .
+
+dtd:BR-id71 a dtd:BR .
+
+dtd:Content-id152 a dtd:Content ;
+    dtd:has_P dtd:P-id153 .
+
+dtd:Content-id154 a dtd:Content ;
+    dtd:has_P dtd:P-id155 .
+
+dtd:Content-id156 a dtd:Content ;
+    dtd:has_P dtd:P-id157,
+        dtd:P-id158,
+        dtd:P-id159 .
+
+dtd:Content-id160 a dtd:Content ;
+    dtd:has_P dtd:P-id161,
+        dtd:P-id162 .
+
+dtd:Content-id163 a dtd:Content ;
+    dtd:has_P dtd:P-id164,
+        dtd:P-id165,
+        dtd:P-id166,
+        dtd:P-id167 .
+
+dtd:Content-id168 a dtd:Content ;
+    dtd:has_P dtd:P-id169 .
+
+dtd:Content-id170 a dtd:Content ;
+    dtd:has_P dtd:P-id171,
+        dtd:P-id172,
+        dtd:P-id173 .
+
+dtd:Content-id174 a dtd:Content ;
+    dtd:has_P dtd:P-id175 .
+
+dtd:DD-id100 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id138 .
+
+dtd:DD-id104 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id141 .
+
+dtd:DD-id105 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id142 .
+
+dtd:DD-id112 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id143 .
+
+dtd:DD-id113 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id144 .
+
+dtd:DD-id114 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id145 .
+
+dtd:DD-id115 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id146 .
+
+dtd:DD-id116 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id147 .
+
+dtd:DD-id122 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id148 .
+
+dtd:DD-id123 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id149 .
+
+dtd:DD-id124 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id150 .
+
+dtd:DD-id125 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id151 .
+
+dtd:DD-id76 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id126,
+        dtd:LA-id127 .
+
+dtd:DD-id77 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id133 .
+
+dtd:DD-id78 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id139,
+        dtd:LA-id140 .
+
+dtd:DD-id85 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id128 .
+
+dtd:DD-id86 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id129 .
+
+dtd:DD-id87 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id130 .
+
+dtd:DD-id88 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id131 .
+
+dtd:DD-id89 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id132 .
+
+dtd:DD-id96 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id134 .
+
+dtd:DD-id97 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id135 .
+
+dtd:DD-id98 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id136 .
+
+dtd:DD-id99 a dtd:DD ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_LA dtd:LA-id137 .
+
+dtd:DL-id101 a dtd:DL ;
+    dtd:has_DD dtd:DD-id104,
+        dtd:DD-id105 ;
+    dtd:has_DT dtd:DT-id102,
+        dtd:DT-id103 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id106 a dtd:DL ;
+    dtd:has_DD dtd:DD-id112,
+        dtd:DD-id113,
+        dtd:DD-id114,
+        dtd:DD-id115,
+        dtd:DD-id116 ;
+    dtd:has_DT dtd:DT-id107,
+        dtd:DT-id108,
+        dtd:DT-id109,
+        dtd:DT-id110,
+        dtd:DT-id111 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id117 a dtd:DL ;
+    dtd:has_DD dtd:DD-id122,
+        dtd:DD-id123,
+        dtd:DD-id124,
+        dtd:DD-id125 ;
+    dtd:has_DT dtd:DT-id118,
+        dtd:DT-id119,
+        dtd:DT-id120,
+        dtd:DT-id121 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id72 a dtd:DL ;
+    dtd:has_DD dtd:DD-id76,
+        dtd:DD-id77,
+        dtd:DD-id78 ;
+    dtd:has_DT dtd:DT-id73,
+        dtd:DT-id74,
+        dtd:DT-id75 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id79 a dtd:DL ;
+    dtd:has_DD dtd:DD-id85,
+        dtd:DD-id86,
+        dtd:DD-id87,
+        dtd:DD-id88,
+        dtd:DD-id89 ;
+    dtd:has_DT dtd:DT-id80,
+        dtd:DT-id81,
+        dtd:DT-id82,
+        dtd:DT-id83,
+        dtd:DT-id84 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:arabic .
+
+dtd:DL-id90 a dtd:DL ;
+    dtd:has_DD dtd:DD-id100,
+        dtd:DD-id96,
+        dtd:DD-id97,
+        dtd:DD-id98,
+        dtd:DD-id99 ;
+    dtd:has_DT dtd:DT-id91,
+        dtd:DT-id92,
+        dtd:DT-id93,
+        dtd:DT-id94,
+        dtd:DT-id95 ;
+    dtd:has_Font dtd:normal ;
+    dtd:has_Type dtd:alpha .
+
+dtd:DT-id102 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id103 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id107 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id108 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id109 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id110 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id111 a dtd:DT ;
+    dtd:has_Value "5."@de .
+
+dtd:DT-id118 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id119 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id120 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id121 a dtd:DT ;
+    dtd:has_Value "4."@de .
+
+dtd:DT-id73 a dtd:DT ;
+    dtd:has_Value "1."@de .
+
+dtd:DT-id74 a dtd:DT ;
+    dtd:has_Value "2."@de .
+
+dtd:DT-id75 a dtd:DT ;
+    dtd:has_Value "3."@de .
+
+dtd:DT-id80 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id81 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id82 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id83 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id84 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:DT-id91 a dtd:DT ;
+    dtd:has_Value "a)"@de .
+
+dtd:DT-id92 a dtd:DT ;
+    dtd:has_Value "b)"@de .
+
+dtd:DT-id93 a dtd:DT ;
+    dtd:has_Value "c)"@de .
+
+dtd:DT-id94 a dtd:DT ;
+    dtd:has_Value "d)"@de .
+
+dtd:DT-id95 a dtd:DT ;
+    dtd:has_Value "e)"@de .
+
+dtd:LA-id126 a dtd:LA ;
+    dtd:has_DL dtd:DL-id79 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erfassung und Weiterleitung der Mitteilungen der Zuckerhersteller und der Rohzuckerraffinierer der in Weißzucker ausgedrückten Gesamtmengen ana)Weißzucker,b)Rohzucker,c)Invertzucker,d)Sirupen aus Saccharose oder aus Invertzucker, die eine Reinheit von mindestens 70 vom Hundert aufweisen und aus Zuckerrüben hergestellt sind unde)Sirupen aus Saccharose oder aus Invertzucker, die eine Reinheit von mindestens 75 vom Hundert aufweisen und aus Zuckerrohr hergestellt worden sind,"@de .
+
+dtd:LA-id127 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die sich in ihrem Besitz befinden oder Gegenstand eines Optionsscheines sind und am Ende des Vormonats im freien Warenverkehr im Unionsgebiet gelagert waren,"@de .
+
+dtd:LA-id128 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Weißzucker,"@de .
+
+dtd:LA-id129 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Rohzucker,"@de .
+
+dtd:LA-id130 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Invertzucker,"@de .
+
+dtd:LA-id131 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Sirupen aus Saccharose oder aus Invertzucker, die eine Reinheit von mindestens 70 vom Hundert aufweisen und aus Zuckerrüben hergestellt sind und"@de .
+
+dtd:LA-id132 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Sirupen aus Saccharose oder aus Invertzucker, die eine Reinheit von mindestens 75 vom Hundert aufweisen und aus Zuckerrohr hergestellt worden sind,"@de .
+
+dtd:LA-id133 a dtd:LA ;
+    dtd:has_DL dtd:DL-id90 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die a)Erfassung der Mitteilungen nach Artikel 137 Absatz 2 Buchstabe a bis c der Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 992/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 (ABl. L 347 vom 20.12.2013, S. 671) in der jeweils geltenden Fassung mit Ausnahme der Angaben über die Zuckererzeugung,b)Kontrolle der Mitteilung nach Artikel 137 Absatz 2 Buchstabe c der Verordnung (EU) Nr. 1308/2013,c)Erfassung und Kontrolle der Angaben nach Artikel 21 Absatz 1 der Verordnung (EG) Nr. 952/2006 der Kommission vom 29. Juni 2006 mit Durchführungsbestimmungen zur Verordnung (EG) Nr. 318/2006 des Rates hinsichtlich der Binnenmarktordnung und Quotenregelung für Zucker (ABl. L 178 vom 1.7.2006, S. 39) in der jeweils geltenden Fassung,d)Mitteilungen nach Artikel 15a Unterabsatz 2 und Artikel 21 Absatz 2 der Verordnung (EG) Nr. 952/2006 sowiee)Überprüfung der Verpflichtung nach Artikel 10 Absatz 2 Unterabsatz 4 der Verordnung (EG) Nr. 952/2006."@de .
+
+dtd:LA-id134 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Erfassung der Mitteilungen nach Artikel 137 Absatz 2 Buchstabe a bis c der Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 992/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 (ABl. L 347 vom 20.12.2013, S. 671) in der jeweils geltenden Fassung mit Ausnahme der Angaben über die Zuckererzeugung,"@de .
+
+dtd:LA-id135 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Kontrolle der Mitteilung nach Artikel 137 Absatz 2 Buchstabe c der Verordnung (EU) Nr. 1308/2013,"@de .
+
+dtd:LA-id136 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Erfassung und Kontrolle der Angaben nach Artikel 21 Absatz 1 der Verordnung (EG) Nr. 952/2006 der Kommission vom 29. Juni 2006 mit Durchführungsbestimmungen zur Verordnung (EG) Nr. 318/2006 des Rates hinsichtlich der Binnenmarktordnung und Quotenregelung für Zucker (ABl. L 178 vom 1.7.2006, S. 39) in der jeweils geltenden Fassung,"@de .
+
+dtd:LA-id137 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Mitteilungen nach Artikel 15a Unterabsatz 2 und Artikel 21 Absatz 2 der Verordnung (EG) Nr. 952/2006 sowie"@de .
+
+dtd:LA-id138 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Überprüfung der Verpflichtung nach Artikel 10 Absatz 2 Unterabsatz 4 der Verordnung (EG) Nr. 952/2006."@de .
+
+dtd:LA-id139 a dtd:LA ;
+    dtd:has_DL dtd:DL-id101 ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erfassung und Weiterleitung der Angaben über die Flächen und Erzeugungsmengen, die im laufenden Wirtschaftsjahr und voraussichtlich im darauf folgenden Wirtschaftsjahr im Fall vona)Zuckerrüben für die Erzeugung von Zucker, Bioethanol oder anderen Erzeugnissen undb)im Fall von Zichorien für die Erzeugung von Inulinsirup"@de .
+
+dtd:LA-id140 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "bestimmt sind."@de .
+
+dtd:LA-id141 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Zuckerrüben für die Erzeugung von Zucker, Bioethanol oder anderen Erzeugnissen und"@de .
+
+dtd:LA-id142 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "im Fall von Zichorien für die Erzeugung von Inulinsirup"@de .
+
+dtd:LA-id143 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Zulassung der Unternehmen nach Artikel 137 Absatz 1 der Verordnung (EU) Nr. 1308/2013,"@de .
+
+dtd:LA-id144 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erfassung und Weiterleitung der Angaben über die Zuckererzeugung nach Artikel 137 Absatz 2 Buchstabe b der Verordnung (EU) Nr. 1308/2013,"@de .
+
+dtd:LA-id145 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erfassung und Weiterleitung der Angaben der zugelassenen Hersteller von Isoglucose oder Inulinsirup über die in Trockenstoff ausgedrückten Mengen Isoglucose oder in Weißzuckeräquivalent ausgedrückten Mengen Inulinsirup, die sich in ihrem Besitz befinden und am Ende des vorhergehenden Wirtschaftsjahres im Gemeinschaftsgebiet gelagert waren,"@de .
+
+dtd:LA-id146 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Erfassung und Weiterleitung der Angaben über die in Trockenstoff ausgedrückten, im Vormonat tatsächlich erzeugten Mengen der Isoglucose erzeugenden Unternehmen,"@de .
+
+dtd:LA-id147 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die Verhängung von Sanktionen nach Artikel 11 Absatz 1 und 2 der Verordnung (EG) Nr. 952/2006, auch soweit die Abweichungen durch die Bundesanstalt im Rahmen ihrer Zuständigkeit nach Absatz 2 festgestellt worden sind."@de .
+
+dtd:LA-id148 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "während der Geschäfts- oder Betriebszeit Grundstücke sowie Geschäfts-, Betriebs- und Lagerräume sowie Transportmittel betreten,"@de .
+
+dtd:LA-id149 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "Besichtigungen vornehmen,"@de .
+
+dtd:LA-id150 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "alle in schriftlicher oder elektronischer Form vorliegenden Geschäftsunterlagen einsehen, prüfen und verlangen, dass hieraus Abschriften, Auszüge, Ausdrucke oder Kopien angefertigt und überlassen werden und"@de .
+
+dtd:LA-id151 a dtd:LA ;
+    dtd:has_Size dtd:normal ;
+    dtd:has_Value "die erforderlichen Auskünfte verlangen."@de .
+
+dtd:P-id153 a dtd:P ;
+    dtd:has_BR dtd:BR-id69 ;
+    dtd:has_Value " (+++ Textnachweis ab: 5.11.1981 +++)"@de ;
+    dtd:has_pre dtd:pre-id176 .
+
+dtd:P-id155 a dtd:P ;
+    dtd:has_Value "Die Vorschriften dieser Verordnung gelten für die Durchführung der Rechtsakte der Europäischen Gemeinschaft oder der Europäischen Union über die Durchführung der Quotenregelung für Zucker."@de .
+
+dtd:P-id157 a dtd:P ;
+    dtd:has_Value "(1) Zuständig für die Festsetzung und Änderung der Quoten ist das Bundesministerium für Ernährung und Landwirtschaft (Bundesministerium)."@de .
+
+dtd:P-id158 a dtd:P ;
+    dtd:has_DL dtd:DL-id72 ;
+    dtd:has_Value "(2) Die Bundesanstalt für Landwirtschaft und Ernährung (Bundesanstalt) ist zuständig für 1.die Erfassung und Weiterleitung der Mitteilungen der Zuckerhersteller und der Rohzuckerraffinierer der in Weißzucker ausgedrückten Gesamtmengen ana)Weißzucker,b)Rohzucker,c)Invertzucker,d)Sirupen aus Saccharose oder aus Invertzucker, die eine Reinheit von mindestens 70 vom Hundert aufweisen und aus Zuckerrüben hergestellt sind unde)Sirupen aus Saccharose oder aus Invertzucker, die eine Reinheit von mindestens 75 vom Hundert aufweisen und aus Zuckerrohr hergestellt worden sind,die sich in ihrem Besitz befinden oder Gegenstand eines Optionsscheines sind und am Ende des Vormonats im freien Warenverkehr im Unionsgebiet gelagert waren,2.die a)Erfassung der Mitteilungen nach Artikel 137 Absatz 2 Buchstabe a bis c der Verordnung (EU) Nr. 1308/2013 des Europäischen Parlaments und des Rates vom 17. Dezember 2013 über eine gemeinsame Marktorganisation für landwirtschaftliche Erzeugnisse und zur Aufhebung der Verordnungen (EWG) Nr. 992/72, (EWG) Nr. 234/79, (EG) Nr. 1037/2001 und (EG) Nr. 1234/2007 (ABl. L 347 vom 20.12.2013, S. 671) in der jeweils geltenden Fassung mit Ausnahme der Angaben über die Zuckererzeugung,b)Kontrolle der Mitteilung nach Artikel 137 Absatz 2 Buchstabe c der Verordnung (EU) Nr. 1308/2013,c)Erfassung und Kontrolle der Angaben nach Artikel 21 Absatz 1 der Verordnung (EG) Nr. 952/2006 der Kommission vom 29. Juni 2006 mit Durchführungsbestimmungen zur Verordnung (EG) Nr. 318/2006 des Rates hinsichtlich der Binnenmarktordnung und Quotenregelung für Zucker (ABl. L 178 vom 1.7.2006, S. 39) in der jeweils geltenden Fassung,d)Mitteilungen nach Artikel 15a Unterabsatz 2 und Artikel 21 Absatz 2 der Verordnung (EG) Nr. 952/2006 sowiee)Überprüfung der Verpflichtung nach Artikel 10 Absatz 2 Unterabsatz 4 der Verordnung (EG) Nr. 952/2006.3.die Erfassung und Weiterleitung der Angaben über die Flächen und Erzeugungsmengen, die im laufenden Wirtschaftsjahr und voraussichtlich im darauf folgenden Wirtschaftsjahr im Fall vona)Zuckerrüben für die Erzeugung von Zucker, Bioethanol oder anderen Erzeugnissen undb)im Fall von Zichorien für die Erzeugung von Inulinsirupbestimmt sind."@de .
+
+dtd:P-id159 a dtd:P ;
+    dtd:has_DL dtd:DL-id106 ;
+    dtd:has_Value "(3) Die Bundesfinanzverwaltung ist zuständig für 1.die Zulassung der Unternehmen nach Artikel 137 Absatz 1 der Verordnung (EU) Nr. 1308/2013,2.die Erfassung und Weiterleitung der Angaben über die Zuckererzeugung nach Artikel 137 Absatz 2 Buchstabe b der Verordnung (EU) Nr. 1308/2013,3.die Erfassung und Weiterleitung der Angaben der zugelassenen Hersteller von Isoglucose oder Inulinsirup über die in Trockenstoff ausgedrückten Mengen Isoglucose oder in Weißzuckeräquivalent ausgedrückten Mengen Inulinsirup, die sich in ihrem Besitz befinden und am Ende des vorhergehenden Wirtschaftsjahres im Gemeinschaftsgebiet gelagert waren,4.die Erfassung und Weiterleitung der Angaben über die in Trockenstoff ausgedrückten, im Vormonat tatsächlich erzeugten Mengen der Isoglucose erzeugenden Unternehmen,5.die Verhängung von Sanktionen nach Artikel 11 Absatz 1 und 2 der Verordnung (EG) Nr. 952/2006, auch soweit die Abweichungen durch die Bundesanstalt im Rahmen ihrer Zuständigkeit nach Absatz 2 festgestellt worden sind."@de .
+
+dtd:P-id161 a dtd:P ;
+    dtd:has_Value "(1) Das Bundesministerium setzt die Quoten durch schriftlichen Bescheid fest."@de .
+
+dtd:P-id162 a dtd:P ;
+    dtd:has_Value "(2) Das Bundesministerium kann die festgesetzten Quoten im Rahmen der Bestimmungen der in § 1 genannten Rechtsakte ändern, um Veränderungen in der Struktur der Zuckerindustrie und im Zuckerrübenanbau oder sonstigen vom Rat verfolgten Zielen Rechnung zu tragen."@de .
+
+dtd:P-id164 a dtd:P ;
+    dtd:has_Value "(1) Der Antrag auf Zulassung als Unternehmen bedarf der Schriftform."@de .
+
+dtd:P-id165 a dtd:P ;
+    dtd:has_Value "(2) Die gewerblichen Produktionskapazitäten sind durch die nach § 3a Abs. 1 Satz 2 der Zucker-Produktionsabgaben-Verordnung erforderlichen Unterlagen nachzuweisen; § 3a Abs. 2 Satz 2 der Zucker-Produktionsabgaben-Verordnung gilt entsprechend. Die Bundesfinanzverwaltung kann für den Antrag auf Zulassung der Unternehmen Muster im Bundesanzeiger bekannt geben; soweit Muster bekannt gegeben sind, sind diese zu verwenden."@de .
+
+dtd:P-id166 a dtd:P ;
+    dtd:has_Value "(3) Das zugelassene Unternehmen ist verpflichtet, jede Änderung des von der Zulassung erfassten Betriebes unverzüglich der Bundesfinanzverwaltung zu melden."@de .
+
+dtd:P-id167 a dtd:P ;
+    dtd:has_Value "(4) (weggefallen)"@de .
+
+dtd:P-id169 a dtd:P ;
+    dtd:has_Value ""@de .
+
+dtd:P-id171 a dtd:P ;
+    dtd:has_Value "(1) Die zugelassenen Unternehmen haben die bei ihnen verbleibenden Antrags- und Bewilligungsunterlagen und die Unterlagen für die Angaben, die sie nach den in § 2 Abs. 2 und 3 genannten Vorschriften zu melden haben, bis zum Ablauf des vierten Jahres, das der Zulassung oder der Meldung folgt, aufzubewahren. Andere Vorschriften, nach denen eine längere Aufbewahrungszeit besteht, bleiben unberührt."@de .
+
+dtd:P-id172 a dtd:P ;
+    dtd:has_DL dtd:DL-id117 ;
+    dtd:has_Value "(2) Zum Zwecke der Überprüfung der mit den Anträgen nach § 4 eingereichten Unterlagen und der nach den in § 2 Abs. 3 genannten Vorschriften gemeldeten Angaben dürfen die zuständigen Dienststellen der Bundesfinanzverwaltung, im Fall des § 2 Abs. 2 auch die Bundesanstalt, zur Überprüfung der Angaben 1.während der Geschäfts- oder Betriebszeit Grundstücke sowie Geschäfts-, Betriebs- und Lagerräume sowie Transportmittel betreten, 2.Besichtigungen vornehmen, 3.alle in schriftlicher oder elektronischer Form vorliegenden Geschäftsunterlagen einsehen, prüfen und verlangen, dass hieraus Abschriften, Auszüge, Ausdrucke oder Kopien angefertigt und überlassen werden und 4.die erforderlichen Auskünfte verlangen.  "@de .
+
+dtd:P-id173 a dtd:P ;
+    dtd:has_Value "(3) Zum Zwecke des Absatzes 2 sind die zugelassenen Unternehmen verpflichtet, den Bediensteten der Bundesanstalt und der Bundesfinanzverwaltung das Betreten der Geschäfts- und Untersuchungsräume zu gestatten, die in Betracht kommenden Bücher, Aufzeichnungen und sonstigen Unterlagen vorzulegen, Auskunft zu erteilen sowie die erforderliche Unterstützung zu gewähren."@de .
+
+dtd:P-id175 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1981-10-22"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id40 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id43 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id46 a dtd:enbez ;
+    dtd:has_Value "(XXXX) §§ 5 und 6"@de .
+
+dtd:enbez-id49 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:enbez-id52 a dtd:enbez ;
+    dtd:has_Value "§ 8"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id177 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id178 .
+
+dtd:fussnoten-id54 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id152 .
+
+dtd:fussnoten-id56 a dtd:fussnoten .
+
+dtd:fussnoten-id58 a dtd:fussnoten .
+
+dtd:fussnoten-id60 a dtd:fussnoten .
+
+dtd:fussnoten-id62 a dtd:fussnoten .
+
+dtd:fussnoten-id64 a dtd:fussnoten .
+
+dtd:fussnoten-id66 a dtd:fussnoten .
+
+dtd:fussnoten-id68 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "ZuckQuotV 1981"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "ZuckQuotV 1981"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "ZuckQuotV 1981"@de .
+
+dtd:jurabk-id39 a dtd:jurabk ;
+    dtd:has_Value "ZuckQuotV 1981"@de .
+
+dtd:jurabk-id42 a dtd:jurabk ;
+    dtd:has_Value "ZuckQuotV 1981"@de .
+
+dtd:jurabk-id45 a dtd:jurabk ;
+    dtd:has_Value "ZuckQuotV 1981"@de .
+
+dtd:jurabk-id48 a dtd:jurabk ;
+    dtd:has_Value "ZuckQuotV 1981"@de .
+
+dtd:jurabk-id51 a dtd:jurabk ;
+    dtd:has_Value "ZuckQuotV 1981"@de .
+
+dtd:kurzue-id29 a dtd:kurzue ;
+    dtd:has_Value "Zucker-Quoten-Verordnung"@de .
+
+dtd:langue-id30 a dtd:langue ;
+    dtd:has_Value "Verordnung über die Zuteilung und Änderung von Quoten für Zucker"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id29 ;
+    dtd:has_langue dtd:langue-id30 ;
+    dtd:has_standangabe dtd:standangabe-id31,
+        dtd:standangabe-id32 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id40 ;
+    dtd:has_jurabk dtd:jurabk-id39 ;
+    dtd:has_titel dtd:titel-id41 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id43 ;
+    dtd:has_jurabk dtd:jurabk-id42 ;
+    dtd:has_titel dtd:titel-id44 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id46 ;
+    dtd:has_jurabk dtd:jurabk-id45 ;
+    dtd:has_titel dtd:titel-id47 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id49 ;
+    dtd:has_jurabk dtd:jurabk-id48 ;
+    dtd:has_titel dtd:titel-id50 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id52 ;
+    dtd:has_jurabk dtd:jurabk-id51 ;
+    dtd:has_titel dtd:titel-id53 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981BJNE000206377"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981BJNE000310360"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981BJNE000407377"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981BJNE000508360"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981BJNE000803377"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981BJNE001002377"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20140616222007"@de ;
+    dtd:has_doknr "BJNR011610981BJNE000604377"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id177 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id176 a dtd:pre ;
+    dtd:has_BR dtd:BR-id70,
+        dtd:BR-id71 ;
+    dtd:has_Value "(+++ Textnachweis ab: 5.11.1981 +++)"@de .
+
+dtd:standangabe-id31 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id180 ;
+    dtd:has_standtyp dtd:standtyp-id179 .
+
+dtd:standangabe-id32 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id182 ;
+    dtd:has_standtyp dtd:standtyp-id181 .
+
+dtd:standkommentar-id180 a dtd:standkommentar ;
+    dtd:has_Value "Neugefasst durch Bek. v. 9.11.2006 I 2601;"@de .
+
+dtd:standkommentar-id182 a dtd:standkommentar ;
+    dtd:has_Value "zuletzt geändert durch Art. 1 V v. 2.6.2014 I 700"@de .
+
+dtd:standtyp-id179 a dtd:standtyp ;
+    dtd:has_Value "Neuf"@de .
+
+dtd:standtyp-id181 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id154 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id156 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id160 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id163 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id63 a dtd:text ;
+    dtd:has_Content dtd:Content-id168 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id65 a dtd:text ;
+    dtd:has_Content dtd:Content-id170 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id67 a dtd:text ;
+    dtd:has_Content dtd:Content-id174 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id54 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id56 ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id58 ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id60 ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id62 ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id64 ;
+    dtd:has_text dtd:text-id63 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id66 ;
+    dtd:has_text dtd:text-id65 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id68 ;
+    dtd:has_text dtd:text-id67 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Anwendungsbereich"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Zuständige Stelle"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id41 a dtd:titel ;
+    dtd:has_Value "Festsetzung und Änderung der Quoten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id44 a dtd:titel ;
+    dtd:has_Value "Zulassung der Unternehmen"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id47 a dtd:titel ;
+    dtd:has_Value "(weggefallen)"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id50 a dtd:titel ;
+    dtd:has_Value "Mitteilungs-, Duldungs- und Mitwirkungspflichten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id53 a dtd:titel ;
+    dtd:has_Value "(Inkrafttreten)"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id178 a dtd:zitstelle ;
+    dtd:has_Value "1981, 1161"@de .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:arabic rdfs:label "arabic"@de .
+
+dtd:normal rdfs:label "normal"@de .
+

@@ -1,0 +1,275 @@
+@prefix dtd: <urn:AuslStreitkrNotWG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154908"@de ;
+    dtd:has_doknr "BJNR050620999"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7 .
+
+dtd:BR-id47 a dtd:BR .
+
+dtd:BR-id48 a dtd:BR .
+
+dtd:BR-id49 a dtd:BR .
+
+dtd:Content-id50 a dtd:Content ;
+    dtd:has_P dtd:P-id51 .
+
+dtd:Content-id52 a dtd:Content ;
+    dtd:has_P dtd:P-id53 .
+
+dtd:Content-id54 a dtd:Content ;
+    dtd:has_P dtd:P-id55,
+        dtd:P-id56 .
+
+dtd:Content-id57 a dtd:Content ;
+    dtd:has_P dtd:P-id58,
+        dtd:P-id59 .
+
+dtd:Content-id60 a dtd:Content ;
+    dtd:has_P dtd:P-id61 .
+
+dtd:Content-id62 a dtd:Content ;
+    dtd:has_P dtd:P-id63,
+        dtd:P-id64 .
+
+dtd:P-id51 a dtd:P ;
+    dtd:has_BR dtd:BR-id47 ;
+    dtd:has_Value " (+++ Textnachweis ab: 16.7.1999 +++)"@de ;
+    dtd:has_pre dtd:pre-id65 .
+
+dtd:P-id53 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat mit Zustimmung des Bundesrates das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id55 a dtd:P ;
+    dtd:has_Value "(1) Dem Notenwechsel vom 29. April 1998 zwischen der Bundesrepublik Deutschland und dem Königreich Dänemark, der Griechischen Republik, der Italienischen Republik, dem Großherzogtum Luxemburg, dem Königreich Norwegen, der Portugiesischen Republik, dem Königreich Spanien und der Republik Türkei über die Rechtsstellung ihrer Streitkräfte bei vorübergehenden Aufenthalten in der Bundesrepublik Deutschland und den Erklärungen zur Strafgerichtsbarkeit vom selben Tage sowie der Vereinbarten Niederschrift vom 5. Mai 1997 wird zugestimmt."@de .
+
+dtd:P-id56 a dtd:P ;
+    dtd:has_Value "(2) Der Notenwechsel, die Erklärungen zur Strafgerichtsbarkeit und die Vereinbarte Niederschrift werden nachstehend veröffentlicht."@de .
+
+dtd:P-id58 a dtd:P ;
+    dtd:has_Value "(1) Für die Abgeltung von Schäden finden die Artikel 6, 8 bis 14 und 25 des Gesetzes zu dem Abkommen zwischen den Parteien des Nordatlantikvertrags vom 19. Juni 1951 über die Rechtsstellung ihrer Truppen und zu den Zusatzvereinbarungen vom 3. August 1959 zu diesem Abkommen (Gesetz zum NATO-Truppenstatut und zu den Zusatzvereinbarungen) vom 18. August 1961 (BGBl. 1961 II S. 1183), zuletzt geändert durch das Gesetz vom 28. September 1994 (BGBl. 1994 II S. 2594), in der jeweils geltenden Fassung Anwendung."@de .
+
+dtd:P-id59 a dtd:P ;
+    dtd:has_Value "(2) Schadensersatzansprüche gegen Mitglieder der Streitkräfte einer Vertragspartei aus Handlungen oder Unterlassungen, die nicht in Ausübung des Dienstes begangen wurden, werden gemäß Artikel 2 Satz 1 mit § 16 Abs. 5 des Streitkräfteaufenthaltsgesetzes vom 20. Juli 1995 (BGBl. 1995 II S. 554) abgewickelt."@de .
+
+dtd:P-id61 a dtd:P ;
+    dtd:has_Value "Der Verzicht auf die Ausübung der deutschen Gerichtsbarkeit wird von der Staatsanwaltschaft erklärt. Im übrigen gilt Artikel 4a des Gesetzes zum NATO-Truppenstatut und zu den Zusatzvereinbarungen in der jeweils geltenden Fassung."@de .
+
+dtd:P-id63 a dtd:P ;
+    dtd:has_Value "(1) Artikel 1 tritt am Tage nach der Verkündung dieses Gesetzes in Kraft."@de .
+
+dtd:P-id64 a dtd:P ;
+    dtd:has_Value "(2) Im übrigen tritt dieses Gesetz an dem Tage in Kraft, an dem der Notenwechsel für die Bundesrepublik Deutschland in Kraft tritt. Der Tag des Inkrafttretens ist im Bundesgesetzblatt bekanntzugeben."@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id21 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1999-07-09"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id31 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "Art 4"@de .
+
+dtd:fundstelle-id22 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id66 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id67 .
+
+dtd:fussnoten-id39 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id50 .
+
+dtd:fussnoten-id43 a dtd:fussnoten .
+
+dtd:fussnoten-id46 a dtd:fussnoten .
+
+dtd:jurabk-id20 a dtd:jurabk ;
+    dtd:has_Value "AuslStreitkrNotWG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "AuslStreitkrNotWG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "AuslStreitkrNotWG"@de .
+
+dtd:jurabk-id30 a dtd:jurabk ;
+    dtd:has_Value "AuslStreitkrNotWG"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "AuslStreitkrNotWG"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "AuslStreitkrNotWG"@de .
+
+dtd:langue-id23 a dtd:langue ;
+    dtd:has_Value """Gesetz zu dem Notenwechsel vom 29. April 1998 über die Rechtsstellung
+der dänischen, griechischen, italienischen, luxemburgischen, norwegischen,
+portugiesischen, spanischen und türkischen Streitkräfte in der
+Bundesrepublik Deutschland"""@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 ;
+    dtd:has_titel dtd:titel-id29 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id31 ;
+    dtd:has_jurabk dtd:jurabk-id30 ;
+    dtd:has_titel dtd:titel-id32 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 ;
+    dtd:has_titel dtd:titel-id38 .
+
+dtd:metadaten-id8 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id21 ;
+    dtd:has_fundstelle dtd:fundstelle-id22 ;
+    dtd:has_jurabk dtd:jurabk-id20 ;
+    dtd:has_langue dtd:langue-id23 ;
+    dtd:has_standangabe dtd:standangabe-id24 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154908"@de ;
+    dtd:has_doknr "BJNR050620999"@de ;
+    dtd:has_metadaten dtd:metadaten-id8 ;
+    dtd:has_textdaten dtd:textdaten-id9 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154908"@de ;
+    dtd:has_doknr "BJNR050620999BJNE000100305"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154908"@de ;
+    dtd:has_doknr "BJNR050620999BJNE000200305"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154908"@de ;
+    dtd:has_doknr "BJNR050620999BJNE000301377"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625154908"@de ;
+    dtd:has_doknr "BJNR050620999BJNE000400305"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625154908"@de ;
+    dtd:has_doknr "BJNR050620999BJNE000500305"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:periodikum-id66 a dtd:periodikum ;
+    dtd:has_Value "BGBl II"@de .
+
+dtd:pre-id65 a dtd:pre ;
+    dtd:has_BR dtd:BR-id48,
+        dtd:BR-id49 ;
+    dtd:has_Value "(+++ Textnachweis ab: 16.7.1999 +++)"@de .
+
+dtd:standangabe-id24 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id69 ;
+    dtd:has_standtyp dtd:standtyp-id68 .
+
+dtd:standkommentar-id69 a dtd:standkommentar ;
+    dtd:has_Value "Geändert durch Art. 3 G v. 19.9.2002 II 2482"@de .
+
+dtd:standtyp-id68 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id40 a dtd:text ;
+    dtd:has_Content dtd:Content-id52 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id41 a dtd:text ;
+    dtd:has_Content dtd:Content-id54 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id42 a dtd:text ;
+    dtd:has_Content dtd:Content-id57 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id44 a dtd:text ;
+    dtd:has_Content dtd:Content-id60 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id45 a dtd:text ;
+    dtd:has_Content dtd:Content-id62 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_text dtd:text-id40 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id41 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id43 ;
+    dtd:has_text dtd:text-id42 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id44 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id46 ;
+    dtd:has_text dtd:text-id45 .
+
+dtd:textdaten-id9 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id39 .
+
+dtd:titel-id29 a dtd:titel ;
+    dtd:has_Value "Zustimmung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id32 a dtd:titel ;
+    dtd:has_Value "Schadensabwicklung"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Gerichtsbarkeit"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id38 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id67 a dtd:zitstelle ;
+    dtd:has_Value "1999, 506"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

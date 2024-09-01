@@ -1,0 +1,207 @@
+@prefix dtd: <urn:JüdMilSeelsG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20200908213517"@de ;
+    dtd:has_doknr "BJNR166400020"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6 .
+
+dtd:BR-id36 a dtd:BR .
+
+dtd:BR-id37 a dtd:BR .
+
+dtd:BR-id38 a dtd:BR .
+
+dtd:BR-id39 a dtd:BR .
+
+dtd:Content-id40 a dtd:Content ;
+    dtd:has_P dtd:P-id41 .
+
+dtd:Content-id42 a dtd:Content ;
+    dtd:has_P dtd:P-id43 .
+
+dtd:Content-id44 a dtd:Content ;
+    dtd:has_P dtd:P-id45,
+        dtd:P-id46 .
+
+dtd:Content-id47 a dtd:Content ;
+    dtd:has_P dtd:P-id48 .
+
+dtd:Content-id49 a dtd:Content ;
+    dtd:has_P dtd:P-id50 .
+
+dtd:P-id41 a dtd:P ;
+    dtd:has_BR dtd:BR-id36 ;
+    dtd:has_Value " (+++ Textnachweis ab: 17.7.2020 +++)(+++ Text des Vertrages siehe: JüdMilSeelsVtr +++)"@de ;
+    dtd:has_pre dtd:pre-id51 .
+
+dtd:P-id43 a dtd:P ;
+    dtd:has_Value "Der Bundestag hat das folgende Gesetz beschlossen:"@de .
+
+dtd:P-id45 a dtd:P ;
+    dtd:has_Value "(1) Dem in Berlin am 20. Dezember 2019 unterzeichneten Vertrag zwischen der Bundesrepublik Deutschland und dem Zentralrat der Juden in Deutschland – Körperschaft des Öffentlichen Rechts – wird zugestimmt."@de .
+
+dtd:P-id46 a dtd:P ;
+    dtd:has_Value "(2) Der Vertrag wird nachstehend veröffentlicht."@de .
+
+dtd:P-id48 a dtd:P ;
+    dtd:has_Value "Änderungen des Vertrages bedürfen der Zustimmung des Deutschen Bundestages in der Form eines Bundesgesetzes."@de .
+
+dtd:P-id50 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id18 a dtd:amtabk ;
+    dtd:has_Value "JüdMilSeelsG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id19 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2020-07-10"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id24 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id26 a dtd:enbez ;
+    dtd:has_Value "Art 1"@de .
+
+dtd:enbez-id28 a dtd:enbez ;
+    dtd:has_Value "Art 2"@de .
+
+dtd:enbez-id30 a dtd:enbez ;
+    dtd:has_Value "Art 3"@de .
+
+dtd:fundstelle-id20 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id52 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id53 .
+
+dtd:fussnoten-id31 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id40 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id17 a dtd:jurabk ;
+    dtd:has_Value "JüdMilSeelsG"@de .
+
+dtd:jurabk-id23 a dtd:jurabk ;
+    dtd:has_Value "JüdMilSeelsG"@de .
+
+dtd:jurabk-id25 a dtd:jurabk ;
+    dtd:has_Value "JüdMilSeelsG"@de .
+
+dtd:jurabk-id27 a dtd:jurabk ;
+    dtd:has_Value "JüdMilSeelsG"@de .
+
+dtd:jurabk-id29 a dtd:jurabk ;
+    dtd:has_Value "JüdMilSeelsG"@de .
+
+dtd:kurzue-id21 a dtd:kurzue ;
+    dtd:has_Value "Gesetz über die jüdische Militärseelsorge"@de .
+
+dtd:langue-id22 a dtd:langue ;
+    dtd:has_Value "Gesetz zu dem Vertrag vom 20. Dezember 2019 zwischen der Bundesrepublik Deutschland und dem Zentralrat der Juden in Deutschland – Körperschaft des Öffentlichen Rechts – zur Regelung der jüdischen Militärseelsorge"@de .
+
+dtd:metadaten-id11 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id26 ;
+    dtd:has_jurabk dtd:jurabk-id25 .
+
+dtd:metadaten-id13 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id28 ;
+    dtd:has_jurabk dtd:jurabk-id27 .
+
+dtd:metadaten-id15 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id30 ;
+    dtd:has_jurabk dtd:jurabk-id29 .
+
+dtd:metadaten-id7 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id18 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id19 ;
+    dtd:has_fundstelle dtd:fundstelle-id20 ;
+    dtd:has_jurabk dtd:jurabk-id17 ;
+    dtd:has_kurzue dtd:kurzue-id21 ;
+    dtd:has_langue dtd:langue-id22 .
+
+dtd:metadaten-id9 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id24 ;
+    dtd:has_jurabk dtd:jurabk-id23 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20200908213517"@de ;
+    dtd:has_doknr "BJNR166400020"@de ;
+    dtd:has_metadaten dtd:metadaten-id7 ;
+    dtd:has_textdaten dtd:textdaten-id8 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20200908213517"@de ;
+    dtd:has_doknr "BJNR166400020BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id9 ;
+    dtd:has_textdaten dtd:textdaten-id10 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20200908213517"@de ;
+    dtd:has_doknr "BJNR166400020BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id11 ;
+    dtd:has_textdaten dtd:textdaten-id12 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20200908213517"@de ;
+    dtd:has_doknr "BJNR166400020BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id13 ;
+    dtd:has_textdaten dtd:textdaten-id14 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20200908213517"@de ;
+    dtd:has_doknr "BJNR166400020BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id15 ;
+    dtd:has_textdaten dtd:textdaten-id16 .
+
+dtd:periodikum-id52 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id51 a dtd:pre ;
+    dtd:has_BR dtd:BR-id37,
+        dtd:BR-id38,
+        dtd:BR-id39 ;
+    dtd:has_Value "(+++ Textnachweis ab: 17.7.2020 +++)(+++ Text des Vertrages siehe: JüdMilSeelsVtr +++)"@de .
+
+dtd:text-id32 a dtd:text ;
+    dtd:has_Content dtd:Content-id42 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id33 a dtd:text ;
+    dtd:has_Content dtd:Content-id44 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id34 a dtd:text ;
+    dtd:has_Content dtd:Content-id47 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id35 a dtd:text ;
+    dtd:has_Content dtd:Content-id49 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id10 a dtd:textdaten ;
+    dtd:has_text dtd:text-id32 .
+
+dtd:textdaten-id12 a dtd:textdaten ;
+    dtd:has_text dtd:text-id33 .
+
+dtd:textdaten-id14 a dtd:textdaten ;
+    dtd:has_text dtd:text-id34 .
+
+dtd:textdaten-id16 a dtd:textdaten ;
+    dtd:has_text dtd:text-id35 .
+
+dtd:textdaten-id8 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id31 .
+
+dtd:zitstelle-id53 a dtd:zitstelle ;
+    dtd:has_Value "2020, 1664"@de .
+

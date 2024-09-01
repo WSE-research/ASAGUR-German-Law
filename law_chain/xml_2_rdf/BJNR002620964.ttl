@@ -1,0 +1,340 @@
+@prefix dtd: <urn:JArbSchSittV#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65,
+        dtd:P-id66 .
+
+dtd:Content-id67 a dtd:Content ;
+    dtd:has_P dtd:P-id68 .
+
+dtd:Content-id69 a dtd:Content ;
+    dtd:has_P dtd:P-id70,
+        dtd:P-id71,
+        dtd:P-id72,
+        dtd:P-id73 .
+
+dtd:Content-id74 a dtd:Content ;
+    dtd:has_P dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81 .
+
+dtd:Content-id82 a dtd:Content ;
+    dtd:has_P dtd:P-id83 .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_Value "Überschrift: IdF d. § 69 Abs. 4 Nr. 1 G v. 12.4.1976 I 965 mWv 1.5.1976"@de .
+
+dtd:P-id66 a dtd:P ;
+    dtd:has_BR dtd:BR-id62 ;
+    dtd:has_Value " (+++ Textnachweis Geltung ab: 1.5.1976 +++)"@de .
+
+dtd:P-id68 a dtd:P ;
+    dtd:has_Value "Auf Grund des § 37 Abs. 2 des Jugendarbeitsschutzgesetzes vom 9. August 1960 (Bundesgesetzbl. I S. 665), zuletzt geändert durch das Bundesurlaubsgesetz vom 8. Januar 1963 (Bundesgesetzbl. I S. 2), wird mit Zustimmung des Bundesrates verordnet:"@de .
+
+dtd:P-id70 a dtd:P ;
+    dtd:has_Value "(1) Weibliche Jugendliche dürfen in Betrieben und bei Veranstaltungen aller Art als Nackttänzerinnen, Schönheitstänzerinnen oder Schleiertänzerinnen oder mit ähnlichen sie sittlich gefährdenden Tätigkeiten, insbesondere wenn sie dabei unbekleidet oder fast unbekleidet sind, nicht beschäftigt werden."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "(2) Weibliche Jugendliche dürfen als Tanzdamen, Eintänzerinnen, Tisch- oder Bardamen nicht beschäftigt werden."@de .
+
+dtd:P-id72 a dtd:P ;
+    dtd:has_Value "(3)"@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(4)"@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "-"@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Zuwiderhandlungen gegen § 22 Abs. 1 Nr. 2 des Jugendarbeitsschutzgesetzes in Verbindung mit einem Beschäftigungsverbot nach § 1 dieser Verordnung werden nach § 58 Abs. 1 Nr. 18, Abs. 3 bis 6 des Jugendarbeitsschutzgesetzes geahndet."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Diese Verordnung gilt nach § 14 des Dritten Überleitungsgesetzes vom 4. Januar 1952 (Bundesgesetzbl. I S. 1) in Verbindung mit § 74 des Jugendarbeitsschutzgesetzes auch im Land Berlin."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "Diese Verordnung tritt am ersten Tag des zweiten auf die Verkündung folgenden Kalendermonats in Kraft."@de .
+
+dtd:P-id83 a dtd:P ;
+    dtd:has_SP dtd:SP-id63 ;
+    dtd:has_Value "Der Bundesminister für Arbeit und Sozialordnung"@de .
+
+dtd:SP-id63 a dtd:SP ;
+    dtd:has_Value "Der Bundesminister für Arbeit und Sozialordnung"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id27 a dtd:ausfertigung-datum ;
+    dtd:has_Value "1964-04-03"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id32 a dtd:enbez ;
+    dtd:has_Value "Eingangsformel"@de .
+
+dtd:enbez-id34 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id37 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "Schlußformel"@de .
+
+dtd:fundstelle-id28 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id84 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id85 .
+
+dtd:fussnoten-id49 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id64 .
+
+dtd:fussnoten-id51 a dtd:fussnoten .
+
+dtd:fussnoten-id53 a dtd:fussnoten .
+
+dtd:fussnoten-id55 a dtd:fussnoten .
+
+dtd:fussnoten-id57 a dtd:fussnoten .
+
+dtd:fussnoten-id59 a dtd:fussnoten .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "JArbSchSittV"@de .
+
+dtd:jurabk-id31 a dtd:jurabk ;
+    dtd:has_Value "JArbSchSittV"@de .
+
+dtd:jurabk-id33 a dtd:jurabk ;
+    dtd:has_Value "JArbSchSittV"@de .
+
+dtd:jurabk-id36 a dtd:jurabk ;
+    dtd:has_Value "JArbSchSittV"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "JArbSchSittV"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "JArbSchSittV"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "JArbSchSittV"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "JArbSchSittV"@de .
+
+dtd:langue-id29 a dtd:langue ;
+    dtd:has_Value "Verordnung über das Verbot der Beschäftigung von Personen unter 18 Jahren mit sittlich gefährdenden Tätigkeiten"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id27 ;
+    dtd:has_fundstelle dtd:fundstelle-id28 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_langue dtd:langue-id29 ;
+    dtd:has_standangabe dtd:standangabe-id30 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id32 ;
+    dtd:has_jurabk dtd:jurabk-id31 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id34 ;
+    dtd:has_jurabk dtd:jurabk-id33 ;
+    dtd:has_titel dtd:titel-id35 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id37 ;
+    dtd:has_jurabk dtd:jurabk-id36 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964BJNE000100317"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964BJNE000201309"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964BJNE000301309"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964BJNE000400317"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964BJNE000500317"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964BJNE000600317"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20120625145819"@de ;
+    dtd:has_doknr "BJNR002620964BJNE000700317"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id84 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:standangabe-id30 a dtd:standangabe ;
+    dtd:has_checked dtd:ja ;
+    dtd:has_standkommentar dtd:standkommentar-id87 ;
+    dtd:has_standtyp dtd:standtyp-id86 .
+
+dtd:standkommentar-id87 a dtd:standkommentar ;
+    dtd:has_Value "Zuletzt geändert durch Art. 3 V v. 8.10.1986 I 1634"@de .
+
+dtd:standtyp-id86 a dtd:standtyp ;
+    dtd:has_Value "Stand"@de .
+
+dtd:text-id50 a dtd:text ;
+    dtd:has_Content dtd:Content-id67 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id52 a dtd:text ;
+    dtd:has_Content dtd:Content-id69 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id74 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id61 a dtd:text ;
+    dtd:has_Content dtd:Content-id82 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id49 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id51 ;
+    dtd:has_text dtd:text-id50 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 ;
+    dtd:has_text dtd:text-id52 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id55 ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id57 ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id59 ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id61 .
+
+dtd:titel-id35 a dtd:titel ;
+    dtd:has_Value "Beschäftigungsverbote"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value """Hinweis auf Bußgeld- und Strafvorschriften des
+Jugendarbeitsschutzgesetzes"""@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Berlin-Klausel"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "parat"@de .
+
+dtd:zitstelle-id85 a dtd:zitstelle ;
+    dtd:has_Value "1964, 262"@de .
+
+dtd:ja rdfs:label "ja"@de .
+

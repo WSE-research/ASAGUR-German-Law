@@ -1,0 +1,333 @@
+@prefix dtd: <urn:SchlussFinG#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dtd: rdfs:label ""@de .
+
+dtd:dokumente-id1 a dtd:dokumente ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009"@de ;
+    dtd:has_norm dtd:norm-id2,
+        dtd:norm-id3,
+        dtd:norm-id4,
+        dtd:norm-id5,
+        dtd:norm-id6,
+        dtd:norm-id7,
+        dtd:norm-id8,
+        dtd:norm-id9 .
+
+dtd:BR-id61 a dtd:BR .
+
+dtd:BR-id62 a dtd:BR .
+
+dtd:BR-id63 a dtd:BR .
+
+dtd:Content-id64 a dtd:Content ;
+    dtd:has_P dtd:P-id65 .
+
+dtd:Content-id66 a dtd:Content ;
+    dtd:has_P dtd:P-id67 .
+
+dtd:Content-id68 a dtd:Content ;
+    dtd:has_P dtd:P-id69 .
+
+dtd:Content-id70 a dtd:Content ;
+    dtd:has_P dtd:P-id71 .
+
+dtd:Content-id72 a dtd:Content ;
+    dtd:has_P dtd:P-id73,
+        dtd:P-id74,
+        dtd:P-id75 .
+
+dtd:Content-id76 a dtd:Content ;
+    dtd:has_P dtd:P-id77 .
+
+dtd:Content-id78 a dtd:Content ;
+    dtd:has_P dtd:P-id79 .
+
+dtd:Content-id80 a dtd:Content ;
+    dtd:has_P dtd:P-id81 .
+
+dtd:P-id65 a dtd:P ;
+    dtd:has_BR dtd:BR-id61 ;
+    dtd:has_Value " (+++ Textnachweis ab: 11.7.2009 +++)"@de ;
+    dtd:has_pre dtd:pre-id82 .
+
+dtd:P-id67 a dtd:P ;
+    dtd:has_Value "Es wird ein Sondervermögen des Bundes unter der Bezeichnung „Vorsorge für Schlusszahlungen für inflationsindexierte Bundeswertpapiere“ errichtet."@de .
+
+dtd:P-id69 a dtd:P ;
+    dtd:has_Value "Mit der Errichtung des Sondervermögens soll durch Zuführung von Mitteln aus dem Bundeshaushalt Vorsorge für die Inflationsentwicklung während der Laufzeit von inflationsindexierten Bundeswertpapieren getroffen werden. Bei Fälligkeit eines inflationsindexierten Bundeswertpapiers soll aus dem Sondervermögen der Betrag gezahlt werden, um den der Rückzahlungsbetrag den Gesamtnennbetrag übersteigt. Dieser Betrag wird nachfolgend als Schlusszahlung bezeichnet."@de .
+
+dtd:P-id71 a dtd:P ;
+    dtd:has_Value "Das Sondervermögen ist nicht rechtsfähig. Das Bundesministerium der Finanzen verwaltet das Sondervermögen."@de .
+
+dtd:P-id73 a dtd:P ;
+    dtd:has_Value "(1) Vom Zeitpunkt der Errichtung des Sondervermögens an ist diesem für jedes umlaufende inflationsindexierte Bundeswertpapier jährlich jeweils zum Kupontermin der Betrag zuzuführen, um den sich die Schlusszahlung aufgrund der seit dem Kupontermin des letzten Jahres festgestellten Inflationsentwicklung erhöht hat. Die Inflationsentwicklung und die sich hieraus ergebende Schlusszahlung wird nach den vom Bundesministerium der Finanzen veröffentlichten Emissions- und Anleihebedingungen des jeweiligen inflationsindexierten Bundeswertpapiers festgestellt."@de .
+
+dtd:P-id74 a dtd:P ;
+    dtd:has_Value "(2) Erhöht sich die Schlusszahlung nach Errichtung des Sondervermögens durch Aufstockung eines inflationsindexierten Bundeswertpapiers, so ist dem Sondervermögen die hierdurch bis zum letzten Kupontermin aufgelaufene zusätzliche Schlusszahlung unverzüglich zuzuführen."@de .
+
+dtd:P-id75 a dtd:P ;
+    dtd:has_Value "(3) Für jedes zum Zeitpunkt der Errichtung des Sondervermögens umlaufende inflationsindexierte Bundeswertpapier ist dem Sondervermögen die bis zum Kupontermin im Jahr 2009 aufgelaufene Schlusszahlung im Jahr 2009 zuzuführen."@de .
+
+dtd:P-id77 a dtd:P ;
+    dtd:has_Value "Die geplanten Einnahmen und Ausgaben des Sondervermögens werden in einer Übersicht aufgeführt, die dem Bundeshaushaltsplan als Anlage beizufügen ist. Die dem Sondervermögen zugeführten Beträge verbleiben bis zur Auszahlung an die Wertpapiergläubiger unverzinst im Kassenbereich des Bundes. Eine Kreditaufnahme durch das Sondervermögen ist nicht zulässig. Einnahmen aus der Kreditaufnahme des Bundes dürfen im Rahmen des Abschlusses des jeweiligen Haushaltsjahres (§ 76 der Bundeshaushaltsordnung) in Höhe der dem Sondervermögen in den Vorjahren zugeführten und noch nicht ausgezahlten Beträge in das abzuschließende Haushaltsjahr umgebucht werden."@de .
+
+dtd:P-id79 a dtd:P ;
+    dtd:has_Value "Das Bundesministerium der Finanzen legt jährlich zum Stichtag 31. Dezember Rechnung über die Einnahmen und Ausgaben des Sondervermögens. Die Rechnung ist als Übersicht der Haushaltsrechnung des Bundes beizufügen."@de .
+
+dtd:P-id81 a dtd:P ;
+    dtd:has_Value "Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."@de .
+
+dtd:amtabk-id27 a dtd:amtabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:amtlich rdfs:label "amtlich"@de .
+
+dtd:ausfertigung-datum-id28 a dtd:ausfertigung-datum ;
+    dtd:has_Value "2009-07-06"@de ;
+    dtd:has_manuell dtd:ja .
+
+dtd:enbez-id33 a dtd:enbez ;
+    dtd:has_Value "§ 1"@de .
+
+dtd:enbez-id36 a dtd:enbez ;
+    dtd:has_Value "§ 2"@de .
+
+dtd:enbez-id39 a dtd:enbez ;
+    dtd:has_Value "§ 3"@de .
+
+dtd:enbez-id42 a dtd:enbez ;
+    dtd:has_Value "§ 4"@de .
+
+dtd:enbez-id45 a dtd:enbez ;
+    dtd:has_Value "§ 5"@de .
+
+dtd:enbez-id48 a dtd:enbez ;
+    dtd:has_Value "§ 6"@de .
+
+dtd:enbez-id51 a dtd:enbez ;
+    dtd:has_Value "§ 7"@de .
+
+dtd:fundstelle-id29 a dtd:fundstelle ;
+    dtd:has_periodikum dtd:periodikum-id83 ;
+    dtd:has_typ dtd:amtlich ;
+    dtd:has_zitstelle dtd:zitstelle-id84 .
+
+dtd:fussnoten-id53 a dtd:fussnoten ;
+    dtd:has_Content dtd:Content-id64 .
+
+dtd:ja rdfs:label "ja"@de .
+
+dtd:jurabk-id26 a dtd:jurabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:jurabk-id32 a dtd:jurabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:jurabk-id35 a dtd:jurabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:jurabk-id38 a dtd:jurabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:jurabk-id41 a dtd:jurabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:jurabk-id44 a dtd:jurabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:jurabk-id47 a dtd:jurabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:jurabk-id50 a dtd:jurabk ;
+    dtd:has_Value "SchlussFinG"@de .
+
+dtd:kurzue-id30 a dtd:kurzue ;
+    dtd:has_Value "Schlusszahlungsfinanzierungsgesetz"@de .
+
+dtd:langue-id31 a dtd:langue ;
+    dtd:has_Value "Gesetz zur Errichtung eines Sondervermögens „Vorsorge für Schlusszahlungen für inflationsindexierte Bundeswertpapiere“"@de .
+
+dtd:metadaten-id10 a dtd:metadaten ;
+    dtd:has_amtabk dtd:amtabk-id27 ;
+    dtd:has_ausfertigung-datum dtd:ausfertigung-datum-id28 ;
+    dtd:has_fundstelle dtd:fundstelle-id29 ;
+    dtd:has_jurabk dtd:jurabk-id26 ;
+    dtd:has_kurzue dtd:kurzue-id30 ;
+    dtd:has_langue dtd:langue-id31 .
+
+dtd:metadaten-id12 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id33 ;
+    dtd:has_jurabk dtd:jurabk-id32 ;
+    dtd:has_titel dtd:titel-id34 .
+
+dtd:metadaten-id14 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id36 ;
+    dtd:has_jurabk dtd:jurabk-id35 ;
+    dtd:has_titel dtd:titel-id37 .
+
+dtd:metadaten-id16 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id39 ;
+    dtd:has_jurabk dtd:jurabk-id38 ;
+    dtd:has_titel dtd:titel-id40 .
+
+dtd:metadaten-id18 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id42 ;
+    dtd:has_jurabk dtd:jurabk-id41 ;
+    dtd:has_titel dtd:titel-id43 .
+
+dtd:metadaten-id20 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id45 ;
+    dtd:has_jurabk dtd:jurabk-id44 ;
+    dtd:has_titel dtd:titel-id46 .
+
+dtd:metadaten-id22 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id48 ;
+    dtd:has_jurabk dtd:jurabk-id47 ;
+    dtd:has_titel dtd:titel-id49 .
+
+dtd:metadaten-id24 a dtd:metadaten ;
+    dtd:has_enbez dtd:enbez-id51 ;
+    dtd:has_jurabk dtd:jurabk-id50 ;
+    dtd:has_titel dtd:titel-id52 .
+
+dtd:norm-id2 a dtd:norm ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009"@de ;
+    dtd:has_metadaten dtd:metadaten-id10 ;
+    dtd:has_textdaten dtd:textdaten-id11 .
+
+dtd:norm-id3 a dtd:norm ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009BJNE000100000"@de ;
+    dtd:has_metadaten dtd:metadaten-id12 ;
+    dtd:has_textdaten dtd:textdaten-id13 .
+
+dtd:norm-id4 a dtd:norm ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009BJNE000200000"@de ;
+    dtd:has_metadaten dtd:metadaten-id14 ;
+    dtd:has_textdaten dtd:textdaten-id15 .
+
+dtd:norm-id5 a dtd:norm ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009BJNE000300000"@de ;
+    dtd:has_metadaten dtd:metadaten-id16 ;
+    dtd:has_textdaten dtd:textdaten-id17 .
+
+dtd:norm-id6 a dtd:norm ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009BJNE000400000"@de ;
+    dtd:has_metadaten dtd:metadaten-id18 ;
+    dtd:has_textdaten dtd:textdaten-id19 .
+
+dtd:norm-id7 a dtd:norm ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009BJNE000500000"@de ;
+    dtd:has_metadaten dtd:metadaten-id20 ;
+    dtd:has_textdaten dtd:textdaten-id21 .
+
+dtd:norm-id8 a dtd:norm ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009BJNE000600000"@de ;
+    dtd:has_metadaten dtd:metadaten-id22 ;
+    dtd:has_textdaten dtd:textdaten-id23 .
+
+dtd:norm-id9 a dtd:norm ;
+    dtd:has_builddate "20120625154655"@de ;
+    dtd:has_doknr "BJNR170200009BJNE000700000"@de ;
+    dtd:has_metadaten dtd:metadaten-id24 ;
+    dtd:has_textdaten dtd:textdaten-id25 .
+
+dtd:periodikum-id83 a dtd:periodikum ;
+    dtd:has_Value "BGBl I"@de .
+
+dtd:pre-id82 a dtd:pre ;
+    dtd:has_BR dtd:BR-id62,
+        dtd:BR-id63 ;
+    dtd:has_Value "(+++ Textnachweis ab: 11.7.2009 +++)"@de .
+
+dtd:text-id54 a dtd:text ;
+    dtd:has_Content dtd:Content-id66 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id55 a dtd:text ;
+    dtd:has_Content dtd:Content-id68 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id56 a dtd:text ;
+    dtd:has_Content dtd:Content-id70 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id57 a dtd:text ;
+    dtd:has_Content dtd:Content-id72 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id58 a dtd:text ;
+    dtd:has_Content dtd:Content-id76 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id59 a dtd:text ;
+    dtd:has_Content dtd:Content-id78 ;
+    dtd:has_format "XML"@de .
+
+dtd:text-id60 a dtd:text ;
+    dtd:has_Content dtd:Content-id80 ;
+    dtd:has_format "XML"@de .
+
+dtd:textdaten-id11 a dtd:textdaten ;
+    dtd:has_fussnoten dtd:fussnoten-id53 .
+
+dtd:textdaten-id13 a dtd:textdaten ;
+    dtd:has_text dtd:text-id54 .
+
+dtd:textdaten-id15 a dtd:textdaten ;
+    dtd:has_text dtd:text-id55 .
+
+dtd:textdaten-id17 a dtd:textdaten ;
+    dtd:has_text dtd:text-id56 .
+
+dtd:textdaten-id19 a dtd:textdaten ;
+    dtd:has_text dtd:text-id57 .
+
+dtd:textdaten-id21 a dtd:textdaten ;
+    dtd:has_text dtd:text-id58 .
+
+dtd:textdaten-id23 a dtd:textdaten ;
+    dtd:has_text dtd:text-id59 .
+
+dtd:textdaten-id25 a dtd:textdaten ;
+    dtd:has_text dtd:text-id60 .
+
+dtd:titel-id34 a dtd:titel ;
+    dtd:has_Value "Errichtung des Sondervermögens"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id37 a dtd:titel ;
+    dtd:has_Value "Zweck des Sondervermögens"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id40 a dtd:titel ;
+    dtd:has_Value "Stellung im Rechtsverkehr"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id43 a dtd:titel ;
+    dtd:has_Value "Zuführung der Mittel"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id46 a dtd:titel ;
+    dtd:has_Value "Haushalt"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id49 a dtd:titel ;
+    dtd:has_Value "Rechnungslegung"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:titel-id52 a dtd:titel ;
+    dtd:has_Value "Inkrafttreten"@de ;
+    dtd:has_format "XML"@de .
+
+dtd:zitstelle-id84 a dtd:zitstelle ;
+    dtd:has_Value "2009, 1702"@de .
+
