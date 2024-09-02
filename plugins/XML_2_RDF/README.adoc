@@ -1,0 +1,4 @@
+Step "XML to RDF" converts laws from .xml files to RDF representation and saves in .ttl files. It takes all files from the given directory and converts them into separate RDF/TTL files. The resulting files are saved in folder with name XML_2RDF. It takes in consideration .dtd file gii-norm.dtd which controls format and content of .xml files.
+The service uses Document Type Definition (DTD) to automatically generate the RDF data (i.e., the structure of the RDF properties is derived from the DTD file).
+Unfortunately, the process generates a lot of excess data, which is not needed for the further processing. For example, some strings are duplicated, some strings are empty, some semantics are repeated, etc.
+Therefore, the next step is to filter the data. 

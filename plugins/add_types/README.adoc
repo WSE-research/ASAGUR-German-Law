@@ -1,0 +1,4 @@
+Step "add types" makes the following changes to the RDF graph:
+
+- adds a XSD type to the literals, which can be recognized as a date, time, integer, etc.
+- replaces ja/nain literals (and similar) with true/false^^xsd:boolean literals.

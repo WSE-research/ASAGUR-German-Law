@@ -1,0 +1,1 @@
+endpoint = 'https://demos.swe.htwk-leipzig.de:40180/xml2rdf'
